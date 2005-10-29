@@ -1,0 +1,13 @@
+﻿Comment démarer une traduction/relecture ?
+
+Pour démarrer une traduction ou une relecture, il faut vérifier que personne n'a déjà commencé à traduire ou relire cette page dans les archives de la mailing list. Il faut être inscrit sur la mailing list (l'adhésion au groupe sur savannah n'est pas obligatoire, mais conseillée). Si la page est libre, il faut poster un message sur la mailing list (avec un titre explicite, ex.: "Traduction de la page /servers/blabla.html" (pour la page www.gnu.org/servers/blabla.html). De cette manière, tout le monde est informé que vous avez commencé la traduction. Il en est de meme pour les relectures.
+De plus, les pages dans /philosophy, /licenses/, /gnu/, /fsf et /copyleft ne sont pas à traduire ou mettre à jour. Une autre équipe s'en occupe.
+
+Comment traduire/relire ?
+
+Tout d'abord, n'utilisez pas les traducteurs automatiques pour faire toute la traduction. Pour avoir une idée ou vérifier une traduction oui, mais pas plus. Car les traductions doivent etre refaite après. De plus, les traductions linéaire (sans code XHTML) sont à éviter, car nous devons refaire toute la mise en page donc le temps de publication est rallongé. Si vous avez un doute, mettez la phrase anglaise en gras, elle sera traduite lors de la relecture. Quand vous avez fini votre traduction, postez une demande de relecture sur la mailing list avec votre traduction en pièce jointe. Dans le fichier STANDARD sur le CVS se trouvent les pied de pages à mettre. Ils doivent rester standards mais les dates des (c) doivent correspondre avec les dates originales, ainsi que pour les traductions existantes. Dans la mesure du possible, convertissez la page en XHTML Strict si ce n'est pas le cas, sinon indiquez-le dans votre message sur la mailing list. De plus, les caractères spéciaux doivent être encodés au format html (ex. : é -> &eacute;)
+
+Comment relire les traductions/mises à jour ?
+
+Quand une requête de relecture est envoyée, il faut y répondre en précisant qu'on prend en charge la relecture. Il faut donc bien faire attention au français, à la syntaxe et au sens, car aucune relecture n'aura lieu après. Quand la relecture est faite, postez une demande de publication avec le fichier en pièce jointe. Dans la mesure du possible, vérifiez la compatibilité W3C XHTML Strict. Quand la publication sera faite, un message sera posté sur la mailing list.
+
