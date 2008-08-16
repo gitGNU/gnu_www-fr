@@ -1,0 +1,81 @@
+# French translation of http://www.gnu.org/banner.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the banner.html page.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: banner.html\n"
+"POT-Creation-Date: 2008-08-08 16:25-0400\n"
+"PO-Revision-Date: 2008-08-16 16:39+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Attribute 'title' of: <link>
+#: ../../server/banner.html:2
+msgid "Development CSS (bugs to webmasters@gnu.org)"
+msgstr "CSS de d&eacute;veloppement (bogues&nbsp;: webmasters@gnu.org)"
+
+# type: Content of: <style>
+#: ../../server/banner.html:5
+msgid "@import url('/print.css');"
+msgstr "@import url('/print.css');"
+
+# type: Content of: <body><div>
+#: ../../server/banner.html:11
+msgid "<span class=\"netscape4\"><a href=\"#content\">Skip to content</a> | </span><a href=\"#translations\">Translations of this page</a>"
+msgstr "<span class=\"netscape4\"><a href=\"#content\">Aller au contenu</a> | </span><a href=\"#translations\">Traductions de cette page</a>"
+
+# type: Content of: <body><div><div><form><div>
+#: ../../server/banner.html:27
+msgid "<label for=\"phrase\">Search:</label> <input name=\"phrase\" id=\"phrase\" type=\"text\" size=\"35\" accesskey=\"s\" /> <input type=\"submit\" value=\"Go\" />"
+msgstr "<label for=\"phrase\">Rechercher&nbsp;:</label> <input name=\"phrase\" id=\"phrase\" type=\"text\" size=\"35\" accesskey=\"s\" /> <input type=\"submit\" value=\"Go\" />"
+
+# type: Content of: <body><div><div><div><h1>
+#: ../../server/banner.html:38
+msgid "<a href=\"/\">The GNU Operating System</a>"
+msgstr "<a href=\"/\">Le syst&egrave;me d'exploitation GNU</a>"
+
+# type: Content of: <body><div><div><div><ul><li>
+#: ../../server/banner.html:47
+msgid "<a href=\"/\">Home</a>"
+msgstr "<a href=\"/home.fr.html\">Accueil</a>"
+
+# type: Content of: <body><div><div><div><ul><li>
+#: ../../server/banner.html:48
+msgid "<a href=\"http://shop.fsf.org/\">Store</a>"
+msgstr "<a href=\"http://shop.fsf.org/\">Boutique</a>"
+
+# type: Content of: <body><div><div><div><ul><li>
+#: ../../server/banner.html:49
+msgid "<a href=\"/gnu/gnu.html\">History</a>"
+msgstr "<a href=\"/gnu/gnu.fr.html\">Histoire</a>"
+
+# type: Content of: <body><div><div><div><ul><li>
+#: ../../server/banner.html:50
+msgid "<a href=\"/philosophy/philosophy.html\">Philosophy</a>"
+msgstr "<a href=\"/philosophy/philosophy.fr.html\">Philosophie</a>"
+
+# type: Content of: <body><div><div><div><ul><li>
+#: ../../server/banner.html:51
+msgid "<a href=\"/licenses/licenses.html\">Licenses</a>"
+msgstr "<a href=\"/licenses/licenses.fr.html\">Licences</a>"
+
+# type: Content of: <body><div><div><div><ul><li>
+#: ../../server/banner.html:52
+msgid "<a href=\"/software/software.html\">Download&nbsp;GNU</a>"
+msgstr "<a href=\"/software/software.fr.html\">Télécharger&nbsp;GNU</a>"
+
+# type: Content of: <body><div><div><div><ul><li>
+#: ../../server/banner.html:53
+msgid "<a href=\"/help/help.html\">Help&nbsp;GNU</a>"
+msgstr "<a href=\"/help/help.fr.html\">Aidez&nbsp;GNU</a>"
+
+# type: Content of: <body><div><div><div><ul><li>
+#: ../../server/banner.html:54
+msgid "<a href=\"/server/sitemap.html\">Sitemap</a>"
+msgstr "<a href=\"/server/sitemap.html\">Plan&nbsp;du&nbsp;site</a>"
+
