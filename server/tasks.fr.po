@@ -1,0 +1,264 @@
+# French translation of http://www.gnu.org/server/tasks.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the tasks.html page.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tasks.html\n"
+"POT-Creation-Date: 2008-07-18 14:25-0400\n"
+"PO-Revision-Date: 2008-08-17 13:05+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+#: ../../server/po/tasks.proto:4
+msgid "Tasks to do for www.gnu.org - GNU Project - Free Software Foundation (FSF)"
+msgstr "Tâches à faire pour www.gnu.org - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+#: ../../server/po/tasks.proto:8
+msgid "Tasks to do for www.gnu.org"
+msgstr "Tâches à faire pour www.gnu.org"
+
+# type: Content of: <p>
+#: ../../server/po/tasks.proto:11
+msgid "Here are many possible tasks for improving the GNU web pages.  If you would like to help with one of them, please e-mail <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a> BEFORE you do any work on them."
+msgstr "Voici les nombreuses tâches à faire pour améliorer les pages Web de GNU. Si vous voulez aider pour l'une d'entre elles, veuillez écrire à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a> AVANT de faire quoi que ce soit."
+
+# type: Content of: <h3>
+#: ../../server/po/tasks.proto:17
+msgid "Accessibility"
+msgstr "Accessibilité"
+
+# type: Content of: <p>
+#: ../../server/po/tasks.proto:20
+msgid "Investigate how www.gnu.org could provide better accessibility to all regardless of disability."
+msgstr "Cherchez comment www.gnu.org pourrait améliorer l'accessibilité."
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:24
+msgid "A good place to start is the <a href=\"http://www.w3.org/WAI/\">Web Accessibility Initiative (WAI)</a>."
+msgstr "Un bon site où commencer est <a href=\"http://www.w3.org/WAI/\">Web Accessibility Initiative (WAI)</a>. "
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:27
+msgid "Other resources on and off the web could also be checked."
+msgstr "Autres ressources à consulter."
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:28
+msgid "People at or near MIT could check with MIT's <a href=\"http://web.mit.edu/atic/www/\">Adaptive Technology for Information and Computing</a> in person."
+msgstr "Les personnes du MIT ou proches du MIT peuvent s'informer en personne auprès du département <a href=\"http://web.mit.edu/atic/www/\">Adaptive Technology for Information and Computing</a> (Technologies adaptatives pour l'information et l'informatique)."
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:31
+msgid "People who have access to similar centers at other schools, organizations, and companies could check with them."
+msgstr "Les personnes qui ont accès à des centres ,sociétés ou des organismes similaires peuvent s'informer auprès d'eux."
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:33
+msgid "Disabled users of the web could also be interviewed, and perhaps even added to the webmasters team for this task and others."
+msgstr "Vous pouvez aussi vous entretenir avec des personnes ayant des problèmes d'accessibilité sur le Web et peut-être même les faire adhérer à l'équipe de webmestres pour ce problème en particulier."
+
+# type: Content of: <h3>
+#: ../../server/po/tasks.proto:37
+msgid "Site Scripting"
+msgstr "Scripts Web"
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:44
+msgid "Set up manual indexing using the system proposed by Miloslav Nic.  See the email exchange for more details on what is to be done."
+msgstr "Effectuer une indexation mauelle en utilisant le système proposé par Miloslav Nic. Consulter l'échange de courriels pour plus de détails sur ce qui peut être fait."
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:46
+msgid "<a name=\"fun\">in directory /fun/ include</a>"
+msgstr "<a name=\"fun\">dans le répertoire /fun/ contient</a>"
+
+# type: Content of: <ul><li><ul><li>
+#: ../../server/po/tasks.proto:48
+msgid "cgi-bin scripts that"
+msgstr "des scripts cgi-bin qui"
+
+# type: Content of: <ul><li><ul><li><ul><li>
+#: ../../server/po/tasks.proto:50
+msgid "conduct a dialog with GNU Emacs's doctor.el and convert it into HTML."
+msgstr "effectuent un dialogue avec doctor.el de GNU Emacs et le convertissent en HTML."
+
+# type: Content of: <ul><li><ul><li><ul><li>
+#: ../../server/po/tasks.proto:52
+msgid "get a zippyism from GNU Emacs's yow.el and convert it into HTML."
+msgstr "prennent un &laquo;&nbsp;zippyisme&nbsp;&raquo; de yow.el de GNU Emacs et le convertissent en HTML."
+
+# type: Content of: <ul><li><ul><li><ul><li>
+#: ../../server/po/tasks.proto:54
+msgid "feed zippyisms to GNU Emacs's doctor and convert it into HTML."
+msgstr "envoient des &laquo;&nbsp;zippyismes&nbsp;&raquo; à doctor de GNU Emacs et le convertissent en HTML."
+
+# type: Content of: <ul><li><ul><li><p>
+#: ../../server/po/tasks.proto:60
+msgid "Roland McGrath has done some of this on his <a href=\"http://www.frob.com/~roland\">home pages</a>. Ask him if you can copy his work over to http://www.gnu.org."
+msgstr "Roland McGrath en a effectué quelques-uns sur sa <a href=\"http://www.frob.com/~roland\">page d'accueil</a>. Demandez-lui si vous pouvez copier son travail sur http://www.gnu.org."
+
+# type: Content of: <h3>
+#: ../../server/po/tasks.proto:69
+msgid "Format Conversions"
+msgstr "Conversions de format"
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:72
+msgid "We are looking for people to volunteer to convert documentation from various formats to the <a href=\"/software/texinfo/texinfo.html\">Texinfo</a> format. This is something we need occasionally. We would like to have a list of people we could ask on these occasions. If you want to volunteer, please send mail to <a href=\"mailto:gvc@gnu.org\">&lt;gvc@gnu.org&gt;</a>."
+msgstr "Nous cherchons des volontaires pour convertir de la documentation en divers formats vers le format <a href=\"/software/texinfo/texinfo.html\">Texinfo</a>. C'est quelque chose dont nous avons besoin de temps en temps. Nous voudrions avoir une liste de gens à qui le demander en ces occasions. Si vous êtes volontaire, veuillez envoyer un courriel à <a href=\"mailto:gvc@gnu.org\">&lt;gvc@gnu.org&gt;</a>."
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:79
+msgid "Rewrite the various philosophy pages and bulletins in <a href=\"/software/texinfo/texinfo.html\">Texinfo</a> and convert to HTML using texi2html.  They could then be easily included in:"
+msgstr "Réécrire les diverses pages et articles sur la philosophie en <a href=\"/software/texinfo/texinfo.html\">Texinfo</a> et les convertir en HTML en utilisant texi2html. Ils peuvent alors être facilement inclus dans&nbsp;:"
+
+# type: Content of: <ul><li><ul><li>
+#: ../../server/po/tasks.proto:85
+msgid "the <a href=\"http://ftp.gnu.org/gnu/GNUinfo\">/gnu/GNUinfo</a> subdirectory of <a href=\"http://ftp.gnu.org/\">ftp.gnu.org</a>"
+msgstr "le sous-répertoire <a href=\"http://ftp.gnu.org/gnu/GNUinfo\">/gnu/GNUinfo</a> de <a href=\"http://ftp.gnu.org/\">ftp.gnu.org</a>"
+
+# type: Content of: <ul><li><ul><li>
+#: ../../server/po/tasks.proto:88
+msgid "the etc/ subdirectory of the GNU Emacs distribution"
+msgstr "le sous-répertoire etc/ de la distribution GNU Emacs"
+
+# type: Content of: <ul><li><ul><li>
+#: ../../server/po/tasks.proto:89
+msgid "in the GNU system's Info tree"
+msgstr "dans l'arbre Info du système GNU"
+
+# type: Content of: <ul><li><ul><li>
+#: ../../server/po/tasks.proto:90
+msgid "other useful locations."
+msgstr "d'autres emplacements utiles."
+
+# type: Content of: <h3>
+#: ../../server/po/tasks.proto:95
+msgid "Writing Web Pages"
+msgstr "Écrire des pages Web"
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:98
+msgid "Write web pages for GNU programs that lacks web pages on our server or whose web pages are obsolete using our <a href=\"/software/boilerplate_software.html\">software boilerplate</a> as a template. Also read our <a href=\"/server/standards/README.software.html\">software page standards</a>."
+msgstr "Écrire des pages Web pour les programmes GNU qui n'ont pas de pages Web sur notre serveur ou dont le contenu est obsolète en utilisant le <a href=\"/software/boilerplate_software.html\">canevas 'software'</a> comme modèle. Lire également notre <a href=\"/server/standards/README.software.html\">page sur les standards de pages pour les logiciels</a>."
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:104
+msgid "Work on improving our <a href=\"/server/sitemap.html\">sitemap</a>."
+msgstr "Travailler à améliorer notre <a href=\"/server/sitemap.html\">plan de site</a>."
+
+# type: Content of: <ul><li><ul><li>
+#: ../../server/po/tasks.proto:106
+msgid "Design a better sitemap that helps people find all places on the website easily.  The sitemap should highlight particularly important parts of sub-pages.  (For example, the philosophy listing on the site map should have under it links to some particularly useful essays on the philosophy page)."
+msgstr "Concevoir un plan de site meilleur qui aident les gens à trouver tous les emplacements du site Web facilemnt. Le plan de site doit mettre en valeur les parties particulièrement importantes des sous-pages. (Par exemple, le listing Philosophie dans le plan du site doit contenir des liens vers des articles particulièrement utiles de la page Philosophie)."
+
+# type: Content of: <ul><li><ul><li>
+#: ../../server/po/tasks.proto:111
+msgid "Come up with several different ways of presenting the sitemap, that consider both the differences in"
+msgstr "Créer différent moyens de présenter le plan du site, en tenant compte des différences"
+
+# type: Content of: <ul><li><ul><li><ul><li>
+#: ../../server/po/tasks.proto:114
+msgid "how people perceive web pages, and"
+msgstr "dont les gens perçoivent les pages Web, et"
+
+# type: Content of: <ul><li><ul><li><ul><li>
+#: ../../server/po/tasks.proto:115
+msgid "how people use the site."
+msgstr "de la façon dont les gens utilisent le site."
+
+# type: Content of: <ul><li><ul><li>
+#: ../../server/po/tasks.proto:118
+msgid "Also, the idea of creating a programatically generated sitemap has been proposed; this would primarily be a tool to aid in writing by hand a more easily navigated sitemap."
+msgstr "L'idée de créer un plan du site généré par programme a aussi été proposée&nbsp;; ce serait essentiellement un outil pour aider à écrire manuellement un plan de site plus facile à utiliser."
+
+# type: Content of: <h3>
+#: ../../server/po/tasks.proto:125
+msgid "Graphics"
+msgstr "Illustrations"
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:128
+msgid "Remove JPEG artifacts from all PNG pictures. You do this by removing \"loose\" pixels and turning them into 1bpp (in case of black/white drawings)."
+msgstr "Supprimer les artéfacts JPEG de toutes les images PNG. Ceci s'effectue en supprimant les pixels &laquo;&nbsp;loose&nbsp;&raquo; et en les transformant en 1bpp (dans le cas d'illustrations en noir et blanc)."
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:131
+msgid "Create new <a href=\"/graphics/graphics.html\">graphics</a> for our web pages. We mostly want to have nicer drawings like the ones we already have and perhaps in more colors."
+msgstr "Créer de nouvelles <a href=\"/graphics/graphics.fr.html\">illustrations</a> pour nos pages Web. Nous voulons surtout avoir de plus beaux dessins comme ceux que nous avons déjà et peut-être en plus de couleurs."
+
+# type: Content of: <h3>
+#: ../../server/po/tasks.proto:136
+msgid "Validation and Broken Links"
+msgstr "Validation et liens orphelins"
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:140
+msgid "Check all the web pages for well formedness, consistency with our HTML style sheet, and webmaster guidelines. All web pages need to be valid to their specific DTD, (the <a href=\"http://validator.w3.org\">W3C Validator</a> is a good place to start)."
+msgstr "Vérifier que toutes les pages Web sont bien formées, qu'elles respectent notre feuille de style HTML et les recommandations des webmestres. Toutes les pages Web doivent être valides en regard de leur DTD spécifique (le <a href=\"http://validator.w3.org\">Validateur du W3C</a> est un bon point de départ)."
+
+# type: Content of: <ul><li>
+#: ../../server/po/tasks.proto:146
+msgid "Help is needed <a href=\"/server/standards/README.webmastering.html#poldeadlink\">repairing broken links</a>.  There are numerous <a href=\"/server/standards/README.webmastering.html#polsymlink\">symlinks</a>, so please do not break these in your repair efforts.  Time and care is needed to track down broken links, and in most cases find suitable replacements.  Please ensure that our <a href=\"/server/standards/README.webmastering.html#poladdlink\">linking</a> <a href=\"/server/standards/README.webmastering.html#pollinking\">policy</a> is followed in finding replacements."
+msgstr "De l'aide est demandée <a href=\"/server/standards/README.webmastering.html#poldeadlink\">pour la réparation des liens orphelins</a>. Il y a de nombreux <a href=\"/server/standards/README.webmastering.html#polsymlink\">symlinks</a>, aussi, veuillez ne pas les corrompre lors des réparations. Du temps et du soin sont nécessaires pour traquer les liens orphelins, et dans la plupart des cas, leur trouver une substitution appropriée. Veuillez vous assurer que notre <a href=\"/server/standards/README.webmastering.html#pollinking\">politique</a> de <a href=\"/server/standards/README.webmastering.html#poladdlink\">liens</a> est respectée en trouvant des liens de substitution."
+
+# type: Content of: <h3>
+#: ../../server/po/tasks.proto:159
+msgid "Localization"
+msgstr "Localisation"
+
+# type: Content of: <p>
+#: ../../server/po/tasks.proto:161
+msgid "Help <a href=\"/server/standards/README.translations.html\">translate GNU web pages</a> from English into other languages.  You can either join an existing translation team, or form a new one.  Check the <a href=\"/server/standards/README.translations.html#TranslationsUnderway\">existing translation teams</a>."
+msgstr "Aider à <a href=\"/server/standards/README.translations.fr.html\">la traduction des pages Web de GNU</a> de l'anglais vers d'autres langues. Vous pouvez rejoindre une équipe de traduction existante ou en créer une nouvelle. Consulter les <a href=\"/server/standards/README.translations.fr.html#TranslationsUnderway\">équipes de traduction existantes</a>."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#: ../../server/po/tasks.proto:171
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+#: ../../server/po/tasks.proto:179
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#: ../../server/po/tasks.proto:188
+msgid "Copyright &copy; 1996, 1997, 1998, 2001, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.,"
+msgstr "Copyright &copy; 1996, 1997, 1998, 2001, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.,"
+
+# type: Content of: <div><address>
+#: ../../server/po/tasks.proto:191
+msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+
+# type: Content of: <div><p>
+#: ../../server/po/tasks.proto:193
+msgid "Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved."
+msgstr "Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#: ../../server/po/tasks.proto:200
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: C&eacute;dric Corazza.<br /> R&eacute;vision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>."
+
+# type: Content of: <div><p>
+#.  timestamp start
+#: ../../server/po/tasks.proto:202
+msgid "Updated:"
+msgstr "Derni&egrave;re mise-&agrave;-jour&nbsp;:"
+
+# type: Content of: <div><h3>
+#: ../../server/po/tasks.proto:215
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
