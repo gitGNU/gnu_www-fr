@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
 "POT-Creation-Date: 2008-05-29 16:25-0400\n"
-"PO-Revision-Date: 2008-08-16 20:09+0100\n"
+"PO-Revision-Date: 2008-08-17 14:25+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -198,505 +198,505 @@ msgstr "<a href=\"/links/links.html\">Free Software Links</a>"
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:69
 msgid "<a href=\"/jobs\">Free Software Jobs</a>"
-msgstr ""
+msgstr "<a href=\"/jobs\">Emplois dans les logiciels libres</a>"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:76
 msgid "<a href=\"http://donate.fsf.org/\">Donate online to the FSF</a>"
-msgstr ""
+msgstr "<a href=\"http://donate.fsf.org/\">Dons en ligne à la FSF</a>"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:80
 msgid "<a href=\"/gnu/thegnuproject.html\">The GNU Project</a>"
-msgstr ""
+msgstr "<a href=\"/gnu/thegnuproject.fr.html\">Le Projet GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:83
 msgid "<a href=\"/fsf/\">Free Software Foundation</a>"
-msgstr ""
+msgstr "<a href=\"/fsf/\">Free Software Foundation</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:85
 msgid "<a href=\"/gnu/\">About the GNU Project</a>"
-msgstr ""
+msgstr "<a href=\"/gnu/gnu.fr.html\">À propos du Projet GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:87
 msgid "<a href=\"/keepingup.html\">Keeping Up With GNU/FSF</a>"
-msgstr ""
+msgstr "<a href=\"/keepingup.fr.html\">Rester informé sur GNU et la FSF</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:90
 msgid "<a href=\"/press/\">FSF/GNU Press Information</a>"
-msgstr ""
+msgstr "<a href=\"/press/\">Articles de presse sur la FSF et GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:92
 msgid "<a href=\"/events.html\">Coming events</a> (and some <a href=\"/events/events.html\">past events</a>)"
-msgstr ""
+msgstr "<a href=\"/events.html\">Événements à venir</a> (et quelques <a href=\"/events/events.html\">événements passés</a>)"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:95
 msgid "Available <a href=\"/software/software.html\">free software</a>"
-msgstr ""
+msgstr "<a href=\"/software/software.fr.html\">Logiciels libres</a> disponibles"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:98
 msgid "Latest releases of GNU software are cataloged in the <a href=\"http://directory.fsf.org/\">Free Software Directory</a> under <a href= \"http://directory.fsf.org/GNU/\">All GNU Packages</a>"
-msgstr ""
+msgstr "Les dernières versions des logiciels GNU sont catalogués dans le <a href=\"http://directory.fsf.org/\">Répertoire des logiciels libres</a> sous la rubrique <a href= \"http://directory.fsf.org/GNU/\">Tous les paquetages GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:103
 msgid "<a href=\"/non-gnu/\">Non-GNU Free Software</a>"
-msgstr ""
+msgstr "<a href=\"/non-gnu/\">Logiciels libres non-GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:105
 msgid "<a href=\"/software/year2000.html\">Year 2000</a> issues."
-msgstr ""
+msgstr "Problèmes de <a href=\"/software/year2000.html\">l'an 2000</a>."
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:108
 msgid "<a href=\"/gwm/\">GNU Writing Movement</a>"
-msgstr ""
+msgstr "<a href=\"/gwm/\">Le mouvement d'écriture de GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:111
 msgid "<a href=\"/education/\">GNU and Education</a> is about Free Software for students and teachers, and Free learning resources"
-msgstr ""
+msgstr "<a href=\"/education/education.fr.html\">GNU et l'éducation</a> concerne les logiciels libres pour les étudiants et les enseignants, et les ressources d'apprentissage libres"
 
 # type: Content of: <ul><li><ul><li><ul><li>
 #: ../../server/po/sitemap.proto:116
 msgid "A list of <a href= \"/education/software.html\">Educational Free Software and Savannah Projects</a>"
-msgstr ""
+msgstr "Une liste de <a href= \"/education/software.html\">Projets de logiciels libres pour l'éducation et de projets Savannah</a>"
 
 # type: Content of: <ul><li><ul><li><ul><li>
 #: ../../server/po/sitemap.proto:120
 msgid "<a href=\"/education/freelearning.html\">Free Learning Resources</a> advocates and lists free encyclopedia, textbook, and otherwise curriculum projects"
-msgstr ""
+msgstr "<a href=\"/education/freelearning.html\">Ressources d'apprentissage libres</a> liste les livres, encyclopédie et autres ressources de savoir libres"
 
 # type: Content of: <ul><li><ul><li><ul><li>
 #: ../../server/po/sitemap.proto:125
 msgid "<a href=\"/encyclopedia/\">The Free Encylopedia Project</a>"
-msgstr ""
+msgstr "<a href=\"/encyclopedia/\">Le Projet d'encyclopédie libre</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:130
 msgid "GNU Information Service in <a href= \"/japan/toc.html\">Japanese</a>"
-msgstr ""
+msgstr "Service d'information GNU en <a href= \"/japan/toc.html\">japonais</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:135
 msgid "<a href=\"/people/speakers.html\">Speakers</a> who can speak on behalf of the GNU project and the Free Software Movement."
-msgstr ""
+msgstr "<a href=\"/people/speakers.html\">Orateurs</a> qui peuvent parler au nom du Projet GNU et du Mouvement pour le logiciel libre."
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:139
 msgid "<a href=\"/people/people.html\">GNU's Who's Who</a> - the people of the GNU project"
-msgstr ""
+msgstr "<a href=\"/people/people.html\">Who's Who de GNU</a> - les personnes du Projet GNU"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:142
 msgid "<a href= \"/brave-gnu-world/brave-gnu-world.en.html\">Brave GNU World</a>"
-msgstr ""
+msgstr "<a href= \"/brave-gnu-world/brave-gnu-world.en.html\">Brave GNU World</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:146
 msgid "<a href=\"/bulletins/bulletins.html\">GNUs Bulletins</a> Archive - the Newsletter of the FSF (no longer published)"
-msgstr ""
+msgstr "Archive des <a href=\"/bulletins/bulletins.html\">Bulletins GNU</a> - la lettre de la FSF (n'est plus publiée)"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:150
 msgid "The <a href=\"/graphics/graphics.html\">GNU Art Gallery</a> and the <a href=\"/fun/humor.html\">GNU Fun Page</a>"
-msgstr ""
+msgstr "La <a href=\"/graphics/graphics.fr.html\">Galerie des illustrations GNU</a> et la page <a href=\"/fun/humor.html\">Humour GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:154
 msgid "<a href=\"/music/\">GNU Music</a>"
-msgstr ""
+msgstr "<a href=\"/music/\">Musiques GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:156
 msgid "<a href=\"/testimonials/\">GNU Testimonials</a>"
-msgstr ""
+msgstr "<a href=\"/testimonials/\">Témoignages sur GNU</a>"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:161
 msgid "<a href=\"/licenses/\">Licenses</a>"
-msgstr ""
+msgstr "<a href=\"/licenses/licenses.fr.html\">Licences</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:164
 msgid "<a href=\"/philosophy/license-list.html\">Various Licenses and our Comments about Them</a>"
-msgstr ""
+msgstr "<a href=\"/philosophy/license-list.fr.html\">Diverses licences et nos commentaires à leur sujet</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:167
 msgid "<a href=\"/copyleft/copyleft.html\">What is Copyleft?</a>"
-msgstr ""
+msgstr "<a href=\"/copyleft/copyleft.fr.html\">Qu'est-ce que le copyleft&nbsp;?</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:170
 msgid "The <a href=\"/copyleft/gpl.html\">GNU General Public License</a> (also available as a <a href= \"/copyleft/gpl.txt\">text file</a> and its <a href= \"/copyleft/copyleft.html#translations\">unofficial translations</a>)"
-msgstr ""
+msgstr "La licence <a href=\"/copyleft/gpl.html\">GNU General Public License</a> (également disponible en <a href= \"/copyleft/gpl.txt\">fichier texte</a> et ses <a href= \"/copyleft/copyleft.fr.html#translations\">traductions non-officielles</a>)"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:176
 msgid "The <a href=\"/copyleft/fdl.html\">GNU Free Documentation License</a> (also available as a <a href= \"/copyleft/fdl.txt\">text file</a> and its <a href= \"/copyleft/copyleft.html#GFDLtranslations\">unofficial translations</a>)"
-msgstr ""
+msgstr "La licence <a href=\"/copyleft/fdl.html\">GNU Free Documentation License</a> (également disponible en <a href= \"/copyleft/fdl.txt\">fichier texte</a> est ses <a href= \"/copyleft/copyleft.fr.html#GFDLtranslations\">traductions non-officielles</a>)"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:182
 msgid "<a href=\"/philosophy/why-gfdl.html\">Why you should use the GNU Free Documentation License</a>"
-msgstr ""
+msgstr "<a href=\"/philosophy/why-gfdl.fr.html\">Pourquoi utiliser la licence GNU Free Documentation License</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:185
 msgid "The <a href=\"/copyleft/lesser.html\">GNU Lesser General Public License</a> (also available as a <a href= \"/copyleft/lesser.txt\">text file</a> and its <a href= \"/copyleft/copyleft.html#LGPLtranslations\">unofficial translations</a>)"
-msgstr ""
+msgstr "La licence <a href=\"/copyleft/lesser.html\">GNU Lesser General Public License</a> (également disponible en <a href= \"/copyleft/lesser.txt\">fichier texte</a> et ses <a href= \"/copyleft/copyleft.fr.html#LGPLtranslations\">traductions non-officielles</a>)"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:191
 msgid "<a href=\"/philosophy/why-not-lgpl.html\">Why you shouldn't use the Lesser GPL for your next library</a>"
-msgstr ""
+msgstr "<a href=\"/philosophy/why-not-lgpl.fr.html\">Pourquoi vous ne devriez pas utiliser la Lesser GPL pour votre prochaine bibliothèque</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:195
 msgid "<a href=\"/copyleft/copying-1.0.html\">Version 1 of the GNU General Public License</a>"
-msgstr ""
+msgstr "<a href=\"/copyleft/copying-1.0.html\">Version 1 de la licence GNU General Public License</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:198
 msgid "What to do if you see a <a href= \"/copyleft/gpl-violation.html\">possible violation</a> of the <a href=\"/copyleft/gpl.html\">GPL</a>, the <a href= \"/copyleft/lesser.html\">LGPL</a>, or the <a href= \"/copyleft/fdl.html\">GFDL</a>"
-msgstr ""
+msgstr "Que faire si vous constatez une <a href= \"/licenses/gpl-violation.fr.html\">possible violation</a> de la <a href=\"/copyleft/gpl.html\">GPL</a>, de la <a href= \"/copyleft/lesser.html\">LGPL</a> ou de la <a href= \"/copyleft/fdl.html\">GFDL</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:204
 msgid "<a href=\"/licenses/gpl-faq.html\">Frequently Asked Questions about the GNU Licenses</a>"
-msgstr ""
+msgstr "<a href=\"/licenses/gpl-faq.fr.html\">Foire aux questions sur les licences GNU</a>"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:210
 msgid "<a href=\"/philosophy/philosophy.html\">Philosophical texts</a>"
-msgstr ""
+msgstr "<a href=\"/philosophy/philosophy.fr.html\">Textes philosophiques</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:213
 msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
-msgstr ""
+msgstr "<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel libre&nbsp;?</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:216
 msgid "<a href=\"/philosophy/words-to-avoid.html\">Confusing Words</a> Which You Might Want to Avoid"
-msgstr ""
+msgstr "<a href=\"/philosophy/words-to-avoid.fr.html\">Mots confus</a> que vous devriez éviter"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:219
 msgid "<a href= \"/philosophy/open-source-misses-the-point.html\">\"Open Source Software\" or \"Free Software\"?</a>"
-msgstr ""
+msgstr "<a href= \"/philosophy/open-source-misses-the-point.fr.html\">&laquo;&nbsp;Logiciels open source&nbsp;&raquo; ou &laquo;&nbsp;Logiciels libres&nbsp;&raquo;&nbsp;?</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:223
 msgid "<a href=\"/patent-examp/\">Harmful Software Patents</a>"
-msgstr ""
+msgstr "<a href=\"/patent-examp/\">Brevets logiciels dangereux</a>"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:229
 msgid "<a href=\"/help/help.html#helpgnu\">Write Free Software</a>"
-msgstr ""
+msgstr "<a href=\"/help/help.fr.html#helpgnu\">Écrire des logiciels libres</a>"
 
 # type: Content of: <ul><li><ul><li><ul><li>
 #: ../../server/po/sitemap.proto:232
 #: ../../server/po/sitemap.proto:321
 msgid "<a href=\"/projects/help-wanted.html\">Help wanted</a> with existing GNU software"
-msgstr ""
+msgstr "<a href=\"/projects/help-wanted.html\">Besoin d'aide</a> sur les logiciels GNU existants"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:235
 msgid "List of <a href=\"/prep/tasks.html\">other software tasks</a> you can work on"
-msgstr ""
+msgstr "Liste des <a href=\"/prep/tasks.html\">autres tâches sur les logiciels</a> sur lesquelles vous pouvez travailler"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:238
 msgid "<a href=\"/software/devel.html\">GNU Software Developer Resources</a>"
-msgstr ""
+msgstr "<a href=\"/software/devel.html\">Ressources pour développeur de logiciels GNU</a>"
 
 # type: Content of: <ul><li><ul><li><ul><li>
 #: ../../server/po/sitemap.proto:241
 #: ../../server/po/sitemap.proto:324
 msgid "<a href=\"/help/help.html#documentation\">Write Free Documentation</a>"
-msgstr ""
+msgstr "<a href=\"/help/help.fr.html#documentation\">Écrire de la documentation libre</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:244
 msgid "<a href=\"/prep/standards.html\">GNU Coding Standards</a>"
-msgstr ""
+msgstr "<a href=\"/prep/standards.html\">Standards de codage GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:247
 msgid "<a href=\"/prep/maintain.html\">Information For maintainers of GNU Software</a>"
-msgstr ""
+msgstr "<a href=\"/prep/maintain.html\">Informations pour les mainteneurs de logiciels GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:250
 msgid "<a href=\"/evaluation/\">Evaluation Guidelines for GNU Software</a>"
-msgstr ""
+msgstr "<a href=\"/evaluation/\">Recommandations d'évaluation pour les logiciels GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:253
 msgid "<a href=\"/prep/\">GNU Project Information</a>"
-msgstr ""
+msgstr "<a href=\"/prep/\">Informations sur le Prjoet GNU</a>"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:257
 msgid "<a href=\"/brave-gnu-world/brave-gnu-world.html\">Brave GNU World</a>, the monthly GNU column (and its <a href= \"/brave-gnu-world/translations.html\">translations</a>)"
-msgstr ""
+msgstr "<a href=\"/brave-gnu-world/brave-gnu-world.html\">Brave GNU World</a>, l'éditorial mensuel de GNU (et ses <a href= \"/brave-gnu-world/translations.html\">traductions</a>)"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:261
 msgid "The GNU Project <a href=\"/server/server.html\">Webserver</a>"
-msgstr ""
+msgstr "Le <a href=\"/server/server.html\">serveur Web</a> du Projet GNU"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:264
 msgid "<a href=\"/server/whatsnew.html\">What's New</a>!!"
-msgstr ""
+msgstr "<a href=\"/server/whatsnew.fr.html\">Quoi de neuf&nbsp;?</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:266
 msgid "<a href=\"/server/list-mirrors.html\">Mirrors</a> of and <a href=\"/server/mirror.html\">How To Mirror</a> this site"
-msgstr ""
+msgstr "<a href=\"/server/list-mirrors.html\">Miroirs</a> et <a href=\"/server/mirror.html\">Comment faire un miroir</a> de ce site"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:270
 msgid "<a href= \"/server/standards/README.translations.html\">Translating</a> GNU web pages into other languages"
-msgstr ""
+msgstr "<a href= \"/server/standards/README.translations.fr.html\">Traduction</a> des pages Web de GNU dans d'autres langues"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:274
 msgid "<a href=\"/spanish/\">GNU Spanish Translation Team</a>"
-msgstr ""
+msgstr "<a href=\"/spanish/\">L'équipe de traduction espagnole de GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:277
 msgid "<a href=\"/server/privacy-policy.html\">Privacy Policy</a>"
-msgstr ""
+msgstr "<a href=\"/server/privacy-policy.html\">Politique de confidentialité</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:280
 msgid "<a href= \"/server/standards/readme_index.html\">Guidelines</a> for GNU Web Site Volunteers"
-msgstr ""
+msgstr "<a href= \"/server/standards/readme_index.html\">Recommandations</a> pour les volontaires du site Web de GNU"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:284
 msgid "List of <a href=\"/server/tasks.html\">tasks (14k characters)</a> to make this web <a href= \"/server/server.html\">site</a> better, please help with us do them!"
-msgstr ""
+msgstr "Liste des <a href=\"/server/tasks.fr.html\">tâches</a> à faire pour améliorer ce <a href= \"/server/server.html\">site Web</a>. Merci de nous aider&nbsp;!"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:289
 msgid "<a href=\"/award/\">Awards</a>"
-msgstr ""
+msgstr "<a href=\"/award/\">Distinctions</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:291
 msgid "<a href=\"/2001/\">Awards Archive</a>"
-msgstr ""
+msgstr "<a href=\"/2001/\">Archive des distinctions</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:293
 msgid "<a href=\"/wwwhurdes/\">Old Hurd website</a>"
-msgstr ""
+msgstr "<a href=\"/wwwhurdes/\">Ancien site Web de Hurd</a>"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:298
 msgid "<a href=\"/help/help.html\">Helping the GNU Project</a>"
-msgstr ""
+msgstr "<a href=\"/help/help.de.html\">Aider le Projet GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:301
 msgid "Please <a href=\"/order/order.html\">Buy from the FSF</a>"
-msgstr ""
+msgstr "Veuillez <a href=\"/order/order.html\">Acheter à la FSF</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:304
 msgid "Pleas? buy a <a href=\"/order/deluxe.html\">Deluxe Distributions</a>"
-msgstr ""
+msgstr "Veuillez acheter une <a href=\"/order/deluxe.html\">Distribution Deluxe</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:307
 msgid "Please <a href=\"/help/donate.html\">Donate Money</a>"
-msgstr ""
+msgstr "Veuillez <a href=\"/help/donate.html\">Faire un don</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:310
 msgid "<a href= \"/help/donate.html#BecomeAPatronOfTheFSF\">Become a Patron of the FSF</a>"
-msgstr ""
+msgstr "<a href= \"/help/donate.html#BecomeAPatronOfTheFSF\">Devenir un bienfaiteur de la FSF</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:314
 msgid "Please <a href=\"/help/help.html#helpgnu\">Write Free Software</a>"
-msgstr ""
+msgstr "Veuillez <a href=\"/help/help.fr.html#helpgnu\">Écrire des logiciels libres</a>"
 
 # type: Content of: <ul><li><ul><li><ul><li>
 #: ../../server/po/sitemap.proto:318
 msgid "<a href=\"/prep/tasks.html\">Unstarted tasks</a> you can work on"
-msgstr ""
+msgstr "<a href=\"/prep/tasks.html\">Tâches non commencées</a> sur lesquelles vous pouvez travailler"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:329
 msgid "<a href=\"/volunteers/\">GNU Project Volunteers</a>"
-msgstr ""
+msgstr "<a href=\"/volunteers/\">Les volontaires du Projet GNU</a>"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:334
 msgid "<a href=\"/help/gethelp.html\">Getting help with GNU software</a>"
-msgstr ""
+msgstr "<a href=\"/help/gethelp.html\">Obtenir de l'aide avec les logiciels GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:338
 msgid "<a href=\"/doc/doc.html\">Documentation for GNU software</a> and <a href=\"/manual/manual.html\">Manuals online</a>"
-msgstr ""
+msgstr "<a href=\"/doc/doc.html\">Documentation pour les logiciels GNU</a> et <a href=\"/manual/manual.html\">Manuels en ligne</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:342
 msgid "<a href=\"http://mail.gnu.org/\">GNU mailing lists</a>"
-msgstr ""
+msgstr "<a href=\"http://mail.gnu.org/\">Listes de diffusion de GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:345
 msgid "<a href=\"/prep/service.html\">GNU Service Directory</a>"
-msgstr ""
+msgstr "<a href=\"/prep/service.html\">Annuaire des services de GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:348
 msgid "<a href=\"http://directory.fsf.org/\" id= \"FreeSoftwareCatalog\" name=\"FreeSoftwareCatalog\">Free Software Catalog</a>"
-msgstr ""
+msgstr "<a href=\"http://directory.fsf.org/\" id= \"FreeSoftwareCatalog\" name=\"FreeSoftwareCatalog\">Catalogue des logiciels libres</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:352
 msgid "<a href=\"/software/year2000.html\">Year 2000 Information</a>"
-msgstr ""
+msgstr "<a href=\"/software/year2000.html\">Informations sur l'an 2000</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:355
 msgid "<a href=\"/usenet/\">GNU Newsgroups</a>"
-msgstr ""
+msgstr "<a href=\"/usenet/\">Groupes de discussion sur GNU</a>"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:359
 msgid "Getting GNU software"
-msgstr ""
+msgstr "Obtenir des logiciels GNU"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:362
 msgid "<a href=\"/order/order.html\">Ordering CDs, Books, Reference Cards, and T-Shirts</a> ( <a href= \"http://order.fsf.org/\">online ordering is available</a>)"
-msgstr ""
+msgstr "<a href=\"/order/order.html\">Commander des CD, des livres, des cartes de références et des T-Shirts</a> ( <a href= \"http://order.fsf.org/\">Commande en ligne disponible</a>)"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:367
 msgid "<a href=\"/gear/\">Order GNU Gear</a>"
-msgstr ""
+msgstr "<a href=\"/gear/\">Commander des accessoires GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:369
 msgid "<a href=\"/order/deluxe.html\">Deluxe Distributions</a>"
-msgstr ""
+msgstr "<a href=\"/order/deluxe.html\">Distributions Deluxe</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:372
 msgid "<a href=\"/order/ftp.html\">Downloading via FTP</a>"
-msgstr ""
+msgstr "<a href=\"/order/ftp.html\">Téléchargement par FTP</a>"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:376
 msgid "<a href=\"/links/links.html\">Links to other free software sites</a>"
-msgstr ""
+msgstr "<a href=\"/links/links.fr.html\">Liens vers d'autres sites de logiciels libres</a>"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:379
 msgid "International FSF"
-msgstr ""
+msgstr "La FSF à l'international"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:382
 msgid "<a href=\"http://www.fsfeurope.org\">FSF Europe</a>"
-msgstr ""
+msgstr "<a href=\"http://www.fsfeurope.org\">FSF Europe</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:384
 msgid "<a href=\"http://fsfla.org\">FSF Latin America</a>"
-msgstr ""
+msgstr "<a href=\"http://fsfla.org\">FSF Amérique latine</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:386
 msgid "<a href=\"http://fsf.org.in\">FSF India</a>"
-msgstr ""
+msgstr "<a href=\"http://fsf.org.in\">FSF Inde</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:388
 msgid "<a href=\"http://www.es.gnu.org\">GNU Espa&ntilde;a</a>"
-msgstr ""
+msgstr "<a href=\"http://www.es.gnu.org\">GNU Espa&ntilde;a</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:390
 msgid "<a href=\"http://fsffrance.org\">FSF France</a>"
-msgstr ""
+msgstr "<a href=\"http://fsffrance.org\">FSF France</a>"
 
 # type: Content of: <ul><li>
 #: ../../server/po/sitemap.proto:394
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Divers"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:397
 msgid "<a href=\"/jobs/jobs.html\">Free software job openings</a>"
-msgstr ""
+msgstr "<a href=\"/jobs/jobs.html\">Emplois dans les logiciels libres</a>"
 
 # type: Content of: <ul><li><ul><li>
 #: ../../server/po/sitemap.proto:400
 msgid "<a href=\"/gnu/gnu-user-groups.html\">Listing of GNU user groups</a>"
-msgstr ""
+msgstr "<a href=\"/gnu/gnu-user-groups.html\">Liste des groupes d'utilisateurs GNU</a>"
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #: ../../server/po/sitemap.proto:422
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 # type: Content of: <div><p>
 #: ../../server/po/sitemap.proto:429
 msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
-msgstr ""
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
 #: ../../server/po/sitemap.proto:439
 msgid "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.,"
-msgstr ""
+msgstr "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><address>
 #: ../../server/po/sitemap.proto:441
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
-msgstr ""
+msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
 # type: Content of: <div><p>
 #: ../../server/po/sitemap.proto:443
 msgid "Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved."
-msgstr ""
+msgstr "La reproduction exacte et la distribution int&eacute;grale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit pr&eacute;serv&eacute;e."
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #: ../../server/po/sitemap.proto:450
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
-msgstr ""
+msgstr "Traduction&nbsp;: C&eacute;dric Corazza.<br /> R&eacute;vision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 # type: Content of: <div><p>
 #.  timestamp start
 #: ../../server/po/sitemap.proto:452
 msgid "Updated:"
-msgstr ""
+msgstr "Derni&egrave;re mise-&agrave;-jour&nbsp;:"
 
 # type: Content of: <div><h4>
 #: ../../server/po/sitemap.proto:465
 msgid "Translations of this page"
-msgstr ""
+msgstr "Traductions de cette page"
 
