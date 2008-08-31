@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: copyleft.html\n"
-"POT-Creation-Date: 2008-06-13 16:25-0400\n"
+"POT-Creation-Date: 2008-08-25 16:25-0300\n"
 "PO-Revision-Date: 2008-08-17 14:53+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,150 +16,359 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
-#: ../../copyleft/po/copyleft.proto:4
 msgid "What is Copyleft? - GNU Project - Free Software Foundation (FSF)"
-msgstr "Qu'est-ce que le copyleft&nbsp;? - GNU Project - Free Software Foundation (FSF)"
+msgstr ""
+"Qu'est-ce que le copyleft&nbsp;? - GNU Project - Free Software Foundation "
+"(FSF)"
 
 # type: Attribute 'content' of: <meta>
-#: ../../copyleft/po/copyleft.proto:5
 msgid "GNU, FSF, Free Software Foundation, Linux, Copyleft"
 msgstr "GNU, FSF, Free Software Foundation, Linux, Copyleft"
 
 # type: Content of: <h2>
-#: ../../copyleft/po/copyleft.proto:9
 msgid "What is Copyleft?"
 msgstr "Qu'est-ce que le copyleft&nbsp;?"
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:12
-msgid "<em>Copyleft</em> is a general method for making a program or other work free, and requiring all modified and extended versions of the program to be free as well."
-msgstr "Le <em>Copyleft</em> est une fa&ccedil;on de rendre un programme ou tout autre &oelig;uvre libre, et qui requiert que toutes les versions modifi&eacute;es et &eacute;tendues du programme soient libres &eacute;galement."
+msgid ""
+"<em>Copyleft</em> is a general method for making a program or other work "
+"free, and requiring all modified and extended versions of the program to be "
+"free as well."
+msgstr ""
+"Le <em>Copyleft</em> est une fa&ccedil;on de rendre un programme ou tout "
+"autre &oelig;uvre libre, et qui requiert que toutes les versions "
+"modifi&eacute;es et &eacute;tendues du programme soient libres &eacute;"
+"galement."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:17
-msgid "The simplest way to make a program free software is to put it in the <a href=\"/philosophy/categories.html#PublicDomainSoftware\">public domain</a>, uncopyrighted.  This allows people to share the program and their improvements, if they are so minded.  But it also allows uncooperative people to convert the program into <a href=\"/philosophy/categories.html#ProprietarySoftware\">proprietary software</a>.  They can make changes, many or few, and distribute the result as a proprietary product.  People who receive the program in that modified form do not have the freedom that the original author gave them; the middleman has stripped it away."
-msgstr "La mani&egrave;re la plus simple de faire d'un programme un logiciel libre est de le distribuer dans le <a href=\"/philosophy/categories.fr.html#PublicDomainSoftware\">domaine public</a>, sans copyright. Cela autorise les gens &agrave; partager le programme et leurs am&eacute;liorations si le c&oelig;ur leur en dit. Mais cela autorise aussi des personnes ind&eacute;licates &agrave; faire du programme un <a href=\"/philosophy/categories.fr.html#ProprietarySoftware\">logiciel propri&eacute;taire</a>.  Ils peuvent tr&egrave;s bien y effectuer des changements, juste quelques-uns ou plusieurs, et distribuer le r&eacute;sultat comme un logiciel propri&eacute;taire. Ceux qui recevront le programme dans sa forme modifi&eacute;e n'auront pas la libert&eacute; que l'auteur original leur aura donn&eacute;; l'interm&eacute;diaire l'aura fait dispara&icirc;tre."
+msgid ""
+"The simplest way to make a program free software is to put it in the <a href="
+"\"/philosophy/categories.html#PublicDomainSoftware\">public domain</a>, "
+"uncopyrighted.  This allows people to share the program and their "
+"improvements, if they are so minded.  But it also allows uncooperative "
+"people to convert the program into <a href=\"/philosophy/categories."
+"html#ProprietarySoftware\">proprietary software</a>.  They can make changes, "
+"many or few, and distribute the result as a proprietary product.  People who "
+"receive the program in that modified form do not have the freedom that the "
+"original author gave them; the middleman has stripped it away."
+msgstr ""
+"La mani&egrave;re la plus simple de faire d'un programme un logiciel libre "
+"est de le distribuer dans le <a href=\"/philosophy/categories.fr."
+"html#PublicDomainSoftware\">domaine public</a>, sans copyright. Cela "
+"autorise les gens &agrave; partager le programme et leurs am&eacute;"
+"liorations si le c&oelig;ur leur en dit. Mais cela autorise aussi des "
+"personnes ind&eacute;licates &agrave; faire du programme un <a href=\"/"
+"philosophy/categories.fr.html#ProprietarySoftware\">logiciel propri&eacute;"
+"taire</a>.  Ils peuvent tr&egrave;s bien y effectuer des changements, juste "
+"quelques-uns ou plusieurs, et distribuer le r&eacute;sultat comme un "
+"logiciel propri&eacute;taire. Ceux qui recevront le programme dans sa forme "
+"modifi&eacute;e n'auront pas la libert&eacute; que l'auteur original leur "
+"aura donn&eacute;; l'interm&eacute;diaire l'aura fait dispara&icirc;tre."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:29
-msgid "In the <a href=\"/gnu/thegnuproject.html\">GNU project</a>, our aim is to give <em>all</em> users the freedom to redistribute and change GNU software.  If middlemen could strip off the freedom, we might have many users, but those users would not have freedom.  So instead of putting GNU software in the public domain, we &ldquo;copyleft&rdquo; it.  Copyleft says that anyone who redistributes the software, with or without changes, must pass along the freedom to further copy and change it.  Copyleft guarantees that every user has freedom."
-msgstr "Dans le <a href=\"/gnu/thegnuproject.fr.html\">projet GNU</a>, notre but est de donner &agrave; <em>tous</em> les utilisateurs la libert&eacute; de redistribuer et de modifier les logiciels GNU.  Si des interm&eacute;diaires pouvaient enlever cette libert&eacute;, nous aurions beaucoup d'utilisateurs, mais ils n'auraient aucune libert&eacute;. Alors, au lieu de mettre les logiciels GNU dans le domaine public, nous les mettons sous &laquo;copyleft&raquo; ou &laquo;gauche d'auteur&raquo;. Le copyleft indique que quiconque les redistribue, avec ou sans modifications, doit aussi transmettre la libert&eacute; de les copier et de les modifier. Le copyleft garantit cette libert&eacute; pour tous les utilisateurs."
+msgid ""
+"In the <a href=\"/gnu/thegnuproject.html\">GNU project</a>, our aim is to "
+"give <em>all</em> users the freedom to redistribute and change GNU "
+"software.  If middlemen could strip off the freedom, we might have many "
+"users, but those users would not have freedom.  So instead of putting GNU "
+"software in the public domain, we &ldquo;copyleft&rdquo; it.  Copyleft says "
+"that anyone who redistributes the software, with or without changes, must "
+"pass along the freedom to further copy and change it.  Copyleft guarantees "
+"that every user has freedom."
+msgstr ""
+"Dans le <a href=\"/gnu/thegnuproject.fr.html\">projet GNU</a>, notre but est "
+"de donner &agrave; <em>tous</em> les utilisateurs la libert&eacute; de "
+"redistribuer et de modifier les logiciels GNU.  Si des interm&eacute;diaires "
+"pouvaient enlever cette libert&eacute;, nous aurions beaucoup "
+"d'utilisateurs, mais ils n'auraient aucune libert&eacute;. Alors, au lieu de "
+"mettre les logiciels GNU dans le domaine public, nous les mettons sous "
+"&laquo;copyleft&raquo; ou &laquo;gauche d'auteur&raquo;. Le copyleft indique "
+"que quiconque les redistribue, avec ou sans modifications, doit aussi "
+"transmettre la libert&eacute; de les copier et de les modifier. Le copyleft "
+"garantit cette libert&eacute; pour tous les utilisateurs."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:39
-msgid "Copyleft also provides an <a href=\"/philosophy/pragmatic.html\">incentive</a> for other programmers to add to free software.  Important free programs such as the GNU C++ compiler exist only because of this."
-msgstr "Le copyleft fournit aussi un <a href=\"/philosophy/pragmatic.fr.html\">encouragement</a> aux autres programmeurs qui veulent ajouter des logiciels libres. Des programmes importants comme le compilateur C++ de GNU n'existent que gr&acirc;ce &agrave; lui."
+msgid ""
+"Copyleft also provides an <a href=\"/philosophy/pragmatic.html\">incentive</"
+"a> for other programmers to add to free software.  Important free programs "
+"such as the GNU C++ compiler exist only because of this."
+msgstr ""
+"Le copyleft fournit aussi un <a href=\"/philosophy/pragmatic.fr.html"
+"\">encouragement</a> aux autres programmeurs qui veulent ajouter des "
+"logiciels libres. Des programmes importants comme le compilateur C++ de GNU "
+"n'existent que gr&acirc;ce &agrave; lui."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:46
-msgid "Copyleft also helps programmers who want to contribute <a href=\"/prep/tasks.html\">improvements</a> to <a href=\"/philosophy/free-sw.html\">free software</a> get permission to do that.  These programmers often work for companies or universities that would do almost anything to get more money.  A programmer may want to contribute her changes to the community, but her employer may want to turn the changes into a proprietary software product."
-msgstr "Le copyleft aide aussi les programmeurs qui veulent contribuer <a href=\"/prep/tasks.html\">&agrave; des am&eacute;liorations</a> sur des <a href=\"/philosophy/free-sw.fr.html\">logiciels libres</a> &agrave; obtenir la permission de le faire. Ces programmeurs travaillent souvent pour des entreprises ou des universit&eacute;s qui feraient n'importe quoi pour plus d'argent. Un programmeur pourrait vouloir faire profiter la communaut&eacute; de ses modifications, mais son employeur pourrait vouloir transformer le travail en un produit propri&eacute;taire."
+msgid ""
+"Copyleft also helps programmers who want to contribute <a href=\"/prep/tasks."
+"html\">improvements</a> to <a href=\"/philosophy/free-sw.html\">free "
+"software</a> get permission to do that.  These programmers often work for "
+"companies or universities that would do almost anything to get more money.  "
+"A programmer may want to contribute her changes to the community, but her "
+"employer may want to turn the changes into a proprietary software product."
+msgstr ""
+"Le copyleft aide aussi les programmeurs qui veulent contribuer <a href=\"/"
+"prep/tasks.html\">&agrave; des am&eacute;liorations</a> sur des <a href=\"/"
+"philosophy/free-sw.fr.html\">logiciels libres</a> &agrave; obtenir la "
+"permission de le faire. Ces programmeurs travaillent souvent pour des "
+"entreprises ou des universit&eacute;s qui feraient n'importe quoi pour plus "
+"d'argent. Un programmeur pourrait vouloir faire profiter la "
+"communaut&eacute; de ses modifications, mais son employeur pourrait vouloir "
+"transformer le travail en un produit propri&eacute;taire."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:55
-msgid "When we explain to the employer that it is illegal to distribute the improved version except as free software, the employer usually decides to release it as free software rather than throw it away."
-msgstr "Quand nous expliquons &agrave; l'employeur qu'il est ill&eacute;gal de distribuer la version am&eacute;lior&eacute;e autrement que comme logiciel libre, celui-ci d&eacute;cide souvent de le distribuer librement plut&ocirc;t que de le laisser tomber."
+msgid ""
+"When we explain to the employer that it is illegal to distribute the "
+"improved version except as free software, the employer usually decides to "
+"release it as free software rather than throw it away."
+msgstr ""
+"Quand nous expliquons &agrave; l'employeur qu'il est ill&eacute;gal de "
+"distribuer la version am&eacute;lior&eacute;e autrement que comme logiciel "
+"libre, celui-ci d&eacute;cide souvent de le distribuer librement plut&ocirc;"
+"t que de le laisser tomber."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:60
-msgid "To copyleft a program, we first state that it is copyrighted; then we add distribution terms, which are a legal instrument that gives everyone the rights to use, modify, and redistribute the program's code <em>or any program derived from it</em> but only if the distribution terms are unchanged.  Thus, the code and the freedoms become legally inseparable."
-msgstr "Pour mettre un logiciel sous copyleft, nous d&eacute;clarons d'abord qu'il est sous copyright, ensuite nous ajoutons les conditions de distribution, qui sont un outil l&eacute;gal donnant &agrave; chacun le droit d'utiliser, de modifier, et de redistribuer le code du programme, ou <em>tous les programmes qui en sont d&eacute;riv&eacute;s</em>, mais seulement si les conditions de distribution demeurent inchang&eacute;es. Ainsi, le code et ses libert&eacute;s sont l&eacute;galement indissociables."
+msgid ""
+"To copyleft a program, we first state that it is copyrighted; then we add "
+"distribution terms, which are a legal instrument that gives everyone the "
+"rights to use, modify, and redistribute the program's code <em>or any "
+"program derived from it</em> but only if the distribution terms are "
+"unchanged.  Thus, the code and the freedoms become legally inseparable."
+msgstr ""
+"Pour mettre un logiciel sous copyleft, nous d&eacute;clarons d'abord qu'il "
+"est sous copyright, ensuite nous ajoutons les conditions de distribution, "
+"qui sont un outil l&eacute;gal donnant &agrave; chacun le droit d'utiliser, "
+"de modifier, et de redistribuer le code du programme, ou <em>tous les "
+"programmes qui en sont d&eacute;riv&eacute;s</em>, mais seulement si les "
+"conditions de distribution demeurent inchang&eacute;es. Ainsi, le code et "
+"ses libert&eacute;s sont l&eacute;galement indissociables."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:68
-msgid "Proprietary software developers use copyright to take away the users' freedom; we use copyright to guarantee their freedom.  That's why we reverse the name, changing &ldquo;copyright&rdquo; into &ldquo;copyleft.&rdquo;"
-msgstr "Les d&eacute;veloppeurs de logiciels propri&eacute;taires utilisent le copyright pour restreindre la libert&eacute; des utilisateurs; nous utilisons le copyleft pour la garantir. C'est pourquoi nous avons invers&eacute; le nom, en changeant &laquo;copyright&raquo; en &laquo;copyleft&raquo;."
+msgid ""
+"Proprietary software developers use copyright to take away the users' "
+"freedom; we use copyright to guarantee their freedom.  That's why we reverse "
+"the name, changing &ldquo;copyright&rdquo; into &ldquo;copyleft.&rdquo;"
+msgstr ""
+"Les d&eacute;veloppeurs de logiciels propri&eacute;taires utilisent le "
+"copyright pour restreindre la libert&eacute; des utilisateurs; nous "
+"utilisons le copyleft pour la garantir. C'est pourquoi nous avons "
+"invers&eacute; le nom, en changeant &laquo;copyright&raquo; en &laquo;"
+"copyleft&raquo;."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:74
-msgid "Copyleft is a way of using of the copyright on the program.  It doesn't mean abandoning the copyright; in fact, doing so would make copyleft impossible.  The word &ldquo;left&rdquo; in &ldquo;copyleft&rdquo; is not a reference to the verb &ldquo;to leave&rdquo; &mdash; only to the direction which is the inverse of &ldquo;right&rdquo;."
-msgstr "Le copyleft est un moyen d'utilisation du copyright du programme. Cela ne signifie pas d'abandonner le copyright&nbsp;; en fait, faire cela rendrait le copyleft impossible. Le mot &laquo;&nbsp;left&nbsp;&raquo; (NdT&nbsp;: en anglais, left signifie &agrave; la fois laiss&eacute;, abandonn&eacute; ou gauche) dans &laquo;&nbsp;copyleft&nbsp;&raquo; n'est pas une r&eacute;f&eacute;rence au verbe &laquo;&nbsp;to leave&nbsp;&raquo; (NdT&nbsp;: laisser, abandonner)&nbsp; c'est seulement une r&eacute;f&eacute;rence &agrave; la direction inverse de &laquo;&nbsp;right&nbsp;&raquo; (NdT&nbsp;: droite)."
+msgid ""
+"Copyleft is a way of using of the copyright on the program.  It doesn't mean "
+"abandoning the copyright; in fact, doing so would make copyleft impossible.  "
+"The word &ldquo;left&rdquo; in &ldquo;copyleft&rdquo; is not a reference to "
+"the verb &ldquo;to leave&rdquo; &mdash; only to the direction which is the "
+"inverse of &ldquo;right&rdquo;."
+msgstr ""
+"Le copyleft est un moyen d'utilisation du copyright du programme. Cela ne "
+"signifie pas d'abandonner le copyright&nbsp;; en fait, faire cela rendrait "
+"le copyleft impossible. Le mot &laquo;&nbsp;left&nbsp;&raquo; (NdT&nbsp;: en "
+"anglais, left signifie &agrave; la fois laiss&eacute;, abandonn&eacute; ou "
+"gauche) dans &laquo;&nbsp;copyleft&nbsp;&raquo; n'est pas une r&eacute;"
+"f&eacute;rence au verbe &laquo;&nbsp;to leave&nbsp;&raquo; (NdT&nbsp;: "
+"laisser, abandonner)&nbsp; c'est seulement une r&eacute;f&eacute;rence "
+"&agrave; la direction inverse de &laquo;&nbsp;right&nbsp;&raquo; (NdT&nbsp;: "
+"droite)."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:82
-msgid "Copyleft is a general concept, and you can't use a general concept directly; you can only use a specific implementation of the concept.  In the GNU Project, the specific distribution terms that we use for most software are contained in the <a href=\"/copyleft/gpl.html\">GNU General Public License (available in HTML</a>, <a href=\"/copyleft/gpl.txt\">text</a>, and <a href=\"/copyleft/gpl.texi\">Texinfo</a> format).  The GNU General Public License is often called the GNU GPL for short. There is also a <a href=\"/copyleft/gpl-faq.html\">Frequently Asked Questions</a> page about the GNU GPL.  You can also read about <a href=\"/copyleft/why-assign.html\">why the FSF gets copyright assignments from contributors</a>."
-msgstr "Le copyleft est un concept g&eacute;n&eacute;ral, et vous ne pouvez pas utiliser un concept g&eacute;n&eacute;ral directement&nbsp;; vous pouvez seulement utiliser une mise en &oelig;uvre sp&eacute;cifique du concept. Dans le  projet GNU, les conditions de distribution sp&eacute;cifiques que nous utilisons sont contenues dans la <a href=\"/licenses/gpl.html\">GNU General Public License (disponible au format HTML</a>, <a href=\"/licenses/gpl.txt\">texte</a>, et <a href=\"/licenses/gpl.texi\">Texinfo</a>). La GNU General Public License est appel&eacute;e la GNU GPL. Il y a &eacute;galement une page <a href=\"/licenses/gpl-faq.fr.html\">Foire aux questions</a> &agrave; propos de la GPL GNU. Vous pouvez lire &eacute;galement  <a href=\"/licenses/why-assign.fr.html\">Pourquoi la FSF obtient l'attribution des droits d'auteurs des contributeurs</a>."
+msgid ""
+"Copyleft is a general concept, and you can't use a general concept directly; "
+"you can only use a specific implementation of the concept.  In the GNU "
+"Project, the specific distribution terms that we use for most software are "
+"contained in the <a href=\"/copyleft/gpl.html\">GNU General Public License "
+"(available in HTML</a>, <a href=\"/copyleft/gpl.txt\">text</a>, and <a href="
+"\"/copyleft/gpl.texi\">Texinfo</a> format).  The GNU General Public License "
+"is often called the GNU GPL for short. There is also a <a href=\"/copyleft/"
+"gpl-faq.html\">Frequently Asked Questions</a> page about the GNU GPL.  You "
+"can also read about <a href=\"/copyleft/why-assign.html\">why the FSF gets "
+"copyright assignments from contributors</a>."
+msgstr ""
+"Le copyleft est un concept g&eacute;n&eacute;ral, et vous ne pouvez pas "
+"utiliser un concept g&eacute;n&eacute;ral directement&nbsp;; vous pouvez "
+"seulement utiliser une mise en &oelig;uvre sp&eacute;cifique du concept. "
+"Dans le  projet GNU, les conditions de distribution sp&eacute;cifiques que "
+"nous utilisons sont contenues dans la <a href=\"/licenses/gpl.html\">GNU "
+"General Public License (disponible au format HTML</a>, <a href=\"/licenses/"
+"gpl.txt\">texte</a>, et <a href=\"/licenses/gpl.texi\">Texinfo</a>). La GNU "
+"General Public License est appel&eacute;e la GNU GPL. Il y a &eacute;"
+"galement une page <a href=\"/licenses/gpl-faq.fr.html\">Foire aux questions</"
+"a> &agrave; propos de la GPL GNU. Vous pouvez lire &eacute;galement  <a href="
+"\"/licenses/why-assign.fr.html\">Pourquoi la FSF obtient l'attribution des "
+"droits d'auteurs des contributeurs</a>."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:96
-msgid "An alternate form of copyleft, the <a href=\"/copyleft/lesser.html\">GNU Lesser General Public License (LGPL) (available in HTML</a>, <a href=\"/copyleft/lesser.txt\">text</a>, and <a href=\"/copyleft/lesser.texi\">Texinfo</a> format), applies to a few (but not all) GNU libraries. To learn more about properly using the LGPL, please read the article <a href=\"/philosophy/why-not-lgpl.html\"><cite>Why you shouldn't use the Lesser GPL for your next library</cite></a>."
-msgstr "Une forme alternative de copyleft, la <a href=\"/licenses/lesser.html\">GNU Lesser General Public License (LGPL) (disponible au format HTML</a>, <a href=\"/licenses/lesser.txt\">texte</a>, et <a href=\"/licenses/lesser.texi\">Texinfo</a>), s'applique &agrave; quelques (mais pas &agrave; toutes) biblioth&egrave;ques GNU. Cette licence &eacute;tait initialement appel&eacute;e la Library GPL (GPL pour les biblioth&egrave;ques), mais nous avons chang&eacute; le nom car l'ancien nom encourageait l'utilisation de cette licence plus souvent qu'elle aurait d&ucirc; &ecirc;tre utilis&eacute;e. Pour une explication sur les motivations qui nous ont convaincu que ce changement &eacute;tait n&eacute;cessaire, lire l'article <a href=\"/philosophy/why-not-lgpl.fr.html\">pourquoi vous ne devriez pas utiliser la LGPL pour votre prochaine biblioth&egrave;que</a>."
+msgid ""
+"An alternate form of copyleft, the <a href=\"/copyleft/lesser.html\">GNU "
+"Lesser General Public License (LGPL) (available in HTML</a>, <a href=\"/"
+"copyleft/lesser.txt\">text</a>, and <a href=\"/copyleft/lesser.texi"
+"\">Texinfo</a> format), applies to a few (but not all) GNU libraries. To "
+"learn more about properly using the LGPL, please read the article <a href=\"/"
+"philosophy/why-not-lgpl.html\"><cite>Why you shouldn't use the Lesser GPL "
+"for your next library</cite></a>."
+msgstr ""
+"Une forme alternative de copyleft, la <a href=\"/licenses/lesser.html\">GNU "
+"Lesser General Public License (LGPL) (disponible au format HTML</a>, <a href="
+"\"/licenses/lesser.txt\">texte</a>, et <a href=\"/licenses/lesser.texi"
+"\">Texinfo</a>), s'applique &agrave; quelques (mais pas &agrave; toutes) "
+"biblioth&egrave;ques GNU. Cette licence &eacute;tait initialement "
+"appel&eacute;e la Library GPL (GPL pour les biblioth&egrave;ques), mais nous "
+"avons chang&eacute; le nom car l'ancien nom encourageait l'utilisation de "
+"cette licence plus souvent qu'elle aurait d&ucirc; &ecirc;tre utilis&eacute;"
+"e. Pour une explication sur les motivations qui nous ont convaincu que ce "
+"changement &eacute;tait n&eacute;cessaire, lire l'article <a href=\"/"
+"philosophy/why-not-lgpl.fr.html\">pourquoi vous ne devriez pas utiliser la "
+"LGPL pour votre prochaine biblioth&egrave;que</a>."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:105
-msgid "The <a href=\"/copyleft/fdl.html\">GNU Free Documentation License (FDL)  (available in HTML</a>, <a href=\"/copyleft/fdl.txt\">text</a> and <a href=\"/copyleft/fdl.texi\">Texinfo)</a> is a form of copyleft intended for use on a manual, textbook or other document to assure everyone the effective freedom to copy and redistribute it, with or without modifications, either commercially or noncommercially."
-msgstr "La <a href=\"/licenses/fdl.html\">GNU Free Documentation License (FDL) (disponible au format HTML</a>, <a href=\"/licenses/fdl.txt\">texte</a> et <a href=\"/licenses/fdl.texi\">Texinfo)</a> est une forme de copyleft con&ccedil;ue pour &ecirc;tre utilis&eacute;e pour un manuel, un livre ou un autre document de mani&egrave;re &agrave; assurer &agrave; chacun la libert&eacute; effective de le copier et de le redistribuer, avec ou sans modifications, de fa&ccedil;on commerciale ou non."
+msgid ""
+"The <a href=\"/copyleft/fdl.html\">GNU Free Documentation License (FDL)  "
+"(available in HTML</a>, <a href=\"/copyleft/fdl.txt\">text</a> and <a href="
+"\"/copyleft/fdl.texi\">Texinfo)</a> is a form of copyleft intended for use "
+"on a manual, textbook or other document to assure everyone the effective "
+"freedom to copy and redistribute it, with or without modifications, either "
+"commercially or noncommercially."
+msgstr ""
+"La <a href=\"/licenses/fdl.html\">GNU Free Documentation License (FDL) "
+"(disponible au format HTML</a>, <a href=\"/licenses/fdl.txt\">texte</a> et "
+"<a href=\"/licenses/fdl.texi\">Texinfo)</a> est une forme de copyleft "
+"con&ccedil;ue pour &ecirc;tre utilis&eacute;e pour un manuel, un livre ou un "
+"autre document de mani&egrave;re &agrave; assurer &agrave; chacun la "
+"libert&eacute; effective de le copier et de le redistribuer, avec ou sans "
+"modifications, de fa&ccedil;on commerciale ou non."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:113
-msgid "The appropriate license is included in many manuals and in each GNU source code distribution."
-msgstr "La licence appropri&eacute;e est incluse dans beaucoup de manuels et dans chaque distribution de code source GNU."
+msgid ""
+"The appropriate license is included in many manuals and in each GNU source "
+"code distribution."
+msgstr ""
+"La licence appropri&eacute;e est incluse dans beaucoup de manuels et dans "
+"chaque distribution de code source GNU."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:117
-msgid "All these licenses are designed so that you can easily apply them to your own works, assuming you are the copyright holder.  You don't have to modify the license to do this, just include a copy of the license in the work, and add notices in the source files that refer properly to the license."
-msgstr "Toutes ces licences sont con&ccedil;ues de fa&ccedil;on &agrave; pouvoir &ecirc;tre appliqu&eacute;es &agrave; votre programme si vous en d&eacute;tenez le copyright. Vous n'aurez pas &agrave; modifier la licence pour le faire, mais seulement &agrave; ajouter une copie de la licence &agrave; votre programme et des r&eacute;f&eacute;rences appropri&eacute;es dans les fichiers sources qui se r&eacute;f&egrave;rent correctement &agrave; la licence."
+msgid ""
+"All these licenses are designed so that you can easily apply them to your "
+"own works, assuming you are the copyright holder.  You don't have to modify "
+"the license to do this, just include a copy of the license in the work, and "
+"add notices in the source files that refer properly to the license."
+msgstr ""
+"Toutes ces licences sont con&ccedil;ues de fa&ccedil;on &agrave; pouvoir "
+"&ecirc;tre appliqu&eacute;es &agrave; votre programme si vous en d&eacute;"
+"tenez le copyright. Vous n'aurez pas &agrave; modifier la licence pour le "
+"faire, mais seulement &agrave; ajouter une copie de la licence &agrave; "
+"votre programme et des r&eacute;f&eacute;rences appropri&eacute;es dans les "
+"fichiers sources qui se r&eacute;f&egrave;rent correctement &agrave; la "
+"licence."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:124
-msgid "Using the same distribution terms for many different programs makes it easy to copy code between various different programs.  Since they all have the same distribution terms, there is no need to think about whether the terms are compatible.  The Lesser GPL includes a provision that lets you alter the distribution terms to the ordinary GPL, so that you can copy code into another program covered by the GPL."
-msgstr "L'utilisation des m&ecirc;mes conditions de distribution pour plusieurs programmes diff&eacute;rents facilite la copie de code entre ces programmes. Avec les m&ecirc;mes conditions de distribution, il n'y a plus de souci d'incompatibilit&eacute;. La LGPL contient une clause qui vous autorise &agrave; modifier les conditions de distribution de la GPL ordinaire, ainsi vous pouvez copier du code dans un autre programme couvert par la GPL."
+msgid ""
+"Using the same distribution terms for many different programs makes it easy "
+"to copy code between various different programs.  Since they all have the "
+"same distribution terms, there is no need to think about whether the terms "
+"are compatible.  The Lesser GPL includes a provision that lets you alter the "
+"distribution terms to the ordinary GPL, so that you can copy code into "
+"another program covered by the GPL."
+msgstr ""
+"L'utilisation des m&ecirc;mes conditions de distribution pour plusieurs "
+"programmes diff&eacute;rents facilite la copie de code entre ces programmes. "
+"Avec les m&ecirc;mes conditions de distribution, il n'y a plus de souci "
+"d'incompatibilit&eacute;. La LGPL contient une clause qui vous autorise "
+"&agrave; modifier les conditions de distribution de la GPL ordinaire, ainsi "
+"vous pouvez copier du code dans un autre programme couvert par la GPL."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:133
-msgid "If you would like to copyleft your program with the GNU GPL or the GNU LGPL, please see the <a href=\"/copyleft/gpl-howto.html\">license instructions page</a> for advice.  Please note that you must use the entire text of our licenses, if you use one.  Each is an integral whole, and partial copies are not permitted."
-msgstr "Si vous d&eacute;sirez mettre votre programme sous copyleft avec la GNU GPL ou la GNU LGPL, veuillez lire la <a href=\"/licenses/gpl-howto.fr.html\">page d'instructions de la GPL</a> comme conseil. Veuillez noter que vous devez reproduire le texte int&eacute;gral de nos licences, si vous en utilisez une. C'est un tout, et les copies partielles ne sont pas autoris&eacute;es."
+msgid ""
+"If you would like to copyleft your program with the GNU GPL or the GNU LGPL, "
+"please see the <a href=\"/copyleft/gpl-howto.html\">license instructions "
+"page</a> for advice.  Please note that you must use the entire text of our "
+"licenses, if you use one.  Each is an integral whole, and partial copies are "
+"not permitted."
+msgstr ""
+"Si vous d&eacute;sirez mettre votre programme sous copyleft avec la GNU GPL "
+"ou la GNU LGPL, veuillez lire la <a href=\"/licenses/gpl-howto.fr.html"
+"\">page d'instructions de la GPL</a> comme conseil. Veuillez noter que vous "
+"devez reproduire le texte int&eacute;gral de nos licences, si vous en "
+"utilisez une. C'est un tout, et les copies partielles ne sont pas "
+"autoris&eacute;es."
 
 # type: Content of: <p>
-#: ../../copyleft/po/copyleft.proto:140
-msgid "If you would like to copyleft your manual with the GNU FDL, please see the instructions at the <a href=\"/copyleft/fdl.html#SEC4\">end</a> of the FDL text, and the <a href=\"/copyleft/fdl-howto.html\">GFDL instructions page</a>.  Again, partial copies are not permitted."
-msgstr "Si vous d&eacute;sirez mettre votre manuel sous copyleft avec la GNU FDL, veuillez lire les instructions &agrave; la <a href=\"/licenses/fdl.html#SEC4\">fin (21 ko)</a> du texte de la FDFL, ainsi que la <a href=\"fdl-howto.fr.html\">page d'instructions de la GFDL</a>. De m&ecirc;me, les copies partielles ne sont pas autoris&eacute;es."
+msgid ""
+"If you would like to copyleft your manual with the GNU FDL, please see the "
+"instructions at the <a href=\"/copyleft/fdl.html#SEC4\">end</a> of the FDL "
+"text, and the <a href=\"/copyleft/fdl-howto.html\">GFDL instructions page</"
+"a>.  Again, partial copies are not permitted."
+msgstr ""
+"Si vous d&eacute;sirez mettre votre manuel sous copyleft avec la GNU FDL, "
+"veuillez lire les instructions &agrave; la <a href=\"/licenses/fdl.html#SEC4"
+"\">fin (21 ko)</a> du texte de la FDFL, ainsi que la <a href=\"fdl-howto.fr."
+"html\">page d'instructions de la GFDL</a>. De m&ecirc;me, les copies "
+"partielles ne sont pas autoris&eacute;es."
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
-#: ../../copyleft/po/copyleft.proto:149
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
-#: ../../copyleft/po/copyleft.proto:156
-msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
-msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+"ways to contact</a> the FSF.  <br /> Please send broken links and other "
+"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+"\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
-#: ../../copyleft/po/copyleft.proto:166
-msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
-msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+msgid ""
+"Please see the <a href=\"/server/standards/README.translations.html"
+"\">Translations README</a> for information on coordinating and submitting "
+"translations of this article."
+msgstr ""
+"Veuillez consulter le <a href=\"/server/standards/README.translations.html"
+"\">README des traductions</a> pour des informations sur la coordination et "
+"la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-#: ../../copyleft/po/copyleft.proto:173
-msgid "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.,"
-msgstr "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.,"
+msgid ""
+"Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
+"2006, 2007, 2008 Free Software Foundation, Inc.,"
+msgstr ""
+"Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
+"2006, 2007, 2008 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><address>
-#: ../../copyleft/po/copyleft.proto:175
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
 # type: Content of: <div><p>
-#: ../../copyleft/po/copyleft.proto:176
-msgid "Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved."
-msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+msgid ""
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium, provided this notice is preserved."
+msgstr ""
+"La reproduction exacte et la distribution intégrale de cet article est "
+"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
+"préservée."
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
-#: ../../copyleft/po/copyleft.proto:183
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
-msgstr "Traduction&nbsp;: Benjamin Drieu.<br /> R&eacute;vision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a> "
+msgstr ""
+"Traduction&nbsp;: Benjamin Drieu.<br /> R&eacute;vision&nbsp;: <a href="
+"\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a> "
 
 # type: Content of: <div><p>
-#.  timestamp start
-#: ../../copyleft/po/copyleft.proto:185
+#.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
-#: ../../copyleft/po/copyleft.proto:198
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
-

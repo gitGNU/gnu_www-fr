@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu.html\n"
-"POT-Creation-Date: 2008-06-13 16:25-0400\n"
+"POT-Creation-Date: 2008-08-25 16:25-0300\n"
 "PO-Revision-Date: 2008-08-17 17:28+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,130 +15,160 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
-#: ../../gnu/po/gnu.proto:4
-msgid "About the GNU Operating System - GNU project - Free Software Foundation (FSF)"
-msgstr "À propos du système d'exploitation GNU - GNU project - Free Software Foundation (FSF)"
+msgid ""
+"About the GNU Operating System - GNU project - Free Software Foundation (FSF)"
+msgstr ""
+"À propos du système d'exploitation GNU - GNU project - Free Software "
+"Foundation (FSF)"
 
 # type: Content of: <h2>
-#: ../../gnu/po/gnu.proto:8
 msgid "About the GNU Operating System"
 msgstr "À propos du système d'exploitation GNU"
 
 # type: Content of: <ul><li>
-#: ../../gnu/po/gnu.proto:19
 msgid "<a href=\"/gnu/gnu-history.html\">An overview of GNU</a>"
 msgstr "<a href=\"/gnu/gnu-history.fr.html\">Un aperçu de GNU</a>"
 
 # type: Content of: <ul><li>
-#: ../../gnu/po/gnu.proto:20
 msgid "<a href=\"/gnu/thegnuproject.html\">A more detailed history of GNU</a>"
-msgstr "<a href=\"/gnu/thegnuproject.fr.html\">Une histoire plus détaillée de GNU</a>"
+msgstr ""
+"<a href=\"/gnu/thegnuproject.fr.html\">Une histoire plus détaillée de GNU</a>"
 
 # type: Content of: <ul><li>
-#: ../../gnu/po/gnu.proto:21
-msgid "<a href=\"/gnu/initial-announcement.html\">The initial announcement</a> of the project"
-msgstr "<a href=\"/gnu/initial-announcement.fr.html\">L'annonce initiale</a> du projet"
+msgid ""
+"<a href=\"/gnu/initial-announcement.html\">The initial announcement</a> of "
+"the project"
+msgstr ""
+"<a href=\"/gnu/initial-announcement.fr.html\">L'annonce initiale</a> du "
+"projet"
 
 # type: Content of: <ul><li>
-#: ../../gnu/po/gnu.proto:23
 msgid "<a href=\"/gnu/manifesto.html\">The GNU Manifesto</a>"
 msgstr "<a href=\"/gnu/manifesto.fr.html\">Le manifeste GNU</a>"
 
 # type: Content of: <ul><li>
-#: ../../gnu/po/gnu.proto:24
-msgid "<a href=\"/gnu/byte-interview.html\">BYTE interview with Richard Stallman</a> (1986)"
-msgstr "<a href=\"/gnu/byte-interview.fr.html\">Entretien sur BYTE avec Richard Stallman</a> (1986)"
+msgid ""
+"<a href=\"/gnu/byte-interview.html\">BYTE interview with Richard Stallman</"
+"a> (1986)"
+msgstr ""
+"<a href=\"/gnu/byte-interview.fr.html\">Entretien sur BYTE avec Richard "
+"Stallman</a> (1986)"
 
 # type: Content of: <ul><li>
-#: ../../gnu/po/gnu.proto:26
-msgid "<a href=\"/gnu/rms-lisp.html\">My Lisp Experiences and the Development of GNU Emacs</a> (by Richard Stallman)"
-msgstr "<a href=\"/gnu/rms-lisp.fr.html\">Mes exp&eacute;riences de Lisp et du développement de GNU Emacs</a> (par Richard M. Stallman)"
+msgid ""
+"<a href=\"/gnu/rms-lisp.html\">My Lisp Experiences and the Development of "
+"GNU Emacs</a> (by Richard Stallman)"
+msgstr ""
+"<a href=\"/gnu/rms-lisp.fr.html\">Mes exp&eacute;riences de Lisp et du "
+"développement de GNU Emacs</a> (par Richard M. Stallman)"
 
 # type: Content of: <h2>
-#: ../../gnu/po/gnu.proto:30
 msgid "<a name=\"gnulinux\"></a>GNU and Linux"
 msgstr "<a name=\"gnulinux\"></a>GNU et Linux"
 
 # type: Content of: <ul><li>
-#: ../../gnu/po/gnu.proto:33
-msgid "<a href=\"/gnu/linux-and-gnu.html\">The relationship between GNU and Linux</a>"
-msgstr "<a href=\"/gnu/linux-and-gnu.fr.html\">Les relations entre GNU et Linux</a>"
+msgid ""
+"<a href=\"/gnu/linux-and-gnu.html\">The relationship between GNU and Linux</"
+"a>"
+msgstr ""
+"<a href=\"/gnu/linux-and-gnu.fr.html\">Les relations entre GNU et Linux</a>"
 
 # type: Content of: <ul><li>
-#: ../../gnu/po/gnu.proto:35
-msgid "<a href=\"/gnu/why-gnu-linux.html\">Why the &lsquo;Linux system&rsquo; should be called GNU/Linux</a>"
-msgstr "<a href=\"/gnu/why-gnu-linux.fr.html\">Pourquoi le &laquo;&nbsp;syst&egrave;me Linux&nbsp;&raquo; devrait &ecirc;tre appel&eacute; GNU/Linux</a>"
+msgid ""
+"<a href=\"/gnu/why-gnu-linux.html\">Why the &lsquo;Linux system&rsquo; "
+"should be called GNU/Linux</a>"
+msgstr ""
+"<a href=\"/gnu/why-gnu-linux.fr.html\">Pourquoi le &laquo;&nbsp;syst&egrave;"
+"me Linux&nbsp;&raquo; devrait &ecirc;tre appel&eacute; GNU/Linux</a>"
 
 # type: Content of: <ul><li>
-#: ../../gnu/po/gnu.proto:37
-msgid "<a href=\"/gnu/gnu-users-never-heard-of-gnu.html\">GNU Users Who Have Never Heard of GNU</a>"
-msgstr "<a href=\"/gnu/gnu-users-never-heard-of-gnu.fr.html\">Les utilisateurs de GNU qui n'ont jamais entendu parler de GNU</a>"
+msgid ""
+"<a href=\"/gnu/gnu-users-never-heard-of-gnu.html\">GNU Users Who Have Never "
+"Heard of GNU</a>"
+msgstr ""
+"<a href=\"/gnu/gnu-users-never-heard-of-gnu.fr.html\">Les utilisateurs de "
+"GNU qui n'ont jamais entendu parler de GNU</a>"
 
 # type: Content of: <ul><li>
-#: ../../gnu/po/gnu.proto:39
 msgid "<a href=\"/gnu/gnu-linux-faq.html\">A GNU/Linux FAQ</a>"
 msgstr "<a href=\"/gnu/gnu-linux-faq.fr.html\">Une FAQ sur GNU/Linux</a>"
 
 # type: Content of: <h2>
-#: ../../gnu/po/gnu.proto:42
 msgid "<a name=\"misc\"></a>Other GNU-related resources"
 msgstr "<a name=\"misc\"></a>Autres ressources relatives &agrave; GNU"
 
 # type: Content of: <ul><li>
-#: ../../gnu/po/gnu.proto:45
-msgid "<a href=\"/gnu/gnu-user-groups.html\">GNU/Linux and GNU/Hurd user groups</a>"
-msgstr "<a href=\"/gnu/gnu-user-groups.fr.html\">Groupes d'utilisateurs de GNU/Linux et de GNU/Hurd</a>"
+msgid ""
+"<a href=\"/gnu/gnu-user-groups.html\">GNU/Linux and GNU/Hurd user groups</a>"
+msgstr ""
+"<a href=\"/gnu/gnu-user-groups.fr.html\">Groupes d'utilisateurs de GNU/Linux "
+"et de GNU/Hurd</a>"
 
 # type: Content of: <ul><li>
-#: ../../gnu/po/gnu.proto:47
 msgid "<a href=\"/gnu/fs-user-groups.html\">Free software user groups</a>"
-msgstr "<a href=\"/gnu/fs-user-groups.fr.html\">Groupes d'utilisateurs de logiciels libres</a>"
+msgstr ""
+"<a href=\"/gnu/fs-user-groups.fr.html\">Groupes d'utilisateurs de logiciels "
+"libres</a>"
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
-#: ../../gnu/po/gnu.proto:61
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
-#: ../../gnu/po/gnu.proto:69
-msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
-msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+"ways to contact</a> the FSF.  <br /> Please send broken links and other "
+"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+"\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
-#: ../../gnu/po/gnu.proto:79
-msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
-msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+msgid ""
+"Please see the <a href=\"/server/standards/README.translations.html"
+"\">Translations README</a> for information on coordinating and submitting "
+"translations of this article."
+msgstr ""
+"Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html"
+"\">README des traductions</a> pour des informations sur la coordination et "
+"la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-#: ../../gnu/po/gnu.proto:86
 msgid "Copyright &copy; 2007, 2008 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 2007, 2008 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><address>
-#: ../../gnu/po/gnu.proto:88
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
 # type: Content of: <div><p>
-#: ../../gnu/po/gnu.proto:89
-msgid "Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved."
-msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+msgid ""
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium without royalty provided this notice is preserved."
+msgstr ""
+"La reproduction exacte et la distribution intégrale de cet article est "
+"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
+"préservée."
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
-#: ../../gnu/po/gnu.proto:97
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
-msgstr "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+msgstr ""
+"Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
+"trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 # type: Content of: <div><p>
-#.  timestamp start
-#: ../../gnu/po/gnu.proto:99
+#.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
-#: ../../gnu/po/gnu.proto:107
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
-
