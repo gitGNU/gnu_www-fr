@@ -34,7 +34,7 @@ TEAM := fr
 
 # The relative path to the working copy of the master "www"
 # repository; must end with a trailing slash.
-wwwdir := ../../GNU_W/www/www/
+wwwdir := ../www/
 
 # Adjust these variables if you don't have the programs in your PATH.
 MSGMERGE := msgmerge
