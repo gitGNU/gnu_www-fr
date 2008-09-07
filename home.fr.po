@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.shtml\n"
-"POT-Creation-Date: 2008-08-26 16:25-0300\n"
+"POT-Creation-Date: 2008-09-05 16:25-0300\n"
 "PO-Revision-Date: 2008-08-16 16:40+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -45,13 +45,23 @@ msgstr "Quoi de neuf&nbsp;?"
 msgid "New Free Software"
 msgstr "Nouveaux logiciels libres"
 
+# type: Attribute 'alt' of: <h1><img>
+msgid "Freedom Fry"
+msgstr ""
+
+# type: Content of: <p><a>
+msgid "<a href=\"/fry/happy-birthday-to-gnu.html\">"
+msgstr ""
+
+# type: Content of: <p>
+msgid "</a>"
+msgstr ""
+
 # type: Content of: <p>
 msgid ""
-"<strong>Welcome to the GNU Operating System &mdash; GNU is free software.</"
-"strong>"
+"Mr. Stephen Fry <a href=\"/fry/\">introduces you to free software</a>, and "
+"reminds you of a very special birthday."
 msgstr ""
-"<strong>Bienvenue dans le système d'exploitation GNU &mdash; GNU est un "
-"logiciel libre.</strong>"
 
 # type: Content of: <table><tr><td><h2>
 msgid "What is GNU?"
@@ -355,16 +365,6 @@ msgstr ""
 "R&eacute;pertoire des logiciels libres."
 
 # type: Content of: <table><tr><td><ul><li>
-msgid ""
-"<strong>Worldwide:</strong> <a href=\"/server/takeaction.html#doom\">Sign "
-"the Doom community's petition</a> to free the source code to the games "
-"Heretic and Hexen."
-msgstr ""
-"<strong>Niveau mondial&nbsp;:</strong> <a href=\"/server/takeaction.fr."
-"html#doom\">Signez la p&eacute;tition de la communaut&eacute; Doom</a> pour "
-"lib&eacute;rer le code sources des jeux Heretic et Hexen."
-
-# type: Content of: <table><tr><td><ul><li>
 #, fuzzy
 msgid ""
 "<strong>Priority projects:</strong> <a href=\"http://www.fsf.org/campaigns/"
@@ -554,3 +554,21 @@ msgid ""
 msgstr ""
 "<a href=\"/server/standards/README.translations.fr.html\">Traductions</a> de "
 "cette page"
+
+# type: Content of: <p>
+#~ msgid ""
+#~ "<strong>Welcome to the GNU Operating System &mdash; GNU is free software."
+#~ "</strong>"
+#~ msgstr ""
+#~ "<strong>Bienvenue dans le système d'exploitation GNU &mdash; GNU est un "
+#~ "logiciel libre.</strong>"
+
+# type: Content of: <table><tr><td><ul><li>
+#~ msgid ""
+#~ "<strong>Worldwide:</strong> <a href=\"/server/takeaction.html#doom\">Sign "
+#~ "the Doom community's petition</a> to free the source code to the games "
+#~ "Heretic and Hexen."
+#~ msgstr ""
+#~ "<strong>Niveau mondial&nbsp;:</strong> <a href=\"/server/takeaction.fr."
+#~ "html#doom\">Signez la p&eacute;tition de la communaut&eacute; Doom</a> "
+#~ "pour lib&eacute;rer le code sources des jeux Heretic et Hexen."

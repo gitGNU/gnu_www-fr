@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-user-groups.html\n"
-"POT-Creation-Date: 2008-08-27 16:25-0300\n"
+"POT-Creation-Date: 2008-09-02 16:25-0300\n"
 "PO-Revision-Date: 2008-08-17 21:39+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -25,7 +25,8 @@ msgid "GNU Users Groups"
 msgstr "Groupes d'utilisateurs Gnu"
 
 # type: Content of: <h3>
-msgid "<a id=\"submit\">Submitting groups to be listed</a>"
+#, fuzzy
+msgid "Submitting groups to be listed"
 msgstr "<a id=\"submit\">Proposer un groupe pour qu'il soit list&eacute;</a>"
 
 # type: Content of: <p>
@@ -69,7 +70,8 @@ msgstr ""
 "l'aide &agrave; la FSF."
 
 # type: Content of: <h3>
-msgid "<a id=\"FSnote\">A note about Free Software user groups</a>"
+#, fuzzy
+msgid "A note about Free Software user groups"
 msgstr ""
 "<a id=\"FSnote\">Une note &agrave; propos des groupes d'utilisateurs de "
 "logiciels libres</a> (NdT&nbsp;:Free Software user groups)"
@@ -91,7 +93,8 @@ msgstr ""
 "libres</a>."
 
 # type: Content of: <h3>
-msgid "<a id=\"GLnote\">A note about GNU/Linux user groups</a>"
+#, fuzzy
+msgid "A note about GNU/Linux user groups"
 msgstr ""
 "<a id=\"GLnote\">Une note &agrave; propos des groupes d'utilisateurs GNU/"
 "Linux</a>"
@@ -128,7 +131,8 @@ msgstr ""
 "promeuvent les logiciels propri&eacute;taires dans leur activit&eacute;."
 
 # type: Content of: <h3>
-msgid "<a id=\"GLlist\">GNU/Linux groups listed by country</a>"
+#, fuzzy
+msgid "GNU/Linux groups listed by country"
 msgstr "<a id=\"GLlist\">Groupes d'utilisateurs GNU/Linux par pays</a>"
 
 # type: Content of: <p>
@@ -151,112 +155,140 @@ msgstr ""
 msgid "(<a href=\"#endofcountries\">Skip over long list</a>)"
 msgstr "(<a href=\"#endofcountries\">Passer la longue liste</a>)"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLArgentina\" id=\"TOCGLArgentina\">Argentina</a>"
-msgstr "<a href=\"#GLArgentina\" id=\"TOCGLArgentina\">Argentine</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLArgentina\">Argentina</a>"
+msgstr "<a id=\"GLArgentina\">Argentine</a>"
+
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLBrazil\">Brazil</a>"
+msgstr "<a id=\"GLBrazil\">Br&eacute;sil</a>"
+
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLChile\">Chile</a>"
+msgstr "<a id=\"GLChile\">Chili</a>"
 
 # type: Content of: <ul><li>
-msgid "<a href=\"#GLBrazil\" id=\"TOCGLBrazil\">Brazil</a>"
-msgstr "<a href=\"#GLBrazil\" id=\"TOCGLBrazil\">Br&eacute;sil</a>"
+#, fuzzy
+msgid "<a href=\"#GLColombia\">Colombia</a>"
+msgstr "<a href=\"#GHIndia\">Inde</a>"
+
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLEgypt\">Egypt</a>"
+msgstr "<a id=\"GLEgypt\">&Eacute;gypte</a>"
+
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLFinland\">Finland</a>"
+msgstr "<a id=\"GLFinland\">Finlande</a>"
+
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLFrance\">France</a>"
+msgstr "<a id=\"GLFrance\">France</a>"
+
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLGermany\">Germany</a>"
+msgstr "<a id=\"GLGermany\">Allemagne</a>"
+
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLGreenland\">Greenland</a>"
+msgstr "<a id=\"GLGreenland\">Groenland</a>"
+
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLIceland\">Iceland</a>"
+msgstr "<a id=\"GLIceland\">Islande</a>"
 
 # type: Content of: <ul><li>
-msgid "<a href=\"#GLChile\" id=\"TOCGLChile\">Chile</a>"
-msgstr "<a href=\"#GLChile\" id=\"TOCGLChile\">Chili</a>"
+#, fuzzy
+msgid "<a href=\"#GLIndia\">India</a>"
+msgstr "<a href=\"#GHIndia\">Inde</a>"
 
 # type: Content of: <ul><li>
-msgid "<a href=\"#GLEgypt\" id=\"TOCGLEgypt\">Egypt</a>"
-msgstr "<a href=\"#GLEgypt\" id=\"TOCGLEgypt\">&Eacute;gypte</a>"
+#, fuzzy
+msgid "<a href=\"#GLItaly\">Italy</a>"
+msgstr "<a href=\"#GHItaly\">Italie</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLFinland\" id=\"TOCGLFinland\">Finland</a>"
-msgstr "<a href=\"#GLFinland\" id=\"TOCGLFinland\">Finlande</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLLebanon\">Lebanon</a>"
+msgstr "<a id=\"GLLebanon\">Liban</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLFrance\" id=\"TOCGLFrance\">France</a>"
-msgstr "<a href=\"#GLFrance\" id=\"TOCGLFrance\">France</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLMadagascar\">Madagascar</a>"
+msgstr "<a id=\"GLMadagascar\">Madagascar</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLGermany\" id=\"TOCGLGermany\">Germany</a>"
-msgstr "<a href=\"#GLGermany\" id=\"TOCGLGermany\">Allemagne</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLMexico\">Mexico</a>"
+msgstr "<a id=\"GLMexico\">Mexique</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLGreenland\" id=\"TOCGreenland\">Greenland</a>"
-msgstr "<a href=\"#GLGreenland\" id=\"TOCGreenland\">Groenland</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLNewZealand\">New Zealand</a>"
+msgstr "<a id=\"GLNewZealand\">Nouvelle Z&eacute;lande</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLIceland\" id=\"TOCIceland\">Iceland</a>"
-msgstr "<a href=\"#GLIceland\" id=\"TOCIceland\">Islande</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLPeru\">Peru</a>"
+msgstr "<a id=\"GLPeru\">P&eacute;rou</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLIndia\" id=\"TOCGLIndia\">India</a>"
-msgstr "<a href=\"#GLIndia\" id=\"TOCGLIndia\">Inde</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLPhilippines\">Philippines</a>"
+msgstr "<a id=\"GLPhilippines\">Philippines</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLItaly\" id=\"TOCGLItaly\">Italy</a>"
-msgstr "<a href=\"#GLItaly\" id=\"TOCGLItaly\">Italie</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLPortugal\">Portugal</a>"
+msgstr "<a id=\"GLPortugal\">Portugal</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLLebanon\" id=\"TOCGLLebanon\">Lebanon</a>"
-msgstr "<a href=\"#GLLebanon\" id=\"TOCGLLebanon\">Liban</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLRomania\">Romania</a>"
+msgstr "<a id=\"GLRomania\">Roumanie</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLMadagascar\" id=\"TOCGLMadagascar\">Madagascar</a>"
-msgstr "<a href=\"#GLMadagascar\" id=\"TOCGLMadagascar\">Madagascar</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLRwanda\">Rwanda</a>"
+msgstr "<a id=\"GLRwanda\">Rwanda</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLMexico\" id=\"TOCGLMexico\">Mexico</a>"
-msgstr "<a href=\"#GLMexico\" id=\"TOCGLMexico\">Mexique</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLSpain\">Spain</a>"
+msgstr "<a id=\"GLSpain\">Espagne</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLNewZealand\" id=\"TOCGLNewZealand\">New Zealand</a>"
-msgstr ""
-"<a href=\"#GLNewZealand\" id=\"TOCGLNewZealand\">Nouvelle Z&eacute;lande</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLSwitzerland\">Switzerland</a>"
+msgstr "<a id=\"GLSwitzerland\">Suisse</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLPeru\" id=\"TOCGLPeru\">Peru</a>"
-msgstr "<a href=\"#GLPeru\" id=\"TOCGLPeru\">P&eacute;rou</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLUnitedKingdom\">United Kingdom</a>"
+msgstr "<a id=\"GLUnitedKingdom\">Royaume-Uni</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLPhilippines\" id=\"TOCPhilippines\">Philippines</a>"
-msgstr "<a href=\"#GLPhilippines\" id=\"TOCPhilippines\">Philippines</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLUnitedStates\">United States</a>"
+msgstr "<a id=\"GLUnitedStates\">États-Unis</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLPortugal\" id=\"TOCGLPortugal\">Portugal</a>"
-msgstr "<a href=\"#GLPortugal\" id=\"TOCGLPortugal\">Portugal</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLVenezuela\">Venezuela</a>"
+msgstr "<a id=\"GLVenezuela\">Venezuela</a>"
 
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLRomania\" id=\"TOCGLRomania\">Romania</a>"
-msgstr "<a href=\"#GLRomania\" id=\"TOCGLRomania\">Roumanie</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLRwanda\" id=\"TOCGLRwanda\">Rwanda</a>"
-msgstr "<a href=\"#GLRwanda\" id=\"TOCGLRwanda\">Rwanda</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLSpain\" id=\"TOCGLSpain\">Spain</a>"
-msgstr "<a href=\"#GLSpain\" id=\"TOCGLSpain\">Espagne</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLSwitzerland\" id=\"TOCGLSwitzerland\">Switzerland</a>"
-msgstr "<a href=\"#GLSwitzerland\" id=\"TOCGLSwitzerland\">Suisse</a>"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"#GLUnitedKingdom\" id=\"TOCGLUnitedKingdom\">United Kingdom</a>"
-msgstr "<a href=\"#GLUnitedKingdom\" id=\"TOCGLUnitedKingdom\">Royaume-Uni</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLUnitedStates\" id=\"TOCGLUnitedStates\">United States</a>"
-msgstr ""
-"<a href=\"#GLUnitedStates\" id=\"TOCGLUnitedStates\">&Eacute;tats-Unis</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLVenezuela\" id=\"TOCGLVenezuela\">Venezuela</a>"
-msgstr "<a href=\"#GLVenezuela\" id=\"TOCGLVenezuela\">Venezuela</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLYemen\" id=\"TOCGLYemen\">Yemen</a>"
-msgstr "<a href=\"#GLYemen\" id=\"TOCGLYemen\">Yemen</a>"
+# type: Content of: <h4>
+#, fuzzy
+msgid "<a href=\"#GLYemen\">Yemen</a>"
+msgstr "<a id=\"GLYemen\">Yemen</a>"
 
 # type: Content of: <p>
 msgid "Here are the GNU/Linux User Groups listed by country:"
@@ -265,8 +297,8 @@ msgstr ""
 "pays&nbsp;:"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLArgentina\">Argentina</a>"
-msgstr "<a id=\"GLArgentina\">Argentine</a>"
+msgid "Argentina"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -331,8 +363,8 @@ msgid "<a href=\"http://www.gulcar.org\">GULCAr</a>"
 msgstr "<a href=\"http://www.gulcar.org\">GULCAr</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLBrazil\">Brazil</a>"
-msgstr "<a id=\"GLBrazil\">Br&eacute;sil</a>"
+msgid "Brazil"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -383,32 +415,45 @@ msgstr ""
 "lula</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLChile\">Chile</a>"
-msgstr "<a id=\"GLChile\">Chili</a>"
+msgid "Chile"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid "<a href=\"http://www.gnuchile.cl\">GNU Chile</a>"
 msgstr "<a href=\"http://www.gnuchile.cl\">GNU Chile</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLEgypt\">Egypt</a>"
-msgstr "<a id=\"GLEgypt\">&Eacute;gypte</a>"
+msgid "Colombia"
+msgstr ""
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<a href=\"http://pulpa.utp.edu.co/\">Pulpa Grupo de Usuarios de GNU/Linux de "
+"Pereira</a>"
+msgstr ""
+"<a href=\"http://www.tjlug.org/\">Grupo de Usuarios de GNU/Linux de Tijuana</"
+"a>"
+
+# type: Content of: <h4>
+msgid "Egypt"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid "<a href=\"http://www.eglug.org/\">Egyptian GNU/Linux Users Group</a>"
 msgstr "<a href=\"http://www.eglug.org/\">Egyptian GNU/Linux Users Group</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLFinland\">Finland</a>"
-msgstr "<a id=\"GLFinland\">Finlande</a>"
+msgid "Finland"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid "<a href=\"http://www.plug.fi/\">Porvoo GNU/Linux User Group</a>"
 msgstr "<a href=\"http://www.plug.fi/\">Porvoo GNU/Linux User Group</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLFrance\">France</a>"
-msgstr "<a id=\"GLFrance\">France</a>"
+msgid "France"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -419,8 +464,8 @@ msgstr ""
 "</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLGermany\">Germany</a>"
-msgstr "<a id=\"GLGermany\">Allemagne</a>"
+msgid "Germany"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -443,16 +488,16 @@ msgstr ""
 "Bochum, Germany"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLGreenland\">Greenland</a>"
-msgstr "<a id=\"GLGreenland\">Groenland</a>"
+msgid "Greenland"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid "<a href=\"http://www.gnuk.org/\">GNUK &mdash; GNU in NUUK</a>"
 msgstr "<a href=\"http://www.gnuk.org/\">GNUK &mdash; GNU in NUUK</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLIceland\">Iceland</a>"
-msgstr "<a id=\"GLIceland\">Islande</a>"
+msgid "Iceland"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -461,8 +506,8 @@ msgstr ""
 "<a href=\"http://www.rglug.org\">Reykjav&#237;k GNU/Linux User's Group</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLIndia\">India</a>"
-msgstr "<a id=\"GLIndia\">Inde</a>"
+msgid "India"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -612,8 +657,8 @@ msgstr ""
 "<a href=\"http://assam-glug.org\">GNU/Linux User Group &mdash; Assam</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLItaly\">Italy</a>"
-msgstr "<a id=\"GLItaly\">Italie</a>"
+msgid "Italy"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -658,8 +703,8 @@ msgstr ""
 "Group in Finale Ligure"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLLebanon\">Lebanon</a>"
-msgstr "<a id=\"GLLebanon\">Liban</a>"
+msgid "Lebanon"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -670,16 +715,16 @@ msgstr ""
 "Group</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLMadagascar\">Madagascar</a>"
-msgstr "<a id=\"GLMadagascar\">Madagascar</a>"
+msgid "Madagascar"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid "<a href=\"http://linuxmg.org/\">GNU Linux Malagasy</a>"
 msgstr "<a href=\"http://linuxmg.org/\">GNU Linux Malagasy</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLMexico\">Mexico</a>"
-msgstr "<a id=\"GLMexico\">Mexique</a>"
+msgid "Mexico"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -698,16 +743,16 @@ msgstr ""
 "a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLNewZealand\">New Zealand</a>"
-msgstr "<a id=\"GLNewZealand\">Nouvelle Z&eacute;lande</a>"
+msgid "New Zealand"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid "<a href=\"http://hackstop.org\">GNU/Linux Users (GLU)</a>"
 msgstr "<a href=\"http://hackstop.org\">GNU/Linux Users (GLU)</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLPeru\">Peru</a>"
-msgstr "<a id=\"GLPeru\">P&eacute;rou</a>"
+msgid "Peru"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid "<a href=\"http://www.aqpglug.org.pe/\">AQP GNU/Linux Users Group</a>"
@@ -726,8 +771,8 @@ msgid "<a href=\"http://www.utpinux.org/\">UTPinux (UTP + GNU/Linux)</a>"
 msgstr "<a href=\"http://www.utpinux.org/\">UTPinux (UTP + GNU/Linux)</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLPhilippines\">Philippines</a>"
-msgstr "<a id=\"GLPhilippines\">Philippines</a>"
+msgid "Philippines"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -736,8 +781,8 @@ msgstr ""
 "<a href=\"http://www.acglug.org/\">Angeles City GNU/Linux Users' Group</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLPortugal\">Portugal</a>"
-msgstr "<a id=\"GLPortugal\">Portugal</a>"
+msgid "Portugal"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -748,8 +793,8 @@ msgstr ""
 "in Portuguese for Portugueses</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLRomania\">Romania</a>"
-msgstr "<a id=\"GLRomania\">Roumanie</a>"
+msgid "Romania"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -760,16 +805,16 @@ msgstr ""
 "(Cluj Napoca Free Software Group)</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLRwanda\">Rwanda</a>"
-msgstr "<a id=\"GLRwanda\">Rwanda</a>"
+msgid "Rwanda"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid "<a href=\"http://www.rwandalinux.org\">Rwanda GNU/Linux Group</a>"
 msgstr "<a href=\"http://www.rwandalinux.org\">Rwanda GNU/Linux Group</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLSpain\">Spain</a>"
-msgstr "<a id=\"GLSpain\">Espagne</a>"
+msgid "Spain"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -829,16 +874,17 @@ msgstr ""
 "Cantabria</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLSwitzerland\">Switzerland</a>"
-msgstr "<a id=\"GLSwitzerland\">Suisse</a>"
+msgid "Switzerland"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid "<a href=\"http://www.lug-ag.ch/\">GNU/Linux User Group Aargau</a>"
 msgstr "<a href=\"http://www.lug-ag.ch/\">GNU/Linux User Group Aargau</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLUnitedKingdom\">United Kingdom</a>"
-msgstr "<a id=\"GLUnitedKingdom\">Royaume-Uni</a>"
+#, fuzzy
+msgid "United Kingdom"
+msgstr "<a id=\"GHUK\">Royaume-Uni</a>"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -855,8 +901,8 @@ msgstr ""
 "Group</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLUnitedStates\">United States</a>"
-msgstr "<a id=\"GLUnitedStates\">États-Unis</a>"
+msgid "United States"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -931,8 +977,8 @@ msgid "<a href=\"http://gnuwatch.com/\">GnuWatch</a>, Fountain, CO."
 msgstr "<a href=\"http://gnuwatch.com/\">GnuWatch</a>, Fountain, CO."
 
 # type: Content of: <h4>
-msgid "<a id=\"GLVenezuela\">Venezuela</a>"
-msgstr "<a id=\"GLVenezuela\">Venezuela</a>"
+msgid "Venezuela"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid "<a href=\"http://www.gnulinuxtachira.org.ve/\">GNU/Linux Tachira</a>"
@@ -963,8 +1009,8 @@ msgid "<a href=\" http://www.unplug.org.ve\">UNPLUG (Nacional)</a>"
 msgstr "<a href=\" http://www.unplug.org.ve\">UNPLUG (Nacional)</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"GLYemen\">Yemen</a>"
-msgstr "<a id=\"GLYemen\">Yemen</a>"
+msgid "Yemen"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -975,7 +1021,8 @@ msgstr ""
 "&amp; Open Source Association</a>"
 
 # type: Content of: <h3>
-msgid "<a id=\"GHlist\">GNU/Hurd groups listed by country</a>"
+#, fuzzy
+msgid "GNU/Hurd groups listed by country"
 msgstr ""
 "<a id=\"GHlist\">Groupes d'utilisateurs GNU/Hurd list&eacute;s par pays</a>"
 
@@ -1007,8 +1054,8 @@ msgstr ""
 "Voici les groupes d'utilisateurs GNU/Hurd list&eacute;s par pays&nbsp;:"
 
 # type: Content of: <h4>
-msgid "<a id=\"GHCanada\">Canada</a>"
-msgstr "<a id=\"GHCanada\">Canada</a>"
+msgid "Canada"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -1018,25 +1065,13 @@ msgstr ""
 "<a href=\"https://savannah.nongnu.org/projects/thug/\">Toronto GNU/Hurd User "
 "Group</a>"
 
-# type: Content of: <h4>
-msgid "<a id=\"GHIndia\">India</a>"
-msgstr "<a id=\"GHIndia\">Inde</a>"
-
 # type: Content of: <ul><li>
 msgid "<a href=\"http://i-hug.sarovar.org\">Indian GNU/Hurd Users Group</a>"
 msgstr "<a href=\"http://i-hug.sarovar.org\">Indian GNU/Hurd Users Group</a>"
 
-# type: Content of: <h4>
-msgid "<a id=\"GHItaly\">Italy</a>"
-msgstr "<a id=\"GHItaly\">Italie</a>"
-
 # type: Content of: <ul><li>
 msgid "<a href=\"http://hurd-it.sf.net/\">Italian Hurd User Group</a>"
 msgstr "<a href=\"http://hurd-it.sf.net/\">Italian Hurd User Group</a>"
-
-# type: Content of: <h4>
-msgid "<a id=\"GHUK\">United Kingdom</a>"
-msgstr "<a id=\"GHUK\">Royaume-Uni</a>"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -1112,3 +1147,133 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLArgentina\" id=\"TOCGLArgentina\">Argentina</a>"
+#~ msgstr "<a href=\"#GLArgentina\" id=\"TOCGLArgentina\">Argentine</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLBrazil\" id=\"TOCGLBrazil\">Brazil</a>"
+#~ msgstr "<a href=\"#GLBrazil\" id=\"TOCGLBrazil\">Br&eacute;sil</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLChile\" id=\"TOCGLChile\">Chile</a>"
+#~ msgstr "<a href=\"#GLChile\" id=\"TOCGLChile\">Chili</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLEgypt\" id=\"TOCGLEgypt\">Egypt</a>"
+#~ msgstr "<a href=\"#GLEgypt\" id=\"TOCGLEgypt\">&Eacute;gypte</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLFinland\" id=\"TOCGLFinland\">Finland</a>"
+#~ msgstr "<a href=\"#GLFinland\" id=\"TOCGLFinland\">Finlande</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLFrance\" id=\"TOCGLFrance\">France</a>"
+#~ msgstr "<a href=\"#GLFrance\" id=\"TOCGLFrance\">France</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLGermany\" id=\"TOCGLGermany\">Germany</a>"
+#~ msgstr "<a href=\"#GLGermany\" id=\"TOCGLGermany\">Allemagne</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLGreenland\" id=\"TOCGreenland\">Greenland</a>"
+#~ msgstr "<a href=\"#GLGreenland\" id=\"TOCGreenland\">Groenland</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLIceland\" id=\"TOCIceland\">Iceland</a>"
+#~ msgstr "<a href=\"#GLIceland\" id=\"TOCIceland\">Islande</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLIndia\" id=\"TOCGLIndia\">India</a>"
+#~ msgstr "<a href=\"#GLIndia\" id=\"TOCGLIndia\">Inde</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLItaly\" id=\"TOCGLItaly\">Italy</a>"
+#~ msgstr "<a href=\"#GLItaly\" id=\"TOCGLItaly\">Italie</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLLebanon\" id=\"TOCGLLebanon\">Lebanon</a>"
+#~ msgstr "<a href=\"#GLLebanon\" id=\"TOCGLLebanon\">Liban</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLMadagascar\" id=\"TOCGLMadagascar\">Madagascar</a>"
+#~ msgstr "<a href=\"#GLMadagascar\" id=\"TOCGLMadagascar\">Madagascar</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLMexico\" id=\"TOCGLMexico\">Mexico</a>"
+#~ msgstr "<a href=\"#GLMexico\" id=\"TOCGLMexico\">Mexique</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLNewZealand\" id=\"TOCGLNewZealand\">New Zealand</a>"
+#~ msgstr ""
+#~ "<a href=\"#GLNewZealand\" id=\"TOCGLNewZealand\">Nouvelle Z&eacute;lande</"
+#~ "a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLPeru\" id=\"TOCGLPeru\">Peru</a>"
+#~ msgstr "<a href=\"#GLPeru\" id=\"TOCGLPeru\">P&eacute;rou</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLPhilippines\" id=\"TOCPhilippines\">Philippines</a>"
+#~ msgstr "<a href=\"#GLPhilippines\" id=\"TOCPhilippines\">Philippines</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLPortugal\" id=\"TOCGLPortugal\">Portugal</a>"
+#~ msgstr "<a href=\"#GLPortugal\" id=\"TOCGLPortugal\">Portugal</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLRomania\" id=\"TOCGLRomania\">Romania</a>"
+#~ msgstr "<a href=\"#GLRomania\" id=\"TOCGLRomania\">Roumanie</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLRwanda\" id=\"TOCGLRwanda\">Rwanda</a>"
+#~ msgstr "<a href=\"#GLRwanda\" id=\"TOCGLRwanda\">Rwanda</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLSpain\" id=\"TOCGLSpain\">Spain</a>"
+#~ msgstr "<a href=\"#GLSpain\" id=\"TOCGLSpain\">Espagne</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLSwitzerland\" id=\"TOCGLSwitzerland\">Switzerland</a>"
+#~ msgstr "<a href=\"#GLSwitzerland\" id=\"TOCGLSwitzerland\">Suisse</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"#GLUnitedKingdom\" id=\"TOCGLUnitedKingdom\">United Kingdom</a>"
+#~ msgstr ""
+#~ "<a href=\"#GLUnitedKingdom\" id=\"TOCGLUnitedKingdom\">Royaume-Uni</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"#GLUnitedStates\" id=\"TOCGLUnitedStates\">United States</a>"
+#~ msgstr ""
+#~ "<a href=\"#GLUnitedStates\" id=\"TOCGLUnitedStates\">&Eacute;tats-Unis</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLVenezuela\" id=\"TOCGLVenezuela\">Venezuela</a>"
+#~ msgstr "<a href=\"#GLVenezuela\" id=\"TOCGLVenezuela\">Venezuela</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLYemen\" id=\"TOCGLYemen\">Yemen</a>"
+#~ msgstr "<a href=\"#GLYemen\" id=\"TOCGLYemen\">Yemen</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a id=\"GLIndia\">India</a>"
+#~ msgstr "<a id=\"GLIndia\">Inde</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a id=\"GLItaly\">Italy</a>"
+#~ msgstr "<a id=\"GLItaly\">Italie</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a id=\"GHCanada\">Canada</a>"
+#~ msgstr "<a id=\"GHCanada\">Canada</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a id=\"GHIndia\">India</a>"
+#~ msgstr "<a id=\"GHIndia\">Inde</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a id=\"GHItaly\">Italy</a>"
+#~ msgstr "<a id=\"GHItaly\">Italie</a>"
