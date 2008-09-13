@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.shtml\n"
-"POT-Creation-Date: 2008-09-05 16:25-0300\n"
+"POT-Creation-Date: 2008-09-10 16:25-0300\n"
 "PO-Revision-Date: 2008-09-07 14:58+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -44,6 +44,12 @@ msgstr "Quoi de neuf&nbsp;?"
 # type: Attribute 'title' of: <link>
 msgid "New Free Software"
 msgstr "Nouveaux logiciels libres"
+
+# type: Content of: <p>
+msgid ""
+"<a href=\"http://www.laquadrature.net/en\">Stop the EU torpedo amendments to "
+"the Telecom bill, support the La Quadrature du Net campaign</a>"
+msgstr ""
 
 # type: Attribute 'alt' of: <h1><img>
 msgid "Freedom Fry"
@@ -367,15 +373,15 @@ msgstr ""
 "R&eacute;pertoire des logiciels libres."
 
 # type: Content of: <table><tr><td><ul><li>
+#, fuzzy
 msgid ""
 "<strong>Priority projects:</strong> <a href=\"http://www.fsf.org/campaigns/"
 "priority.html\">Contribute</a> to these free software projects we are "
 "emphasizing: <a href=\"http://www.fsf.org/campaigns/free-bios.html\">Free "
 "BIOS</a>, <a href=\"http://www.gnu.org/software/gnash\">Gnash</a> (GNU Flash "
-"Player), <a href=\"/software/dotgnu/\">DotGNU</a> (free software replacement "
-"for .NET), <a href=\"http://gnupdf.org\">GNU PDF</a>, <a href=\"http://xiph."
-"org/\">Xiph.org and free Internet protocols</a>, <a href=\"http://sourceware."
-"org/gdb/news/reversible.html\">reversible debugging for GDB</a>."
+"Player), <a href=\"http://xiph.org/\">Xiph.org and free Internet protocols</"
+"a>, <a href=\"http://sourceware.org/gdb/news/reversible.html\">reversible "
+"debugging for GDB</a>."
 msgstr ""
 "<strong>Projets prioritaires&nbsp;:</strong> <a href=\"http://www.fsf.org/"
 "campaigns/priority.html\">Contribuez</a> &agrave; ces projets que nous "

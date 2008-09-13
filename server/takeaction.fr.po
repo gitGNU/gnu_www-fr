@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: takeaction.html\n"
-"POT-Creation-Date: 2008-08-26 16:25-0300\n"
+"POT-Creation-Date: 2008-09-11 16:25-0300\n"
 "PO-Revision-Date: 2008-09-07 15:02+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -113,26 +113,6 @@ msgstr ""
 "compensation&nbsp;&raquo; (le but est de soutenir les musiciens). Cependant, "
 "ce n'est pas une raison pour ne pas <a href=\"http://www.eff.org/share/"
 "petition/\">signer la pétition</a>."
-
-# type: Content of: <dl><dt>
-msgid ""
-"<a id=\"doom\"><strong>Sign petition to free Heretic/Hexen source code</"
-"strong></a>"
-msgstr ""
-"<a id=\"doom\"><strong>Signer la pétition pour libérer le code source de "
-"Heretic/Hexen</strong></a>"
-
-# type: Content of: <dl><dd>
-msgid ""
-"The online Doom game community has a <a href=\"http://www.doomworld.com/"
-"eternity/letter.html\">open letter and petition to Raven Software and "
-"Activision</a> to apply the GNU GPL to previously released source code for "
-"the games Heretic and Hexen."
-msgstr ""
-"La communauté du jeu en ligne Doom a rédigé <a href=\"http://www.doomworld."
-"com/eternity/letter.html\">une lettre ouverte et une pétition à Raven "
-"Software et Activision</a> pour faire appliquer la licence GNU GPL pour le "
-"code source précédemment publié des jeux Heretic et Hexen."
 
 # type: Content of: <dl><dt>
 msgid ""
@@ -400,3 +380,23 @@ msgstr "Derni&egrave;re mise-&agrave;-jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <dl><dt>
+#~ msgid ""
+#~ "<a id=\"doom\"><strong>Sign petition to free Heretic/Hexen source code</"
+#~ "strong></a>"
+#~ msgstr ""
+#~ "<a id=\"doom\"><strong>Signer la pétition pour libérer le code source de "
+#~ "Heretic/Hexen</strong></a>"
+
+# type: Content of: <dl><dd>
+#~ msgid ""
+#~ "The online Doom game community has a <a href=\"http://www.doomworld.com/"
+#~ "eternity/letter.html\">open letter and petition to Raven Software and "
+#~ "Activision</a> to apply the GNU GPL to previously released source code "
+#~ "for the games Heretic and Hexen."
+#~ msgstr ""
+#~ "La communauté du jeu en ligne Doom a rédigé <a href=\"http://www."
+#~ "doomworld.com/eternity/letter.html\">une lettre ouverte et une pétition à "
+#~ "Raven Software et Activision</a> pour faire appliquer la licence GNU GPL "
+#~ "pour le code source précédemment publié des jeux Heretic et Hexen."
