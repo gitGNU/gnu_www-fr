@@ -1,0 +1,95 @@
+# French translation of http://www.gnu.org/education/freelearning.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the freelearning.html package.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: freelearning.html\n"
+"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"PO-Revision-Date: 2008-09-13 13:21+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "Free Learning Resources - GNU Project - Free Software Foundation (FSF)"
+msgstr "Ressources d'apprentissage libres - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+msgid "Free Learning Resources"
+msgstr "Ressources d'apprentissage libres"
+
+# type: Content of: <h3>
+msgid "Introduction"
+msgstr "Introduction"
+
+# type: Content of: <p>
+msgid "Often, Free software advocates find that they can logically translate their beliefs to other naturally abundant resources traditionally restricted by copyright.  One of the most important of these is educational materials."
+msgstr "Souvent, les avocats du logiciel libre trouvent qu'ils peuvent traduire logiquement leurs croyances pour d'autres ressources naturellement abondantes, traditionnellement restreintes par le droit d'auteur. L'une des plus importantes d'entre-elles sont les supports pour l'enseignement."
+
+# type: Content of: <p>
+msgid "Free information is more widely distributed, thanks to its liberal licensing, and can therefore reach more of its knowledge-hungry audience."
+msgstr "Les informations libres sont distribuées plus largement, grâce à leur mode de licence plus libérale, et peuvent par conséquent toucher une part plus importante de leur public assoiffé de connaissances."
+
+# type: Content of: <p>
+msgid "The Free information meta-project is not nearly as far along as Free software, though.  Thus, much of the focus right now is on creating Free information.  Fortunately, while you need a great deal of software to operate a Free system, you don't need much Free information to learn something without losing your rights."
+msgstr "Le méta-projet sur les informations libres n'est pas aussi avancé que celui sur les logiciels libres. Par conséquent, l'essentiel de l'attention se porte maintenant sur la création d'informations libres. Heureusement, alors que vous avez besoin d'un grand nombre de logiciels pour faire fonctionner un système d'exploitation libre, vous n'avez pas besoin de beaucoup d'informations pour apprendre quelque chose sans perdre vos droits."
+
+# type: Content of: <h4>
+msgid "Free Learning Projects"
+msgstr "Projets d'apprentissage libres"
+
+# type: Content of: <p>
+msgid "While we'd be pleased to collect as much as contributors submit to us, any Free contributions to any group would be welcome.  Some other such groups, that support only Free materials, are listed below."
+msgstr "Bien que nous serions heureux de collecter autant de contributions que possible, toute contribution libre à un quelconque groupe serait la bienvenue. D'autres groupe de ce type, qui ne soutiennent que les supports libres, sont listés ci-dessous&nbsp:"
+
+# type: Content of: <ul><li>
+msgid "<a href=\"http://www.wikipedia.org/\">Wikipedia</a> is the eclectic Free encyclopedia project, fulfilling the <a href=\"/encyclopedia/free-encyclopedia.html\">Free Universal Encyclopedia and Learning Resource</a> concept proposed on gnu.org."
+msgstr "<a href=\"http://www.wikipedia.org/\">Wikipédia</a> est le projet d'encyclopédie éclectique libre, adressant le concept d'<a href=\"/encyclopedia/free-encyclopedia.html\">encyclopédie universelle libre et de ressources d'apprentissage</a> proposé sur gnu.org."
+
+# type: Content of: <ul><li>
+msgid "<a href=\"http://promo.net/pg/\">Project Gutenberg</a> publishes plain text versions of public-domain works.  If you are looking for a copy of a classic book, your search should start on their FTP servers."
+msgstr "Le <a href=\"http://promo.net/pg/\">Projet Gutenberg</a> publie des versions en texte brut d'œuvres du domaine public. Si vous recherchez une copie d'un livre classique, vous devriez commencer vos recherches sur leurs serveurs FTP."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:education@gnu.org\"><em>education@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.,"
+msgstr "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.,"
+
+# type: Content of: <div><address>
+msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+
+# type: Content of: <div><p>
+msgid "Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved."
+msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
