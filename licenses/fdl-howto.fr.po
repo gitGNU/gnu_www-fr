@@ -16,28 +16,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
-msgid "Tips for using the GNU FDL - GNU Project - Free Software Foundation (FSF)"
-msgstr "Comment utiliser la GNU FDL - GNU Project - Free Software Foundation (FSF)"
+msgid ""
+"Tips for using the GNU FDL - GNU Project - Free Software Foundation (FSF)"
+msgstr ""
+"Comment utiliser la GNU FDL - GNU Project - Free Software Foundation (FSF)"
 
 # type: Content of: <h2>
 msgid "Other tips for using the GNU Free Documentation License"
 msgstr "Comment utiliser la GNU Free Documentation License (FDL)&nbsp;?"
 
 # type: Content of: <dl><dt>
-msgid "<a href=\"/licenses/fdl-howto-opt.html\">How does one use the optional features of the FDL?</a>"
-msgstr "<a href=\"/licenses/fdl-howto-opt.fr.html\">Comment utiliser les fonctionnalit&eacute;s optionnelles de la FDL&nbsp;?</a>"
+msgid ""
+"<a href=\"/licenses/fdl-howto-opt.html\">How does one use the optional "
+"features of the FDL?</a>"
+msgstr ""
+"<a href=\"/licenses/fdl-howto-opt.fr.html\">Comment utiliser les "
+"fonctionnalit&eacute;s optionnelles de la FDL&nbsp;?</a>"
 
 # type: Content of: <dl><dd>
-msgid "We have a <a href=\"/licenses/fdl-howto-opt.html\">separate page</a> that discusses how to use the optional features of the FDL."
-msgstr "Nous avons une <a href=\"/licenses/fdl-howto-opt.fr.html\">page s&eacute;par&eacute;e</a> qui explique comment utiliser les fonctionnalit&eacute;s optionnelles de la FDL."
+msgid ""
+"We have a <a href=\"/licenses/fdl-howto-opt.html\">separate page</a> that "
+"discusses how to use the optional features of the FDL."
+msgstr ""
+"Nous avons une <a href=\"/licenses/fdl-howto-opt.fr.html\">page s&eacute;"
+"par&eacute;e</a> qui explique comment utiliser les fonctionnalit&eacute;s "
+"optionnelles de la FDL."
 
 # type: Content of: <dl><dt>
 msgid "Where must one put the license notification?"
 msgstr "O&ugrave; placer la notice de licence&nbsp;?"
 
 # type: Content of: <dl><dd>
-msgid "It is sufficient to put the full license notice in the &ldquo;main&rdquo; file of your document.  For example, with the <cite>Emacs Lisp Reference Manual</cite>, we have many files included by <code>elisp.texi</code>.  We keep the full notification in <code>elisp.texi</code>, and in the other files we simply write:"
-msgstr "Il est suffisant de placer la notice de licence compl&egrave;te dans le fichier &laquo;&nbsp;principal&nbsp;&raquo; de votre document. Par exemple, dans le cas du <cite>Emacs Lisp Reference Manual</cite>, plusieurs fichiers sont inclus par le fichier <code>elisp.texi</code>. Nous conservons la notice compl&egrave;te dans <code>elisp.texi</code> et nous &eacute;crivons simplement dans les autres fichiers&nbsp;:"
+msgid ""
+"It is sufficient to put the full license notice in the &ldquo;main&rdquo; "
+"file of your document.  For example, with the <cite>Emacs Lisp Reference "
+"Manual</cite>, we have many files included by <code>elisp.texi</code>.  We "
+"keep the full notification in <code>elisp.texi</code>, and in the other "
+"files we simply write:"
+msgstr ""
+"Il est suffisant de placer la notice de licence compl&egrave;te dans le "
+"fichier &laquo;&nbsp;principal&nbsp;&raquo; de votre document. Par exemple, "
+"dans le cas du <cite>Emacs Lisp Reference Manual</cite>, plusieurs fichiers "
+"sont inclus par le fichier <code>elisp.texi</code>. Nous conservons la "
+"notice compl&egrave;te dans <code>elisp.texi</code> et nous &eacute;crivons "
+"simplement dans les autres fichiers&nbsp;:"
 
 # type: Content of: <dl><dd><pre>
 #, no-wrap
@@ -57,28 +79,45 @@ msgstr ""
 "@c See the file elisp.texi for copying conditions.\n"
 
 # type: Content of: <dl><dt>
-msgid "What do I do with scripts that are needed to render my document properly?"
-msgstr "Que faire avec les scripts dont j'ai besoin pour construire mon document correctement&nbsp;?"
+msgid ""
+"What do I do with scripts that are needed to render my document properly?"
+msgstr ""
+"Que faire avec les scripts dont j'ai besoin pour construire mon document "
+"correctement&nbsp;?"
 
 # type: Content of: <dl><dd>
-msgid "We recommend you release these scripts under the GNU FDL as well.  Of course, if these scripts are generally useful for other tasks, it is a good idea to release them separately under the GNU GPL."
-msgstr "Nous recommandons que vous distribuiez aussi vos scripts sous la GNU FDL. Bien s&ucirc;r, si ces scripts peuvent &ecirc;tre utiles &agrave; d'autres t&acirc;ches, c'est une bonne id&eacute;e de les distribuer sous la GNU GPL."
+msgid ""
+"We recommend you release these scripts under the GNU FDL as well.  Of "
+"course, if these scripts are generally useful for other tasks, it is a good "
+"idea to release them separately under the GNU GPL."
+msgstr ""
+"Nous recommandons que vous distribuiez aussi vos scripts sous la GNU FDL. "
+"Bien s&ucirc;r, si ces scripts peuvent &ecirc;tre utiles &agrave; d'autres "
+"t&acirc;ches, c'est une bonne id&eacute;e de les distribuer sous la GNU GPL."
 
 # type: Content of: <dl><dt>
 msgid "Is it required for the document to have invariant sections?"
-msgstr "Est-il obligatoire que le document contienne des sections invariantes&nbsp;?"
+msgstr ""
+"Est-il obligatoire que le document contienne des sections invariantes&nbsp;?"
 
 # type: Content of: <dl><dd>
-msgid "No.  It is perfectly acceptable for a document to have no invariant sections."
+msgid ""
+"No.  It is perfectly acceptable for a document to have no invariant sections."
 msgstr "Non. Un document peut parfaitement n'avoir aucune section invariante."
 
 # type: Content of: <dl><dt>
 msgid "Should I try to make sure the document has some invariant sections?"
-msgstr "Devrais-je essayer de m'assurer que le document a des sections invariantes&nbsp;?"
+msgstr ""
+"Devrais-je essayer de m'assurer que le document a des sections "
+"invariantes&nbsp;?"
 
 # type: Content of: <dl><dd>
-msgid "Not particularly.  If a section's contents ought to be invariant, make it invariant."
-msgstr "Pas particuli&egrave;rement. Si le contenu d'une section doit &ecirc;tre invariant, mettez cette section invariante."
+msgid ""
+"Not particularly.  If a section's contents ought to be invariant, make it "
+"invariant."
+msgstr ""
+"Pas particuli&egrave;rement. Si le contenu d'une section doit &ecirc;tre "
+"invariant, mettez cette section invariante."
 
 # type: Content of: <dl><dt>
 msgid "Should I try to avoid invariant sections?"
@@ -89,20 +128,49 @@ msgid "When should a section be invariant?"
 msgstr "Quand une section devrait-elle &ecirc;tre invariante&nbsp;?"
 
 # type: Content of: <dl><dd>
-msgid "First of all, keep in mind that a section that treats technical material <em>cannot</em> be invariant.  Only a secondary section can be invariant, and a technical section is not a secondary section."
-msgstr "Tout d'abord, il faut garder &agrave; l'esprit qu'une section traitant d'aspects techniques <em>ne peut</em> &ecirc;tre invariante. Seule une section secondaire peut &ecirc;tre invariante, et une section technique n'est pas une section secondaire."
+msgid ""
+"First of all, keep in mind that a section that treats technical material "
+"<em>cannot</em> be invariant.  Only a secondary section can be invariant, "
+"and a technical section is not a secondary section."
+msgstr ""
+"Tout d'abord, il faut garder &agrave; l'esprit qu'une section traitant "
+"d'aspects techniques <em>ne peut</em> &ecirc;tre invariante. Seule une "
+"section secondaire peut &ecirc;tre invariante, et une section technique "
+"n'est pas une section secondaire."
 
 # type: Content of: <dl><dd><p>
-msgid "If the section is text that you're not allowed to modify, such as a copy of the GNU GPL, then it <em>must</em> be invariant.  You can't give permission to modify it if you don't have permission to modify it."
-msgstr "Si la section est un texte que vous n'avez pas la permission de modifier, tel que la GNU GPL, alors elle <em>doit</em> &ecirc;tre invariante. Vous ne pouvez pas donner la permission de modification si vous n'avez pas vous m&ecirc;me cette permission."
+msgid ""
+"If the section is text that you're not allowed to modify, such as a copy of "
+"the GNU GPL, then it <em>must</em> be invariant.  You can't give permission "
+"to modify it if you don't have permission to modify it."
+msgstr ""
+"Si la section est un texte que vous n'avez pas la permission de modifier, "
+"tel que la GNU GPL, alors elle <em>doit</em> &ecirc;tre invariante. Vous ne "
+"pouvez pas donner la permission de modification si vous n'avez pas vous "
+"m&ecirc;me cette permission."
 
 # type: Content of: <dl><dd><p>
-msgid "(One consequence is that you <em>cannot use</em> preexisting text which covers technical material if you don't have permission to allow modification of that text.)"
-msgstr "(Une cons&eacute;quence est que vous <em>ne pouvez pas utiliser</em> du texte pr&eacute;-existant qui couvre des aspects techniques si vous n'avez pas la permission d'autoriser la modification de ce texte)."
+msgid ""
+"(One consequence is that you <em>cannot use</em> preexisting text which "
+"covers technical material if you don't have permission to allow modification "
+"of that text.)"
+msgstr ""
+"(Une cons&eacute;quence est que vous <em>ne pouvez pas utiliser</em> du "
+"texte pr&eacute;-existant qui couvre des aspects techniques si vous n'avez "
+"pas la permission d'autoriser la modification de ce texte)."
 
 # type: Content of: <dl><dd><p>
-msgid "When a section discusses the philosophy of free software, it is a good idea to make that section invariant.  For instance, when we put the GNU Manifesto in a manual, or when we include a section explaining why free documentation is important, we make that section invariant."
-msgstr "Quand une section d&eacute;bat de la philosophie du logiciel libre, c'est une bonne id&eacute;e de la mettre invariante. Par exemple, quand nous ins&eacute;rons le Manifeste GNU dans un manuel, ou quand nous incluons une section expliquant pourquoi la documentation libre est importante, nous mettons ces sections invariantes."
+msgid ""
+"When a section discusses the philosophy of free software, it is a good idea "
+"to make that section invariant.  For instance, when we put the GNU Manifesto "
+"in a manual, or when we include a section explaining why free documentation "
+"is important, we make that section invariant."
+msgstr ""
+"Quand une section d&eacute;bat de la philosophie du logiciel libre, c'est "
+"une bonne id&eacute;e de la mettre invariante. Par exemple, quand nous "
+"ins&eacute;rons le Manifeste GNU dans un manuel, ou quand nous incluons une "
+"section expliquant pourquoi la documentation libre est importante, nous "
+"mettons ces sections invariantes."
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
@@ -110,12 +178,29 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
-msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
-msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+"ways to contact</a> the FSF.  <br /> Please send broken links and other "
+"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+"\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
-msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
-msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+msgid ""
+"Please see the <a href=\"/server/standards/README.translations.html"
+"\">Translations README</a> for information on coordinating and submitting "
+"translations of this article."
+msgstr ""
+"Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html"
+"\">README des traductions</a> pour des informations sur la coordination et "
+"la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
 msgid "Copyright &copy; 2000, 2001, 2008 Free Software Foundation, Inc.,"
@@ -126,20 +211,26 @@ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
-msgid "Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved."
-msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+msgid ""
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium without royalty provided this notice is preserved."
+msgstr ""
+"La reproduction exacte et la distribution intégrale de cet article est "
+"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
+"préservée."
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
-msgstr "Traduction&nbsp;: Benjamin Drieu.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+msgstr ""
+"Traduction&nbsp;: Benjamin Drieu.<br /> Révision&nbsp;: <a href=\"mailto:"
+"trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 # type: Content of: <div><p>
-#.  timestamp start
+#.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
-

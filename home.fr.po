@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.shtml\n"
-"POT-Creation-Date: 2008-09-10 16:25-0300\n"
+"POT-Creation-Date: 2008-09-17 16:25-0300\n"
 "PO-Revision-Date: 2008-09-07 14:58+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -45,10 +45,30 @@ msgstr "Quoi de neuf&nbsp;?"
 msgid "New Free Software"
 msgstr "Nouveaux logiciels libres"
 
+# type: Content of: <p><a>
+msgid ""
+"<a href=\"http://stopsoftwarepatents.org/\" title=\"Stop Software Patents!\">"
+msgstr ""
+
+# type: Attribute 'alt' of: <p><a><img>
+msgid "Stop Software Patents &mdash; World Day, September 24th"
+msgstr ""
+
+# type: Content of: <p>
+msgid "</a>"
+msgstr "</a>"
+
 # type: Content of: <p>
 msgid ""
 "<a href=\"http://www.laquadrature.net/en\">Stop the EU torpedo amendments to "
 "the Telecom bill, support the La Quadrature du Net campaign</a>"
+msgstr ""
+
+# type: Content of: <p>
+msgid ""
+"<a href=\"http://www.numerama.com/magazine/9854-10-bonnes-raisons-de-dire-"
+"NON-a-la-loi-Hadopi.html\">Take action: France plans to adopt a law, which "
+"would punish people who fail to 'respect' copyright on the Internet.</a>"
 msgstr ""
 
 # type: Attribute 'alt' of: <h1><img>
@@ -60,16 +80,25 @@ msgid "<a href=\"/fry/happy-birthday-to-gnu.html\">"
 msgstr "<a href=\"/fry/happy-birthday-to-gnu.fr.html\">"
 
 # type: Content of: <p>
-msgid "</a>"
-msgstr "</a>"
-
-# type: Content of: <p>
 msgid ""
 "Mr. Stephen Fry <a href=\"/fry/\">introduces you to free software</a>, and "
 "reminds you of a very special birthday."
 msgstr ""
 "M. Stephen Fry <a href=\"/fry/happy-birthday-to-gnu.fr.html\">vous présente "
 "les logiciels libres</a> et vous rappelle un anniversaire très spécial."
+
+# type: Content of: <p><a>
+#, fuzzy
+msgid "<a href=\"/fry/happy-birthday-to-gnu-in-your-language.html\">"
+msgstr "<a href=\"/fry/happy-birthday-to-gnu.fr.html\">"
+
+# type: Attribute 'alt' of: <p><a><img>
+msgid "Software Freedom Day"
+msgstr ""
+
+# type: Attribute 'title' of: <p><a><img>
+msgid "Download Fry in your language!"
+msgstr ""
 
 # type: Content of: <table><tr><td><h2>
 msgid "What is GNU?"
