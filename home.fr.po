@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.shtml\n"
-"POT-Creation-Date: 2008-09-17 16:25-0300\n"
+"POT-Creation-Date: 2008-09-21 16:25-0300\n"
 "PO-Revision-Date: 2008-09-07 14:58+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -116,8 +116,9 @@ msgstr ""
 "syst&egrave;me GNU."
 
 # type: Content of: <table><tr><td><p>
+#, fuzzy
 msgid ""
-"GNU's kernel wasn't finished, so GNU is used with the kernel Linux.  The "
+"GNU's kernel isn't finished, so GNU is used with the kernel Linux.  The "
 "combination of GNU and Linux is the GNU/Linux operating system, now used by "
 "millions.  (Sometimes this combination is incorrectly called <a href=\"/gnu/"
 "linux-and-gnu.html\">Linux</a>.)"
