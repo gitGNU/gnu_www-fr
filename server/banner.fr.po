@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: banner.html\n"
-"POT-Creation-Date: 2008-08-24 16:25-0300\n"
+"POT-Creation-Date: 2008-09-27 16:25-0300\n"
 "PO-Revision-Date: 2008-08-16 16:39+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -23,34 +23,37 @@ msgid "@import url('/print.css');"
 msgstr "@import url('/print.css');"
 
 # type: Content of: <body><div>
+#, fuzzy
 msgid ""
-"<span class=\"netscape4\"><a href=\"#content\">Skip to content</a> | </"
-"span><a href=\"#translations\">Translations of this page</a>"
+"<span class=\"netscape4\"><a href=\"#content\">Skip to content</a> | | <a "
+"href=\"#searcher\">Skip to search</a> | </span><a href=\"#translations"
+"\">Translations of this page</a>"
 msgstr ""
 "<span class=\"netscape4\"><a href=\"#content\">Aller au contenu</a> | </"
 "span><a href=\"#translations\">Traductions de cette page</a>"
 
-# type: Content of: <body><div><div><form><div>
-msgid ""
-"<label for=\"phrase\">Search:</label> <input name=\"phrase\" id=\"phrase\" "
-"type=\"text\" size=\"35\" accesskey=\"s\" /> <input type=\"submit\" value="
-"\"Go\" />"
+# type: Content of: <body><div><div><div><div><p>
+msgid "<a href=\"#navigation\">Skip to navigation</a>"
 msgstr ""
-"<label for=\"phrase\">Rechercher&nbsp;:</label> <input name=\"phrase\" id="
-"\"phrase\" type=\"text\" size=\"35\" accesskey=\"s\" /> <input type=\"submit"
-"\" value=\"Go\" />"
+
+# type: Content of: <body><div><div><div><div><h1>
+msgid "Sign up for the <em>Free Software Supporter</em>"
+msgstr ""
+
+# type: Content of: <body><div><div><div><div><p>
+msgid "A monthly update on GNU and the FSF"
+msgstr ""
+
+# type: Content of: <body><div><div><div><div><form><p>
+msgid ""
+"<input type=\"text\" id=\"frmEmail\" name=\"email\" size=\"15\" maxlength="
+"\"80\" value=\"you@example.com\" onfocus=\"this.value=''\" /> &nbsp; <input "
+"type=\"submit\" value=\"Ok\" />"
+msgstr ""
 
 # type: Content of: <body><div><div><div><h1>
 msgid "<a href=\"/\">The GNU Operating System</a>"
 msgstr "<a href=\"/\">Le syst&egrave;me d'exploitation GNU</a>"
-
-# type: Content of: <body><div><div><div><ul><li>
-msgid "<a href=\"/\">Home</a>"
-msgstr "<a href=\"/home.fr.html\">Accueil</a>"
-
-# type: Content of: <body><div><div><div><ul><li>
-msgid "<a href=\"http://shop.fsf.org/\">Store</a>"
-msgstr "<a href=\"http://shop.fsf.org/\">Boutique</a>"
 
 # type: Content of: <body><div><div><div><ul><li>
 msgid "<a href=\"/gnu/gnu.html\">History</a>"
@@ -65,7 +68,8 @@ msgid "<a href=\"/licenses/licenses.html\">Licenses</a>"
 msgstr "<a href=\"/licenses/licenses.fr.html\">Licences</a>"
 
 # type: Content of: <body><div><div><div><ul><li>
-msgid "<a href=\"/software/software.html\">Download&nbsp;GNU</a>"
+#, fuzzy
+msgid "<a href=\"/software/software.html\">Downloads</a>"
 msgstr "<a href=\"/software/software.fr.html\">Télécharger&nbsp;GNU</a>"
 
 # type: Content of: <body><div><div><div><ul><li>
@@ -73,5 +77,30 @@ msgid "<a href=\"/help/help.html\">Help&nbsp;GNU</a>"
 msgstr "<a href=\"/help/help.fr.html\">Aidez&nbsp;GNU</a>"
 
 # type: Content of: <body><div><div><div><ul><li>
-msgid "<a href=\"/server/sitemap.html\">Sitemap</a>"
-msgstr "<a href=\"/server/sitemap.html\">Plan&nbsp;du&nbsp;site</a>"
+msgid ""
+"<a href=\"https://www.fsf.org/associate/support_freedom/join_fsf?"
+"referrer=4052\">Join the FSF!</a>"
+msgstr ""
+
+# type: Content of: <body><div><div><form><div>
+#, fuzzy
+msgid ""
+"<label class=\"netscape4\" for=\"phrase\">Search:</label> <input name="
+"\"phrase\" id=\"phrase\" type=\"text\" size=\"18\" accesskey=\"s\" value="
+"\"Why GNU/Linux?\" /> <input type=\"submit\" value=\"Search\" />"
+msgstr ""
+"<label for=\"phrase\">Rechercher&nbsp;:</label> <input name=\"phrase\" id="
+"\"phrase\" type=\"text\" size=\"35\" accesskey=\"s\" /> <input type=\"submit"
+"\" value=\"Go\" />"
+
+# type: Content of: <body><div><div><div><ul><li>
+#~ msgid "<a href=\"/\">Home</a>"
+#~ msgstr "<a href=\"/home.fr.html\">Accueil</a>"
+
+# type: Content of: <body><div><div><div><ul><li>
+#~ msgid "<a href=\"http://shop.fsf.org/\">Store</a>"
+#~ msgstr "<a href=\"http://shop.fsf.org/\">Boutique</a>"
+
+# type: Content of: <body><div><div><div><ul><li>
+#~ msgid "<a href=\"/server/sitemap.html\">Sitemap</a>"
+#~ msgstr "<a href=\"/server/sitemap.html\">Plan&nbsp;du&nbsp;site</a>"
