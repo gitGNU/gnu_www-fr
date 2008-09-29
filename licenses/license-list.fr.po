@@ -125,7 +125,7 @@ msgstr "Les licences de logiciels libres compatibles avec la GPL"
 
 # type: Content of: <p>
 msgid "<strong>The following licenses qualify as <a href=\"/philosophy/free-sw.html\">free software</a> licenses, and are compatible with the <a href=\"#GNUGPL\">GNU GPL</a>.</strong>"
-msgstr "<strong>Voici une liste de licences qui m&eacute;ritent l'appellation de licences de <a href=\"/philosophy/free-sw.fr.html\">logiciels libres</a> et qui sont compatibles avec la <a href=\"#GNUGPL\">GPL de GNU</a>&nbs;:</strong>"
+msgstr "<strong>Voici une liste de licences qui m&eacute;ritent l'appellation de licences de <a href=\"/philosophy/free-sw.fr.html\">logiciels libres</a> et qui sont compatibles avec la <a href=\"#GNUGPL\">GPL de GNU</a>&nbsp;:</strong>"
 
 # type: Content of: <dl><dt>
 msgid "<a id=\"GNUGPL\" href=\"/licenses/gpl.html\"> GNU General Public License (GPL) version 3</a>"
@@ -293,7 +293,7 @@ msgstr "<a href=\"http://www.osedu.org/licenses/ECL-2.0/\" id=\"ECL2.0\">Educati
 
 # type: Content of: <dl><dd><p>
 msgid "This is a free software license, and it is compatible with GPLv3.  It is based on the <a href=\"#apache2\">Apache License 2.0</a>; the scope of the patent license has changed so that when an organization's employee works on a project, the organization does not have to license all of its patents to recipients.  This patent license and the indemnification clause in section 9 make this license incompatible with GPLv2."
-msgstr "c'est une licence de logiciel libre, et elle est compatible avec la GPLv3. Elle est bas&eacute;e sur la <a href=\"#apache2\">Licence Apache 2.0</a>&nbsp;; la port&eacute;e de la licence de brevet a chang&eacute; de sorte que lorsque l'employ&eacute; d'une organisation travaille sur un projet, l'organisation n'a pas besoin de licencier tous ses brevets aux destinataires. Cette licence de brevet et la clause d'indemnisation de la section 9 rendent cette licence incompatible avec la GPLv2."
+msgstr "C'est une licence de logiciel libre, et elle est compatible avec la GPLv3. Elle est bas&eacute;e sur la <a href=\"#apache2\">Licence Apache 2.0</a>&nbsp;; la port&eacute;e de la licence de brevet a chang&eacute; de sorte que lorsque l'employ&eacute; d'une organisation travaille sur un projet, l'organisation n'a pas besoin de licencier tous ses brevets aux destinataires. Cette licence de brevet et la clause d'indemnisation de la section 9 rendent cette licence incompatible avec la GPLv2."
 
 # type: Content of: <dl><dt>
 msgid "<a href=\"/licenses/eiffel-forum-license-2.html\"> Eiffel Forum License, version 2</a>"
@@ -425,7 +425,7 @@ msgstr "<a id=\"newOpenLDAP\" href=\"http://www.openldap.org/software/release/li
 
 # type: Content of: <dl><dd><p>
 msgid "This is a permissive non-copyleft free software license that is compatible with the GNU GPL."
-msgstr ">C'est une licence permissive, sans gauche d'auteur, compatible avec la GPL de GNU."
+msgstr "C'est une licence permissive, sans gauche d'auteur, compatible avec la GPL de GNU."
 
 # type: Content of: <dl><dt>
 msgid "<a id=\"PerlLicense\">License of Perl 5 and below</a>"
@@ -461,7 +461,7 @@ msgstr "La licence de Python, jusqu'&agrave; la version 1.6a2"
 
 # type: Content of: <dl><dd><p>
 msgid "This is a free software license and is compatible with the GNU GPL.  Please note, however, that newer versions of Python are under other licenses (see above and below)."
-msgstr "C'est une licence de logiciel libre compatible avec la GPL. Attention, certaines versions plus r&eacute;centes de Python sont plac&eacute;es sous une licence diff&eacute;rente (voir ci-dessus et plus bas</a>)."
+msgstr "C'est une licence de logiciel libre compatible avec la GPL. Attention, certaines versions plus r&eacute;centes de Python sont plac&eacute;es sous une licence diff&eacute;rente (voir ci-dessus et plus bas)."
 
 # type: Content of: <dl><dt>
 msgid "<a href=\"http://www.ruby-lang.org/en/LICENSE.txt\"> License of Ruby</a>"
@@ -505,7 +505,7 @@ msgstr "<a id=\"X11License\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html
 
 # type: Content of: <dl><dd><p>
 msgid "This is a simple, permissive non-copyleft free software license, compatible with the GNU GPL.  Older versions of XFree86 used the same license, and some of the current variants of XFree86 also do.  Later versions of XFree86 are distributed under the <a href=\"#XFree861.1License\">XFree86 1.1 license</a>."
-msgstr "Il s'agit d'une licence de logiciel libre simple et permissive, sans gauche d'auteur, compatible avec la GPL de GNU.  Les anciennes versions de XFree86 utilisaient la m&ecirc;me licence, et quelques variantes actuelles de XFree86 l'utilisent &eacute;galement. Les licences ult&eacute;rieures de XFree86 sont distribu&eacute;es sous la licence <a href=\"#XFree861.1License\">XFree86 1.1 license</a>."
+msgstr "Il s'agit d'une licence de logiciel libre simple et permissive, sans gauche d'auteur, compatible avec la GPL de GNU. Les anciennes versions de XFree86 utilisaient la m&ecirc;me licence, et quelques variantes actuelles de XFree86 l'utilisent &eacute;galement. Les licences ult&eacute;rieures de XFree86 sont distribu&eacute;es sous la licence <a href=\"#XFree861.1License\">XFree86 1.1 license</a>."
 
 # type: Content of: <dl><dd><p>
 msgid "This license is sometimes called the <em>MIT license</em>, but that term is misleading, since MIT has used many licenses for software."
@@ -1275,7 +1275,7 @@ msgstr "Le fait que l'Universit&eacute; de l'Utah utilise cette licence est exem
 
 # type: Content of: <dl><dd><p>
 msgid "If a university tries to impose a license like this on the software you are writing, don't give up hope.  <a href=\"/philosophy/university.html\">With persistence and firmness, and some forethought, it is possible to prevail over money-grabbing university administrators.</a>"
-msgstr "Si vous voyez une universit&eacute; essayer d'imposer une licence comme celle-ci sur un logiciel que vous &ecirc;tes en train d'&eacute;crire, ne perdez pas tout espoir. <ahref=\"/philosophy/university.fr.html\">Avec de la pers&eacute;v&eacute;rance et de la fermet&eacute;, plus un peu de capacit&eacute; &agrave; anticiper, il est possible d'obtenir gain de cause sur les requins qui administrent les universit&eacute;s."
+msgstr "Si vous voyez une universit&eacute; essayer d'imposer une licence comme celle-ci sur un logiciel que vous &ecirc;tes en train d'&eacute;crire, ne perdez pas tout espoir. <a href=\"/philosophy/university.fr.html\">Avec de la pers&eacute;v&eacute;rance et de la fermet&eacute;, plus un peu de capacit&eacute; &agrave; anticiper, il est possible d'obtenir gain de cause sur les requins qui administrent les universit&eacute;s."
 
 # type: Content of: <dl><dd><p>
 msgid "The earlier you raise the issue, the better."
@@ -1307,7 +1307,7 @@ msgstr "<a id=\"FreeDocumentationLicenses\">Les licences de documentation libres
 
 # type: Content of: <p>
 msgid "<strong>The following licenses qualify as <a href=\"/philosophy/free-doc.html\">free documentation</a> licenses.</strong>"
-msgstr "Voici une liste de licences que l'on peut qualifier de <a href=\"/philosophy/free-doc.fr.html\">licences de documentation libre</a>&nbsp;:</strong>"
+msgstr "<strong>Voici une liste de licences que l'on peut qualifier de <a href=\"/philosophy/free-doc.fr.html\">licences de documentation libre</a>&nbsp;:</strong>"
 
 # type: Content of: <dl><dt>
 msgid "<a href=\"/licenses/fdl.html\"> GNU Free Documentation License</a>"
@@ -1451,7 +1451,7 @@ msgstr "En tous cas, les licences ci-dessous s'appliquent &agrave; l'instantiati
 
 # type: Content of: <dl><dd><p>
 msgid "The GNU GPL <strong>can</strong> be used for fonts.  However, note that it does not permit embedding the font in a document unless that document is also licensed under the GPL.  If you want to allow this, use the <a href=\"/licenses/gpl-faq.html#FontException\">font exception</a>.  See also this <a href=\"http://www.fsf.org/blogs/licensing/20050425novalis\">explanatory essay about the GPL Font Exception</a>."
-msgstr "La GPL GNU <strong>peut</strong> &ecirc;tre utilis&eacute;e pour les polices. Cependant, notez qu'elle ne permet pas d'int&eacute;grer la police dans un document &agrave; moins que celui-ci ne soit aussi sous licence GPL. Si vous voulez permettre cela, utilisez l'<a href=\"/licenses/gpl-faq.fr.html#FontException\">exception pour les polices</a>.</p>Veuillez &eacute;galement consulter <a href=\"http://www.fsf.org/blogs/licensing/20050425novalis\">cet article expliquant l'exception des polices de la GPL</a>."
+msgstr "La GPL GNU <strong>peut</strong> &ecirc;tre utilis&eacute;e pour les polices. Cependant, notez qu'elle ne permet pas d'int&eacute;grer la police dans un document &agrave; moins que celui-ci ne soit aussi sous licence GPL. Si vous voulez permettre cela, utilisez l'<a href=\"/licenses/gpl-faq.fr.html#FontException\">exception pour les polices</a>."
 
 # type: Content of: <dl><dt>
 msgid "<a href=\"http://ftp.gnu.org/gnu/non-gnu/chinese-fonts-truetype/LICENSE\"> Arphic Public License</a>"
@@ -1459,7 +1459,7 @@ msgstr "<a href=\"http://ftp.gnu.org/gnu/non-gnu/chinese-fonts-truetype/LICENSE\
 
 # type: Content of: <dl><dd><p>
 msgid "This is a copyleft free software license, incompatible with the GPL. Its normal use is for fonts, and in that use, the incompatibility does not cause a problem."
-msgstr "C'est une gauche d'auteur de licence de logiciel libre incompatible avec la GPL. Elle est d'un usage habituel pour les polices de caract&egrave;res, et dans ce cadre pr&eacute;cis l'incompatibilit&eacute; GPL ne pose pas de probl&egrave;me"
+msgstr "C'est une gauche d'auteur de licence de logiciel libre incompatible avec la GPL. Elle est d'un usage habituel pour les polices de caract&egrave;res, et dans ce cadre pr&eacute;cis l'incompatibilit&eacute; GPL ne pose pas de probl&egrave;me."
 
 # type: Content of: <dl><dt>
 msgid "<a href=\"http://scripts.sil.org/OFL_web\"> SIL Open Font License 1.1</a>"
@@ -1467,7 +1467,7 @@ msgstr "<a href=\"http://scripts.sil.org/OFL_web\">SIL Open Font License 1.1</a>
 
 # type: Content of: <dl><dd><p>
 msgid "The Open Font License (including its original release, version 1.0)  is a free copyleft license for fonts.  Its only unusual requirement is that fonts be distributed with some computer program, rather than alone.  Since a simple Hello World program will satisfy the requirement, it is harmless.  Neither we nor SIL recommend the use of this license for anything other than fonts."
-msgstr "SIL Open Font License est une licence libre pour les polices de caract&egrave;res. Sa seule condition inhabituelle c'est que les polices doivent &ecirc;tre distribu&eacute;es avec un programme pour ordinateur plut&ocirc;t que seules. Puisqu'un simple programme &laquo;&nbsp;Hello World&nbsp;&raquo; satisfait cette condition, c'est sans danger. La FSF et la SIL recommandent de ne pas utiliser la licence SIL pour autre chose que des polices de caract&egrave;res."
+msgstr "La licence Open Font License (y compris sa version originale, la version 1.0), est une licence libre pour les polices de caract&egrave;res. Sa seule condition inhabituelle c'est que les polices doivent &ecirc;tre distribu&eacute;es avec un programme pour ordinateur plut&ocirc;t que seules. Puisqu'un simple programme &laquo;&nbsp;Hello World&nbsp;&raquo; satisfait cette condition, c'est sans danger. La FSF et la SIL recommandent de ne pas utiliser cette licence pour autre chose que des polices de caract&egrave;res."
 
 # type: Content of: <h2>
 msgid "<a id=\"OpinionLicenses\">Licenses for Works of Opinion and Judgment</a>"
