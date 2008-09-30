@@ -1,0 +1,63 @@
+#!/bin/bash
+
+# Copyright (C) 2008 Free Software Foundation, Inc.
+
+# This file is part of GNUnited Nations.
+
+# GNUnited Nations is free software: you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+
+# GNUnited Nations is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with GNUnited Nations.  If not, see <http://www.gnu.org/licenses/>.
+
+set -e
+set -o pipefail
+
+if [ $# -ne 1 ]; then
+    echo 1>&2 Error: The script requires a FILE as argument.
+    exit 1
+fi
+
+ROOT=`dirname $0`/../..
+USERDTD=$HOME/dtd
+
+# Create two tempfiles and mark them for deletion on exit.
+TMP1=`mktemp -t gnun.1.XXXXXX`
+TMP2=`mktemp -t gnun.2.XXXXXX`
+trap "rm -f $TMP1 $TMP2" EXIT
+
+# Expand input file's #include directives and save the result in
+# $TMP1.
+cat $1 | sed "s/<\!--#include virtual=\"\/\?\(.*\)\" -->/include(\`\1')/g" \
+  | m4 -EE -I $ROOT > $TMP1
+
+# Execute xmllint on $TMP1 and save it's output to $TMP2.
+set +o pipefail
+set +e
+cat $TMP1 | xmllint --path "$USERDTD" --loaddtd --nonet --noout - 2> $TMP2
+LINTSTATUS=$?
+set -e
+set -o pipefail
+
+# Parse xmllint's error output (if any) and print it by inserting
+# additional context line after every occurrence of "line X" where X
+# is a decimal number.  It is helpful to show the contents of those
+# mentioned lines, since xmllint runs on intermediate input file (with
+# expanded #include directives) and the translator can not easily look
+# up for references in it.
+cat $TMP2 | sed '
+  /line [[:digit:]]\+/ {
+     p
+     s=^.*line \([[:digit:]]\+\).*$=head -n \1 '"$TMP1"' | tail -n 1=
+     e
+  }'
+
+# Exit with xmlint's original exit status.
+exit $LINTSTATUS
