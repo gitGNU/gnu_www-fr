@@ -25,8 +25,8 @@ if [ $# -ne 1 ]; then
     exit 1
 fi
 
-ROOT=`dirname $0`/../..
-USERDTD=$HOME/dtd
+ROOT=`dirname $0`/../www/
+USERDTD=./
 
 # Create two tempfiles and mark them for deletion on exit.
 TMP1=`mktemp -t gnun.1.XXXXXX`
