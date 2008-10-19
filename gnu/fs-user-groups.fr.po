@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: fs-user-groups.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2008-10-10 04:26-0300\n"
 "PO-Revision-Date: 2008-08-17 17:10+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -108,6 +108,11 @@ msgstr "<a href=\"#Italy\" id=\"TOCItaly\">Italie</a>"
 # type: Content of: <ul><li>
 msgid "<a href=\"#Mexico\" id=\"TOCMexico\">Mexico</a>"
 msgstr "<a href=\"#Mexico\" id=\"TOCMexico\">Mexique</a>"
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid "<a href=\"#Panama\" id=\"TOCPanama\">Panama</a>"
+msgstr "<a href=\"#India\" id=\"TOCIndia\">Inde</a>"
 
 # type: Content of: <ul><li>
 msgid "<a href=\"#Peru\" id=\"TOCPeru\">Peru</a>"
@@ -281,6 +286,17 @@ msgstr "Mexique"
 # type: Content of: <ul><li>
 msgid "<a href=\"http://www.ancrae.org.mx/\">ANCrae</a>"
 msgstr "<a href=\"http://www.ancrae.org.mx/\">ANCrae</a>"
+
+# type: Content of: <h4>
+msgid "Panama"
+msgstr ""
+
+# type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://gnupanama.com/\">Comunidad GNU Panam&aacute;</a> - "
+"organization dedicated to distribution, development and research of Free "
+"Software in Panama"
+msgstr ""
 
 # type: Content of: <h4>
 msgid "Peru"

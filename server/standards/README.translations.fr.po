@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: README.translations.html\n"
-"POT-Creation-Date: 2008-09-28 16:25-0300\n"
+"POT-Creation-Date: 2008-10-10 16:25-0300\n"
 "PO-Revision-Date: 2008-09-29 20:23+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -570,15 +570,15 @@ msgstr ""
 "a>)"
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
 "<code>ml</code> - <a href=\"https://savannah.gnu.org/projects/www-ml"
-"\">Malayalam</a> (The team is being reformed, please contact <a href="
-"\"mailto:web-translators@gnu.org\"> &lt;web-translators@gnu.org&gt;</a>)"
+"\">Malayalam</a> (<a href=\"https://savannah.gnu.org/users/aeshyamae\">Shyam "
+"Karanattu</a>)"
 msgstr ""
-"<code>ml</code> - <a href=\"https://savannah.gnu.org/projects/www-ml"
-"\">Malay&acirc;lam</a> (L'&eacute;quipe est en cours de r&eacute;forme, "
-"veuillez contacter <a href=\"mailto:web-translators@gnu.org\">&lt;web-"
-"translators@gnu.org&gt;</a>)"
+"<code>th</code> - <a href=\"https://savannah.gnu.org/projects/www-th"
+"\">Tha&iuml;</a> (<a href=\"https://savannah.gnu.org/users/chaitat\">Chaitat "
+"Piriyasatit</a>)"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -869,3 +869,14 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traduction de cette page"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<code>ml</code> - <a href=\"https://savannah.gnu.org/projects/www-ml"
+#~ "\">Malayalam</a> (The team is being reformed, please contact <a href="
+#~ "\"mailto:web-translators@gnu.org\"> &lt;web-translators@gnu.org&gt;</a>)"
+#~ msgstr ""
+#~ "<code>ml</code> - <a href=\"https://savannah.gnu.org/projects/www-ml"
+#~ "\">Malay&acirc;lam</a> (L'&eacute;quipe est en cours de r&eacute;forme, "
+#~ "veuillez contacter <a href=\"mailto:web-translators@gnu.org\">&lt;web-"
+#~ "translators@gnu.org&gt;</a>)"

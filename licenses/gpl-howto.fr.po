@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-howto.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2008-10-13 16:25-0300\n"
 "PO-Revision-Date: 2008-09-21 13:06+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -78,13 +78,14 @@ msgstr ""
 "Licence Publique G&eacute;n&eacute;rale GNU (ou la GPL amoindrie)."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "The copyright notice should include the year in which you finished preparing "
 "the release (so if you finished it in 1998 but didn't post it until 1999, "
-"use 1998).  You should add the proper year for each release: for example, "
+"use 1998).  You should add the proper year for each release; for example, "
 "&ldquo;Copyright 1998, 1999 Terry Jones&rdquo; if some versions were "
-"finished in 1998 and some were finished in 1999.  If several people have "
-"helped write the code, use all their names."
+"finished in 1998 and some were finished in 1999.  If several people helped "
+"write the code, use all their names."
 msgstr ""
 "La notice de copyright doit inclure l'ann&eacute;e pendant laquelle vous "
 "avez termin&eacute; de pr&eacute;parer la version (donc, si vous l'avez "
@@ -94,6 +95,13 @@ msgstr ""
 "si certaines versions on &eacute;t&eacute; termin&eacute;es en 1998 et "
 "d'autres en 1999. Si plusieurs personnes ont aid&eacute; &agrave; &eacute;"
 "crire le code, utilisez le nom de chacune d'elle."
+
+# type: Content of: <p>
+msgid ""
+"For software with several releases over multiple years, it is best to spell "
+"out each year, in full, without using ranges or abbreviations, as in the "
+"example above."
+msgstr ""
 
 # type: Content of: <p>
 msgid ""
@@ -180,9 +188,10 @@ msgstr ""
 "mise sous licence."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "The copying permission statement should come right after the copyright "
-"notices.  For a one-file program, the statement (for the GPL) should look "
+"notices.  For a one-file program, the statement (for the GPL)  should look "
 "like this:"
 msgstr ""
 "La d&eacute;claration de permission de copie devrait &ecirc;tre "
@@ -360,11 +369,13 @@ msgstr ""
 "pour plus d'informations et un court questionnaire."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"But you can use any of our licenses even if your program is not a GNU "
-"package; they're available to everyone.  If you'd like to advertise your use "
-"of a particular license, feel free to use <a href=\"/graphics/license-logos."
-"html\" title=\"GNU License Logos\">one of our logos</a>."
+"But you are welcome to use any of our licenses even if your program is not a "
+"GNU package; indeed, we hope you will.  They're available to everyone.  If "
+"you'd like to advertise your use of a particular license, feel free to use "
+"<a href=\"/graphics/license-logos.html\" title=\"GNU License Logos\">one of "
+"our logos</a>."
 msgstr ""
 "Notez que vous pouvez utiliser n'importe laquelle de nos licences m&ecirc;me "
 "si votre programme n'est pas un paquetage GNU&nbsp; elles sont disponibles "

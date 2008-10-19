@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: philosophy.html\n"
-"POT-Creation-Date: 2008-09-27 16:25-0300\n"
+"POT-Creation-Date: 2008-10-15 16:25-0300\n"
 "PO-Revision-Date: 2008-09-29 20:15+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -515,12 +515,16 @@ msgstr ""
 "tats-Unis d'Am&eacute;rique</a>"
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
 "<a href=\"/philosophy/push-copyright-aside.html\">Science must &ldquo;push "
 "copyright aside&rdquo;</a>, another work of <a href=\"http://www.stallman.org"
 "\">Richard Stallman</a> that appeared in the <a href=\"http://www.nature.com/"
 "nature/debates/e-access/Articles/stallman.html\"> Nature Webdebates</a> in "
-"2001, explains how copyright is impeding progress in scientific research."
+"2001, explains how copyright is impeding progress in scientific research.  "
+"You may also be interested in <a href=\"http://www.publiclibraryofscience.org"
+"\">The Public Library of Science</a>, which is dedicated to making "
+"scientific research freely available to all on the Internet."
 msgstr ""
 "<a href=\"/philosophy/push-copyright-aside.fr.html\">La science doit &laquo;"
 "&nbsp;mettre de c&ocirc;t&eacute; les droits d'auteur&nbsp;&raquo;</a>, un "
@@ -529,32 +533,6 @@ msgstr ""
 "stallman.html\">Les d&eacute;bats Web de Nature</a> (Nature Webdebates) en "
 "2001, qui explique comment le copyright freine le progr&egrave;s dans la "
 "recherche scientifique."
-
-# type: Content of: <ul><li><ul><li>
-msgid ""
-"You may also be interested in <a href=\"http://www.publiclibraryofscience.org"
-"\">The Public Library of Science</a>, which is dedicated to making "
-"scientific research freely available to all on the Internet."
-msgstr ""
-"Vous pourriez &ecirc;tre aussi int&eacute;ress&eacute;s par la <a href="
-"\"http://www.publiclibraryofscience.org\">The Public Library of Science</a> "
-"(Biblioth&egrave;que publique de la science), qui est d&eacute;di&eacute;e "
-"&agrave; la mise &agrave; libre disposition de la recherche scientifique sur "
-"l'Internet pour tous."
-
-# type: Content of: <ul><li><ul><li>
-msgid ""
-"A <a href=\"http://www.nature.com/cgi-taf/DynaPage.taf?file=/nature/journal/"
-"v425/n6960/full/425752b_fs.html\"> related article</a> describes how the "
-"principal scientific organizations of Germany have issued a joint "
-"declaration in support of the provision of free scientific information over "
-"the Internet."
-msgstr ""
-"<a href=\"http://www.nature.com/cgi-taf/DynaPage.taf?file=/nature/journal/"
-"v425/n6960/full/425752b_fs.html\">Un article similaire</a> qui d&eacute;crit "
-"comment les principales organisations scientifiques d'Allemagne ont "
-"publi&eacute; une d&eacute;claration conjointe pour soutenir la clause d'une "
-"information scientifique libre sur Internet."
 
 # type: Content of: <ul><li>
 msgid ""
@@ -576,21 +554,16 @@ msgstr ""
 "plus."
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
-"<a href=\"/philosophy/freedom-or-copyright.html\">Freedom-Or Copyright?</a> "
-"by <a href=\"http://www.stallman.org/\">Richard Stallman</a>"
+"<a href=\"/philosophy/freedom-or-copyright.html\">Freedom-Or Copyright?</a>, "
+"by <a href=\"http://www.stallman.org/\">Richard Stallman</a> (an <a href=\"/"
+"philosophy/freedom-or-copyright-old.html\">older version</a> of this essay "
+"remains online as well)."
 msgstr ""
 "<a href=\"/philosophy/freedom-or-copyright.fr.html\">Libert&eacute; ou "
 "copyright&nbsp;?</a> par <a href=\"http://www.stallman.org/\">Richard "
 "Stallman</a>"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/freedom-or-copyright-old.html\">Freedom-Or Copyright?</"
-"a>, an older version of the essay."
-msgstr ""
-"<a href=\"/philosophy/freedom-or-copyright-old.fr.html\">Libert&eacute; ou "
-"copyright&nbsp;?</a>, une ancienne version de l'essai."
 
 # type: Content of: <ul><li>
 msgid ""
@@ -863,25 +836,27 @@ msgstr ""
 "<a href=\"/philosophy/trivial-patent.fr.html\">L'anatomie d'un brevet "
 "trivial</a>, par Richard M. Stallman."
 
+# type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/gif.html\">Why there are no GIF files on GNU web "
+"pages</a>, While this story is a historical illustration of the danger of "
+"software patents, these particular patents are now no longer a concern. For "
+"details of our website <a href=\"/server/fsf-html-style-sheet."
+"html#UseofGraphics\">policies regarding GIFs</a>, see our web <a href=\"/"
+"server/standards/\">web guidelines</a>."
+msgstr ""
+"<a href=\"/philosophy/gif.fr.html\">Pourquoi il n'y a pas de fichiers GIF "
+"sur les pages Web de GNU</a>. Cette histoire est une illustration historique "
+"du danger des brevets logiciels&nbsp;; ces brevets particuliers ne sont plus "
+"un prob&egrave;me maintenant (voir la <a href=\"#venuenote\">note de bas de "
+"page</a> ci-dessous. Pour des d&eacute;tails sur la <a href=\"/server/fsf-"
+"html-style-sheet.html#UseofGraphics\">politique concernant les fichiers GIF</"
+"a> sur notre site Web, veuillez consulter le <a href=\"/server/standards/"
+"\">guide de conduite Web</a>."
+
 # type: Content of: <h4>
-msgid "Misc"
-msgstr "Divers"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/sun-in-night-time.html\">The Curious Incident of Sun "
-"in the Night-Time</a>, by Richard M. Stallman."
+msgid "Cultural and Social Issues"
 msgstr ""
-"<a href=\"/philosophy/sun-in-night-time.fr.html\">Le curieux non-&eacute;"
-"v&eacute;nement de Sun dans la p&eacute;nombre</a> par Richard M. Stallman."
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://counterpunch.org/baker08192004.html\">Why We Need &ldquo;"
-"Free Software&rdquo; Voting Machines</a>"
-msgstr ""
-"<a href=\"http://counterpunch.org/baker08192004.html\">Pourquoi avons-nous "
-"besoin de machines &agrave; voter &agrave; base de logiciel libre</a>"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -889,19 +864,6 @@ msgid ""
 msgstr ""
 "<a href=\"/philosophy/wsis.fr.html\">Sommet mondial sur la soci&eacute;"
 "t&eacute; de l'information</a>"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/sco/sco-gnu-linux.html\">SCO, GNU, and Linux</a>, by "
-"Richard Stallman, discusses how SCO's lawsuit against IBM pertains to the "
-"work of the GNU project.  Please see the <a href=\"/philosophy/sco/sco.html"
-"\">FSF SCO Response Page</a> for more details on this subject."
-msgstr ""
-"<a href=\"/philosophy/sco/sco-gnu-linux.fr.html\">SCO, GNU et Linux</a>, par "
-"Richard Stallman, parle de la fa&ccedil;on dont les poursuites judiciaires "
-"de SCO contre IBM, sont relatives au travail du projet GNU. Veuillez "
-"consulter la <a href=\"/philosophy/sco/sco.fr.html\">page de la r&eacute;"
-"ponse de la FSF &agrave; SCO</a>pour plus de d&eacute;tails sur ce sujet."
 
 # type: Content of: <ul><li>
 msgid ""
@@ -916,40 +878,12 @@ msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
-"<a href=\"/philosophy/ms-doj-tunney.html\">FSF's Statement in Response to "
-"Proposed Revised Final Judgment in Microsoft vs. United States, submitted to "
-"the US Department of Justice under the Tunney Act</a>."
-msgstr ""
-"<a href=\"/philosophy/ms-doj-tunney.fr.html\">La d&eacute;claration de la "
-"FSF en r&eacute;ponse au jugement final r&eacute;vis&eacute; propos&eacute; "
-"dans Microsoft contre &Eacute;tats-Unis, soumise au Minist&egrave;re de la "
-"justice am&eacute;ricain dans le cadre du Tunney Act</a>."
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/new-monopoly.html\">U.S. Congress Threatens to "
-"Establish a New Kind of Monopoly</a>, an attempt of the Congress to create a "
-"private monopoly over repeating publicly known information."
-msgstr ""
-"<a href=\"/philosophy/new-monopoly.fr.html\">Le Cong&egrave;s am&eacute;"
-"ricain menace d'établir une nouvelle sorte de monopole</a>, une tentative du "
-"congr&egrave;s pour cr&eacute;er un monopole priv&eacute; sur des "
-"informations publiques connues."
-
-# type: Content of: <ul><li>
-msgid ""
 "<a href=\"/philosophy/wassenaar.html\">Encryption software volunteers needed "
 "in countries without export control</a>."
 msgstr ""
 "<a href=\"/philosophy/wassenaar.fr.html\">On recherche des b&eacute;n&eacute;"
 "voles de la cryptographie logicielle dans des pays sans contr&ocirc;le des "
 "exportations</a>."
-
-# type: Content of: <ul><li>
-msgid "<a href=\"/philosophy/dat.html\">The Right Way to Tax DAT</a>"
-msgstr ""
-"<a href=\"/philosophy/dat.fr.html\">La bonne fa&ccedil;on de taxer les DAT</"
-"a>"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -959,14 +893,6 @@ msgstr ""
 "Comment prot&eacute;ger les <a href=\"/philosophy/basic-freedoms.fr.html"
 "\">libert&eacute;s d'expression, de la presse et d'association</a> sur "
 "Interne"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/censoring-emacs.html\">Censoring My Software</a>, by "
-"<a href=\"http://www.stallman.org\">Richard Stallman</a>"
-msgstr ""
-"<a href=\"/philosophy/censoring-emacs.fr.html\">Censurer mon logiciel</a>, "
-"par <a href=\"http://www.stallman.org\">Richard Stallman</a>"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -1017,6 +943,83 @@ msgstr ""
 "\">Free Software and Sustainable Development</a> - Un court article par le "
 "Dr. Stallman concernant l'utilisation de logiciels propri&eacute;taires dans "
 "le d&eacute;veloppement culturel."
+
+# type: Content of: <h4>
+msgid "Misc"
+msgstr "Divers"
+
+# type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/sun-in-night-time.html\">The Curious Incident of Sun "
+"in the Night-Time</a>, by Richard M. Stallman."
+msgstr ""
+"<a href=\"/philosophy/sun-in-night-time.fr.html\">Le curieux non-&eacute;"
+"v&eacute;nement de Sun dans la p&eacute;nombre</a> par Richard M. Stallman."
+
+# type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://counterpunch.org/baker08192004.html\">Why We Need &ldquo;"
+"Free Software&rdquo; Voting Machines</a>"
+msgstr ""
+"<a href=\"http://counterpunch.org/baker08192004.html\">Pourquoi avons-nous "
+"besoin de machines &agrave; voter &agrave; base de logiciel libre</a>"
+
+# type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/sco/sco-gnu-linux.html\">SCO, GNU, and Linux</a>, by "
+"Richard Stallman, discusses how SCO's lawsuit against IBM pertains to the "
+"work of the GNU project.  Please see the <a href=\"/philosophy/sco/sco.html"
+"\">FSF SCO Response Page</a> for more details on this subject."
+msgstr ""
+"<a href=\"/philosophy/sco/sco-gnu-linux.fr.html\">SCO, GNU et Linux</a>, par "
+"Richard Stallman, parle de la fa&ccedil;on dont les poursuites judiciaires "
+"de SCO contre IBM, sont relatives au travail du projet GNU. Veuillez "
+"consulter la <a href=\"/philosophy/sco/sco.fr.html\">page de la r&eacute;"
+"ponse de la FSF &agrave; SCO</a>pour plus de d&eacute;tails sur ce sujet."
+
+# type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/ms-doj-tunney.html\">FSF's Statement in Response to "
+"Proposed Revised Final Judgment in Microsoft vs. United States, submitted to "
+"the US Department of Justice under the Tunney Act</a>."
+msgstr ""
+"<a href=\"/philosophy/ms-doj-tunney.fr.html\">La d&eacute;claration de la "
+"FSF en r&eacute;ponse au jugement final r&eacute;vis&eacute; propos&eacute; "
+"dans Microsoft contre &Eacute;tats-Unis, soumise au Minist&egrave;re de la "
+"justice am&eacute;ricain dans le cadre du Tunney Act</a>."
+
+# type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/new-monopoly.html\">U.S. Congress Threatens to "
+"Establish a New Kind of Monopoly</a>, an attempt of the Congress to create a "
+"private monopoly over repeating publicly known information."
+msgstr ""
+"<a href=\"/philosophy/new-monopoly.fr.html\">Le Cong&egrave;s am&eacute;"
+"ricain menace d'établir une nouvelle sorte de monopole</a>, une tentative du "
+"congr&egrave;s pour cr&eacute;er un monopole priv&eacute; sur des "
+"informations publiques connues."
+
+# type: Content of: <ul><li>
+msgid "<a href=\"/philosophy/dat.html\">The Right Way to Tax DAT</a>"
+msgstr ""
+"<a href=\"/philosophy/dat.fr.html\">La bonne fa&ccedil;on de taxer les DAT</"
+"a>"
+
+# type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/censoring-emacs.html\">Censoring My Software</a>, by "
+"<a href=\"http://www.stallman.org\">Richard Stallman</a>"
+msgstr ""
+"<a href=\"/philosophy/censoring-emacs.fr.html\">Censurer mon logiciel</a>, "
+"par <a href=\"http://www.stallman.org\">Richard Stallman</a>"
+
+# type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/motivation.html\">Studies Find Reward Often No "
+"Motivator</a>"
+msgstr ""
+"<a href=\"/philosophy/motivation.fr.html\">Des &eacute;tudes montrent que la "
+"r&eacute;mun&eacute;ration n'est souvent pas une motivation</a>"
 
 # type: Content of: <h3>
 msgid "Terminology and Definitions"
@@ -1094,40 +1097,6 @@ msgid ""
 "<a href=\"/philosophy/compromise.html\">Avoiding Ruinous Compromises</a>"
 msgstr ""
 "<a href=\"/philosophy/compromise.html\">Éviter les compromis ruineux</a>"
-
-# type: Content of: <h3>
-msgid "GIFs"
-msgstr "GIFs"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/gif.html\">Why there are no GIF files on GNU web "
-"pages</a>, While this story is a historical illustration of the danger of "
-"software patents, these particular patents are now no longer a concern. For "
-"details of our website <a href=\"/server/fsf-html-style-sheet."
-"html#UseofGraphics\">policies regarding GIFs</a>, see our web <a href=\"/"
-"server/standards/\">web guidelines</a>."
-msgstr ""
-"<a href=\"/philosophy/gif.fr.html\">Pourquoi il n'y a pas de fichiers GIF "
-"sur les pages Web de GNU</a>. Cette histoire est une illustration historique "
-"du danger des brevets logiciels&nbsp;; ces brevets particuliers ne sont plus "
-"un prob&egrave;me maintenant (voir la <a href=\"#venuenote\">note de bas de "
-"page</a> ci-dessous. Pour des d&eacute;tails sur la <a href=\"/server/fsf-"
-"html-style-sheet.html#UseofGraphics\">politique concernant les fichiers GIF</"
-"a> sur notre site Web, veuillez consulter le <a href=\"/server/standards/"
-"\">guide de conduite Web</a>."
-
-# type: Content of: <h3>
-msgid "Motivation"
-msgstr "Motivation"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/motivation.html\">Studies Find Reward Often No "
-"Motivator</a>"
-msgstr ""
-"<a href=\"/philosophy/motivation.fr.html\">Des &eacute;tudes montrent que la "
-"r&eacute;mun&eacute;ration n'est souvent pas une motivation</a>"
 
 # type: Content of: <h3>
 msgid "Philosophical humor"
@@ -1220,3 +1189,45 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li><ul><li>
+#~ msgid ""
+#~ "You may also be interested in <a href=\"http://www.publiclibraryofscience."
+#~ "org\">The Public Library of Science</a>, which is dedicated to making "
+#~ "scientific research freely available to all on the Internet."
+#~ msgstr ""
+#~ "Vous pourriez &ecirc;tre aussi int&eacute;ress&eacute;s par la <a href="
+#~ "\"http://www.publiclibraryofscience.org\">The Public Library of Science</"
+#~ "a> (Biblioth&egrave;que publique de la science), qui est d&eacute;"
+#~ "di&eacute;e &agrave; la mise &agrave; libre disposition de la recherche "
+#~ "scientifique sur l'Internet pour tous."
+
+# type: Content of: <ul><li><ul><li>
+#~ msgid ""
+#~ "A <a href=\"http://www.nature.com/cgi-taf/DynaPage.taf?file=/nature/"
+#~ "journal/v425/n6960/full/425752b_fs.html\"> related article</a> describes "
+#~ "how the principal scientific organizations of Germany have issued a joint "
+#~ "declaration in support of the provision of free scientific information "
+#~ "over the Internet."
+#~ msgstr ""
+#~ "<a href=\"http://www.nature.com/cgi-taf/DynaPage.taf?file=/nature/journal/"
+#~ "v425/n6960/full/425752b_fs.html\">Un article similaire</a> qui d&eacute;"
+#~ "crit comment les principales organisations scientifiques d'Allemagne ont "
+#~ "publi&eacute; une d&eacute;claration conjointe pour soutenir la clause "
+#~ "d'une information scientifique libre sur Internet."
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"/philosophy/freedom-or-copyright-old.html\">Freedom-Or "
+#~ "Copyright?</a>, an older version of the essay."
+#~ msgstr ""
+#~ "<a href=\"/philosophy/freedom-or-copyright-old.fr.html\">Libert&eacute; "
+#~ "ou copyright&nbsp;?</a>, une ancienne version de l'essai."
+
+# type: Content of: <h3>
+#~ msgid "GIFs"
+#~ msgstr "GIFs"
+
+# type: Content of: <h3>
+#~ msgid "Motivation"
+#~ msgstr "Motivation"
