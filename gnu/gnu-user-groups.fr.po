@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-user-groups.html\n"
-"POT-Creation-Date: 2008-09-29 16:25-0300\n"
+"POT-Creation-Date: 2008-11-01 04:25-0300\n"
 "PO-Revision-Date: 2008-10-02 19:07+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -29,13 +29,14 @@ msgid "Submitting groups to be listed"
 msgstr "Proposer un groupe pour qu'il soit list&eacute;"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "If you know of a GNU/Linux or GNU/Hurd User Group that is not listed on this "
 "page, please let us know.  Write to <a href=\"mailto:user-groups@gnu.org"
 "\">&lt;user-groups@gnu.org&gt;</a> with the group's full name and other "
 "contact information, including the URL of the group's web site if it has "
-"one.  If your group's information is out of date, you can use the same "
-"method to update it."
+"one.  If your group's information on this page is out of date, you can use "
+"the same method to update it."
 msgstr ""
 "Si vous connaissez un groupe d'utilisateurs GNU/Linux ou GNU/Hurd qui n'est "
 "pas repertori&eacute; sur cette page, merci de nous en faire part. &Eacute;"
@@ -46,15 +47,15 @@ msgstr ""
 "la m&ecirc;me m&eacute;thode pour les mettre &agrave; jour."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"If you are forming a GNU/Linux User Group, we suggest that you avoid "
-"acronyms that contain &ldquo;lug&rdquo; (unless part of &ldquo;"
-"glug&rdquo;).  Those acronyms will lead people to assume that it is a Linux "
-"User Group, in effect giving an incorrect impression.  Be creative&mdash;"
-"don't assume the group's name must have &ldquo;lug&rdquo; or &ldquo;"
-"glug&rdquo; in it.  If your group would like to change from a &ldquo;"
-"lug&rdquo; name to another name, and if getting a new domain is an obstacle, "
-"please ask the FSF to help."
+"If you are forming a GNU/Linux User Group, we ask that you avoid acronyms "
+"that contain &ldquo;lug&rdquo; (unless part of &ldquo;glug&rdquo;).  Those "
+"acronyms will lead people to assume that it is a Linux User Group, in effect "
+"giving an incorrect impression.  Be creative&mdash;don't assume the group's "
+"name must have &ldquo;lug&rdquo; or &ldquo;glug&rdquo; in it.  If your group "
+"would like to change from a &ldquo;lug&rdquo; name to another name, and "
+"getting a new domain is an obstacle, please ask the FSF to help."
 msgstr ""
 "Si vous formez un groupe d'utilisateur GNU/Linux, nous vous recommandons "
 "d'&eacute;viter l'utilisation d'acronymes qui contiennent &laquo;&nbsp;"
@@ -75,12 +76,13 @@ msgstr ""
 "(NdT&nbsp;:Free Software user groups)"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"On this page we list user groups that are centered around variations of the "
-"GNU operating system. There exists several user groups that are not centered "
-"around any set of programs, but instead on Free Software itself. We have "
-"created a special page for those groups &mdash; <a href=\"/gnu/fs-user-"
-"groups.html\">Free Software Users Groups</a>"
+"On this page we list user groups that are centered on variations of the GNU "
+"operating system. Other user groups are not centered on any set of programs, "
+"but instead on Free Software itself. We have created a special page for "
+"those groups&mdash;<a href=\"/gnu/fs-user-groups.html\">Free Software Users "
+"Groups</a>."
 msgstr ""
 "Sur cette page nous listons des groupes d'utilisateurs qui sont centr&eacute;"
 "s autour de variations du syst&egrave;me d'exploitation GNU. Il existe "
@@ -95,12 +97,13 @@ msgid "A note about GNU/Linux user groups"
 msgstr "Une note &agrave; propos des groupes d'utilisateurs GNU/Linux"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "We list <a href=\"/gnu/linux-and-gnu.html\">GNU/Linux</a> User Groups&mdash;"
 "that is, user groups that describe themselves as &ldquo;GNU/Linux&rdquo; "
 "User Groups, and make an effort to distinguish the GNU/Linux operating "
 "system from Linux, the kernel.  We don't list &ldquo;Linux User "
-"Groups&rdquo; in this page, but we invite them to become GNU/Linux User "
+"Groups&rdquo; on this page, but we invite them to become GNU/Linux User "
 "Groups <a href=\"/gnu/why-gnu-linux.html\">and help correct the widespread "
 "confusion</a> about the system."
 msgstr ""
@@ -117,13 +120,12 @@ msgstr ""
 
 # type: Content of: <p>
 msgid ""
-"We do not list groups which focus on &lsquo;Open Source&rsquo; and &lsquo;"
-"Linux&rsquo; or groups that promote proprietary software as part of their "
-"activities."
+"We also do not list groups which focus on &lsquo;open source&rsquo;, since "
+"<a href=\"/philosophy/open-source-misses-the-point.html\">we are not part of "
+"the open source movement</a>, but rather the <a href=\"/philosophy/free-"
+"software-intro.html\">free software movement</a>.  We also do not list "
+"groups that promote proprietary software as part of their activities."
 msgstr ""
-"Nous ne listons pas les groupes qui se concentrent sur l'&laquo;&nbsp;Open "
-"Source&nbsp;&raquo; et &laquo;&nbsp;Linux&nbsp;&raquo; ou les groupes qui "
-"promeuvent les logiciels propri&eacute;taires dans leur activit&eacute;."
 
 # type: Content of: <h3>
 msgid "GNU/Linux groups listed by country"
@@ -140,125 +142,34 @@ msgstr ""
 "de la validit&eacute; de leurs informations."
 
 # type: Content of: <p>
-msgid "Here are the countries which have GNU/Linux User Groups listed:"
+#, fuzzy
+msgid "Here are the countries which have GNU/Linux User Groups we know of:"
 msgstr ""
 "Voici les pays qui ont des groupes d'utilisateurs GNU/Linux list&eacute;"
 "s&nbsp;:"
 
 # type: Content of: <p>
-msgid "(<a href=\"#endofcountries\">Skip over long list</a>)"
-msgstr "(<a href=\"#endofcountries\">Passer la longue liste</a>)"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLArgentina\">Argentina</a>"
-msgstr "<a href=\"#GLArgentina\">Argentine</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLBrazil\">Brazil</a>"
-msgstr "<a href=\"#GLBrazil\">Br&eacute;sil</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLChile\">Chile</a>"
-msgstr "<a href=\"#GLChile\">Chili</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLColombia\">Colombia</a>"
-msgstr "<a href=\"#GLColombia\">Colombie</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLEgypt\">Egypt</a>"
-msgstr "<a href=\"#GLEgypt\">&Eacute;gypte</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLFinland\">Finland</a>"
-msgstr "<a href=\"#GLFinland\">Finlande</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLFrance\">France</a>"
-msgstr "<a href=\"#GLFrance\">France</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLGermany\">Germany</a>"
-msgstr "<a href=\"#GLGermany\">Allemagne</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLGreenland\">Greenland</a>"
-msgstr "<a href=\"#GLGreenland\">Groenland</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLIceland\">Iceland</a>"
-msgstr "<a href=\"#GLIceland\">Islande</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLIndia\">India</a>"
-msgstr "<a href=\"#GLIndia\">Inde</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GLItaly\">Italy</a>"
-msgstr "<a href=\"#GLItaly\">Italie</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLLebanon\">Lebanon</a>"
-msgstr "<a href=\"#GLLebanon\">Liban</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLMadagascar\">Madagascar</a>"
-msgstr "<a href=\"#GLMadagascar\">Madagascar</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLMexico\">Mexico</a>"
-msgstr "<a href=\"#GLMexico\">Mexique</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLNewZealand\">New Zealand</a>"
-msgstr "<a href=\"#GLNewZealand\">Nouvelle Z&eacute;lande</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLPeru\">Peru</a>"
-msgstr "<a href=\"#GLPeru\">P&eacute;rou</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLPhilippines\">Philippines</a>"
-msgstr "<a href=\"#GLPhilippines\">Philippines</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLPortugal\">Portugal</a>"
-msgstr "<a href=\"#GLPortugal\">Portugal</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLRomania\">Romania</a>"
-msgstr "<a href=\"#GLRomania\">Roumanie</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLRwanda\">Rwanda</a>"
-msgstr "<a href=\"#GLRwanda\">Rwanda</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLSpain\">Spain</a>"
-msgstr "<a href=\"#GLSpain\">Espagne</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLSwitzerland\">Switzerland</a>"
-msgstr "<a href=\"#GLSwitzerland\">Suisse</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLUnitedKingdom\">United Kingdom</a>"
-msgstr "<a href=\"#GLUnitedKingdom\">Royaume-Uni</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLUnitedStates\">United States</a>"
-msgstr "<a href=\"#GLUnitedStates\">États-Unis</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLVenezuela\">Venezuela</a>"
-msgstr "<a href=\"#GLVenezuela\">Venezuela</a>"
-
-# type: Content of: <h4>
-msgid "<a href=\"#GLYemen\">Yemen</a>"
-msgstr "<a href=\"#GLYemen\">Yemen</a>"
+#. - <a href="#GLSingapore">Singapore</a>
+msgid ""
+"<a href=\"#GLArgentina\">Argentina</a> - <a href=\"#GLBrazil\">Brazil</a> - "
+"<a href=\"#GLChile\">Chile</a> - <a href=\"#GLColombia\">Colombia</a> - <a "
+"href=\"#GLEgypt\">Egypt</a> - <a href=\"#GLFinland\">Finland</a> - <a href="
+"\"#GLFrance\">France</a> - <a href=\"#GLGermany\">Germany</a> - <a href="
+"\"#GLGreenland\">Greenland</a> - <a href=\"#GLIceland\">Iceland</a> - <a "
+"href=\"#GLIndia\">India</a> - <a href=\"#GLItaly\">Italy</a> - <a href="
+"\"#GLLebanon\">Lebanon</a> - <a href=\"#GLMadagascar\">Madagascar</a> - <a "
+"href=\"#GLMexico\">Mexico</a> - <a href=\"#GLNewZealand\">New Zealand</a> - "
+"<a href=\"#GLPeru\">Peru</a> - <a href=\"#GLPhilippines\">Philippines</a> - "
+"<a href=\"#GLPortugal\">Portugal</a> - <a href=\"#GLRomania\">Romania</a> - "
+"<a href=\"#GLRwanda\">Rwanda</a> - <a href=\"#GLSpain\">Spain</a> - <a href="
+"\"#GLSwitzerland\">Switzerland</a> - <a href=\"#GLUnitedKingdom\">United "
+"Kingdom</a> - <a href=\"#GLUnitedStates\">United States</a> - <a href="
+"\"#GLVenezuela\">Venezuela</a> - <a href=\"#GLYemen\">Yemen</a>"
+msgstr ""
 
 # type: Content of: <p>
-msgid "Here are the GNU/Linux User Groups listed by country:"
+#, fuzzy
+msgid "And here are the GNU/Linux User Groups themselves, listed by country:"
 msgstr ""
 "Voici la liste des Groupes d'utilisateurs GNU/Linux list&eacute; par "
 "pays&nbsp;:"
@@ -997,28 +908,6 @@ msgid "GNU/Hurd groups listed by country"
 msgstr "Groupes d'utilisateurs GNU/Hurd list&eacute;s par pays"
 
 # type: Content of: <p>
-msgid "Here are the countries which have GNU/Hurd User Groups listed:"
-msgstr ""
-"Voici les pays qui ont des groupes d'utilisateurs GNU/Hurd list&eacute;"
-"s&nbsp;:"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GHIndia\">Canada</a>"
-msgstr "<a href=\"#GHIndia\">Canada</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GHIndia\">India</a>"
-msgstr "<a href=\"#GHIndia\">Inde</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GHItaly\">Italy</a>"
-msgstr "<a href=\"#GHItaly\">Italie</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"#GHUK\">United Kingdom</a>"
-msgstr "<a href=\"#GHUK\">Royaume-Uni</a>"
-
-# type: Content of: <p>
 msgid "Here are the GNU/Hurd User Groups listed by country:"
 msgstr ""
 "Voici les groupes d'utilisateurs GNU/Hurd list&eacute;s par pays&nbsp;:"
@@ -1117,3 +1006,148 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <p>
+#~ msgid ""
+#~ "We do not list groups which focus on &lsquo;Open Source&rsquo; and &lsquo;"
+#~ "Linux&rsquo; or groups that promote proprietary software as part of their "
+#~ "activities."
+#~ msgstr ""
+#~ "Nous ne listons pas les groupes qui se concentrent sur l'&laquo;&nbsp;"
+#~ "Open Source&nbsp;&raquo; et &laquo;&nbsp;Linux&nbsp;&raquo; ou les "
+#~ "groupes qui promeuvent les logiciels propri&eacute;taires dans leur "
+#~ "activit&eacute;."
+
+# type: Content of: <p>
+#~ msgid "(<a href=\"#endofcountries\">Skip over long list</a>)"
+#~ msgstr "(<a href=\"#endofcountries\">Passer la longue liste</a>)"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLArgentina\">Argentina</a>"
+#~ msgstr "<a href=\"#GLArgentina\">Argentine</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLBrazil\">Brazil</a>"
+#~ msgstr "<a href=\"#GLBrazil\">Br&eacute;sil</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLChile\">Chile</a>"
+#~ msgstr "<a href=\"#GLChile\">Chili</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLColombia\">Colombia</a>"
+#~ msgstr "<a href=\"#GLColombia\">Colombie</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLEgypt\">Egypt</a>"
+#~ msgstr "<a href=\"#GLEgypt\">&Eacute;gypte</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLFinland\">Finland</a>"
+#~ msgstr "<a href=\"#GLFinland\">Finlande</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLFrance\">France</a>"
+#~ msgstr "<a href=\"#GLFrance\">France</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLGermany\">Germany</a>"
+#~ msgstr "<a href=\"#GLGermany\">Allemagne</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLGreenland\">Greenland</a>"
+#~ msgstr "<a href=\"#GLGreenland\">Groenland</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLIceland\">Iceland</a>"
+#~ msgstr "<a href=\"#GLIceland\">Islande</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLIndia\">India</a>"
+#~ msgstr "<a href=\"#GLIndia\">Inde</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GLItaly\">Italy</a>"
+#~ msgstr "<a href=\"#GLItaly\">Italie</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLLebanon\">Lebanon</a>"
+#~ msgstr "<a href=\"#GLLebanon\">Liban</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLMadagascar\">Madagascar</a>"
+#~ msgstr "<a href=\"#GLMadagascar\">Madagascar</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLMexico\">Mexico</a>"
+#~ msgstr "<a href=\"#GLMexico\">Mexique</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLNewZealand\">New Zealand</a>"
+#~ msgstr "<a href=\"#GLNewZealand\">Nouvelle Z&eacute;lande</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLPeru\">Peru</a>"
+#~ msgstr "<a href=\"#GLPeru\">P&eacute;rou</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLPhilippines\">Philippines</a>"
+#~ msgstr "<a href=\"#GLPhilippines\">Philippines</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLPortugal\">Portugal</a>"
+#~ msgstr "<a href=\"#GLPortugal\">Portugal</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLRomania\">Romania</a>"
+#~ msgstr "<a href=\"#GLRomania\">Roumanie</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLRwanda\">Rwanda</a>"
+#~ msgstr "<a href=\"#GLRwanda\">Rwanda</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLSpain\">Spain</a>"
+#~ msgstr "<a href=\"#GLSpain\">Espagne</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLSwitzerland\">Switzerland</a>"
+#~ msgstr "<a href=\"#GLSwitzerland\">Suisse</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLUnitedKingdom\">United Kingdom</a>"
+#~ msgstr "<a href=\"#GLUnitedKingdom\">Royaume-Uni</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLUnitedStates\">United States</a>"
+#~ msgstr "<a href=\"#GLUnitedStates\">États-Unis</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLVenezuela\">Venezuela</a>"
+#~ msgstr "<a href=\"#GLVenezuela\">Venezuela</a>"
+
+# type: Content of: <h4>
+#~ msgid "<a href=\"#GLYemen\">Yemen</a>"
+#~ msgstr "<a href=\"#GLYemen\">Yemen</a>"
+
+# type: Content of: <p>
+#~ msgid "Here are the countries which have GNU/Hurd User Groups listed:"
+#~ msgstr ""
+#~ "Voici les pays qui ont des groupes d'utilisateurs GNU/Hurd list&eacute;"
+#~ "s&nbsp;:"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GHIndia\">Canada</a>"
+#~ msgstr "<a href=\"#GHIndia\">Canada</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GHIndia\">India</a>"
+#~ msgstr "<a href=\"#GHIndia\">Inde</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GHItaly\">Italy</a>"
+#~ msgstr "<a href=\"#GHItaly\">Italie</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"#GHUK\">United Kingdom</a>"
+#~ msgstr "<a href=\"#GHUK\">Royaume-Uni</a>"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2008-09-23 16:25-0300\n"
+"POT-Creation-Date: 2008-10-21 16:25-0300\n"
 "PO-Revision-Date: 2008-09-28 17:20+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -1115,6 +1115,49 @@ msgstr ""
 
 # type: Content of: <dl><dt>
 msgid ""
+"<a id=\"Unicode\" href=\"http://www.unicode.org/copyright.html#Exhibit1"
+"\">Unicode, Inc. License Agreement for Data Files and Software</a>"
+msgstr ""
+
+# type: Content of: <dl><dd><p>
+msgid ""
+"This is a license that Unicode, Inc. has applied to the Unicode Character "
+"Database&mdash;various data files that developers can use to help implement "
+"the Unicode standard in their own programs.  It is a simple permissive "
+"license, compatible with all versions of the GPL."
+msgstr ""
+
+# type: Content of: <dl><dd><p>
+msgid ""
+"If you want to use files covered by this License Agreement in your own "
+"software, that shouldn't be any problem, but we recommend that you also "
+"include a full copy of its text.  Some of the files contain alternative "
+"license terms which are nonfree, or no licensing information at all, so "
+"including a copy of the License Agreement will help avoid confusion when "
+"others want to distribute your software.  Of course, you'll also need to "
+"follow the conditions in this License Agreement for distributing the files, "
+"but those are very straightforward."
+msgstr ""
+
+# type: Content of: <dl><dd><p>
+msgid ""
+"Please take care to ensure that the files you are using are covered by this "
+"License Agreement.  Other files published by Unicode, Inc. are covered by "
+"the Unicode Terms of Use, a different, nonfree license that appears on the "
+"same page but covers different files.  A short explanation at the top of "
+"this License Agreement details which files it covers."
+msgstr ""
+
+# type: Content of: <dl><dd><p>
+msgid ""
+"Please do not use this License Agreement for your own software.  If you want "
+"to use a simple permissive license for your project, please use the <a href="
+"\"#Expat\">Expat license</a>; it is by far more common, and widely "
+"recognized in the free software community."
+msgstr ""
+
+# type: Content of: <dl><dt>
+msgid ""
 "<a href=\"http://www.vim.org/htmldoc/uganda.html\"> License of Vim, Version "
 "6.1 or later</a>"
 msgstr ""
@@ -1136,6 +1179,17 @@ msgid ""
 msgstr ""
 "<a href=\"http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231"
 "\">W3C Software Notice and License</a>"
+
+# type: Content of: <dl><dt>
+#, fuzzy
+msgid "<a href=\"http://sam.zoy.org/wtfpl/COPYING\">WTFPL, Version 2</a>"
+msgstr ""
+"<a href=\"http://phorum.org/license.txt\"> Phorum License, Version 2.0</a>"
+
+# type: Content of: <dl><dd><p>
+#, fuzzy
+msgid "This is a free software license, very permissive and GPL-compatible."
+msgstr "Il s'agit d'une licence de logiciel libre compatible avec la GPL."
 
 # type: Content of: <dl><dt>
 msgid ""
