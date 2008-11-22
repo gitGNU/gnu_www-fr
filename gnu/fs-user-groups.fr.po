@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: fs-user-groups.html\n"
-"POT-Creation-Date: 2008-10-10 04:26-0300\n"
+"POT-Creation-Date: 2008-11-12 04:25-0500\n"
 "PO-Revision-Date: 2008-10-19 17:01+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -128,6 +128,11 @@ msgstr "<a href=\"#UK\" id=\"TOCUK\">Royaume Uni</a>"
 # type: Content of: <ul><li>
 msgid "<a href=\"#USA\" id=\"TOCUSA\">United States</a>"
 msgstr "<a href=\"#USA\" id=\"TOCUSA\">&Eacute;tats-Unis</a>"
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid "<a href=\"#Uruguay\" id=\"TOCUruguay\">Uruguay</a>"
+msgstr "<a href=\"#Peru\" id=\"TOCPeru\">P&eacute;rou</a>"
 
 # type: Content of: <ul><li>
 msgid "<a href=\"#Venezuela\" id=\"TOCVenezuela\">Venezuela</a>"
@@ -341,26 +346,6 @@ msgstr ""
 "difusi&oacute;n y desarrollo de software libre de M&aacute;laga</a>"
 
 # type: Content of: <h4>
-msgid "<a id=\"USA\">United States of America</a>"
-msgstr "<a id=\"USA\">États-Unis d'Amérique</a>"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://ithacafreesoftware.org\">Ithaca Free Software Association</"
-"a> - Ithaca, New York."
-msgstr ""
-"<a href=\"http://ithacafreesoftware.org\">Ithaca Free Software Association</"
-"a> - Ithaca, New York."
-
-# type: Content of: <h4>
-msgid "Venezuela"
-msgstr "Venezuela"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"http://www.vaslibre.org.ve\">VaSLibre (Carabobo)</a>"
-msgstr "<a href=\"http://www.vaslibre.org.ve\">VaSLibre (Carabobo)</a>"
-
-# type: Content of: <h4>
 msgid "United Kingdom"
 msgstr "Royaume Uni"
 
@@ -377,6 +362,35 @@ msgstr ""
 "for Education and Youth\">DFEY</acronym></a>&nbsp;: Libert&eacute; "
 "num&eacute;rique pour l'&eacute;ducation et la jeunesse - Angleterre du Nord-"
 "Ouest"
+
+# type: Content of: <h4>
+msgid "<a id=\"USA\">United States of America</a>"
+msgstr "<a id=\"USA\">États-Unis d'Amérique</a>"
+
+# type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://ithacafreesoftware.org\">Ithaca Free Software Association</"
+"a> - Ithaca, New York."
+msgstr ""
+"<a href=\"http://ithacafreesoftware.org\">Ithaca Free Software Association</"
+"a> - Ithaca, New York."
+
+# type: Content of: <h4>
+msgid "Uruguay"
+msgstr ""
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid "<a href=\"http://www.cld.org.uy/\">C.L.D Cultura Libre Digital</a>"
+msgstr "<a href=\"http://www.ancrae.org.mx/\">ANCrae</a>"
+
+# type: Content of: <h4>
+msgid "Venezuela"
+msgstr "Venezuela"
+
+# type: Content of: <ul><li>
+msgid "<a href=\"http://www.vaslibre.org.ve\">VaSLibre (Carabobo)</a>"
+msgstr "<a href=\"http://www.vaslibre.org.ve\">VaSLibre (Carabobo)</a>"
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: philosophy.html\n"
-"POT-Creation-Date: 2008-10-15 16:25-0300\n"
+"POT-Creation-Date: 2008-11-21 04:26-0500\n"
 "PO-Revision-Date: 2008-10-19 17:31+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -26,10 +26,11 @@ msgid "Philosophy of the GNU Project"
 msgstr "Philosophie du Projet GNU"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"A series of articles describing the philosophy of the free software "
-"movement, which is the motivation for our development of the free software "
-"operating system GNU."
+"This page lists a series of articles describing the philosophy of the free "
+"software movement, which is the motivation for our development of the free "
+"software operating system GNU."
 msgstr ""
 "Une série d'articles décrivant la philosophie du mouvement pour le logiciel "
 "libre, qui est la motivation de notre développement des logiciels libres du "
@@ -52,6 +53,10 @@ msgstr ""
 "libert&eacute; dans le d&eacute;veloppement informatique et les "
 "communications &eacute;lectroniques</a>."
 
+# type: Content of: <h2>
+msgid "About Free Software"
+msgstr "&Agrave; propos du logiciel libre"
+
 # type: Content of: <p>
 msgid ""
 "Free software is a matter of freedom: people should be free to use software "
@@ -69,10 +74,6 @@ msgstr ""
 "beaucoup plus facilement. Ces possibilit&eacute;s rendent le logiciel aussi "
 "utile qu'il peut l'&ecirc;tre; nous croyons que les utilisateurs de "
 "logiciels devraient pouvoir les utiliser."
-
-# type: Content of: <h2>
-msgid "About Free Software"
-msgstr "&Agrave; propos du logiciel libre"
 
 # type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
@@ -935,9 +936,10 @@ msgstr ""
 "Stallman (initialement publié sous le titre «&nbsp;Clairvoyance&nbsp;»)"
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
-"<a href=\"http://www.virtueel.com/upd/ins_opinions.rxml?cust=212&amp;id=967"
-"\"> Free Software and Sustainable Development</a> &mdash; A short article by "
+"<a href=\"http://www.insnet.org/ins_headlines.rxml?cust=212&amp;id=967\"> "
+"Free Software and Sustainable Development</a> &mdash; A short article by "
 "Richard Stallman regarding the use of proprietary software in cultural "
 "development."
 msgstr ""

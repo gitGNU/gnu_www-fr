@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-faq.html\n"
-"POT-Creation-Date: 2008-10-23 16:25-0300\n"
+"POT-Creation-Date: 2008-11-14 16:26-0500\n"
 "PO-Revision-Date: 2008-11-01 15:12+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -546,6 +546,11 @@ msgstr ""
 # type: Content of: <h4>
 msgid "Using GNU licenses for your programs"
 msgstr "Utiliser les licences GNU pour vos programmes"
+
+# type: Content of: <ul><li>
+msgid ""
+"<a href=\"#v3HowToUpgrade\">How do I upgrade from (L)GPLv2 to (L)GPLv3?</a>"
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -5029,8 +5034,9 @@ msgid "Here's an exception for Javascript code that does this:"
 msgstr "Il y a une exception pour le code Javascript qui dit ceci&nbsp;:"
 
 # type: Content of: <dl><dd><blockquote><p>
+#, fuzzy
 msgid ""
-"As a special exception to GPL, any HTML file which merely makes function "
+"As a special exception to the GPL, any HTML file which merely makes function "
 "calls to this code, and for that purpose includes it by reference shall be "
 "deemed a separate work for copyright law purposes.  In addition, the "
 "copyright holders of this code give you permission to combine this code with "
@@ -5680,6 +5686,34 @@ msgstr ""
 "&agrave; payer des frais limite la possibilit&eacute; de l'utilisateur "
 "d'ex&eacute;cuter le programme. C'est une condition suppl&eacute;mentaire au-"
 "dessus de la GPL et la licence interdit cela."
+
+# type: Content of: <dl><dt>
+msgid ""
+"<b><a name=\"v3HowToUpgrade\">How do I upgrade from (L)GPLv2 to (L)GPLv3?</"
+"a></b>"
+msgstr ""
+
+# type: Content of: <dl><dd><p>
+msgid ""
+"First, include the new version of the license in your package.  If you're "
+"using LGPLv3 in your project, be sure to include copies of both GPLv3 and "
+"LGPLv3, since LGPLv3 is now written as a set of additional permissions on "
+"top of GPLv3."
+msgstr ""
+
+# type: Content of: <dl><dd><p>
+msgid ""
+"Second, replace all your existing v2 license notices (usually at the top of "
+"each file) with the new recommended text available on <a href=\"/licenses/"
+"gpl-howto.html\">the GNU licenses howto</a>.  It's more future-proof because "
+"it no longer includes the FSF's postal mailing address."
+msgstr ""
+
+# type: Content of: <dl><dd><p>
+msgid ""
+"Of course, any descriptive text (such as in a README) which talks about the "
+"package's license should also be updated appropriately."
+msgstr ""
 
 # type: Content of: <dl><dt>
 msgid ""

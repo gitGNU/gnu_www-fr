@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: translations.html\n"
-"POT-Creation-Date: 2008-10-02 04:25-0300\n"
+"POT-Creation-Date: 2008-11-21 16:26-0500\n"
 "PO-Revision-Date: 2008-10-19 17:27+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -32,13 +32,14 @@ msgid "Information about unofficial translations"
 msgstr "&Agrave; propos des traductions non officielles"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "The reason the FSF does not approve these translations as officially valid "
 "is that checking them would be difficult and expensive (needing the help of "
 "bilingual lawyers in other countries).  Even worse, if an error did slip "
 "through, the results could be disastrous for the whole free software "
 "community.  As long as the translations are unofficial, they can't do any "
-"harm, and we hope they help more people understand the GPL."
+"harm, and we hope they help more people understand our licenses."
 msgstr ""
 "La raison pour laquelle la FSF n'approuve pas ces traductions comme &eacute;"
 "tant officiellement valides, c'est que leur v&eacute;rification serait "
@@ -68,10 +69,13 @@ msgstr ""
 "cessaires pour rendre la traduction plus claire."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "To label your translations as unofficial, please add the following text at "
-"the beginning, both in English and in the language of the translation&mdash;"
-"replacing <em>language</em> with the name of that language:"
+"the beginning, both in English and in the language of the translation.  "
+"Replace <em>language</em> with the name of that language, and &ldquo;GNU "
+"General Public License&rdquo; and &ldquo;GPL&rdquo; with the name and "
+"abbreviation of the license you're translating, if it's not the GPL:"
 msgstr ""
 "Pour sp&eacute;cifier que votre traduction n'est pas officielle, veuillez "
 "ajoutez le texte suivant au d&eacute;but, &agrave; la fois en anglais et "
@@ -99,16 +103,6 @@ msgstr ""
 "logiciels qui utilisent la GNU GPL -- seul le texte anglais original de la "
 "GNU GPL en a le droit.  Cependant, nous esp&eacute;rons que cette traduction "
 "aidera les francophones &agrave; mieux comprendre la GNU GPL."
-
-# type: Content of: <p>
-msgid ""
-"Replace &ldquo;GNU General Public License&rdquo; and &ldquo;GPL&rdquo; with "
-"the name and abbreviation of the license you're translating, if it's not the "
-"GPL."
-msgstr ""
-"Veuillez remplacer &laquo;&nbsp;GNU General Public License&nbsp;&raquo; et "
-"&laquo;&nbsp;GPL&nbsp;&raquo; par le nom et l'abr&eacute;viation de la "
-"licence que vous traduisez s'il ne s'agit pas de la GPL."
 
 # type: Content of: <h3>
 msgid "The GNU General Public License, version 3"
@@ -412,8 +406,16 @@ msgid "The GNU Free Documentation License"
 msgstr "La licence GNU de documentation libre"
 
 # type: Content of: <p>
-msgid "Up-to-date translations (GFDL 1.2):"
-msgstr "Traductions &agrave; jour (GFDL 1.2)&nbsp;:"
+msgid ""
+"FDL 1.3 was released on November 3, 2008.  At this time, there are no "
+"translations of this new version of the FDL.  However, FDL 1.3 is a "
+"relatively minor modification of FDL 1.2; the only major changes are the "
+"revision of section 9 and the addition of section 11.  Thus, the "
+"translations of FDL 1.2 below may help you understand FDL 1.3 as well.  We "
+"will link to translations of FDL 1.3 as they become available; in the "
+"meantime, you can learn more about the differences between these two "
+"versions in <a href=\"/licenses/fdl-1.3-faq.html\">our FAQ</a>."
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
@@ -500,10 +502,10 @@ msgstr ""
 "gfdl_license.html\">h&eacute;breu</a> de la GFDL"
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
-"<code>[it]</code> <a href=\"http://cvs.savannah.gnu.org/viewvc/*checkout*/"
-"www-it/fdl-1.2-it.html?revision=1.1&amp;root=www-it\">Italian</a> "
-"translation of the GFDL"
+"<code>[it]</code> <a href=\"http://savannah.gnu.org/cookbook/?"
+"func=detailitem&amp;item_id=195\">Italian</a> translation of the GFDL"
 msgstr ""
 "<code>[it]</code> Traduction en <a href=\"http://cvs.savannah.gnu.org/viewvc/"
 "*checkout*/www-it/fdl-1.2-it.html?revision=1.1&amp;root=www-it\">italien</a> "
@@ -581,94 +583,6 @@ msgstr ""
 "<code>[cy]</code> Traduction en <a href=\"http://cy.wikipedia.org/wiki/"
 "GNU_FDL/cyfieithiad_FDL\">gallois</a> de la GFDL"
 
-# type: Content of: <p>
-msgid ""
-"The translations below are based on version 1.1 of the GFDL; therefore they "
-"are not only unofficial, but also outdated.  You can read about the changes "
-"between 1.1 and 1.2 in <a href=\"/licenses/fdl.html\">the main GFDL page</a>."
-msgstr ""
-"Les traductions ci-dessous sont bas&eacute;es sur la version 1.1 de la GFDL; "
-"par cons&eacute;quent, elles ne sont non seulement non officielles, mais "
-"&eacute;galement p&eacute;rim&eacute;es. Vous pouvez lire les informations "
-"sur les changements entre la version 1.1 et 1.2 sur la <a href=\"/licenses/"
-"fdl.html\">page principale de la GFDL</a>."
-
-# type: Content of: <ul><li>
-msgid ""
-"<code>[fr]</code> French translations of the GFDL (<a href=\"http://cesarx."
-"free.fr/gfdlf.html\">1</a>)  (<a href=\"http://www.IDEALX.org/fr/doc/gfdl/"
-"gfdl.html\">2</a>)"
-msgstr ""
-"<code>[fr]</code> Traductions en fran&ccedil;ais de la GFDL (<a href="
-"\"http://cesarx.free.fr/gfdlf.html\">1</a>), (<a href=\"http://www.IDEALX."
-"org/fr/doc/gfdl/gfdl.html\">2</a>)"
-
-# type: Content of: <ul><li>
-msgid ""
-"<code>[de]</code> <a href=\"http://nautix.sourceforge.net/docs/fdl.de.html\" "
-"id=\"GFDLGermanTranslation\">German</a> translation of the GFDL"
-msgstr ""
-"<code>[de]</code> Traduction en <a href=\"http://nautix.sourceforge.net/docs/"
-"fdl.de.html\" id=\"GFDLGermanTranslation\">allemand</a> de la GFDL"
-
-# type: Content of: <ul><li>
-msgid ""
-"<code>[hi]</code> <a href=\"http://geocities.com/alkuma/linux/fdl.html"
-"\">Hindi</a> translation of the GFDL"
-msgstr ""
-"<code>[hi]</code> Traduction en <a href=\"http://geocities.com/alkuma/linux/"
-"fdl.html\">hindi</a> de la GFDL"
-
-# type: Content of: <ul><li>
-msgid ""
-"<code>[it]</code> <a href=\"http://www.softwarelibero.it/gnudoc/fdl.it.html"
-"\" id=\"GFDLItalianTranslation\">Italian</a> translation of the GFDL"
-msgstr ""
-"<code>[it]</code> Traduction en <a href=\"http://www.softwarelibero.it/"
-"gnudoc/fdl.it.html\" id=\"GFDLItalianTranslation\">italien</a> de la GFDL"
-
-# type: Content of: <ul><li>
-msgid ""
-"<code>[ko]</code> <a href=\"http://korea.gnu.org/people/chsong/copyleft/fdl."
-"ko.html\">Korean</a> translation of the GFDL"
-msgstr ""
-"<code>[ko]</code> Traduction en <a href=\"http://korea.gnu.org/people/chsong/"
-"copyleft/fdl.ko.html\">cor&eacute;en</a> de la GFDL"
-
-# type: Content of: <ul><li>
-msgid ""
-"<code>[pl]</code> <a href=\"http://gnu.org.pl/text/gfdl11-pl.html\">Polish</"
-"a> translation of the GFDL"
-msgstr ""
-"<code>[pl]</code> Traduction en <a href=\"http://gnu.org.pl/text/gfdl11-pl."
-"html\">polonais</a> de la GFDL"
-
-# type: Content of: <ul><li>
-msgid ""
-"<code>[pt-br]</code> <a href=\"http://www.ead.unicamp.br/minicurso/bw/texto/"
-"fdl.pt.html\">Portuguese</a> (Brazilian) translation of the GFDL"
-msgstr ""
-"<code>[pt-br]</code> Traduction en <a href=\"http://www.ead.unicamp.br/"
-"minicurso/bw/texto/fdl.pt.html\">portugais br&eacute;silien</a> de la GFDL"
-
-# type: Content of: <ul><li>
-msgid ""
-"<code>[ru]</code> <a href=\"http://www.infolex.narod.ru/gpl_gnu/gfdlrus.html"
-"\">Russian</a> translation of the GFDL"
-msgstr ""
-"<code>[ru]</code> Traduction en <a href=\"http://www.infolex.narod.ru/"
-"gpl_gnu/gfdlrus.html\">russe</a> de la GFDL"
-
-# type: Content of: <ul><li>
-msgid ""
-"<code>[es]</code> Spanish translations of the GFDL (<a href=\"http://www."
-"geocities.com/larteaga/gnu/gfdl.html\">1</a>)  (<a href=\"http://gugs."
-"sindominio.net/licencias/fdl-es.html\">2</a>)"
-msgstr ""
-"<code>[es]</code> Traductions en espagnol de la GFDL (<a href=\"http://www."
-"geocities.com/larteaga/gnu/gfdl.html\">1</a>), (<a href=\"http://gugs."
-"sindominio.net/licencias/fdl-es.html\">2</a>)"
-
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
@@ -735,3 +649,106 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <p>
+#~ msgid ""
+#~ "Replace &ldquo;GNU General Public License&rdquo; and &ldquo;GPL&rdquo; "
+#~ "with the name and abbreviation of the license you're translating, if it's "
+#~ "not the GPL."
+#~ msgstr ""
+#~ "Veuillez remplacer &laquo;&nbsp;GNU General Public License&nbsp;&raquo; "
+#~ "et &laquo;&nbsp;GPL&nbsp;&raquo; par le nom et l'abr&eacute;viation de la "
+#~ "licence que vous traduisez s'il ne s'agit pas de la GPL."
+
+# type: Content of: <p>
+#~ msgid "Up-to-date translations (GFDL 1.2):"
+#~ msgstr "Traductions &agrave; jour (GFDL 1.2)&nbsp;:"
+
+# type: Content of: <p>
+#~ msgid ""
+#~ "The translations below are based on version 1.1 of the GFDL; therefore "
+#~ "they are not only unofficial, but also outdated.  You can read about the "
+#~ "changes between 1.1 and 1.2 in <a href=\"/licenses/fdl.html\">the main "
+#~ "GFDL page</a>."
+#~ msgstr ""
+#~ "Les traductions ci-dessous sont bas&eacute;es sur la version 1.1 de la "
+#~ "GFDL; par cons&eacute;quent, elles ne sont non seulement non officielles, "
+#~ "mais &eacute;galement p&eacute;rim&eacute;es. Vous pouvez lire les "
+#~ "informations sur les changements entre la version 1.1 et 1.2 sur la <a "
+#~ "href=\"/licenses/fdl.html\">page principale de la GFDL</a>."
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<code>[fr]</code> French translations of the GFDL (<a href=\"http://"
+#~ "cesarx.free.fr/gfdlf.html\">1</a>)  (<a href=\"http://www.IDEALX.org/fr/"
+#~ "doc/gfdl/gfdl.html\">2</a>)"
+#~ msgstr ""
+#~ "<code>[fr]</code> Traductions en fran&ccedil;ais de la GFDL (<a href="
+#~ "\"http://cesarx.free.fr/gfdlf.html\">1</a>), (<a href=\"http://www.IDEALX."
+#~ "org/fr/doc/gfdl/gfdl.html\">2</a>)"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<code>[de]</code> <a href=\"http://nautix.sourceforge.net/docs/fdl.de.html"
+#~ "\" id=\"GFDLGermanTranslation\">German</a> translation of the GFDL"
+#~ msgstr ""
+#~ "<code>[de]</code> Traduction en <a href=\"http://nautix.sourceforge.net/"
+#~ "docs/fdl.de.html\" id=\"GFDLGermanTranslation\">allemand</a> de la GFDL"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<code>[hi]</code> <a href=\"http://geocities.com/alkuma/linux/fdl.html"
+#~ "\">Hindi</a> translation of the GFDL"
+#~ msgstr ""
+#~ "<code>[hi]</code> Traduction en <a href=\"http://geocities.com/alkuma/"
+#~ "linux/fdl.html\">hindi</a> de la GFDL"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<code>[it]</code> <a href=\"http://www.softwarelibero.it/gnudoc/fdl.it."
+#~ "html\" id=\"GFDLItalianTranslation\">Italian</a> translation of the GFDL"
+#~ msgstr ""
+#~ "<code>[it]</code> Traduction en <a href=\"http://www.softwarelibero.it/"
+#~ "gnudoc/fdl.it.html\" id=\"GFDLItalianTranslation\">italien</a> de la GFDL"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<code>[ko]</code> <a href=\"http://korea.gnu.org/people/chsong/copyleft/"
+#~ "fdl.ko.html\">Korean</a> translation of the GFDL"
+#~ msgstr ""
+#~ "<code>[ko]</code> Traduction en <a href=\"http://korea.gnu.org/people/"
+#~ "chsong/copyleft/fdl.ko.html\">cor&eacute;en</a> de la GFDL"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<code>[pl]</code> <a href=\"http://gnu.org.pl/text/gfdl11-pl.html"
+#~ "\">Polish</a> translation of the GFDL"
+#~ msgstr ""
+#~ "<code>[pl]</code> Traduction en <a href=\"http://gnu.org.pl/text/gfdl11-"
+#~ "pl.html\">polonais</a> de la GFDL"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<code>[pt-br]</code> <a href=\"http://www.ead.unicamp.br/minicurso/bw/"
+#~ "texto/fdl.pt.html\">Portuguese</a> (Brazilian) translation of the GFDL"
+#~ msgstr ""
+#~ "<code>[pt-br]</code> Traduction en <a href=\"http://www.ead.unicamp.br/"
+#~ "minicurso/bw/texto/fdl.pt.html\">portugais br&eacute;silien</a> de la GFDL"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<code>[ru]</code> <a href=\"http://www.infolex.narod.ru/gpl_gnu/gfdlrus."
+#~ "html\">Russian</a> translation of the GFDL"
+#~ msgstr ""
+#~ "<code>[ru]</code> Traduction en <a href=\"http://www.infolex.narod.ru/"
+#~ "gpl_gnu/gfdlrus.html\">russe</a> de la GFDL"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<code>[es]</code> Spanish translations of the GFDL (<a href=\"http://www."
+#~ "geocities.com/larteaga/gnu/gfdl.html\">1</a>)  (<a href=\"http://gugs."
+#~ "sindominio.net/licencias/fdl-es.html\">2</a>)"
+#~ msgstr ""
+#~ "<code>[es]</code> Traductions en espagnol de la GFDL (<a href=\"http://"
+#~ "www.geocities.com/larteaga/gnu/gfdl.html\">1</a>), (<a href=\"http://gugs."
+#~ "sindominio.net/licencias/fdl-es.html\">2</a>)"

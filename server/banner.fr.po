@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: banner.html\n"
-"POT-Creation-Date: 2008-09-27 16:25-0300\n"
+"POT-Creation-Date: 2008-11-12 16:26-0500\n"
 "PO-Revision-Date: 2008-09-28 11:36+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -14,17 +14,24 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# type: Attribute 'title' of: <link>
-msgid "Development CSS (bugs to webmasters@gnu.org)"
-msgstr "CSS de d&eacute;veloppement (bogues&nbsp;: webmasters@gnu.org)"
+# type: Content of: <style>
+#, fuzzy
+msgid "@import url('/style.css');"
+msgstr "@import url('/print.css');"
 
 # type: Content of: <style>
 msgid "@import url('/print.css');"
 msgstr "@import url('/print.css');"
 
 # type: Content of: <body><div>
-msgid "<span class=\"netscape4\"><a href=\"#content\">Skip to content</a> | | <a href=\"#searcher\">Skip to search</a> | </span><a href=\"#translations\">Translations of this page</a>"
-msgstr "<span class=\"netscape4\"><a href=\"#content\">Aller au contenu</a> | | <a href=\"#searcher\">Aller à la recherche</a> | </span><a href=\"#translations\">Traductions de cette page</a>"
+msgid ""
+"<span class=\"netscape4\"><a href=\"#content\">Skip to content</a> | | <a "
+"href=\"#searcher\">Skip to search</a> | </span><a href=\"#translations"
+"\">Translations of this page</a>"
+msgstr ""
+"<span class=\"netscape4\"><a href=\"#content\">Aller au contenu</a> | | <a "
+"href=\"#searcher\">Aller à la recherche</a> | </span><a href=\"#translations"
+"\">Traductions de cette page</a>"
 
 # type: Content of: <body><div><div><div><div><p>
 msgid "<a href=\"#navigation\">Skip to navigation</a>"
@@ -39,8 +46,14 @@ msgid "A monthly update on GNU and the FSF"
 msgstr "Une lettre mensuelle sur GNU et la FSF"
 
 # type: Content of: <body><div><div><div><div><form><p>
-msgid "<input type=\"text\" id=\"frmEmail\" name=\"email\" size=\"15\" maxlength=\"80\" value=\"you@example.com\" onfocus=\"this.value=''\" /> &nbsp; <input type=\"submit\" value=\"Ok\" />"
-msgstr "<input type=\"text\" id=\"frmEmail\" name=\"email\" size=\"15\" maxlength=\"80\" value=\"vous@exemple.com\" onfocus=\"this.value=''\" /> &nbsp; <input type=\"submit\" value=\"Ok\" />"
+msgid ""
+"<input type=\"text\" id=\"frmEmail\" name=\"email\" size=\"15\" maxlength="
+"\"80\" value=\"you@example.com\" onfocus=\"this.value=''\" /> &nbsp; <input "
+"type=\"submit\" value=\"Ok\" />"
+msgstr ""
+"<input type=\"text\" id=\"frmEmail\" name=\"email\" size=\"15\" maxlength="
+"\"80\" value=\"vous@exemple.com\" onfocus=\"this.value=''\" /> &nbsp; <input "
+"type=\"submit\" value=\"Ok\" />"
 
 # type: Content of: <body><div><div><div><h1>
 msgid "<a href=\"/\">The GNU Operating System</a>"
@@ -67,10 +80,40 @@ msgid "<a href=\"/help/help.html\">Help&nbsp;GNU</a>"
 msgstr "<a href=\"/help/help.fr.html\">Aidez&nbsp;GNU</a>"
 
 # type: Content of: <body><div><div><div><ul><li>
-msgid "<a href=\"https://www.fsf.org/associate/support_freedom/join_fsf?referrer=4052\">Join the FSF!</a>"
-msgstr "<a href=\"https://www.fsf.org/associate/support_freedom/join_fsf?referrer=4052\">Rejoignez la FSF&nbsp;!</a>"
+#, fuzzy
+msgid ""
+"<a href=\"https://www.fsf.org/associate/support_freedom?referrer=4052\">Join "
+"the FSF!</a>"
+msgstr ""
+"<a href=\"https://www.fsf.org/associate/support_freedom/join_fsf?"
+"referrer=4052\">Rejoignez la FSF&nbsp;!</a>"
 
 # type: Content of: <body><div><div><form><div>
-msgid "<label class=\"netscape4\" for=\"phrase\">Search:</label> <input name=\"phrase\" id=\"phrase\" type=\"text\" size=\"18\" accesskey=\"s\" value=\"Why GNU/Linux?\" /> <input type=\"submit\" value=\"Search\" />"
-msgstr "<label class=\"netscape4\" for=\"phrase\">Recherche&nbsp;:</label> <input name=\"phrase\" id=\"phrase\" type=\"text\" size=\"18\" accesskey=\"s\" value=\"Pourquoi GNU/Linux&nbsp;?\" /> <input type=\"submit\" value=\"Rechercher\" />"
+msgid ""
+"<label class=\"netscape4\" for=\"phrase\">Search:</label> <input name="
+"\"phrase\" id=\"phrase\" type=\"text\" size=\"18\" accesskey=\"s\" value="
+"\"Why GNU/Linux?\" /> <input type=\"submit\" value=\"Search\" />"
+msgstr ""
+"<label class=\"netscape4\" for=\"phrase\">Recherche&nbsp;:</label> <input "
+"name=\"phrase\" id=\"phrase\" type=\"text\" size=\"18\" accesskey=\"s\" "
+"value=\"Pourquoi GNU/Linux&nbsp;?\" /> <input type=\"submit\" value="
+"\"Rechercher\" />"
 
+# type: Content of: <body><div><div><div><ul><li>
+#, fuzzy
+msgid "<a href=\"http://www.fsf.org/join?referrer=4052\">"
+msgstr ""
+"<a href=\"https://www.fsf.org/associate/support_freedom/join_fsf?"
+"referrer=4052\">Rejoignez la FSF&nbsp;!</a>"
+
+# type: Attribute 'alt' of: <body><div><div><a><img>
+msgid "Be 1 of 750 Free Software Supporters in our year end fundraiser"
+msgstr ""
+
+# type: Content of: <body><div><div>
+msgid "</a>"
+msgstr ""
+
+# type: Attribute 'title' of: <link>
+#~ msgid "Development CSS (bugs to webmasters@gnu.org)"
+#~ msgstr "CSS de d&eacute;veloppement (bogues&nbsp;: webmasters@gnu.org)"
