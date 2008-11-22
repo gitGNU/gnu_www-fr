@@ -1,0 +1,92 @@
+# French translation of http://www.gnu.org/philosophy/basic-freedoms.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the basic-freedoms.html package.
+# FIRST AUTHOR: ?
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: basic-freedoms.html\n"
+"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"PO-Revision-Date: 2008-11-22 15:19+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "Freedom of Speech, Press and Association on the Internet - GNU Project - Free Software Foundation (FSF)"
+msgstr "Libert&eacute; d'expression, de la presse et d'association sur l'Internet - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+msgid "Freedom of Speech, Press, and Association on the Internet"
+msgstr "Libert&eacute; d'expression, de la presse et d'association sur l'Internet"
+
+# type: Content of: <p>
+msgid "The Free Software Foundation supports the freedoms of speech, press, and association on the Internet.  Please check out:"
+msgstr "La Fondation pour le Logiciel Libre encourage la libert&eacute; d'expression, la libert&eacute; de la presse et d'association sur l'Internet. Nous vous invitons &agrave; regarder les points suivants&nbsp;:"
+
+# type: Content of: <ul><li>
+msgid "The <a href= \"http://www.ciec.org/\" >Citizens Internet Empowerment Coalition</a> came together to oppose Congress' first attempt to regulate content on the Internet, the Communications Decency Act, which the U.S. Supreme Court found unconstitutional on June 26, 1997. Their site is being preserved as a resource on the landmark CDA case."
+msgstr "La <a href= \"http://www.ciec.org/\">Citizens Internet Empowerment Coalition</a> se r&eacute;unit pour s'opposer &agrave; la premi&egrave;re tentative du Congr&egrave;s de r&eacute;gulation du contenu sur Internet, la «&nbsp;Communications Decency Act (CDA)&nbsp;» (Loi sur la d&eacute;cence dans les communications), que la Cour supr&ecirc;me des &Eacute;tats-Unis a jug&eacute; inconstitutionnelle le 26 juin 1997. Leur site est conserv&eacute; comme point de rep&egrave;re pour l'affaire CDA."
+
+# type: Content of: <ul><li>
+msgid "<a href=\"/philosophy/censoring-emacs.html\">Censoring GNU Emacs</a> describes how the Communications Decency Act required the GNU Project to censor GNU Emacs&mdash;and how this paradoxically had the opposite of the effect that the censors wanted."
+msgstr "<a href=\"/philosophy/censoring-emacs.fr.html\">Censure de GNU Emacs</a> d&eacute;crit comment le Communications Decency Act &laquo;Loi de d&eacute;cence en communication&raquo; a oblig&eacute; le projet GNU &agrave; censurer GNU Emacs et comment cela a paradoxalement eu l'effet inverse de ce que voulaient les censeurs."
+
+# type: Content of: <ul><li>
+msgid "<a href=\"http://www.factnet.org/\">F.A.C.T.Net Inc.</a> is a non-profit Internet digest, news service, library, dialogue center, and archive dedicated to the promotion and defense of international free thought, free speech, and privacy rights."
+msgstr "<a href=\"http://www.factnet.org/\">F.A.C.T.Net Inc.</a> est une synth&egrave;se, un service d'information, une biblioth&egrave;que, un centre de dialogue, et une archive &agrave; but non lucratif. Elle se consacre &agrave; la promotion et &agrave; la d&eacute;fense de la pens&eacute;e internationale libre, de la libert&eacute; d'expression, et des droits &agrave; la vie priv&eacute;e."
+
+# type: Content of: <ul><li>
+msgid "The <a href=\"http://www.eff.org/blueribbon.html\">Blue Ribbon Campaign</a> for Online Freedom of Speech, Press and Association."
+msgstr "La <a href=\"http://www.eff.org/blueribbon.html\">Campagne du ruban bleu</a> (Blue Ribbon Campaign) pour la libert&eacute; d'expression en ligne, de la presse et d'association."
+
+# type: Content of: <ul><li>
+msgid "<a href=\"http://www.savetheweb.org\">Save the Web</a> is a movement dedicated to ensuring that the highest priority of Internet law in Europe is to protect individual Internet users' rights.  Please also read <a href=\"/philosophy/savingeurope.html\">Saving Europe from Software Patents</a>"
+msgstr "<a href=\"http://www.savetheweb.org\">Sauvez le Web</a> (Save the Web) est un mouvement d&eacute;di&eacute; &agrave; s'assurer que la principale priorit&eacute; des lois Internet en Europe est de prot&eacute;ger les droits indivisibles des utilisateurs d'Internet. Lisez &eacute;galement le texte sur <a href=\"/philosophy/savingeurope.fr.html\">Sauverl'Europe</a> des brevets logiciels."
+
+# type: Content of: <ul><li>
+msgid "<a href=\"/links/links.html#FreedomOrganizations\">Organizations</a> that work for freedom in computer development and electronic communications."
+msgstr "<a href=\"/links/links.fr.html#FreedomOrganizations\">Organisations</a> travaillant pour la libert&eacute; des communications &eacute;lectroniques et du d&eacute;veloppement informatique."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2007 Free Software Foundation, Inc.,"
+msgstr "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2007 Free Software Foundation, Inc.,"
+
+# type: Content of: <div><address>
+msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+
+# type: Content of: <div><p>
+msgid "Verbatim copying and distribution of this entire article are permitted worldwide, without royalty, in any medium, provided this notice, and the copyright notice, are preserved."
+msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: ?.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
