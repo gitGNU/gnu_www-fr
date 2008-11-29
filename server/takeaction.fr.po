@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: takeaction.html\n"
-"POT-Creation-Date: 2008-11-19 16:26-0500\n"
+"POT-Creation-Date: 2008-11-26 16:26-0500\n"
 "PO-Revision-Date: 2008-11-22 13:25+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -23,92 +23,236 @@ msgid "Take Action"
 msgstr "Agir"
 
 # type: Content of: <dl><dt>
-msgid "<a id=\"licenses\"><strong>Read and comment on proposed license changes</strong></a>"
-msgstr "<a id=\"licenses/licenses.fr.html\"><strong>Lire et faire des commentaires sur les changements proposés dans les licences</strong></a>"
+msgid ""
+"<a id=\"licenses\"><strong>Read and comment on proposed license changes</"
+"strong></a>"
+msgstr ""
+"<a id=\"licenses/licenses.fr.html\"><strong>Lire et faire des commentaires "
+"sur les changements proposés dans les licences</strong></a>"
 
 # type: Content of: <dl><dd>
-msgid "Please <a href=\"http://gplv3.fsf.org\">read and leave comments</a> on the current drafts of the GNU Free Documentation License, and the GNU Simple Free Documentation License."
-msgstr "Veuillez <a href=\"http://gplv3.fsf.org\">lire et déposer des commentaires</a> sur les projets de rédaction des licences GNU Free Documentation License et GNU Simple Free Documentation."
+msgid ""
+"Please <a href=\"http://gplv3.fsf.org\">read and leave comments</a> on the "
+"current drafts of the GNU Free Documentation License, and the GNU Simple "
+"Free Documentation License."
+msgstr ""
+"Veuillez <a href=\"http://gplv3.fsf.org\">lire et déposer des commentaires</"
+"a> sur les projets de rédaction des licences GNU Free Documentation License "
+"et GNU Simple Free Documentation."
 
 # type: Content of: <dl><dt>
-msgid "<a id=\"priority\"><b>Contribute to high priority free software projects</b></a>"
-msgstr "<a id=\"priority\"><b>Contribuer à des projets de logiciels libres hautement prioritaires</b></a>"
+msgid ""
+"<a id=\"priority\"><b>Contribute to high priority free software projects</"
+"b></a>"
+msgstr ""
+"<a id=\"priority\"><b>Contribuer à des projets de logiciels libres hautement "
+"prioritaires</b></a>"
 
 # type: Content of: <dl><dd>
-msgid "As listed on the <a href=\"http://www.fsf.org/campaigns/priority.html\">FSF web site</a>."
-msgstr "Comme indiqué sur le <a href=\"http://www.fsf.org/campaigns/priority.html\">site Web de la FSF</a>."
+msgid ""
+"As listed on the <a href=\"http://www.fsf.org/campaigns/priority.html\">FSF "
+"web site</a>."
+msgstr ""
+"Comme indiqué sur le <a href=\"http://www.fsf.org/campaigns/priority.html"
+"\">site Web de la FSF</a>."
 
 # type: Content of: <dl><dt>
 msgid "<a id=\"libcdio\"><strong>Contribute to GNU libcdio</strong></a>"
 msgstr "<a id=\"libcdio\"><strong>Contribuer à GNU libcdio</strong></a>"
 
 # type: Content of: <dl><dd>
-msgid "Please contribute to CD/DVD-recording software development and more in <a href=\"/software/libcdio/index.html#volunteerswanted\">GNU libcdio</a>."
-msgstr "Veuillez contribuer au développement du logiciel d'enregistrement de CD et DVD et plus sur <a href=\"/software/libcdio/index.html#volunteerswanted\">GNU libcdio</a>."
+msgid ""
+"Please contribute to CD/DVD-recording software development and more in <a "
+"href=\"/software/libcdio/index.html#volunteerswanted\">GNU libcdio</a>."
+msgstr ""
+"Veuillez contribuer au développement du logiciel d'enregistrement de CD et "
+"DVD et plus sur <a href=\"/software/libcdio/index.html#volunteerswanted"
+"\">GNU libcdio</a>."
 
 # type: Content of: <dl><dt>
-msgid "<a id=\"gnustep\"><strong>Contribute to the GNUstep Project</strong></a>"
+msgid ""
+"<a id=\"gnustep\"><strong>Contribute to the GNUstep Project</strong></a>"
 msgstr "<a id=\"gnustep\"><strong>Contribuer au Projet GNUstep</strong></a>"
 
 # type: Content of: <dl><dd>
-msgid "Please contribute as a user and developer to <a href=\"http://www.gnustep.org\">GNUstep</a>, a free object-oriented framework for application development, and help it achieve the status of a complete and featured desktop environment."
-msgstr "Veuillez contribuer en tant qu'utilisateur et développeur à <a href=\"http://www.gnustep.org\">GNUstep</a>, un environnement de développement libre orienté objet pour le développement d'applications et aidez-le à atteindre l'état d'environnement de développement complet et fonctionnel."
+msgid ""
+"Please contribute as a user and developer to <a href=\"http://www.gnustep.org"
+"\">GNUstep</a>, a free object-oriented framework for application "
+"development, and help it achieve the status of a complete and featured "
+"desktop environment."
+msgstr ""
+"Veuillez contribuer en tant qu'utilisateur et développeur à <a href=\"http://"
+"www.gnustep.org\">GNUstep</a>, un environnement de développement libre "
+"orienté objet pour le développement d'applications et aidez-le à atteindre "
+"l'état d'environnement de développement complet et fonctionnel."
 
 # type: Content of: <dl><dt>
-msgid "<a id=\"music-sharing\"><strong>Sign EFF's petition in favor of music sharing</strong></a>"
-msgstr "<a id=\"music-sharing\"><strong>Signez la pétition de EFF pour le partage de la musique</strong></a>"
+msgid ""
+"<a id=\"music-sharing\"><strong>Sign EFF's petition in favor of music "
+"sharing</strong></a>"
+msgstr ""
+"<a id=\"music-sharing\"><strong>Signez la pétition de EFF pour le partage de "
+"la musique</strong></a>"
 
 # type: Content of: <dl><dd>
-msgid "There is one flaw in the wording of this petition.  It is a mistake to speak of &ldquo;compensating musicians&rdquo; for copying, because that encourages the RIAA's dangerous pretense that they have &ldquo;lost&rdquo; something when people copy.  The appropriate goal is not that musicians be &ldquo;compensated&rdquo;&mdash;it is to support music and musicians.  However, that is no reason not to <a href=\"http://www.eff.org/share/petition/\">sign the petition</a>."
-msgstr "Il y a une faille dans la formulation de cette pétition. C'est une erreur de parler de &laquo;&nbsp;compensation des musiciens&nbsp;&raquo; pour la copie, car cela encourage la dangereuse prétention de la RIAA de &laquo;&nbsp;perdre&nbsp;&raquo; quelque chose quand quelq'un fait une copie. Le but approprié n'est pas que les musiciens reçoivent une &laquo;&nbsp;compensation&nbsp;&raquo; (le but est de soutenir les musiciens). Cependant, ce n'est pas une raison pour ne pas <a href=\"http://www.eff.org/share/petition/\">signer la pétition</a>."
+msgid ""
+"There is one flaw in the wording of this petition.  It is a mistake to speak "
+"of &ldquo;compensating musicians&rdquo; for copying, because that encourages "
+"the RIAA's dangerous pretense that they have &ldquo;lost&rdquo; something "
+"when people copy.  The appropriate goal is not that musicians be &ldquo;"
+"compensated&rdquo;&mdash;it is to support music and musicians.  However, "
+"that is no reason not to <a href=\"http://www.eff.org/share/petition/\">sign "
+"the petition</a>."
+msgstr ""
+"Il y a une faille dans la formulation de cette pétition. C'est une erreur de "
+"parler de &laquo;&nbsp;compensation des musiciens&nbsp;&raquo; pour la "
+"copie, car cela encourage la dangereuse prétention de la RIAA de &laquo;"
+"&nbsp;perdre&nbsp;&raquo; quelque chose quand quelq'un fait une copie. Le "
+"but approprié n'est pas que les musiciens reçoivent une &laquo;&nbsp;"
+"compensation&nbsp;&raquo; (le but est de soutenir les musiciens). Cependant, "
+"ce n'est pas une raison pour ne pas <a href=\"http://www.eff.org/share/"
+"petition/\">signer la pétition</a>."
 
 # type: Content of: <dl><dt>
-msgid "<a id=\"broadcast\"><b>Support Public Knowledge against the &ldquo;broadcast flag&rdquo;</b></a>"
-msgstr "<a id=\"broadcast\"><b>Soutenez Public Knowledge contre &laquo;&nbsp;broadcast flag&nbsp;&raquo;</b></a>"
+msgid ""
+"<a id=\"broadcast\"><b>Support Public Knowledge against the &ldquo;broadcast "
+"flag&rdquo;</b></a>"
+msgstr ""
+"<a id=\"broadcast\"><b>Soutenez Public Knowledge contre &laquo;&nbsp;"
+"broadcast flag&nbsp;&raquo;</b></a>"
 
 # type: Content of: <dl><dd>
-msgid "Public Knowledge won a court case to overturn the FCC's &ldquo;broadcast flag&rdquo; requirement. Now it needs your support for the coming battle in Congress. See <a href=\"http://www.publicknowledge.org/issues/bfcase\">http://www.publicknowledge.org/issues/bfcase</a> for more information."
-msgstr "Public Knowledge a gagné un procès pour annuler la condition de la &laquo;&nbsp;broadcast flag&nbsp;&raquo; de la FCC. Elle a maintenant besoin de votre soutien pour la bataille à venir au Congrès. Consultez <a href=\"http://www.publicknowledge.org/issues/bfcase\">http://www.publicknowledge.org/issues/bfcase</a> pour plus de détails."
+msgid ""
+"Public Knowledge won a court case to overturn the FCC's &ldquo;broadcast "
+"flag&rdquo; requirement. Now it needs your support for the coming battle in "
+"Congress. See <a href=\"http://www.publicknowledge.org/issues/bfcase"
+"\">http://www.publicknowledge.org/issues/bfcase</a> for more information."
+msgstr ""
+"Public Knowledge a gagné un procès pour annuler la condition de la &laquo;"
+"&nbsp;broadcast flag&nbsp;&raquo; de la FCC. Elle a maintenant besoin de "
+"votre soutien pour la bataille à venir au Congrès. Consultez <a href="
+"\"http://www.publicknowledge.org/issues/bfcase\">http://www.publicknowledge."
+"org/issues/bfcase</a> pour plus de détails."
 
 # type: Content of: <dl><dt>
-msgid "<a id=\"wipochange\"><b>Call on WIPO to change its name and mission:</b></a>"
-msgstr "<a id=\"wipochange\"><b>Appelez l'OMPI à changer son nom et sa mission&nbsp;:</b></a>"
+msgid ""
+"<a id=\"wipochange\"><b>Call on WIPO to change its name and mission:</b></a>"
+msgstr ""
+"<a id=\"wipochange\"><b>Appelez l'OMPI à changer son nom et sa mission&nbsp;:"
+"</b></a>"
 
 # type: Content of: <dl><dd>
-msgid "People are invited to support this declaration calling on WIPO to change its name and mission.  <a href=\"http://fsfeurope.org/documents/wiwo.en.html\">http://fsfeurope.org/documents/wiwo.en.html</a>"
-msgstr "Vous êtes invités à soutenir cette déclaration appelant l'OMPI à changer son nom et sa mission. <a href=\"http://fsfeurope.org/documents/wiwo.fr.html\">http://fsfeurope.org/documents/wiwo.fr.html</a>"
+msgid ""
+"People are invited to support this declaration calling on WIPO to change its "
+"name and mission.  <a href=\"http://fsfeurope.org/documents/wiwo.en.html"
+"\">http://fsfeurope.org/documents/wiwo.en.html</a>"
+msgstr ""
+"Vous êtes invités à soutenir cette déclaration appelant l'OMPI à changer son "
+"nom et sa mission. <a href=\"http://fsfeurope.org/documents/wiwo.fr.html"
+"\">http://fsfeurope.org/documents/wiwo.fr.html</a>"
 
 # type: Content of: <dl><dt>
 msgid "<a id=\"wipo\"><b>Oppose the WIPO Broadcast Treaty:</b></a>"
-msgstr "<a id=\"wipo\"><b>S'opposer de l'OMPI sur les organismes de radiodiffusion&nbsp;:</b></a>"
+msgstr ""
+"<a id=\"wipo\"><b>S'opposer de l'OMPI sur les organismes de "
+"radiodiffusion&nbsp;:</b></a>"
 
 # type: Content of: <dl><dd>
-msgid "Please help the <a href=\"http://www.public-domain.org/?q=node/view/31\"> Union for the Public Domain</a> raise awareness of the danger of the WIPO Broadcast Treaty, by asking your government officials questions about it."
-msgstr "Veuillez aider <a href=\"http://www.public-domain.org/?q=node/view/31\">Union for the Public Domain</a> à montrer le danger sur le traité de l'OMPI sur les organismes de radiodiffusion, en posant des questions à vos représentants officiels."
+msgid ""
+"Please help the <a href=\"http://www.public-domain.org/?q=node/view/31\"> "
+"Union for the Public Domain</a> raise awareness of the danger of the WIPO "
+"Broadcast Treaty, by asking your government officials questions about it."
+msgstr ""
+"Veuillez aider <a href=\"http://www.public-domain.org/?q=node/view/31"
+"\">Union for the Public Domain</a> à montrer le danger sur le traité de "
+"l'OMPI sur les organismes de radiodiffusion, en posant des questions à vos "
+"représentants officiels."
 
 # type: Content of: <dl><dt>
 msgid "<a id=\"swpat\"><b>Help Fight Software Patents in Europe:</b></a>"
-msgstr "<a id=\"swpat\"><b>Aidez à combattre les brevets logiciels en Europe&nbsp;:</b></a>"
+msgstr ""
+"<a id=\"swpat\"><b>Aidez à combattre les brevets logiciels en Europe&nbsp;:</"
+"b></a>"
 
 # type: Content of: <dl><dd>
-msgid "Please see <a href=\"http://eupat.ffii.org/girzu/#hd003\"> http://eupat.ffii.org/girzu/#hd003</a> for what you can do to help fight against software patents in Europe.  (For more specific involvement see <a href=\"http://kwiki.ffii.org/FfiiprojEn\"> http://kwiki.ffii.org/FfiiprojEn</a>.)"
-msgstr "Veuillez consulter <a href=\"http://eupat.ffii.org/girzu/#hd003\">http://eupat.ffii.org/girzu/#hd003</a> pour savoir ce que vous pouvez faire pour aider à combattre les brevets logiciels en Europe. (Pour une implication plus spécifique, consultez <a href=\"http://kwiki.ffii.org/FfiiprojFr\"> http://kwiki.ffii.org/FfiiprojFr</a>.)"
+msgid ""
+"Please see <a href=\"http://eupat.ffii.org/girzu/#hd003\"> http://eupat.ffii."
+"org/girzu/#hd003</a> for what you can do to help fight against software "
+"patents in Europe.  (For more specific involvement see <a href=\"http://"
+"kwiki.ffii.org/FfiiprojEn\"> http://kwiki.ffii.org/FfiiprojEn</a>.)"
+msgstr ""
+"Veuillez consulter <a href=\"http://eupat.ffii.org/girzu/#hd003\">http://"
+"eupat.ffii.org/girzu/#hd003</a> pour savoir ce que vous pouvez faire pour "
+"aider à combattre les brevets logiciels en Europe. (Pour une implication "
+"plus spécifique, consultez <a href=\"http://kwiki.ffii.org/FfiiprojFr\"> "
+"http://kwiki.ffii.org/FfiiprojFr</a>.)"
 
 # type: Content of: <dl><dt>
-msgid "<a id=\"unmaint\"><b>Take over an unmaintained GNU package:</b></a> <a href=\"/software/dbmanual/\">dbmanual</a>, <a href=\"/software/dotgnu-forum/\">dotgnu-forum</a>, <a href=\"/software/ffp/\">ffp</a>, <a href=\"/software/gnuprologjava/\">gnuprologjava</a>, <a href=\"/software/gnutrition/\">gnutrition</a>, <a href=\"/software/gtkeyboard/\">gtkeyboard</a>, <a href=\"/software/oleo/\">oleo</a>, <a href=\"/software/pgccfd/\">pgccfd</a>, <a href=\"/software/speedx/\">speedx</a>, <a href=\"/software/vmslib/\">vmslib</a>, <a href=\"/software/xmorph/\">xmorph</a>.  We are also looking for a co-maintainer for the CASE tool <a href=\"/software/ferret/\">ferret</a>."
-msgstr "<a id=\"unmaint\"><b>Reprenez la maintenance d'un paquetage GNU&nbsp;:</b></a> <a href=\"/software/dbmanual/\">dbmanual</a>, <a href=\"/software/dotgnu-forum/\">dotgnu-forum</a>, <a href=\"/software/ffp/\">ffp</a>, <a href=\"/software/gnuprologjava/\">gnuprologjava</a>, <a href=\"/software/gnutrition/\">gnutrition</a>, <a href=\"/software/gtkeyboard/\">gtkeyboard</a>, <a href=\"/software/oleo/\">oleo</a>, <a href=\"/software/pgccfd/\">pgccfd</a>, <a href=\"/software/speedx/\">speedx</a>, <a href=\"/software/vmslib/\">vmslib</a>, <a href=\"/software/xmorph/\">xmorph</a>. Nous recherchons aussi un co-mainteneur pour l'outil CASE <a href=\"/software/ferret/\">ferret</a>."
+#, fuzzy
+msgid ""
+"<a id=\"unmaint\"><b>Take over an unmaintained GNU package:</b></a> <a href="
+"\"/software/dbmanual/\">dbmanual</a>, <a href=\"/software/dotgnu-forum/"
+"\">dotgnu-forum</a>, <a href=\"/software/ffp/\">ffp</a>, <a href=\"/software/"
+"gleem/\">gleem</a>, <a href=\"/software/gnuprologjava/\">gnuprologjava</a>, "
+"<a href=\"/software/gnutrition/\">gnutrition</a>, <a href=\"/software/"
+"gtkeyboard/\">gtkeyboard</a>, <a href=\"/software/oleo/\">oleo</a>, <a href="
+"\"/software/pgccfd/\">pgccfd</a>, <a href=\"/software/speedx/\">speedx</a>, "
+"<a href=\"/software/vmslib/\">vmslib</a>, <a href=\"/software/xmorph/"
+"\">xmorph</a>.  We are also looking for a co-maintainer for the CASE tool <a "
+"href=\"/software/ferret/\">ferret</a>."
+msgstr ""
+"<a id=\"unmaint\"><b>Reprenez la maintenance d'un paquetage GNU&nbsp;:</b></"
+"a> <a href=\"/software/dbmanual/\">dbmanual</a>, <a href=\"/software/dotgnu-"
+"forum/\">dotgnu-forum</a>, <a href=\"/software/ffp/\">ffp</a>, <a href=\"/"
+"software/gnuprologjava/\">gnuprologjava</a>, <a href=\"/software/gnutrition/"
+"\">gnutrition</a>, <a href=\"/software/gtkeyboard/\">gtkeyboard</a>, <a href="
+"\"/software/oleo/\">oleo</a>, <a href=\"/software/pgccfd/\">pgccfd</a>, <a "
+"href=\"/software/speedx/\">speedx</a>, <a href=\"/software/vmslib/\">vmslib</"
+"a>, <a href=\"/software/xmorph/\">xmorph</a>. Nous recherchons aussi un co-"
+"mainteneur pour l'outil CASE <a href=\"/software/ferret/\">ferret</a>."
 
 # type: Content of: <dl><dd>
-msgid "See the package web pages for specific information, and <a href=\"/help/evaluation.html#whatmeans\">this general information about GNU packages and maintenance</a>, and then email <a href=\"mailto:maintainers@gnu.org\">maintainers@gnu.org</a> if you have time and interest in taking over one of these projects.  Of course, many GNU projects are seeking other help of various kinds; see the <a href=\"/prep/tasks.html\">GNU Task list</a>."
-msgstr "Consultez les pages Web sur les paquetages pour des informations plus spécifiques et <a href=\"/help/evaluation.html#whatmeans\">ces informations générales sur les paquetages GNU et la maintenance</a>, puis faites un courriel <a href=\"mailto:maintainers@gnu.org\">maintainers@gnu.org</a> si vous avez du temps et de l'intérêt pour reprendre un de ces projets. Bien sûr, beaucoup de projets GNU recherchent de l'aide dans divers domaines&nbsp;; consultez la <a href=\"/prep/tasks.html\">liste des tâches GNU</a>."
+msgid ""
+"See the package web pages for specific information, and <a href=\"/help/"
+"evaluation.html#whatmeans\">this general information about GNU packages and "
+"maintenance</a>, and then email <a href=\"mailto:maintainers@gnu.org"
+"\">maintainers@gnu.org</a> if you have time and interest in taking over one "
+"of these projects.  Of course, many GNU projects are seeking other help of "
+"various kinds; see the <a href=\"/prep/tasks.html\">GNU Task list</a>."
+msgstr ""
+"Consultez les pages Web sur les paquetages pour des informations plus "
+"spécifiques et <a href=\"/help/evaluation.html#whatmeans\">ces informations "
+"générales sur les paquetages GNU et la maintenance</a>, puis faites un "
+"courriel <a href=\"mailto:maintainers@gnu.org\">maintainers@gnu.org</a> si "
+"vous avez du temps et de l'intérêt pour reprendre un de ces projets. Bien "
+"sûr, beaucoup de projets GNU recherchent de l'aide dans divers "
+"domaines&nbsp;; consultez la <a href=\"/prep/tasks.html\">liste des tâches "
+"GNU</a>."
 
 # type: Content of: <dl><dt>
 msgid "<a id=\"directory\"><b>Enhance the Free Software Directory:</b></a>"
-msgstr "<a id=\"directory\"><b>Améliorez le Répertoire des logiciels libres&nbsp;:</b></a>"
+msgstr ""
+"<a id=\"directory\"><b>Améliorez le Répertoire des logiciels libres&nbsp;:</"
+"b></a>"
 
 # type: Content of: <dl><dd>
-msgid "We would like your suggestions for free software packages to add to the <a href=\"/directory\">Free Software Directory</a>.  Please look up your favorite free software packages there, and if one of them is not found, please suggest it.  <a href=\"mailto:bug-directory@gnu.org\">Please email us</a> the package name and the URL for where it can be found.  You can also help even further by <a href=\"http://www.gnu.org/help/directory.html#adding-entries\"> writing a draft entry</a> that we could start with."
-msgstr "Nous aimerions avoir vos suggestions pour l'ajout de logiciels libres dans le <a href=\"/directory\">Répertoires des logiciels libres</a>. Veuillez rechercher vos logiciels libres préférés ici, et si vous ne trouvez pas l'un d'entre eux, veuillez le suggérer. <a href=\"mailto:bug-directory@gnu.org\">Veuillez nous envoyer</a> le nom du paquetage et l'URL où il peut être trouvé. Vous pouvez aussi aider encore plus <a href=\"http://www.gnu.org/help/directory.html#adding-entries\">en écrivant un brouillon d'entrée</a> avec lequel nous pourrions démarrer."
+msgid ""
+"We would like your suggestions for free software packages to add to the <a "
+"href=\"/directory\">Free Software Directory</a>.  Please look up your "
+"favorite free software packages there, and if one of them is not found, "
+"please suggest it.  <a href=\"mailto:bug-directory@gnu.org\">Please email "
+"us</a> the package name and the URL for where it can be found.  You can also "
+"help even further by <a href=\"http://www.gnu.org/help/directory.html#adding-"
+"entries\"> writing a draft entry</a> that we could start with."
+msgstr ""
+"Nous aimerions avoir vos suggestions pour l'ajout de logiciels libres dans "
+"le <a href=\"/directory\">Répertoires des logiciels libres</a>. Veuillez "
+"rechercher vos logiciels libres préférés ici, et si vous ne trouvez pas l'un "
+"d'entre eux, veuillez le suggérer. <a href=\"mailto:bug-directory@gnu.org"
+"\">Veuillez nous envoyer</a> le nom du paquetage et l'URL où il peut être "
+"trouvé. Vous pouvez aussi aider encore plus <a href=\"http://www.gnu.org/"
+"help/directory.html#adding-entries\">en écrivant un brouillon d'entrée</a> "
+"avec lequel nous pourrions démarrer."
 
 # type: Content of: <dl><dt>
 msgid "<a id=\"antidmca\"><b>Petitions to Sign:</b></a>"
@@ -121,32 +265,59 @@ msgstr "<a id=\"antidmca\"><b>Pétitions&nbsp;:</b></a>"
 #. http://www.digitalspeech.org</a> and help resist the media
 #. companies' campaign to impose restrictions on what your computer
 #. can do.
-msgid "Please sign <em>both</em> the <a href=\"http://www.petitiononline.com/pasp01/petition.html\"> Petition Against Software Patents</a> and the <a href=\"http://www.petitiononline.com/nixdmca/petition.html\"> Anti-DMCA Petition</a>."
-msgstr "Veuillez signer la <a href=\"http://www.petitiononline.com/pasp01/petition.html\">Pétition contre les brevets logiciels</a> et la <a href=\"http://www.petitiononline.com/nixdmca/petition.html\">Pétition contre DMCA</a>."
+msgid ""
+"Please sign <em>both</em> the <a href=\"http://www.petitiononline.com/pasp01/"
+"petition.html\"> Petition Against Software Patents</a> and the <a href="
+"\"http://www.petitiononline.com/nixdmca/petition.html\"> Anti-DMCA Petition</"
+"a>."
+msgstr ""
+"Veuillez signer la <a href=\"http://www.petitiononline.com/pasp01/petition."
+"html\">Pétition contre les brevets logiciels</a> et la <a href=\"http://www."
+"petitiononline.com/nixdmca/petition.html\">Pétition contre DMCA</a>."
 
 # type: Content of: <p>
 msgid "You can help the GNU Project, visit these links."
 msgstr "vous pouvez aider le Projet GNU en visitant ces liens."
 
 # type: Content of: <ul><li>
-msgid "For Development free software and documents click <a href=\"http://savannah.gnu.org\">here</a>. And <a href=\"/software/devel.html\">GNU Development Resources</a>"
-msgstr "Pour le développement de logiciels libres et la documentation cliquez <a href=\"http://savannah.gnu.org\">ici</a>. Et les <a href=\"/software/devel.html\">Ressources de développement GNU</a>"
+msgid ""
+"For Development free software and documents click <a href=\"http://savannah."
+"gnu.org\">here</a>. And <a href=\"/software/devel.html\">GNU Development "
+"Resources</a>"
+msgstr ""
+"Pour le développement de logiciels libres et la documentation cliquez <a "
+"href=\"http://savannah.gnu.org\">ici</a>. Et les <a href=\"/software/devel."
+"html\">Ressources de développement GNU</a>"
 
 # type: Content of: <ul><li>
-msgid "If you need help for development, visit <a href=\"/help/gethelp.html\">Get Help</a>"
-msgstr "Si vous avez besoin d'aide pour le développement, visitez <a href=\"/help/gethelp.html\">Obtenir de l'aide</a>"
+msgid ""
+"If you need help for development, visit <a href=\"/help/gethelp.html\">Get "
+"Help</a>"
+msgstr ""
+"Si vous avez besoin d'aide pour le développement, visitez <a href=\"/help/"
+"gethelp.html\">Obtenir de l'aide</a>"
 
 # type: Content of: <ul><li>
-msgid "Start a GNU/Linux User Group in your town or country, and send us group's name. Visit for more information <a href=\"/gnu/gnu-user-groups.html\">GNU Users Groups</a>"
-msgstr "Montez un Groupe d'utulisateurs GNU/Linux dans votre ville ou votre pays et envoyez-nous le nom du groupe. Pour plus d'informations, visitez <a href=\"/gnu/gnu-user-groups.fr.html\">Groupes d'utilisateurs GNU</a>"
+msgid ""
+"Start a GNU/Linux User Group in your town or country, and send us group's "
+"name. Visit for more information <a href=\"/gnu/gnu-user-groups.html\">GNU "
+"Users Groups</a>"
+msgstr ""
+"Montez un Groupe d'utulisateurs GNU/Linux dans votre ville ou votre pays et "
+"envoyez-nous le nom du groupe. Pour plus d'informations, visitez <a href=\"/"
+"gnu/gnu-user-groups.fr.html\">Groupes d'utilisateurs GNU</a>"
 
 # type: Content of: <ul><li>
 msgid "Work in GNU projects."
 msgstr "Travailler dans les projets GNU."
 
 # type: Content of: <p>
-msgid "Finally visit <a href=\"/help/help.html\">How You Can Help the GNU Project</a> for more information"
-msgstr "Enfin, visitez <a href=\"/help/help.fr.html\">Comment aider le Projet GNU</a> pour plus d'informations."
+msgid ""
+"Finally visit <a href=\"/help/help.html\">How You Can Help the GNU Project</"
+"a> for more information"
+msgstr ""
+"Enfin, visitez <a href=\"/help/help.fr.html\">Comment aider le Projet GNU</"
+"a> pour plus d'informations."
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
@@ -154,36 +325,60 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
-msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
-msgstr "Pour les questions et requ&ecirc;tes relatives &agrave; la FSF &amp; GNU&nbsp;: <a href=\"mailto:gnu&#64;gnu.org\"><em>gnu&#64;gnu.org</em></a>. Autres <a href=\"/home.fr.html#ContactInfo\">moyens pour contacter</a> la FSF. Merci d'envoyer des commentaires sur cette page web &agrave; <a href=\"mailto:webmasters&#64;gnu.org\"><em>webmasters&#64;gnu.org</em></a>."
+msgid ""
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+"ways to contact</a> the FSF.  <br /> Please send broken links and other "
+"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+"\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Pour les questions et requ&ecirc;tes relatives &agrave; la FSF &amp; "
+"GNU&nbsp;: <a href=\"mailto:gnu&#64;gnu.org\"><em>gnu&#64;gnu.org</em></a>. "
+"Autres <a href=\"/home.fr.html#ContactInfo\">moyens pour contacter</a> la "
+"FSF. Merci d'envoyer des commentaires sur cette page web &agrave; <a href="
+"\"mailto:webmasters&#64;gnu.org\"><em>webmasters&#64;gnu.org</em></a>."
 
 # type: Content of: <div><p>
-msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
-msgstr "Veuillez consulter <a href=\"/server/standards/README.translations.fr.html\">Traductions de README</a> pour des informations sur la coordination et la soumission de traduction de cet article."
+msgid ""
+"Please see the <a href=\"/server/standards/README.translations.html"
+"\">Translations README</a> for information on coordinating and submitting "
+"translations of this article."
+msgstr ""
+"Veuillez consulter <a href=\"/server/standards/README.translations.fr.html"
+"\">Traductions de README</a> pour des informations sur la coordination et la "
+"soumission de traduction de cet article."
 
 # type: Content of: <div><p>
 msgid "Copyright &copy; 2004, 2005, 2006, 2007 Free Software Foundation, Inc.,"
-msgstr "Copyright &copy; 2004, 2005, 2006, 2007 Free Software Foundation, Inc.,"
+msgstr ""
+"Copyright &copy; 2004, 2005, 2006, 2007 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
-msgid "Verbatim copying and distribution of this entire article are permitted worldwide, without royalty, in any medium, provided this notice, and the copyright notice, are preserved."
-msgstr "La reproduction exacte et la distribution int&eacute;grale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit pr&eacute;serv&eacute;e."
+msgid ""
+"Verbatim copying and distribution of this entire article are permitted "
+"worldwide, without royalty, in any medium, provided this notice, and the "
+"copyright notice, are preserved."
+msgstr ""
+"La reproduction exacte et la distribution int&eacute;grale de cet article "
+"est permise sur n'importe quel support d'archivage, pourvu que cette notice "
+"soit pr&eacute;serv&eacute;e."
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
-msgstr "Traduction&nbsp;: C&eacute;dric Corazza.<br /> R&eacute;vision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+msgstr ""
+"Traduction&nbsp;: C&eacute;dric Corazza.<br /> R&eacute;vision&nbsp;: <a "
+"href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 # type: Content of: <div><p>
-#.  timestamp start
+#.  timestamp start 
 msgid "Updated:"
 msgstr "Derni&egrave;re mise-&agrave;-jour&nbsp;:"
 
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
-
