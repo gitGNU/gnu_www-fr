@@ -1,0 +1,95 @@
+# French translation of http://www.gnu.org/philosophy/sun-in-night-time.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the sun-in-night-time.html package.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sun-in-night-time.html\n"
+"POT-Creation-Date: 2008-09-16 16:25-0300\n"
+"PO-Revision-Date: 2008-12-25 14:31+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <h2>
+msgid "The Curious Incident of Sun in the Night-Time"
+msgstr "Le curieux non-&eacute;v&eacute;nement de Sun dans la p&eacute;nombre"
+
+# type: Content of: <p>
+msgid "<i>We leave this web page in place for the sake of history, but as of December 2006, Sun is in the middle of <a href=\"http://www.fsf.org/news/fsf-welcomes-gpl-java.html\">rereleasing its Java platform under the GNU GPL</a>.  When this license change is completed, we expect Sun's Java will be free software.</i>"
+msgstr "<i>Nous laissons cette page en place &agrave; des fins historiques, mais en d&eacute;cembre 2006, Sun est en train de <a href=\"http://www.fsf.org/news/fsf-welcomes-gpl-java.html\">republier sa plateforme Java sous licence GPL GNU</a>. Quand ce changement sera termin&eacute;, la plateforme Java de Sun sera un logiciel libre.</i>"
+
+# type: Content of: <p>
+msgid "by <a href=\"http://www.stallman.org/\">Richard M. Stallman</a><br /> May 24, 2006."
+msgstr "par <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a><br />le 24 mai 2006."
+
+# type: Content of: <p>
+msgid "Our community has been abuzz with the rumor that Sun has made its implementation Java free software (or &ldquo;open source&rdquo;).  Community leaders even publicly thanked Sun for its contribution. What is Sun's new contribution to the FLOSS community?"
+msgstr "Notre communaut&eacute; a bourdonn&eacute; de la rumeur que Sun avait rendu sa mise en &oelig;uvre de Java libre (ou &laquo;&nbsp;open source&nbsp;&raquo;). Des leaders de la communaut&eacute; ont m&ecirc;me publiquement remerci&eacute; Sun pour sa contribution. Que repr&eacute;sente la nouvelle contribution de Sun pour la communaut&eacute; du logiciel libre et open source&nbsp;?"
+
+# type: Content of: <p>
+msgid "Nothing.  Absolutely nothing&mdash;and that's what makes the response to this non-incident so curious."
+msgstr "Rien. Absolument rien &mdash; et c'est ce qui rend la r&eacute;ponse &agrave; ce non-&eacute;v&eacute;nement si curieux."
+
+# type: Content of: <p>
+msgid "Sun's Java implementation remains proprietary software, just as before.  It doesn't come close to meeting the criteria for <a href=\"/philosophy/free-sw.html\">free software</a>, or the similar but slightly looser criteria for open source.  Its source code is available only under an NDA."
+msgstr "La mise en &oelig;uvre Java de Sun demeure propri&eacute;taire, tout comme elle l'&eacute;tait auparavant. Elle ne s'approche pas des crit&egrave;res requis pour un  <a href=\"http://www.gnu.org/philosophy/free-sw.fr.html\">logiciel libre</a>, ou les crit&egrave;res similaires mais l&eacute;g&egrave;rement plus permissifs d'un logiciel open source. Son code est uniquement disponible avec accord de non-divulgation."
+
+# type: Content of: <p>
+msgid "So what did Sun actually do? It allowed more convenient redistribution of the binaries of its Java platform.  With this change, GNU/Linux distros can include the non-free Sun Java platform, just as some now include the non-free nVidia driver.  But they do so only at the cost of being non-free."
+msgstr "Qu'a donc alors fait en fin de compte Sun&nbsp;? Il a permis une redistribution plus pratique des binaires de sa plateforme Java. Avec ce changement, les distributions GNU/Linux peuvent inclure la plateforme Java non-libre de Sun, tout comme certaines fournissent actuellement le pilote non-libre de nVidia. Mais elles ne le font qu'au prix d'&ecirc;tre non-libres."
+
+# type: Content of: <p>
+msgid "The Sun license has one restriction that may ironically reduce the tendency for users to accept non-free software without thinking twice: it insists that the operating system distributor get the user's explicit agreement to the license before letting the user install the code. This means the system cannot silently install Sun's Java platform without warning users they have non-free software, as some GNU/Linux systems silently install the nVidia driver."
+msgstr "La licence de Sun comporte une restriction qui peut ironiquement r&eacute;duire la tendance des utilisateurs &agrave; accepter des logiciels non-libres sans y r&eacute;fl&eacute;chir &agrave; deux fois&nbsp;: elle insiste pour que le distributeur du syst&egrave;me d'exploitation obtienne l'accord explicite de l'utilisateur de la licence avant de laisser l'utilisateur installer le code. Cela signifie que le syst&egrave;me ne peut pas installer silencieusement la plateforme Java de Sun sans avertir les utilisateurs qu'ils ont un logiciel non-libre, tout comme certains syst&egrave;mes GNU/Linux installent silencieusement le pilote nVidia."
+
+# type: Content of: <p>
+msgid "If you look closely at Sun's announcement, you will see that it accurately represents these facts. It does not say that Sun's Java platform is free software, or even open source. It only predicts that the platform will be &ldquo;widely available&rdquo; on &ldquo;leading open source platforms&rdquo;.  Available, that is, as proprietary software, on terms that deny your freedom."
+msgstr "Si vous regardez de pr&egrave;s l'annonce de Sun, vous verrez que cela repr&eacute;sente exactement ces faits. Elle ne dit pas que la plateforme Java de Sun est un logiciel libre, ou m&ecirc;me open source. Elle pr&eacute;voit seulement que la plateforme sera &laquo;&nbsp;largement disponible&nbsp;&raquo; sur les &laquo;&nbsp;plateformes open source majeures&nbsp;&raquo;. C'est-&agrave;-dire disponible en tant que logiciel propri&eacute;taire en des termes qui d&eacute;nient votre libert&eacute;."
+
+# type: Content of: <p>
+msgid "Why did this non-incident generate a large and confused reaction? Perhaps because people do not read these announcements carefully.  Ever since the term &ldquo;open source&rdquo; was coined, we have seen companies find ways to use it and their product name in the same sentence. (They don't seem to do this with &ldquo;free software&rdquo;, though they could if they wanted to.)  The careless reader may note the two terms in proximity and falsely assume that one talks about the other."
+msgstr "Pourquoi ce non-&eacute;v&eacute;nement a t-il g&eacute;n&eacute;r&eacute; une r&eacute;action si importante et si confuse&nbsp;? Peut-&ecirc;tre parce que les gens n'ont pas lu avec attention cette annonce. Depuis que le terme &laquo;&nbsp;open source&nbsp;&raquo; a &eacute;t&eacute; invent&eacute;, nous avons vu des soci&eacute;t&eacute;s trouver le moyen de l'utiliser avec le nom de leur produit dans la m&ecirc;me phrase. (Elles ne semblent pas faire de m&ecirc;me avec le terme &laquo;&nbsp;logiciel libre&nbsp;&raquo;, bien qu'elles puissent le faire si elles le d&eacute;sirent). Le lecteur distrait peut remarquer les deux termes &agrave; proximit&eacute; et supposer &agrave; tort que l'un qualifie l'autre."
+
+# type: Content of: <p>
+msgid "Some believe that this non-incident represents Sun's exploratory steps towards eventually releasing its Java platform as free software.  Let's hope Sun does that some day.  We would welcome that, but we should save our appreciation for the day that actually occurs.  In the mean time, the <a href=\"/philosophy/java-trap.html\">Java Trap</a> still lies in wait for the work of programmers who don't take precautions to avoid it."
+msgstr "Certaines personnes croient que ce non-&eacute;v&eacute;nement repr&eacute;sente la d&eacute;marche exploratoire de Sun vers une &eacute;ventuelle publication de sa plateforme Java comme logiciel libre. Esp&eacute;rons que Sun le fasse un jour. Nous accueillerons favorablement cela, mais nous r&eacute;servons ce jugement pour le jour o&ugrave; cela sera effectivement le cas. Dans l'intervalle, le <a href=\"/philosophy/java-trap.fr.html\">Pi&egrave;ge Java</a> demeure pour le travail des d&eacute;veloppeurs qui ne prennent pas de pr&eacute;cautions pour l'&eacute;viter."
+
+# type: Content of: <p>
+msgid "We in the GNU Project continue developing the <a href=\"http://gcc.gnu.org/java/\">GNU Compiler for Java and GNU Classpath</a>; we made great progress in the past year, so our free platform for Java is included in many major GNU/Linux distros.  If you want to run Java and have freedom, please join in and help."
+msgstr "Dans le projet GNU, nous continuons &agrave; d&eacute;velopper le <a href=\"http://gcc.gnu.org/java/\">Compilateur GNU pour Java et GNU Classpath</a>&nbsp;; nous avons fait de gros progr&egrave;s l'an pass&eacute; et par cons&eacute;quent notre plateforme libre Java est incluse dans de nombreuses distributions majeures GNU/Linux. Si vous voulez ex&eacute;cuter Java et avoir la libert&eacute;, veuillez nous rejoindre et nous aider."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 2006 Richard M. Stallman <br /> Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved."
+msgstr "Copyright &copy; 2006 Richard M. Stallman <br />La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
