@@ -1,0 +1,107 @@
+# French translation of http://www.gnu.org/philosophy/mcvoy.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mcvoy.html package.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mcvoy.html\n"
+"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"PO-Revision-Date: 2008-12-27 15:30+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <h2>
+msgid "Thank You, Larry McVoy"
+msgstr "Merci, Larry McVoy"
+
+# type: Content of: <p>
+msgid "by <strong>Richard M. Stallman</strong>"
+msgstr "par <strong>Richard M. Stallman</strong>"
+
+# type: Content of: <p>
+msgid "For the first time in my life, I want to thank Larry McVoy.  He recently eliminated a major weakness of the free software community, by announcing the end of his campaign to entice free software projects to use and promote his non-free software.  Soon, Linux development will no longer use this program, and no longer spread the message that non-free software is a good thing if it's convenient."
+msgstr "Pour la premi&egrave;re fois de ma vie, je veux remercier Larry McVoy. Il a r&eacute;cemment &eacute;limin&eacute; une faiblesse majeure de la communaut&eacute; du logiciel libre, en annon&ccedil;ant la fin de sa campagne de s&eacute;duction &agrave; destination des projets de logiciel libre pour utiliser et promouvoir son logiciel non-libre. Bient&ocirc;t, le d&eacute;veloppement de Linux n'utilisera plus ce programme et ne dispensera plus le message que les logiciels non-libres sont une bonne chose s'ils sont pratiques."
+
+# type: Content of: <p>
+msgid "My gratitude is limited, since it was McVoy that created the problem in the first place.  But I still appreciate his decision to clear it up."
+msgstr "Ma gratitude est limit&eacute;e, puisque c'&eacute;tait McVoy qui avait cr&eacute;&eacute; le probl&egrave;me en premier lieu. Mais j'appr&eacute;cie toutefois sa d&eacute;cision de clarifier les choses."
+
+# type: Content of: <p>
+msgid "There are thousands of non-free programs, and most merit no special attention, other than developing a free replacement.  What made this program, BitKeeper, infamous and dangerous was its marketing approach: inviting high-profile free software projects to use it, so as to attract other paying users."
+msgstr "Il y a des milliers de programmes non-libres dont la plupart ne m&eacute;rite pas d'attention particuli&egrave;re, si ce n'est de d&eacute;velopper un programme alternatif libre. Ce qui a rendu ce programme, BitKeeper, inf&acirc;me et dangereux, c'&eacute;tait son approche marketing invitant de grands projets de logiciels libres &agrave; l'utiliser, de mani&egrave;re &agrave; attirer d'autres utilisateurs payants."
+
+# type: Content of: <p>
+msgid "McVoy made the program available gratis to free software developers.  This did not mean it was free software for them: they were privileged not to part with their money, but they still had to part with their freedom.  They gave up the fundamental freedoms that define free software: freedom to run the program as you wish for any purpose, freedom to study and change the source code as you wish, freedom to make and redistribute copies, and freedom to publish modified versions."
+msgstr "McVoy a rendu le programme disponible gratuitement pour les d&eacute;veloppeurs de logiciels libres. Cela ne signifiait pas qu'il s'agissait d'un logiciel libre pour eux&nbsp;: ils avaient le privil&egrave;ge d'&ecirc;tre dispens&eacute;s de payer, mais ils devaient se dispenser de leur libert&eacute;. Ils avaient abandonn&eacute; les libert&eacute;s fondamentales qui d&eacute;finissent le logiciel libre&nbsp;: la libert&eacute; d'utiliser le programme comme vous le souhaitez et pour l'usage que vous voulez, la libert&eacute; d'&eacute;tudier et de modifier le code source &agrave; votre convenance, la libert&eacute; de r&eacute;aliser et de redistribuer des copies et la libert&eacute; de publier des versions modifi&eacute;es."
+
+# type: Content of: <p>
+msgid "The Free Software Movement has said &ldquo;Think of free speech, not free beer&rdquo; for 15 years.  McVoy said the opposite; he invited developers to focus on the lack of monetary price, instead of on freedom.  A free software activist would dismiss this suggestion, but those in our community who value technical advantage above freedom and community were susceptible to it."
+msgstr "Le mouvement pour le logiciel libre dit depuis quinze ans&nbsp;: &laquo;&nbsp;Pensez au discours libre, pas &agrave; l'entr&eacute;e libre (gratuite)&nbsp;&raquo;. McVoy disait le contraire&nbsp;; il invitait les d&eacute;veloppeurs &agrave; porter leur attention sur l'absence de prix au lieu de la libert&eacute;. Un activiste du logiciel libre aurait d&eacute;clin&eacute; cette suggestion, mais ceux dans notre communaut&eacute; qui accordent plus d'int&eacute;r&ecirc;t &agrave; l'avantage technique qu'&agrave; la libert&eacute; et la communaut&eacute; &eacute;taient susceptibles de l'accepter."
+
+# type: Content of: <p>
+msgid "McVoy's great triumph was the adoption of this program for Linux development.  No free software project is more visible than Linux.  It is the kernel of the GNU/Linux operating system, an essential component, and users often mistake it for the entire system.  As McVoy surely planned, the use of his program in Linux development was powerful publicity for it."
+msgstr "Le grand triomphe de McVoy fut l'adoption de ce programme pour le d&eacute;veloppement de Linux. Aucun autre projet de logiciel libre n'est plus visible que Linux. C'est le noyau du syst&egrave;me d'exploitation GNU/Linux, un composant essentiel, et les utilisateurs l'assimilent souvent par erreur au syst&egrave;me tout entier. Comme McVoy l'avait s&ucirc;rement pr&eacute;vu, l'utilisation de son programme pour le d&eacute;veloppement de Linux fit une &eacute;norme publicit&eacute; pour son logiciel."
+
+# type: Content of: <p>
+msgid "It was also, whether intentionally or not, a powerful political PR campaign, telling the free software community that freedom-denying software is acceptable as long as it's convenient.  If we had taken that attitude towards Unix in 1984, where would we be today? Nowhere.  If we had accepted using Unix, instead of setting out to replace it, nothing like the GNU/Linux system would exist."
+msgstr "Ce fut, intentionnellement ou non, une puissante campagne de propagande politique, disant &agrave; la communaut&eacute; du libre que les logiciels refusant la libert&eacute; sont acceptables aussi longtemps qu'ils sont pratiques. Si nous avions adopt&eacute; cette attitude &agrave; l'&eacute;gard d'Unix en 1984, o&ugrave; en serions nous aujourd'hui&nbsp;? Nulle part. Si nous avions accept&eacute; d'utiliser Unix au lieu de nous atteler &agrave; le remplacer, rien de tel que le syst&egrave;me GNU/Linux n'existerait."
+
+# type: Content of: <p>
+msgid "Of course, the Linux developers had practical reasons for what they did.  I won't argue with those reasons; they surely know what's convenient for them.  But they did not count, or did not value, how this would affect their freedom&mdash;or the rest of the community's efforts."
+msgstr "Bien s&ucirc;r, les d&eacute;veloppeurs de Linux avaient des raisons pratiques pour avoir fait ce choix. Je ne d&eacute;battrai pas de ces raisons, ils savent s&ucirc;rement ce qui est pratique pour eux. Mais ils n'ont pas pris en compte, ou pas accord&eacute; d'importance, &agrave; la fa&ccedil;on dont cela affecterait leur libert&eacute;&hellip; ou les efforts du reste de la communaut&eacute;."
+
+# type: Content of: <p>
+msgid "A free kernel, even a whole free operating system, is not sufficient to use your computer in freedom; we need free software for everything else, too.  Free applications, free drivers, free <abbr title=\"Basic Input/Output System\">BIOS</abbr>: some of those projects face large obstacles&mdash;the need to reverse engineer formats or protocols or pressure companies to document them, or to work around or face down patent threats, or to compete with a network effect.  Success will require firmness and determination.  A better kernel is desirable, to be sure, but not at the expense of weakening the impetus to liberate the rest of the software world."
+msgstr "Un noyau libre, m&ecirc;me un syst&egrave;me d'exploitation enti&egrave;rement libre, n'est pas suffisant pour utiliser votre ordinateur en toute libert&eacute;; nous avons besoin de logiciels libres pour tout le reste aussi. Des applications libres, des pilotes libres, des <abbr title=\"Basic Input/Output System\">BIOS</abbr> libres&nbsp;: certains de ces projets affrontent de gros obstacles &mdash; le besoin de faire de l'ing&eacute;nierie inverse pour les formats ou les protocoles&nbsp;; faire pression sur les soci&eacute;t&eacute;s pour qu'elles les documentent&nbsp;; contourner ou &eacute;liminer les menaces des brevets&nbsp;; ou encore rentrer en concurrence avec un effet r&eacute;seau. Le succ&egrave;s demandera de la fermet&eacute; et de la d&eacute;termination. Un meilleur noyau est souhaitable, sans aucun doute, mais pas aux d&eacute;pens de l'affaiblissement de l'&eacute;lan pour lib&eacute;rer le reste du monde du logiciel."
+
+# type: Content of: <p>
+msgid "When the use of his program became controversial, McVoy responded with distraction.  For instance, he promised to release it as free software if the company went out of business.  Alas, that does no good as long as the company remains in business.  Linux developers responded by saying, &ldquo;We'll switch to a free program when you develop a better one.&rdquo; This was an indirect way of saying, &ldquo;We made the mess, but we won't clean it up.&rdquo;"
+msgstr "Quand l'utilisation de son programme est devenu controvers&eacute;e, McVoy répondit avec d&eacute;tachement. Par exemple, il promit de rendre son logiciel libre si la soci&eacute;t&eacute; devait fermer. H&eacute;las, cela ne changera rien tant que la soci&eacute;t&eacute; existe. Les d&eacute;veloppeurs de Linux r&eacute;pondirent par&nbsp;: &laquo;&nbsp;Nous basculerons vers un programme libre quand vous en d&eacute;velopperez un meilleur&nbsp;&raquo;. C'&eacute;tait une fa&ccedil;on indirecte de dire&nbsp;: &laquo;&nbsp;Nous avons mis le bazar, mais nous ne ferons pas le m&eacute;nage&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "Fortunately, not everyone in Linux development considered a non-free program acceptable, and there was continuing pressure for a free alternative.  Finally Andrew Tridgell developed an interoperating free program, so Linux developers would no longer need to use a non-free program."
+msgstr "Heureusement, tout le monde dans le projet de d&eacute;veloppement Linux ne consid&eacute;rait pas qu'un logiciel non-libre &eacute;tait acceptable et il y eut une pression constante pour une alternative libre. Finalement, Andrew Tridgell d&eacute;veloppa un programme coop&eacute;ratif libre et les d&eacute;veloppeurs de Linux n'eurent plus besoin d'utiliser un logiciel non-libre."
+
+# type: Content of: <p>
+msgid "McVoy first blustered and threatened, but ultimately chose to go home and take his ball with him: he withdrew permission for gratis use by free software projects, and Linux developers will move to other software.  The program they no longer use will remain unethical as long as it is non-free, but they will no longer promote it, nor by using it teach others to give freedom low priority.  We can begin to forget about that program."
+msgstr "Tout d'abord, McVoy temp&ecirc;ta et mena&ccedil;a, puis choisit finalement de rentrer chez lui et de retirer ses billes&nbsp;: il retira la permission d'utilisation gracieuse de son logiciel pour les projets de logiciels libres et les d&eacute;veloppeurs de Linux utilis&egrave;rent un autre programme. Le programme qu'ils n'utilisent plus demeurera non-&eacute;thique aussi longtemps qu'il sera non-libre, mais ils n'en font plus la promotion en l'utilisant et ne donneront plus l'exemple aux autres de donner une basse priorit&eacute; &agrave; la libert&eacute;. Nous pouvons commencer &agrave; oublier ce programme."
+
+# type: Content of: <p>
+msgid "We should not forget the lesson we have learned from it: Non-free programs are dangerous to you and to your community.  Don't let them get a place in your life."
+msgstr "Nous ne devrions pas oublier la le&ccedil;on que nous en avons tir&eacute;&nbsp;: les programmes non-libres sont dangereux pour vous et pour votre communaut&eacute;. Ne les laissez pas prendre place dans votre vie."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 2005 Richard M. Stallman <br /> Verbatim copying and distribution of this entire article is permitted worldwide without royalty in any medium provided this notice is preserved."
+msgstr "Copyright &copy; 2005 Richard M. Stallman <br />La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+

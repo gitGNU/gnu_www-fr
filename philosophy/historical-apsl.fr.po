@@ -1,0 +1,164 @@
+# French translation of http://www.gnu.org/philosophy/historical-apsl.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the historical-apsl.html package.
+# Benjamin Drieu.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: historical-apsl.html\n"
+"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"PO-Revision-Date: 2008-12-27 15:22+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "Problems with older versions of the Apple License (APSL) - GNU Project - Free Software Foundation (FSF)"
+msgstr "Les probl&egrave;mes avec les anciennes versions de la licence Apple (APSL) - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+msgid "The Problems with older versions of the Apple Public Source License"
+msgstr "Les probl&egrave;mes avec les anciennes versions de la Apple Public Source License"
+
+# type: Content of: <h3>
+msgid "FSF Position on the Older Versions of APSL"
+msgstr "Position de la FSF sur les anciennes versions de l'APSL"
+
+# type: Content of: <div><blockquote><p>
+msgid "The current version of the Apple Public Source License (APSL) does not have any of these problems.  <a href=\"/philosophy/apsl.html\">You can read our current position on the APSL elsewhere</a>.  This document is kept here for historical purposes only."
+msgstr "La version actuelle de la Apple Public Source License (APSL) n'a aucun de ces probl&egrave;mes. Vous pouvez lire <a href=\"/philosophy/apsl.fr.html\">notre position actuelle sur l'APSL ici</a>. Ce document est conserv&eacute; &agrave; des fins historiques seulement."
+
+# type: Content of: <p>
+msgid "Apple released an updated version, 1.1, of the APSL but it remained unacceptable. They changed the termination clause into a &ldquo;suspension&rdquo; clause, but it still had the same kind of bad effects."
+msgstr "Apple avait diffus&eacute; pour la premi&egrave;re fois une version mise &agrave; jour, 1.1, de l'APSL mais elle restait inacceptable. Ils avaient chang&eacute; la clause de terminaison en clause de &laquo;&nbsp;suspension&nbsp;&raquo;, mais cette clause avait toujours le m&ecirc;me genre d'effets n&eacute;fastes."
+
+# type: Content of: <p>
+msgid "In January 2001, Apple released another version, APSL 1.2. This version fixes two of the fatal flaws, but one still remains: any modified version &ldquo;deployed&rdquo; in an organization must be published. The APSL 1.2 has taken two large steps towards a free software license, but still has one more large step to take before it qualifies."
+msgstr "En janvier 2001, Apple a diffus&eacute; une autre version, ASPL 1.2. Cette version corrige deux des imperfections fatales, mais il en reste une&nbsp;: n'importe quelle version modifi&eacute;e &laquo;&nbsp;d&eacute;ploy&eacute;e&nbsp;&raquo; dans une organisation doit &ecirc;tre publi&eacute;e. L'APSL 1.2 a pris deux grandes mesures pour devenirune <a href=\"/philosophy/free-sw.fr.html\">licence de logiciel libre</a>, mais il reste toujours une &eacute;tape plus grande &agrave; prendre avant de la qualifi&eacute; en tant que licence de logiciel libre."
+
+# type: Content of: <p>
+msgid "Below, is the original commentary on the first version of the APSL, version 1.0."
+msgstr "Ci-dessous se trouve le commentaire initial sur la premi&egrave;re version de l'APSL, la version 1.0."
+
+# type: Content of: <h3>
+msgid "Original APSL Commentary"
+msgstr "Commentaire original de l'APSL"
+
+# type: Content of: <p>
+msgid "After studying Apple's new source code license, the APSL, I have concluded that it falls short of being a free software license.  It has three fatal flaws, any of which would be sufficient to make the software less than free."
+msgstr "Apr&egrave;s avoir &eacute;tudi&eacute; la nouvelle licence de code source d'Apple, l'APSL, j'en ai conclut qu'elle n'&eacute;tait pas tout &agrave; fait une licence libre. Elle comporte trois d&eacute;fauts &eacute;liminatoires, dont chacun serait suffisant &agrave; rendre un logiciel moins que libre."
+
+# type: Content of: <h4>
+msgid "Disrespect for privacy"
+msgstr "Non respect de la vie privée"
+
+# type: Content of: <p>
+msgid "The APSL does not allow you to make a modified version and use it for your own private purposes, without publishing your changes."
+msgstr "L'APSL ne vous permet pas d'apporter des modifications &agrave; un logiciel et de les utiliser pour vos besoins priv&eacute;s, sans publier vos modifications."
+
+# type: Content of: <h4>
+msgid "Central control"
+msgstr "Contr&ocirc;le central"
+
+# type: Content of: <p>
+msgid "Anyone who releases (or even uses, other than for R&amp;D) a modified version is required to notify one specific organization, which happens to be Apple."
+msgstr "On demande &agrave; toute personne qui rend public (ou m&ecirc;me utilise, autrement que pour de la recherche et du d&eacute;veloppement) une version modifi&eacute;e de mettre au courant une organisation sp&eacute;cifique, qui est ici Apple."
+
+# type: Content of: <h4>
+msgid "Possibility of revocation at any time"
+msgstr "Possibilit&eacute; d'annulation &agrave; tout moment"
+
+# type: Content of: <p>
+msgid "The termination clause says that Apple can revoke this license, and forbid you to keep using all or some part of the software, any time someone makes an accusation of patent or copyright infringement."
+msgstr "La clause de résiliation sp&eacute;cifie qu'Apple peut annuler cette licence et vous interdire de continuer &agrave; utiliser tout ou partie du logiciel, au cas o&ugrave; quelqu'un formulerait une accusation de violation de brevet ou de copyright."
+
+# type: Content of: <p>
+msgid "In this way, if Apple declines to fight a questionable patent (or one whose applicability to the code at hand is questionable), you will not be able to have your own day in court to fight it, because you would have to fight Apple's copyright as well."
+msgstr "De cette mani&egrave;re, si Apple renonce &agrave; se battre contre un brevet discutable (ou un dont l'application au code du logiciel en question est discutable), vous ne serez pas en mesure de vous battre vous m&ecirc;me en justice, car vous devrez aussi vous battre contre le copyright d'Apple."
+
+# type: Content of: <p>
+msgid "Such a termination clause is especially bad for users outside the US, since it makes them indirectly vulnerable to the insane US patent system and the incompetent US patent office, which ordinarily could not touch them in their own countries."
+msgstr "Une telle clause de résiliation est tout sp&eacute;cialement n&eacute;faste pour les utilisateurs en dehors des &Eacute;tats-Unis, car cela les rend indirectement vuln&eacute;rables au syst&egrave;me malsain des brevets am&eacute;ricains, et &agrave; l'incomp&eacute;tent bureau des brevets am&eacute;ricain, qui ne peut normalement pas les toucher dans leurs propres pays."
+
+# type: Content of: <p>
+msgid "Any one of these flaws makes a license unacceptable."
+msgstr "Chacun de ces d&eacute;fauts rend une licence inacceptable."
+
+# type: Content of: <p>
+msgid "If these three flaws were solved, the APSL would be a free software license with three major practical problems, reminiscent of the NPL:"
+msgstr "Si ces trois d&eacute;fauts sont r&eacute;solus, alors l'APSL serait une licence libre, avec trois probl&egrave;mes pratiques majeurs h&eacute;rit&eacute;s de la NPL&nbsp;:"
+
+# type: Content of: <ul><li>
+msgid "It is not a true copyleft, because it allows linking with other files which may be entirely proprietary."
+msgstr "Ce n'est pas un vrai copyleft, car il autorise le lien avec des fichiers qui peuvent &ecirc;tre totalement propri&eacute;taires."
+
+# type: Content of: <ul><li>
+msgid "It is unfair, since it requires you to give Apple rights to your changes which Apple will not give you for its code."
+msgstr "Il y a une injustice, car elle vous demande de donner des droits &agrave; Apple sur vos modifications, droits qu'Apple ne vous donnera pas sur son code."
+
+# type: Content of: <ul><li>
+msgid "It is incompatible with the GPL."
+msgstr "Elle est incompatible avec la GPL."
+
+# type: Content of: <p>
+msgid "Of course, the major difference between the NPL and the APSL is that the NPL <b>is</b> a free software license.  These problems are significant in the case of the NPL because the NPL has no fatal flaws.  Would that the same were true of the APSL."
+msgstr "Bien s&ucirc;r, la plus grande diff&eacute;rence entre la NPL et l'APSL est que la NPL <b>est</b> une licence libre. Ces probl&egrave;mes sont significatifs dans le cas de la NPL car la NPL n'a pas de d&eacute;fauts &eacute;liminatoires. Ce serait aussi le cas avec l'APSL."
+
+# type: Content of: <p>
+msgid "At a fundamental level, the APSL makes a claim that, if it became accepted, would stretch copyright powers in a dangerous way: it claims to be able to set conditions for simply <b>running</b> the software.  As I understand it, copyright law in the US does not permit this, except when encryption or a license manager is used to enforce the conditions.  It would be terribly ironic if a failed attempt at making a free software license resulted in an extension of the effective range of copyright power."
+msgstr "D'un point de vue fondamental, l'APSL, si elle est accept&eacute;e, &eacute;tendrait les pouvoirs du copyright d'une mani&egrave;re dangereuse&nbsp;: elle revendique le droit de poser des conditions &agrave; la simple <b>ex&eacute;cution</b> de programmes. Tel que je le comprends, la loi sur le copyright dans les &Eacute;tats-Unis ne le permet pas, &agrave; part lorsque la cryptographie ou un <i>licence manager</i> est utilis&eacute; pour renforcer des conditions. Ce serait une ironie terrible si un essai rat&eacute; de faire une licence libre aurait pour r&eacute;sultat d'&eacute;tendre la port&eacute;e effective de la puissance du copyright."
+
+# type: Content of: <p>
+msgid "Aside from this, we must remember that only part of MacOS is being released under the APSL.  Even if the fatal flaws and practical problems of the APSL were fixed, even if it were changed into a very good free software license, that would do no good for the other parts of MacOS whose source code is not being released at all.  We must not judge all of a company by just part of what they do."
+msgstr "En dehors de cela, nous devons nous rappeler que seule une partie de MacOS est disponible sous l'APSL. M&ecirc;me si les d&eacute;fauts &eacute;liminatoires et les probl&egrave;mes d'application de l'APSL sont r&eacute;solus, m&ecirc;me si elle &eacute;tait modifi&eacute;e en une tr&egrave;s bonne licence libre, cela ne serait pas b&eacute;n&eacute;fique pour les autres parties de MacOS o&ugrave; le code source n'est pas du tout rendu public. Nous ne devons pas juger la totalit&eacute; d'une entreprise en se basant sur une petite partie de ce qu'elle fait."
+
+# type: Content of: <p>
+msgid "Overall, I think that Apple's action is an example of the effects of the year-old <a href=\"/philosophy/open-source-misses-the-point.html\">&ldquo;open source&rdquo; movement</a>: of its plan to appeal to business with the purely materialistic goal of faster development, while putting aside the deeper issues of freedom, community, cooperation, and what kind of society we want to live in."
+msgstr "Par dessus tout, je pense que l'action d'Apple est une exemple des effets du <a href=\"/philosophy/open-source-misses-the-point.fr.html\">&laquo;&nbsp;open source&nbsp;&raquo;  movement</a> mouvement &laquo;&nbsp;open source&nbsp;&raquo; qui f&ecirc;te sa premi&egrave;re ann&eacute;e : de sa volont&eacute; d'en appeler &agrave; l'entreprise dans le but purement mat&eacute;rialiste d'un d&eacute;veloppement plus rapide, tout en mettant de c&ocirc;t&eacute; les probl&egrave;mes plus profonds de libert&eacute;, de communaut&eacute;, de coop&eacute;ration, et de quel type de soci&eacute;t&eacute; nous voulons pour y vivre."
+
+# type: Content of: <p>
+msgid "Apple has grasped perfectly the concept with which &ldquo;open source&rdquo; is promoted, which is &ldquo;show users the source and they will help you fix bugs&rdquo;.  What Apple has not grasped&mdash;or has dismissed&mdash;is the spirit of free software, which is that we form a community to cooperate on the commons of software."
+msgstr "Apple a parfaitement saisi le concept promu par &laquo;&nbsp;open source&nbsp;&raquo;, qui est &laquo;&nbsp;montrez le code source aux utilisateurs et ils vont vous aider &agrave; corriger des bugs&nbsp;&raquo;. Ce qu'Apple n'a pas saisi, ou a &eacute;cart&eacute;, est l'esprit du logiciel libre, qui est que nous formons une communaut&eacute; pour coop&eacute;rer sur le d&eacute;nominateur commun du logiciel."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections (or suggestions) to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 1999, 2001, 2007 Free Software Foundation, Inc.,"
+msgstr "Copyright &copy; 1999, 2001, 2007 Free Software Foundation, Inc.,"
+
+# type: Content of: <div><address>
+msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+
+# type: Content of: <div><p>
+msgid "Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved."
+msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Benjamin Drieu.<br />Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
