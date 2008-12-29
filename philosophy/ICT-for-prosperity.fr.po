@@ -1,0 +1,504 @@
+# French translation of http://www.gnu.org/philosophy/ICT-for-prosperity.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the ICT-for-prosperity.html package.
+# Pierre-Yves Enderlin.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ICT-for-prosperity.html\n"
+"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"PO-Revision-Date: 2008-12-29 14:49+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "Shaping Collaborative ICT Development and Initiatives for Global Prosperity - GNU Project - Free Software Foundation (FSF)"
+msgstr "Fa&ccedil;onner le d&eacute;veloppement collaboratif des TIC et les initiatives pour la prosp&eacute;rit&eacute; globale"
+
+# type: Content of: <h2>
+msgid "Shaping Collaborative <abbr title=\"Information and Communications Technology\">ICT</abbr> Development and Initiatives for Global Prosperity"
+msgstr "Fa&ccedil;onner le d&eacute;veloppement collaboratif des TIC et les initiatives, pour une prosp&eacute;rit&eacute; globale"
+
+# type: Content of: <p>
+msgid "by <a href=\"http://www.rattlesnake.com/\"><strong>Robert J. Chassell</strong></a>"
+msgstr "par <strong><a href=\"http://www.rattlesnake.com/\">par Robert J.Chassell</a></strong>"
+
+# type: Content of: <p>
+msgid "[From on a presentation given at the<br /> <a href=\"http://www.globalknowledge.org.my/\"> Second Global Knowledge Conference</a><br /> in Kuala Lumpur, Malaysia, on 7 March 2000."
+msgstr "[D'apr&egrave;s une pr&eacute;sentation donn&eacute;e &agrave; la<br /><a href=\"http://www.globalknowledge.org.my/\">Second Global Knowledge Conference</a><br />Kuala Lumpur, Malaisie, le 7 Mars 2000."
+
+# type: Content of: <p>
+msgid "[For a more extended discussion, see my<br /> <a href=\"http://www.teak.cc/Access-speech.html\"> Free Software: Access and Empowerment</a>.]"
+msgstr "[Pour une discussion plus approfondie, voir&nbsp; mon texte&nbsp;:<br /><a href=\"http://www.teak.cc/Access-speech.html\">Free Software :Access and Empowerment</a>.]"
+
+# type: Content of: <p>
+msgid "The title of this presentation is <q>Shaping Collaborative <abbr>ICT</abbr> Development and Initiatives for Global Prosperity</q> and the themes of this conference are &lsquo;access&rsquo;, &lsquo;empowerment&rsquo; and &lsquo;governance&rsquo;."
+msgstr "Le titre de cette pr&eacute;sentation est &laquo;&nbsp;Fa&ccedil;onner le d&eacute;veloppement collaboratif des <abbr title=\"Technologies de l'information et des communications\">TIC</abbr> et les initiatives pour une prosp&eacute;rit&eacute; globale&raquo; et les th&egrave;mes de  cette conf&eacute;rence sont &laquo;acc&eacute;der&nbsp;&raquo;, &laquo;&nbsp;donner du pouvoir&nbsp;&raquo; et &laquo;&nbsp;gouverner&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "What I want to do today is take one specific technology and talk about the way we have shaped that technology to make it accessible and empowering, how we have placed it in an economic and institutional framework that encourages people to work collaboratively, and how to use the technology for better governance."
+msgstr "Ce que nous nous proposons de faire aujourd'hui, c'est de prendre une technologie sp&eacute;cifique, discuter de la fa&ccedil;on dont nous avons fa&ccedil;onn&eacute; cette technologie pour la rendre accessible et qu'elle soit un outil de pouvoir; discuter de la fa&ccedil;on dont nous l'avons plac&eacute;e dans un cadre &eacute;conomique et institutionnel qui encourage les gens &agrave; travailler en collaboration; puis de la fa&ccedil;on dont nous utilisons la technologie pour mieux gouverner."
+
+# type: Content of: <p>
+msgid "The technology is software.  The shaping has to do with copyright licensing terms &mdash; its legal and institutional framework."
+msgstr "La technologie, c'est du logiciel. Cr&eacute;er, c'est se trouver face aux conditions juridiques du copyright, son cadre l&eacute;gal et institutionnel."
+
+# type: Content of: <p>
+msgid "As a founder of the Free Software Foundation, I have been working for 16 years with the legal and institutional framework in which we use and develop software.  GNU/Linux, a complete software system, is the outcome of these efforts."
+msgstr "&Eacute;tant un des fondateurs de la Free Software Foundation, j'ai travaill&eacute; pendant 16 ans sur le cadre l&eacute;gal et institutionnel dans lequel nous utilisons et d&eacute;veloppons des logiciels. GNU/Linux, un syst&egrave;me logiciel complet, est n&eacute; de ces efforts."
+
+# type: Content of: <p>
+msgid "<abbr>ICT</abbr>, the information and communications technologies, are made up of hardware and software components.  I am speaking here only of software.  However, I hope we can extend our experience from this to other technologies."
+msgstr "Les <acronym title=\"Technologies de l'information et des communications\">TIC</acronym>, (<acronym title=\"Information and Communications Technologies\">ICT</acronym>, en anglais), sont compos&eacute;es de pi&egrave;ces mat&eacute;rielles et logicielles. Je ne parlerai ici que de l'aspect logiciel. Quoi qu'il en soit, j'esp&egrave;re pouvoir &eacute;tendre notre exp&eacute;rience de ce sujet &agrave; d'autres technologies."
+
+# type: Content of: <p>
+msgid "When I speak of software, I am speaking both about the programs that run the computer, that is to say, the operating system, and about applications, such as electronic mail and other communications, spreadsheets, electronic commerce, writing tools, sending and receiving FAXes, Web site creation, engineering, research, mathematical computations, modeling, image manipulation, and networking."
+msgstr "Quand je parle de logiciel, je veux parler aussi bien de ce qui fait tourner l'ordinateur,c'est-&agrave;-dire le syst&egrave;me d'exploitation, que des applications, comme le courrier &eacute;lectronique ou d'autres moyens de communication, les tableurs, le commerce &eacute;lectronique, les outils de traitement du texte, l'envoi et la r&eacute;ception de fax, la cr&eacute;ation de sites Web, l'ing&eacute;nierie, la recherche, les calculs math&eacute;matiques, la mod&eacute;lisation, la manipulation d'images et les r&eacute;seaux."
+
+# type: Content of: <p>
+msgid "Over the last few years, the prices of computer and telecommunications hardware have dropped to the point that many more people are using them.  Indeed, our conference organizers estimate that as many as one out of every thirty people in the world have computer-based, online telecommunications access."
+msgstr "Ces derni&egrave;res ann&eacute;es, le prix des ordinateurs et des mat&eacute;riels de communication est tomb&eacute; a tellement baiss&eacute; que de plus en plus personnes les utilisent. En effet, les organisateurs de notre conf&eacute;rence estiment &agrave; un sur trente le nombre de personnes dans le monde ayant un acc&egrave;s informatique aux communications &eacute;lectroniques, qui sont connect&eacute;es."
+
+# type: Content of: <p>
+msgid "While one out of thirty is still a small portion of the world's population, this technology is popular, growing, and becoming more important in our daily lives.  In addition, we expect that computer and telecommunications prices will continue to drop for at least another generation, so many who currently lack resources will eventually benefit."
+msgstr "Bien que le rapport d'un sur trente repr&eacute;sente une faible portion de la population mondiale, cette technologie est populaire, grandissante et commence &agrave; prendre de plus en plus de place dans notre quotidien. De plus, nous nous attendons &agrave; ce que les ordinateurs et les co&ucirc;ts des communications continuent &agrave; baisser, pour au moins une autre g&eacute;n&eacute;ration, ce qui signifie que ceux qui n'y ont pas encore acc&egrave;s vont &eacute;ventuellement en profiter."
+
+# type: Content of: <p>
+msgid "As with any technology, software can be employed well or badly."
+msgstr "Comme pour toute technologie, le logiciel peut s'utiliser d'une bonne ou d'une mauvaise fa&ccedil;on."
+
+# type: Content of: <p>
+msgid "At the moment we see both.  On the bad side, we see machines that crash unnecessarily, email messages that waste their recipients money, systems that are vulnerable to simple viruses, and programs that do only part of what you want."
+msgstr "En ce moment, c'est les deux que nous voyons. Le mauvais c&ocirc;t&eacute;, ce sont des machines qui plantent sans raison, des courriels qui perdent leurs destinataires (dans les transactions d'argent), des syst&egrave;mes vuln&eacute;rables &agrave; de simples virus et des programmes qui ne font qu'une partie de ce que vous attendez d'eux."
+
+# type: Content of: <p>
+msgid "The key to good use of software is to ensure freedom.  In software, this leads to collaboration, lower prices, reliability, efficiency, security, and fewer barriers to entry and use."
+msgstr "La clef qui permet un bon usage d'un logiciel est d'assurer la libert&eacute;. Dans le cas du logiciel, cela entra&icirc;ne collaboration, prix plus bas, fiabilit&eacute;, efficacit&eacute;, s&eacute;curit&eacute; et moins de barri&egrave;res pour y participer et l'utiliser."
+
+# type: Content of: <p>
+msgid "For a good use of software technology, people must have the legal right to copy, study, modify, and redistribute it.  All else flows from this."
+msgstr "Pour faire bon usage de la technologie logicielle, les gens doivent avoir le droit l&eacute;gal de la copier, l'&eacute;tudier, la modifier et de la redistribuer. Tout le reste d&eacute;coule de cela."
+
+# type: Content of: <p>
+msgid "GNU/Linux software gives people these rights.  Programmers benefit, and more importantly, people who are not programmers benefit."
+msgstr "Le logiciel GNU/Linux donne ces droits aux gens. Les programmeurs en b&eacute;n&eacute;ficient, mais plus important, les non-programmeurs aussi en b&eacute;n&eacute;ficient."
+
+# type: Content of: <p>
+msgid "For example, people in an area with lousy or no telephone service can use a rugged package called <acronym title=\"Unix to Unix CoPy\">UUCP</acronym> for communications.  I recently read of an Oxfam group that did this."
+msgstr "Par exemple, quelqu'un habitant dans une zone o&ugrave; les services t&eacute;l&eacute;phoniques sont m&eacute;diocres ou inexistants, peut utiliser un package robuste, appel&eacute; UUCP, pour ses communications. J'ai lu r&eacute;cemment qu'un groupe d'Oxfam l'a fait."
+
+# type: Content of: <p>
+msgid "People with older machines, even with the very old 80386 chips, can run efficient programs that do as much as programs that require a modern Pentium chip and expensive memory.  And they can use these machines as servers for Web pages and as routers &mdash; for communications' infrastructure."
+msgstr "Ceux qui ont de vieilles machines, m&ecirc;me &agrave; base d'un antique 80386, peuvent faire tourner des programmes efficaces qui font aussi bien que ceux qui demandent un Pentium moderne et de la m&eacute;moire co&ucirc;tant tr&egrave;s cher. Ils peuvent tr&egrave;s bien utiliser ces machines comme serveurs de pages Web ou comme routeurs, comme infrastructure pour les communications."
+
+# type: Content of: <p>
+msgid "People with just one computer can attach one or two additional terminals to it, and provide two or three seats in place of one, for very little extra cost.  I have done this: a friend visited and we both wanted to work on my computer at the same time.  Email, Web browsing, writing, remote system administration: we did all these at the same time."
+msgstr "Les gens ne poss&eacute;dant qu'un ordinateur peuvent c&acirc;bler un ou deux terminaux suppl&eacute;mentaires, installer deux ou trois chaises devant &agrave; la place d'une seule, tout cela pour un surco&ucirc;t modique. Je l'ai fait&nbsp;: un ami est venu me rendre visite et nous voulions tous les deux travailler en m&ecirc;me temps sur ma machine. Email, surf sur le Web, &eacute;crire, administrer le r&eacute;seau, tout cela nous l'avons fait en m&ecirc;me temps."
+
+# type: Content of: <p>
+msgid "A community group, or business, can set up its own mailing lists or news groups, private or public.  The groupware is there.  Two or more people can work on the same document at the same time, even if they are in different countries.  The last time I did that, I was working with a fellow on the other side of the Atlantic Ocean."
+msgstr "Une communaut&eacute;, ou une collectivit&eacute;, peut cr&eacute;er sa propre liste de diffusion ou son forum, priv&eacute; ou public. Il est l&agrave;, le collecticiel (groupware). Deux personnes ou plus peuvent travailler sur le m&ecirc;me document au m&ecirc;me moment, m&ecirc;me s'ils habitent des pays diff&eacute;rents. La derni&egrave;re fois qu'il m'est arriv&eacute; de le faire, je travaillais avec un copain qui &eacute;tait de l'autre c&ocirc;t&eacute; de l'oc&eacute;an Atlantique."
+
+# type: Content of: <p>
+msgid "What script do you want to write in? Hindi, Chinese, Thai? All these are possible, and in the same window as English or Cyrillic."
+msgstr "Vous voulez &eacute;crire un script en hind&icirc;, en chinois, en tha&iuml;&nbsp;? Pas de probl&egrave;me, et dans la m&ecirc;me fen&ecirc;tre, tout comme en anglais ou en cyrillique."
+
+# type: Content of: <p>
+msgid "Individuals or groups can set up their own Web sites.  A publisher can typeset his own books.  An accountant can analyze a budget.  Blind people can listen to text read out loud to them by the computer."
+msgstr "Que ce soit un individu seul ou un groupe, tout le monde peut construire son site Web. Un &eacute;diteur peut composer ses propres livres. Un comptable peut analyser un budget. Les malvoyants ont la possibilit&eacute; d'entendre &agrave; haute et intelligible voix un texte via leur ordinateur."
+
+# type: Content of: <p>
+msgid "You can enjoy choosing among several graphic user interfaces, a fancy one, another that looks and behaves rather like Microsoft Windows, or a third, that is simple and practical."
+msgstr "Vous pouvez choisir parmi plusieurs interfaces graphiques, de la plus d&eacute;lirante &agrave; la plus simple et plus pratique en passant par une interface ressemblant et se comportant comme celle de Microsoft Windows."
+
+# type: Content of: <p>
+msgid "Except for the blind person's speech generation, which requires audio that I never installed in my machine, every application I have just mentioned runs on my home computer.  And people I know have installed audio and listen to it."
+msgstr "&Agrave; part le syst&egrave;me vocal pour les malvoyants, qui demande un materiel audio que je n'ai jamais install&eacute; sur ma machine, toutes les applications que je viens de citer tournent sur mon ordinateur personnel. Et je connais des gens qui ont install&eacute; le mat&eacute;riel audio et qui peuvent entendre les textes."
+
+# type: Content of: <p>
+msgid "All these applications came on a CD-ROM that was, as it happens, given me at no charge.  I have also paid for CDs with a different version of the software &mdash; sometimes it is more convenient just to buy.  And if you have a fast Internet connection, you can readily download the software, paying only your connection costs."
+msgstr "J'ai re&ccedil;u toutes ces applications sur un c&eacute;d&eacute;rom gratuitement, comme cela peut arriver. J'ai &eacute;galement pay&eacute;, pour d'autres versions de ces programmes&nbsp;; il est parfois plus commode de d&eacute;penser quelques sous. Et si vous avez une connection Internet rapide, vous pouvez instantan&eacute;ment t&eacute;l&eacute;charger le logiciel, il ne vous en co&ucirc;tera que les communications t&eacute;l&eacute;phoniques."
+
+# type: Content of: <p>
+msgid "This wealth of software is available and can be used anywhere in the world."
+msgstr "Cette richesse logicielle est disponible et peut s'utiliser n'importe o&ugrave; dans le monde."
+
+# type: Content of: <p>
+msgid "To return to the question of how this technology was shaped: the key, as I said, is freedom, the legal right to copy, study, modify, and redistribute the software."
+msgstr "Pour revenir &agrave; la question&nbsp;: comment cette technologie a &eacute;t&eacute; fa&ccedil;onn&eacute;e, je me r&eacute;p&egrave;te, la clef c'est la libert&eacute;, le droit l&eacute;gal de copier, &eacute;tudier, modifier et redistribuer le logiciel."
+
+# type: Content of: <p>
+msgid "The specific legal tool we used to create these freedoms and the resulting benefits is a specially drafted copyright license, the GNU General Public License."
+msgstr "L'outil l&eacute;gal sp&eacute;cifique que nous avons utilis&eacute; pour engendrer ces libert&eacute;s et les b&eacute;n&eacute;fices qui en ont d&eacute;coul&eacute;s, est un copyright sp&eacute;cialement con&ccedil;u, la GNU General Public License (la License publique g&eacute;n&eacute;rale GNU)."
+
+# type: Content of: <p>
+msgid "This license gives you more rights than plain copyright does, and more rights than many other kinds of software license.  In essence, it forbids you to forbid.  It permits you to do everything else."
+msgstr "Cette licence vous donne plus de droits que ce que le copyright vous donne dans sa totalit&eacute; et plus de droits que n'importe quelle autre licence logicielle. Pour aller &agrave; l'essentiel, elle vous interdit d'interdire. Elle vous permet de faire tout le reste."
+
+# type: Content of: <p>
+msgid "Let me go through this list of rights: copy, study, modify, and redistribute."
+msgstr "J'aimerais approfondir cette liste de droits&nbsp;: copier, &eacute;tudier, modifier et redistribuer."
+
+# type: Content of: <p>
+msgid "First, the right to copy."
+msgstr "En premier lieu, le droit de copier."
+
+# type: Content of: <p>
+msgid "Not many people own a factory that would enable them to copy a car.  Indeed, to copy a car is so difficult that we use a different word, we speak of &lsquo;manufacturing&rsquo; a car.  And there are not many car manufacturers in the world.  Far fewer than one in thirty people own or have ready access to a car factory."
+msgstr "Il y a peu de gens &agrave; la t&ecirc;te d'une usine capable de recopier une voiture. De plus, reproduire une voiture est tellement difficile que nous utilisons un autre mot&nbsp;; nous parlons de &laquo;&nbsp;construire&nbsp;&raquo; une voiture. Et il n'y a pas tant que &ccedil;a de constructeurs automobiles dans le monde. Largement moins d'une personne sur trente poss&egrave;de une voiture ou a la possibilit&eacute; d'acc&eacute;der facilement &agrave; une usine automobile."
+
+# type: Content of: <p>
+msgid "But everyone with a computer owns a software factory, a device for manufacturing software, that is to say, for making new copies.  Because copying software is so easy, we don't use the word &lsquo;manufacturing&rsquo;; we usually do not even think of it as a kind of manufacturing, but it is."
+msgstr "Mais quiconque poss&egrave;de un ordinateur poss&egrave;de une usine &agrave; fabriquer des logiciels, un moyen de manufacturer un logiciel, autrement dit, de faire de nouvelles copies. Parce qu'il est tellement facile de copier des logiciels, nous n'employons pas le terme d'&laquo;&nbsp;usiner&nbsp;&raquo;, de &laquo;&nbsp;fabriquer&nbsp;&raquo; ; en g&eacute;n&eacute;ral, on ne le voit m&ecirc;me pas sous cet angle, pourtant il s'agit bien de cela."
+
+# type: Content of: <p>
+msgid "The right to copy software is the right to use your own means of production (if you will pardon my use of an expression that has gone out of fashion).  Millions of people, a few percent of the world's population, own this means of production."
+msgstr "Le droit de copier des logiciels, c'est le droit d'utiliser vos propres moyens de production (si vous me permettez cette expression d&eacute;mod&eacute;e). Des millions de gens, un faible pourcentage de la population mondiale, ont entre leurs mains ces moyens de production."
+
+# type: Content of: <p>
+msgid "Naturally, there have been efforts to take away your rights to use your own property as a factory that you own."
+msgstr "Naturellement, il y a eu des efforts &agrave; faire pour se d&eacute;barrasser des droits que vous avez d'utiliser votre propri&eacute;t&eacute; &agrave; vous comme d'une usine qui vous appartient."
+
+# type: Content of: <p>
+msgid "Second, the right to study.  This right is of little direct interest to people who are not programmers.  It is like the right of a lawyer to read legal text books.  Unless you are a lawyer, you probably wish to avoid such books."
+msgstr "En deuxi&egrave;me lieu, le droit d'&eacute;tudier. Ce droit n'est pas d'un int&eacute;r&ecirc;t imm&eacute;diat pour ceux qui ne programment pas. C'est un peu comme le droit, pour un homme de loi, de lire les textes des codes juridiques. Tant que vous n'&ecirc;tes pas homme de loi, c'est le genre de livres que vous &eacute;viterez."
+
+# type: Content of: <p>
+msgid "However, this right to study has several implications, both for those who program and for everyone else."
+msgstr "Et pourtant, le droit d'&eacute;tudier a plusieurs implications, autant pour le programmeur que pour celui qui ne programme pas."
+
+# type: Content of: <p>
+msgid "The right to study means that people in places like Mexico, or India, or Malaysia can study the same code that people in Europe or the United States use.  It means that these people are not kept from learning how others succeeded."
+msgstr "Le droit &agrave; l'&eacute;tude signifie que les personnes vivant au Mexique, en Inde ou en Malaisie, peuvent &eacute;tudier le m&ecirc;me code que celui utilis&eacute; en Europe ou aux &Eacute;tats-Unis. Ce qui veut dire qu'on ne les emp&ecirc;che pas d'apprendre comment les autres ont r&eacute;ussi."
+
+# type: Content of: <p>
+msgid "Bear in mind that many programmers work under restrictions that forbid them from seeing others' code.  Rather than sit on the shoulders of those who went before, which is the best way to see ahead and to advance, they are thrown into the mud.  The right to study is the right to look ahead, to advance, by sitting on the shoulders of giants."
+msgstr "Il faut garder &agrave; l'esprit que beaucoup de programmeurs travaillent avec la contrainte qu'il leur est interdit de voir le code d'autres programmeurs. Plut&ocirc;t que de s'y hisser sur les &eacute;paules de leurs pr&eacute;d&eacute;cesseurs, ce qui reste la meilleure fa&ccedil;on d'avancer et de voir plus loin, ils se retrouvent la t&ecirc;te dans le sac. Le droit d'&eacute;tudier, c'est le droit de voir plus loin, de progresser, du haut des &eacute;paules de g&eacute;ants."
+
+# type: Content of: <p>
+msgid "Moreover, the right to study means that the software itself must be made available in a manner that humans can read."
+msgstr "Et plus encore, le droit d'&eacute;tudier signifie que le logiciel en lui-m&ecirc;me doit &ecirc;tre disponible de telle sorte qu'il soit lisible par vous et moi."
+
+# type: Content of: <p>
+msgid "Software comes in two forms, one readable only by computers and the other readable by people.  The form that a computer can read is what the computer runs.  This form is called a binary or executable.  The form that a human can read is called source code.  It is what a human programmer creates, and is translated by another computer program into the binary or executable form."
+msgstr "Un logiciel pr&eacute;sente deux aspects, un qui est lisible uniquement par les ordinateurs et un autre qui l'est par les gens. Le premier aspect est ce que la machine peut faire tourner. C'est ce qu'on appelle un ex&eacute;cutable ou un binaire. Quant au deuxi&egrave;me aspect, celui qu'un humain peut lire, on l'appelle code source. C'est ce que cr&eacute;e un programmeur humain, qui est ensuite traduit par une machine en binaire ou en ex&eacute;cutable."
+
+# type: Content of: <p>
+msgid "The next right, the right to modify, is the right to fix a problem or enhance a program.  For most people, this means your right or your organization's right to hire someone to do the job for you, in much the same way you hire an auto mechanic to fix your car or a carpenter to extend your home."
+msgstr "Le droit suivant, celui de modifier, est le droit &agrave; corriger un probl&egrave;me ou d'apporter des am&eacute;liorations. Pour la plupart des gens, cela signifie le droit que vous avez, vous ou votre organisme, de payer quelqu'un pour faire le travail &agrave; votre place, tout &agrave; fait comme vous payez un m&eacute;canicien pour r&eacute;parer votre voiture ou un charpentier pour agrandir votre maison."
+
+# type: Content of: <p>
+msgid "Modification is helpful.  Application developers cannot think of all the ways others will use their software.  Developers cannot foresee the new burdens that will be put on their code.  They cannot anticipate all the local conditions, whether someone in Malaysia will use a program first written in Finland."
+msgstr "Les modifications sont d'une aide certaine. Les d&eacute;veloppeurs d'applications ne peuvent pas penser &agrave; toutes les fa&ccedil;ons dont les utilisateurs feront usage de leurs logiciels. Les d&eacute;veloppeurs ne peuvent pas pr&eacute;voir les nouvelles charges qui seront appliqu&eacute;es&agrave; leur code. Ils ne peuvent pas anticiper toutes les conditions locales, comment un Malais utilisera un programme qui avait tout d'abord &eacute;t&eacute; &eacute;crit en Finlande."
+
+# type: Content of: <p>
+msgid "Finally, of these legal rights, comes the right to redistribute."
+msgstr "Et pour terminer, parlons du droit de redistribuer."
+
+# type: Content of: <p>
+msgid "This means that you, who own a computer, a software factory, have the right to make copies of a program and redistribute it.  You can charge for these copies, or give them away.  Others may do the same."
+msgstr "Cela signifie que, vous, qui avez un ordinateur, une usine &agrave; logiciels, vous avez le droit de faire des copies d'un programme et de le redistribuer. Vous pouvez faire payer pour ces copies, ou les distribuer. D'autres peuvent faire la m&ecirc;me chose."
+
+# type: Content of: <p>
+msgid "Of course, several existing, large software manufacturers want to forbid you from using your own property.  They cannot win in a free market, so they attack in other ways.  In the United States, for example, we see newly proposed laws to take away your freedom."
+msgstr "Bien s&ucirc;r, et il y en a, les gros fabricants de logiciels veulent vous emp&ecirc;cher d'utiliser votre propre propri&eacute;t&eacute;. Ils ne peuvent pas gagner contre un march&eacute; libre, alors ils attaquent autrement. Aux &Eacute;tats Unis, par exemple, on voit de r&eacute;centes propositions de lois qui vous &ocirc;tent votre libert&eacute;."
+
+# type: Content of: <p>
+msgid "The right to redistribute, so long as it is defended and upheld, means that software is sold in a competitive, free market.  This has several consequences.  Low price is a consequence.  This helps consumers."
+msgstr "Le droit de redistribuer, tant qu'il sera d&eacute;fendu et soutenu, signifie que le logiciel est vendu au sein d'un march&eacute; comp&eacute;titif, libre. Ce qui a plusieurs cons&eacute;quences. Une des cons&eacute;quences, c'est un bas prix. Ce qui est en faveur du consommateur."
+
+# type: Content of: <p>
+msgid "But first and foremost, these legal and economic rights lead to collaboration, one of themes of this conference."
+msgstr "Mais d'abord et avant tout, ces droits &eacute;conomiques et l&eacute;gaux am&egrave;nent &agrave; collaborer, un des th&egrave;mes de cette conf&eacute;rence."
+
+# type: Content of: <p>
+msgid "This outcome is contrary to many people's expectations.  Few expect that in a competitive, free market, every producer will become more collaborative and that there will be no visible or felt competition among competing businessmen."
+msgstr "Ce r&eacute;sultat est contraire &agrave; de nombreuses attentes, chez les gens. Peu d'entre eux s'attendent &agrave; ce que, dans un march&eacute; comp&eacute;titif, libre, chaque producteur deviendra de plus en plus coop&eacute;ratif et qu'il n'y aura pas de comp&eacute;tition, sensible ou visible au sein des hommes d'affaire en comp&eacute;tition."
+
+# type: Content of: <p>
+msgid "The more competitive a market, the more cooperation you see.  This apparently counter-intuitive implication is both observed and inferred."
+msgstr "Plus un march&eacute; est comp&eacute;titif, plus la coop&eacute;ration est visible. Cette implication, qui va apparemment contre toute intuition, a &eacute;t&eacute; &agrave; la fois observ&eacute;e et infer&eacute;e."
+
+# type: Content of: <p>
+msgid "This is because people are not harmed by doing what they want to do.  People like to help their neighbors."
+msgstr "Cela se peut parce que les gens ne sont pas l&eacute;s&eacute;s dans ce qu'ils ont envie de faire. Les gens aiment aider leurs voisins."
+
+# type: Content of: <p>
+msgid "Consider a small farmer, one among a million.  My friend George, back in the United States, is one such."
+msgstr "Prenez un petit fermier, un parmi un million. Mon ami Georges, de retour aux &Eacute;tats Unis, est un de ceux-l&agrave;."
+
+# type: Content of: <p>
+msgid "His harvest is so small, that there is nothing he can do to effect the world price.  His neighbor is in a similar situation."
+msgstr "Sa r&eacute;colte est tellement maigre qu'il ne peut rien faire sur les prix au niveau mondial. Son voisin est dans la m&ecirc;me situation."
+
+# type: Content of: <p>
+msgid "Consequently, if George helps his neighbor, his neighbor benefits, and George himself loses nothing on the price he receives for his harvest."
+msgstr "Du coup, si Georges aide son voisin, cela lui sera profitable et Georges lui, ne perdra rien sur ce que lui rapporte sa r&eacute;colte."
+
+# type: Content of: <p>
+msgid "Since George will not hurt himself, he has every other reason to help his neighbor.  Not only is George kindly, he also recognizes that when he helps his neighbor, his neighbor is likely to return the favor."
+msgstr "&Agrave; partir du moment o&ugrave; Georges ne se l&egrave;se pas, il a plein d'autres raisons d'aider son voisin. Georges n'est pas simplement aimable, il reconna&icirc;t que quand il donne un coup de main &agrave; son voisin, ce dernier s'empresse de lui renvoyer l'ascenseur."
+
+# type: Content of: <p>
+msgid "This is what you see in a competitive free market: cooperation."
+msgstr "Voil&agrave; ce que vous observez dans un march&eacute; comp&eacute;titif libre : de la coop&eacute;ration."
+
+# type: Content of: <p>
+msgid "Visible competition indicates that the market is not fully free and competitive.  Visible competition means that at most you have a semi-free market."
+msgstr "Une comp&eacute;tition visible indique que le march&eacute; n'est pas compl&egrave;tement libre et comp&eacute;titif. Une comp&eacute;tition visible, cela veut dire qu'&agrave; la limite, vous n'avez qu'un march&eacute; semi-libre."
+
+# type: Content of: <p>
+msgid "Moreover, and this benefits people who are not programmers, if software is sold in a free market, competition among vendors will lead to a lower price."
+msgstr "Allons plus loin&nbsp;: si un logiciel est vendu sur un march&eacute; libre, la concurrence entre les vendeurs va faire tomber les prix&nbsp;; ce qui va profiter aux non-programmeurs."
+
+# type: Content of: <p>
+msgid "Put another way, the price of software is determined primarily by legal considerations: by the degree to which customers enjoy freedom.  If customers are forbidden to buy a product except at a high price, and that prohibition is successfully enforced, the product will be expensive.  This is what occurs with much proprietary software today."
+msgstr "Voyons les choses autrement&nbsp;: le prix d'un logiciel est d&eacute;termin&eacute; en premier lieu par des consid&eacute;rations l&eacute;gales, par le degr&eacute; de libert&eacute; dont profitent les acheteurs. Si ceux-ci ont l'interdiction d'acheter un produit sauf &agrave; prix &eacute;lev&eacute; et que cette prohibition soit renforc&eacute;e avec succ&egrave;s, le produit sera cher. C'est ce qui se produit aujourd'hui avec beaucoup de logiciels propri&eacute;taires."
+
+# type: Content of: <p>
+msgid "On the other hand, if software is sold in a free market, competition among vendors will lead to a lower price."
+msgstr "D'un autre c&ocirc;t&eacute;, si le produit est mis sur un march&eacute; libre, la comp&eacute;tition entre les vendeurs fera baisser les prix."
+
+# type: Content of: <p>
+msgid "Indeed, in some circumstances the cost will be so low that companies or other organizations will give away CD-ROMs containing the software; others will make copies for their friends; and yet others will provide downloads over the Internet at no charge."
+msgstr "Et vraiment, il y aura des cas o&ugrave; les prix seront tellement bas que les compagnies ou les organisations donneront les CDROM contenant les logiciels&nbsp;; d'autres feront des copies pour leurs amis&nbsp;; et d'autres encore les mettront en t&eacute;l&eacute;chargement sur Internet, gratuitement."
+
+# type: Content of: <p>
+msgid "This means that software itself, a necessary supporting part of a business or community project, will be both inexpensive and legal."
+msgstr "Ceci signifie que le logiciel en lui-m&ecirc;me, support n&eacute;cessaire &agrave; un projet communautaire ou marchand, deviendra peu co&ucirc;teux et l&eacute;gal."
+
+# type: Content of: <p>
+msgid "Think of this from the point of view of a small business or community supported group.  The organization can use restricted-distribution, proprietary software, and either pay a lot of money it does not have, or break the law and steal it."
+msgstr "Placez-vous du point de vue d'une petite structure ou d'une association. Elle pourrait utiliser un logiciel propri&eacute;taire diffus&eacute; via une distribution restrictive et alors soit payer une somme qu'elle n'a pas, soit enfreindre la loi et le voler."
+
+# type: Content of: <p>
+msgid "On the other hand, free software is inexpensive and legal.  It is more accessible.  It is also customizable in ways that restricted software often is not.  This is empowering."
+msgstr "D'un autre c&ocirc;t&eacute;, le logiciel libre est bon march&eacute; et l&eacute;gal. Il est plus accessible. Il est aussi personnalisable, plus que ce que les logiciels restrictifs peuvent l'&ecirc;tre. Il donne du pouvoir."
+
+# type: Content of: <p>
+msgid "We shape the development of this technology, we create collaboration, through the use of a legal tool, a license, that gives you more rights than you would have otherwise, that forbids you to forbid, that in this case, gives you the right to copy, study, modify, and redistribute the software."
+msgstr "Nous fa&ccedil;onnons le d&eacute;veloppement de cette technologie, nous cr&eacute;ons la collaboration &agrave; travers l'utilisation d'un outil l&eacute;gal, une licence, qui vous donne plus de droits que vous n'auriez autrement, qui vous interdit d'interdire, ce qui, dans ce cas, vous donne le droit de copier, &eacute;tudier, modifier et redistribuer le logiciel."
+
+# type: Content of: <p>
+msgid "Because of the freedoms associated with it, this software is called &lsquo;free software.&rsquo;"
+msgstr "Parce qu'y sont associ&eacute;es des libert&eacute;s, ce logiciel est appel&eacute; &laquo;&nbsp;logiciel libre&nbsp;&raquo; (free software)."
+
+# type: Content of: <p>
+msgid "While I am speaking of this phrase, let me clear up a verbal issue that sometimes confuses English speakers."
+msgstr "En parlant de cela, laissez-moi &eacute;claircir un terme qui parfois induit en erreur les anglophones."
+
+# type: Content of: <p>
+msgid "The low price of free software leads some English speakers to think that the word &lsquo;free&rsquo; in the phrase &lsquo;free software&rsquo; means they can obtain it without cost.  This is not the definition, which is about <a href=\"/philosophy/open-source-misses-the-point.html\">freedom</a>, but it is an easy misunderstanding.  After all, I have been talking of frugal use of resources, software that is inexpensive."
+msgstr "Les bas prix des logiciels libres font croire &agrave; certains anglophones que le mot &laquo;&nbsp;free&nbsp;&raquo; (libre, mais veut aussi dire &laquo;&nbsp;gratuit&nbsp;&raquo;, en anglais), dans le terme &laquo;&nbsp;free software&nbsp;&raquo; (logiciel libre), signifie gratuit. Non, &laquo;&nbsp;free&nbsp;&raquo; est pris dans le sens <a href=\"/philosophy/open-source-misses-the-point.fr.html\">libre</a>, mais c'est une confusion courante. Apr&egrave;s tout, j'ai parl&eacute; de consommation modeste des ressources, de logiciel peu co&ucirc;teux."
+
+# type: Content of: <p>
+msgid "The English word &lsquo;free&rsquo; has several meanings.  As a Mexican friend of mine &mdash; and leader, by the way, of a major free software project &mdash; once said to me,"
+msgstr "Le mot anglais &laquo;&nbsp;free&nbsp;&raquo; a plusieurs sens. Comme me le disait un jour un ami mexicain &mdash; dirigeant par ailleurs d'un gros projet dans le logiciel libre&nbsp;:"
+
+# type: Content of: <blockquote><p>
+msgid "English is broken; it does not distinguish between &lsquo;free beer&rsquo; and &lsquo;free speech&rsquo;."
+msgstr "Il y a quelque chose qui ne va pas dans la langue anglaise&nbsp;; elle ne sait pas faire la diff&eacute;rence entre une &laquo;&nbsp;bi&egrave;re gratuite&nbsp;&raquo; et la &laquo;&nbsp;libre expression&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "Spanish, on the other hand, distinguishes between &lsquo;gratis&rsquo; and &lsquo;libre&rsquo;.  Free software is &lsquo;libre&rsquo; software."
+msgstr "L'espagnol, au contraire, fait la distinction entre &laquo;&nbsp;gratis&nbsp;&raquo; et &laquo;&nbsp;libre&nbsp;&raquo; (se prononce &agrave; peu pr&egrave;s &laquo;&nbsp;libr&eacute;&nbsp;&raquo;). Le logiciel libre est un logiciel &laquo;&nbsp;libr&eacute;&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "Likewise, the language of our hosts, Bahasa Melayu, distinguishes between &lsquo;pecuma&rsquo; and &lsquo;kebebasa&rsquo;.  Free software is &lsquo;kebebasa&rsquo; software."
+msgstr "De m&ecirc;me, la langue de nos h&ocirc;tes, Bahasa Melayu, fait la distinction entre &laquo;&nbsp;pecuma&nbsp;&raquo; et &laquo;&nbsp;kebebasa&nbsp;&raquo;. Un logiciel libre est un logiciel &laquo;&nbsp;kebebasa&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "Incidentally, Eric Raymond and Bruce Perens invented the phrase &lsquo;open source&rsquo; a few years ago as a synonym &lsquo;free software&rsquo;.  They wanted to work around the dislike many companies have of free markets.  The phrase is popular; Eric and Bruce succeeded in their purpose."
+msgstr "Entre parenth&egrave;ses, &Eacute;ric Raymond et Bruce Perens ont invent&eacute; le terme &laquo;&nbsp;open source&nbsp;&raquo; (sources accessibles, &laquo;&nbsp;ouvertes&nbsp;&raquo;), il y a quelques ann&eacute;es en arri&egrave;re, comme synonyme de &laquo;&nbsp;free software&nbsp;&raquo;. Ils voulaient modifier la mauvaise opinion qu'avaient certaines compagnies sur le march&eacute; du libre. Le terme est devenu courant. &Eacute;ric et Bruce ont atteint leur but."
+
+# type: Content of: <p>
+msgid "However, I prefer the term &lsquo;free software&rsquo; since it better conveys the goal of freedom; the proposition that every man and woman, even a person who lives in a third world country, has the right to do first rate work, and must not be forbidden from doing so."
+msgstr "Cependant, je pr&eacute;f&egrave;re le terme de &laquo;&nbsp;logiciel libre&nbsp;&raquo;, qui s'accorde plus avec le but de libert&eacute;&nbsp;; cette proposition pour chaque homme, chaque femme, m&ecirc;me vivant dans un pays du tiers-monde, qu'il le droit premier de faire un travail r&eacute;mun&eacute;rateur et qu'on ne leur interdise pas."
+
+# type: Content of: <p>
+msgid "I mentioned that a business or community can use software that is inexpensive and legal."
+msgstr "J'ai mentionn&eacute; le fait qu'une communaut&eacute; ou une collectivit&eacute; peut utiliser un logiciel bon march&eacute; et l&eacute;gal."
+
+# type: Content of: <p>
+msgid "Now let me turn to the software industry itself."
+msgstr "Maintenant, laissez-moi vous parler de l'industrie logicielle elle-m&ecirc;me."
+
+# type: Content of: <p>
+msgid "Because competition in a competitive market forces down the price of free software, no one enters the software industry to sell software as such.  Instead, and this is often not understood, a business enters the industry to make money in other ways."
+msgstr "Parce que la concurrence dans un march&eacute; comp&eacute;titif pousse vers le bas le prix des logiciels libres, personne ne veut prendre part &agrave; l'industrie logicielle pour vendre ces logiciels comme tels. Par contre, et cela est souvent m&eacute;connu, il est possible de faire de l'argent par d'autres moyens."
+
+# type: Content of: <p>
+msgid "Companies and people in the &lsquo;software industry&rsquo; do not sell software itself, but services associated with software or hardware or other solutions."
+msgstr "Les compagnies et le personnel de l'industrie logicielle ne vendent pas les logiciels en eux-m&ecirc;mes, mais plut&ocirc;t les services qui peuvent s'y rapporter, tant au niveau logiciel que mat&eacute;riel, ou d'autres solutions."
+
+# type: Content of: <p>
+msgid "This is what happens in the medical and legal professions.  Both medical knowledge and law are freely redistributable.  Physicians and lawyers sell their services to solve problems."
+msgstr "C'est ce qui se passe dans les professions m&eacute;dicales ou juridiques. Aussi bien la connaissance m&eacute;dicale que la loi sont librement redistribuables. M&eacute;decins et hommes de loi vendent leurs services pour r&eacute;soudre des probl&egrave;mes."
+
+# type: Content of: <p>
+msgid "What services do I mean? Most directly, help in using a computer, or, to take more specific examples, help in setting up a packet radio network where there is no telephone, or help in creating and nurturing a warehouse data base."
+msgstr "De quels services je veux parler&nbsp;? Le plus &eacute;vident&nbsp;: aider &agrave; se servir d'un ordinateur ou, pour prendre un exemple plus pr&eacute;cis, aider &agrave; mettre en place un r&eacute;seau fonctionnant par ondes radio, dans un endroit o&ugrave; il n'y a pas de t&eacute;l&eacute;phone ou encore aider &agrave; la cr&eacute;ation et &agrave; la saisie de donn&eacute;es dans une base de donn&eacute;es pour un magasin."
+
+# type: Content of: <p>
+msgid "Less directly, and increasingly, hardware companies that sell telephones or desalinization plants, add software to their products to make them more attractive to buyers."
+msgstr "De fa&ccedil;on moins &eacute;vidente, mais en progression, les compagnies qui vendent des t&eacute;l&eacute;phones ou des usines pour la dessalinisation ajoutent des logiciels &agrave; leurs mat&eacute;riels pour les rendre plus attrayants aux yeux des acheteurs."
+
+# type: Content of: <p>
+msgid "Incidentally, programmers themselves write software for four main reasons: first, because they are hired to solve a problem, just as a lawyer is hired to draw up a contract.  Second, as part of another project.  Third, because it enhances their reputation.  And fourth, because they want to."
+msgstr "Notez que les programmeurs &eacute;crivent eux-m&ecirc;mes des logiciels pour quatre raisons principales&nbsp;: d'abord, ils sont pay&eacute;s pour r&eacute;soudre un probl&egrave;me, tout comme un homme de loi est pay&eacute; pour r&eacute;diger un contrat. Ensuite, il peut s'agir d'une partie d'un autre projet. Troisi&egrave;mement, pour accro&icirc;tre leur r&eacute;putation et finalement, parce qu'ils le veulent."
+
+# type: Content of: <p>
+msgid "I have spoken about shaping this technology for collaboration.  The key is freedom, and creating the legal framework that supports freedom."
+msgstr "J'ai parl&eacute; du fa&ccedil;onnage de cette technologie pour collaborer. La clef, c'est la libert&eacute; et la cr&eacute;ation d'un cadre l&eacute;gal qui soutienne la libert&eacute;."
+
+# type: Content of: <p>
+msgid "Now let me talk about initiatives that lead to prosperity."
+msgstr "Maintenant, laissez-moi aborder les initiatives qui m&egrave;nent &agrave; la prosp&eacute;rit&eacute;."
+
+# type: Content of: <p>
+msgid "One issue with development is resources, or rather, the lack thereof."
+msgstr "Les ressources, ou leur absence, sont un d&eacute;bouch&eacute; du d&eacute;veloppement."
+
+# type: Content of: <p>
+msgid "As I said earlier, free software reduces barriers to entry, both in the software industry itself and in other industries and activities."
+msgstr "Comme je l'ai dit plus haut, les logiciels libres r&eacute;duisent les barri&egrave;res qui bouchent l'entr&eacute;e et de l'industrie logicielle et des autres industries ou activit&eacute;s."
+
+# type: Content of: <p>
+msgid "Free software, and the culture and ways people tend to think when they collaborate, reduces operational costs."
+msgstr "Le logiciel libre, la collaboration et l'esprit, la culture, qui en anime les gens, permettent de r&eacute;duire les co&ucirc;ts des op&eacute;rations."
+
+# type: Content of: <p>
+msgid "Let me take an example that comes directly from this conference.  First I should tell you that I have correspondents all over the world.  They are not all in rich countries.  They or their supporting institutions are not always rich."
+msgstr "Laissez-moi prendre un exemple tir&eacute; tout droit de cette conf&eacute;rence. Tout d'abord, je dois vous dire que j'ai des correspondants un peu partout dans le monde. Ils ne vivent pas tous dans des pays riches. Eux-m&ecirc;mes ou leurs institutions ne sont jamais tr&egrave;s riches."
+
+# type: Content of: <p>
+msgid "The first messages about this conference that I received took up more than four and a half times the resources needed to convey the information.  The messages were sent in a bloated form."
+msgstr "Les premiers messages que j'ai re&ccedil;us &agrave; propos de cette conf&eacute;rence, ont utilis&eacute; plus de quatre fois et demie les ressources n&eacute;cessaires &agrave; la circulation de l'information. Ils ont &eacute;t&eacute; envoy&eacute;s avec exag&eacute;ration."
+
+# type: Content of: <p>
+msgid "Next time you budget for a project, consider paying four and a half times its cost.  Then consider whether you would fund it."
+msgstr "La prochaine fois que vous aurez &agrave; budgeter un projet, imaginez le payer quatre fois et demie son prix. R&eacute;fl&eacute;chissez alors &agrave; la mani&egrave;re dont vous allez le financer."
+
+# type: Content of: <p>
+msgid "Next time you pay at a restaurant, take out four and a half times the money&hellip;"
+msgstr "La prochaine fois que vous paierez le restaurant, sortez quatre fois et demi l'argent de votre poche&hellip;"
+
+# type: Content of: <p>
+msgid "For me the resource use was not an issue because I don't pay by the minute for telecommunications, as many do.  But I know that my correspondents around the world prefer that I take care in my communications that I do not waste their money or that of their supporting institutions."
+msgstr "Pour moi, les ressources utilis&eacute;es ne me touchent pas, puisque la t&eacute;l&eacute;communication ne m'est pas factur&eacute;e &agrave; la minute, comme beaucoup le sont. Mais je sais que mes correspondants tout autour du monde pr&eacute;f&egrave;rent que je fasse attention &agrave; mes communications, que je ne gaspille pas leur argent ou celui de leurs institutions."
+
+# type: Content of: <p>
+msgid "A notable feature of free software is that many applications run well on older, less capable machines, as I mentioned earlier.  For example, a couple of months ago I ran a window manager, graphical Web browser, and an image manipulation program on my sister's old 486 machine.  These worked fine."
+msgstr "Une des caract&eacute;ristiques remarquables des logiciels libres, est qu'ils peuvent tourner sur de vieilles machines, aux capacit&eacute;s modestes, comme je l'ai mentionn&eacute; tout &agrave; l'heure. Par exemple, il y a quelques mois, j'ai lanc&eacute; sur le 486 de ma s&oelig;ur, un gestionnaire de fen&ecirc;tres, un navigateur Web graphique et un programme de manipulation d'images. Tout cela a parfaitement fonctionn&eacute;."
+
+# type: Content of: <p>
+msgid "Text editors, electronic mail, and spreadsheets require even fewer resources."
+msgstr "Les &eacute;diteurs de texte, les programmes de courrier &eacute;lectronique et les tableurs demandent m&ecirc;me moins de ressources."
+
+# type: Content of: <p>
+msgid "This frugality means that people can use older equipment that has been tossed out by first world companies.  Such equipment is inexpensive and often donated.  The computers need to be transported.  Sometimes you need to start a local project to refurbish the hardware and load it with inexpensive, customized, free software.  These machines cost the end user less than new machines."
+msgstr "Cette frugalit&eacute; signifie que les gens peuvent utiliser ces vieux &eacute;quipements qui ont &eacute;t&eacute; d&eacute;daign&eacute;s par les World Companies. Un tel mat&eacute;riel n'est pas cher ou souvent offert. Les ordinateurs ont besoin d'&ecirc;tre transport&eacute;s. Vous aurez parfois &agrave; pr&eacute;voir localement de retaper le mat&eacute;riel et de le remplir de logiciels libres, peu co&ucirc;teux et personnalis&eacute;s. Pour l'utilisateur final, ces machines co&ucirc;tent moins qu'une machine neuve."
+
+# type: Content of: <p>
+msgid "At the same time, manufacturers are building modern, low end computers that do as much as the older ones, and are not too expensive."
+msgstr "Alors que pendant ce temps-l&agrave;, les constructeurs fabriquent des ordinateurs modernes, &agrave; courte dur&eacute;e de vie et qui en font autant que les vieux, qui sont moins chers."
+
+# type: Content of: <p>
+msgid "There is no need to acquire expensive, new hardware to run your software."
+msgstr "Ce n'est pas la peine d'acheter un mat&eacute;riel on&eacute;reux, flambant neuf pour faire tourner vos logiciels."
+
+# type: Content of: <p>
+msgid "In conclusion &mdash;"
+msgstr "En conclusion &mdash;"
+
+# type: Content of: <p>
+msgid "I was asked to speak on"
+msgstr "On m'a demand&eacute; de parler sur&nbsp;:"
+
+# type: Content of: <p>
+msgid "<q>Shaping Collaborative <abbr>ICT</abbr> Development and Initiatives for Global Prosperity</q>"
+msgstr "&laquo;&nbsp;Fa&ccedil;onner le d&eacute;veloppement collaboratif des technologies de l'information et des communications et les initiatives pour une prosp&eacute;rit&eacute; globale&nbsp;&raquo;"
+
+# type: Content of: <p>
+msgid "Over the past 16 years, I have worked with people who shaped software through a legal tool that gives you many freedoms: the freedoms to copy, study, modify, and redistribute the software."
+msgstr "Ces 16 derni&egrave;res ann&eacute;es, je les ai pass&eacute; &agrave; travailler avec des gens qui ont fa&ccedil;onn&eacute; le logiciel gr&acirc;ce &agrave; un outil l&eacute;gal qui vous donne maintes libert&eacute;s : celles de copier, &eacute;tudier, modifier et redistribuer le logiciel."
+
+# type: Content of: <p>
+msgid "This tool shapes software technology to make it more accessible and more empowering; it encourages people to work collaboratively, and provides a technology for better governance."
+msgstr "Cet outil fa&ccedil;onne la technologie logicielle pour la rendre plus accessible et lui donner plus de pouvoir ; il encourage les gens &agrave; travailler en collaboration et offre une technologie pour une meilleure fa&ccedil;on de gouverner."
+
+# type: Content of: <p>
+msgid "This legal tool means that companies in the ICT industry compete not to sell software itself, but to sell services associated with it, or to sell hardware, or other solutions."
+msgstr "Cet outil l&eacute;gal signifie que les soci&eacute;t&eacute;s impliqu&eacute;es dans les TIC sont en comp&eacute;tition non pas pour le logiciel lui-m&ecirc;me, mais pour la vente de services associ&eacute;s au logiciel ou la vente de mat&eacute;riel ou autre."
+
+# type: Content of: <p>
+msgid "This legal framework means that companies will provide more reliable and efficient services."
+msgstr "Ce cadre l&eacute;gal veut dire que les soci&eacute;t&eacute;s offriront des services plus fiables et plus efficaces."
+
+# type: Content of: <p>
+msgid "Freedom, ensured by a proper license, means that people who use computers and telecommunications as tools can enter their industry more easily."
+msgstr "La libert&eacute;, soutenue par une licence ad&eacute;quate, signifie que les gens qui utilisent des ordinateurs ou les t&eacute;l&eacute;communications comme outils, peuvent prendre pied dans leur industrie plus facilement."
+
+# type: Content of: <p>
+msgid "It means that all users can reduce their entry and operational costs.  It means that people in poorer countries are not shipping off their money to a rich country, but are keeping their money in the local economy."
+msgstr "Ce qui signifie que tous les usagers peuvent participer plus facilement et r&eacute;duire leurs frais d'exploitation. Ce qui implique que les gens vivant dans des pays plus pauvres n'envoient pas leur argent aux pays riches, mais qu'ils le maintiennent dans leur &eacute;conomie locale."
+
+# type: Content of: <p>
+msgid "Moreover, as I said above, restricted-distribution software licenses often force people to choose between violating the law and paying money they may not have."
+msgstr "De plus, comme je l'ai dit plus haut, les licences logicielles dans des distributions restrictives forcent souvent les gens &agrave; choisir entre violer la loi ou payer une somme qu'ils n'ont pas."
+
+# type: Content of: <p>
+msgid "As a matter of good governance, a country should not force people who are trying to do a decent job into making such decisions.  Too often an otherwise law-abiding person who lacks resources will choose to violate the law."
+msgstr "Pour bien gouverner, un pays ne devrait pas forcer les personnes qui tentent de travailler d&eacute;cemment &agrave; prendre une telle d&eacute;cision. Trop souvent, une personne respectueuse des lois mais sans grandes ressources, choisira de violer la loi."
+
+# type: Content of: <p>
+msgid "Instead, a country should arrange matters such that acting in a law abiding manner is without doubt the best action, for legal, moral, and practical reasons.  People always hope their neighbors will be law abiding and honest; free software encourages that."
+msgstr "Par contre, un pays devrait faire les choses de fa&ccedil;on &agrave; ce qu'agir dans le respect des lois, soit sans aucun doute la meilleure action, pour des raisons l&eacute;gales, morales et pratiques. On s'attend toujours &agrave; ce que son voisin soit respectueux des lois et honn&ecirc;te&nbsp;; c'est ce qu'encourage le logiciel libre."
+
+# type: Content of: <p>
+msgid "Free software empowers people who previously were kept out."
+msgstr "Le logiciel libre donne du pouvoir &agrave; ceux qui &eacute;taient laiss&eacute;s pour compte."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections (or suggestions) to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 1996, 1997, 1998, 2007 Free Software Foundation, Inc.,"
+msgstr "Copyright &copy; 1996, 1997, 1998, 2007 Free Software Foundation, Inc.,"
+
+# type: Content of: <div><address>
+msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+
+# type: Content of: <div><p>
+msgid "Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved."
+msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Pierre-Yves Enderlin.<br />Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
