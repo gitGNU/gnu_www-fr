@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.shtml\n"
-"POT-Creation-Date: 2008-12-18 16:26-0500\n"
+"POT-Creation-Date: 2008-12-30 04:25-0500\n"
 "PO-Revision-Date: 2008-12-25 12:57+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -320,6 +320,7 @@ msgstr ""
 "R&eacute;pertoire des logiciels libres</a>."
 
 # type: Content of: <table><tr><td><ul><li>
+#, fuzzy
 msgid ""
 "<strong>High priority projects:</strong> <a href=\"http://www.fsf.org/"
 "campaigns/priority.html\">Contribute</a> to these free software projects we "
@@ -336,12 +337,10 @@ msgid ""
 "html#gnuoctave\"> GNU Octave (free software Matlab replacement)</a>, <br /"
 "><a href=\"http://www.fsf.org/campaigns/priority.html#opendwgreplacement\"> "
 "free replacement for OpenDWG libraries</a>, <br /><a href=\"http://www.fsf."
-"org/campaigns/priority.html#rarv3\"> free support for the RARv3 format</a>, "
-"<br /><a href=\"http://www.fsf.org/campaigns/priority.html#reversegdb\"> "
-"reversible debugging in GDB</a>, <br /><a href=\"http://www.fsf.org/"
-"campaigns/priority.html#mesh\"> free software drivers for mesh routers</a>, "
-"<br /><a href=\"http://www.fsf.org/campaigns/priority.html#oracle\">free "
-"replacement for Oracle Forms</a>."
+"org/campaigns/priority.html#reversegdb\"> reversible debugging in GDB</a>, "
+"<br /><a href=\"http://www.fsf.org/campaigns/priority.html#mesh\"> free "
+"software drivers for mesh routers</a>, <br /><a href=\"http://www.fsf.org/"
+"campaigns/priority.html#oracle\">free replacement for Oracle Forms</a>."
 msgstr ""
 "<strong>Projets hautement prioritaires&nbsp;:</strong> <a href=\"http://www."
 "fsf.org/campaigns/priority.html\">Contribuez</a> à ces projets de logiciels "
@@ -424,17 +423,17 @@ msgstr ""
 "rique)</a>."
 
 # type: Content of: <table><tr><td><ul><li>
+#, fuzzy
 msgid ""
 "<strong>Long-term contribution:</strong> <a href=\"/server/takeaction."
 "html#unmaint\">Take over an unmaintained GNU package:</a> <a href=\"/"
-"software/dotgnu-forum/\">dotgnu-forum</a>, <a href=\"/software/ffp/\">ffp</"
-"a>, <a href=\"/software/fontutils/\">fontutils</a>, <a href=\"/software/"
-"gleem/\">gleem</a>, <a href=\"/software/gnatsweb/\">gnatsweb</a>, <a href=\"/"
-"software/gnuprologjava/\">gnuprologjava</a>, <a href=\"/software/gnutrition/"
+"software/dbmanual/\">dbmanual</a>, <a href=\"/software/dotgnu-forum/"
+"\">dotgnu-forum</a>, <a href=\"/software/ffp/\">ffp</a>, <a href=\"/software/"
+"gnuprologjava/\">gnuprologjava</a>, <a href=\"/software/gnutrition/"
 "\">gnutrition</a>, <a href=\"/software/gtkeyboard/\">gtkeyboard</a>, <a href="
-"\"/software/oleo/\">oleo</a>, <a href=\"/software/pgccfd/\">pgccfd</a>, <a "
-"href=\"/software/speedx/\">speedx</a>, <a href=\"/software/vmslib/\">vmslib</"
-"a>, <a href=\"/software/xmorph/\">xmorph</a>."
+"\"/software/oleo/\">oleo</a>, <a href=\"/software/speedx/\">speedx</a>, <a "
+"href=\"/software/vmslib/\">vmslib</a>, <a href=\"/software/xmorph/\">xmorph</"
+"a>."
 msgstr ""
 "<strong>Contribution &agrave; long terme&nbsp;:</strong> <a href=\"/server/"
 "takeaction.fr.html#unmaint\">Prenez la maintenance d'un paquetage GNU&nbsp;:"
@@ -491,6 +490,130 @@ msgstr ""
 msgid "<a href=\"/server/takeaction.html#other\">Other Action Items</a>"
 msgstr "<a href=\"/server/takeaction.fr.html#other\">Autres actions</a>"
 
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"http://audio-video.gnu.org/\">GNU Audio/Video</a>"
+msgstr "<a href=\"http://lists.gnu.org/\">Listes de diffusion GNU</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"/licenses/gpl.html\">GNU GPL</a>"
+msgstr "<a href=\"/people/people.html\">Qui nous sommes</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"/licenses/lgpl.html\">GNU LGPL</a>"
+msgstr "<a href=\"/people/people.html\">Qui nous sommes</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"/licenses/gfdl.html\">GNU GFDL</a>"
+msgstr "<a href=\"/people/people.html\">Qui nous sommes</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"/licenses/agpl.html\">GNU AGPL</a>"
+msgstr "<a href=\"/people/people.html\">Qui nous sommes</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"/licenses/license-list.html\">Free Software Licenses</a>"
+msgstr "<a href=\"/gnu/gnu-history.fr.html\">O&ugrave; nous allons</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"http://directory.fsf.org/GNU/\">GNU Packages</a>"
+msgstr "<a href=\"http://lists.gnu.org/\">Listes de diffusion GNU</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+msgid "<a href=\"/manual/manual.html\">GNU Manuals</a>"
+msgstr ""
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"http://lists.gnu.org/\">GNU Mailing Lists</a>"
+msgstr "<a href=\"http://lists.gnu.org/\">Listes de diffusion GNU</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"http://savannah.gnu.org/\">Savannah</a>"
+msgstr ""
+"<a href=\"http://savannah.gnu.org/\">Notre serveur d'h&eacute;bergement de "
+"projets, savannah.gnu.org</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"http://ftp.gnu.org/\">GNU FTP Site</a>"
+msgstr "<a href=\"http://lists.gnu.org/\">Listes de diffusion GNU</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"/prep/ftp.html\">GNU FTP Mirror List</a>"
+msgstr "<a href=\"/provide.fr.html\">Ce que nous proposons</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+msgid ""
+"<a href=\"http://www.fsf.org/resources/service/\">GNU Service Directory</a>"
+msgstr ""
+
+# type: Content of: <table><tr><td><ul><li>
+msgid ""
+"<a href=\"/links/links.html#FreeGNULinuxDistributions\">Free GNU/Linux "
+"Distros</a>"
+msgstr ""
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"http://planet.gnu.org/\">planet.gnu.org</a>"
+msgstr "<a href=\"http://lists.gnu.org/\">Listes de diffusion GNU</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"/gnu/gnu-user-groups.html\">GNU User Groups</a>"
+msgstr "<a href=\"/gnu/gnu-history.fr.html\">O&ugrave; nous allons</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid ""
+"<a href=\"http://savannah.gnu.org/people/?type_id=1\">GNU Help Wanted</a>"
+msgstr "<a href=\"http://lists.gnu.org/\">Listes de diffusion GNU</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+msgid "<a href=\"/server/standards/\">GNU Web Standards</a>"
+msgstr ""
+
+# type: Content of: <table><tr><td><ul><li>
+msgid "<a href=\"/server/\">GNU Server Guidelines</a>"
+msgstr ""
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"/prep/standards/\">GNU Coding Standards</a>"
+msgstr "<a href=\"http://lists.gnu.org/\">Listes de diffusion GNU</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+msgid "<a href=\"/prep/maintain/\">GNU Maintainers' Information</a>"
+msgstr ""
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"/people/\">GNU's Who</a>"
+msgstr "<a href=\"/people/people.html\">Qui nous sommes</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"/thankgnus/thankgnus.html\">ThankGNUs</a>"
+msgstr "<a href=\"/gnu/gnu-history.fr.html\">O&ugrave; nous allons</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"/graphics/graphics.html\">GNU Art</a>"
+msgstr "<a href=\"/philosophy/philosophy.fr.html\">Pourquoi nous existons</a>"
+
+# type: Content of: <table><tr><td><ul><li>
+msgid "<a href=\"/fun/fun.html\">GNU Fun</a>"
+msgstr ""
+
 # type: Content of: <table><tr><td><h3>
 msgid "More information"
 msgstr "D'autres informations"
@@ -538,17 +661,2051 @@ msgid "<a href=\"http://lists.gnu.org/\">GNU mailing lists</a>"
 msgstr "<a href=\"http://lists.gnu.org/\">Listes de diffusion GNU</a>"
 
 # type: Content of: <table><tr><td><ul><li>
+#, fuzzy
 msgid ""
 "Other areas of the GNU web site: <a href=\"/manual/manual.html\">Software "
 "documentation</a>, <a href=\"/graphics/graphics.html\">Graphics and art</a>, "
-"<a href=\"http://audio-video.gnu.org/\">GNU audio and video</a>, <a href=\"/"
-"fun/fun.html\">Fun</a>, <a href=\"/thankgnus/thankgnus.html\">ThankGNUs</a>."
+"<a href=\"/fun/fun.html\">Fun</a>, <a href=\"/thankgnus/thankgnus.html"
+"\">ThankGNUs</a>."
 msgstr ""
 "Autres domaines du site Web de GNU&nbsp;: <a href=\"/manual/manual.html"
 "\">documentation de logiciels</a>, <a href=\"/graphics/graphics.fr.html"
 "\">Art et dessins</a>, <a href=\"http://audio-video.gnu.org/\">GNU audio et "
 "vidéo</a>, <a href=\"/fun/fun.html\">Humour</a>, <a href=\"/thankgnus/"
 "thankgnus.html\">Merci aux GNU</a>."
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid "<a href=\"#skipgnulist\">Skip list of GNU software</a>"
+msgstr ""
+"<a href=\"/testimonials/testimonials.html\">Ce que les utilisateurs pensent "
+"des logiciels GNU</a>"
+
+# type: Attribute 'title' of: <link>
+#, fuzzy
+msgid "GNU software"
+msgstr "Nouveaux logiciels libres"
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/3dldf/\">3DLDF</a> &mdash; <em class=\"netscape4\">3D "
+"drawing package</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/acm/\">ACM</a> &mdash; <em class=\"netscape4\">Aerial "
+"combat simulation game</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/abdabi/\">Abdabi</a> &mdash; <em class=\"netscape4"
+"\">Service discovery system for DotGNU</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/Aetherspace/\">Aetherspace</a> &mdash; <em class="
+"\"netscape4\">Project to produce a multiplayer game</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/anubis/\">Anubis</a> &mdash; <em class=\"netscape4"
+"\">Processes outgoing mail</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/archimedes/\">Archimedes</a> &mdash; <em class="
+"\"netscape4\">Software for designing and simulating submicron semiconductor "
+"devices</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/aspell/\">Aspell</a> &mdash; <em class=\"netscape4"
+"\">Spell checker</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/autoconf/\">Autoconf</a> &mdash; <em class=\"netscape4"
+"\">Produces shell scripts which automatically configure source code</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/autogen/\">Autogen</a> &mdash; <em class=\"netscape4"
+"\">Automated program and text generation</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/automake/\">Automake</a> &mdash; <em class=\"netscape4"
+"\">Generates Makefile.in files </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/bpel2owfn/\">BPEL2oWFN</a> &mdash; <em class=\"netscape4"
+"\">translates a web service expressed in BPEL into an oWFN</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/balsa/\">Balsa</a> &mdash; <em class=\"netscape4\">GNOME "
+"mail client</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/barcode/\">Barcode</a> &mdash; <em class=\"netscape4"
+"\">Converts text strings to printed bars</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/bash/\">Bash</a> &mdash; <em class=\"netscape4\">Shell "
+"of the GNU operating system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/bayonne/\">Bayonne</a> &mdash; <em class=\"netscape4"
+"\">GNU telephony server</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/bzr/\">Bazaar Version Control </a> &mdash; <em class="
+"\"netscape4\">distributed version control</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/bc/\">Bc</a> &mdash; <em class=\"netscape4\">Interactive "
+"algebraic language </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/binutils/\">Binutils</a> &mdash; <em class=\"netscape4"
+"\">Collection of binary utilities</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/bison/\">Bison</a> &mdash; <em class=\"netscape4"
+"\">Replacement for the parser generator &#39;yacc&#39;</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/calendula/\">Calendula</a> &mdash; <em class=\"netscape4"
+"\">Fund-raising/contact management software for non-profits</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/cfengine/\">Cfengine</a> &mdash; <em class=\"netscape4"
+"\">Maintains configuration of a heterogenous UNIX network</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/chess/\">Chess </a> &mdash; <em class=\"netscape4"
+"\">Chess game</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/commoncpp/\">Common C++</a> &mdash; <em class=\"netscape4"
+"\">Highly portable C++ class library</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/cpio/\">Cpio</a> &mdash; <em class=\"netscape4"
+"\">Archiver that handles various types of cpio and tar archives</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/djgpp/\">DJGPP</a> &mdash; <em class=\"netscape4\">GCC, G"
+"++, and GNU utilities for DOS </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/DMD/\">DMD</a> &mdash; <em class=\"netscape4\">Service "
+"manager that&#39;s a replacement for SysV-init</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/denemo/\">Denemo</a> &mdash; <em class=\"netscape4"
+"\">Graphical music notation program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/dia/\">Dia</a> &mdash; <em class=\"netscape4\">GTK-based "
+"diagram drawing program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/diffutils/\">Diffutils</a> &mdash; <em class=\"netscape4"
+"\">Finds differences between and among files</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/dominion/\">Dominion</a> &mdash; <em class=\"netscape4"
+"\">Multi-player role-playing simulation</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/dcl/\">Double Choco Latte</a> &mdash; <em class="
+"\"netscape4\">System for tracking bugs, changes, enhancements, and requests "
+"for software</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/edma/\">EDMA </a> &mdash; <em class=\"netscape4"
+"\">Modular development environment </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/EPrints/\">EPrints</a> &mdash; <em class=\"netscape4"
+"\">Online information archiving system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ecc/\">Ecc</a> &mdash; <em class=\"netscape4"
+"\">Elliptical curve class library</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ed/\">Ed</a> &mdash; <em class=\"netscape4\">Line-"
+"oriented text editor</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/electric/\">Electric</a> &mdash; <em class=\"netscape4"
+"\">CAD electrical circuit design system </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/emacs/\">Emacs</a> &mdash; <em class=\"netscape4"
+"\">Extensible, real-time editor</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/epsilon/\">Epsilon</a> &mdash; <em class=\"netscape4"
+"\">Strongly-typed omega-order programming language</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ffp/\">Ffp</a> &mdash; <em class=\"netscape4\">Free Film "
+"Project</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/findutils/\">Findutils</a> &mdash; <em class=\"netscape4"
+"\">Tools to find files and to operate on groups of files</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/Forum/\">Forum</a> &mdash; <em class=\"netscape4\">Web-"
+"based groupware system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/FreeDink/\">FreeDink</a> &mdash; <em class=\"netscape4"
+"\">Free enhancement of the Dink Smallwood game engine</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/freefont/\">Freefont</a> &mdash; <em class=\"netscape4"
+"\">Free UCS outline fonts</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gcc/\">GCC</a> &mdash; <em class=\"netscape4\">GNU "
+"Compiler Collection</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gcl/\">GCL</a> &mdash; <em class=\"netscape4\">Compiler "
+"and interpreter for Common Lisp</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gift/\">GIFT</a> &mdash; <em class=\"netscape4\">Content "
+"based image retrieval system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gimp/\">GIMP</a> &mdash; <em class=\"netscape4\">GNU "
+"image manipulation program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/glpk/\">GLPK</a> &mdash; <em class=\"netscape4\">GNU "
+"Linear Programming Kit</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/glue/\">GLUE</a> &mdash; <em class=\"netscape4\">GNU "
+"Internet groupware project</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/glib/\">GLib</a> &mdash; <em class=\"netscape4\">Core "
+"library that forms the basis of GTK+ and GNOME</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnat/\">GNAT</a> &mdash; <em class=\"netscape4\">A "
+"complete Ada95 compilation system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnowsys/\">GNOWSYS</a> &mdash; <em class=\"netscape4"
+"\">Hybrid database server with a kernel for semantic computing</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/alive/\">GNU Alive</a> &mdash; <em class=\"netscape4"
+"\">Automatic login and keep-alive utility for Internet connections.</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/classpathx/\">GNU Classspathx</a> &mdash; <em class="
+"\"netscape4\">Unfinished free implementation of the Java extension "
+"libraries</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnuenterprise/\">GNU Enterprise</a> &mdash; <em class="
+"\"netscape4\">Unfinished project to develop a complete ERP system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gfe/\">GNU Font Editor</a> &mdash; <em class=\"netscape4"
+"\">Graphical font editor</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/global/\">GNU GLOBAL</a> &mdash; <em class=\"netscape4"
+"\">Source code tag system for C, C++, Java, and Yacc</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/grub/\">GNU GRUB</a> &mdash; <em class=\"netscape4\">GNU "
+"GRand Unified Bootloader </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnash/\">GNU Gnash</a> &mdash; <em class=\"netscape4"
+"\">Flash Movie Player</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libidn/\">GNU Libidn</a> &mdash; <em class=\"netscape4"
+"\">Internationalized string preparation library</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/macchanger/\">GNU MAC Changer </a> &mdash; <em class="
+"\"netscape4\">Is a utility to manipulate a MAC address</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnumessenger/\">GNU Messenger </a> &mdash; <em class="
+"\"netscape4\">Secure messaging system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnupdf/\">GNU PDF</a> &mdash; <em class=\"netscape4"
+"\">set of libraries and programs to manage the PDF file format</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnupoc/\">GNU POC</a> &mdash; <em class=\"netscape4"
+"\">manages smartcard passwords</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/GNUPascal/\">GNU Pascal</a> &mdash; <em class=\"netscape4"
+"\">Pascal compiler of the GNU Project</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/pipo/\">GNU Pipo</a> &mdash; <em class=\"netscape4\">A "
+"GNU Bulletion Board System</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/proxyknife/\">GNU Proxyknife</a> &mdash; <em class="
+"\"netscape4\">Validate free proxies for users behind firewalls</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnur/\">GNU R</a> &mdash; <em class=\"netscape4\">a "
+"language and environment for statistical computing and graphics. </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gsasl/\">GNU SASL</a> &mdash; <em class=\"netscape4"
+"\">SASL network authentication library</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnusql/\">GNU SQL</a> &mdash; <em class=\"netscape4"
+"\">Database management system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/smalltalk/\">GNU Smalltalk</a> &mdash; <em class="
+"\"netscape4\">Implementation of the Smalltalk object oriented language</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/solfege/\">GNU Solfege</a> &mdash; <em class=\"netscape4"
+"\">Eartraining program for GNOME</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/songanizer/\">GNU Songanizer</a> &mdash; <em class="
+"\"netscape4\">Script to organize a directory containing ogg and mp3 files.</"
+"em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/GNUTeXmacs/\">GNU TeXmacs</a> &mdash; <em class="
+"\"netscape4\">Scientific text editor</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/teseq/\">GNU Teseq</a> &mdash; <em class=\"netscape4\">a "
+"tool for analyzing files that contain control characters and terminal "
+"control sequences.</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/fdisk/\">GNU fdisk</a> &mdash; <em class=\"netscape4"
+"\">Is a libparted-based partitioning tool</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ghostscript/\">GNU ghostscript </a> &mdash; <em class="
+"\"netscape4\">Interpreter for the Postscript and PDF graphics languages</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnugo/\">GNU go</a> &mdash; <em class=\"netscape4"
+"\">Plays the game of Go</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libmatheval/\">GNU libmatheval</a> &mdash; <em class="
+"\"netscape4\">Library for evaluating mathematical expressions</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/lightning/\">GNU lightning</a> &mdash; <em class="
+"\"netscape4\">Generates assembly language code at run-time</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnurobots/\">GNU robots</a> &mdash; <em class=\"netscape4"
+"\">Real-time game</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/sauce/\">GNU sauce</a> &mdash; <em class=\"netscape4"
+"\">Anti-spam server</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/tar/\">GNU tar</a> &mdash; <em class=\"netscape4"
+"\">Creates tar archives</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/trueprint/\">GNU trueprint</a> &mdash; <em class="
+"\"netscape4\">Prints source code to PostScript printers</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnucash/\">GNUCash</a> &mdash; <em class=\"netscape4"
+"\">Personal and small business money-management software </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnump3d/\">GNUMP3d</a> &mdash; <em class=\"netscape4\">A "
+"light-weight audio server</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnumed/\">GNUMed</a> &mdash; <em class=\"netscape4"
+"\">Software for a paperless medical practice</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnubik/\">GNUbik</a> &mdash; <em class=\"netscape4\">3D "
+"Rubik&#39;s cube game</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnucap/\">GNUcap</a> &mdash; <em class=\"netscape4\">A "
+"general purpose circuit simulator</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnujump/\">GNUjump</a> &mdash; <em class=\"netscape4"
+"\">SDLjump is a simple game where your goal is to keep jumping to upper "
+"falling platforms in order to avoid touching the lower part of the screen.</"
+"em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnus/\">GNUs</a> &mdash; <em class=\"netscape4\">Emacs "
+"newsreader</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnustep/\">GNUstep</a> &mdash; <em class=\"netscape4\">A "
+"graphical, object oriented programming environment</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnutls/\">GNUtls</a> &mdash; <em class=\"netscape4\">A "
+"library implementing TLS 1.0 and SSL 3.0 protocols</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/goops/\">GOOPS</a> &mdash; <em class=\"netscape4"
+"\">Object-oriented extension to &#39;guile&#39;</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gsl/\">GSL</a> &mdash; <em class=\"netscape4\">Routines "
+"for numerical computing</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gtk/\">GTK+</a> &mdash; <em class=\"netscape4\">GNU "
+"toolkit for X windows development</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gts/\">GTS</a> &mdash; <em class=\"netscape4\">Functions "
+"for 3D surfaces meshed with interconnected triangles</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/GUSS/\">GUSS</a> &mdash; <em class=\"netscape4"
+"\">Hardware simulator for debugging</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gcal/\">Gcal</a> &mdash; <em class=\"netscape4\">Is a "
+"program for calculating and printing calendars, and is the GNU "
+"implementation of the universally known cal and calendar programs.</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gcompris/\">Gcompris</a> &mdash; <em class=\"netscape4"
+"\">Educational suite for children from 2 to 10 </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gcron/\">Gcron</a> &mdash; <em class=\"netscape4"
+"\">Replacement for Vixie cron</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gdb/\">Gdb</a> &mdash; <em class=\"netscape4\">GNU "
+"Debugger</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gdbm/\">Gdbm</a> &mdash; <em class=\"netscape4"
+"\">Replacement for the &#39;dbm&#39; and &#39;ndbm&#39; libraries</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gengetopt/\">Gengetopt</a> &mdash; <em class=\"netscape4"
+"\">Generates a C function that parses and validates command line options</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gettext/\">Gettext</a> &mdash; <em class=\"netscape4"
+"\">Tools to produce multi-lingual messages</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ggradebook/\">Ggradebook</a> &mdash; <em class="
+"\"netscape4\">Fully-featured GNU gradebook</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnats/\">Gnats</a> &mdash; <em class=\"netscape4\">Bug "
+"tracking system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnatsweb/\">Gnatsweb</a> &mdash; <em class=\"netscape4"
+"\">Web interface to the GNU bug management system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnochive/\">Gnochive</a> &mdash; <em class=\"netscape4"
+"\">GUI frontend for multiple archivers</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnome/\">Gnome</a> &mdash; <em class=\"netscape4\">The "
+"GNU desktop</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnotepad/\">Gnotepad+</a> &mdash; <em class=\"netscape4"
+"\">HTML and text editor</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnumeric/\">Gnumeric</a> &mdash; <em class=\"netscape4"
+"\">Math program intended to replace commercial spreadsheets</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnutrition/\">Gnutrition</a> &mdash; <em class="
+"\"netscape4\">Nutrition analysis software</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnuzilla/\">Gnuzilla / IceCat</a> &mdash; <em class="
+"\"netscape4\">GNU version of popular web browser</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/goldwater/\">Goldwater</a> &mdash; <em class=\"netscape4"
+"\">Middleware component of the DotGNU project</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gorm/\">Gorm</a> &mdash; <em class=\"netscape4\">Graphic "
+"Object Relationship Modeler</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gperf/\">Gperf</a> &mdash; <em class=\"netscape4"
+"\">Generates a hash function</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/greg/\">Greg</a> &mdash; <em class=\"netscape4"
+"\">Software testing framework </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/grep/\">Grep</a> &mdash; <em class=\"netscape4\">Finds "
+"lines that match entered patterns</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gretl/\">Gretl</a> &mdash; <em class=\"netscape4"
+"\">Software for econometric analysis</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gtick/\">Gtick</a> &mdash; <em class=\"netscape4"
+"\">Digital metronome</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gtkeyboard/\">Gtkeyboard</a> &mdash; <em class="
+"\"netscape4\">Graphical keyboard</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gtypist/\">Gtypist</a> &mdash; <em class=\"netscape4"
+"\">Typing tutor program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/guile/\">Guile</a> &mdash; <em class=\"netscape4\">GNU "
+"extensibility library</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/guile-gnome/\">Guile-gnome</a> &mdash; <em class="
+"\"netscape4\">Helps Scheme programmers develop visual applications</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/httptunnel/\">Httptunnel</a> &mdash; <em class="
+"\"netscape4\">Creates a data path in HTTP requests</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/hyperbole/\">Hyperbole</a> &mdash; <em class=\"netscape4"
+"\">Information and text management program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/idutils/\">Idutils</a> &mdash; <em class=\"netscape4"
+"\">Tools for indexing</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/indent/\">Indent</a> &mdash; <em class=\"netscape4\">C "
+"source beautifier</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/inetutils/\">Inetutils</a> &mdash; <em class=\"netscape4"
+"\">Collection of common network programs</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/jacal/\">Jacal</a> &mdash; <em class=\"netscape4"
+"\">Mathematics program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/kawa/\">Kawa</a> &mdash; <em class=\"netscape4\">Scheme "
+"and Emacs Lisp on a Java VM</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/less/\">Less</a> &mdash; <em class=\"netscape4\">Display "
+"paginator</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libcvs-perl/\">LibCVS</a> &mdash; <em class=\"netscape4"
+"\">Provides CVS functionality in library form</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libgcrypt/\">Libgcrypt</a> &mdash; <em class=\"netscape4"
+"\">Cryptographic library</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libiconv/\">Libiconv</a> &mdash; <em class=\"netscape4"
+"\">Converts between character encodings</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/lilypond/\">Lilypond</a> &mdash; <em class=\"netscape4"
+"\">Music typesetter</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/mailman/\">Mailman</a> &mdash; <em class=\"netscape4"
+"\">Manages discussion lists</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/mailutils/\">Mailutils</a> &mdash; <em class=\"netscape4"
+"\">A set of libraries and programs for handling e-mail messages</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/melting/\">Melting</a> &mdash; <em class=\"netscape4"
+"\">Nearest-neighbor compilation of nucleic acid hybridation</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/metahtml/\">Metahtml</a> &mdash; <em class=\"netscape4"
+"\">Programming language for the Web</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/mc/\">Midnight Commander</a> &mdash; <em class="
+"\"netscape4\">Unix file manager</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/mifluz/\">Mifluz </a> &mdash; <em class=\"netscape4"
+"\">Full text inverted index query library</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/mll2html/\">Mll2html</a> &mdash; <em class=\"netscape4"
+"\">Converts a mailing lists file to an HTML file</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/motti/\">Motti</a> &mdash; <em class=\"netscape4"
+"\">Multiplayer, networked strategy game</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/mule/\">Mule</a> &mdash; <em class=\"netscape4"
+"\">Multilingual text editor for Emacs</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/nana/\">Nana</a> &mdash; <em class=\"netscape4\">Library "
+"for assertion checking and logging in GNU C/C++</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/nano/\">Nano</a> &mdash; <em class=\"netscape4\">Pico "
+"clone for *NIX</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/nautilus/\">Nautilus</a> &mdash; <em class=\"netscape4"
+"\">File manager and graphical shell</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ncurses/\">Ncurses</a> &mdash; <em class=\"netscape4"
+"\">Displays and updates text on text-only terminals</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ninpaths/\">Ninpaths </a> &mdash; <em class=\"netscape4"
+"\">Paths Survey reporting program </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ocrad/\">Ocrad</a> &mdash; <em class=\"netscape4\">OCR "
+"program based on feature extraction</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/octave/\">Octave</a> &mdash; <em class=\"netscape4"
+"\">High-level language for numerical computations</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/oleo/\">Oleo</a> &mdash; <em class=\"netscape4"
+"\">Lightweight spreadsheet program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/pcb/\">PCB</a> &mdash; <em class=\"netscape4\">Designs "
+"printed circuit board layouts </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/phpgroupware/\">PHP Groupware</a> &mdash; <em class="
+"\"netscape4\">Groupware suite </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/pips/\">PIPS</a> &mdash; <em class=\"netscape4"
+"\">Converts data between formats</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/pspp/\">PSPP</a> &mdash; <em class=\"netscape4"
+"\">Statistics package</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/panorama/\">Panorama</a> &mdash; <em class=\"netscape4"
+"\">Framework for 3D graphics production</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/paperclips/\">Paperclips</a> &mdash; <em class="
+"\"netscape4\">Webserver and dynamic content container</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/patch/\">Patch</a> &mdash; <em class=\"netscape4"
+"\">Applies a patch to a file</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/patchwork/\">Patchwork</a> &mdash; <em class=\"netscape4"
+"\">Utility for rapid patch development and submission</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/paxutils/\">Paxutils</a> &mdash; <em class=\"netscape4"
+"\">Tool to manage file archives</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/plotutils/\">Plotutils</a> &mdash; <em class=\"netscape4"
+"\">Plotting and graphics utilities</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/proto/\">Proto</a> &mdash; <em class=\"netscape4\">Tools "
+"to find function prototypes</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/pth/\">Pth</a> &mdash; <em class=\"netscape4\">GNU "
+"Portable Threads library</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ptx/\">Ptx</a> &mdash; <em class=\"netscape4\">Index "
+"generator</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/qexo/\">Qexo</a> &mdash; <em class=\"netscape4\">XQuery "
+"to Java compiler</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/quagga/\">Quagga</a> &mdash; <em class=\"netscape4"
+"\">Back-end software for the FSF&#39;s Directory of Free Software</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/queue/\">Queue</a> &mdash; <em class=\"netscape4\">Batch "
+"processing and local rsh replacement system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/rcs/\">RCS</a> &mdash; <em class=\"netscape4\">Version "
+"control and project management software</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/radius/\">Radius</a> &mdash; <em class=\"netscape4"
+"\">Remote authentication and accounting system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/readline/\">Readline</a> &mdash; <em class=\"netscape4"
+"\">Lets users edit command lines as they are typed in</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/recode/\">Recode</a> &mdash; <em class=\"netscape4"
+"\">Front end to the &#39;recode&#39; translation library</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/sxml/\">SXML</a> &mdash; <em class=\"netscape4\">Defines "
+"and implements a mark-up language</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/screen/\">Screen</a> &mdash; <em class=\"netscape4"
+"\">Runs separate screens on a single terminal</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/sed/\">Sed</a> &mdash; <em class=\"netscape4\">A stream-"
+"oriented non-interactive text editor</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/serveez/\">Serveez</a> &mdash; <em class=\"netscape4"
+"\">Server framework</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/shmm/\">Shared Memory Manager</a> &mdash; <em class="
+"\"netscape4\">access all shared memory</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/sharutils/\">Sharutils</a> &mdash; <em class=\"netscape4"
+"\">Creates and helps unpack shell archives</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/shtool/\">Shtool</a> &mdash; <em class=\"netscape4\">The "
+"GNU portable shell tool</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/smarteiffel/\">SmartEiffel</a> &mdash; <em class="
+"\"netscape4\">Eiffel compiler</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/snug/\">Snug</a> &mdash; <em class=\"netscape4\">Project "
+"to develop a free version of Java Swing</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/sovix/\">Sovix</a> &mdash; <em class=\"netscape4\">PHP-"
+"based, semantic website revision system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/speedx/\">SpeedX</a> &mdash; <em class=\"netscape4"
+"\">Racing game</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/termutils/\">Termutils</a> &mdash; <em class=\"netscape4"
+"\">Programs for controlling terminals</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/texinfo/\">Texinfo</a> &mdash; <em class=\"netscape4"
+"\">Produces manuals, ASCII text, and on-line documentation</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/thales/\">Thales</a> &mdash; <em class=\"netscape4\">IRC "
+"to MySQL gateway</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libobjects/\">The GNU Objective C Class Library</a> "
+"&mdash; <em class=\"netscape4\">The GNU Objective C Class Library "
+"(libobjects) is a library of general-purpose, non-graphical Objective C "
+"objects</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/time/\">Time</a> &mdash; <em class=\"netscape4\">Reports "
+"the user, system, and real time used by a process</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/toutdoux/\">ToutDoux</a> &mdash; <em class=\"netscape4"
+"\">Project manager</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/units/\">Units</a> &mdash; <em class=\"netscape4\">Unit "
+"conversion and calculation</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/vcdimager/\">VCD Imager</a> &mdash; <em class=\"netscape4"
+"\">Free software (Super) video CD authoring solution</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/wget/\">Wget</a> &mdash; <em class=\"netscape4"
+"\">Retrieves files from the Web</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/which/\">Which</a> &mdash; <em class=\"netscape4"
+"\">Prints out full path of execuatbles</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/windowmaker/\">Window Maker</a> &mdash; <em class="
+"\"netscape4\">Window manager for X Window System</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/xboard/\">Xboard</a> &mdash; <em class=\"netscape4"
+"\">Graphical chessboard</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/xhippo/\">Xhippo</a> &mdash; <em class=\"netscape4"
+"\">Playlist manager</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/xmorph/\">Xmorph</a> &mdash; <em class=\"netscape4"
+"\">Image morphing program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/zebra/\">Zebra</a> &mdash; <em class=\"netscape4"
+"\">Implementation of routing protocols</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/a2ps/\">a2ps</a> &mdash; <em class=\"netscape4\">Any to "
+"PostScript filter</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/acct/\">acct</a> &mdash; <em class=\"netscape4\">GNU "
+"system accounting utilities</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/adns/\">adns</a> &mdash; <em class=\"netscape4"
+"\">Resolver library for C and C++ programs</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/aetherspace/\">aetherspace</a> &mdash; <em class="
+"\"netscape4\">Software to produce alternative energy systems</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/aroundme/\">aroundme</a> &mdash; <em class=\"netscape4"
+"\">Social networking and team interaction software</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/auctex/\">auctex</a> &mdash; <em class=\"netscape4"
+"\">Integrated environment for editing LaTeX and TeX files</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/avl/\">avl</a> &mdash; <em class=\"netscape4\">Library "
+"for balanced binary trees</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/beacon/\">beacon</a> &mdash; <em class=\"netscape4"
+"\">Simple date and category-driven Web publishing system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/bool/\">bool</a> &mdash; <em class=\"netscape4\">Utility "
+"for matching boolean queries in text</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ccaudio/\">ccaudio</a> &mdash; <em class=\"netscape4"
+"\">Library and software for manipulating audio data</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ccrtp/\">ccrtp</a> &mdash; <em class=\"netscape4\">RTP "
+"stack</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ccscript/\">ccscript</a> &mdash; <em class=\"netscape4"
+"\">C++ class framework for creating a virtual machine execution system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/cflow/\">cflow</a> &mdash; <em class=\"netscape4"
+"\">Charts control flow within source code</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/cgicc/\">cgicc</a> &mdash; <em class=\"netscape4\">C++ "
+"class library for writing CGI applications</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/cim/\">cim </a> &mdash; <em class=\"netscape4\">Compiler "
+"for the programming language Simula</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/classpath/\">classpath</a> &mdash; <em class=\"netscape4"
+"\">Free core class libraries for the Java programming language</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/clisp/\">clisp</a> &mdash; <em class=\"netscape4\">ANSI "
+"Common Lisp compiler, debugger, and interpreter</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/combine/\">combine</a> &mdash; <em class=\"netscape4"
+"\">Extensible file matching and filtering</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/cons/\">cons</a> &mdash; <em class=\"netscape4\">&#39;"
+"Make&#39; replacement</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/coreutils/\">coreutils</a> &mdash; <em class=\"netscape4"
+"\">Collection of basic file, shell and text manipulation utilities</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/cssc/\">cssc</a> &mdash; <em class=\"netscape4\">Free "
+"clone of SCCS</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/dap/\">dap</a> &mdash; <em class=\"netscape4"
+"\">Statistics and graphics package</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ddd/\">ddd</a> &mdash; <em class=\"netscape4\">Graphical "
+"front end for command line debuggers</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ddrescue/\">ddrescue</a> &mdash; <em class=\"netscape4"
+"\">Data recovery tool</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/dejagnu/\">dejaGnu</a> &mdash; <em class=\"netscape4"
+"\">Framework to test programs</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/diction/\">diction</a> &mdash; <em class=\"netscape4"
+"\">Checks text for readability and bad usage</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/drgeo/\">dr. geo</a> &mdash; <em class=\"netscape4"
+"\">Builds geometric figures</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/emms/\">emms</a> &mdash; <em class=\"netscape4\">Emacs "
+"multimedia system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/enscript/\">enscript </a> &mdash; <em class=\"netscape4"
+"\">Converts ASCII files to PostScript</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/ferret/\">ferret</a> &mdash; <em class=\"netscape4\">GNU "
+"data modeller</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/fhp/\">fhp</a> &mdash; <em class=\"netscape4\">m4 macro "
+"for creating Web pages</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/fontutils/\">fontutils </a> &mdash; <em class=\"netscape4"
+"\">Converts between font formats and creates fonts</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/freeipmi/\">freeipmi</a> &mdash; <em class=\"netscape4"
+"\">Intelligent platform management system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/fribidi/\">fribidi</a> &mdash; <em class=\"netscape4"
+"\">Free implementation of the Unicode Bidirectional (BiDi) Algorithm</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gpp/\">g++</a> &mdash; <em class=\"netscape4\">C++ "
+"compiler</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gama/\">gama</a> &mdash; <em class=\"netscape4"
+"\">Geodetic network adjustment program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gawk/\">gawk</a> &mdash; <em class=\"netscape4\">String "
+"manipulation language</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gcjwebplugin/\">gcjwebplugin</a> &mdash; <em class="
+"\"netscape4\">Browser plugin that executes Java applets</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gengen/\">gengen</a> &mdash; <em class=\"netscape4\">A "
+"parameterized-text-generator generator based on a template</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gforth/\">gforth</a> &mdash; <em class=\"netscape4"
+"\">Free implementation of the ANS Forth language</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gfortran/\">gfortran</a> &mdash; <em class=\"netscape4"
+"\">Fortran compiler</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gleem/\">gleem</a> &mdash; <em class=\"netscape4"
+"\">Library of 3D widgets</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gmp/\">gmp</a> &mdash; <em class=\"netscape4\">The GNU "
+"Multiple Precision Arithmetic Library</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnotary/\">gnotary</a> &mdash; <em class=\"netscape4"
+"\">Project to produce a digital notary service</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnu-arch/\">gnu-arch</a> &mdash; <em class=\"netscape4"
+"\">Revision control system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnu-crypto/\">gnu-crypto</a> &mdash; <em class="
+"\"netscape4\">Project to produce a full set of Java cryptographic tools</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnubg/\">gnubg</a> &mdash; <em class=\"netscape4\">Plays "
+"and analyzes backgammon games and matches</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnubiff/\">gnubiff</a> &mdash; <em class=\"netscape4"
+"\">Mail notification program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnucomm/\">gnucomm</a> &mdash; <em class=\"netscape4"
+"\">GNU telecommunications project</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/git/\">gnuit</a> &mdash; <em class=\"netscape4\">Tools "
+"for simple, daily file and system management tasks</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnulib/\">gnulib</a> &mdash; <em class=\"netscape4\">GNU "
+"portability library</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnumach/\">gnumach</a> &mdash; <em class=\"netscape4"
+"\">Microkernel of the GNU system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnunet/\">gnunet</a> &mdash; <em class=\"netscape4"
+"\">Anonymous peer-to-peer file-sharing</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnupg/\">gnupg (GPG)</a> &mdash; <em class=\"netscape4"
+"\">Complete implementation of the OpenPGP Internet standard</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnupod/\">gnupod</a> &mdash; <em class=\"netscape4"
+"\">Lets you use an iPod under GNU/Linux </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnuradio/\">gnuradio</a> &mdash; <em class=\"netscape4"
+"\">Software to create digital radio signals</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnuschool/\">gnuschool</a> &mdash; <em class=\"netscape4"
+"\">Is a web application for educators, students, and school administrators.</"
+"em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnushogi/\">gnushogi</a> &mdash; <em class=\"netscape4"
+"\">Japanese version of chess</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnuskies/\">gnuskies</a> &mdash; <em class=\"netscape4"
+"\">Project to create a free version of the xephem program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnusound/\">gnusound</a> &mdash; <em class=\"netscape4"
+"\">Multitrack sound editor for Gnome</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gnusysutils/\">gnusysutils</a> &mdash; <em class="
+"\"netscape4\">Planned group of utilities for system administrators</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gpaint/\">gpaint</a> &mdash; <em class=\"netscape4"
+"\">GNOME paint program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gprolog/\">gprolog</a> &mdash; <em class=\"netscape4"
+"\">Prolog compiler</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/groff/\">groff</a> &mdash; <em class=\"netscape4"
+"\">Document formatting system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gss/\">gss</a> &mdash; <em class=\"netscape4"
+"\">Implementation of the Generic Security Service API</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/guile-dbi/\">guile-dbi</a> &mdash; <em class=\"netscape4"
+"\">Guile database abstraction layer</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/guile-gtk/\">guile-gtk</a> &mdash; <em class=\"netscape4"
+"\">Guile language bindings for Gtk+ version 1.2</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gurgle/\">gurgle</a> &mdash; <em class=\"netscape4"
+"\">Formerly the GNU Report Generator</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gv/\">gv</a> &mdash; <em class=\"netscape4\">Frontend "
+"for ghostscript</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gvpe/\">gvpe</a> &mdash; <em class=\"netscape4\">Secure "
+"vpn network among multiple nodes over an untrusted network</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/gzip/\">gzip</a> &mdash; <em class=\"netscape4"
+"\">Compresses and decompresses files</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/hOpla/\">hOpla</a> &mdash; <em class=\"netscape4\">Link "
+"between XML files and SQL databases</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/halifax/\">halifax</a> &mdash; <em class=\"netscape4"
+"\">Client applications suite for fax applications</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/hello/\">hello</a> &mdash; <em class=\"netscape4\">GNU "
+"version of &quot;Hello, world!&quot;</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/hp2xx/\">hp2xx</a> &mdash; <em class=\"netscape4\">Reads "
+"and converts HP-GL files to various formats</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/hurd/\">hurd</a> &mdash; <em class=\"netscape4\">Project "
+"GNU&#39;s replacement for the Unix kernel</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/intlfonts/\">intlfonts</a> &mdash; <em class=\"netscape4"
+"\">Fonts for all characters Emacs 20 can handle</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/java2html/\">java2html</a> &mdash; <em class=\"netscape4"
+"\">Translates Java files to HTML</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/jel/\">jel</a> &mdash; <em class=\"netscape4\">Compiler "
+"for simple expressions into Java byte code</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/jwhois/\">jwhois</a> &mdash; <em class=\"netscape4"
+"\">Internet whois client</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libc/\">libc</a> &mdash; <em class=\"netscape4\">Library "
+"for use with GNU/Hurd and GNU/Linux</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libcdio/\">libcdio</a> &mdash; <em class=\"netscape4"
+"\">Encapsulates CD-ROM reading and control</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libextractor/\">libextractor</a> &mdash; <em class="
+"\"netscape4\">Extracts metadata information from files</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libmicrohttpd/\">libmicrohttpd</a> &mdash; <em class="
+"\"netscape4\">GNU library</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libopts/\">libopts</a> &mdash; <em class=\"netscape4"
+"\">AutoOpts option parser library that supports stand alone config files</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libsigsegv/\">libsigsegv</a> &mdash; <em class="
+"\"netscape4\">Library for handling page faults</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libtool/\">libtool</a> &mdash; <em class=\"netscape4"
+"\">Generic library support script</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/libxmi/\">libxmi</a> &mdash; <em class=\"netscape4"
+"\">Library for rasterizing 2-D vector graphics</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/liquidwar6/\">liquidwar6</a> &mdash; <em class="
+"\"netscape4\">Liquid War 6 is a unique multiplayer wargame.</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/lsh/\">lsh</a> &mdash; <em class=\"netscape4\">Free "
+"implementation of the SSH protocol</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/m4/\">m4</a> &mdash; <em class=\"netscape4\">Macro "
+"processor</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/make/\">make</a> &mdash; <em class=\"netscape4"
+"\">Generates executables and other non-source programs</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/marst/\">marst</a> &mdash; <em class=\"netscape4\">Algol "
+"to C translator</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/maverik/\">maverik</a> &mdash; <em class=\"netscape4"
+"\">Virtual reality micro kernel</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/mcron/\">mcron</a> &mdash; <em class=\"netscape4\">Vixie "
+"cron replacement</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/mcsim/\">mcsim</a> &mdash; <em class=\"netscape4"
+"\">Simulation software for designing, analyzing and calibrating mathematical "
+"models</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/mdk/\">mdk</a> &mdash; <em class=\"netscape4\">Emulator "
+"and development environment for Knuth&#39;s MIX computer</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/miscfiles/\">miscfiles</a> &mdash; <em class=\"netscape4"
+"\">Collection of various files</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/mit-scheme/\">mit-scheme</a> &mdash; <em class="
+"\"netscape4\">MIT/GNU Scheme programming language</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/moe/\">moe </a> &mdash; <em class=\"netscape4\">A "
+"powerful and user-friendly text editor</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/muse/\">muse</a> &mdash; <em class=\"netscape4\">Emacs "
+"mode for publishing in various modes</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/octal/\">octal</a> &mdash; <em class=\"netscape4\">Free "
+"digital sound workstation for Unix-like systems</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/orgadoc/\">orgadoc</a> &mdash; <em class=\"netscape4"
+"\">Helps organize documentation</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/osip/\">osip</a> &mdash; <em class=\"netscape4\">Library "
+"supporting the Session Initiation Protocol</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/p2c/\">p2c</a> &mdash; <em class=\"netscape4"
+"\">Translates Pascal programs into C</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/parted/\">parted</a> &mdash; <em class=\"netscape4"
+"\">Manipulates disk partitions</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/phantomsecurity/\">phantom security</a> &mdash; <em "
+"class=\"netscape4\">Home security system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/phantom_home/\">phantom_home</a> &mdash; <em class="
+"\"netscape4\">Home automation system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/phpgrabcomics/\">phpgrabcomics</a> &mdash; <em class="
+"\"netscape4\">Retrieves and saves comics from the Web</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/polyxmass/\">polyxmass</a> &mdash; <em class=\"netscape4"
+"\">Mass spectrometric framework for simulation and analysis of mass "
+"spectrometric data of (bio-)polymers</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/protoize/\">protoize</a> &mdash; <em class=\"netscape4"
+"\">Creates or removes prototypes from C code</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/rottlog/\">rottlog</a> &mdash; <em class=\"netscape4"
+"\">Replacement for Red Hat&#39;s &#39;logrotate.&#39;</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/sather/\">sather</a> &mdash; <em class=\"netscape4"
+"\">Object-oriented language</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/shishi/\">shishi</a> &mdash; <em class=\"netscape4"
+"\">Free implementation of the Kerberos 5 network security system</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/slib/\">slib</a> &mdash; <em class=\"netscape4"
+"\">Portable scheme library </em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/sourceinstall/\">sourceinstaller</a> &mdash; <em class="
+"\"netscape4\">Graphical tool for source package configuration, installation, "
+"tracking and removal</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/spacechart/\">spacechart</a> &mdash; <em class="
+"\"netscape4\">Displays the stars in space in 3D</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/speex/\">speex</a> &mdash; <em class=\"netscape4"
+"\">Speech compression format</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/spell/\">spell</a> &mdash; <em class=\"netscape4\">Spell "
+"checker</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/src-highlite/\">src-highlite</a> &mdash; <em class="
+"\"netscape4\">Turns source code into a file with syntax highlighting</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/stow/\">stow</a> &mdash; <em class=\"netscape4\">Manages "
+"installation process</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/superopt/\">superopt</a> &mdash; <em class=\"netscape4"
+"\">Finds the shortest instruction sequence for a given function</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/swbis/\">swbis</a> &mdash; <em class=\"netscape4"
+"\">Extensions to the POSIX packaging standard</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/talkfilters/\">talkfilters</a> &mdash; <em class="
+"\"netscape4\">Translates English text into dialects</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/tramp/\">tramp</a> &mdash; <em class=\"netscape4"
+"\">Remote file editing software</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/unrtf/\">unrtf</a> &mdash; <em class=\"netscape4"
+"\">Converts from RTF to other formats</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/userv/\">userv</a> &mdash; <em class=\"netscape4"
+"\">Security boundary tool</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/uucp/\">uucp</a> &mdash; <em class=\"netscape4\">File "
+"copying program</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/wdiff/\">wdiff</a> &mdash; <em class=\"netscape4\">Front "
+"end to GNU &#39;diff&#39;</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/womb/\">womb</a> &mdash; <em class=\"netscape4"
+"\">Repository for homeless code</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/xaos/\">xaos</a> &mdash; <em class=\"netscape4\">Real-"
+"time fractal zoomer</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/xlogmaster/\">xlogmaster</a> &mdash; <em class="
+"\"netscape4\">Monitors logfiles and devices</em>"
+msgstr ""
+
+# type: Content of: <div><ul><li>
+msgid ""
+"<a href=\"/software/xnee/\">xnee</a> &mdash; <em class=\"netscape4"
+"\">Records, distributes, and replays X11 protocol data</em>"
+msgstr ""
+
+# type: Content of: <table><tr><td><ul><li>
+#, fuzzy
+msgid ""
+"<a href=\"http://directory.fsf.org/GNU/\">GNU Project Software in the Free "
+"Software Directory</a>"
+msgstr ""
+"<a href=\"/server/takeaction.fr.html#directory\">Ajoutez des logiciels au "
+"R&eacute;pertoire des logiciels libres</a>."
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
