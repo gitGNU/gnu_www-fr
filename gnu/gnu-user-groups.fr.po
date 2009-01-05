@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-user-groups.html\n"
-"POT-Creation-Date: 2008-12-22 16:26-0500\n"
+"POT-Creation-Date: 2009-01-02 16:25-0500\n"
 "PO-Revision-Date: 2008-12-25 12:52+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -150,7 +150,7 @@ msgstr ""
 "s&nbsp;:"
 
 # type: Content of: <p>
-#. - <a href="#GLSingapore">Singapore</a>
+#, fuzzy
 msgid ""
 "<a href=\"#GLArgentina\">Argentina</a> - <a href=\"#GLBrazil\">Brazil</a> - "
 "<a href=\"#GLChile\">Chile</a> - <a href=\"#GLColombia\">Colombia</a> - <a "
@@ -162,10 +162,11 @@ msgid ""
 "href=\"#GLMexico\">Mexico</a> - <a href=\"#GLNewZealand\">New Zealand</a> - "
 "<a href=\"#GLPeru\">Peru</a> - <a href=\"#GLPhilippines\">Philippines</a> - "
 "<a href=\"#GLPortugal\">Portugal</a> - <a href=\"#GLRomania\">Romania</a> - "
-"<a href=\"#GLRwanda\">Rwanda</a> - <a href=\"#GLSpain\">Spain</a> - <a href="
-"\"#GLSwitzerland\">Switzerland</a> - <a href=\"#GLUnitedKingdom\">United "
-"Kingdom</a> - <a href=\"#GLUnitedStates\">United States</a> - <a href="
-"\"#GLVenezuela\">Venezuela</a> - <a href=\"#GLYemen\">Yemen</a>"
+"<a href=\"#GLRwanda\">Rwanda</a> - <a href=\"#GLSingapore\">Singapore</a> - "
+"<a href=\"#GLSpain\">Spain</a> - <a href=\"#GLSwitzerland\">Switzerland</a> "
+"- <a href=\"#GLUnitedKingdom\">United Kingdom</a> - <a href=\"#GLUnitedStates"
+"\">United States</a> - <a href=\"#GLVenezuela\">Venezuela</a> - <a href="
+"\"#GLYemen\">Yemen</a>"
 msgstr ""
 "<a href=\"#GLArgentina\">Argentine</a> - <a href=\"#GLBrazil\">Brasil</a> - "
 "<a href=\"#GLChile\">Chili</a> - <a href=\"#GLColombia\">Colombie</a> - <a "
@@ -710,6 +711,18 @@ msgstr "Rwanda"
 # type: Content of: <ul><li>
 msgid "<a href=\"http://www.rwandalinux.org\">Rwanda GNU/Linux Group</a>"
 msgstr "<a href=\"http://www.rwandalinux.org\">Rwanda GNU/Linux Group</a>"
+
+# type: Content of: <h4>
+msgid "Singapore"
+msgstr ""
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<a href=\"http://singapore.gnu.googlepages.com\">Singapore GNU Group</a>"
+msgstr ""
+"<a href=\"http://groups.google.com/group/VGLUG\">Vibrant GNU/Linux User "
+"Group</a>"
 
 # type: Content of: <h4>
 msgid "Spain"
