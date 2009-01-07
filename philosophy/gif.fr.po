@@ -1,0 +1,184 @@
+# French translation of http://www.gnu.org/philosophy/gif.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gif.html package.
+# Frédéric Couchet, 2008.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gif.html\n"
+"POT-Creation-Date: 2008-12-16 16:25-0500\n"
+"PO-Revision-Date: 2009-01-07 12:53+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "Why There Are No GIF files on GNU Web Pages"
+msgstr "Pourquoi il n'y a pas de fichiers GIF sur le site de GNU"
+
+# type: Content of: <h2>
+msgid "Why There Are No <abbr title=\"Graphics Interchange Format\">GIF</abbr> files on GNU Web Pages"
+msgstr "Pourquoi il n'y a pas de fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr> sur le site de GNU"
+
+# type: Content of: <p>
+msgid "<strong>While this story is a historical illustration of the danger of software patents, these particular patents are now no longer a concern (see <a href=\"#venuenote\">footnote</a> below).  For details of our website <a href=\"/server/fsf-html-style-sheet.html#UseofGraphics\">policies regarding <abbr>GIF</abbr>s</a>, see our <a href=\"/server/standards/\">web guidelines</a>.</strong>"
+msgstr "<strong>Cette histoire est une illustration historique du danger des brevets logiciels&nbsp;; ces brevets particuliers ne sont plus un prob&egrave;me maintenant (voir la <a href=\"#venuenote\">note de bas de page</a> ci-dessous. Pour des d&eacute;tails sur la <a href=\"/server/fsf-html-style-sheet.html#UseofGraphics\">politique concernant les fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr></a> sur notre site Web, veuillez consulter <a href=\"/server/standards/\">guide de conduite Web</a>.</strong>"
+
+# type: Content of: <p>
+msgid "There are no <abbr>GIF</abbr>s on the GNU web site because of the patents (Unisys and IBM) covering the <abbr title=\"Lempel-Ziv-Welch\">LZW</abbr> compression algorithm which is used in making <abbr>GIF</abbr> files.  These patents make it impossible to have free software to generate proper <abbr>GIF</abbr>s.  They also apply to the <strong>compress</strong> program, which is why GNU does not use it or its format."
+msgstr "Il n'y a aucun fichier <abbr title=\"Graphics Interchange Format\">GIF</abbr> sur le site web de GNU en raison des brevets (Unisys et IBM) couvrant l'algorithme de compression <abbr title=\"Lempel-Ziv-Welch\">LZW</abbr> qui est utilis&eacute; dans la cr&eacute;ation des fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr>. Ces brevets rendent impossible l'utilisation des logiciels libres pour g&eacute;n&eacute;rer au format <abbr title=\"Graphics Interchange Format\">GIF</abbr>. Ils s'appliquent &eacute;galement au programme <strong>compress</strong>, raison pour laquelle GNU ne l'utilise pas."
+
+# type: Content of: <p>
+msgid "Unisys and IBM both applied for patents in 1983.  Unisys (and perhaps IBM) applied for these patents in a number of countries.  Of the places whose patent databases we were able to search, the latest expiration date seems to be 1 October 2006.  <a name=\"returnnote\" href=\"#venuenote\"><sup>1</sup></a> Until then, anyone who releases a free program for making <abbr>GIF</abbr> files is likely to be sued.  We don't know any reason to think that the patent owners would lose these lawsuits."
+msgstr "&Agrave; la fois Unisys et IBM d&eacute;pos&egrave;rent des brevets en 1983. Unisys (et peut-&ecirc;tre IBM) ont d&eacute;pos&eacute; ces brevets dans beaucoup de pays. Dans les pays pour lesquels nous avons &eacute;t&eacute; capables de rechercher dans les bases de donn&eacute;es de brevets, la derni&egrave;re date d'expiration semble &ecirc;tre le 1<sup>er</sup> octobre 2006<a name=\"returnnote\" href=\"#venuenote\"><sup>1</sup></a>. Jusque-l&agrave;, il est vraisemblable que quiconque voudrait distribuer un programme libre pour la cr&eacute;ation de fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr> serait poursuivi. Nous n'avons aucune raison de penser que les possesseurs des brevets pourraient perdre ces proc&egrave;s."
+
+# type: Content of: <p>
+msgid "If we released such a program, Unisys and IBM might think it wiser (for public relations reasons) not to sue a charity like the FSF.  They could instead sue the users of the program, including the companies who redistribute GNU software.  We feel it would not be responsible behavior for us to set up this situation."
+msgstr "Si nous distribuons un tel programme, Unisys et IBM pourraient estimer plus prudent (pour des raisons de relations publiques) de ne pas poursuivre une oeuvre de bienfaisance comme la FSF. Par contre, ils pourraient poursuivre les utilisateurs du programme, ainsi que les entreprises qui redistribuent des logiciels GNU. Nous jugeons que ce ne serait pas un comportement responsable de notre part de provoquer cette situation."
+
+# type: Content of: <p>
+msgid "Many people think that Unisys has given permission for distributing free software to make <abbr>GIF</abbr> format.  Unfortunately that is not what Unisys has actually done.  Here is what Unisys actually said about the matter in 1995:"
+msgstr "De nombreuses personnes pensent qu'Unisys a donn&eacute; son autorisation pour la distribution de logiciels libres pour produire au format <abbr title=\"Graphics Interchange Format\">GIF</abbr>. Malheureusement, ce n'est pas ce qu'Unisys fait en r&eacute;alit&eacute;.  Voici ce que Unisys disait &agrave; ce sujet en 1995&nbsp;:"
+
+# type: Content of: <blockquote><p>
+msgid "Unisys does not require licensing, or fees to be paid, for non-commercial, non-profit <abbr>GIF</abbr>-based applications, including those for use on the on-line services.  Concerning developers of software for the Internet network, the same principle applies.  Unisys will not pursue previous inadvertent infringement by developers producing versions of software products for the Internet prior to 1995. The company does not require licensing, or fees to be paid for non-commercial, non-profit offerings on the Internet, including &ldquo;Freeware&rdquo;."
+msgstr "Unisys n'exige pas d'autorisation, ou des royalties, pour les applications non-commerciales et sans but lucratif bas&eacute;es sur du <abbr title=\"Graphics Interchange Format\">GIF</abbr>, y compris celles utilis&eacute;es sur les services en ligne. Concernant les d&eacute;veloppeurs de logiciel pour le r&eacute;seau Internet, le m&ecirc;me principe s'applique. Unisys n'engagera aucune poursuite pour des infractions commises avant 1995 par des d&eacute;veloppeurs de logiciels pour Internet. La compagnie n'exige pas d'autorisation, ou des royalties pour des offres non-commerciales sur l'Internet, y compris les &laquo;&nbsp;freeware&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "Unfortunately, this doesn't permit <a href=\"/philosophy/free-sw.html\">free software</a>, only <a href=\"/philosophy/categories.html#semi-freeSoftware\">semi-free software</a> which cannot be used in a free operating system such as GNU.  It also does not permit <em>at all</em> the use of <abbr>LZW</abbr> for other purposes such as compression of files.  This is why we think it is still best to reject <abbr>LZW</abbr>, and switch to alternatives such as <a href=\"/software/gzip/gzip.html\">GNU zip</a> and <abbr title=\"Portable Network Graphics\">PNG</abbr> format."
+msgstr "Malheureusement, cela ne permet pas l'utilisation d'un <a href=\"/philosophy/free-sw.fr.html\">logiciel libre</a>, uniquement un <a href=\"/philosophy/categories.fr.html#semi-freeSoftware\">logiciel semi-libre</a>, lequel ne peut &ecirc;tre utilis&eacute; dans un syst&egrave;me d'exploitation libre tel que GNU. Il ne permet pas &eacute;galement <em>du tout</em> l'utilisation de LZW pour d'autres usages que la compression de fichiers. C'est pourquoi nous pensons qu'il vaut mieux rejeter LZW et utiliser des alternatives comme <a href=\"/software/gzip/gzip.html\">GNU zip</a> et le format png."
+
+# type: Content of: <p>
+msgid "<a href=\"/philosophy/selling.html\">Commercial redistribution of free software</a> is very important, and we want the GNU system as a whole to be redistributed commercially.  This means we can't add a <abbr>GIF</abbr>-generating program to GNU, not under the Unisys terms."
+msgstr "La <a href=\"/philosophy/selling.fr.html\">redistribution commerciale de logiciels libres</a> est tr&egrave;s importante, et nous voulons que le syst&egrave;me GNU en entier puisse &ecirc;tre commercialement redistribu&eacute;. Cela signifie que nous ne pouvons ajouter un programme de g&eacute;n&eacute;ration de <abbr title=\"Graphics Interchange Format\">GIF</abbr> au syst&egrave;me GNU, pas selon les termes d'Unisys."
+
+# type: Content of: <p>
+msgid "The <a href=\"http://www.fsf.org\">Free Software Foundation</a> is a non-commercial, non-profit organization, so strictly speaking the income from our sales of <a href=\"http://shop.fsf.org/\">CD-ROMs</a> is not &ldquo;profit&rdquo;.  Perhaps this means we could include a <abbr>GIF</abbr> program on our CD-ROM and claim to be acting within the scope of the Unisys permission&mdash;or perhaps not.  But since we know that other redistributors of GNU would be unable to include it, doing this would not be very useful."
+msgstr "La <a href=\"http://www.fsf.org\">Fondation pour le Logiciel Libre</a> est une organisation non commerciale, &agrave; but non lucratif, donc strictement parlant, les revenus provenant de la vente de nos <a href=\"http://shop.fsf.org/\">CD-ROM</a> ne sont pas consid&eacute;r&eacute;s comme des &laquo;&nbsp;profits&nbsp;&raquo;. Cela signifie peut-&ecirc;tre que nous pourrions inclure un programme de g&eacute;n&eacute;ration de <abbr title=\"Graphics Interchange Format\">GIF</abbr> sur nos CD-ROM et pr&eacute;tendre agir dans les limites de la permission d'Unisys, ou peut-&ecirc;tre pas. Mais puisque nous savons que les autres redistributeurs de GNU ne pourraient pas l'inclure, faire ceci ne serait pas tr&egrave;s utile."
+
+# type: Content of: <p>
+msgid "Shortly after Unisys made its announcement, when the net in general was reassured thinking that Unisys had given permission for free <abbr>GIF</abbr>-generating software, we wrote to the Unisys legal department asking for clarification of these issues.  We did not receive a response."
+msgstr "Peu apr&egrave;s l'annonce d'Unisys, quand le Net en g&eacute;n&eacute;ral &eacute;tait assur&eacute; qu'Unisys avait donn&eacute; son autorisation pour des logiciels libres de g&eacute;n&eacute;ration de <abbr title=\"Graphics Interchange Format\">GIF</abbr>, nous avons &eacute;crit au d&eacute;partement juridique d'Unisys en leur demandant des &eacute;claircissements &agrave; ce sujet. Nous n'avons pas re&ccedil;u de r&eacute;ponse."
+
+# type: Content of: <p>
+msgid "Even if Unisys really did give permission for free software to generate <abbr>GIF</abbr>s, we would still have to deal with the IBM patent.  Both the IBM and the Unisys patents cover the same &ldquo;invention&rdquo;&mdash;the <abbr>LZW</abbr> compression algorithm.  (This could reflect an error on the part of the US Patent and Trademark Office, which is famous for incompetence and poor judgment.)"
+msgstr "M&ecirc;me si Unisys donnait r&eacute;ellement l'autorisation pour des logiciels libres de g&eacute;n&eacute;ration de <abbr title=\"Graphics Interchange Format\">GIF</abbr>, nous aurions toujours &agrave; traiter avec le brevet d'IBM. Les deux brevets, celui d'IBM et celui d'Unisys, couvrent la m&ecirc;me &laquo;&nbsp;invention&nbsp;&raquo;&nbsp;: l'algorithme de compression <abbr title=\"Lempel-Ziv-Welch\">LZW</abbr>. (Ceci pourrait refl&eacute;ter une erreur de la part de l'Office am&eacute;ricain des brevets et des marques, le US Patent and Trademark Office, qui est c&eacute;l&egrave;bre pour son incomp&eacute;tence et son pauvre jugement)."
+
+# type: Content of: <p>
+msgid "Decoding <abbr>GIF</abbr>s is a different issue.  The Unisys and IBM patents are both written in such a way that they do not apply to a program which can only uncompress <abbr>LZW</abbr> format and cannot compress.  Therefore we can and will include support for displaying <abbr>GIF</abbr> files in GNU software."
+msgstr "Le d&eacute;codage de <abbr title=\"Graphics Interchange Format\">GIF</abbr> est un probl&egrave;me diff&eacute;rent. Les brevets d'Unisys et d'IBM sont tous les deux &eacute;crits de telle mani&egrave;re qu'ils ne s'appliquent pas &agrave; un programme qui peut seulement d&eacute;compresser le format <abbr title=\"Lempel-Ziv-Welch\">LZW</abbr> et ne peut le compresser. Par cons&eacute;quent, nous pouvons et nous incluerons du support pour l'affichage de fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr> dans les logiciels GNU."
+
+# type: Content of: <p>
+msgid "Given this situation, we could still include <abbr>GIF</abbr> files in our web pages if we wanted to.  Many other people would be happy to generate them for us, and we would not be sued for having <abbr>GIF</abbr> files on our server."
+msgstr "&Eacute;tant donn&eacute; la situation, nous pourrions toujours inclure des fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr> sur nos pages web si nous le voulions. De nombreuses autres personnes seraient heureuses de les g&eacute;n&eacute;rer pour nous, et nous ne pourrions pas &ecirc;tre poursuivis pour avoir des fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr> sur notre serveur."
+
+# type: Content of: <p>
+msgid "But we feel that if we can't distribute the software to enable people to generate <abbr>GIF</abbr> files properly, then we should not have other people run such software for us.  Besides, if we can't provide software in GNU to generate <abbr>GIF</abbr> files, we have to recommend an alternative.  We ourselves should use the alternative that we recommend."
+msgstr "Mais nous estimons que si nous ne pouvons distribuer le logiciel permettant de g&eacute;n&eacute;rer des fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr>, alors on ne doit pas avoir d'autres personnes ex&eacute;cutant de tels programmes pour nous. D'ailleurs, si nous ne pouvons fournir un logiciel dans le syst&egrave;me GNU pour g&eacute;n&eacute;rer des fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr>, nous devons recommander une alternative. Nous devons utiliser nous m&ecirc;mes l'alternative que nous recommandons."
+
+# type: Content of: <p>
+msgid "In 1999, Unisys had the following to say about the issue of their patent:"
+msgstr "En 1999, Unisys indiquait au sujet de son brevet&nbsp;:"
+
+# type: Content of: <blockquote><p>
+msgid "Unisys has frequently been asked whether a Unisys license is required in order to use <abbr>LZW</abbr> software obtained by downloading from the Internet or from other sources. The answer is simple. In all cases, a written license agreement or statement signed by an authorized Unisys representative is required from Unisys for all use, sale or distribution of any software (including so-called &ldquo;freeware&rdquo;) and/or hardware providing <abbr>LZW</abbr> conversion capability (for example, downloaded software)."
+msgstr "On a fr&eacute;quemment demand&eacute; &agrave; Unisys si une licence d'Unisys est exig&eacute;e afin d'utiliser le logiciel <abbr title=\"Lempel-Ziv-Welch\">LZW</abbr> obtenu par t&eacute;l&eacute;chargement sur Internet ou depuis d'autres sources. La r&eacute;ponse est simple. Dans tous les cas, une licence &eacute;crite ou un rapport sign&eacute; par un repr&eacute;sentant autoris&eacute; d'Unisys est exig&eacute; d'Unisys pour toute utilisation, vente ou distribution de n'importe quel logiciel (y compris les logiciels appel&eacute;s &laquo;&nbsp;freeware&nbsp;&raquo;), et/ou mat&eacute;riel fournissant les capacit&eacute;s de conversion <abbr title=\"Lempel-Ziv-Welch\">LZW</abbr> (par exemple, logiciel t&eacute;l&eacute;charg&eacute;)."
+
+# type: Content of: <p>
+msgid "With this statement, Unisys is trying to take back what they said in 1995 when they gave parts of the patent to the public. The legality of such a move is questionable."
+msgstr "Avec ce rapport, Unisys essaye de revenir sur ce qu'ils disaient en 1995 quand ils ont donn&eacute; des parties de leur brevet au public. La l&eacute;galit&eacute; d'un tel changement de position est discutable."
+
+# type: Content of: <p>
+msgid "A further issue is that the <abbr>LZW</abbr> patents&mdash;and software patents in general&mdash;are an offense against the freedom of programmers generally, and all programmers need to work together against software patents."
+msgstr "Un probl&egrave;me suppl&eacute;mentaire est que les brevets LZW, et les brevets en g&eacute;n&eacute;ral, sont une offense contre la libert&eacute; des programmeurs, et tous les programmeurs ont besoin de travailler ensemble contre les brevets de logiciels."
+
+# type: Content of: <p>
+msgid "So even if we could find a solution to enable the free software community to generate <abbr>GIF</abbr>s, that isn't really a solution, not for the problem as a whole.  The solution is switching to another format and not using <abbr>GIF</abbr> any more."
+msgstr "Donc, m&ecirc;me si pouvions trouver une solution pour permettre &agrave; la communaut&eacute; du logiciel libre de g&eacute;n&eacute;rer des fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr>, ce n'est pas r&eacute;ellement une solution, pas pour le probl&egrave;me dans sa totalit&eacute;. La solution est de basculer vers un autre format et de ne pas utiliser de fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr>."
+
+# type: Content of: <p>
+msgid "Therefore, we don't use <abbr>GIF</abbr>, and we hope you won't use it either."
+msgstr "Donc, nous n'utilisons pas de fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr>, et nous esp&eacute;rons que vous n'en n'utiliserez pas non plus."
+
+# type: Content of: <p>
+msgid "It is possible to make non-compressed images that act like <abbr>GIF</abbr>s, in that they work with programs that decode <abbr>GIF</abbr> format.  This can be done without infringing patents.  These pseudo-<abbr>GIF</abbr>s are useful for some purposes."
+msgstr "Il est possible de faire des images non-compress&eacute;es qui se comportent comme des <abbr title=\"Graphics Interchange Format\">GIF</abbr>, dans le sens o&ugrave; elles fonctionnent avec des programmes qui d&eacute;codent le format <abbr title=\"Graphics Interchange Format\">GIF</abbr>. Ceci peut &ecirc;tre fait sans violer des brevets. Ces pseudo-<abbr title=\"Graphics Interchange Format\">GIF</abbr> sont utiles pour quelques buts."
+
+# type: Content of: <p>
+msgid "It is also possible to create <abbr>GIF</abbr>s using a patent-free run length encoding but this doesn't achieve the compression that one normally expects in a <abbr>GIF</abbr>."
+msgstr "Il est &eacute;galement possible de cr&eacute;er des <abbr title=\"Graphics Interchange Format\">GIF</abbr> en utilisant un codage &laquo;&nbsp;run length&nbsp;&raquo; non brevet&eacute; mais celui-ci ne r&eacute;alise pas la compression normalement attendue dans un <abbr title=\"Graphics Interchange Format\">GIF</abbr>."
+
+# type: Content of: <p>
+msgid "We decided not to use these pseudo-<abbr>GIF</abbr>s on our web site because they are not a satisfactory solution to the community's problem.  They work, but they are very large.  What the web needs is a patent-free compressed format, not large pseudo-<abbr>GIF</abbr>s."
+msgstr "Nous avons d&eacute;cid&eacute; de ne pas utiliser ces pseudo-<abbr title=\"Graphics Interchange Format\">GIF</abbr> sur notre site Web parce que ce n'est pas une solution satisfaisante au probl&egrave;me de la communaut&eacute;. Ils fonctionnent, mais ils sont tr&egrave;s gros. Ce dont le Web a besoin, c'est un format compress&eacute; non brevet&eacute;, et non de lourds pseudo-<abbr title=\"Graphics Interchange Format\">GIF</abbr>."
+
+# type: Content of: <p>
+msgid "<a href=\"http://www.libpng.org/pub/png/index.html\"><abbr>PNG</abbr> format</a> is a patent-free compressed format.  We hope it will become widely supported; then we will use it.  We do have <a href=\"/graphics/graphics.html\"><abbr>PNG</abbr> versions</a> of the images on this server."
+msgstr "Le <a href=\"http://www.libpng.org/pub/png/index.html\">format <abbr title=\"Portable Network Graphics\">PNG</abbr></a> est un format de compression non brevet&eacute;. Nous esp&eacute;rons qu'il sera largement support&eacute;, alors nous l'utiliserons. Nous avons des <a href=\"/graphics/graphics.html\">versions <abbr title=\"Portable Network Graphics\">PNG</abbr></a> des images sur ce serveur."
+
+# type: Content of: <p>
+msgid "For more information about the <abbr>GIF</abbr> patent problems, see <a href=\"http://progfree.org/Patents/Gif/Gif.html\">the League for Programming Freedom <abbr>GIF</abbr> page</a>.  Through that page you can find more information about the problem of software patents in general."
+msgstr "Pour plus d'informations sur les probl&egrave;mes de brevet <abbr title=\"Graphics Interchange Format\">GIF</abbr>, allez voir la <a href=\"http://progfree.org/Patents/Gif/Gif.html\">page <abbr title=\"Graphics Interchange Format\">GIF</abbr> de la League for Programming Freedom</a>. &Agrave; travers ces pages, vous pouvez trouver plus d'informations sur le probl&egrave;me des brevets en g&eacute;n&eacute;ral."
+
+# type: Content of: <p>
+msgid "<a href=\"http://www.libpng.org/pub/png/pngapbr.html\">The browser support page</a> lists browsers which are compatible with the <abbr>PNG</abbr> format and comments on how well they support it."
+msgstr "La <a href=\"http://www.libpng.org/pub/png/pngapbr.html\">browser support page</a> &eacute;num&egrave;re les navigateurs qui sont compatibles avec le format <abbr title=\"Portable Network Graphics\">PNG</abbr> et indique &agrave; quel point ils le g&egrave;rent."
+
+# type: Content of: <p>
+msgid "There's a library called <a href=\"http://ca.geocities.com/libungif/\">libungif</a> that reads gif files and writes uncompressed gifs to circumvent the Unisys patent."
+msgstr "La biblioth&egrave;que appel&eacute;e <a href=\"http://ca.geocities.com/libungif/\">libungif</a> qui lit des fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr> et &eacute;crit des <abbr title=\"Graphics Interchange Format\">GIF</abbr> non compress&eacute;s pour contourner le brevet d'Unisys."
+
+# type: Content of: <p>
+msgid "<a href=\"http://burnallgifs.org\">http://burnallgifs.org</a> is a website devoted to discouraging the use of <abbr>GIF</abbr> files on your website."
+msgstr "<a href=\"http://burnallgifs.org\">http://burnallgifs.org</a> est un site Web qui d&eacute;courage l'utilisation de fichiers <abbr title=\"Graphics Interchange Format\">GIF</abbr> sur votre site Web."
+
+# type: Content of: <h3>
+msgid "Footnote:"
+msgstr "Note&nbsp;:"
+
+# type: Content of: <p>
+msgid "<a href=\"#returnnote\" id=\"venuenote\">1.</a> We were able to search the patent databases of the USA, Canada, Japan, and the European Union. The Unisys patent expired on 20 June 2003 in the USA, in Europe it expired on 18 June 2004, in Japan the patent expired on 20 June 2004 and in Canada it expired on 7 July 2004. The U.S. IBM patent expired 11 August 2006, The Software Freedom Law Center says that after 1 October 2006, there will be no significant patent claims interfering with employment of the <abbr>GIF</abbr> format."
+msgstr "<a href=\"#returnnote\" id=\"venuenote\">1.</a> Nous avons pu chercher dans les bases de donn&eacute;es de brevets des &Eacute;tats-Unis, du Canada, du Japon, et de l'Union europ&eacute;enne. Le brevet Unisys a expir&eacute; le 20 juin 2003 aux &Eacute;tats-Unis; en Europe, le 18 juin 2004; au Japon, le 20 juin 2004 et au Canada, le 7 juillet 2004. Le brevet am&eacute;ricain de IBM a expir&eacute; le 11 ao&ucirc;t 2006. Le Software Freedom Law Center dit qu'apr&egrave;s le 1<sup>er</sup> octobre 2006, il n'y aura plus de revendication de brevet significative pour interf&eacute;rer avec l'emploi du format <abbr title=\"Graphics Interchange Format\">GIF</abbr>."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 1997, 1998, 1999, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.,"
+msgstr "Copyright &copy; 1997, 1998, 1999, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.,"
+
+# type: Content of: <div><address>
+msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+
+# type: Content of: <div><p>
+msgid "Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved."
+msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Frédéric Couchet.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
