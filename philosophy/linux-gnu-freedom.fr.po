@@ -1,0 +1,171 @@
+# French translation of http://www.gnu.org/philosophy/linux-gnu-freedom.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the linux-gnu-freedom.html package.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linux-gnu-freedom.html\n"
+"POT-Creation-Date: 2009-01-01 04:26-0500\n"
+"PO-Revision-Date: 2009-01-08 11:57+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "Linux, GNU, and freedom - GNU Project - Free Software Foundation (FSF)"
+msgstr "Linux, GNU, et libert&eacute; - GNU Project - Free Software Foundation (FSF)"
+
+# type: Attribute 'content' of: <meta>
+msgid "GNU, FSF, Free Software Foundation, Linux, freedom, software, power, rights, Richard Stallman, rms, SIGLINUX, Joe Barr"
+msgstr "GNU, FSF, Free Software Foundation, Linux, liberté, logiciel, pouvoir, droits, Richard Stallman, rms, SIGLINUX, Joe Barr"
+
+# type: Attribute 'content' of: <meta>
+msgid "In this essay, Linux, GNU, and freedom, Richard M. Stallman responds to Joe Barr's account of the FSF's dealings with the Austin Linux users group."
+msgstr "Dans cet essai, Linux, GNU et liberté, Richard M. Stallman répond au rapport de Joe Barr sur les négociations avec le groupe d'utilisateurs Linux de Austin."
+
+# type: Content of: <h2>
+msgid "Linux, GNU, and freedom"
+msgstr "Linux, GNU, et libert&eacute;"
+
+# type: Content of: <p>
+msgid "by <strong>Richard M. Stallman</strong>"
+msgstr "par <strong>Richard M. Stallman</strong>"
+
+# type: Content of: <p>
+msgid "Since <a href=\"http://linux.sys-con.com/node/32755\">Joe Barr's article</a> criticized my dealings with SIGLINUX, I would like to set the record straight about what actually occurred, and state my reasons."
+msgstr "Puisque l'<a href=\"http://www.linuxworld.com/story/32755.htm\">article de Joe Barr</a> a critiqu&eacute; mes n&eacute;gociations avec SIGLINUX, j'aimerais faire une mise au point sur ce qui s'est vraiment pass&eacute;, et donner mes raisons."
+
+# type: Content of: <p>
+msgid "When SIGLINUX invited me to speak, it was a &ldquo;Linux User Group&rdquo;; that is, a group for users of the GNU/Linux system which calls the whole system &ldquo;Linux&rdquo;.  So I replied politely that if they'd like someone from the GNU Project to give a speech for them, they ought to treat the GNU Project right, and call the system &ldquo;GNU/Linux&rdquo;.  The system is a variant of GNU, and the GNU Project is its principal developer, so social convention says to call it by the name we chose.  Unless there are powerful reasons for an exception, I usually decline to give speeches for organizations that won't give GNU proper credit in this way.  I respect their freedom of speech, but I also have the freedom not to give a speech."
+msgstr "Quand SIGLINUX m'a invit&eacute; &agrave; parler, il s'agissait d'un &laquo;&nbsp;groupe d'utilisateurs Linux&nbsp;&raquo; (LUG)&nbsp;; c'est-&agrave;-dire un groupe pour utilisateurs du syst&egrave;me GNU/Linux qui appelle l'ensemble du syst&egrave;me d'exploitation &laquo;&nbsp;Linux&nbsp;&raquo;. J'ai alors r&eacute;pondu poliment que s'ils voulaient que quelqu'un du projet GNU fasse un discours pour eux, ils devraient traiter le Projet GNU correctement, et appeler le syst&egrave;me &laquo;&nbsp;GNU/Linux&nbsp;&raquo;. Le syst&egrave;me est une variante de GNU, et le Projet GNU en est le principal d&eacute;veloppeur, aussi, la correction veut qu'il soit appel&eacute; par le nom que nous avons choisi. &Agrave; moins qu'il n'y ait des raisons imp&eacute;rieuses de faire une exception, je refuse habituellement de faire des discours pour des organisations qui ne donneraient pas &agrave; GNU le cr&eacute;dit qui lui revient. Je respecte leur libert&eacute; d'expression, mais j'ai &eacute;galement la libert&eacute; de ne pas faire de discours."
+
+# type: Content of: <p>
+msgid "Subsequently, Jeff Strunk of SIGLINUX tried to change the group's policy, and asked the FSF to list his group in our page of GNU/Linux user groups.  Our webmaster told him that we would not list it under the name &ldquo;SIGLINUX&rdquo; because that name implies that the group is about Linux.  Strunk proposed to change the name to &ldquo;SIGFREE&rdquo;, and our webmaster agreed that would be fine.  (Barr's article said we rejected this proposal.)  However, the group ultimately decided to stay with &ldquo;SIGLINUX&rdquo;."
+msgstr "Par la suite, Jeff Strunk de SIGLINUX a essay&eacute; de changer la politique du groupe, et a demand&eacute; &agrave; la FSF de placer son groupe sur notre page de groupes d'utilisateurs GNU/Linux. Notre webmestre lui a dit que nous ne listerions pas son groupe sous le nom &laquo;&nbsp;SIGLINUX&nbsp;&raquo;, car ce nom implique que le groupe concerne Linux. Strunk a propos&eacute; de changer le nom pour &laquo;&nbsp;SIGFREE&nbsp;&raquo;, et notre webmestre a trouv&eacute; que ce serait bien. (l'article de Barr a dit que nous avions rejet&eacute; cette proposition). Quoi qu'il en soit, le groupe d&eacute;cida finalement de garder &laquo;&nbsp;SIGLINUX&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "At that point, the matter came to my attention again, and I suggested they consider other possible names.  There are many names they could choose that would not call the system &ldquo;Linux&rdquo;, and I hope they will come up with one they like.  There the matter rests as far as I know."
+msgstr "&Agrave; ce moment-l&agrave;, on me redemanda mon avis, et je sugg&eacute;rais de r&eacute;fl&eacute;chir &agrave; d'autres noms possibles. Il y a plusieurs noms qu'ils pourraient choisir qui n'appelleraient pas le syst&egrave;me &laquo;&nbsp;Linux&nbsp;&raquo;, et j'esp&egrave;re qu'ils en trouveront un qui leur plaise. Pour l'instant, on en est l&agrave;, pour autant que je sache."
+
+# type: Content of: <p>
+msgid "Is it true, as Barr writes, that some people see these actions as an &ldquo;application of force&rdquo; comparable with Microsoft's monopoly power? Probably so.  Declining an invitation is not coercion, but people who are determined to believe that the entire system is &ldquo;Linux&rdquo; sometimes develop amazingly distorted vision.  To make that name appear justified, they must see molehills as mountains and mountains as molehills.  If you can ignore the facts and believe that Linus Torvalds developed the whole system starting in 1991, or if you can ignore your ordinary principles of fairness and believe that Torvalds should get the sole credit even though he didn't do that, it's a small step to believe that I owe you a speech when you ask."
+msgstr "Est-il vrai, comme l'&eacute;crit Barr, que certains voient dans ces actions une &laquo;&nbsp;utilisation de la force&nbsp;&raquo; comparable au pouvoir du monopole de Microsoft&nbsp;?  Probablement. D&eacute;cliner une invitation n'est pas de la coercition, mais les gens qui sont d&eacute;termin&eacute;s &agrave; croire que le syst&egrave;me entier est &laquo;&nbsp;Linux&nbsp;&raquo; d&eacute;veloppent parfois une vision &eacute;tonnamment d&eacute;form&eacute;e. Pour justifier ce nom, ils prennent des vessies pour des lanternes. Si vous pouvez ignorer les faits et croire que Linus Torvalds a d&eacute;velopp&eacute; l'ensemble du syst&egrave;me en commen&ccedil;ant en 1991, ou si vous pouvez ignorer votre sens de la justice et croire que Torvalds devrait obtenir, seul, le cr&eacute;dit m&ecirc;me s'il n'a pas fait cela, il n'y a qu'un pas pour croire que je vous dois un discours si vous le demandez."
+
+# type: Content of: <p>
+msgid "Just consider: the GNU Project starts developing an operating system, and years later Linus Torvalds adds one important piece.  The GNU Project says, &ldquo;Please give our project equal mention,&rdquo; but Linus says, &ldquo;Don't give them a share of the credit; call the whole thing after my name alone!&rdquo; Now envision the mindset of a person who can look at these events and accuse the GNU Project of egotism.  It takes strong prejudice to misjudge so drastically."
+msgstr "Consid&eacute;rez ceci&nbsp;: le Projet GNU commence &agrave; d&eacute;velopper un syst&egrave;me d'exploitation, et des ann&eacute;es plus tard Linus Torvalds y ajoute une partie importante. Le Projet GNU a dit, &laquo;&nbsp;Veuillez mentionner notre projet &eacute;quitablement&nbsp;&raquo;, mais Linus a dit, &laquo;&nbsp;Ne leur donnez pas une part du m&eacute;rite, appelez l'ensemble de mon seul nom&nbsp;!&nbsp;&raquo;. Imaginez maintenant l'&eacute;tat d'esprit d'une personne, qui, &agrave; la lumi&egrave;re de ces &eacute;v&eacute;nements, accuse le Projet GNU d'&eacute;go&iuml;sme. Il faut de sacr&eacute;s pr&eacute;jug&eacute;s pour se m&eacute;prendre &agrave; ce point."
+
+# type: Content of: <p>
+msgid "A person who is that prejudiced can say all sorts of unfair things about the GNU Project and think them justified; his fellows will support him, because they want each other's support in maintaining their prejudice.  Dissenters can be reviled; thus, if I decline to participate in an activity under the rubric of &ldquo;Linux&rdquo;, they may find that inexcusable, and hold me responsible for the ill will they feel afterwards.  When so many people want me to call the system &ldquo;Linux&rdquo;, how can I, who merely launched its development, not comply? And forcibly denying them a speech is forcibly making them unhappy.  That's coercion, as bad as Microsoft!"
+msgstr "Une personne ayant autant de pr&eacute;jug&eacute;s peut dire toutes sortes de choses injustes au sujet du Projet GNU et les trouver justifi&eacute;es; ses camarades la soutiendront, parce qu'ils veulent un soutien mutuel dans le maintien de leur m&eacute;prise. Ceux qui ne sont pas d'accord peuvent se faire injurier; ainsi, si je refuse de participer &agrave; une activit&eacute; sous la rubrique &laquo;&nbsp;Linux&nbsp;&raquo;, ils peuvent trouver cela inexcusable, et me tenir pour responsable du malaise qu'ils ressentent apr&egrave;s coup. Quand tant de gens veulent que j'appelle le syst&egrave;me &laquo;&nbsp;Linux&nbsp;&raquo;, comment puis-je, moi qui ai tout simplement lanc&eacute; son d&eacute;veloppement, ne pas ob&eacute;ir&nbsp;? Et forc&eacute;ment, leur refuser un discours, les rendra forc&eacute;ment m&eacute;contents. C'est de la coercition, aussi n&eacute;faste que celle de Microsoft&nbsp;!"
+
+# type: Content of: <p>
+msgid "Now, you might wonder why I don't just duck the issue and avoid all this grief.  When SIGLINUX invited me to speak, I could simply have said &ldquo;No, sorry&rdquo; and the matter would have ended there.  Why didn't I do that? I'm willing to take the risk of being abused personally in order to have a chance of correcting the error that undercuts the GNU Project's efforts."
+msgstr "Maintenant, vous pourriez vous demander pourquoi je fais tant d'histoires et me donne tout ce mal. Quand SIGLINUX m'a convi&eacute; &agrave; parler, j'aurais pu juste dire &laquo;&nbsp;Non, d&eacute;sol&eacute;&nbsp;&raquo; et l'affaire en serait rest&eacute;e l&agrave;. Pourquoi n'ai-je pas fait cela&nbsp;? Je suis pr&ecirc;t &agrave; prendre le risque d'&ecirc;tre personnellement injuri&eacute; afin d'avoir une chance de corriger l'erreur qui sape les efforts du Projet GNU."
+
+# type: Content of: <p>
+msgid "Calling this variant of the GNU system &ldquo;Linux&rdquo; plays into the hands of people who choose their software based only on technical advantage, not caring whether it respects their freedom.  There are people like Barr, that want their software &ldquo;free from ideology&rdquo; and criticize anyone that says freedom matters.  There are people like Torvalds that will pressure our community into use of a non-free program, and challenge anyone who complains to provide a (technically) better program immediately or shut up.  There are people who say that technical decisions should not be &ldquo;politicized&rdquo; by consideration of their social consequences."
+msgstr "Appeler cette variante du syst&egrave;me GNU &laquo;&nbsp;Linux&nbsp;&raquo;, fait le jeu de ceux qui choisissent leur logiciel en fonction du seul crit&egrave;re de l'avantage technique, sans se demander s'il respecte leur libert&eacute;. Il y a des gens comme Barr, qui veulent leur logiciel &laquo;&nbsp;libre de toute id&eacute;ologie&nbsp;&raquo; et qui critiquent quiconque parle de libert&eacute;. Il y a des gens comme Torvalds qui feront pression sur notre communaut&eacute; pour utiliser des programmes non-libres, et qui d&eacute;fieront ceux qui s'en plaignent, de fournir imm&eacute;diatement un programme (techniquement) meilleur ou de se taire. Il y a des gens qui disent que les d&eacute;cisions techniques ne devraient pas &ecirc;tre &laquo;&nbsp;politis&eacute;es&nbsp;&raquo; par la prise en compte de leurs cons&eacute;quences sociales."
+
+# type: Content of: <p>
+msgid "In the 70s, computer users lost the freedoms to redistribute and change software because they didn't value their freedom.  Computer users regained these freedoms in the 80s and 90s because a group of idealists, the GNU Project, believed that freedom is what makes a program better, and were willing to work for what we believed in."
+msgstr "Dans les ann&eacute;es 70, les utilisateurs d'ordinateurs ont perdu leurs libert&eacute;s de redistribuer et modifier le logiciel parce qu'ils ne pensaient pas &agrave; d&eacute;fendre leur libert&eacute;. Les utilisateurs d'ordinateurs ont regagn&eacute; ces libert&eacute;s dans les ann&eacute;es 80 et 90, parce qu'un groupe d'id&eacute;alistes, le Projet GNU, croyait que cette libert&eacute; est ce qui rend un programme meilleur, et voulait travailler pour ce en quoi nous croyons."
+
+# type: Content of: <p>
+msgid "We have partial freedom today, but our freedom is not secure.  It is threatened by the <abbr title=\"Consumer Broadband and Digital Television Promotion Act\">CBDTPA</abbr> (formerly <abbr title=\"Security Systems and Standards Certification Act\">SSSCA</abbr>), by the Broadcast &ldquo;Protection&rdquo; Discussion Group (see <a href=\"http://www.eff.org/\">http://www.eff.org/</a>) which proposes to prohibit free software to access digital TV broadcasts, by software patents (Europe is now considering whether to have software patents), by Microsoft nondisclosure agreements for vital protocols, and by everyone who tempts us with a non-free program that is &ldquo;better&rdquo; (technically) than available free programs.  We can lose our freedom again just as we lost it the first time, if we don't care enough to protect it."
+msgstr "Nous avons une libert&eacute; partielle aujourd'hui, mais notre libert&eacute; n'est pas assur&eacute;e. Elle est menac&eacute;e par par la CBDTPA (anciennement SSSCA), par le Broadcast &laquo;&nbsp;Protection&nbsp;&raquo; Discussion Group (voir <a href=\"http://www.eff.org/\">http://www.eff.org/</a>) qui propose d'interdire l'utilisation de logiciel libre pour acc&eacute;der aux t&eacute;l&eacute;diffusions num&eacute;riques; par les brevets logiciels (l'Europe est en train de r&eacute;fl&eacute;chir aux brevets logiciels), par les accords de non-divulgation de Microsoft pour les protocoles essentiels, et par tous ceux qui nous incitent &agrave; utiliser des programmes non-libres qui sont &laquo;&nbsp;meilleurs&nbsp;&raquo; (techniquement) que les programmes libres disponibles. Nous pouvons perdre &agrave; nouveau notre libert&eacute; tout comme nous l'avons perdue la premi&egrave;re fois, si nous ne faisons pas suffisamment attention pour la prot&eacute;ger."
+
+# type: Content of: <p>
+msgid "Will enough of us care? That depends on many things; among them, how much influence the GNU Project has, and how much influence Linus Torvalds has.  The GNU Project says, &ldquo;Value your freedom!&rdquo;.  Joe Barr says, &ldquo;Choose between non-free and free programs on technical grounds alone!&rdquo;.  If people credit Torvalds as the main developer of the GNU/Linux system, that's not just inaccurate, it also makes his message more influential&mdash;and that message says, &ldquo;Non-free software is ok; I use it and develop it myself.&rdquo; If they recognize our role, they will listen to us more, and the message we will give them is, &ldquo;This system exists because of people who care about freedom. Join us, value your freedom, and together we can preserve it.&rdquo; See <a href=\"http://www.gnu.org/gnu/thegnuproject.html\">http://www.gnu.org/gnu/thegnuproject.html</a> for the history."
+msgstr "Serons-nous assez &agrave; faire attention&nbsp;? Cela d&eacute;pend de beaucoup de choses; parmi celles-ci, quelle influence a le Projet GNU, et quelle influence a Linus Torvalds. Le Projet GNU dit&nbsp;: &laquo;&nbsp;Appr&eacute;ciez votre libert&eacute;&nbsp;!&nbsp;&raquo;. Joe Barr dit&nbsp;: &laquo;&nbsp;Choisissez entre des programmes libres et non-libres sur les seuls crit&egrave;res techniques&nbsp;!&nbsp;&raquo;. Si les gens attribuent &agrave; Torvalds le m&eacute;rite d'&ecirc;tre le d&eacute;veloppeur principal du syst&egrave;me GNU/Linux, ce n'est pas seulement inexact, cela donne aussi plus de poids &agrave; son message &mdash; et ce message dit&nbsp;: &laquo;&nbsp;Les logiciels non-libres sont bien&nbsp;; je les utilise et les d&eacute;veloppe moi-m&ecirc;me&nbsp;&raquo;. S'ils reconnaissent notre r&ocirc;le, ils nous &eacute;couteront plus, et le message que nous leur donnerons est, &laquo;&nbsp;Ce syst&egrave;me existe gr&acirc;ce  &agrave; des gens qui se soucient de la libert&eacute;. Rejoignez-nous, appr&eacute;ciez votre libert&eacute; et ensemble nous pouvons la pr&eacute;server&nbsp;&raquo;. Consulter <a href=\"/gnu/the-gnu-project.fr.html\">http://www.gnu.org/gnu/the-gnu-project.fr.html</a> pour l'historique."
+
+# type: Content of: <p>
+msgid "When I ask people to call the system GNU/Linux, some of them respond with <a href=\"/gnu/gnu-linux-faq.html\"> silly excuses and straw men</a>.  But we probably haven't lost anything, because they were probably unfriendly to begin with.  Meanwhile, other people recognize the reasons I give, and use that name.  By doing so, they help make other people aware of why the GNU/Linux system really exists, and that increases our ability to spread the idea that freedom is an important value."
+msgstr "Quand je demande aux gens d'appeler le syst&egrave;me &laquo;&nbsp;GNU/Linux&nbsp;&raquo;, certains donnent des <a href=\"/gnu/gnu-linux-faq.fr.html\">excuses farfelues et des faux pr&eacute;textes</a>. Mais nous n'avons probablement rien perdu, car ils n'&eacute;taient sans doute pas convaincus au d&eacute;part. Pendant ce temps, d'autres personnes reconnaissent les raisons que je donne, et utilisent ce nom. En le faisant, ils aident &agrave; rendre conscientes d'autres personnes de la vraie raison de l'existence du syst&egrave;me GNU/Linux, et cela accro&icirc;t notre capacit&eacute; &agrave; r&eacute;pandre l'id&eacute;e que la libert&eacute; est une valeur importante."
+
+# type: Content of: <p>
+msgid "This is why I keep butting my head against bias, calumny, and grief.  They hurt my feelings, but when successful, this effort helps the GNU Project campaign for freedom."
+msgstr "C'est pourquoi je continue &agrave; me battre contre les pr&eacute;jug&eacute;s, la calomnie et l'accablement. Ils heurtent mes sentiments, mais quand il aboutit, cet effort aide la campagne du Projet GNU pour la libert&eacute;."
+
+# type: Content of: <p>
+msgid "Since this came up in the context of Linux (the kernel) and Bitkeeper, the non-free version control system that Linus Torvalds now uses, I'd like to address that issue as well."
+msgstr "Puisque ceci est survenu dans le contexte de Linux (le noyau) et Bitkeeper, le syst&egrave;me de contr&ocirc;le de version non-libre que Linus Torvalds utilise maintenant, j'aimerais maintenant commenter &eacute;galement ce probl&egrave;me."
+
+# type: Content of: <h3>
+msgid "Bitkeeper issue"
+msgstr "Le probl&egrave;me Bitkeeper"
+
+# type: Content of: <p>
+msgid "(See the <a href=\"#update\">update</a> below.)"
+msgstr "(Voir la <a href=\"#update\">mise &agrave; jour</a> ci-dessous)."
+
+# type: Content of: <p>
+msgid "The use of Bitkeeper for the Linux sources has a grave effect on the free software community, because anyone who wants to closely track patches to Linux can only do it by installing that non-free program.  There must be dozens or even hundreds of kernel hackers who have done this.  Most of them are gradually convincing themselves that it is ok to use non-free software, in order to avoid a sense of cognitive dissonance about the presence of Bitkeeper on their machines.  What can be done about this?"
+msgstr "L'utilisation de Bitkeeper pour les sources Linux a un s&eacute;rieux effet sur la communaut&eacute; du logiciel libre, parce que quiconque veut suivre de pr&egrave;s les patches de Linux ne peut le faire qu'en installant ce programme non-libre. Il doit y avoir des dizaines et m&ecirc;me des centaines de hackers du noyau qui ont fait cela. La plupart d'entre eux se convainc petit &agrave; petit que ce n'est pas grave d'utiliser des logiciels non-libres, pour ne pas reconna&icirc;tre la schizophr&eacute;nie qui consiste &agrave; accepter la pr&eacute;sence de Bitkeeper sur leurs machines. Que pouvons-nous faire&nbsp;?"
+
+# type: Content of: <p>
+msgid "One solution is to set up another repository for the Linux sources, using CVS or another free version control system, and arranging to load new versions into it automatically.  This could use Bitkeeper to access the latest revisions, then install the new revisions into CVS.  That update process could run automatically and frequently."
+msgstr "Une solution est de mettre en place un autre r&eacute;f&eacute;rentiel pour les sources Linux, utilisant CVS ou un autre syst&egrave;me de contr&ocirc;le de version, et de s'arranger pour y charger les nouvelles versions automatiquement. Il pourrait utiliser Bitkeeper pour acc&eacute;der aux derni&egrave;res r&eacute;visions, puis installer les nouvelles r&eacute;visions dans le CVS. Ce processus de mise &agrave; jour pourrait &ecirc;tre ex&eacute;cut&eacute; automatiquement et fr&eacute;quemment."
+
+# type: Content of: <p>
+msgid "The FSF cannot do this, because we cannot install Bitkeeper on our machines.  We have no non-free systems or applications on them now, and our principles say we must keep it that way.  Operating this repository would have to be done by someone else who is willing to have Bitkeeper on his machine, unless someone can find or make a way to do it using free software."
+msgstr "La FSF ne peut pas faire cela, parce que nous ne pouvons pas installer Bitkeeper sur nos machines. Nous n'avons pas de syst&egrave;mes ou d'applications non-libres install&eacute;s sur nos machines, et nos principes nous dictent de continuer ainsi. La cr&eacute;ation de ce r&eacute;f&eacute;rentiel devra &ecirc;tre faite par quelqu'un d'autre qui accepte d'avoir Bitkeeper sur sa machine, &agrave; moins que quelqu'un ne trouve ou ne cr&eacute;e un moyen de le faire en utilisant des logiciels libres."
+
+# type: Content of: <p>
+msgid "The Linux sources themselves have an even more serious problem with non-free software: they actually contain some.  Quite a few device drivers contain series of numbers that represent firmware programs to be installed in the device.  These programs are not free software.  A few numbers to be deposited into device registers are one thing; a substantial program in binary is another."
+msgstr "Les sources Linux ont elles-m&ecirc;mes un probl&egrave;me bien plus s&eacute;rieux avec les logiciels non-libres&nbsp;: elles en contiennent en fait quelques-uns. Pas mal de pilotes de p&eacute;riph&eacute;riques contiennent une s&eacute;rie de nombres qui repr&eacute;sentent des programmes de firmware &agrave; installer dans le p&eacute;riph&eacute;rique. Ces programmes ne sont pas des logiciels libres. Quelques nombres &agrave; d&eacute;poser dans un registre de p&eacute;riph&eacute;rique sont une chose; un programme binaire consistant en est une autre."
+
+# type: Content of: <p>
+msgid "The presence of these binary-only programs in &ldquo;source&rdquo; files of Linux creates a secondary problem: it calls into question whether Linux binaries can legally be redistributed at all.  The GPL requires &ldquo;complete corresponding source code,&rdquo; and a sequence of integers is not the source code. By the same token, adding such a binary to the Linux sources violates the GPL."
+msgstr "La pr&eacute;sence de ces programmes seulement binaires dans les fichiers &laquo;&nbsp;sources&nbsp;&raquo; de Linux cr&eacute;e un autre probl&egrave;me&nbsp;: cela remet en question la l&eacute;galit&eacute; de la redistribution. La GPL requiert le &laquo;&nbsp;code source complet correspondant&nbsp;&raquo;, et une s&eacute;quence d'entiers n'est pas un code source. Pour la m&ecirc;me raison, ajouter de tels binaires aux sources Linux viole la GPL."
+
+# type: Content of: <p>
+msgid "The Linux developers have a plan to move these firmware programs into separate files; it will take a few years to mature, but when completed it will solve the secondary problem; we could make a &ldquo;free Linux&rdquo; version that doesn't have the non-free firmware files.  That by itself won't do much good if most people use the non-free &ldquo;official&rdquo; version of Linux.  That may well occur, because on many platforms the free version won't run without the non-free firmware.  The &ldquo;free Linux&rdquo; project will have to figure out what the firmware does and write source code for it, perhaps in assembler language for whatever embedded processor it runs on.  It's a daunting job.  It would be less daunting if we had done it little by little over the years, rather than letting it mount up.  In recruiting people to do this job, we will have to overcome the idea, spread by some Linux developers, that the job is not necessary."
+msgstr "Les d&eacute;veloppeurs de Linux ont pr&eacute;vu de placer ces programmes de firmware dans des fichiers s&eacute;par&eacute;s; cela prendra des ann&eacute;es avant d'y arriver, mais quand ce sera accompli, cela r&eacute;soudra le deuxi&egrave;me probl&egrave;me; nous pourrions faire une version &laquo;&nbsp;Linux libre&nbsp;&raquo; qui ne contiendrait pas les fichiers de firmware non-libres. Ce ne sera pas tr&egrave;s b&eacute;n&eacute;fique en soi si la plupart des gens utilise la version &laquo;&nbsp;officielle&nbsp;&raquo; non-libre de Linux. Cela pourrait tr&egrave;s bien arriver, car la version libre ne fonctionne pas sur bien des plateformes sans les programmes firmware non-libres. Le Projet &laquo;&nbsp;Linux libre&nbsp;&raquo; devra d&eacute;couvrir ce que font les programmes firmware et &eacute;crire le code source, peut-&ecirc;tre en langage assembleur, sur un quelconque processeur int&eacute;gr&eacute; sur lequel il est ex&eacute;cut&eacute;. C'est un travail d&eacute;courageant. Cela aurait &eacute;t&eacute; moins d&eacute;courageant si nous l'avions fait petit &agrave; petit, au fil des ann&eacute;es, plut&ocirc;t que de le laisser s'accumuler. En recrutant des gens pour faire ce travail, nous devrons surmonter l'id&eacute;e, r&eacute;pandue par quelques d&eacute;veloppeurs de Linux, que ce travail n'est pas n&eacute;cessaire."
+
+# type: Content of: <p>
+msgid "Linux, the kernel, is often thought of as the flagship of free software, yet its current version is partially non-free.  How did this happen? This problem, like the decision to use Bitkeeper, reflects the attitude of the original developer of Linux, a person who thinks that &ldquo;technically better&rdquo; is more important than freedom."
+msgstr "Linux, le noyau, est souvent vu comme le porte-drapeau du logiciel libre, cependant, il est en partie non-libre. Comment est-ce arriv&eacute;&nbsp;? Ce probl&egrave;me, tout comme la d&eacute;cision d'utiliser Bitkeeper, refl&egrave;te l'attitude du d&eacute;veloppeur &agrave; l'origine de Linux, une personne qui pense que &laquo;&nbsp;techniquement mieux&nbsp;&raquo; est plus important que libert&eacute;."
+
+# type: Content of: <p>
+msgid "Value your freedom, or you will lose it, teaches history.  &ldquo;Don't bother us with politics,&rdquo; respond those who don't want to learn."
+msgstr "Appr&eacute;ciez votre libert&eacute;, ou vous la perdrez, nous apprend l'histoire. &laquo;&nbsp;Ne nous ennuyez pas avec la politique&nbsp;&raquo;, r&eacute;pondent ceux qui ne veulent pas apprendre."
+
+# type: Content of: <p>
+msgid "<strong><a name=\"update\">Update:</a></strong> Since 2005, BitKeeper is no longer used to manage the Linux kernel source tree.  See the article, <a href=\"/philosophy/mcvoy.html\">Thank You, Larry McVoy</a>.  The Linux sources still contain non-free firmware blobs, but as of January 2008, a <a href=\"http://directory.fsf.org/project/linux\"> free version of Linux</a> is now maintained for use in free GNU/Linux distributions."
+msgstr "<strong><a name=\"update\">Mise &agrave; jour&nbsp;:</a></strong> Depuis 2005, BitKeeper n'est plus utilis&eacute; pour g&eacute;rer l'arbre des sources du noyau Linux. Voir l'article <a href=\"/philosophy/mcvoy.fr.html\">Merci, Larry McVoy</a>. Les sources de Linux contiennent encore des parties de firmware non-libres, mais depuis janvier 2008, <a href=\"http://directory.fsf.org/project/linux\">une version libre de Linux</a> est maintenant utilis&eacute;e pour son utilisation dans les distributions GNU/Linux libres."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 2002 Richard M. Stallman <br /> Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved."
+msgstr "Copyright &copy; 2002 Richard M. Stallman <br />La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+

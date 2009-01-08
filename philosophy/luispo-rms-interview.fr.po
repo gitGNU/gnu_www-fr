@@ -1,0 +1,251 @@
+# French translation of http://www.gnu.org/philosophy/luispo-rms-interview.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the luispo-rms-interview.html package.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: luispo-rms-interview.html\n"
+"POT-Creation-Date: 2008-11-25 04:26-0500\n"
+"PO-Revision-Date: 2009-01-08 12:21+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "Interview: Richard M. Stallman - GNU Project - Free Software Foundation (FSF)"
+msgstr "Entretien&nbsp;: Richard M. Stallman - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+msgid "Interview: Richard M. Stallman"
+msgstr "Entretien&nbsp;: Richard M. Stallman"
+
+# type: Content of: <p>
+msgid "<i>[ This is an interview between Louis Suarez-Potts and Richard M. Stallman. ]</i>"
+msgstr "<i>[Ceci est un entretien entre Louis Suarez-Potts et Richard M. Stallman.]</i>"
+
+# type: Content of: <p>
+msgid "Richard M. Stallman is the most forceful and famous practitioner/theorist of <a href=\"http://www.salon.com/tech/fsp/glossary/index.html\">free software</a>, a termed he coined. &ldquo;Free&rdquo; here means free as in &ldquo;free speech,&rdquo; not free as in &ldquo;free beer.&rdquo; Stallman's most famous intervention in the &ldquo;free software&rdquo; movement has surely been the GNU General Public License (<a href=\"/philosophy/license-list.html\">GPL</a>), which Stallman created around 1985 as a general license that could be applied to any program. The license codifies the concept of &ldquo;<a href=\"http://www.gnu.org/gnu/thegnuproject.html\">copyleft</a>,&rdquo; the &ldquo;central idea&rdquo; of which Stallman has described as giving &ldquo;everyone permission to run the program, copy the program, modify the program, and distribute modified versions, but not permission to add restrictions of their own. Thus, the crucial freedoms that define &lsquo;free software&rsquo; are guaranteed to everyone who has a copy; they become inalienable rights&rdquo; (Stallman, &ldquo;The GNU Operating System and the Free Software Movement,&rdquo; in DiBona, <cite>Open Sources: Voices from the Open Source Revolution</cite>)"
+msgstr "Richard M. Stallman est le praticien/th&eacute;oricien le plus &eacute;nergique et le plus c&eacute;l&egrave;bre du <a href=\"http://www.salon.com/tech/fsp/glossary/index.html\">logiciel libre</a> (&laquo;&nbsp;free software&nbsp;&raquo;), un terme qu'il a cr&eacute;&eacute;. &laquo;&nbsp;Free&nbsp;&raquo; ici signifie libre comme dans &laquo;&nbsp;libert&eacute; d'expression&nbsp;&raquo; et non gratuit comme dans &laquo;&nbsp;entr&eacute;e libre&nbsp;&raquo;. La contribution la plus c&eacute;l&egrave;bre de Stallman dans le mouvement du &laquo;&nbsp;logiciel libre&nbsp;&raquo; a s&ucirc;rement &eacute;t&eacute; la GNU General Public License (la licence publique g&eacute;n&eacute;rale GNU) (<a href=\"/philosophy/license-list.fr.html\">GPL</a>), que Stallman a cr&eacute;&eacute; aux alentours de 1985 comme une licence g&eacute;n&eacute;rale qui pourrait &ecirc;tre appliqu&eacute;e &agrave; n'importe quel programme. La licence codifie le concept de <ahref=\"/gnu/thegnuproject.fr.html\">&laquo;&nbsp;copyleft&nbsp;&raquo;</a> (NdT&nbsp;: &laquo;&nbsp;copyleft&nbsp;&raquo; peut se traduire par &laquo;&nbsp;gauche d'auteur&nbsp;&raquo; par opposition au &laquo;&nbsp;copyright&nbsp;&raquo; qui se traduit en &laquo;&nbsp;droit d'auteur&nbsp;&raquo;), l'&laquo;&nbsp;id&eacute;e centrale&nbsp;&raquo; que Stallman a d&eacute;crite en donnant &agrave; &laquo;&nbsp;tout le monde le droit d'ex&eacute;cuter un programme, de copier le programme, de modifier le programme et de distribuer des versions modifi&eacute;es, mais pas le droit d'ajouter des restrictions de son cru. Par cons&eacute;quent, les libert&eacute;s cruciales qui d&eacute;finissent le &laquo;&nbsp;logiciel libre&nbsp;&raquo; sont garanties &agrave; quiconque d&eacute;tient une copie&nbsp;; elles deviennent des droits inali&eacute;nables&nbsp;&raquo; (Stallman, &laquo;&nbsp;The GNU Operating System and the Free Software Movement&nbsp;&raquo;, in DiBona, <cite>Open Sources&nbsp;: Voices from the Open Source Revolution</cite>)."
+
+# type: Content of: <p>
+msgid "Every free-software license since probably owes its existence to Stallman's vision, including those licenses by which OpenOffice.org code is governed. Stallman's work is of course resolutely practical. A short list of his coding accomplishments would include Emacs as well as most of the components of the GNU/Linux system, which he either wrote or helped write. In 1990, Stallman received a <a href=\"http://www.macfound.org/programs/fel/fel_overview.htm\">McArthur Foundation</a> fellowship; he has used the funds given him to further his free software work. (See Moody, <cite>Rebel Code</cite> for a good account of Stallman's mission.)"
+msgstr "Toute licence de logiciel libre publi&eacute;e depuis doit probablement son existence &agrave; la vision de Stallman, y compris les licences qui r&eacute;gissent le code de OpenOffice.org. Le travail de Stallman est bien s&ucirc;r, r&eacute;solument pratique. Une courte liste des programmes qu'il a cod&eacute;s inclurait Emacs aussi bien que la plupart des composants du syst&egrave;me GNU/Linux, qu'il a soit &eacute;crit, soit aid&eacute; &agrave; &eacute;crire. En 1990, Stallman a re&ccedil;u une bourse de la <a href=\"http://www.macfound.org/programs/fel/fel_overview.htm\">Fondation McArthur</a>&nbsp;; il a utilis&eacute; les fonds qui lui ont &eacute;t&eacute; donn&eacute;s pour parfaire son travail dans le logiciel libre. (Voir Moody, <cite>Rebel Code</cite> pour avoir une bonne id&eacute;e de la mission de Stallman)."
+
+# type: Content of: <p>
+msgid "The opportunity for this interview arose when I saw Stallman lecture at Sun's Cupertino campus in May. At that time, I requested an email interview with Stallman. He assented, and shortly after, I submitted the series of questions below, to which he responded, often at length.  However, my efforts for a follow-up failed, so this interview is only the first pass. As a consequence, I was unable to extend (and challenge) some interesting avenues; I have also provided as much context as possible for Stallman's politics in the links. It goes without saying that Stallman's views are his own and do not necessarily represent mine or those of OpenOffice.org."
+msgstr "L'opportunit&eacute; de cet entretien m'est venue quand j'ai assist&eacute; &agrave; la conf&eacute;rence de Stallman sur le campus de Sun, &agrave; Cupertino en mai. &Agrave; ce moment-l&agrave;, j'ai demand&eacute; un entretien avec Stallman par email. Il fut d'accord et peu de temps apr&egrave;s, je lui soumettais la s&eacute;rie de questions ci-dessous, auxquelles il r&eacute;pondit, souvent largement. Quoi qu'il en soit, mes efforts pour poursuivre cet entretien &eacute;chou&egrave;rent, aussi, cet entretien n'est qu'une premi&egrave;re s&eacute;rie. Par cons&eacute;quent, je n'ai pas &eacute;t&eacute; en mesure d'&eacute;tendre et de me confronter &agrave; certaines notions int&eacute;ressantes&nbsp;; j'ai &eacute;galement fourni autant de liens que possible concernant la politique de Stallman. Il va sans dire que les vues de Stallman lui sont propres et ne refl&egrave;tent pas n&eacute;cessairement les miennes ou celles de OpenOffice.org."
+
+# type: Content of: <p>
+msgid "For more information, readers are encouraged to visit the <a href=\"/home.html\">GNU website</a>, as well as <a href=\"http://www.stallman.org\">Stallman's personal site</a>."
+msgstr "Pour plus d'informations, les lecteurs sont invit&eacute;s &agrave; visiter le site Web de <a href=\"/home.fr.html\">GNU</a>, ainsi que le site personnel de <a href=\"http://www.stallman.org/\">Stallman</a>."
+
+# type: Content of: <blockquote><p>
+msgid "I would like, in this interview, to focus on your current work, and on the problematic of what kind of society we should like to live in. Your focus now&mdash;and for at least the last seventeen years&mdash;has been on working to make the social arrangements for using software more ethical."
+msgstr "J'aimerais dans cet entretien que nous nous concentrions sur votre travail actuel et sur la probl&eacute;matique du genre de soci&eacute;t&eacute; dans laquelle nous aimerions vivre. Votre priorit&eacute; actuelle (et au moins lors des dix-sept derni&egrave;res ann&eacute;es) a &eacute;t&eacute; de travailler pour fonder des dispositions sociales qui rendent l'utilisation des logiciels plus &eacute;thique."
+
+# type: Content of: <blockquote><p>
+msgid "But, [briefly,] what do you mean by the notion of a what I call here a more ethical society?"
+msgstr "Mais (bri&egrave;vement), qu'entendez-vous dans la notion de ce que j'appelle ici une soci&eacute;t&eacute; plus &eacute;thique&nbsp;?"
+
+# type: Content of: <p>
+msgid "We need to encourage the spirit of cooperation, by respecting other people's freedom to cooperate and not advancing schemes to divide and dominate them."
+msgstr "Nous avons besoin d'encourager l'esprit de coop&eacute;ration, en respectant la libert&eacute; des autres &agrave; coop&eacute;rer et ne pas mettre en place des syst&egrave;mes pour les diviser et les dominer."
+
+# type: Content of: <blockquote><p>
+msgid "This takes us to a point that is quite important and that I am hoping you can clarify for our readers. The term you prefer for your ethic is &ldquo;free software,&rdquo; where the word &ldquo;free&rdquo; means freedom from constraints and not free to take. But the term that more and more people are using is &ldquo;Open Source,&rdquo; a term of quite recent vintage (1998), and, from your perspective, filled with significant problems. Of the two, free software is a term that implies an ethic of living and holds out the promise of a more just society; the other, &ldquo;open source,&rdquo; does not."
+msgstr "Ceci nous am&egrave;ne &agrave; un point qui est tr&egrave;s important et que j'esp&egrave;re vous pourrez clarifier pour nos lecteurs. Le terme que vous pr&eacute;f&eacute;rez pour votre &eacute;thique est &laquo;&nbsp;free software&nbsp;&raquo; (logiciel libre), o&ugrave; le mot &laquo;&nbsp;free&nbsp;&raquo; signifie libre des contraintes et pas libre de prendre. Mais le terme que de plus en plus de gens utilisent est &laquo;&nbsp;Open Source&nbsp;&raquo; (code source ouvert), un terme tr&egrave;s r&eacute;cent (1998) et qui, selon vous, est charg&eacute; de probl&egrave;mes importants. Des deux, logiciel libre est un terme qui implique une &eacute;thique de vie et qui porte la promesse d'une soci&eacute;t&eacute; plus juste; l'autre, &laquo;&nbsp;open source&nbsp;&raquo;, n'est pas porteur de ce message."
+
+# type: Content of: <blockquote><p>
+msgid "Is that a fair statement? Would you address that issue, and clarify the distinctions for our readers?"
+msgstr "Est-ce une d&eacute;claration correcte? Pourriez-vous traiter cette question et clarifier les distinctions pour nos lecteurs&nbsp;?"
+
+# type: Content of: <p>
+msgid "That is exactly right. Someone once said it this way: open source is a development methodology; free software is a political philosophy (or a social movement)."
+msgstr "C'est tout &agrave; fait exact. Quelqu'un l'a dit un jour de cette fa&ccedil;on&nbsp;: &laquo;&nbsp;l'open source est une m&eacute;thodologie de d&eacute;veloppement; le logiciel libre est une philosophie politique (ou un mouvement social)&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "The <a href=\"http://www.opensource.org\">open source movement</a> focuses on convincing business that it can profit by respecting the users' freedom to share and change software. We in the <a href=\"http://www.fsf.org/\">free software movement</a> appreciate those efforts, but we believe that there is a more important issue at stake: all programmers [owe] an ethical obligation to respect those freedoms for other people. Profit is not wrong in itself, but it can't justify mistreating other people."
+msgstr "Le <a href=\"http://www.opensource.org\">mouvement open source</a> se concentre &agrave; convaincre les soci&eacute;t&eacute;s qu'il peut &ecirc;tre profitable de respecter la libert&eacute; des utilisateurs de partager et de modifier les logiciels. Nous, dans le <a href=\"http://www.fsf.org/\">mouvement du logiciel libre</a>, nous appr&eacute;cions ces efforts, mais nous pensons qu'il y a une question plus importante en jeu&nbsp;: tous les programmeurs ont l'obligation &eacute;thique de respecter ces libert&eacute;s pour les autres personnes. Le profit n'est pas une mauvaise chose en soi, mais il ne peut justifier de maltraiter les autres."
+
+# type: Content of: <blockquote><p>
+msgid "Along these lines, there has been considerable confusion over how to name your idea of an ethical society. Mistakenly, many would assert that you are suggesting a <a href=\"http://www.marxists.org/archive/marx/works/1840/prin-com.htm\">communism</a>."
+msgstr "Au travers de ces lignes, il y a eu une confusion consid&eacute;rable sur la fa&ccedil;on de nommer votre id&eacute;e d'une soci&eacute;t&eacute; &eacute;thique. Par erreur, certains affirmeraient que vous sugg&eacute;rez un <a href=\"http://www.marxists.org/archive/marx/works/1840/prin-com.htm\">communisme</a>."
+
+# type: Content of: <p>
+msgid "Anyone who criticizes certain business practices can expect to be called &ldquo;communist&rdquo; from time to time. This is a way of changing the subject and evading the issue. If people believe the charges, they don't listen to what the critics really say. (It is much easier to attack communism than to attack the views of the free software movement.)"
+msgstr "Quiconque critique certaines pratiques commerciales peut s'attendre &agrave; &ecirc;tre trait&eacute; de &laquo;&nbsp;communiste&nbsp;&raquo; de temps en temps. C'est une mani&egrave;re de changer de sujet et d'&eacute;luder la question. Si des gens croient &agrave; ces accusations, c'est qu'il n'ont pas &eacute;cout&eacute; vraiment ce sur quoi portaient les critiques. (Il est bien plus facile d'attaquer le communisme que d'attaquer les vues du mouvement du logiciel libre)."
+
+# type: Content of: <blockquote><p>
+msgid "Pekka Himanen, in his recent work, the <cite>Hacker Ethic</cite>, has rightly countered these claims. I would go further: that what you suggest is close to what political theorists such as <a href=\"http://www.gwu.edu/~ccps/etzioni/index.html\">Amitai Etzioni</a> would describe as a communitarianism (see, for instance, <a href=\"http://www.gwu.edu/~icps/about.html\">http://www.gwu.edu/~icps/about.html</a>).  And communitariannism is by no means hostile to the market economy that most people associate with capitalism. Quite the opposite. Would you speak to what could be called the politics of your ethical system?"
+msgstr "Pekka Himanen, dans son r&eacute;cent ouvrage, <ins>Hacker Ethic</ins> (l'&eacute;thique du hacker), a justement contr&eacute; ces assertions. J'irais m&ecirc;me plus loin&nbsp;: que ce que vous sugg&eacute;rez est proche de ce que des th&eacute;oriciens politiques, tel que <a href=\"http://www.gwu.edu/~ccps/etzioni/index.html\">Amitai Etzioni</a>, d&eacute;criraient comme un communitarisme (voir par exemple&nbsp; <a href=\"http://www.gwu.edu/~icps/about.html\">http://www.gwu.edu/~icps/about.html</a>). Et le communitarisme n'est en aucun cas hostile &agrave; l'&eacute;conomie de march&eacute; que la plupart des gens associent au capitalisme. C'est m&ecirc;me tout l'oppos&eacute;. Parleriez-vous, &agrave; ce que nous pourrions appeler les politiques, de votre syst&egrave;me &eacute;thique&nbsp;?"
+
+# type: Content of: <p>
+msgid "There is a place in life for business, but business should not be allowed dominate everyone's life. The original idea of democracy was to give the many a way to check the power of the wealthy few."
+msgstr "Il y a une place dans la vie pour le commerce, mais le commerce ne devrait pas &ecirc;tre autoris&eacute; &agrave; dominer la vie de chacun. L'id&eacute;e originale de la d&eacute;mocratie &eacute;tait de donner au plus grand nombre un moyen de contr&ocirc;ler le pouvoir de la minorit&eacute; nantie."
+
+# type: Content of: <p>
+msgid "Today business (and its owners) has far too much political power, and this undermines democracy in the US and abroad. Candidates face an effective veto by business, so they dare not disobey its orders."
+msgstr "Aujourd'hui, les entreprises (et leurs propri&eacute;taires) ont beaucoup trop de pouvoir politique, et cela mine la d&eacute;mocratie aux &Eacute;tats-Unis et &agrave; l'&eacute;tranger. Les candidats font face &agrave; un v&eacute;to efficace des entreprises (voir <a href=\"http://www.billionairesforbushorgore.com\">http://www.billionairesforbushorgore.com</a>), aussi, ils n'osent pas leur d&eacute;sob&eacute;ir."
+
+# type: Content of: <p>
+msgid "The power to make laws is being transferred from elected legislatures to nondemocratic bodies such as the <a href=\"http://www.foreignpolicy-infocus.org/briefs/vol2/v2n14wto.html\">World Trade Organization</a>, which was designed to subordinate public health, environmental protection, labor standards, and the general standard of living to the <a href=\"http://www.citizen.org/pctrade/gattwto/gatthome.html\">http://www.citizen.org/pctrade/gattwto/gatthome.html</a> interests of business. Under <a href=\"http://www.tradewatch.org/nafta/reports/5years.htm\">NAFTA [North American Free Trade Associtation]</a>, a Canadian company which was convicted in Mississippi of anticompetitive practices is <a href=\"http://www.citizen.org/pctrade/nafta/cases/Loewen.htm\">suing</a> for Federal compensation for its lost business due to the conviction. They claim that NAFTA takes away states' right to make laws against anticompetitive practices."
+msgstr "Le pouvoir de l&eacute;gif&eacute;rer est transf&eacute;r&eacute; des l&eacute;gislateurs, &eacute;lus, &agrave; des entit&eacute;s non d&eacute;mocratiquement &eacute;lues telle que <a href=\"http://www.foreignpolicy-infocus.org/briefs/vol2/v2n14wto.html\">l'Organisation mondiale du commerce</a>, qui a &eacute;t&eacute; con&ccedil;ue pour subordonner la sant&eacute; publique, la protection de l'environnement, les conditions de travail, et les conditions de vie en g&eacute;n&eacute;ral aux <a href=\"http://www.citizen.org/pctrade/gattwto/gatthome.html\">http://www.citizen.org/pctrade/gattwto/gatthome.html</a>int&eacute;r&ecirc;ts des entreprises. Avec l'<a href=\"http://www.tradewatch.org/nafta/reports/5years.htm\">AL&Eacute;NA [Association de libre &eacute;change nord-am&eacute;ricain]</a>, une soci&eacute;t&eacute; canadienne condamn&eacute;e au Mississippi pour pratiques anti-concurrentielles <a href=\"http://www.citizen.org/pctrade/nafta/cases/Loewen.htm\">fait un proc&egrave;s</a> pour obtenir une compensation f&eacute;d&eacute;rale pour ses pertes dues &agrave; cette condamnation. Ils revendiquent que l'AL&Eacute;NA retire aux &Eacute;tats le droit de l&eacute;gif&eacute;rer sur les pratiques anti-concurrentielles."
+
+# type: Content of: <p>
+msgid "But business is not satisfied yet. The proposed <a href=\"http://www.ftaa-alca.org/\">FTAA [Free Trade Area of the Americas]</a> would require all governments to privatize their [public facilities] such as schools, water supply, record keeping, even social security. This is what Bush wants &ldquo;fast track&rdquo; authority to push through."
+msgstr "Mais les entreprises ne sont pas encore satisfaites. La <a href=\"http://www.ftaa-alca.org/\">ZLEA [Zone de libre-&eacute;change des Am&eacute;riques]</a> propos&eacute;e voudrait que tous les gouvernements privatisent leurs [services publics] telles que les &eacute;coles, la distribution d'eau, les archives et m&ecirc;me la s&eacute;curit&eacute; sociale. C'est ce que Bush veut que l'autorit&eacute; <a href=\"http://www.fasttrack.org/\">&laquo;&nbsp;fast track&nbsp;&raquo;</a> fasse passer."
+
+# type: Content of: <p>
+msgid "Peaceful protestors against the FTAA in Quebec were violently <a href=\"http://www.web.amnesty.org/web/news.nsf/WebAll/A781217116BC45BB80256A3F005AA069?OpenDocument\">attacked</a> by police, who then blamed the fighting on the protestors. One protestor standing on the street was shot in the throat with a plastic bullet at a range of 20 feet. He is maimed for life, and seeks to press charges of attempted murder&mdash;if the cops will reveal who shot him."
+msgstr "Les manifestants pacifiques contre la ZLEA au Qu&eacute;bec ont &eacute;t&eacute; violemment attaqu&eacute;s <a href=\"http://www.web.amnesty.org/web/news.nsf/WebAll/A781217116BC45BB80256A3F005AA069?OpenDocument\">attaqu&eacute;s</a> par la police, qui ont alors rejet&eacute; la faute sur les manifestants. Un manifestant qui se tenait dans la rue, a &eacute;t&eacute; atteint d'un tir dans la gorge d'un balle en caoutchouc &agrave; une distance de 6 m&egrave;tres. Il a &eacute;t&eacute; estropi&eacute; &agrave; vie, et cherche &agrave; porter plainte pour tentative de meurtre &hellip; si la police r&eacute;v&egrave;le qui lui a tir&eacute; dessus."
+
+# type: Content of: <p>
+msgid "One protest organizer was attacked on the street by a gang that got out of a van, knocked him down, and beat him up. When his friends came to the rescue, the gang revealed itself as undercover police and took him away."
+msgstr "Un organisateur de la manifestation a &eacute;t&eacute; attaqu&eacute; dans la rue par un groupe sorti d'une camionnette, qui l'a mis &agrave; terre, et l'a tabass&eacute;. Quand ses amis sont venus &agrave; son secours, le groupe s'est r&eacute;v&eacute;l&eacute; &ecirc;tre des policiers sous couverture qui l'ont emmen&eacute; avec eux."
+
+# type: Content of: <p>
+msgid "Whatever democracy survives the globalization treaties is likely to be crushed by the efforts to suppress <a href=\"http://www.stopftaa.org/\">opposition to them</a>."
+msgstr "Si la d&eacute;mocratie survit aux trait&eacute;s de la mondialisation, elle sera probablement &eacute;cras&eacute;e par les efforts pour supprimer <a href=\"http://www.stopftaa.org/\">toute opposition &agrave; ceux-ci</a>."
+
+# type: Content of: <p>
+msgid "The most immediate criticism of your insistence on ethics would be that the ethic of free software is fine, but not relevant to the real world of business."
+msgstr "La critique la plus imm&eacute;diate &agrave; votre insistance sur l'&eacute;thique, serait que l'&eacute;thique du logiciel libre est bonne mais inad&eacute;quate pour le vrai monde des affaires."
+
+# type: Content of: <p>
+msgid "With over half the world's Web sites running on GNU/Linux and <a href=\"http://www.apache.org\">Apache</a>, that is evidently just FUD.  You should not give such falsehoods credibility by appearing to take them seriously yourself."
+msgstr "Avec plus de la moiti&eacute; des sites Web dans le monde ex&eacute;cutant GNU/Linux et <a href=\"http://www.apache.org\">Apache</a>, il s'agit &eacute;videmment de FUD<sup><a href=\"#TransNote1\">1</a></sup>. Vous ne devriez pas donner &agrave; de tels mensonges de la cr&eacute;dibilit&eacute; en paraissant les prendre au s&eacute;rieux vous-m&ecirc;me."
+
+# type: Content of: <p>
+msgid "I think it is worse to leave implicit lies unanswered than to address them directly. The thrust of my argument was that Microsoft, for instance, would and does claim that free software does not make money and rather loses money. They argue it's a bad idea all around. I don't think that Microsoft is to be ignored, just as the WTO should not be ignored. But: my question was to suggest a rebuttal this self-evident FUD, not to credit the errors of others."
+msgstr "Je pense qu'il est pire de ne pas r&eacute;pondre &agrave; des mensonges implicites que de s'attaquer &agrave; eux directement. L'id&eacute;e g&eacute;n&eacute;rale de mon argument &eacute;tait que Microsoft, par exemple, affirme que le logiciel libre ne rapporte pas d'argent et qu'il en fait perdre plut&ocirc;t. Ils soutiennent que c'est une mauvaise id&eacute;e autour d'eux. Je ne pense pas qu'il faille ignorer Microsoft, tout comme l'<abbr title=\"Organisation mondiale du commerce\">OMC</abbr> ne doit pas &ecirc;tre ignor&eacute;e. Mais&nbsp;: ma question &eacute;tait de sugg&eacute;rer une r&eacute;futation &agrave; ce FUD paraissant &eacute;vident, pas de souligner les erreurs des autres."
+
+# type: Content of: <blockquote><p>
+msgid "So, I'll rephrase my question: Microsoft has attacked the GPL as business foolishness that is also bad for &ldquo;America&rdquo; (whatever that means). They don't care about community ethics. How do you then counter their FUD, or for that matter, the FUD of those who share Microsoft's views?"
+msgstr "Soit, je reformule ma question&nbsp;: Microsoft a tax&eacute; la <abbr title=\"General Public License\">GPL</abbr> de folie commerciale qui est &eacute;galement mauvaise pour l'&laquo;&nbsp;Am&eacute;rique&nbsp;&raquo; (quoi que cela puisse signifier). Ils ne se pr&eacute;occupent pas d'&eacute;thique communautaire. Comment dans ce cas contrez-vous leur FUD ou d'ailleurs, le FUD de ceux qui partagent les vues de Microsoft&nbsp;?"
+
+# type: Content of: <blockquote><p>
+msgid "Stallman did not respond to this query for clarification, but as it happened, a <a href=\"/events/rms-nyu-2001-transcript.txt\">speech</a> he recently presented at New York University responded to Microsoft's propaganda. The Free Software Foundation has presented a <a href=\"/press/2001-05-04-GPL.html\">defense</a>, of free software, as well."
+msgstr "Stallman n'a pas r&eacute;pondu &agrave; cette requ&ecirc;te de clarification, mais il a fait r&eacute;cemment un <a href=\"/events/rms-nyu-2001-transcript.fr.html\">discours</a> &agrave; l'Universit&eacute; de New York r&eacute;pondant &agrave; la propagande de Microsoft. La Free Software Foundation a &eacute;galement pr&eacute;sent&eacute; une <a href=\"/press/2001-05-04-GPL.html\">d&eacute;fense</a> du logiciel libre."
+
+# type: Content of: <blockquote><p>
+msgid "[To return to the interview&hellip;]"
+msgstr "[Revenons &agrave; l'entretien&hellip;]"
+
+# type: Content of: <blockquote><p>
+msgid "On a more individual level, how would you address the criticism of person who would like to follow your ethical standards but feels she cannot because she wants also to make money from her intellectual work?"
+msgstr "Sur un plan plus individuel, que r&eacute;pondriez-vous &agrave; la critique d'une personne qui voudrait suivre vos standards &eacute;thiques mais qui sent qu'elle ne pourra pas car elle veut gagner de l'argent de son travail intellectuel&nbsp;?"
+
+# type: Content of: <p>
+msgid "This hypothetical person appears to believe that developing free software is incompatible with being paid. If so, she is misinformed&mdash;hundreds of people are now paid to develop free software.  Some of them work for Sun. She is challenging us to solve a problem that doesn't really exist."
+msgstr "Cette personne hypoth&eacute;tique semble croire que le d&eacute;veloppement de logiciels libres est incompatible avec une r&eacute;mun&eacute;ration. Si c'est le cas, elle est mal renseign&eacute;e &hellip; des centaines de personnes sont maintenant pay&eacute;es pour d&eacute;velopper des logiciels libres. Certaines d'entre elles travaillent pour Sun. Elle nous d&eacute;fie de r&eacute;soudre un probl&egrave;me qui n'existe pas r&eacute;ellement."
+
+# type: Content of: <p>
+msgid "But what if she can't get one of these free software jobs? That could happen&mdash;not everybody can get them today. But it doesn't excuse developing proprietary software. A desire for profit is not wrong in itself, but it isn't the sort of urgent overriding cause that could excuse mistreating others. Proprietary software divides the users and keeps them helpless, and that is wrong. Nobody should do that."
+msgstr "Mais que dire si elle n'obtient pas un de ces postes dans le logiciel libre&nbsp;? Cela pourrait arriver &hellip; tout le monde ne peut pas les obtenir aujourd'hui. Mais cela n'est pas une excuse pour d&eacute;velopper des logiciels propri&eacute;taires. Une volont&eacute; de profit n'est pas mauvaise en soi, mais ce n'est pas une raison qui pourrait excuser de maltraiter les autres. Les logiciels propri&eacute;taires divisent les utilisateurs et les laissent sans aide, et ce n'est pas bien. Personne ne devrait faire cela."
+
+# type: Content of: <p>
+msgid "So what should she do instead? Anything else. She could get a job in another field. But she doesn't have to go that far&mdash;most software development is custom software, not meant to be published either as free software or as proprietary software. In most cases, she can do that without raising an ethical issue. It isn't heroism, but it isn't villainy either."
+msgstr "Alors, que devrait-elle faire &agrave; la place&nbsp;? N'importe quoi d'autre. Elle pourrait obtenir un travail dans un autre domaine. Mais elle n'a pas besoin d'aller jusque l&agrave; &hellip; la plupart des d&eacute;veloppements de logiciels concernent les logiciels personnalis&eacute;s, qui ne sont pas destin&eacute;s &agrave; &ecirc;tre publi&eacute;s, comme le sont les logiciels propri&eacute;taires et les logiciels libres. Dans la plupart des cas, elle peut faire cela sans que cela soul&egrave;ve de probl&egrave;me &eacute;thique. Ce n'est pas de l'h&eacute;ro&iuml;sme, mais ce n'est pas une infamie non plus."
+
+# type: Content of: <blockquote><p>
+msgid "But copyright can be thought of as an author's friend."
+msgstr "Mais le copyright peut &ecirc;tre vu comme un ami de l'auteur."
+
+# type: Content of: <p>
+msgid "In the age of the printing press, that was true: <a href=\"http://www.intellectual-property.gov.uk/std/resources/copyright/history.htm\">copyright</a> was an industrial restriction on publishers, requiring them to pay the author of a book. It did not restrict the readers, because the actions it restricted were things only a publisher could do."
+msgstr "&Agrave; l'&acirc;ge de la presse imprim&eacute;e, c'&eacute;tait vrai&nbsp;: le <a href=\"http://www.intellectual-property.gov.uk/std/resources/copyright/history.htm\">copyright</a> &eacute;tait une restriction industrielle pour les &eacute;diteurs, leur imposant de payer l'auteur d'un livre. Il ne restreignait pas les lecteurs, car les actions qu'il restreignait &eacute;tait des choses qui ne pouvaient &ecirc;tre r&eacute;alis&eacute;es que par les &eacute;diteurs."
+
+# type: Content of: <p>
+msgid "But this is not true any more. Now copyright is a restriction on the public, for the sake of the publishers, who give the authors a small handout to buy their support against the public."
+msgstr "Mais cela n'est plus vrai &agrave; pr&eacute;sent. Maintenant, le copyright est une restriction pour le public, au b&eacute;n&eacute;fice des &eacute;diteurs, qui donnent aux auteurs une petite aum&ocirc;ne pour acheter leur soutien contre le public."
+
+# type: Content of: <blockquote><p>
+msgid "In the current situation, then, who benefits most from copyright?"
+msgstr "Dans la situation actuelle alors, qui b&eacute;n&eacute;ficie le plus des droits d'auteurs&nbsp;?"
+
+# type: Content of: <p>
+msgid "The publishers."
+msgstr "Les &eacute;diteurs."
+
+# type: Content of: <blockquote><p>
+msgid "Were I freelancing again, I would not want to release my works without the minimal security of payment for my labor copyright affords."
+msgstr "Si je travaillais de nouveau en ind&eacute;pendant, je ne voudrais pas publier mes travaux sans une s&eacute;curit&eacute; minimale de r&eacute;mun&eacute;ration pour mon travail, ce que le copyright permet d'avoir."
+
+# type: Content of: <p>
+msgid "You could do that without copyright. It is part of your business dealings with the magazine you are writing for."
+msgstr "Vous pourriez le faire sans copyright. Cela fait partie des tractations commerciales que vous faites avec le magazine pour lequel vous &eacute;crivez."
+
+# type: Content of: <p>
+msgid "But please note that I don't say copyright should be entirely abolished. You can disagree with what I said, but it makes no sense to attack me for things I did not say. What I said in my speech was that software which is published should be free."
+msgstr "Mais veuillez noter que je ne dis pas que le copyright devrait &ecirc;tre totalement aboli. Vous pouvez &ecirc;tre en d&eacute;saccord avec ce que je dis, mais cela n'a pas de sens de m'attaquer pour des choses que je n'ai pas dites. Ce que j'ai dit dans mon discours, c'est que les logiciels qui sont publi&eacute;s devraient &ecirc;tre libres."
+
+# type: Content of: <blockquote><p>
+msgid "For a more detailed accounting of Stallman's views regarding copyright as extended to fields outside of software, readers are urged to go to the <a href=\"/home.html\">GNU web site</a>, and to Stallman's <a href=\"http://www.stallman.org\">personal site</a>. In particular, readers might want to look at &ldquo;<a href=\"http://media-in-transition.mit.edu/forums/copyright/index_transcript.html\">Copyright and Globalization in the Age of Computer Networks</a>&rdquo; presented at the Massachusetts Institute of Technology in Cambridge, Massachusetts on 19 April 2001. Discussing his views on copyright as extended to non-software fields, Stallman mentioned, in the interview, &ldquo;Those are ideas that I came to after some years of working on free software.  People asked me the question, &lsquo;How do these ideas extend to other kinds of information,&rsquo; so in the 90s I started thinking about the question. This speech gives my thought on the question.&rdquo;"
+msgstr "Pour un compte-rendu plus d&eacute;taill&eacute; de l'avis de Stallman concernant le copyright appliqu&eacute; &agrave; d'autres domaines que le logiciel, les lecteurs sont invit&eacute;s &agrave; se rendre sur le <a href=\"/home.fr.html\">site Web de GNU</a> et sur le  <a href=\"http://www.stallman.org\">site personnel</a> de Stallman. En particulier, les lecteurs pourraient vouloir consulter &laquo;&nbsp;<a href=\"/philosophy/copyright-and-globalization.fr.html\">Copyright et mondialisation &agrave; l'&acirc;ge des r&eacute;seaux informatiques</a>&nbsp;&raquo; pr&eacute;sent&eacute; &agrave; l'Institut de technologie du Massachusetts (MIT) &agrave; Cambridge, le 19 avril 2001. En discutant de ces id&eacute;es sur le copyright appliqu&eacute; &agrave; d'autres domaines que le logiciel, Stallman a mentionn&eacute; dans l'entretien&nbsp;: &laquo;&nbsp;Ce sont des id&eacute;es qui me sont venues apr&egrave;s avoir travaill&eacute; quelques ann&eacute;es dans le logiciel libre. Des gens m'ont demand&eacute; &laquo;&nbsp;Comment appliquer ces id&eacute;es &agrave; d'autres types d'information&nbsp;?&nbsp;&raquo;, alors dans les ann&eacute;es 90, j'ai commenc&eacute; &agrave; r&eacute;fl&eacute;chir &agrave; la question. Ce discours donne mon avis sur la question&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "On another point: recently, Argentina became the first country to consider requiring all government offices to use free software (see, for instance, <a href=\"http://www.wired.com/news/business/0,1367,43529,00.html\">http://www.wired.com/news/business/0,1367,43529,00.html</a>)."
+msgstr "Un autre point&nbsp;: r&eacute;cemment, l'Argentine est devenu le premier pays &agrave; consid&eacute;rer que toutes les instances gouvernementales doivent utiliser des logiciels libres (voir par exemple&nbsp;: <a href=\"http://www.wired.com/news/business/0,1367,43529,00.html\">http://www.wired.com/news/business/0,1367,43529,00.html</a>)."
+
+# type: Content of: <p>
+msgid "I think the regulation is still being discussed&mdash;not adopted yet."
+msgstr "Je pense que la mise en application est toujours en cours de discussion.  Elle n'est pas encore vot&eacute;e."
+
+# type: Content of: <blockquote><p>
+msgid "As far as I know, that is still the case&hellip; However, whether the legislation has been implemented or not, the news is still encouraging, as at least free software is being considered seriously as a legitimate option. What does this (and other news) suggest regarding your future efforts? That is, are you going to pitch the cause more strongly to developing nations?"
+msgstr "Pour autant que je sache c'est encore le cas&hellip; Cependant, que la l&eacute;gislation ait &eacute;t&eacute; mise en &oelig;uvre ou non, les nouvelles sont toujours encourageantes, car au moins, le logiciel libre est consid&eacute;r&eacute; s&eacute;rieusement comme une option l&eacute;gitime. Qu'est-ce que cette information (et d'autres) sugg&egrave;re concernant vos futurs efforts? C'est-&agrave;-dire, allez-vous appuyer la cause plus fortement en direction des pays en voie de d&eacute;veloppement&nbsp;?"
+
+# type: Content of: <p>
+msgid "Yes. I am on my way to South Africa in two weeks [from the time of this writing, mid-May], and a Free Software Foundation is being started in India. There is also great interest in Brazil."
+msgstr "Oui. Je vais partir en Afrique du Sud dans deux semaines [au moment du texte, mi-mai], et une Fondation pour le logiciel libre se lance en Inde. Il y a &eacute;galement un grand int&eacute;r&ecirc;t au Br&eacute;sil."
+
+# type: Content of: <blockquote><p>
+msgid "A last point. The so-called &ldquo;Open Source&rdquo; movement is by and large devoid of humor. Not so the &ldquo;Free Software&rdquo; movement. You, in your lectures and in your song, provide a gratifying humorousness. I'd like to finish by asking, What do you accomplish by this?"
+msgstr "Un dernier point. Le mouvement &laquo;&nbsp;Open Source&nbsp;&raquo; est dans l'ensemble d&eacute;nu&eacute; d'humour. Ce n'est pas le cas du mouvement du &laquo;&nbsp;logiciel libre&nbsp;&raquo;. Dans vos conf&eacute;rences et dans votre discours, vous &ecirc;tes humoristique. J'aimerais finir en vous demandant&nbsp;:&laquo;&nbsp;Qu'accomplissez-vous en cela&nbsp;?&nbsp;&raquo;"
+
+# type: Content of: <p>
+msgid "I accomplish mirth. That's the hacker spirit&mdash;Ha Ha, Only Serious."
+msgstr "De la bonne humeur. C'est l'esprit du hacker.  Ha ha, s&eacute;rieusement."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr "<b>Notes du traducteur</b>&nbsp;: <ol><li id=\"TransNote1\">FUD&nbsp;: Fear Uncertainty and Doubt (peur, incertitude et doute). Sorte de rumeur destin&eacute;e &agrave; semer la confusion dans les esprits.</li></ol>"
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 2001, 2007 Free Software Foundation, Inc.,"
+msgstr "Copyright &copy; 2001, 2007 Free Software Foundation, Inc.,"
+
+# type: Content of: <div><address>
+msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+
+# type: Content of: <div><p>
+msgid "Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved."
+msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
