@@ -1,0 +1,220 @@
+# French translation of http://www.gnu.org/philosophy/nonsoftware-copyleft.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the nonsoftware-copyleft.html package.
+# Frédéric Couchet, 2008.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nonsoftware-copyleft.html\n"
+"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"PO-Revision-Date: 2009-01-10 15:17+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "Applying Copyleft To Non-Software Information - GNU Project - Free Software Foundation (FSF)"
+msgstr "Appliquer le Copyleft &agrave; de l'information de type non logiciel - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+msgid "Applying Copyleft To Non-Software Information"
+msgstr "Appliquer le Copyleft &agrave; de l'information de type non logiciel"
+
+# type: Content of: <p>
+msgid "by <a href=\"http://dsl.org/\"><strong>Michael Stutz</strong></a>"
+msgstr "par <a href=\"http://dsl.org/\"><strong>Michael Stutz</strong></a>"
+
+# type: Content of: <h3>
+msgid "First, what is Copyleft?"
+msgstr "Primo, qu'est-ce que le Copyleft&nbsp;?"
+
+# type: Content of: <p>
+msgid "The entry for &ldquo;<a href=\"/copyleft/copyleft.html\">copyleft</a>&rdquo; in the definitive hacker lexicon, the <a href=\"http://www.jargon.net/jargonfile/c/copyleft.html\">Jargon File</a>, reads:"
+msgstr "On peut lire la d&eacute;finition de  &laquo;&nbsp;<a href=\"/copyleft/copyleft.fr.html\">copyleft</a>&nbsp;&raquo; dans le lexique du hacker <a href=\"http://www.jargon.net/jargonfile/c/copyleft.html\">Jargon File</a>&nbsp;:"
+
+# type: Content of: <blockquote><p>
+msgid "copyleft: /kop'ee-left/ [play on &lsquo;copyright&rsquo;] n. 1. The copyright notice (&lsquo;General Public License&rsquo;) carried by GNU EMACS and other Free Software Foundation software, granting reuse and reproduction rights to all comers (but see also General Public Virus).  2. By extension, any copyright notice intended to achieve similar aims."
+msgstr "copyleft: /kop'ee-left/ [play on `copyright'] n. 1. The copyright notice (`General Public License') carried by GNU EMACS and other Free Software Foundation software, granting reuse and reproduction rights to all comers (but see also General Public Virus).  2. By extension, any copyright notice intended to achieve similar aims.<br />Traduction&nbsp;:<br />copyleft&nbsp;: /kop'ee-left/ [jeu de mots sur &laquo;&nbsp;copyright&nbsp;&raquo;] n. 1. La notice de copyright (&laquo;&nbsp;General Public License&nbsp;&raquo;) adopt&eacute;e par GNU EMACS et d'autres logiciels de la Free Software Foundation, garantissant les droits de r&eacute;utilisation et de reproduction pour tout le monde (mais voir &eacute;galement General Public Virus). 2. Par extension, toute notice de copyright destin&eacute;e &agrave; atteindre des buts similaires."
+
+# type: Content of: <p>
+msgid "The idea of <a href=\"/copyleft/copyleft.html\">copyleft</a> originated with &uuml;ber-hacker <a href=\"http://www.stallman.org/\"> Richard Stallman</a> in 1983 when he started the <a href=\"/gnu/gnu-history.html\">GNU Project</a>. In brief, his goal was &ldquo;to develop a complete free Unix-like operating system.&rdquo; As part of that goal, he invented and wrote the <a href=\"/copyleft/gpl.html\">GNU General Public License</a>, a legal construct that included a copyright notice but added to it (or, technically, removed certain restrictions), so its terms allowed for the freedoms of reuse, modification and reproduction of a work or its derivatives to be kept for all."
+msgstr "Le &uuml;ber-hacker <a href=\"/people/rms.html\">Richard Stallman</a>inventa l'id&eacute;e de <a href=\"/copyleft/copyleft.fr.html\">copyleft</a> en 1983 quand il d&eacute;marra le <a href=\"/gnu/gnu-history.fr.html\">Projet GNU</a>. Pour r&eacute;sumer, son but &eacute;tait &laquo;&nbsp;de d&eacute;velopper un syst&egrave;me d'exploitation style Unix libre&nbsp;&raquo;. Comme partie int&eacute;grante de son objectif, il con&ccedil;ut et &eacute;crivit la <a href=\"/copyleft/gpl.html\">GNU General Public License</a> (Licence publique g&eacute;n&eacute;rale), une construction l&eacute;gale qui inclut une notice de copyright en lui ajoutant (ou, techniquement, en lui retirant certaines restrictions), aussi ces conditions pr&eacute;voient la libert&eacute; de r&eacute;utilisation, de modification et de reproduction d'un travail ou de ses d&eacute;riv&eacute;s pour rester accessible &agrave; tous."
+
+# type: Content of: <p>
+msgid "Normal <a href=\"http://www.angelfire.com/planet/carroll/\"> copyright</a> asserts ownership and identification of the author, as well as prevents the use of the author's name as author of a distorted version of the work; it also prevents intentional distortion of the work by others and prevents destruction of the work. But it also carries other restrictions &mdash; such as restricting the reproduction or modification of a work."
+msgstr "Le <a href=\"http://www.angelfire.com/planet/carroll/\">copyright</a> normal affirme la propri&eacute;t&eacute; et l'identification de l'auteur, aussi bien qu'il interdit l'utilisation du nom de l'auteur comme auteur d'une version d&eacute;form&eacute;e du travail; il interdit &eacute;galement la d&eacute;formation intentionnelle du travail par d'autres et interdit la destruction du travail. Mais il exerce &eacute;galement d'autres restrictions (telle que la restriction de reproduction ou de modification d'un travail)."
+
+# type: Content of: <p>
+msgid "Copyleft contains the normal copyright statement, asserting ownership and identification of the author. However, it then <em>gives away</em> some of the other rights implicit in the normal copyright: it says that not only are you free to redistribute this work, but you are also free to change the work. However, you cannot claim to have written the original work, nor can you claim that these changes were created by someone else. Finally, all derivative works must also be placed under these terms."
+msgstr "Le Copyleft contient la d&eacute;claration normale du copyright, affirmant la propri&eacute;t&eacute; et l'identification de l'auteur. Cependant, il <em>donne</em> certains des autres droits implicites dans le copyright normal&nbsp;: il  stipule que vous n'&ecirc;tes pas seulement libre de redistribuer ce travail, mais vous &ecirc;tes libre &eacute;galement de le modifier. Cependant, vous ne pouvez revendiquer avoir &eacute;crit le travail original, ni non plus revendiquer que ces changements ont &eacute;t&eacute; faits par quelqu'un d'autre. Finalement, tous les travaux d&eacute;riv&eacute;s doivent &ecirc;tre &eacute;galement plac&eacute;s selon ces termes."
+
+# type: Content of: <h3>
+msgid "Why is Copyleft important, or even necessary?"
+msgstr "Pourquoi le Copyleft est important, ou m&ecirc;me n&eacute;cessaire&nbsp;?"
+
+# type: Content of: <p>
+msgid "Certain restrictions of copyright &mdash; such as distribution and modification &mdash; are not very useful to &ldquo;cyberia,&rdquo; the &ldquo;free, apolitical, democratic community&rdquo; that constitutes the internetworked digital world."
+msgstr "Certaines restrictions du copyright (telles que la distribution et la modification) ne sont pas tr&egrave;s pratiques pour la &laquo;&nbsp;cyb&eacute;rie&nbsp;&raquo; la <a href=\"http://dsl.org/cgi-bin/display.pl/m/doc/ana/96/cyberspace-declaration\">communaut&eacute; d&eacute;mocratique, apolitique et libre</a> que constitue le monde num&eacute;rique fonctionnant en r&eacute;seau."
+
+# type: Content of: <p>
+msgid "With computers, perfect copies of a digital work can easily be made &mdash; and even modified, or further distributed &mdash; by others, with no loss of the original work. As individuals interact in cyberia, sharing information &mdash; then reacting and building upon it &mdash; is not only natural, but this is the <em>only</em> way for individual beings to thrive in a community. In essence, the idea of copyleft is basic to the natural propagation of digital information among humans in a society. This is why the regular notion of copyright does not make sense in the context of cyberia."
+msgstr "Avec les ordinateurs, des copies parfaites d'un travail num&eacute;rique peuvent &ecirc;tre ais&eacute;ment faites (et m&ecirc;me modifi&eacute;es, ou distribu&eacute;es) par d'autres, sans perte du travail original. Tout comme les individus interagissent en &laquo;&nbsp;cyb&eacute;rie&nbsp;&raquo;, en partageant l'information (puis en r&eacute;agissant et en en rajoutant) ce n'est pas seulement naturel, mais c'est la <em>seule</em> fa&ccedil;on d'assurer l'&eacute;panouissement des individus dans une communaut&eacute;. Par essence, l'id&eacute;e du copyleft est fondamentale &agrave; la propagation naturelle de l'information num&eacute;rique dans une soci&eacute;t&eacute; humaine. C'est pourquoi la notion classique de copyright n'a pas de sens dans le contexte de la cyb&eacute;rie."
+
+# type: Content of: <p>
+msgid "Simple &lsquo;public domain&rsquo; publication will not work, because some will try to abuse this for profit by depriving others of freedom; as long as we live in a world with a legal system where legal abstractions such as copyright are necessary, as responsible artists or scientists we will need the formal legal abstractions of copyleft that ensure our freedom and the freedom of others."
+msgstr "La simple publication dans le &laquo;&nbsp;domaine public&nbsp;&raquo; ne marchera pas, parce que certains essayeront d'abuser de la situation &agrave; leur profit en privant les autres de la libert&eacute;. Tant que nous vivons dans un monde avec un syt&egrave;me l&eacute;gal o&ugrave; les abstractions l&eacute;gales telles que le copyright sont n&eacute;cessaires, en tant qu'artistes ou scientifiques responsables nous aurons besoin des abstractions l&eacute;gales en bonne et due forme du copyleft qui assurent nos libert&eacute;s et les libert&eacute;s des autres."
+
+# type: Content of: <p>
+msgid "Much literature has been written on this subject by Stallman, and the details can be found in the excellent <a href=\"/philosophy/philosophy.html\">texts</a> published by the Free Software Foundation."
+msgstr "Stallman a beaucoup &eacute;crit sur ce sujet, et on peut trouver les d&eacute;tails dans les excellents <a href=\"/philosophy/philosophy.fr.html\">textes</a> publi&eacute;s par la Free Software Foundation."
+
+# type: Content of: <h3>
+msgid "So why isn't the FSF's GNU GPL good enough?"
+msgstr "Donc, pourquoi la GPL GNU de la FSF n'est-elle pas suffisamment appropri&eacute;e&nbsp;?"
+
+# type: Content of: <p>
+msgid "It <em>is</em> good enough! The GNU GPL is not only a document of significant historical and literary value, but it is in wide use today for countless software programs &mdash; those as formal part of the GNU Project and otherwise. The GNU GPL originated for the specific goal of sharing software among computer programmers. However, looking closely at the GPL, it appears that the same License can be easily applied to non-software information."
+msgstr "Elle <em>est</em> suffisament appropri&eacute;e&nbsp;! La GNU GPL n'est pas seulement un document d'une valeur litt&eacute;raire et historique significative, mais elle est largement utilis&eacute;e aujourd'hui pour d'innombrables logiciels (ceux faisant partie du projet GNU et bien d'autres). La GNU GPL a &eacute;t&eacute; con&ccedil;ue dans le but sp&eacute;cifique de partager le logiciel parmi les programmeurs. Cependant, en regardant de pr&egrave;s la GPL, il appara&icirc;t que la m&ecirc;me licence peut &ecirc;tre ais&eacute;ment appliqu&eacute;e &agrave; de l'information non-logicielle."
+
+# type: Content of: <p>
+msgid "Alternately, a document can be copylefted under different, or much simpler terms; whether or not the GNU GPL is the specific means to the end is not the issue, although the GNU GPL certainly provides the most explicit (and canonical) definition of copyleft."
+msgstr "Alternativement, un document peut &ecirc;tre &laquo;&nbsp;copyleft&eacute;&nbsp;&raquo; sous des termes diff&eacute;rents, ou des termes plus simples; que la GNU GPL soit ou non le moyen sp&eacute;cifique d'atteindre le but n'est pas la question, bien que la GNU GPL fournit certainement la plus explicite (et canonique) d&eacute;finition du copyleft."
+
+# type: Content of: <h3>
+msgid "Ok, so how do I copyleft my non-software work?"
+msgstr "Ok, alors comment je &laquo;&nbsp;copylefte&nbsp;&raquo; mon travail non-logiciel&nbsp;?"
+
+# type: Content of: <p>
+msgid "It's simple. While a particular situation may require or inspire its own specific License, possibly similar to the GNU GPL, all that a copyleft notice must really do is fulfill the points as defined above in &ldquo;<a href=\"#what\">First, what is Copyleft?</a>&rdquo;. Using the GNU GPL to copyleft your work is easy."
+msgstr "C'est simple. Tandis qu'une situation particuli&egrave;re peut requ&eacute;rir ou inspirer sa propre licence sp&eacute;cifique, peut-&ecirc;tre similaire &agrave; la GNU GPL, tout ce qu'une notice de copyleft doit r&eacute;ellement faire est de satisfaire les points d&eacute;finis dans &laquo;&nbsp;<a href=\"#what\">Primo, qu'est-ce que le Copyleft&nbsp;?</a>&nbsp;&raquo;. Utiliser la GNU GPL pour &laquo;&nbsp;copylefter&nbsp;&raquo; votre travail est facile."
+
+# type: Content of: <p>
+msgid "The GNU GPL states that it &ldquo;applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License,&rdquo; so this &ldquo;Program,&rdquo; then, may not necessarily be a computer software program &mdash; any work of any nature that can be copyrighted can be copylefted with the GNU GPL."
+msgstr "La GNU GPL d&eacute;clare qu'elle &laquo;&nbsp;s'applique &agrave; tout programme ou toute œuvre contenant une notice plac&eacute;e par le possesseur du copyright pr&eacute;cisant qu'il peut &ecirc;tre distribu&eacute;, selon les termes de cette 'Licence publique g&eacute;n&eacute;rale'&nbsp;&raquo;. Ainsi ce &laquo;&nbsp;Programme&nbsp;&raquo;, n'est pas n&eacute;cessairement un logiciel (n'importe quel travail de n'importe quelle nature, qui peut &ecirc;tre copyright&eacute;, peut &ecirc;tre copyleft&eacute; avec la GNU GPL)."
+
+# type: Content of: <p>
+msgid "The GNU GPL references the &ldquo;source code&rdquo; of a work; this &ldquo;source code&rdquo; will mean different things for different kinds of information, but the definition of &ldquo;source code&rdquo; &mdash; provided in the GNU GPL &mdash; holds true in any case: &ldquo;The source code for a work means the preferred form of the work for making modifications to it.&rdquo;"
+msgstr "La GNU GPL fait r&eacute;f&eacute;rence au &laquo;&nbsp;code source&nbsp;&raquo; d'un travail; ce &laquo;&nbsp;code source&nbsp;&raquo; signifiera diff&eacute;rentes choses pour diff&eacute;rents types d'informations, mais la d&eacute;finition du &laquo;&nbsp;code source&nbsp;&raquo; (fournie par la GNU GPL) reste vraie dans tous les cas&nbsp;: &laquo;&nbsp;Le code source d'un travail d&eacute;signe la forme de ce travail sous laquelle les modifications sont les plus ais&eacute;es&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "The notices attached to the work can not always be attached &ldquo;to the start of each source file,&rdquo; as recommended by the GNU GPL. In this case, the directory that the files reside should contain a notice, as should any accompanying documentation or literature."
+msgstr "Les notices li&eacute;es au travail ne peuvent pas toujours &ecirc;tre attach&eacute;es &laquo;&nbsp;au d&eacute;but de chaque fichier source&nbsp;&raquo;, comme le recommande la GNU GPL. Dans ce cas, le r&eacute;pertoire contenant les fichiers devrait contenir une notice, ainsi que n'importe quelle documentation accompagnante."
+
+# type: Content of: <p>
+msgid "Finally, for non-software works the &ldquo;copyright&rdquo; line included at the start of the &ldquo;source code&rdquo; of the work is modified in language slightly:"
+msgstr "Finalement, pour des travaux de type non-logiciel la ligne de &laquo;&nbsp;copyright&nbsp;&raquo; incluse au d&eacute;but du &laquo;&nbsp;code source&nbsp;&raquo; du travail est l&eacute;g&egrave;rement modifi&eacute;e&nbsp;:"
+
+# type: Content of: <pre>
+#, no-wrap
+msgid ""
+"\n"
+"    &lt;one line to give the work's name and a brief idea of what it does.&gt;\n"
+"    Copyright (C) 19yy  &lt;name of author&gt;\n"
+"\n"
+"    This information is free; you can redistribute it and/or modify it\n"
+"    under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This work is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"    GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License\n"
+"    along with this work; if not, write to the Free Software\n"
+"    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.\n"
+msgstr ""
+"\n"
+"    &lt;one line to give the work's name and a brief idea of what it does.&gt;\n"
+"    Copyright (C) 19yy  &lt;name of author&gt;\n"
+"\n"
+"    This information is free; you can redistribute it and/or modify it\n"
+"    under the terms of the GNU General Public License as published by\n"
+"    the Free Software Foundation; either version 2 of the License, or\n"
+"    (at your option) any later version.\n"
+"\n"
+"    This work is distributed in the hope that it will be useful,\n"
+"    but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"    GNU General Public License for more details.\n"
+"\n"
+"    You should have received a copy of the GNU General Public License\n"
+"    along with this work; if not, write to the Free Software\n"
+"    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.\n"
+"\n"
+"Traduction non-officielle en français&nbsp;:\n"
+"\n"
+"    &lt;une ligne pour indiquer le nom du travail et donner une id&eacute;e\n"
+"    de ce qu'il est cens&eacute; faire.&gt;\n"
+"    Copyright &copy; 19yy &lt;nom de l'auteur&gt;\n"
+"\n"
+"    Cette information est libre, vous pouvez la redistribuer et/ou la\n"
+"    modifier selon les termes de la Licence publique g&eacute;n&eacute;rale GNU\n"
+"    telle que publi&eacute;e par la Free Software Foundation ; soit la\n"
+"    version 2 de cette licence, ou (&agrave; votre choix) toute autre version\n"
+"    ult&eacute;rieure.\n"
+"\n"
+"    Ce travail est distribu&eacute; dans l'espoir qu'il sera utile, mais SANS\n"
+"    AUCUNE GARANTIE, y compris les garanties implicites de\n"
+"    commercialisation ou d'adaptation dans un but sp&eacute;cifique. Voir la\n"
+"    Licence Publique G&eacute;n&eacute;rale pour plus de d&eacute;tails.\n"
+"\n"
+"    Vous devez avoir re&ccedil;u une copie de la Licence publique g&eacute;n&eacute;rale\n"
+"    GNU avec ce travail; si ce n'est pas le cas, &eacute;crivez &agrave; la Free\n"
+"    Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.\n"
+
+# type: Content of: <h3>
+msgid "Where do I go from here?"
+msgstr "O&ugrave; dois-je aller maintenant&nbsp;?"
+
+# type: Content of: <p>
+msgid "Here are sources for further information on copyleft, especially as it is applied to non-software information:"
+msgstr "Voici des sources d'informations suppl&eacute;mentaires sur le copyleft appliqu&eacute; notamment &agrave; de l'information de type non-logicielle&nbsp;:"
+
+# type: Content of: <p>
+msgid "The <a href=\"/home.html\">rest of this web site</a> is the home of the GNU Project and is the canonical source for copyleft and freely-redistributable software."
+msgstr "Le <a href=\"/home.fr.html\">Site du Projet GNU</a> est la source canonique pour le copyleft et le logiciel librement redistribuable."
+
+# type: Content of: <p>
+msgid "<a href=\"http://www.ram.org/\">Ram Samudrala</a> wrote the <a href=\"http://www.ram.org/ramblings/philosophy/fmp.html\">Free Music Philosophy</a> and creates copylefted music as the band <a href=\"http://www.twisted-helices.com/th/\">Twisted Helices</a>."
+msgstr "<a href=\"http://www.ram.org/\">Ram Samudrala</a> &eacute;crivit la <a href=\"http://www.ram.org/ramblings/philosophy/fmp.html\">Free Music Philosophy</a> et cr&eacute;e de la musique &laquo;&nbsp;copyleft&eacute;e&nbsp;&raquo; comme le groupe <a href=\"http://www.twisted-helices.com/th/\">Twisted Helices</a>."
+
+# type: Content of: <p>
+msgid "Some of my own non-software copylefted works include texts (literature, reviews, <a href=\"http://dsl.org/comp/\">technical</a>)  and music."
+msgstr "Certains de mes propres travaux non-logiciels &laquo;&nbsp;copyleft&eacute;s&nbsp;&raquo; incluent des textes (litt&eacute;rature, revues, <a href=\"http://dsl.org/comp/\">techniques</a>) et musique."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 1997 Michael Stutz <br /> Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved."
+msgstr "Copyright &copy; 1997 Michael Stutz <br />La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Frédéric Couchet.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
