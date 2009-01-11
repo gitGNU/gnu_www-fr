@@ -1,0 +1,120 @@
+# French translation of http://www.gnu.org/philosophy/patent-reform-is-not-enough.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the patent-reform-is-not-enough.html package.
+# ?, 2008.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: patent-reform-is-not-enough.html\n"
+"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"PO-Revision-Date: 2009-01-11 14:40+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "Patent Reform Is Not Enough - GNU Project - Free Software Foundation (FSF)"
+msgstr "Une r&eacute;forme des brevets n'est pas suffisante - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+msgid "Patent Reform Is Not Enough"
+msgstr "Une r&eacute;forme des brevets n'est pas suffisante"
+
+# type: Content of: <p>
+msgid "When people first learn about the problem of software patents, their attention is often drawn to the egregious examples: patents that cover techniques already widely known.  These techniques include sorting a collection of formulae so that no variable is used before it is calculated (called &ldquo;natural order recalculation&rdquo; in spreadsheets), and the use of exclusive-or to modify the contents of a bit-map display."
+msgstr "Quand on apprend pour la premi&egrave;re fois qu'il existe un probl&egrave;me avec les brevets sur les logiciels, l'attention est souvent attir&eacute;e par les exemples fallacieux&nbsp;: des brevets portant sur des techniques d&eacute;j&agrave; fort bien connues. Ces techniques comprennent le tri d'un ensemble de formules de fa&ccedil;on &agrave; ce qu'aucune variable ne soit utilis&eacute;e avant d'&ecirc;tre calcul&eacute;e (ce qu'on appelle &laquo;&nbsp;ordre naturel de recalcul&nbsp;&raquo; dans les &laquo;&nbsp;tableurs&nbsp;&raquo;), et l'utilisation du ou-exclusif pour la modification des contenus d'une image bitmap affich&eacute;e."
+
+# type: Content of: <p>
+msgid "Focusing on these examples can lead some people to ignore the rest of the problem.  They are attracted to the position that the patent system is basically correct and needs only &ldquo;reforms&rdquo; to carry out its own rules properly."
+msgstr "La focalisation des gens sur ces exemples peut leur faire oublier le reste du probl&egrave;me. Ils sont attir&eacute;s par la th&egrave;se selon laquelle le syst&egrave;me de brevets est correct &agrave; la base et qu'il y a seulement besoin de &laquo;&nbsp;r&eacute;formes&nbsp;&raquo; pour mener &agrave; bien ses propres r&egrave;gles."
+
+# type: Content of: <p>
+msgid "But would correct implementation really solve the problem of software patents? Let's consider an example."
+msgstr "Mais une mise en œuvre correcte r&eacute;soudrait-elle r&eacute;ellement le probl&egrave;me des brevets sur les logiciels&nbsp;? Prenons un exemple."
+
+# type: Content of: <p>
+msgid "In the early 90s we desperately needed a new free program for compression, because the old de-facto standard &ldquo;compress&rdquo; program had been taken away from us by patents.  In April 1991, software developer Ross Williams began publishing a series of data compression programs using new algorithms of his own devising.  Their superior speed and compression quality soon attracted users."
+msgstr "Au d&eacute;but des ann&eacute;es 90 nous avions d&eacute;sesp&eacute;r&eacute;ment besoin d'un nouveau programme de compression, car le vieux programme standard de-facto &laquo;&nbsp;compress&nbsp;&raquo; nous avait &eacute;t&eacute; retir&eacute; par les brevets. En avril 1991, le d&eacute;veloppeur Ross Williams commen&ccedil;a &agrave; publier une s&eacute;rie de programmes de compression de donn&eacute;es utilisant de nouveaux algorithmes de sa propre conception. Leur vitesse et la qualit&eacute; de la compression sup&eacute;rieures attir&egrave;rent tr&egrave;s vite les utilisateurs."
+
+# type: Content of: <p>
+msgid "That September, when the FSF was about a week away from releasing one of them as the new choice for compressing our distribution files, use of these programs in the United States was halted by a newly issued patent, number 5,049,881."
+msgstr "En septembre de la m&ecirc;me ann&eacute;e, quand la FSF fut &agrave; une semaine de la publication de l'un d'entre eux comme nouveau choix pour compresser nos fichiers de distribution, l'utilisation de ces programmes aux USA fut stopp&eacute;e par un nouveau brevet sorti sous le num&eacute;ro 5,049,881."
+
+# type: Content of: <p>
+msgid "Under the patent system's rules, whether the public is allowed to use these programs (i.e., whether the patent is invalid) depends on whether there is &ldquo;prior art&rdquo;: whether the basic idea was published before the patent application, which was on June 18, 1990.  Williams' publication in April 1991 came after that date, so it does not count."
+msgstr "D'apr&egrave;s les r&egrave;gles du syst&egrave;me des brevets, l'autorisation pour le public d'utiliser ces programmes (c'est &agrave; dire le fait de savoir si le brevet est l&eacute;gal) d&eacute;pend du fait qu'il existe un &laquo;&nbsp;travail ant&eacute;rieur&nbsp;&raquo;&nbsp;: soit la publication de l'id&eacute;e de base avant &laquo;&nbsp;l'application&nbsp;&raquo; du brevet, qui a eu lieu en date du 18 juin 1990. La publication de William en avril 1991 vient apr&egrave;s cette date et n'est donc pas pris en compte."
+
+# type: Content of: <p>
+msgid "A student described a similar algorithm in 1988-1989 in a class paper at the University of San Francisco, but the paper was not published.  So it does not count as prior art under the current rules."
+msgstr "En 1988-1989, un &eacute;tudiant d&eacute;crivit un algorithme similaire dans un article de classe de l'Universit&eacute; de San Francisco, mais l'article ne fut pas publi&eacute;. Ainsi, il ne peut &ecirc;tre pris en compte comme &laquo;&nbsp;travail ant&eacute;rieur&nbsp;&raquo; selon les lois en vigueur."
+
+# type: Content of: <p>
+msgid "Reforms to make the patent system work &ldquo;properly&rdquo; would not have prevented this problem.  Under the rules of the patent system, this patent seems valid.  There was no prior art for it.  It is not close to obvious, as the patent system interprets the term.  (Like most patents, it is neither worldshaking nor trivial, but somewhere in between.)  The fault is in the rules themselves, not their execution."
+msgstr "Les r&eacute;formes pour faire fonctionner le syst&egrave;me des brevets &laquo;&nbsp;proprement&nbsp;&raquo; n'auraient pas emp&ecirc;ch&eacute; ce probl&egrave;me. D'apr&egrave;s les r&egrave;gles du syst&egrave;me de brevets, celui-ci semble valide. Il n'y a pas de &laquo;&nbsp;travail ant&eacute;rieur&nbsp;&raquo; le concernant. Il n'est pas proche d'un principe &eacute;vident, au sens o&ugrave; le syst&egrave;me des brevets interpr&egrave;te ce terme (comme la plupart des brevets, il n'est ni r&eacute;volutionnaire ni trivial, mais quelque part entre les deux). L'anomalie se situe dans les r&egrave;gles elles-m&ecirc;mes et non pas dans leur mise en application."
+
+# type: Content of: <p>
+msgid "In the US legal system, patents are intended as a bargain between society and individuals; society is supposed to gain through the disclosure of techniques that would otherwise never be available.  It is clear that society has gained nothing by issuing patent number 5,049,881.  This technique was going to be available anyway.  It was easy enough to find that several people did so at around the same time."
+msgstr "Dans le syst&egrave;me juridique des &Eacute;tats-Unis d'Am&eacute;rique, les brevets sont con&ccedil;us comme un march&eacute; pass&eacute; entre la soci&eacute;t&eacute; et les individus&nbsp;; la soci&eacute;t&eacute; est suppos&eacute;e obtenir un b&eacute;n&eacute;fice &agrave; travers la r&eacute;v&eacute;lation detechniques qui sinon ne seraient jamais d&eacute;voil&eacute;es. Il est clair que la soci&eacute;t&eacute; n'a rien gagn&eacute; en enregistrant le brevet num&eacute;ro 5,049,881. Cette technique allait &ecirc;tre r&eacute;v&eacute;l&eacute;e de toutes fa&ccedil;ons. C'&eacute;tait suffisamment facile &agrave; d&eacute;couvrir pour que plusieurs personnes l'aient fait &agrave; peu pr&egrave;s en m&ecirc;me temps."
+
+# type: Content of: <p>
+msgid "Under current rules, our ability to use Williams's programs depends on whether anyone happened to publish the same idea before June 18, 1990.  That is to say, it depends on luck.  This system is good for promoting the practice of law, but not progress in software."
+msgstr "D'apr&egrave;s les lois en vigueur, notre capacit&eacute; &agrave; utiliser les programmes de William d&eacute;pend du fait que des personnes aient publi&eacute; la m&ecirc;me id&eacute;e par hasard avant le 18 juin 1990. Ce qui revient &agrave; dire que cela d&eacute;pend de la chance. Ce syst&egrave;me est bon pour la promotion de la pratique du droit, mais pas pour le progr&egrave;s des logiciels."
+
+# type: Content of: <p>
+msgid "Teaching the Patent Office to look at more of the existing prior art might prevent some outrageous mistakes.  It will not cure the greater problem, which is the patenting of every <em>new</em> wrinkle in the use of computers, like the one that Williams and others independently developed."
+msgstr "Apprendre &agrave; l'Office des brevets &agrave; examiner plus largement l'existence de &laquo;&nbsp;travaux ant&eacute;rieurs&nbsp;&raquo; permettrait d'&eacute;viter des erreurs excessives. Cela ne sera pas le rem&egrave;de &agrave; un probl&egrave;me plus grave, qui est celui du d&eacute;p&ocirc;t de brevet pour toute <em>nouvelle</em> petite ride &agrave; la surface de l'informatique, comme pour celle que William et d'autres ont d&eacute;velopp&eacute; ind&eacute;pendamment."
+
+# type: Content of: <p>
+msgid "This will turn software into a quagmire.  Even an innovative program typically uses dozens of not-quite-new techniques and features, each of which might have been patented.  Our ability to use each wrinkle will depend on luck, and if we are unlucky half the time, few programs will escape infringing a large number of patents.  Navigating the maze of patents will be harder than writing software.  As <cite>The Economist</cite> says, software patents are simply bad for business."
+msgstr "Ceci transformera le logiciel en mare de boue. M&ecirc;me un programme innovant utilise typiquement des dizaines de techniques et de caract&eacute;ristiques qui ne sont pas vraiment nouvelles, chacunes d'elles ayant pu &ecirc;tre d&eacute;j&agrave; brevet&eacute;es. Notre capacit&eacute; &agrave; utiliser chaque petite ride va d&eacute;pendre de la chance, et si nous n'avons pas de chance la moiti&eacute; du temps, vraiment tr&egrave;s peu de logiciels &eacute;chapperont &agrave; l'infraction envers un grand nombre de brevets. Naviguer dans le d&eacute;dale des brevets sera plus difficile que d'&eacute;crire des logiciels. Comme le dit <cite>The Economist</cite>, les brevets logiciels sont tout simplement mauvais pour les affaires."
+
+# type: Content of: <h3>
+msgid "What you can do to help"
+msgstr "Ce que vous pouvez faire pour aider"
+
+# type: Content of: <p>
+msgid "There is a massive effort in Europe to stop software patents.  Please support <a href=\"http://petition.eurolinux.org/index.html\">this petition</a> for a Europe free of software patents, and see <a href=\"http://www.ffii.org\"> the FFII web site</a> for full details of how you can help."
+msgstr "Il y a un effort important en Europe pour stopper les brevets logiciels. Veuillez soutenir <a href=\"http://petition.eurolinux.org/index.html\">cette p&eacute;tition</a> pour une Europe sans brevets logiciels, et consulter le <a href=\"http://www.ffii.org\">site Web de la FFII</a> pour obtenir plus de d&eacute;tails sur ce que vous pouvez faire pour aider."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 1996, 1997, 1998, 2001, 2008 Free Software Foundation, Inc.,"
+msgstr "Copyright &copy; 1996, 1997, 1998, 2001, 2008 Free Software Foundation, Inc.,"
+
+# type: Content of: <div><address>
+msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+
+# type: Content of: <div><p>
+msgid "Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved."
+msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: ?.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+

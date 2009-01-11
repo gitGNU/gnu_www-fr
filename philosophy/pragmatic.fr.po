@@ -1,0 +1,156 @@
+# French translation of http://www.gnu.org/philosophy/pragmatic.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the pragmatic.html package.
+# ?.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pragmatic.html\n"
+"POT-Creation-Date: 2009-01-07 04:28-0500\n"
+"PO-Revision-Date: 2009-01-11 15:46+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "Copyleft: Pragmatic Idealism - GNU Project - Free Software Foundation (FSF)"
+msgstr "Copyleft : Id&eacute;alisme pragmatique - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+msgid "Copyleft: Pragmatic Idealism"
+msgstr "Copyleft&nbsp;: Id&eacute;alisme pragmatique"
+
+# type: Content of: <p>
+msgid "by <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
+msgstr "par <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
+
+# type: Content of: <p>
+msgid "Every decision a person makes stems from the person's values and goals.  People can have many different goals and values; fame, profit, love, survival, fun, and freedom, are just some of the goals that a good person might have.  When the goal is to help others as well as oneself, we call that idealism."
+msgstr "Toute d&eacute;cision prise par une personne d&eacute;coule de ses valeurs et buts. Les gens peuvent avoir beaucoup de buts et valeurs diff&eacute;rents&nbsp;; la gloire, le profit, l'amour, la survivance, l'amusement, ou la libert&eacute;, ne sont qu'une partie des buts qu'une personne normale peut avoir. Quand ce but est d'aider les autres aussi bien que soi m&ecirc;me, cela s'appelle de l'id&eacute;alisme."
+
+# type: Content of: <p>
+msgid "My work on free software is motivated by an idealistic goal: spreading freedom and cooperation.  I want to <a href=\"/philosophy/why-copyleft.html\">encourage free software to spread</a>, replacing proprietary software that forbids cooperation, and thus make our society better."
+msgstr "C'est un but id&eacute;aliste qui motive mon travail pour le logiciel libre&nbsp;: propager la libert&eacute; et la coop&eacute;ration. Je veux <a href=\"/philosophy/why-copyleft.fr.html\">encourager la diffusion des logiciels libres</a> et le remplacement des logiciels propri&eacute;taires qui emp&ecirc;chent la coop&eacute;ration, et rendre ainsi notre soci&eacute;t&eacute; meilleure."
+
+# type: Content of: <p>
+msgid "That's the basic reason why the GNU General Public License is written the way it is&mdash;as a copyleft.  All code added to a GPL-covered program must be free software, even if it is put in a separate file.  I make my code available for use in free software, and not for use in proprietary software, in order to encourage other people who write software to make it free as well.  I figure that since proprietary software developers use copyright to stop us from sharing, we cooperators can use copyright to give other cooperators an advantage of their own: they can use our code."
+msgstr "C'est pour cette raison fondamentale que la GNU General Public License est &eacute;crite de cette mani&egrave;re &mdash; comme un copyleft. Tout code ajout&eacute; &agrave; un programme couvert par la GPL doit &ecirc;tre un programme libre, m&ecirc;me s'il est plac&eacute; dans un fichier s&eacute;par&eacute;. Je mets mon code &agrave; disposition pour une utilisation dans des logiciels libres, et pas pour un usage avec des logiciels propri&eacute;taires, afin d'encourager ceux qui programment des logiciels &agrave; les rendre libres &eacute;galement. Je suppose que, comme les d&eacute;veloppeurs de logiciels propri&eacute;taires utilisent le copyright pour nous emp&ecirc;cher de partager, nous, coop&eacute;rateurs, pouvons utiliser le copyright pour donner aux autres coop&eacute;rateurs un avantage bien &agrave; eux&nbsp;: ils peuvent utiliser notre code."
+
+# type: Content of: <p>
+msgid "Not everyone who uses the GNU GPL has this goal.  Many years ago, a friend of mine was asked to rerelease a copylefted program under non-copyleft terms, and he responded more or less like this:"
+msgstr "Ceux qui utilisent la GNU GPL n'ont pas tous ce but. Il y a plusieurs ann&eacute;es, on a demand&eacute; &agrave; un de mes amis de r&eacute;&eacute;diter un programme copyleft&eacute; sous des termes non copyleft&eacute;s, et il a plus ou moins r&eacute;pondu ainsi&nbsp;:"
+
+# type: Content of: <blockquote><p>
+msgid "Sometimes I work on free software, and sometimes I work on proprietary software&mdash;but when I work on proprietary software, I expect to get <em>paid</em>."
+msgstr "Parfois je travaille sur des logiciels libres et parfois sur des logiciels propri&eacute;taires&nbsp;; mais quand je travaille sur des logiciels propri&eacute;taires, j'exige d'&ecirc;tre <em>pay&eacute;</em>."
+
+# type: Content of: <p>
+msgid "He was willing to share his work with a community that shares software, but saw no reason to give a handout to a business making products that would be off limits to our community.  His goal was different from mine, but he decided that the GNU GPL was useful for his goal too."
+msgstr "Il voulait bien partager son travail avec une communaut&eacute; qui partageait les logiciels mais ne voyait aucune raison d'aider un entreprise commerciale dont les produits seraient interdits &agrave; notre communaut&eacute;. Son but &eacute;tait diff&eacute;rent du mien mais il a d&eacute;cid&eacute; que la GNU GPL le satisfaisait &eacute;galement."
+
+# type: Content of: <p>
+msgid "If you want to accomplish something in the world, idealism is not enough&mdash;you need to choose a method that works to achieve the goal.  In other words, you need to be &ldquo;pragmatic.&rdquo; Is the GPL pragmatic? Let's look at its results."
+msgstr "Si vous voulez accomplir quelque chose dans le monde, l'id&eacute;alisme ne suffit pas&nbsp;; le choix d'une m&eacute;thode qui m&egrave;ne &agrave; l'accomplissement de ce but est n&eacute;cessaire. En d'autres termes, vous devez &ecirc;tre &laquo;&nbsp;pragmatique&nbsp;&raquo;. La GPL est-elle pragmatique&nbsp;? Regardons ses accomplissements."
+
+# type: Content of: <p>
+msgid "Consider GNU C++.  Why do we have a free C++ compiler? Only because the GNU GPL said it had to be free.  GNU C++ was developed by an industry consortium, MCC, starting from the GNU C compiler.  MCC normally makes its work as proprietary as can be.  But they made the C++ front end free software, because the GNU GPL said that was the only way they could release it.  The C++ front end included many new files, but since they were meant to be linked with GCC, the GPL did apply to them.  The benefit to our community is evident."
+msgstr "Consid&eacute;rons GNU C++. Pourquoi existe-t-il un compilateur C++ libre&nbsp;? Uniquement parce que la GNU GPL indiquait qu'il devait &ecirc;tre libre. MCC, un consortium industriel, a d&eacute;velopp&eacute; GNU C++ &agrave; partir du compilateur GNU C. En temps normal, MCC rend sa production aussi propri&eacute;taire que possible. Mais ils ont fait une interface C++ libre parce que c'&eacute;tait la seule possibilit&eacute; de l'&eacute;diter que leur laissait la GNU GPL. L'interface C++ comportait beaucoup de nouveaux fichiers, mais comme ils &eacute;taient pr&eacute;vus pour &ecirc;tre li&eacute;s &agrave; GCC, la GPL s'appliquait &agrave; eux. Le b&eacute;n&eacute;fice pour notre communaut&eacute; est &eacute;vident."
+
+# type: Content of: <p>
+msgid "Consider GNU Objective C.  NeXT initially wanted to make this front end proprietary; they proposed to release it as <samp>.o</samp> files, and let users link them with the rest of GCC, thinking this might be a way around the GPL's requirements.  But our lawyer said that this would not evade the requirements, that it was not allowed.  And so they made the Objective C front end free software."
+msgstr "Consid&eacute;rons GNU Objective C. Au d&eacute;but, NeXT voulait rendre cette interface propri&eacute;taire&nbsp;; ils avaient l'intention de l'&eacute;diter sous la forme de fichiers <samp>.o</samp> et de laisser aux utilisateurs le soin de les attacher au reste de GCC, pensant pouvoir ainsi contourner les conditions de la GPL. Mais nos juristes ont dit que cela n'esquivait pas ces conditions et &eacute;tait interdit. Et ainsi l'interface Objective C fut un logiciel libre."
+
+# type: Content of: <p>
+msgid "Those examples happened years ago, but the GNU GPL continues to bring us more free software."
+msgstr "Ces exemples datent de plusieurs ann&eacute;es, mais la GNU GPL continue &agrave; nous apporter toujours plus de logiciels libres."
+
+# type: Content of: <p>
+msgid "Many GNU libraries are covered by the GNU Lesser General Public License, but not all.  One GNU library which is covered by the ordinary GNU GPL is Readline, which implements command-line editing.  I once found out about a non-free program which was designed to use Readline, and told the developer this was not allowed.  He could have taken command-line editing out of the program, but what he actually did was rerelease it under the GPL.  Now it is free software."
+msgstr "Beaucoup de biblioth&egrave;ques GNU sont couvertes par la GNU Lesser Library General Public License, mais pas toutes. Readline, qui met en &oelig;uvre l'&eacute;dition de ligne de commande, est une des biblioth&egrave;ques GNU couvertes par la GNU GPL classique. Un jour, j'ai d&eacute;couvert un programme propri&eacute;taire con&ccedil;u pour utiliser Readline, et j'ai dit au d&eacute;veloppeur que cela &eacute;tait interdit. Il aurait pu sortir du programme l'&eacute;dition de ligne de commande, mais ce qu'il fit en fait, fut de le r&eacute;&eacute;diter sous la GPL. Maintenant, c'est un logiciel libre."
+
+# type: Content of: <p>
+msgid "The programmers who write improvements to GCC (or Emacs, or Bash, or Linux, or any GPL-covered program) are often employed by companies or universities.  When the programmer wants to return his improvements to the community, and see his code in the next release, the boss may say, &ldquo;Hold on there&mdash;your code belongs to us! We don't want to share it; we have decided to turn your improved version into a proprietary software product.&rdquo;"
+msgstr "Les programmeurs qui con&ccedil;oivent des am&eacute;liorations pour GCC ( ou Emacs, Bash, Linux ou tout programme couvert par la GPL ) sont souvent employ&eacute;s par des entreprises ou des universit&eacute;s. Lorsque le programmeur veut remettre son am&eacute;lioration &agrave; la communaut&eacute; et voir son code dans la prochaine &eacute;dition, il est probable que son patron lui dise&nbsp;: &laquo;&nbsp;Attendez un peu&nbsp;; votre code nous appartient&nbsp;! Nous ne voulons pas le partager&nbsp;; nous avons d&eacute;cid&eacute; de placer votre version am&eacute;lior&eacute;e dans un logiciel propri&eacute;taire&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "Here the GNU GPL comes to the rescue.  The programmer shows the boss that this proprietary software product would be copyright infringement, and the boss realizes that he has only two choices: release the new code as free software, or not at all.  Almost always he lets the programmer do as he intended all along, and the code goes into the next release."
+msgstr "C'est &agrave; ce moment qu'intervient la GNU GPL. Le programmeur montre &agrave; son patron que ce logiciel propri&eacute;taire serait une violation de copyright, et ce dernier r&eacute;alise qu'il ne lui reste que deux possibilit&eacute;s&nbsp;: publier le code en tant que logiciel libre ou pas du tout. Il laisse presque toujours le programmeur faire ce qu'il voulait initialement et le code est inclus dans la prochaine version."
+
+# type: Content of: <p>
+msgid "The GNU GPL is not Mr. Nice Guy.  It says &ldquo;no&rdquo; to some of the things that people sometimes want to do.  There are users who say that this is a bad thing&mdash;that the GPL &ldquo;excludes&rdquo; some proprietary software developers who &ldquo;need to be brought into the free software community.&rdquo;"
+msgstr "La GNU GPL n'est pas M. Chic Type. Elle dit &laquo;&nbsp;non&nbsp;&raquo; &agrave; certaines choses qu'on aimerait parfois faire. Certains utilisateurs disent qu'il est dommage que la GPL &laquo;&nbsp;exclut&nbsp;&raquo; certains d&eacute;veloppeurs de logiciels propri&eacute;taires qui &laquo;&nbsp;auraient besoin d'&ecirc;tre amen&eacute;s &agrave; la communaut&eacute; du logiciel libre&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "But we are not excluding them from our community; they are choosing not to enter.  Their decision to make software proprietary is a decision to stay out of our community.  Being in our community means joining in cooperation with us; we cannot &ldquo;bring them into our community&rdquo; if they don't want to join."
+msgstr "Mais nous ne les excluons pas de notre communaut&eacute;&nbsp;; ils ont choisi de ne pas y entrer. D&eacute;cider de concevoir des logiciels propri&eacute;taires, c'est d&eacute;cider de rester en dehors de notre communaut&eacute;. Appartenir &agrave; notre communaut&eacute; signifie prendre part &agrave; notre coop&eacute;ration&nbsp;; nous ne pouvons pas &laquo;&nbsp;les amener &agrave; notre communaut&eacute;&nbsp;&raquo; s'ils ne le d&eacute;sirent pas."
+
+# type: Content of: <p>
+msgid "What we <em>can</em> do is offer them an inducement to join.  The GNU GPL is designed to make an inducement from our existing software: &ldquo;If you will make your software free, you can use this code.&rdquo; Of course, it won't win 'em all, but it wins some of the time."
+msgstr "Ce que nous <em>pouvons</em> faire, c'est les inciter &agrave; nous rejoindre. La GNU GPL est faite pour utiliser comme app&acirc;ts les logiciels que nous poss&eacute;dons&nbsp;: &laquo;&nbsp;Si vous faites des logiciels libres, vous pourrez utiliser ces codes&nbsp;&raquo;. Bien s&ucirc;r, cela ne les convaincra pas tous, mais nous en gagnerons un de temps en temps."
+
+# type: Content of: <p>
+msgid "Proprietary software development does not contribute to our community, but its developers often want handouts from us.  Free software users can offer free software developers strokes for the ego&mdash;recognition and gratitude&mdash;but it can be very tempting when a business tells you, &ldquo;Just let us put your package in our proprietary program, and your program will be used by many thousands of people!&rdquo; The temptation can be powerful, but in the long run we are all better off if we resist it."
+msgstr "La r&eacute;alisation de logiciels propri&eacute;taires ne participe pas &agrave; notre communaut&eacute;, mais ses d&eacute;veloppeurs souhaitent souvent une aide de notre part. Les utilisateurs de logiciels libres peuvent offrir des encouragements pour l'&eacute;go des d&eacute;veloppeurs de logiciels libres &mdash; reconnaissance et gratitude &mdash; mais ils peuvent &ecirc;tre tent&eacute;s lorsqu'une entreprise leur dit&nbsp;: &laquo;&nbsp;Laissez-nous juste placer votre logiciel dans notre programme propri&eacute;taire et il sera utilis&eacute; par des milliers de gens&nbsp;!&nbsp;&raquo; La tentation peut &ecirc;tre forte, mais &agrave; long terme, nous nous sentons tous mieux si nous y avons r&eacute;sist&eacute;."
+
+# type: Content of: <p>
+msgid "The temptation and pressure are harder to recognize when they come indirectly, through free software organizations that have adopted a policy of catering to proprietary software.  The X Consortium (and its successor, the Open Group) offers an example: funded by companies that made proprietary software, they have strived for a decade to persuade programmers not to use copyleft.  Now that the Open Group has <a href=\"/philosophy/x.html\">made X11R6.4 non-free software</a>, those of us who resisted that pressure are glad that we did."
+msgstr "Il est plus difficile de reconna&icirc;tre les pressions et tentations quand elles viennent indirectement, au travers d'organisations pour les logiciels libres qui ont adopt&eacute; une politique satisfaisant aux logiciels propri&eacute;taires. Le Consortium X (et son successeur l'Open Group) en sont un exemple&nbsp;: fond&eacute; par des soci&eacute;t&eacute;s qui font des logiciels propri&eacute;taires, ils se sont efforc&eacute;s de persuader les programmeurs de ne pas utiliser de copyleft pendant des d&eacute;cennies. Maintenant que l'Open Group a <a href=\"/philosophy/x.fr.html\">fait de X11R6.4 un logiciel propri&eacute;taire</a>, ceux d'entre nous qui ont r&eacute;sist&eacute; &agrave; cette pression sont heureux de l'avoir fait."
+
+# type: Content of: <p>
+msgid "[In September 1998, several months after X11R6.4 was released with non-free distribtion terms, the Open Group reversed its decision and rereleased it under the same non-copyleft free software license that was used for X11R6.3.  Thank you, Open Group&mdash;but this subsequent reversal does not invalidate the conclusions we draw from the fact that adding the restrictions was <em>possible</em>.]"
+msgstr "[En septembre 1998, plusieurs mois apr&egrave;s que X11R6.4 ait &eacute;t&eacute; distribu&eacute; sous une licence non-libre, l'Open Group a revu sa d&eacute;cision et l'a redistribu&eacute; sous la m&ecirc;me licence de logiciel libre non-copyleft&eacute; que X11R6.3. Merci, l'Open Group&nbsp;; mais ce revirement ult&eacute;rieur n'infirme pas les conclusions que nous avions tir&eacute;es du fait que l'ajout de restrictions &eacute;tait <em>possible</em>.]"
+
+# type: Content of: <p>
+msgid "Pragmatically speaking, thinking about greater long-term goals will strengthen your will to resist this pressure.  If you focus your mind on the freedom and community that you can build by staying firm, you will find the strength to do it.  &ldquo;Stand for something, or you will fall for nothing.&rdquo;"
+msgstr "Pour parler pragmatiquement, avoir une vision &agrave; plus long terme affermira votre volont&eacute; de r&eacute;sister &agrave; cette pression. Si vous concentrez votre attention sur la libert&eacute; et la communaut&eacute; que vous pouvez b&acirc;tir en restant ferme, vous trouverez la force de le faire. &laquo;&nbsp;Restez debout pour quelque chose ou vous tomberez pour rien&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "And if cynics ridicule freedom, ridicule community&hellip;if &ldquo;hard nosed realists&rdquo; say that profit is the only ideal&hellip;just ignore them, and use copyleft all the same."
+msgstr "Et si des personnes cyniques ridiculisent la libert&eacute;, la communaut&eacute;&hellip; si des &laquo;&nbsp;r&eacute;alistes forcen&eacute;s&nbsp;&raquo; disent que le profit est le seul id&eacute;al&hellip; ignorez-les et utilisez le copyleft tout de m&ecirc;me."
+
+# type: Content of: <h4>
+msgid "This essay is published in <a href=\"http://shop.fsf.org/product/free-software-free-society/\"><cite>Free Software, Free Society: The Selected Essays of Richard M. Stallman</cite></a>."
+msgstr "Cet article est publi&eacute; dans le livre <a href=\"http://shop.fsf.org/product/free-software-free-society/\"><cite>Free Software, Free Society: The Selected Essays of RichardM. Stallman</cite></a>."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 1998, 2003 Free Software Foundation, Inc.,"
+msgstr "Copyright &copy; 1998, 2003 Free Software Foundation, Inc.,"
+
+# type: Content of: <div><address>
+msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+
+# type: Content of: <div><p>
+msgid "Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved."
+msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: ?<br />Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
