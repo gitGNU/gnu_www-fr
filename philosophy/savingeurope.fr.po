@@ -1,0 +1,140 @@
+# French translation of http://www.gnu.org/philosophy/savingeurope.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the savingeurope.html package.
+# Pascal Desroche, 2008.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: savingeurope.html\n"
+"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"PO-Revision-Date: 2009-01-17 19:50+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "Saving Europe from Software Patents - GNU Project - Free Software Foundation (FSF)"
+msgstr "Sauver l'Europe des brevets sur les logiciels - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+msgid "Saving Europe from Software Patents"
+msgstr "Sauver l'Europe des brevets sur les logiciels"
+
+# type: Content of: <p>
+msgid "Imagine that each time you made a software design decision, and especially whenever you used an algorithm that you read in a journal or implemented a feature that users ask for, you took a risk of being sued."
+msgstr "Imaginez qu'&agrave; chaque d&eacute;cision de conception de logiciel que vous avez prise, et particuli&egrave;rement lorsque vous avez utilis&eacute; un algorithme lu dans une revue ou mis en œuvre une fonctionnalit&eacute; demand&eacute;e par les utilisateurs, vous preniez le risque d'&ecirc;tre poursuivi en justice."
+
+# type: Content of: <p>
+msgid "That's how it is today in the US, because of software patents.  Soon it may be the same in most of Europe (<a href=\"#ft1\">1</a>).  The countries that operate the European Patent Office, spurred by large companies and encouraged by patent lawyers, are moving to allow patents covering mathematical computations."
+msgstr "C'est la situation actuelle aux USA, gr&acirc;ce aux brevets sur le logiciel.  Bient&ocirc;t, ce pourrait &ecirc;tre similaire dans la majeure partie de l'Europe (<a href=\"#ft1\" name=\"toc1\">1</a>). Les pays op&eacute;rant au sein du Bureau europ&eacute;en de la propri&eacute;t&eacute; industrielle, aiguill&eacute;s par de grands groupes et encourag&eacute;s par les cabinets d'avocats sp&eacute;cialis&eacute;s, s'orientent vers l'autorisation de brevets recouvrant les calculs math&eacute;matiques."
+
+# type: Content of: <p>
+msgid "To block this move, European citizens must take action, and do it soon&mdash;by talking with their national governments to raise opposition to the change.  Action in Germany, Sweden, Finland, the Netherlands, and/or Denmark is especially important, to join a campaign already under way in France."
+msgstr "Pour stopper ce mouvement, les citoyens europ&eacute;ens doivent agir, et le faire vite en &eacute;tablissant un dialogue avec les gouvernements nationaux les menant &agrave; s'opposer &agrave; ce changement. Agir en Allemagne, en Su&egrave;de, en Finlande, aux Pays-Bas et/ou au Danemark est particuli&egrave;rement important, pour rallier la campagne dej&agrave; initi&eacute;e en France."
+
+# type: Content of: <p>
+msgid "Patents have played havoc with free software already.  During the 1980s, the patent holders for public key encryption entirely suppressed free software for that job.  They wanted to suppress <acronym title=\"Pretty Good Privacy\">PGP</acronym> too, but facing public criticism, they accepted a compromise: adding restrictions to <acronym>PGP</acronym> so that it was no longer free software.  (We began developing the GNU Privacy Guard after the broadest patent expired.)"
+msgstr "Les brevets ont d&eacute;j&agrave; fait des ravages sur le logiciel libre. Pendant les ann&eacute;es 1980, les d&eacute;tenteurs de brevets portant sur les cl&eacute;s publiques de cryptage ont compl&egrave;tement &eacute;cart&eacute; les  logiciels libres du sujet. Ils voulaient &eacute;galement supprimer <acronym title=\"Pretty Good Privacy\">PGP</acronym>, mais, face &agrave; la critique publique, se sont r&eacute;solus &agrave; un compromis&nbsp;: ajouter des restrictions &agrave; PGP pour qu'il ne soit plus un logiciel libre. (Nous avons commenc&eacute; &agrave; d&eacute;velopper GNU Privacy Guard apr&egrave;s  que le brevet le plus large expire)."
+
+# type: Content of: <p>
+msgid "Compuserve developed <abbr title=\"Graphics Interchange Format\"> GIF</abbr> format for images, then was stunned when Unisys threatened to sue them and everyone else who developed or ran software to produce <abbr>GIF</abbr>s.  Unisys had obtained a patent on the <abbr title=\"Lempel-Ziv-Welch\">LZW</abbr> data compression algorithm, which is one part of generating <abbr>GIF</abbr> format, and refuses to permit free software to use <abbr>LZW</abbr> (<a href=\"#ft2\">2</a>).  As a result, any free software in the US that supports making true compressed <abbr>GIF</abbr>s is at risk of a lawsuit."
+msgstr "Compuserve a d&eacute;velopp&eacute; le format <abbr title=\"Graphics Interchange Format\">GIF</abbr> pour les images et fut abasourdi lorsqu'Unisys mena&ccedil;a de les poursuivre ainsi que tous ceux d&eacute;veloppant ou utilisant des logiciels pour produire des GIF. Unisys avait obtenu un brevet sur l'algorithme de compression de donn&eacute;es <abbr title=\"Lempel-Ziv-Welch\">LZW</abbr>, n&eacute;cessaire &agrave; la g&eacute;n&eacute;ration du format GIF, refusant ainsi au logiciel libre d'utiliser LZW (<a href=\"#ft2\" name=\"toc2\">2</a>). R&eacute;sultat, tout logiciel libre aux USA permettant de produire de vrais GIF compress&eacute;s est un risque de poursuite en justice."
+
+# type: Content of: <p>
+msgid "In the US and some other countries, free software for <abbr title=\"MPEG-1 Audio Layer 3\">MP3</abbr> is impossible; in 1998, US developers who had developed free <abbr>MP3</abbr>-generation programs were threatened with patent lawsuits, and forced to withdraw them.  Some are now distributed in European countries&mdash;but if the European Patent Office makes this planned change, they may become unavailable there too."
+msgstr "Aux USA ainsi que dans d'autres pays, un logiciel libre pour <abbr title=\"MPEG-1 Audio Layer 3\">MP3</abbr>, c'est impossible; en 1998, des d&eacute;veloppeurs am&eacute;ricains qui avaient r&eacute;alis&eacute; des programmes de g&eacute;n&eacute;ration MP3 ont &eacute;t&eacute; menac&eacute;s d'atteinte &agrave; la propri&eacute;t&eacute; industrielle et forc&eacute;s de les retirer. Certains sont maintenant distribu&eacute;s en Europe &mdash; mais si le Bureau europ&eacute;en de la propri&eacute;t&eacute; industrielle poursuit les orientations pr&eacute;vues, ils risquent de devenir indisponibles &eacute;galement."
+
+# type: Content of: <p>
+msgid "Later in 1998, Microsoft menaced the World Wide Web, by obtaining a patent affecting style sheets&mdash;after encouraging the WWW Consortium to incorporate the feature in the standard.  It's not the first time that a standards group has been lured into a patent's maw.  Public reaction convinced Microsoft to back down from enforcing this patent; but we can't count on mercy every time."
+msgstr "Quelques temps plus tard en 1998, Microsoft mena&ccedil;a le World Wide Web en obtenant un brevet sur les feuilles de style &mdash; apr&egrave;s avoir encourag&eacute; le WWW Consortium &agrave; les incorporer dans les standards. Ce n'est pas la premi&egrave;re fois qu'un groupe de standardisation se fait pi&eacute;ger par un brevet. La r&eacute;action publique convainquit Microsoft de d&eacute;roger &agrave; la mise en application du brevet. Mais on ne peut pas compter sur l'indulgence &agrave; chaque fois."
+
+# type: Content of: <p>
+msgid "The list could go on and on, if I had time to look through my old mail for examples and space to describe them."
+msgstr "Cette liste pourrait s'allonger encore et encore, si j'avais le temps de compulser les exemples contenus dans mon ancien courrier et l'espace pour les d&eacute;crire."
+
+# type: Content of: <p>
+msgid "On the issue of patents, free software developers can make common cause with most proprietary software developers, because in general they too stand to lose from patents.  So do the many developers of specialized custom software."
+msgstr "Vis-&agrave;-vis des brevets, les d&eacute;veloppeurs de logiciels libres peuvent faire cause commune avec la plupart des d&eacute;veloppeurs de logiciels propri&eacute;taires, car en g&eacute;n&eacute;ral les deux sont perdants sur les brevets. Il en est de m&ecirc;me des nombreux d&eacute;veloppeurs de progiciels."
+
+# type: Content of: <p>
+msgid "To be sure, not everyone loses from software patents; if that were so, the system would soon be abolished.  Large companies often have many patents, and can force most other companies, large or small, to cross-license with them.  They escape most of the trouble patents cause, while enjoying a large share of the power patents confer.  This is why the chief supporters of software patents are multinational corporations.  They have a great deal of influence with governments."
+msgstr "Soyons en s&ucirc;r, tout le monde n'est pas perdant sur les brevets. Si c'&eacute;tait le cas, le syst&egrave;me serait rapidement aboli. Les grands groupes d&eacute;tiennent souvent de nombreux brevets, et peuvent forcer la plupart des autres entreprises, grandes ou petites, &agrave; des brevets crois&eacute;s. Ils &eacute;chappent &agrave; la majeure partie des probl&egrave;mes caus&eacute;s par les brevets, en se d&eacute;lectant du pouvoir que les brevets leur conf&egrave;rent. Voil&agrave; pourquoi les supporters en chef des brevets sont des multinationales. Elles ont un pouvoir d'influence cons&eacute;quent sur les gouvernements."
+
+# type: Content of: <p>
+msgid "Occasionally a small company benefits from a patent, if its product is so simple that it escapes infringing the large companies' patents and thus being forced to cross-license with them.  And patent owners who develop no products, but only squeeze money out of those who do, can laugh all the way to the bank while obstructing progress."
+msgstr "Occasionnellement, une petite entreprise peut profiter d'un brevet, lorsque son produit est suffisamment simple pour ne pas transgresser les brevets des grands groupes et ne pas avoir &agrave; passer des accords de brevets crois&eacute;s. Et les propri&eacute;taires de brevets qui ne d&eacute;veloppent aucun produit, mais pompent l'argent de ceux qui le font, peuvent se marrer sur le chemin de la banque en enrayant le progr&egrave;s."
+
+# type: Content of: <p>
+msgid "But most software developers, as well as users, lose from software patents, which do more to obstruct software progress than to encourage it."
+msgstr "Mais la plupart des d&eacute;veloppeurs de logiciel, tout comme les utilisateurs, sont perdants sur les brevets logiciels, qui sont plus un obstacle &agrave; la progression des logiciels qu'un encouragement."
+
+# type: Content of: <p>
+msgid "People used to call free software an absurd idea, saying we lacked the ability to develop a large amount of software.  We have refuted them with empirical fact, by developing a broad range of powerful software that respects users' freedom.  Giving the public the full spectrum of general-purpose software is within our reach&mdash;unless giving software to the public is prohibited."
+msgstr "Les gens avaient tendance &agrave; prendre le logiciel libre pour une id&eacute;e absurde, pr&eacute;tendant qu'il nous manquait l'aptitude &agrave; d&eacute;velopper une grande quantit&eacute; de logiciels. Ce que nous avons r&eacute;fut&eacute; en d&eacute;veloppant une large gamme de logiciels puissants respectant la libert&eacute; de l'utilisateur. Donner au public le spectre complet de logiciels &agrave; tout faire est en notre pouvoir &mdash; &agrave; moins qu'il ne soit interdit de donner des logiciels au public."
+
+# type: Content of: <p>
+msgid "Software patents threaten to do that.  The time to take action is now.  Please visit <a href=\"http://www.ffii.org/\">www.ffii.org</a> for more information, plus detailed suggestions for action.  And please take time to help."
+msgstr "Les brevets logiciels suivent cette voie mena&ccedil;ante. Le temps d'agir est venu. Merci de consulter <a href=\"http://www.ffii.org/\">www.ffii.org</a> pour plus d'information, des suggestions d'actions plus d&eacute;taill&eacute;es. Et s'il vous pla&icirc;t, prenez le temps d'aider."
+
+# type: Content of: <h4>
+msgid "Footnotes:"
+msgstr "Notes&nbsp;"
+
+# type: Content of: <ol><li>
+msgid "<a id=\"ft1\"></a>The European Patent Office, used by many European countries, has issued quite a number of patents that affect software, which were presented as something other than software patents.  The change now being considered would open the door to unlimited patenting of algorithms and software features, which would greatly increase the number of software patents issued."
+msgstr "<a id=\"ft1\">1</a>Le Bureau europ&eacute;en de la propri&eacute;t&eacute; industrielle, utilis&eacute; par de nombreux pays europ&eacute;ens, a &eacute;mis un nombre certain de brevets avec des cons&eacute;quences sur les logiciels, ayant &eacute;t&eacute; pr&eacute;sent&eacute;s comme autre chose que des brevets logiciel. Le changement pris en compte ouvrirait la porte au brevetage illimit&eacute; d'algorithmes et de fonctionnalit&eacute;s logicielles, accroissant fortement le nombre de brevets logiciel &eacute;mis."
+
+# type: Content of: <ol><li>
+msgid "<a id=\"ft2\"></a>Unisys issued a cleverly worded statement which is often taken to permit free software for making <abbr>GIF</abbr>s, but which I believe does not do so.  I wrote to their legal department to ask for clarification and/or a change in the policy, but received no reply."
+msgstr "<a id=\"ft2\">2</a>Unisys a &eacute;mis une sp&eacute;cification astucieusement formul&eacute;e qui est souvent comprise comme une autorisation de produire des GIF avec des logiciels libres, mais qui, je crois, n'en est pas une. J'ai &eacute;crit &agrave; leur d&eacute;partement juridique pour leur demander une clarification et/ou une modification de leur politique, mais je n'ai re&ccedil;u aucune r&eacute;ponse."
+
+# type: Content of: <h4>
+msgid "<a href=\"/philosophy/philosophy.html\">Other Texts to Read</a>"
+msgstr "<a href=\"/philosophy/philosophy.fr.html\">Autres textes à lire</a>"
+
+# type: Content of: <ul><li>
+msgid "Get the latest threats to Europe's internet from <a href=\"http://www.ffii.org\">ffii.org</a>"
+msgstr "Obtenez les derni&egrave;res menaces pour l'Internet europ&eacute;en sur le site <a href=\"http://www.ffii.org\">ffii.org</a>"
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 1996, 1997, 1998, 1999, 2007 Free Software Foundation, Inc.,"
+msgstr "Copyright &copy; 1996, 1997, 1998, 1999, 2007 Free Software Foundation, Inc.,"
+
+# type: Content of: <div><address>
+msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+
+# type: Content of: <div><p>
+msgid "Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved."
+msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Pascal Desroche.<br />Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+

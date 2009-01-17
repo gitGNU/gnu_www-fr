@@ -1,0 +1,400 @@
+# French translation of http://www.gnu.org/philosophy/rms-hack.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the rms-hack.html package.
+# Claude le Paih, 2008.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rms-hack.html\n"
+"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"PO-Revision-Date: 2009-01-17 19:26+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "The Hacker Community and Ethics: An Interview with Richard M. Stallman - GNU Project - Free Software Foundation (FSF)"
+msgstr "&Eacute;thique et communaut&eacute; du hacker&nbsp;: un entretien avec Richard M. Stallman - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+msgid "The Hacker Community and Ethics: An Interview with Richard M. Stallman, 2002"
+msgstr "&Eacute;thique et communaut&eacute; du hacker&nbsp;: un entretien avec Richard M. Stallman, 2002"
+
+# type: Content of: <p>
+msgid "by <strong>Richard Stallman</strong>"
+msgstr "par <strong>Richard Stallman</strong>"
+
+# type: Content of: <p>
+msgid "<em>Published in Finnish in Tere Vad&eacute;n &amp; Richard M. Stallman: <a href=\"http://www.uta.fi/%7Efiteva/koodivapaaksi.html\"> Koodi vapaaksi - Hakkerietiikan vaativuus</a>, Tampere University Press. 2002, sivut 62-80.</em>"
+msgstr "<em>Publi&eacute; en finnois dans Tere Vad&eacute;n &amp; Richard M. Stallman&nbsp;: <a href=\"http://www.uta.fi/%7Efiteva/koodivapaaksi.html\">Koodi vapaaksi - Hakkerietiikan vaativuus</a>, Tampere University Press. 2002, sivut 62-80.</em>"
+
+# type: Content of: <h3>
+msgid "Hackerism"
+msgstr "Hackerisme"
+
+# type: Content of: <p>
+msgid "Tere Vad&eacute;n (<b>TV</b>): One of the most striking features of your approach to the issues of technology and software and so on is that you consider ethical and social matters more important than possible technological advantages. While that maybe should be the norm, it unfortunately is not so. The main issues seems to be one of community; what kinds of communities different ways of using technology promote.  Am I guessing right if I believe that you are thinking off ethical issues in terms of communities?"
+msgstr "Tere Vad&eacute;n (<b>TV</b>)&nbsp;: Un des traits les plus frappants de votre approche des probl&egrave;mes de la technologie, des logiciels et du reste, est que vous consid&eacute;rez l'aspect &eacute;thique et social plus important que de possibles avantages techniques. Alors que, peut-&ecirc;tre, cela devrait &ecirc;tre la norme, il n'en est malheureusement pas ainsi. Le principal probl&egrave;me semble &ecirc;tre celui de communaut&eacute;&nbsp;: quels genres de communaut&eacute;s d&eacute;veloppent les diff&eacute;rentes pratiques de la technologie&nbsp;? Ai-je raison de croire que vous pensez les probl&egrave;mes &eacute;thiques en terme de communaut&eacute;s&nbsp;?"
+
+# type: Content of: <p>
+msgid "Richard M. Stallman (<b>RMS</b>): Yes. The way I reached my conclusions about which freedoms are essential for using software, and which kinds of license requirements are acceptable, is by thinking about whether they would interfere with the kinds of use of the software that are necessary to have a functioning community."
+msgstr "Richard M. Stallman (<b>RMS</b>)&nbsp;: Oui. La voie qui m'amena &agrave; conclure quelles sont les libert&eacute;s essentielles &agrave; l'utilisation d'un logiciel, et quels types de licences sont acceptables, fut de me demander si elles devaient interf&eacute;rer avec les modalit&eacute;s d'usage d'un logiciel n&eacute;cessaires pour avoir une commnunaut&eacute; viable."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> The idea of free software was born out of your experiences at <abbr title=\"Massachusetts Institute of Technology\"> MIT</abbr>, and how that community was infiltrated and in some sense destroyed by commercial interests."
+msgstr "<b>TV</b>&nbsp;: L'id&eacute;e de logiciel libre est n&eacute;e de vos exp&eacute;riences au <acronym title=\"Massachusetts Institute of Technology\">M.I.T.</acronym> et de la mani&egrave;re dont cette communaut&eacute; fut infiltr&eacute;e, et dans un certain sens d&eacute;truite, par des int&eacute;r&ecirc;ts commerciaux."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Yes, that is correct. The hackers really enjoyed the freedom to share and change software; that was the basis for our free-wheeling community."
+msgstr "<b>RMS</b>&nbsp;: Oui, c'est correct. Les hackers aimaient r&eacute;ellement la libert&eacute; de partager et modifier les logiciels&nbsp;: c'&eacute;tait la base de notre communaut&eacute; insouciante."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> What does the word &lsquo;hacker&rsquo; mean to you, personally?"
+msgstr "<b>TV</b>&nbsp;: Que veut dire le mot &laquo;&nbsp;hacker&nbsp;&raquo; pour vous, personnellement&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> It means someone who enjoys playful cleverness, especially in programming but other media are also possible. In the 14th century, Guillaume de Machaut wrote a palindromic three-part musical composition. It sounded good, too&mdash;I think I played in it once, because I still remember one of the parts. I think that was a good hack. I heard somewhere that J. S. Bach did something similar.<br /> One possible arena for playful cleverness is breaking security. Hackers never had much respect for bureaucratic restrictions. If the computer was sitting idle because the administrators wouldn't let them use it, they would sometimes figure out how to bypass the obstacles and use it anyway. If this required cleverness, it would be fun in itself, as well as making it possible to do other hacking (for instance, useful work) on the computer instead of twiddling one's thumbs. But not all hackers did security breaking. Many never were interested in that.<br /> On the Incompatible Timesharing System, the operating system developed by the AI lab's hackers, we made it unnecessary to break security: we simply did not implement security in the system. The hackers realized that security would be a mechanism for the administrators to dominate us. So we never game them the means."
+msgstr "<b>RMS</b>&nbsp;: C'est quelqu'un qui aime l'intelligence espi&egrave;gle, particuli&egrave;rement en programmation mais d'autre m&eacute;diums sont aussi possibles. Au XIVe si&egrave;cle, Guillaume de Machaut &eacute;crivit un palindrome&nbsp;<a href=\"#TransNote1\"><sup>1</sup></a> musical en trois parties. Cela sonnait bien, &eacute;galement&nbsp;: j'ai d&ucirc; m'y faire la main une fois car je me rappelle encore une des parties. Je pense que c'&eacute;tait un bon hack&nbsp;<a href=\"#TransNote2\"><sup>2</sup></a>. J'ai entendu quelque part que J. S. Bach fit quelque chose de similaire. Une ar&egrave;ne possible pour l'intelligence espi&egrave;gle est de d&eacute;jouer la s&eacute;curit&eacute;. Les hackers n'ont jamais eu beaucoup de respect pour les freins bureaucratiques. Si l'ordinateur restait inoccup&eacute; parce que l'administrateur ne les laissait pas l'utiliser, ils s'arrangeaient parfois pour contourner l'obstacle et s'en servir quand m&ecirc;me. Si cela demandait de l'astuce, c'&eacute;tait amusant en soi, tout autant que de rendre possible une autre bricole (par exemple, un travail utile) sur l'ordinateur plut&ocirc;t que de se tourner les pouces. Mais tous les hackers ne d&eacute;jouaient pas la s&eacute;curit&eacute;, beaucoup ne furent jamais int&eacute;ress&eacute;s par cela. Sur l'<acronym title=\"Incompatible Timesharing System\">I.T.S.</acronym>&nbsp;<a href=\"#TransNote3\"><sup>3</sup></a>, le syst&egrave;me op&eacute;ratoire d&eacute;velopp&eacute; par les hackers du Laboratoire d'<acronym title=\"Intelligence Artificielle\">I.A.</acronym>&nbsp;<a href=\"#TransNote4\"><sup>4</sup></a>, nous avons rendu inutile le contournement de s&eacute;curit&eacute;&nbsp;: nous n'avions simplement pas mis en &oelig;uvre de s&eacute;curit&eacute; dans le syst&egrave;me. Les hackers avaient r&eacute;alis&eacute; que la s&eacute;curit&eacute; serait un m&eacute;canisme de domination de la part des administrateurs. Aussi, nous ne leur en avons pas donn&eacute; les moyens."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> How about the concepts of freedom and community? There's this idea that freedom to distribute ideas, thoughts, recipes and software creates the best kinds of communities or at least better than those based on commercial limitations on distribution and sharing."
+msgstr "<b>TV</b>&nbsp;: Et au sujet des concepts de libert&eacute; et de communaut&eacute;&nbsp;? Il y a cette id&eacute;e que la libert&eacute; de distribuer id&eacute;es, pens&eacute;es, recettes et logiciels cr&eacute;e le meilleur type de communaut&eacute;, du moins meilleur que celui bas&eacute; sur des limitations commerciales de distribution et de partage."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> I think it is a mistake to label these restrictions as &ldquo;commercial&rdquo;, because that pertains to the motive for the restrictions.  The same restrictions, if imposed for a different motive, would do the same harm. What matters is the restrictions, not the motive. Commercial software can be free or non-free, just as noncommercial software can be free or non-free. It only depends on the license."
+msgstr "<b>RMS</b>&nbsp;: Je pense que c'est une erreur de d&eacute;nommer ces restrictions comme &eacute;tant &laquo;&nbsp;commerciales&nbsp;&raquo;, car cela se rapporte aux motifs des restrictions. Les m&ecirc;mes restrictions impos&eacute;es pour des intentions diff&eacute;rentes feraient les m&ecirc;mes d&eacute;g&acirc;ts. Ce qui importe, ce sont les restrictions, pas les raisons. Un logiciel commercial peut &ecirc;tre libre ou pas, tout comme un logiciel non-commercial peut &ecirc;tre libre ou pas. Cela ne d&eacute;pend que de la licence."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> How would you delineate the distinction between the public (communal, freedom-based) and the commercial spheres?"
+msgstr "<b>TV</b>&nbsp;: Comment d&eacute;finiriez-vous la distinction entre les sph&egrave;res publiques (communautaires, bas&eacute;es sur la libert&eacute;) et commerciales&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Comparing free with commercial is like comparing happiness with purple. It doesn't make sense, because they are not answers to the same question. They are not alternatives. The meaningful comparison is between free and non-free software."
+msgstr "<b>RMS</b>&nbsp;: Comparer libre avec commercial revient &agrave; comparer le bonheur et le pourpre. Cela n'a pas de sens, car il ne r&eacute;pondent pas &agrave; la m&ecirc;me question. Ce ne sont pas des alternatives. La comparaison significative est entre le logiciel libre et non-libre."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> It seems that the distinction between &ldquo;open source&rdquo; and &ldquo;free software&rdquo; is that the open source movement ultimately justifies the idea on utilitarian grounds; open source is the best way of producing functional software; while the ultimate justification for free software is non-calculative, non-utilitarian; freedom is unviolable. Is that a correct interpretation?"
+msgstr "<b>TV</b>&nbsp;: Il semble que la distinction entre &laquo;&nbsp;open source&nbsp;&raquo; et &laquo;&nbsp;logiciel libre&nbsp;&raquo; est que le mouvement &laquo;&nbsp;open source&nbsp;&raquo; justifie en fin de compte l'id&eacute;e d'une base utilitariste&nbsp;: l'open source est la meilleure fa&ccedil;on de produire des logicielsfonctionnels, tandis que la justification d&eacute;finitive du logiciel libre est le non-int&eacute;ressement, le non-utilitarisme, la libert&eacute; est inviolable. Est-ce une interpr&eacute;tation correcte&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> More or less. I would say that freedom has value in itself, just as powerful reliable software does."
+msgstr "<b>RMS</b>&nbsp;: Plus ou moins. Je dirais que la libert&eacute; a sa propre valeur, tout comme un logiciel puissant et fiable."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> But isn't there a problem here; one of the utilitarian calculations of &ldquo;open source&rdquo; is that it is more profitable &mdash; in the sense of making more money or making better softaware &mdash; to use an open source license than a copyleft license. A company like Apple or Nokia will adapt open source up to point, precisely the point where making it more free would turn the profitability down."
+msgstr "<b>TV</b>&nbsp;: Mais n'y a-t-il l&agrave; pas un probl&egrave;me&nbsp;? Un des calculs utilitaristes de &laquo;&nbsp;l'open source&nbsp;&raquo; est qu'il est plus rentable (dans le sens de faire plus d'argent ou de faire de meilleurs logiciels) d'utiliser une licence &laquo;&nbsp;open source&nbsp;&raquo; qu'une licence libre. Une soci&eacute;t&eacute; comme Apple ou Nokia adaptera l'open source juqu'&agrave; un certain point, pr&eacute;cis&eacute;ment le point o&ugrave; le rendre plus libre conduirait &agrave; une perte de rentabilit&eacute;."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> I agree that it is wrong for these decisions (about your freedom and mine) to be made by the software developer for the sake of his profit, just as the decision about whether you and I have freedom of speech should not be made by some third party for his own interests.<br /> I am not going to condemn someone who does the right thing for the wrong reason, but it is true that relying on people to respect our freedom because it is profitable for them to do so is not a reliable system for protecting our freedom. This is the reason why we must reduce the political power of business."
+msgstr "<b>RMS</b>&nbsp;: Je suis d'accord qu'il est mauvais que ces d&eacute;cisions (&agrave; propos de votre libert&eacute; et de la mienne) soient prises par le d&eacute;veloppeur de logiciel pour son profit, tout comme la d&eacute;cision que nous avons, vous et moi, la libert&eacute; de parole, ne devrait pas &ecirc;tre prise par un tiers quelconque dans son seul int&eacute;r&ecirc;t. Je ne vais pas condamner quelqu'un qui fait la bonne chose pour une mauvaise raison, mais il est vrai que compter sur le fait que des gens respectent notre libert&eacute; parce que c'est rentable pour eux, n'est pas un syst&egrave;me fiable pour prot&eacute;ger notre libert&eacute;. C'est la raison pour laquelle nous devons r&eacute;duire le pouvoir politique du commerce."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> The argument that a company would use, of course, is that the profit it creates ultimately benefits the whole society. How would you respond to that?"
+msgstr "<b>TV</b>&nbsp;: Un argument qu'une entreprise utilisera, bien entendu, est que le profit cr&eacute;&eacute; b&eacute;n&eacute;ficiera finalement &agrave; toute la Soci&eacute;t&eacute;. Que r&eacute;pondrez-vous &agrave; cela&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> That is a claim with no basis. A non-free program can only benefit those who don't value their freedom, and thus serves as a temptation for people to give up their freedom. That is harmful to society."
+msgstr "<b>RMS</b>&nbsp;: Que c'est une affirmation sans fondement. Un programme non-libre ne peut profiter qu'&agrave; ceux qui ne valorisent pas leur libert&eacute;, et sert ainsi de tentation pour que les personnes abandonnent leur libert&eacute;. C'est nocif pour la Soci&eacute;t&eacute;."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> There is also this question of individual/private vs public/communal here. It is often in the interests of the individual to do something that threatens the community, threatens freedom."
+msgstr "<b>TV</b>&nbsp;: Il y a ici aussi cette question d'individu/priv&eacute; oppos&eacute; &agrave; public/communautaire. Il est souvent dans l'int&eacute;r&ecirc;t de l'individu de faire quelque chose mena&ccedil;ant la communaut&eacute;, mena&ccedil;ant la libert&eacute;."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> I know. This is why we need to think about right and wrong in making our decisions, and also the reason why societies have a notion of punishing actions that hurt the community."
+msgstr "<b>RMS</b>&nbsp;: Je sais. C'est pourquoi nous devons penser le bon et le mauvais pour prendre nos d&eacute;cisions, c'est aussi pourquoi les soci&eacute;t&eacute;s ont l'id&eacute;e de punir les actes nuisant &agrave; la collectivit&eacute;."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> Now, somebody like Torvalds &mdash; and we don't necessarily have to use any names here &mdash; would probably share your enthusiasm about hackerism in the sense of playful cleverness, and would take that playful cleverness also to the area of being clever in making money and enjoying the good life. Actually that is what he hints at in a recent book called &ldquo;The Hacker Ethics&rdquo;."
+msgstr "<b>TV</b>&nbsp;: Maintenant, quelqu'un comme Torvalds (et nous n'avons pas n&eacute;cessairement &agrave; utiliser de nom, ici), partagerait probablement votre enthousiasme &agrave; propos de &laquo;&nbsp;hackerisme&nbsp;&raquo;&nbsp;<a href=\"#TransNote5\"><sup>5</sup></a> dans le sens d'habilet&eacute; espi&egrave;gle, et transposerait cette habilet&eacute; espi&egrave;gle &agrave; l'art de faire de l'argent et appr&eacute;cier la belle vie. C'est actuellement ce qu'il laisse entendre dans un livre r&eacute;cent appel&eacute; &laquo;&nbsp;L'&eacute;thique du hacker&nbsp;&raquo; (&laquo;&nbsp;The Hacker ethics&nbsp;&raquo;)."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> That is true. Just because someone enjoys hacking does not mean he has an ethical commitment to treating other people properly. Some hackers care about ethics&mdash;I do, for instance&mdash;but that is not part of being a hacker, it is a separate trait. Some stamp collectors care a lot about ethics, while other stamp collectors don't. It is the same for hackers.<br /> I agree with the person who said that there is no hacker ethic, but rather a hacker aesthetic."
+msgstr "<b>RMS</b>&nbsp;: C'est vrai. Le simple fait que quelqu'un aime hacker ne veut pas dire qu'il ait un engagement moral &agrave; traiter les autres correctement. Quelques hackers sont concern&eacute;s par l'&eacute;thique, je le suis par exemple, mais cela ne fait pas partie du fait d'&ecirc;tre hacker, c'est un trait s&eacute;par&eacute;. Certains collectionneurs de timbres sont tr&egrave;s concern&eacute;s par l'&eacute;thique alors que d'autres non. C'est la m&ecirc;me chose pour les hackers. Je suis d'accord avec la personne qui a dit qu'il n'y avait pas d'&eacute;thique du hacker, mais plut&ocirc;t une esth&eacute;tique du hacker."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> Now, if one wants to avoid the negative consequences of the profit-oriented business, it feels that one has to give the individual a good reason for not looking after only his or her own best. And that something, that reason, might be something in the public sphere."
+msgstr "<b>TV</b>&nbsp;: Maintenant, si l'on veut &eacute;viter les cons&eacute;quences n&eacute;gatives du commerce orient&eacute; profit, il semble que l'on doive donner &agrave; l'individu une bonne raison de ne pas chercher uniquement son propre int&eacute;r&ecirc;t. Et que cette chose, cette raison, devrait &ecirc;tre dans la sph&egrave;re publique."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Of course&mdash;but why are you treating this as if it were a new idea that can only be hinted at. This idea is thousands of years old. This is the basic idea of ethics."
+msgstr "<b>RMS</b>&nbsp;: Bien s&ucirc;r. Mais pourquoi traitez-vous cela comme s'il s'agissait d'une nouvelle id&eacute;e que l'on pourrait sugg&eacute;rer&nbsp;? Cette id&eacute;e a des milliers d'ann&eacute;es. C'est la pens&eacute;e m&ecirc;me de l'&eacute;thique."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> The question about hacker aesthetics &mdash; as you explained, there is no special hacker ethics, because a hacker can act ethically or unethically and nothing in hackerism itself necessitates ethical behaviour."
+msgstr "<b>TV</b>&nbsp;: Une question &agrave; propos de l'esth&eacute;tique du hacker&nbsp;: comme vous l'expliquiez, il n'y a pas d'&eacute;thique du hacker particuli&egrave;re, car un hacker peut agir &eacute;thiquement ou non, rien dans le &laquo;&nbsp;hackerism&nbsp;&raquo; n'oblige &agrave; un comportement &eacute;thique."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Hacking is not primarily about an ethical issue. It is an idea of what makes life meaningful. But he may be right that hacking tends to lead a significant number of hackers to think about ethical questions in a certain way. I would not want to completely deny all connection between hacking and views on ethics."
+msgstr "<b>RMS</b>&nbsp;: Le hacking n'est pas au d&eacute;part une question d'&eacute;thique. C'est une id&eacute;e sur ce qui donne un sens &agrave; la vie. Mais il peut &ecirc;tre vrai que le hacking peut amener un nombre significatif de hackers &agrave; penser la question &eacute;thique d'une certaine mani&egrave;re. Je ne voudrais pas compl&egrave;tement rejeter les relations entre hacking et visions sur l'&eacute;thique."
+
+# type: Content of: <p>
+msgid "Although someone said that there was a hacker aesthetic rather than a hacker ethic, I think &ldquo;aesthetic&rdquo; is not quite the right word either.  An aesthetic is an idea of what is beautiful. This is an idea of what is exciting and meaningful. Is there a word for that? I can think of &ldquo;the hacker way&rdquo;, but that sounds rather pompous and new-age."
+msgstr "Bien que quelqu'un ait dit qu'il &eacute;tait plus question d'esth&eacute;tique que d'&eacute;thique, je pense qu'esth&eacute;tique n'est pas, non plus, le bon mot. Une esth&eacute;tique est une id&eacute;e de la beaut&eacute;. C'est une pens&eacute;e de ce qui est &eacute;mouvant et expressif. Y a-t-il un mot pour cela&nbsp;? Je peux penser &agrave; &laquo;&nbsp;la voie du hacker&nbsp;&raquo; (the hacker way), mais cela sonne plut&ocirc;t pompeux et new-age."
+
+# type: Content of: <h3>
+msgid "Community"
+msgstr "Communaut&eacute;"
+
+# type: Content of: <p>
+msgid "<b>TV:</b> Now that brings to mind several questions. For the first, one could maybe inquire after an ideal society or do forth, but let's leave that for the moment."
+msgstr "<b>TV</b>&nbsp;: Maintenant, cela am&egrave;ne plusieurs questions &agrave; l'esprit. Pour la premi&egrave;re, on pourrait peut-&ecirc;tre s'int&eacute;resser &agrave; une soci&eacute;t&eacute; id&eacute;ale ou pousser plus loin, mais laissons cela pour le moment."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> I approach these issues incrementally. I don't think I could try to design an ideal society and have any confidence in the conclusion.  Attempts to propose a society quite different from the ones we know often tend to be disastrously flawed. So instead I propose local changes which I have some reason to believe are good. Note that I didn't imagine the free software community on my own&mdash;if I had, I would not be so confident it is a good idea. I knew that from having tried it."
+msgstr "<b>RMS</b>&nbsp;: J'aborde ces questions d'une mani&egrave;re incr&eacute;mentale. Je ne pense pas pouvoir essayer de concevoir une soci&eacute;t&eacute; id&eacute;ale et &ecirc;tre s&ucirc;r de la conclusion. Les essais pour proposer une soci&eacute;t&eacute; relativement diff&eacute;rente de celles que nous connaissons tendent souvent &agrave; &ecirc;tre d&eacute;sastreusement imparfaits. Donc, &agrave; la place, je propose des changements locaux que j'ai de bonnes raisons de croire bons. Remarquez que je n'ai pas imagin&eacute; seul la communaut&eacute; du logiciel libre&nbsp;: si je l'avais fait, je ne serais pas aussi s&ucirc;r que c'est une bonne id&eacute;e. Je l'ai su pour l'avoir essay&eacute;."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> Is there something that digitalization offers for community-building, something that other media (like printed books)  could not offer, or does digitalization mean &lsquo;just&rsquo; and effectivization of existing means?"
+msgstr "<b>TV</b>&nbsp;: Y a-t-il quelque chose que la num&eacute;risation offre pour l'&eacute;laboration d'une communaut&eacute;, quelque chose que les autres m&eacute;diums (comme les livres imprim&eacute;s) ne pourraient pas offrir, ou num&eacute;risation ne voudrait-elle signifier qu'efficience des moyens d'existence&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Computers and the web make it much easier to work collaboratively and continuing to improve publications. I think that this will become even more true in the future, as people develop better ways to do it.  The proprietary mindset might as well be precisely calculated to deprive us of this benefit of the Internet."
+msgstr "<b>RMS</b>&nbsp;: Les ordinateurs et le Web rendent plus ais&eacute;s le travail collaboratif et l'am&eacute;lioration continue des publications. Je pense que cela deviendra encore plus vrai dans le futur car les gens d&eacute;veloppent de meilleures fa&ccedil;ons d'y arriver. La mentalit&eacute; de marque (NDT&nbsp;: commerciale) pourrait &ecirc;tre pr&eacute;cis&eacute;ment calcul&eacute;e pour nous priver de ce b&eacute;n&eacute;fice de l'Internet."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> Now, from a historical and philosophical perspective it seems that many a good invention or technological advance has resulted in the intensification of colonialization"
+msgstr "<b>TV</b>&nbsp;: Maintenant, d'un point de vue historique et philosophique, il semble que plus d'une bonne invention ou d'avanc&eacute;e technologique soient le r&eacute;sultat d'une intensification du colonialisme."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> In general, technology is a good thing, and we shouldn't turn it down. Technology tends to cause cultural change. This is not necessarily a bad thing, and we should not condemn it in a blanket fashion. There are just certain specific kinds of cultural change that we need to oppose."
+msgstr "<b>RMS</b>&nbsp;: En g&eacute;n&eacute;ral, la technologie est une bonne chose, et nous ne devrions pas l'emp&ecirc;cher. La technologie tend &agrave; cr&eacute;er des changements culturels. Ce n'est pas n&eacute;cessairement une mauvaise chose, et nous ne devrions pas la condamner d&eacute;finitivement. Il n'y a que quelques points specifiques du changement culturel auxquels nous devons nous opposer."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> I do not necessarily want to get stuck on this public/commercial issue, but if we say that we need communal agreements, values and systems that tone down the selfishness of the individual, and we say that the commercial world systematically has a tendency to promote selfishness, then I guess we have to conclude that there is a crucial distinction between the communal and the commercial?"
+msgstr "<b>TV</b>&nbsp;: Je ne veux pas r&eacute;ellement focaliser notre &eacute;change sur l'opposition public/commercial, mais si nous disons que nous avons besoin d'harmonie, de valeurs et de syst&egrave;mes communautaires qui att&eacute;nuent l'&eacute;go&iuml;sme individuel, et si nous disons que le monde commercial a syst&eacute;matiquement tendance &agrave; promouvoir l'&eacute;go&iuml;sme, je pense donc que nous devons conclure qu'il y a une distinction cruciale entre le communautaire et le commercial&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> I would agree. One person can belong to a community and work in a business at the same time. Nevertheless, there is a fundamental conflict between the communitarian attitude and the commercial attitude.  I would not say that the communitarian attitude is good and the commercial attitude is bad. It makes no sense to aim to eliminate the commercial attitude, because that is simply selfishness, and selfishness is vital. People must be selfish to a certain extent, just as they ought to be altruistic to a certain extent. To abolish selfishness would not make sense, even if it were possible."
+msgstr "<b>RMS</b>&nbsp;: J'approuverais. Une personne peut appartenir &agrave; une communaut&eacute; et travailler en entreprise en m&ecirc;me temps. N&eacute;anmoins, il y a un conflit fondamental entre l'attitude communautaire et celle commerciale. Je ne dirais pas que le communautaire est bon et le commercial mauvais. Cela n'a pas de sens de vouloir &eacute;liminer l'attitude commerciale, car il ne s'agit que d'&eacute;go&iuml;sme et ce dernier est vital. Les gens doivent &ecirc;tre &eacute;go&iuml;stes jusqu'&agrave; un certain point, de m&ecirc;me qu'ils doivent &ecirc;tre altruistes jusqu'&agrave; un certain point. Abolir l'&eacute;go&iuml;sme n'aurait pas de sens, m&ecirc;me si cela &eacute;tait possible."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> I mean, in many ways one could say that the communities in the post-industrial countries these days are based on commercialism, i.e., people get together, work, communicate etc. mostly because of commercial reasons."
+msgstr "<b>TV</b>&nbsp;: Je veux dire, de bien des mani&egrave;res on peut dire que les communaut&eacute;s sont bas&eacute;es sur le commercial, de nos jours, dans les pays post-industriels, c'est-&agrave;-dire que les gens sont ensemble, travaillent, communiquent, etc. essentiellement pour des raisons commerciales."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> This is a rather weak and ineffective kind of community, hardly worthy of the name."
+msgstr "<b>RMS</b>&nbsp;: C'est un type de communaut&eacute; plut&ocirc;t faible et inefficace, qui n'en m&eacute;rite gu&egrave;re le nom."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> And, furthermore, like you know, the research and university community is also very tightly bound to the economical interests of the nations states and of the companies,"
+msgstr "<b>TV</b>&nbsp;: Et en plus, comme vous le savez, la communaut&eacute; et la recherche universitaires sont aussi tr&egrave;s li&eacute;es aux int&eacute;rets &eacute;conomiques des &eacute;tats-nations et des entreprises."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Universities ought to resist being turned to commercial purposes, for the sake of their integrity. They have failed to resist.  People will always be partly selfish; to keep selfishness from engulfing society, we need unselfish institutions such as universities and democratic governments to balance the selfishness and put a check on it. The problem today is that organized selfishness is taking over society, crushing the other institutions that were designed to put a check on it."
+msgstr "<b>RMS</b>&nbsp;: Les universit&eacute;s doivent r&eacute;sister &agrave; leur d&eacute;tournement vers des fins commerciales, dans l'int&eacute;r&ecirc;t de leur int&eacute;grit&eacute;. Elle ont &eacute;chou&eacute; &agrave; r&eacute;sister. Les gens seront toujours en partie &eacute;go&iuml;stes&nbsp;: pour se pr&eacute;server de l'&eacute;go&iuml;sme d'une soci&eacute;t&eacute; gloutonne, nous avons besoin d'institutions altruistes et de gouvernements d&eacute;mocratiques pour contrebalancer l'&eacute;go&iuml;sme et le surveiller. Le probl&egrave;me aujourd'hui est que l'&eacute;go&iuml;sme organis&eacute; prend le pas sur la soci&eacute;t&eacute;, &eacute;cartant les autres institutions pens&eacute;es pour l'observer."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> But, the counter argument goes, a free market economy that seeks to maximize profit, is the only way of producing wealth and functioning democratic communities."
+msgstr "<b>TV</b>&nbsp;: Mais arrive le contre argument&nbsp;: une &eacute;conomie de march&eacute; libre cherchant le profit maximum est la seule mani&egrave;re de produire des communaut&eacute;s d&eacute;mocratiques riches et fonctionnelles."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> The free software community shows, as cooperatives in Sweden showed, that this is not true. There are other ways of producing wealth. But beyond that, producing wealth is not the be-all and end-all of a good society. There is no need to bend every aspect of life to maximizing the total wealth. The idea of sacrificing everything else to the production of wealth&mdash;regardless of who gets to share in it!&mdash;is exactly what's wrong with the WTO. As for producing functioning democratic communities, allowing commerce to dominate not only fails to do that, it is directly antagonistic to that."
+msgstr "<b>RMS</b>&nbsp;: La communaut&eacute; du logiciel libre montre, comme les coop&eacute;ratives en Su&egrave;de le montr&egrave;rent, que ce n'est pas vrai. Il y a d'autres moyens de produire de la richesse. Mais au-del&agrave; de cela, produire de la richesse n'est pas la raison d'&ecirc;tre, ni une fin en soi d'une bonne soci&eacute;t&eacute;. Il n'y a aucun besoin de diriger tous les aspects de la vie vers une maximisation de la richesse totale. L'id&eacute;e de sacrifier toute chose pour produire (sans parler du partage&nbsp;!) est exactement ce qui ne va pas dans l'<acronym title=\"Organisation Mondiale du Commerce\">O.M.C.</acronym>&nbsp;<a href=\"#TransNote6\"><sup>6</sup></a>. Pour ce qui est de produire des communaut&eacute;s fonctionnelles et d&eacute;mocratiques, autoriser le commerce &agrave; dominer non seulement ne le permet pas, mais est carr&eacute;ment antagoniste &agrave; cela."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> If ethics applies to everyone, and ethics is based on community, does this mean that there is an ideal community to which everyone should belong?"
+msgstr "<b>TV</b>&nbsp;: Si l'&eacute;thique s'applique &agrave; chacun, et si l'&eacute;thique est bas&eacute;e sur la communaut&eacute;, cela veut-il dire qu'il y a une communaut&eacute; id&eacute;ale &agrave; laquelle chacun devrait appartenir&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> I don't think that follows."
+msgstr "<b>RMS</b>&nbsp;: Je ne pense pas qu'il y ait un rapport."
+
+# type: Content of: <h3>
+msgid "Copyleft"
+msgstr "Copyleft&nbsp;<a href=\"#TransNote7\"><sup>7</sup></a>"
+
+# type: Content of: <p>
+msgid "<b>TV:</b> The concept of copyleft is a brilliant tool for the communal purposes. Could you tell a little on how you arrived at the idea?"
+msgstr "<b>TV</b>&nbsp;: Le concept de copyleft est un outil intelligent dans un but communautaire. Pouvez-vous nous en dire un peu plus sur la d&eacute;marche qui vous mena &agrave; cette id&eacute;e&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> I had seen simple notices of the form &ldquo;verbatim copying permitted provided this notice is preserved&rdquo;, and investigated extending this to handle modification as well."
+msgstr "<b>RMS</b>&nbsp;: J'avais vu de simple notices de la forme &laquo;&nbsp;copie identique autoris&eacute;e sous r&eacute;serve que cette notice soit pr&eacute;serv&eacute;e&nbsp;&raquo;, et &eacute;tudi&eacute; une extension pour g&eacute;rer aussi les modifications."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> Let's take a case here. I can see that a free software developer might be able to make a living by doing free software, because people would pay for the software, pay for the manuals, pay for the joy of being a part of the community, and so on. I don't think that is impossible. The same might go for certain musicians, even scientists and so on. But howabout a writer, a poet, even a musician that works in a very limited language area &mdash; say, Finnish. Making free software or free music or free poetry will not be a viable option, beacuse the community is too small to support that kind of activity."
+msgstr "<b>TV</b>&nbsp;: Prenons un exemple ici. Je peux voir qu'un d&eacute;veloppeur de logiciel libre peut &ecirc;tre capable de vivre en r&eacute;alisant des logiciels libres car les gens paieront pour le logiciel, les manuels, le bonheur de faire partie de la communaut&eacute; et ainsi de suite. Je ne pense pas que cela soit impossible. La m&ecirc;me chose vaut pour certains musiciens, scientifiques et ainsi de suite. Mais qu'en est-il d'un &eacute;crivain, d'un po&egrave;te ou d'un musicien qui travaille dans le champ d'un langage limit&eacute;&nbsp;: disons, le finnois. Faire du logiciel, du po&egrave;me ou de la musique libre ne sera pas une option viable, car la communaut&eacute; est trop petite pour d&eacute;fendre ce genre d'activit&eacute;."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> The current system does rather a bad job of supporting these activities. To replace it with nothing at all would not make things much worse for these people. However, I think that voluntary methods of support could do just as good a job as the present system&mdash;maybe better."
+msgstr "<b>RMS</b>&nbsp;: Le syst&egrave;me actuel joue un aussi mauvais r&ocirc;le dans le soutien de ces activit&eacute;s. Le remplacer par rien ne rendrait pas les choses pires pour ces gens. Quoiqu'il en soit, je pense que des m&eacute;thodes volontaristes de soutien pourraient faire un aussi bon travail que le syst&egrave;me pr&eacute;sent approximatif."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> This seems to lead to some kind of &ldquo;americanization&rdquo; or &ldquo;anglization&rdquo;."
+msgstr "<b>TV</b>&nbsp;: Cela semble conduire &agrave; une sorte d'«&nbsp;am&eacute;ricanisation&nbsp;» ou d'«&nbsp;anglicisation&nbsp;»."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> You can't be serious, can you? Don't you realize that the media-copyright complex is fueling the americanization of culture around the world? Disconnecting that complex would do a lot to improve the situation."
+msgstr "<b>RMS</b>&nbsp;: Vous ne pouvez pas &ecirc;tre s&eacute;rieux, n'est ce pas&nbsp;? N'avez-vous pas r&eacute;alis&eacute; que l'ensemble media-copyright alimente l'am&eacute;ricanisation de la culture dans le monde&nbsp;? D&eacute;connecter cet ensemble ferait beaucoup pour am&eacute;liorer la situation."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> I was just thinking of the fact that in a small language area something like copyrights actually do some good for creative work."
+msgstr "<b>TV</b>&nbsp;: Je ne faisais que penser le fait que dans un champ linguistique r&eacute;duit quelque chose comme le copyright (droit d'auteur) fait un bon travail pour la cr&eacute;ation."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Not much good, though. How many Finnish writers make a living from copyright today? Note that I don't advocate the simple and total abolition of copyright for all kinds of works. See my speech, <a href=\"/philosophy/copyright-and-globalization.html\">Copyright and Globalization</a>."
+msgstr "<b>RMS</b>&nbsp;: Pas si bon malgr&eacute; tout. Combien d'&eacute;crivains finlandais vivent des droits d'auteur aujourd'hui&nbsp;? Notez que je ne d&eacute;fends pas la simple et totale abolition du droit d'auteur pour toutes sortes de travaux. &Eacute;coutez mon discours&nbsp;: <a href=\"/philosophy/copyright-and-globalization.fr.html\">Droit d'auteur et mondialisation</a>."
+
+# type: Content of: <h3>
+msgid "Globalization"
+msgstr "Mondialisation"
+
+# type: Content of: <p>
+msgid "<b>TV:</b> You have touched on some issues of globalization is some recent interviews. One of the problems is that copyright laws put many third world countries in an unfavourable position. Do you think that those countries should not follow the copyright laws?"
+msgstr "<b>TV</b>&nbsp;: Vous avez effleur&eacute; certains probl&egrave;mes de la mondialisation dans plusieurs entretiens r&eacute;cents. L'un d'entre eux est que les lois concernant les droits d'auteur ont mis les pays du tiers monde dans une situation d&eacute;favorable. Pensez-vous que ces pays ne devaient pas suivre les lois sur le droit d'auteur&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> The US when it was a developing country did not recognize foreign copyrights. So why should anyone else? Of course, we know the reason why: it is part of a system of economic domination that the wealthiest business owners have imposed on the rest of the world."
+msgstr "<b>RMS</b>&nbsp;: Les &Eacute;tats-Unis ne reconnaissaient pas les lois &eacute;trang&egrave;res quand ils &eacute;taient dans un pays en d&eacute;veloppement. Aussi pourquoi pas les autres&nbsp;? Bien s&ucirc;r, nous en connaissons les raisons&nbsp;: cela fait partie du syst&egrave;me de domination &eacute;conomique que les propri&eacute;taires des entreprises les plus riches ont impos&eacute; au reste du monde."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> And, furthermore, could one see this issue also in terms of communities? If I remember correctly, you have said that globalization in the economic sense does not seem to be a good way of promoting or distributing well-being."
+msgstr "<b>TV</b>&nbsp;: Et plus encore, peut-on voir ces probl&egrave;mes en terme de communaut&eacute;&nbsp;? Si je me rappelle bien, vous avez dit que la mondialisation au sens &eacute;conomique ne semblait pas &ecirc;tre un bon moyen pour promouvoir ou r&eacute;partir le bien-&ecirc;tre."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> There is nothing wrong with globalization in the abstract. What makes today's form of globalization so bad is not really the global aspect of it. It is that the WTO/IMF system subordinates all other interests to the interests of business. Laws to protect the environment, public health, workers' rights, and the general standard of living, are regularly swept aside. The result is a major transfer of wealth from most people to business owners. Paradoxically, it seems to be accompanied by reduced growth as well. The best way to understand today's &ldquo;globalization&rdquo; is as a system to transfer power from democratic governments to business, which only incidentally happens to be global. Elimination of trade barriers could be a good thing if accompanied by global labor standards, global environmental standards, global health care, a global minimum wage (even if not uniform), and global income taxes. If these were enforced world-wide with the same energy that the US pressures countries to use for copyright enforcement, we could have global trade, clean factories, and high wages. The world-wide free software community is an example of beneficial globalization: people share knowledge with the whole world."
+msgstr "<b>RMS</b>&nbsp;: Il n'y a rien de mauvais dans la mondialisation dans l'abstrait. Ce qui rend la forme actuelle de la mondialisation si mauvaise n'est pas son aspect global. C'est que le syst&eacute;me O.M.C./<acronym title=\"Fond Mon&eacute;taire International\">F.M.I.</acronym>&nbsp;<a href=\"#TransNote8\"><sup>8</sup></a> subordonne tous les autres int&eacute;r&ecirc;ts &agrave; celui des affaires. Les lois de protection environnementale, la sant&eacute; publique, les droits des travailleurs et le standard g&eacute;n&eacute;ral du niveau de vie sont r&eacute;guli&egrave;rement &eacute;cart&eacute;s. Le r&eacute;sultat est un transfert important de la richesse du peuple vers les propri&eacute;taires des entreprises. Paradoxalement, cela para&icirc;t aussi &ecirc;tre accompagn&eacute; d'une r&eacute;duction de la croissance. La meilleure mani&egrave;re de comprendre la mondialisation d'aujourd'hui, c'est comme un syst&egrave;me de transfert de pouvoir des gouvernements d&eacute;mocratiques vers les affaires, lequel n'est global qu'accidentellement. L'&eacute;limination des barri&egrave;res commerciales pourrait &ecirc;tre une bonne chose si elle &eacute;tait accompagn&eacute;e de standards globaux du travail, de l'environnement, de la sant&eacute;, de salaire minimal (m&ecirc;me si non-uniforme) et des imp&ocirc;ts. Si cela &eacute;tait appliqu&eacute; mondialement avec la m&ecirc;me &eacute;nergie que mettent les &Eacute;tats-Unis &agrave; presser les pays d'utiliser le copyright, nous pourrions avoir des &eacute;changes mondiaux, des usines propres et de hauts salaires. La communaut&eacute; mondiale du logiciel libre est un exemple de mondialisation b&eacute;n&eacute;fique&nbsp;: les gens partagent la connaissance avec le monde entier."
+
+# type: Content of: <h3>
+msgid "Ethics"
+msgstr "&Eacute;thique"
+
+# type: Content of: <p>
+msgid "<b>TV:</b> How is ethical &ldquo;work&rdquo; best done? It seems that you often invoke teachers like Buddha or Jesus as examples of a ethical way of life,"
+msgstr "<b>TV</b>&nbsp;: Comment un &laquo;&nbsp;travail&nbsp;&raquo; &eacute;thique est-il le mieux r&eacute;alis&eacute;&nbsp;? On dirait que vous invoquez des professeurs tels Bouddha ou J&eacute;sus comme exemples de vie &eacute;thique."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> I never invoke Jesus. I am not a Christian and I don't especially admire Jesus. I admire Buddha somewhat more, but I don't invoke any teacher or hero as an <b>authority</b>, only perhaps as an <b>example</b>."
+msgstr "<b>RMS</b>&nbsp;: Je n'&eacute;voque jamais J&eacute;sus. Je ne suis pas chr&eacute;tien et n'admire pas sp&eacute;cialement J&eacute;sus. J'admire Bouddha un peu plus, mais je n'&eacute;voque aucun professeur ou h&eacute;ros en tant qu'autorit&eacute;, seulement peut-&ecirc;tre &agrave; titre d'exemple."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> It is also clear that one of the fascinating and influential features of your work is that you live as you teach. Is that a conscious decision in the sense that you think that ethics is something that can be taught best through example?"
+msgstr "<b>TV</b>&nbsp;: Il est aussi clair que l'un des aspects les plus fascinants et influents de votre travail est que vous vivez comme vous le professez. Est-ce une d&eacute;cisionconsciente dans le sens ou vous pensez que l'&eacute;thique est une chose qui peut &ecirc;tre apprise par l'exemple&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Not at all. I do write about my ethical ideas, and I would like to do it more and better if I could. Of course, it is necessary to live in conformity with one's principles, or one is a hypocrite and people can see that."
+msgstr "<b>RMS</b>&nbsp;: Pas du tout. J'&eacute;cris sur mes id&eacute;es &eacute;thiques, je voudrais faire plus et mieux si je le pouvais. Bien s&ucirc;r, il est n&eacute;cessaire de vivre en conformit&eacute; avec ses principes, ou alors on est hypocrite et les gens le voient."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> If we say that the reason for ethical behaviour must be given in the public sphere, let's say through a social contract or something similar, and if we at the same time notice that the economical/commercial sphere is driven by &ldquo;maximum profit&rdquo;-type of principles, then we have to have some sort of separation between the public and the commercial world."
+msgstr "<b>TV</b>&nbsp;: Si nous disons que les motifs d'un comportement &eacute;thique doivent &ecirc;tre montr&eacute;s dans la sph&egrave;re publique, disons par le biais d'un contrat social ou quelque chose de similaire, et si dans le m&ecirc;me temps nous remarquons que la sph&egrave;re &eacute;conomique et commerciale est conduite par des principes de type profit maximum, nous devons donc avoir une sorte de s&eacute;paration entre le monde public et le monde commercial."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> I don't follow this reasoning&mdash;I see no separation. Ethics applies to everyone, and the whole point of ethics is that some things you might selfishly wish to do are wrong, so you may not do them. This applies to group selfishness just as as to personal selfishness."
+msgstr "<b>RMS</b>&nbsp;: Je ne suis pas ce raisonnement, je ne vois pas de s&eacute;paration. L'&eacute;thique s'applique &agrave; chacun, et tout l'int&eacute;r&ecirc;t de l'&eacute;thique est que, si des choses que vous auriez souhait&eacute; faire &eacute;go&iuml;stement sont mauvaises, vous ne devriez pas les faire."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> &hellip; and then the commercial world would be something that almost by necessity corrupts the idea of freedom."
+msgstr "<b>TV</b>&nbsp;: &hellip; et donc, le monde commercial serait quelque chose qui, par necessit&eacute;, corrompt presque l'id&eacute;e de libert&eacute;."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Business does have that tendency. Corporations provide a mechanism to distill the selfishness out of people who, as individuals, are partly selfish but also have ethics to limit their selfishness. The result is selfishness that can often be unchecked by any ethics. To change this will require taking away the power of global business over governments."
+msgstr "<b>RMS</b>&nbsp;: Les affaires ont cette tendance. Les entreprises dispensent un m&eacute;canisme qui distille l'&eacute;go&iuml;sme hors des gens lesquels, en tant qu'individus, sont en partie &eacute;go&iuml;stes mais ont aussi une &eacute;thique limitant cet &eacute;go&iuml;sme. Le r&eacute;sultat est un &eacute;go&iuml;sme qui souvent ne peut &ecirc;tre ma&icirc;tris&eacute; par une &eacute;thique. Changer cela demanderait de faire passer le pouvoir du commerce mondial aux gouvernements."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> Reading Steven Levy's Hackers once again, I was struck by one issue: the hackers as displayed in the book are mostly concerned with the hacker ethic in so far as it concerns &ldquo;tools to make tools&rdquo;."
+msgstr "<b>TV</b>&nbsp;: En lisant une nouvelle fois &laquo;&nbsp;Les hackers&nbsp;&raquo; de Steven Levy, j'ai &eacute;t&eacute; frapp&eacute; par un probl&egrave;me&nbsp;: les hackers tels que d&eacute;peints dans le livre sont pour la plupart concern&eacute;s par l'&eacute;thique du hacker tant que cela concerne &laquo;&nbsp;des outils pour faire des outils&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> I don't think so. A number of our programs were tools for making programs, but very few were specifically &ldquo;tools to make tools&rdquo;. Why were many of them tools? Because hackers writing programs get ideas for better ways to do that. What computer hackers do is program. So they get excited about anything that makes programming easier.<br /> If a hacker does square dancing, he would get excited about anything on the computer that is helpful for square dancing. He might write a program to help people learn square dancing. This indeed has happened. A few computer hackers do square dancing, but all computer hackers program. So a few are interested in writing programs for square dancing, but many are interested in programs they can use while programming."
+msgstr "<b>RMS</b>&nbsp;: Je ne le pense pas. Un bon nombre de nos programmes &eacute;taient des outils pour faire des programmes, mais peu &eacute;taient des &laquo;&nbsp;outils pour faire des outils&nbsp;&raquo;. Pourquoi beaucoup d'entre eux &eacute;taient des outils&nbsp;? Car les hackers &eacute;crivant des logiciels ont des id&eacute;es pour am&eacute;liorer les fa&ccedil;ons de le faire. Ce que font les hackers sur ordinateur est programmer, aussi sont-ils passionn&eacute;s par tout ce qui rend la programmation plus facile. Si un hacker fait du quadrille&nbsp;<a href=\"#TransNote9\"><sup>9</sup></a>, il sera passionn&eacute; par tout ce qui sera utile dans un ordinateur pour le quadrille. Il pourrait &eacute;crire un programme aidant les gens &agrave; apprendre le quadrille. Cela est r&eacute;ellement arriv&eacute;. Peu de hackers pratiquent le quadrille, mais tous programment. Donc certains sont int&eacute;ress&eacute;s par &eacute;crire des programmes de quadrille mais beaucoup sont int&eacute;ress&eacute;s par des programmes pouvant &ecirc;tre utilis&eacute;s pendant la programmation."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> Levy is not too hard on the point, but the unscrupulousness with which the early <abbr>MIT</abbr> hackers accepted the Department of Defence funding is a case in point."
+msgstr "<b>TV</b>&nbsp;: Levy n'est pas tr&egrave;s dur &agrave; ce sujet, mais le manque de scrupules avec lequel les premiers hackers du M.I.T. ont accept&eacute; les fonds du minist&egrave;re de la d&eacute;fense (Department of Defense) est un point &agrave; souligner."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Some of the hackers were uncomfortable with DoD funding at the time, but they did not go so far as to rebel against it (by quitting, say). I disagreed with them I don't think it was wrong to accept that funding, and I did not think it wrong at the time. Corporate funding is far more dangerous.<br /> So I would not call them unscrupulous for having accepted this funding."
+msgstr "<b>RMS</b>&nbsp;: Quelques hackers, &agrave; l'&eacute;poque, n'&eacute;taient pas &agrave; l'aise au sujet des fonds du Dod (Department of Defense), mais ils ne sont pas all&eacute;s plus loin dans la r&eacute;bellion (en d&eacute;missionnant, disons&nbsp;!). J'&eacute;tais en d&eacute;saccord avec eux, je ne pense pas qu'il &eacute;tait mauvais d'accepter ces fonds, je ne le pensais pas &agrave; l'&eacute;poque. Les fonds d'entreprises sont bien plus dangereux. Aussi, je n'emploierais pas &laquo;&nbsp;manque de scrupules&nbsp;&raquo; pour avoir accept&eacute; ces fonds."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> This reminds of the &ldquo;instrumental rationality&rdquo; that the Frankfurt school of critical theorists talked about; rationality that pertains to tools, but not goals."
+msgstr "<b>TV</b>&nbsp;: Cela rappelle la &laquo;&nbsp;rationalit&eacute; instrumentale&nbsp;&raquo; dont parlait l'&eacute;cole de critique th&eacute;orique de Francfort&nbsp;: la rationalit&eacute; appartenant aux outils mais pas aux buts."
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Engineers of all kinds are famous for this; I am not sure it is more true of hackers than others."
+msgstr "<b>RMS</b>&nbsp;: Toutes sortes d'ing&eacute;nieurs sont connus pour cela. Je ne suis pas s&ucirc;r que ce soit plus vrai pour les hackers que les autres."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> So, this brings me to the question, if ethics is about goals and about content, what exactly is the society or community that Free Software promotes?"
+msgstr "<b>TV</b>&nbsp;: Aussi, cela m'am&egrave;ne &agrave; la question&nbsp;: Si l'&eacute;thique concerne les buts et le contenu, quel est exactement la soci&eacute;t&eacute; ou la communaut&eacute; d&eacute;fendue par le logiciel libre&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> My goal is that we help each other to live better together.  Advancing human knowledge is a part of this; making sure it is available to everyone is a part of this; encouraging the spirit of cooperation is a part of this. Those goals apply to various parts of life, but in the area of software they direct one towards free software."
+msgstr "<b>RMS</b>&nbsp;: Mon but est que nous nous aidions mutuellement &agrave; mieux vivre ensemble. L'am&eacute;lioration de la connaissance humaine fait partie de cela, faire en sorte que celle-ci soit accessible &agrave; chacun fait partie de cela, encourager l'esprit de coop&eacute;ration fait partie de cela. Ces buts s'appliquent &agrave; diff&eacute;rentes parties de la vie, mais dans le champ du logiciel, ils dirigent chacun vers le logiciel libre."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> When and how did you notice that the Tools to Make Tools-attitude is not enough?"
+msgstr "<b>TV</b>&nbsp;: Quand et comment vous &ecirc;tes vous rendu compte que l'attitude &laquo;&nbsp;outils pour faire des outils&nbsp;&raquo; n'est pas suffisante&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> That just tools without thinking of what to do with them is one I picked up this idea in my teens, I think. It was well known in the 60s; one did not have to be especially searching to happen across it then. I think of the Tom Lehrer song, &ldquo;Werner von Braun&rdquo;:"
+msgstr "<b>RMS</b>&nbsp;: Que simplement des outils, sans penser &agrave; leur utilisation, en est une (attitude) o&ugrave; j'ai pioch&eacute; cette id&eacute;e dans mon adolescence, je pense. C'&eacute;tait bien connu dans les ann&eacute;es 60, il n'y avait pas sp&eacute;cialement &agrave; chercher pour que cela vienne &agrave; l'esprit. Je pense &agrave; la chanson de Tom Lehrer &laquo;&nbsp;Werner von Braun&nbsp;&raquo;&nbsp;"
+
+# type: Content of: <blockquote><p>
+msgid "I send rockets up, but where they come down<br /> is not my department, says Werner von Braun."
+msgstr "I send rockets up, but where they come down<br /> is not my department, says Werner von Braun.<br />Traduction&nbsp;:<br /> J'envoie des fus&eacute;es, mais o&ugrave; elles tombent<br />N'est pas mon rayon, dit Werner von Braun."
+
+# type: Content of: <p>
+msgid "Lots of people heard this song."
+msgstr "Beaucoup de gens ont entendu cette chanson."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> And, maybe most interestingly, how do you combine the two, the hacking that is intense and interesting and the ethical real-world work, that is often tenuous and boring?"
+msgstr "<b>TV</b>&nbsp;: Et, peut-&ecirc;tre plus int&eacute;ressant, comment combinez-vous les deux, le hacking qui est intense et int&eacute;ressant, et le travail &eacute;thique du monde r&eacute;el, qui est souvent t&eacute;nu et ennuyeux&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Here you seem to assume that hacking is neither ethical nor real-world. I disagree with both assumptions. By the way, some parts of developing and releasing a working program are tedious; they are not merely boring, they are frustrating. But hackers by the thousands in the free software community do these tasks in order to release working and reliable free software."
+msgstr "<b>RMS</b>&nbsp;: Ici, vous semblez postuler que le hacking n'est ni &eacute;thique ni le monde r&eacute;el. Je suis en d&eacute;saccord avec ces deux assertions. Ainsi, quelques parties du d&eacute;veloppement et de l'&eacute;dition d'un programme fonctionnel sont t&eacute;nues&nbsp;: elles ne sont pas vraiment ennuyeuses, elles sont frustrantes. Mais des milliers de hackers dans la communaut&eacute; du logiciel libre r&eacute;alisent ces t&acirc;ches afin de sortir des logiciels libres fonctionnels et fiables."
+
+# type: Content of: <p>
+msgid "<b>TV:</b> I think this is even quite common in fields like computer science, physics, mathematics, philosophy, where the austerity and purity of the formalism give an intense pleasure of a &lsquo;non-earthly&rsquo; kind. Is there a link? Should there be? And how do you bridge the two?"
+msgstr "<b>TV</b>&nbsp;: Je pense que c'est assez commun dans les champs tels que l'ordinateur, la physique, les math&eacute;matiques, la philosophie, o&ugrave; l'aust&eacute;rit&eacute; et la puret&eacute; du formalisme donne un plaisir intense de forme &laquo;&nbsp;non-terrestre&nbsp;&raquo;. Y a-t-il un lien&nbsp;? Doit-il y en voir un&nbsp;? Et comment reliez-vous les deux&nbsp;?"
+
+# type: Content of: <p>
+msgid "<b>RMS:</b> Is there a link between the pleasure of pure math and the rest of life? No, I see very little connection, and why should there be one?"
+msgstr "<b>RMS</b>&nbsp;: Y a-t-il un lien entre le plaisir des pures math&eacute;matiques et le reste de la vie&nbsp;? Non, je vois peu de connexions et pourquoi en faudrait-il une&nbsp;?"
+
+# type: Content of: <p>
+msgid "I enjoy folk dancing, as well as pure math. There is very little link between either of those pleasures and the rest of what I do. Why should there be? They are both harmless. Is there a &ldquo;gap&rdquo; that I need to &ldquo;bridge&rdquo;?"
+msgstr "J'adore les danses populaires, autant que les math&eacute;matiques pures. Il n'y a que peu de liens entre ces plaisirs et le reste de ce que je fais. Pourquoi devrait-il en &ecirc;tre ainsi&nbsp;? Ils sont tous deux innocents. Y a-t-il un &laquo;&nbsp;trou&nbsp;&raquo; que je doive &laquo;&nbsp;combler&nbsp;&raquo;&nbsp;?"
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr "<b>Notes du traducteur</b>&nbsp;: <ol><li id=\"TransNote1\">Palindrome&nbsp;: Mot ou groupe de mots pouvant &ecirc;tre lus de gauche &agrave; droite et vice versa.</li><li id=\"TransNote2\">Hack&nbsp;: bidouille, bricole ing&eacute;nieuse.</li><li id=\"TransNote3\">Incompatible Timesharing System (ITS)&nbsp;: Syst&egrave;me incompatible &agrave; temps partag&eacute; nomm&eacute; ainsi par les hackers en opposition avec le CTSS (Compatible Time Sharing System), autre syst&egrave;me d'exploitation utilis&eacute; au M.I.T.</li><li id=\"TransNote4\">A.I. lab.&nbsp;: Artificial Intelligency Lab. / Laboratoire d'intelligence artificielle.</li><li id=\"TransNote5\">Hackerisme&nbsp;: acte de hacker, faire un hack.</li><li id=\"TransNote6\">O.M.C.&nbsp; Organisation Mondiale du Commerce, en anglais, World Trade Organization (W.T.O.).</li><li id=\"TransNote7\">Copyleft&nbsp;: terme invent&eacute; en opposition &agrave; copyright (droit d'auteur), parfois traduit par &laquo;&nbsp;gauche d'auteur&nbsp;&raquo;.</li><li id=\"TransNote8\">F.M.I.&nbsp;: Fond Mon&eacute;taire International, en anglais, International Monetary Fund (I.M.F.).</li><li id=\"TransNote9\">Quadrille&nbsp;: danse de bal en vogue du d&eacute;but du XIXe jusqu'&agrave; la premi&egrave;re guerre mondiale.</li></ol>"
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 2002 Richard Stallman"
+msgstr "Copyright &copy; 2002 Richard Stallman"
+
+# type: Content of: <div><p>
+msgid "Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved."
+msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Claude le Paih.<br />Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
