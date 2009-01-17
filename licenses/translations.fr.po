@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: translations.html\n"
-"POT-Creation-Date: 2009-01-01 16:26-0500\n"
+"POT-Creation-Date: 2009-01-12 04:25-0500\n"
 "PO-Revision-Date: 2009-01-05 17:17+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,7 +16,8 @@ msgstr ""
 
 # type: Content of: <title>
 msgid "Unofficial Translations - GNU Project - Free Software Foundation (FSF)"
-msgstr "Traductions non officielles - GNU Project - Free Software Foundation (FSF)"
+msgstr ""
+"Traductions non officielles - GNU Project - Free Software Foundation (FSF)"
 
 # type: Attribute 'content' of: <meta>
 msgid "GNU, FSF, Free Software Foundation, Linux, Copyleft, Licenses"
@@ -31,204 +32,467 @@ msgid "Information about unofficial translations"
 msgstr "&Agrave; propos des traductions non officielles"
 
 # type: Content of: <p>
-msgid "The reason the FSF does not approve these translations as officially valid is that checking them would be difficult and expensive (needing the help of bilingual lawyers in other countries).  Even worse, if an error did slip through, the results could be disastrous for the whole free software community.  As long as the translations are unofficial, they can't do any harm, and we hope they help more people understand our licenses."
-msgstr "La raison pour laquelle la FSF n'approuve pas ces traductions comme &eacute;tant officiellement valides, c'est que leur v&eacute;rification serait difficile et co&ucirc;teuse (besoin de l'aide de juristes bilingues dans d'autres pays). Et pire, si une erreur se glissait, les cons&eacute;quences pourraient &ecirc;tre d&eacute;sastreuses pour toute la communaut&eacute; du logiciel libre. Tant que ces traductions ne sont pas officielles, elles ne peuvent pas faire de d&eacute;g&acirc;ts, et nous esp&eacute;rons qu'elles aideront plus de gens &agrave; comprendre nos licences."
+msgid ""
+"The reason the FSF does not approve these translations as officially valid "
+"is that checking them would be difficult and expensive (needing the help of "
+"bilingual lawyers in other countries).  Even worse, if an error did slip "
+"through, the results could be disastrous for the whole free software "
+"community.  As long as the translations are unofficial, they can't do any "
+"harm, and we hope they help more people understand our licenses."
+msgstr ""
+"La raison pour laquelle la FSF n'approuve pas ces traductions comme &eacute;"
+"tant officiellement valides, c'est que leur v&eacute;rification serait "
+"difficile et co&ucirc;teuse (besoin de l'aide de juristes bilingues dans "
+"d'autres pays). Et pire, si une erreur se glissait, les cons&eacute;quences "
+"pourraient &ecirc;tre d&eacute;sastreuses pour toute la communaut&eacute; du "
+"logiciel libre. Tant que ces traductions ne sont pas officielles, elles ne "
+"peuvent pas faire de d&eacute;g&acirc;ts, et nous esp&eacute;rons qu'elles "
+"aideront plus de gens &agrave; comprendre nos licences."
 
 # type: Content of: <p>
-msgid "We give permission to publish translations of the GNU GPL, LGPL, AGPL, and FDL into other languages, provided that you (1) label your translations as unofficial (see below for how to do this), to inform people that they do not count legally as substitutes for the authentic version, and (2) you agree to install changes at our request, if we learn from other friends of GNU that changes are necessary to make the translation clearer."
-msgstr "Nous permettons la publication de traductions de la GNU GPL, de la LGPL, de l'AGPL ou de la FDL dans d'autres langues, pourvu que (1) vous sp&eacute;cifiiez dans vostraductions qu'elles ne sont pas officielles (voir plus loin comment faire), que vous informiez qu'elles ne tiennent pas lieu l&eacute;galement de substitution &agrave; la version originale, et (2) que vous autorisiez &agrave; ajouter des modifications &agrave; notre demande, si nous apprenons par d'autres amis de GNU que des modifications sont n&eacute;cessaires pour rendre la traduction plus claire."
+msgid ""
+"We give permission to publish translations of the GNU GPL, LGPL, AGPL, and "
+"FDL into other languages, provided that you (1) label your translations as "
+"unofficial (see below for how to do this), to inform people that they do not "
+"count legally as substitutes for the authentic version, and (2) you agree to "
+"install changes at our request, if we learn from other friends of GNU that "
+"changes are necessary to make the translation clearer."
+msgstr ""
+"Nous permettons la publication de traductions de la GNU GPL, de la LGPL, de "
+"l'AGPL ou de la FDL dans d'autres langues, pourvu que (1) vous sp&eacute;"
+"cifiiez dans vostraductions qu'elles ne sont pas officielles (voir plus loin "
+"comment faire), que vous informiez qu'elles ne tiennent pas lieu l&eacute;"
+"galement de substitution &agrave; la version originale, et (2) que vous "
+"autorisiez &agrave; ajouter des modifications &agrave; notre demande, si "
+"nous apprenons par d'autres amis de GNU que des modifications sont n&eacute;"
+"cessaires pour rendre la traduction plus claire."
 
 # type: Content of: <p>
-msgid "To label your translations as unofficial, please add the following text at the beginning, both in English and in the language of the translation.  Replace <em>language</em> with the name of that language, and &ldquo;GNU General Public License&rdquo; and &ldquo;GPL&rdquo; with the name and abbreviation of the license you're translating, if it's not the GPL:"
-msgstr "Pour sp&eacute;cifier que votre traduction n'est pas officielle, veuillez ajoutez le texte suivant au d&eacute;but, &agrave; la fois en anglais et dans la langue de la traduction. Remplacez <em>language</em> par le nom de cette langue, et «&nbsp;GNU General Public License&nbsp;» et «&nbsp;GPL&nbsp;» par le nom et l'abréviation de la licence que vous traduisez, s'il ne s'agit pas de la GPL&nbsp;:"
+msgid ""
+"To label your translations as unofficial, please add the following text at "
+"the beginning, both in English and in the language of the translation.  "
+"Replace <em>language</em> with the name of that language, and &ldquo;GNU "
+"General Public License&rdquo; and &ldquo;GPL&rdquo; with the name and "
+"abbreviation of the license you're translating, if it's not the GPL:"
+msgstr ""
+"Pour sp&eacute;cifier que votre traduction n'est pas officielle, veuillez "
+"ajoutez le texte suivant au d&eacute;but, &agrave; la fois en anglais et "
+"dans la langue de la traduction. Remplacez <em>language</em> par le nom de "
+"cette langue, et «&nbsp;GNU General Public License&nbsp;» et «&nbsp;GPL&nbsp;» "
+"par le nom et l'abréviation de la licence que vous traduisez, s'il ne s'agit "
+"pas de la GPL&nbsp;:"
 
 # type: Content of: <blockquote><p>
-msgid "This is an unofficial translation of the GNU General Public License into <tt>language</tt>.  It was not published by the Free Software Foundation, and does not legally state the distribution terms for software that uses the GNU GPL&mdash;only the original English text of the GNU GPL does that.  However, we hope that this translation will help <tt>language</tt> speakers understand the GNU GPL better."
-msgstr "This is an unofficial translation of the GNU General Public License into <tt>language</tt>.  It was not published by the Free Software Foundation, and does not legally state the distribution terms for software that uses the GNU GPL&mdash;only the original English text of the GNU GPL does that.  However, we hope that this translation will help <tt>language</tt> speakers understand the GNU GPL better.<br />Traduction&nbsp;:<br />Ceci est une traduction non officielle de la GNU General Public License en fran&ccedil;ais.  Elle n'a pas &eacute;t&eacute; publi&eacute;e par la Free Software Foundation, et ne d&eacute;termine pas les termes de distribution pour les logiciels qui utilisent la GNU GPL -- seul le texte anglais original de la GNU GPL en a le droit.  Cependant, nous esp&eacute;rons que cette traduction aidera les francophones &agrave; mieux comprendre la GNU GPL."
+msgid ""
+"This is an unofficial translation of the GNU General Public License into "
+"<tt>language</tt>.  It was not published by the Free Software Foundation, "
+"and does not legally state the distribution terms for software that uses the "
+"GNU GPL&mdash;only the original English text of the GNU GPL does that.  "
+"However, we hope that this translation will help <tt>language</tt> speakers "
+"understand the GNU GPL better."
+msgstr ""
+"This is an unofficial translation of the GNU General Public License into "
+"<tt>language</tt>.  It was not published by the Free Software Foundation, "
+"and does not legally state the distribution terms for software that uses the "
+"GNU GPL&mdash;only the original English text of the GNU GPL does that.  "
+"However, we hope that this translation will help <tt>language</tt> speakers "
+"understand the GNU GPL better.<br />Traduction&nbsp;:<br />Ceci est une "
+"traduction non officielle de la GNU General Public License en fran&ccedil;"
+"ais.  Elle n'a pas &eacute;t&eacute; publi&eacute;e par la Free Software "
+"Foundation, et ne d&eacute;termine pas les termes de distribution pour les "
+"logiciels qui utilisent la GNU GPL -- seul le texte anglais original de la "
+"GNU GPL en a le droit.  Cependant, nous esp&eacute;rons que cette traduction "
+"aidera les francophones &agrave; mieux comprendre la GNU GPL."
 
 # type: Content of: <h3>
 msgid "The GNU General Public License, version 3"
 msgstr "La Licence G&eacute;n&eacute;rale Publique GNU (GNU GPL) version 3.0"
 
 # type: Content of: <p>
-msgid "If you make a translation (of any license), please inform the GNU Translation Managers <a href=\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a>.  They will check to make sure that your translation follows the above guidelines and make a link to it from this page."
-msgstr "Si vous faites une traduction (de n'importe quelle licence), veuillez en informer les responsables de la traduction de GNU <a href=\"mailto:web-translators&#64;gnu.org\">&lt;web-translators&#64;gnu.org&gt;</a>. Ils s'assureront que votre traduction respecte les r&egrave;gles pr&eacute;c&eacute;dentes et ajouteront un lien vers votre traduction sur cette page."
+msgid ""
+"If you make a translation (of any license), please inform the GNU "
+"Translation Managers <a href=\"mailto:web-translators@gnu.org\">&lt;web-"
+"translators@gnu.org&gt;</a>.  They will check to make sure that your "
+"translation follows the above guidelines and make a link to it from this "
+"page."
+msgstr ""
+"Si vous faites une traduction (de n'importe quelle licence), veuillez en "
+"informer les responsables de la traduction de GNU <a href=\"mailto:web-"
+"translators&#64;gnu.org\">&lt;web-translators&#64;gnu.org&gt;</a>. Ils "
+"s'assureront que votre traduction respecte les r&egrave;gles pr&eacute;"
+"c&eacute;dentes et ajouteront un lien vers votre traduction sur cette page."
 
 # type: Content of: <ul><li>
-msgid "<code>[es-ar]</code> <a href=\"http://www.spanish-translator-services.com/espanol/t/gnu/gpl-ar.html\">Argentinian Spanish</a> translation of the GPL"
-msgstr "<code>[es-ar]</code> Traduction en <a href=\"http://www.spanish-translator-services.com/espanol/t/gnu/gpl-ar.html\">espagnol argentin</a> de la GPL"
+msgid ""
+"<code>[es-ar]</code> <a href=\"http://www.spanish-translator-services.com/"
+"espanol/t/gnu/gpl-ar.html\">Argentinian Spanish</a> translation of the GPL"
+msgstr ""
+"<code>[es-ar]</code> Traduction en <a href=\"http://www.spanish-translator-"
+"services.com/espanol/t/gnu/gpl-ar.html\">espagnol argentin</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[hy]</code> <a href=\"http://gnu.am/gpl.php\">Armenian</a> translation of the GPL"
-msgstr "<code>[hy]</code> Traduction en <a href=\"http://gnu.am/gpl.php\">arménien</a> de la GPL"
+msgid ""
+"<code>[hy]</code> <a href=\"http://gnu.am/gpl.php\">Armenian</a> translation "
+"of the GPL"
+msgstr ""
+"<code>[hy]</code> Traduction en <a href=\"http://gnu.am/gpl.php\">arménien</"
+"a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[en-gb]</code> <a href=\"http://people.csse.uwa.edu.au/jmd/gpl_en.txt\"> British English</a> translation of the GPL"
-msgstr "<code>[en-gb]</code> Traduction en <a href=\"http://people.csse.uwa.edu.au/jmd/gpl_en.txt\">anglais britannique</a> de la GPL"
+msgid ""
+"<code>[en-gb]</code> <a href=\"http://people.csse.uwa.edu.au/jmd/gpl_en.txt"
+"\"> British English</a> translation of the GPL"
+msgstr ""
+"<code>[en-gb]</code> Traduction en <a href=\"http://people.csse.uwa.edu.au/"
+"jmd/gpl_en.txt\">anglais britannique</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[zh-cn]</code> <a href=\"http://bergwolf.googlepages.com/gplv3_zh\"> Chinese (Simplified)</a> translation of the GPL"
-msgstr "<code>[zh-cn]</code> Traduction en <a href=\"http://bergwolf.googlepages.com/gplv3_zh\">chinois simplifi&eacute;</a> de la GPL"
+msgid ""
+"<code>[zh-cn]</code> <a href=\"http://bergwolf.googlepages.com/gplv3_zh\"> "
+"Chinese (Simplified)</a> translation of the GPL"
+msgstr ""
+"<code>[zh-cn]</code> Traduction en <a href=\"http://bergwolf.googlepages.com/"
+"gplv3_zh\">chinois simplifi&eacute;</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[nl]</code> <a href=\"http://bartbeuving.files.wordpress.com/2008/07/gpl-v3-nl-101.pdf\"> Dutch</a> translation of the GPL (PDF)"
-msgstr "<code>[nl]</code> Traduction en <a href=\"http://bartbeuving.files.wordpress.com/2008/07/gpl-v3-nl-101.pdf\">n&eacute;erlandais</a> de la GPL (PDF)"
+msgid ""
+"<code>[nl]</code> <a href=\"http://bartbeuving.files.wordpress.com/2008/07/"
+"gpl-v3-nl-101.pdf\"> Dutch</a> translation of the GPL (PDF)"
+msgstr ""
+"<code>[nl]</code> Traduction en <a href=\"http://bartbeuving.files.wordpress."
+"com/2008/07/gpl-v3-nl-101.pdf\">n&eacute;erlandais</a> de la GPL (PDF)"
 
 # type: Content of: <ul><li>
-msgid "<code>[fi]</code> <a href=\"http://www.turre.com/licenses/gpl_fi.html\"> Finnish</a> translation of the GPL"
-msgstr "<code>[fi]</code> Traduction en <a href=\"http://www.turre.com/licenses/gpl_fi.html\">finnois</a> de la GPL"
+msgid ""
+"<code>[fi]</code> <a href=\"http://www.turre.com/licenses/gpl_fi.html\"> "
+"Finnish</a> translation of the GPL"
+msgstr ""
+"<code>[fi]</code> Traduction en <a href=\"http://www.turre.com/licenses/"
+"gpl_fi.html\">finnois</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[fr]</code> <a href=\"http://www.april.org/groupes/trad-gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html\"> French</a> translation of the GPL"
-msgstr "<code>[fr]</code> Traduction en <a href=\"http://www.april.org/groupes/trad-gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html\">fran&ccedil;ais</a> de la GPL"
+msgid ""
+"<code>[fr]</code> <a href=\"http://www.april.org/groupes/trad-gpl/doc/GPLv3/"
+"www.rodage.org/gpl-3.0.fr.html\"> French</a> translation of the GPL"
+msgstr ""
+"<code>[fr]</code> Traduction en <a href=\"http://www.april.org/groupes/trad-"
+"gpl/doc/GPLv3/www.rodage.org/gpl-3.0.fr.html\">fran&ccedil;ais</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[gl]</code> <a href=\"http://www.mancomun.org/GPL3_GL/gpl_gl_v3.html\"> Galician</a> translation of the GPL (<a href=\"http://www.mancomun.org/GPL3_GL/gpl_gl_v3.txt\">plain text</a>, <a href=\"http://www.mancomun.org/GPL3_GL/gpl_gl_v3.pdf\">PDF</a>)"
-msgstr "<code>[gl]</code> Traduction en <a href=\"http://www.mancomun.org/GPL3_GL/gpl_gl_v3.html\">galicien</a> de la GPL (<a href=\"http://www.mancomun.org/GPL3_GL/gpl_gl_v3.txt\">texte brut</a>, <a href=\"http://www.mancomun.org/GPL3_GL/gpl_gl_v3.pdf\">PDF</a>)"
+msgid ""
+"<code>[gl]</code> <a href=\"http://www.mancomun.org/GPL3_GL/gpl_gl_v3.html"
+"\"> Galician</a> translation of the GPL (<a href=\"http://www.mancomun.org/"
+"GPL3_GL/gpl_gl_v3.txt\">plain text</a>, <a href=\"http://www.mancomun.org/"
+"GPL3_GL/gpl_gl_v3.pdf\">PDF</a>)"
+msgstr ""
+"<code>[gl]</code> Traduction en <a href=\"http://www.mancomun.org/GPL3_GL/"
+"gpl_gl_v3.html\">galicien</a> de la GPL (<a href=\"http://www.mancomun.org/"
+"GPL3_GL/gpl_gl_v3.txt\">texte brut</a>, <a href=\"http://www.mancomun.org/"
+"GPL3_GL/gpl_gl_v3.pdf\">PDF</a>)"
 
 # type: Content of: <ul><li>
-msgid "<code>[de]</code> <a href=\"http://www.gnu.de/documents/gpl-3.0.de.html\"> German</a> translation of the GPL"
-msgstr "<code>[de]</code> Traduction en <a href=\"http://www.gnu.de/documents/gpl-3.0.de.html\">allemand</a> de la GPL"
+msgid ""
+"<code>[de]</code> <a href=\"http://www.gnu.de/documents/gpl-3.0.de.html\"> "
+"German</a> translation of the GPL"
+msgstr ""
+"<code>[de]</code> Traduction en <a href=\"http://www.gnu.de/documents/gpl-"
+"3.0.de.html\">allemand</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[he]</code> <a href=\"http://law.co.il/gplv3\">Hebrew</a> translation of the GPL"
-msgstr "<code>[he]</code> Traduction en <a href=\"http://law.co.il/gplv3\">h&eacute;breu</a> de la GPL"
+msgid ""
+"<code>[he]</code> <a href=\"http://law.co.il/gplv3\">Hebrew</a> translation "
+"of the GPL"
+msgstr ""
+"<code>[he]</code> Traduction en <a href=\"http://law.co.il/gplv3\">h&eacute;"
+"breu</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[hu]</code> <a href=\"http://gnu.hu/gplv3.html\">Hungarian</a> translation of the GPL"
-msgstr "<code>[hu]</code> Traduction en <a href=\"http://gnu.hu/gplv3.html\">hongrois</a> de la GPL"
+msgid ""
+"<code>[hu]</code> <a href=\"http://gnu.hu/gplv3.html\">Hungarian</a> "
+"translation of the GPL"
+msgstr ""
+"<code>[hu]</code> Traduction en <a href=\"http://gnu.hu/gplv3.html"
+"\">hongrois</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[it]</code> <a href=\"http://katolaz.homeunix.net/gplv3\"> Italian</a> translation of the GPL"
-msgstr "<code>[it]</code> Traduction en <a href=\"http://katolaz.homeunix.net/gplv3\">italien</a> de la GPL"
+msgid ""
+"<code>[it]</code> <a href=\"http://katolaz.homeunix.net/gplv3\"> Italian</a> "
+"translation of the GPL"
+msgstr ""
+"<code>[it]</code> Traduction en <a href=\"http://katolaz.homeunix.net/gplv3"
+"\">italien</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[fa]</code> <a href=\"http://www.kaveh.org/gnu/gplv3-fa.html\">Persian (Farsi)</a> translation of the GPL"
-msgstr "<code>[fa]</code> Traduction en <a href=\"http://www.kaveh.org/gnu/gplv3-fa.html\">farsi</a> de la GPL"
+msgid ""
+"<code>[fa]</code> <a href=\"http://www.kaveh.org/gnu/gplv3-fa.html\">Persian "
+"(Farsi)</a> translation of the GPL"
+msgstr ""
+"<code>[fa]</code> Traduction en <a href=\"http://www.kaveh.org/gnu/gplv3-fa."
+"html\">farsi</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[sr]</code> <a href=\"http://alas.matf.bg.ac.yu/~mr99164/ojl-3.0.html\"> Serbian</a> translation of the GPL"
-msgstr "<code>[sr]</code> Traduction en <a href=\"http://alas.matf.bg.ac.yu/~mr99164/ojl-3.0.html\">serbe</a> de la GPL"
+msgid ""
+"<code>[sr]</code> <a href=\"http://alas.matf.bg.ac.yu/~mr99164/ojl-3.0.html"
+"\"> Serbian</a> translation of the GPL"
+msgstr ""
+"<code>[sr]</code> Traduction en <a href=\"http://alas.matf.bg.ac.yu/~mr99164/"
+"ojl-3.0.html\">serbe</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[es]</code> <a href=\"http://www.viti.es/gnu/licenses/gpl.html\">Spanish</a> translation of the GPL"
-msgstr "<code>[es]</code> Traduction en <a href=\"http://www.viti.es/gnu/licenses/gpl.html\">espagnol</a> de la GPL"
+msgid ""
+"<code>[es]</code> <a href=\"http://www.viti.es/gnu/licenses/gpl.html"
+"\">Spanish</a> translation of the GPL"
+msgstr ""
+"<code>[es]</code> Traduction en <a href=\"http://www.viti.es/gnu/licenses/"
+"gpl.html\">espagnol</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[uk]</code> <a href=\"http://www.linux.kiev.ua/ua/devel/licenses/gnu-gpl/\"> Ukrainian</a> translation of the GPL"
-msgstr "<code>[uk]</code> Traduction en <a href=\"http://www.linux.kiev.ua/ua/devel/licenses/gnu-gpl/\">ukrainien</a> de la GPL"
+msgid ""
+"<code>[uk]</code> <a href=\"http://www.linux.kiev.ua/ua/devel/licenses/gnu-"
+"gpl/\"> Ukrainian</a> translation of the GPL"
+msgstr ""
+"<code>[uk]</code> Traduction en <a href=\"http://www.linux.kiev.ua/ua/devel/"
+"licenses/gnu-gpl/\">ukrainien</a> de la GPL"
 
 # type: Content of: <h4>
 msgid "Translations Underway"
 msgstr "Traductions en cours"
 
 # type: Content of: <p>
-msgid "The following translation efforts are underway, please contact the person/team if you are willing to help."
-msgstr "Les efforts de traduction suivants sont en cours, veuillez contacter la personne/&eacute;quipe si vous souhaiter l'aider."
+msgid ""
+"The following translation efforts are underway, please contact the person/"
+"team if you are willing to help."
+msgstr ""
+"Les efforts de traduction suivants sont en cours, veuillez contacter la "
+"personne/&eacute;quipe si vous souhaiter l'aider."
 
 # type: Content of: <ul><li>
-msgid "<code>[pt-br]</code> Brazilian Portuguese (<a href=\"http://gpl3brasil.pbwiki.com/GPLv3\">1</a>), (<a href=\"http://www.fsfla.org/svnwiki/trad/GPLv3\">2</a> &mdash; effort lead by FSFLA)"
-msgstr "<code>[pt-br]</code> Traduction en portugais br&eacute;silien (<a href=\"http://gpl3brasil.pbwiki.com/GPLv3\">1</a>), (<a href=\"http://www.fsfla.org/svnwiki/trad/GPLv3\">2</a> &mdash; effort men&eacute; par FSFLA)"
+msgid ""
+"<code>[pt-br]</code> Brazilian Portuguese (<a href=\"http://gpl3brasil."
+"pbwiki.com/GPLv3\">1</a>), (<a href=\"http://www.fsfla.org/svnwiki/trad/GPLv3"
+"\">2</a> &mdash; effort lead by FSFLA)"
+msgstr ""
+"<code>[pt-br]</code> Traduction en portugais br&eacute;silien (<a href="
+"\"http://gpl3brasil.pbwiki.com/GPLv3\">1</a>), (<a href=\"http://www.fsfla."
+"org/svnwiki/trad/GPLv3\">2</a> &mdash; effort men&eacute; par FSFLA)"
 
 # type: Content of: <ul><li>
-msgid "<code>[ca]</code> <a href=\"http://www.softcatala.cat/wiki/GPL3\">Catalan</a>"
-msgstr "<code>[ca]</code> Traduction en <a href=\"http://www.softcatala.cat/wiki/GPL3\">catalan</a>"
+msgid ""
+"<code>[ca]</code> <a href=\"http://www.softcatala.cat/wiki/GPL3\">Catalan</a>"
+msgstr ""
+"<code>[ca]</code> Traduction en <a href=\"http://www.softcatala.cat/wiki/GPL3"
+"\">catalan</a>"
 
 # type: Content of: <ul><li>
-msgid "<code>[zh-tw]</code> <a href=\"http://wiki.debian.org.hk/w/GPLv3\"> Chinese (Traditional)</a>"
-msgstr "<code>[zh-tw]</code> Traduction en <a href=\"http://wiki.debian.org.hk/w/GPLv3\">chinois traditionnel</a>"
+msgid ""
+"<code>[zh-tw]</code> <a href=\"http://wiki.debian.org.hk/w/GPLv3\"> Chinese "
+"(Traditional)</a>"
+msgstr ""
+"<code>[zh-tw]</code> Traduction en <a href=\"http://wiki.debian.org.hk/w/"
+"GPLv3\">chinois traditionnel</a>"
 
 # type: Content of: <ul><li>
-msgid "<code>[fr]</code> French, <a href=\"mailto:trad-gnu@april.org\">&lt;trad-gnu@april.org&gt;</a>"
-msgstr "<code>[fr]</code> Traduction en fran&ccedil;ais <a href=\"mailto:trad-gnu@april.org\">&lt;trad-gnu@april.org&gt;</a>"
+msgid ""
+"<code>[fr]</code> French, <a href=\"mailto:trad-gnu@april.org\">&lt;trad-"
+"gnu@april.org&gt;</a>"
+msgstr ""
+"<code>[fr]</code> Traduction en fran&ccedil;ais <a href=\"mailto:trad-"
+"gnu@april.org\">&lt;trad-gnu@april.org&gt;</a>"
 
 # type: Content of: <ul><li>
-msgid "<code>[ko]</code> <a href=\"http://wiki.kldp.org/wiki.php/GNU/GPLV3Translation\">Korean</a>"
-msgstr "<code>[ko]</code> Traduction en <a href=\"http://wiki.kldp.org/wiki.php/GNU/GPLV3Translation\">cor&eacute;en</a>"
+msgid ""
+"<code>[ko]</code> <a href=\"http://wiki.kldp.org/wiki.php/GNU/"
+"GPLV3Translation\">Korean</a>"
+msgstr ""
+"<code>[ko]</code> Traduction en <a href=\"http://wiki.kldp.org/wiki.php/GNU/"
+"GPLV3Translation\">cor&eacute;en</a>"
 
 # type: Content of: <ul><li>
 msgid "<code>[pt]</code> <a href=\"http://gpl3.neoscopio.org\">Portuguese</a>"
-msgstr "<code>[pt]</code> Traduction en <a href=\"http://gpl3.neoscopio.org\">portugais</a>"
+msgstr ""
+"<code>[pt]</code> Traduction en <a href=\"http://gpl3.neoscopio.org"
+"\">portugais</a>"
 
 # type: Content of: <ul><li>
-msgid "<code>[ro]</code> <a href=\"http://ro.wikipedia.org/wiki/GPL_(licen%C8%9Ba,_versiunea_3)\">Romanian</a>"
-msgstr "<code>[ro]</code> Traduction en <a href=\"http://ro.wikipedia.org/wiki/GPL_(licen%C8%9Ba,_versiunea_3)\">roumain</a>"
+msgid ""
+"<code>[ro]</code> <a href=\"http://ro.wikipedia.org/wiki/GPL_(licen%C8%9Ba,"
+"_versiunea_3)\">Romanian</a>"
+msgstr ""
+"<code>[ro]</code> Traduction en <a href=\"http://ro.wikipedia.org/wiki/GPL_"
+"(licen%C8%9Ba,_versiunea_3)\">roumain</a>"
 
 # type: Content of: <ul><li>
-msgid "<code>[ru]</code> <a href=\"http://code.google.com/p/gpl3rus/wiki/LatestRelease\">Russian</a>"
-msgstr "<code>[ru]</code> Traduction en <a href=\"http://code.google.com/p/gpl3rus/wiki/LatestRelease\">russe</a>"
+msgid ""
+"<code>[ru]</code> <a href=\"http://code.google.com/p/gpl3rus/wiki/"
+"LatestRelease\">Russian</a>"
+msgstr ""
+"<code>[ru]</code> Traduction en <a href=\"http://code.google.com/p/gpl3rus/"
+"wiki/LatestRelease\">russe</a>"
 
 # type: Content of: <ul><li>
-msgid "<code>[es]</code> <a href=\"http://www.fsfla.org/svnwiki/trad/GPLv3\"> Spanish</a> &mdash; effort lead by FSFLA"
-msgstr "<code>[es]</code> Traduction en <a href=\"http://www.fsfla.org/svnwiki/trad/GPLv3\">espagnol</a> &mdash; effort men&eacute; par FSFLA"
+msgid ""
+"<code>[es]</code> <a href=\"http://www.fsfla.org/svnwiki/trad/GPLv3\"> "
+"Spanish</a> &mdash; effort lead by FSFLA"
+msgstr ""
+"<code>[es]</code> Traduction en <a href=\"http://www.fsfla.org/svnwiki/trad/"
+"GPLv3\">espagnol</a> &mdash; effort men&eacute; par FSFLA"
 
 # type: Content of: <ul><li>
-msgid "<code>[sv]</code> <a href=\"http://www.ucme.se/gpl-3.0.sv.htm\">Swedish</a>"
-msgstr "<code>[sv]</code> Traduction en <a href=\"http://www.ucme.se/gpl-3.0.sv.htm\">su&eacute;dois</a>"
+msgid ""
+"<code>[sv]</code> <a href=\"http://www.ucme.se/gpl-3.0.sv.htm\">Swedish</a>"
+msgstr ""
+"<code>[sv]</code> Traduction en <a href=\"http://www.ucme.se/gpl-3.0.sv.htm"
+"\">su&eacute;dois</a>"
 
 # type: Content of: <ul><li>
-msgid "<code>[tr]</code> <a href=\"http://tr.pardus-wiki.org/index.php?title=%C3%87eviri:GNU_GPL_s%C3%BCr%C3%BCm_3_Gayr%C4%B1resm%C3%AE_%C3%87evirisi&amp;action=edit\">Turkish</a>"
-msgstr "<code>[tr]</code> Traduction en <a href=\"http://tr.pardus-wiki.org/index.php?title=%C3%87eviri:GNU_GPL_s%C3%BCr%C3%BCm_3_Gayr%C4%B1resm%C3%AE_%C3%87evirisi&amp;action=edit\">turc</a>"
+msgid ""
+"<code>[tr]</code> <a href=\"http://tr.pardus-wiki.org/index.php?title=%C3%"
+"87eviri:GNU_GPL_s%C3%BCr%C3%BCm_3_Gayr%C4%B1resm%C3%AE_%C3%87evirisi&amp;"
+"action=edit\">Turkish</a>"
+msgstr ""
+"<code>[tr]</code> Traduction en <a href=\"http://tr.pardus-wiki.org/index."
+"php?title=%C3%87eviri:GNU_GPL_s%C3%BCr%C3%BCm_3_Gayr%C4%B1resm%C3%AE_%C3%"
+"87evirisi&amp;action=edit\">turc</a>"
 
 # type: Content of: <h3>
 msgid "The GNU Lesser General Public License, version 3"
-msgstr "La Licence G&eacute;n&eacute;rale Publique Amoindrie GNU (GNU LGPL) version 3.0"
+msgstr ""
+"La Licence G&eacute;n&eacute;rale Publique Amoindrie GNU (GNU LGPL) version "
+"3.0"
 
 # type: Content of: <p>
-msgid "If you make a translation, please inform the GNU Translation Managers <a href=\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a>.  They will check to make sure that your translation follows the above guidelines and make a link to it from this page."
-msgstr "Si vous faites une traduction (de n'importe quelle licence), veuillez en informer les responsables de la traduction de GNU <a href=\"mailto:web-translators&#64;gnu.org\">&lt;web-translators&#64;gnu.org&gt;</a>. Ils s'assureront que votre traduction respecte les r&egrave;gles pr&eacute;c&eacute;dentes et ajouteront un lien vers votre traduction sur cette page."
+msgid ""
+"If you make a translation, please inform the GNU Translation Managers <a "
+"href=\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</"
+"a>.  They will check to make sure that your translation follows the above "
+"guidelines and make a link to it from this page."
+msgstr ""
+"Si vous faites une traduction (de n'importe quelle licence), veuillez en "
+"informer les responsables de la traduction de GNU <a href=\"mailto:web-"
+"translators&#64;gnu.org\">&lt;web-translators&#64;gnu.org&gt;</a>. Ils "
+"s'assureront que votre traduction respecte les r&egrave;gles pr&eacute;"
+"c&eacute;dentes et ajouteront un lien vers votre traduction sur cette page."
 
 # type: Content of: <ul><li>
-msgid "<code>[de]</code> <a href=\"http://www.gnu.de/documents/lgpl-3.0.de.html\"> German</a> translation of the LGPL"
-msgstr "<code>[de]</code> Traduction en <a href=\"http://www.gnu.de/documents/lgpl-3.0.de.html\">allemand</a> de la LGPL"
+#, fuzzy
+msgid ""
+"<code>[zh-cn]</code> <a href=\"http://www.thebigfly.com/gnu/lgpl/lgpl-v3.php"
+"\"> Chinese (Simplified)</a> translation of the LGPL"
+msgstr ""
+"<code>[zh-cn]</code> Traduction en <a href=\"http://www.thebigfly.com/gnu/"
+"FDLv1.3/\">chinois simplifi&eacute;</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[hu]</code> <a href=\"http://gnu.hu/lgplv3.html\">Hungarian</a> translation of the LGPL"
-msgstr "<code>[hu]</code> Traduction en <a href=\"http://gnu.hu/lgplv3.html\">hongrois</a> de la LGPL"
+msgid ""
+"<code>[de]</code> <a href=\"http://www.gnu.de/documents/lgpl-3.0.de.html\"> "
+"German</a> translation of the LGPL"
+msgstr ""
+"<code>[de]</code> Traduction en <a href=\"http://www.gnu.de/documents/lgpl-"
+"3.0.de.html\">allemand</a> de la LGPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[ja]</code> <a href=\"http://www.finecheats.com/lgpl.html\"> Japanese</a> translation of the LGPL"
-msgstr "<code>[ja]</code> Traduction en <a href=\"http://www.finecheats.com/lgpl.html\">japonais</a> de la LGPL"
+msgid ""
+"<code>[hu]</code> <a href=\"http://gnu.hu/lgplv3.html\">Hungarian</a> "
+"translation of the LGPL"
+msgstr ""
+"<code>[hu]</code> Traduction en <a href=\"http://gnu.hu/lgplv3.html"
+"\">hongrois</a> de la LGPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[mt]</code> <a href=\"http://www.dexsun.com/gnu/mt/v3/lgpl.html\"> Maltese</a> translation of the LGPL"
-msgstr "<code>[mt]</code> Traduction en <a href=\"http://www.dexsun.com/gnu/mt/v3/lgpl.html\">maltais</a> de la LGPL"
+msgid ""
+"<code>[ja]</code> <a href=\"http://www.finecheats.com/lgpl.html\"> Japanese</"
+"a> translation of the LGPL"
+msgstr ""
+"<code>[ja]</code> Traduction en <a href=\"http://www.finecheats.com/lgpl.html"
+"\">japonais</a> de la LGPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[fa]</code> <a href=\"http://www.kaveh.org/gnu/lgplv3-fa.html\">Persian (Farsi)</a> translation of the LGPL"
-msgstr "<code>[fa]</code> Traduction en <a href=\"http://www.kaveh.org/gnu/lgplv3-fa.html\">farsi</a> de la LGPL"
+msgid ""
+"<code>[mt]</code> <a href=\"http://www.dexsun.com/gnu/mt/v3/lgpl.html\"> "
+"Maltese</a> translation of the LGPL"
+msgstr ""
+"<code>[mt]</code> Traduction en <a href=\"http://www.dexsun.com/gnu/mt/v3/"
+"lgpl.html\">maltais</a> de la LGPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[es]</code> <a href=\"http://www.viti.es/gnu/licenses/lgpl.html\">Spanish</a> translation of the LGPL"
-msgstr "<code>[es]</code> Traduction en <a href=\"http://www.viti.es/gnu/licenses/lgpl.html\">espagnol</a> de la LGPL"
+msgid ""
+"<code>[fa]</code> <a href=\"http://www.kaveh.org/gnu/lgplv3-fa.html"
+"\">Persian (Farsi)</a> translation of the LGPL"
+msgstr ""
+"<code>[fa]</code> Traduction en <a href=\"http://www.kaveh.org/gnu/lgplv3-fa."
+"html\">farsi</a> de la LGPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[pt-br]</code> <a href=\"http://www.fsfla.org/svnwiki/trad/LGPLv3\"> Brazilian Portuguese</a>"
-msgstr "<code>[pt-br]</code> Traduction en <a href=\"http://www.fsfla.org/svnwiki/trad/LGPLv3\">portugais brésilien</a> de la LGPL"
+msgid ""
+"<code>[es]</code> <a href=\"http://www.viti.es/gnu/licenses/lgpl.html"
+"\">Spanish</a> translation of the LGPL"
+msgstr ""
+"<code>[es]</code> Traduction en <a href=\"http://www.viti.es/gnu/licenses/"
+"lgpl.html\">espagnol</a> de la LGPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[es]</code> <a href=\"http://www.fsfla.org/svnwiki/trad/LGPLv3\"> Spanish</a> (both are lead by FSFLA)"
-msgstr "<code>[es]</code> Traduction en <a href=\"http://www.fsfla.org/svnwiki/trad/LGPLv3\">espagnol</a> de la LGPL (les deux sont menées par FSFLA)"
+msgid ""
+"<code>[pt-br]</code> <a href=\"http://www.fsfla.org/svnwiki/trad/LGPLv3\"> "
+"Brazilian Portuguese</a>"
+msgstr ""
+"<code>[pt-br]</code> Traduction en <a href=\"http://www.fsfla.org/svnwiki/"
+"trad/LGPLv3\">portugais brésilien</a> de la LGPL"
+
+# type: Content of: <ul><li>
+msgid ""
+"<code>[es]</code> <a href=\"http://www.fsfla.org/svnwiki/trad/LGPLv3\"> "
+"Spanish</a> (both are lead by FSFLA)"
+msgstr ""
+"<code>[es]</code> Traduction en <a href=\"http://www.fsfla.org/svnwiki/trad/"
+"LGPLv3\">espagnol</a> de la LGPL (les deux sont menées par FSFLA)"
 
 # type: Content of: <h3>
 msgid "The GNU Free Documentation License, version 1.3"
 msgstr "La licence GNU de documentation libre, version 1.3"
 
 # type: Content of: <p>
-msgid "FDL 1.3 was released on November 3, 2008 and is a relatively minor modification of FDL 1.2; the only major changes are the revision of section 9 and the addition of section 11.  Thus, the <a href=\"/licenses/old-licenses/fdl-1.2-translations.html\"> translations of FDL 1.2</a> may help you understand FDL 1.3 as well.  You can learn more about the differences between these two versions in <a href=\"/licenses/fdl-1.3-faq.html\">our FAQ</a>."
-msgstr "La FDL 1.3 a été publiée le 3 novembre 2008. Pour l'heure, il n'existe pas de traductions de cette nouvelle version de la FDL. Cependant, la FDL 1.3 est une modification relativement mineure de la FDL 1.2&nbsp;; les seuls changements majeurs de cette version sont la révision de la section 9 et l'addition de la section 11. Par conséquent, les <a href=\"/licenses/old-licenses/fdl-1.2-translations.html\">traductions de la FDL 1.2</a> peuvent aussi aider à comprendre la FDL 1.3. Vous pouvez en apprendre plus sur les différences entre ces deux versions dans <a href=\"/licenses/fdl-1.3-faq.html\">notre FAQ</a>."
+msgid ""
+"FDL 1.3 was released on November 3, 2008 and is a relatively minor "
+"modification of FDL 1.2; the only major changes are the revision of section "
+"9 and the addition of section 11.  Thus, the <a href=\"/licenses/old-"
+"licenses/fdl-1.2-translations.html\"> translations of FDL 1.2</a> may help "
+"you understand FDL 1.3 as well.  You can learn more about the differences "
+"between these two versions in <a href=\"/licenses/fdl-1.3-faq.html\">our "
+"FAQ</a>."
+msgstr ""
+"La FDL 1.3 a été publiée le 3 novembre 2008. Pour l'heure, il n'existe pas "
+"de traductions de cette nouvelle version de la FDL. Cependant, la FDL 1.3 "
+"est une modification relativement mineure de la FDL 1.2&nbsp;; les seuls "
+"changements majeurs de cette version sont la révision de la section 9 et "
+"l'addition de la section 11. Par conséquent, les <a href=\"/licenses/old-"
+"licenses/fdl-1.2-translations.html\">traductions de la FDL 1.2</a> peuvent "
+"aussi aider à comprendre la FDL 1.3. Vous pouvez en apprendre plus sur les "
+"différences entre ces deux versions dans <a href=\"/licenses/fdl-1.3-faq.html"
+"\">notre FAQ</a>."
 
 # type: Content of: <ul><li>
-msgid "<code>[zh-cn]</code> <a href=\"http://www.thebigfly.com/gnu/FDLv1.3/\"> Chinese (Simplified)</a> translation of the GFDL"
-msgstr "<code>[zh-cn]</code> Traduction en <a href=\"http://www.thebigfly.com/gnu/FDLv1.3/\">chinois simplifi&eacute;</a> de la GPL"
+msgid ""
+"<code>[zh-cn]</code> <a href=\"http://www.thebigfly.com/gnu/FDLv1.3/\"> "
+"Chinese (Simplified)</a> translation of the GFDL"
+msgstr ""
+"<code>[zh-cn]</code> Traduction en <a href=\"http://www.thebigfly.com/gnu/"
+"FDLv1.3/\">chinois simplifi&eacute;</a> de la GPL"
 
 # type: Content of: <ul><li>
-msgid "<code>[de]</code> <a href=\"http://home.arcor.de/rybaczyk/licenses/fdl-1.3.de.html\"> German</a> translation of the GFDL"
-msgstr "<code>[de]</code> Traduction en <a href=\"http://home.arcor.de/rybaczyk/licenses/fdl-1.3.de.html\">allemand</a> de la GFDL"
+msgid ""
+"<code>[de]</code> <a href=\"http://home.arcor.de/rybaczyk/licenses/fdl-1.3."
+"de.html\"> German</a> translation of the GFDL"
+msgstr ""
+"<code>[de]</code> Traduction en <a href=\"http://home.arcor.de/rybaczyk/"
+"licenses/fdl-1.3.de.html\">allemand</a> de la GFDL"
 
 # type: Content of: <ul><li>
-msgid "<code>[es]</code> <a href=\"http://stuff.danexnow.org/gfdl_es.html\"> Spanish</a> translation of the GFDL"
-msgstr "<code>[fa]</code> Traduction en <a href=\"http://stuff.danexnow.org/gfdl_es.html\">espagnol</a> de la GFDL"
+msgid ""
+"<code>[es]</code> <a href=\"http://stuff.danexnow.org/gfdl_es.html\"> "
+"Spanish</a> translation of the GFDL"
+msgstr ""
+"<code>[fa]</code> Traduction en <a href=\"http://stuff.danexnow.org/gfdl_es."
+"html\">espagnol</a> de la GFDL"
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
@@ -236,36 +500,63 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
-msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
-msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+"ways to contact</a> the FSF.  <br /> Please send broken links and other "
+"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+"\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
-msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
-msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+msgid ""
+"Please see the <a href=\"/server/standards/README.translations.html"
+"\">Translations README</a> for information on coordinating and submitting "
+"translations of this article."
+msgstr ""
+"Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html"
+"\">README des traductions</a> pour des informations sur la coordination et "
+"la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 1996, 1997, 1998, 1999, 2004, 2005, 2006, 2008 Free Software Foundation, Inc.,"
-msgstr "Copyright &copy; 1996, 1997, 1998, 1999, 2004, 2005, 2006, 2008 Free Software Foundation, Inc.,"
+msgid ""
+"Copyright &copy; 1996, 1997, 1998, 1999, 2004, 2005, 2006, 2008 Free "
+"Software Foundation, Inc.,"
+msgstr ""
+"Copyright &copy; 1996, 1997, 1998, 1999, 2004, 2005, 2006, 2008 Free "
+"Software Foundation, Inc.,"
 
 # type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
 # type: Content of: <div><p>
-msgid "Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved."
-msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+msgid ""
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium without royalty provided this notice is preserved."
+msgstr ""
+"La reproduction exacte et la distribution intégrale de cet article est "
+"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
+"préservée."
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
-msgstr "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+msgstr ""
+"Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
+"trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 # type: Content of: <div><p>
-#.  timestamp start
+#.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
-
