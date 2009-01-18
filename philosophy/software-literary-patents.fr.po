@@ -1,0 +1,211 @@
+# French translation of http://www.gnu.org/philosophy/software-literary-patents.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the software-literary-patents.html package.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-literary-patents.html\n"
+"POT-Creation-Date: 2008-09-18 16:25-0300\n"
+"PO-Revision-Date: 2009-01-18 17:10+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "Software Patents and Literary Patents - GNU Project - Free Software Foundation (FSF)"
+msgstr "Brevets logiciels et brevets litt&eacute;raires - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+msgid "Software Patents and Literary Patents"
+msgstr "Brevets logiciels et brevets litt&eacute;raires"
+
+# type: Content of: <p>
+msgid "by <strong><a href=\"http://stallman.org/\">Richard Stallman</a></strong>"
+msgstr "par <strong><a href=\"http://stallman.org/\">Richard Stallman</a></strong>"
+
+# type: Content of: <p>
+msgid "<em>This article was first published in <cite>The Guardian</cite>, of London, on June 20, 2005.  The software patent directive was voted down, on July 6, because its supporters decided at the last minute not to try their strength.  They will surely try again, in not quite the same way.</em>"
+msgstr "<em>Cet article a &eacute;t&eacute; d'abord publi&eacute; dans <cite>The Guardian</cite>, de Londres, le 20 juin 2005. La directive sur les brevets logiciels fut vot&eacute;e contre le 6 juillet car ses supporters avaient d&eacute;cid&eacute; &agrave; la derni&egrave;re minute de ne pas essayer leur force. Ils essaieront s&ucirc;rement &agrave; nouveau, pas tout &agrave; fait de la m&ecirc;me mani&egrave;re.</em>"
+
+# type: Content of: <p>
+msgid "On July 6, 2005, the European Parliament will vote on the vital question of whether to allow patents covering software&mdash;a policy that would restrict every computer user, and tie software developers up in knots."
+msgstr "Le 6 juillet 2005, le Parlement europ&eacute;en votera sur la question vitale d'autoriser les brevets s'appliquant aux logiciels&mdash;une politique qui restreindra chaque utilisateur d'ordinateur et ligotera les d&eacute;veloppeurs de logiciels."
+
+# type: Content of: <p>
+msgid "Many politicians may be voting blind; not being programmers, they don't understand what software patents do.  They often think patents are similar to copyright law (except for some details)&mdash;which is not the case.  For instance, when I publicly asked Patrick Devedjian, then Minister for Industry, how France would vote on the issue of software patents, Devedjian responded with an impassioned defense of copyright law, praising Victor Hugo for his role in the adoption of copyright.  (The misleading term <a href=\"/philosophy/not-ipr.html\"> &ldquo;intellectual property&rdquo;</a>, promotes this confusion&mdash;one reason it should never be used.)"
+msgstr "Beaucoup de politiciens voteront &agrave; l'aveuglette&nbsp;; n'&eacute;tant pas programmeurs, ils ne comprennent pas ce que font les brevets logiciels. Ils pensent souvent que les brevets sont similaires &agrave; la loi sur les droits d'auteur (sauf pour quelques d&eacute;tails)&mdash;ce qui n'est pas le cas. Par exemple, quand j'ai demand&eacute; publiquement &agrave; Patrick Devedjian, alors Ministre de l'industrie, comment la France voterait sur la question des brevets logiciels, Devedjian r&eacute;pondit une d&eacute;fense passionn&eacute;e de la loi sur le droit d'auteur, en louant Victor Hugo pour son r&ocirc;le dans l'adoption du droit d'auteur. (Le terme trompeur <a href=\"/philosophy/not-ipr.fr.html\">&laquo;&nbsp;propri&eacute;t&eacute; intellectuelle&nbsp;&raquo;</a>, encourage cette confusion&nbsp;; une raison pour laquelle il ne devrait jamais &ecirc;tre utilis&eacute;)."
+
+# type: Content of: <p>
+msgid "Those who imagine effects like those of copyright law cannot grasp the real effects of software patents.  We can use Victor Hugo as an example to illustrate the difference."
+msgstr "Ceux qui imaginent des effets comme ceux-ci sur la loi sur le droit d'auteur ne peuvent pas envisager d'appr&eacute;hender les effets r&eacute;els des brevets logiciels. Nous pouvons utiliser Victor Hugo comme exemple pour illustrer cette diff&eacute;rence."
+
+# type: Content of: <p>
+msgid "A novel and a modern complex program have certain points in common: each one is large, and implements many ideas.  So let's follow the analogy, and suppose that patent law had been applied to novels in the 1800s; suppose that states such as France had permitted the patenting of literary ideas.  How would this have affected Victor Hugo's writing? How would the effects of literary patents compare with the effects of literary copyright?"
+msgstr "Un roman et un programme moderne complexe ont certains points en commun&nbsp;: chacun d'eux est grand et met en &oelig;uvre beaucoup d'id&eacute;es. Alors poursuivons l'analogie et supposons que la loi sur les brevets ait &eacute;t&eacute; appliqu&eacute;e aux romans dans les ann&eacute;es 1800&nbsp;; supposons que des &eacute;tats comme la France ait permis le brevetage des id&eacute;es litt&eacute;raires. Comment cela aurait-il affect&eacute; l'&eacute;criture de Victor Hugo&nbsp;? Les effets des brevets litt&eacute;raires seraient-ils comparables aux effets du droit d'auteur litt&eacute;raire&nbsp;?"
+
+# type: Content of: <p>
+msgid "Consider the novel, Les Mis&eacute;rables, which Hugo wrote.  Since he wrote it, the copyright belonged only to him&mdash;nobody else.  He did not have to fear that some stranger could sue him for copyright infringement and win.  That was impossible, because copyright covers only the details of a work of authorship, and it only restricts copying.  Hugo had not copied Les Mis&eacute;rables, so he was not in danger."
+msgstr "Consid&eacute;rons le roman &laquo;&nbsp;Les Mis&eacute;rables&nbsp;&raquo; &eacute;crit par Hugo. Puisqu'il l'avait &eacute;crit, le droit d'auteur n'appartenait qu'&agrave; lui&mdash;et personne d'autre. Il n'avait pas &agrave; craindre qu'un inconnu le poursuive en justice pour violation de droit d'auteur et gagne. C'&eacute;tait impossible, car le droit d'auteur ne couvre que les d&eacute;tails de la paternit&eacute; d'une &oelig;uvre et ne restreint que la copie. Hugo n'avait pas copi&eacute; &laquo;&nbsp;Les Mis&eacute;rables&nbsp;&raquo;, il n'&eacute;tait donc pas en danger."
+
+# type: Content of: <p>
+msgid "Patents work differently.  Patents cover ideas; each patent is a monopoly on practicing some idea, which is described in the patent itself.  Here's one example of a hypothetical literary patent:"
+msgstr "Les brevets fonctionnent diff&eacute;remment. Les brevets couvrent les id&eacute;es&nbsp;; chaque brevet est un monopole sur la pratique d'une certaine id&eacute;e, qui est d&eacute;crite dans le brevet lui-m&ecirc;me. Voici un exemple d'un brevet litt&eacute;raire hypoth&eacute;tique&nbsp;:"
+
+# type: Content of: <ul><li>
+msgid "Claim 1: a communication process that represents in the mind of a reader the concept of a character who has been in jail for a long time and becomes bitter towards society and humankind."
+msgstr "Revendication 1&nbsp;: un processus de communication qui repr&eacute;sente dans l'esprit d'un lecteur le concept d'un personnage qui a &eacute;t&eacute; en prison longtemps et qui devient amer envers la soci&eacute;t&eacute; et l'humanit&eacute;."
+
+# type: Content of: <ul><li>
+msgid "Claim 2: a communication process according to claim 1, wherein said character subsequently finds moral redemption through the kindness of another."
+msgstr "Revendication 2&nbsp;: un processus de communication conform&eacute;ment &agrave; la revendication 1, o&ugrave; ledit personnage trouve finalement la r&eacute;demption morale dans la gentillesse d'un autre."
+
+# type: Content of: <ul><li>
+msgid "Claim 3: a communication process according to claims 1 and 2, wherein said character changes his name during the story."
+msgstr "Revendication 3&nbsp;: un processus de communication conform&eacute;ment &agrave; la revendication 1 et 2, o&ugrave; ledit personnage change de nom pendant l'histoire."
+
+# type: Content of: <p>
+msgid "If such a patent had existed in 1862 when Les Mis&eacute;rables was published, the novel would have infringed all three claims, since all these things happened to Jean Valjean in the novel.  Victor Hugo could have been sued, and if sued, he would have lost.  The novel could have been prohibited&mdash;in effect, censored&mdash;by the patent holder."
+msgstr "Si un tel brevet avait exist&eacute; en 1862 quand &laquo;&nbsp;Les Mis&eacute;rables&nbsp;&raquo; a &eacute;t&eacute; publi&eacute;, le roman aurait viol&eacute; les trois revendications puisque ces trois choses arrivent &agrave; Jean Valjean dans le roman. Victor Hugo aurait pu &ecirc;tre poursuivi et dans ce cas, il aurait perdu. Le roman aurait pu &ecirc;tre interdit&mdash;en fait censur&eacute;&mdash;par le d&eacute;tenteur du brevet."
+
+# type: Content of: <p>
+msgid "Now consider this hypothetical literary patent:"
+msgstr "Consid&eacute;rons maintenant ce brevet litt&eacute;raire hypoth&eacute;tique&nbsp;:"
+
+# type: Content of: <ul><li>
+msgid "Claim 1: a communication process that represents in the mind of a reader the concept of a character who has been in jail for a long time and subsequently changes his name."
+msgstr "Revendication 1&nbsp;: un processus de communication qui repr&eacute;sente dans l'esprit d'un lecteur le concept d'un personnage qui a &eacute;t&eacute; en prison longtemps et qui change finalement de nom."
+
+# type: Content of: <p>
+msgid "Les Mis&eacute;rables would have infringed that patent too, because this description too fits the life story of Jean Valjean.  And here's another hypothetical patent:"
+msgstr "&laquo;&nbsp;Les Mis&eacute;rables&nbsp;&raquo; aurait viol&eacute; ce brevet &eacute;galement, car cette description s'applique aussi &agrave; l'histoire de la vie de Jean Valjean. Et voici un autre brevet hypoth&eacute;tique&nbsp;:"
+
+# type: Content of: <ul><li>
+msgid "Claim 1: a communication process that represents in the mind of a reader the concept of a character who finds moral redemption and then changes his name."
+msgstr "Revendication 1&nbsp;: un processus de communication qui repr&eacute;sente dans l'esprit d'un lecteur le concept d'un personnage qui trouve la r&eacute;demption morale et qui change ensuite de nom."
+
+# type: Content of: <p>
+msgid "Jean Valjean would have infringed this patent too."
+msgstr "Jean Valjean aurait viol&eacute; ce brevet aussi."
+
+# type: Content of: <p>
+msgid "These three patents would all cover the story of one character in a novel.  They overlap, but they do not precisely duplicate each other, so they could all be valid simultaneously; all three patent holders could have sued Victor Hugo.  Any one of them could have prohibited publication of Les Mis&eacute;rables."
+msgstr "Ces trois brevets couvriraient tous l'histoire d'un personnage dans un roman. Ils se recouvrent, mais ne sont pas pr&eacute;cis&eacute;ment des copies des autres, ils peuvent donc tous &ecirc;tre valides simultan&eacute;ment&nbsp;; les d&eacute;tenteurs des trois brevets auraient pu poursuivre Victor Hugo. N'importe lequel d'entre eux aurait pu interdire la publication de &laquo;&nbsp;Mis&eacute;rables&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "The novel would also have infringed this patent,"
+msgstr "Le roman aurait aussi viol&eacute; le brevet suivant&nbsp;:"
+
+# type: Content of: <ul><li>
+msgid "Claim 1: a communication process that presents a character whose given name matches the last syllable of his family name."
+msgstr "Revendication 1&nbsp;: un processus de communication qui pr&eacute;sente un personnage dont le pr&eacute;nom correspond &agrave; la derni&egrave;re syllabe de son nom de famille."
+
+# type: Content of: <p>
+msgid "through the name &ldquo;Jean Valjean&rdquo;, but at least this patent would have been easy to avoid."
+msgstr "&agrave; cause de du nom &laquo;&nbsp;Jean Valjean&nbsp;&raquo;, mais au moins ce brevet aurait pu &ecirc;tre facilement &eacute;vit&eacute;."
+
+# type: Content of: <p>
+msgid "You might think that these ideas are so simple that no patent office would have issued them.  We programmers are often amazed by the simplicity of the ideas that real software patents cover&mdash;for instance, the European Patent Office has issued a patent on the progress bar, and a patent on accepting payment via credit cards.  These patents would be laughable if they were not so dangerous."
+msgstr "Vous pourriez penser que ces id&eacute;es sont si simples qu'aucun office de brevets n'accorderait de brevets pour cela. Nous autres programmeurs sommes souvent abasourdis par la simplicit&eacute; des id&eacute;es que les brevets logiciels r&eacute;els couvrent&mdash;par exemple, l'Office europ&eacute;en des brevets a accord&eacute; un brevet sur la barre de progression et un brevet sur le paiement par cartes de cr&eacute;dit. Ces brevets seraient risibles s'ils n'&eacute;taient pas si dangereux."
+
+# type: Content of: <p>
+msgid "Other aspects of Les Mis&eacute;rables could also have run afoul of patents.  For instance, there could have been a patent on a fictionalized portrayal of the Battle of Waterloo, or a patent on using Parisian slang in fiction.  Two more lawsuits.  In fact, there is no limit to the number of different patents that might have been applicable for suing the author of a work such as Les Mis&eacute;rables.  All the patent holders would say they deserved a reward for the literary progress that their patented ideas represent, but these obstacles would not promote progress in literature, they would only obstruct it."
+msgstr "D'autres aspects du roman &laquo;&nbsp;Les Mis&eacute;rables&nbsp;&raquo; auraient pu causer des probl&egrave;mes avec les brevets. Par exemple, il aurait pu y avoir un brevet sur la description en fiction de la Bataille de Waterloo ou un brevet sur l'usage de l'argot parisien dans une fiction. Deux autres proc&egrave;s. En fait, il n'y a pas de limites au nombre de diff&eacute;rents brevets qui auraient pu &ecirc;tre mis en application pour poursuivre l'auteur d'une &oelig;uvre telle sue &laquo;&nbsp;Les Mis&eacute;rables&nbsp;&raquo;. Tous les d&eacute;tenteurs de brevets vous diraient qu'ils m&eacute;ritent une r&eacute;compense pour le progr&egrave;s en litt&eacute;rature que leurs id&eacute;es brevet&eacute;es repr&eacute;sentent, mais ces obstacles ne constitueraient pas une promotion du progr&egrave;s en litt&eacute;rature, ils le bloqueraient."
+
+# type: Content of: <p>
+msgid "However, a very broad patent could have made all these issues irrelevant.  Imagine patents with broad claims like these:"
+msgstr "Cependant, un brevet tr&egrave;s &eacute;tendu aurait pu rendre tous ces probl&egrave;mes insignifiants. Imaginez des brevets avec des revendications &eacute;tendues comme celles-ci&nbsp;:"
+
+# type: Content of: <ul><li>
+msgid "Communication process structured with narration that continues through many pages."
+msgstr "Un processus de communication structur&eacute; par une narration qui se poursuit sur plusieurs pages."
+
+# type: Content of: <ul><li>
+msgid "A narration structure sometimes resembling a fugue or improvisation."
+msgstr "Une structure de narration ressemblant parfois &agrave; une fugue ou une improvisation."
+
+# type: Content of: <ul><li>
+msgid "Intrigue articulated around the confrontation of specific characters, each in turn setting traps for the others."
+msgstr "Une intrigue articul&eacute;e autour de la confrontation de personnages sp&eacute;cifiques, chacun tendant des pi&egrave;ges aux autres."
+
+# type: Content of: <ul><li>
+msgid "Narration that presents many layers of society."
+msgstr "Une narration qui pr&eacute;sente plusieurs couches de la soci&eacute;t&eacute;."
+
+# type: Content of: <ul><li>
+msgid "Narration that shows the wheels of hidden conspiracy."
+msgstr "Une narration qui montre les rouages d'une conspiration secr&egrave;te."
+
+# type: Content of: <p>
+msgid "Who would the patent holders have been? They could have been other novelists, perhaps Dumas or Balzac, who had written such novels&mdash;but not necessarily.  It isn't required to write a program to patent a software idea, so if our hypothetical literary patents follow the real patent system, these patent holders would not have had to write novels, or stories, or anything&mdash;except patent applications.  Patent parasite companies, businesses that produce nothing except threats and lawsuits, are growing larger today."
+msgstr "Quels auraient pu &ecirc;tre les d&eacute;tenteurs de brevets&nbsp;? Cela aurait pu &ecirc;tre d'autres romanciers, peut-&ecirc;tre Dumas ou Balzac, qui avaient &eacute;crit des romans similaires&mdash;mais pas n&eacute;cessairement. Il n'est pas n&eacute;cessaire d'&eacute;crire un programme pour breveter une id&eacute;e logicielle, donc, si nos brevets litt&eacute;raires hypoth&eacute;tiques suivaient le syst&egrave;me de brevets r&eacute;els, ces d&eacute;tenteurs de brevets n'auraient pas &agrave; &eacute;crire de romans ou d'histoires ou quoi que ce soit&mdash;sauf les demandes de brevets. Des soci&eacute;t&eacute;s parasites, des soci&eacute;t&eacute;s qui ne produisent rien d'autres que des menaces et des poursuites judiciaires, fleurissent aujourd'hui."
+
+# type: Content of: <p>
+msgid "Given these broad patents, Victor Hugo would not have reached the point of asking what patents might get him sued for using the character of Jean Valjean, because he could not even have considered writing a novel of this kind."
+msgstr "Avec des brevets &eacute;tendus comme ceux-l&agrave;, Victor Hugo n'aurait pas d&eacute;pass&eacute; le stade du questionnement de savoir quels brevets auraient pu lui valoir des poursuites pour l'utilisation du personnage de Jean Valjean, car il n'aurait m&ecirc;me pas envisag&eacute; d'&eacute;crire un roman de cette fa&ccedil;on."
+
+# type: Content of: <p>
+msgid "This analogy can help non-programmers see what software patents do. Software patents cover features, such as defining abbreviations in a word processor, or natural order recalculation in a spreadsheet.  Patents cover algorithms that programs need to use.  Patents cover aspects of file formats, such as Microsoft's new formats for Word files.  MPEG 2 video format is covered by 39 different US patents."
+msgstr "Cette analogie peut aider les non-programmeurs &agrave; voir ce que les brevets logiciels font. Les brevets logiciels couvrent des fonctionnalit&eacute;s tels que la d&eacute;finition d'abr&eacute;viations dans un traitement de texte ou le recalcul en ordre naturel dans un tableur. Les brevets couvrent des algorithmes que les programmes ont besoin d'utiliser. Les brevets couvrent des aspects des formats de fichier comme les nouveaux formats de fichiers Word de Microsoft. Le format vid&eacute;o MPEG 2 est couvert par 39 brevets am&eacute;ricains diff&eacute;rents."
+
+# type: Content of: <p>
+msgid "Just as one novel could infringe many different literary patents at once, one program can infringe many different patents at once.  It is so much work to identify all the patents infringed by a large program that only one such study has been done.  A 2004 study of Linux, the kernel of the GNU/Linux operating system, found it infringed 283 different US software patents.  That is to say, each of these 283 different patents covers some computational process found somewhere in the thousands of pages of source code of Linux."
+msgstr "Tout comme un roman pourrait violer beaucoup de brevets litt&eacute;raires diff&eacute;rents &agrave; la fois, un programme peut violer beaucoup de brevets diff&eacute;rents en m&ecirc;me temps. Cela repr&eacute;sente un tel travail d'identifier tous les brevets viol&eacute;s par un gros programme qu'une seule &eacute;tude de ce genre &agrave; &eacute;t&eacute; faite. Une &eacute;tude de 2004 sur Linux, le noyau du syst&egrave;me d'exploitation GNU/Linux, a trouv&eacute; qu'il violait 283 brevets logiciels am&eacute;ricains diff&eacute;rents. C'est-&agrave;-dire que chacun des 283 brevets couvre un processus informatique trouv&eacute; quelque part dans les milliers de pages de code source de Linux."
+
+# type: Content of: <p>
+msgid "The text of the directive approved by the Council of Ministers clearly authorizes patents covering software techniques.  (See <a href=\"http://eupat.ffii.org/xatra/cons0406/text/index.en.html\">http://eupat.ffii.org/xatra/cons0406/text/index.en.html</a>.)  Its backers claim that the requirement for patents to have a &ldquo;technical character&rdquo; will exclude software patents, but it will not.  It is easy to describe a computer program in a &ldquo;technical&rdquo; way: The Boards of Appeal of the European Patent Office said (Case T 0258/03; <a href=\"http://legal.european-patent-office.org/dg3/pdf/t030258ex1.pdf\">http://legal.european-patent-office.org/dg3/pdf/t030258ex1.pdf</a>):"
+msgstr "Le texte de la directive approuv&eacute; par le Conseil des ministres autorise clairement les brevets couvrant les techniques logicielles.  (voir <a href=\"http://eupat.ffii.org/lettres/cons0406/text/index.fr.html\">http://eupat.ffii.org/lettres/cons0406/text/index.fr.html</a>.) Ses supporteurs affirment que la n&eacute;cessit&eacute; pour les brevets d'avoir un&laquo;&nbsp;caract&egrave;re technique&nbsp;&raquo; en excluent les brevets logiciels, mais ce n'est pas le cas. Il est facile de d&eacute;crire un programme pour ordinateur de mani&egrave;re &laquo;&nbsp;technique&nbsp;&raquo;&nbsp;: La Chambre de recours de l'Office europ&eacute;en des brevets a dit (Affaire T 0258/03; <a href=\"http://legal.european-patent-office.org/dg3/pdf/t030258ex1.pdf\">http://legal.european-patent-office.org/dg3/pdf/t030258ex1.pdf</a>)&nbsp;:"
+
+# type: Content of: <blockquote><p>
+msgid "The Board is aware that its comparatively broad interpretation of the term &ldquo;invention&rdquo; in Article 52(1) EPC will include activities which are so familiar that their technical character tends to be overlooked, such as the act of writing using pen and paper."
+msgstr "La Chambre est consciente que cette interpr&eacute;tation relativement large du terme &laquo;&nbsp;invention&nbsp;&raquo; de l'article 52(1) CBE incluera des activit&eacute;squi sont si famili&egrave;res que leur caract&egrave;re technique tend &agrave; &ecirc;tre oubli&eacute;, tel que l'acte d'&eacute;crire en utilisant un stylo et du papier."
+
+# type: Content of: <p>
+msgid "Any usable software can be &ldquo;loaded and executed in a computer, programmed computer network or other programmable apparatus&rdquo; in order to do its job, which is the criterion in article 5(2) of the directive for patents to prohibit even the publication of programs (<a href=\"http://eupat.ffii.org/papri/europarl0309/cons0401/tab/index.en.html\">http://eupat.ffii.org/papri/europarl0309/cons0401/tab/index.en.html</a>)."
+msgstr "&laquo;&nbsp;Une &lt;&nbsp;invention mise en &oelig;uvre par ordinateur&nbsp;&gt; d&eacute;signe toute invention dont l'ex&eacute;cution implique l'utilisation d'un ordinateur, d'un r&eacute;seau informatique ou d'un autre appareil programmable &nbsp;&raquo; afin de faire son travail, ce qui est l'argument de l'article 5(2) de la directive pour que les brevets interdisent m&ecirc;me la publication des programmes (<a href=\"http://eupat.ffii.org/papers/europarl0309/cons0401/tab/index.fr.html\">http://eupat.ffii.org/papers/europarl0309/cons0401/tab/index.fr.html</a>)."
+
+# type: Content of: <p>
+msgid "The way to prevent software patents from bollixing software development is simple: don't authorize them.  In the first reading, in 2003, the European Parliament adopted the necessary amendments to exclude software patents, but the Council of Ministers reversed the decision.  Citizens of the EU should phone their MEPs without delay, urging them to sustain the parliament's previous decision in the second reading of the directive."
+msgstr "La fa&ccedil;on d'emp&ecirc;cher les brevets logiciels de rendre confus le d&eacute;veloppement de logiciels est simple&nbsp;: ne les autorisez pas. En premi&egrave;re lecture, en2003, le Parlement europ&eacute;en a adopt&eacute; les amendements n&eacute;cessaires pour exclure les brevets logiciels mais le Conseil des ministres a annul&eacute; cette d&eacute;cision. Les citoyens de l'Union europ&eacute;enne devraient t&eacute;l&eacute;phoner &agrave; leur Membre du Parlement europ&eacute;en sans d&eacute;lai, en les pressant de soutenir la d&eacute;cision pr&eacute;c&eacute;dente du Parlement en seconde lecture de la directive."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 2005, 2007, 2008 Free Software Foundation, Inc.,"
+msgstr "Copyright &copy; 2005, 2007, 2008 Free Software Foundation, Inc.,"
+
+# type: Content of: <div><address>
+msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+
+# type: Content of: <div><p>
+msgid "Verbatim copying and distribution of this entire article are permitted worldwide, without royalty, in any medium, provided this notice, and the copyright notice, are preserved."
+msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
