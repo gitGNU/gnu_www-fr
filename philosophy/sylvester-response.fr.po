@@ -1,0 +1,131 @@
+# French translation of http://www.gnu.org/philosophy/sylvester-response.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the sylvester-response.html package.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sylvester-response.html\n"
+"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"PO-Revision-Date: 2009-01-19 00:36+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <h2>
+msgid "A Response Letter to the Word Attachments"
+msgstr "Une lettre de r&eacute;ponse aux pi&egrave;ces jointes Word"
+
+# type: Attribute 'content' of: <meta>
+msgid "GNU, FSF, Free Software Foundation, Linux, general, public, license, gpl, general public license, freedom, software, power, rights, word, attachment, word attachment, microsoft"
+msgstr "GNU, FSF, Free Software Foundation, Linux, générale, publique, licence, gpl, licence publique générale, liberté, logiciel, pouvoir, droits, word, pièce jointe, microsoft"
+
+# type: Attribute 'content' of: <meta>
+msgid "This essay explains why Microsoft Word attachments to email are bad, and describes what you can do to help stop this practice."
+msgstr "Cet article explique pourquoi les pièces jointes Microsoft Word aux courriels et décrit ce que vous pouvez faire pour arrêter cette pratique."
+
+# type: Content of: <p>
+msgid "From: Reverend Father Martin Sylvester"
+msgstr "De&nbsp;: R&eacute;v&eacute;rend Martin Sylvester"
+
+# type: Content of: <p>
+msgid "Sorry I was unable to read your attachment.  I hope the following is useful!"
+msgstr "Je suis d&eacute;sol&eacute; mais je suis incapable de lire votre pi&egrave;ce jointe. J'esp&egrave;re que ce qui suit sera utile&nbsp;!"
+
+# type: Content of: <p>
+msgid "You sent me an email with an attachment in Microsoft Word format, which is not a standard Internet format, but a proprietary one owned by Microsoft, and protected by them so people can't be sure of reading it properly unless they buy expensive Microsoft software.  If you had sent me your text inside a plain email (instead of as an attachment to an email), or as a plain text, rich text, HTML, or PDF attachment, then I would have been able to read it."
+msgstr "Vous m'avez envoy&eacute; une pi&egrave;ce jointe au format Microsoft Word, qui n'est pas un format standard d'Internet, mais un format propri&eacute;taire d&eacute;tenu par Microsoft et prot&eacute;g&eacute; par celui-ci de sorte que personne ne peut &ecirc;tre s&ucirc;r de le lire correctement &agrave; moins d'acheter un co&ucirc;teux logiciel de Microsoft. Si vous m'aviez envoy&eacute; votre texte dans le corps du message (plut&ocirc;t qu'en pi&egrave;ce jointe), ou en texte simple, en texte riche (RTF), en HTML ou en pi&egrave;ce jointe PDF, j'aurais alors &eacute;t&eacute; en mesure de le lire."
+
+# type: Content of: <p>
+msgid "Distributing documents in Word format is not good for you or for others.  You can't be sure what they will look like if someone views them with a different version of Word; some people may not be able to read them at all."
+msgstr "Distribuer des documents au format Word n'est bon ni pour vous ni pour les autres. Vous ne pouvez pas &ecirc;tre s&ucirc;r de l'apparence qu'ils auront si quelqu'un les visionne avec une version de Word diff&eacute;rente; certaines personnes pourraient m&ecirc;me ne pas &ecirc;tre capables de les lire du tout."
+
+# type: Content of: <p>
+msgid "Receiving Word attachments is not good for you because they can carry viruses: see <a href=\"http://www.viruslist.com/en/virusesdescribed?chapter=153313603\"> http://www.viruslist.com/en/virusesdescribed?chapter=153313603</a>."
+msgstr "Recevoir des pi&egrave;ces jointes Word n'est pas bon pour vous car elles peuvent contenir des virus&nbsp;: voir <a href=\"http://www.viruslist.com/en/virusesdescribed?chapter=153313603\">http://www.viruslist.com/en/virusesdescribed?chapter=153313603</a>."
+
+# type: Content of: <p>
+msgid "Sending Word attachments is not good for you, because a Word document normally includes hidden information about the author, enabling those with the know-how to pry into the life of the person who wrote it.  Text that you think you deleted may still be embarrassingly present in the file, but simply hidden from you when you view it using Word.  The person who reads your Word document with a different program might be able to see it all.  Your attachments might even contain fragments of documents you were working on prior to sending your email, in text that's invisible to you, but visible to some of the people who receive your Word attachments.  See <a href=\"http://news.bbc.co.uk/2/hi/technology/3154479.stm\"> http://news.bbc.co.uk/2/hi/technology/3154479.stm</a> for more information."
+msgstr "Envoyer des pi&egrave;ces jointes Word n'est pas bon pour vous, car un document Word rec&egrave;le normalement des informations cach&eacute;es sur l'auteur, permettant &agrave; ceux qui savent comment faire de fouiller dans la vie priv&eacute;e de la personne qui l'a &eacute;crite. Du texte que vous pensiez avoir effac&eacute; peut toujours &ecirc;tre pr&eacute;sent de fa&ccedil;on embarrassante dans le fichier, mais simplement cach&eacute; quand vous visionnez le document en utilisant Word. La personne qui lit votre document Word avec un programme diff&eacute;rent pourrait &ecirc;tre capable de le voir. Vos pi&egrave;ces jointes pourraient m&ecirc;me contenir des parties de documents sur lesquels vous travailliez avant d'envoyer votre email, du texte invisible pour vous, mais visible pour certaines personnes qui re&ccedil;oivent vos pi&egrave;ces jointes Word. Voir <a href=\"http://news.bbc.co.uk/2/hi/technology/3154479.stm\">http://news.bbc.co.uk/2/hi/technology/3154479.stm</a> pour plus de d&eacute;tails."
+
+# type: Content of: <p>
+msgid "If someone is using a slow connection, or reading their email through their mobile (cellphone) or their handheld computer, your message might not be accessible to them at all if you send it as a Word attachment; if it is, it will take many, many times longer for them to download than if you send a plain email, and this could be very expensive for them on a wireless connection."
+msgstr "Si quelqu'un utilise une connexion &agrave; faible d&eacute;bit ou lit son courrier sur son t&eacute;l&eacute;phone mobile ou sur son organiseur &eacute;lectronique, votre message pourrait ne pas &ecirc;tre accessible du tout si vous l'envoyez en pi&egrave;ce jointe Word; et si c'&eacute;tait le cas, il prendrait beaucoup, beaucoup plus de temps &agrave; &ecirc;tre t&eacute;l&eacute;charg&eacute; que si vous l'aviez envoy&eacute; en texte simple, et cela pourrait revenir tr&egrave;s cher pour ces personnes sur une connexion sans fil."
+
+# type: Content of: <p>
+msgid "Worse still, sending people Word documents is a discourtesy because it implies that if they don't own the programs that you use, you're not interested in whether or not they can read what you've written.  Imagine sending a document in Latin to someone else without knowing whether or not they read Latin! If you send someone a Word document, the only way they can be sure of reading it properly is to go out and buy Microsoft Word.  Not everyone can afford to do this, and millions of individuals and organizations use other word processing programs because they prefer them, or because they're cheaper or even free."
+msgstr "Pire encore, envoyer des documents Word &agrave; des personnes est un manque de correction car cela implique que si elles n'ont pas le programme que vous utilisez, vous n'&ecirc;tes pas int&eacute;ress&eacute; de savoir si elles peuvent ou non lire ce que vous avez &eacute;crit. Imaginez envoyer un document en latin &agrave; quelqu'un sans savoir s'il comprend le latin&nbsp;! Si vous envoyez &agrave; quelqu'un un document Word, le seul moyen pour cette personne d'&ecirc;tre s&ucirc;re de le lire correctement est d'aller acheter Microsoft Word. Tout le monde ne peut pas se le permettre et des millions de particuliers et d'organisations utilisent d'autres traitements de texte parce qu'ils les pr&eacute;f&egrave;rent, qu'ils sont moins chers ou m&ecirc;me libres."
+
+# type: Content of: <p>
+msgid "Even some people who do own Word don't like to receive Word attachments because they don't want to get viruses."
+msgstr "M&ecirc;me les personnes qui poss&egrave;dent une version de Word n'aiment pas recevoir des pi&egrave;ces jointes Word car elles ne veulent pas attraper de virus."
+
+# type: Content of: <p>
+msgid "I hope it's clear that I'm not in any way trying to tell you off, but just to share with you some information that you might not have had an opportunity to consider, and which might be helpful to you."
+msgstr "J'esp&egrave;re qu'il est clair pour vous que je n'essaie pas d'une quelconque mani&egrave;re de me disputer avec vous, mais juste de partager avec vous des informations que vous pourriez ne pas avoir eu l'opportunit&eacute; de consid&eacute;rer et qui pourraient vous &ecirc;tre utiles."
+
+# type: Content of: <p>
+msgid "In case you do choose to reconsider using Word attachments as a method of communication, here's some information about ways of sending emails and attachments that anyone can read."
+msgstr "Au cas o&ugrave; vous reconsid&eacute;reriez d'utiliser des pi&egrave;ces jointes Word comme m&eacute;thode de communication, voici quelques informations sur les moyens d'envoyer des emails et des pi&egrave;ces jointes que tout le monde puisse lire."
+
+# type: Content of: <p>
+msgid "If what's important in your email is the words, it's always, always best to send it as a plain text email.  This won't allow you to use italics or underlining, but will be readable on any email program on any device anywhere in the world.  To do this type your message right into a blank email in your email program, and check that it will be sent as a plain text mail (not HTML or RTF) &mdash; the &lsquo;Help&rsquo; function of your email program should explain how you can set it up to send plain text emails.  There are accepted conventions for emphasizing words or distinguishing titles of books.  Emphasize words like this: it's *very* easy.  Cite references like this: Joseph Heller, _Catch 22_."
+msgstr "Si ce qui est important dans votre courriel sont les mots, la meilleure solution est toujours de l'envoyer en texte simple. Cela ne vous permettra pas d'utiliser des italiques ou du soulignement, mais ce sera lisible sur n'importe quel client de messagerie partout dans le monde. Pour faire cela, r&eacute;digez votre message dans votre client de messagerie, et v&eacute;rifiez qu'il sera envoy&eacute; en texte simple (pas en HTML ou en RTF) &mdash;&nbsp;la fonction « Aide » de votre client de messagerie devrait vous expliquer comment param&eacute;trer votre client pour envoyer des emails en texte simple. Il y a des conventions reconnues pour mettre une emphase sur des mots ou pour distinguer des titres de livres. L'emphase s'indique comme cela&nbsp;: c'est *tr&egrave;s* simple. Les r&eacute;f&eacute;rences s'indiquent comme ceci&nbsp;: Joseph Heller, _Catch 22_."
+
+# type: Content of: <p>
+msgid "Another way that might work is to compose your message in Word, then select and copy all of it.  Open your email program and create a new email, and paste the text into the area where you would type your message.  This is not entirely reliable, since different versions of Word work slightly differently, and it might add a whole load of invisible formatting codes to your email (invisible to you, using Word: a lengthy jumble of meaningless characters to someone who tries to read it using something else)."
+msgstr "Un autre moyen qui pourrait fonctionner est de composer votre message dans Word, de le s&eacute;lectionner enti&egrave;rement et de le copier. Puis, ouvrez votre client de messagerie et cr&eacute;ez un nouveau message et collez le texte dans la zone de r&eacute;daction. Ce n'est pas totalement s&ucirc;r, car diff&eacute;rentes version de Word fonctionnent un peu diff&eacute;remment et elle pourraient ajouter tout un ensemble de codes de formatage invisibles dans votre email (invisible pour vous, en utilisant Word&nbsp;: mais tout un fatras de caract&egrave;res sans signification pour quelqu'un qui essaierait de le lire en utilisant autre chose)."
+
+# type: Content of: <p>
+msgid "If you have a very long document you want to send as an attachment, or a document which people won't be able to understand by means of the words alone (perhaps you have complicated formulae or tables in it, or you *must* use bold and italic), then there are still ways of doing this without appearing to show contempt for people who don't own Microsoft Word."
+msgstr "Si vous avez un tr&egrave;s long document que vous voulez envoyer en pi&egrave;ce jointe ou un document que les gens ne seraient pas capables de comprendre &agrave; l'aide des mots seulement (peut-&ecirc;tre avez-vous des formules compliqu&eacute;es ou des tableaux dans le document ou que vous *devez* utiliser les caract&egrave;res gras ou italiques), alors il y a encore des moyens de faire cela sans para&icirc;tre montrer du m&eacute;pris pour les gens qui ne poss&egrave;dent pas Microsoft Word."
+
+# type: Content of: <p>
+msgid "To convert the file to HTML using Word is simple. Open the document, click on File, then Save As, and in the Save As Type strip box at the bottom of the box, choose HTML Document or Web Page.  Then choose Save.  You can then attach the new HTML document instead of your Word document.  Note that Word changes in inconsistent ways &mdash; if you see slightly different menu item names, please try them."
+msgstr "Convertir un fichier au format HTML en utilisant Word est tr&egrave;s simple. Ouvrez le document, allez dans le menu Fichier, puis Enregistrer sous&hellip;, et dans la liste d&eacute;roulante Type de fichier au bas de la bo&icirc;te, choisissez Document HTML ou Page Web. Puis choisissez Enregistrer. Vous pouvez alors joindre le nouveau document HTML au lieu de votre document Word. Notez qu'il peut y avoir de l&egrave;gers changements dans les noms de menus. Si vous voyez des &eacute;l&eacute;ments de menu l&eacute;g&egrave;rement diff&eacute;rents, veuillez les essayer."
+
+# type: Content of: <p>
+msgid "To convert to plain text (or RTF, rich text) is almost the same &mdash; instead of HTML Document, choose Text Only or Text Document (or RTF or Rich text Format) as the Save As Type."
+msgstr "La conversion en texte simple (ou RTF, texte riche) est pratiquement identique.  Au lieu de Document HTML, choisissez Texte seul ou Document texte (ou RTF ou Rich text Format) dans le type de document."
+
+# type: Content of: <p>
+msgid "Your computer may also have a program to convert to the PDF (or Adobe Acrobat) format, which was designed to make sure that when someone else views your document, it looks exactly the same on their computer as it did on yours.  Select File => Print.  Scroll through available printers and select the pdf converter.  Click on the Print button and enter a name for the pdf file when requested, then attach that file to your email.  There are some cheap or even free programs to make PDF files: use the search function at <a href=\"http://www.download.com/\">http://www.download.com/</a> or <a href=\"http://www.tucows.com/\">http://www.tucows.com/</a> to find them."
+msgstr "Votre ordinateur peut aussi contenir un programme pour convertir au format PDF (ou Adobe Acrobat), qui a &eacute;t&eacute; con&ccedil;u pour s'assurer que quand quelqu'un d'autre visionne votre document, il appara&icirc;tra strictement identique &agrave; l'apparence qu'il a sur votre ordinateur, S&eacute;lectionnez Fichier => Imprimer... Choisissez dans la liste d&eacute;roulante des imprimantes disponibles le convertisseur pdf. Cliquez sur le bouton Imprimer et indiquez un nom pour le fichier pdf lorsque c'est requis, puis joignez le fichier &agrave; votre email. Il y a des programmes peu chers et m&ecirc;me gratuits pour faire des fichiers PDF&nbsp;: utilisez la fonction de recherche sur <a href=\"http://www.download.com/\">http://www.download.com/</a> ou sur <a href=\"http://www.tucows.com/\">http://www.tucows.com/</a> pour les trouver."
+
+# type: Content of: <p>
+msgid "I hope I haven't offended you by offering you this advice.  It can be a bit alarming to learn that the way we've been communicating has implied disrespect to some of the people who receive our communications. I thought &mdash; I hope I'm right &mdash; that you'd prefer to be told about it."
+msgstr "J'esp&egrave;re ne pas vous avoir offens&eacute; en vous donnant ce conseil. Il peut &ecirc;tre un peu alarmant d'apprendre que le moyen que nous utilisions pour communiquer impliquait un manque de respect pour certaines personnes qui re&ccedil;oivent nos communications. J'ai pens&eacute; (et j'esp&egrave;re que j'ai raison) que vous pr&eacute;f&eacute;reriez le savoir."
+
+# type: Content of: <p>
+msgid "If you want to explore this issue further, this web page <a href=\"/philosophy/no-word-attachments.html\"> http://www.gnu.org/philosophy/no-word-attachments.html</a> might be a good place to start."
+msgstr "Si vous voulez creuser davantage ce probl&egrave;me, cette page Web <a href=\"/philosophy/no-word-attachments.fr.html\">http://www.gnu.org/philosophy/no-word-attachments.fr.html</a> pourrait &ecirc;tre un bon point de d&eacute;part."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Last updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
