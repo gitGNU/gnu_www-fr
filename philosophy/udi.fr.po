@@ -1,0 +1,124 @@
+# French translation of http://www.gnu.org/philosophy/udi.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the udi.html package.
+# ?, 2008.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: udi.html\n"
+"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"PO-Revision-Date: 2009-01-19 23:47+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "UDI - GNU Project - Free Software Foundation (FSF)"
+msgstr "UDI - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+msgid "The Free Software Movement and UDI"
+msgstr "La communaut&eacute; du logiciel libre et le projet UDI"
+
+# type: Content of: <p>
+msgid "A project called UDI (Uniform Driver Interface) aims to define a single interface between operating system kernels and device drivers.  What should the free software movement make of this idea?"
+msgstr "Un projet nomm&eacute; UDI (Uniform Driver Interface) vise &agrave; d&eacute;finir une interface normalis&eacute;e entre les noyaux des syst&egrave;mes d'exploitation et les pilotes de p&eacute;riph&eacute;riques. Que devrait faire notre communaut&eacute; de cette id&eacute;e&nbsp;?"
+
+# type: Content of: <p>
+msgid "If we imagine a number of operating systems and hardware developers, all cooperating on an equal footing, UDI (if technically feasible)  would be a very good idea.  It would permit us to develop just one driver for any given hardware device, and then all share it.  It would enable a higher level of cooperation."
+msgstr "Le projet UDI serait vraiment une bonne id&eacute;e &agrave; condition, d'une part, qu'il soit techniquement r&eacute;alisable, et d'autre part que suffisamment de d&eacute;veloppeurs de syst&egrave;mes d'exploitation coop&egrave;rent sur un pied d'&eacute;galit&eacute; avec les fabriquants de mat&eacute;riel informatique. Cela permettrait de ne d&eacute;velopper qu'un pilote pour chaque p&eacute;riph&eacute;rique. Ce serait profitable &agrave; tous et un plus haut niveau de coop&eacute;ration serait alors possible."
+
+# type: Content of: <p>
+msgid "When we apply the idea to the actual world, which contains both free software developers seeking cooperation, and proprietary software developers seeking domination, the consequences are very different.  No way of using UDI can benefit the free software movement.  If it does anything, it will divide and weaken us."
+msgstr "Malheureusement, le monde actuel de l'informatique contient &agrave; la fois des d&eacute;veloppeurs de logiciels libres et des d&eacute;veloppeurs de logiciels propri&eacute;taires. Les uns coop&egrave;rent avec une communaut&eacute; et les autres cherchent &agrave; la dominer."
+
+# type: Content of: <p>
+msgid "If Linux supported UDI, and if we started designing new drivers to communicate with Linux through UDI, what would the consequences be?"
+msgstr "Quelles seraient plus pr&eacute;cis&eacute;ment les cons&eacute;quences pour nous siLinux supportait UDI et si nous commencions &agrave; concevoir de nouveauxpilotes pour communiquer avec Linux &agrave; travers UDI?"
+
+# type: Content of: <ul><li>
+msgid "People could run free GPL-covered Linux drivers with Windows systems."
+msgstr "Il serait possible d'utiliser sous des syst&egrave;mes Windows des pilotes Linux libres couverts par la GPL."
+
+# type: Content of: <ul><li><p>
+msgid "This would help only Windows users; it would do nothing for us users of free operating systems.  It would not directly hurt us, either; but the developers of GPL-covered free drivers could be discouraged to see them used in this way, and that would be very bad.  It can also be a violation of the GNU GPL to link the drivers into a proprietary kernel.  To increase the temptation to do so is asking for trouble."
+msgstr "Seuls les utilisateurs de Windows en tireraient avantage. Les utilisateurs de syst&egrave;mes libres que nous sommes ne pourraient rien en attendre de positif. Il est vrai qu'UDI ne nous causerait pas directement de tort en retour. Les d&eacute;veloppeurs de pilotes libres couverts par la GPL pourraient toutefois &ecirc;tre d&eacute;courag&eacute;s de voir leur travail utilis&eacute; de cette mani&egrave;re. Ce d&eacute;couragement constituant une grande perte. Il est &eacute;galement possible que l'association des pilotes &agrave; un noyau propri&eacute;taire constitue une violation de la GNU GPL. Laisser courir une telle tentation est avant tout une grande source d'ennuis."
+
+# type: Content of: <ul><li>
+msgid "People could run non-free Windows drivers on <a href=\"/gnu/linux-and-gnu.html\">GNU/Linux</a> systems."
+msgstr "Il serait possible d'utiliser des pilotes Windows propri&eacute;taires sous des syst&egrave;mes <a href=\"/gnu/linux-and-gnu.fr.html\">GNU/Linux</a>."
+
+# type: Content of: <ul><li><p>
+msgid "This would not directly affect the range of hardware supported by free software.  But indirectly it would tend to decrease the range, by offering a temptation to the millions of GNU/Linux users who have not learned to insist on freedom for its own sake.  To the extent that the community began to accept the temptation, we would be moving to using non-free drivers instead of writing free ones."
+msgstr "La gamme de mat&eacute;riels support&eacute;s par les logiciels libres n'en sera pas directement affect&eacute;e. Cette facilit&eacute; repr&eacute;senterait toutefois une tentation pour les millions d'utilisateurs GNU/Linux qui n'ont pas compris l'importance de revendiquer la libert&eacute; pour elle-m&ecirc;me. &Agrave; terme, une baisse indirecte de l'&eacute;tendue de cette gamme serait donc &agrave; craindre. On en arriverait &agrave; une situation o&ugrave; la communaut&eacute;, commen&ccedil;ant &agrave; accepter cette tentation, utilisera des pilotes propri&eacute;taires plut&ocirc;t que d'en &eacute;crire des libres."
+
+# type: Content of: <ul><li><p>
+msgid "UDI would not in itself obstruct development of free drivers.  So if enough of us rejected the temptation, we could still develop free drivers despite UDI, just as we do without UDI."
+msgstr "Le projet UDI, en lui-m&ecirc;me, n'entraverait pas le d&eacute;veloppement de pilotes libres. Nous pourrions continuer &agrave; d&eacute;velopper des pilotes libres malgr&eacute; ce projet, comme nous le faisons actuellement; &agrave; condition toutefois qu'un nombre suffisant d'entre nous r&eacute;siste &agrave; la tentation."
+
+# type: Content of: <ul><li><p>
+msgid "But why encourage the community to be weaker than it needs to be? Why make unnecessary difficulties for the future of free software? Since UDI does no good for us, it is better to reject UDI."
+msgstr "Pourquoi rendre la communaut&eacute; plus faible que n&eacute;cessaire&nbsp;? Pourquoi ajouter des obstacles inutiles au futur du logiciel libre&nbsp;? Puisque le projet UDI ne nous est pas b&eacute;n&eacute;fique, il est pr&eacute;f&eacute;rable de le rejeter."
+
+# type: Content of: <p>
+msgid "Given these consequences, it is no surprise that Intel, a supporter of UDI, has started to &ldquo;look to the Linux community for help with UDI.&rdquo; How does a rich and self-seeking company approach a cooperating community? By asking for a handout, of course.  They have nothing to lose by asking, and we might be caught off guard and say yes."
+msgstr "Dans ces conditions, il n'est pas surprenant que Intel, un partisan d'UDI, ait commenc&eacute; &agrave; &laquo;&nbsp;compter sur la communaut&eacute; Linux pour soutenir UDI&nbsp;&raquo;. Quelle est l'approche d'une soci&eacute;t&eacute; riche et &eacute;go&iuml;ste vis-&agrave;-vis d'une communaut&eacute; bas&eacute;e sur la coop&eacute;ration&nbsp;? Demander l'aum&ocirc;ne bien s&ucirc;r. Ils ne risquent rien &agrave; demander et pris par surprise, nous serions bien capables de r&eacute;pondre oui."
+
+# type: Content of: <p>
+msgid "Cooperation with UDI is not out of the question.  We should not label UDI, Intel, or anyone, as a Great Satan.  But before we participate in any proposed deal, we must judge it carefully, to make sure it is advantageous for the free software community, not just for proprietary system developers.  On this particular issue, that means requiring that cooperation take us a step further along a path that leads to the ultimate goal for free kernels and drivers: supporting <em>all</em> important hardware with free drivers."
+msgstr "Une coop&eacute;ration avec UDI n'est pas hors de question. Nous ne devrions pas consid&eacute;rer UDI, Intel ou qui que ce soit comme un Grand Satan. Mais tout accord devra &ecirc;tre soigneusement &eacute;tudi&eacute; afin de s'assurer qu'il ne profitera pas uniquement aux d&eacute;veloppeurs de syst&egrave;mes propri&eacute;taires, mais &eacute;galement &agrave; la communaut&eacute; du logiciel libre. Cela signifie, dans ce cas pr&eacute;cis, de nous faire avancer d'un pas de plus vers le but ultime dans le domaine des noyaux et pilotes libres&nbsp;: que tous les principaux mat&eacute;riels informatiques soient support&eacute;s par des pilotes libres."
+
+# type: Content of: <p>
+msgid "One way to make a deal a good one could be by modifying the UDI project itself.  Eric Raymond has proposed that UDI compliance could require that the driver be free software.  That would be ideal, but other alternatives could also work.  Just requiring source for the driver to be published, and not a trade secret, could do the job&mdash;because even if that driver is not free, it would at least tell us what we need to know to write a free driver."
+msgstr "Modifier le projet UDI lui-m&ecirc;me serait une mani&egrave;re de rendre profitable cette coop&eacute;ration. &Eacute;ric Raymond a ainsi sugg&eacute;r&eacute; que la norme UDI consiste &agrave; transformer tous les pilotes en logiciels libres. Cette solution serait id&eacute;ale, mais d'autres sont &eacute;galement satisfaisantes. On peut, par exemple, exiger la publication du code source en dehors d'accords commerciaux exclusifs, car m&ecirc;me si le pilote n'est pas libre, nous pourrions au moins acc&eacute;der aux informations n&eacute;cessaires &agrave; l'&eacute;laboration d'un pilote qui le soit."
+
+# type: Content of: <p>
+msgid "Intel could also do something outside of UDI to help the free software community solve this problem.  For example, there may be some sort of certification that hardware developers seek, that Intel plays a role in granting.  If so, Intel could agree to make certification more difficult if the hardware specs are secret.  That might not be a complete solution to the problem, but it could help quite a bit."
+msgstr "Intel pourrait aussi, ind&eacute;pendamment d'UDI, aider la communaut&eacute; du logiciel libre &agrave; r&eacute;soudre ce probl&egrave;me. Intel pourrait rendre certaines certifications, dont elle contr&ocirc;le la diffusion, plus complexes pour les d&eacute;veloppeurs de mat&eacute;riels informatiques qui gardent secr&egrave;tes les caract&eacute;ristiques de leurs mat&eacute;riels. Ce syst&egrave;me ne constituerait pas une solution en soit mais il pourrait tout de m&ecirc;me contribuer &agrave; r&eacute;soudre notre probl&egrave;me."
+
+# type: Content of: <p>
+msgid "One difficulty with any deal with Intel about UDI is that we would do our part for Intel at the beginning, but Intel's payback would extend over a long time.  In effect, we would be extending credit to Intel.  But would Intel continue to repay its loan? Probably yes, if we get it in writing and there are no loopholes; otherwise, we can't count on it.  Corporations are notoriously untrustworthy; the people we are dealing with may have integrity, but they could be overruled from above, or even replaced at any time with different people.  Even a CEO who owns most of the stock can be replaced through a buy-out.  When making a deal with a corporation, always get a binding commitment in writing."
+msgstr "Le probl&egrave;me de tout accord avec Intel sur UDI est que nous devrions faire notre part de travail d&egrave;s le commencement, alors que le r&ocirc;le d'Intel se prolongerait dans le temps. En clair, nous ferions cr&eacute;dit &agrave; Intel. Continuera-t-elle &agrave; rembourser sa dette&nbsp;? Probablement oui si nous posons tout accord par &eacute;crit et qu'il n'existe aucun &eacute;chappatoire; sans cela, nous ne pouvons compter dessus. Il est de notori&eacute;t&eacute; publique qu'on ne peut pas faire confiance &agrave; une compagnie commerciale&nbsp;; il est possible que les gens avec qui nous n&eacute;gocions soient int&egrave;gres, mais l'avis de leurs chefs pr&eacute;vaudra toujours, et ils peuvent &ecirc;tre remplac&eacute;s un jour ou l'autre. M&ecirc;me un PDG qui poss&egrave;de la majeure partie du capital peut &ecirc;tre remplac&eacute; &agrave; la suite d'une OPA. Il faut toujours signer un engagement &eacute;crit quand on passe un accord avec une compagnie commerciale."
+
+# type: Content of: <p>
+msgid "It does not seem likely that Intel would offer a deal that gives us what we need.  In fact, UDI seems designed to make it easier to keep specifications secret."
+msgstr "Il semble improbable qu'Intel accepte un accord qui satisfasse &agrave; nos besoins. En fait, UDI semble avoir &eacute;t&eacute; con&ccedil;u pour garder plus facilement les sp&eacute;cifications secr&egrave;tes."
+
+# type: Content of: <p>
+msgid "Still, there is no harm in keeping the door unlocked, as long as we are careful about who we let in."
+msgstr "N&eacute;anmoins, il n'y a aucun mal &agrave; ne pas fermer sa porte &agrave; clef tant que nous surveillons ceux que nous laissons entrer."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 1998 Richard M. Stallman <br /> Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved."
+msgstr "Copyright &copy; 1998 Richard M. Stallman <br />La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: ?<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
