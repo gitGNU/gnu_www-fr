@@ -1,0 +1,124 @@
+# French translation of http://www.gnu.org/philosophy/sco/sco-gnu-linux.html
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the sco-gnu-linux.html package.
+# Xavier Nicollet, 2008.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sco-gnu-linux.html\n"
+"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"PO-Revision-Date: 2009-01-20 21:50+0100\n"
+"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# type: Content of: <title>
+msgid "SCO, GNU and Linux - GNU Project - Free Software Foundation (FSF)"
+msgstr "SCO, GNU et Linux - GNU Project - Free Software Foundation (FSF)"
+
+# type: Content of: <h2>
+msgid "SCO, GNU and Linux"
+msgstr "SCO, GNU et Linux"
+
+# type: Content of: <p>
+msgid "by <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
+msgstr "par <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
+
+# type: Content of: <p>
+msgid "<i>This article was first published on ZDNet.</i>"
+msgstr "<i>Cet article a d'abord &eacute;t&eacute; publi&eacute; sur ZDNET</i>."
+
+# type: Content of: <p>
+msgid "SCO's contract dispute with IBM has been accompanied by a smear campaign against the whole GNU/Linux system.  But SCO made an obvious mistake when it erroneously quoted me as saying that &ldquo;Linux is a copy of Unix.&rdquo; Many readers immediately smelled a rat&mdash;not only because I did not say that, and not only because the person who said it was talking about published ideas (which are uncopyrightable)  rather than code, but because they know I would never compare Linux with Unix."
+msgstr "La controverse du contrat entre SCO et IBM a &eacute;t&eacute; accompagn&eacute;e d'une campagne malsaine contre le syst&egrave;me GNU/Linux tout entier. Mais SCO a commis une erreur certaine en citant ces paroles qui me sont faussement attribu&eacute;es&nbsp;: &laquo;&nbsp;Linux est une copie d'Unix&nbsp;&raquo;. Beaucoup de lecteurs ont senti qu'il y avait anguille sous roche, non seulement parce que je n'ai jamais dit &ccedil;a et parce que la personne qui l'a dit parlait d'id&eacute;es publi&eacute;es (qui sont hors du champ du copyright) au lieu de code, mais surtout parce qu'ils savent que je ne comparerais jamais Linux avec Unix."
+
+# type: Content of: <p>
+msgid "Unix is a complete operating system, but Linux is just part of one.  SCO is using the popular confusion between Linux and the GNU/Linux system to magnify the fear that it can spread.  GNU/Linux is the GNU operating system running with Linux as the kernel.  The kernel is the part of the system that allocates the machine's resources to the other programs you run.  That part is Linux."
+msgstr "Unix est un syst&egrave;me d'exploitation complet, mais Linux n'en est qu'une partie. SCO utilise la confusion r&eacute;pandue entre Linux et le syst&egrave;me GNU/Linux pour augmenter la peur qu'il peut r&eacute;pandre. GNU/Linux est le syst&egrave;me d'exploitation GNU fonctionnant avec le noyau Linux. Le noyau est la partie du syst&egrave;me qui alloue les ressources de la machine pour les autres programmes que vous utilisez. Cette partie est Linux."
+
+# type: Content of: <p>
+msgid "We developed GNU starting in 1984 as a campaign for freedom, whose aim was to eliminate non-free software from our lives.  GNU is free software, meaning that users are free to run it, study it and change it (or pay programmers to do this for them), redistribute it (gratis or for a fee), and publish modified versions.  (See <a href=\"/gnu/thegnuproject.html\">an overview of the GNU project</a>.)"
+msgstr "&Agrave; l'origine, nous avons d&eacute;velopp&eacute; GNU en 1984 en tant que campagne pour la libert&eacute;, dont le but &eacute;tait d'&eacute;liminer les logiciels non libres de nos vies. GNU est un ensemble de logiciels libres, signifiant que les utilisateurs sont libres de les utiliser, de les &eacute;tudier et de les modifier (ou de payer des programmeurs pour le faire pour eux), les redistribuer (gratuitement ou contre r&eacute;mun&eacute;ration) et de publier des versions modifi&eacute;es. (Voir <a href=\"/gnu/thegnuproject.fr.html\">un r&eacute;sum&eacute; du projet GNU</a>)."
+
+# type: Content of: <p>
+msgid "In 1991, GNU was mostly finished, lacking only a kernel.  In 1992, Linus Torvalds made his kernel, Linux, free software.  Others combined GNU and Linux to produce the first complete free operating system, GNU/Linux.  (See <a href=\"/gnu/gnu-linux-faq.html\">our GNU/Linux FAQ</a>.)  GNU/Linux is also free software, and SCO made use of this freedom by selling their version of it.  Today, GNU runs with various kernels including Linux, the GNU Hurd (our kernel), and the NetBSD kernel.  It is basically the same system whichever kernel you use."
+msgstr "En 1991, GNU &eacute;tait pratiquement fini&nbsp;: il ne manquait qu'un noyau. En 1992, Linus Torvalds a rendu libre Linux, son noyau. D'autres combin&egrave;rent GNU et Linux pour produire le premier syst&egrave;me d'exploitation complet libre&nbsp;: GNU/Linux. Voir <a href=\"/gnu/gnu-linux-faq.fr.html\">notre FAQ sur GNU/Linux</a>. GNU/Linux est &eacute;galement un ensemble de logiciels libres et SCO a utilis&eacute; cette libert&eacute; en commercialisant sa version de ce syst&egrave;me. Aujourd'hui, GNU fonctionne avec de nombreux noyaux incluant Linux, GNU Hurd (notre noyau), et le noyau NetBSD. Il s'agit fondamentalement du m&ecirc;me syst&egrave;me quelque soit le noyau qu'on utilise."
+
+# type: Content of: <p>
+msgid "Those who combined Linux with GNU didn't recognize that's what they were doing, and they spoke of the combination as &ldquo;Linux&rdquo;.  The confusion spread; many users and journalists call the whole system &ldquo;Linux&rdquo;.  Since they also properly call the kernel &ldquo;Linux&rdquo;, the result is even more confusion: when a statement says &ldquo;Linux&rdquo;, you can only guess what software it refers to.  SCO's irresponsible statements are shot through with ambiguous references to &ldquo;Linux&rdquo;.  It is impossible to attribute any coherent meaning to them overall, but they appear to accuse the entire GNU/Linux system of being copied from Unix."
+msgstr "Ceux qui ont combin&eacute; Linux avec GNU ne se sont pas rendu compte que c'&eacute;tait ce qu'ils &eacute;taient en train de faire et ils ont appel&eacute; cette combinaison &laquo;&nbsp;Linux&nbsp;&raquo;. La confusion s'est &eacute;tendue et beaucoup d'utilisateurs et de journalistes appellent aujourd'hui le syst&egrave;me entier &laquo;&nbsp;Linux&nbsp;&raquo;. Comme ils appellent aussi le noyau &laquo;&nbsp;Linux&nbsp;&raquo;, le r&eacute;sultat est encore plus confus&nbsp;: quand on vous dit &laquo;&nbsp;Linux&nbsp;&raquo;, vous ne pouvez que deviner &agrave; quel logiciel cela fait r&eacute;f&eacute;rence. Les affirmations irresponsables de SCO sont parsem&eacute;es de r&eacute;f&eacute;rences ambigu&euml;s &agrave; &laquo;&nbsp;Linux&nbsp;&raquo;. Il est impossible de donner un sens coh&eacute;rent &agrave; leur ensemble, mais il semble qu'elles accusent le syst&egrave;me GNU/Linux entier d'&ecirc;tre copi&eacute; d'Unix."
+
+# type: Content of: <p>
+msgid "The name GNU stands for &ldquo;GNU's Not Unix&rdquo;.  The whole point of developing the GNU system is that it is not Unix.  Unix is and always was non-free software, meaning that it denies its users the freedom to cooperate and to control their computers.  To use computers in freedom as a community, we needed a free software operating system.  We did not have the money to buy and liberate an existing system, but we did have the skill to write a new one.  Writing GNU was a monumental job.  We did it for our freedom, and your freedom."
+msgstr "Le nom GNU signifie &laquo;&nbsp;GNU's Not Unix&nbsp;&raquo; (Ndt&nbsp;: &laquo;&nbsp;GNU N'est pas Unix&nbsp;&raquo;). Le but m&ecirc;me de d&eacute;velopper le syst&egrave;me GNU est qu'il n'est pas Unix. Unix est et a toujours &eacute;t&eacute; compos&eacute; de logiciels non-libres, ce qu'il veut dire qu'il enl&egrave;ve &agrave; ses utilisateurs la libert&eacute; de coop&eacute;rer et de contr&ocirc;ler leur ordinateur. Pour utiliser les ordinateurs en libert&eacute; comme dans une communaut&eacute;, nous avions besoin d'un syst&egrave;me d'exploitation libre. Nous n'avions pas les moyens d'acheter et de lib&eacute;rer un syst&egrave;me existant, mais nous avions les comp&eacute;tences pour en &eacute;crire un nouveau. &Eacute;crire GNU a &eacute;t&eacute; un travail monumental. Nous l'avons fait pour notre libert&eacute;. Et pour la v&ocirc;tre."
+
+# type: Content of: <p>
+msgid "To copy Unix source code would not be ethically wrong <a href=\"#footnote\">[1]</a>, but it is illegal; our work would fail to give users lawful freedom to cooperate if it were not done lawfully.  To make sure we would not copy Unix source code or write anything similar, we told GNU contributors not even to look at Unix source code while developing code for GNU.  We also suggested design approaches that differ from typical Unix design approaches, to ensure our code would not resemble Unix code.  We did our best to avoid ever copying Unix code, despite our basic premise that to prohibit copying of software is morally wrong."
+msgstr "Copier le code source d'Unix n'aurait pas &eacute;t&eacute; mauvais du point de vue de l'&eacute;thique (<a href=\"#footnote\" id=\"footref\">[1]</a>), mais c'est ill&eacute;gal; notre travail &eacute;chouerait &agrave; donner aux utilisateurs la libert&eacute; honn&ecirc;te de coop&eacute;rer si ce n'&eacute;tait pas fait l&eacute;galement. Pour s'assurer que nous ne copierions pas le code source d'Unix ou que nous ne l'&eacute;crivions pas de fa&ccedil;on similaire, nous avons demand&eacute; aux contributeurs de GNU de ne m&ecirc;me pas regarder les codes sources d'Unix en d&eacute;veloppant du code pour GNU. Nous avons &eacute;galement sugg&eacute;r&eacute; des approches de conception diff&eacute;rentes de celles typiquement rencontr&eacute;es sous Unix, pour &ecirc;tre sur que notre code ne ressemblerait pas &agrave; celui d'Unix. Nous avons fait de notre mieux pour &eacute;viter ne serait-ce que la copie du code d'Unix, malgr&eacute; notre principe qui estime qu'emp&ecirc;cher de copier les logiciels est moralement condamnable."
+
+# type: Content of: <p>
+msgid "Another SCO tool of obfuscation is the term &ldquo;intellectual property&rdquo;.  This fashionable but foolish term carries an evident bias: that the right way to treat works, ideas, and names is as a kind of property.  Less evident is the harm it does by inciting simplistic thinking: it lumps together diverse laws&mdash;copyright law, patent law, trademark law and others&mdash;which really have little in common.  This leads people to suppose those laws are one single issue, the &ldquo;intellectual property issue&rdquo;, and think about &ldquo;it&rdquo;&mdash;which means, to think at such a broad abstract level that the specific social issues raised by these various laws are not even visible.  Any opinion &ldquo;about intellectual property&rdquo; is thus bound to be foolish.  (See <a href=\"/philosophy/words-to-avoid.html\">our list of words to avoid</a> for more explanation of the confusion caused by this term.)"
+msgstr "Un autre moyen d'obscurcissement utilis&eacute; par SCO est le terme &laquo;&nbsp;propri&eacute;t&eacute; intellectuelle&nbsp;&raquo;. Ce mot &agrave; la mode mais idiot comporte un pr&eacute;jug&eacute; &eacute;vident&nbsp;: que la bonne fa&ccedil;on de traiter les travaux, les id&eacute;es, et les noms est une sorte de propri&eacute;t&eacute;. Moins &eacute;vident est le mal qu'il fait en incitant des pens&eacute;es simplistes&nbsp;: il lie entre elles diverses lois (loi sur le copyright, loi sur les brevets, loi sur les marques et d'autres encore) qui n'ont vraiment rien en commun. Cela incite &agrave; supposer que ces lois ne traitent que d'un seul sujet, le &laquo;&nbsp;sujet de la propri&eacute;t&eacute; intellectuelle&nbsp;&raquo; et &agrave; y penser comme un tout. Ce qui signifie penser &agrave; un tel niveau d'abstraction que les cons&eacute;quences sociales sp&eacute;cifiques soulev&eacute;s par ces lois ne sont m&ecirc;me pas visibles. N'importe quelle opinion sur la &laquo;&nbsp;propri&eacute;t&eacute; intellectuelle&nbsp;&raquo; devient alors absurde. (Voir <a href=\"/philosophy/words-to-avoid.fr.html\">notre liste de mots &agrave; &eacute;viter</a> pour plus d'explications sur la confusion provoqu&eacute;e par ce terme)."
+
+# type: Content of: <p>
+msgid "In the hands of a propagandist for increased copyright or patent powers, the term is a way to prevent clear thinking.  In the hands of someone making threats, the term is a tool for obfuscation: &ldquo;We claim we can sue you over something, but we won't say what it is.&rdquo;"
+msgstr "Dans les mains de ceux qui font de la propagande pour augmenter le pouvoir du copyright ou des brevets, le terme est une fa&ccedil;on d'emp&ecirc;cher de penser clairement. Dans les mains d'une personne mena&ccedil;ante, ce terme est un artisan de la confusion&nbsp;: &laquo;&nbsp;Nous assurons que nous pouvons porter plainte contre vous &agrave; cause de quelque chose, mais nous ne dirons pas de quoi il s'agit&nbsp;&raquo;."
+
+# type: Content of: <p>
+msgid "In an actual lawsuit, such ambiguity would make their case fail, or even prevent it from getting off the ground.  If, however, SCO's aim is to shake the tree and see if any money falls down, or simply to spread fear, they may regard vagueness and mystery as advantageous."
+msgstr "Dans un v&eacute;ritable proc&egrave;s, une telle ambigu&iuml;t&eacute; ferait &eacute;chouer leur plainte ou m&ecirc;me emp&ecirc;cher qu'elle s'&eacute;l&egrave;ve du sol. Si, cependant, le but de SCO est de secouer un arbre et de voir si de l'argent n'en tomberait pas ou simplement de propager la peur, ils pourraient bien trouver le flou et le myst&egrave;re avantageux."
+
+# type: Content of: <p>
+msgid "I cannot prognosticate about the SCO vs IBM lawsuit itself: I don't know what was in their contract, I don't know what IBM did, and I am not a lawyer.  The Free Software Foundation's lawyer, Professor Moglen, believes that SCO gave permission for the community's use of the code that they distributed under the GNU GPL and other free software licenses in their version of GNU/Linux."
+msgstr "Je ne peux pas faire de pronostics sur l'issue du proc&egrave;s entre SCO et IBM&nbsp;: je ne sais pas ce qu'il y avait dans leur contrat, je ne sais pas ce qu'&agrave; fait IBM et je ne suis pas avocat. L'avocat de la Free Software Foundation, le professeur Moglen, pense que SCO a donn&eacute; la permission &agrave; la communaut&eacute; d'utiliser le code qu'ils ont distribu&eacute; sous la licence GNU GPL et les autres licenses de logiciels libres dans leur version de GNU/Linux."
+
+# type: Content of: <p>
+msgid "However, I can address the broader issue of such situations.  In a community of over half a million developers, we can hardly expect that there will never be plagiarism.  But it is no disaster; we discard that material and move on.  If there is material in Linux that was contributed without legal authorization, the Linux developers will learn what it is and replace it.  SCO cannot use its copyrights, or its contracts with specific parties, to suppress the lawful contributions of thousands of others.  Linux itself is no longer essential: the GNU system became popular in conjunction with Linux, but today it also runs with two BSD kernels and the GNU kernel.  Our community cannot be defeated by this."
+msgstr "Cependant, je peux &eacute;voquer plus largement les probl&egrave;mes de telles situations. Dans une communaut&eacute; d'environ un demi million de d&eacute;veloppeurs, nous ne pouvons pas nous attendre &agrave; ce qu'il n'y ait jamais de plagiat. Mais ce n'est pas un d&eacute;sastre; nous enlevons cette partie et nous continuons. Si une partie de Linux a &eacute;t&eacute; ins&eacute;r&eacute;e sans autorisation l&eacute;gale, les d&eacute;veloppeurs de Linux sauront de laquelle il s'agit et la remplaceront. SCO ne peut pas utiliser ses copyrights ou ses contrats avec certaines entit&eacute;s sp&eacute;cifiques pour enlever les contributions honn&ecirc;tes de milliers d'autres. Linux lui m&ecirc;me n'est plus essentiel&nbsp;: le syst&egrave;me GNU est devenu populaire avec Linux, mais aujourd'hui il fonctionne aussi avec deux noyaux BSD et le noyau GNU. Notre communaut&eacute; ne peut &ecirc;tre d&eacute;faite par &ccedil;a."
+
+# type: Content of: <h4>
+msgid "Footnotes"
+msgstr "Notes"
+
+# type: Content of: <ol><li>
+msgid "Since this statement directly contradicts the establishment views of the proprietary software developers, some readers suppose that the word &ldquo;not&rdquo; was inserted by mistake.  It is entirely intentional.  It is not wrong to copy software.  It is wrong to stop others from copying software.  Thus, software should be free."
+msgstr "Puisque cette assertion contredit directement le point de vue de l'establishment des d&eacute;veloppeurs de logiciels propri&eacute;taires, certains lecteurs supposeront que la n&eacute;gation &laquo;&nbsp;n'&nbsp;&raquo; a &eacute;t&eacute; in&eacute;r&eacute;e par erreur. Ce n'est pas le cas. Il n'est pas r&eacute;pr&eacute;hensible de copier les logiciels. Il est r&eacute;pr&eacute;hensible d'emp&ecirc;cher les autres de copier les logiciels. C'est pourquoi, les logiciels devraient &ecirc;tre libres."
+
+# type: Content of: <h4>
+msgid "<a href=\"/philosophy/sco/sco.html\">Other Texts to Read related to SCO</a>."
+msgstr "<a href=\"/philosophy/sco/sco.fr.html\">Autres textes à lire relatifs à SCO</a>."
+
+# type: Content of: <div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+# type: Content of: <div><p>
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+
+# type: Content of: <div><p>
+msgid "Copyright &copy; 2003 Richard M. Stallman <br /> Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved."
+msgstr "Copyright &copy; 2003 Richard M. Stallman <br />La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><div>
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr "Traduction&nbsp;: Xavier Nicollet.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+
+# type: Content of: <div><p>
+#.  timestamp start
+msgid "Updated:"
+msgstr "Dernière mise à jour&nbsp;:"
+
+# type: Content of: <div><h4>
+msgid "Translations of this page"
+msgstr "Traductions de cette page"
+
