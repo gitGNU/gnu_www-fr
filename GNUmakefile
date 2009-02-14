@@ -1,5 +1,5 @@
 # This is -*-makefile-gmake-*-, because we adore GNU make.
-# Copyright (C) 2008 Free Software Foundation, Inc.
+# Copyright (C) 2008, 2009 Free Software Foundation, Inc.
 
 # This file is part of GNUnited Nations.
 
@@ -26,6 +26,7 @@
 # GNU make >= 3.81 (prereleases are OK too)
 # GNU gettext >= 0.14
 # CVS
+# Subversion (if the www-LANG repository is SVN)
 
 SHELL = /bin/bash
 
@@ -40,8 +41,15 @@ wwwdir := ../www/
 MSGMERGE := msgmerge
 MSGFMT := msgfmt
 CVS := cvs
+SVN := svn
 
 translations := $(shell find -name '*.$(TEAM).po' | sort)
+
+# Determine the VCS.
+REPO := $(shell (test -d CVS && echo CVS) || (test -d .svn && echo SVN))
+ifndef REPO
+$(error Système de contrôle de version non supporté)
+endif
 
 # For those who love details.
 ifdef VERBOSE
@@ -51,12 +59,17 @@ ECHO := echo $$file: ;
 CVSQUIET :=
 endif
 
-# If not in VERBOSE mode, suppress the output from cvs.
+# If not in VERBOSE mode, suppress the output from cvs/svn.
 CVSQUIET ?= -q
 
-# The command to update the repositories.
+# The command to update the CVS repositories.
 define cvs-update
 $(CVS) $(CVSQUIET) update -d -P
+endef
+
+# The command to update the Subversion repository.
+define svn-update
+$(SVN) $(CVSQUIET) update
 endef
 
 .PHONY: all
@@ -68,7 +81,11 @@ update:
 ifeq ($(VCS),yes)
 	@echo Mise à jour des entrepôts...
 	cd $(wwwdir) && $(cvs-update)
+ifeq ($(REPO),CVS)
 	$(cvs-update)
+else
+	$(svn-update)
+endif
 else
 	$(info Les entrepôts n'ont pas été mis à jour, vous voulez peut-être faire "make VCS=yes".)
 endif
@@ -81,7 +98,11 @@ sync: update
 	  $(wwwdir)`dirname $$file`/po/`basename $${file/.$(TEAM).po/.pot}` ; \
 	done
 ifeq ($(VCS),yes)
+ifeq ($(REPO),CVS)
 	$(CVS) commit -m "Fusion automatique à partir de l'entrepôt maître."
+else
+	$(SVN) commit -m "Fusion automatique à partir de l'entrepôt maître."
+endif
 endif
 
 # Helper target to check which articles have to be updated.
