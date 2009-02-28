@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: software.html\n"
 "POT-Creation-Date: 2009-02-03 04:25-0500\n"
-"PO-Revision-Date: 2009-01-24 16:42+0100\n"
+"PO-Revision-Date: 2009-02-15 15:58+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,9 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
-#, fuzzy
 msgid "Software - GNU Project - Free Software Foundation"
-msgstr "Logiciels - GNU Project - Free Software Foundation (FSF)"
+msgstr "Logiciels - GNU Project - Free Software Foundation"
 
 # type: Content of: <h2>
 msgid "Download GNU"
@@ -120,7 +119,6 @@ msgstr ""
 "d'exploitation libre."
 
 # type: Content of: <h3>
-#, fuzzy
 msgid "How to get GNU software"
 msgstr "Comment obtenir des logiciels GNU"
 
@@ -180,7 +178,6 @@ msgid "Decommissioned GNU packages"
 msgstr "Paquetages d&eacute;class&eacute;s"
 
 # type: Content of: <p>
-#, fuzzy
 msgid ""
 "GNU packages are occasionally decommissioned, generally because they've been "
 "superseded by, or integrated into, other packages.  Here is the list; we "
@@ -226,7 +223,7 @@ msgstr ""
 "assets/gicqd/\">gicqd</a>, <a href=\"http://directory.fsf.org/project/"
 "giptables/\">giptables</a>, <a href=\"http://directory.fsf.org/project/"
 "gnochive/\">gnochive</a>, <a href=\"http://directory.fsf.org/project/"
-"gnotepad/\">gnotepad+</a>, gnubios, gnucad, gnupedia (voir <a href=\"http://"
+"gnotepad/\">gnotepad+</a>, gnubios, gnucad, gnupedia (see <a href=\"http://"
 "wikipedia.org\">wikipedia</a>), <a href=\"gnusql\">gnusql</a>, <a href="
 "\"gnustep-db/\">gnustep-db</a>, <a href=\"gnuts/\">gnuts</a>, <a href="
 "\"goose/\">goose</a>, <a href=\"gphoto/\">gphoto</a>, <a href=\"graphics/"
@@ -234,10 +231,11 @@ msgstr ""
 "\">gtkeditor</a>, <a href=\"hegemonie/\">hegemonie</a>, <a href=\"lengualibre"
 "\">lengualibre</a>, leonardo, mana, <a href=\"messenger/\">messenger</a>, <a "
 "href=\"mgcp/\">mgcp</a>, <a href=\"mll2html/\">mll2html</a>, <a href=\"obst/"
-"\">obst</a>, <a href=\"patchwork/\">patchwork</a>, <a href=\"pips/\">pips</"
-"a>, <a href=\"poc/\">poc</a>, <a href=\"rat/\">rat</a>, <a href=\"sweater/"
-"\">sweater</a>, <a href=\"webpublish/\">webpublish</a>, <a href=\"xbase/"
-"\">xbase</a>, <a href=\"xinfo/\">xinfo</a>, <a href=\"xmhtml/\">xmhtml</a>."
+"\">obst</a>, p2c, <a href=\"patchwork/\">patchwork</a>, <a href=\"pips/"
+"\">pips</a>, <a href=\"poc/\">poc</a>, <a href=\"rat/\">rat</a>, <a href="
+"\"sweater/\">sweater</a>, <a href=\"webpublish/\">webpublish</a>, <a href="
+"\"xbase/\">xbase</a>, <a href=\"xinfo/\">xinfo</a>, <a href=\"xmhtml/"
+"\">xmhtml</a>."
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
@@ -270,13 +268,12 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-#, fuzzy
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008, 2009 Free Software Foundation, Inc.,"
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
-"2006, 2007, 2008 Free Software Foundation, Inc.,"
+"2006, 2007, 2008, 2009 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
