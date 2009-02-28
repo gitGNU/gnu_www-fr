@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-user-groups.html\n"
-"POT-Creation-Date: 2009-01-15 16:26-0500\n"
+"POT-Creation-Date: 2009-02-17 04:25-0500\n"
 "PO-Revision-Date: 2009-01-05 17:15+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -150,22 +150,23 @@ msgstr ""
 "s&nbsp;:"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "<a href=\"#GLArgentina\">Argentina</a> - <a href=\"#GLBrazil\">Brazil</a> - "
-"<a href=\"#GLChile\">Chile</a> - <a href=\"#GLColombia\">Colombia</a> - <a "
-"href=\"#GLEgypt\">Egypt</a> - <a href=\"#GLFinland\">Finland</a> - <a href="
-"\"#GLFrance\">France</a> - <a href=\"#GLGermany\">Germany</a> - <a href="
-"\"#GLGreenland\">Greenland</a> - <a href=\"#GLIceland\">Iceland</a> - <a "
-"href=\"#GLIndia\">India</a> - <a href=\"#GLItaly\">Italy</a> - <a href="
-"\"#GLLebanon\">Lebanon</a> - <a href=\"#GLMadagascar\">Madagascar</a> - <a "
-"href=\"#GLMexico\">Mexico</a> - <a href=\"#GLNewZealand\">New Zealand</a> - "
-"<a href=\"#GLPeru\">Peru</a> - <a href=\"#GLPhilippines\">Philippines</a> - "
-"<a href=\"#GLPortugal\">Portugal</a> - <a href=\"#GLRomania\">Romania</a> - "
-"<a href=\"#GLRwanda\">Rwanda</a> - <a href=\"#GLSingapore\">Singapore</a> - "
-"<a href=\"#GLSpain\">Spain</a> - <a href=\"#GLSwitzerland\">Switzerland</a> "
-"- <a href=\"#GLUnitedKingdom\">United Kingdom</a> - <a href=\"#GLUnitedStates"
-"\">United States</a> - <a href=\"#GLVenezuela\">Venezuela</a> - <a href="
-"\"#GLYemen\">Yemen</a>"
+"<a href=\"#GLChile\">Chile</a> - <a href=\"#GLChina\">China</a> - <a href="
+"\"#GLColombia\">Colombia</a> - <a href=\"#GLEgypt\">Egypt</a> - <a href="
+"\"#GLFinland\">Finland</a> - <a href=\"#GLFrance\">France</a> - <a href="
+"\"#GLGermany\">Germany</a> - <a href=\"#GLGreenland\">Greenland</a> - <a "
+"href=\"#GLIceland\">Iceland</a> - <a href=\"#GLIndia\">India</a> - <a href="
+"\"#GLItaly\">Italy</a> - <a href=\"#GLLebanon\">Lebanon</a> - <a href="
+"\"#GLMadagascar\">Madagascar</a> - <a href=\"#GLMexico\">Mexico</a> - <a "
+"href=\"#GLNewZealand\">New Zealand</a> - <a href=\"#GLPeru\">Peru</a> - <a "
+"href=\"#GLPhilippines\">Philippines</a> - <a href=\"#GLPortugal\">Portugal</"
+"a> - <a href=\"#GLRomania\">Romania</a> - <a href=\"#GLRwanda\">Rwanda</a> - "
+"<a href=\"#GLSingapore\">Singapore</a> - <a href=\"#GLSpain\">Spain</a> - <a "
+"href=\"#GLSwitzerland\">Switzerland</a> - <a href=\"#GLUnitedKingdom"
+"\">United Kingdom</a> - <a href=\"#GLUnitedStates\">United States</a> - <a "
+"href=\"#GLVenezuela\">Venezuela</a> - <a href=\"#GLYemen\">Yemen</a>"
 msgstr ""
 "<a href=\"#GLArgentina\">Argentine</a> - <a href=\"#GLBrazil\">Brésil</a> - "
 "<a href=\"#GLChile\">Chili</a> - <a href=\"#GLColombia\">Colombie</a> - <a "
@@ -314,6 +315,16 @@ msgstr "Chili"
 # type: Content of: <ul><li>
 msgid "<a href=\"http://www.gnuchile.cl\">GNU Chile</a>"
 msgstr "<a href=\"http://www.gnuchile.cl\">GNU Chile</a>"
+
+# type: Content of: <h4>
+#, fuzzy
+msgid "China"
+msgstr "Chili"
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid "<a href=\"http://www.zeuux.org\">ZEUUX</a>"
+msgstr "<a href=\"http://www.gulcar.org\">GULCAr</a>"
 
 # type: Content of: <h4>
 msgid "Colombia"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: takeaction.html\n"
-"POT-Creation-Date: 2009-02-05 16:25-0500\n"
+"POT-Creation-Date: 2009-02-17 16:25-0500\n"
 "PO-Revision-Date: 2009-01-17 16:34+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -85,6 +85,20 @@ msgstr ""
 "www.gnustep.org\">GNUstep</a>, un environnement de développement libre "
 "orienté objet pour le développement d'applications et aidez-le à atteindre "
 "l'état d'environnement de développement complet et fonctionnel."
+
+# type: Content of: <dl><dt>
+#, fuzzy
+msgid ""
+"<a id=\"gnewsense\"><strong>Vote for gNewSense preinstalled on Dell laptops</"
+"strong></a>"
+msgstr "<a id=\"gnustep\"><strong>Contribuer au Projet GNUstep</strong></a>"
+
+# type: Content of: <dl><dd>
+msgid ""
+"<a href=\"http://www.ideastorm.com/ideaView?id=0877000000007G5AAI\">Cast "
+"your vote to show support for Dell selling laptops preinstalled and verified "
+"to work with a fully free operating system.</a>"
+msgstr ""
 
 # type: Content of: <dl><dt>
 msgid ""
@@ -194,10 +208,11 @@ msgstr ""
 "b>"
 
 # type: Content of: <dl><dd>
+#, fuzzy
 msgid ""
 "Use this link to write to your <a href=\"http://www.writetothem.com/\">PM</"
-"a> Please sign the <a href=\"http://edmi.parliament.uk/EDMi/EDMDetails.aspx?"
-"EDMID=31752\">Early Day Motion</a>"
+"a>.  Please sign the <a href=\"http://edmi.parliament.uk/EDMi/EDMDetails."
+"aspx?EDMID=31752\">Early Day Motion</a>."
 msgstr ""
 "Utilisez ce lien pour écrire à votre <a href=\"http://www.writetothem.com/"
 "\">Membre du Parlement</a>. Veuillez signez la <a href=\"http://edmi."
@@ -214,10 +229,10 @@ msgid ""
 "gnutrition/\">gnutrition</a>, <a href=\"/software/gtkeyboard/\">gtkeyboard</"
 "a>, <a href=\"/software/miscfiles/\">miscfiles</a>, <a href=\"/software/oleo/"
 "\">oleo</a>, <a href=\"/software/pgccfd/\">pgccfd</a>, <a href=\"/software/"
-"polyxmass/\">pgccfd</a>, <a href=\"/software/vmslib/\">vmslib</a>, <a href="
-"\"/software/xmorph/\">xmorph</a>.  We are also looking for a co-maintainer "
-"for the CASE tool <a href=\"/software/ferret/\">ferret</a> and the bug "
-"tracking tool <a href=\"/software/gnats/\">gnats</a>."
+"polyxmass/\">polyxmass</a>, <a href=\"/software/vmslib/\">vmslib</a>, <a "
+"href=\"/software/xmorph/\">xmorph</a>.  We are also looking for a co-"
+"maintainer for the CASE tool <a href=\"/software/ferret/\">ferret</a> and "
+"the bug tracking tool <a href=\"/software/gnats/\">gnats</a>."
 msgstr ""
 "<a id=\"unmaint\"><b>Reprenez la maintenance d'un paquetage GNU&nbsp;:</b></"
 "a> <a href=\"/software/dotgnu-forum/\">dotgnu-forum</a>, <a href=\"/software/"
@@ -332,9 +347,10 @@ msgid "Work in GNU projects."
 msgstr "Travailler dans les projets GNU."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Finally visit <a href=\"/help/help.html\">How You Can Help the GNU Project</"
-"a> for more information"
+"a> for more information."
 msgstr ""
 "Enfin, visitez <a href=\"/help/help.fr.html\">Comment aider le Projet GNU</"
 "a> pour plus d'informations."
@@ -369,13 +385,12 @@ msgstr ""
 "soumission de traduction de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 2004, 2005, 2006, 2007 Free Software Foundation, Inc.,"
+#, fuzzy
+msgid ""
+"Copyright &copy; 2004, 2005, 2006, 2007, 2008, 2009 Free Software "
+"Foundation, Inc."
 msgstr ""
 "Copyright &copy; 2004, 2005, 2006, 2007 Free Software Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -402,3 +417,7 @@ msgstr "Derni&egrave;re mise-&agrave;-jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
