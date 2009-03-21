@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: free-system-distribution-guidelines.html\n"
 "POT-Creation-Date: 2009-03-05 16:25-0500\n"
-"PO-Revision-Date: 2009-03-08 15:08+0100\n"
+"PO-Revision-Date: 2009-03-21 17:42+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgstr "Règles pour les licences"
 
 # type: Content of: <div><p>
 msgid "All information for practical use in a free distribution must be available in source form.  (&ldquo;Source&rdquo; means the form of the information that is preferred for making changes to it.)"
-msgstr ""
+msgstr "Toutes les informations pour l'utilisation pratique d'une distribution libre doit être disponible sous forme de source. («&nbsp;Source&nbsp;» signifie la forme sous laquelle les informations sont facilement modifiables)."
 
 # type: Content of: <div><p>
 msgid "The information, and the source, must be provided under an appropriate free license.  We list the ones we have evaluated on <a class=\"reference\" href=\"/licenses/license-list.html\">our license list</a>, with separate sections for licenses that are suitable for software, documentation, fonts, and other useful works.  If such a work is released under multiple licenses, at least one of which is free, it can be included in the system; the system developers just need to follow the terms of the available free license(s) when they distribute and/or modify it."
@@ -148,11 +148,11 @@ msgstr "Notes"
 
 # type: Content of: <div><p>
 msgid "We list the free system distributions we know about on <a class=\"reference\" href=\"/links/links.html\">our links page</a>.  If you know about a free distribution that isn't listed there, please have the developers write to us at &lt;<a class=\"reference\" href=\"mailto:gnu@gnu.org\">gnu@gnu.org</a>&gt;."
-msgstr ""
+msgstr "Nous listons les distributions système libres que nous connaissons sur <a class=\"reference\" href=\"/links/links.fr.html\">notre page de liens</a>. Si vous connaissez une distribution libre qui n'est pas listée ici, veuillez demander aux développeurs de nous écrire à <a class=\"reference\" href=\"mailto:gnu@gnu.org\">gnu@gnu.org</a>&gt;."
 
 # type: Content of: <div><p>
 msgid "However, we will not list a distribution whose name makes confusion with non-free distributions likely.  Thus, if Foobar Light is a free distribution and Foobar is a non-free distribution, we will not list Foobar Light.  This is because we expect that the distinction between the two would be lost in the process of communicating this message."
-msgstr ""
+msgstr "Cependant, nous ne listerons pas une distribution dont le nom pourrait prêter à confusion avec des distributions non-libres. Par conséquent, si Foobar Light est une distribution libre et que Foobar est une distribution non-libre, nous ne listerons pas Foobar Light. Ceci, parce que nous craignons que la distinction entre les deux serait perdue dans le processus de communication de ce message."
 
 # type: Content of: <div><p>
 msgid "If you have questions or comments about these guidelines themselves, feel free to send those to &lt;<a class=\"reference\" href=\"mailto:licensing@gnu.org\">licensing@gnu.org</a>&gt;.  We hope this helps everyone better understand the issues that are important for free system distributions, and we look forward to promoting more of them in the future."
