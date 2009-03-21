@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-violation.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2009-03-09 16:26-0300\n"
 "PO-Revision-Date: 2008-09-13 16:09+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -117,12 +117,10 @@ msgstr "Le code source est-il totalement absent&nbsp;?"
 
 # type: Content of: <ul><li><ul><li>
 msgid ""
-"Does the written offer for source, if given, <strong>only</strong> give a "
-"website and/or FTP site where to download the source?"
+"Is there a written offer for source that's incomplete in some way? This "
+"could happen if it provides a contact address or network URL that's somehow "
+"incorrect."
 msgstr ""
-"L'offre &eacute;crite pour le code source, le cas &eacute;ch&eacute;ant, "
-"donne-t-elle <strong>seulement</strong> un site Web et/ou un site FTP "
-"o&ugrave; t&eacute;l&eacute;charger le code source&nbsp;?"
 
 # type: Content of: <ul><li><ul><li>
 msgid "Is there a copy of the license included in the distribution?"
@@ -264,3 +262,12 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page:"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li><ul><li>
+#~ msgid ""
+#~ "Does the written offer for source, if given, <strong>only</strong> give a "
+#~ "website and/or FTP site where to download the source?"
+#~ msgstr ""
+#~ "L'offre &eacute;crite pour le code source, le cas &eacute;ch&eacute;ant, "
+#~ "donne-t-elle <strong>seulement</strong> un site Web et/ou un site FTP "
+#~ "o&ugrave; t&eacute;l&eacute;charger le code source&nbsp;?"
