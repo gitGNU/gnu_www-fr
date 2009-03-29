@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: translations.html\n"
-"POT-Creation-Date: 2009-02-14 16:25-0500\n"
+"POT-Creation-Date: 2009-03-24 04:26-0300\n"
 "PO-Revision-Date: 2009-01-17 16:02+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -485,6 +485,23 @@ msgid ""
 msgstr ""
 "<code>[fa]</code> Traduction en <a href=\"http://stuff.danexnow.org/gfdl_es."
 "html\">espagnol</a> de la GFDL"
+
+# type: Content of: <h3>
+msgid "Unofficial translations of exceptions to GNU licenses"
+msgstr ""
+
+# type: Content of: <h4>
+msgid "GNU Runtime Library Exception, version 3"
+msgstr ""
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<code>[zh-cn]</code> <a href=\"http://hutuworm.blogspot.com/2009/01/gcc.html"
+"\"> Chinese (Simplified)</a> translation of the GCC RLE"
+msgstr ""
+"<code>[zh-cn]</code> Traduction en <a href=\"http://bergwolf.googlepages.com/"
+"gplv3_zh\">chinois simplifi&eacute;</a> de la GPL"
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.

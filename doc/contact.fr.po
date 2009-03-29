@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: contact.html\n"
-"POT-Creation-Date: \n"
+"POT-Creation-Date: 2009-01-14 16:26-0500\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -21,6 +21,12 @@ msgstr "Contacter GNU Press"
 # type: Content of: <dl><dt>
 msgid "<strong>Postal Mail:</strong>"
 msgstr "<strong>Adresse postale&nbsp;:</strong>"
+
+# type: Content of: <dl><dd>
+msgid ""
+"GNU Press<br />\r c/o Free Software Foundation<br />\r 51 Franklin St, Fifth "
+"Floor<br />\r Boston, MA 02110-1301<br />\r USA"
+msgstr ""
 
 # type: Content of: <dl><dt>
 msgid "<b>Phone:</b>"
@@ -51,17 +57,46 @@ msgstr "<a href=\"mailto:press@gnu.org\">&lt;press@gnu.org&gt;</a>"
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+# type: Content of: <div><p>
+msgid ""
+"Please send FSF &amp; GNU inquiries to \r <a href=\"mailto:gnu@gnu.org"
+"\"><em>gnu@gnu.org</em></a>.\r There are also <a href=\"/contact/\">other "
+"ways to contact</a> \r the FSF.\r <br />\r Please send broken links and "
+"other corrections or suggestions to\r <a href=\"mailto:webmasters@gnu.org"
+"\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+
+# type: Content of: <div><p>
+msgid ""
+"Please see the \r <a href=\"/server/standards/README.translations.html"
+"\">Translations\r README</a> for information on coordinating and submitting"
+"\r translations of this article."
+msgstr ""
+
+# type: Content of: <div><p>
+msgid ""
+"Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2009\r Free Software "
+"Foundation, Inc."
+msgstr ""
+
+# type: Content of: <div><p>
+msgid ""
+"Verbatim copying and distribution of this entire article is permitted\r in "
+"any medium, provided this notice is preserved."
+msgstr ""
+
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
-msgstr "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+msgstr ""
+"Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
+"trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 # type: Content of: <div><p>
-#.  timestamp start
+#.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
-

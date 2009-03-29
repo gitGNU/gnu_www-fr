@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: philosophy.html\n"
-"POT-Creation-Date: 2009-03-10 04:26-0300\n"
+"POT-Creation-Date: 2009-03-22 04:26-0300\n"
 "PO-Revision-Date: 2009-01-17 16:30+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -34,6 +34,13 @@ msgstr ""
 "Cette page recense une série d'articles décrivant la philosophie du "
 "mouvement pour le logiciel libre, qui est la motivation de notre "
 "développement du système d'exploitation libre GNU."
+
+# type: Content of: <p>
+msgid ""
+"<span style=\"background-color: yellow; color: red; padding: 8px;\">NEW</"
+"span> &mdash; <a href=\"/philosophy/javascript-trap.html\">The Javascript "
+"Trap</a>"
+msgstr ""
 
 # type: Content of: <p>
 #.  please leave both these ID attributes here. ... 
@@ -280,6 +287,13 @@ msgid "<a href=\"/philosophy/pragmatic.html\">Copyleft: Pragmatic Idealism</a>"
 msgstr ""
 "<a href=\"/philosophy/pragmatic.fr.html\">Copyleft&nbsp;: Id&eacute;alisme "
 "pragmatique</a>"
+
+# type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/javascript-trap.html\">Javascript Trap</a> &mdash; You "
+"may be running non-free programs on your computer every day without "
+"realizing it &mdash; through your web browser."
+msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
