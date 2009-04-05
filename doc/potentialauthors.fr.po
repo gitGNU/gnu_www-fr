@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: potentialauthors.html\n"
 "POT-Creation-Date: 2009-01-18 16:25-0500\n"
-"PO-Revision-Date: 2009-03-22 18:23+0100\n"
+"PO-Revision-Date: 2009-04-05 18:30+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,85 +23,36 @@ msgid "Information for Potential Authors"
 msgstr "Informations pour les auteurs potentiels"
 
 # type: Content of: <p>
-msgid ""
-"The FSF always has a need for technical documentation writers.  We have many "
-"programs that have yet to be properly documented or lack tutorials.  Please "
-"consider joining the volunteer GNU Writing Movement.  For more information, "
-"send email to <a href=\"mailto:gwm@gnu.org\">&lt;gwm@gnu.org&gt;</a>."
-msgstr ""
-"La FSF a toujours besoin de rédacteurs de documentation technique. Nous "
-"avons beaucoup de programmes qui ne sont pas encore correctement documentés "
-"ou manquent de tutoriels. Veuillez envisager de rejoindre le Mouvement "
-"d'écriture GNU. Pour obtenir plus d'informations, envoyez un courriel à <a "
-"href=\"mailto:gwm@gnu.org\">&lt;gwm@gnu.org&gt;</a>."
+msgid "The FSF always has a need for technical documentation writers.  We have many programs that have yet to be properly documented or lack tutorials.  Please consider joining the volunteer GNU Writing Movement.  For more information, send email to <a href=\"mailto:gwm@gnu.org\">&lt;gwm@gnu.org&gt;</a>."
+msgstr "La FSF a toujours besoin de rédacteurs de documentation technique. Nous avons beaucoup de programmes qui ne sont pas encore correctement documentés ou manquent de tutoriels. Veuillez envisager de rejoindre le Mouvement d'écriture GNU. Pour obtenir plus d'informations, envoyez un courriel à <a href=\"mailto:gwm@gnu.org\">&lt;gwm@gnu.org&gt;</a>."
 
 # type: Content of: <p>
-msgid ""
-"Check the <a href=\"https://savannah.gnu.org/projects/tasklist\">tasklist</"
-"a> and <a href=\"http://savannah.gnu.org/people/\">help wanted</a> lists at "
-"<a href=\"http://savannah.gnu.org\">Savannah</a> to which projects are "
-"currently seeking help with documentation."
-msgstr ""
-"Vérifiez les listes <a href=\"https://savannah.gnu.org/projects/tasklist"
-"\">liste des tâches</a> et <a href=\"http://savannah.gnu.org/people/\">aide "
-"demandée</a> sur <a href=\"http://savannah.gnu.org\">Savannah</a> pour les "
-"projets qui cherchent de l'aide pour la documentation."
+msgid "Check the <a href=\"https://savannah.gnu.org/projects/tasklist\">tasklist</a> and <a href=\"http://savannah.gnu.org/people/\">help wanted</a> lists at <a href=\"http://savannah.gnu.org\">Savannah</a> to which projects are currently seeking help with documentation."
+msgstr "Vérifiez les listes <a href=\"https://savannah.gnu.org/projects/tasklist\">liste des tâches</a> et <a href=\"http://savannah.gnu.org/people/\">aide demandée</a> sur <a href=\"http://savannah.gnu.org\">Savannah</a> pour les projets qui cherchent de l'aide pour la documentation."
 
 # type: Content of: <p>
-msgid ""
-"GNU Press is also actively looking for books on general computer science, as "
-"well as potential manuscripts to develop into titles for our <i>Philosophy "
-"of Software Freedom Series</i>.  PhD candidates and post-docs are encouraged "
-"to send in their thesis, or a proposal based on their thesis, for "
-"consideration for this series.  If you are interested in being published by "
-"GNU Press, please send email to <a href=\"mailto:press@gnu.org\">&lt;"
-"press@gnu.org&gt;</a>."
-msgstr ""
-"GNU Press recherche aussi activement des livres sur l'informatique générale, "
-"tout comme des manuscrits potentiels pour développer les titres de notre "
-"série <i>Philosophy of Software Freedom</i>. "
+msgid "GNU Press is also actively looking for books on general computer science, as well as potential manuscripts to develop into titles for our <i>Philosophy of Software Freedom Series</i>.  PhD candidates and post-docs are encouraged to send in their thesis, or a proposal based on their thesis, for consideration for this series.  If you are interested in being published by GNU Press, please send email to <a href=\"mailto:press@gnu.org\">&lt;press@gnu.org&gt;</a>."
+msgstr "GNU Press recherche aussi activement des livres sur l'informatique générale, tout comme des manuscrits potentiels pour développer les titres de notre série <i>Philosophy of Software Freedom</i>. "
 
 # type: Content of: <h3>
 msgid "Documentation Standards"
 msgstr "Standards de documentation"
 
 # type: Content of: <p>
-msgid ""
-"The Free Software Foundation actively promotes the use and development of "
-"free software for documentation.  Our preferred standard for documentation "
-"formatting is the simple but powerful language <a href=\"/software/texinfo/"
-"\">Texinfo</a>; <a href=\"http://www.docbook.org\">DocBook</a> may also be "
-"used.  Graphic illustrations may be created with <a href=\"http://www.gimp."
-"org\">GIMP</a>."
-msgstr ""
-"La Free Software Foundation fait activement la promotion pour l'utilisation "
-"et le développement de logiciels libres pour la documentation. Notre "
-"standard préféré pour formater la documentation est le simple mais puissant "
-"langage <a href=\"/software/texinfo/\">Texinfo</a>&nbsp;; <a href=\"http://"
-"www.docbook.org\">DocBook</a> peut aussi être utilisé. Les illustrations "
-"graphiques peuvent être réalisées avec <a href=\"http://www.gimp.org\">GIMP</"
-"a>."
+msgid "The Free Software Foundation actively promotes the use and development of free software for documentation.  Our preferred standard for documentation formatting is the simple but powerful language <a href=\"/software/texinfo/\">Texinfo</a>; <a href=\"http://www.docbook.org\">DocBook</a> may also be used.  Graphic illustrations may be created with <a href=\"http://www.gimp.org\">GIMP</a>."
+msgstr "La Free Software Foundation fait activement la promotion pour l'utilisation et le développement de logiciels libres pour la documentation. Notre standard préféré pour formater la documentation est le simple mais puissant langage <a href=\"/software/texinfo/\">Texinfo</a>&nbsp;; <a href=\"http://www.docbook.org\">DocBook</a> peut aussi être utilisé. Les illustrations graphiques peuvent être réalisées avec <a href=\"http://www.gimp.org\">GIMP</a>."
 
 # type: Content of: <ul><li>
 msgid "<a href=\"/prep/standards/\">GNU Coding/Documentation Standards</a>"
 msgstr "<a href=\"/prep/standards/\">Codage GNU/Standards de documentation</a>"
 
 # type: Content of: <ul><li>
-msgid ""
-"A section from the GNU Project <a href=\"/prep/maintain/\">Information for "
-"Maintainers</a> Manual"
-msgstr ""
-"Une section pour le Manuel d'<a href=\"/prep/maintain/\">information pour "
-"les mainteneurs</a> du Projet GNU"
+msgid "A section from the GNU Project <a href=\"/prep/maintain/\">Information for Maintainers</a> Manual"
+msgstr "Une section pour le Manuel d'<a href=\"/prep/maintain/\">information pour les mainteneurs</a> du Projet GNU"
 
 # type: Content of: <ul><li>
-msgid ""
-"A Draft GNU Press Style Guide (<a href=\"/doc/GNU-Press-styleguide.texi"
-"\">Texinfo source</a>, <a href=\"/doc/GNU-Press-styleguide.pdf\">PDF</a>)"
-msgstr ""
-"Un brouillon de Guide de style de GNU Press (<a href=\"/doc/GNU-Press-"
-"styleguide.texi\">source Texinfo</a>, <a href=\"/doc/GNU-Press-styleguide.pdf"
-"\">PDF</a>)"
+msgid "A Draft GNU Press Style Guide (<a href=\"/doc/GNU-Press-styleguide.texi\">Texinfo source</a>, <a href=\"/doc/GNU-Press-styleguide.pdf\">PDF</a>)"
+msgstr "Un brouillon de Guide de style de GNU Press (<a href=\"/doc/GNU-Press-styleguide.texi\">source Texinfo</a>, <a href=\"/doc/GNU-Press-styleguide.pdf\">PDF</a>)"
 
 # type: Content of: <ul><li>
 msgid "<a href=\"/software/texinfo/manual/texinfo/\">Texinfo Manual</a>"
@@ -117,8 +68,7 @@ msgstr "<a href=\"http://www.gimp.org\">The GIMP</a>"
 
 # type: Content of: <ul><li>
 msgid "<a href=\"/licenses/fdl.html\">The GNU Free Documentation License</a>"
-msgstr ""
-"<a href=\"/licenses/fdl.html\">La licence de documentation libre GNU</a>"
+msgstr "<a href=\"/licenses/fdl.html\">La licence de documentation libre GNU</a>"
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
@@ -126,59 +76,32 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
-msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
-msgstr ""
-"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
-"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
-"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
-"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
-"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
-msgid ""
-"Please see the <a href=\"/server/standards/README.translations.html"
-"\">Translations README</a> for information on coordinating and submitting "
-"translations of this article."
-msgstr ""
-"Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html"
-"\">README des traductions</a> pour des informations sur la coordination et "
-"la soumission de traductions de cet article."
+msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
+msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid ""
-"Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2009 Free "
-"Software Foundation, Inc."
-msgstr ""
-"Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2009 Free "
-"Software Foundation, Inc."
+msgid "Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2009 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2009 Free Software Foundation, Inc."
 
 # type: Content of: <div><p>
-msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium, provided this notice is preserved."
-msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+msgid "Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved."
+msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
-msgstr ""
-"Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
-"trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+msgstr "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 # type: Content of: <div><p>
-#.  timestamp start 
+#.  timestamp start
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
