@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: javascript-trap.html\n"
 "POT-Creation-Date: 2009-03-30 16:25-0300\n"
-"PO-Revision-Date: 2009-04-05 23:06+0100\n"
+"PO-Revision-Date: 2009-04-06 20:12+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "Dans la communauté du logiciel libre, l'idée que les programmes non-li
 
 # type: Content of: <p>
 msgid "But browsers run other non-free programs which they don't ask you about or even tell you about&mdash;programs that web pages contain or link to.  These programs are most often written in JavaScript, though other languages are also used."
-msgstr "Mais les navigateurs exécutent d'autres programmes non-libres pour lesquels ils ne demandent pas votyre avis &mdash;&nbsp;des programmes que contiennent des pages Web ou vers lesquels elle lient. Ces programmes sont très souvent écrit en JavaScript, bien que d'autres langages puissent être utilisés."
+msgstr "Mais les navigateurs exécutent d'autres programmes non-libres pour lesquels ils ne demandent pas votre avis &mdash;&nbsp;des programmes que contiennent des pages Web ou vers lesquels elle lient. Ces programmes sont très souvent écrit en JavaScript, bien que d'autres langages puissent être utilisés."
 
 # type: Content of: <p>
 msgid "JavaScript (officially called ECMAscript, but few use that name) was once used for minor frills in web pages, such as cute but inessential navigation and display features.  It was acceptable to consider these as mere extensions of HTML markup, rather than as true software; they did not constitute a significant issue."
@@ -64,7 +64,7 @@ msgstr "Un fort mouvement s'est développé qui appelle les sites Web à ne comm
 
 # type: Content of: <p>
 msgid "Silently loading and running non-free programs is one among several issues raised by &quot;web applications&quot;.  The term &quot;web application&quot; was designed to disregard the fundamental distinction between software delivered to users and software running on the server.  It can refer to a specialized client program running in a browser; it can refer to specialized server software; it can refer to a specialized client program that works hand in hand with specialized server software.  The client and server sides raise different ethical issues, even if they are so closely integrated that they arguably form parts of a single program.  This article addresses only the issue of the client-side software.  We are addressing the server issue separately."
-msgstr "Le chargement et l'exécution silencieux de programmes non-libres est un des nombreux problèmes soulevés par les «&nbsp;applications Web&nbsp;». Le terme «&nbsp;application Web&nbsp;» a été conçu pour ne pas tenir compte de la distinction fondamentale entre un logiciel délivré aux utilisateurs et un logiciel s'exécutant sur un serveur. Il peut faire référence à un programme client spécialisé qui s'exécute dans un navigateur&nbs;; il peut faire référence à un logiciel serveur spécialisé&nbsp;; il peut faire référence à un programme client spécialisé qui travaille main dans la main avec un logiciel serveur spécialisé. Les côtés client et serveur soulèvent des problèmes éthiques différents, même s'ils sont si intimement intégrés que l'on pourrait dire qu'ils font partie d'un seul programme. Cet article ne traite que du problème du logiciel du côté client. Nous traiterons le problème du côté serveur séparément."
+msgstr "Le chargement et l'exécution silencieux de programmes non-libres est un des nombreux problèmes soulevés par les «&nbsp;applications Web&nbsp;». Le terme «&nbsp;application Web&nbsp;» a été conçu pour ne pas tenir compte de la distinction fondamentale entre un logiciel délivré aux utilisateurs et un logiciel s'exécutant sur un serveur. Il peut faire référence à un programme client spécialisé qui s'exécute dans un navigateur&nbsp;; il peut faire référence à un logiciel serveur spécialisé&nbsp;; il peut faire référence à un programme client spécialisé qui travaille main dans la main avec un logiciel serveur spécialisé. Les côtés client et serveur soulèvent des problèmes éthiques différents, même s'ils sont si intimement intégrés que l'on pourrait dire qu'ils font partie d'un seul programme. Cet article ne traite que du problème du logiciel du côté client. Nous traiterons le problème du côté serveur séparément."
 
 # type: Content of: <p>
 msgid "In practical terms, how can we deal with the problem of non-free JavaScript programs in web sites? Here's a plan of action."
@@ -147,12 +147,14 @@ msgstr ""
 "    @licend  The above is the entire license notice\n"
 "    for the JavaScript code in this page.\n"
 "\n"
-"Traduction\n"
+"\n"
+"Traduction :\n"
 "    @licstart  Ce qui suit est la totalité de la notice de licence pour le\n"
 "    code JavaScript de cette page.\n"
 "    ...\n"
 "    @licend  Ce qui précède est la totalité de la notice de licence pour le\n"
 "    code JavaScript de cette page.\n"
+"\n"
 "\n"
 
 # type: Content of: <p>
@@ -202,6 +204,7 @@ msgstr ""
 "    that code without the copy of the GNU GPL normally required by\n"
 "    section 4, provided you include this license notice and a URL\n"
 "    through which recipients can access the Corresponding Source.\n"
+"\n"
 "\n"
 "Traduction :\n"
 "\n"
