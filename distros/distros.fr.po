@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: distros.html\n"
-"POT-Creation-Date: 2009-03-11 16:25-0300\n"
+"POT-Creation-Date: 2009-04-14 04:26-0300\n"
 "PO-Revision-Date: 2009-03-21 18:43+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -23,11 +23,13 @@ msgid "GNU/Linux Distros"
 msgstr "Distributions GNU/Linux"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Free GNU/Linux system distributions (or &ldquo;distros&rdquo;) only include "
 "and only propose free software.  They reject non-free applications, non-free "
-"programming platforms, non-free drivers, or non-free firmware &ldquo;"
-"blobs&rdquo;.  If by mistake they do include any, they remove it."
+"programming platforms, non-free drivers, non-free firmware &ldquo;"
+"blobs&rdquo;, and any other non-free software and documentation.  If they "
+"discover that by mistake some had been included, they remove it."
 msgstr ""
 "Les distributions système libres GNU/Linux (ou «&nbsp;distros&nbsp;») ne "
 "contiennent et ne proposent que des logiciels libres. Elles rejettent les "
@@ -36,42 +38,42 @@ msgstr ""
 "par erreur elles en incluent, elles le retirent dès qu'elles s'en rendent "
 "compte."
 
-# type: Content of: <p>
-msgid ""
-"This page links to a list of free system distributions, to the guidelines "
-"that we use when deciding whether a distro is free, and to a list of common "
-"distros that do not meet those guidelines."
-msgstr ""
-"Cette page contient des liens vers une liste de distributions système "
-"libres, vers les recommandations que nous utilisons pour décider si une "
-"distribution est libre et vers une liste de distributions courantes qui ne "
-"suivent pas ces recommandations."
-
 # type: Content of: <h3>
 msgid "Free GNU/Linux Distros"
 msgstr "Distributions GNU/Linux libres"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "We recommend that you use a free GNU/Linux system distribution, one that "
-"does not include proprietary software at all. You can find a list of such "
-"distros here:<br /> <a href=\"/links/links.html#FreeGNULinuxDistributions\"> "
-"Free GNU/Linux Distributions</a><br />"
+"does not include proprietary software at all.  That way you can be sure that "
+"you are not installing any non-free programs. Here is the list of such "
+"distros:<br /> <a href=\"/distros/free-distros.html\"> Free GNU/Linux "
+"Distributions</a><br />"
 msgstr ""
 "Nous vous recommandons d'utiliser une distribution système libre, une qui ne "
 "contienne pas de logiciels propriétaires du tout. Vious trouverez une liste "
 "de ces distributions ici&nbsp;:<br /><a href=\"/links/links.fr."
 "html#FreeGNULinuxDistributions\">Distributions GNU/Linux libres</a><br />"
 
+# type: Content of: <p>
+msgid ""
+"If you want to contribute in the most useful way, we suggest that you join "
+"the development of an existing free distro rather that starting a new "
+"distro, even if the new one is free.  Each of these existing distros could "
+"use more development help."
+msgstr ""
+
 # type: Content of: <h3>
 msgid "Free Distro Guidelines"
 msgstr "Recommandations pour une distribution libre"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"We keep a list of known issues that prevent a distro being considered free "
-"here:<br /> <a href=\"/distros/free-system-distribution-guidelines.html\"> "
-"Guidelines for Free System Distributions</a>"
+"Here is the list of problems that can prevent a distro from being considered "
+"entirely free:<br /> <a href=\"/distros/free-system-distribution-guidelines."
+"html\"> Guidelines for Free System Distributions</a>"
 msgstr ""
 "Nous conservons une liste des problèmes connus qui empêche une distribution "
 "d'être considérée comme libre&nbsp;:<br /> <a href=\"/distros/free-system-"
@@ -83,16 +85,23 @@ msgid "Common Distros"
 msgstr "Distributions courantes"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Many common and well-known GNU/Linux software distributions don't meet our "
-"guidelines. You can read about the issues with them here:<br /> <a href=\"/"
-"distros/common-distros.html\"> Explaining Why We Don't Endorse Other "
-"Systems</a>"
+"guidelines. You can read about their problems here:<br /> <a href=\"/distros/"
+"common-distros.html\"> Explaining Why We Don't Endorse The Well-Known GNU/"
+"Linux Distros</a>"
 msgstr ""
 "Beaucoup de distributions GNU/Linux bien connues ne respectent pas nos "
 "recommandations. Vous pouvez lire les problèmes qu'elles ont ici&nbsp;:<br /"
 "><a href=\"/distros/common-distros.fr.html\">Pourquoi nous n'homologuons pas "
 "les autres systèmes</a>"
+
+# type: Content of: <p>
+msgid ""
+"We appeal to the developers of these distros to remove the non-free parts "
+"and thus make them entirely free software."
+msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
@@ -157,3 +166,14 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <p>
+#~ msgid ""
+#~ "This page links to a list of free system distributions, to the guidelines "
+#~ "that we use when deciding whether a distro is free, and to a list of "
+#~ "common distros that do not meet those guidelines."
+#~ msgstr ""
+#~ "Cette page contient des liens vers une liste de distributions système "
+#~ "libres, vers les recommandations que nous utilisons pour décider si une "
+#~ "distribution est libre et vers une liste de distributions courantes qui "
+#~ "ne suivent pas ces recommandations."

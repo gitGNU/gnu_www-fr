@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: software.html\n"
-"POT-Creation-Date: 2009-02-03 04:25-0500\n"
+"POT-Creation-Date: 2009-04-14 04:26-0300\n"
 "PO-Revision-Date: 2009-02-15 15:58+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -27,8 +27,8 @@ msgid "Download distributions"
 msgstr "Téléchargez des distributions"
 
 # type: Content of: <div><p><a>
-msgid "<a href=\"/links/links.html#FreeGNULinuxDistributions\">"
-msgstr "<a href=\"/links/links.fr.html#FreeGNULinuxDistributions\">"
+msgid "<a href=\"/distros/free-distros.html\">"
+msgstr ""
 
 # type: Attribute 'alt' of: <div><p><a><img>
 msgid "GNU and Linux"
@@ -39,10 +39,11 @@ msgid "</a>"
 msgstr "</a>"
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
 "<span class=\"highlight\">If you're looking for a whole system to install, "
-"see our <a href=\"/links/links.html#FreeGNULinuxDistributions\">list of GNU/"
-"Linux distributions which are entirely free software</a>.</span>"
+"see our <a href=\"/distros/free-distros.html\">list of GNU/Linux "
+"distributions which are entirely free software</a>.</span>"
 msgstr ""
 "<span class=\"highlight\">Si vous cherchez &agrave; installer un syst&egrave;"
 "me complet, consultez notre <a href=\"/links/links.fr."
@@ -304,3 +305,7 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <div><p><a>
+#~ msgid "<a href=\"/links/links.html#FreeGNULinuxDistributions\">"
+#~ msgstr "<a href=\"/links/links.fr.html#FreeGNULinuxDistributions\">"
