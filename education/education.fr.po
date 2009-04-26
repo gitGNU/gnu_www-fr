@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: education.html\n"
-"POT-Creation-Date: 2009-03-07 16:25-0500\n"
+"POT-Creation-Date: 2009-04-24 04:27-0300\n"
 "PO-Revision-Date: 2009-03-08 14:53+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -23,6 +23,7 @@ msgid "Free Software Universities"
 msgstr "Les logiciels libres et les universités"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "More and more students are considering whether a university teaches computer "
 "science and software development using Free Software when deciding where "
@@ -31,7 +32,7 @@ msgid ""
 "Learning about Free Software can also help in studying software development "
 "ethics and professional practice. If you know of a Free-Software-oriented "
 "university then email <a href=\"mailto:webmasters@gnu.org\">webmasters@gnu."
-"org</a> to tell us about it so we can list it here. ."
+"org</a> to tell us about it so we can list it here."
 msgstr ""
 "De plus en plus d'étudiants se posent la question de savoir si une "
 "université enseigne l'informatique et le développement en utilisant des "
@@ -50,12 +51,13 @@ msgid "Is Your School Committed To Free Software?"
 msgstr "Votre école s'implique-t-elle dans les logiciels libres ?"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "If your school is committed to Free Software then we want to hear from you "
 "so that we can list it here. Has your school migrated to GNU/Linux, or has "
 "your school adopted the firm policy of rejecting proprietary software? If "
-"so, contact the webmasters at <a href=\"mailto:webmasters@gnu.org"
-"\">webmasters@gnu.org</a> to let us know."
+"so, contact <a href=\"mailto:education@gnu.org\">&lt;education@gnu.org&gt;</"
+"a> to let us know."
 msgstr ""
 "Si votre école s'implique dans les logiciels libres, alors nous aimerions le "
 "savoir pour la lister ici. Votre école a-t-elle migré vers GNU/Linux, ou a-t-"
@@ -382,12 +384,13 @@ msgstr ""
 "a>."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "If you live in the UK and you want your schools to use Free Software then "
-"please help In writing your PM use this link <a href=\"http://www."
-"writetothem.com/\">Write your PM</a> Please make sure to sign <a href="
+"please help In writing your PM use this link: <a href=\"http://www."
+"writetothem.com/\">Write your PM</a>.  Please make sure to sign <a href="
 "\"http://edmi.parliament.uk/EDMi/EDMDetails.aspx?EDMID=31752\">Early Day "
-"Motion</a>"
+"Motion</a>."
 msgstr ""
 "Si vous habitez au Royaume-Uni et que vous voulez que vos écoles utilisent "
 "des logiciels libres, vous pouvez aider en écrivant à votre Membre du "
@@ -401,12 +404,13 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:education@gnu.org"
-"\"><em>education@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:education@gnu.org\">&lt;education@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -426,12 +430,9 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 2008 Free Software Foundation, Inc.,"
+#, fuzzy
+msgid "Copyright &copy; 2009 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2008 Free Software Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -457,3 +458,7 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traduction de cette page"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"

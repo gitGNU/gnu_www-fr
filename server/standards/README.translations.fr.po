@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: README.translations.html\n"
-"POT-Creation-Date: 2009-01-20 04:25-0500\n"
+"POT-Creation-Date: 2009-04-26 04:26-0300\n"
 "PO-Revision-Date: 2009-02-28 18:38+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -445,14 +445,16 @@ msgstr ""
 "Steuer</a>)"
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
 "<code>el</code> - <a href=\"https://savannah.gnu.org/projects/www-el"
-"\">Greek</a> (<a href=\"https://savannah.gnu.org/users/freeasinfreedom"
-"\">Kasabalis Athanasios</a>)"
+"\">Greek</a> (New coordinator needed, please contact <a href=\"mailto:web-"
+"translators@gnu.org\"> &lt;web-translators@gnu.org&gt;</a>)"
 msgstr ""
-"<code>el</code> - <a href=\"https://savannah.gnu.org/projects/www-el\">Grec</"
-"a> (<a href=\"https://savannah.gnu.org/users/freeasinfreedom\">Kasabalis "
-"Athanasios</a>)"
+"<code>he</code> - <a href=\"https://savannah.gnu.org/projects/www-he"
+"\">H&eacute;breu</a> (Nouveau coordinateur demand&eacute;, veuillez "
+"contacter <a href=\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu."
+"org&gt;</a>)"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -864,3 +866,13 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traduction de cette page"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<code>el</code> - <a href=\"https://savannah.gnu.org/projects/www-el"
+#~ "\">Greek</a> (<a href=\"https://savannah.gnu.org/users/freeasinfreedom"
+#~ "\">Kasabalis Athanasios</a>)"
+#~ msgstr ""
+#~ "<code>el</code> - <a href=\"https://savannah.gnu.org/projects/www-el"
+#~ "\">Grec</a> (<a href=\"https://savannah.gnu.org/users/freeasinfreedom"
+#~ "\">Kasabalis Athanasios</a>)"
