@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2009-04-12 04:27-0300\n"
+"POT-Creation-Date: 2009-05-04 16:26-0300\n"
 "PO-Revision-Date: 2009-04-18 19:36+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -398,6 +398,26 @@ msgstr ""
 "de programmeurs toutes les permissions dont ils ont besoin pour faire le "
 "programme qu'ils veulent. Consulter la section 13 de ces deux licences pour "
 "plus de détails."
+
+# type: Content of: <dl><dt>
+msgid ""
+"<a href=\"/prep/maintain/html_node/License-Notices-for-Other-Files.html\" id="
+"\"GNUAllPermissive\">GNU All-Permissive License</a>"
+msgstr ""
+
+# type: Content of: <dl><dd><p>
+msgid ""
+"This is a simple permissive free software license, compatible with the GNU "
+"GPL, which we recommend GNU packages use for README and other small "
+"supporting files.  All developers can feel free to use it in similar "
+"situations."
+msgstr ""
+
+# type: Content of: <dl><dd><p>
+msgid ""
+"Older versions of this license did not have the second sentence with the "
+"express warranty disclaimer.  This same analysis applies to both versions."
+msgstr ""
 
 # type: Content of: <dl><dt>
 msgid ""
@@ -3691,16 +3711,16 @@ msgstr ""
 "jugement</a>"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Works that express someone's opinion&mdash;memoirs, editorials, and so "
 "on&mdash;serve a fundamentally different purpose than works for practical "
 "use like software and documentation.  Because of this, we expect them to "
-"provide recipients with a different set of permissions: the permission to "
-"copy and distribute the work verbatim, for both commercial and noncommercial "
-"purposes.  <a href=\"/philosophy/copyright-and-globalization.html#opinions\" "
-"title=\"Richard Stallman discusses what rights the public should have for "
-"works of opinion\">Richard Stallman discusses this</a> frequently in his "
-"speeches."
+"provide recipients with a different set of permissions: just the permission "
+"to copy and distribute the work verbatim.  <a href=\"/philosophy/copyright-"
+"and-globalization.html#opinions\" title=\"Richard Stallman discusses what "
+"rights the public should have for works of opinion\">Richard Stallman "
+"discusses this</a> frequently in his speeches."
 msgstr ""
 "Les &oelig;uvres qui expriment l'opinion de quelqu'un (m&eacute;moires, "
 "&eacute;ditoriaux, etc.), servent un propos fondamentalement diff&eacute;"

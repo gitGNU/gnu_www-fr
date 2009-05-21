@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rms-lisp.html\n"
-"POT-Creation-Date: 2009-04-08 04:27-0300\n"
+"POT-Creation-Date: 2009-04-28 16:25-0300\n"
 "PO-Revision-Date: 2009-04-18 19:22+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -151,9 +151,10 @@ msgstr ""
 "et l'a fait devenir ce qu'il &eacute;tait."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"The original Emacs did not have Lisp in it. The lower level language the non-"
-"interpreted language &mdash; was <abbr>PDP</abbr>-10 Assembler. The "
+"The original Emacs did not have Lisp in it. The lower level language, the "
+"non-interpreted language &mdash; was <abbr>PDP</abbr>-10 Assembler. The "
 "interpreter we wrote in that actually wasn't written for Emacs, it was "
 "written for <acronym title=\"Text Editor and COrrector\">TECO</acronym>. It "
 "was our text editor, and was an extremely ugly programming language, as ugly "

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: free-system-distribution-guidelines.html\n"
-"POT-Creation-Date: 2009-03-11 16:25-0300\n"
+"POT-Creation-Date: 2009-05-19 16:26-0300\n"
 "PO-Revision-Date: 2009-03-21 17:42+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -285,12 +285,13 @@ msgstr ""
 "modifient."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
 "In extreme cases, these restrictions may effectively render the program "
 "nonfree.  It is unfair for someone to ask you to remove a trademark from "
 "modified code if that trademark is scattered all throughout the original "
-"source.  As long as the conditions are reasonable, however, free system "
-"distributions may include these programs, either with or without the "
+"source.  As long as the practical requirements are reasonable, however, free "
+"system distributions may include these programs, either with or without the "
 "trademarks."
 msgstr ""
 "Dans des cas extr&ecirc;mes, ces restrictions peuvent effectivement rendre "
@@ -302,15 +303,22 @@ msgstr ""
 "pos&eacute;es."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
 "Similarly, the distribution itself may hold particular trademarks.  It is "
-"not a problem for these marks to be in the distribution, as long as they can "
-"readily be removed without losing the system's functionality."
+"not a problem if modification requires removal of these trademarks, as long "
+"as they can readily be removed without losing functionality."
 msgstr ""
 "De m&ecirc;me, la distribution elle-m&ecirc;me peut avoir une marque "
 "d&eacute;pos&eacute;e propre. Ce n'est pas un probl&egrave;me pour ces "
 "marques d'&ecirc;tre dans la distribution, tant qu'elles peuvent &ecirc;tre "
 "retir&eacute;es sans perte de fonctionnalit&eacute;s du syst&egrave;me."
+
+# type: Content of: <div><p>
+msgid ""
+"However, it is unacceptable to use trademarks to restrict verbatim copying "
+"and redistribution of the whole distribution, or any part."
+msgstr ""
 
 # type: Content of: <div><h3>
 msgid "Documentation"
@@ -379,14 +387,16 @@ msgid "Patents"
 msgstr "Brevets"
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
 "It is effectively impossible for free software developers and distributors "
 "to know whether or not a given piece of software infringes any patents: "
-"there are too many of them, and they're often worded so as to obscure their "
-"intended application.  In part because of this, we don't expect free system "
-"distributions to exclude any software because of threats from patents.  On "
-"the other hand, it's also not a problem if a distributor chooses to exclude "
-"some software to minimize the risk of patent infringement suits against them."
+"there are too many of them, they vary from country to country, they're often "
+"worded so as to make it hard to tell what they do or don't cover, and it "
+"isn't easy to tell which ones are valid.  Therefore, we don't generally ask "
+"free system distributions to exclude software because of possible threats "
+"from patents.  On the other hand, we also don't object if a distributor "
+"chooses to omit some software in order to avoid patent risk."
 msgstr ""
 "Il est en fait impossible pour les d&eacute;veloppeurs de logiciels libres "
 "et les distributeurs de savoir si une partie donn&eacute;e du logiciel "
