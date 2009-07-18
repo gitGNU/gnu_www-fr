@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: free-sw.html\n"
-"POT-Creation-Date: 2008-12-19 16:25-0500\n"
+"POT-Creation-Date: 2009-06-30 16:25-0300\n"
 "PO-Revision-Date: 2008-12-30 16:20+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -95,9 +95,10 @@ msgstr ""
 "(libert&eacute; 0)."
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
-"The freedom to study how the program works, and adapt it to your needs "
-"(freedom 1). Access to the source code is a precondition for this."
+"The freedom to study how the program works, and change it to make it do what "
+"you wish (freedom 1). Access to the source code is a precondition for this."
 msgstr ""
 "La libert&eacute; d'&eacute;tudier le fonctionnement du programme, et de "
 "l'adapter &agrave; vos besoins (libert&eacute; 1). Pour ceci l'acc&egrave;s "
@@ -207,6 +208,16 @@ msgstr ""
 
 # type: Content of: <p>
 msgid ""
+"Freedom 1 includes the freedom to use your changed version in place of the "
+"original.  If the program is delivered in a product designed to run someone "
+"else's modified versions but refuse to run yours &mdash; a practice known as "
+"&ldquo;tivoization&rdquo; or (through blacklisting) as &ldquo;secure "
+"boot&rdquo; &mdash; freedom 1 become a theoretical fiction rather than a "
+"practical freedom.  This is not sufficient."
+msgstr ""
+
+# type: Content of: <p>
+msgid ""
 "One important way to modify a program is by merging in available free "
 "subroutines and modules.  If the program's license says that you cannot "
 "merge in a suitably-licensed existing module, such as if it requires you to "
@@ -221,11 +232,13 @@ msgstr ""
 "trop restrictive pour &ecirc;tre qualifi&eacute;e de libre."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"In order for these freedoms to be real, they must be irrevocable as long as "
-"you do nothing wrong; if the developer of the software has the power to "
-"revoke the license, or retroactively change its terms, without your doing "
-"anything wrong to give cause, the software is not free."
+"In order for these freedoms to be real, they must be permanent and "
+"irrevocable as long as you do nothing wrong; if the developer of the "
+"software has the power to revoke the license, or retroactively change its "
+"terms, without your doing anything wrong to give cause, the software is not "
+"free."
 msgstr ""
 "Pour que ces libert&eacute;s soient r&eacute;elles, elles doivent &ecirc;tre "
 "irr&eacute;vocables tant que vous n'avez rien fait de mal; si le d&eacute;"
@@ -573,6 +586,17 @@ msgstr ""
 "puissent l'examiner s'ils le désirent."
 
 # type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?"
+"root=www&amp;r1=1.79&amp;r2=1.80\">Version 1.80</a>: Freedom 1 must be "
+"practical, not just theoretical; i.e., no tivoization."
+msgstr ""
+"<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?"
+"root=www&amp;r1=1.56&amp;r2=1.57\">Version 1.57</a>&nbsp;: Ajout de la "
+"section &laquo;&nbsp;Au-delà du logiciel&nbsp;&raquo;."
+
+# type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?"
 "root=www&amp;r1=1.76&amp;r2=1.77\">Version 1.77</a>: Clarify that all "
@@ -748,12 +772,13 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -773,16 +798,13 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
-"2006, 2007 Free Software Foundation, Inc.,"
+"2006, 2007, 2009 Free Software Foundation, Inc."
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007 Free Software Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -808,3 +830,7 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"

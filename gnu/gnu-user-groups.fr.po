@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-user-groups.html\n"
-"POT-Creation-Date: 2009-02-17 04:25-0500\n"
+"POT-Creation-Date: 2009-07-08 04:26-0300\n"
 "PO-Revision-Date: 2009-02-28 18:24+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -150,6 +150,7 @@ msgstr ""
 "s&nbsp;:"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "<a href=\"#GLArgentina\">Argentina</a> - <a href=\"#GLBrazil\">Brazil</a> - "
 "<a href=\"#GLChile\">Chile</a> - <a href=\"#GLChina\">China</a> - <a href="
@@ -161,11 +162,9 @@ msgid ""
 "\"#GLMadagascar\">Madagascar</a> - <a href=\"#GLMexico\">Mexico</a> - <a "
 "href=\"#GLNewZealand\">New Zealand</a> - <a href=\"#GLPeru\">Peru</a> - <a "
 "href=\"#GLPhilippines\">Philippines</a> - <a href=\"#GLPortugal\">Portugal</"
-"a> - <a href=\"#GLRomania\">Romania</a> - <a href=\"#GLRwanda\">Rwanda</a> - "
-"<a href=\"#GLSingapore\">Singapore</a> - <a href=\"#GLSpain\">Spain</a> - <a "
-"href=\"#GLSwitzerland\">Switzerland</a> - <a href=\"#GLUnitedKingdom"
-"\">United Kingdom</a> - <a href=\"#GLUnitedStates\">United States</a> - <a "
-"href=\"#GLVenezuela\">Venezuela</a> - <a href=\"#GLYemen\">Yemen</a>"
+"a> - <a href=\"#GLSingapore\">Singapore</a> - <a href=\"#GLSpain\">Spain</a> "
+"- <a href=\"#GLUnitedKingdom\">United Kingdom</a> - <a href=\"#GLUnitedStates"
+"\">United States</a> - <a href=\"#GLVenezuela\">Venezuela</a>"
 msgstr ""
 "<a href=\"#GLArgentina\">Argentine</a> - <a href=\"#GLBrazil\">Brésil</a> - "
 "<a href=\"#GLChile\">Chili</a> - <a href=\"#GLChina\">Chine</a> - <a href="
@@ -434,25 +433,11 @@ msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
-"<a href=\"http://glug-tu.siteburg.com/\">glug-tu &mdash; Tripura University</"
-"a>"
-msgstr ""
-"<a href=\"http://glug-tu.siteburg.com/\">glug-tu &mdash; Tripura University</"
-"a>"
-
-# type: Content of: <ul><li>
-msgid ""
 "<a href=\"http://www.linuxjunkies.org\">GNU/Linux Fanatics' Group (Howrah, "
 "West Bengal)</a>"
 msgstr ""
 "<a href=\"http://www.linuxjunkies.org\">GNU/Linux Fanatics' Group (Howrah, "
 "West Bengal)</a>"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://assam-glug.org\">GNU/Linux User Group &mdash; Assam</a>"
-msgstr ""
-"<a href=\"http://assam-glug.org\">GNU/Linux User Group &mdash; Assam</a>"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -529,25 +514,10 @@ msgid "<a href=\"http://plug.org.in\">Pune GNU/Linux Users' Group</a>"
 msgstr "<a href=\"http://plug.org.in\">Pune GNU/Linux Users' Group</a>"
 
 # type: Content of: <ul><li>
-msgid "<a href=\"http://glugt.linuxisle.com/\">Trichy GNU/Linux User Group</a>"
-msgstr ""
-"<a href=\"http://glugt.linuxisle.com/\">Trichy GNU/Linux User Group</a>"
-
-# type: Content of: <ul><li>
+#, fuzzy
 msgid ""
-"<a href=\"http://groups.google.com/group/VGLUG\">Vibrant GNU/Linux User "
-"Group</a>"
-msgstr ""
-"<a href=\"http://groups.google.com/group/VGLUG\">Vibrant GNU/Linux User "
-"Group</a>"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://groups.google.com/group/glug-meerut\">Meerut GNU/Linux User "
-"Group</a>"
-msgstr ""
-"<a href=\"http://groups.google.com/group/glug-meerut\">Meerut GNU/Linux User "
-"Group</a>"
+"<a href=\"http://glug-meerut.org/node/3\">Meerut GNU/Linux User Group</a>"
+msgstr "<a href=\"http://plug.org.in\">Pune GNU/Linux Users' Group</a>"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -566,18 +536,6 @@ msgid ""
 "<a href=\"http://cuneo.linux.it\">GlugCN: GNU/Linux User Group Cuneo</a>"
 msgstr ""
 "<a href=\"http://cuneo.linux.it\">GlugCN: GNU/Linux User Group Cuneo</a>"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://www.gnug.it\">GNUG's Not a User Group &mdash; People From "
-"Free Software</a>"
-msgstr ""
-"<a href=\"http://www.gnug.it\">GNUG's Not a User Group &mdash; People From "
-"Free Software</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"http://perugia.linux.it/\">GNU/Linux User Group Perugia</a>"
-msgstr "<a href=\"http://perugia.linux.it/\">GNU/Linux User Group Perugia</a>"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -694,26 +652,6 @@ msgstr ""
 "in Portuguese for Portugueses</a>"
 
 # type: Content of: <h4>
-msgid "Romania"
-msgstr "Roumanie"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://cjfsg.utcluj.ro\">Grupul Software-ului Liber Cluj-Napoca "
-"(Cluj Napoca Free Software Group)</a>"
-msgstr ""
-"<a href=\"http://cjfsg.utcluj.ro\">Grupul Software-ului Liber Cluj-Napoca "
-"(Cluj Napoca Free Software Group)</a>"
-
-# type: Content of: <h4>
-msgid "Rwanda"
-msgstr "Rwanda"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"http://www.rwandalinux.org\">Rwanda GNU/Linux Group</a>"
-msgstr "<a href=\"http://www.rwandalinux.org\">Rwanda GNU/Linux Group</a>"
-
-# type: Content of: <h4>
 msgid "Singapore"
 msgstr "Singapour"
 
@@ -786,14 +724,6 @@ msgstr ""
 # type: Content of: <ul><li>
 msgid "<a href=\"http://colinaroja.org\">Colina Roja Hacklab</a>, Granada"
 msgstr "<a href=\"http://colinaroja.org\">Colina Roja Hacklab</a>, Grenade"
-
-# type: Content of: <h4>
-msgid "Switzerland"
-msgstr "Suisse"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"http://www.lug-ag.ch/\">GNU/Linux User Group Aargau</a>"
-msgstr "<a href=\"http://www.lug-ag.ch/\">GNU/Linux User Group Aargau</a>"
 
 # type: Content of: <h4>
 msgid "United Kingdom"
@@ -902,10 +832,6 @@ msgid "<a href=\"http://www.clug.org.ve/\">CLUG (Sucre)</a>"
 msgstr "<a href=\"http://www.clug.org.ve/\">CLUG (Sucre)</a>"
 
 # type: Content of: <ul><li>
-msgid "<a href=\"http://www.gnulinuxtrujillo.org.ve\">GUGLTRU (Trujillo)</a>"
-msgstr "<a href=\"http://www.gnulinuxtrujillo.org.ve\">GUGLTRU (Trujillo)</a>"
-
-# type: Content of: <ul><li>
 msgid "<a href=\"http://www.gnu.org/gugve/\">GUGve</a>"
 msgstr "<a href=\"http://www.gnu.org/gugve/\">GUGve</a>"
 
@@ -914,24 +840,8 @@ msgid "<a href=\"http://www.plug.org.ve\">PLUG (Portuguesa)</a>"
 msgstr "<a href=\"http://www.plug.org.ve\">PLUG (Portuguesa)</a>"
 
 # type: Content of: <ul><li>
-msgid "<a href=\"http://www.unexlug.org.ve\">UNEXLUG (Caracas)</a>"
-msgstr "<a href=\"http://www.unexlug.org.ve\">UNEXLUG (Caracas)</a>"
-
-# type: Content of: <ul><li>
 msgid "<a href=\" http://www.unplug.org.ve\">UNPLUG (Nacional)</a>"
 msgstr "<a href=\" http://www.unplug.org.ve\">UNPLUG (Nacional)</a>"
-
-# type: Content of: <h4>
-msgid "Yemen"
-msgstr "Yemen"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://yfosa.thinkfree.org\">YFOSA &mdash; Yemeni Free Software "
-"&amp; Open Source Association</a>"
-msgstr ""
-"<a href=\"http://yfosa.thinkfree.org\">YFOSA &mdash; Yemeni Free Software "
-"&amp; Open Source Association</a>"
 
 # type: Content of: <h3>
 msgid "GNU/Hurd groups listed by country"
@@ -941,18 +851,6 @@ msgstr "Groupes d'utilisateurs GNU/Hurd list&eacute;s par pays"
 msgid "Here are the GNU/Hurd User Groups listed by country:"
 msgstr ""
 "Voici les groupes d'utilisateurs GNU/Hurd list&eacute;s par pays&nbsp;:"
-
-# type: Content of: <h4>
-msgid "Canada"
-msgstr "Canada"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"https://savannah.nongnu.org/projects/thug/\">Toronto GNU/Hurd User "
-"Group</a>"
-msgstr ""
-"<a href=\"https://savannah.nongnu.org/projects/thug/\">Toronto GNU/Hurd User "
-"Group</a>"
 
 # type: Content of: <ul><li>
 msgid "<a href=\"http://i-hug.sarovar.org\">Indian GNU/Hurd Users Group</a>"
@@ -976,12 +874,13 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -1001,16 +900,13 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free "
-"Software Foundation, Inc.,"
+"Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free "
+"Software Foundation, Inc."
 msgstr ""
 "Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free "
 "Software Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -1036,3 +932,119 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://glug-tu.siteburg.com/\">glug-tu &mdash; Tripura "
+#~ "University</a>"
+#~ msgstr ""
+#~ "<a href=\"http://glug-tu.siteburg.com/\">glug-tu &mdash; Tripura "
+#~ "University</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://assam-glug.org\">GNU/Linux User Group &mdash; Assam</a>"
+#~ msgstr ""
+#~ "<a href=\"http://assam-glug.org\">GNU/Linux User Group &mdash; Assam</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://glugt.linuxisle.com/\">Trichy GNU/Linux User Group</a>"
+#~ msgstr ""
+#~ "<a href=\"http://glugt.linuxisle.com/\">Trichy GNU/Linux User Group</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://groups.google.com/group/VGLUG\">Vibrant GNU/Linux User "
+#~ "Group</a>"
+#~ msgstr ""
+#~ "<a href=\"http://groups.google.com/group/VGLUG\">Vibrant GNU/Linux User "
+#~ "Group</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://groups.google.com/group/glug-meerut\">Meerut GNU/Linux "
+#~ "User Group</a>"
+#~ msgstr ""
+#~ "<a href=\"http://groups.google.com/group/glug-meerut\">Meerut GNU/Linux "
+#~ "User Group</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://www.gnug.it\">GNUG's Not a User Group &mdash; People "
+#~ "From Free Software</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.gnug.it\">GNUG's Not a User Group &mdash; People "
+#~ "From Free Software</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://perugia.linux.it/\">GNU/Linux User Group Perugia</a>"
+#~ msgstr ""
+#~ "<a href=\"http://perugia.linux.it/\">GNU/Linux User Group Perugia</a>"
+
+# type: Content of: <h4>
+#~ msgid "Romania"
+#~ msgstr "Roumanie"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://cjfsg.utcluj.ro\">Grupul Software-ului Liber Cluj-Napoca "
+#~ "(Cluj Napoca Free Software Group)</a>"
+#~ msgstr ""
+#~ "<a href=\"http://cjfsg.utcluj.ro\">Grupul Software-ului Liber Cluj-Napoca "
+#~ "(Cluj Napoca Free Software Group)</a>"
+
+# type: Content of: <h4>
+#~ msgid "Rwanda"
+#~ msgstr "Rwanda"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"http://www.rwandalinux.org\">Rwanda GNU/Linux Group</a>"
+#~ msgstr "<a href=\"http://www.rwandalinux.org\">Rwanda GNU/Linux Group</a>"
+
+# type: Content of: <h4>
+#~ msgid "Switzerland"
+#~ msgstr "Suisse"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"http://www.lug-ag.ch/\">GNU/Linux User Group Aargau</a>"
+#~ msgstr "<a href=\"http://www.lug-ag.ch/\">GNU/Linux User Group Aargau</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://www.gnulinuxtrujillo.org.ve\">GUGLTRU (Trujillo)</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.gnulinuxtrujillo.org.ve\">GUGLTRU (Trujillo)</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"http://www.unexlug.org.ve\">UNEXLUG (Caracas)</a>"
+#~ msgstr "<a href=\"http://www.unexlug.org.ve\">UNEXLUG (Caracas)</a>"
+
+# type: Content of: <h4>
+#~ msgid "Yemen"
+#~ msgstr "Yemen"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://yfosa.thinkfree.org\">YFOSA &mdash; Yemeni Free Software "
+#~ "&amp; Open Source Association</a>"
+#~ msgstr ""
+#~ "<a href=\"http://yfosa.thinkfree.org\">YFOSA &mdash; Yemeni Free Software "
+#~ "&amp; Open Source Association</a>"
+
+# type: Content of: <h4>
+#~ msgid "Canada"
+#~ msgstr "Canada"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"https://savannah.nongnu.org/projects/thug/\">Toronto GNU/Hurd "
+#~ "User Group</a>"
+#~ msgstr ""
+#~ "<a href=\"https://savannah.nongnu.org/projects/thug/\">Toronto GNU/Hurd "
+#~ "User Group</a>"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"

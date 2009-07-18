@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: translations.html\n"
-"POT-Creation-Date: 2009-03-24 04:26-0300\n"
+"POT-Creation-Date: 2009-06-30 04:25-0300\n"
 "PO-Revision-Date: 2009-03-29 18:34+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -83,6 +83,11 @@ msgstr ""
 "pas de la GPL&nbsp;:"
 
 # type: Content of: <blockquote><p>
+#. TRANSLATORS: If you translate this paragraph, retain the English
+#. text and put your translation below.  The entire <blockquote> element
+#. has dir="ltr" to work by default with RTL languages when the notice is
+#. not translated, so if your language is RTL, you *must* put your
+#. translation within <span dir="rtl">.
 msgid ""
 "This is an unofficial translation of the GNU General Public License into "
 "<tt>language</tt>.  It was not published by the Free Software Foundation, "
@@ -153,6 +158,15 @@ msgid ""
 msgstr ""
 "<code>[zh-cn]</code> Traduction en <a href=\"http://bergwolf.googlepages.com/"
 "gplv3_zh\">chinois simplifi&eacute;</a> de la GPL"
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<code>[zh-tw]</code> <a href=\"http://www.certifiedchinesetranslation.com/"
+"openaccess/gnuv3-tc.html\"> Chinese (Traditional)</a> translation of the GPL"
+msgstr ""
+"<code>[ja]</code> Traduction en <a href=\"http://www.finecheats.com/lgpl.html"
+"\">japonais</a> de la LGPL"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -239,6 +253,15 @@ msgstr ""
 "ojl-3.0.html\">serbe</a> de la GPL"
 
 # type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<code>[sk]</code> <a href=\"http://www.gpl.sk/\"> Slovak</a> translation of "
+"the GPL"
+msgstr ""
+"<code>[hy]</code> Traduction en <a href=\"http://gnu.am/gpl.php\">arménien</"
+"a> de la GPL"
+
+# type: Content of: <ul><li>
 msgid ""
 "<code>[es]</code> <a href=\"http://www.viti.es/gnu/licenses/gpl.html"
 "\">Spanish</a> translation of the GPL"
@@ -282,14 +305,6 @@ msgid ""
 msgstr ""
 "<code>[ca]</code> Traduction en <a href=\"http://www.softcatala.cat/wiki/GPL3"
 "\">catalan</a>"
-
-# type: Content of: <ul><li>
-msgid ""
-"<code>[zh-tw]</code> <a href=\"http://wiki.debian.org.hk/w/GPLv3\"> Chinese "
-"(Traditional)</a>"
-msgstr ""
-"<code>[zh-tw]</code> Traduction en <a href=\"http://wiki.debian.org.hk/w/"
-"GPLv3\">chinois traditionnel</a>"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -370,6 +385,16 @@ msgstr ""
 msgid ""
 "<code>[zh-cn]</code> <a href=\"http://www.thebigfly.com/gnu/lgpl/lgpl-v3.php"
 "\"> Chinese (Simplified)</a> translation of the LGPL"
+msgstr ""
+"<code>[zh-cn]</code> Traduction en <a href=\"http://www.thebigfly.com/gnu/"
+"lgpl/lgpl-v3.php\">chinois simplifi&eacute;</a> de la LGPL"
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<code>[zh-tw]</code> <a href=\"http://www.certifiedchinesetranslation.com/"
+"openaccess/gnulgpl-v3-tc.html\"> Chinese (Traditional)</a> translation of "
+"the LGPL"
 msgstr ""
 "<code>[zh-cn]</code> Traduction en <a href=\"http://www.thebigfly.com/gnu/"
 "lgpl/lgpl-v3.php\">chinois simplifi&eacute;</a> de la LGPL"
@@ -471,12 +496,35 @@ msgstr ""
 "FDLv1.3/\">chinois simplifi&eacute;</a> de la GPL"
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
-"<code>[de]</code> <a href=\"http://home.arcor.de/rybaczyk/licenses/fdl-1.3."
-"de.html\"> German</a> translation of the GFDL"
+"<code>[zh-tw]</code><a href=\"http://www.certifiedchinesetranslation.com/"
+"openaccess/gnufdl-v13-tc.html\"> Chinese (Traditional)</a> translation of "
+"the GFDL"
+msgstr ""
+"<code>[zh-cn]</code> Traduction en <a href=\"http://www.thebigfly.com/gnu/"
+"FDLv1.3/\">chinois simplifi&eacute;</a> de la GPL"
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<code>[de]</code> <a href=\"http://rybaczyk.freeunix.net/licenses/fdl-1.3.de."
+"html\"> German</a> translation of the GFDL"
 msgstr ""
 "<code>[de]</code> Traduction en <a href=\"http://home.arcor.de/rybaczyk/"
 "licenses/fdl-1.3.de.html\">allemand</a> de la GFDL"
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<code>[it]</code> <a href=\"http://home.gna.org/www-it/fdl/1.3/fdl.it.html"
+"\"> Italian</a> translation of the GFDL (<a href=\"http://home.gna.org/www-"
+"it/fdl/1.3/fdl.it.txt\">plain text version</a>)"
+msgstr ""
+"<code>[gl]</code> Traduction en <a href=\"http://www.mancomun.org/GPL3_GL/"
+"gpl_gl_v3.html\">galicien</a> de la GPL (<a href=\"http://www.mancomun.org/"
+"GPL3_GL/gpl_gl_v3.txt\">texte brut</a>, <a href=\"http://www.mancomun.org/"
+"GPL3_GL/gpl_gl_v3.pdf\">PDF</a>)"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -502,18 +550,29 @@ msgstr ""
 "<code>[zh-cn]</code> Traduction en <a href=\"http://hutuworm.blogspot."
 "com/2009/01/gcc.html\">chinois simplifi&eacute;</a> de la GCC RLE"
 
+# type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<code>[zh-tw]</code> <a href=\"http://www.certifiedchinesetranslation.com/"
+"openaccess/gnu-gcc.html\"> Chinese (Traditional)</a> translation of the GCC "
+"RLE"
+msgstr ""
+"<code>[zh-cn]</code> Traduction en <a href=\"http://hutuworm.blogspot."
+"com/2009/01/gcc.html\">chinois simplifi&eacute;</a> de la GCC RLE"
+
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -533,16 +592,13 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Copyright &copy; 1996, 1997, 1998, 1999, 2004, 2005, 2006, 2008 Free "
-"Software Foundation, Inc.,"
+"Copyright &copy; 1996, 1997, 1998, 1999, 2004, 2005, 2006, 2008, 2009 Free "
+"Software Foundation, Inc."
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2004, 2005, 2006, 2008 Free "
 "Software Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -568,3 +624,15 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<code>[zh-tw]</code> <a href=\"http://wiki.debian.org.hk/w/GPLv3\"> "
+#~ "Chinese (Traditional)</a>"
+#~ msgstr ""
+#~ "<code>[zh-tw]</code> Traduction en <a href=\"http://wiki.debian.org.hk/w/"
+#~ "GPLv3\">chinois traditionnel</a>"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"

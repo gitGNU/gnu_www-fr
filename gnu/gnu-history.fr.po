@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-history.html\n"
-"POT-Creation-Date: 2009-04-05 16:25-0300\n"
+"POT-Creation-Date: 2009-06-29 16:25-0300\n"
 "PO-Revision-Date: 2009-04-18 19:20+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -180,15 +180,15 @@ msgstr ""
 "au d&eacute;veloppement de GNU."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "By 1990 we had either found or written all the major components except "
 "one&mdash;the kernel.  Then Linux, a Unix-like kernel, was developed by "
 "Linus Torvalds in 1991 and made free software in 1992.  Combining Linux with "
 "the almost-complete GNU system resulted in a complete operating system: the "
 "GNU/Linux system.  Estimates are that tens of millions of people now use GNU/"
-"Linux systems, typically via <a href=\"/links/links."
-"html#FreeGNULinuxDistributions\">distributions</a> such as Slackware, "
-"Debian, Red Hat, and others."
+"Linux systems, typically via <a href=\"/distros\">distributions</a> such as "
+"Slackware, Debian, Red Hat, and others."
 msgstr ""
 "Au d&eacute;but des ann&eacute;es 90, nous avions trouv&eacute; ou &eacute;"
 "crit les composants majeurs, except&eacute; un&nbsp;: le noyau. Puis le "
@@ -273,12 +273,13 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections (or suggestions) to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -298,16 +299,13 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2005, 2007, 2009 "
-"Free Software Foundation, Inc.,"
+"Free Software Foundation, Inc."
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2005, 2007, 2009 "
 "Free Software Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -333,3 +331,7 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"

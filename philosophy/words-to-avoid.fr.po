@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: words-to-avoid.html\n"
-"POT-Creation-Date: 2009-04-30 04:25-0300\n"
+"POT-Creation-Date: 2009-06-30 16:25-0300\n"
 "PO-Revision-Date: 2009-05-21 16:24+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -290,12 +290,14 @@ msgid "&ldquo;Compensation&rdquo;"
 msgstr "&laquo;&nbsp;Compensation&nbsp;&raquo;"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "To speak of &ldquo;compensation for authors&rdquo; in connection with "
 "copyright carries the assumptions that (1) copyright exists for the sake of "
 "authors and (2) whenever we read something, we take on a debt to the author "
-"which we must then repay.  The first assumption is simply <a href="
-"\"misinterpreting-copyright.html\">false</a>, and the second is outrageous."
+"which we must then repay.  The first assumption is simply <a href=\"/"
+"philosophy/misinterpreting-copyright.html\">false</a>, and the second is "
+"outrageous."
 msgstr ""
 "Parler de &laquo;&nbsp;compensation pour les auteurs&nbsp;&raquo; en "
 "connexion avec le copyright sugg&egrave;re les assomptions que (1) le "
@@ -533,10 +535,11 @@ msgid "&ldquo;Ecosystem&rdquo;"
 msgstr "&laquo;&nbsp;Écosystème&nbsp;&raquo;"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "It is a mistake to describe the free software community, or any human "
 "community, as an &ldquo;ecosystem&rdquo;, because that word implies the "
-"absence of (1) intension and (2) ethics.  In an ecosystem, species evolve "
+"absence of (1) intention and (2) ethics.  In an ecosystem, species evolve "
 "according to their fitness.  If something is weak, it goes extinct, and "
 "that's neither right nor wrong, merely an ecological phenomenon.  The term "
 "&ldquo;ecosystem&rdquo; implicitly suggests a passive attitude: &ldquo;Don't "
@@ -946,6 +949,10 @@ msgstr ""
 "sous Microsoft Windows. Si vous installez GNU/Linux sur le m&ecirc;me "
 "ordinateur, cela reste un PC."
 
+# type: Content of: <p>
+msgid "The term \"WC\" has been suggested for a computer running Windows."
+msgstr ""
+
 # type: Content of: <h4>
 msgid "&ldquo;Photoshop&rdquo;"
 msgstr "&laquo;&nbsp;Photoshop&nbsp;&raquo;"
@@ -1261,12 +1268,13 @@ msgid "&ldquo;Trusted Computing&rdquo;"
 msgstr "&laquo;&nbsp;Informatique de confiance&nbsp;&raquo;"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"<a href=\"can-you-trust.html\">&ldquo;Trusted computing&rdquo;</a> is the "
-"proponents name for a scheme to redesign computers so that application "
-"developers can trust your computer to obey them instead of you.  For their "
-"point of view, it is &ldquo;trusted&rdquo;.  From your point of view, it is "
-"&ldquo;treacherous&rdquo;."
+"<a href=\"/philosophy/can-you-trust.html\">&ldquo;Trusted computing&rdquo;</"
+"a> is the proponents name for a scheme to redesign computers so that "
+"application developers can trust your computer to obey them instead of you.  "
+"For their point of view, it is &ldquo;trusted&rdquo;.  From your point of "
+"view, it is &ldquo;treacherous&rdquo;."
 msgstr ""
 "<a href=\"can-you-trust.fr.html\">&laquo;&nbsp;Informatique de "
 "confiance&nbsp;&raquo;</a> est le nom donn&eacute; &agrave; un sch&eacute;ma "

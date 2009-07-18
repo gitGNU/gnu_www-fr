@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: fs-user-groups.html\n"
-"POT-Creation-Date: 2009-04-21 04:26-0300\n"
+"POT-Creation-Date: 2009-07-08 04:25-0300\n"
 "PO-Revision-Date: 2009-04-27 12:47+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -238,31 +238,25 @@ msgstr ""
 "libres, Bangalore</a>"
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
-"<a href=\"http://www.symonds.net/~fsug-kochi/\">Free Software Users Group, "
-"Kochi</a>"
+"<a href=\"http://www.geocities.com/fsug_calicut/index.html\">Free Software "
+"User Group - Kozhikode</a>"
 msgstr ""
 "<a href=\"http://www.symonds.net/~fsug-kochi/\">Groupe d'utilisateurs de "
 "logiciels libres, Kochi</a>"
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
-"<a href=\"http://www.freelists.org/list/fsug-thrissur\">Free Software Users "
-"Group, Thrissur, Kerala</a>"
+"<a href=\"http://fsugtsr.org/\">Free Software Users Group, Thrissur, Kerala</"
+"a>"
 msgstr ""
 "<a href=\"http://www.freelists.org/list/fsug-thrissur\">Groupe "
 "d'utilisateurs de logiciels libres, Thrissur, Kerala</a>"
 
 # type: Content of: <ul><li>
 msgid ""
-"<a href=\"http://freedomnetwork.co.cc/\">Freedom in Technology Supporter and "
-"Developer Network</a>"
-msgstr ""
-"<a href=\"http://freedomnetwork.co.cc/\">Freedom in Technology Supporter and "
-"Developer Network</a>"
-
-# type: Content of: <ul><li>
-msgid ""
 "<a href=\"http://www.ilug-cochin.org/\">Indian Libre User Group (ILUG)</a>"
 msgstr ""
 "<a href=\"http://www.ilug-cochin.org/\">Indian Libre User Group (ILUG)</a>"
@@ -274,14 +268,6 @@ msgid ""
 msgstr ""
 "<a href=\"http://plus.sarovar.org/\">PLUS - Palakkad Libre software Users "
 "Society (Palakkad, Kerala)</a>"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://home.iitk.ac.in/student/vasant/FSUGion/\"> Free Software "
-"Users Group Indian Origin Notwithstanding (FSUGion)</a>"
-msgstr ""
-"<a href=\"http://home.iitk.ac.in/student/vasant/FSUGion/\"> Free Software "
-"Users Group Indian Origin Notwithstanding (FSUGion)</a>"
 
 # type: Content of: <h4>
 msgid "Italy"
@@ -300,13 +286,6 @@ msgid ""
 msgstr ""
 "<a href=\"http://www.fsugpadova.org/\">FSUG Padova (Groupe d'utilisateurs de "
 "logiciels libres, Padova)</a>"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://www.fsugitalia.org\">Free Software User Group Italia</a>"
-msgstr ""
-"<a href=\"http://www.fsugitalia.org\">Groupe d'utilisateurs de logiciels "
-"libres, Italie</a>"
 
 # type: Content of: <h4>
 msgid "Mexico"
@@ -430,12 +409,13 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -455,16 +435,13 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free "
-"Software Foundation, Inc.,"
+"Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free "
+"Software Foundation, Inc."
 msgstr ""
 "Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free "
 "Software Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -490,3 +467,30 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://freedomnetwork.co.cc/\">Freedom in Technology Supporter "
+#~ "and Developer Network</a>"
+#~ msgstr ""
+#~ "<a href=\"http://freedomnetwork.co.cc/\">Freedom in Technology Supporter "
+#~ "and Developer Network</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://home.iitk.ac.in/student/vasant/FSUGion/\"> Free Software "
+#~ "Users Group Indian Origin Notwithstanding (FSUGion)</a>"
+#~ msgstr ""
+#~ "<a href=\"http://home.iitk.ac.in/student/vasant/FSUGion/\"> Free Software "
+#~ "Users Group Indian Origin Notwithstanding (FSUGion)</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://www.fsugitalia.org\">Free Software User Group Italia</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.fsugitalia.org\">Groupe d'utilisateurs de logiciels "
+#~ "libres, Italie</a>"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"

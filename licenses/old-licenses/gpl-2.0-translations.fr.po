@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-2.0-translations.html\n"
-"POT-Creation-Date: 2008-12-31 16:25-0500\n"
+"POT-Creation-Date: 2009-06-18 04:25-0300\n"
 "PO-Revision-Date: 2009-01-25 17:48+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -82,6 +82,11 @@ msgstr ""
 "&laquo;&nbsp;language&nbsp;&raquo; par le nom de cette langue&nbsp;:"
 
 # type: Content of: <blockquote><p>
+#. TRANSLATORS: If you translate this paragraph, retain the English
+#. text and put your translation below.  The entire <blockquote> element
+#. has dir="ltr" to work by default with RTL languages when the notice is
+#. not translated, so if your language is RTL, you *must* put your
+#. translation within <span dir="rtl">.
 msgid ""
 "This is an unofficial translation of the GNU General Public License into "
 "<em>language</em>.  It was not published by the Free Software Foundation, "
@@ -390,12 +395,12 @@ msgstr ""
 "ojl.html\">serbe</a> de la GPL"
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
-"<code>[es]</code> Spanish translations of the GPL (<a href=\"http://www."
-"garaitia.com/new/gpl-spanish.php\">1</a>)  (<a href=\"http://gugs.sindominio."
-"net/licencias/\">2</a> - four different translations)  (<a href=\"http://www."
-"fsl.org.mx/index.pl/fsl/artculos/articulosmb2/licencias/licencia-gpl-"
-"espaolmxico\">3</a> - Spanish Mexican)"
+"<code>[es]</code> Spanish translations of the GPL (<a href=\"http://gugs."
+"sindominio.net/licencias/\">1</a> - several different translations)  (<a "
+"href=\"http://www.fsl.org.mx/index.pl/fsl/artculos/articulosmb2/licencias/"
+"licencia-gpl-espaolmxico\">2</a> - Spanish Mexican)"
 msgstr ""
 "<code>[es]</code> Traductions en espagnol de la GPL (<a href=\"http://www."
 "garaitia.com/new/gpl-spanish.php\">1</a>) (<a href=\"http://gugs.sindominio."
@@ -475,12 +480,13 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -500,16 +506,13 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Copyright &copy; 1996, 1997, 1998, 1999, 2004, 2005, 2006, 2007, 2008 Free "
-"Software Foundation, Inc.,"
+"Copyright &copy; 1996, 1997, 1998, 1999, 2004, 2005, 2006, 2007, 2008, 2009 "
+"Free Software Foundation, Inc."
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2004, 2005, 2006, 2007, 2008 Free "
 "Software Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -535,3 +538,7 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"

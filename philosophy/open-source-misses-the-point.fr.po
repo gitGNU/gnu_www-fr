@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: open-source-misses-the-point.html\n"
-"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"POT-Creation-Date: 2009-06-23 04:25-0300\n"
 "PO-Revision-Date: 2009-01-10 16:33+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -259,12 +259,15 @@ msgstr ""
 "pas d'autres probl&egrave;mes."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Unfortunately, all the alternatives in English have problems of their own.  "
 "We've looked at many alternatives that people have suggested, but none is so "
-"clearly &ldquo;right&rdquo; that switching to it would be a good idea.  "
-"Every proposed replacement for &ldquo;free software&rdquo; has some kind of "
-"semantic problem&mdash;and this includes &ldquo;open source software.&rdquo;"
+"clearly &ldquo;right&rdquo; that switching to it would be a good idea.  (For "
+"instance, in some contexts the French/Spanish word \"libre\" can be used, "
+"but people in India do not recognize the word at all.)  Every proposed "
+"replacement for &ldquo;free software&rdquo; has some kind of semantic "
+"problem&mdash;and this includes &ldquo;open source software.&rdquo;"
 msgstr ""
 "Malheureusement, toutes les alternatives en anglais ont leurs propres "
 "probl&egrave;mes. Nous avons &eacute;tudi&eacute; de nombreuses alternatives "
@@ -355,6 +358,15 @@ msgstr ""
 "pour lequel le code source est librement et publiquement disponible, bien "
 "que les accords de licence sp&eacute;cifiques changent quant &agrave; ce qui "
 "est permis de faire avec ce code."
+
+# type: Content of: <p>
+msgid ""
+"The New York Times has <a href=\"http://www.nytimes.com/external/"
+"gigaom/2009/02/07/07gigaom-the-brave-new-world-of-open-source-game-design-"
+"37415.html\"> stretched the term</a> to refer to user beta testing &mdash; "
+"letting a few users try an early version and give confidential feedback "
+"&mdash; which proprietary software developers have practiced for decades."
+msgstr ""
 
 # type: Content of: <p>
 msgid ""
