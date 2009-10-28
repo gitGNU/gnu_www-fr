@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: philosophy.html\n"
-"POT-Creation-Date: 2009-07-23 16:25-0300\n"
+"POT-Creation-Date: 2009-10-18 04:25-0300\n"
 "PO-Revision-Date: 2009-07-25 12:56+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -36,10 +36,11 @@ msgstr ""
 "développement du système d'exploitation libre GNU."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "<span style=\"background-color: yellow; color: red; padding: 8px;\">NEW</"
-"span> &mdash; <a href=\"/philosophy/pirate-party.html\">How the Swedish "
-"Pirate Party Platform Backfires on Free Software</a>"
+"span> &mdash; <a href=\"/philosophy/digital-inclusion-in-freedom.html\">Is "
+"Digital Inclusion A Good Thing? How Can We Make Sure It Is?</a>"
 msgstr ""
 "<span style=\"background-color: yellow; color: red; padding: 8px;\">NOUVEAU</"
 "span> &mdash; <a href=\"/philosophy/pirate-party.fr.html\">Pourquoi les "
@@ -365,11 +366,16 @@ msgstr ""
 "News en 2008"
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
-"<a href=\"/philosophy/microsoft.html\">Is Microsoft the Great Satan?</a>"
+"<a href=\"/philosophy/microsoft.html\">Is Microsoft the Great Satan?</a> (An "
+"<a href=\"/philosophy/microsoft-old.html\">older version</a> of this article "
+"is also available.)"
 msgstr ""
-"<a href=\"/philosophy/microsoft.fr.html\">Microsoft est-il le grand "
-"Satan&nbsp;?</a>"
+"<a href=\"/philosophy/freedom-or-copyright.fr.html\">Libert&eacute; ou "
+"copyright&nbsp;?</a> par <a href=\"http://www.stallman.org/\">Richard "
+"Stallman</a> (une <a href=\"/philosophy/freedom-or-copyright-old.fr.html"
+"\">version plus ancienne</a> de cet essai est également disponible)."
 
 # type: Content of: <ul><li>
 msgid ""
@@ -891,6 +897,12 @@ msgstr "Problèmes culturels et sociaux"
 
 # type: Content of: <ul><li>
 msgid ""
+"<a href=\"/philosophy/digital-inclusion-in-freedom.html\">Is Digital "
+"Inclusion A Good Thing? How Can We Make Sure It Is?</a>"
+msgstr ""
+
+# type: Content of: <ul><li>
+msgid ""
 "<a href=\"/philosophy/wsis.html\">World Summit on the Information Society</a>"
 msgstr ""
 "<a href=\"/philosophy/wsis.fr.html\">Sommet mondial sur la soci&eacute;"
@@ -1221,3 +1233,10 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"/philosophy/microsoft.html\">Is Microsoft the Great Satan?</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/microsoft.fr.html\">Microsoft est-il le grand "
+#~ "Satan&nbsp;?</a>"

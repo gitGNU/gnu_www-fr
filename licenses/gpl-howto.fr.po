@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-howto.html\n"
-"POT-Creation-Date: 2008-10-31 04:27-0300\n"
+"POT-Creation-Date: 2009-10-08 16:27-0300\n"
 "PO-Revision-Date: 2008-11-01 15:23+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -28,12 +28,33 @@ msgid "How to use GNU licenses for your own software"
 msgstr "Comment utiliser les licences GNU pour vos logiciels&nbsp;?"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"This is a brief explanation of how to place a program under the GNU General "
-"Public License, Lesser General Public License, or Affero General Public "
-"License.  If you are looking for more detailed information, consider "
-"perusing our list of <a href=\"/licenses/gpl-faq.html\">frequently asked "
-"questions about our licenses</a>."
+"This is a brief explanation of how to place a program under the <a href=\"/"
+"licenses/gpl.html\">GNU General Public License</a>, <a href=\"/licenses/lgpl."
+"html\">Lesser General Public License</a>, or <a href=\"/licenses/agpl.html"
+"\">Affero General Public License</a>.  For the <a href=\"/licenses/fdl.html"
+"\">GNU Free Documentation License</a>, we have a <a href=\"/licenses/fdl-"
+"howto.html\">separate page</a>."
+msgstr ""
+"Voici une br&egrave;ve explication sur la mani&egrave;re de placer un "
+"programme sous la Licence Publique G&eacute;n&eacute;rale GNU (GNU General "
+"Publique License), la Licence Publique G&eacute;n&eacute;rale Amoindrie "
+"(Lesser General Publique License) ou la Licence Publique G&eacute;n&eacute;"
+"rale Affero (Affero General Publique License). (La GPL amoindrie, &eacute;"
+"galement appel&eacute;e LGPL en anglais, remplace la GPL pour les "
+"biblioth&egrave;ques, elle-m&ecirc;me &eacute;galement appel&eacute;e LGPL "
+"dans le pass&eacute;). Si vous recherchez une information d&eacute;"
+"taill&eacute;e, lisez attentivement notre liste <a href=\"/licenses/gpl-faq."
+"fr.html\">questions fr&eacute;quentes concernant la Licence Publique "
+"G&eacute;n&eacute;rale de GNU</a>."
+
+# type: Content of: <p>
+#, fuzzy
+msgid ""
+"If you are looking for more detailed information, consider perusing our list "
+"of <a href=\"/licenses/gpl-faq.html\">frequently asked questions about our "
+"licenses</a>."
 msgstr ""
 "Voici une br&egrave;ve explication sur la mani&egrave;re de placer un "
 "programme sous la Licence Publique G&eacute;n&eacute;rale GNU (GNU General "
@@ -449,7 +470,8 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 2001, 2007, 2008 Free Software Foundation, Inc.,"
+#, fuzzy
+msgid "Copyright &copy; 2001, 2007, 2008, 2009 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 2001, 2007, 2008 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><address>

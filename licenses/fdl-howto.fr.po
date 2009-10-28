@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: fdl-howto.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2009-10-08 16:27-0300\n"
 "PO-Revision-Date: 2008-09-14 11:55+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -22,8 +22,17 @@ msgstr ""
 "Comment utiliser la GNU FDL - GNU Project - Free Software Foundation (FSF)"
 
 # type: Content of: <h2>
-msgid "Other tips for using the GNU Free Documentation License"
+#, fuzzy
+msgid "Tips on using the GNU Free Documentation License"
 msgstr "Comment utiliser la GNU Free Documentation License (FDL)&nbsp;?"
+
+# type: Content of: <p>
+msgid ""
+"This is a brief explanation of how to place a document under the <a href=\"/"
+"licenses/fdl.html\">GNU Free Documentation License</a>.  For the GNU "
+"software licenses, such as the GNU GPL, we have a <a href=\"/licenses/gpl-"
+"howto.html\">separate page</a>."
+msgstr ""
 
 # type: Content of: <dl><dt>
 msgid ""
@@ -203,7 +212,8 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 2000, 2001, 2008 Free Software Foundation, Inc.,"
+#, fuzzy
+msgid "Copyright &copy; 2000, 2001, 2008, 2009 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 2000, 2001, 2008 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><address>

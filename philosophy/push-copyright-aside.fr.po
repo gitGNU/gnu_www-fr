@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: push-copyright-aside.html\n"
-"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"POT-Creation-Date: 2009-10-18 04:25-0300\n"
 "PO-Revision-Date: 2009-01-11 16:19+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,15 +16,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#, fuzzy
 msgid ""
-"Science must &lsquo;push copyright aside&rsquo; - GNU Project - Free "
+"Science must &ldquo;push copyright aside&rdquo; - GNU Project - Free "
 "Software Foundation (FSF)"
 msgstr ""
 "Les scientifiques doivent &laquo;&nbsp;mettre le droit d'auteur de c&ocirc;"
 "t&eacute;&nbsp;&raquo; - GNU Project - Free Software Foundation (FSF)"
 
 # type: Content of: <h2>
-msgid "Science must &lsquo;push copyright aside&rsquo;"
+#, fuzzy
+msgid "Science must &ldquo;push copyright aside&rdquo;"
 msgstr ""
 "Les scientifiques doivent &laquo;&nbsp;mettre le droit d'auteur de c&ocirc;"
 "t&eacute;&nbsp;&raquo;"
@@ -34,7 +36,8 @@ msgid "by <strong>Richard M. Stallman</strong>"
 msgstr "par <strong>Richard M. Stallman</strong>"
 
 # type: Content of: <p>
-msgid "<em>This article appeared in the Nature Webdebates in 2001</em>"
+#, fuzzy
+msgid "<em>This article appeared in <em>Nature Webdebates</em> in 2001</em>"
 msgstr "<em>Cet article est paru dans Nature Webdebates en 2001</em>"
 
 # type: Content of: <p>
@@ -52,14 +55,15 @@ msgstr ""
 "atteindre cet objectif."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "The rules we have now, known as copyright, were established in the age of "
 "the printing press, an inherently centralized method of mass-production "
 "copying.  In a print environment, copyright on journal articles restricted "
-"only journal publishers &mdash; requiring them to obtain permission to "
-"publish an article &mdash; and would-be plagiarists. It helped journals to "
-"operate and disseminate knowledge, without interfering with the useful work "
-"of scientists or students, either as writers or readers of articles. These "
+"only journal publishers&mdash;requiring them to obtain permission to publish "
+"an article&mdash;and would-be plagiarists. It helped journals to operate and "
+"disseminate knowledge, without interfering with the useful work of "
+"scientists or students, either as writers or readers of articles. These "
 "rules fit that system well."
 msgstr ""
 "Les r&egrave;gles actuelles, appel&eacute;es droit d'auteur, ont &eacute;"
@@ -75,13 +79,14 @@ msgstr ""
 "gles conviennent bien &agrave; ce syst&egrave;me."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "The modern technology for scientific publishing, however, is the World Wide "
 "Web.  What rules would best ensure the maximum dissemination of scientific "
-"articles, and knowledge, on the Web? Articles should be distributed in non-"
-"proprietary formats, with open access for all. And everyone should have the "
-"right to &lsquo;mirror&rsquo; articles; that is, to republish them verbatim "
-"with proper attribution."
+"articles, and knowledge, on the Web? Articles should be distributed in "
+"nonproprietary formats, with open access for all. And everyone should have "
+"the right to &ldquo;mirror&rdquo; articles&mdash;that is, to republish them "
+"verbatim with proper attribution."
 msgstr ""
 "Mais la technique actuelle de publication scientifique est le Web. Quelles "
 "sont les r&egrave;gles susceptibles d'assurer une diffusion maximale des "
@@ -107,12 +112,13 @@ msgstr ""
 "dans ce domaine."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Unfortunately, it seems that not everyone agrees with the truisms that began "
 "this article. Many journal publishers appear to believe that the purpose of "
 "scientific literature is to enable them to publish journals so as to collect "
-"subscriptions from scientists and students. Such thinking is known as &lsquo;"
-"confusion of the means with the ends&rsquo;."
+"subscriptions from scientists and students. Such thinking is known as &ldquo;"
+"confusion of the means with the ends&rdquo;."
 msgstr ""
 "Malheureusement, il semble que tout le monde ne soit pas d'accord avec les "
 "&eacute;vidences exprim&eacute;es au d&eacute;but de cet article. De "
@@ -137,10 +143,11 @@ msgstr ""
 "nouvelles r&egrave;gles."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "For the sake of scientific cooperation and humanity's future, we must reject "
-"that approach at its root &mdash; not merely the obstructive systems that "
-"have been instituted, but the mistaken priorities that inspired them."
+"that approach at its root&mdash;not merely the obstructive systems that have "
+"been instituted, but the mistaken priorities that inspired them."
 msgstr ""
 "Dans l'int&eacute;r&ecirc;t de la coop&eacute;ration scientifique et de "
 "l'avenir de l'humanit&eacute;, nous devons refuser cette approche &agrave; "
@@ -149,11 +156,12 @@ msgstr ""
 "qui les ont inspir&eacute;s."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"Journal publishers sometimes claim that on-line access requires expensive "
+"Journal publishers sometimes claim that online access requires expensive "
 "high-powered server machines, and that they must charge access fees to pay "
-"for these servers. This &lsquo;problem&rsquo; is a consequence of its own "
-"&lsquo;solution&rsquo;. Give everyone the freedom to mirror, and libraries "
+"for these servers. This &ldquo;problem&rdquo; is a consequence of its own "
+"&ldquo;solution.&rdquo; Give everyone the freedom to mirror, and libraries "
 "around the world will set up mirror sites to meet the demand. This "
 "decentralized solution will reduce network bandwidth needs and provide "
 "faster access, all the while protecting the scholarly record against "
@@ -188,11 +196,12 @@ msgstr ""
 "l'utilisation des r&eacute;sultats."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Instead, the cost of editing could be recovered, for example, through page "
 "charges to the authors, who can pass these on to the research sponsors.  The "
 "sponsors should not mind, given that they currently pay for publication in a "
-"more cumbersome way through overhead fees for the university library's "
+"more cumbersome way, through overhead fees for the university library's "
 "subscription to the journal. By changing the economic model to charge "
 "editing costs to the research sponsors, we can eliminate the apparent need "
 "to restrict access. The occasional author who is not affiliated with an "
@@ -215,9 +224,10 @@ msgstr ""
 "soutenus par des institutions."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Another justification for access fees to online publications is to fund "
-"conversion of the print archives of a journal into on-line form. That work "
+"conversion of the print archives of a journal into online form. That work "
 "needs to be done, but we should seek alternative ways of funding it that do "
 "not involve obstructing access to the result. The work itself will not be "
 "any more difficult, or cost any more. It is self-defeating to digitize the "
@@ -233,9 +243,10 @@ msgstr ""
 "travail en en restreignant l'acc&egrave;s."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"The US Constitution says that copyright exists &lsquo;to promote the "
-"progress of science&rsquo;. When copyright impedes the progress of science, "
+"The US Constitution says that copyright exists &ldquo;to promote the "
+"progress of science&rdquo;. When copyright impedes the progress of science, "
 "science must push copyright out of the way."
 msgstr ""
 "La Constitution des &Eacute;tats-Unis dit que le droit d'auteur existe "

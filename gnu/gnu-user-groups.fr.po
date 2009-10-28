@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-user-groups.html\n"
-"POT-Creation-Date: 2009-07-08 04:26-0300\n"
+"POT-Creation-Date: 2009-09-17 16:25-0300\n"
 "PO-Revision-Date: 2009-07-18 15:43+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -122,12 +122,12 @@ msgid ""
 "software-intro.html\">free software movement</a>.  We also do not list "
 "groups that promote proprietary software as part of their activities."
 msgstr ""
-"Nous ne listons pas non plus les groupes qui se concentrent sur l'«&nbsp;open "
-"source&nbsp;», puisque <a href=\"/philosophy/open-source-misses-the-point.fr."
-"html\">nous ne faisons pas partie du mouvement open source</a>, mais plutôt "
-"du <a href=\"/philosophy/free-software-intro.fr.html\">mouvement pour le "
-"logiciel libre</a>. Nous ne listons pas non plus les groupes qui font la "
-"promotion de logiciels propriétaires dans leurs activités."
+"Nous ne listons pas non plus les groupes qui se concentrent sur l'«&nbsp;"
+"open source&nbsp;», puisque <a href=\"/philosophy/open-source-misses-the-"
+"point.fr.html\">nous ne faisons pas partie du mouvement open source</a>, "
+"mais plutôt du <a href=\"/philosophy/free-software-intro.fr.html\">mouvement "
+"pour le logiciel libre</a>. Nous ne listons pas non plus les groupes qui "
+"font la promotion de logiciels propriétaires dans leurs activités."
 
 # type: Content of: <h3>
 msgid "GNU/Linux groups listed by country"
@@ -817,6 +817,11 @@ msgstr ""
 msgid "<a href=\"http://gnuwatch.com/\">GnuWatch</a>, Fountain, CO."
 msgstr "<a href=\"http://gnuwatch.com/\">GnuWatch</a>, Fountain, CO."
 
+# type: Content of: <ul><li>
+#, fuzzy
+msgid "<a href=\"http://www.nongnu.org/gug-la/\">GUG LA</a>"
+msgstr "<a href=\"http://www.gnu.org/gugve/\">GUGve</a>"
+
 # type: Content of: <h4>
 msgid "Venezuela"
 msgstr "Venezuela"
@@ -865,6 +870,15 @@ msgid ""
 msgstr ""
 "<a href=\"http://uwhug.org.uk/\">University of Warwick GNU/HURD Users Group</"
 "a>"
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<a href=\"http://gulbac.org.ar\">Group of Users of GNU Linux and Free "
+"Software of Central Buenos Aires</a>"
+msgstr ""
+"<a href=\"http://www.lanux.org.ar\">grupo de usuarios GNU-Linux de "
+"Lan&uacute;s</a>"
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.

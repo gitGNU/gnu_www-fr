@@ -20,32 +20,68 @@ msgid "Helping with FSF's Free Software Directory"
 msgstr "Contribuer au répertoire de logiciels libres de la FSF"
 
 # type: Content of: <p>
-msgid "The <a href=\"http://directory.fsf.org/\">FSF's Free Software Directory</a> needs volunteers to improve it.  Here are some ways you can get involved, progressing from easy to difficult."
-msgstr "Le <a href=\"http://directory.fsf.org/\">répertoire de logiciels libres de la FSF</a> a besoin de volontaires pour être amélioré. Voici plusieurs façons de vous impliquer, de la plus simple à la plus compliquée."
+msgid ""
+"The <a href=\"http://directory.fsf.org/\">FSF's Free Software Directory</a> "
+"needs volunteers to improve it.  Here are some ways you can get involved, "
+"progressing from easy to difficult."
+msgstr ""
+"Le <a href=\"http://directory.fsf.org/\">répertoire de logiciels libres de "
+"la FSF</a> a besoin de volontaires pour être amélioré. Voici plusieurs "
+"façons de vous impliquer, de la plus simple à la plus compliquée."
 
 # type: Content of: <h3>
 msgid "Reporting Errors"
 msgstr "Rapporter des erreurs"
 
 # type: Content of: <p>
-msgid "If you note an error in the database, we would appreciate it if you would bring it to our attention.  You can do so by sending mail to <a href=\"mailto:bug-directory@gnu.org\"> &lt;bug-directory@gnu.org&gt;</a>.  Please include the name of the project and the field that is incorrect.  It would be appreciated if you could also include the correct information.  However, this isn't required."
-msgstr "Si vous notez une erreur dans la base de données, nous apprécierions que vous la portiez à notre attention. Vous pouvez le faire en envoyant un courriel à <a href=\"mailto:bug-directory@gnu.org\">&lt;bug-directory@gnu.org&gt;</a>. Merci d'y inclure le nom du projet et le champ qui est incorrect. Il serait apprécié que vous donniez également l'information correcte. Cependant, ceci n'est pas obligatoire."
+msgid ""
+"If you note an error in the database, we would appreciate it if you would "
+"bring it to our attention.  You can do so by sending mail to <a href="
+"\"mailto:bug-directory@gnu.org\"> &lt;bug-directory@gnu.org&gt;</a>.  Please "
+"include the name of the project and the field that is incorrect.  It would "
+"be appreciated if you could also include the correct information.  However, "
+"this isn't required."
+msgstr ""
+"Si vous notez une erreur dans la base de données, nous apprécierions que "
+"vous la portiez à notre attention. Vous pouvez le faire en envoyant un "
+"courriel à <a href=\"mailto:bug-directory@gnu.org\">&lt;bug-directory@gnu."
+"org&gt;</a>. Merci d'y inclure le nom du projet et le champ qui est "
+"incorrect. Il serait apprécié que vous donniez également l'information "
+"correcte. Cependant, ceci n'est pas obligatoire."
 
 # type: Content of: <h3>
 msgid "Reporting New Releases"
 msgstr "Rapporter de nouvelles versions"
 
 # type: Content of: <p>
-msgid "One piece of information which is especially hard to keep up to date is the version information.  If you are an author or avid user of a particular project and would like to ensure that the pages are kept up to date, this is relatively easy to do.  Subscribe to the announcement list and report each new release as noted above."
-msgstr "L'information particulièrement difficile à garder à jour est l'information de version. Si vous êtes un auteur ou le fervent utilisateur d'un projet particulier et que vous voulez veiller à ce que les pages soient maintenues à jour, ceci est relativement facile à faire. Inscrivez-vous à la liste des annonces du projet et reportez chaque nouvelle version comme indiqué ci-dessus."
+msgid ""
+"One piece of information which is especially hard to keep up to date is the "
+"version information.  If you are an author or avid user of a particular "
+"project and would like to ensure that the pages are kept up to date, this is "
+"relatively easy to do.  Subscribe to the announcement list and report each "
+"new release as noted above."
+msgstr ""
+"L'information particulièrement difficile à garder à jour est l'information "
+"de version. Si vous êtes un auteur ou le fervent utilisateur d'un projet "
+"particulier et que vous voulez veiller à ce que les pages soient maintenues "
+"à jour, ceci est relativement facile à faire. Inscrivez-vous à la liste des "
+"annonces du projet et reportez chaque nouvelle version comme indiqué ci-"
+"dessus."
 
 # type: Content of: <h3>
 msgid "Adding Entries"
 msgstr "Ajouter des entrées"
 
 # type: Content of: <p>
-msgid "To add an entry for a program not already in the database, please provide as much of the following information as you can via email to <a href=\"mailto:bug-directory@gnu.org\"> &lt;bug-directory@gnu.org&gt;</a>."
-msgstr "Pour ajouter une entrée pour un programme qui n'existe pas dans la base de données, veuillez donner autant d'informations que possible par courriel à l'adresse <a href=\"mailto:bug-directory@gnu.org\">&lt;bug-directory@gnu.org&gt;</a>."
+msgid ""
+"To add an entry for a program not already in the database, please provide as "
+"much of the following information as you can via email to <a href=\"mailto:"
+"bug-directory@gnu.org\"> &lt;bug-directory@gnu.org&gt;</a>."
+msgstr ""
+"Pour ajouter une entrée pour un programme qui n'existe pas dans la base de "
+"données, veuillez donner autant d'informations que possible par courriel à "
+"l'adresse <a href=\"mailto:bug-directory@gnu.org\">&lt;bug-directory@gnu."
+"org&gt;</a>."
 
 # type: Content of: <ol><li>
 msgid "Project title and homepage"
@@ -57,7 +93,8 @@ msgstr "Lien vers le code source"
 
 # type: Content of: <ol><li>
 msgid "Please list all licenses, including documentation license"
-msgstr "Merci de lister toutes les licences, notamment la licence de la documentation"
+msgstr ""
+"Merci de lister toutes les licences, notamment la licence de la documentation"
 
 # type: Content of: <ol><li>
 msgid "A short description of what the program does"
@@ -69,47 +106,92 @@ msgstr "La version courante et le niveau de maturité"
 
 # type: Content of: <ol><li>
 msgid "Maintainers' names/contact (we will make this info public)"
-msgstr "Nom(s) et moyens de contact du (des) mainteneur(s) (nous rendrons ces informations publiques)"
+msgstr ""
+"Nom(s) et moyens de contact du (des) mainteneur(s) (nous rendrons ces "
+"informations publiques)"
 
 # type: Content of: <ol><li>
-msgid "Any help resources or community resources, such as mailing list archives, IRC or bug lists"
-msgstr "Toute ressource d'aide ou communautaire, telles que les archives des listes de diffusion du projet, le canal IRC ou la liste des bogues"
+msgid ""
+"Any help resources or community resources, such as mailing list archives, "
+"IRC or bug lists"
+msgstr ""
+"Toute ressource d'aide ou communautaire, telles que les archives des listes "
+"de diffusion du projet, le canal IRC ou la liste des bogues"
 
 # type: Content of: <ol><li>
-msgid "Any developer resources, such as bug reporting lists and public VCS checkout command"
-msgstr "Toute ressource pour le développeur, telles que les listes de rapports de bogues et la commande d'extraction du CVS public"
+msgid ""
+"Any developer resources, such as bug reporting lists and public VCS checkout "
+"command"
+msgstr ""
+"Toute ressource pour le développeur, telles que les listes de rapports de "
+"bogues et la commande d'extraction du CVS public"
 
 # type: Content of: <ol><li>
 msgid "All known dependencies"
 msgstr "Toutes les dépendances connues"
 
 # type: Content of: <ol><li>
-msgid "Indicate all applicable interface styles: Command Line, Console, Daemon, X Window, Web, Email"
-msgstr "Indiquer tous les styles d'interface applicables&nbsp;: ligne de commande, console, démon, X Window, web, courriel"
+msgid ""
+"Indicate all applicable interface styles: Command Line, Console, Daemon, X "
+"Window, Web, Email"
+msgstr ""
+"Indiquer tous les styles d'interface applicables&nbsp;: ligne de commande, "
+"console, démon, X Window, web, courriel"
 
 # type: Content of: <p>
-msgid "To be listed in the Free Software Directory, packages should meet these requirements:"
-msgstr "Pour être listés dans le répertoire des logiciels libres, les paquets doivent satisfaire à ces exigences&nbsp;:"
+msgid ""
+"To be listed in the Free Software Directory, packages should meet these "
+"requirements:"
+msgstr ""
+"Pour être listés dans le répertoire des logiciels libres, les paquets "
+"doivent satisfaire à ces exigences&nbsp;:"
 
 # type: Content of: <ol><li>
-msgid "The software is at least of beta quality; users consider it usable and useful.  (We also list GNU packages that are in early development, but they are marked as not ready for general use.)"
-msgstr "Le logiciel est au moins de qualité beta&nbsp;; les utilisateurs le considèrent utile et utilisable. (Nous listons aussi les paquets GNU qui sont au début de leur développement, mais ils sont marqués comme impropres à un usage général.)"
+msgid ""
+"The software is at least of beta quality; users consider it usable and "
+"useful.  (We also list GNU packages that are in early development, but they "
+"are marked as not ready for general use.)"
+msgstr ""
+"Le logiciel est au moins de qualité beta&nbsp;; les utilisateurs le "
+"considèrent utile et utilisable. (Nous listons aussi les paquets GNU qui "
+"sont au début de leur développement, mais ils sont marqués comme impropres à "
+"un usage général.)"
 
 # type: Content of: <ol><li>
-msgid "It is licensed under a free software license as defined in <a href=\"/philosophy/free-sw.html\">the free software definition</a> and listed as a <a href=\"/licenses/license-list.html\">free software license</a>."
-msgstr "Il est sous une licence de logiciel libre telle que définie dans <a href=\"/philosophy/free-sw.fr.html\">la définition d'un logiciel libre</a> et listée en tant que <a href=\"/licenses/license-list.fr.html\">licence de logiciel libre</a>."
+msgid ""
+"It is licensed under a free software license as defined in <a href=\"/"
+"philosophy/free-sw.html\">the free software definition</a> and listed as a "
+"<a href=\"/licenses/license-list.html\">free software license</a>."
+msgstr ""
+"Il est sous une licence de logiciel libre telle que définie dans <a href=\"/"
+"philosophy/free-sw.fr.html\">la définition d'un logiciel libre</a> et listée "
+"en tant que <a href=\"/licenses/license-list.fr.html\">licence de logiciel "
+"libre</a>."
 
 # type: Content of: <ol><li>
-msgid "It does not rely on non-free software, either for significant functionality or normal performance.  (Software which depends on a non-free platform is not usable in the Free World.)"
-msgstr "Il ne repose pas sur un logiciel non libre, aussi bien pour une fonctionnalité significative que pour un fonctionnement normal. (Un logiciel qui dépend d'une plate-forme non libre n'est pas utilisable dans le monde libre.)"
+msgid ""
+"It does not rely on non-free software, either for significant functionality "
+"or normal performance.  (Software which depends on a non-free platform is "
+"not usable in the Free World.)"
+msgstr ""
+"Il ne repose pas sur un logiciel non libre, aussi bien pour une "
+"fonctionnalité significative que pour un fonctionnement normal. (Un logiciel "
+"qui dépend d'une plate-forme non libre n'est pas utilisable dans le monde "
+"libre.)"
 
 # type: Content of: <ol><li>
 msgid "It runs on the GNU system or the GNU/Linux system."
 msgstr "Il fonctionne sur le système GNU ou le système GNU/Linux."
 
 # type: Content of: <p>
-msgid "Our aim is to list all free software meeting the criteria, but since that is a moving target, we don't expect to actually reach it.  We may change the criteria when necessary."
-msgstr "Notre but est de lister tous les logiciels répondant aux critères, mais ce but étant changeant, nous ne nous attendons pas vraiment à l'atteindre. Nous pourrions changer les critères quand cela deviendrait nécessaire."
+msgid ""
+"Our aim is to list all free software meeting the criteria, but since that is "
+"a moving target, we don't expect to actually reach it.  We may change the "
+"criteria when necessary."
+msgstr ""
+"Notre but est de lister tous les logiciels répondant aux critères, mais ce "
+"but étant changeant, nous ne nous attendons pas vraiment à l'atteindre. Nous "
+"pourrions changer les critères quand cela deviendrait nécessaire."
 
 # type: Content of: <p>
 msgid "Thanks for your help!"
@@ -121,32 +203,58 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
-msgid "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to contact</a> the FSF.  <br /> Please send broken links and other corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
-msgstr "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page Web à <a href=\"mailto:webmasters@gnu.org\">webmasters@gnu.org</a>."
+msgid ""
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web à <a href="
+"\"mailto:webmasters@gnu.org\">webmasters@gnu.org</a>."
 
 # type: Content of: <div><p>
-msgid "Please see the <a href=\"/server/standards/README.translations.html\">Translations README</a> for information on coordinating and submitting translations of this article."
-msgstr "Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html\">README des traductions</a> pour des informations sur la coordination et la soumission de traductions de cet article."
+msgid ""
+"Please see the <a href=\"/server/standards/README.translations.html"
+"\">Translations README</a> for information on coordinating and submitting "
+"translations of this article."
+msgstr ""
+"Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html"
+"\">README des traductions</a> pour des informations sur la coordination et "
+"la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2008, 2009 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2008, 2009 Free Software Foundation, Inc."
+msgid ""
+"Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2008, "
+"2009 Free Software Foundation, Inc."
+msgstr ""
+"Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2008, "
+"2009 Free Software Foundation, Inc."
 
 # type: Content of: <div><p>
-msgid "Verbatim copying and distribution of this entire article is permitted in any medium without royalty provided this notice is preserved."
-msgstr "La reproduction exacte et la distribution intégrale de cet article est permise sur n'importe quel support d'archivage, pourvu que cette notice soit préservée."
+msgid ""
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium without royalty provided this notice is preserved."
+msgstr ""
+"La reproduction exacte et la distribution intégrale de cet article est "
+"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
+"préservée."
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
-msgstr "Traduction&nbsp;: Sébastien Miquée.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+msgstr ""
+"Traduction&nbsp;: Sébastien Miquée.<br /> Révision&nbsp;: <a href=\"mailto:"
+"trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 # type: Content of: <div><p>
-#.  timestamp start
+#.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;: "
 
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
-

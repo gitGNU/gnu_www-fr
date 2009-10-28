@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pragmatic.html\n"
-"POT-Creation-Date: 2009-01-21 04:25-0500\n"
+"POT-Creation-Date: 2009-10-27 16:25-0300\n"
 "PO-Revision-Date: 2009-01-21 23:50+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -34,12 +34,12 @@ msgstr ""
 "a>"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Every decision a person makes stems from the person's values and goals.  "
 "People can have many different goals and values; fame, profit, love, "
 "survival, fun, and freedom, are just some of the goals that a good person "
-"might have.  When the goal is to help others as well as oneself, we call "
-"that idealism."
+"might have.  When the goal is a matter of principle, we call that idealism."
 msgstr ""
 "Toute d&eacute;cision prise par une personne d&eacute;coule de ses valeurs "
 "et buts. Les gens peuvent avoir beaucoup de buts et valeurs diff&eacute;"
@@ -63,15 +63,17 @@ msgstr ""
 "t&eacute; meilleure."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "That's the basic reason why the GNU General Public License is written the "
-"way it is&mdash;as a copyleft.  All code added to a GPL-covered program must "
-"be free software, even if it is put in a separate file.  I make my code "
-"available for use in free software, and not for use in proprietary software, "
-"in order to encourage other people who write software to make it free as "
-"well.  I figure that since proprietary software developers use copyright to "
-"stop us from sharing, we cooperators can use copyright to give other "
-"cooperators an advantage of their own: they can use our code."
+"way it is&mdash;as a <a href=\"/copyleft\"> copyleft</a>.  All code added to "
+"a GPL-covered program must be free software, even if it is put in a separate "
+"file.  I make my code available for use in free software, and not for use in "
+"proprietary software, in order to encourage other people who write software "
+"to make it free as well.  I figure that since proprietary software "
+"developers use copyright to stop us from sharing, we cooperators can use "
+"copyright to give other cooperators an advantage of their own: they can use "
+"our code."
 msgstr ""
 "C'est pour cette raison fondamentale que la GNU General Public License est "
 "&eacute;crite de cette mani&egrave;re &mdash; comme un copyleft. Tout code "
@@ -87,10 +89,11 @@ msgstr ""
 "&agrave; eux&nbsp;: ils peuvent utiliser notre code."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Not everyone who uses the GNU GPL has this goal.  Many years ago, a friend "
-"of mine was asked to rerelease a copylefted program under non-copyleft "
-"terms, and he responded more or less like this:"
+"of mine was asked to rerelease a copylefted program under noncopyleft terms, "
+"and he responded more or less like this:"
 msgstr ""
 "Ceux qui utilisent la GNU GPL n'ont pas tous ce but. Il y a plusieurs "
 "ann&eacute;es, on a demand&eacute; &agrave; un de mes amis de r&eacute;"
@@ -98,20 +101,22 @@ msgstr ""
 "copyleft&eacute;s, et il a plus ou moins r&eacute;pondu ainsi&nbsp;:"
 
 # type: Content of: <blockquote><p>
+#, fuzzy
 msgid ""
-"Sometimes I work on free software, and sometimes I work on proprietary "
-"software&mdash;but when I work on proprietary software, I expect to get "
-"<em>paid</em>."
+"&ldquo;Sometimes I work on free software, and sometimes I work on "
+"proprietary software&mdash;but when I work on proprietary software, I expect "
+"to get <em>paid</em>.&rdquo;"
 msgstr ""
 "Parfois je travaille sur des logiciels libres et parfois sur des logiciels "
 "propri&eacute;taires&nbsp;; mais quand je travaille sur des logiciels "
 "propri&eacute;taires, j'exige d'&ecirc;tre <em>pay&eacute;</em>."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "He was willing to share his work with a community that shares software, but "
 "saw no reason to give a handout to a business making products that would be "
-"off limits to our community.  His goal was different from mine, but he "
+"off-limits to our community.  His goal was different from mine, but he "
 "decided that the GNU GPL was useful for his goal too."
 msgstr ""
 "Il voulait bien partager son travail avec une communaut&eacute; qui "
@@ -181,11 +186,12 @@ msgstr ""
 "&agrave; nous apporter toujours plus de logiciels libres."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Many GNU libraries are covered by the GNU Lesser General Public License, but "
 "not all.  One GNU library which is covered by the ordinary GNU GPL is "
 "Readline, which implements command-line editing.  I once found out about a "
-"non-free program which was designed to use Readline, and told the developer "
+"nonfree program which was designed to use Readline, and told the developer "
 "this was not allowed.  He could have taken command-line editing out of the "
 "program, but what he actually did was rerelease it under the GPL.  Now it is "
 "free software."
@@ -302,15 +308,16 @@ msgstr ""
 "nous nous sentons tous mieux si nous y avons r&eacute;sist&eacute;."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "The temptation and pressure are harder to recognize when they come "
 "indirectly, through free software organizations that have adopted a policy "
 "of catering to proprietary software.  The X Consortium (and its successor, "
 "the Open Group) offers an example: funded by companies that made proprietary "
-"software, they have strived for a decade to persuade programmers not to use "
-"copyleft.  Now that the Open Group has <a href=\"/philosophy/x.html\">made "
-"X11R6.4 non-free software</a>, those of us who resisted that pressure are "
-"glad that we did."
+"software, they strived for a decade to persuade programmers not to use "
+"copyleft.  When the Open Group tried to <a href=\"/philosophy/x.html\">make "
+"X11R6.4 nonfree software</a>, those of us who had resisted that pressure "
+"were glad that we did."
 msgstr ""
 "Il est plus difficile de reconna&icirc;tre les pressions et tentations quand "
 "elles viennent indirectement, au travers d'organisations pour les logiciels "
@@ -325,13 +332,14 @@ msgstr ""
 "l'avoir fait."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"[In September 1998, several months after X11R6.4 was released with non-free "
+"In September 1998, several months after X11R6.4 was released with nonfree "
 "distribution terms, the Open Group reversed its decision and rereleased it "
-"under the same non-copyleft free software license that was used for "
-"X11R6.3.  Thank you, Open Group&mdash;but this subsequent reversal does not "
-"invalidate the conclusions we draw from the fact that adding the "
-"restrictions was <em>possible</em>.]"
+"under the same noncopyleft free software license that was used for X11R6.3.  "
+"Thank you, Open Group&mdash;but this subsequent reversal does not invalidate "
+"the conclusions we draw from the fact that adding the restrictions was "
+"<em>possible</em>."
 msgstr ""
 "[En septembre 1998, plusieurs mois apr&egrave;s que X11R6.4 ait &eacute;"
 "t&eacute; distribu&eacute; sous une licence non-libre, l'Open Group a revu "
@@ -342,12 +350,13 @@ msgstr ""
 "<em>possible</em>.]"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Pragmatically speaking, thinking about greater long-term goals will "
 "strengthen your will to resist this pressure.  If you focus your mind on the "
 "freedom and community that you can build by staying firm, you will find the "
-"strength to do it.  &ldquo;Stand for something, or you will fall for nothing."
-"&rdquo;"
+"strength to do it.  &ldquo;Stand for something, or you will fall for "
+"anything.&rdquo;"
 msgstr ""
 "Pour parler pragmatiquement, avoir une vision &agrave; plus long terme "
 "affermira votre volont&eacute; de r&eacute;sister &agrave; cette pression. "
@@ -357,8 +366,9 @@ msgstr ""
 "chose ou vous tomberez pour rien&nbsp;&raquo;."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"And if cynics ridicule freedom, ridicule community&hellip;if &ldquo;hard "
+"And if cynics ridicule freedom, ridicule community&hellip;if &ldquo;hard-"
 "nosed realists&rdquo; say that profit is the only ideal&hellip;just ignore "
 "them, and use copyleft all the same."
 msgstr ""
@@ -383,12 +393,13 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -408,12 +419,9 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 1998, 2003 Free Software Foundation, Inc.,"
+#, fuzzy
+msgid "Copyright &copy; 1998, 2003 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 1998, 2003 Free Software Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -439,3 +447,7 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"

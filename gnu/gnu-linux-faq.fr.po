@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-linux-faq.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2009-10-18 04:25-0300\n"
 "PO-Revision-Date: 2008-08-17 19:24+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -155,14 +155,33 @@ msgstr ""
 "entre un syst&egrave;me d'exploitation et un noyau&nbsp;?</a>"
 
 # type: Content of: <ul><li>
+#, fuzzy
 msgid ""
 "<a href=\"#house\" id=\"TOChouse\">The kernel of a system is like the "
-"foundation of a house? How can a house be almost complete when it doesn't "
+"foundation of a house.  How can a house be almost complete when it doesn't "
 "have a foundation?</a>"
 msgstr ""
 "<a href=\"#house\" id=\"TOChouse\">Le noyau d'un syst&egrave;me est comme "
 "les fondations d'une maison&nbsp;? Comment une maison peut-elle &ecirc;tre "
 "presque termin&eacute;e quand elle n'a pas de fondation&nbsp;?</a>"
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<a href=\"#brain\" id=\"TOCbrain\">Isn't the kernel the brain of the system?"
+"</a>"
+msgstr ""
+"<a href=\"#justlinux\" id=\"TOCjustlinux\">Ne peut-il y avoir de syst&egrave;"
+"mes Linux sans GNU&nbsp;?</a>"
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<a href=\"#kernelmost\" id=\"TOCkernelmost\">Isn't writing the kernel most "
+"of the work in an operating system?</a>"
+msgstr ""
+"<a href=\"#osvskernel\" id=\"TOCosvskernel\">Quelle est la diff&eacute;rence "
+"entre un syst&egrave;me d'exploitation et un noyau&nbsp;?</a>"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -1150,9 +1169,10 @@ msgstr ""
 "vous parlerez de distributions du syst&egrave;me GNU/Linux."
 
 # type: Content of: <dl><dt>
+#, fuzzy
 msgid ""
-"The kernel of a system is like the foundation of a house? How can a house be "
-"almost complete when it doesn't have a foundation?"
+"The kernel of a system is like the foundation of a house.  How can a house "
+"be almost complete when it doesn't have a foundation?"
 msgstr ""
 "Le noyau d'un syst&egrave;me est comme les fondations d'une maison&nbsp;? "
 "Comment une maison peut-elle &ecirc;tre presque termin&eacute;e quand elle "
@@ -1182,13 +1202,14 @@ msgstr ""
 "que vous avez est alors un trou dans le sol."
 
 # type: Content of: <dl><dd><p>
+#, fuzzy
 msgid ""
-"By contrast, an operating system consists of loosely-coupled complex "
-"components that can be developed in any order.  When you have developed most "
-"of the components, most of the work is done.  This is much more like the "
-"International Space Station than like a house.  If most of the Space Station "
-"modules were in orbit and connected but awaiting one vital module, that "
-"would be like the GNU system in 1992."
+"By contrast, an operating system consists of complex components that can be "
+"developed in any order.  When you have developed most of the components, "
+"most of the work is done.  This is much more like the International Space "
+"Station than like a house.  If most of the Space Station modules were in "
+"orbit but awaiting one other essential module, that would be like the GNU "
+"system in 1992."
 msgstr ""
 "En comparaison, un syst&egrave;me d'exploitation est constitu&eacute; de "
 "composants complexes faiblement inter-d&eacute;pendants qui peuvent &ecirc;"
@@ -1198,6 +1219,24 @@ msgstr ""
 "spatiale internationale qu'&agrave; une maison. Si la plupart des modules de "
 "la station &eacute;taient en orbite et connect&eacute;s, mais en attente "
 "d'un module vital, ce serait comme le syst&egrave;me GNU en 1992."
+
+# type: Content of: <dl><dt>
+msgid "Isn't the kernel the brain of the system?"
+msgstr ""
+
+# type: Content of: <dl><dd>
+msgid ""
+"A computer system is not much like a human body, and no part of it plays a "
+"role comparable to that of the brain in a human."
+msgstr ""
+
+# type: Content of: <dl><dt>
+msgid "Isn't writing the kernel most of the work in an operating system?"
+msgstr ""
+
+# type: Content of: <dl><dd>
+msgid "No, many components take a lot of work."
+msgstr ""
 
 # type: Content of: <dl><dt>
 msgid ""
@@ -1697,14 +1736,15 @@ msgstr ""
 "individuellement&nbsp;?"
 
 # type: Content of: <dl><dd>
+#, fuzzy
 msgid ""
 "It isn't a choice of one or the other&mdash;we ask companies and "
-"organizations and individuals to help spread the word.  In fact, we have "
-"asked all three of those companies.  Mandrake uses the term &ldquo;GNU/"
-"Linux&rdquo; some of the time, but IBM and Red Hat were unwilling to help.  "
-"One executive said, &ldquo;This is a pure commercial decision; we expect to "
-"make more money calling it &lsquo;Linux&rsquo;.&rdquo; In other words, that "
-"company did not care what was right."
+"organizations and individuals to help spread the word about this.  In fact, "
+"we have asked all three of those companies.  Mandrake said it would use the "
+"term &ldquo;GNU/Linux&rdquo; some of the time, but IBM and Red Hat were "
+"unwilling to help.  One executive said, &ldquo;This is a pure commercial "
+"decision; we expect to make more money calling it &lsquo;Linux&rsquo;."
+"&rdquo; In other words, that company did not care what was right."
 msgstr ""
 "Il ne s'agit pas d'un choix entre l'un et l'autre&nbsp;: nous demandons "
 "&agrave; des entreprises, des organisations et des individus de passer le "
@@ -1717,11 +1757,12 @@ msgstr ""
 "ne se pr&eacute;occupe pas de ce qui est juste ou non."
 
 # type: Content of: <dl><dd><p>
+#, fuzzy
 msgid ""
-"We can't make them change, but we're not the sort to give up just because "
-"the road isn't easy.  You may not have as much influence at your disposal as "
-"IBM or Red Hat, but you can still help.  Together we can change the "
-"situation to the point where companies will make more profit calling it "
+"We can't make them do this right, but we're not the sort to give up just "
+"because the road isn't easy.  You may not have as much influence at your "
+"disposal as IBM or Red Hat, but you can still help.  Together we can change "
+"the situation to the point where companies will make more profit calling it "
 "&ldquo;GNU/Linux&rdquo;."
 msgstr ""
 "Nous ne pouvons pas les faire changer, mais nous ne sommes pas du genre "

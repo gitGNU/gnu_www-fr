@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: free-software-intro.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2009-09-12 16:25-0300\n"
 "PO-Revision-Date: 2008-11-22 15:26+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -70,11 +70,19 @@ msgstr ""
 
 # type: Content of: <p>
 msgid ""
-"Whether a program is free software depends on its license.  Our <a href=\"/"
-"philosophy/free-sw.html\"> detailed definition </a> of free software shows "
-"how we evaluate a license to see if it makes programs free software.  We "
-"also have articles about <a href=\"/philosophy/philosophy."
-"html#LicensingFreeSoftware\"> certain specific licenses</a> explaining the "
+"Whether a program is free software depends mainly on its license.  However, "
+"a program can also be non-free because you don't have access to its source "
+"code, or because hardware won't let you put a modified version into use "
+"(this is called &ldquo;tivoization&rdquo;)."
+msgstr ""
+
+# type: Content of: <p>
+#, fuzzy
+msgid ""
+"Our <a href=\"/philosophy/free-sw.html\">detailed definition</a> of free "
+"software shows how we evaluate a license to see if it makes programs free "
+"software.  We also have articles about <a href=\"/philosophy/philosophy."
+"html#LicensingFreeSoftware\">certain specific licenses</a> explaining the "
 "advantages and disadvantages of some licenses that do qualify, and why some "
 "other licenses are too restrictive to qualify."
 msgstr ""
@@ -89,16 +97,17 @@ msgstr ""
 "sont trop restrictives pour y r&eacute;pondre."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "In 1998 the term &ldquo;open source&rdquo; was coined and associated with <a "
-"href=\"/philosophy/open-source-misses-the-point.html\"> views considerably "
+"href=\"/philosophy/open-source-misses-the-point.html\">views considerably "
 "different from ours</a>.  These views cite only the practical advantages of "
 "free software, and carefully avoid the deeper issues of freedom and social "
-"solidarity that the Free Software Movement raises.  Open source is good as "
-"far as it goes, but it only scratches the surface of the issue.  We don't "
-"mind working with supporters of open source on practical activities such as "
-"software development, but we do not agree with their views, and we decline "
-"to operate under their name."
+"solidarity that the Free Software Movement raises.  The idea of open source "
+"is good as far as it goes, but it only scratches the surface of the issue.  "
+"We don't mind working with supporters of open source on practical activities "
+"such as software development, but we do not agree with their views, and we "
+"decline to operate under their name."
 msgstr ""
 "En 1998, le terme &laquo;&nbsp;open source&nbsp;&raquo; (NdT&nbsp;: code "
 "source ouvert). <a href=\"/philosophy/open-source-misses-the-point.fr.html"
@@ -130,12 +139,13 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -155,12 +165,9 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 1999, 2007, 2008 Free Software Foundation, Inc.,"
+#, fuzzy
+msgid "Copyright &copy; 1999, 2007, 2008, 2009 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 1999, 2007, 2008 Free Software Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -186,3 +193,7 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
