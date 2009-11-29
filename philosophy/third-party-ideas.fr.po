@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: third-party-ideas.html\n"
-"POT-Creation-Date: 2009-08-24 04:25-0300\n"
+"POT-Creation-Date: 2009-11-09 04:25-0500\n"
 "PO-Revision-Date: 2009-04-26 12:55+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -936,7 +936,23 @@ msgid "(Thanks to Nelson Beebe for the reference.)"
 msgstr "(Merci &agrave; Nelson Beebe pour la r&eacute;f&eacute;rence)."
 
 # type: Content of: <p>
-msgid "<a href=\"/philosophy/\">More philosophy articles</a>"
+#, fuzzy
+msgid "Links to more philosophy articles"
+msgstr ""
+"<a href=\"/philosophy/philosophy.fr.html\">Plus d'articles sur la "
+"philosophie du Projet GNU</a>"
+
+# type: Content of: <ul><li>
+msgid "<a href=\"essays-and-articles.html\">Essays and Articles</a>"
+msgstr ""
+
+# type: Content of: <ul><li>
+msgid "<a href=\"speeches-and-interview.html\">Speeches and interviews</a>"
+msgstr ""
+
+# type: Content of: <p>
+#, fuzzy
+msgid "<a href=\"/philosophy/\">The main philosophy page</a>"
 msgstr ""
 "<a href=\"/philosophy/philosophy.fr.html\">Plus d'articles sur la "
 "philosophie du Projet GNU</a>"

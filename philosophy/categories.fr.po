@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: categories.html\n"
-"POT-Creation-Date: 2009-06-22 16:25-0300\n"
+"POT-Creation-Date: 2009-11-11 04:26-0500\n"
 "PO-Revision-Date: 2009-07-18 16:28+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -35,18 +35,14 @@ msgstr ""
 "Lisez aussi <a href=\"/philosophy/words-to-avoid.fr.html\">Termes pr&ecirc;"
 "tant &agrave; confusion, que vous devriez &eacute;viter</a>."
 
-# type: Attribute 'alt' of: <p><img>
-msgid "[diagram of a the different categories of software]"
-msgstr "[Diagramme des diff&eacute;rentes cat&eacute;gories de logiciels]"
-
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "This diagram by Chao-Kuei explains the different categories of software. "
-"It's available as an <a href=\"/philosophy/category.fig\">XFig file</a>, as "
-"a <a href=\"/philosophy/category.jpg\">JPEG picture</a> and as a 1.5 "
-"magnified <a href=\"/philosophy/category.png\">PNG image</a>, under the "
-"terms of any of the GNU GPL v2 or later, the GNU FDL v1.2 or later, or the "
-"Creative Commons Attribution-Share Alike v2.0 or later."
+"It's also available as an <a href=\"/philosophy/category.svg\">Scalable "
+"Vector Graphic</a> and as an <a href=\"/philosophy/category.fig\">XFig "
+"document</a>, under the terms of any of the GNU GPL v2 or later, the GNU FDL "
+"v1.2 or later, or the Creative Commons Attribution-Share Alike v2.0 or later."
 msgstr ""
 "Ce diagramme de Chao-Kuei explique les différentes catégories de logiciels. "
 "Il est disponible (en français) sous forme de <a href=\"/philosophy/category."
@@ -57,7 +53,8 @@ msgstr ""
 "v2.0 ou ultérieure."
 
 # type: Content of: <dl><dt>
-msgid "<strong>Free software</strong>"
+#, fuzzy
+msgid "Free software"
 msgstr "<strong>Logiciel libre</strong>"
 
 # type: Content of: <dl><dd>
@@ -169,7 +166,8 @@ msgstr ""
 "fiable</a> que le logiciel non-libre."
 
 # type: Content of: <dl><dt>
-msgid "<strong>Open Source software</strong>"
+#, fuzzy
+msgid "Open Source software"
 msgstr "<strong>Logiciel Open Source</strong>"
 
 # type: Content of: <dl><dd>
@@ -204,7 +202,8 @@ msgstr ""
 "terme «&nbsp;open source&nbsp;»."
 
 # type: Content of: <dl><dt>
-msgid "<strong>Public domain software</strong>"
+#, fuzzy
+msgid "Public domain software"
 msgstr "<strong>Logiciel du domaine public</strong>"
 
 # type: Content of: <dl><dd>
@@ -269,7 +268,8 @@ msgstr ""
 "programme demeure sous copyright."
 
 # type: Content of: <dl><dt>
-msgid "<strong>Copylefted software</strong>"
+#, fuzzy
+msgid "Copylefted software"
 msgstr ""
 "<strong>Logiciel <em>copyleft&eacute;</em> (sous <em>gauche d'auteur</em>)</"
 "strong>"
@@ -343,7 +343,8 @@ msgstr ""
 "communaut&eacute; de n'utiliser qu'une seule licence avec copyleft."
 
 # type: Content of: <dl><dt>
-msgid "<strong>Non-copylefted free software</strong>"
+#, fuzzy
+msgid "Non-copylefted free software"
 msgstr "<strong>Logiciel libre <em>non-copyleft&eacute;</em></strong>"
 
 # type: Content of: <dl><dd>
@@ -356,11 +357,12 @@ msgstr ""
 "ajouter d'autres restrictions."
 
 # type: Content of: <dl><dd><p>
+#, fuzzy
 msgid ""
 "If a program is free but not copylefted, then some copies or modified "
 "versions may not be free at all. A software company can compile the program, "
 "with or without modifications, and distribute the executable file as a <a "
-"href= \"#ProprietarySoftware\">proprietary</a> software product."
+"href=\"#ProprietarySoftware\">proprietary</a> software product."
 msgstr ""
 "Si un programme est libre, mais non-copyleft&eacute;, alors certaines copies "
 "ou versions modifi&eacute;es peuvent ne plus &ecirc;tre libres du tout. Une "
@@ -395,7 +397,8 @@ msgstr ""
 "contribué sous la même licence sans copyleft."
 
 # type: Content of: <dl><dt>
-msgid "<strong>GPL-covered software</strong>"
+#, fuzzy
+msgid "GPL-covered software"
 msgstr "<strong>Logiciel couvert par la GPL</strong>"
 
 # type: Content of: <dl><dd>
@@ -416,14 +419,15 @@ msgstr ""
 "Faire l'équivalence entre un logiciel libre et un logiciel couvert par la "
 "GPL est donc une erreur."
 
-# type: Content of: <dl><dt>
-msgid "<strong>The GNU system</strong>"
-msgstr "<strong>Le syst&egrave;me GNU</strong>"
+# type: Content of: <h3>
+msgid "The GNU operating system"
+msgstr ""
 
 # type: Content of: <dl><dd>
+#, fuzzy
 msgid ""
-"The <a href=\"/gnu/gnu-history.html\">GNU system</a> is the Unix-like "
-"operating system, which is entirely free software, that we in the GNU "
+"The <a href=\"/gnu/gnu-history.html\">GNU operating system</a> is the Unix-"
+"like operating system, which is entirely free software, that we in the GNU "
 "Project have developed since 1984."
 msgstr ""
 "Le <a href=\"/gnu/gnu-history.fr.html\">syst&egrave;me GNU</a> est un "
@@ -443,14 +447,15 @@ msgstr ""
 "ne sont pas des logiciels GNU."
 
 # type: Content of: <dl><dd><p>
+#, fuzzy
 msgid ""
 "The first test release of the complete GNU system was in 1996.  This "
 "includes the GNU Hurd, our kernel, developed since 1990. In 2001 the GNU "
 "system (including the GNU Hurd) began working fairly reliably, but the Hurd "
 "still lacks some important features, so it is not widely used. Meanwhile, "
 "the <a href= \"/gnu/linux-and-gnu.html\">GNU/Linux system</a>, an offshoot "
-"of the GNU system which uses Linux as the kernel instead of the GNU Hurd, "
-"has been a great success since the 90s."
+"of the GNU operating system which uses Linux as the kernel instead of the "
+"GNU Hurd, has been a great success since the 90s."
 msgstr ""
 "Nous d&eacute;veloppons et accumulons des composants pour le syst&egrave;me "
 "GNU depuis 1984; la premi&egrave;re mise &agrave; disposition en test d'un "
@@ -465,13 +470,15 @@ msgstr ""
 "grand succ&egrave;s dans les ann&eacute;es 90."
 
 # type: Content of: <dl><dd><p>
+#, fuzzy
 msgid ""
 "Since the purpose of GNU is to be free, every single component in the GNU "
-"system has to be free software. They don't all have to be copylefted, "
-"however; any kind of free software is legally suitable to include if it "
-"helps meet technical goals. And it isn't necessary for all the components to "
-"be GNU software, individually.  GNU can and does include non-copylefted free "
-"software such as the X Window System that were developed by other projects."
+"operating system has to be free software. They don't all have to be "
+"copylefted, however; any kind of free software is legally suitable to "
+"include if it helps meet technical goals. And it isn't necessary for all the "
+"components to be GNU software, individually.  GNU can and does include non-"
+"copylefted free software such as the X Window System that were developed by "
+"other projects."
 msgstr ""
 "Puisque le but du GNU est d'&ecirc;tre libre, chacun de ses moindres "
 "composants doit &ecirc;tre un logiciel libre. Tous ne doivent cependant pas "
@@ -482,9 +489,9 @@ msgstr ""
 "non-copyleft&eacute;s, comme le syst&egrave;me X Window, qui sont d&eacute;"
 "velopp&eacute;s par d'autres projets."
 
-# type: Content of: <dl><dt>
-msgid "<strong>GNU programs</strong>"
-msgstr "<strong>Programmes GNU</strong>"
+# type: Content of: <h3>
+msgid "GNU programs"
+msgstr ""
 
 # type: Content of: <dl><dd>
 msgid ""
@@ -497,9 +504,9 @@ msgstr ""
 "s'il est un logiciel GNU. Nous l'appelons parfois aussi «&nbsp;paquet "
 "GNU&nbsp;»."
 
-# type: Content of: <dl><dt>
-msgid "<strong>GNU software</strong>"
-msgstr "<strong>Logiciel GNU</strong>"
+# type: Content of: <h3>
+msgid "GNU software"
+msgstr ""
 
 # type: Content of: <dl><dd>
 msgid ""
@@ -530,12 +537,14 @@ msgstr ""
 "\">logiciels libres</a>."
 
 # type: Content of: <dl><dd><p>
+#, fuzzy
 msgid ""
-"Some GNU software is written by <a href= \"/people/people.html\">staff</a> "
-"of the <a href=\"/fsf/fsf.html\">Free Software Foundation</a>, but most GNU "
-"software is contributed by <a href=\"/people/people.html\">volunteers</a>. "
-"Some contributed software is copyrighted by the Free Software Foundation; "
-"some is copyrighted by the contributors who wrote it."
+"Some GNU software is written by <a href= \"http://www.fsf.org/about/staff/"
+"\">staff</a> of the <a href=\"http://www.fsf.org/\">Free Software "
+"Foundation</a>, but most GNU software is contributed by <a href=\"/people/"
+"people.html\">volunteers</a>. Some contributed software is copyrighted by "
+"the Free Software Foundation; some is copyrighted by the contributors who "
+"wrote it."
 msgstr ""
 "Certains des logiciels GNU sont r&eacute;alis&eacute;s par le <a href=\"/"
 "people/people.html\">personnel</a> de la <a href=\"/fsf/fsf.fr.html\">Free "
@@ -545,7 +554,8 @@ msgstr ""
 "d'autres appartiennent aux auteurs du logiciel."
 
 # type: Content of: <dl><dt>
-msgid "<strong>Non-free software</strong>"
+#, fuzzy
+msgid "Non-free software"
 msgstr "<strong>Logiciel non-libre</strong>"
 
 # type: Content of: <dl><dd>
@@ -559,7 +569,8 @@ msgstr ""
 "les <a href=\"#ProprietarySoftware\">logiciels propri&eacute;taires</a>."
 
 # type: Content of: <dl><dt>
-msgid "<strong>Semi-free software</strong>"
+#, fuzzy
+msgid "Semi-free software"
 msgstr "<strong>Logiciel semi-libre</strong>"
 
 # type: Content of: <dl><dd>
@@ -649,11 +660,13 @@ msgstr ""
 "ROM pour ce syst&egrave;me."
 
 # type: Content of: <dl><dd><p>
+#, fuzzy
 msgid ""
-"The Free Software Foundation itself is non-commercial, and therefore we "
-"would be legally permitted to use a semi-free program &ldquo;"
-"internally&rdquo;. But we don't do that, because that would undermine our "
-"efforts to obtain a program which we could also include in GNU."
+"The <a href=\"http://www.fsf.org/\">Free Software Foundation</a> itself is "
+"non-commercial, and therefore we would be legally permitted to use a semi-"
+"free program &ldquo;internally&rdquo;. But we don't do that, because that "
+"would undermine our efforts to obtain a program which we could also include "
+"in GNU."
 msgstr ""
 "La Free Software Foundation &eacute;tant elle-m&ecirc;me non-commerciale, "
 "elle aurait donc le droit d'utiliser l&eacute;galement un programme semi-"
@@ -683,7 +696,8 @@ msgstr ""
 "faisons pas."
 
 # type: Content of: <dl><dt>
-msgid "<strong>Proprietary software</strong>"
+#, fuzzy
+msgid "Proprietary software"
 msgstr "<strong>Logiciel propri&eacute;taire</strong>"
 
 # type: Content of: <dl><dd>
@@ -739,9 +753,9 @@ msgstr ""
 "nous-m&ecirc;mes. Mais nous esp&eacute;rons que vous d&eacute;ciderez de la "
 "suivre &eacute;galement."
 
-# type: Content of: <dl><dt>
-msgid "<strong>Freeware</strong>"
-msgstr "<strong>Freeware</strong>"
+# type: Content of: <h3>
+msgid "Freeware"
+msgstr ""
 
 # type: Content of: <dl><dd>
 msgid ""
@@ -758,9 +772,9 @@ msgstr ""
 "ne sont <em>pas</em> des logiciels libres, donc n'utilisez pas, s'il vous "
 "pla&icirc;t, «&nbsp;freeware&nbsp;» pour parler de logiciel libre."
 
-# type: Content of: <dl><dt>
-msgid "<strong>Shareware</strong>"
-msgstr "<strong>Shareware (partagiciel)</strong>"
+# type: Content of: <h3>
+msgid "Shareware"
+msgstr ""
 
 # type: Content of: <dl><dd>
 msgid ""
@@ -804,7 +818,8 @@ msgstr ""
 "me, m&ecirc;me si ce n'est pas permis)."
 
 # type: Content of: <dl><dt>
-msgid "<strong>Private software</strong>"
+#, fuzzy
+msgid "Private software"
 msgstr "<strong>Logiciel priv&eacute;</strong>"
 
 # type: Content of: <dl><dd>
@@ -856,7 +871,8 @@ msgstr ""
 "mani&egrave;re compatible avec le mouvement du logiciel libre."
 
 # type: Content of: <dl><dt>
-msgid "<strong>Commercial Software</strong>"
+#, fuzzy
+msgid "Commercial Software"
 msgstr "<strong>Logiciel commercial</strong>"
 
 # type: Content of: <dl><dd>
@@ -922,12 +938,13 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -947,16 +964,13 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Copyright &copy; 1996, 1997, 1998, 2001, 2006, 2007 Free Software "
-"Foundation, Inc.,"
+"Copyright &copy; 1996, 1997, 1998, 2001, 2006, 2007, 2009 Free Software "
+"Foundation, Inc."
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 2001, 2006, 2007 Free Software "
 "Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -983,3 +997,31 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Attribute 'alt' of: <p><img>
+#~ msgid "[diagram of a the different categories of software]"
+#~ msgstr "[Diagramme des diff&eacute;rentes cat&eacute;gories de logiciels]"
+
+# type: Content of: <dl><dt>
+#~ msgid "<strong>The GNU system</strong>"
+#~ msgstr "<strong>Le syst&egrave;me GNU</strong>"
+
+# type: Content of: <dl><dt>
+#~ msgid "<strong>GNU programs</strong>"
+#~ msgstr "<strong>Programmes GNU</strong>"
+
+# type: Content of: <dl><dt>
+#~ msgid "<strong>GNU software</strong>"
+#~ msgstr "<strong>Logiciel GNU</strong>"
+
+# type: Content of: <dl><dt>
+#~ msgid "<strong>Freeware</strong>"
+#~ msgstr "<strong>Freeware</strong>"
+
+# type: Content of: <dl><dt>
+#~ msgid "<strong>Shareware</strong>"
+#~ msgstr "<strong>Shareware (partagiciel)</strong>"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"

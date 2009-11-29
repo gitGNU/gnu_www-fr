@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: speeches-and-interview.html\n"
-"POT-Creation-Date: 2009-04-15 16:25-0300\n"
+"POT-Creation-Date: 2009-11-09 04:25-0500\n"
 "PO-Revision-Date: 2009-04-18 19:46+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -23,6 +23,17 @@ msgstr ""
 # type: Content of: <h2>
 msgid "Speeches and Interviews (in reverse chronological order)"
 msgstr "Discours et entretiens (en ordre chronologique inverse)"
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<a href=\"/philosophy/danger-of-software-patents.html\">The Danger of "
+"Software Patents</a>, transcript of a talk by <a href=\"http://www.stallman."
+"org\">Richard Stallman</a>."
+msgstr ""
+"Transcription d'un <a href=\"/philosophy/rieti.fr.html\">discours</a> "
+"donn&eacute; par  <a href=\"http://www.stallman.org\">Richard M. Stallman</"
+"a> le 21 avril 2003."
 
 # type: Content of: <ul><li>
 msgid ""
@@ -554,7 +565,23 @@ msgstr ""
 "&eacute;galement disponible."
 
 # type: Content of: <p>
-msgid "<a href=\"/philosophy/\">More philosophy articles</a>"
+#, fuzzy
+msgid "Links to more philosophy articles"
+msgstr ""
+"<a href=\"/philosophy/philosophy.fr.html\">Plus d'articles sur la "
+"philosophie du Projet GNU</a>"
+
+# type: Content of: <ul><li>
+msgid "<a href=\"essays-and-articles.html\">Essays and Articles</a>"
+msgstr ""
+
+# type: Content of: <ul><li>
+msgid "<a href=\"third-party-ideas.html\">Third party ideas</a>"
+msgstr ""
+
+# type: Content of: <p>
+#, fuzzy
+msgid "<a href=\"/philosophy/\">The main philosophy page</a>"
 msgstr ""
 "<a href=\"/philosophy/philosophy.fr.html\">Plus d'articles sur la "
 "philosophie du Projet GNU</a>"
@@ -590,9 +617,10 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
-"2006, 2007, 2008 Free Software Foundation, Inc.,"
+"2006, 2007, 2008,2009 Free Software Foundation, Inc.,"
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008 Free Software Foundation, Inc.,"

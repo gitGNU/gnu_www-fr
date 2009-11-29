@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2009-07-17 16:26-0300\n"
+"POT-Creation-Date: 2009-11-20 04:26-0500\n"
 "PO-Revision-Date: 2009-07-18 17:37+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -699,11 +699,11 @@ msgstr ""
 "License, version 2</a>"
 
 # type: Content of: <dl><dd><p>
+#, fuzzy
 msgid ""
 "This is a free software license, compatible with the GNU GPL.  <a href="
-"\"http://www.gobosoft.com/eiffel/gobo/eiffel_forum_license_v1.html"
-"\">Previous releases</a> of the Eiffel license are not compatible with the "
-"GPL."
+"\"http://www.eiffel-nice.org/license/forum.txt\">Previous releases</a> of "
+"the Eiffel license are not compatible with the GPL."
 msgstr ""
 "C'est une licence de logiciel libre compatible avec la GPL de GNU. &Agrave; "
 "noter&nbsp;: les <a href=\"http://www.gobosoft.com/eiffel/gobo/"
@@ -1712,9 +1712,11 @@ msgstr ""
 "instamment de ne pas utiliser l'IPL."
 
 # type: Content of: <dl><dt>
+#, fuzzy
 msgid ""
-"<a id=\"josl\" href=\"http://www.jabber.org/josl\">Jabber Open Source "
-"License, Version 1.0</a>"
+"<a id=\"josl\" href=\"http://code.google.com/p/jabber-net/source/browse/"
+"branches/RELEASE_1_0/LICENSE.txt\"> Jabber Open Source License, Version 1.0</"
+"a>"
 msgstr ""
 "<a id=\"josl\" href=\"http://www.jabber.org/josl\">Jabber Open Source "
 "License, Version 1.0</a>"
@@ -2179,9 +2181,10 @@ msgstr ""
 "pas cela."
 
 # type: Content of: <dl><dt>
+#, fuzzy
 msgid ""
-"<a id=\"QPL\" href=\"http://www.trolltech.com/developer/licensing/qpl.html"
-"\"> Q Public License (QPL), Version 1.0</a>"
+"<a id=\"QPL\" href=\"http://doc.trolltech.com/3.0/license.html\"> Q Public "
+"License (QPL), Version 1.0</a>"
 msgstr ""
 "<a id=\"QPL\" href=\"http://www.trolltech.com/developer/licensing/qpl.html"
 "\">Q Public License (QPL), Version 1.0</a>"
@@ -2321,12 +2324,14 @@ msgstr ""
 "Source License</a>, qui elle n'est pas une licence de logiciel libre."
 
 # type: Content of: <dl><dt>
+#, fuzzy
 msgid ""
-"<a id=\"xinetd\" href=\"http://www.xinetd.org/cgi-bin/cvsweb.cgi/xinetd/"
-"COPYRIGHT?rev=1.1.1.1;content-type=text%2Fplain\"> License of xinetd</a>"
+"<a id=\"xinetd\" href=\"http://fedoraproject.org/wiki/Licensing/"
+"Xinetd_License\"> License of xinetd</a>"
 msgstr ""
-"<a id=\"xinetd\" href=\"http://www.xinetd.org/cgi-bin/cvsweb.cgi/xinetd/"
-"COPYRIGHT?rev=1.1.1.1;content-type=text%2Fplain\">La license of xinetd</a>"
+"<a id=\"OPL\" title=\"Open Public License sur le wiki du projet Fedora\" "
+"href=\"https://fedoraproject.org/wiki/Licensing/Open_Public_License\"> Open "
+"Public License</a>"
 
 # type: Content of: <dl><dd><p>
 msgid ""
@@ -2833,10 +2838,11 @@ msgstr ""
 "particuli&egrave;res."
 
 # type: Content of: <dl><dt>
+#, fuzzy
 msgid ""
-"<a id=\"Ms-SS\" href=\"http://msdn.microsoft.com/msdn-files/027/001/901/"
-"ShSourceCLIbetaLicense.htm\"> Microsoft's Shared Source CLI, C#, and Jscript "
-"License</a>"
+"<a id=\"Ms-SS\" href=\"http://fedoraproject.org/wiki/Licensing/"
+"Microsoft_Shared_Source_License\"> Microsoft's Shared Source CLI, C#, and "
+"Jscript License</a>"
 msgstr ""
 "<a id=\"Ms-SS\" href=\"http://msdn.microsoft.com/msdn-files/027/001/901/"
 "ShSourceCLIbetaLicense.htm\">Microsoft's Shared Source CLI, C#, and Jscript "
@@ -3284,9 +3290,11 @@ msgstr ""
 "des &oelig;uvres textuelles (&laquo;&nbsp;livres&nbsp;&raquo;)."
 
 # type: Content of: <dl><dt>
+#, fuzzy
 msgid ""
-"<a id=\"ACDL\" href=\"http://www.opensource.apple.com/cdl/\"> Apple's Common "
-"Documentation License, Version 1.0</a>"
+"<a id=\"ACDL\" href=\"http://fedoraproject.org/wiki/Licensing/"
+"Common_Documentation_License\"> Apple's Common Documentation License, "
+"Version 1.0</a>"
 msgstr ""
 "<a id=\"ACDL\" href=\"http://www.opensource.apple.com/cdl/\">Apple's Common "
 "Documentation License, Version 1.0</a>"
@@ -3804,12 +3812,13 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -3853,3 +3862,11 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <dl><dt>
+#~ msgid ""
+#~ "<a id=\"xinetd\" href=\"http://www.xinetd.org/cgi-bin/cvsweb.cgi/xinetd/"
+#~ "COPYRIGHT?rev=1.1.1.1;content-type=text%2Fplain\"> License of xinetd</a>"
+#~ msgstr ""
+#~ "<a id=\"xinetd\" href=\"http://www.xinetd.org/cgi-bin/cvsweb.cgi/xinetd/"
+#~ "COPYRIGHT?rev=1.1.1.1;content-type=text%2Fplain\">La license of xinetd</a>"
