@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: common-distros.html\n"
-"POT-Creation-Date: 2009-08-07 16:25-0300\n"
+"POT-Creation-Date: 2009-12-04 04:25-0500\n"
 "PO-Revision-Date: 2009-08-23 17:58+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -104,6 +104,10 @@ msgstr ""
 "\"mailto:webmasters@gnu.org\">nous le faire savoir</a>. Nous révisons tous "
 "les systèmes soigneusement avant de les homologuer."
 
+# type: Content of: outside any tag (error?)
+msgid "<a id=\"CentOS\"></a>"
+msgstr ""
+
 # type: Content of: <h3>
 msgid "CentOS"
 msgstr "CentOS"
@@ -120,6 +124,10 @@ msgstr ""
 "être inclus, et des blobs non-libres sont fournis avec Linux. Bien sûr, sans "
 "politique ferme appliquée, il pourrait y avoir d'autres logiciels non-libres "
 "que nous avons manqués."
+
+# type: Content of: outside any tag (error?)
+msgid "<a id=\"Debian\"></a>"
+msgstr ""
 
 # type: Content of: <h3>
 msgid "Debian"
@@ -159,6 +167,10 @@ msgstr ""
 "principaux sur le site Web, dans la documentation et d'autres supports "
 "Debian."
 
+# type: Content of: outside any tag (error?)
+msgid "<a id=\"Fedora\"></a>"
+msgstr ""
+
 # type: Content of: <h3>
 msgid "Fedora"
 msgstr "Fedora"
@@ -180,6 +192,10 @@ msgstr ""
 "empêche Fedora de respecter les recommandations pour une distribution "
 "système libre."
 
+# type: Content of: outside any tag (error?)
+msgid "<a id=\"Gentoo\"></a>"
+msgstr ""
+
 # type: Content of: <h3>
 msgid "Gentoo"
 msgstr "Gentoo"
@@ -191,6 +207,10 @@ msgid ""
 msgstr ""
 "Gentoo rend facile l'installation d'un certain nombre de logiciels non-"
 "libres au moyen de son système de paquetages principal."
+
+# type: Content of: outside any tag (error?)
+msgid "<a id=\"Mandriva\"></a>"
+msgstr ""
 
 # type: Content of: <h3>
 msgid "Mandriva"
@@ -215,6 +235,10 @@ msgid "Mandriva also provides nonfree software through dedicated repositories."
 msgstr ""
 "Mandriva propose aussi les logiciels non-libres au moyen d'entrepôts dédiés."
 
+# type: Content of: outside any tag (error?)
+msgid "<a id=\"openSUSE\"></a>"
+msgstr ""
+
 # type: Content of: <h3>
 msgid "openSUSE"
 msgstr "openSUSE"
@@ -224,6 +248,10 @@ msgid "openSUSE offers its users access to a repository of nonfree software."
 msgstr ""
 "openSUSE propose à ces utilisateurs un accès à des entrepôts de logiciels "
 "non-libres."
+
+# type: Content of: outside any tag (error?)
+msgid "<a id=\"RedHat\"></a>"
+msgstr ""
 
 # type: Content of: <h3>
 msgid "Red Hat"
@@ -240,6 +268,10 @@ msgstr ""
 "au sujet des logiciels qui peuvent être introduits. Notre interprétation est "
 "que cela rend très facile l'obtention de logiciels non-libres, bien au-delà "
 "des microcodes propriétaires inclus avec Fedora."
+
+# type: Content of: outside any tag (error?)
+msgid "<a id=\"Slackware\"></a>"
+msgstr ""
 
 # type: Content of: <h3>
 msgid "Slackware"
@@ -258,6 +290,10 @@ msgstr ""
 "politique ferme appliquée, il pourrait y avoir d'autres logiciels non-libres "
 "que nous avons manqués."
 
+# type: Content of: outside any tag (error?)
+msgid "<a id=\"SUSE\"></a>"
+msgstr ""
+
 # type: Content of: <h3>
 msgid "SUSE"
 msgstr "SUSE"
@@ -269,6 +305,10 @@ msgid ""
 msgstr ""
 "Plusieurs logiciels non-libres sont disponibles au téléchargements sur le "
 "site FTP officiel de SUSE."
+
+# type: Content of: outside any tag (error?)
+msgid "<a id=\"Ubuntu\"></a>"
+msgstr ""
 
 # type: Content of: <h3>
 msgid "Ubuntu"
@@ -283,6 +323,10 @@ msgstr ""
 "Ubuntu propose des entrepôts de logiciels non-libres. Même si vous ne les "
 "utilisez pas, l'installeur d'application par défaut vous proposera des "
 "logiciels non-libres."
+
+# type: Content of: outside any tag (error?)
+msgid "<a id=\"BSD\"></a>"
+msgstr ""
 
 # type: Content of: <h3>
 msgid "What about BSD distributions?"
@@ -311,12 +355,13 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF.<br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -336,12 +381,9 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 2009 Free Software Foundation, Inc.,"
+#, fuzzy
+msgid "Copyright &copy; 2009 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2009 Free Software Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -368,3 +410,7 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"

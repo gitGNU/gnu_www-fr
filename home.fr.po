@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.shtml\n"
-"POT-Creation-Date: 2009-11-19 04:26-0500\n"
+"POT-Creation-Date: 2009-12-05 04:25-0500\n"
 "PO-Revision-Date: 2009-11-29 15:04+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -57,9 +57,10 @@ msgstr ""
 "utilisateurs."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"<a href=\"http://www.openrightsgroup.org/orgwiki/index.php/Net_Neutrality"
-"\">Support the efforts on net neutrality in Europe</a>, <a href=\"http://www."
+"<a href=\"http://www.openrightsgroup.org/orgwiki/index.php/Net_Neutrality\"> "
+"Support the efforts on net neutrality in Europe</a>, <a href=\"http://www."
 "savetheinternet.com\" title=\"Net neutrality in the United States of America"
 "\">in the USA</a> and <a href=\"http://www.neutrality.ca\" title=\"Net "
 "neutrality in Canada\">in Canada</a>."
@@ -69,6 +70,12 @@ msgstr ""
 "\"http://www.savetheinternet.com\" title=\"Neutralité du Net aux États-Unis "
 "d'Amérique\">aux USA</a> et <a href=\"http://www.neutrality.ca\" title="
 "\"Neutralité du Net au Canada\">au Canada</a>."
+
+# type: Content of: <div><p>
+msgid ""
+"Take a look at a new <a href=\"http://www.gnu.org/graphics/jesus-cartoon.html"
+"\"> cartoon</a>."
+msgstr ""
 
 # type: Content of: <table><tr><td><h2>
 msgid "What is GNU?"

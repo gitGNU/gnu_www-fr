@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-faq.html\n"
-"POT-Creation-Date: 2009-11-11 04:26-0500\n"
+"POT-Creation-Date: 2009-11-30 16:26-0500\n"
 "PO-Revision-Date: 2009-11-29 15:07+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -5427,11 +5427,12 @@ msgstr ""
 "Libre&nbsp;?</a></b>"
 
 # type: Content of: <dl><dd><p>
+#, fuzzy
 msgid ""
 "In general, the answer is no&mdash;this is not a legal requirement.  In "
 "specific, the answer depends on which libraries you want to use and what "
 "their licenses are.  Most system libraries either use the <a href=\"/"
-"copyleft/lesser.html\">GNU Lesser GPL</a>, or use the GNU GPL plus an "
+"licenses/lgpl.html\">GNU Lesser GPL</a>, or use the GNU GPL plus an "
 "exception permitting linking the library with anything.  These libraries can "
 "be used in non-free programs; but in the case of the Lesser GPL, it does "
 "have some requirements you must follow."
