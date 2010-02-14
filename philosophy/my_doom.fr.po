@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: my_doom.html\n"
-"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"POT-Creation-Date: 2009-12-16 04:25-0500\n"
 "PO-Revision-Date: 2008-12-27 15:53+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -27,11 +27,12 @@ msgstr ""
 "a>"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"I grew up in a community whose other members committed crimes as serious as "
-"murder. The city of New York, with its 8 million inhabitants, had hundreds "
-"of murders each year, mostly committed by people who lived in the city. "
-"Violent assaults and robberies were even more common."
+"I grew up in a community whose other members sometimes committed crimes as "
+"serious as murder. The city of New York, with its 8 million inhabitants, had "
+"hundreds of murders each year, mostly committed by people who lived in the "
+"city. Violent assaults and robberies were even more common."
 msgstr ""
 "J'ai grandi dans une communaut&eacute; dont d'autres membres commettaient "
 "des crimes aussi graves que des meurtres. La ville de New York, avec ses 8 "
@@ -63,6 +64,7 @@ msgstr ""
 "exigeaient d'eux la promesse de ne les partager avec personne d'autre."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Despite these prevalent evils, never in my life have I seen anyone try to "
 "condemn all New Yorkers on the basis of the wrongs that only some have "
@@ -70,12 +72,8 @@ msgid ""
 "are guilty of murder, violence, robbery, perjury, or writing proprietary "
 "software. People are aware that the mere fact that some New Yorkers were "
 "known to have done these things is no justification for treating all of us "
-"as guilty. That would be &ldquo;guilt by association&rdquo;, and people know "
-"this is unjust.  I now live in the smaller city of Cambridge, Massachusetts. "
-"Murder and robbery occur there, too; I do not know if Cambridge police "
-"regularly lie in court, but proprietary software is rife.  Nonetheless, I "
-"have never seen anyone try to condemn the whole city of Cambridge for this. "
-"Here, too, people recognize that guilt by association is an injustice."
+"as guilty. That would be &ldquo;guilt by association,&rdquo; and people know "
+"that is unjust."
 msgstr ""
 "Bien que ces m&eacute;faits aient &eacute;t&eacute; monnaie courante, je "
 "n'ai jamais vu dans ma vie quiconque essayer de condamner tous les New-"
@@ -96,12 +94,22 @@ msgstr ""
 
 # type: Content of: <p>
 msgid ""
+"I now live in the smaller city of Cambridge, Massachusetts. Murder and "
+"robbery occur here, too; I do not know if Cambridge police regularly lie in "
+"court, but proprietary software is rife.  Nonetheless, I have never seen "
+"anyone try to condemn the whole city of Cambridge for this. Here, too, "
+"people recognize that guilt by association is an injustice."
+msgstr ""
+
+# type: Content of: <p>
+#, fuzzy
+msgid ""
 "However, people don't always remember to apply the principle. My virtual "
-"community, the free software community which I have helped to build since 20 "
-"years ago by developing the GNU operating system, is now the victim of a "
-"campaign of guilt by association. A number of articles&mdash;I have seen "
-"some&mdash;have tried to hold our entire community guilty for the "
-"development of the MyDoom virus."
+"community, the free software community which I have helped to build since "
+"1984 by developing the GNU operating system, is now the victim of a campaign "
+"of guilt by association. A number of articles&mdash;I have seen some&mdash;"
+"have tried to hold our entire community guilty for the development of the "
+"MyDoom virus."
 msgstr ""
 "Cependant, on ne pense pas toujours &agrave; appliquer ce principe. Ma "
 "communaut&eacute; virtuelle, la communaut&eacute; du logiciel libre dont je "
@@ -208,12 +216,13 @@ msgstr ""
 "lying&nbsp;&raquo; (mentir).</li></ol>"
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF.  <br /> Please send broken links and other corrections "
+"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -233,12 +242,9 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 2004, 2007 Free Software Foundation, Inc.,"
+#, fuzzy
+msgid "Copyright &copy; 2004, 2007 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2004, 2007 Free Software Foundation, Inc.,"
-
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
 msgid ""
@@ -265,3 +271,7 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"

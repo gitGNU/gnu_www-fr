@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: keepingup.html\n"
-"POT-Creation-Date: 2009-10-17 04:25-0300\n"
+"POT-Creation-Date: 2010-01-02 16:25-0500\n"
 "PO-Revision-Date: 2009-10-28 17:10+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -64,7 +64,8 @@ msgid "Coming Events"
 msgstr "Événements à venir"
 
 # type: Content of: <p>
-msgid "Find out about <a href=\"/events.html\">Coming FSF and GNU Events</a>."
+#, fuzzy
+msgid "Find out about <a href=\"/events.html\">coming FSF and GNU Events</a>."
 msgstr ""
 "Découvrez les <a href=\"/events.html\">Événements à venir concernant la FSF "
 "et GNU</a>."
@@ -74,8 +75,9 @@ msgid "Press Releases"
 msgstr "Communiqués de presse"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"Read the <a href=\"/press/press.html#releases\">Press Releases</a> from the "
+"Read the <a href=\"/press/press.html#releases\">press releases</a> from the "
 "GNU Project and the FSF."
 msgstr ""
 "Lisez les <a href=\"/press/press.html#releases\">Communiqués de presse</a> "
@@ -86,10 +88,11 @@ msgid "Free Software Directory"
 msgstr "Le répertoire des logiciels libres"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Additions and updates are constantly made to the <a href=\"http://directory."
 "fsf.org\">Free Software Directory</a>.  Check the list of recent updates "
-"often to see what's new."
+"often to see what's new (and consider contributing)."
 msgstr ""
 "Des ajouts et des mises à jour sont faits constamment dans le <a href="
 "\"http://directory.fsf.org\">Répertoire des logiciels libres</a>. Vérifiez "
@@ -100,11 +103,12 @@ msgid "Mailing Lists"
 msgstr "Listes de diffusion"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"There are many <a href=\"http://mail.gnu.org/mailman/listinfo\">public "
-"mailing lists</a> related to the GNU Project and the FSF. You can subscribe "
-"to these lists to keep up with the latest news and developments on GNU "
-"Projects/Packages and to get general information about GNU/FSF."
+"There are many <a href=\"http://lists.gnu.org\">public mailing lists</a> "
+"related to the GNU Project and the FSF. You can subscribe to these lists to "
+"keep up with the latest news and developments on GNU Projects/Packages and "
+"to get general information about GNU/FSF."
 msgstr ""
 "Il y a plusieurs <a href=\"http://mail.gnu.org/mailman/listinfo\">listes de "
 "diffusion publiques</a> relatives au Projet GNU et à la FSF. Vous pouvez "
@@ -113,7 +117,8 @@ msgstr ""
 "des informations générales sur GNU et la FSF."
 
 # type: Content of: <p>
-msgid "These are some that are good for general info:"
+#, fuzzy
+msgid "Here are some that are good for general info:"
 msgstr "Certaines sont indiquées pour des informations générales&nbsp;:"
 
 # type: Content of: <ul><li>
@@ -155,10 +160,11 @@ msgid "Usenet"
 msgstr "Usenet"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"There are several gnu.* <a href=\"/prep/mailinglists.html\"> usenet "
-"newsgroups</a> that are good sources of information.  This group is useful "
-"in keeping up with what's going on with GNU:"
+"There are several gnu.* Usenet newsgroups that are good sources of "
+"information.  This group is useful in keeping up with what's going on with "
+"GNU:"
 msgstr ""
 "Il existe plusieurs <a href=\"/prep/mailinglists.html\">groupes de "
 "discussion usenet</a> gnu.* qui sont de bonnes sources d'information. Ce "
@@ -169,13 +175,14 @@ msgid "gnu.announce"
 msgstr "gnu.announce"
 
 # type: Content of: <h3>
-msgid "News"
-msgstr "Nouvelles"
+msgid "News in Spanish"
+msgstr ""
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
-"You can get news about GNU in spanish at <a href=\"http://gnuticias.es.gnu."
-"org\">GNUticias</a>"
+"You can get news about GNU in Spanish at <a href=\"http://gnuticias.es.gnu."
+"org\">GNUticias</a>."
 msgstr ""
 "Vous pouvez obtenir des nouvelles de GNU en espagnol sur <a href=\"http://"
 "gnuticias.es.gnu.org\">GNUticias</a>"
@@ -236,3 +243,7 @@ msgid "Translations of this page"
 msgstr ""
 "<a href=\"/server/standards/README.translations.fr.html\">Traductions</a> de "
 "cette page"
+
+# type: Content of: <h3>
+#~ msgid "News"
+#~ msgstr "Nouvelles"

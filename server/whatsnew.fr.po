@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: whatsnew.html\n"
-"POT-Creation-Date: 2009-07-23 16:25-0300\n"
+"POT-Creation-Date: 2010-01-03 04:25-0500\n"
 "PO-Revision-Date: 2009-08-23 18:42+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -101,16 +101,43 @@ msgstr ""
 "<a href=\"/press/press.html#releases\"><strong>Publications</strong></a>"
 
 # type: Content of: <dl><dt>
+#, fuzzy
+msgid "2 January 2010"
+msgstr "27 janvier 2009"
+
+# type: Content of: <dl><dd>
+msgid ""
+"All packages using <a href=\"/software/automake/\">GNU Automake</a> to "
+"produce distribution tarballs with <tt>make dist</tt> should update to the "
+"1.11.1 or 1.10.3 release, or otherwise work around <a href=\"http://thread."
+"gmane.org/gmane.comp.sysutils.autotools.announce/131\">the problem</a>."
+msgstr ""
+
+# type: Content of: <dl><dt>
+#, fuzzy
+msgid "31 December 2009"
+msgstr "1er février 2009"
+
+# type: Content of: <dl><dd>
+msgid ""
+"The FSF is hosting a GNU Hackers' Meeting for GNU maintainers and "
+"contributors from March 18th-21st as part of the LibrePlanet 2010 conference "
+"in Cambridge, Massachusetts. <a href=\"http://groups.fsf.org/wiki/"
+"LibrePlanet2010/GNUHackersMeeting\">Read the details and RSVP.</a>"
+msgstr ""
+
+# type: Content of: <dl><dt>
 msgid "23 July 2009"
 msgstr "23 juillet 2009"
 
 # type: Content of: <dl><dd>
+#, fuzzy
 msgid ""
 "FSF president Richard Stallman explains the unintended interactions between "
 "the Swedish Pirate Party's platform and free software -- and proposes a "
 "solution -- in his new article, <a href=\"http://www.gnu.org/philosophy/"
-"pirate-party.html\">\"How the Swedish Pirate Party Platform Backfires on "
-"Free Software\"</a>."
+"pirate-party.html\">How the Swedish Pirate Party Platform Backfires on Free "
+"Software</a>."
 msgstr ""
 "Le président de la FSF Richard Stallman explique les interactions non-"
 "désirées entre la plateforme du Parti pirate suédois et les logiciels libres "

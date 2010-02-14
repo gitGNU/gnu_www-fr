@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: manifesto.html\n"
-"POT-Creation-Date: 2009-09-17 16:25-0300\n"
+"POT-Creation-Date: 2009-12-14 16:25-0500\n"
 "PO-Revision-Date: 2009-10-28 16:54+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -39,9 +39,10 @@ msgstr ""
 "semble maintenant plus judicieux de le laisser en l'&eacute;tat."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Since that time, we have learned about certain common misunderstandings that "
-"different wording could help avoid.  Footnotes added in 1993 help clarify "
+"different wording could help avoid.  Footnotes added since 1993 help clarify "
 "these points."
 msgstr ""
 "Nous avons appris depuis qu'il y avait quelques incompr&eacute;hensions; "
@@ -192,11 +193,13 @@ msgstr ""
 "volont&eacute;."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "So that I can continue to use computers without dishonor, I have decided to "
 "put together a sufficient body of free software so that I will be able to "
 "get along without any software that is not free.  I have resigned from the "
-"AI lab to deny MIT any legal excuse to prevent me from giving GNU away."
+"AI lab to deny MIT any legal excuse to prevent me from giving GNU away <a "
+"href=\"#f2a\">(2a)</a>."
 msgstr ""
 "Pour pouvoir continuer &agrave; utiliser les ordinateurs en accord avec ma "
 "conscience, j'ai d&eacute;cid&eacute; de rassembler un ensemble suffisant de "
@@ -799,12 +802,13 @@ msgstr ""
 "pour programmer; seulement, peut-&ecirc;tre pas autant qu'actuellement."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Restricting copying is not the only basis for business in software.  It is "
-"the most common basis because it brings in the most money.  If it were "
-"prohibited, or rejected by the customer, software business would move to "
-"other bases of organization which are now used less often.  There are always "
-"numerous ways to organize any kind of business."
+"the most common basis <a href=\"#f8\">(8)</a> because it brings in the most "
+"money.  If it were prohibited, or rejected by the customer, software "
+"business would move to other bases of organization which are now used less "
+"often.  There are always numerous ways to organize any kind of business."
 msgstr ""
 "La restriction des copies n'est pas la seule base des affaires du domaine "
 "des logiciels. C'est la base la plus commune, car c'est la plus rentable. Si "
@@ -1300,16 +1304,26 @@ msgstr ""
 "&laquo;&nbsp;gratuit&nbsp;&raquo; est &eacute;vidente.]"
 
 # type: Content of: <ol><li>
+msgid ""
+"<a name=\"f2a\"></a>The expression ``give away'' is another indication that "
+"I had not yet clearly separated the issue of price from that of freedom.  We "
+"now recommend avoiding this expression when talking about free software.  "
+"See <a href=\"/philosophy/words-to-avoid.html#GiveAwaySoftware\"> "
+"<q>Confusing Words and Phrases</q></a> for more explanation."
+msgstr ""
+
+# type: Content of: <ol><li>
 msgid "<a name=\"f3\"></a>Several such companies now exist."
 msgstr ""
 "<a name=\"f3\"></a> De telles soci&eacute;t&eacute;s existent actuellement."
 
 # type: Content of: <ol><li>
+#, fuzzy
 msgid ""
-"<a name=\"f4\"></a>The Free Software Foundation for 10 years raised most of "
-"its funds from a distribution service, although it is a charity rather than "
-"a company.  You can <a href=\"/order/order.html\">order things from the FSF</"
-"a>."
+"<a name=\"f4\"></a> Although it is a charity rather than a company, the Free "
+"Software Foundation for 10 years raised most of its funds from its "
+"distribution service.  You can <a href=\"/order/order.html\">order things "
+"from the FSF</a> to support its work."
 msgstr ""
 "<a name=\"f4\"></a>Depuis dix ans, la Free Software Foundation a lev&eacute; "
 "la plupart de ses fonds &agrave; travers un service de distribution, bien "
@@ -1326,9 +1340,10 @@ msgstr ""
 "fonds vers 1991 pour financer la maintenance du compilateur C de GNU."
 
 # type: Content of: <ol><li>
+#, fuzzy
 msgid ""
-"<a name=\"f6\"></a>In the 80s I had not yet realized how confusing it was to "
-"speak of &ldquo;the issue&rdquo; of &ldquo;intellectual property&rdquo;.  "
+"<a name=\"f6\"></a>In the 1980s I had not yet realized how confusing it was "
+"to speak of &ldquo;the issue&rdquo; of &ldquo;intellectual property&rdquo;.  "
 "That term is obviously biased; more subtle is the fact that it lumps "
 "together various disparate laws which raise very different issues.  Nowadays "
 "I urge people to reject the term &ldquo;intellectual property&rdquo; "
@@ -1353,13 +1368,14 @@ msgstr ""
 "terme s&egrave;me la confusion et le parti-pris."
 
 # type: Content of: <ol><li>
+#, fuzzy
 msgid ""
-"<a name=\"f7\"></a>Subsequently we have learned to distinguish between "
-"&ldquo;free software&rdquo; and &ldquo;freeware&rdquo;.  The term &ldquo;"
+"<a name=\"f7\"></a>Subsequently we learned to distinguish between &ldquo;"
+"free software&rdquo; and &ldquo;freeware&rdquo;.  The term &ldquo;"
 "freeware&rdquo; means software you are free to redistribute, but usually you "
 "are not free to study and change the source code, so most of it is not free "
-"software.  See <a href=\"/philosophy/words-to-avoid.html#Freeware\"> the "
-"Confusing Words and Phrases page</a> for more explanation."
+"software.  See <a href=\"/philosophy/words-to-avoid.html#Freeware\"> "
+"<q>Confusing Words and Phrases</q></a> for more explanation."
 msgstr ""
 "<a name=\"f7\"></a> Par la suite, nous avons appris la distinction entre "
 "&laquo;&nbsp;logiciel libre&nbsp;&raquo; et &laquo;&nbsp;graticiel&nbsp;"
@@ -1370,6 +1386,18 @@ msgstr ""
 "eux ne sont pas des logiciels libres. Voir la page <a href=\"/philosophy/"
 "words-to-avoid.fr.html#Freeware\">Termes pr&ecirc;tant &agrave; confusion, "
 "que vous devriez &eacute;viter</a> pour plus d'explications."
+
+# type: Content of: <ol><li>
+msgid ""
+"<a name=\"f8\"></a>I think I was mistaken in saying that proprietary "
+"software was the most common basis for making money in software.  It seems "
+"that actually the most common business model was and is development of "
+"custom software.  That does not offer the possibility of collecting rents, "
+"so the business has to keep doing real work in order to keep getting "
+"income.  The custom software business would continue to exist, more or less "
+"unchanged, in a free software world.  Therefore, I no longer expect that "
+"most paid programmers would earn less in a free software world."
+msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.

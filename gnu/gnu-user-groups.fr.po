@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-user-groups.html\n"
-"POT-Creation-Date: 2009-09-17 16:25-0300\n"
+"POT-Creation-Date: 2010-01-23 16:25-0500\n"
 "PO-Revision-Date: 2009-10-28 16:50+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -150,20 +150,22 @@ msgstr ""
 "s&nbsp;:"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "<a href=\"#GLArgentina\">Argentina</a> - <a href=\"#GLBrazil\">Brazil</a> - "
-"<a href=\"#GLChile\">Chile</a> - <a href=\"#GLChina\">China</a> - <a href="
-"\"#GLColombia\">Colombia</a> - <a href=\"#GLEgypt\">Egypt</a> - <a href="
-"\"#GLFinland\">Finland</a> - <a href=\"#GLFrance\">France</a> - <a href="
-"\"#GLGermany\">Germany</a> - <a href=\"#GLGreenland\">Greenland</a> - <a "
-"href=\"#GLIceland\">Iceland</a> - <a href=\"#GLIndia\">India</a> - <a href="
-"\"#GLItaly\">Italy</a> - <a href=\"#GLLebanon\">Lebanon</a> - <a href="
-"\"#GLMadagascar\">Madagascar</a> - <a href=\"#GLMexico\">Mexico</a> - <a "
-"href=\"#GLNewZealand\">New Zealand</a> - <a href=\"#GLPeru\">Peru</a> - <a "
-"href=\"#GLPhilippines\">Philippines</a> - <a href=\"#GLPortugal\">Portugal</"
-"a> - <a href=\"#GLSingapore\">Singapore</a> - <a href=\"#GLSpain\">Spain</a> "
-"- <a href=\"#GLUnitedKingdom\">United Kingdom</a> - <a href=\"#GLUnitedStates"
-"\">United States</a> - <a href=\"#GLVenezuela\">Venezuela</a>"
+"<a href=\"#GLBulgaria\">Bulgaria</a> - <a href=\"#GLChile\">Chile</a> - <a "
+"href=\"#GLChina\">China</a> - <a href=\"#GLColombia\">Colombia</a> - <a href="
+"\"#GLEgypt\">Egypt</a> - <a href=\"#GLFinland\">Finland</a> - <a href="
+"\"#GLFrance\">France</a> - <a href=\"#GLGermany\">Germany</a> - <a href="
+"\"#GLGreenland\">Greenland</a> - <a href=\"#GLIceland\">Iceland</a> - <a "
+"href=\"#GLIndia\">India</a> - <a href=\"#GLItaly\">Italy</a> - <a href="
+"\"#GLLebanon\">Lebanon</a> - <a href=\"#GLMadagascar\">Madagascar</a> - <a "
+"href=\"#GLMexico\">Mexico</a> - <a href=\"#GLNewZealand\">New Zealand</a> - "
+"<a href=\"#GLPeru\">Peru</a> - <a href=\"#GLPhilippines\">Philippines</a> - "
+"<a href=\"#GLPortugal\">Portugal</a> - <a href=\"#GLSingapore\">Singapore</"
+"a> - <a href=\"#GLSpain\">Spain</a> - <a href=\"#GLUnitedKingdom\">United "
+"Kingdom</a> - <a href=\"#GLUnitedStates\">United States</a> - <a href="
+"\"#GLVenezuela\">Venezuela</a>"
 msgstr ""
 "<a href=\"#GLArgentina\">Argentine</a> - <a href=\"#GLBrazil\">Brésil</a> - "
 "<a href=\"#GLChile\">Chili</a> - <a href=\"#GLChina\">Chine</a> - <a href="
@@ -303,6 +305,15 @@ msgid ""
 msgstr ""
 "<a href=\"http://www.myjavaserver.com/~projetolibelula\">Projeto Lib&eacute;"
 "lula</a>"
+
+# type: Content of: <h4>
+msgid "Bulgaria"
+msgstr ""
+
+# type: Content of: <ul><li>
+#, fuzzy
+msgid "<a href=\"http://gug-bg.nongnu.org\">Bulgarian GNU Users Group</a>"
+msgstr "<a href=\"http://www.eglug.org/\">Egyptian GNU/Linux Users Group</a>"
 
 # type: Content of: <h4>
 msgid "Chile"
@@ -765,14 +776,6 @@ msgstr ""
 
 # type: Content of: <ul><li>
 msgid ""
-"<a href=\"http://www.geocities.com/kansas_gnu_user_group\">Kansas GNU User "
-"Group</a>"
-msgstr ""
-"<a href=\"http://www.geocities.com/kansas_gnu_user_group\">Kansas GNU User "
-"Group</a>"
-
-# type: Content of: <ul><li>
-msgid ""
 "<a href=\"http://yhslug.tux.org\">Yorktown High School Libre Users Group</a>"
 msgstr ""
 "<a href=\"http://yhslug.tux.org\">Yorktown High School Libre Users Group</a>"
@@ -784,16 +787,6 @@ msgid ""
 msgstr ""
 "<a href=\"http://www.nmglug.org/\">New Mexico GNU/Linux User Group, Santa "
 "Fe, New Mexico</a>"
-
-# type: Content of: <ul><li>
-msgid ""
-"Iowa Northwest GNU/Linux All-purpose Communal Experience (GNULACEIANW): "
-"Contact Mark H. Huddleston, <a href=\"mailto:gnulaceianw@fastmail.fm\">&lt;"
-"gnulaceianw@fastmail.fm&gt;</a>"
-msgstr ""
-"Iowa Northwest GNU/Linux All-purpose Communal Experience (GNULACEIANW): "
-"Contact Mark H. Huddleston, <a href=\"mailto:gnulaceianw@fastmail.fm\">&lt;"
-"gnulaceianw@fastmail.fm&gt;</a>"
 
 # type: Content of: <ul><li>
 msgid ""
@@ -812,14 +805,6 @@ msgid ""
 msgstr ""
 "<a href=\"http://www.cabrillo.edu/associations/clug\">Cabrillo College GNU/"
 "Linux Users Group</a>, Aptos, CA."
-
-# type: Content of: <ul><li>
-msgid "<a href=\"http://gnuwatch.com/\">GnuWatch</a>, Fountain, CO."
-msgstr "<a href=\"http://gnuwatch.com/\">GnuWatch</a>, Fountain, CO."
-
-# type: Content of: <ul><li>
-msgid "<a href=\"http://www.nongnu.org/gug-la/\">GUG LA</a>"
-msgstr "<a href=\"http://www.nongnu.org/gug-la/\">GUG LA</a>"
 
 # type: Content of: <h4>
 msgid "Venezuela"
@@ -939,3 +924,29 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://www.geocities.com/kansas_gnu_user_group\">Kansas GNU "
+#~ "User Group</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.geocities.com/kansas_gnu_user_group\">Kansas GNU "
+#~ "User Group</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "Iowa Northwest GNU/Linux All-purpose Communal Experience (GNULACEIANW): "
+#~ "Contact Mark H. Huddleston, <a href=\"mailto:gnulaceianw@fastmail.fm"
+#~ "\">&lt;gnulaceianw@fastmail.fm&gt;</a>"
+#~ msgstr ""
+#~ "Iowa Northwest GNU/Linux All-purpose Communal Experience (GNULACEIANW): "
+#~ "Contact Mark H. Huddleston, <a href=\"mailto:gnulaceianw@fastmail.fm"
+#~ "\">&lt;gnulaceianw@fastmail.fm&gt;</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"http://gnuwatch.com/\">GnuWatch</a>, Fountain, CO."
+#~ msgstr "<a href=\"http://gnuwatch.com/\">GnuWatch</a>, Fountain, CO."
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"http://www.nongnu.org/gug-la/\">GUG LA</a>"
+#~ msgstr "<a href=\"http://www.nongnu.org/gug-la/\">GUG LA</a>"

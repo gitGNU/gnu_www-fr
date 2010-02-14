@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: provide.html\n"
-"POT-Creation-Date: 2009-10-17 04:25-0300\n"
+"POT-Creation-Date: 2010-01-18 04:26-0500\n"
 "PO-Revision-Date: 2009-10-28 17:25+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -43,9 +43,10 @@ msgid "What We Provide"
 msgstr "Ce que nous proposons"
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "What the FSF provides to computer users, above all, is the chance to use a "
-"computer in freedom &mdash; using <a href=\"/philosophy/free-sw.html\">free "
+"computer in freedom&mdash;using <a href=\"/philosophy/free-sw.html\">free "
 "software</a>."
 msgstr ""
 "Ce que la FSF propose avant tout aux utilisateurs d'ordinateurs, c'est la "
@@ -53,12 +54,15 @@ msgstr ""
 "href=\"/philosophy/free-sw.fr.html\">logiciels libres</a>."
 
 # type: Content of: <p>
+#, fuzzy
 msgid ""
 "Since 1985 the FSF has sponsored the development of the free software "
 "operating system <a href=\"/gnu/gnu-history.html\">GNU</a>.  The <a href=\"/"
 "gnu/linux-and-gnu.html\">GNU/Linux</a> variant of GNU is already widely "
 "used.  The GNU/Hurd system, based on our <a href=\"/software/hurd/hurd.html"
-"\">GNU Hurd</a> kernel, is ready for wizards and enthusiasts to try."
+"\">GNU Hurd</a> kernel, is ready for wizards and enthusiasts to try.  A wide "
+"variety of GNU software in general <a href=\"/software/software."
+"html#HowToGetSoftware\">is available for download</a>."
 msgstr ""
 "Depuis 1985, la FSF a sponsoris&eacute; le d&eacute;veloppement du "
 "syst&egrave;me d'exploitation libre <a href=\"/gnu/gnu-history.fr.html"
@@ -69,7 +73,8 @@ msgstr ""
 "sorciers et les enthousiastes."
 
 # type: Content of: <p>
-msgid "More concretely, the things you can obtain from the FSF include&hellip;"
+#, fuzzy
+msgid "Things you can obtain directly from the FSF include:"
 msgstr ""
 "Plus concr&egrave;tement, les choses que vous pouvez obtenir de la FSF "
 "sont&hellip;"
@@ -101,26 +106,6 @@ msgstr ""
 "<a href=\"http://www.gnu.org/gear/gear.html\">T-shirts et autres accessoires "
 "GNU</a>"
 
-# type: Content of: <p>
-msgid "There are various ways to get the software:"
-msgstr "Il existe plusieurs fa&ccedil;ons d'obtenir les logiciels&nbsp;:"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"/order/deluxe.html\">Deluxe distributions</a>"
-msgstr "<a href=\"/order/deluxe.html\">Distributions Deluxe</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"http://order.fsf.org/\">On-line order form</a>"
-msgstr "<a href=\"http://order.fsf.org/\">Formulaire de commande en ligne</a>"
-
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"/software/software.html#HowToGetSoftware\">Other ways to get GNU "
-"Software</a>"
-msgstr ""
-"<a href=\"/software/software.fr.html#HowToGetSoftware\">Autres moyens "
-"d'obtenir les logiciels GNU</a>"
-
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
@@ -147,9 +132,11 @@ msgstr ""
 "a>."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
-"2006, 2008 <a href=\"http://www.fsf.org\">Free Software Foundation</a>, Inc."
+"2006, 2008, 2009, 2010 <a href=\"http://www.fsf.org\">Free Software "
+"Foundation</a>, Inc."
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2008 <a href=\"http://www.fsf.org\">Free Software Foundation</a>, Inc."
@@ -183,3 +170,24 @@ msgid ""
 msgstr ""
 "<a href=\"/server/standards/README.fr.translations.html\">Traductions</a> de "
 "cette page"
+
+# type: Content of: <p>
+#~ msgid "There are various ways to get the software:"
+#~ msgstr "Il existe plusieurs fa&ccedil;ons d'obtenir les logiciels&nbsp;:"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"/order/deluxe.html\">Deluxe distributions</a>"
+#~ msgstr "<a href=\"/order/deluxe.html\">Distributions Deluxe</a>"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"http://order.fsf.org/\">On-line order form</a>"
+#~ msgstr ""
+#~ "<a href=\"http://order.fsf.org/\">Formulaire de commande en ligne</a>"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"/software/software.html#HowToGetSoftware\">Other ways to get "
+#~ "GNU Software</a>"
+#~ msgstr ""
+#~ "<a href=\"/software/software.fr.html#HowToGetSoftware\">Autres moyens "
+#~ "d'obtenir les logiciels GNU</a>"

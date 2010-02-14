@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: philosophy.html\n"
-"POT-Creation-Date: 2009-11-12 16:26-0500\n"
+"POT-Creation-Date: 2010-01-11 16:25-0500\n"
 "PO-Revision-Date: 2009-11-29 17:45+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -50,6 +50,15 @@ msgstr ""
 "libres et le projet GNU."
 
 # type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<a href=\"/philosophy/selling-exceptions.html\">On Selling Exceptions to the "
+"GNU GPL</a>"
+msgstr ""
+"<a href=\"/philosophy/selling.fr.html\">Vendre des logiciels libres</a> ce "
+"n'est pas un problème&nbsp;!"
+
+# type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/lest-codeplex-perplex.html\">Lest CodePlex perplex</a>"
 msgstr ""
@@ -79,11 +88,6 @@ msgid ""
 msgstr ""
 "<a href=\"/philosophy/pirate-party.fr.html\">Pourquoi les propositions du "
 "Parti Pirate suédois se retournent contre le logiciel libre</a>"
-
-# type: Content of: <ul><li>
-msgid "<a href=\"/philosophy/javascript-trap.html\">The Javascript Trap</a>"
-msgstr ""
-"<a href=\"/philosophy/javascript-trap.fr.html\">Le piège JavaScript</a>"
 
 # type: Content of: <h2>
 msgid "About Free Software"
@@ -258,9 +262,10 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#, fuzzy
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
-"2006, 2007, 2008, 2009 Free Software Foundation, Inc."
+"2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc."
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008, 2009 Free Software Foundation, Inc."
@@ -289,3 +294,8 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li>
+#~ msgid "<a href=\"/philosophy/javascript-trap.html\">The Javascript Trap</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/javascript-trap.fr.html\">Le piège JavaScript</a>"
