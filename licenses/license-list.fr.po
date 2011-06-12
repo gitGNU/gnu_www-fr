@@ -11,6 +11,7 @@ msgstr ""
 "PO-Revision-Date: 2010-03-21 16:00+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -575,11 +576,11 @@ msgstr ""
 # type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"ModifiedBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#5"
-"\"> Modified BSD license</a>"
+"<a id=\"ModifiedBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2."
+"html#5\"> Modified BSD license</a>"
 msgstr ""
-"<a id=\"ModifiedBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#5"
-"\">Modified BSD License</a>"
+"<a id=\"ModifiedBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2."
+"html#5\">Modified BSD License</a>"
 
 # type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
@@ -1309,11 +1310,13 @@ msgstr ""
 # type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"Unicode\" href=\"http://www.unicode.org/copyright.html#Exhibit1"
-"\">Unicode, Inc. License Agreement for Data Files and Software</a>"
+"<a id=\"Unicode\" href=\"http://www.unicode.org/copyright."
+"html#Exhibit1\">Unicode, Inc. License Agreement for Data Files and Software</"
+"a>"
 msgstr ""
-"<a id=\"Unicode\" href=\"http://www.unicode.org/copyright.html#Exhibit1"
-"\">Unicode, Inc. License Agreement for Data Files and Software</a>"
+"<a id=\"Unicode\" href=\"http://www.unicode.org/copyright."
+"html#Exhibit1\">Unicode, Inc. License Agreement for Data Files and Software</"
+"a>"
 
 # type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
@@ -1479,11 +1482,11 @@ msgstr ""
 # type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"X11License\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3"
-"\"> X11 License</a>"
+"<a id=\"X11License\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2."
+"html#3\"> X11 License</a>"
 msgstr ""
-"<a id=\"X11License\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3"
-"\">X11 License</a>"
+"<a id=\"X11License\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2."
+"html#3\">X11 License</a>"
 
 # type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
@@ -1668,8 +1671,8 @@ msgid ""
 "<a id=\"apache1.1\" href=\"http://www.apache.org/licenses/LICENSE-1.1\"> "
 "Apache License, Version 1.1</a>"
 msgstr ""
-"<a id=\"apache1.1\" href=\"http://www.apache.org/licenses/LICENSE-1.1"
-"\">Apache License, version 1.1</a>"
+"<a id=\"apache1.1\" href=\"http://www.apache.org/licenses/"
+"LICENSE-1.1\">Apache License, version 1.1</a>"
 
 # type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
@@ -1753,11 +1756,11 @@ msgstr ""
 # type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"OriginalBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#6"
-"\"> Original BSD license</a>"
+"<a id=\"OriginalBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2."
+"html#6\"> Original BSD license</a>"
 msgstr ""
-"<a id=\"OriginalBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#6"
-"\">Original BSD license</a>"
+"<a id=\"OriginalBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2."
+"html#6\">Original BSD license</a>"
 
 # type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
@@ -1929,11 +1932,11 @@ msgstr ""
 # type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
-"The Eclipse Public License is similar to the <a href=\"#CommonPublicLicense10"
-"\">Common Public License</a>, and our comments on the CPL apply equally to "
-"the EPL.  The only change is that the EPL removes the broader patent "
-"retaliation language regarding patent infringement suits specifically "
-"against Contributors to the EPL'd program."
+"The Eclipse Public License is similar to the <a href="
+"\"#CommonPublicLicense10\">Common Public License</a>, and our comments on "
+"the CPL apply equally to the EPL.  The only change is that the EPL removes "
+"the broader patent retaliation language regarding patent infringement suits "
+"specifically against Contributors to the EPL'd program."
 msgstr ""
 "La Licence Eclipse Public est similaire &agrave; la licence <a href="
 "\"#CommonPublicLicense10\">Common Public License</a>, et nos commentaires "
@@ -1970,10 +1973,10 @@ msgid ""
 "This is a free software license.  By itself, it has a copyleft comparable to "
 "the GPL's.  However, it allows recipients to distribute the work under the "
 "terms of other selected licenses, and some of those&mdash;the <a href=\"#EPL"
-"\">Eclipse Public License</a> and the <a href=\"#CommonPublicLicense10"
-"\">Common Public License</a> in particular&mdash;only provide a weaker "
-"copyleft.  Thus, developers can't rely on this license to provide a strong "
-"copyleft."
+"\">Eclipse Public License</a> and the <a href="
+"\"#CommonPublicLicense10\">Common Public License</a> in particular&mdash;"
+"only provide a weaker copyleft.  Thus, developers can't rely on this license "
+"to provide a strong copyleft."
 msgstr ""
 "C'est une licence de logiciel libre. En soi, elle a un copyleft comparable à "
 "celui de la  GPL. Cependant, elle permet aux destinataires de distribuer "
@@ -2549,8 +2552,8 @@ msgstr ""
 # type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"PythonOld\" href=\"http://www.handle.net/python_licenses/python1.6_9-"
-"5-00.html\"> License of Python 1.6b1 through 2.0 and 2.1</a>"
+"<a id=\"PythonOld\" href=\"http://www.handle.net/python_licenses/"
+"python1.6_9-5-00.html\"> License of Python 1.6b1 through 2.0 and 2.1</a>"
 msgstr ""
 "<a name=\"PythonOld\" href=\"http://www.handle.net/python_licenses/"
 "python1.6_9-5-00.html\">La licence de Python version 1.6b1 jusqu'à 2.0 et "
@@ -3231,8 +3234,8 @@ msgid ""
 "ksh93 is now released under the <a href=\"#CommonPublicLicense10\">Common "
 "Public License</a>."
 msgstr ""
-"ksh93 est maintenant publi&eacute; sous <a href=\"#CommonPublicLicense10"
-"\">Common Public License</a>."
+"ksh93 est maintenant publi&eacute; sous <a href="
+"\"#CommonPublicLicense10\">Common Public License</a>."
 
 # type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
@@ -4521,11 +4524,11 @@ msgstr "Traductions de cette page"
 
 # type: Content of: <dl><dt>
 #~ msgid ""
-#~ "<a href=\"http://www.osedu.org/licenses/ECL-2.0/\" id=\"ECL2.0"
-#~ "\">Educational Community License 2.0</a>"
+#~ "<a href=\"http://www.osedu.org/licenses/ECL-2.0/\" id="
+#~ "\"ECL2.0\">Educational Community License 2.0</a>"
 #~ msgstr ""
-#~ "<a href=\"http://www.osedu.org/licenses/ECL-2.0/\" id=\"ECL2.0"
-#~ "\">Educational Community License 2.0</a>"
+#~ "<a href=\"http://www.osedu.org/licenses/ECL-2.0/\" id="
+#~ "\"ECL2.0\">Educational Community License 2.0</a>"
 
 # type: Content of: <dl><dt>
 #~ msgid ""

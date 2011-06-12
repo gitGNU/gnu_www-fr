@@ -10,6 +10,7 @@ msgstr ""
 "PO-Revision-Date: 2009-07-18 16:10+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -85,9 +86,9 @@ msgstr ""
 "Pour sp&eacute;cifier que votre traduction n'est pas officielle, veuillez "
 "ajoutez le texte suivant au d&eacute;but, &agrave; la fois en anglais et "
 "dans la langue de la traduction. Remplacez <em>language</em> par le nom de "
-"cette langue, et «&nbsp;GNU General Public License&nbsp;» et «&nbsp;GPL&nbsp;» "
-"par le nom et l'abréviation de la licence que vous traduisez, s'il ne s'agit "
-"pas de la GPL&nbsp;:"
+"cette langue, et «&nbsp;GNU General Public License&nbsp;» et «&nbsp;"
+"GPL&nbsp;» par le nom et l'abréviation de la licence que vous traduisez, "
+"s'il ne s'agit pas de la GPL&nbsp;:"
 
 # type: Content of: <blockquote><p>
 #. TRANSLATORS: If you translate this paragraph, retain the English
@@ -271,8 +272,8 @@ msgid ""
 "<code>[de]</code> <a href=\"http://www.gnu.de/documents/gpl-3.0.de.html\"> "
 "German</a> translation of the GPL"
 msgstr ""
-"<code>[de]</code> Traduction en <a href=\"http://www.gnu.de/documents/gpl-"
-"3.0.de.html\">allemand</a> de la GPL"
+"<code>[de]</code> Traduction en <a href=\"http://www.gnu.de/documents/"
+"gpl-3.0.de.html\">allemand</a> de la GPL"
 
 # type: Content of: <ul><li>
 #. type: Content of: <ul><li>
@@ -298,8 +299,8 @@ msgid ""
 "<code>[it]</code> <a href=\"http://katolaz.homeunix.net/gplv3\"> Italian</a> "
 "translation of the GPL"
 msgstr ""
-"<code>[it]</code> Traduction en <a href=\"http://katolaz.homeunix.net/gplv3"
-"\">italien</a> de la GPL"
+"<code>[it]</code> Traduction en <a href=\"http://katolaz.homeunix.net/"
+"gplv3\">italien</a> de la GPL"
 
 # type: Content of: <ul><li>
 #. type: Content of: <ul><li>
@@ -364,8 +365,8 @@ msgstr ""
 #. type: Content of: <ul><li>
 msgid ""
 "<code>[pt-br]</code> Brazilian Portuguese (<a href=\"http://gpl3brasil."
-"pbwiki.com/GPLv3\">1</a>), (<a href=\"http://www.fsfla.org/svnwiki/trad/GPLv3"
-"\">2</a> &mdash; effort lead by FSFLA)"
+"pbwiki.com/GPLv3\">1</a>), (<a href=\"http://www.fsfla.org/svnwiki/trad/"
+"GPLv3\">2</a> &mdash; effort lead by FSFLA)"
 msgstr ""
 "<code>[pt-br]</code> Traduction en portugais br&eacute;silien (<a href="
 "\"http://gpl3brasil.pbwiki.com/GPLv3\">1</a>), (<a href=\"http://www.fsfla."
@@ -376,8 +377,8 @@ msgstr ""
 msgid ""
 "<code>[ca]</code> <a href=\"http://www.softcatala.cat/wiki/GPL3\">Catalan</a>"
 msgstr ""
-"<code>[ca]</code> Traduction en <a href=\"http://www.softcatala.cat/wiki/GPL3"
-"\">catalan</a>"
+"<code>[ca]</code> Traduction en <a href=\"http://www.softcatala.cat/wiki/"
+"GPL3\">catalan</a>"
 
 # type: Content of: <ul><li>
 #. type: Content of: <ul><li>
@@ -491,8 +492,8 @@ msgid ""
 "<code>[de]</code> <a href=\"http://www.gnu.de/documents/lgpl-3.0.de.html\"> "
 "German</a> translation of the LGPL"
 msgstr ""
-"<code>[de]</code> Traduction en <a href=\"http://www.gnu.de/documents/lgpl-"
-"3.0.de.html\">allemand</a> de la LGPL"
+"<code>[de]</code> Traduction en <a href=\"http://www.gnu.de/documents/"
+"lgpl-3.0.de.html\">allemand</a> de la LGPL"
 
 # type: Content of: <ul><li>
 #. type: Content of: <ul><li>
@@ -809,13 +810,13 @@ msgstr "Traductions de cette page"
 
 # type: Content of: <ul><li>
 #~ msgid ""
-#~ "<code>[tr]</code> <a href=\"http://tr.pardus-wiki.org/index.php?title=%C3%"
-#~ "87eviri:GNU_GPL_s%C3%BCr%C3%BCm_3_Gayr%C4%B1resm%C3%AE_%C3%87evirisi&amp;"
-#~ "action=edit\">Turkish</a>"
+#~ "<code>[tr]</code> <a href=\"http://tr.pardus-wiki.org/index.php?title="
+#~ "%C3%87eviri:GNU_GPL_s%C3%BCr%C3%BCm_3_Gayr%C4%B1resm%C3%AE_"
+#~ "%C3%87evirisi&amp;action=edit\">Turkish</a>"
 #~ msgstr ""
 #~ "<code>[tr]</code> Traduction en <a href=\"http://tr.pardus-wiki.org/index."
-#~ "php?title=%C3%87eviri:GNU_GPL_s%C3%BCr%C3%BCm_3_Gayr%C4%B1resm%C3%AE_%C3%"
-#~ "87evirisi&amp;action=edit\">turc</a>"
+#~ "php?title=%C3%87eviri:GNU_GPL_s%C3%BCr%C3%BCm_3_Gayr%C4%B1resm%C3%AE_"
+#~ "%C3%87evirisi&amp;action=edit\">turc</a>"
 
 # type: Content of: <ul><li>
 #~ msgid ""
