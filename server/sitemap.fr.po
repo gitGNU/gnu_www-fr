@@ -2,13 +2,14 @@
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the sitemap.html page.
 # FIRST AUTHOR Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+# Denis Barbier <bouzim AT gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
 "POT-Creation-Date: 2011-01-19 12:29-0500\n"
-"PO-Revision-Date: 2009-04-18 20:09+0100\n"
-"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"PO-Revision-Date: 2011-06-12 15:43+0200\n"
+"Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -531,13 +532,11 @@ msgstr ""
 "logiciels GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
-#, fuzzy
-#| msgid "<a href=\"/evaluation/\">Evaluation Guidelines for GNU Software</a>"
 msgid ""
 "<a href=\"/help/evaluation.html\">Evaluation Guidelines for GNU Software</a>"
 msgstr ""
-"<a href=\"/evaluation/\">Recommandations d'évaluation pour les logiciels "
-"GNU</a>"
+"<a href=\"/help/evaluation.html\">Recommandations d'évaluation pour les "
+"logiciels GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/prep/\">GNU Project Information</a>"
@@ -605,16 +604,12 @@ msgstr ""
 "aider&nbsp;!"
 
 # type: Content of: <ul><li><ul><li>
-#, fuzzy
-#| msgid "<a href=\"/award/\">Awards</a>"
 msgid "<a href=\"/award/\">Awards Archive</a>"
-msgstr "<a href=\"/award/\">Distinctions</a>"
+msgstr "<a href=\"/award/\">Archives des distinctions</a>"
 
 # type: Content of: <ul><li><ul><li>
-#, fuzzy
-#| msgid "<a href=\"/award/\">Awards</a>"
 msgid "<a href=\"/award/2001/\">Award 2001</a>"
-msgstr "<a href=\"/award/\">Distinctions</a>"
+msgstr "<a href=\"/award/\">Distinctions 2001</a>"
 
 # type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/wwwhurdes/\">Old Hurd website</a>"
@@ -622,7 +617,7 @@ msgstr "<a href=\"/wwwhurdes/\">Ancien site Web de Hurd</a>"
 
 # type: Content of: <ul><li>
 msgid "<a href=\"/help/help.html\">Helping the GNU Project</a>"
-msgstr "<a href=\"/help/help.de.html\">Aider le Projet GNU</a>"
+msgstr "<a href=\"/help/help.fr.html\">Aider le Projet GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
 msgid "Please <a href=\"/order/order.html\">Buy from the FSF</a>"
@@ -735,10 +730,8 @@ msgid "International FSF"
 msgstr "La FSF à l'international"
 
 # type: Content of: <ul><li><ul><li>
-#, fuzzy
-#| msgid "<a href=\"http://www.fsfeurope.org\">FSF Europe</a>"
 msgid "<a href=\"http://www.fsfe.org\">FSF Europe</a>"
-msgstr "<a href=\"http://www.fsfeurope.org\">FSF Europe</a>"
+msgstr "<a href=\"http://www.fsfe.org\">FSF Europe</a>"
 
 # type: Content of: <ul><li><ul><li>
 msgid "<a href=\"http://fsfla.org\">FSF Latin America</a>"

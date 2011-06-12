@@ -1,21 +1,21 @@
 # French translation of http://www.gnu.org/server/whatsnew.html
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the whatsnew.html page.
-# CÃ©dric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+# Denis Barbier <bouzim AT gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: whatsnew.html\n"
 "POT-Creation-Date: 2011-02-12 12:25-0500\n"
-"PO-Revision-Date: 2009-08-23 18:41+0100\n"
-"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"PO-Revision-Date: 2011-06-12 15:57+0200\n"
+"Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid ""
 "What's New in and about the GNU Project - GNU Project - Free Software "
@@ -24,68 +24,43 @@ msgstr ""
 "Quoi de neuf à propos du Projet GNU&nbsp;? - GNU Project - Free Software "
 "Foundation (FSF)"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "What's New in and about the GNU Project"
 msgstr "Quoi de neuf à propos du Projet GNU&nbsp;?"
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
-#, fuzzy
-#| msgid ""
-#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
-#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
 "ways to contact</a> the FSF."
 msgstr ""
-"Pour les questions et requ&ecirc;tes relatives &agrave; la FSF &amp; "
-"GNU&nbsp;: <a href=\"mailto:gnu&#64;gnu.org\"><em>gnu&#64;gnu.org</em></a>. "
-"Autres <a href=\"/home.fr.html#ContactInfo\">moyens pour contacter</a> la "
-"FSF. Merci d'envoyer des commentaires sur cette page web &agrave; <a href="
-"\"mailto:webmasters&#64;gnu.org\"><em>webmasters&#64;gnu.org</em></a>"
+"Pour les questions et requêtes relatives à la FSF &amp; GNU&nbsp;: <a href="
+"\"mailto:gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi d'autres <a "
+"href=\"/contact/contact.fr.html\">moyens pour contacter</a> la FSF."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
-#, fuzzy
-#| msgid ""
-#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
-#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 msgstr ""
-"Pour les questions et requ&ecirc;tes relatives &agrave; la FSF &amp; "
-"GNU&nbsp;: <a href=\"mailto:gnu&#64;gnu.org\"><em>gnu&#64;gnu.org</em></a>. "
-"Autres <a href=\"/home.fr.html#ContactInfo\">moyens pour contacter</a> la "
-"FSF. Merci d'envoyer des commentaires sur cette page web &agrave; <a href="
-"\"mailto:webmasters&#64;gnu.org\"><em>webmasters&#64;gnu.org</em></a>"
+"Merci d'envoyer des commentaires sur cette page web à <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
 "translations of this article."
 msgstr ""
-"Veuillez consulter <a href=\"/server/standards/README.translations.fr.html"
-"\">Traductions de README</a> pour des informations sur la coordination et la "
-"soumission de traduction de cet article."
+"Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html"
+"\">README sur les traductions</a> pour des informations sur la coordination "
+"et la soumission de traduction de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
@@ -94,7 +69,6 @@ msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008, 2009 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
@@ -104,52 +78,38 @@ msgstr ""
 "est permise sur n'importe quel support d'archivage, pourvu que cette notice "
 "soit pr&eacute;serv&eacute;e."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
-"Traduction&nbsp;: C&eacute;dric Corazza.<br /> R&eacute;vision&nbsp;: <a "
-"href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+"Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
+"trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
-msgstr "Derni&egrave;re mise-&agrave;-jour&nbsp;:"
+msgstr "Dernière mise-à-jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
 
-# type: Content of: <p>
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"/events.tmp.html\"><strong>Coming Events</strong></a> | <a href="
-#| "\"/keepingup.html\"><strong>Keeping Up With GNU/FSF</strong></a> | <a "
-#| "href=\"/press/press.html\"><strong>Press Information</strong></a> and <a "
-#| "href=\"/press/press.html#releases\"><strong>Releases</strong></a>"
 msgid ""
 "<a href=\"http://www.fsf.org/events\"><strong>Coming Events</strong></a> | "
 "<a href=\"/keepingup.html\"><strong>Keeping Up With GNU/FSF</strong></a> | "
 "<a href=\"/press/press.html\"><strong>Press Information</strong></a> and <a "
 "href=\"/press/press.html#releases\"><strong>Releases</strong></a>"
 msgstr ""
-"<a href=\"/events.tmp.html\"><strong>Événemants à venir</strong></a> | <a "
-"href=\"/keepingup.fr.html\"><strong>Restez informé sur GNU et la FSF</"
-"strong></a> | <a href=\"/press/press.html\"><strong>Presse</strong></a> et "
-"<a href=\"/press/press.html#releases\"><strong>Publications</strong></a>"
+"<a href=\"http://www.fsf.org/events\"><strong>Événements à venir</strong></"
+"a> | <a href=\"/keepingup.fr.html\"><strong>Restez informé sur GNU et la "
+"FSF</strong></a> | <a href=\"/press/press.html\"><strong>Presse</strong></a> "
+"et <a href=\"/press/press.html#releases\"><strong>Publications</strong></a>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "27 January 2009"
 msgid "26 January 2011"
-msgstr "27 janvier 2009"
+msgstr "26 janvier 2011"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "A first installment of a <a href=\"/bulletins/gnustatus-2011-01.html\">GNU "
@@ -159,14 +119,10 @@ msgid ""
 "bulletins.html\">More info</a>."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "1 February 2009"
 msgid "9 December 2010"
-msgstr "1er février 2009"
+msgstr "9 décembre 2010"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Savannah was down for a few days recently due to a password compromise and "
@@ -174,14 +130,10 @@ msgid ""
 "web pages.  <a href=\"http://savannah.gnu.org/news/\">Full news items</a>."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "1 February 2009"
 msgid "16 November 2010"
-msgstr "1er février 2009"
+msgstr "16 novembre 2010"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "US citizens: Stop the Internet blacklist bill. Sign the petition at <a href="
@@ -191,14 +143,10 @@ msgid ""
 "fsf.org</a> for more information."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "1 February 2009"
 msgid "29 September 2010"
-msgstr "1er février 2009"
+msgstr "29 septembre 2010"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Interested in free video formats? We need your help! <a href=\"http://www."
@@ -208,14 +156,10 @@ msgid ""
 "transcode their videos to free formats like WebM and Ogg Theora."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "23 July 2009"
 msgid "30 June 2010"
-msgstr "23 juillet 2009"
+msgstr "30 juin 2010"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "The June issue of the <cite>Free Software Supporter</cite> is out -- you can "
@@ -224,14 +168,10 @@ msgid ""
 "\">subscribe</a> to receive future monthly issues by e-mail."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "25 March 2009"
 msgid "25 March 2010"
-msgstr "25 mars 2009"
+msgstr "25 mars 2010"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "GNU urges people working on free software to follow standards and guidelines "
@@ -240,14 +180,10 @@ msgid ""
 "html\">the GNU Accessibility Statement</a>."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "25 March 2009"
 msgid "20 March 2010"
-msgstr "25 mars 2009"
+msgstr "20 mars 2010"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "FSF President Richard Stallman explains the dangers of Software as a Service "
@@ -255,14 +191,10 @@ msgid ""
 "server-really-serve.html\">a new article</a>."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "27 January 2009"
 msgid "2 January 2010"
-msgstr "27 janvier 2009"
+msgstr "2 janvier 2010"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "All packages using <a href=\"/software/automake/\">GNU Automake</a> to "
@@ -271,14 +203,10 @@ msgid ""
 "gmane.org/gmane.comp.sysutils.autotools.announce/131\">the problem</a>."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "1 February 2009"
 msgid "31 December 2009"
-msgstr "1er février 2009"
+msgstr "31 décembre 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "The FSF is hosting a GNU Hackers' Meeting for GNU maintainers and "
@@ -287,20 +215,11 @@ msgid ""
 "LibrePlanet2010/GNUHackersMeeting\">Read the details and RSVP.</a>"
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "23 July 2009"
 msgstr "23 juillet 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
-#, fuzzy
-#| msgid ""
-#| "FSF president Richard Stallman explains the unintended interactions "
-#| "between the Swedish Pirate Party's platform and free software -- and "
-#| "proposes a solution -- in his new article, <a href=\"http://www.gnu.org/"
-#| "philosophy/pirate-party.html\">\"How the Swedish Pirate Party Platform "
-#| "Backfires on Free Software\"</a>."
 msgid ""
 "FSF president Richard Stallman explains the unintended interactions between "
 "the Swedish Pirate Party's platform and free software -- and proposes a "
@@ -311,16 +230,14 @@ msgstr ""
 "Le président de la FSF Richard Stallman explique les interactions non-"
 "désirées entre la plateforme du Parti pirate suédois et les logiciels libres "
 "&mdash; et propose une solution &mdash; dans son nouvel article, <a href="
-"\"http://www.gnu.org/philosophy/pirate-party.fr.html\">«&nbsp;Pourquoi les "
-"propositions du Parti Pirate suédois se retournent contre le logiciel "
-"libre&nbsp;»</a>."
+"\"http://www.gnu.org/philosophy/pirate-party.fr.html\">Comment les "
+"propositions du Parti Pirate suédois se retournent contre le logiciel libre</"
+"a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "27 May 2009"
 msgstr "27 mai 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Help improve Canadian copyright law! The Globe and Mail has put C-61, a "
@@ -334,7 +251,6 @@ msgstr ""
 "RewriteCanadianCopyrightLaw\">LibrePlanet</a> pour des informations pour "
 "participer."
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "The FSF is hiring a new campaigns manager, to help with GNU and to run "
@@ -347,12 +263,10 @@ msgstr ""
 "passionnantes. <a href=\"http://www.fsf.org/news/campaigns-manager\">Lire la "
 "fiche de poste etcomment postuler</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "7 May 2009"
 msgstr "7 mai 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "FSF has launched a new free software activist internship program. "
@@ -364,12 +278,10 @@ msgstr ""
 "mai. <a href=\"http://fsf.org/news/new-internship-program\">Lire l'annonce "
 "complète</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "14 April 2009"
 msgstr "14 avril 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Richard Stallman has given an interview to O'Reilly Media in which he talks "
@@ -384,12 +296,10 @@ msgstr ""
 "campagnes en cours de la FSF. <a href=\"http://www.gnu.org/philosophy/"
 "speeches-and-interview.fr.html\">Lisez l'interview ici.</a>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "25 March 2009"
 msgstr "25 mars 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "CREDIL is hosting a contest where you can win prize money for working on "
@@ -403,12 +313,10 @@ msgstr ""
 "temps. <a href=\"http://www.fsf.org/blogs/community/credil-contest-2009\">En "
 "savoir plus</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "24 March 2009"
 msgstr "24 mars 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Wietse Venema and Creative Commons were announced as winners of the annual "
@@ -421,12 +329,10 @@ msgstr ""
 "dernière. <a href=\"http://www.fsf.org/news/2008_free_software_awards\">En "
 "lire plus</a> sur leur travail et les récompenses."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "23 March 2009"
 msgstr "23 mars 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Help spring the <a href=\"http://www.gnu.org/philosophy/javascript-trap.html"
@@ -443,12 +349,10 @@ msgstr ""
 "fsf.org/news/javascript-trap\">En lire plus</a> sur cette menace à la "
 "liberté des utilisateurs et sur la façon d'aider."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "7 March 2009"
 msgstr "7 mars 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "More and more students are considering whether a university teaches computer "
@@ -463,12 +367,10 @@ msgstr ""
 "nous envoyer un courriel à <a href=\"mailto:webmasters@gnu.org"
 "\">webmasters@gnu.org</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "24 February 2009"
 msgstr "24 février 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "New Zealanders, please support the <a href=\"http://creativefreedom.org.nz/"
@@ -477,12 +379,10 @@ msgstr ""
 "Néo-zélandais, veuillez soutenir <a href=\"http://creativefreedom.org.nz/"
 "\">Creative Freedom Foundation</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "16 February 2009"
 msgstr "16 février 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Europeans, please attend <a href=\"http://www.greens-efa.org/cms/default/"
@@ -494,12 +394,10 @@ msgstr ""
 "conférence</a> sur le paquet Télécoms, appelé&nbsp;: «&nbsp;Qui veut "
 "contrôler Internet&nbsp;?&nbsp;»."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "1 February 2009"
 msgstr "1er février 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "PDF is a free format supported by free software but many PDF documents "
@@ -512,12 +410,10 @@ msgstr ""
 "apprendre plus sur les lecteurs PDF libres et leurs avantages sur <a href="
 "\"http://pdfreaders.org/\">pdfreaders.org</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "27 January 2009"
 msgstr "27 janvier 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "The FSF has published a <a href=\"/licenses/gcc-exception.html\">new GCC "
@@ -530,12 +426,10 @@ msgstr ""
 "de <a href=\"/software/gcc/\">GCC</a> d'être mise à jour en GPLv3, et permet "
 "le développement d'un plugin pour un framework GCC."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "9 January 2009"
 msgstr "9 janvier 2009"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "With the release of the Windows 7 public beta today, the FSF is declaring "
@@ -546,72 +440,58 @@ msgstr ""
 "FSF déclare sa victoire pour sa campagne BadVista.org. <a href=\"http://"
 "badvista.org\">Lisez et partagez l'annonce complète</a>."
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "What was New in Prior Years"
 msgstr "Quelles étaient les nouvelles les années précédentes&nbsp;?"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/08whatsnew.html\"> <strong>2008</strong> </a>"
-msgstr "<a href=\"/server/08whatsnew.html\"> <strong>2008</strong> </a>"
+msgstr "<a href=\"/server/08whatsnew.fr.html\"> <strong>2008</strong> </a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/07whatsnew.html\"> <strong>2007</strong> </a>"
 msgstr "<a href=\"/server/07whatsnew.html\"> <strong>2007</strong> </a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/06whatsnew.html\"> <strong>2006</strong> </a>"
 msgstr "<a href=\"/server/06whatsnew.html\"> <strong>2006</strong> </a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/05whatsnew.html\"> <strong>2005</strong> </a>"
 msgstr "<a href=\"/server/05whatsnew.html\"> <strong>2005</strong> </a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/04whatsnew.html\"> <strong>2004</strong> </a>"
 msgstr "<a href=\"/server/04whatsnew.html\"> <strong>2004</strong> </a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/03whatsnew.html\"> <strong>2003</strong> </a>"
 msgstr "<a href=\"/server/03whatsnew.html\"> <strong>2003</strong> </a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/02whatsnew.html\"> <strong>2002</strong> </a>"
 msgstr "<a href=\"/server/02whatsnew.html\"> <strong>2002</strong> </a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/01whatsnew.html\"> <strong>2001</strong> </a>"
 msgstr "<a href=\"/server/01whatsnew.html\"> <strong>2001</strong> </a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/00whatsnew.html\"> <strong>2000</strong> </a>"
 msgstr "<a href=\"/server/00whatsnew.html\"> <strong>2000</strong> </a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/99whatsnew.html\"> <strong>1999</strong> </a>"
 msgstr "<a href=\"/server/99whatsnew.html\"> <strong>1999</strong> </a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/98whatsnew.html\"> <strong>1998</strong> </a>"
 msgstr "<a href=\"/server/98whatsnew.html\"> <strong>1998</strong> </a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/97whatsnew.html\"> <strong>1997</strong> </a>"
 msgstr "<a href=\"/server/97whatsnew.html\"> <strong>1997</strong> </a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/96whatsnew.html\"> <strong>1996</strong> </a>"
 msgstr "<a href=\"/server/96whatsnew.html\"> <strong>1996</strong> </a>"
