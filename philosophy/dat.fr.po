@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dat.html\n"
-"POT-Creation-Date: 2009-08-23 16:25-0300\n"
+"POT-Creation-Date: 2011-04-01 20:27-0300\n"
 "PO-Revision-Date: 2009-11-29 16:06+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,18 +16,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid "The Right Way to Tax DAT - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "La bonne fa&ccedil;on de taxer les DAT - GNU Project - Free Software "
 "Foundation (FSF)"
 
 # type: Content of: <h2>
-msgid "The Right Way to Tax <abbr title=\"Digital Audio Tape\">DAT</abbr>"
+#. type: Content of: <h2>
+msgid "The Right Way to Tax DAT"
 msgstr ""
-"La bonne fa&ccedil;on de taxer les <abbr title=\"Digital Audio Tape\">DAT</"
-"abbr>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "by <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
 msgstr ""
@@ -35,10 +36,24 @@ msgstr ""
 "a>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
-"<em> [This article was published in Wired magazine in 1992; the text has not "
-"been changed, but notes in square brackets have been added (with these notes "
-"emphasized for those browsers that will display emphasized text).] </em>"
+"<em>[This article does not concern software, not directly.  It concerns a "
+"parallel issue about sharing copies of music.]</em>"
+msgstr ""
+
+# type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "<em> [This article was published in Wired magazine in 1992; the text has "
+#| "not been changed, but notes in square brackets have been added (with "
+#| "these notes emphasized for those browsers that will display emphasized "
+#| "text).] </em>"
+msgid ""
+"<em>[The article was first published in Wired magazine in 1992; the text has "
+"not been changed; instead, I have added notes, in square brackets and with "
+"italics or other emphasis.]</em>"
 msgstr ""
 "<em>[Cet article a &eacute;t&eacute; publi&eacute; dans Wired magazine en "
 "1992 ; le texte n'a pas &eacute;t&eacute; modifi&eacute;, mais les notes "
@@ -46,11 +61,27 @@ msgstr ""
 "pouvant les afficher).]</em>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
-"<em> [Another approach initiated by Francis Muguet, which includes some of "
-"these ideas, is called <a href=\"http://mecenat-global.org\"> Global "
-"Patronage (in French, M&eacute;c&eacute;nat Global)</a>.  I support both "
-"solutions; that is to say, I favor adopting either one.] </em>"
+"<em>[The original article addressed the (then hypothetical) issue of sharing "
+"music using (then just appearing) digital audio tape recorders, since that "
+"is what the proposed US tax law was supposed to address.  Nowadays it could "
+"be applied to Internet file sharing.]</em>"
+msgstr ""
+
+# type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "<em> [Another approach initiated by Francis Muguet, which includes some "
+#| "of these ideas, is called <a href=\"http://mecenat-global.org\"> Global "
+#| "Patronage (in French, M&eacute;c&eacute;nat Global)</a>.  I support both "
+#| "solutions; that is to say, I favor adopting either one.] </em>"
+msgid ""
+"<em>[Another approach developed by the late Francis Muguet with my "
+"assistance, which includes some of these ideas, is called the Global "
+"Patronage system (in French, M&eacute;c&eacute;nat Global).  I support both "
+"solutions; that is to say, I favor adopting either one.]</em>"
 msgstr ""
 "<em> [Une autre approche initiée par Francis Muguet, qui contient certaines "
 "de ces idées, est appelée <a href=\"http://mecenat-global.org/index-fr.html"
@@ -58,11 +89,18 @@ msgstr ""
 "que je suis pour adopter l'une ou l'autre.] </em>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Record company magnates don't like the digital audio tape recorder "
+#| "(<abbr>DAT</abbr>), which can make perfect copies of musical recordings.  "
+#| "They fear that customers will copy music themselves, and stop buying "
+#| "prerecorded music."
 msgid ""
-"Record company magnates don't like the digital audio tape recorder "
-"(<abbr>DAT</abbr>), which can make perfect copies of musical recordings.  "
-"They fear that customers will copy music themselves, and stop buying "
-"prerecorded music."
+"Record company magnates don't like the digital audio tape recorder (<acronym "
+"title=\"Digital Audio Tape\">DAT</acronym>), which can make perfect copies "
+"of musical recordings.  They fear that customers will copy music themselves, "
+"and stop buying prerecorded music."
 msgstr ""
 "Les magnats des compagnies n'aiment pas les appareils &agrave; cassettes "
 "audio-num&eacute;riques (Digital Audio Tape), ces appareils qui peuvent "
@@ -71,14 +109,23 @@ msgstr ""
 "d'acheter des enregistrements (disques ou autres)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Threatening lawsuits, they have obtained from the manufacturers of DATs "
+#| "an agreement to pay a fee for each <abbr>DAT</abbr> unit and each "
+#| "<abbr>DAT</abbr> tape sold to consumers.  This fee is to be divided among "
+#| "various participants in the music business: musicians, composers, music "
+#| "publishers and record companies.  In addition, <abbr>DAT</abbr> "
+#| "manufacturers have agreed to cripple <abbr>DAT</abbr> units so that they "
+#| "cannot make a copy of a copy of a prerecorded piece."
 msgid ""
 "Threatening lawsuits, they have obtained from the manufacturers of DATs an "
-"agreement to pay a fee for each <abbr>DAT</abbr> unit and each <abbr>DAT</"
-"abbr> tape sold to consumers.  This fee is to be divided among various "
-"participants in the music business: musicians, composers, music publishers "
-"and record companies.  In addition, <abbr>DAT</abbr> manufacturers have "
-"agreed to cripple <abbr>DAT</abbr> units so that they cannot make a copy of "
-"a copy of a prerecorded piece."
+"agreement to pay a fee for each DAT unit and each DAT tape sold to "
+"consumers.  This fee is to be divided among various participants in the "
+"music business: musicians, composers, music publishers and record "
+"companies.  In addition, DAT manufacturers have agreed to cripple DAT units "
+"so that they cannot make a copy of a copy of a prerecorded piece."
 msgstr ""
 "Sous la menace de poursuites judiciaires, ils ont obtenu des fabricants de "
 "<abbr title=\"Digital Audio Tape\">DAT</abbr> un arrangement par lequel ces "
@@ -92,10 +139,16 @@ msgstr ""
 "d&eacute;j&agrave; enregistr&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Now the record companies have asked Congress to enact a law turning this "
+#| "fee into a tax and prohibiting manufacture of <abbr>DAT</abbr> tapedecks "
+#| "that function without imposed limitations."
 msgid ""
 "Now the record companies have asked Congress to enact a law turning this fee "
-"into a tax and prohibiting manufacture of <abbr>DAT</abbr> tapedecks that "
-"function without imposed limitations."
+"into a tax and prohibiting manufacture of DAT tapedecks that function "
+"without imposed limitations."
 msgstr ""
 "Aujourd'hui, les compagnies de disque ont demand&eacute; au Congr&egrave;s "
 "de r&eacute;diger une loi qui transforme ces &eacute;moluments en taxes et "
@@ -103,15 +156,25 @@ msgstr ""
 "\">DAT</abbr> qui fonctionnent sans les restrictions impos&eacute;es."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The stated purpose of the tax is to &ldquo;compensate&rdquo; musicians "
+#| "for copying done by individuals using <abbr>DAT</abbr>s.  However, 57 "
+#| "percent of the funds collected would go to record companies and music "
+#| "publishers&mdash;leaving less than half to the people who participate in "
+#| "the creative process.  Most of these remaining funds would go to musical "
+#| "superstars, and thus would do little to encourage musical creativity.  "
+#| "Meanwhile, <abbr>DAT</abbr> users would be unable to make full use of the "
+#| "power of <abbr>DAT</abbr> technology."
 msgid ""
 "The stated purpose of the tax is to &ldquo;compensate&rdquo; musicians for "
-"copying done by individuals using <abbr>DAT</abbr>s.  However, 57 percent of "
-"the funds collected would go to record companies and music publishers&mdash;"
-"leaving less than half to the people who participate in the creative "
-"process.  Most of these remaining funds would go to musical superstars, and "
-"thus would do little to encourage musical creativity.  Meanwhile, <abbr>DAT</"
-"abbr> users would be unable to make full use of the power of <abbr>DAT</"
-"abbr> technology."
+"copying done by individuals using DATs.  However, 57 percent of the funds "
+"collected would go to record companies and music publishers&mdash;leaving "
+"less than half to the people who participate in the creative process.  Most "
+"of these remaining funds would go to musical superstars, and thus would do "
+"little to encourage musical creativity.  Meanwhile, DAT users would be "
+"unable to make full use of the power of DAT technology."
 msgstr ""
 "L'id&eacute;e de d&eacute;part de la taxe est de &laquo;compenser&raquo; les "
 "musiciens des copies faites par des individus utilisant des <abbr title="
@@ -125,10 +188,15 @@ msgstr ""
 "faire plein usage de cette technologie."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Here is a proposal for a different system for taxing <abbr>DAT</abbr>s "
+#| "and <abbr>DAT</abbr> tape&mdash;one designed to support music rather than "
+#| "cater to vested interests."
 msgid ""
-"Here is a proposal for a different system for taxing <abbr>DAT</abbr>s and "
-"<abbr>DAT</abbr> tape&mdash;one designed to support music rather than cater "
-"to vested interests."
+"Here is a proposal for a different system for taxing DATs and DAT tape&mdash;"
+"one designed to support music rather than cater to vested interests."
 msgstr ""
 "Voici une proposition de syst&egrave;me de taxation des appareils et "
 "cassettes <abbr title=\"Digital Audio Tape\">DAT</abbr> diff&eacute;rent; un "
@@ -136,14 +204,20 @@ msgstr ""
 "d'approvisionner des int&eacute;r&ecirc;ts acquis."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "Collect funds with a tax on <abbr>DAT</abbr> machines and <abbr>DAT</"
+#| "abbr> tapes, as the current proposal provides."
 msgid ""
-"Collect funds with a tax on <abbr>DAT</abbr> machines and <abbr>DAT</abbr> "
-"tapes, as the current proposal provides."
+"Collect funds with a tax on DAT machines and DAT tapes, as the current "
+"proposal provides."
 msgstr ""
 "R&eacute;colter de l'argent en taxant les appareils et cassettes <abbr title="
 "\"Digital Audio Tape\">DAT</abbr>, comme la proposition actuelle le fait."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Use a survey system to measure the extent of copying of each musical piece."
 msgstr ""
@@ -151,11 +225,13 @@ msgstr ""
 "port&eacute;e d'une copie, pour chaque morceau."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "Distribute these funds entirely to the people who create music."
 msgstr ""
 "Distribuer int&eacute;gralement ces fonds aux cr&eacute;ateurs de la musique."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Adjust each contributor's share so that it increases more slowly per copy as "
 "it gets larger.  This spreads the funds more widely to support a larger "
@@ -167,16 +243,21 @@ msgstr ""
 "aider convenablement un plus grand nombre de musiciens."
 
 # type: Content of: <ul><li>
-msgid "Make no restrictions on the functioning of <abbr>DAT</abbr>s."
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid "Make no restrictions on the functioning of <abbr>DAT</abbr>s."
+msgid "Make no restrictions on the functioning of DATs."
 msgstr ""
 "Que les appareils <abbr title=\"Digital Audio Tape\">DAT</abbr> ne soient "
 "pas brid&eacute;s dans leur fonctionnement."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "What is the purpose of copyright?"
 msgstr "Quel est le but du copyright&nbsp;?"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The record industry presents its proposal as a way to &ldquo;"
 "compensate&rdquo; musicians, assuming that they are entitled to be paid for "
@@ -197,6 +278,7 @@ msgstr ""
 "de voir rejet&eacute;e par le syst&egrave;me l&eacute;gal am&eacute;ricain."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The stated purpose of copyright, given in the U.S. Constitution, is to "
 "&ldquo;promote the progress of science and the useful arts&rdquo;.  Progress "
@@ -211,6 +293,7 @@ msgstr ""
 "priv&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Yet copyright is often thought of as a natural right by laymen and "
 "politicians, which often leads to wrong decisions about copyright policy.  "
@@ -229,6 +312,7 @@ msgstr ""
 "(l'avancement) avec l'aboutissement lui-m&ecirc;me."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Promoting progress in the arts does not inherently justify the idea that "
 "authors are entitled to any particular sort of copyright, or even that "
@@ -244,6 +328,7 @@ msgstr ""
 "except&eacute; le d&eacute;positaire du copyright."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "How do we make this cost/benefit comparison? It depends partly on facts (how "
 "does a particular law affect musical activity and music users) and partly on "
@@ -255,9 +340,17 @@ msgstr ""
 "partie de nos jugements de valeur sur ces r&eacute;sultats."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Let's assume that it is worth paying a <abbr>DAT</abbr> tax if the result "
+#| "is a significant increase in musical activity, and investigate how we "
+#| "should arrange the details of this tax in order to maximize the benefit.  "
+#| "But first, let's review basic principles and facts which have a bearing "
+#| "on the inquiry."
 msgid ""
-"Let's assume that it is worth paying a <abbr>DAT</abbr> tax if the result is "
-"a significant increase in musical activity, and investigate how we should "
+"Let's assume that it is worth paying a DAT tax if the result is a "
+"significant increase in musical activity, and investigate how we should "
 "arrange the details of this tax in order to maximize the benefit.  But "
 "first, let's review basic principles and facts which have a bearing on the "
 "inquiry."
@@ -270,10 +363,12 @@ msgstr ""
 "base et les faits qui ont un rapport avec cette recherche."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Diminishing returns"
 msgstr "La loi de la diminution des performances"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The law of diminishing returns is a general principle of economics.  It "
 "states that each additional increment of efforts or funds spent on a given "
@@ -290,6 +385,7 @@ msgstr ""
 "es, vous pouvez bien laisser derri&egrave;re vous les exceptions."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "For example, you can make traffic flow more smoothly by improving roads.  "
 "Adding one lane to 20 miles of congested roads in a city might increase the "
@@ -312,6 +408,7 @@ msgstr ""
 "de la place."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "When applied to the activities of musicians, diminishing returns tells us "
 "that each successive increase in the income of musicians will have a smaller "
@@ -323,6 +420,7 @@ msgstr ""
 "cr&eacute;ative."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Diminishing returns is the first reason to reject the idea that any use of "
 "music &ldquo;should&rdquo; be covered by copyright.  There is nothing to "
@@ -347,10 +445,12 @@ msgstr ""
 "certainement ind&eacute;sirable."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Trade-offs"
 msgstr "Les &eacute;changes commerciaux"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Those with a vested interest in extending copyright start the discussion by "
 "claiming that copyright &ldquo;should&rdquo; be extended as far as it can "
@@ -373,6 +473,7 @@ msgstr ""
 "tre pas la peine."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Government fills many important functions, but few would say that any one of "
 "these functions should be expanded to maximize output.  For example, "
@@ -392,6 +493,7 @@ msgstr ""
 "d&eacute;laisser les autres besoins sociaux et individuels."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The same considerations apply to individual decisions.  By spending more "
 "money, you can buy a bigger and fancier house.  Most people would prefer the "
@@ -407,6 +509,7 @@ msgstr ""
 "somme."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Copyright does not directly spend public funds, but it does impose a "
 "cost&mdash;a loss of freedom&mdash;on every citizen.  The wider the scope of "
@@ -423,10 +526,12 @@ msgstr ""
 "du copyright en comparant les profits et les co&ucirc;ts."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "&ldquo;Incentive&rdquo; is the wrong concept"
 msgstr "L'&laquo;&nbsp;incitation&nbsp;&raquo; est un mauvais concept"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The idea of providing a monetary incentive for making music is based on a "
 "misunderstanding.  Musicians hope primarily for other kinds of reward; they "
@@ -442,6 +547,7 @@ msgstr ""
 "songer &agrave; changer de m&eacute;tier."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In fact, psychological studies show that the desire for an extrinsic reward "
 "(such as profit) generally hampers creative activities such as writing "
@@ -455,6 +561,7 @@ msgstr ""
 "atrice sont, pour la plupart, ceux qui travaillent pour eux."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This is not to say that musicians don't care about being paid.  Most hope to "
 "make a living from music so they will be free to devote their time to it.  "
@@ -473,24 +580,38 @@ msgstr ""
 "c'est une question de diminution des r&eacute;sultats."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "With this understanding, let's consider how a tax on <abbr>DAT</abbr> "
+#| "tape could be designed to serve the intended purpose of copyright."
 msgid ""
-"With this understanding, let's consider how a tax on <abbr>DAT</abbr> tape "
-"could be designed to serve the intended purpose of copyright."
+"With this understanding, let's consider how a tax on DAT tape could be "
+"designed to serve the intended purpose of copyright."
 msgstr ""
 "Forts de cette compr&eacute;hension des choses, consid&eacute;rons "
 "maintenant comment une taxe sur un <abbr title=\"Digital Audio Tape\">DAT</"
 "abbr> peut servir le but avou&eacute; du copyright."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Who should get the funds"
 msgstr "Qui doit r&eacute;colter les fonds&nbsp;?"
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "If the purpose of the <abbr>DAT</abbr> tax is to better reward musicians "
+#| "and composers, then all the money collected should go to them&mdash;not "
+#| "just 43 percent.  The musicians and composers are the ones who truly "
+#| "create the music.  In principle, we could do without record companies "
+#| "entirely."
 msgid ""
-"If the purpose of the <abbr>DAT</abbr> tax is to better reward musicians and "
-"composers, then all the money collected should go to them&mdash;not just 43 "
-"percent.  The musicians and composers are the ones who truly create the "
-"music.  In principle, we could do without record companies entirely."
+"If the purpose of the DAT tax is to better reward musicians and composers, "
+"then all the money collected should go to them&mdash;not just 43 percent.  "
+"The musicians and composers are the ones who truly create the music.  In "
+"principle, we could do without record companies entirely."
 msgstr ""
 "Si le but des taxes sur le <abbr title=\"Digital Audio Tape\">DAT</abbr> est "
 "de mieux r&eacute;mun&eacute;rer les musiciens et les compositeurs, alors on "
@@ -500,6 +621,7 @@ msgstr ""
 "compl&egrave;tement se passer des maisons de disques."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Record companies do provide a useful service: they distribute prerecorded "
 "copies of music, usually of high quality.  This service is widely used, and "
@@ -519,10 +641,12 @@ msgstr ""
 "maisons de disques est accidentel et pas vraiment essentiel."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Dividing the funds"
 msgstr "R&eacute;partir les fonds"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "What share of the tax revenues should each musician or composer get? The "
 "record company proposal would divide the money in proportion to record sales."
@@ -532,6 +656,7 @@ msgstr ""
 "r&eacute;partir l'argent en fonction des ventes de disques."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "It makes sense to distribute the funds based on how much that musician's "
 "work is copied, more or less.  But strict proportionality is not the best "
@@ -549,6 +674,7 @@ msgstr ""
 "n'est pas cela qui va promouvoir la culture et la diversit&eacute; musicale."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "We can promote music more effectively by making any one musician's share of "
 "the tax revenues taper off as copies increase.  For example, we could "
@@ -563,6 +689,7 @@ msgstr ""
 "le nombre actuel."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The effect of tapering off will be to spread the money more widely, "
 "supporting more musicians at an adequate standard of living.  This "
@@ -573,17 +700,30 @@ msgstr ""
 "diversit&eacute;, ce qu'est suppos&eacute; faire le copyright."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The US government has already established a program to fund diversity in "
+#| "the arts: the <acronym title=\"National Endowment for the Arts\">NEA</"
+#| "acronym>.  However, <acronym>NEA</acronym> grants involve discretionary "
+#| "power, which makes them a center for controversy, sometimes because a few "
+#| "members of the public strongly dislike the work, and sometimes because "
+#| "hardly anyone particularly likes it.  Spreading out <abbr>DAT</abbr> tax "
+#| "revenues will also have the effect of supporting less popular musicians.  "
+#| "However, it will not support musicians whose work nobody likes.  In "
+#| "addition, since it involves no discretion, no arbitrary decisions, there "
+#| "is little room for objection on account of any particular case."
 msgid ""
 "The US government has already established a program to fund diversity in the "
 "arts: the <acronym title=\"National Endowment for the Arts\">NEA</acronym>.  "
-"However, <acronym>NEA</acronym> grants involve discretionary power, which "
-"makes them a center for controversy, sometimes because a few members of the "
-"public strongly dislike the work, and sometimes because hardly anyone "
-"particularly likes it.  Spreading out <abbr>DAT</abbr> tax revenues will "
-"also have the effect of supporting less popular musicians.  However, it will "
-"not support musicians whose work nobody likes.  In addition, since it "
-"involves no discretion, no arbitrary decisions, there is little room for "
-"objection on account of any particular case."
+"However, NEA grants involve discretionary power, which makes them a center "
+"for controversy, sometimes because a few members of the public strongly "
+"dislike the work, and sometimes because hardly anyone particularly likes "
+"it.  Spreading out DAT tax revenues will also have the effect of supporting "
+"less popular musicians.  However, it will not support musicians whose work "
+"nobody likes.  In addition, since it involves no discretion, no arbitrary "
+"decisions, there is little room for objection on account of any particular "
+"case."
 msgstr ""
 "Le gouvernement am&eacute;ricain a d&eacute;j&agrave; &eacute;tabli un "
 "programme de financement de la diversit&eacute; des arts&nbsp;: le NEA. "
@@ -598,17 +738,35 @@ msgstr ""
 "s'engouffrer pour &eacute;mettre une opposition sur une affaire en "
 "particulier."
 
+# type: Content of: <p>
+#. type: Content of: <p>
+msgid ""
+"<em>[I was later asked an interesting question: what organization would "
+"&ldquo;manage&rdquo; the distribution of these funds.  Since this is tax "
+"money, a government agency should collect the tax and distribute the funds.  "
+"Private organizations should not be involved.]</em>"
+msgstr ""
+
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Encouraging home copying"
 msgstr "Encourager la copie personnelle"
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The record company proposal includes a requirement to make it difficult "
+#| "for home listeners to make copies.  Specifically, it requires that "
+#| "consumer <abbr>DAT</abbr> machines refuse to copy a copy that was made on "
+#| "a consumer <abbr>DAT</abbr> machine.  The argument for this requirement "
+#| "is based on the assumption that home copying is somehow unfair."
 msgid ""
 "The record company proposal includes a requirement to make it difficult for "
-"home listeners to make copies.  Specifically, it requires that consumer "
-"<abbr>DAT</abbr> machines refuse to copy a copy that was made on a consumer "
-"<abbr>DAT</abbr> machine.  The argument for this requirement is based on the "
-"assumption that home copying is somehow unfair."
+"home listeners to make copies.  Specifically, it requires that consumer DAT "
+"machines refuse to copy a copy that was made on a consumer DAT machine.  The "
+"argument for this requirement is based on the assumption that home copying "
+"is somehow unfair."
 msgstr ""
 "La proposition des maisons de disques inclut une exigence, celle de rendre "
 "difficile la copie pour un auditeur. Cela se traduit pour le consommateur "
@@ -617,11 +775,19 @@ msgstr ""
 "de d&eacute;loyal."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "In the past, many people have considered it unfair, because it reduced "
+#| "the income of musicians.  The <abbr>DAT</abbr> tax makes this reason "
+#| "obsolete.  Once home copying does contribute to the income of musicians, "
+#| "through the <abbr>DAT</abbr> tax, the reason to discourage home copying "
+#| "disappears."
 msgid ""
 "In the past, many people have considered it unfair, because it reduced the "
-"income of musicians.  The <abbr>DAT</abbr> tax makes this reason obsolete.  "
-"Once home copying does contribute to the income of musicians, through the "
-"<abbr>DAT</abbr> tax, the reason to discourage home copying disappears."
+"income of musicians.  The DAT tax makes this reason obsolete.  Once home "
+"copying does contribute to the income of musicians, through the DAT tax, the "
+"reason to discourage home copying disappears."
 msgstr ""
 "Dans le pass&eacute;, beaucoup de gens consid&eacute;raient cela comme "
 "d&eacute;loyal, parce que cela r&eacute;duisait les revenus des musiciens. "
@@ -631,11 +797,18 @@ msgstr ""
 "d&eacute;courager la copie personnelle dispara&icirc;t."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Therefore, if a <abbr>DAT</abbr> tax is adopted, the ability to copy "
+#| "<abbr>DAT</abbr> tapes should not be restricted.  Home copying is more "
+#| "efficient than record companies and record stores; music lovers should be "
+#| "encouraged to use home copying as much as possible."
 msgid ""
-"Therefore, if a <abbr>DAT</abbr> tax is adopted, the ability to copy "
-"<abbr>DAT</abbr> tapes should not be restricted.  Home copying is more "
-"efficient than record companies and record stores; music lovers should be "
-"encouraged to use home copying as much as possible."
+"Therefore, if a DAT tax is adopted, the ability to copy DAT tapes should not "
+"be restricted.  Home copying is more efficient than record companies and "
+"record stores; music lovers should be encouraged to use home copying as much "
+"as possible."
 msgstr ""
 "Par cons&eacute;quent, si on accepte une taxe sur les DAT, on ne devrait pas "
 "brider la copie de cassettes DAT. La copie personnelle est plus efficace que "
@@ -644,10 +817,12 @@ msgstr ""
 "autant que possible."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Measuring the use of each piece of music"
 msgstr "&Eacute;valuer l'utilisation de chaque morceau de musique"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Today, nearly all the recorded music in the United States is purchased in "
 "record stores; home copying is but a small fraction.  This will probably "
@@ -666,6 +841,7 @@ msgstr ""
 "d'enregistrements."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Eventually, home copying may become so widespread that estimating its extent "
 "from sales figures may be unsatisfactory.  This is already unsatisfactory "
@@ -684,6 +860,7 @@ msgstr ""
 "distribuer les fonds  r&eacute;colt&eacute;s par les taxes."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "We can make these estimates by survey.  From time to time, survey staff "
 "would ask randomly chosen members of the public to show what copies they "
@@ -702,14 +879,24 @@ msgstr ""
 "compte de leur groupe favori."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "To make the survey more efficient and broader-based (and thus more "
+#| "accurate), it could be automated.  The survey bureau could mail read-"
+#| "write memory cards to the chosen participants, who would connect them "
+#| "momentarily to their <abbr>DAT</abbr> units and then mail them back.  "
+#| "With proper design, the survey bureau would have no way of knowing who "
+#| "had sent in any particular card, and thus no information about who had "
+#| "copied what, but they would still have an accurate total."
 msgid ""
 "To make the survey more efficient and broader-based (and thus more "
 "accurate), it could be automated.  The survey bureau could mail read-write "
 "memory cards to the chosen participants, who would connect them momentarily "
-"to their <abbr>DAT</abbr> units and then mail them back.  With proper "
-"design, the survey bureau would have no way of knowing who had sent in any "
-"particular card, and thus no information about who had copied what, but they "
-"would still have an accurate total."
+"to their DAT units and then mail them back.  With proper design, the survey "
+"bureau would have no way of knowing who had sent in any particular card, and "
+"thus no information about who had copied what, but they would still have an "
+"accurate total."
 msgstr ""
 "Pour rendre ces sondages plus efficaces, pleinement &eacute;tablis (et donc "
 "plus pr&eacute;cis), on pourrait l'automatiser. Le bureau de sondage "
@@ -721,10 +908,12 @@ msgstr ""
 "mais il aurait un total exact."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Conclusion"
 msgstr "Conclusion"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The record companies have proposed an excellent scheme for taxing the public "
 "to increase their own income, but this isn't a legitimate purpose of "
@@ -741,24 +930,31 @@ msgstr ""
 "veulent."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "What You Can Do"
 msgstr "Ce que vous pouvez faire"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
-"<em> [This section is no longer applicable today; it is too late, because "
-"the <abbr>DAT</abbr> tax was bill was already passed and signed.] </em>"
+"<em>[This section is no longer applicable today; it is too late, because the "
+"DAT tax was bill was adopted in 1992&mdash;and DAT recorders are obsolete "
+"nowadays.  However, the same method can support musicians and other artists "
+"in a world where sharing copies on the Internet has been legalized.]</em>"
 msgstr ""
-"<em>[Cette section n'est plus d'actualit&eacute;&nbsp;; c'est trop tard, car "
-"le projet de loi de taxe sur les <abbr title=\"Digital Audio Tape\">DAT</"
-"abbr> qui &eacute;tait pr&eacute;vu est pass&eacute; et a &eacute;t&eacute; "
-"sign&eacute;.]</em>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Record company lobbyists are working hard to pass their form of "
+#| "<abbr>DAT</abbr> tax.  There is little organized opposition, and little "
+#| "public debate.  Their bill has already been sent out of committee in the "
+#| "Senate."
 msgid ""
-"Record company lobbyists are working hard to pass their form of <abbr>DAT</"
-"abbr> tax.  There is little organized opposition, and little public debate.  "
-"Their bill has already been sent out of committee in the Senate."
+"Record company lobbyists are working hard to pass their form of DAT tax.  "
+"There is little organized opposition, and little public debate.  Their bill "
+"has already been sent out of committee in the Senate."
 msgstr ""
 "Les groupes de pression des maisons de disque travaillent dur pour faire "
 "passer leur fa&ccedil;on de taxer les <abbr title=\"Digital Audio Tape"
@@ -767,6 +963,7 @@ msgstr ""
 "t&eacute; envoy&eacute; &agrave; la commission du S&eacute;nat."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This article proposes an alternative to the record company plan.  In order "
 "for this alternative, or any alternative, to have a chance, we must first "
@@ -778,23 +975,44 @@ msgstr ""
 "nous devons tout d'abord pr&eacute;venir l'adoption h&acirc;tive du projet "
 "des maisons de disque. Pour cela, vous pouvez &eacute;crire &agrave;&nbsp;:"
 
-# type: Content of: <blockquote><p>
-msgid "Congressman Barney Frank 437 Cherry St West Newton, MA 02165"
-msgstr "Congressman Barney Frank 437 Cherry St West Newton, MA 02165"
-
-# type: Content of: <blockquote><p>
-msgid "Senator Metzenbaum United States Senate Washington, DC 20510"
-msgstr "Senator Metzenbaum United States Senate Washington, DC 20510"
-
-# type: Content of: <blockquote><p>
-msgid ""
-"House Subcommittee on Intellectual Property House of Representatives "
-"Washington, DC 20515"
+#. type: Content of: <blockquote><p>
+msgid "Congressman Barney Frank"
 msgstr ""
-"House Subcommittee on Intellectual Property House of Representatives "
-"Washington, DC 20515"
+
+#. type: Content of: <blockquote><p>
+msgid "437 Cherry St"
+msgstr ""
+
+#. type: Content of: <blockquote><p>
+msgid "West Newton, MA 02165"
+msgstr ""
+
+#. type: Content of: <blockquote><p>
+msgid "Senator Metzenbaum"
+msgstr ""
+
+#. type: Content of: <blockquote><p>
+msgid "United States Senate"
+msgstr ""
+
+#. type: Content of: <blockquote><p>
+msgid "Washington, DC 20510"
+msgstr ""
+
+#. type: Content of: <blockquote><p>
+msgid "House Subcommittee on Intellectual Property"
+msgstr ""
+
+#. type: Content of: <blockquote><p>
+msgid "House of Representatives"
+msgstr ""
+
+#. type: Content of: <blockquote><p>
+msgid "Washington, DC 20515"
+msgstr ""
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Urge Congress to reject the record company bill so that this and other "
 "alternatives can be properly considered.  It takes just a few minutes to "
@@ -808,6 +1026,7 @@ msgstr ""
 "avancer les choses vers du mieux."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If you know any musicians, composers, or songwriters, give them copies of "
 "this article.  Many musicians prefer this alternative to the record company "
@@ -818,34 +1037,25 @@ msgstr ""
 "f&egrave;rent cette alternative &agrave; ce projet des maisons de disques et "
 "ils sont fortement motiv&eacute;s pour agir dans leur int&eacute;r&ecirc;t."
 
-# type: Content of: <p>
-msgid ""
-"<em>[The article above was published in Wired magazine in 1992.  The record "
-"company <abbr>DAT</abbr> tax bill was later signed into law by President "
-"George &ldquo;read my lips&rdquo; Bush.  Although this was shortly before "
-"the 1992 election, little attention was paid to the fact that he had once "
-"again broken his vow not to approve any new taxes.] </em>"
-msgstr ""
-"<em>[L'article ci-dessus a &eacute;t&eacute; publi&eacute; dans Wired "
-"Magazine, en 1992. Le projet des maisons de disque de taxer les <abbr title="
-"\"Digital Audio Tape\">DAT</abbr> est devenu une loi qui a &eacute;t&eacute; "
-"sign&eacute;e par le Pr&eacute;sident George &laquo;&nbsp;read my lips&nbsp;"
-"&raquo; Bush. Cela se passait un peu avant les &eacute;lections de 1992, "
-"mais il n'a pas &eacute;t&eacute; fait mention qu'il a, une fois de plus, "
-"bris&eacute; son serment de ne plus approuver de nouvelles taxes.]</em>"
-
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections (or suggestions) to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections (or suggestions) to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -855,6 +1065,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections (or suggestions) to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -864,11 +1095,20 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 1992, 2010 Richard M. Stallman"
+msgstr ""
+
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Copyright &copy; 1992 Richard M. Stallman <br /> Verbatim copying in any "
+#| "medium is permitted without fee provided the copyright notice and this "
+#| "notice are preserved."
 msgid ""
-"Copyright &copy; 1992 Richard M. Stallman <br /> Verbatim copying in any "
-"medium is permitted without fee provided the copyright notice and this "
-"notice are preserved."
+"Verbatim copying in any medium is permitted without fee provided the "
+"copyright notice and this notice are preserved."
 msgstr ""
 "Copyright &copy; 1992 Richard M. Stallman <br />La reproduction exacte et la "
 "distribution intégrale de cet article est permise sur n'importe quel support "
@@ -876,6 +1116,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Pierre-Yves Enderlin.<br />Révision&nbsp;: <a href="
@@ -883,9 +1124,83 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <blockquote><p>
+#, fuzzy
+#~| msgid "Congressman Barney Frank 437 Cherry St West Newton, MA 02165"
+#~ msgid ""
+#~ "Congressman Barney Frank<br /> 437 Cherry St<br /> West Newton, MA 02165"
+#~ msgstr "Congressman Barney Frank 437 Cherry St West Newton, MA 02165"
+
+# type: Content of: <blockquote><p>
+#, fuzzy
+#~| msgid "Senator Metzenbaum United States Senate Washington, DC 20510"
+#~ msgid ""
+#~ "Senator Metzenbaum<br /> United States Senate<br /> Washington, DC 20510"
+#~ msgstr "Senator Metzenbaum United States Senate Washington, DC 20510"
+
+# type: Content of: <blockquote><p>
+#, fuzzy
+#~| msgid ""
+#~| "House Subcommittee on Intellectual Property House of Representatives "
+#~| "Washington, DC 20515"
+#~ msgid ""
+#~ "House Subcommittee on Intellectual Property<br /> House of "
+#~ "Representatives<br /> Washington, DC 20515"
+#~ msgstr ""
+#~ "House Subcommittee on Intellectual Property House of Representatives "
+#~ "Washington, DC 20515"
+
+# type: Content of: <p>
+#, fuzzy
+#~| msgid ""
+#~| "<em> [This section is no longer applicable today; it is too late, "
+#~| "because the <abbr>DAT</abbr> tax was bill was already passed and "
+#~| "signed.] </em>"
+#~ msgid ""
+#~ "<em>[This section is no longer applicable today; it is too late, because "
+#~ "the DAT tax was bill was already passed and signed.]</em>"
+#~ msgstr ""
+#~ "<em>[Cette section n'est plus d'actualit&eacute;&nbsp;; c'est trop tard, "
+#~ "car le projet de loi de taxe sur les <abbr title=\"Digital Audio Tape"
+#~ "\">DAT</abbr> qui &eacute;tait pr&eacute;vu est pass&eacute; et a &eacute;"
+#~ "t&eacute; sign&eacute;.]</em>"
+
+# type: Content of: <p>
+#, fuzzy
+#~| msgid ""
+#~| "<em>[The article above was published in Wired magazine in 1992.  The "
+#~| "record company <abbr>DAT</abbr> tax bill was later signed into law by "
+#~| "President George &ldquo;read my lips&rdquo; Bush.  Although this was "
+#~| "shortly before the 1992 election, little attention was paid to the fact "
+#~| "that he had once again broken his vow not to approve any new taxes.] </"
+#~| "em>"
+#~ msgid ""
+#~ "<em>[The article above was published in Wired magazine in 1992.  The "
+#~ "record company DAT tax bill was later signed into law by President George "
+#~ "&ldquo;read my lips&rdquo; Bush.  Although this was shortly before the "
+#~ "1992 election, little attention was paid to the fact that he had once "
+#~ "again broken his vow not to approve any new taxes.]</em>"
+#~ msgstr ""
+#~ "<em>[L'article ci-dessus a &eacute;t&eacute; publi&eacute; dans Wired "
+#~ "Magazine, en 1992. Le projet des maisons de disque de taxer les <abbr "
+#~ "title=\"Digital Audio Tape\">DAT</abbr> est devenu une loi qui a &eacute;"
+#~ "t&eacute; sign&eacute;e par le Pr&eacute;sident George &laquo;&nbsp;read "
+#~ "my lips&nbsp;&raquo; Bush. Cela se passait un peu avant les &eacute;"
+#~ "lections de 1992, mais il n'a pas &eacute;t&eacute; fait mention qu'il a, "
+#~ "une fois de plus, bris&eacute; son serment de ne plus approuver de "
+#~ "nouvelles taxes.]</em>"
+
+# type: Content of: <h2>
+#~ msgid "The Right Way to Tax <abbr title=\"Digital Audio Tape\">DAT</abbr>"
+#~ msgstr ""
+#~ "La bonne fa&ccedil;on de taxer les <abbr title=\"Digital Audio Tape"
+#~ "\">DAT</abbr>"

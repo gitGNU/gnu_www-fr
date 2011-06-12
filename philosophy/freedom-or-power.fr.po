@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: freedom-or-power.html\n"
-"POT-Creation-Date: 2009-12-28 16:25-0500\n"
+"POT-Creation-Date: 2010-07-06 16:25-0300\n"
 "PO-Revision-Date: 2009-11-29 16:09+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -31,6 +31,10 @@ msgstr ""
 
 # type: Attribute 'content' of: <meta>
 #, fuzzy
+#| msgid ""
+#| "In this essay, Freedom or Power?, Bradley M. Kuhn and Richard M. Stallman "
+#| "discuss the reasons that the free software ovement doesn't advocate the "
+#| "so-called freedom to choose any license you want for software you write."
 msgid ""
 "In this essay, Freedom or Power?, Bradley M. Kuhn and Richard M. Stallman "
 "discuss the reasons that the free software movement doesn't advocate the so-"
@@ -198,12 +202,18 @@ msgstr ""
 "la libert&eacute; de choix (pour d&eacute;veloppeurs seulement)&nbsp;&raquo;."
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "If &ldquo;code is law,&rdquo; as Professor Lawrence Lessig (of Stanford "
+#| "Law School)  has stated, then the real question we face is: who should "
+#| "control the code you use&mdash;you, or an elite few? We believe you are "
+#| "entitled to control the software you use, and giving you that control is "
+#| "the goal of free software."
 msgid ""
-"If &ldquo;code is law,&rdquo; as Professor Lawrence Lessig (of Stanford Law "
-"School)  has stated, then the real question we face is: who should control "
-"the code you use&mdash;you, or an elite few? We believe you are entitled to "
-"control the software you use, and giving you that control is the goal of "
-"free software."
+"If &ldquo;code is law,&rdquo; <a href=\"#f1\">(1)</a> then the real question "
+"we face is: who should control the code you use&mdash;you, or an elite few? "
+"We believe you are entitled to control the software you use, and giving you "
+"that control is the goal of free software."
 msgstr ""
 "S'il est vrai, comme l'a d&eacute;clar&eacute; le Professeur Lawrence Lessig "
 "de la facult&eacute; de droit de Stanford, que &laquo;&nbsp;le code "
@@ -242,11 +252,17 @@ msgstr ""
 "prendre le contr&ocirc;le de vos d&eacute;cisions."
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "As more and more users realize that code is law, and come to feel that "
+#| "they too deserve freedom, they will see the importance of the freedoms we "
+#| "stand for, just as more and more users have come to appreciate the "
+#| "practical value of the Free Software we have developed."
 msgid ""
 "As more and more users realize that code is law, and come to feel that they "
 "too deserve freedom, they will see the importance of the freedoms we stand "
 "for, just as more and more users have come to appreciate the practical value "
-"of the Free Software we have developed."
+"of the free software we have developed."
 msgstr ""
 "De plus en plus d'utilisateurs r&eacute;alisent que le code informatique "
 "fait loi et en viennent &agrave; comprendre qu'ils m&eacute;ritent aussi la "
@@ -254,6 +270,18 @@ msgstr ""
 "fendons, de la m&ecirc;me mani&egrave;re que de plus en plus d'utilisateurs "
 "en sont venus &agrave; appr&eacute;cier la valeur pratique du logiciel Libre "
 "que nous avons d&eacute;velopp&eacute;."
+
+# type: Content of: <h4>
+msgid "Footnotes"
+msgstr ""
+
+# type: Content of: outside any tag (error?)
+msgid ""
+"<a name=\"f1\"></a> William J. Mitchell, <em>City of Bits: Space, Place, and "
+"the Infobahn </em> (Cambridge, Mass.: MIT Press, 1995), p. 111, as quoted by "
+"Lawrence Lessig in <em>Code and Other Laws of Cyberspace, Version 2.0</em> "
+"(New York, NY: Basic Books, 2006), p. 5."
+msgstr ""
 
 # type: Content of: <h4>
 msgid ""
@@ -272,6 +300,12 @@ msgstr " "
 
 # type: Content of: <div><p>
 #, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: open-source-misses-the-point.html\n"
-"POT-Creation-Date: 2010-02-01 04:25-0500\n"
+"POT-Creation-Date: 2011-06-01 20:28-0300\n"
 "PO-Revision-Date: 2009-11-29 17:32+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "Why Open Source Misses the Point of Free Software - GNU Project - Free "
 "Software Foundation (FSF)"
@@ -25,16 +26,19 @@ msgstr ""
 "Software Foundation (FSF)"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "Why Open Source misses the point of Free Software"
 msgstr ""
 "Pourquoi l'&laquo;&nbsp;open source&nbsp;&raquo; passe &agrave; cot&eacute; "
 "du probl&egrave;me que soul&egrave;ve le logiciel libre"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "by <strong>Richard Stallman</strong>"
 msgstr "par <strong>Richard Stallman</strong>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "When we call software &ldquo;free,&rdquo; we mean that it respects the <a "
 "href=\"/philosophy/free-sw.html\">users' essential freedoms</a>: the freedom "
@@ -52,6 +56,7 @@ msgstr ""
 "bi&egrave;re gratuite&nbsp;&raquo;<sup><a href=\"#TransNote2\"></a></sup>."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "These freedoms are vitally important.  They are essential, not just for the "
 "individual users' sake, but for society as a whole because they promote "
@@ -70,15 +75,26 @@ msgstr ""
 "cessaire pour la libert&eacute; en g&eacute;n&eacute;ral."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Tens of millions of people around the world now use free software; the "
+#| "schools of regions of India and Spain now teach all students to use the "
+#| "free <a href=\"/gnu/linux-and-gnu.html\">GNU/Linux operating system</a>.  "
+#| "Most of these users, however, have never heard of the ethical reasons for "
+#| "which we developed this system and built the free software community, "
+#| "because nowadays this system and community are more often spoken of as "
+#| "&ldquo;open source,&rdquo;, attributing them to a different philosophy in "
+#| "which these freedoms are hardly mentioned."
 msgid ""
 "Tens of millions of people around the world now use free software; the "
-"schools of regions of India and Spain now teach all students to use the free "
-"<a href=\"/gnu/linux-and-gnu.html\">GNU/Linux operating system</a>.  Most of "
-"these users, however, have never heard of the ethical reasons for which we "
-"developed this system and built the free software community, because "
-"nowadays this system and community are more often spoken of as &ldquo;open "
-"source,&rdquo;, attributing them to a different philosophy in which these "
-"freedoms are hardly mentioned."
+"public schools of some regions of India and Spain now teach all students to "
+"use the free <a href=\"/gnu/linux-and-gnu.html\">GNU/Linux operating system</"
+"a>.  Most of these users, however, have never heard of the ethical reasons "
+"for which we developed this system and built the free software community, "
+"because nowadays this system and community are more often spoken of as "
+"&ldquo;open source&rdquo;, attributing them to a different philosophy in "
+"which these freedoms are hardly mentioned."
 msgstr ""
 "Des dizaines de millions de personnes &agrave; travers le monde utilisent "
 "maintenant le logiciel libre&nbsp;; les &eacute;coles des r&eacute;gions de "
@@ -94,6 +110,7 @@ msgstr ""
 "laquelle ces libert&eacute;s sont &agrave; peine mentionn&eacute;es."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The free software movement has campaigned for computer users' freedom since "
 "1983.  In 1984 we launched the development of the free operating system GNU, "
@@ -115,6 +132,7 @@ msgstr ""
 "utilisateurs d'un programme."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Not all of the users and developers of free software agreed with the goals "
 "of the free software movement.  In 1998, a part of the free software "
@@ -136,6 +154,7 @@ msgstr ""
 "mouvement du logiciel libre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Some of the supporters of open source considered the term a &ldquo;marketing "
 "campaign for free software,&rdquo; which would appeal to business executives "
@@ -165,6 +184,7 @@ msgstr ""
 "cette pratique est celle dont ils se servent."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Nearly all open source software is free software.  The two terms describe "
 "almost the same category of software, but they stand for views based on "
@@ -194,6 +214,7 @@ msgstr ""
 "logiciels libres est une solution."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "&ldquo;Free software.&rdquo; &ldquo;Open source.&rdquo; If it's the same "
 "software, does it matter which name you use? Yes, because different words "
@@ -213,6 +234,7 @@ msgstr ""
 "est essentiel de parler de &laquo;&nbsp;logiciel libre&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "We in the free software movement don't think of the open source camp as an "
 "enemy; the enemy is proprietary (nonfree) software.  But we want people to "
@@ -227,6 +249,7 @@ msgstr ""
 "fenseurs de l'&laquo;&nbsp;open source&nbsp;&raquo;."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid ""
 "Common Misunderstandings of &ldquo;Free Software&rdquo; and &ldquo;Open "
 "Source&rdquo;"
@@ -236,6 +259,7 @@ msgstr ""
 "sup>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The term &ldquo;free software&rdquo; is prone to misinterpretation: an "
 "unintended meaning, &ldquo;software you can get for zero price,&rdquo; fits "
@@ -246,20 +270,21 @@ msgid ""
 "solution; it cannot completely eliminate the problem.  An unambiguous and "
 "correct term would be better, if it didn't present other problems."
 msgstr ""
-"Le terme de &laquo;&nbsp;free software&nbsp;&raquo; souffre d'un probl&egrave;"
-"me de mauvaise interpr&eacute;tation&nbsp;: une signification fortuite, "
-"&laquo;&nbsp;un logiciel que vous pouvez avoir gratuitement&nbsp;&raquo; "
-"correspond au terme aussi bien que la signification voulue, &laquo;&nbsp;un "
-"logiciel qui donne certaines libert&eacute;s &agrave; l'utilisateur&nbsp;"
-"&raquo;. Nous traitons ce probl&egrave;me en publiant la d&eacute;finition "
-"de logiciel libre, et en disant &laquo;&nbsp;Pensez &agrave; la "
-"libert&eacute; d'expression, pas &agrave; la bi&egrave;re gratuite&nbsp;"
-"&raquo;<sup><a href=\"#TransNote5\">5</a></sup>. Ce n'est pas une solution "
-"parfaite, cela ne peut pas compl&egrave;tement &eacute;liminer le "
-"probl&egrave;me. Un terme correct non ambigu serait meilleur, s'il n'avait "
-"pas d'autres probl&egrave;mes."
+"Le terme de &laquo;&nbsp;free software&nbsp;&raquo; souffre d'un "
+"probl&egrave;me de mauvaise interpr&eacute;tation&nbsp;: une signification "
+"fortuite, &laquo;&nbsp;un logiciel que vous pouvez avoir gratuitement&nbsp;"
+"&raquo; correspond au terme aussi bien que la signification voulue, &laquo;"
+"&nbsp;un logiciel qui donne certaines libert&eacute;s &agrave; "
+"l'utilisateur&nbsp;&raquo;. Nous traitons ce probl&egrave;me en publiant la "
+"d&eacute;finition de logiciel libre, et en disant &laquo;&nbsp;Pensez "
+"&agrave; la libert&eacute; d'expression, pas &agrave; la bi&egrave;re "
+"gratuite&nbsp;&raquo;<sup><a href=\"#TransNote5\">5</a></sup>. Ce n'est pas "
+"une solution parfaite, cela ne peut pas compl&egrave;tement &eacute;liminer "
+"le probl&egrave;me. Un terme correct non ambigu serait meilleur, s'il "
+"n'avait pas d'autres probl&egrave;mes."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Unfortunately, all the alternatives in English have problems of their own.  "
 "We've looked at many that people have suggested, but none is so clearly "
@@ -280,6 +305,7 @@ msgstr ""
 "mantique, ce qui inclut &laquo;&nbsp;open source software&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The <a href=\"http://opensource.org/docs/osd\">official definition of "
@@ -312,6 +338,7 @@ msgstr ""
 "assez pr&egrave;s de notre d&eacute;finition dans la pratique."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "However, the obvious meaning for the expression &ldquo;open source "
 "software&rdquo;&mdash;and the one most people seem to think it means&mdash;"
@@ -331,6 +358,7 @@ msgstr ""
 # type: Content of: <p>
 #.  It was from http://da.state.ks.us/itec/TechArchPt6ver80.pdf, but
 #. that page is no longer available. 
+#. type: Content of: <p>
 msgid ""
 "Since that obvious meaning for &ldquo;open source&rdquo; is not the meaning "
 "that its advocates intend, the result is that most people misunderstand the "
@@ -359,6 +387,7 @@ msgstr ""
 "code&nbsp;»."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The <i>New York Times</i> has <a href=\"http://www.nytimes.com/external/"
 "gigaom/2009/02/07/07gigaom-the-brave-new-world-of-open-source-game-design-"
@@ -375,6 +404,7 @@ msgstr ""
 "propriétaires pratiquent depuis des décennies."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Open source supporters try to deal with this by pointing to their official "
 "definition, but that corrective approach is less effective for them than it "
@@ -398,6 +428,7 @@ msgstr ""
 "encore pire la confusion."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Another misunderstanding of &ldquo;open source&rdquo; is the idea that it "
@@ -423,6 +454,7 @@ msgstr ""
 "source sont consid&eacute;r&eacute;es comme des licences de logiciels libres."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The term &ldquo;open source&rdquo; has been further stretched by its "
 "application to other activities, such as government, education, and science, "
@@ -433,12 +465,14 @@ msgid ""
 msgstr ""
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Different Values Can Lead to Similar Conclusions&hellip;but Not Always"
 msgstr ""
 "Des valeurs diff&eacute;rentes peuvent amener &agrave; des conclusions "
 "similaires&hellip; mais pas toujours"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Radical groups in the 1960s had a reputation for factionalism: some "
 "organizations split because of disagreements on details of strategy, and the "
@@ -455,6 +489,7 @@ msgstr ""
 "utilis&eacute; cela pour critiquer la gauche toute enti&egrave;re."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Some try to disparage the free software movement by comparing our "
 "disagreement with open source to the disagreements of those radical groups.  "
@@ -471,6 +506,7 @@ msgstr ""
 "velopper du logiciel libre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "As a result, people from the free software movement and the open source camp "
 "often work together on practical projects such as software development.  It "
@@ -489,6 +525,7 @@ msgstr ""
 "tr&egrave;s diff&eacute;rentes."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The idea of open source is that allowing users to change and redistribute "
 "the software will make it more powerful and reliable.  But this is not "
@@ -507,6 +544,7 @@ msgstr ""
 "&agrave; cela."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "A pure open source enthusiast, one that is not at all influenced by the "
 "ideals of free software, will say, &ldquo;I am surprised you were able to "
@@ -523,6 +561,7 @@ msgstr ""
 "libert&eacute;, la menant &agrave; sa perte."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The free software activist will say, &ldquo;Your program is very attractive, "
 "but I value my freedom more.  So I reject your program.  Instead I will "
@@ -536,10 +575,12 @@ msgstr ""
 "libert&eacute;, nous pouvons agir pour la maintenir et la d&eacute;fendre."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Powerful, Reliable Software Can Be Bad"
 msgstr "Le logiciel puissant et fiable peut &ecirc;tre mauvais"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The idea that we want software to be powerful and reliable comes from the "
 "supposition that the software is designed to serve its users.  If it is "
@@ -550,6 +591,7 @@ msgstr ""
 "S'il est puissant et fiable, il les sert mieux."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "But software can be said to serve its users only if it respects their "
 "freedom.  What if the software is designed to put chains on its users? Then "
@@ -570,11 +612,22 @@ msgstr ""
 "programmes open source."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Under pressure from the movie and record companies, software for "
+#| "individuals to use is increasingly designed specifically to restrict "
+#| "them.  This malicious feature is known as Digital Restrictions Management "
+#| "(DRM) (see <a href=\"http://defectivebydesign.org/\">DefectiveByDesign."
+#| "org</a> and is the antithesis in spirit of the freedom that free software "
+#| "aims to provide.  And not just in spirit: since the goal of DRM is to "
+#| "trample your freedom, DRM developers try to make it hard, impossible, or "
+#| "even illegal for you to change the software that implements the DRM."
 msgid ""
 "Under pressure from the movie and record companies, software for individuals "
 "to use is increasingly designed specifically to restrict them.  This "
 "malicious feature is known as Digital Restrictions Management (DRM) (see <a "
-"href=\"http://defectivebydesign.org/\">DefectiveByDesign.org</a> and is the "
+"href=\"http://defectivebydesign.org/\">DefectiveByDesign.org</a>) and is the "
 "antithesis in spirit of the freedom that free software aims to provide.  And "
 "not just in spirit: since the goal of DRM is to trample your freedom, DRM "
 "developers try to make it hard, impossible, or even illegal for you to "
@@ -593,6 +646,7 @@ msgstr ""
 "logiciel qui met en application les DRM."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Yet some open source supporters have proposed &ldquo;open source DRM&rdquo; "
 "software.  Their idea is that, by publishing the source code of programs "
@@ -611,6 +665,7 @@ msgstr ""
 "changer."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This software might be open source and use the open source development "
 "model, but it won't be free software since it won't respect the freedom of "
@@ -627,10 +682,12 @@ msgstr ""
 "rendra encore pire."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Fear of Freedom"
 msgstr "La crainte de la libert&eacute;"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The main initial motivation of those who split off the open source camp from "
 "the free software movement was that the ethical ideas of &ldquo;free "
@@ -653,6 +710,7 @@ msgstr ""
 "parler de ces choses."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "That is, however, what the leaders of open source decided to do.  They "
 "figured that by keeping quiet about ethics and freedom, and talking only "
@@ -669,6 +727,7 @@ msgstr ""
 "particuli&egrave;rement aux entreprises."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This approach has proved effective, in its own terms.  The rhetoric of open "
 "source has convinced many businesses and individuals to use, and even "
@@ -695,6 +754,7 @@ msgstr ""
 "fenseurs de leur propre libert&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Sooner or later these users will be invited to switch back to proprietary "
 "software for some practical advantage.  Countless companies seek to offer "
@@ -722,6 +782,7 @@ msgstr ""
 "excentricit&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "That dangerous situation is exactly what we have.  Most people involved with "
 "free software, especially its distributors, say little about freedom&mdash;"
@@ -742,6 +803,7 @@ msgstr ""
 "de la libert&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Proprietary add-on software and partially nonfree GNU/Linux distributions "
 "find fertile ground because most of our community does not insist on freedom "
@@ -764,10 +826,12 @@ msgstr ""
 "libert&eacute;, pas l'inverse."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Conclusion"
 msgstr "Conclusion"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "As the advocates of open source draw new users into our community, we free "
 "software activists must shoulder the task of bringing the issue of freedom "
@@ -787,27 +851,44 @@ msgstr ""
 "campagne."
 
 # type: Content of: <h4>
-msgid "Footnotes"
-msgstr "Apostille"
+#. type: Content of: <h4>
+msgid "Notes"
+msgstr ""
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Joe Barr's article, <a href=\"http://www.itworld.com/AppDev/350/"
+#| "LWD010523vcontrol4/\">&ldquo;Live and let license,&rdquo;</a> gives his "
+#| "perspective on this issue."
 msgid ""
-"Joe Barr's article, <a href=\"http://www.itworld.com/AppDev/350/"
-"LWD010523vcontrol4/\">&ldquo;Live and let license,&rdquo;</a> gives his "
-"perspective on this issue."
+"Joe Barr's article, <a href=\"http://www.itworld.com/LWD010523vcontrol4"
+"\">&ldquo;Live and let license,&rdquo;</a> gives his perspective on this "
+"issue."
 msgstr ""
 "Joe Barr a &eacute;crit un article intitul&eacute; <a href=\"http://www."
 "itworld.com/AppDev/350/LWD010523vcontrol4/\">Live and let license</a><sup><a "
 "href=\"#TransNote6\">6</a></sup> qui donne sa perspective sur cette question."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Lakhani and Wolf's <a href=\"http://freesoftware.mit.edu/papers/"
+#| "lakhaniwolf.pdf\">paper on the motivation of free software developers</a> "
+#| "says that a considerable fraction are motivated by the view that software "
+#| "should be free.  This was despite the fact that they surveyed the "
+#| "developers on SourceForge, a site that does not support the view that "
+#| "this is an ethical issue."
 msgid ""
-"Lakhani and Wolf's <a href=\"http://freesoftware.mit.edu/papers/lakhaniwolf."
-"pdf\">paper on the motivation of free software developers</a> says that a "
-"considerable fraction are motivated by the view that software should be "
-"free.  This was despite the fact that they surveyed the developers on "
-"SourceForge, a site that does not support the view that this is an ethical "
-"issue."
+"Lakhani and Wolf's <a href=\"http://ocw.mit.edu/courses/sloan-school-of-"
+"management/15-352-managing-innovation-emerging-trends-spring-2005/readings/"
+"lakhaniwolf.pdf\">paper on the motivation of free software developers</a> "
+"says that a considerable fraction are motivated by the view that software "
+"should be free.  This is despite the fact that they surveyed the developers "
+"on SourceForge, a site that does not support the view that this is an "
+"ethical issue."
 msgstr ""
 "L'<a href=\"http://freesoftware.mit.edu/papers/lakhaniwolf.pdf\">article sur "
 "la motivation des d&eacute;veloppeurs de logiciel libre</a> de Lakhani et "
@@ -819,6 +900,7 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
 "<b>Notes du traducteur</b>&nbsp;: <ol><li id=\"TransNote1\">Free speech en "
@@ -834,12 +916,18 @@ msgstr ""
 "\">Vivre et mettre sous licencie.</li></ol>"
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -848,10 +936,38 @@ msgstr ""
 "\">&lt;webmasters@gnu.org&gt;</a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
 msgid ""
-"Copyright &copy; 2007 Richard Stallman <br /> Verbatim copying and "
-"distribution of this entire article is permitted in any medium, provided "
-"this notice is preserved."
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions à <a href=\"mailto:webmasters@gnu.org"
+"\">&lt;webmasters@gnu.org&gt;</a>."
+
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 2007, 2010 Richard Stallman"
+msgstr ""
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Copyright &copy; 2007 Richard Stallman <br /> Verbatim copying and "
+#| "distribution of this entire article is permitted in any medium, provided "
+#| "this notice is preserved."
+msgid ""
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium, provided this notice is preserved."
 msgstr ""
 "Copyright &copy; 2007 Richard Stallman <br />La reproduction exacte et la "
 "distribution intégrale de cet article est permise sur n'importe quel support "
@@ -859,6 +975,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Mathieu Stumpf.<br />Révision&nbsp;: <a href=\"mailto:trad-"
@@ -866,9 +983,15 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <h4>
+#~ msgid "Footnotes"
+#~ msgstr "Apostille"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: freedom-or-copyright.html\n"
-"POT-Creation-Date: 2009-12-16 04:25-0500\n"
+"POT-Creation-Date: 2011-04-03 20:27-0300\n"
 "PO-Revision-Date: 2009-01-06 13:54+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,21 +16,44 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid "Freedom or Copyright? - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "Libert&eacute; ou copyright ? - GNU Project - Free Software Foundation (FSF)"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "Freedom&mdash;or Copyright?"
 msgstr ""
 "Libert&eacute; ou copyright&nbsp;?<sup><a href=\"#TransNote1\">1</a></sup>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "by <strong>Richard M. Stallman</strong>"
 msgstr "par <strong>Richard M. Stallman</strong>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
+msgid ""
+"<em>This essay addresses how the principles of software freedom apply in "
+"some cases to other works of authorship and art. It's included here since it "
+"involves the application of the ideas of free software.</em>"
+msgstr ""
+
+# type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Copyright was established in the age of the printing press as an "
+#| "industrial regulation on the business of writing and publishing.  The aim "
+#| "was to encourage the publication of a diversity of written works.  The "
+#| "means was to require publishers to get the author's permission to publish "
+#| "recent writings.  This enabled authors to get income from publishers, "
+#| "which facilitated and encouraged writing.  The general reading public "
+#| "received the benefit of this, while losing little: copyright restricted "
+#| "only publication, not the things an ordinary reader could do.  That made "
+#| "copyright arguably a beneficial system for the public, and therefore "
+#| "legitimate."
 msgid ""
 "Copyright was established in the age of the printing press as an industrial "
 "regulation on the business of writing and publishing.  The aim was to "
@@ -56,17 +79,25 @@ msgstr ""
 "public et donc l&eacute;gitime."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "Well and good&mdash;back then."
 msgstr "Bien. Au revoir le pass&eacute; donc."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "More recently, humanity developed a new way of distributing information: "
+#| "computers and networks.  They facilitated copying and manipulating "
+#| "information, including software, musical recordings, books, and movies, "
+#| "and offered the possibility of unlimited access to all sorts of "
+#| "data&mdash;an information utopia."
 msgid ""
-"More recently, humanity has developed a new way of distributing information: "
-"computers and networks.  They facilitate copying and manipulating "
-"information, including software, musical recordings, books, and movies, and "
-"offer the possibility of unlimited access to all sorts of data&mdash;an "
-"information utopia."
+"Now we have a new way of distributing information: computers and networks.  "
+"Their benefit is that they facilitate copying and manipulating information, "
+"including software, musical recordings, books, and movies.  They offer the "
+"possibility of unlimited access to all sorts of data&mdash;an information "
+"utopia."
 msgstr ""
 "Plus r&eacute;cemment, l'humanit&eacute; a d&eacute;velopp&eacute; une "
 "nouvelle mani&egrave;re de distribution de l'information&nbsp;: ordinateurs "
@@ -77,6 +108,7 @@ msgstr ""
 "&laquo;&nbsp;informationnelle&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "One obstacle stood in the way: copyright.  Readers and listeners who made "
 "use of their new ability to copy and share published information were "
@@ -93,15 +125,26 @@ msgstr ""
 "servir."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "In a democracy, a law that prohibits a popular and useful activity is "
+#| "usually soon relaxed. Not so where corporations have political power.  "
+#| "The publishers' lobby was determined to prevent the public from taking "
+#| "advantage of the power of their computers, and found copyright a suitable "
+#| "tool.  Under their influence, rather than relaxing copyright rules to "
+#| "suit the new circumstances, governments made it stricter than ever, "
+#| "forbidding the act of sharing."
 msgid ""
 "In a democracy, a law that prohibits a popular and useful activity is "
 "usually soon relaxed. Not so where corporations have political power.  The "
 "publishers' lobby was determined to prevent the public from taking advantage "
-"of the power of their computers, and found copyright a suitable tool.  Under "
+"of the power of their computers, and found copyright a handy weapon.  Under "
 "their influence, rather than relaxing copyright rules to suit the new "
-"circumstances, governments made them stricter than ever, forbidding the act "
-"of sharing."
+"circumstances, governments made them stricter than ever, imposing harsh "
+"penalties on the practice of sharing.  The latest fashion in supporting the "
+"publishers against the citizens, known as ``three strikes'', is to cut off "
+"people's Internet connections if they share."
 msgstr ""
 "Dans une d&eacute;mocratie, une loi qui emp&ecirc;che une activit&eacute; "
 "populaire et utile est, normalement, rapidement assouplie. Mais pas "
@@ -113,13 +156,24 @@ msgstr ""
 "endurcirent comme jamais, oubliant le partage."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "But that wasn't the worst of it.  Computers can be powerful tools of "
+#| "domination when developers control the software that people run.  The "
+#| "publishers realized that by publishing works in encrypted format, which "
+#| "only specially authorized software could view, they could gain "
+#| "unprecedented power: they could compel readers to pay, and identify "
+#| "themselves, every time they read a book, listen to a song, or watch a "
+#| "video."
 msgid ""
 "But that wasn't the worst of it.  Computers can be powerful tools of "
-"domination when developers control the software that people run.  The "
-"publishers realized that by publishing works in encrypted format, which only "
-"specially authorized software could view, they could gain unprecedented "
-"power: they could compel readers to pay, and identify themselves, every time "
-"they read a book, listen to a song, or watch a video."
+"domination when software suppliers deny users the control of the software "
+"they run.  The publishers realized that by publishing works in encrypted "
+"format, which only specially authorized software could view, they could gain "
+"unprecedented power: they could compel readers to pay, and identify "
+"themselves, every time they read a book, listen to a song, or watch a "
+"video.  That is the publishers' dream: a pay-per-view universe."
 msgstr ""
 "Mais ce ne fut pas le pire. Les ordinateurs peuvent &ecirc;tre des outils "
 "puissants de domination quand les developpeurs contr&ocirc;lent le programme "
@@ -131,7 +185,15 @@ msgstr ""
 "chanson ou visionnage de vid&eacute;o."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "The publishers gained US government support for their dream with the "
+#| "Digital Millennium Copyright Act of 1998.  This law gave publishers power "
+#| "to write their own copyright rules, by implementing them in the code of "
+#| "the authorized player software.  (This practice is called Digital "
+#| "Restrictions Management, or DRM.)  Even reading or listening without "
+#| "authorization is forbidden."
 msgid ""
 "The publishers gained US government support for their dream with the Digital "
 "Millennium Copyright Act of 1998.  This law gave publishers power to write "
@@ -151,6 +213,19 @@ msgstr ""
 "&eacute;couter sans autorisation est interdit."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "We still have the same old freedoms in using paper books and other analog "
+#| "media.  But if e-books replace printed books, those freedoms will not "
+#| "transfer.  Imagine: no more used book stores; no more lending a book to "
+#| "your friend; no more borrowing one from the public library&mdash;no more "
+#| "&ldquo;leaks&rdquo; that might give someone a chance to read without "
+#| "paying.  No more purchasing a book anonymously with cash&mdash;you can "
+#| "only buy an e-book with a credit card.  That is the world the publishers "
+#| "want for us.  If you buy the Amazon Kindle (we call it the Swindle) or "
+#| "the Sony Reader (we call it the Shreader for what it threatens to do to "
+#| "books), you pay to establish that world."
 msgid ""
 "We still have the same old freedoms in using paper books and other analog "
 "media.  But if e-books replace printed books, those freedoms will not "
@@ -158,10 +233,10 @@ msgid ""
 "friend; no more borrowing one from the public library&mdash;no more &ldquo;"
 "leaks&rdquo; that might give someone a chance to read without paying.  No "
 "more purchasing a book anonymously with cash&mdash;you can only buy an e-"
-"book with a credit card.  That is the world the publishers want for us.  If "
-"you buy the Amazon Kindle (we call it the Swindle) or the Sony Reader (we "
-"call it the Shreader for what it threatens to do to books), you pay to "
-"establish that world."
+"book with a credit card.  That is the world the publishers want to impose on "
+"us.  If you buy the Amazon Kindle (we call it the Swindle) or the Sony "
+"Reader (we call it the Shreader for what it threatens to do to books), you "
+"pay to establish that world."
 msgstr ""
 "Nous avons toujours les m&ecirc;mes vieilles libert&eacute;s pour "
 "l'utilisation de livre papier ou autre m&eacute;dia analogique. Mais, si les "
@@ -179,15 +254,35 @@ msgstr ""
 "pour r&eacute;aliser ce monde."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+msgid ""
+"The Swindle even has an Orwellian back door that can be used to erase books "
+"remotely.  Amazon demonstrated this capability by erasing copies, purchased "
+"from Amazon, of Orwell's book 1984.  Evidently Amazon's name for this "
+"product reflects the intention to burn our books."
+msgstr ""
+
+# type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Public anger against DRM is slowly growing, held back because propaganda "
+#| "terms such as <a href=\"/philosophy/words-to-avoid.html\">&ldquo;protect "
+#| "authors&rdquo;</a> and <a href=\"/philosophy/not-ipr.html\">&ldquo;"
+#| "intellectual property&rdquo;</a> have convinced readers that their rights "
+#| "do not count.  These terms implicitly assume that publishers deserve "
+#| "special power in the name of the authors, that we are morally obliged to "
+#| "bow to them, and that we have wronged someone if we read or listen to "
+#| "anything without paying."
 msgid ""
 "Public anger against DRM is slowly growing, held back because propaganda "
-"terms such as <a href=\"/philosophy/words-to-avoid.html\">&ldquo;protect "
-"authors&rdquo;</a> and <a href=\"/philosophy/not-ipr.html\">&ldquo;"
+"expressions such as <a href=\"/philosophy/words-to-avoid.html\">&ldquo;"
+"protect authors&rdquo;</a> and <a href=\"/philosophy/not-ipr.html\">&ldquo;"
 "intellectual property&rdquo;</a> have convinced readers that their rights do "
 "not count.  These terms implicitly assume that publishers deserve special "
 "power in the name of the authors, that we are morally obliged to bow to "
-"them, and that we have wronged someone if we read or listen to anything "
-"without paying."
+"them, and that we have wronged someone if we see or hear anything without "
+"paying for permission."
 msgstr ""
 "La col&egrave;re du public &agrave; propos des DRM cro&icirc;t doucement,"
 "ralentie par des termes de propagande comme <a href=\"/philosophy/words-to-"
@@ -200,6 +295,7 @@ msgstr ""
 "quelqu'un en lisant et &eacute;coutant quelque chose sans payer."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The organizations that profit most from copyright legally exercise it in the "
 "name of the authors (most of whom gain little).  They would have you believe "
@@ -215,11 +311,18 @@ msgstr ""
 "assimilant l'aide &agrave; son voisin &agrave; une attaque de bateau."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "They also tell us that a cruel War on Sharing is the only way to keep art "
+#| "alive.  Even if true, it would not justify such cruelty; but it isn't "
+#| "true.  Public sharing of copies tends to increase the sales of most "
+#| "works, and decrease sales only for the most successful ten percent."
 msgid ""
-"They also tell us that a cruel War on Sharing is the only way to keep art "
-"alive.  Even if true, it would not justify such cruelty; but it isn't true.  "
-"Public sharing of copies tends to increase the sales of most works, and "
-"decrease sales only for the most successful ten percent."
+"They also tell us that a War on Sharing is the only way to keep art alive.  "
+"Even if true, it would not justify the policy; but it isn't true.  Public "
+"sharing of copies is likely to increase the sales of most works, and "
+"decrease sales only for big hits."
 msgstr ""
 "Ils nous disent aussi qu'une guerre cruelle contre la copie est la seule "
 "mani&egrave;re de garder l'art vivant. Quoi qu'il en soit, cela ne justifie "
@@ -229,18 +332,30 @@ msgstr ""
 "succ&egrave;s."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "But bestsellers also can still do well without stopping sharing.  Stephen "
+#| "King got hundreds of thousands of dollars selling an unencrypted e-book "
+#| "with no obstacle to copying and sharing.  The singer Issa, a.k.a. Jane "
+#| "Siberry, asks people to <a href=\"http://www.sheeba.ca/store/help.php#sdp"
+#| "\"> choose their own prices</a> when they download songs, and averages "
+#| "more per download than the usual $0.99.  Radiohead made millions in 2007 "
+#| "by inviting fans to copy an album and pay what they wished, while it was "
+#| "also shared through P2P.  In 2008, <a href=\"http://www.boingboing."
+#| "net/2008/03/05/nine-inch-nails-made.html\"> Nine Inch Nails released an "
+#| "album with permission to share copies</a> and made 750,000 dollars in a "
+#| "few days."
 msgid ""
-"But bestsellers also can still do well without stopping sharing.  Stephen "
-"King got hundreds of thousands of dollars selling an unencrypted e-book with "
-"no obstacle to copying and sharing.  The singer Issa, aka. Jane Siberry, "
-"asks people to <a href=\"http://www.sheeba.ca/store/help.php#sdp\"> choose "
-"their own prices</a> when they download songs, and averages more per "
-"download than the usual $0.99.  Radiohead made millions in 2007 by inviting "
-"fans to copy an album and pay what they wished, while it was also shared "
-"through P2P.  In 2008, <a href=\"http://www.boingboing.net/2008/03/05/nine-"
-"inch-nails-made.html\"> Nine Inch Nails released an album with permission to "
-"share copies</a> and made 750,000 dollars in a few days."
+"Bestsellers can still do well without forbidding sharing.  Stephen King got "
+"hundreds of thousands of dollars selling an unencrypted e-book serial with "
+"no obstacle to copying and sharing.  (He was dissatisfied with that amount "
+"and called the experiment a failure, but it looks like a success to me.)  "
+"Radiohead made millions in 2007 by inviting fans to copy an album and pay "
+"what they wished, while it was also shared on peer-to-peer networks.  In "
+"2008, <a href=\"http://www.boingboing.net/2008/03/05/nine-inch-nails-made."
+"html\"> Nine Inch Nails released an album with permission to share copies</"
+"a> and made $750,000 in a few days."
 msgstr ""
 "D'ailleurs, les meilleurs vendeurs peuvent faire encore mieux. Stephen King "
 "a gagn&eacute; des centaines de milliers de dollars en vendant un livre "
@@ -256,16 +371,36 @@ msgstr ""
 "nails-made.html\">Nine Inch Nails a publi&eacute; un album en autorisant le "
 "partage de copies</a> et a gagn&eacute; 750 000 dollars en quelques jours."
 
+#. type: Content of: <p>
+msgid ""
+"The possibility of success without oppression is not limited to "
+"bestsellers.  Many artists of various levels of fame now make an adequate "
+"living through <a href=\"http://www.techdirt.com/"
+"articles/20091119/1634117011.shtml\">voluntary support</a>: donations and "
+"merchandise purchases of their fans.  Kevin Kelly estimates the artist need "
+"only find around <a href=\"http://www.kk.org/thetechnium/"
+"archives/2008/03/1000_true_fans.php\"> 1,000 true fans</a>."
+msgstr ""
+
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "When computer networks provide an easy anonymous method for sending "
+#| "someone a small amount of money, without a credit card, it will be easy "
+#| "to set up a much better system to support the arts.  When you view a "
+#| "work, there will be a button you can press saying &ldquo;Click here to "
+#| "send the artist one dollar&rdquo;.  Wouldn't you press it, at least once "
+#| "a week? But voluntary contributions from fans can already support an "
+#| "artist; Kevin Kelly estimates the artist need only find approximately <a "
+#| "href=\"http://www.kk.org/thetechnium/archives/2008/03/1000_true_fans.php"
+#| "\"> 1,000 true fans</a>."
 msgid ""
 "When computer networks provide an easy anonymous method for sending someone "
 "a small amount of money, without a credit card, it will be easy to set up a "
 "much better system to support the arts.  When you view a work, there will be "
-"a button you can press saying &ldquo;Click here to send the artist one "
-"dollar&rdquo;.  Wouldn't you press it, at least once a week? But voluntary "
-"contributions from fans can already support an artist; Kevin Kelly estimates "
-"the artist need only find approximately <a href=\"http://www.kk.org/"
-"thetechnium/archives/2008/03/1000_true_fans.php\"> 1,000 true fans</a>."
+"a button you can press saying, &ldquo;Click here to send the artist one "
+"dollar&rdquo;.  Wouldn't you press it, at least once a week?"
 msgstr ""
 "Lorsque les r&eacute;seaux informatiques permettent une m&eacute;thode "
 "facile et anonyme pour envoyer &agrave; quelqu'un une petite somme d'argent, "
@@ -279,23 +414,39 @@ msgstr ""
 "org/thetechnium/archives/2008/03/1000_true_fans.php\">1000 vrais fans</a>."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Another good way to support music and the arts is with a <a href=\"dat."
+#| "html\"> tax on blank media</a>.  If the state distributes the tax money "
+#| "entirely to the artists, it will not be wasted on corporate executives.  "
+#| "But the state should not distribute it in linear proportion to "
+#| "popularity, because that would give most of it to a few superstars, "
+#| "leaving little to support all the other artists.  I therefore recommend "
+#| "using a cube-root function or something similar.  With cube root, a "
+#| "superstar with 1000 times the popularity of a successful artist will get "
+#| "10 times as much, instead of 1000 times as much.  This way, although each "
+#| "superstar gets a larger share than the other artists, the superstars "
+#| "together will get only a small fraction of the money, leaving most of it "
+#| "to support a large number of other artists.  This system will use our tax "
+#| "money efficiently to support art."
 msgid ""
-"Another good way to support music and the arts is with a <a href=\"dat.html"
-"\"> tax on blank media</a>.  If the state distributes the tax money entirely "
-"to the artists, it will not be wasted on corporate executives.  But the "
-"state should not distribute it in linear proportion to popularity, because "
-"that would give most of it to a few superstars, leaving little to support "
-"all the other artists.  I therefore recommend using a cube-root function or "
-"something similar.  With cube root, a superstar with 1000 times the "
-"popularity of a successful artist will get 10 times as much, instead of 1000 "
-"times as much.  This way, although each superstar gets a larger share than "
-"the other artists, the superstars together will get only a small fraction of "
-"the money, leaving most of it to support a large number of other artists.  "
-"This system will use our tax money efficiently to support the arts."
+"Another good way to support music and the arts is with <a href=\"dat.html"
+"\">tax funds</a>&mdash;perhaps a tax on blank media or on Internet "
+"connectivity.  The state should distribute the tax money entirely to the "
+"artists, not waste it on corporate executives.  But the state should not "
+"distribute it in linear proportion to popularity, because that would give "
+"most of it to a few superstars, leaving little to support all the other "
+"artists.  I therefore recommend using a cube-root function or something "
+"similar.  With linear proportion, superstar A with 1,000 times the "
+"popularity of a successful artist B will get 1,000 times as much money as "
+"B.  With the cube root, A will get 10 times as much as B.  Thus, each "
+"superstar gets a larger share than a less popular artist, but most of the "
+"funds go to the artists who really need this support.  This system will use "
+"our tax money efficiently to support the arts."
 msgstr ""
 "Un autre bon moyen d'aider la musique et les arts est une taxe sur les <a "
-"href=\"dat.fr.html\">supports vierges<sup><a href=\"#TransNote4\">4</a></"
+"href=\"dat.fr.html\">supports vierges</a><sup><a href=\"#TransNote4\">4</a></"
 "sup>. Si l'&eacute;tat distribue enti&egrave;rement l'imp&ocirc;t aux "
 "artistes, il ne se perdra pas dans la poche de cadres commerciaux. "
 "Cependant, l'&eacute;tat ne devrait pas le distribuer proportionnellement "
@@ -311,11 +462,28 @@ msgstr ""
 "syst&egrave;me utiliserait nos imp&ocirc;ts efficacement pour aider les arts."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+msgid ""
+"The <a href=\"http://mecenat-global.org\">Global Patronage</a> proposal "
+"combines aspects of those two systems, incorporating mandatory payments with "
+"voluntary allocation among artists."
+msgstr ""
+
+# type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "To make copyright fit the network age, we should legalize the "
+#| "noncommercial copying and sharing of all published works, and prohibit "
+#| "DRM.  But until we win this battle, you must protect yourself: don't buy "
+#| "any products with DRM unless you personally have the means to break the "
+#| "DRM and make copies."
 msgid ""
 "To make copyright fit the network age, we should legalize the noncommercial "
 "copying and sharing of all published works, and prohibit DRM.  But until we "
 "win this battle, you must protect yourself: don't buy any products with DRM "
-"unless you personally have the means to break the DRM and make copies."
+"unless you personally have the means to break the DRM.  Never use a product "
+"designed to attack your freedom unless you can nullify the attack."
 msgstr ""
 "Pour que le droit d'auteur colle &agrave; l'&acirc;ge du r&eacute;seau, nous "
 "devrions interdire les DRM et l&eacute;galiser les copies ou partages non "
@@ -326,6 +494,7 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
 "<b>Notes du traducteur</b>&nbsp;: <ol><li id=\"TransNote1\">Le &laquo;&nbsp;"
@@ -341,12 +510,18 @@ msgstr ""
 "\">Supports vierges&nbsp;: CD, DVD vierges.</li></ol>"
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -356,6 +531,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -365,11 +561,20 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 2008, 2010, 2011 Richard M. Stallman"
+msgstr ""
+
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Copyright &copy; 2008 Richard M. Stallman <br /> Verbatim copying and "
+#| "distribution of this entire article is permitted in any medium without "
+#| "royalty provided this notice is preserved."
 msgid ""
-"Copyright &copy; 2008 Richard M. Stallman <br /> Verbatim copying and "
-"distribution of this entire article is permitted in any medium without "
-"royalty provided this notice is preserved."
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium without royalty provided this notice is preserved."
 msgstr ""
 "Copyright &copy; 2008 Richard M. Stallman <br />La reproduction exacte et la "
 "distribution intégrale de cet article est permise sur n'importe quel support "
@@ -377,6 +582,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Claude le Paih.<br />Révision&nbsp;: <a href=\"mailto:trad-"
@@ -384,9 +590,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: copyleft.html\n"
-"POT-Creation-Date: 2009-10-18 04:25-0300\n"
+"POT-Creation-Date: 2011-02-21 04:25-0500\n"
 "PO-Revision-Date: 2009-10-28 16:15+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,20 +16,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid "What is Copyleft? - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "Qu'est-ce que le copyleft&nbsp;? - GNU Project - Free Software Foundation "
 "(FSF)"
 
 # type: Attribute 'content' of: <meta>
+#. type: Attribute 'content' of: <meta>
 msgid "GNU, FSF, Free Software Foundation, Linux, Copyleft"
 msgstr "GNU, FSF, Free Software Foundation, Linux, Copyleft"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "What is Copyleft?"
 msgstr "Qu'est-ce que le copyleft&nbsp;?"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Copyleft is a general method for making a program (or other work) free, and "
 "requiring all modified and extended versions of the program to be free as "
@@ -41,6 +45,7 @@ msgstr ""
 "galement."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The simplest way to make a program free software is to put it in the <a href="
 "\"/philosophy/categories.html#PublicDomainSoftware\">public domain</a>, "
@@ -66,6 +71,7 @@ msgstr ""
 "aura donn&eacute;; l'interm&eacute;diaire l'aura fait dispara&icirc;tre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In the <a href=\"/gnu/thegnuproject.html\">GNU project</a>, our aim is to "
 "give <em>all</em> users the freedom to redistribute and change GNU "
@@ -88,6 +94,7 @@ msgstr ""
 "garantit cette libert&eacute; pour tous les utilisateurs."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Copyleft also provides an <a href=\"/philosophy/pragmatic.html\">incentive</"
 "a> for other programmers to add to free software.  Important free programs "
@@ -99,6 +106,7 @@ msgstr ""
 "n'existent que gr&acirc;ce &agrave; lui."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Copyleft also helps programmers who want to contribute <a href=\"/prep/tasks."
 "html\">improvements</a> to <a href=\"/philosophy/free-sw.html\">free "
@@ -117,6 +125,7 @@ msgstr ""
 "transformer le travail en un produit propri&eacute;taire."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "When we explain to the employer that it is illegal to distribute the "
 "improved version except as free software, the employer usually decides to "
@@ -128,6 +137,7 @@ msgstr ""
 "t que de le laisser tomber."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "To copyleft a program, we first state that it is copyrighted; then we add "
 "distribution terms, which are a legal instrument that gives everyone the "
@@ -144,6 +154,7 @@ msgstr ""
 "ses libert&eacute;s sont l&eacute;galement indissociables."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Proprietary software developers use copyright to take away the users' "
 "freedom; we use copyright to guarantee their freedom.  That's why we reverse "
@@ -156,6 +167,7 @@ msgstr ""
 "copyleft&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Copyleft is a way of using of the copyright on the program.  It doesn't mean "
 "abandoning the copyright; in fact, doing so would make copyleft impossible.  "
@@ -174,6 +186,7 @@ msgstr ""
 "droite)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Copyleft is a general concept, and you can't use a general concept directly; "
 "you can only use a specific implementation of the concept.  In the GNU "
@@ -200,14 +213,24 @@ msgstr ""
 "droits d'auteurs des contributeurs</a>."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "An alternate form of copyleft, the <a href=\"/copyleft/lesser.html\">GNU "
+#| "Lesser General Public License (LGPL) (available in HTML</a>, <a href=\"/"
+#| "copyleft/lesser.txt\">text</a>, and <a href=\"/copyleft/lesser.texi"
+#| "\">Texinfo</a> format), applies to a few (but not all) GNU libraries. To "
+#| "learn more about properly using the LGPL, please read the article <a href="
+#| "\"/philosophy/why-not-lgpl.html\"><cite>Why you shouldn't use the Lesser "
+#| "GPL for your next library</cite></a>."
 msgid ""
-"An alternate form of copyleft, the <a href=\"/copyleft/lesser.html\">GNU "
+"An alternate form of copyleft, the <a href=\"/licenses/lgpl.html\">GNU "
 "Lesser General Public License (LGPL) (available in HTML</a>, <a href=\"/"
-"copyleft/lesser.txt\">text</a>, and <a href=\"/copyleft/lesser.texi"
-"\">Texinfo</a> format), applies to a few (but not all) GNU libraries. To "
-"learn more about properly using the LGPL, please read the article <a href=\"/"
-"philosophy/why-not-lgpl.html\"><cite>Why you shouldn't use the Lesser GPL "
-"for your next library</cite></a>."
+"licenses/lgpl.txt\">text</a>, and <a href=\"/licenses/lgpl.texi\">Texinfo</"
+"a> format), applies to a few (but not all) GNU libraries. To learn more "
+"about properly using the LGPL, please read the article <a href=\"/philosophy/"
+"why-not-lgpl.html\"><cite>Why you shouldn't use the Lesser GPL for your next "
+"library</cite></a>."
 msgstr ""
 "Une forme alternative de copyleft, la <a href=\"/licenses/lesser.html\">GNU "
 "Lesser General Public License (LGPL) (disponible au format HTML</a>, <a href="
@@ -223,6 +246,7 @@ msgstr ""
 "LGPL pour votre prochaine biblioth&egrave;que</a>."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The <a href=\"/copyleft/fdl.html\">GNU Free Documentation License (FDL)  "
 "(available in HTML</a>, <a href=\"/copyleft/fdl.txt\">text</a> and <a href="
@@ -240,6 +264,7 @@ msgstr ""
 "modifications, de fa&ccedil;on commerciale ou non."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The appropriate license is included in many manuals and in each GNU source "
 "code distribution."
@@ -248,6 +273,7 @@ msgstr ""
 "chaque distribution de code source GNU."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "All these licenses are designed so that you can easily apply them to your "
 "own works, assuming you are the copyright holder.  You don't have to modify "
@@ -263,6 +289,7 @@ msgstr ""
 "licence."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Using the same distribution terms for many different programs makes it easy "
 "to copy code between various different programs.  When they all have the "
@@ -282,6 +309,7 @@ msgstr ""
 "ajoutée à la GPL version3, rendant la compatibilité automatique."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If you would like to copyleft your program with the GNU GPL or the GNU LGPL, "
 "please see the <a href=\"/copyleft/gpl-howto.html\">license instructions "
@@ -297,6 +325,7 @@ msgstr ""
 "autoris&eacute;es."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If you would like to copyleft your manual with the GNU FDL, please see the "
 "instructions at the <a href=\"/copyleft/fdl.html#SEC4\">end</a> of the FDL "
@@ -311,16 +340,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -330,6 +366,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -340,6 +397,7 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008, 2009 Free Software Foundation, Inc.,"
@@ -348,6 +406,7 @@ msgstr ""
 "2006, 2007, 2008, 2009 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium, provided this notice is preserved."
@@ -358,6 +417,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Benjamin Drieu.<br /> R&eacute;vision&nbsp;: <a href="
@@ -365,9 +425,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

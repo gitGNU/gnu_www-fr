@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: other-free-books.html\n"
-"POT-Creation-Date: 2009-11-09 16:25-0500\n"
+"POT-Creation-Date: 2011-01-02 04:25-0500\n"
 "PO-Revision-Date: 2009-11-29 14:59+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -126,6 +126,86 @@ msgid "License"
 msgstr "Licence"
 
 # type: Content of: <table><tr><td>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.network-theory.co.uk/octave/manual/\">GNU Octave "
+#| "Manual Version 3</a>"
+msgid ""
+"<a href=\"http://www.network-theory.co.uk/org/manual/\">The Org Mode 7 "
+"Reference Manual (for Org version 7.3)</a>"
+msgstr ""
+"<a href=\"http://www.network-theory.co.uk/octave/manual/\">GNU Octave Manual "
+"Version 3</a>"
+
+# type: Content of: <table><tr><td>
+msgid "Carsten Dominik and others"
+msgstr ""
+
+# type: Content of: <table><tr><td>
+#, fuzzy
+#| msgid "Network Theory Ltd."
+msgid "Network Theory Ltd"
+msgstr "Network Theory Ltd."
+
+# type: Content of: <table><tr><td>
+msgid "978-1-906966-08-9"
+msgstr ""
+
+# type: Content of: <table><tr><td>
+msgid "<a href=\"/licenses/fdl.html\">GNU Free Documentation License</a>"
+msgstr "<a href=\"/licenses/fdl.html\">GNU Free Documentation License</a>"
+
+# type: Content of: <table><tr><td>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.network-theory.co.uk/postgresql/vol2/\">The "
+#| "PostgreSQL Reference Manual Volume 2: Programming Guide</a>"
+msgid ""
+"<a href=\"http://www.network-theory.co.uk/postgresql9/\">The PostgreSQL 9.0 "
+"Reference Manual (in 4 volumes)</a>"
+msgstr ""
+"<a href=\"http://www.network-theory.co.uk/postgresql/vol2/\">The PostgreSQL "
+"Reference Manual Volume 2: Programming Guide</a>"
+
+# type: Content of: <table><tr><td>
+msgid "The PostgreSQL Global Development Group"
+msgstr "The PostgreSQL Global Development Group"
+
+# type: Content of: <table><tr><td>
+msgid "978-1-906966-{04-1,05-8,06-5,07-2}"
+msgstr ""
+
+# type: Content of: <table><tr><td>
+msgid ""
+"<a href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#5\">Modified BSD "
+"license</a>"
+msgstr ""
+
+# type: Content of: <table><tr><td>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.network-theory.co.uk/python/language/\">Python "
+#| "Language Reference Manual</a>"
+msgid ""
+"<a href=\"http://www.network-theory.co.uk/perl/language/\">The Perl Language "
+"Reference Manual (for Perl version 5.12.1)</a>"
+msgstr ""
+"<a href=\"http://www.network-theory.co.uk/python/language/\">Python Language "
+"Reference Manual</a>"
+
+# type: Content of: <table><tr><td>
+msgid "Larry Wall and others"
+msgstr ""
+
+# type: Content of: <table><tr><td>
+msgid "9781906966027"
+msgstr ""
+
+# type: Content of: <table><tr><td>
+msgid "<a href=\"/licenses/gpl.html\">GNU General Public License</a>"
+msgstr "<a href=\"/licenses/gpl.html\">GNU General Public License</a>"
+
+# type: Content of: <table><tr><td>
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/octave/manual/\">GNU Octave Manual "
 "Version 3</a>"
@@ -166,10 +246,6 @@ msgid "9781593271763"
 msgstr "9781593271763"
 
 # type: Content of: <table><tr><td>
-msgid "<a href=\"/licenses/fdl.html\">GNU Free Documentation License</a>"
-msgstr "<a href=\"/licenses/fdl.html\">GNU Free Documentation License</a>"
-
-# type: Content of: <table><tr><td>
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/valgrind/manual/\">Valgrind 3.3 "
 "&mdash; Advanced Debugging and Profiling for GNU/Linux applications</a>"
@@ -192,10 +268,6 @@ msgid ""
 msgstr ""
 "<a href=\"http://www.network-theory.co.uk/postgresql/vol1/\">The PostgreSQL "
 "Reference Manual Volume 1: SQL Language Reference</a>"
-
-# type: Content of: <table><tr><td>
-msgid "The PostgreSQL Global Development Group"
-msgstr "The PostgreSQL Global Development Group"
 
 # type: Content of: <table><tr><td>
 msgid "0954612027"
@@ -548,10 +620,6 @@ msgstr "John Goerzen and Ossama Othman"
 # type: Content of: <table><tr><td>
 msgid "0-7357-0914-9"
 msgstr "0-7357-0914-9"
-
-# type: Content of: <table><tr><td>
-msgid "<a href=\"/licenses/gpl.html\">GNU General Public License</a>"
-msgstr "<a href=\"/licenses/gpl.html\">GNU General Public License</a>"
 
 # type: Content of: <table><tr><td>
 msgid "GTK+/GNOME Application Development"

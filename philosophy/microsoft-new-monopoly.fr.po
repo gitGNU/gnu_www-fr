@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: microsoft-new-monopoly.html\n"
-"POT-Creation-Date: 2009-12-16 04:25-0500\n"
+"POT-Creation-Date: 2010-06-26 04:25-0300\n"
 "PO-Revision-Date: 2009-03-08 15:00+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -22,7 +22,9 @@ msgstr ""
 "(FSF)"
 
 # type: Content of: <h2>
-msgid "Microsoft's New Monopoly (July 2005)"
+#, fuzzy
+#| msgid "Microsoft's New Monopoly (July 2005)"
+msgid "Microsoft's New Monopoly"
 msgstr "Le Nouveau Monopole de Microsoft"
 
 # type: Content of: <p>
@@ -34,11 +36,19 @@ msgstr ""
 
 # type: Content of: outside any tag (error?)
 #, fuzzy
+#| msgid ""
+#| "<i>Note: Microsoft adopted a different policy in 2006, so the details "
+#| "discussed on this page are now only of historical significance.  That "
+#| "doesn't mean the patent problem for OOXML is gone.  <a href=\"http://www."
+#| "grokdoc.net/index.php/"
+#| "EOOXML_objections#Patent_rights_to_implement_the_Ecma_376_specification_have_not_been_granted"
+#| "\"> Microsoft's cunningly-worded new policy does not give anyone clear "
+#| "permission to implement OOXML.</a> </i>"
 msgid ""
-"<i>Note: Microsoft adopted a different policy in 2006, so the details "
-"discussed on this page are now only of historical significance.  That "
-"doesn't mean, however, that the patent problem for OOXML is gone.  <a href="
-"\"http://www.grokdoc.net/index.php/"
+"<i>This article was written in July 2005.  Microsoft adopted a different "
+"policy in 2006, so the specific policies described below and the specific "
+"criticisms of them are only of historical significance.  The overall problem "
+"remains, however: <a href=\"http://www.grokdoc.net/index.php/"
 "EOOXML_objections#Patent_rights_to_implement_the_Ecma_376_specification_have_not_been_granted"
 "\"> Microsoft's cunningly worded new policy does not give anyone clear "
 "permission to implement OOXML.</a> </i>"
@@ -97,6 +107,12 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Previously Microsoft tried to get its patented scheme for spam-blocking "
+#| "adopted as an Internet standard, so as to exclude free software from "
+#| "handling email. The standards committee in charge rejected the proposal, "
+#| "but Microsoft said it would try to convince large <abbr title=\"Internet "
+#| "service provider\">ISP</abbr>s to use the scheme anyway."
 msgid ""
 "Previously Microsoft tried to get its patented scheme for spam blocking "
 "adopted as an Internet standard, so as to exclude free software from "
@@ -174,6 +190,13 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Distributing an application under Microsoft's patent license applies "
+#| "license terms that prohibit most possible modifications of the software. "
+#| "Lacking freedom 3, the freedom to publish modified versions, it would not "
+#| "be free software. (I think it could not be &ldquo;open source&rdquo; "
+#| "software either, since that definition is similar; but it is not "
+#| "identical, and I cannot speak for the advocates of open source.)"
 msgid ""
 "Distributing an application under Microsoft's patent license imposes license "
 "terms that prohibit most possible modifications of the software. Lacking "
@@ -192,6 +215,19 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "The Microsoft license also requires inclusion of a specific statement. "
+#| "That requirement would not in itself prevent the program from being free. "
+#| "It is normal for free software to carry license notices that cannot be "
+#| "changed, and this statement could be included in one of them. The "
+#| "statement is biased and confusing, since it uses the term &ldquo;"
+#| "intellectual property&rdquo;, but one is not required to endorse the "
+#| "statement as true or even meaningful&mdash;only to include it. The "
+#| "software developer could cancel its misleading effect with a disclaimer "
+#| "like this: &ldquo;The following misleading statement has been imposed on "
+#| "us by Microsoft; please be advised that it is propaganda. See <a href=\"/"
+#| "philosophy/not-ipr.html\"> http://www.gnu.org/philosophy/not-ipr.html</a> "
+#| "for more explanation.&rdquo;"
 msgid ""
 "The Microsoft license also requires inclusion of a specific statement. That "
 "requirement would not in itself prevent the program from being free: it is "
@@ -234,6 +270,17 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Some free software licenses, such as the most popular GNU General Public "
+#| "License, forbid publication of a modified version if it isn't free "
+#| "software in the same way. (We call that the &ldquo;liberty or "
+#| "death&rdquo; clause, since it ensures the program will remain free or "
+#| "die.) To apply Microsoft's license to a program under the GNU GPL would "
+#| "violate the program's license; it would be illegal. Many other free "
+#| "software licenses permit non-free modified versions. It wouldn't be "
+#| "illegal to modify such a program and publish the modified version under "
+#| "Microsoft's patent license. But that modified version, with its modified "
+#| "license, wouldn't be free software."
 msgid ""
 "Some free software licenses, such as the most popular GNU General Public "
 "License (GNU GPL), forbid publication of a modified version if it isn't free "
@@ -261,6 +308,16 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Microsoft's patent covering the new Word format is a US patent.  It "
+#| "doesn't restrict anyone in Europe; Europeans are free to make and use "
+#| "software that can read this format. Europeans that develop or use "
+#| "software currently enjoy an advantage over Americans: the Americans can "
+#| "be sued for patent infringement for their software activities in the US, "
+#| "but the Europeans cannot be sued for their activities in Europe. "
+#| "Europeans can already get US software patents and sue Americans, but "
+#| "Americans cannot get European software patents if Europe doesn't allow "
+#| "them."
 msgid ""
 "Microsoft's patent covering the new Word format is a US patent.  It doesn't "
 "restrict anyone in Europe; Europeans are free to make and use software that "
@@ -286,6 +343,14 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "All that will change if the European Parliament authorizes software "
+#| "patents. Microsoft will be one of thousands of foreign software patent "
+#| "holders that will bring their patents over to Europe to sue the software "
+#| "developers and computer users there. Of the 50,000-odd putatively invalid "
+#| "software patents issued by the European Patent Office, around 80% do not "
+#| "belong to Europeans. The European Parliament should vote to keep these "
+#| "patents invalid, and keep Europeans safe."
 msgid ""
 "All that will change if the European Parliament authorizes software patents. "
 "Microsoft will be one of thousands of foreign software patent holders that "
@@ -346,6 +411,10 @@ msgstr ""
 
 # type: Content of: <div><p>
 #, fuzzy
+#| msgid ""
+#| "Copyright &copy; 2005 Richard Stallman <br /> Verbatim copying and "
+#| "distribution of this entire article is permitted in any medium without "
+#| "royalty provided this notice is preserved."
 msgid ""
 "Copyright &copy; 2005, 2009 Richard Stallman <br /> Verbatim copying and "
 "distribution of this entire article is permitted in any medium without "

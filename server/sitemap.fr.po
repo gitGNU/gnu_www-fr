@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
-"POT-Creation-Date: 2009-12-18 04:25-0500\n"
+"POT-Creation-Date: 2011-01-19 12:29-0500\n"
 "PO-Revision-Date: 2009-04-18 20:09+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -530,7 +530,10 @@ msgstr ""
 "logiciels GNU</a>"
 
 # type: Content of: <ul><li><ul><li>
-msgid "<a href=\"/evaluation/\">Evaluation Guidelines for GNU Software</a>"
+#, fuzzy
+#| msgid "<a href=\"/evaluation/\">Evaluation Guidelines for GNU Software</a>"
+msgid ""
+"<a href=\"/help/evaluation.html\">Evaluation Guidelines for GNU Software</a>"
 msgstr ""
 "<a href=\"/evaluation/\">Recommandations d'évaluation pour les logiciels "
 "GNU</a>"
@@ -601,12 +604,16 @@ msgstr ""
 "aider&nbsp;!"
 
 # type: Content of: <ul><li><ul><li>
-msgid "<a href=\"/award/\">Awards</a>"
+#, fuzzy
+#| msgid "<a href=\"/award/\">Awards</a>"
+msgid "<a href=\"/award/\">Awards Archive</a>"
 msgstr "<a href=\"/award/\">Distinctions</a>"
 
 # type: Content of: <ul><li><ul><li>
-msgid "<a href=\"/2001/\">Awards Archive</a>"
-msgstr "<a href=\"/2001/\">Archive des distinctions</a>"
+#, fuzzy
+#| msgid "<a href=\"/award/\">Awards</a>"
+msgid "<a href=\"/award/2001/\">Award 2001</a>"
+msgstr "<a href=\"/award/\">Distinctions</a>"
 
 # type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/wwwhurdes/\">Old Hurd website</a>"
@@ -728,6 +735,7 @@ msgstr "La FSF à l'international"
 
 # type: Content of: <ul><li><ul><li>
 #, fuzzy
+#| msgid "<a href=\"http://www.fsfeurope.org\">FSF Europe</a>"
 msgid "<a href=\"http://www.fsfe.org\">FSF Europe</a>"
 msgstr "<a href=\"http://www.fsfeurope.org\">FSF Europe</a>"
 
@@ -817,3 +825,7 @@ msgstr "Derni&egrave;re mise-&agrave;-jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li><ul><li>
+#~ msgid "<a href=\"/2001/\">Awards Archive</a>"
+#~ msgstr "<a href=\"/2001/\">Archive des distinctions</a>"

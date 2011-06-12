@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 15-years-of-free-software.html\n"
-"POT-Creation-Date: 2009-08-07 04:25-0300\n"
+"POT-Creation-Date: 2011-04-27 20:27-0300\n"
 "PO-Revision-Date: 2009-08-23 18:23+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,12 +16,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "15 Years of Free Software - - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "15 ans de logiciels libres - GNU Project - Free Software Foundation (FSF)"
 
 # type: Attribute 'content' of: <meta>
+#. type: Attribute 'content' of: <meta>
 msgid ""
 "GNU, FSF, Free Software Foundation, freedom, Richard Stallman, rms, free "
 "software movement"
@@ -30,6 +32,7 @@ msgstr ""
 "mouvement du logiciel libre"
 
 # type: Attribute 'content' of: <meta>
+#. type: Attribute 'content' of: <meta>
 msgid ""
 "Richard Stallman discusses the history of the movement to develop a free "
 "operating system."
@@ -38,14 +41,17 @@ msgstr ""
 "syst&egrave;me d'exploitation libre."
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "15 Years of Free Software"
 msgstr "15 ans de logiciels libres"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "by <strong>Richard M. Stallman</strong>"
 msgstr "par <strong>Richard M. Stallman</strong>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "It is now just over 15 years since the beginning of the Free Software "
 "Movement and the GNU Project. We have come a long way."
@@ -54,6 +60,7 @@ msgstr ""
 "libres et du projet GNU. Cela en fait du chemin&nbsp;!"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In 1984, it was impossible to use a modern computer without installing a "
 "proprietary operating system, which you would have to obtain under a "
@@ -71,15 +78,27 @@ msgstr ""
 "nous diviser les uns des autres."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The GNU Project was founded to change all that. Its first goal: to "
+#| "develop a Unix-compatible portable operating system that would be 100% "
+#| "free software. Not 95% free, not 99.5%, but 100%&mdash;so that users "
+#| "would be free to redistribute the whole system, and free to change and "
+#| "contribute to any part of it. The name of the system, GNU, is a recursive "
+#| "acronym meaning &ldquo;GNU's Not Unix&rdquo;&mdash;a way of paying "
+#| "tribute to Unix, while at the same time saying that GNU is something "
+#| "different. Technically, GNU is like Unix. But unlike Unix, GNU gives its "
+#| "users freedom."
 msgid ""
 "The GNU Project was founded to change all that. Its first goal: to develop a "
 "Unix-compatible portable operating system that would be 100% free software. "
 "Not 95% free, not 99.5%, but 100%&mdash;so that users would be free to "
 "redistribute the whole system, and free to change and contribute to any part "
 "of it. The name of the system, GNU, is a recursive acronym meaning &ldquo;"
-"GNU's Not Unix&rdquo;&mdash;a way of paying tribute to Unix, while at the "
-"same time saying that GNU is something different. Technically, GNU is like "
-"Unix. But unlike Unix, GNU gives its users freedom."
+"GNU's Not Unix&rdquo;&mdash;a way of paying tribute to the technical ideas "
+"of Unix, while at the same time saying that GNU is something different. "
+"Technically, GNU is like Unix. But unlike Unix, GNU gives its users freedom."
 msgstr ""
 "Le projet GNU a &eacute;t&eacute; fond&eacute; pour changer tout cela. Son "
 "premier objectif&nbsp;: d&eacute;velopper un syst&egrave;me d'exploitation "
@@ -94,6 +113,7 @@ msgstr ""
 "&agrave; Unix, GNU accorde la libert&eacute; &agrave; ses utilisateurs."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "It took many years of work, by hundreds of programmers, to develop this "
 "operating system. Some were paid by the Free Software Foundation and by free "
@@ -113,6 +133,7 @@ msgstr ""
 "l'humanit&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In 1991, the last major essential component of a Unix-like system was "
 "developed: Linux, the free kernel written by Linus Torvalds. Today, the "
@@ -133,6 +154,7 @@ msgstr ""
 "&agrave; utiliser que n'importe quel autre syst&egrave;me d'exploitation."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "But our freedom is not permanently assured. The world does not stand still, "
 "and we cannot count on having freedom five years from now, just because we "
@@ -153,6 +175,7 @@ msgstr ""
 "que les utilisateurs voudraient effectuer."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In future columns, I will be writing about the specific challenges facing "
 "the free software community, and other issues affecting freedom for computer "
@@ -166,16 +189,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -184,6 +214,26 @@ msgstr ""
 "\"mailto:webmasters@gnu.org\">webmasters@gnu.org</a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web à <a href="
+"\"mailto:webmasters@gnu.org\">webmasters@gnu.org</a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -193,11 +243,20 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 1999 Richard M. Stallman"
+msgstr ""
+
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Copyright &copy; 1999 Richard M. Stallman <br /> Verbatim copying and "
+#| "distribution of this entire article is permitted in any medium without "
+#| "royalty provided this notice is preserved."
 msgid ""
-"Copyright &copy; 1999 Richard M. Stallman <br /> Verbatim copying and "
-"distribution of this entire article is permitted in any medium without "
-"royalty provided this notice is preserved."
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium without royalty provided this notice is preserved."
 msgstr ""
 "Copyright &copy; 1999 Richard M. Stallman <br />La reproduction exacte et la "
 "distribution intégrale de cet article est permise sur n'importe quel support "
@@ -205,6 +264,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Nicolas Robin<br />Révision&nbsp;: <a href=\"mailto:trad-"
@@ -212,9 +272,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

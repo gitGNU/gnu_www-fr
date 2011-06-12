@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: software-patents.html\n"
-"POT-Creation-Date: 2009-01-07 04:28-0500\n"
+"POT-Creation-Date: 2011-05-08 20:27-0300\n"
 "PO-Revision-Date: 2009-01-18 18:27+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,28 +15,44 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid "Software Patents - GNU Project - Free Software Foundation"
 msgstr "Les brevets logiciels - GNU Project - Free Software Foundation"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "Software patents &mdash; Obstacles to software development"
 msgstr ""
 "Les brevets logiciels &mdash; Obstacles au d&eacute;veloppement des logiciels"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "by <strong>Richard Stallman</strong>"
 msgstr "par <strong>Richard Stallman</strong>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "<i> This is transcription of a talk presented by Richard M. Stallman 2002-"
+#| "03-25 at the University of Cambridge <a href=\"http://www.cl.cam.ac.uk/"
+#| "\">Computer Laboratory</a>, organized by the <a href=\"http://www.fipr."
+#| "org/\">Foundation for Information Policy Research</a>.  This transcript "
+#| "and <a href=\"http://audio-video.gnu.org/audio/\">audio recording</a> by "
+#| "Nicholas Hill, HTML editing and links by Markus Kuhn. The original "
+#| "version is hosted at <a href=\"http://www.cl.cam.ac.uk/~mgk25/stallman-"
+#| "patents.html\"> http://www.cl.cam.ac.uk/~mgk25/stallman-patents.html</"
+#| "a>.  </i>"
 msgid ""
 "<i> This is transcription of a talk presented by Richard M. Stallman 2002-03-"
 "25 at the University of Cambridge <a href=\"http://www.cl.cam.ac.uk/"
 "\">Computer Laboratory</a>, organized by the <a href=\"http://www.fipr.org/"
 "\">Foundation for Information Policy Research</a>.  This transcript and <a "
-"href=\"http://audio-video.gnu.org/audio/\">audio recording</a> by Nicholas "
-"Hill, HTML editing and links by Markus Kuhn. The original version is hosted "
-"at <a href=\"http://www.cl.cam.ac.uk/~mgk25/stallman-patents.html\"> http://"
-"www.cl.cam.ac.uk/~mgk25/stallman-patents.html</a>.  </i>"
+"href=\"http://audio-video.gnu.org/audio/#patent-cambridge-2002-03-25\">audio "
+"recording</a> by Nicholas Hill, HTML editing and links by Markus Kuhn. The "
+"original version is hosted at <a href=\"http://www.cl.cam.ac.uk/~mgk25/"
+"stallman-patents.html\"> http://www.cl.cam.ac.uk/~mgk25/stallman-patents."
+"html</a>.  </i>"
 msgstr ""
 "<i>Ceci est la transcription d'un discours de Richard M. Stallman du 25 mars "
 "2002 au <a href=\"http://www.cl.cam.ac.uk/\">Laboratoire informatique</a> de "
@@ -50,6 +66,7 @@ msgstr ""
 "patents.html</a>.</i>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "You might have been familiar with my work on <a href=\"/philosophy/free-sw."
 "html\">free software</a>.  This speech is not about that. This speech is "
@@ -67,6 +84,7 @@ msgstr ""
 "domaine du logiciel."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "It is not about patenting software.  That is a very bad way, a misleading "
 "way to describe it, because it is not a matter of patenting individual "
@@ -89,6 +107,7 @@ msgstr ""
 "tout d&eacute;veloppement de logiciels."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "You may have heard people using a misleading term &ldquo;<a href=\"http://"
 "www.wipo.org/about-ip/en/\">Intellectual Property</a>&rdquo;.  This term, as "
@@ -109,6 +128,7 @@ msgstr ""
 "voluez. Cela ne favorise pas une pens&eacute;e claire et ouverte."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "There is an additional problem which has nothing to do with promoting any "
 "one opinion.  It gets in the way of understanding even the facts.  The term "
@@ -152,6 +172,7 @@ msgstr ""
 "s&eacute;par&eacute;ment, sur celle relative aux brevets."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "To give you some of the biggest differences between copyrights and patents: "
 "Copyrights cover the details of expression of a work.  Copyrights don't "
@@ -168,6 +189,7 @@ msgstr ""
 "ponse &agrave; une demande de brevet."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Patents cost a lot of money.  They cost even more paying the lawyers to "
 "write the application than they cost to actually apply.  It takes typically "
@@ -182,6 +204,7 @@ msgstr ""
 "sordonn&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Copyrights last tremendously long.  In some cases they can last as long as "
 "150 years, where patents last 20 years, which is long enough that you can "
@@ -193,6 +216,7 @@ msgstr ""
 "l'&eacute;chelle d'un domaine tel que celui des logiciels."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Think back about 20 years ago when a PC was a new thing.  Imagine being "
 "constrained to develop software using only the ideas that were known in 1982."
@@ -202,6 +226,7 @@ msgstr ""
 "utilisant seulement les id&eacute;es qui &eacute;taient connues en 1982."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Copyrights cover copying.  If you write a novel that turns out to be word-"
 "for-word the same with <cite>Gone with the Wind</cite> and you can prove you "
@@ -216,6 +241,7 @@ msgstr ""
 "droits d'auteur."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "A patent is an absolute monopoly on using an idea.  Even if you could prove "
 "you had the idea on your own, it would be entirely irrelevant if the idea is "
@@ -227,6 +253,7 @@ msgstr ""
 "brevet&eacute;e par quelqu'un d'autre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "I hope you will forget about copyrights for the rest of this talk because "
 "this talk is about patents and you should never lump together copyrights and "
@@ -242,6 +269,7 @@ msgstr ""
 "l'&eacute;thanol."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "When you hear people describe the patent system, they usually describe it "
 "from the point of view of somebody who is hoping to get a patent- what it "
@@ -264,6 +292,7 @@ msgstr ""
 "pourquoi ils veulent que vous l'appr&eacute;ciiez."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "There is another reason&mdash;the patent system is a lot like a lottery "
 "because only a tiny fraction of patents actually bring any benefit to those "
@@ -289,6 +318,7 @@ msgstr ""
 "gagnant."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "To balance this bias, I am going to describe the patent system from the "
 "point of view of its victims.  That is from the point of view of somebody "
@@ -304,7 +334,9 @@ msgstr ""
 # type: Content of: <p>
 #.  This link is dead and there is nothing on their site related to
 #.      the patent or LZW at all, AFAICS.         yavor, 18 Jul 2008
-#. <a href="http://www.unisys.com/unisys/lzw/default.asp">patent</a> 
+#. <a href="http://www.unisys.com/unisys/lzw/default.asp">
+#. patent</a> 
+#. type: Content of: <p>
 msgid ""
 "So, what is the first thing you are going to do after you have had an idea "
 "of what kind of program you are going to write? The first thing you might "
@@ -349,6 +381,7 @@ msgstr ""
 "s&eacute;curit&eacute; des id&eacute;es trouv&eacute;es dans un journal."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Let's forget about that problem&hellip; The issued patents are published by "
 "the patent office so you can find the whole long list of them and see "
@@ -363,6 +396,7 @@ msgstr ""
 "&Eacute;tats-Unis, il y a des centaines de milliers de brevets logiciels."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "There is no way you can keep track of what they are all about.  You would "
 "have to try to search for relevant ones.  Some people say that should be "
@@ -419,6 +453,7 @@ msgstr ""
 "pens&eacute; que ce n'&eacute;tait pas le bon brevet."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Let's suppose that you got a list of patents.  So you want to see know what "
 "you are not allowed to do.  When you try studying these patents, you will "
@@ -435,6 +470,7 @@ msgstr ""
 "dire ce qu'ils semblent dire."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "There was an Australian government study of the patent system in the "
 "1980's.  It concluded that aside from international pressure, there was no "
@@ -457,7 +493,9 @@ msgstr ""
 
 # type: Content of: <p>
 #.  Link apparently not useful anymore.
-#. <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&amp;Sect2=HITOFF&amp;p=1&amp;u=/netahtml/search-bool.html&amp;r=1&amp;f=G&amp;l=50&amp;co1=AND&amp;d=pall&amp;s1=%274486857%27.WKU.&amp;OS=PN/4486857&amp;RS=PN/4486857">patents</a>. 
+#. <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&amp;Sect2=HITOFF&amp;p=1&amp;u=/netahtml/search-bool.html&amp;r=1&amp;f=G&amp;l=50&amp;co1=AND&amp;d=pall&amp;s1=%274486857%27.WKU.&amp;OS=PN/4486857&amp;RS=PN/4486857">
+#. patents</a>. 
+#. type: Content of: <p>
 msgid ""
 "This is not just theoretical.  Around 1990, a programmer named <a href="
 "\"http://www.atarimagazines.com/startv2n3/hypercard.html\">Paul Heckel</a> "
@@ -501,6 +539,7 @@ msgstr ""
 "&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Now, that you have a predictable terrain for doing business(!) what are you "
 "going to do? Well, there are three approaches that you might try. Any of "
@@ -511,22 +550,27 @@ msgstr ""
 "essayer. N'importe laquelle est applicable dans certain cas."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "They are"
 msgstr "Ce sont"
 
 # type: Content of: <ol><li>
+#. type: Content of: <ol><li>
 msgid "Avoiding the patent"
 msgstr "&Eacute;viter le brevet"
 
 # type: Content of: <ol><li>
+#. type: Content of: <ol><li>
 msgid "Licensing the patent"
 msgstr "Obtenir une licence du brevet"
 
 # type: Content of: <ol><li>
+#. type: Content of: <ol><li>
 msgid "Overturning the patent in court."
 msgstr "Invalider le brevet au tribunal."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Let me describe these three approaches and what makes them workable or "
 "unworkable."
@@ -535,10 +579,12 @@ msgstr ""
 "alisables ou irr&eacute;alisables."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "1) Avoiding the patent"
 msgstr "1) &Eacute;viter le brevet"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "That means don't use the idea that the patent covers.  This can be easy or "
 "hard, depending on what that idea is.  In some cases, a feature is "
@@ -600,6 +646,7 @@ msgstr ""
 "fonctionnalit&eacute; tr&egrave;s sp&eacute;cifique."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "What do you do with the <a href=\"http://www.delphion.com/details?"
 "pn=US04873662__\">British Telecom patent</a> on traversing hyper links "
@@ -621,6 +668,7 @@ msgstr ""
 "l&eacute;vision dans la m&ecirc;me pi&egrave;ce."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Sometimes the idea that's patented will be so broad and basic that it "
 "basically rules out an entire field.  For instance, the idea of Public Key "
@@ -659,6 +707,7 @@ msgstr ""
 "pouviez faire comme cela."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Sometimes a specific algorithm gets patented.  For instance, there is a "
 "patent on an optimized version of the Fast Fourier Transform.  It runs about "
@@ -682,6 +731,7 @@ msgstr ""
 "r&eacute;el pour faire son travail. Les effets varient."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In some cases, you can find a better algorithm.  This may or may not do you "
 "any good.  Because we couldn't use compress, in the GNU project we started "
@@ -755,6 +805,7 @@ msgstr ""
 "n'utilise ce format de fichier&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In effect, society had so much inertia in the use of the GIF format, we have "
 "not been able to get people to switch.  Essentially, the community's use of "
@@ -769,6 +820,7 @@ msgstr ""
 "ces menaces de proc&egrave;s."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In fact, the situation is even more bizarre.  There are in fact two patents "
 "covering the LZW compression algorithm.  The patent office couldn't even "
@@ -784,6 +836,7 @@ msgstr ""
 "couvrent r&eacute;ellement la m&ecirc;me chose."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If they were patents on some chemical process, it would be much easier.  You "
 "could see what substances were being used, what the inputs were, what the "
@@ -799,6 +852,7 @@ msgstr ""
 "sont et vous verriez s'ils sont similaires."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If something is purely mathematical, there are many ways of describing it, "
 "which are a lot more different.  They are not superficially similar.  You "
@@ -824,6 +878,7 @@ msgstr ""
 "inhabituel."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Avoiding the patents may be easy, may be impossible.  It may be easy but it "
 "makes your program useless.  It varies depending on the situation."
@@ -833,6 +888,7 @@ msgstr ""
 "la situation."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Here is another point I should mention: Sometimes a company or consortium "
 "can make a format or protocol the de-facto standard.  Then, if that format "
@@ -872,10 +928,12 @@ msgstr ""
 "de standardisation et les appeler &agrave; changer leur r&egrave;gles."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "2) Licensing the patent"
 msgstr "2) Obtenir une licence du brevet"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The second possibility instead of avoiding the patent is to get a license "
 "for the patent.  This is not necessarily an option.  The patent holder does "
@@ -899,6 +957,7 @@ msgstr ""
 "ces choses. Fermez boutique."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "I looked at that patent.  It covered having a number of computers on a "
 "network for playing games such that each computer supported more than one "
@@ -909,6 +968,7 @@ msgstr ""
 "d'un jeu et permette de jouer &agrave; plus d'un jeu &agrave; la fois."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "You will find patent office really think that there is something brilliant "
 "about doing more than one of anything.  They don't realize that in computer "
@@ -938,6 +998,7 @@ msgstr ""
 "jamais car il ne pouvait pas se permettre d'aller au proc&egrave;s."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "However, a lot of patent holders do offer licenses.  They often charge a lot "
 "of money for that though.  The company licensing the natural order "
@@ -961,6 +1022,7 @@ msgstr ""
 "aviez besoin de licences pour 21 brevets&nbsp;?"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "People in business told me that practically speaking, 2 or 3 of them would "
 "make any business unfeasible."
@@ -969,6 +1031,7 @@ msgstr ""
 "cheraient de faire marcher une affaire."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "There is a situation where licensing patents is a very good solution.  That "
 "is if you are a multinational mega-corporation.  Because these companies own "
@@ -1006,6 +1069,7 @@ msgstr ""
 "ellement&nbsp;?"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "What is the benefit that IBM gets from this access to the patents of others? "
 "It is basically the benefit of being excused from the trouble that the "
@@ -1039,6 +1103,7 @@ msgstr ""
 "brevets."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This phenomenon of cross-licensing refutes a common myth, the myth of the "
 "starving genius.  The myth that patents &ldquo;protect&rdquo; the &ldquo;"
@@ -1108,6 +1173,7 @@ msgstr ""
 "me de brevets ne prot&egrave;ge vraiment pas."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The mega-corporations avoid, for the most part, the harm of the patent "
 "system.  They see mainly the good side. That is why they want to have "
@@ -1146,6 +1212,7 @@ msgstr ""
 "d&eacute;fendre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "There are cases where even IBM cannot make someone cross-license.  That is "
 "when there is a company whose sole business is taking a patent and squeezing "
@@ -1163,6 +1230,7 @@ msgstr ""
 "des gens qui font r&eacute;ellement du d&eacute;veloppement."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "There are no patents on legal procedures.  I guess the lawyers understand "
 "what a pain it would be to have to deal with the patent system themselves.  "
@@ -1181,6 +1249,7 @@ msgstr ""
 "accommodent."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "So that is the possibility of licensing a patent which may or may not be "
 "possible and you may or may not be able to afford it."
@@ -1189,10 +1258,12 @@ msgstr ""
 "&ecirc;tre possible ou non et ce que vous pouvez ou non vous permettre."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "3) Overturning a patent in court"
 msgstr "3) Invalider le brevet au tribunal"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Supposedly, in order to be patented, something has to be new, useful and "
 "unobvious.  That is the language used in the US.  I think other countries "
@@ -1211,6 +1282,7 @@ msgstr ""
 "signifier non &eacute;vident pour quelqu'un avec un Q.I. de 50."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Somebody who studies most of the software patents issued in the US, or at "
 "least he used to, I don't know if he can still keep up with them, said that "
@@ -1227,6 +1299,7 @@ msgstr ""
 "d&eacute;j&agrave; connues."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The patent office does things that are so obviously foolish, you wouldn't "
 "even have to know the state of the art to see they are foolish.  This is not "
@@ -1253,6 +1326,7 @@ msgstr ""
 "g&eacute;n&eacute;tique pour r&eacute;aliser que c'est ridicule."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "I am told that this over claiming is normal practice and that the US Patent "
 "Office sometimes invited patent applicants to make their claims broader.  "
@@ -1272,6 +1346,7 @@ msgstr ""
 #.  Another dead link.
 #. <a href="http://people.qualcomm.com/karn/patents/patent-comments.html">
 #. obvious</a>! 
+#. type: Content of: <p>
 msgid ""
 "When programmers look at a lot of software patents, they say this is "
 "ridiculously obvious! Patent bureaucrats have all sorts of excuses to "
@@ -1302,6 +1377,7 @@ msgstr ""
 "faire."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If you go to court, the judges are likely to be a little more stringent "
 "about the idea of what is obvious or not.  But the problem is that it costs "
@@ -1320,6 +1396,7 @@ msgstr ""
 "dollars pour le plaignant car ils avaient perdu."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "To a large extent, the question of the validity of a patent will depend on "
 "historical accidents.  Lots of historical accidents such as precisely what "
@@ -1392,6 +1469,7 @@ msgstr ""
 "termine si vous avez l'ant&eacute;riorit&eacute; sur l'invention."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Now of course, there is a publication made by Engelbart about hypertext, "
 "which they are going to show.  I don't think it says anything about having "
@@ -1407,6 +1485,7 @@ msgstr ""
 "choix."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Because of the expense, it is often out of the question even if you can find "
 "solid prior art that ought to be sufficient to overturn the patent.  As a "
@@ -1433,6 +1512,7 @@ msgstr ""
 "justice de toute fa&ccedil;on&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "All of these three possibilities are things that sometimes you can manage to "
 "use, but often you can't.  So you have to face patent after patent after "
@@ -1458,6 +1538,7 @@ msgstr ""
 "un brevet s'amenuisera au fur et &agrave; mesure que le programme grossit."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Now, people used to say to me, &ldquo;Well, there are patents in other "
 "fields, why should software be exempt?&rdquo;.  Note the bizarre assumption "
@@ -1482,6 +1563,7 @@ msgstr ""
 "oui, pourquoi&nbsp;?"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Let me address that question: patents relate to different fields differently "
 "because in various fields patents relate to products differently."
@@ -1492,6 +1574,7 @@ msgstr ""
 "diff&eacute;remment."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "On one extreme we have pharmaceuticals where a given chemical formula would "
 "be patented, so that patent covers one and only one product.  Some other "
@@ -1507,6 +1590,7 @@ msgstr ""
 "velopp&eacute; le nouveau produit."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "That fits in with the naive idea of the patent system that we have, that if "
 "you are designing a new product, you are going to get &ldquo;The "
@@ -1593,6 +1677,7 @@ msgstr ""
 "incr&eacute;mentale."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Why is software on that extreme of the spectrum? The reason is that in "
 "software we are developing idealized mathematical objects.  You can build a "
@@ -1616,6 +1701,7 @@ msgstr ""
 "vraiment."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If I wanted to put an &lsquo;If&rsquo; statement in a &lsquo;While&rsquo; "
 "statement, I don't have to worry about whether the &lsquo;If&rsquo; "
@@ -1718,6 +1804,7 @@ msgstr ""
 "&eacute;crit pour la plupart par des personnes sur leur temps libre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "There is another big saving.  If you have designed a physical product, the "
 "next thing you have to do is design the factory to make it.  To build this "
@@ -1768,6 +1855,7 @@ msgstr ""
 "diff&eacute;rents que cela."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The result is software really is different from other fields because we are "
 "working with mathematical stuff designing something is far, far easier and "
@@ -1786,6 +1874,7 @@ msgstr ""
 "d'id&eacute;es qui pourraient d&eacute;j&agrave; &ecirc;tre brevet&eacute;es."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The best way to explain it by analogy is with symphonies.  A symphony is "
 "also long and has many notes in it, and probably uses many musical ideas.  "
@@ -1846,6 +1935,7 @@ msgstr ""
 "vous ne pouvez pas faire de traitement de texte innovant."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Because the work of software development is so big, the result is that we "
 "don't need any artificial scheme to incentivize new ideas.  You just have "
@@ -1888,6 +1978,7 @@ msgstr ""
 "&eacute;t&eacute; encourag&eacute;e dans un quelconque sens pertinent."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The same things are kept secret now as what were kept secret before, but the "
 "ideas which used to be published so that we could use them are now likely to "
@@ -1902,6 +1993,7 @@ msgstr ""
 "soudre ce probl&egrave;mes&nbsp;?"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "There are two places you can attack it.  One is the place where patents are "
 "being applied for and issued, in the patent office.  The other is when "
@@ -1915,6 +2007,7 @@ msgstr ""
 "brevet couvre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Changing the criteria for issuing patents or simply keeping a good criteria "
 "for issuing patents, can work in a country which has not authorized software "
@@ -1944,6 +2037,7 @@ msgstr ""
 "le Royaume-Uni. Malheureusement pour vous."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "That approach won't work in the US.  The reason is that the US already has "
 "large numbers of software patents and any change in the criteria for issuing "
@@ -1980,6 +2074,7 @@ msgstr ""
 "&ecirc;tre poursuivi pour cela. C'est l'autre type de solution."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The first kind of solution, the solution that operates on what types of "
 "patents can be valid is a good solution for Europe to use."
@@ -1989,6 +2084,7 @@ msgstr ""
 "l'Europe."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "When the US started having software patents, there was no political debate.  "
 "In fact, nobody noticed.  The software field, for the most part, didn't even "
@@ -2026,7 +2122,9 @@ msgstr ""
 "Pendant les ann&eacute;es 1980, nous ne savions pas cela."
 
 # type: Content of: <p>
-#.  <a href="http://www.european-patent-office.org/legal/epc/"> 
+#.  <a href="http://www.european-patent-office.org/legal/epc/">
+#.  
+#. type: Content of: <p>
 msgid ""
 "It was around 1990 that programmers in the US started to become aware that "
 "they were faced with a danger from software patents.  So i saw how the field "
@@ -2057,6 +2155,7 @@ msgstr ""
 "utilisateurs de logiciel libres qui prirent la t&ecirc;te de l'opposition."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "We are not the only ones threatened by software patents.  All software "
 "developers are threatened by software patents and even software users are "
@@ -2080,6 +2179,7 @@ msgstr ""
 "moyen de leur extorquer de l'argent soit pour semer la pagaille."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "All software developers and users are vulnerable.  But it was the free "
 "software community in Europe that took the lead in organizing opposition.  "
@@ -2096,6 +2196,7 @@ msgstr ""
 "parlementaires &eacute;taient divis&eacute;es sur le probl&egrave;me."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The one whose job is to promote software is against software patents it "
 "seems.  They were not in charge with this issue.  It is the open market "
@@ -2119,6 +2220,7 @@ msgstr ""
 "&agrave; faire la m&ecirc;me chose ici."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "According to <a href=\"http://www.ffii.org/~phm/index.en.html\">Hartmut "
 "Pilch</a>, who is one of the leaders in the European struggle against "
@@ -2148,6 +2250,7 @@ msgstr ""
 "l'Office britannique des brevets a publi&eacute; en &eacute;tait tir&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "They (the UK Patent and Trademark Office) use a term that they call "
 "technical effect.  This is a term which can stretch tremendously.  You are "
@@ -2185,6 +2288,7 @@ msgstr ""
 "pratiquement tout."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The people in the same ministry are also involved in the copyright issue "
 "which really has nothing to do with software patents except that it is being "
@@ -2217,6 +2321,7 @@ msgstr ""
 "emp&ecirc;cher de cr&eacute;er de nouvelles formes de pouvoir."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Software patents tie up every software developer and every computer user in "
 "a new in a new form of bureaucrat.  If the businesses that use computers "
@@ -2232,6 +2337,7 @@ msgstr ""
 "n'aiment pas &ecirc;tre retenues dans la bureaucratie."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Sometimes, of course, it serves an important purpose.  There are some areas "
 "where we wish the UK government did a more careful job in tying certain "
@@ -2252,6 +2358,7 @@ msgstr ""
 "devons alors le rejeter."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "We need to make management aware of what software patents will do to them.  "
 "Get their support in <a href=\"http://swpat.ffii.org/index.en.html"
@@ -2262,15 +2369,18 @@ msgstr ""
 "index.fr.html\">combattant les brevets logiciels en Europe</a>."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "The battle is not over.  It still can be won."
 msgstr ""
 "La bataille n'est pas finie. Elle peut encore &ecirc;tre gagn&eacute;e."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Footnotes"
 msgstr "Notes"
 
 # type: Content of: <ol><li>
+#. type: Content of: <ol><li>
 msgid ""
 "There are approximately 300-400 unique parts in an automatic transmission, "
 "and a transmission is generally the most complicated component of an auto.  "
@@ -2291,6 +2401,7 @@ msgstr ""
 "d&eacute;boguer."
 
 # type: Content of: <ol><li>
+#. type: Content of: <ol><li>
 msgid ""
 "I say &ldquo;software patents&rdquo; but what do I really mean? The U.S. "
 "patent office doesn't officially divide patents into software patents and "
@@ -2309,6 +2420,7 @@ msgstr ""
 "des poursuites pour avoir &eacute;crit du logiciel."
 
 # type: Content of: <ol><li>
+#. type: Content of: <ol><li>
 msgid ""
 "On 6 July 2005, the European Parliament rejected the software patent "
 "directive by 648 out of 680 votes.  However, we must not forget the issue of "
@@ -2329,10 +2441,12 @@ msgstr ""
 "d'inventions."
 
 # type: Content of: <ol><li>
+#. type: Content of: <ol><li>
 msgid "To make it harder for foot-and-mouth disease to spread."
 msgstr "Pour limiter la propagation de la fi&egrave;vre aphteuse."
 
 # type: Content of: <h4>
+#. type: Content of: <h4>
 msgid ""
 "This essay is published in <a href=\"http://shop.fsf.org/product/free-"
 "software-free-society/\"><cite>Free Software, Free Society: The Selected "
@@ -2344,16 +2458,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"//contact\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"//contact\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -2363,6 +2484,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"//contact\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -2372,11 +2514,20 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 2002 Richard Stallman."
+msgstr ""
+
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Copyright &copy; 2002 Richard Stallman.  <br /> Verbatim copying and "
+#| "distribution of this entire speech is permitted provided this notice is "
+#| "preserved."
 msgid ""
-"Copyright &copy; 2002 Richard Stallman.  <br /> Verbatim copying and "
-"distribution of this entire speech is permitted provided this notice is "
-"preserved."
+"Verbatim copying and distribution of this entire speech is permitted "
+"provided this notice is preserved."
 msgstr ""
 "Copyright &copy; 2002 Richard Stallman.  <br />La reproduction exacte et la "
 "distribution intégrale de cet article est permise sur n'importe quel support "
@@ -2384,6 +2535,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
@@ -2391,9 +2543,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

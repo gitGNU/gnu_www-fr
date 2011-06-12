@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: free-distros.html\n"
-"POT-Creation-Date: 2009-11-19 04:25-0500\n"
-"PO-Revision-Date: 2009-11-29 14:54+0100\n"
+"POT-Creation-Date: 2011-05-23 20:27-0300\n"
+"PO-Revision-Date: 2009-10-28 16:34+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "List of Free GNU/Linux Distributions - GNU Project - Free Software "
 "Foundation (FSF)"
@@ -23,10 +24,12 @@ msgstr ""
 "Foundation (FSF)"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "Free GNU/Linux distributions"
 msgstr "Distributions GNU/linux libres"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "<em><span class=\"highlight\">The FSF is not responsible for the content of "
 "other web sites, or how up-to-date their content is.</span></em>"
@@ -35,6 +38,17 @@ msgstr ""
 "des autres sites Web ou de leur actualité.</span></em>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Following are the <a href=\"/gnu/linux-and-gnu.html\">GNU/Linux</a> "
+#| "distributions we know of which have a firm policy commitment to only "
+#| "include and only propose free software.  They reject non-free "
+#| "applications, non-free programming platforms, non-free drivers, or non-"
+#| "free firmware &ldquo;blobs&rdquo;.  If by mistake they do include any, "
+#| "they remove it.  To learn more about what makes for a free GNU/Linux "
+#| "distribution, see our <a href=\"/philosophy/free-system-distribution-"
+#| "guidelines.html\">Guidelines for Free System Distributions</a>."
 msgid ""
 "Following are the <a href=\"/gnu/linux-and-gnu.html\">GNU/Linux</a> "
 "distributions we know of which have a firm policy commitment to only include "
@@ -42,7 +56,7 @@ msgid ""
 "programming platforms, non-free drivers, or non-free firmware &ldquo;"
 "blobs&rdquo;.  If by mistake they do include any, they remove it.  To learn "
 "more about what makes for a free GNU/Linux distribution, see our <a href=\"/"
-"philosophy/free-system-distribution-guidelines.html\">Guidelines for Free "
+"distros/free-system-distribution-guidelines.html\">Guidelines for Free "
 "System Distributions</a>."
 msgstr ""
 "Voici les distributions <a href=\"/gnu/linux-and-gnu.fr.html\">GNU/Linux</a> "
@@ -56,6 +70,7 @@ msgstr ""
 "html\">Recommandations pour des distributions système libres</a>."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "We list <a href=\"/links/companies.html\">companies that sell hardware "
 "preinstalled with a free GNU/Linux distribution</a> separately."
@@ -65,14 +80,21 @@ msgstr ""
 "a> séparément."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "If you know of a distribution that may qualify but isn't listed here, "
+#| "please ask the distribution's maintainers if they want to follow these "
+#| "free software principles.  If they do, and they would like their "
+#| "distribution to be listed here, they should write to &lt;gnu@gnu."
+#| "org&gt;.  Some distributions are making efforts to move toward a "
+#| "completely free system.  We thank them for their on-going work to achieve "
+#| "that goal, and hope to list them here some day."
 msgid ""
 "If you know of a distribution that may qualify but isn't listed here, please "
 "ask the distribution's maintainers if they want to follow these free "
 "software principles.  If they do, and they would like their distribution to "
-"be listed here, they should write to &lt;gnu@gnu.org&gt;.  Some "
-"distributions are making efforts to move toward a completely free system.  "
-"We thank them for their on-going work to achieve that goal, and hope to list "
-"them here some day."
+"be listed here, they should write to &lt;webmasters@gnu.org&gt;."
 msgstr ""
 "Si vous connaissez une distribution qui pourrait être éligible mais qui "
 "n'est pas référencée ici, veuillez demander aux mainteneurs de la "
@@ -84,11 +106,19 @@ msgstr ""
 "référencer ici un jour."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "If you're wondering why a certain popular distribution isn't listed here, "
+#| "you may want to check our page explaining <a href=\"/philosophy/common-"
+#| "distros.html\">why we don't endorse some common distributions</a>.  "
+#| "There, we've listed the reasons why several well-known distributions "
+#| "don't meet our guidelines."
 msgid ""
 "If you're wondering why a certain popular distribution isn't listed here, "
-"you may want to check our page explaining <a href=\"/philosophy/common-"
-"distros.html\">why we don't endorse some common distributions</a>.  There, "
-"we've listed the reasons why several well-known distributions don't meet our "
+"you may want to check our page explaining <a href=\"/distros/common-distros."
+"html\">why we don't endorse some common distributions</a>.  There, we've "
+"listed the reasons why several well-known distributions don't meet our "
 "guidelines."
 msgstr ""
 "Si vous vous demandez pourquoi une certaine distribution populaire n'est pas "
@@ -99,104 +129,267 @@ msgstr ""
 "nos recommandations."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
-"All of the distributions that follow are installable to a computer hard "
-"drive and most can be run live.  They are listed in alphabetical order."
+"Some distributions are making efforts to move toward a completely free "
+"system.  We thank them for their ongoing work to achieve that goal, and hope "
+"to list them here some day."
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"Information about <a href=\"/software/software.html\">individual GNU "
+"packages</a> (most of which are included in the free distros here) is "
+"available separately."
+msgstr ""
+
+# type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "All of the distributions that follow are installable to a computer hard "
+#| "drive and most can be run live.  They are listed in alphabetical order."
+msgid ""
+"<strong>All of the distributions that follow are installable to a computer's "
+"hard drive and most can be run live.</strong> They are listed in "
+"alphabetical order."
 msgstr ""
 "Toutes les distributions qui suivent sont installables sur un disque dur "
 "d'ordinateur et la plupart peuvent être exécutées à partir d'un CD. Elles "
 "sont listées sans ordre particulier."
 
+# type: Content of: <table><thead><tr><th>
+#. type: Content of: <table><thead><tr><th>
+msgid "Distribution"
+msgstr ""
+
+# type: Content of: <table><thead><tr><th>
+#. type: Content of: <table><thead><tr><th>
+msgid "Description"
+msgstr ""
+
+# type: Content of: <table><tr><td><a>
+#. type: Content of: <table><tr><td><a>
+msgid "<a href=\"http://www.blagblagblag.org/\">"
+msgstr ""
+
+# type: Attribute 'alt' of: <table><tr><td><a><img>
+#. type: Attribute 'alt' of: <table><tr><td><a><img>
+msgid "BLAG Linux and GNU"
+msgstr ""
+
+# type: Content of: <table><tr><td>
+#. type: Content of: <table><tr><td>
+msgid "</a>"
+msgstr ""
+
 # type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://www.blagblagblag.org/\">BLAG</a>, BLAG Linux and GNU, a "
-"free GNU/Linux distribution based on Fedora."
+#. type: Content of: <table><tr><td>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.blagblagblag.org/\">BLAG</a>, BLAG Linux and GNU, a "
+#| "free GNU/Linux distribution based on Fedora."
+msgid "BLAG Linux and GNU, a GNU/Linux distribution based on Fedora."
 msgstr ""
 "<a href=\"http://www.blagblagblag.org/\">BLAG</a>, BLAG Linux and GNU, une "
 "distribution GNU/Linux libre basée sur Fedora."
 
+# type: Content of: <table><tr><td><a>
+#. type: Content of: <table><tr><td><a>
+msgid "<a href=\"http://www.dragora.org/\">"
+msgstr ""
+
+# type: Attribute 'alt' of: <table><tr><td><a><img>
+#. type: Attribute 'alt' of: <table><tr><td><a><img>
+msgid "Dragora"
+msgstr ""
+
 # type: Content of: <ul><li>
+#. type: Content of: <table><tr><td>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.dragora.org/\">Dragora</a>, an independent GNU/Linux "
+#| "distribution based on concepts of simplicity."
 msgid ""
-"<a href=\"http://www.dragora.org/\">Dragora</a>, an independent GNU/Linux "
-"distribution based on concepts of simplicity."
+"Dragora, an independent GNU/Linux distribution based on concepts of "
+"simplicity."
 msgstr ""
 "<a href=\"http://www.dragora.org/\">Dragora</a>, une distribution GNU/Linux "
 "indépendante basée sur des concepts de simplicité."
 
+# type: Content of: <table><tr><td><a>
+#. type: Content of: <table><tr><td><a>
+msgid "<a href=\"http://dynebolic.org\">"
+msgstr ""
+
+# type: Attribute 'alt' of: <table><tr><td><a><img>
+#. type: Attribute 'alt' of: <table><tr><td><a><img>
+msgid "Dynebolic"
+msgstr ""
+
 # type: Content of: <ul><li>
+#. type: Content of: <table><tr><td>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://dynebolic.org\">Dynebolic</a>, a GNU/Linux distribution, "
+#| "with special emphasis on audio and video editing."
 msgid ""
-"<a href=\"http://dynebolic.org\">Dynebolic</a>, a GNU/Linux distribution, "
-"with special emphasis on audio and video editing."
+"Dynebolic, a GNU/Linux distribution with special emphasis on audio and video "
+"editing."
 msgstr ""
 "<a href=\"http://dynebolic.org\">Dynebolic</a>, une distribution GNU/Linux, "
 "avec une emphase particulière sur le montage audio et vidéo."
 
+# type: Content of: <table><tr><td><a>
+#. type: Content of: <table><tr><td><a>
+msgid "<a href=\"http://www.gnewsense.org/\">"
+msgstr ""
+
+# type: Attribute 'alt' of: <table><tr><td><a><img>
+#. type: Attribute 'alt' of: <table><tr><td><a><img>
+msgid "gNewSense"
+msgstr ""
+
 # type: Content of: <ul><li>
+#. type: Content of: <table><tr><td>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.gnewsense.org/\">gNewSense</a>, a GNU/Linux "
+#| "distribution based on Debian and Ubuntu, with sponsorship from the FSF."
 msgid ""
-"<a href=\"http://www.gnewsense.org/\">gNewSense</a>, a GNU/Linux "
-"distribution based on Debian and Ubuntu."
+"gNewSense, a GNU/Linux distribution based on Debian and Ubuntu, with "
+"sponsorship from the FSF."
 msgstr ""
 "<a href=\"http://www.gnewsense.org/\">gNewSense</a>, une distribution GNU/"
-"Linux basée sur Debian et Ubuntu."
+"Linux basée sur Debian et Ubuntu, avec le soutien de la FSF."
 
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://kongoni.co.za\">Kongoni</a> is a free GNU/Linux operating "
-"system of African origin. The name comes from the Shona word for a gnu (also "
-"known as a wildebeest)."
+# type: Content of: <table><tr><td><a>
+#. type: Content of: <table><tr><td><a>
+msgid "<a href=\"http://www.musix.org.ar\">"
 msgstr ""
-"<a href=\"http://kongoni.co.za\">Kongoni</a> est un système d'exploitation "
-"GNU/Linux d'origine africaine. Le nom provient du mot Shona désignant un "
-"gnou (également appelé wildebeest)."
+
+# type: Attribute 'alt' of: <table><tr><td><a><img>
+#. type: Attribute 'alt' of: <table><tr><td><a><img>
+msgid "Musix GNU+Linux"
+msgstr ""
 
 # type: Content of: <ul><li>
+#. type: Content of: <table><tr><td>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.musix.org.ar\">Musix GNU+Linux</a>, a GNU+Linux "
+#| "distribution based on Knoppix, with special emphasis on audio production."
 msgid ""
-"<a href=\"http://www.musix.org.ar\">Musix GNU+Linux</a>, a GNU+Linux "
-"distribution based on Knoppix, with special emphasis on audio production."
+"Musix, a GNU+Linux distribution based on Knoppix, with special emphasis on "
+"audio production."
 msgstr ""
 "<a href=\"http://www.musix.org.ar\">Musix GNU+Linux</a>, une distribution "
 "GNU/Linux basée sur Knoppix, avec une emphase particulière sur la production "
 "audio."
 
-# type: Content of: <ul><li>
+#. type: Content of: <table><tr><td><a>
+msgid "<a href=\"http://parabolagnulinux.org\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <table><tr><td><a><img>
+msgid "Parabola GNU/Linux"
+msgstr ""
+
+#. type: Content of: <table><tr><td>
 msgid ""
-"<a href=\"http://trisquel.info/en\">Trisquel</a>, a GNU/Linux distribution "
-"oriented to small enterprises, domestic users and educational centers."
+"Parabola GNU/Linux, a distribution based on Arch that prioritizes simple "
+"package and system management."
+msgstr ""
+
+# type: Content of: <table><tr><td><a>
+#. type: Content of: <table><tr><td><a>
+msgid "<a href=\"http://trisquel.info/en\">"
+msgstr ""
+
+# type: Attribute 'alt' of: <table><tr><td><a><img>
+#. type: Attribute 'alt' of: <table><tr><td><a><img>
+msgid "Trisquel"
+msgstr ""
+
+# type: Content of: <ul><li>
+#. type: Content of: <table><tr><td>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://trisquel.info/en\">Trisquel</a>, a GNU/Linux "
+#| "distribution oriented to small enterprises, domestic users and "
+#| "educational centers."
+msgid ""
+"Trisquel, a GNU/Linux distribution oriented toward small enterprises, "
+"domestic users and educational centers."
 msgstr ""
 "<a href=\"http://trisquel.info/en\">Trisquel</a>, une distribution GNU/Linux "
 "orientée vers les petites entreprises, les particuliers et les centres "
 "éducatifs."
 
+#. type: Content of: <table><tr><td><a>
+msgid "<a href=\"http://www.ututo.org/\">"
+msgstr ""
+
+# type: Attribute 'alt' of: <table><tr><td><a><img>
+#. type: Attribute 'alt' of: <table><tr><td><a><img>
+msgid "Ututo"
+msgstr ""
+
 # type: Content of: <ul><li>
+#. type: Content of: <table><tr><td>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.ututo.org/www/\">Ututo</a>, a GNU/Linux distribution "
+#| "based on Gentoo.  It was the first fully free GNU/Linux system recognized "
+#| "by the GNU Project."
 msgid ""
-"<a href=\"http://www.ututo.org/www/\">Ututo</a>, a GNU/Linux distribution "
-"based on Gentoo.  It was the first fully free GNU/Linux system recognized by "
-"the GNU Project."
+"Ututo, a GNU/Linux distribution based on Gentoo.  It was the first fully "
+"free GNU/Linux system recognized by the GNU Project."
 msgstr ""
 "<a href=\"http://www.ututo.org/www/\">Ututo</a>, une distribution GNU/Linux "
 "basée sur Gentoo. C'était le premier système GNU/Linux totalement libre "
 "reconnu par le Projet GNU."
 
+# type: Content of: <table><tr><td><a>
+#. type: Content of: <table><tr><td><a>
+msgid "<a href=\"http://venenux.org\">"
+msgstr ""
+
+# type: Attribute 'alt' of: <table><tr><td><a><img>
+#. type: Attribute 'alt' of: <table><tr><td><a><img>
+msgid "Venenux"
+msgstr ""
+
 # type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://venenux.org\">Venenux</a>, a free distro built around the "
-"KDE desktop."
+#. type: Content of: <table><tr><td>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://venenux.org\">Venenux</a>, a free distro built around "
+#| "the KDE desktop."
+msgid "Venenux, a GNU/Linux distribution built around the KDE desktop."
 msgstr ""
 "<a href=\"http://venenux.org\">Venenux</a>, une distribution libre bâtie "
 "autour d'un bureau KDE."
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -206,6 +399,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -215,18 +429,20 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
-msgid ""
-"Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
-"2006, 2007, 2008, 2009 Free Software Foundation, Inc."
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 2011 Free Software Foundation, Inc."
 msgstr ""
-"Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
-"2006, 2007, 2008, 2009 Free Software Foundation, Inc."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Verbatim copying and distribution of this entire article is permitted in "
+#| "any medium without royalty provided this notice is preserved."
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium without royalty provided this notice is preserved."
+"Verbatim copying and distribution of this entire article are permitted "
+"worldwide, without royalty, in any medium, provided this notice, and the "
+"copyright notice, are preserved."
 msgstr ""
 "La reproduction exacte et la distribution intégrale de cet article est "
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
@@ -234,6 +450,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
@@ -241,9 +458,38 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li>
+#, fuzzy
+#~| msgid ""
+#~| "<a href=\"http://kongoni.co.za\">Kongoni</a> is a free GNU/Linux "
+#~| "operating system of African origin. The name comes from the Shona word "
+#~| "for a gnu (also known as a wildebeest)."
+#~ msgid ""
+#~ "<a href=\"http://kongoni.co.za/\">Kongoni</a>, a free GNU/Linux operating "
+#~ "system of African origin. The name comes from the Shona word for a gnu "
+#~ "(also known as a wildebeest)."
+#~ msgstr ""
+#~ "<a href=\"http://kongoni.co.za\">Kongoni</a> est un système "
+#~ "d'exploitation GNU/Linux d'origine africaine. Le nom provient du mot "
+#~ "Shona désignant un gnou (également appelé wildebeest)."
+
+# type: Content of: <div><p>
+#, fuzzy
+#~| msgid ""
+#~| "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, "
+#~| "2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc."
+#~ msgid ""
+#~ "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, "
+#~ "2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc."
+#~ msgstr ""
+#~ "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, "
+#~ "2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc."

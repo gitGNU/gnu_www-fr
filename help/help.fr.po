@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: help.html\n"
-"POT-Creation-Date: 2009-04-14 04:26-0300\n"
-"PO-Revision-Date: 2009-04-18 22:47+0100\n"
+"POT-Creation-Date: 2011-03-24 20:27-0300\n"
+"PO-Revision-Date: 2009-04-19 15:13-0300\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "How you can help the GNU Project - GNU Project - Free Software Foundation "
 "(FSF)"
@@ -23,10 +24,12 @@ msgstr ""
 "Foundation (FSF)"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "A guide to helping the GNU operating system"
 msgstr "Un guide pour aider le Projet GNU"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The GNU Volunteer Coordinators <a href=\"mailto:gvc@gnu.org\">&lt;gvc@gnu."
 "org&gt;</a> can assist you if you wish to help the GNU Project. They will be "
@@ -42,6 +45,7 @@ msgstr ""
 "leur savoir votre d&eacute;sir de participation."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Please let the GNU Volunteer Coordinators <a href=\"mailto:gvc@gnu.org\">&lt;"
 "gvc@gnu.org&gt;</a> know if you take on any task from this list.  We want to "
@@ -53,6 +57,7 @@ msgstr ""
 "volontaires."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "For general questions about the GNU project, mail <a href=\"mailto:gnu@gnu."
 "org\">&lt;gnu@gnu.org&gt;</a> and for questions and suggestions about this "
@@ -66,10 +71,12 @@ msgstr ""
 "org</a>."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "How to help the GNU Project"
 msgstr "Comment aider le Projet GNU"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This list is ordered roughly with the more urgent items near the top.  "
 "Please note that many things on this list link to larger, expanded lists."
@@ -80,19 +87,36 @@ msgstr ""
 "listes encore plus grandes."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "Help with <a href=\"http://savannah.gnu.org\">Savannah</a>. We are "
+#| "especially looking for technical volunteers to help handle our lengthy "
+#| "backlog of pending project submissions, ideally by helping to write a "
+#| "specific tool to ease the license-checking job.  A good understanding of "
+#| "free software licensing issues is highly desirable; Perl experience is "
+#| "also helpful.  Please see this <a href=\"http://savannah.gnu.org/"
+#| "maintenance/HowToBecomeASavannahHacker\">general information on how to "
+#| "become a savannah hacker</a> and this <a href=\"http://lists.gnu.org/"
+#| "archive/html/savannah-hackers-public/2008-09/msg00046.html\">description "
+#| "of the specific license-checking tool</a> we have in mind.  Please "
+#| "communicate with us on the <a href=\"http://lists.gnu.org/mailman/"
+#| "listinfo/savannah-hackers-public\">savannah-hackers-public</a> mailing "
+#| "list."
 msgid ""
 "Help with <a href=\"http://savannah.gnu.org\">Savannah</a>. We are "
-"especially looking for technical volunteers to help handle our lengthy "
-"backlog of pending project submissions, ideally by helping to write a "
-"specific tool to ease the license-checking job.  A good understanding of "
-"free software licensing issues is highly desirable; Perl experience is also "
-"helpful.  Please see this <a href=\"http://savannah.gnu.org/maintenance/"
-"HowToBecomeASavannahHacker\">general information on how to become a savannah "
-"hacker</a> and this <a href=\"http://lists.gnu.org/archive/html/savannah-"
-"hackers-public/2008-09/msg00046.html\">description of the specific license-"
-"checking tool</a> we have in mind.  Please communicate with us on the <a "
-"href=\"http://lists.gnu.org/mailman/listinfo/savannah-hackers-public"
-"\">savannah-hackers-public</a> mailing list."
+"especially looking for technical sysadmin volunteers to help with underlying "
+"infrastructure support.  Volunteers to help with pending project submissions "
+"are also very welcome. Writing a specific tool to ease the license-checking "
+"job would be nice; for that, a good understanding of free software licensing "
+"issues is highly desirable and Perl experience is also helpful.  Please see "
+"this <a href=\"http://savannah.gnu.org/maintenance/HowToBecomeASavannahHacker"
+"\">general information on how to become a savannah hacker</a> and this <a "
+"href=\"http://lists.gnu.org/archive/html/savannah-hackers-public/2008-09/"
+"msg00046.html\">description of the specific license-checking tool</a> we "
+"have in mind.  Please communicate with us on the <a href=\"http://lists.gnu."
+"org/mailman/listinfo/savannah-hackers-public\">savannah-hackers-public</a> "
+"mailing list."
 msgstr ""
 "Aidez sur <a href=\"http://savannah.gnu.org\">Savannah</a>. Nous recherchons "
 "plus spécialement des volontaires techniques pour traiter notre longue liste "
@@ -110,34 +134,20 @@ msgstr ""
 "public</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "Organize a new <a href=\"/gnu/gnu-user-groups.html\">GNU/Linux User "
+#| "Group</a>."
 msgid ""
-"Volunteer to extend the <a id=\"FreeSoftwareDirectory\" href=\"http://"
-"directory.fsf.org/\"> Free Software Directory</a>.  This task entails "
-"downloading free software packages, digging up information about these "
-"packages, and checking and verifying the licenses of the programs.  <a href="
-"\"/help/directory.html\">You can read details of how to help the project</"
-"a>.  If you are interested in volunteering for this task, please contact <a "
-"href=\"mailto:bug-directory@gnu.org\">&lt;bug-directory@gnu.org&gt;</a>."
-msgstr ""
-"Devenez volontaire pour &eacute;tendre le <a id=\"FreeSoftwareDirectory\" "
-"href=\"http://directory.fsf.org/\"> R&eacute;pertoire des logiciels libres</"
-"a>. Cette t&acirc;che consiste &agrave; t&eacute;l&eacute;charger des "
-"paquetages logiciels, chercher des informations sur ces paquetages, et "
-"v&eacute;rifier les licences des programmes. <a href=\"/help/directory.html"
-"\">Lire les d&eacute;tails sur la fa&ccedil;on d'aider le projet</a>. Si "
-"vous &ecirc;tes int&eacute;ress&eacute; pour contribuer &agrave; cette "
-"t&acirc;che, veuillez contacter <a href=\"mailto:bug-directory@gnu.org\">bug-"
-"directory@gnu.org</a>."
-
-# type: Content of: <ul><li>
-msgid ""
-"Organize a new <a href=\"/gnu/gnu-user-groups.html\">GNU/Linux User Group</"
-"a>."
+"Organize a new <a href=\"http://libreplanet.org/wiki/Group_list\">GNU/Linux "
+"User Group</a>."
 msgstr ""
 "Organisez un nouveau <a href=\"/gnu/gnu-user-groups.fr.html\">groupe "
 "d'utilisateurs GNU/Linux</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Organize a new Free Software Activist Group to promote use of free software "
 "in your country, region or city."
@@ -146,6 +156,7 @@ msgstr ""
 "l'utilisation des logiciels libres dans votre pays, r&eacute;gion ou ville."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Set an example by switching to a <em>completely</em> <a href=\"/software/"
 "software.html\">free software</a> operating system.  The easiest way to do "
@@ -159,10 +170,12 @@ msgstr ""
 "Linux libres</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "Write free software:"
 msgstr "&Eacute;crivez du logiciel libre&nbsp;:"
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "Contribute to the <a href=\"http://www.fsf.org/campaigns/priority.html"
 "\">high priority free software projects</a>."
@@ -171,6 +184,7 @@ msgstr ""
 "\">projets de logiciels libres hautement prioritaires</a>."
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "The <a href=\"http://savannah.gnu.org/people/?type_id=1\">GNU Help Wanted</"
 "a> list is the general task list for GNU software packages.  You might also "
@@ -184,16 +198,18 @@ msgstr ""
 "maintenus</a>."
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "When writing software for GNU, please follow the <a href=\"/prep/standards/"
 "\">GNU Coding Standards</a> and <a href=\"/prep/maintain/\">Information for "
 "Maintainers of GNU Software</a> documents."
 msgstr ""
 "Si vous &eacute;crivez des logiciels pour GNU, veuillez suivre les <a href="
-"\"/prep/standards/\">standards de codage GNU</a> et les documents <a ref=\"/"
-"prep/maintain/\">d'information pour les mainteneurs de logiciels GNU</a>."
+"\"/prep/standards/\">standards de codage GNU</a> et les documents <a href=\"/"
+"prep/maintain/\">d’information pour les mainteneurs de logiciels GNU</a>."
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "To offer software you have written to GNU, please see this <a href=\"/help/"
 "evaluation.html\">GNU software evaluation</a> information."
@@ -203,6 +219,7 @@ msgstr ""
 "valuation des logiciels GNU</a>."
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "We are sometimes offered software which already does substantially the same "
 "task as an existing GNU package.  Although of course we appreciate all "
@@ -223,6 +240,7 @@ msgstr ""
 "d&eacute;j&agrave; cette t&acirc;che."
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "We can offer <a href=\"/software/devel.html\">some resources</a> to help GNU "
 "software developers."
@@ -231,6 +249,7 @@ msgstr ""
 "aider les d&eacute;veloppeurs de logiciels GNU."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Write documentation for GNU software, using these <a href=\"/doc/"
 "potentialauthors.html\">resources, tips, and hints</a>."
@@ -239,6 +258,7 @@ msgstr ""
 "<a href=\"/doc/potentialauthors.html\">ressources, trucs et astuces</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Volunteer as a &ldquo;Freedom Verifier&rdquo; to check whether a given "
 "distribution contains only free software, so it can be included on the <a "
@@ -250,6 +270,7 @@ msgstr ""
 "href=\"/distros/free-distros.html\">liste des distributions libres</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Translate the GNU Web site into other languages.  More information about the "
 "issue can be found at the <a href=\"/server/standards/README.translations."
@@ -264,12 +285,14 @@ msgstr ""
 "a> si vous voulez aider."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "Tell others about the GNU Project and the Free Software Foundation by:"
 msgstr ""
 "Parlez &agrave; d'autres du Projet GNU et de la Fondation pour le logiciel "
 "libre&nbsp;:"
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "informing your friends about the GNU <a href=\"/philosophy/philosophy.html"
 "\">philosophy</a> and <a href=\"/software/software.html\">software</a>."
@@ -279,6 +302,7 @@ msgstr ""
 "\">logiciels</a>."
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "informing your friends that the &ldquo;Linux&rdquo; operating system is "
 "really <a href=\"/gnu/linux-and-gnu.html\">GNU/Linux</a>: that is, the GNU "
@@ -298,6 +322,7 @@ msgstr ""
 "fois que vous aurez d&eacute;sappris l'ancienne habitude."
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "by both <a href=\"/help/linking-gnu.html\">adding a link to GNU's home page</"
 "a> to your home pages, and suggesting that others do likewise."
@@ -307,6 +332,7 @@ msgstr ""
 "&agrave; d'autres d'en faire autant."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "When you are talking with people that don't value freedom and community, you "
 "can show them the many practical advantages of free software (see <a href="
@@ -324,15 +350,18 @@ msgstr ""
 "votre parole pour une parole open-source juste pour satisfaire les autres."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "Help the FSF raise funds by:"
 msgstr "Aidez la FSF &agrave; collecter des fonds&nbsp;:"
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "making a <a href=\"http://donate.fsf.org/\">donation</a> to the FSF."
 msgstr ""
 "en faisant un <a href=\"http://donate.fsf.org/\">don</a> &agrave; la FSF."
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "becoming an <a href=\"http://member.fsf.org/\">Associate Member</a> of the "
 "FSF."
@@ -341,6 +370,7 @@ msgstr ""
 "de la FSF."
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "choosing the FSF as a beneficiary in your <a href=\"http://www.affero.com/ca/"
 "fsf\">Affero page</a>, linking to your FSF Affero page in your email "
@@ -352,6 +382,7 @@ msgstr ""
 "crits, le lien vers votre page Affero FSF."
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"http://order.fsf.org/\">ordering</a> manuals, t-shirts, stickers "
 "and gear from the FSF."
@@ -360,6 +391,7 @@ msgstr ""
 "shirts, des autocollants et des accessoires &agrave; la FSF."
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "convincing your office to <a href=\"http://order.fsf.org/\">order</a> "
 "manuals and t-shirts from the FSF."
@@ -368,6 +400,7 @@ msgstr ""
 "a> des manuels et des t-shirts &agrave; la FSF."
 
 # type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/philosophy/selling.html\">selling free software</a> and donating "
 "a part of the proceeds to the <a href=\"/fsf/fsf.html\">Free Software "
@@ -381,6 +414,7 @@ msgstr ""
 "veloppement, vous pouvez faire avancer le monde des logiciels libres."
 
 # type: Content of: <ul><li><ul><li><p>
+#. type: Content of: <ul><li><ul><li><p>
 msgid ""
 "<strong>Distributing free software is an opportunity to raise funds for "
 "development.  Don't waste it!</strong>"
@@ -390,6 +424,7 @@ msgstr ""
 "strong>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Volunteer to make sure that essays from our <a href=\"/philosophy/philosophy."
 "html\">philosophy page</a> and other GNU URLs are on and/or linked from WWW "
@@ -414,12 +449,14 @@ msgstr ""
 "gvc@gnu.org\">&lt;gvc@gnu.org&gt;</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "Donate <a href=\"/help/help-hardware.html\">hardware</a> to the FSF."
 msgstr ""
 "Donnez du <a href=\"/help/help-hardware.html\">mat&eacute;riel</a> &agrave; "
 "la FSF."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Take on one of the <a href=\"/server/tasks.html\">jobs</a> we need done for "
 "this <a href=\"/server/server.html\">web server</a>."
@@ -428,6 +465,7 @@ msgstr ""
 "besoin pour ce <a href=\"/server/server.html\">serveur Web</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "If you or your company work supporting or developing free software in some "
 "way, you can list yourself (or your company) in the <a href=\"/prep/service."
@@ -439,6 +477,7 @@ msgstr ""
 "dans l'<a href=\"/prep/service.html\">Annuaire de service de GNU</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "If you run a company that needs to hire people to work with free software, "
 "you can advertise on our <a href=\"http://www.fsf.org/resources/jobs/\">Free "
@@ -450,6 +489,7 @@ msgstr ""
 "le logiciel libre</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Offer to contact companies looking for additional job postings to put on our "
 "<a href=\"http://www.fsf.org/resources/jobs/\">Free Software Job Page</a>.  "
@@ -462,26 +502,25 @@ msgstr ""
 "logiciel libre</a>. Si vous &ecirc;tes int&eacute;ress&eacute;s par cela, "
 "veuillez contacter <a href=\"mailto:gnu@gnu.org\">gnu@gnu.org</a>."
 
-# type: Content of: <ul><li>
-msgid ""
-"<a href=\"/help/used-computers.html\">Donate used computers</a> to other "
-"free software organizations."
-msgstr ""
-"<a href=\"/help/used-computers.html\">Donnez vos vieux ordinateurs</a> "
-"&agrave; d'autres organisations du logiciel libre."
-
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -491,11 +530,53 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, "
+#| "2005, 2006, 2007, 2008 Free Software Foundation, Inc.  <br /> Verbatim "
+#| "copying and distribution of this entire article is permitted in any "
+#| "medium, provided this notice is preserved."
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
-"2006, 2007, 2008 Free Software Foundation, Inc.  <br /> Verbatim copying and "
-"distribution of this entire article is permitted in any medium, provided "
-"this notice is preserved."
+"2006, 2007, 2008 Free Software Foundation, Inc."
+msgstr ""
+"Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
+"2006, 2007, 2008 Free Software Foundation, Inc.  <br /> La reproduction "
+"exacte et la distribution intégrale de cet article est permise sur n'importe "
+"quel support d'archivage, pourvu que cette notice soit préservée."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, "
+#| "2005, 2006, 2007, 2008 Free Software Foundation, Inc.  <br /> Verbatim "
+#| "copying and distribution of this entire article is permitted in any "
+#| "medium, provided this notice is preserved."
+msgid ""
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium, provided this notice is preserved."
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008 Free Software Foundation, Inc.  <br /> La reproduction "
@@ -504,6 +585,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
@@ -511,9 +593,40 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "Volunteer to extend the <a id=\"FreeSoftwareDirectory\" href=\"http://"
+#~ "directory.fsf.org/\"> Free Software Directory</a>.  This task entails "
+#~ "downloading free software packages, digging up information about these "
+#~ "packages, and checking and verifying the licenses of the programs.  <a "
+#~ "href=\"/help/directory.html\">You can read details of how to help the "
+#~ "project</a>.  If you are interested in volunteering for this task, please "
+#~ "contact <a href=\"mailto:bug-directory@gnu.org\">&lt;bug-directory@gnu."
+#~ "org&gt;</a>."
+#~ msgstr ""
+#~ "Devenez volontaire pour &eacute;tendre le <a id=\"FreeSoftwareDirectory\" "
+#~ "href=\"http://directory.fsf.org/\"> R&eacute;pertoire des logiciels "
+#~ "libres</a>. Cette t&acirc;che consiste &agrave; t&eacute;l&eacute;charger "
+#~ "des paquetages logiciels, chercher des informations sur ces paquetages, "
+#~ "et v&eacute;rifier les licences des programmes. <a href=\"/help/directory."
+#~ "html\">Lire les d&eacute;tails sur la fa&ccedil;on d'aider le projet</a>. "
+#~ "Si vous &ecirc;tes int&eacute;ress&eacute; pour contribuer &agrave; cette "
+#~ "t&acirc;che, veuillez contacter <a href=\"mailto:bug-directory@gnu.org"
+#~ "\">bug-directory@gnu.org</a>."
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"/help/used-computers.html\">Donate used computers</a> to other "
+#~ "free software organizations."
+#~ msgstr ""
+#~ "<a href=\"/help/used-computers.html\">Donnez vos vieux ordinateurs</a> "
+#~ "&agrave; d'autres organisations du logiciel libre."

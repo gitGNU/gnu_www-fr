@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: distros.html\n"
-"POT-Creation-Date: 2009-08-20 16:25-0300\n"
-"PO-Revision-Date: 2009-08-23 18:01+0100\n"
+"POT-Creation-Date: 2011-03-31 20:28-0300\n"
+"PO-Revision-Date: 2009-08-23 18:02+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,14 +15,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid "GNU/Linux Distros - GNU Operating System"
 msgstr "Distributions GNU/Linux - Le système d'exploitation GNU"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "GNU/Linux Distros"
 msgstr "Distributions GNU/Linux"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Free GNU/Linux system distributions (or &ldquo;distros&rdquo;) only include "
 "and only propose free software.  They reject non-free applications, non-free "
@@ -38,16 +41,24 @@ msgstr ""
 "incluent, elles le retirent dès qu'elles s'en rendent compte."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Free GNU/Linux Distros"
 msgstr "Distributions GNU/Linux libres"
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "We recommend that you use a free GNU/Linux system distribution, one that "
+#| "does not include proprietary software at all.  That way you can be sure "
+#| "that you are not installing any non-free programs. Here is the list of "
+#| "such distros:<br /> <a href=\"/distros/free-distros.html\"> Free GNU/"
+#| "Linux Distributions</a><br />"
 msgid ""
 "We recommend that you use a free GNU/Linux system distribution, one that "
 "does not include proprietary software at all.  That way you can be sure that "
-"you are not installing any non-free programs. Here is the list of such "
-"distros:<br /> <a href=\"/distros/free-distros.html\"> Free GNU/Linux "
-"Distributions</a><br />"
+"you are not installing any non-free programs. Here is our list of such "
+"distros:"
 msgstr ""
 "Nous vous recommandons d'utiliser une distribution système GNU/Linux libre, "
 "une qui ne contienne pas de logiciels propriétaires du tout. De cette "
@@ -55,12 +66,24 @@ msgstr ""
 "libres. Vous trouverez une liste de ces distributions ici&nbsp;:<br /><a "
 "href=\"/distros/free-distros.html\">Distributions GNU/Linux libres</a><br />"
 
-# type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
-"Each of these existing distros could use more development help.  Thus, if "
-"you want to make an effective contribution to free GNU/Linux distributions, "
-"we suggest that you join the development of an existing free distro rather "
-"that starting a new free distro."
+"<a href=\"/distros/free-distros.html\"> Free GNU/Linux distributions</a>."
+msgstr ""
+
+# type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Each of these existing distros could use more development help.  Thus, if "
+#| "you want to make an effective contribution to free GNU/Linux "
+#| "distributions, we suggest that you join the development of an existing "
+#| "free distro rather that starting a new free distro."
+msgid ""
+"All of these existing distros could use more development help.  Thus, if you "
+"want to make an effective contribution to free GNU/Linux distributions, we "
+"suggest that you join the development of an existing free distro rather that "
+"starting a new free distro."
 msgstr ""
 "Chacune de ces distributions existantes pourraient utiliser plus d'aide pour "
 "leur développement. Par conséquent, si vous voulez faire une contribution "
@@ -69,14 +92,38 @@ msgstr ""
 "démarrer une nouvelle distribution."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Free Distro Guidelines"
 msgstr "Recommandations pour une distribution libre"
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Here is the list of problems that can prevent a distro from being "
+#| "considered entirely free:<br /> <a href=\"/distros/free-system-"
+#| "distribution-guidelines.html\"> Guidelines for Free System Distributions</"
+#| "a>"
 msgid ""
 "Here is the list of problems that can prevent a distro from being considered "
-"entirely free:<br /> <a href=\"/distros/free-system-distribution-guidelines."
-"html\"> Guidelines for Free System Distributions</a>"
+"entirely free:"
+msgstr ""
+"Voici une liste des problèmes qui empêchent une distribution d'être "
+"considérée comme libre&nbsp;:<br /> <a href=\"/distros/free-system-"
+"distribution-guidelines.fr.html\">Recommandations pour la distribution de "
+"systèmes libres</a>"
+
+# type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Here is the list of problems that can prevent a distro from being "
+#| "considered entirely free:<br /> <a href=\"/distros/free-system-"
+#| "distribution-guidelines.html\"> Guidelines for Free System Distributions</"
+#| "a>"
+msgid ""
+"<a href=\"/distros/free-system-distribution-guidelines.html\"> Guidelines "
+"for free system distributions</a>."
 msgstr ""
 "Voici une liste des problèmes qui empêchent une distribution d'être "
 "considérée comme libre&nbsp;:<br /> <a href=\"/distros/free-system-"
@@ -84,22 +131,35 @@ msgstr ""
 "systèmes libres</a>"
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Common Distros"
 msgstr "Distributions courantes"
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Many common and well-known GNU/Linux software distributions don't meet "
+#| "our guidelines. You can read about their problems here:<br /> <a href=\"/"
+#| "distros/common-distros.html\"> Explaining Why We Don't Endorse The Well-"
+#| "Known GNU/Linux Distros</a>"
 msgid ""
 "Many common and well-known GNU/Linux software distributions don't meet our "
-"guidelines. You can read about their problems here:<br /> <a href=\"/distros/"
-"common-distros.html\"> Explaining Why We Don't Endorse The Well-Known GNU/"
-"Linux Distros</a>"
+"guidelines. You can read about their problems here:"
 msgstr ""
 "Beaucoup de distributions GNU/Linux bien connues ne respectent pas nos "
 "recommandations. Vous pouvez lire les problèmes qu'elles ont ici&nbsp;:<br /"
 "><a href=\"/distros/common-distros.fr.html\">Pourquoi nous n'homologuons pas "
 "les distributions GNU/Linux bien connues</a>"
 
+#. type: Content of: <p>
+msgid ""
+"<a href=\"/distros/common-distros.html\"> Why we can't endorse many well-"
+"known GNU/Linux distros</a>."
+msgstr ""
+
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "We appeal to the developers of these distros to remove the non-free parts "
 "and thus make them entirely free software."
@@ -109,16 +169,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -127,6 +194,26 @@ msgstr ""
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web à <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -137,10 +224,14 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 2009 Free Software Foundation, Inc."
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid "Copyright &copy; 2009 Free Software Foundation, Inc."
+msgid "Copyright &copy; 2010 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2009 Free Software Foundation, Inc."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article are permitted "
 "worldwide, without royalty, in any medium, provided this notice, and the "
@@ -152,6 +243,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
@@ -159,9 +251,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

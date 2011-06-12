@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: free-system-distribution-guidelines.html\n"
-"POT-Creation-Date: 2009-10-06 04:25-0300\n"
+"POT-Creation-Date: 2011-05-18 20:27-0300\n"
 "PO-Revision-Date: 2009-10-28 16:37+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "Guidelines for Free System Distributions - GNU Project - Free Software "
 "Foundation"
@@ -23,14 +24,17 @@ msgstr ""
 "- Free Software Foundation"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "Guidelines for Free System Distributions"
 msgstr "Recommandations pour la distribution de syst&egrave;mes libres"
 
 # type: Content of: <div><h3>
+#. type: Content of: <h3>
 msgid "Introduction"
 msgstr "Introduction"
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "The purpose of these guidelines is to explain what it means for a system "
 "distribution (such as a GNU/Linux distribution) to qualify as free, and help "
@@ -42,6 +46,7 @@ msgstr ""
 "les leurs libres."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "These guidelines are not complete.  We have mentioned the issues we are "
 "aware of now, but we're sure there are more.  We will add them when we come "
@@ -53,6 +58,7 @@ msgstr ""
 "rencontrerons."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "We would like to thank the Fedora Project for their help in focusing these "
 "policies, and allowing us to use their own distribution license guidelines "
@@ -64,10 +70,12 @@ msgstr ""
 "de distribution comme base pour ce document."
 
 # type: Content of: <div><h3>
+#. type: Content of: <h3>
 msgid "License Rules"
 msgstr "Règles pour les licences"
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "&ldquo;Information for practical use&rdquo; includes software, "
 "documentation, fonts, and other data that has direct functional "
@@ -82,6 +90,7 @@ msgstr ""
 "jugements."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "All information for practical use in a free distribution must be available "
 "in source form.  (&ldquo;Source&rdquo; means the form of the information "
@@ -92,6 +101,7 @@ msgstr ""
 "forme sous laquelle les informations sont facilement modifiables)."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "The information, and the source, must be provided under an appropriate free "
 "license.  We list the ones we have evaluated on <a class=\"reference\" href="
@@ -115,12 +125,22 @@ msgstr ""
 "disponible(s) quand ils le distribuent et/ou le modifient."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "A free system distribution must not steer users towards obtaining any "
+#| "nonfree information for practical use, or encourage them to do so.  There "
+#| "should be no repositories or ports for nonfree software.  Programs in the "
+#| "system should not suggest installing nonfree plugins, documentation, and "
+#| "so on."
 msgid ""
 "A free system distribution must not steer users towards obtaining any "
 "nonfree information for practical use, or encourage them to do so.  There "
-"should be no repositories or ports for nonfree software.  Programs in the "
-"system should not suggest installing nonfree plugins, documentation, and so "
-"on."
+"should be no repositories or ports for nonfree software.  Nor should the "
+"distribution refer to third-party repositories that are not committed to "
+"only including free software; even if they only have free software today, "
+"that may not be true tomorrow.  Programs in the system should not suggest "
+"installing nonfree plugins, documentation, and so on."
 msgstr ""
 "Une distribution syst&egrave;me libre ne doit pas aider les utilisateurs "
 "&agrave; obtenir des informations non-libres pour un usage pratique, ou les "
@@ -130,6 +150,7 @@ msgstr ""
 "libres, de la documentation non-libre, etc."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "A free system distribution should be self-hosting.  This means that you must "
 "be able to develop and build the system with tools that the system provides "
@@ -144,6 +165,7 @@ msgstr ""
 "utilisant des logiciels non-libres."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "There's a lot of code in most free system distributions today; the amount of "
 "effort it would take to audit it all directly is impractical for most "
@@ -164,6 +186,7 @@ msgstr ""
 "pour retirer de tels programmes s'ils sont d&eacute;couverts plus tard."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "Certain kinds of license situations merit special attention for people "
 "creating or considering free software distributions; those are discussed in "
@@ -175,10 +198,12 @@ msgstr ""
 "celles-ci sont abord&eacute;es dans les sections qui suivent."
 
 # type: Content of: <div><h3>
+#. type: Content of: <h3>
 msgid "Nonfree Firmware"
 msgstr "Microcode non-libre"
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "Some applications and drivers require firmware to function, and sometimes "
 "that firmware is distributed only in object code form, under a nonfree "
@@ -196,6 +221,7 @@ msgstr ""
 "&ecirc;tre retir&eacute;s d'une distribution syst&egrave;me libre."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "Blobs can take many forms.  Sometimes, they will be provided in separate "
 "files.  Other times, they may be incorporated into the source of the driver "
@@ -212,6 +238,7 @@ msgstr ""
 "syst&egrave;me libre."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "(To be clear, not every array of numbers in a driver is firmware.  It's "
 "important to understand the purpose of the data before deciding whether or "
@@ -223,15 +250,28 @@ msgstr ""
 "pas pour un syst&egrave;me libre)."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Brian Brazil, Jeff Moe, and Alexandre Oliva have developed a series of <a "
+#| "class=\"reference\" href=\"http://www.fsfla.org/svn/fsfla/software/linux-"
+#| "libre/scripts/\">scripts to remove nonfree firmware</a> from a stock "
+#| "version of Linux.  You may find them helpful if you would like to develop "
+#| "your own free GNU/Linux distribution.  The complete source for a blob-"
+#| "free version of Linux is also available; you can learn more about this "
+#| "from the <a class=\"reference\" href=\"http://directory.fsf.org/project/"
+#| "linux/\"> Free Software Directory</a>."
 msgid ""
 "Brian Brazil, Jeff Moe, and Alexandre Oliva have developed a series of <a "
 "class=\"reference\" href=\"http://www.fsfla.org/svn/fsfla/software/linux-"
 "libre/scripts/\">scripts to remove nonfree firmware</a> from a stock version "
-"of Linux.  You may find them helpful if you would like to develop your own "
-"free GNU/Linux distribution.  The complete source for a blob-free version of "
-"Linux is also available; you can learn more about this from the <a class="
-"\"reference\" href=\"http://directory.fsf.org/project/linux/\"> Free "
-"Software Directory</a>."
+"of the Linux kernel.  You may find them helpful if you would like to develop "
+"your own free GNU/Linux distribution&mdash;although we recommend joining "
+"development of an existing free distro rather than fragmenting effort by "
+"starting a new one.  The complete source for a blob-free version of the "
+"Linux kernel is also available; you can learn more about this project from "
+"the <a class=\"reference\" href=\"http://directory.fsf.org/project/linux/"
+"\">Free Software Directory</a>."
 msgstr ""
 "Brian Brazil, Jeff Moe et Alexandre Oliva ont d&eacute;velopp&eacute; une "
 "s&eacute;rie de <a class=\"reference\" href=\"http://www.fsfla.org/svn/fsfla/"
@@ -244,18 +284,33 @@ msgstr ""
 "\">R&eacute;pertoire des logiciels libres</a>."
 
 # type: Content of: <div><h3>
+#. type: Content of: <h3>
 msgid "Non-functional Data"
 msgstr "Données non-fonctionnelles"
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Data that has an aesthetic purpose, rather than a functional one, may be "
+#| "included in a free system distribution as long as its license gives you "
+#| "permission to copy and redistribute, both for commercial and non-"
+#| "commercial purposes.  For example, there are some game engines that have "
+#| "been released under the GNU GPL, and have accompanying game "
+#| "information&mdash;a world map, game graphics, and so on&mdash;released "
+#| "under such a verbatim distribution license.  This kind of data can be "
+#| "part of a free system distribution."
 msgid ""
-"Data that has an aesthetic purpose, rather than a functional one, may be "
-"included in a free system distribution as long as its license gives you "
-"permission to copy and redistribute, both for commercial and non-commercial "
-"purposes.  For example, there are some game engines that have been released "
-"under the GNU GPL, and have accompanying game information&mdash;a world map, "
-"game graphics, and so on&mdash;released under such a verbatim distribution "
-"license.  This kind of data can be part of a free system distribution."
+"Data that isn't functional, that doesn't do a practical job, is more of an "
+"adornment to the system's software than a part of it.  Thus, we don't insist "
+"on the free license criteria for non-functional data.  It can be included in "
+"a free system distribution as long as its license gives you permission to "
+"copy and redistribute, both for commercial and non-commercial purposes.  For "
+"example, some game engines released under the GNU GPL have accompanying game "
+"information&mdash;a fictional world map, game graphics, and so on&mdash;"
+"released under such a verbatim-distribution license.  This kind of data can "
+"be part of a free system distribution, even though its license does not "
+"qualify as free, because it is non-functional."
 msgstr ""
 "Les donn&eacute;es &agrave; vocation esth&eacute;tique, plut&ocirc;t que "
 "fonctionnelle, peuvent &ecirc;tre incluses dans une distribution syst&egrave;"
@@ -268,10 +323,12 @@ msgstr ""
 "distribution syst&egrave;me libre."
 
 # type: Content of: <div><h3>
+#. type: Content of: <h3>
 msgid "Trademarks"
 msgstr "Marques déposées"
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "Trademarks are associated with some software.  For example, the name of a "
 "program may be trademarked, or its interface may display a trademarked "
@@ -289,6 +346,7 @@ msgstr ""
 "modifient."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "In extreme cases, these restrictions may effectively render the program "
 "nonfree.  It is unfair for someone to ask you to remove a trademark from "
@@ -306,6 +364,7 @@ msgstr ""
 "pos&eacute;es."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "Similarly, the distribution itself may hold particular trademarks.  It is "
 "not a problem if modification requires removal of these trademarks, as long "
@@ -317,6 +376,7 @@ msgstr ""
 "retir&eacute;es sans perte de fonctionnalit&eacute;s du syst&egrave;me."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "However, it is unacceptable to use trademarks to restrict verbatim copying "
 "and redistribution of the whole distribution, or any part."
@@ -326,10 +386,12 @@ msgstr ""
 "distribution, ou quelle que partie que ce soit."
 
 # type: Content of: <div><h3>
+#. type: Content of: <h3>
 msgid "Documentation"
 msgstr "Documentation"
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "All the documentation in a free system distribution must be released under "
 "an appropriate free license.  Additionally, it must take care not to "
@@ -341,6 +403,7 @@ msgstr ""
 "libres."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "In general, something that helps people who already use nonfree software to "
 "use the free software better with it is acceptable, but something that "
@@ -353,6 +416,7 @@ msgstr ""
 "logiciels non-libres est n&eacute;faste."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "For example, a free system distribution may have documentation for users "
 "setting up dual boot systems.  It could explain how to access filesystems of "
@@ -370,6 +434,7 @@ msgstr ""
 "d&eacute;j&agrave; un logiciel propri&eacute;taire, ce qui est bien."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "What would be unacceptable is for the documentation to give people "
 "instructions for installing a nonfree program on the system, or mention "
@@ -380,6 +445,7 @@ msgstr ""
 "ou de mentionner les avantages que cela pourra apporter en le faisant."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "For a borderline case, a clear and serious exhortation not to use the "
 "nonfree program would clearly make it acceptable."
@@ -388,10 +454,12 @@ msgstr ""
 "utiliser le programme non-libre, la rendrait clairement acceptable."
 
 # type: Content of: <div><h3>
+#. type: Content of: <h3>
 msgid "Patents"
 msgstr "Brevets"
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
 msgid ""
 "It is effectively impossible for free software developers and distributors "
 "to know whether or not a given piece of software infringes any patents: "
@@ -414,15 +482,26 @@ msgstr ""
 "risques de proc&egrave;s contre lui pour violation de brevets."
 
 # type: Content of: <div><h3>
+#. type: Content of: <h3>
 msgid "Commitment to Correct Mistakes"
 msgstr "Engagement à corriger les erreurs"
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Most distribution development teams don't have the resources to perfectly "
+#| "check and make sure that their distribution meet all these criteria.  "
+#| "Neither do we.  So we expect developers to occasionally make mistakes "
+#| "that let some non-free software slip through, and we don't reject a "
+#| "distribution just for that.  What is crucial is for the distribution "
+#| "developers to have a firm commitment to promptly correct any mistakes "
+#| "that are reported to them."
 msgid ""
 "Most distribution development teams don't have the resources to perfectly "
 "check and make sure that their distribution meet all these criteria.  "
 "Neither do we.  So we expect developers to occasionally make mistakes that "
-"let some non-free software slip through, and we don't reject a distribution "
+"let some nonfree software slip through, and we don't reject a distribution "
 "just for that.  What is crucial is for the distribution developers to have a "
 "firm commitment to promptly correct any mistakes that are reported to them."
 msgstr ""
@@ -436,13 +515,21 @@ msgstr ""
 "rapportées."
 
 # type: Content of: <div><h3>
+#. type: Content of: <h3>
 msgid "Maintenance"
 msgstr "Maintenance"
 
 # type: Content of: <div>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "To be listed, a distribution should be actively maintained, and should "
+#| "give the GNU Project a clear and specific way to report problems of non-"
+#| "free software that we find out about.  It should also inform us when the "
+#| "problems we have reported are fixed."
 msgid ""
 "To be listed, a distribution should be actively maintained, and should give "
-"the GNU Project a clear and specific way to report problems of non-free "
+"the GNU Project a clear and specific way to report problems of nonfree "
 "software that we find out about.  It should also inform us when the problems "
 "we have reported are fixed."
 msgstr ""
@@ -451,30 +538,25 @@ msgstr ""
 "problèmes à propos de logiciels non-libres que nous avons trouvés. Elle doit "
 "aussi nous informer quand les problèmes rapportés ont été corrigés."
 
-# type: Content of: <div><h3>
-msgid "Final Notes"
-msgstr "Notes"
-
-# type: Content of: <div><p>
-msgid ""
-"We maintain a list of the <a href=\"/distros/free-distros.html\">free system "
-"distributions</a> we know about.  If you know about a free distribution that "
-"isn't listed there, please have the developers write to us at &lt;<a class="
-"\"reference\" href=\"mailto:gnu@gnu.org\">gnu@gnu.org</a>&gt;."
+#. type: Content of: <h3>
+msgid "Name Confusion"
 msgstr ""
-"Nous maintenons une liste des <a href=\"/distros/free-distros.html"
-"\">distributions système libres</a>que nous connaissons . Si vous connaissez "
-"une distribution libre qui n'est pas listée ici, veuillez demander aux "
-"développeurs de nous écrire à &lt;<a class=\"reference\" href=\"mailto:"
-"gnu@gnu.org\">gnu@gnu.org</a>&gt;."
 
 # type: Content of: <div><p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "However, we will not list a distribution whose name makes confusion with "
+#| "non-free distributions likely.  Thus, if Foobar Light is a free "
+#| "distribution and Foobar is a non-free distribution, we will not list "
+#| "Foobar Light.  This is because we expect that the distinction between the "
+#| "two would be lost in the process of communicating this message."
 msgid ""
-"However, we will not list a distribution whose name makes confusion with non-"
-"free distributions likely.  Thus, if Foobar Light is a free distribution and "
-"Foobar is a non-free distribution, we will not list Foobar Light.  This is "
-"because we expect that the distinction between the two would be lost in the "
-"process of communicating this message."
+"We will not list a distribution whose name makes confusion with nonfree "
+"distributions likely.  For example, if Foobar Light is a free distribution "
+"and Foobar is a nonfree distribution, we will not list Foobar Light.  This "
+"is because we expect that the distinction between the two would be lost in "
+"the process of communicating the message."
 msgstr ""
 "Cependant, nous ne listerons pas une distribution dont le nom pourrait "
 "prêter à confusion avec des distributions non-libres. Par conséquent, si "
@@ -483,11 +565,62 @@ msgstr ""
 "craignons que la distinction entre les deux serait perdue dans le processus "
 "de communication de ce message."
 
+# type: Content of: <h3>
+#. type: Content of: <h3>
+msgid "Contacting Upstream If You're Downstream"
+msgstr ""
+
+# type: Content of: <p>
+#. type: Content of: <p>
+msgid ""
+"For distro developers (or anyone else) who have sent an important bug report "
+"for a GNU package: if it has gone unheeded by the package maintainer after a "
+"reasonable time (please allow at least two weeks), you can escalate the bug "
+"by writing to &lt;maintainers@gnu.org&gt;.  This is especially warranted if "
+"you can't find evidence of recent activity by the package maintainer."
+msgstr ""
+
+# type: Content of: <div><h3>
+#. type: Content of: <h3>
+msgid "Final Notes"
+msgstr "Notes"
+
 # type: Content of: <div><p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "We maintain a list of the <a href=\"/distros/free-distros.html\">free "
+#| "system distributions</a> we know about.  If you know about a free "
+#| "distribution that isn't listed there, please have the developers write to "
+#| "us at &lt;<a class=\"reference\" href=\"mailto:gnu@gnu.org\">gnu@gnu.org</"
+#| "a>&gt;."
+msgid ""
+"We maintain a list of the <a href=\"/distros/free-distros.html\">free system "
+"distributions</a> we know about.  If you know about a free distribution that "
+"isn't listed there, please have the developers write to &lt;<a class="
+"\"reference\" href=\"mailto:gnu@gnu.org\">gnu@gnu.org</a>&gt; with a "
+"description of their system and a link to their web page."
+msgstr ""
+"Nous maintenons une liste des <a href=\"/distros/free-distros.html"
+"\">distributions système libres</a>que nous connaissons . Si vous connaissez "
+"une distribution libre qui n'est pas listée ici, veuillez demander aux "
+"développeurs de nous écrire à &lt;<a class=\"reference\" href=\"mailto:"
+"gnu@gnu.org\">gnu@gnu.org</a>&gt;."
+
+# type: Content of: <div><p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "If you have questions or comments about these guidelines themselves, feel "
+#| "free to send those to &lt;<a class=\"reference\" href=\"mailto:"
+#| "licensing@gnu.org\">licensing@gnu.org</a>&gt;.  We hope this helps "
+#| "everyone better understand the issues that are important for free system "
+#| "distributions, and we look forward to promoting more of them in the "
+#| "future."
 msgid ""
 "If you have questions or comments about these guidelines themselves, feel "
 "free to send those to &lt;<a class=\"reference\" href=\"mailto:licensing@gnu."
-"org\">licensing@gnu.org</a>&gt;.  We hope this helps everyone better "
+"org\">licensing@gnu.org</a>&gt;.  We hope that they help everyone better "
 "understand the issues that are important for free system distributions, and "
 "we look forward to promoting more of them in the future."
 msgstr ""
@@ -506,16 +639,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -524,6 +664,26 @@ msgstr ""
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web à <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -534,10 +694,14 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 2008, 2009 Free Software Foundation, Inc."
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid "Copyright &copy; 2008, 2009 Free Software Foundation, Inc."
+msgid "Copyright &copy; 2010 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2008, 2009 Free Software Foundation, Inc."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article are permitted "
 "worldwide, without royalty, in any medium, provided this notice, and the "
@@ -549,6 +713,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
@@ -556,9 +721,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

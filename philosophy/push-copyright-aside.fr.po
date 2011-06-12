@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: push-copyright-aside.html\n"
-"POT-Creation-Date: 2009-10-18 04:25-0300\n"
+"POT-Creation-Date: 2011-03-09 12:27-0500\n"
 "PO-Revision-Date: 2009-11-29 17:53+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "Science must &ldquo;push copyright aside&rdquo; - GNU Project - Free "
 "Software Foundation (FSF)"
@@ -24,20 +25,42 @@ msgstr ""
 "&nbsp;&raquo; - GNU Project - Free Software Foundation (FSF)"
 
 # type: Content of: <h2>
-msgid "Science must &ldquo;push copyright aside&rdquo;"
+#. type: Content of: <h2>
+#, fuzzy
+#| msgid "Science must &ldquo;push copyright aside&rdquo;"
+msgid "Science must push copyright aside"
 msgstr ""
 "La science doit &laquo;&nbsp;mettre le droit d'auteur de c&ocirc;t&eacute;"
 "&nbsp;&raquo;"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "by <strong>Richard M. Stallman</strong>"
 msgstr "par <strong>Richard M. Stallman</strong>"
 
 # type: Content of: <p>
-msgid "<em>This article appeared in <em>Nature Webdebates</em> in 2001</em>"
+#. type: Content of: <p>
+msgid ""
+"<em>Many points that lead to a conclusion that software freedom must be "
+"universal often apply to other forms of expressive works, albeit in "
+"different ways. This essay concerns the application of principles related to "
+"software freedom to the area of literature.  Generally, such issues are "
+"orthogonal to software freedom, but we include essays like this here since "
+"many people interested in Free Software want to know more about how the "
+"principles can be applied to areas other than software.</em>"
+msgstr ""
+
+# type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid "<em>This article appeared in <em>Nature Webdebates</em> in 2001</em>"
+msgid ""
+"(This article appeared in <em>Nature</em> magazine's <b>web</b>debates forum "
+"in 2001.)"
 msgstr "<em>Cet article est paru dans <em>Nature Webdebates</em> en 2001</em>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "It should be a truism that the scientific literature exists to disseminate "
 "scientific knowledge, and that scientific journals exist to facilitate the "
@@ -52,6 +75,7 @@ msgstr ""
 "atteindre cet objectif."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The rules we have now, known as copyright, were established in the age of "
 "the printing press, an inherently centralized method of mass-production "
@@ -75,10 +99,19 @@ msgstr ""
 "gles conviennent bien &agrave; ce syst&egrave;me."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The modern technology for scientific publishing, however, is the World "
+#| "Wide Web.  What rules would best ensure the maximum dissemination of "
+#| "scientific articles, and knowledge, on the Web? Articles should be "
+#| "distributed in nonproprietary formats, with open access for all. And "
+#| "everyone should have the right to &ldquo;mirror&rdquo; articles&mdash;"
+#| "that is, to republish them verbatim with proper attribution."
 msgid ""
 "The modern technology for scientific publishing, however, is the World Wide "
 "Web.  What rules would best ensure the maximum dissemination of scientific "
-"articles, and knowledge, on the Web? Articles should be distributed in "
+"articles, and knowledge, on the web? Articles should be distributed in "
 "nonproprietary formats, with open access for all. And everyone should have "
 "the right to &ldquo;mirror&rdquo; articles&mdash;that is, to republish them "
 "verbatim with proper attribution."
@@ -93,6 +126,7 @@ msgstr ""
 "correctement la source."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "These rules should apply to past as well as future articles, when they are "
 "distributed in electronic form. But there is no crucial need to change the "
@@ -107,6 +141,7 @@ msgstr ""
 "dans ce domaine."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Unfortunately, it seems that not everyone agrees with the truisms that began "
 "this article. Many journal publishers appear to believe that the purpose of "
@@ -123,6 +158,7 @@ msgstr ""
 "moyens&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Their approach has been to restrict access even to read the scientific "
 "literature to those who can and will pay for it. They use copyright law, "
@@ -137,6 +173,7 @@ msgstr ""
 "nouvelles r&egrave;gles."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "For the sake of scientific cooperation and humanity's future, we must reject "
 "that approach at its root&mdash;not merely the obstructive systems that have "
@@ -149,6 +186,7 @@ msgstr ""
 "qui les ont inspir&eacute;s."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Journal publishers sometimes claim that online access requires expensive "
 "high-powered server machines, and that they must charge access fees to pay "
@@ -172,12 +210,22 @@ msgstr ""
 "accidentelle."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Publishers also argue that paying the editors requires charging for "
+#| "access.  Let us accept the assumption that editors must be paid; this "
+#| "tail need not wag the dog. The cost of editing for a typical paper is "
+#| "between 1% and 3% of the cost of funding the research to produce it. Such "
+#| "a small percentage of the cost can hardly justify obstructing the use of "
+#| "the results."
 msgid ""
 "Publishers also argue that paying the editors requires charging for access.  "
 "Let us accept the assumption that editors must be paid; this tail need not "
-"wag the dog. The cost of editing for a typical paper is between 1% and 3% of "
-"the cost of funding the research to produce it. Such a small percentage of "
-"the cost can hardly justify obstructing the use of the results."
+"wag the dog. The cost of editing for a typical paper is between 1 percent "
+"and 3 percent of the cost of funding the research to produce it. Such a "
+"small percentage of the cost can hardly justify obstructing the use of the "
+"results."
 msgstr ""
 "Les &eacute;diteurs disent aussi qu'il faut un acc&egrave;s payant pour "
 "r&eacute;mun&eacute;rer les r&eacute;dacteurs. Admettons qu'il faille payer "
@@ -188,6 +236,7 @@ msgstr ""
 "l'utilisation des r&eacute;sultats."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Instead, the cost of editing could be recovered, for example, through page "
 "charges to the authors, who can pass these on to the research sponsors.  The "
@@ -215,6 +264,7 @@ msgstr ""
 "soutenus par des institutions."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Another justification for access fees to online publications is to fund "
 "conversion of the print archives of a journal into online form. That work "
@@ -233,9 +283,15 @@ msgstr ""
 "travail en en restreignant l'acc&egrave;s."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The US Constitution says that copyright exists &ldquo;to promote the "
+#| "progress of science&rdquo;. When copyright impedes the progress of "
+#| "science, science must push copyright out of the way."
 msgid ""
 "The US Constitution says that copyright exists &ldquo;to promote the "
-"progress of science&rdquo;. When copyright impedes the progress of science, "
+"Progress of Science&rdquo;. When copyright impedes the progress of science, "
 "science must push copyright out of the way."
 msgstr ""
 "La Constitution des &Eacute;tats-Unis dit que le droit d'auteur existe "
@@ -243,18 +299,38 @@ msgstr ""
 "Quand les droits d'auteur freinent les progr&egrave;s de la science, la "
 "science doit mettre le droit d'auteur de c&ocirc;t&eacute;."
 
+#. type: Content of: <p>
+msgid ""
+"Some universities have adopted policies to thwart the journal publishers' "
+"power. For instance, here is MIT's."
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"<a href=\"http://info-libraries.mit.edu/scholarly/mit-open-access/open-"
+"access-at-mit/mit-open-access-policy/\">http://info-libraries.mit.edu/"
+"scholarly/mit-open-access/open-access-at-mit/mit-open-access-policy/</a>"
+msgstr ""
+
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -264,6 +340,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -273,11 +370,20 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 2001 Richard M. Stallman"
+msgstr ""
+
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Copyright &copy; 2001 Richard M. Stallman <br /> Verbatim copying and "
+#| "distribution of this entire article is permitted in any medium without "
+#| "royalty provided this notice is preserved."
 msgid ""
-"Copyright &copy; 2001 Richard M. Stallman <br /> Verbatim copying and "
-"distribution of this entire article is permitted in any medium without "
-"royalty provided this notice is preserved."
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium without royalty provided this notice is preserved."
 msgstr ""
 "Copyright &copy; 2001 Richard M. Stallman <br />La reproduction exacte et la "
 "distribution intégrale de cet article est permise sur n'importe quel support "
@@ -285,6 +391,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Bruno Menan.<br />Révision&nbsp;: <a href=\"mailto:trad-"
@@ -292,9 +399,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

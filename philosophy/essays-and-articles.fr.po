@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: essays-and-articles.html\n"
-"POT-Creation-Date: 2010-01-11 16:25-0500\n"
-"PO-Revision-Date: 2009-12-12 16:18+0100\n"
+"POT-Creation-Date: 2011-03-27 20:27-0300\n"
+"PO-Revision-Date: 2009-12-12 16:17+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,14 +16,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid "Essays and Articles - GNU Project - Free Software Foundation (FSF)"
 msgstr "Essais et articles - GNU Project - Free Software Foundation (FSF)"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "Essays and Articles"
 msgstr "Essais et articles"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This page lists a series of articles describing the philosophy of the free "
 "software movement, which is the motivation for our development of the free "
@@ -38,6 +41,7 @@ msgstr ""
 #.  ... we removed this as an H$ section as it was duplicating the  
 #.  same information on links.html, but it's possible that some users 
 #.  have the URLs bookmarked or on their pages. -len 
+#. type: Content of: <p>
 msgid ""
 "<a id=\"TOCFreedomOrganizations\">We</a> <a id=\"FreedomOrganizations"
 "\">also</a> keep a list of <a href=\"/links/links.html#FreedomOrganizations"
@@ -51,10 +55,12 @@ msgstr ""
 "communications &eacute;lectroniques</a>."
 
 # type: Content of: <h2>
+#. type: Content of: <h3>
 msgid "About Free Software"
 msgstr "&Agrave; propos du logiciel libre"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Free software is a matter of freedom: people should be free to use software "
 "in all the ways that are socially useful.  Software differs from material "
@@ -73,12 +79,14 @@ msgstr ""
 "logiciels devraient pouvoir les utiliser."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
 msgstr ""
 "<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel libre&nbsp;?"
 "</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/why-free.html\">Why Software Should Not Have Owners</a>"
 msgstr ""
@@ -86,6 +94,7 @@ msgstr ""
 "pas avoir de propri&eacute;taires</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/shouldbefree.html\">Why Software Should Be Free</a> "
 "(This is an older and longer essay about the same topic as the previous one)"
@@ -95,6 +104,7 @@ msgstr ""
 "m&ecirc;me sujet que le pr&eacute;c&eacute;dent)."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/free-doc.html\">Why Free Software Needs Free "
 "Documentation</a>"
@@ -103,12 +113,14 @@ msgstr ""
 "besoin de manuels libres</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/selling.html\">Selling Free Software</a> is OK!"
 msgstr ""
 "<a href=\"/philosophy/selling.fr.html\">Vendre des logiciels libres</a> ce "
 "n'est pas un problème&nbsp;!"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/categories.html\">Categories of Free and Non-Free "
 "Software</a>"
@@ -117,6 +129,7 @@ msgstr ""
 "libres et non libres</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/software/reliability.html\">Free Software is More Reliable!</a>"
 msgstr ""
@@ -124,6 +137,7 @@ msgstr ""
 "a>&nbsp;!"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/open-source-misses-the-point.html\">Why &ldquo;Open "
 "Source&rdquo; misses the point of Free Software</a>"
@@ -133,6 +147,7 @@ msgstr ""
 "probl&egrave;me que soul&egrave;ve le logiciel libre&nbsp;?</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/linux-gnu-freedom.html\">Linux, GNU, and Freedom</a>"
 msgstr ""
@@ -140,6 +155,7 @@ msgstr ""
 "a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/gnutella.html\" id=\"Gnutella\">Regarding Gnutella</a>"
 msgstr ""
@@ -147,6 +163,7 @@ msgstr ""
 "Gnutella</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/schools.html\">Why Schools Should Use Exclusively Free "
 "Software</a>"
@@ -155,10 +172,12 @@ msgstr ""
 "devraient utiliser exclusivement que des logiciels libres</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/my_doom.html\">MyDoom and You</a>"
 msgstr "<a href=\"/philosophy/my_doom.fr.html\">MyDoom et vous</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/15-years-of-free-software.html\">15 Years of Free "
 "Software</a>"
@@ -167,6 +186,7 @@ msgstr ""
 "logiciels libres</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/free-software-intro.html\">Free Software movement</a>"
 msgstr ""
@@ -174,6 +194,7 @@ msgstr ""
 "libre</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/your-freedom-needs-free-software.html\">Your Freedom "
 "Needs Free Software</a>"
@@ -182,17 +203,33 @@ msgstr ""
 "libert&eacute; a besoin de logiciels libres</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/fs-motives.html\">Motives For Writing Free Software</a>"
 msgstr ""
 "<a href=\"/philosophy/fs-motives.fr.html\">Raisons d'écrire des logiciels "
 "libres</a>"
 
+# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"/philosophy/fs-motives.html\">Motives For Writing Free "
+#| "Software</a>"
+msgid ""
+"<a href=\"/philosophy/gov-promote.html\">How Should Governments Promote Free "
+"Software?</a>"
+msgstr ""
+"<a href=\"/philosophy/fs-motives.fr.html\">Raisons d'écrire des logiciels "
+"libres</a>"
+
 # type: Content of: <h2>
+#. type: Content of: <h3>
 msgid "About the GNU Operating System"
 msgstr "À propos du système d'exploitation GNU"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/gnu/initial-announcement.html\">Initial announcement of the GNU "
 "Operating System</a>"
@@ -201,15 +238,18 @@ msgstr ""
 "GNU</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/gnu/manifesto.html\">The GNU Manifesto</a>"
 msgstr "<a href=\"/gnu/manifesto.fr.html\">Le Manifeste GNU</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/gnu/gnu-history.html\">Brief history of the GNU Project</a>"
 msgstr ""
 "<a href=\"/gnu/gnu-history.fr.html\">Br&egrave;ve histoire du projet GNU</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/gnu/thegnuproject.html\">The GNU Project</a>, a longer and more "
 "complete description of the project and its history."
@@ -218,20 +258,24 @@ msgstr ""
 "plus longue et plus compl&egrave;te du projet et de son histoire."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/fsf/fsf.html\">What is the Free Software Foundation?</a>"
 msgstr ""
 "<a href=\"/fsf/fsf.fr.html\">Qu'est-ce que la Free Software Foundation "
 "(Fondation pour le logiciel libre)&nbsp;?</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/gnu/why-gnu-linux.html\">Why GNU/Linux?</a>"
 msgstr "<a href=\"/gnu/why-gnu-linux.fr.html\">Pourquoi GNU/Linux&nbsp;?</a>"
 
 # type: Content of: <h2>
+#. type: Content of: <h3>
 msgid "Licensing Free Software"
 msgstr "Licences de Logiciels Libres"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/licenses/licenses.html\">General information on licensing and "
 "copyleft</a>"
@@ -240,6 +284,7 @@ msgstr ""
 "sur les licences et le copyleft</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/licenses/license-list.html\">A list of specific free software "
 "licenses</a>"
@@ -248,6 +293,7 @@ msgstr ""
 "logiciels libres sp&eacute;cifiques</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/licenses/gpl-faq.html\">Frequently Asked Questions About the GNU "
 "Licenses</a>"
@@ -256,6 +302,7 @@ msgstr ""
 "GNU</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/licenses/why-not-lgpl.html\">Why You Shouldn't Use the Lesser GPL "
 "for Your Next Library</a>"
@@ -264,15 +311,18 @@ msgstr ""
 "utiliser la Lesser GPL pour votre prochaine biblioth&egrave;que</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/copyleft/copyleft.html\">Copyleft</a>"
 msgstr "<a href=\"/copyleft/copyleft.fr.html\">Copyleft</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/why-copyleft.html\">Why Copyleft?</a>"
 msgstr ""
 "<a href=\"/philosophy/why-copyleft.fr.html\">Pourquoi le copyleft&nbsp;?</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/university.html\">Releasing Free Software if You Work "
 "at a University</a>"
@@ -281,12 +331,14 @@ msgstr ""
 "libres si vous travaillez &agrave; l'universit&eacute;</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/pragmatic.html\">Copyleft: Pragmatic Idealism</a>"
 msgstr ""
 "<a href=\"/philosophy/pragmatic.fr.html\">Copyleft&nbsp;: Id&eacute;alisme "
 "pragmatique</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/javascript-trap.html\">Javascript Trap</a> &mdash; You "
 "may be running non-free programs on your computer every day without "
@@ -298,6 +350,7 @@ msgstr ""
 "navigateur Web."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/vaccination.html\">Viral Code and Vaccination</a>, an "
 "article by Robert J. Chassell"
@@ -306,6 +359,7 @@ msgstr ""
 "article de Robert J. Chassell"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://www.fsf.org/blogs/licensing/20050211.html\">Censorship envy "
 "and licensing</a>"
@@ -314,21 +368,25 @@ msgstr ""
 "and licensing</a> (Tentation de censure et licence)"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/x.html\">The X Window System Trap</a>"
 msgstr "<a href=\"/philosophy/x.fr.html\">Le pi&egrave;ge X Window System</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/apsl.html\">The Problems of the Apple License</a>"
 msgstr ""
 "<a href=\"/philosophy/apsl.fr.html\">Les probl&egrave;mes avec la licence "
 "Apple</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/bsd.html\">The BSD License Problem</a>"
 msgstr ""
 "<a href=\"/philosophy/bsd.fr.html\">Le probl&egrave;me de la licence BSD</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/netscape-npl.html\">The Netscape Public License Has "
 "Serious Problems</a>"
@@ -337,12 +395,14 @@ msgstr ""
 "s&eacute;rieux probl&egrave;mes</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/udi.html\">The Free Software Movement and UDI</a>"
 msgstr ""
 "<a href=\"/philosophy/udi.fr.html\">La communaut&eacute; du logiciel libre "
 "et UDI</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/gates.html\">It's not the Gates, it's the bars</a>, an "
 "article by Richard Stallman published in BBC News in 2008"
@@ -352,6 +412,7 @@ msgstr ""
 "News en 2008"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/microsoft.html\">Is Microsoft the Great Satan?</a> (An "
 "<a href=\"/philosophy/microsoft-old.html\">older version</a> of this article "
@@ -362,6 +423,7 @@ msgstr ""
 "ancienne</a> de cet article est également disponible)."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/microsoft-antitrust.html\">The Microsoft Antitrust "
 "Trial and Free Software</a>"
@@ -370,6 +432,7 @@ msgstr ""
 "antitrust de Microsoft et le logiciel libre</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/microsoft-verdict.html\">On the Microsoft Verdict</a>"
 msgstr ""
@@ -377,6 +440,7 @@ msgstr ""
 "Microsoft</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/microsoft-new-monopoly.html\">Microsoft's New "
 "Monopoly</a>"
@@ -385,12 +449,14 @@ msgstr ""
 "de Microsoft</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/lest-codeplex-perplex.html\">Lest CodePlex perplex</a>"
 msgstr ""
 "<a href=\"/philosophy/lest-codeplex-perplex.html\">Lest CodePlex perplex</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/plan-nine.html\" id=\"PlanNineLicense\">The Problems "
 "of the Plan 9 License</a>"
@@ -399,6 +465,7 @@ msgstr ""
 "probl&egrave;mes de la licence de Plan 9</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/motif.html\" id=\"MotifLicense\">The New Motif "
 "License</a>"
@@ -407,6 +474,7 @@ msgstr ""
 "licence Motif</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/using-gfdl.html\" id=\"UsingGFDL\">Using the GNU FDL</"
 "a>"
@@ -415,6 +483,7 @@ msgstr ""
 "GNU</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/gpl-american-way.html\" id=\"GPLAmericanWay\">The GNU "
 "GPL and the American Way</a>"
@@ -423,6 +492,7 @@ msgstr ""
 "GNU GPL et l'American Way</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/gpl-american-dream.html\" id=\"GPLAmericanDream\">The "
 "GNU GPL and the American Dream</a>"
@@ -431,6 +501,7 @@ msgstr ""
 "\">La GNU GPL et le R&ecirc;ve am&eacute;ricain</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/enforcing-gpl.html\" id=\"EnforcingGPL\">Enforcing the "
 "GNU GPL</a>"
@@ -439,7 +510,10 @@ msgstr ""
 "respecter la GPL GNU</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 #, fuzzy
+#| msgid ""
+#| "<a href=\"/philosophy/selling.html\">Selling Free Software</a> is OK!"
 msgid ""
 "<a href=\"/philosophy/selling-exceptions.html\">On Selling Exceptions to the "
 "GNU GPL</a>"
@@ -448,6 +522,7 @@ msgstr ""
 "n'est pas un problème&nbsp;!"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/freedom-or-power.html\" id=\"FreedomOrPower\">Freedom "
 "or Power?</a>"
@@ -456,6 +531,7 @@ msgstr ""
 "\">Libert&eacute; ou pouvoir&nbsp;?</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/no-word-attachments.html\" id=\"NoWordAttachments\">We "
 "Can Put an End to Word Attachments</a>"
@@ -464,6 +540,7 @@ msgstr ""
 "\">Nous pouvons mettre un terme aux pi&egrave;ces jointes Word</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/java-trap.html\" id=\"JavaTrap\">Free But Shackled - "
 "The Java Trap</a> (Although as of December 2006 Sun is in the middle of <a "
@@ -478,6 +555,7 @@ msgstr ""
 "probl&egrave;me d&eacute;crit dans cet article demeure important)"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/fighting-software-patents.html\" id="
 "\"FightingSoftwarePatents\">Fighting Software Patents - Singly and Together</"
@@ -488,6 +566,7 @@ msgstr ""
 "par&eacute;ment ou Ensemble</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/software-literary-patents.html\" id="
 "\"SoftwareLiteraryPatents\"> Software Patents and Literary Patents</a>, by "
@@ -505,6 +584,7 @@ msgstr ""
 "des exemples hypoth&eacute;tiques donn&eacute;s dans cet article."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/rtlinux-patent.html\">GPL-compliant version of RTLinux "
 "Open Patent License in Works</a>"
@@ -513,14 +593,30 @@ msgstr ""
 "la &laquo;&nbsp;Open Patent RTLinux License&nbsp;&raquo; effective</a>"
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Laws and Issues"
 msgstr "L&eacute;gislation"
 
 # type: Content of: <h4>
+#. type: Content of: <h4>
 msgid "Copyright"
 msgstr "Copyright"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"/philosophy/wsis.html\">World Summit on the Information "
+#| "Society</a>"
+msgid ""
+"<a href=\"/philosophy/public-domain-manifesto.html\">Why I Will Not Sign the "
+"Public Domain Manifesto</a>"
+msgstr ""
+"<a href=\"/philosophy/wsis.fr.html\">Sommet mondial sur la soci&eacute;"
+"t&eacute; de l'information</a>"
+
+# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/pirate-party.html\">How the Swedish Pirate Party "
 "Platform Backfires on Free Software</a>"
@@ -529,6 +625,7 @@ msgstr ""
 "Parti Pirate suédois se retournent contre le logiciel libre</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/misinterpreting-copyright.html\">Misinterpreting "
 "Copyright</a> is another essay by <a href=\"http://www.stallman.org"
@@ -540,6 +637,7 @@ msgstr ""
 "les d&eacute;fenses populaires de la loi sur le droit d'auteur."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/eldred-amicus.html\">FSF's Brief Amicus Curiae in the "
 "Eldred v. Ashcroft Supreme Court case</a>"
@@ -549,6 +647,7 @@ msgstr ""
 "tats-Unis d'Am&eacute;rique</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/push-copyright-aside.html\">Science must &ldquo;push "
 "copyright aside&rdquo;</a>, another work of <a href=\"http://www.stallman.org"
@@ -571,6 +670,7 @@ msgstr ""
 "scientifiques pour tous sur Internet."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/reevaluating-copyright.html\">Reevaluating Copyright: "
 "The Public must prevail</a>"
@@ -579,6 +679,7 @@ msgstr ""
 "valuer le copyright&nbsp;: le public doit avoir le dernier mot</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://cyber.law.harvard.edu/openlaw/eldredvashcroft/cyber/"
 "complaint_orig.html\"> Eldred v. Reno</a> is about a lawsuit to overturn a "
@@ -590,6 +691,7 @@ msgstr ""
 "plus."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/freedom-or-copyright.html\">Freedom-Or Copyright?</a>, "
 "by <a href=\"http://www.stallman.org/\">Richard Stallman</a> (an <a href=\"/"
@@ -602,6 +704,7 @@ msgstr ""
 "\">version plus ancienne</a> de cet essai est également disponible)."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/copyright-versus-community.html\" id=\"StallmanTalkLSM"
 "\"> Copyright versus community in the age of computer networks</a>: is a "
@@ -617,6 +720,7 @@ msgstr ""
 "12 octobre 2009."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://www.oii.ox.ac.uk/resources/feedback/OIIFB_GPL2_20040903.pdf"
 "\"> An English translation</a> of the famous decision of the District Court "
@@ -630,20 +734,27 @@ msgstr ""
 "l'Oxford Internet Institute."
 
 # type: Content of: <h4>
+#. type: Content of: <h4>
 msgid "Digital Restrictions Management"
 msgstr "Gestion des restrictions numériques"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.bostonreview.net/BR33.2/stallman.php\">The root of "
+#| "this problem is software controlled by its developer</a>, by Richard&nbsp;"
+#| "M. Stallman."
 msgid ""
-"<a href=\"http://www.bostonreview.net/BR33.2/stallman.php\">The root of this "
-"problem is software controlled by its developer</a>, by Richard&nbsp;M. "
-"Stallman."
+"<a href=\"/philosophy/the-root-of-this-problem.html\">The problem is "
+"software controlled by its developer</a>, by Richard&nbsp;M. Stallman."
 msgstr ""
 "<a href=\"http://www.bostonreview.net/BR33.2/stallman.php\">La racine de ce "
 "probl&egrave;me est le logiciel contr&ocirc;l&eacute; par son d&eacute;"
 "veloppeur</a>, par Richard&nbsp;M. Stallman."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/computing-progress.html\">Computing &ldquo;"
 "progress&rdquo;: good and bad</a>, by Richard M. Stallman."
@@ -653,6 +764,7 @@ msgstr ""
 "Stallman."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/why-audio-format-matters.html\">Why Audio Format "
 "matters</a> by Karl Fogel"
@@ -661,6 +773,7 @@ msgstr ""
 "formats audio comptent</a> par Karl Fogel"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/opposing-drm.html\">Opposing Digital Rights "
 "Mismanagement</a>, by Richard M. Stallman, answers a few common questions "
@@ -672,6 +785,7 @@ msgstr ""
 "\"Digital Rights Management\">DRM</abbr>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/ebooks.html\">Ebooks: Freedom Or Copyright</a> a "
 "slightly modified version of the article, originally published in Technology "
@@ -684,6 +798,7 @@ msgstr ""
 "Stallman</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/can-you-trust.html\">Can you trust your computer?</a>, "
 "a work by <a href=\"http://www.stallman.org\">Richard Stallman</a> about the "
@@ -695,6 +810,7 @@ msgstr ""
 "informatique de confiance&nbsp;&raquo;."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/right-to-read.html\">The Right to Read: A Dystopian "
 "Short Story</a> by <a href=\"http://www.stallman.org/\"> Richard Stallman</a>"
@@ -704,6 +820,7 @@ msgstr ""
 "Stallman</a>"
 
 # type: Content of: <h4>
+#. type: Content of: <h4>
 msgid ""
 "The propaganda term <a href=\"/philosophy/words-to-avoid."
 "html#IntellectualProperty\"> &ldquo;Intellectual Property&rdquo;</a>"
@@ -712,6 +829,7 @@ msgstr ""
 "html#IntellectualProperty\">«&nbsp;Propriété intellectuelle&nbsp;»</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/no-ip-ethos.html\">Don't Let &ldquo;Intellectual "
 "Property&rdquo; Twist Your Ethos</a>, by Richard&nbsp;M. Stallman."
@@ -721,6 +839,7 @@ msgstr ""
 "ethos</a> par Richard M. Stallman."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Comments from Richard Stallman on <a href=\"/philosophy/ipjustice.html\">the "
 "ICLC's rejection of the IP Enforcement Directive</a>"
@@ -730,6 +849,7 @@ msgstr ""
 "t&eacute; intellectuelle</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Richard Stallman has written <a href=\"/philosophy/boldrin-levine.html\">a "
 "review of Boldrin and Levine's &ldquo;The case against intellectual property."
@@ -740,6 +860,7 @@ msgstr ""
 "intellectuelle&nbsp;&raquo; de Boldrin et Levine.</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/not-ipr.html\">Did You Say &ldquo;Intellectual "
 "Property&rdquo;? It's a Seductive Mirage</a>.  An essay on the true meaning "
@@ -752,10 +873,12 @@ msgstr ""
 "Stallman"
 
 # type: Content of: <h4>
+#. type: Content of: <h4>
 msgid "Patents"
 msgstr "Brevets"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/w3c-patent.html\">FSF's Position on W3 Consortium "
 "&ldquo;Royalty-Free&rdquo; Patent Policy</a> rewritten"
@@ -765,6 +888,7 @@ msgstr ""
 "Royalty-Free&nbsp;&raquo;) du Consortium W3 (W3C)</a> r&eacute;&eacute;crit"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/guardian-article.html\">That's fighting talk</a> a "
 "slightly modified version of the article, originally published in <a href="
@@ -778,6 +902,7 @@ msgstr ""
 "stallman.org\">Richard Stallman</a> et Nick Hill."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "How to Protect the <a href=\"/philosophy/protecting.html\">Right to Write "
 "Software</a> (independent of whether it's free or not)"
@@ -787,6 +912,7 @@ msgstr ""
 "soient libres ou non)"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "In <a href=\"http://www.eff.org/IP/DMCA/Felten_v_RIAA/20010606_eff_felten_pr."
 "html\"> Felten v. RIAA</a>, scientists are asking a court to rule that the "
@@ -799,6 +925,7 @@ msgstr ""
 "Copyright Act (DMCA) ne les emp&ecirc;che pas de publier leur recherche."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://www.eff.org/IP/Video/MPAA_DVD_cases/\">EFF &ldquo;"
 "Intellectual Property: MPAA (Motion Picture Association of America) DVD "
@@ -809,6 +936,7 @@ msgstr ""
 "America) DVD Cases&nbsp;&raquo;</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/patent-reform-is-not-enough.html\">Patent Reform Is "
 "Not Enough</a>"
@@ -817,6 +945,7 @@ msgstr ""
 "forme des brevets n'est pas suffisante</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/savingeurope.html\">Saving Europe from Software "
 "Patents</a>"
@@ -825,10 +954,12 @@ msgstr ""
 "logiciels</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/amazon.html\">Boycott Amazon!</a>"
 msgstr "<a href=\"/philosophy/amazon.fr.html\">Boycottez Amazon&nbsp;!</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://www.researchoninnovation.org/patent.pdf\" id="
 "\"SequentialIPandI\">Sequential Innovation, Patents, and Imitation</a> is a "
@@ -842,10 +973,12 @@ msgstr ""
 "domaines comme celui du logiciel."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/hague.html\">Harm from the Hague</a>."
 msgstr "<a href=\"/philosophy/hague.fr.html\">Le danger de La Haye</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://technology.guardian.co.uk/online/comment/"
 "story/0,12449,1540984,00.html\"> Soft sell</a>. An article by Richard M. "
@@ -857,6 +990,7 @@ msgstr ""
 "Guardian</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://www.guardian.co.uk/technology/2005/jun/23/onlinesupplement."
 "insideit\"> Patent absurdity</a>, an article by Richard M. Stallman "
@@ -867,6 +1001,7 @@ msgstr ""
 "publié dans <a href=\"http://www.guardian.co.uk\">The Guardian</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/trivial-patent.html\">The Anatomy of a Trivial Patent</"
 "a>, by Richard M. Stallman."
@@ -875,6 +1010,7 @@ msgstr ""
 "trivial</a>, par Richard M. Stallman."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/gif.html\">Why there are no GIF files on GNU web "
 "pages</a>, While this story is a historical illustration of the danger of "
@@ -893,19 +1029,36 @@ msgstr ""
 "\">guide de conduite Web</a>."
 
 # type: Content of: <h4>
+#. type: Content of: <h4>
 msgid "Cultural and Social Issues"
 msgstr "Problèmes culturels et sociaux"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://www.guardian.co.uk/technology/blog/2010/apr/06/digital-"
+"economy-bill-richard-stallman\">Digital economy bill: One clown giveth and "
+"the other clown taketh away</a> by <a href=\"http://www.stallman.org"
+"\">Richard Stallman</a>"
+msgstr ""
+
+# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"/philosophy/digital-inclusion-in-freedom.html\">Is Digital "
+#| "Inclusion A Good Thing? How Can We Make Sure It Is?</a>"
 msgid ""
 "<a href=\"/philosophy/digital-inclusion-in-freedom.html\">Is Digital "
-"Inclusion A Good Thing? How Can We Make Sure It Is?</a>"
+"Inclusion A Good Thing? How Can We Make Sure It Is?</a> by <a href=\"http://"
+"www.stallman.org\">Richard Stallman</a>"
 msgstr ""
 "<a href=\"/philosophy/digital-inclusion-in-freedom.html\">L'inclusion "
 "numérique est-elle une bonne chose&nbsp;? Comment pouvons nous nous en "
 "assurer&nbsp;?</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/wsis.html\">World Summit on the Information Society</a>"
 msgstr ""
@@ -913,6 +1066,7 @@ msgstr ""
 "t&eacute; de l'information</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/lessig-fsfs-intro.html\">The introduction by Lawrence "
 "Lessig</a> to <a href=\"http://shop.fsf.org/product/free-software-free-"
@@ -925,6 +1079,7 @@ msgstr ""
 "of Richard M. Stallman</i></a> est disponible &agrave; la lecture."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/wassenaar.html\">Encryption software volunteers needed "
 "in countries without export control</a>."
@@ -934,6 +1089,7 @@ msgstr ""
 "exportations</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "How to Protect the <a href=\"/philosophy/basic-freedoms.html\"> Freedoms of "
 "Speech, Press, and Association</a> on the Internet"
@@ -943,6 +1099,7 @@ msgstr ""
 "Interne"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/privacyaction.html\">Protect Postal Privacy</a>, a "
 "campaign to resist the proposed rule by the United States Postal Service to "
@@ -954,23 +1111,13 @@ msgstr ""
 "informations sur ses clients."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/ucita.html\">Why We Must Fight UCITA</a>"
 msgstr ""
 "<a href=\"/philosophy/ucita.fr.html\">Pourquoi nous devons contrer UCITA</a>"
 
 # type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://www.infoworld.com/articles/op/xml/00/11/27/001127opfoster."
-"xml\"> A world with UCITA may allow fine print to outweigh the right thing</"
-"a> by Ed Foster <a href=\"mailto:gripe@infoworld.com\"> &lt;gripe@infoworld."
-"com&gt;</a>"
-msgstr ""
-"<a href=\"http://www.infoworld.com/articles/op/xml/00/11/27/001127opfoster."
-"xml\">A world with UCITA may allow fine print to outweigh the right thing</"
-"a> par Ed Foster <a href=\"mailto:gripe&#64;infoworld.com\">&lt;gripe&#64;"
-"infoworld.com&gt;</a>"
-
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/second-sight.html\">Free Software and (e-)Government</"
 "a> &mdash; an article from The Guardian, by Richard Stallman (originally "
@@ -981,6 +1128,7 @@ msgstr ""
 "Stallman (initialement publié sous le titre «&nbsp;Clairvoyance&nbsp;»)"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://www.insnet.org/ins_headlines.rxml?cust=212&amp;id=967\"> "
 "Free Software and Sustainable Development</a> &mdash; A short article by "
@@ -993,10 +1141,12 @@ msgstr ""
 "dans le d&eacute;veloppement culturel."
 
 # type: Content of: <h4>
+#. type: Content of: <h4>
 msgid "Misc"
 msgstr "Divers"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/sun-in-night-time.html\">The Curious Incident of Sun "
 "in the Night-Time</a>, by Richard M. Stallman."
@@ -1005,6 +1155,7 @@ msgstr ""
 "v&eacute;nement de Sun dans la p&eacute;nombre</a> par Richard M. Stallman."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://counterpunch.org/baker08192004.html\">Why We Need &ldquo;"
 "Free Software&rdquo; Voting Machines</a>"
@@ -1013,6 +1164,7 @@ msgstr ""
 "besoin de machines &agrave; voter &agrave; base de logiciel libre</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/sco/sco-gnu-linux.html\">SCO, GNU, and Linux</a>, by "
 "Richard Stallman, discusses how SCO's lawsuit against IBM pertains to the "
@@ -1026,6 +1178,7 @@ msgstr ""
 "ponse de la FSF &agrave; SCO</a>pour plus de d&eacute;tails sur ce sujet."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/ms-doj-tunney.html\">FSF's Statement in Response to "
 "Proposed Revised Final Judgment in Microsoft vs. United States, submitted to "
@@ -1037,6 +1190,7 @@ msgstr ""
 "justice am&eacute;ricain dans le cadre du Tunney Act</a>."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/new-monopoly.html\">U.S. Congress Threatens to "
 "Establish a New Kind of Monopoly</a>, an attempt of the Congress to create a "
@@ -1048,12 +1202,14 @@ msgstr ""
 "informations publiques connues."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/dat.html\">The Right Way to Tax DAT</a>"
 msgstr ""
 "<a href=\"/philosophy/dat.fr.html\">La bonne fa&ccedil;on de taxer les DAT</"
 "a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/censoring-emacs.html\">Censoring My Software</a>, by "
 "<a href=\"http://www.stallman.org\">Richard Stallman</a>"
@@ -1062,6 +1218,7 @@ msgstr ""
 "par <a href=\"http://www.stallman.org\">Richard Stallman</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/motivation.html\">Studies Find Reward Often No "
 "Motivator</a>"
@@ -1070,10 +1227,12 @@ msgstr ""
 "r&eacute;mun&eacute;ration n'est souvent pas une motivation</a>"
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Terminology and Definitions"
 msgstr "Terminologie et d&eacute;finitions"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/words-to-avoid.html\">Confusing Words</a> which You "
 "Might Want to Avoid"
@@ -1082,6 +1241,7 @@ msgstr ""
 "confusion</a> qu'il vaut mieux &eacute;viter"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/free-software-for-freedom.html\">&ldquo;Open Source "
 "Software&rdquo; or &ldquo;Free Software&rdquo;?</a> (This is an older essay "
@@ -1093,6 +1253,7 @@ msgstr ""
 "pr&eacute;c&eacute;dent)."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Richard Stallman wrote <a href=\"/philosophy/drdobbs-letter.html\">letter to "
 "the editor</a> of Dr. Dobb's Journal in June which further explains the "
@@ -1104,6 +1265,7 @@ msgstr ""
 "Libre et Open Source."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/fs-translations.html\">Translations of the term &ldquo;"
 "free software&rdquo;</a> into various languages"
@@ -1112,10 +1274,12 @@ msgstr ""
 "&nbsp;logiciel libre&nbsp;&raquo;</a> en diverses langues"
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Upholding Software Freedom"
 msgstr "Maintenir la libert&eacute; des logiciels"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/use-free-software.html\">The Free Software Community "
 "After 20 Years</a>, With great but incomplete success, what now?"
@@ -1125,6 +1289,7 @@ msgstr ""
 "incomplet, et maintenant&nbsp;?"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/mcvoy.html\">Thank You, Larry McVoy</a> by Richard M. "
 "Stallman"
@@ -1133,6 +1298,7 @@ msgstr ""
 "Stallman"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/social-inertia.html\">Overcoming Social Inertia</a>, "
 "by Richard M. Stallman"
@@ -1141,16 +1307,19 @@ msgstr ""
 "a>, par Richard M. Stallman"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/compromise.html\">Avoiding Ruinous Compromises</a>"
 msgstr ""
 "<a href=\"/philosophy/compromise.html\">Éviter les compromis ruineux</a>"
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Philosophical humor"
 msgstr "Humour philosophique"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/fun/humor.html#Philosophy\">Philosophy Humor</a>.  We don't have "
 "to be serious <i>all</i> the time."
@@ -1159,19 +1328,23 @@ msgstr ""
 "n'avons pas &agrave; &ecirc;tre s&eacute;rieux <i>tout</i> le temps."
 
 # type: Content of: <h2>
+#. type: Content of: <h3>
 msgid "Links to more philosophy articles"
 msgstr "Liens vers d'autres articles sur la philosophie de GNU"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"speeches-and-interview.html\">Speeches and interviews</a>"
 msgstr "<a href=\"speeches-and-interview.fr.html\">Discours et entretiens</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"third-party-ideas.html\">Third party ideas</a>"
 msgstr ""
 "<a href=\"third-party-ideas.fr.html\">Id&eacute;es de tierces personnes</a>"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/\">The main philosophy page</a>"
 msgstr ""
 "<a href=\"/philosophy/philisophy.fr.html\">Page principale sur la "
@@ -1179,16 +1352,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -1197,6 +1377,26 @@ msgstr ""
 "\">&lt;webmasters@gnu.org&gt;</a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions à <a href=\"mailto:webmasters@gnu.org"
+"\">&lt;webmasters@gnu.org&gt;</a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -1207,7 +1407,11 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 #, fuzzy
+#| msgid ""
+#| "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, "
+#| "2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc."
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc."
@@ -1216,6 +1420,7 @@ msgstr ""
 "2006, 2007, 2008, 2009 Free Software Foundation, Inc."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium, provided this notice is preserved."
@@ -1226,6 +1431,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Odile Bénassy.<br />Révision&nbsp;: <a href=\"mailto:trad-"
@@ -1233,9 +1439,23 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <ul><li>
+#~ msgid ""
+#~ "<a href=\"http://www.infoworld.com/articles/op/"
+#~ "xml/00/11/27/001127opfoster.xml\"> A world with UCITA may allow fine "
+#~ "print to outweigh the right thing</a> by Ed Foster <a href=\"mailto:"
+#~ "gripe@infoworld.com\"> &lt;gripe@infoworld.com&gt;</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.infoworld.com/articles/op/"
+#~ "xml/00/11/27/001127opfoster.xml\">A world with UCITA may allow fine print "
+#~ "to outweigh the right thing</a> par Ed Foster <a href=\"mailto:gripe&#64;"
+#~ "infoworld.com\">&lt;gripe&#64;infoworld.com&gt;</a>"

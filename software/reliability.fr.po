@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: reliability.html\n"
-"POT-Creation-Date: 2008-10-08 16:25-0300\n"
+"POT-Creation-Date: 2011-02-24 12:27-0500\n"
 "PO-Revision-Date: 2009-01-24 16:26+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "Free Software is More Reliable! - GNU Project - Free Software Foundation "
 "(FSF)"
@@ -24,10 +25,12 @@ msgstr ""
 "Foundation (FSF)"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "Free Software is More Reliable!"
 msgstr "Le logiciel libre est plus fiable&nbsp;!"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Apologists for <a href=\"/philosophy/categories.html#ProprietarySoftware"
 "\">proprietary software</a> like to say, &ldquo;<a href=\"/philosophy/free-"
@@ -37,12 +40,13 @@ msgid ""
 msgstr ""
 "Ceux qui font l'apologie du <a href=\"/philosophy/categories.fr."
 "html#ProprietarySoftware\">logiciel propri&eacute;taire</a> aiment dire, "
-"&laquo;&nbsp;le <ahref=\"/philosophy/free-sw.fr.html\">logiciel libre</a> "
+"&laquo;&nbsp;le <a href=\"/philosophy/free-sw.fr.html\">logiciel libre</a> "
 "est un beau r&ecirc;ve, mais nous savons tous que seul un syst&egrave;me "
 "propri&eacute;taire peut produire des produits fiables. Un groupe de hackers "
-"ne peut faire la m&ecirc;me chose.&nbsp;&raquo;"
+"ne peut faire la m&ecirc;me chose&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Empirical evidence disagrees, however; scientific tests, described below, "
 "have found GNU software to be <em>more</em> reliable than comparable "
@@ -53,6 +57,7 @@ msgstr ""
 "fiable qu'un logiciel propri&eacute;taire comparable."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This should not be a surprise; there are good reasons for the high "
 "reliability of GNU software, good reasons to expect free software will often "
@@ -64,10 +69,12 @@ msgstr ""
 "haute fiabilit&eacute;."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "GNU Utilities Safer!"
 msgstr "Les logiciels GNU plus s&ucirc;rs&nbsp;!"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Barton P. Miller and his colleagues tested the reliability of Unix utility "
 "programs in 1990 and 1995.  Each time, GNU's utilities came out considerably "
@@ -86,6 +93,7 @@ msgstr ""
 "des programmes utilitaires de base&hellip;&nbsp;&raquo;"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "These researchers found that the commercial Unix systems had a failure rate "
 "that ranged from 15% to 43%. In contrast, the failure rate for GNU was only "
@@ -96,6 +104,7 @@ msgstr ""
 "d'&eacute;chec pour le syst&egrave;me GNU &eacute;tait seulement de 7%."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Miller also said that, &ldquo;the three commercial systems that we compared "
 "in both 1990 and 1995 noticeably improved in reliability, but still had "
@@ -110,10 +119,19 @@ msgstr ""
 "utilitaires des syst&egrave;mes commerciaux)&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "For details, see their paper: <a href=\"ftp://ftp.cs.wisc.edu/pub/paradyn/"
+#| "technical_papers/fuzz-revisited.ps\"> Fuzz Revisited: A Re-examination of "
+#| "the Reliability of Unix Utilities and Services (postscript 146k)</a> by "
+#| "Barton P. Miller <a href=\"mailto:bart@cs.wisc.edu\">&lt;bart@cs.wisc."
+#| "edu&gt;</a>, David Koski, Cjin Pheow Lee, Vivekananda Maganty, Ravi "
+#| "Murthy, Ajitkumar Natarajan, and Jeff Steidl."
 msgid ""
 "For details, see their paper: <a href=\"ftp://ftp.cs.wisc.edu/pub/paradyn/"
 "technical_papers/fuzz-revisited.ps\"> Fuzz Revisited: A Re-examination of "
-"the Reliability of Unix Utilities and Services (postscript 146k)</a> by "
+"the Reliability of Unix Utilities and Services (postscript 223k)</a> by "
 "Barton P. Miller <a href=\"mailto:bart@cs.wisc.edu\">&lt;bart@cs.wisc.edu&gt;"
 "</a>, David Koski, Cjin Pheow Lee, Vivekananda Maganty, Ravi Murthy, "
 "Ajitkumar Natarajan, and Jeff Steidl."
@@ -126,10 +144,12 @@ msgstr ""
 "Ajitkumar Natarajan et Jeff Steidl."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Why Free Software is More Reliable"
 msgstr "Pourquoi le logiciel libre est plus fiable"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "It is no fluke that the GNU utilities are so reliable. There are good "
 "reasons why free software tends to be of high quality."
@@ -139,6 +159,7 @@ msgstr ""
 "tr&egrave;s haut niveau de qualit&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "One reason is that free software gets the whole community involved in "
 "working together to fix problems. Users not only report bugs, they even fix "
@@ -155,6 +176,7 @@ msgstr ""
 "serein."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Another is that developers really care about reliability.  Free software "
 "packages do not always compete commercially, but they still compete for a "
@@ -176,17 +198,27 @@ msgstr ""
 "communaut&eacute;."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Cancer Clinic Relies on Free Software!"
 msgstr "La Clinique du cancer fait confiance aux logiciels libres&nbsp;!"
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The Roger Maris Cancer Center in Fargo, North Dakota (the same Fargo "
+#| "which was recently the scene of a movie and a flood) uses Linux-based GNU "
+#| "systems precisely because reliability is essential.  A network of GNU/"
+#| "Linux machines runs the information system, coordinates drug therapies, "
+#| "and performs many other functions.  This network needs to be available to "
+#| "the Center's staff at a moment's notice."
 msgid ""
 "The Roger Maris Cancer Center in Fargo, North Dakota (the same Fargo which "
-"was recently the scene of a movie and a flood) uses Linux-based GNU systems "
-"precisely because reliability is essential.  A network of GNU/Linux machines "
-"runs the information system, coordinates drug therapies, and performs many "
-"other functions.  This network needs to be available to the Center's staff "
-"at a moment's notice."
+"was the scene of a movie and a flood) uses Linux-based GNU systems precisely "
+"because reliability is essential.  A network of GNU/Linux machines runs the "
+"information system, coordinates drug therapies, and performs many other "
+"functions.  This network needs to be available to the Center's staff at a "
+"moment's notice."
 msgstr ""
 "Le Centre du cancer Roger Maris &agrave; Fargo, Dakota du Nord (le m&ecirc;"
 "me Fargo qui fut r&eacute;cemment le d&eacute;cor d'un film et d'une "
@@ -198,6 +230,7 @@ msgstr ""
 "&agrave; tout moment."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "According to Dr. G.W. Wettstein <a href=\"mailto:greg@wind.rmcc.com\"> &lt;"
 "greg@wind.rmcc.com&gt;</a>:"
@@ -206,6 +239,7 @@ msgstr ""
 "greg@wind.rmcc.com&gt;</a>&nbsp;:"
 
 # type: Content of: <blockquote><p>
+#. type: Content of: <blockquote><p>
 msgid ""
 "The proper care of our cancer patients would not be what it is today without "
 "[GNU/]Linux &hellip; The tools that we have been able to deploy from free "
@@ -219,37 +253,25 @@ msgstr ""
 "des applications innovantes qui &hellip; ne peuvent exister &agrave; partir "
 "de voies commerciales&nbsp;&raquo;."
 
-# type: Content of: <h3>
-msgid "Bulletproof GNU Utilities!"
-msgstr "Des utilitaires GNU blind&eacute;s&nbsp;!"
-
-# type: Content of: <p>
-msgid ""
-"Scott Maxwell <a href=\"mailto:s-max@pacbell.net\"> &lt;s-max@pacbell.net&gt;"
-"</a> is leading an effort to eliminate &ldquo;fuzz bugs&rdquo; from GNU "
-"software, thus making them even more reliable.  You can read about the "
-"project on <a href=\"http://home.pacbell.net/s-max/scott/bulletproof-penguin."
-"html\"> http://home.pacbell.net/s-max/scott/bulletproof-penguin.html</a>."
-msgstr ""
-"<a href=\"mailto:s-max@pacbell.net\">Scott Maxwell</a> conduit une "
-"initiative visant &agrave; &eacute;liminer les &laquo;&nbsp;fuzz bugs&nbsp;"
-"&raquo; des logiciels GNU, les rendant ainsi encore plus fiables. Vous "
-"pouvez prendre connaissance de son projet sur <a href=\"http://home.pacbell."
-"net/s-max/scott/bulletproof-penguin.html\">http://home.pacbell.net/s-max/"
-"scott/bulletproof-penguin.html</a>."
-
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -258,7 +280,14 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -269,18 +298,22 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Copyright &copy; 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
+#| "2006, 2007, 2008 <a href=\"http://www.fsf.org\">Free Software Foundation</"
+#| "a>, Inc.,"
 msgid ""
 "Copyright &copy; 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, "
-"2007, 2008 <a href=\"http://www.fsf.org\">Free Software Foundation</a>, Inc.,"
+"2007, 2008, 2009, 2011 <a href=\"http://www.fsf.org\">Free Software "
+"Foundation</a>, Inc."
 msgstr ""
 "Copyright &copy; 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, "
 "2007, 2008 <a href=\"http://www.fsf.org\">Free Software Foundation</a>, Inc.,"
 
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article are permitted "
 "worldwide, without royalty, in any medium, provided this notice, and the "
@@ -292,6 +325,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Frédéric Couchet.<br /> Révision&nbsp;: <a href=\"mailto:"
@@ -299,9 +333,35 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <h3>
+#~ msgid "Bulletproof GNU Utilities!"
+#~ msgstr "Des utilitaires GNU blind&eacute;s&nbsp;!"
+
+# type: Content of: <p>
+#~ msgid ""
+#~ "Scott Maxwell <a href=\"mailto:s-max@pacbell.net\"> &lt;s-max@pacbell."
+#~ "net&gt;</a> is leading an effort to eliminate &ldquo;fuzz bugs&rdquo; "
+#~ "from GNU software, thus making them even more reliable.  You can read "
+#~ "about the project on <a href=\"http://home.pacbell.net/s-max/scott/"
+#~ "bulletproof-penguin.html\"> http://home.pacbell.net/s-max/scott/"
+#~ "bulletproof-penguin.html</a>."
+#~ msgstr ""
+#~ "<a href=\"mailto:s-max@pacbell.net\">Scott Maxwell</a> conduit une "
+#~ "initiative visant &agrave; &eacute;liminer les &laquo;&nbsp;fuzz "
+#~ "bugs&nbsp;&raquo; des logiciels GNU, les rendant ainsi encore plus "
+#~ "fiables. Vous pouvez prendre connaissance de son projet sur <a href="
+#~ "\"http://home.pacbell.net/s-max/scott/bulletproof-penguin.html\">http://"
+#~ "home.pacbell.net/s-max/scott/bulletproof-penguin.html</a>."
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"

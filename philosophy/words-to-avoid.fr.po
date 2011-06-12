@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: words-to-avoid.html\n"
-"POT-Creation-Date: 2010-02-01 16:26-0500\n"
+"POT-Creation-Date: 2010-12-12 20:27-0500\n"
 "PO-Revision-Date: 2009-12-12 16:23+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,18 +16,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#, fuzzy
+#| msgid ""
+#| "Confusing Words and Phrases That Are Worth Avoiding - GNU Project - Free "
+#| "Software Foundation (FSF)"
 msgid ""
-"Confusing Words and Phrases That Are Worth Avoiding - GNU Project - Free "
-"Software Foundation (FSF)"
+"Words to Avoid (or Use with Care) Because They Are Loaded or Confusing - GNU "
+"Project - Free Software Foundation (FSF)"
 msgstr ""
 "Mots et phrases pr&ecirc;tant &agrave; confusion, que vous devriez &eacute;"
 "viter - GNU Project - Free Software Foundation (FSF)"
 
 # type: Content of: <h2>
-msgid "Some Confusing or Loaded Words and Phrases to Avoid (or Use with Care)"
+msgid "Words to Avoid (or Use with Care) Because They Are Loaded or Confusing"
 msgstr ""
-"Mots ou phrases pr&ecirc;tant &agrave; confusion, que vous devriez &eacute;"
-"viter (ou utiliser avec précaution)"
 
 # type: Content of: <p>
 msgid ""
@@ -49,6 +51,44 @@ msgstr ""
 "\">Cat&eacute;gories de logiciels libres</a>."
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"/philosophy/philosophy.html\">Other Texts to Read</a> | &ldquo;"
+#| "<a href=\"words-to-avoid.html#BSD-style\">BSD-style</a>&rdquo; | &ldquo;"
+#| "<a href=\"words-to-avoid.html#Closed\">Closed</a>&rdquo; | &ldquo;<a href="
+#| "\"words-to-avoid.html#CloudComputing\">Cloud Computing</a>&rdquo; | "
+#| "&ldquo;<a href=\"words-to-avoid.html#Commercial\">Commercial</a>&rdquo; | "
+#| "&ldquo;<a href=\"words-to-avoid.html#Compensation\">Compensation</"
+#| "a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#Consumer\">Consumer</"
+#| "a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#Content\">Content</"
+#| "a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#Creator\">Creator</"
+#| "a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#DigitalGoods\">Digital "
+#| "Goods</a>&rdquo; | &ldquo;<a href=\"words-to-avoid."
+#| "html#DigitalRightsManagement\">Digital Rights Management</a>&rdquo; | "
+#| "&ldquo;<a href=\"words-to-avoid.html#Ecosystem\">Ecosystem</a>&rdquo; | "
+#| "&ldquo;<a href=\"words-to-avoid.html#ForFree\">For free</a>&rdquo; | "
+#| "&ldquo;<a href=\"words-to-avoid.html#FreelyAvailable\">Freely available</"
+#| "a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#Freeware\">Freeware</"
+#| "a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#GiveAwaySoftware\">Give "
+#| "away software</a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#Hacker"
+#| "\">Hacker</a>&rdquo; | &ldquo;<a href=\"words-to-avoid."
+#| "html#IntellectualProperty\">Intellectual property</a>&rdquo; | &ldquo;<a "
+#| "href=\"words-to-avoid.html#LAMP\">LAMP system</a>&rdquo; | &ldquo;<a href="
+#| "\"words-to-avoid.html#Linux\">Linux system</a>&rdquo; | &ldquo;<a href="
+#| "\"words-to-avoid.html#Market\">Market</a>&rdquo; | &ldquo;<a href=\"words-"
+#| "to-avoid.html#MP3Player\">MP3 player</a>&rdquo; | &ldquo;<a href=\"words-"
+#| "to-avoid.html#Open\">Open</a>&rdquo; | &ldquo;<a href=\"words-to-avoid."
+#| "html#PC\">PC</a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#Photoshop"
+#| "\">Photoshop</a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#Piracy"
+#| "\">Piracy</a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#PowerPoint"
+#| "\">PowerPoint</a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#Protection"
+#| "\">Protection</a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#RAND"
+#| "\">RAND</a>&rdquo; | &ldquo;<a href=\"words-to-avoid.html#SellSoftware"
+#| "\">Sell software</a>&rdquo; | &ldquo;<a href=\"words-to-avoid."
+#| "html#SoftwareIndustry\">Software Industry</a>&rdquo; | &ldquo;<a href="
+#| "\"words-to-avoid.html#Theft\">Theft</a>&rdquo; | &ldquo;<a href=\"words-"
+#| "to-avoid.html#TrustedComputing\">Trusted Computing</a>&rdquo; | &ldquo;<a "
+#| "href=\"words-to-avoid.html#Vendor\">Vendor</a>&rdquo;"
 msgid ""
 "<a href=\"/philosophy/philosophy.html\">Other Texts to Read</a> | &ldquo;<a "
 "href=\"words-to-avoid.html#BSD-style\">BSD-style</a>&rdquo; | &ldquo;<a href="
@@ -56,7 +96,8 @@ msgid ""
 "avoid.html#CloudComputing\">Cloud Computing</a>&rdquo; | &ldquo;<a href="
 "\"words-to-avoid.html#Commercial\">Commercial</a>&rdquo; | &ldquo;<a href="
 "\"words-to-avoid.html#Compensation\">Compensation</a>&rdquo; | &ldquo;<a "
-"href=\"words-to-avoid.html#Consumer\">Consumer</a>&rdquo; | &ldquo;<a href="
+"href=\"words-to-avoid.html#Consume\">Consume</a>&rdquo; | &ldquo;<a href="
+"\"words-to-avoid.html#Consumer\">Consumer</a>&rdquo; | &ldquo;<a href="
 "\"words-to-avoid.html#Content\">Content</a>&rdquo; | &ldquo;<a href=\"words-"
 "to-avoid.html#Creator\">Creator</a>&rdquo; | &ldquo;<a href=\"words-to-avoid."
 "html#DigitalGoods\">Digital Goods</a>&rdquo; | &ldquo;<a href=\"words-to-"
@@ -267,11 +308,18 @@ msgstr ""
 "ind&eacute;pendantes."
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "In the first decade of the free software movement, free software packages "
+#| "were almost always noncommercial; the components of the GNU/Linux "
+#| "operating system were developed by individuals or by nonprofit "
+#| "organizations such as the FSF and universities.  Later, in the 90s, free "
+#| "commercial software started to appear."
 msgid ""
 "In the first decade of the free software movement, free software packages "
 "were almost always noncommercial; the components of the GNU/Linux operating "
 "system were developed by individuals or by nonprofit organizations such as "
-"the FSF and universities.  Later, in the 90s, free commercial software "
+"the FSF and universities.  Later, in the 1990s, free commercial software "
 "started to appear."
 msgstr ""
 "Dans la premi&egrave;re d&eacute;cennie du mouvement du logiciel libre, les "
@@ -321,6 +369,18 @@ msgstr ""
 "seconde est outrageuse."
 
 # type: Content of: <h4>
+#, fuzzy
+#| msgid "&ldquo;Consumer&rdquo;"
+msgid "&ldquo;Consume&rdquo;"
+msgstr "&laquo;&nbsp;Consommateur&nbsp;&raquo;"
+
+# type: Content of: <p>
+msgid ""
+"It is erroneous to speak of \"consuming\" digital information, music, "
+"software, etc.  See the following entry,"
+msgstr ""
+
+# type: Content of: <h4>
 msgid "&ldquo;Consumer&rdquo;"
 msgstr "&laquo;&nbsp;Consommateur&nbsp;&raquo;"
 
@@ -336,9 +396,14 @@ msgstr ""
 "exécuter un programme ne le consomment pas."
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The terms &ldquo;producer&rdquo; and &ldquo;consumer&rdquo; come from "
+#| "economic theory, and bring with them its narrow prespective and misguided "
+#| "assumptions.  They tend to warp your thinking."
 msgid ""
 "The terms &ldquo;producer&rdquo; and &ldquo;consumer&rdquo; come from "
-"economic theory, and bring with them its narrow prespective and misguided "
+"economic theory, and bring with them its narrow perspective and misguided "
 "assumptions.  They tend to warp your thinking."
 msgstr ""
 "Les termes «&nbsp;producteur&nbsp;» et «&nbsp;consommateur&nbsp;» proviennent "
@@ -467,9 +532,14 @@ msgstr ""
 "d'information. Cette description correspond à la plupart des programmes."
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "In most cases, that term really refers to a system for updating pages on "
+#| "a Web site.  For that, we recommend the term &ldquo;Web site revision "
+#| "system&rdquo; (WRS)."
 msgid ""
 "In most cases, that term really refers to a system for updating pages on a "
-"Web site.  For that, we recommend the term &ldquo;Web site revision "
+"web site.  For that, we recommend the term &ldquo;web site revision "
 "system&rdquo; (WRS)."
 msgstr ""
 "Dans la plupart des cas, le terme réfère vraiment à un système pour mettre à "
@@ -573,6 +643,13 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "By contrast, beings that adopt an ethical stance towards their "
+#| "surroundings, and have ideas of ethical responsibility, can decide to "
+#| "preserve things that, on their own, would tend to vanish&mdash;such as "
+#| "civil society, democracy, human rights, peace, public health, clean air "
+#| "and water, endangered species, traditional arts&hellip;and computer "
+#| "users' freedom."
 msgid ""
 "By contrast, beings that adopt an ethical stance towards their surroundings "
 "can decide to preserve things that, on their own, might vanish&mdash;such as "
@@ -716,8 +793,10 @@ msgstr ""
 "&laquo;&nbsp;distribuer en tant que logiciel libre&nbsp;&raquo;."
 
 # type: Content of: <h4>
-msgid "Hacker"
-msgstr "&laquo;&nbsp;Hacker&nbsp;&raquo;"
+#, fuzzy
+#| msgid "&ldquo;Market&rdquo;"
+msgid "&ldquo;Hacker&rdquo;"
+msgstr "&laquo;&nbsp;March&eacute;&nbsp;&raquo;"
 
 # type: Content of: <p>
 msgid ""
@@ -821,9 +900,16 @@ msgid "&ldquo;LAMP system&rdquo;"
 msgstr "&laquo;&nbsp;Syst&egrave;me LAMP&nbsp;&raquo;"
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "&ldquo;LAMP&rdquo; stands for &ldquo;Linux, Apache, MySQL and PHP&rdquo;"
+#| "&mdash;a common combination of software to use on a Web server, except "
+#| "that &ldquo;Linux&rdquo; in this context really refers to the GNU/Linux "
+#| "system.  So instead of &ldquo;LAMP&rdquo; it should be &ldquo;"
+#| "GLAMP&rdquo;: &ldquo;GNU, Linux, Apache, MySQL and PHP.&rdquo;"
 msgid ""
 "&ldquo;LAMP&rdquo; stands for &ldquo;Linux, Apache, MySQL and PHP&rdquo;"
-"&mdash;a common combination of software to use on a Web server, except that "
+"&mdash;a common combination of software to use on a web server, except that "
 "&ldquo;Linux&rdquo; in this context really refers to the GNU/Linux system.  "
 "So instead of &ldquo;LAMP&rdquo; it should be &ldquo;GLAMP&rdquo;: &ldquo;"
 "GNU, Linux, Apache, MySQL and PHP.&rdquo;"
@@ -836,8 +922,10 @@ msgstr ""
 "&raquo;&nbsp;: &laquo;&nbsp;GNU, Linux, Apache, MySQL and PHP&nbsp;&raquo;."
 
 # type: Content of: <h4>
-msgid "Linux system"
-msgstr "«&nbsp;Système Linux&nbsp;»"
+#, fuzzy
+#| msgid "&ldquo;LAMP system&rdquo;"
+msgid "&ldquo;Linux system&rdquo;"
+msgstr "&laquo;&nbsp;Syst&egrave;me LAMP&nbsp;&raquo;"
 
 # type: Content of: <p>
 msgid ""
@@ -903,8 +991,19 @@ msgid "&ldquo;MP3 player&rdquo;"
 msgstr "&laquo;&nbsp;Lecteur MP3&nbsp;&raquo;"
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "In the late 1990's it became feasible to make portable, solid-state "
+#| "digital audio players. Most support the patented MP3 codec, but not all.  "
+#| "Some support the patent-free audio codecs Ogg Vorbis and FLAC, and may "
+#| "not even support MP3-encoded files at all, precisely to avoid these "
+#| "patents.  To call such players &ldquo;MP3 players&rdquo; is not only "
+#| "confusing, it also puts MP3 in an undeserved position of privilege which "
+#| "encourages people to continue using that vulnerable format.  We suggest "
+#| "the terms &ldquo;digital audio player,&rdquo; or simply &ldquo;audio "
+#| "player&rdquo; if context permits."
 msgid ""
-"In the late 1990's it became feasible to make portable, solid-state digital "
+"In the late 1990s it became feasible to make portable, solid-state digital "
 "audio players. Most support the patented MP3 codec, but not all.  Some "
 "support the patent-free audio codecs Ogg Vorbis and FLAC, and may not even "
 "support MP3-encoded files at all, precisely to avoid these patents.  To call "
@@ -956,8 +1055,14 @@ msgid "&ldquo;PC&rdquo;"
 msgstr "&laquo;&nbsp;PC&nbsp;&raquo;"
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "It's ok to use the abbreviation &ldquo;PC&rdquo; to refer to a certain "
+#| "kind of computer hardware, but please don't use it with the implication "
+#| "that the computer is running Microsoft Windows.  If you install GNU/Linux "
+#| "on the same computer, it is still a PC."
 msgid ""
-"It's ok to use the abbreviation &ldquo;PC&rdquo; to refer to a certain kind "
+"It's OK to use the abbreviation &ldquo;PC&rdquo; to refer to a certain kind "
 "of computer hardware, but please don't use it with the implication that the "
 "computer is running Microsoft Windows.  If you install GNU/Linux on the same "
 "computer, it is still a PC."
@@ -1035,12 +1140,19 @@ msgid "&ldquo;PowerPoint&rdquo;"
 msgstr "&laquo;&nbsp;PowerPoint&nbsp;&raquo;"
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Please avoid using the term &ldquo;PowerPoint&rdquo; to mean any kind of "
+#| "slide presentation.  PowerPoint is just the name of one particular "
+#| "proprietary program to make presentations, and there are plenty of free "
+#| "alternatives, such as TeX's <tt>beamer</tt> class and OpenOffice.org's "
+#| "Impress."
 msgid ""
 "Please avoid using the term &ldquo;PowerPoint&rdquo; to mean any kind of "
-"slide presentation.  PowerPoint is just the name of one particular "
-"proprietary program to make presentations, and there are plenty of free "
-"alternatives, such as TeX's <tt>beamer</tt> class and OpenOffice.org's "
-"Impress."
+"slide presentation.  &ldquo;PowerPoint&rdquo; is just the name of one "
+"particular proprietary program to make presentations, and there are plenty "
+"of free alternatives, such as TeX's <tt>beamer</tt> class and OpenOffice."
+"org's Impress."
 msgstr ""
 "Veuillez &eacute;viter d'utiliser le terme &laquo;&nbsp;PowerPoint&nbsp;"
 "&raquo; pour parler de pr&eacute;sentation par diapositives. PowerPoint "
@@ -1094,12 +1206,21 @@ msgstr ""
 "longtemps&nbsp;»."
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The term &ldquo;protection&rdquo; is also used to describe malicious "
+#| "features.  For instance, &ldquo;copy protection&rdquo; is a feature that "
+#| "interferes with copying.  From the user's point of view, this is "
+#| "obstruction.  So we can call that malicious feature &ldquo;copy "
+#| "obstruction.&rdquo;"
 msgid ""
 "The term &ldquo;protection&rdquo; is also used to describe malicious "
 "features.  For instance, &ldquo;copy protection&rdquo; is a feature that "
 "interferes with copying.  From the user's point of view, this is "
-"obstruction.  So we can call that malicious feature &ldquo;copy obstruction."
-"&rdquo;"
+"obstruction.  So we could call that malicious feature &ldquo;copy "
+"obstruction.&rdquo; More often it is called Digital Restrictions Management "
+"(DRM)&mdash;see the <a href=\"http://DefectiveByDesign.org\"> Defective by "
+"Design</a> campaign."
 msgstr ""
 "Le terme &laquo;&nbsp;protection&nbsp;&raquo;est aussi utilisé pour décrire "
 "des fonctionnalités malicieuses, comme dans «&nbsp;protection contre la "
@@ -1108,7 +1229,9 @@ msgstr ""
 "obstruction à la copie&nbsp;»."
 
 # type: Content of: <h4>
-msgid "&ldquo;RAND (reasonable and nondiscriminatory)&rdquo;"
+#, fuzzy
+#| msgid "&ldquo;RAND (reasonable and nondiscriminatory)&rdquo;"
+msgid "&ldquo;RAND (Reasonable and Non-Discriminatory)&rdquo;"
 msgstr "&laquo;&nbsp;RAND (Reasonable And Non-Discriminatory)&nbsp;&raquo;"
 
 # type: Content of: <p>
@@ -1143,9 +1266,18 @@ msgstr ""
 "moiti&eacute; est partiale."
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Standards bodies should recognize that these licenses are discriminatory, "
+#| "and drop the use of the term &ldquo;reasonable and "
+#| "nondiscriminatory&rdquo; or &ldquo;RAND&rdquo; to describe them.  Until "
+#| "they do so, writers who do not wish to join in the whitewashing would do "
+#| "well to reject that term.  To accept and use it merely because patent-"
+#| "wielding companies have made it widespread is to let those companies "
+#| "dictate the views you express."
 msgid ""
 "Standards bodies should recognize that these licenses are discriminatory, "
-"and drop the use of the term &ldquo;reasonable and nondiscriminatory&rdquo; "
+"and drop the use of the term &ldquo;reasonable and non-discriminatory&rdquo; "
 "or &ldquo;RAND&rdquo; to describe them.  Until they do so, writers who do "
 "not wish to join in the whitewashing would do well to reject that term.  To "
 "accept and use it merely because patent-wielding companies have made it "
@@ -1209,11 +1341,19 @@ msgid "&ldquo;Software Industry&rdquo;"
 msgstr "&laquo;&nbsp;Industrie logicielle&nbsp;&raquo;"
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The term &ldquo;software industry&rdquo; encourages people to imagine "
+#| "that software is always developed by a sort of factory and then delivered "
+#| "to consumers.  The free software community shows this is not the case.  "
+#| "Software businesses exist, and various businesses develop free and/or "
+#| "nonfree software, but those that develop free software are not run like "
+#| "factories."
 msgid ""
 "The term &ldquo;software industry&rdquo; encourages people to imagine that "
 "software is always developed by a sort of factory and then delivered to "
-"consumers.  The free software community shows this is not the case.  "
-"Software businesses exist, and various businesses develop free and/or "
+"&ldquo;consumers.&rdquo; The free software community shows this is not the "
+"case.  Software businesses exist, and various businesses develop free and/or "
 "nonfree software, but those that develop free software are not run like "
 "factories."
 msgstr ""
@@ -1294,11 +1434,18 @@ msgid "&ldquo;Trusted Computing&rdquo;"
 msgstr "&laquo;&nbsp;Informatique de confiance&nbsp;&raquo;"
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"/philosophy/can-you-trust.html\">&ldquo;Trusted computing&rdquo;"
+#| "</a> is the proponents' name for a scheme to redesign computers so that "
+#| "application developers can trust your computer to obey them instead of "
+#| "you.  For their point of view, it is &ldquo;trusted&rdquo;; from your "
+#| "point of view, it is &ldquo;treacherous.&rdquo;"
 msgid ""
 "<a href=\"/philosophy/can-you-trust.html\">&ldquo;Trusted computing&rdquo;</"
 "a> is the proponents' name for a scheme to redesign computers so that "
 "application developers can trust your computer to obey them instead of you.  "
-"For their point of view, it is &ldquo;trusted&rdquo;; from your point of "
+"From their point of view, it is &ldquo;trusted&rdquo;; from your point of "
 "view, it is &ldquo;treacherous.&rdquo;"
 msgstr ""
 "<a href=\"/philosophy/can-you-trust.fr.html\">&laquo;&nbsp;Informatique de "
@@ -1314,6 +1461,15 @@ msgid "&ldquo;Vendor&rdquo;"
 msgstr "&laquo;&nbsp;Vendeur&nbsp;&raquo;"
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Please don't use the term &ldquo;vendor&rdquo; to refer generally to "
+#| "anyone that develops or packages software.  Many programs are developed "
+#| "in order to sell copies, and their developers are therefore their "
+#| "vendors; this even includes some free software packages.  However, many "
+#| "programs are developed by volunteers or organizations which do not intend "
+#| "to sell copies.  These developers are not vendors.  Likewise, only some "
+#| "of the packagers of GNU/Linux distributions are vendors."
 msgid ""
 "Please don't use the term &ldquo;vendor&rdquo; to refer generally to anyone "
 "that develops or packages software.  Many programs are developed in order to "
@@ -1321,7 +1477,8 @@ msgid ""
 "includes some free software packages.  However, many programs are developed "
 "by volunteers or organizations which do not intend to sell copies.  These "
 "developers are not vendors.  Likewise, only some of the packagers of GNU/"
-"Linux distributions are vendors."
+"Linux distributions are vendors.  We recommend the general term &ldquo;"
+"supplier&rdquo; instead."
 msgstr ""
 "Veuillez ne pas utiliser le terme &laquo;&nbsp;vendeur&nbsp;&raquo; pour "
 "vous r&eacute;f&eacute;rer de mani&egrave;re g&eacute;n&eacute;rale &agrave; "
@@ -1333,6 +1490,18 @@ msgstr ""
 "ou par des organisations, qui n'ont pas l'intention de vendre des copies. "
 "Leurs d&eacute;veloppeurs ne sont pas des vendeurs. De m&ecirc;me, seuls "
 "certains d&eacute;veloppeurs de distributions GNU/Linux sont des vendeurs."
+
+# type: Content of: <div>
+#, fuzzy
+#| msgid ""
+#| "Also note <a href=\"/philosophy/categories.html\">Categories of Free "
+#| "Software</a>."
+msgid ""
+"Also note <a href=\"/philosophy/categories.html\">Categories of Free and "
+"Nonfree Software</a>."
+msgstr ""
+"Veuillez aussi consulter <a href=\"/philosophy/categories.fr.html"
+"\">Cat&eacute;gories de logiciels libres</a>."
 
 # type: Content of: <h4>
 msgid ""
@@ -1375,6 +1544,9 @@ msgstr ""
 
 # type: Content of: <div><p>
 #, fuzzy
+#| msgid ""
+#| "Copyright &copy; 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2004, 2007, "
+#| "2008, 2009 Free Software Foundation, Inc."
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2004, 2007, 2008, "
 "2009, 2010 Free Software Foundation, Inc."
@@ -1406,6 +1578,21 @@ msgstr "Dernière mise à jour&nbsp;:"
 # type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <h2>
+#~ msgid ""
+#~ "Some Confusing or Loaded Words and Phrases to Avoid (or Use with Care)"
+#~ msgstr ""
+#~ "Mots ou phrases pr&ecirc;tant &agrave; confusion, que vous devriez "
+#~ "&eacute;viter (ou utiliser avec précaution)"
+
+# type: Content of: <h4>
+#~ msgid "Hacker"
+#~ msgstr "&laquo;&nbsp;Hacker&nbsp;&raquo;"
+
+# type: Content of: <h4>
+#~ msgid "Linux system"
+#~ msgstr "«&nbsp;Système Linux&nbsp;»"
 
 # type: Content of: <p>
 #~ msgid ""

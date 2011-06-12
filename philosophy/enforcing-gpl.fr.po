@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: enforcing-gpl.html\n"
-"POT-Creation-Date: 2009-07-29 16:25-0300\n"
+"POT-Creation-Date: 2011-02-23 12:27-0500\n"
 "PO-Revision-Date: 2009-08-23 18:25+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,11 +16,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid "Enforcing the GNU GPL - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "Faire respecter la GPL GNU - GNU Project - Free Software Foundation (FSF)"
 
 # type: Attribute 'content' of: <meta>
+#. type: Attribute 'content' of: <meta>
 msgid ""
 "GNU, FSF, Free Software Foundation, Linux, violation, general, public, "
 "license, gpl, general public license, enforcing, freedom, software, Eben, "
@@ -31,6 +33,7 @@ msgstr ""
 "appliquer, libert&eacute;, logiciel, Eben, Moglen, Eben Moglen"
 
 # type: Attribute 'content' of: <meta>
+#. type: Attribute 'content' of: <meta>
 msgid ""
 "In his essay, Enforcing the GNU GPL, Eben Moglen, legal counsel to the FSF, "
 "talks about how enforcement of the GNU General Public License is typically "
@@ -41,10 +44,12 @@ msgstr ""
 "typiquement appliquée."
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "Enforcing the GNU GPL"
 msgstr "Faire respecter la GPL GNU"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "by <a href=\"http://moglen.law.columbia.edu/\"><strong>Eben Moglen</strong></"
 "a>"
@@ -53,10 +58,12 @@ msgstr ""
 "strong></a>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "<em>10 September 2001</em>"
 msgstr "<em>10 Septembre 2001</em>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Microsoft's anti-GPL offensive this summer has sparked renewed speculation "
 "about whether the GPL is &ldquo;enforceable.&rdquo; This particular example "
@@ -69,13 +76,14 @@ msgstr ""
 "soulev&eacute; de nombreuses interrogations quand &agrave; la "
 "capacit&eacute; &agrave; &laquo;&nbsp;faire respecter la GPL&nbsp;&raquo;. "
 "Ce sp&eacute;cimen de &laquo;&nbsp;<abbr title=\"Fear, Uncertainty and Doubt"
-"\">FUD</abbr><sup><a href=\"#TransNote1\">1</a></sup></a>&nbsp;&raquo; "
-"m'amuse toujours un peu. Je pr&eacute;sume que je suis le seul avocat sur "
-"terre &agrave; pouvoir le dire, mais cela me fait penser &agrave; ce sur "
-"quoi tout le monde s'interroge : faire respecter la <a href=\"/licenses/gpl."
-"html\">GPL</a> est mon lot quotidien."
+"\">FUD</abbr><sup><a href=\"#TransNote1\">1</a></sup>&nbsp;&raquo; m'amuse "
+"toujours un peu. Je pr&eacute;sume que je suis le seul avocat sur terre "
+"&agrave; pouvoir le dire, mais cela me fait penser &agrave; ce sur quoi tout "
+"le monde s'interroge&nbsp;: faire respecter la <a href=\"/licenses/gpl.html"
+"\">GPL</a> est mon lot quotidien."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Because <a href=\"/philosophy/free-sw.html\">free software</a> is an "
 "unorthodox concept in contemporary society, people tend to assume that such "
@@ -111,6 +119,7 @@ msgstr ""
 "d&eacute;j&agrave; op&eacute;rationnels."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The essence of copyright law, like other systems of property rules, is the "
 "power to exclude.  The copyright holder is legally empowered to exclude all "
@@ -123,6 +132,7 @@ msgstr ""
 "ation de produits d&eacute;riv&eacute;s."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This right to exclude implies an equally large power to license&mdash;that "
 "is, to grant permission to do what would otherwise be forbidden.  Licenses "
@@ -138,6 +148,7 @@ msgstr ""
 "licence permet."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "But most proprietary software companies want more power than copyright alone "
 "gives them.  These companies say their software is &ldquo;licensed&rdquo; to "
@@ -165,6 +176,7 @@ msgstr ""
 "utilisateurs."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The GPL, on the other hand, subtracts from copyright rather than adding to "
 "it.  The license doesn't have to be complicated, because we try to control "
@@ -193,6 +205,7 @@ msgstr ""
 "plus restrictives que la GPL."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Because there's nothing complex or controversial about the license's "
 "substantive provisions, I have never even seen a serious argument that the "
@@ -207,6 +220,7 @@ msgstr ""
 "&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This claim is based on a misunderstanding.  The license does not require "
 "anyone to accept it in order to acquire, install, use, inspect, or even "
@@ -246,6 +260,7 @@ msgstr ""
 "licence, afin que tous soient pleinement inform&eacute;s."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Despite the FUD, as a copyright license the GPL is absolutely solid.  That's "
 "why I've been able to enforce it dozens of times over nearly ten years, "
@@ -257,6 +272,7 @@ msgstr ""
 "sans m&ecirc;me avoir eu &agrave; pousser jusqu'au tribunal."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Meanwhile, much murmuring has been going on in recent months to the supposed "
 "effect that the absence of judicial enforcement, in US or other courts, "
@@ -280,6 +296,7 @@ msgstr ""
 "extr&eacute;mit&eacute;s contre nous."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "So what happens when the GPL is violated? With software for which the Free "
 "Software Foundation holds the copyright (either because we wrote the "
@@ -307,6 +324,7 @@ msgstr ""
 "en profondeur qui s'imposent."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "We reach this stage dozens of times a year.  A quiet initial contact is "
 "usually sufficient to resolve the problem.  Parties thought they were "
@@ -338,6 +356,7 @@ msgstr ""
 "tition de la violation."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In approximately a decade of enforcing the GPL, I have never insisted on "
 "payment of damages to the Foundation for violation of the license, and I "
@@ -358,6 +377,7 @@ msgstr ""
 "pass&eacute;es."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In the early years of the free software movement, this was probably the only "
 "strategy available.  Expensive and burdensome litigation might have "
@@ -393,6 +413,7 @@ msgstr ""
 "jouer la partie d'une fa&ccedil;on &laquo;muscl&eacute;e&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "We have even, once or twice, faced enterprises which, under US copyright "
 "law, were engaged in deliberate, criminal copyright infringement: taking the "
@@ -430,6 +451,7 @@ msgstr ""
 "cas o&ugrave;, assur&eacute;ment, le crime ne paie pas."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "But perhaps we have succeeded too well.  If I had used the courts to enforce "
 "the GPL years ago, Microsoft's whispering would now be falling on deaf "
@@ -450,6 +472,7 @@ msgstr ""
 "exemple&nbsp;; &ecirc;tes-vous volontaire&nbsp;?&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Someday someone will.  But that someone's customers are going to go "
 "elsewhere, talented technologists who don't want their own reputations "
@@ -472,6 +495,7 @@ msgstr ""
 "diff&eacute;rente est finalement la bonne fa&ccedil;on de faire."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "<cite> Eben Moglen is professor of law and legal history at Columbia "
 "University Law School.  He serves without fee as General Counsel of the Free "
@@ -484,6 +508,7 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
 "<b>Notes du traducteur</b>&nbsp;: <ol><li id=\"TransNote1\"><abbr title="
@@ -492,12 +517,18 @@ msgstr ""
 "esprits.</li></ol>"
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -506,6 +537,26 @@ msgstr ""
 "\"mailto:webmasters@gnu.org\">webmasters@gnu.org</a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#| "contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web à <a href="
+"\"mailto:webmasters@gnu.org\">webmasters@gnu.org</a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -516,10 +567,12 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2001 Eben Moglen"
 msgstr "Copyright &copy; 2001 Eben Moglen"
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium, provided this notice is preserved."
@@ -530,6 +583,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Jean-Jacques Puig.<br />Révision&nbsp;: <a href=\"mailto:"
@@ -537,9 +591,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

@@ -31,6 +31,11 @@ msgstr "par <strong>Richard Stallman</strong>"
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "<a href=\"/licenses/gpl.html\">Version 3 of the GNU General Public "
+#| "License</a> has been released, enabling free software packages to upgrade "
+#| "from GPL version 2.  This article explains why upgrading the license is "
+#| "important."
 msgid ""
 "<a href=\"/licenses/gpl.html\">Version 3 of the GNU General Public License</"
 "a> (GNU GPL) has been released, enabling free software packages to upgrade "
@@ -44,6 +49,11 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "First of all, it is important to note that upgrading is a choice.  GPL "
+#| "version 2 will remain a valid license, and no disaster will happen if "
+#| "some programs remain under GPLv2 while others advance to GPLv3.  These "
+#| "two licenses are incompatible, but that isn't a serious problem."
 msgid ""
 "First of all, it is important to note that upgrading is a choice.  GPL "
 "version 2 will remain a valid license, and no disaster will happen if some "
@@ -79,6 +89,15 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Fortunately, license incompatibility only matters when you want to link, "
+#| "merge or combine code from two different programs into a single program.  "
+#| "There is no problem in having GPLv3-covered and GPLv2-covered programs "
+#| "side by side in an operating system.  For instance, the TeX license and "
+#| "the Apache license are incompatible with GPLv2, but that doesn't stop us "
+#| "from running TeX and Apache in the same system with Linux, Bash and GCC.  "
+#| "This is because they are all separate programs.  Likewise, if Bash and "
+#| "GCC move to GPLv3, while Linux remains under GPLv2, there is no conflict."
 msgid ""
 "Fortunately, license incompatibility matters only when you want to link, "
 "merge or combine code from two different programs into a single program.  "
@@ -102,6 +121,9 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Keeping a program under GPLv2 won't create problems.  The reason to "
+#| "migrate is because of the existing problems which GPLv3 will address."
 msgid ""
 "Keeping a program under GPLv2 won't create problems.  The reason to migrate "
 "is because of the existing problems that GPLv3 will address."
@@ -112,6 +134,14 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "One major danger that GPLv3 will block is tivoization.  Tivoization means "
+#| "computers (called &ldquo;appliances&rdquo;) contain GPL-covered software "
+#| "that you can't change, because the appliance shuts down if it detects "
+#| "modified software.  The usual motive for tivoization is that the software "
+#| "has features the manufacturer thinks lots of people won't like.  The "
+#| "manufacturers of these computers take advantage of the freedom that free "
+#| "software provides, but they don't let you do likewise."
 msgid ""
 "One major danger that GPLv3 will block is tivoization.  Tivoization means "
 "certain &ldquo;appliances&rdquo; (which have computers inside)  contain GPL-"
@@ -156,6 +186,18 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "In the crucial area of Digital Restrictions Management&mdash;nasty "
+#| "features designed to restrict your use of the data in your computer&mdash;"
+#| "competition is no help, because relevant competition is forbidden.  Under "
+#| "the Digital Millennium Copyright Act and similar laws, it is illegal, in "
+#| "the US and many other countries, to distribute DVD players unless they "
+#| "restrict the user according to the official rules of the DVD conspiracy "
+#| "(its web site is <a href=\"http://www.dvdcca.org/\">http://www.dvdcca.org/"
+#| "</a>, but the rules do not seem to be published there).  The public can't "
+#| "reject DRM by buying non-DRM players, because none are available.  No "
+#| "matter how many products you can choose from, they all have equivalent "
+#| "digital handcuffs."
 msgid ""
 "In the crucial area of Digital Restrictions Management (DRM)&mdash;nasty "
 "features designed to restrict your use of the data in your computer&mdash;"
@@ -205,6 +247,11 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "The ban on tivoization applies to any product whose use by consumers, "
+#| "even occasionally, is to be expected.  GPLv3 tolerates tivoization only "
+#| "for products that are almost exclusively meant for businesses and "
+#| "organizations."
 msgid ""
 "The ban on tivoization applies to any product whose use by consumers is to "
 "be expected, even occasionally.  GPLv3 tolerates tivoization only for "
@@ -219,6 +266,12 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Another threat that GPLv3 resists is that of patent deals like the Novell-"
+#| "Microsoft deal.  Microsoft wants to use its thousands of patents to make "
+#| "GNU/Linux users pay Microsoft for the privilege, and made this deal to "
+#| "try to get that.  The deal offers Novell's customers rather limited "
+#| "protection from Microsoft patents."
 msgid ""
 "Another threat that GPLv3 resists is that of patent deals like the Novell-"
 "Microsoft pact.  Microsoft wants to use its thousands of patents to make "
@@ -234,6 +287,11 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Microsoft made a few mistakes in the Novell-Microsoft deal, and GPLv3 is "
+#| "designed to turn them against Microsoft, extending that limited patent "
+#| "protection to the whole community.  In order to take advantage of this, "
+#| "programs need to use GPLv3."
 msgid ""
 "Microsoft made a few mistakes in the Novell-Microsoft deal, and GPLv3 is "
 "designed to turn them against Microsoft, extending that limited patent "
@@ -261,6 +319,12 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "GPLv3 also provides for explicit patent protection of the users from the "
+#| "program's contributors and redistributors.  With GPLv2, users rely on an "
+#| "implicit patent license to make sure that the company which provided them "
+#| "a copy won't sue them, or the people they redistribute copies to, for "
+#| "patent infringement."
 msgid ""
 "GPLv3 also provides users with explicit patent protection from the program's "
 "contributors and redistributors.  With GPLv2, users rely on an implicit "
@@ -277,6 +341,18 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "The explicit patent license in GPLv3 does not go as far as we might have "
+#| "liked.  Ideally, we would make everyone who redistributes GPL-covered "
+#| "code surrender all software patents, along with everyone who does not "
+#| "redistribute GPL-covered code.  Software patents are a vicious and absurd "
+#| "system that puts all software developers in danger of being sued by "
+#| "companies they have never heard of, as well as by all the "
+#| "megacorporations in the field.  Large programs typically combine "
+#| "thousands of ideas, so it is no surprise if they implement ideas covered "
+#| "by hundreds of patents.  Megacorporations collect thousands of patents, "
+#| "and use those patents to bully smaller developers.  Patents already "
+#| "obstruct free software development."
 msgid ""
 "The explicit patent license in GPLv3 does not go as far as we might have "
 "liked.  Ideally, we would make everyone who redistributes GPL-covered code "
@@ -323,6 +399,14 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Therefore, GPLv3 seeks to limit and channel the danger.  In particular, "
+#| "we have tried to save free software from a fate worse than death: to be "
+#| "made effectively proprietary, through patents.  The explicit patent "
+#| "license of GPLv3 makes sure companies that use the GPL to give users the "
+#| "four freedoms cannot turn around and use their patents to tell some users "
+#| "&ldquo;That doesn't include you.&rdquo; It also stops them from colluding "
+#| "with other patent holders to do this."
 msgid ""
 "Therefore, GPLv3 seeks to limit and channel the danger.  In particular, we "
 "have tried to save free software from a fate worse than death: to be made "
@@ -355,6 +439,11 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Change is unlikely to cease once GPLv3 is released.  If new threats to "
+#| "users' freedom develop, we will have to develop GPL version 4.  It is "
+#| "important to make sure that programs will have no trouble upgrading to "
+#| "GPLv4 when the time comes."
 msgid ""
 "Change is unlikely to cease once GPLv3 is released.  If new threats to "
 "users' freedom develop, we will have to develop GPL version 4.  It is "
@@ -369,6 +458,14 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "One way to do this is to release a program under &ldquo;GPL version 3 or "
+#| "any later version&rdquo;.  Another way is for all the contributors to a "
+#| "program to state a proxy who can decide on upgrading to future GPL "
+#| "versions.  The third way is for all the contributors to assign copyright "
+#| "to one designated copyright holder, who will be in a position to upgrade "
+#| "the license version.  One way or another, programs should provide this "
+#| "flexibility for the future."
 msgid ""
 "One way to do this is to release a program under &ldquo;GPL version 3 or any "
 "later version&rdquo;.  Another way is for all the contributors to a program "
@@ -440,6 +537,10 @@ msgstr ""
 
 # type: Content of: <div><p>
 #, fuzzy
+#| msgid ""
+#| "Copyright &copy; 2007 Richard Stallman <br /> Verbatim copying and "
+#| "distribution of this entire article are permitted worldwide without "
+#| "royalty in any medium provided this notice is preserved."
 msgid ""
 "Copyright &copy; 2007, 2009 Richard Stallman <br /> Verbatim copying and "
 "distribution of this entire article are permitted worldwide without royalty "

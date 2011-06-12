@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ICT-for-prosperity.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2011-04-01 20:27-0300\n"
 "PO-Revision-Date: 2008-12-29 14:49+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "Shaping Collaborative ICT Development and Initiatives for Global Prosperity "
 "- GNU Project - Free Software Foundation (FSF)"
@@ -23,15 +24,21 @@ msgstr ""
 "Fa&ccedil;onner le d&eacute;veloppement collaboratif des TIC et les "
 "initiatives pour la prosp&eacute;rit&eacute; globale"
 
-# type: Content of: <h2>
+# type: Content of: <p>
+#. type: Content of: <h2>
+#, fuzzy
+#| msgid ""
+#| "<q>Shaping Collaborative <abbr>ICT</abbr> Development and Initiatives for "
+#| "Global Prosperity</q>"
 msgid ""
-"Shaping Collaborative <abbr title=\"Information and Communications Technology"
-"\">ICT</abbr> Development and Initiatives for Global Prosperity"
+"Shaping Collaborative ICT Development and Initiatives for Global Prosperity"
 msgstr ""
-"Fa&ccedil;onner le d&eacute;veloppement collaboratif des TIC et les "
-"initiatives, pour une prosp&eacute;rit&eacute; globale"
+"&laquo;&nbsp;Fa&ccedil;onner le d&eacute;veloppement collaboratif des "
+"technologies de l'information et des communications et les initiatives pour "
+"une prosp&eacute;rit&eacute; globale&nbsp;&raquo;"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "by <a href=\"http://www.rattlesnake.com/\"><strong>Robert J. Chassell</"
 "strong></a>"
@@ -39,31 +46,30 @@ msgstr ""
 "par <strong><a href=\"http://www.rattlesnake.com/\">par Robert J.Chassell</"
 "a></strong>"
 
-# type: Content of: <p>
-msgid ""
-"[From on a presentation given at the<br /> <a href=\"http://www."
-"globalknowledge.org.my/\"> Second Global Knowledge Conference</a><br /> in "
-"Kuala Lumpur, Malaysia, on 7 March 2000."
+#
+#.  <br />
+#. <a href="http://www.globalknowledge.org.my/"> broken link, 1apr11 
+#. type: Content of: <p>
+msgid "[From a presentation given at the Second Global Knowledge Conference"
 msgstr ""
-"[D'apr&egrave;s une pr&eacute;sentation donn&eacute;e &agrave; la<br /><a "
-"href=\"http://www.globalknowledge.org.my/\">Second Global Knowledge "
-"Conference</a><br />Kuala Lumpur, Malaisie, le 7 Mars 2000."
+
+#. type: Content of: <p>
+msgid "in Kuala Lumpur, Malaysia, on 7 March 2000.]"
+msgstr ""
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The title of this presentation is <q>Shaping Collaborative <abbr>ICT</"
+#| "abbr> Development and Initiatives for Global Prosperity</q> and the "
+#| "themes of this conference are &lsquo;access&rsquo;, &lsquo;"
+#| "empowerment&rsquo; and &lsquo;governance&rsquo;."
 msgid ""
-"[For a more extended discussion, see my<br /> <a href=\"http://www.teak.cc/"
-"Access-speech.html\"> Free Software: Access and Empowerment</a>.]"
-msgstr ""
-"[Pour une discussion plus approfondie, voir&nbsp; mon texte&nbsp;:<br /><a "
-"href=\"http://www.teak.cc/Access-speech.html\">Free Software :Access and "
-"Empowerment</a>.]"
-
-# type: Content of: <p>
-msgid ""
-"The title of this presentation is <q>Shaping Collaborative <abbr>ICT</abbr> "
-"Development and Initiatives for Global Prosperity</q> and the themes of this "
-"conference are &lsquo;access&rsquo;, &lsquo;empowerment&rsquo; and &lsquo;"
-"governance&rsquo;."
+"The title of this presentation is &lsquo;Shaping Collaborative ICT "
+"Development and Initiatives for Global Prosperity&rsquo; and the themes of "
+"this conference are &lsquo;access&rsquo;, &lsquo;empowerment&rsquo; and "
+"&lsquo;governance&rsquo;."
 msgstr ""
 "Le titre de cette pr&eacute;sentation est &laquo;&nbsp;Fa&ccedil;onner le "
 "d&eacute;veloppement collaboratif des <abbr title=\"Technologies de "
@@ -73,6 +79,7 @@ msgstr ""
 "donner du pouvoir&nbsp;&raquo; et &laquo;&nbsp;gouverner&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "What I want to do today is take one specific technology and talk about the "
 "way we have shaped that technology to make it accessible and empowering, how "
@@ -89,6 +96,7 @@ msgstr ""
 "fa&ccedil;on dont nous utilisons la technologie pour mieux gouverner."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The technology is software.  The shaping has to do with copyright licensing "
 "terms &mdash; its legal and institutional framework."
@@ -97,6 +105,7 @@ msgstr ""
 "conditions juridiques du copyright, son cadre l&eacute;gal et institutionnel."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "As a founder of the Free Software Foundation, I have been working for 16 "
 "years with the legal and institutional framework in which we use and develop "
@@ -109,11 +118,17 @@ msgstr ""
 "un syst&egrave;me logiciel complet, est n&eacute; de ces efforts."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "<abbr>ICT</abbr>, the information and communications technologies, are "
+#| "made up of hardware and software components.  I am speaking here only of "
+#| "software.  However, I hope we can extend our experience from this to "
+#| "other technologies."
 msgid ""
-"<abbr>ICT</abbr>, the information and communications technologies, are made "
-"up of hardware and software components.  I am speaking here only of "
-"software.  However, I hope we can extend our experience from this to other "
-"technologies."
+"ICT, the information and communications technologies, are made up of "
+"hardware and software components.  I am speaking here only of software.  "
+"However, I hope we can extend our experience from this to other technologies."
 msgstr ""
 "Les <acronym title=\"Technologies de l'information et des communications"
 "\">TIC</acronym>, (<acronym title=\"Information and Communications "
@@ -123,6 +138,7 @@ msgstr ""
 "tendre notre exp&eacute;rience de ce sujet &agrave; d'autres technologies."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "When I speak of software, I am speaking both about the programs that run the "
 "computer, that is to say, the operating system, and about applications, such "
@@ -141,6 +157,7 @@ msgstr ""
 "les r&eacute;seaux."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Over the last few years, the prices of computer and telecommunications "
 "hardware have dropped to the point that many more people are using them.  "
@@ -156,6 +173,7 @@ msgstr ""
 "communications &eacute;lectroniques, qui sont connect&eacute;es."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "While one out of thirty is still a small portion of the world's population, "
 "this technology is popular, growing, and becoming more important in our "
@@ -172,12 +190,14 @@ msgstr ""
 "acc&egrave;s vont &eacute;ventuellement en profiter."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "As with any technology, software can be employed well or badly."
 msgstr ""
 "Comme pour toute technologie, le logiciel peut s'utiliser d'une bonne ou "
 "d'une mauvaise fa&ccedil;on."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "At the moment we see both.  On the bad side, we see machines that crash "
 "unnecessarily, email messages that waste their recipients money, systems "
@@ -191,6 +211,7 @@ msgstr ""
 "qu'une partie de ce que vous attendez d'eux."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The key to good use of software is to ensure freedom.  In software, this "
 "leads to collaboration, lower prices, reliability, efficiency, security, and "
@@ -202,6 +223,7 @@ msgstr ""
 "et moins de barri&egrave;res pour y participer et l'utiliser."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "For a good use of software technology, people must have the legal right to "
 "copy, study, modify, and redistribute it.  All else flows from this."
@@ -211,6 +233,7 @@ msgstr ""
 "redistribuer. Tout le reste d&eacute;coule de cela."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "GNU/Linux software gives people these rights.  Programmers benefit, and more "
 "importantly, people who are not programmers benefit."
@@ -220,10 +243,17 @@ msgstr ""
 "en b&eacute;n&eacute;ficient."
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "For example, people in an area with lousy or no telephone service can use "
+#| "a rugged package called <acronym title=\"Unix to Unix CoPy\">UUCP</"
+#| "acronym> for communications.  I recently read of an Oxfam group that did "
+#| "this."
 msgid ""
 "For example, people in an area with lousy or no telephone service can use a "
-"rugged package called <acronym title=\"Unix to Unix CoPy\">UUCP</acronym> "
-"for communications.  I recently read of an Oxfam group that did this."
+"rugged package called UUCP for communications.  I recently read of an Oxfam "
+"group that did this."
 msgstr ""
 "Par exemple, quelqu'un habitant dans une zone o&ugrave; les services "
 "t&eacute;l&eacute;phoniques sont m&eacute;diocres ou inexistants, peut "
@@ -231,6 +261,7 @@ msgstr ""
 "J'ai lu r&eacute;cemment qu'un groupe d'Oxfam l'a fait."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "People with older machines, even with the very old 80386 chips, can run "
 "efficient programs that do as much as programs that require a modern Pentium "
@@ -245,6 +276,7 @@ msgstr ""
 "communications."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "People with just one computer can attach one or two additional terminals to "
 "it, and provide two or three seats in place of one, for very little extra "
@@ -261,6 +293,7 @@ msgstr ""
 "l'avons fait en m&ecirc;me temps."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "A community group, or business, can set up its own mailing lists or news "
 "groups, private or public.  The groupware is there.  Two or more people can "
@@ -277,6 +310,7 @@ msgstr ""
 "l'autre c&ocirc;t&eacute; de l'oc&eacute;an Atlantique."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "What script do you want to write in? Hindi, Chinese, Thai? All these are "
 "possible, and in the same window as English or Cyrillic."
@@ -286,6 +320,7 @@ msgstr ""
 "comme en anglais ou en cyrillique."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Individuals or groups can set up their own Web sites.  A publisher can "
 "typeset his own books.  An accountant can analyze a budget.  Blind people "
@@ -297,6 +332,7 @@ msgstr ""
 "&agrave; haute et intelligible voix un texte via leur ordinateur."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "You can enjoy choosing among several graphic user interfaces, a fancy one, "
 "another that looks and behaves rather like Microsoft Windows, or a third, "
@@ -307,6 +343,7 @@ msgstr ""
 "interface ressemblant et se comportant comme celle de Microsoft Windows."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Except for the blind person's speech generation, which requires audio that I "
 "never installed in my machine, every application I have just mentioned runs "
@@ -320,6 +357,7 @@ msgstr ""
 "peuvent entendre les textes."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "All these applications came on a CD-ROM that was, as it happens, given me at "
 "no charge.  I have also paid for CDs with a different version of the "
@@ -336,6 +374,7 @@ msgstr ""
 "l&eacute;phoniques."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This wealth of software is available and can be used anywhere in the world."
 msgstr ""
@@ -343,6 +382,7 @@ msgstr ""
 "o&ugrave; dans le monde."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "To return to the question of how this technology was shaped: the key, as I "
 "said, is freedom, the legal right to copy, study, modify, and redistribute "
@@ -354,6 +394,7 @@ msgstr ""
 "et redistribuer le logiciel."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The specific legal tool we used to create these freedoms and the resulting "
 "benefits is a specially drafted copyright license, the GNU General Public "
@@ -366,6 +407,7 @@ msgstr ""
 "GNU)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This license gives you more rights than plain copyright does, and more "
 "rights than many other kinds of software license.  In essence, it forbids "
@@ -377,6 +419,7 @@ msgstr ""
 "Elle vous permet de faire tout le reste."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Let me go through this list of rights: copy, study, modify, and redistribute."
 msgstr ""
@@ -384,10 +427,12 @@ msgstr ""
 "modifier et redistribuer."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "First, the right to copy."
 msgstr "En premier lieu, le droit de copier."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Not many people own a factory that would enable them to copy a car.  Indeed, "
 "to copy a car is so difficult that we use a different word, we speak of "
@@ -404,6 +449,7 @@ msgstr ""
 "der facilement &agrave; une usine automobile."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "But everyone with a computer owns a software factory, a device for "
 "manufacturing software, that is to say, for making new copies.  Because "
@@ -420,6 +466,7 @@ msgstr ""
 "s'agit bien de cela."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The right to copy software is the right to use your own means of production "
 "(if you will pardon my use of an expression that has gone out of fashion).  "
@@ -432,6 +479,7 @@ msgstr ""
 "mondiale, ont entre leurs mains ces moyens de production."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Naturally, there have been efforts to take away your rights to use your own "
 "property as a factory that you own."
@@ -441,6 +489,7 @@ msgstr ""
 "&agrave; vous comme d'une usine qui vous appartient."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Second, the right to study.  This right is of little direct interest to "
 "people who are not programmers.  It is like the right of a lawyer to read "
@@ -454,6 +503,7 @@ msgstr ""
 "livres que vous &eacute;viterez."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "However, this right to study has several implications, both for those who "
 "program and for everyone else."
@@ -462,6 +512,7 @@ msgstr ""
 "le programmeur que pour celui qui ne programme pas."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The right to study means that people in places like Mexico, or India, or "
 "Malaysia can study the same code that people in Europe or the United States "
@@ -475,6 +526,7 @@ msgstr ""
 "r&eacute;ussi."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Bear in mind that many programmers work under restrictions that forbid them "
 "from seeing others' code.  Rather than sit on the shoulders of those who "
@@ -491,6 +543,7 @@ msgstr ""
 "du haut des &eacute;paules de g&eacute;ants."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Moreover, the right to study means that the software itself must be made "
 "available in a manner that humans can read."
@@ -500,6 +553,7 @@ msgstr ""
 "vous et moi."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Software comes in two forms, one readable only by computers and the other "
 "readable by people.  The form that a computer can read is what the computer "
@@ -516,6 +570,7 @@ msgstr ""
 "cutable."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The next right, the right to modify, is the right to fix a problem or "
 "enhance a program.  For most people, this means your right or your "
@@ -531,6 +586,7 @@ msgstr ""
 "ou un charpentier pour agrandir votre maison."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Modification is helpful.  Application developers cannot think of all the "
 "ways others will use their software.  Developers cannot foresee the new "
@@ -547,10 +603,12 @@ msgstr ""
 "&eacute;t&eacute; &eacute;crit en Finlande."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "Finally, of these legal rights, comes the right to redistribute."
 msgstr "Et pour terminer, parlons du droit de redistribuer."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This means that you, who own a computer, a software factory, have the right "
 "to make copies of a program and redistribute it.  You can charge for these "
@@ -562,6 +620,7 @@ msgstr ""
 "D'autres peuvent faire la m&ecirc;me chose."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Of course, several existing, large software manufacturers want to forbid you "
 "from using your own property.  They cannot win in a free market, so they "
@@ -575,6 +634,7 @@ msgstr ""
 "propositions de lois qui vous &ocirc;tent votre libert&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The right to redistribute, so long as it is defended and upheld, means that "
 "software is sold in a competitive, free market.  This has several "
@@ -586,6 +646,7 @@ msgstr ""
 "quences, c'est un bas prix. Ce qui est en faveur du consommateur."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "But first and foremost, these legal and economic rights lead to "
 "collaboration, one of themes of this conference."
@@ -595,6 +656,7 @@ msgstr ""
 "conf&eacute;rence."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This outcome is contrary to many people's expectations.  Few expect that in "
 "a competitive, free market, every producer will become more collaborative "
@@ -608,6 +670,7 @@ msgstr ""
 "visible au sein des hommes d'affaire en comp&eacute;tition."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The more competitive a market, the more cooperation you see.  This "
 "apparently counter-intuitive implication is both observed and inferred."
@@ -617,6 +680,7 @@ msgstr ""
 "&eacute;t&eacute; &agrave; la fois observ&eacute;e et infer&eacute;e."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This is because people are not harmed by doing what they want to do.  People "
 "like to help their neighbors."
@@ -625,6 +689,7 @@ msgstr ""
 "qu'ils ont envie de faire. Les gens aiment aider leurs voisins."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Consider a small farmer, one among a million.  My friend George, back in the "
 "United States, is one such."
@@ -633,6 +698,7 @@ msgstr ""
 "&Eacute;tats Unis, est un de ceux-l&agrave;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "His harvest is so small, that there is nothing he can do to effect the world "
 "price.  His neighbor is in a similar situation."
@@ -641,6 +707,7 @@ msgstr ""
 "au niveau mondial. Son voisin est dans la m&ecirc;me situation."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Consequently, if George helps his neighbor, his neighbor benefits, and "
 "George himself loses nothing on the price he receives for his harvest."
@@ -649,6 +716,7 @@ msgstr ""
 "lui, ne perdra rien sur ce que lui rapporte sa r&eacute;colte."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Since George will not hurt himself, he has every other reason to help his "
 "neighbor.  Not only is George kindly, he also recognizes that when he helps "
@@ -660,12 +728,14 @@ msgstr ""
 "voisin, ce dernier s'empresse de lui renvoyer l'ascenseur."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "This is what you see in a competitive free market: cooperation."
 msgstr ""
 "Voil&agrave; ce que vous observez dans un march&eacute; comp&eacute;titif "
 "libre : de la coop&eacute;ration."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Visible competition indicates that the market is not fully free and "
 "competitive.  Visible competition means that at most you have a semi-free "
@@ -677,6 +747,7 @@ msgstr ""
 "march&eacute; semi-libre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Moreover, and this benefits people who are not programmers, if software is "
 "sold in a free market, competition among vendors will lead to a lower price."
@@ -686,6 +757,7 @@ msgstr ""
 "profiter aux non-programmeurs."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Put another way, the price of software is determined primarily by legal "
 "considerations: by the degree to which customers enjoy freedom.  If "
@@ -702,6 +774,7 @@ msgstr ""
 "de logiciels propri&eacute;taires."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "On the other hand, if software is sold in a free market, competition among "
 "vendors will lead to a lower price."
@@ -710,6 +783,7 @@ msgstr ""
 "libre, la comp&eacute;tition entre les vendeurs fera baisser les prix."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Indeed, in some circumstances the cost will be so low that companies or "
 "other organizations will give away CD-ROMs containing the software; others "
@@ -723,6 +797,7 @@ msgstr ""
 "gratuitement."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This means that software itself, a necessary supporting part of a business "
 "or community project, will be both inexpensive and legal."
@@ -732,6 +807,7 @@ msgstr ""
 "l&eacute;gal."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Think of this from the point of view of a small business or community "
 "supported group.  The organization can use restricted-distribution, "
@@ -744,6 +820,7 @@ msgstr ""
 "soit enfreindre la loi et le voler."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "On the other hand, free software is inexpensive and legal.  It is more "
 "accessible.  It is also customizable in ways that restricted software often "
@@ -754,6 +831,7 @@ msgstr ""
 "ce que les logiciels restrictifs peuvent l'&ecirc;tre. Il donne du pouvoir."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "We shape the development of this technology, we create collaboration, "
 "through the use of a legal tool, a license, that gives you more rights than "
@@ -767,6 +845,7 @@ msgstr ""
 "droit de copier, &eacute;tudier, modifier et redistribuer le logiciel."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Because of the freedoms associated with it, this software is called &lsquo;"
 "free software.&rsquo;"
@@ -775,6 +854,7 @@ msgstr ""
 "appel&eacute; &laquo;&nbsp;logiciel libre&nbsp;&raquo; (free software)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "While I am speaking of this phrase, let me clear up a verbal issue that "
 "sometimes confuses English speakers."
@@ -783,6 +863,7 @@ msgstr ""
 "en erreur les anglophones."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The low price of free software leads some English speakers to think that the "
 "word &lsquo;free&rsquo; in the phrase &lsquo;free software&rsquo; means they "
@@ -801,6 +882,7 @@ msgstr ""
 "ressources, de logiciel peu co&ucirc;teux."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The English word &lsquo;free&rsquo; has several meanings.  As a Mexican "
 "friend of mine &mdash; and leader, by the way, of a major free software "
@@ -811,6 +893,7 @@ msgstr ""
 "projet dans le logiciel libre&nbsp;:"
 
 # type: Content of: <blockquote><p>
+#. type: Content of: <blockquote><p>
 msgid ""
 "English is broken; it does not distinguish between &lsquo;free beer&rsquo; "
 "and &lsquo;free speech&rsquo;."
@@ -820,6 +903,7 @@ msgstr ""
 "gratuite&nbsp;&raquo; et la &laquo;&nbsp;libre expression&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Spanish, on the other hand, distinguishes between &lsquo;gratis&rsquo; and "
 "&lsquo;libre&rsquo;.  Free software is &lsquo;libre&rsquo; software."
@@ -830,6 +914,7 @@ msgstr ""
 "un logiciel &laquo;&nbsp;libr&eacute;&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Likewise, the language of our hosts, Bahasa Melayu, distinguishes between "
 "&lsquo;pecuma&rsquo; and &lsquo;kebebasa&rsquo;.  Free software is &lsquo;"
@@ -841,6 +926,7 @@ msgstr ""
 "kebebasa&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Incidentally, Eric Raymond and Bruce Perens invented the phrase &lsquo;open "
 "source&rsquo; a few years ago as a synonym &lsquo;free software&rsquo;.  "
@@ -856,6 +942,7 @@ msgstr ""
 "&Eacute;ric et Bruce ont atteint leur but."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "However, I prefer the term &lsquo;free software&rsquo; since it better "
 "conveys the goal of freedom; the proposition that every man and woman, even "
@@ -869,6 +956,7 @@ msgstr ""
 "mun&eacute;rateur et qu'on ne leur interdise pas."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "I mentioned that a business or community can use software that is "
 "inexpensive and legal."
@@ -878,12 +966,14 @@ msgstr ""
 "gal."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "Now let me turn to the software industry itself."
 msgstr ""
 "Maintenant, laissez-moi vous parler de l'industrie logicielle elle-m&ecirc;"
 "me."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Because competition in a competitive market forces down the price of free "
 "software, no one enters the software industry to sell software as such.  "
@@ -897,6 +987,7 @@ msgstr ""
 "d'autres moyens."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Companies and people in the &lsquo;software industry&rsquo; do not sell "
 "software itself, but services associated with software or hardware or other "
@@ -908,6 +999,7 @@ msgstr ""
 "solutions."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This is what happens in the medical and legal professions.  Both medical "
 "knowledge and law are freely redistributable.  Physicians and lawyers sell "
@@ -919,6 +1011,7 @@ msgstr ""
 "pour r&eacute;soudre des probl&egrave;mes."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "What services do I mean? Most directly, help in using a computer, or, to "
 "take more specific examples, help in setting up a packet radio network where "
@@ -933,6 +1026,7 @@ msgstr ""
 "donn&eacute;es dans une base de donn&eacute;es pour un magasin."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Less directly, and increasingly, hardware companies that sell telephones or "
 "desalinization plants, add software to their products to make them more "
@@ -944,6 +1038,7 @@ msgstr ""
 "les rendre plus attrayants aux yeux des acheteurs."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Incidentally, programmers themselves write software for four main reasons: "
 "first, because they are hired to solve a problem, just as a lawyer is hired "
@@ -958,6 +1053,7 @@ msgstr ""
 "r&eacute;putation et finalement, parce qu'ils le veulent."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "I have spoken about shaping this technology for collaboration.  The key is "
 "freedom, and creating the legal framework that supports freedom."
@@ -967,18 +1063,21 @@ msgstr ""
 "gal qui soutienne la libert&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "Now let me talk about initiatives that lead to prosperity."
 msgstr ""
 "Maintenant, laissez-moi aborder les initiatives qui m&egrave;nent &agrave; "
 "la prosp&eacute;rit&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "One issue with development is resources, or rather, the lack thereof."
 msgstr ""
 "Les ressources, ou leur absence, sont un d&eacute;bouch&eacute; du d&eacute;"
 "veloppement."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "As I said earlier, free software reduces barriers to entry, both in the "
 "software industry itself and in other industries and activities."
@@ -988,6 +1087,7 @@ msgstr ""
 "et des autres industries ou activit&eacute;s."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Free software, and the culture and ways people tend to think when they "
 "collaborate, reduces operational costs."
@@ -996,6 +1096,7 @@ msgstr ""
 "les gens, permettent de r&eacute;duire les co&ucirc;ts des op&eacute;rations."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Let me take an example that comes directly from this conference.  First I "
 "should tell you that I have correspondents all over the world.  They are not "
@@ -1008,6 +1109,7 @@ msgstr ""
 "m&ecirc;mes ou leurs institutions ne sont jamais tr&egrave;s riches."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The first messages about this conference that I received took up more than "
 "four and a half times the resources needed to convey the information.  The "
@@ -1019,6 +1121,7 @@ msgstr ""
 "ont &eacute;t&eacute; envoy&eacute;s avec exag&eacute;ration."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Next time you budget for a project, consider paying four and a half times "
 "its cost.  Then consider whether you would fund it."
@@ -1028,6 +1131,7 @@ msgstr ""
 "&agrave; la mani&egrave;re dont vous allez le financer."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Next time you pay at a restaurant, take out four and a half times the "
 "money&hellip;"
@@ -1036,6 +1140,7 @@ msgstr ""
 "l'argent de votre poche&hellip;"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "For me the resource use was not an issue because I don't pay by the minute "
 "for telecommunications, as many do.  But I know that my correspondents "
@@ -1050,6 +1155,7 @@ msgstr ""
 "institutions."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "A notable feature of free software is that many applications run well on "
 "older, less capable machines, as I mentioned earlier.  For example, a couple "
@@ -1064,6 +1170,7 @@ msgstr ""
 "de manipulation d'images. Tout cela a parfaitement fonctionn&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Text editors, electronic mail, and spreadsheets require even fewer resources."
 msgstr ""
@@ -1071,6 +1178,7 @@ msgstr ""
 "et les tableurs demandent m&ecirc;me moins de ressources."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This frugality means that people can use older equipment that has been "
 "tossed out by first world companies.  Such equipment is inexpensive and "
@@ -1089,6 +1197,7 @@ msgstr ""
 "neuve."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "At the same time, manufacturers are building modern, low end computers that "
 "do as much as the older ones, and are not too expensive."
@@ -1098,6 +1207,7 @@ msgstr ""
 "autant que les vieux, qui sont moins chers."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "There is no need to acquire expensive, new hardware to run your software."
 msgstr ""
@@ -1105,23 +1215,31 @@ msgstr ""
 "neuf pour faire tourner vos logiciels."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "In conclusion &mdash;"
 msgstr "En conclusion &mdash;"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "I was asked to speak on"
 msgstr "On m'a demand&eacute; de parler sur&nbsp;:"
 
 # type: Content of: <p>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "<q>Shaping Collaborative <abbr>ICT</abbr> Development and Initiatives for "
+#| "Global Prosperity</q>"
 msgid ""
-"<q>Shaping Collaborative <abbr>ICT</abbr> Development and Initiatives for "
-"Global Prosperity</q>"
+"&lsquo;Shaping Collaborative ICT Development and Initiatives for Global "
+"Prosperity&rsquo;"
 msgstr ""
 "&laquo;&nbsp;Fa&ccedil;onner le d&eacute;veloppement collaboratif des "
 "technologies de l'information et des communications et les initiatives pour "
 "une prosp&eacute;rit&eacute; globale&nbsp;&raquo;"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Over the past 16 years, I have worked with people who shaped software "
 "through a legal tool that gives you many freedoms: the freedoms to copy, "
@@ -1133,6 +1251,7 @@ msgstr ""
 "celles de copier, &eacute;tudier, modifier et redistribuer le logiciel."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This tool shapes software technology to make it more accessible and more "
 "empowering; it encourages people to work collaboratively, and provides a "
@@ -1144,6 +1263,7 @@ msgstr ""
 "fa&ccedil;on de gouverner."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This legal tool means that companies in the ICT industry compete not to sell "
 "software itself, but to sell services associated with it, or to sell "
@@ -1155,6 +1275,7 @@ msgstr ""
 "logiciel ou la vente de mat&eacute;riel ou autre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This legal framework means that companies will provide more reliable and "
 "efficient services."
@@ -1163,6 +1284,7 @@ msgstr ""
 "services plus fiables et plus efficaces."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Freedom, ensured by a proper license, means that people who use computers "
 "and telecommunications as tools can enter their industry more easily."
@@ -1173,6 +1295,7 @@ msgstr ""
 "facilement."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "It means that all users can reduce their entry and operational costs.  It "
 "means that people in poorer countries are not shipping off their money to a "
@@ -1184,6 +1307,7 @@ msgstr ""
 "riches, mais qu'ils le maintiennent dans leur &eacute;conomie locale."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Moreover, as I said above, restricted-distribution software licenses often "
 "force people to choose between violating the law and paying money they may "
@@ -1194,6 +1318,7 @@ msgstr ""
 "violer la loi ou payer une somme qu'ils n'ont pas."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "As a matter of good governance, a country should not force people who are "
 "trying to do a decent job into making such decisions.  Too often an "
@@ -1206,6 +1331,7 @@ msgstr ""
 "ressources, choisira de violer la loi."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Instead, a country should arrange matters such that acting in a law abiding "
 "manner is without doubt the best action, for legal, moral, and practical "
@@ -1219,6 +1345,7 @@ msgstr ""
 "c'est ce qu'encourage le logiciel libre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "Free software empowers people who previously were kept out."
 msgstr ""
 "Le logiciel libre donne du pouvoir &agrave; ceux qui &eacute;taient "
@@ -1226,16 +1353,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections (or suggestions) to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections (or suggestions) to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -1244,7 +1378,14 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:bug-baz@gnu.org\">&lt;bug-baz@gnu.org&gt;</a>."
+msgstr ""
+
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -1255,18 +1396,26 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
-msgid "Copyright &copy; 1996, 1997, 1998, 2007 Free Software Foundation, Inc.,"
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Copyright &copy; 1996, 1997, 1998, 2007 Free Software Foundation, Inc.,"
+msgid ""
+"Copyright &copy; 1996, 1997, 1998, 2007, 2008, 2010, 2011 Free Software "
+"Foundation, Inc."
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 2007 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Verbatim copying and distribution of this entire article is permitted in "
+#| "any medium, provided this notice is preserved."
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium, provided this notice is preserved."
+"Verbatim copying and distribution of this entire article are permitted "
+"worldwide, without royalty, in any medium, provided this notice, and the "
+"copyright notice, are preserved."
 msgstr ""
 "La reproduction exacte et la distribution intégrale de cet article est "
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
@@ -1274,6 +1423,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Pierre-Yves Enderlin.<br />Révision&nbsp;: <a href="
@@ -1281,9 +1431,42 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <h2>
+#~ msgid ""
+#~ "Shaping Collaborative <abbr title=\"Information and Communications "
+#~ "Technology\">ICT</abbr> Development and Initiatives for Global Prosperity"
+#~ msgstr ""
+#~ "Fa&ccedil;onner le d&eacute;veloppement collaboratif des TIC et les "
+#~ "initiatives, pour une prosp&eacute;rit&eacute; globale"
+
+# type: Content of: <p>
+#~ msgid ""
+#~ "[From on a presentation given at the<br /> <a href=\"http://www."
+#~ "globalknowledge.org.my/\"> Second Global Knowledge Conference</a><br /> "
+#~ "in Kuala Lumpur, Malaysia, on 7 March 2000."
+#~ msgstr ""
+#~ "[D'apr&egrave;s une pr&eacute;sentation donn&eacute;e &agrave; la<br /><a "
+#~ "href=\"http://www.globalknowledge.org.my/\">Second Global Knowledge "
+#~ "Conference</a><br />Kuala Lumpur, Malaisie, le 7 Mars 2000."
+
+# type: Content of: <p>
+#~ msgid ""
+#~ "[For a more extended discussion, see my<br /> <a href=\"http://www.teak."
+#~ "cc/Access-speech.html\"> Free Software: Access and Empowerment</a>.]"
+#~ msgstr ""
+#~ "[Pour une discussion plus approfondie, voir&nbsp; mon texte&nbsp;:<br /"
+#~ "><a href=\"http://www.teak.cc/Access-speech.html\">Free Software :Access "
+#~ "and Empowerment</a>.]"
+
+# type: Content of: <div><address>
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"

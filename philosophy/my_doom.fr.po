@@ -28,6 +28,11 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "I grew up in a community whose other members committed crimes as serious "
+#| "as murder. The city of New York, with its 8 million inhabitants, had "
+#| "hundreds of murders each year, mostly committed by people who lived in "
+#| "the city. Violent assaults and robberies were even more common."
 msgid ""
 "I grew up in a community whose other members sometimes committed crimes as "
 "serious as murder. The city of New York, with its 8 million inhabitants, had "
@@ -65,6 +70,20 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Despite these prevalent evils, never in my life have I seen anyone try to "
+#| "condemn all New Yorkers on the basis of the wrongs that only some have "
+#| "committed. I have not seen anyone assume that all the citizens of New "
+#| "York are guilty of murder, violence, robbery, perjury, or writing "
+#| "proprietary software. People are aware that the mere fact that some New "
+#| "Yorkers were known to have done these things is no justification for "
+#| "treating all of us as guilty. That would be &ldquo;guilt by "
+#| "association&rdquo;, and people know this is unjust.  I now live in the "
+#| "smaller city of Cambridge, Massachusetts. Murder and robbery occur there, "
+#| "too; I do not know if Cambridge police regularly lie in court, but "
+#| "proprietary software is rife.  Nonetheless, I have never seen anyone try "
+#| "to condemn the whole city of Cambridge for this. Here, too, people "
+#| "recognize that guilt by association is an injustice."
 msgid ""
 "Despite these prevalent evils, never in my life have I seen anyone try to "
 "condemn all New Yorkers on the basis of the wrongs that only some have "
@@ -103,6 +122,13 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "However, people don't always remember to apply the principle. My virtual "
+#| "community, the free software community which I have helped to build since "
+#| "20 years ago by developing the GNU operating system, is now the victim of "
+#| "a campaign of guilt by association. A number of articles&mdash;I have "
+#| "seen some&mdash;have tried to hold our entire community guilty for the "
+#| "development of the MyDoom virus."
 msgid ""
 "However, people don't always remember to apply the principle. My virtual "
 "community, the free software community which I have helped to build since "
@@ -217,6 +243,12 @@ msgstr ""
 
 # type: Content of: <div><p>
 #, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
@@ -243,6 +275,7 @@ msgstr ""
 
 # type: Content of: <div><p>
 #, fuzzy
+#| msgid "Copyright &copy; 2004, 2007 Free Software Foundation, Inc.,"
 msgid "Copyright &copy; 2004, 2007 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2004, 2007 Free Software Foundation, Inc.,"
 

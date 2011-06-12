@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: apsl.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2011-05-07 20:27-0300\n"
 "PO-Revision-Date: 2008-12-29 15:00+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "FSF's Opinion on the Apple Public Source License (APSL) - GNU Project - Free "
 "Software Foundation (FSF)"
@@ -23,10 +24,12 @@ msgstr ""
 "Free Software Foundation (FSF)"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "FSF's Opinion of the Apple Public Source License (APSL) 2.0"
 msgstr "Opinion de la FSF sur la Apple Public Source License (APSL) 2.0"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The Apple Public Source License (APSL) version 2.0 qualifies as a free "
 "software license.  Apple's lawyers worked with the FSF to produce a license "
@@ -48,6 +51,7 @@ msgstr ""
 "la version 2.0 plut&ocirc;t que ceux d'une licence plus ancienne."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In version 2.0 of the APSL, the definition of &ldquo;Externally "
 "Deployed&rdquo; has been narrowed in a way that is appropriate for the "
@@ -73,6 +77,7 @@ msgstr ""
 "libert&eacute; d'utiliser le logiciel."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The FSF now considers the APSL to be a free software license with two major "
 "practical problems, reminiscent of the NPL:"
@@ -82,6 +87,7 @@ msgstr ""
 "NPL&nbsp;:"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "It is not a true copyleft, because it allows linking with other files which "
 "may be entirely proprietary."
@@ -91,10 +97,12 @@ msgstr ""
 "taires."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "It is incompatible with the GPL."
 msgstr "Elle est incompatible avec la GPL."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "For this reason, we recommend you do not release new software using this "
 "license; but it is ok to use and improve software which other people release "
@@ -106,6 +114,7 @@ msgstr ""
 "r&eacute;alis&eacute;s par d'autres personnes sous cette licence."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Aside from this, we must remember that only part of Mac OS X is being "
 "released under the APSL.  Even though the fatal flaws of the APSL were "
@@ -122,6 +131,7 @@ msgstr ""
 "partie de ce qu'elle fait."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "<a href=\"http://www.gnu-darwin.org\">GNU-Darwin</a> is a combination of GNU "
 "and Darwin that is supposed to include only free software."
@@ -131,16 +141,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -150,6 +167,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -160,15 +198,18 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 1999, 2001, 2007, 2008 Free Software Foundation, Inc.,"
 msgstr ""
 "Copyright &copy; 1999, 2001, 2007, 2008 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><address>
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium without royalty provided this notice is preserved."
@@ -179,6 +220,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br />Révision&nbsp;: <a href=\"mailto:trad-"
@@ -186,9 +228,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

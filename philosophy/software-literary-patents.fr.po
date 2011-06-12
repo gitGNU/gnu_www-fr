@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: software-literary-patents.html\n"
-"POT-Creation-Date: 2009-12-16 04:25-0500\n"
-"PO-Revision-Date: 2009-07-18 17:04+0100\n"
+"POT-Creation-Date: 2010-07-01 16:25-0300\n"
+"PO-Revision-Date: 2009-07-18 17:05+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -34,6 +34,10 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "<em>A version of this article was first published in <cite>The Guardian</"
+#| "cite>, of London, on June 20, 2005.  It focused on the proposed European "
+#| "software patent directive.</em>"
 msgid ""
 "<em>The first version of this article was published in the <cite>Guardian</"
 "cite>, of London, on June 20, 2005.  It focused on the proposed European "
@@ -45,6 +49,18 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "When politicians consider the question of software patents, they are "
+#| "usually voting blind; not being programmers, they don't understand what "
+#| "software patents really do.  They often think patents are similar to "
+#| "copyright law (&ldquo;except for some details&rdquo;)&mdash;which is not "
+#| "the case.  For instance, when I publicly asked Patrick Devedjian, then "
+#| "Minister for Industry in France, how France would vote on the issue of "
+#| "software patents, Devedjian responded with an impassioned defense of "
+#| "copyright law, praising Victor Hugo for his role in the adoption of "
+#| "copyright.  (The misleading term <a href=\"/philosophy/not-ipr.html\"> "
+#| "&ldquo;intellectual property&rdquo;</a>, promotes this confusion&mdash;"
+#| "one reason it should never be used.)"
 msgid ""
 "When politicians consider the question of software patents, they are usually "
 "voting blind; not being programmers, they don't understand what software "
@@ -104,8 +120,16 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Consider the novel, Les Mis&eacute;rables, which Hugo wrote.  Since he "
+#| "wrote it, the copyright belonged only to him&mdash;nobody else.  He did "
+#| "not have to fear that some stranger could sue him for copyright "
+#| "infringement and win.  That was impossible, because copyright covers only "
+#| "the details of a work of authorship, not the ideas embodied in them, and "
+#| "it only restricts copying.  Hugo had not copied Les Mis&eacute;rables, so "
+#| "he was not in danger from copyright."
 msgid ""
-"Consider Victor Hugo's novel, <cite> Les Mis&eacute;rables</cite>.  Since he "
+"Consider Victor Hugo's novel <cite> Les Mis&eacute;rables</cite>.  Since he "
 "wrote it, the copyright belonged only to him.  He did not have to fear that "
 "some stranger could sue him for copyright infringement and win.  That was "
 "impossible, because copyright covers only the details of a work of "
@@ -165,6 +189,12 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "If such a patent had existed in 1862 when Les Mis&eacute;rables was "
+#| "published, the novel would have conflicted with all three claims, since "
+#| "all these things happened to Jean Valjean in the novel.  Victor Hugo "
+#| "could have been sued, and if sued, he would have lost.  The novel could "
+#| "have been prohibited&mdash;in effect, censored&mdash;by the patent holder."
 msgid ""
 "If such a patent had existed in 1862 when <cite>Les Mis&eacute;rables</cite> "
 "was published, the novel would have conflicted with all three claims, since "
@@ -198,6 +228,10 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Les Mis&eacute;rables would have been prohibited by that patent too, "
+#| "because this description too fits the life story of Jean Valjean.  And "
+#| "here's another hypothetical patent:"
 msgid ""
 "<cite>Les Mis&eacute;rables</cite> would have been prohibited by that patent "
 "too, because this description too fits the life story of Jean Valjean.  And "
@@ -223,6 +257,12 @@ msgstr "Jean Valjean aurait viol&eacute; ce brevet aussi."
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "These three patents would all cover the story of one character in a "
+#| "novel.  They overlap, but they do not precisely duplicate each other, so "
+#| "they could all be valid simultaneously; all three patent holders could "
+#| "have sued Victor Hugo.  Any one of them could have prohibited publication "
+#| "of Les Mis&eacute;rables."
 msgid ""
 "All three patents would cover, and prohibit, the life story of this one "
 "character.  They overlap, but they do not precisely duplicate each other, so "
@@ -277,6 +317,16 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Other aspects of Les Mis&eacute;rables could also have run afoul of "
+#| "patents.  For instance, there could have been a patent on a fictionalized "
+#| "portrayal of the Battle of Waterloo, or a patent on using Parisian slang "
+#| "in fiction.  Two more lawsuits.  In fact, there is no limit to the number "
+#| "of different patents that might have been applicable for suing the author "
+#| "of a work such as Les Mis&eacute;rables.  All the patent holders would "
+#| "say they deserved a reward for the literary progress that their patented "
+#| "ideas represent, but these obstacles would not promote progress in "
+#| "literature, they would only obstruct it."
 msgid ""
 "Other aspects of <cite>Les Mis&eacute;rables</cite> could also have run "
 "afoul of patents.  For instance, there could have been a patent on a "
@@ -312,6 +362,9 @@ msgstr ""
 
 # type: Content of: <ul><li>
 #, fuzzy
+#| msgid ""
+#| "Communication process structured with narration that continues through "
+#| "many pages."
 msgid ""
 "A communication process structured with narration that continues through "
 "many pages."
@@ -381,8 +434,16 @@ msgstr ""
 "un roman de cette fa&ccedil;on."
 
 # type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "This analogy can help non-programmers see what software patents do. "
+#| "Software patents cover features, such as defining abbreviations in a word "
+#| "processor, or natural order recalculation in a spreadsheet.  Patents "
+#| "cover algorithms that programs need to use.  Patents cover aspects of "
+#| "file formats, such as Microsoft's OOXML format.  MPEG 2 video format is "
+#| "covered by 39 different US patents."
 msgid ""
-"This analogy can help non-programmers see what software patents do. Software "
+"This analogy can help nonprogrammers see what software patents do. Software "
 "patents cover features, such as defining abbreviations in a word processor, "
 "or natural order recalculation in a spreadsheet.  Patents cover algorithms "
 "that programs need to use.  Patents cover aspects of file formats, such as "
@@ -400,6 +461,16 @@ msgstr ""
 
 # type: Content of: <p>
 #, fuzzy
+#| msgid ""
+#| "Just as one novel could run afoul of many different literary patents at "
+#| "once, one program can be prohibited by many different patents at once.  "
+#| "It is so much work to identify all the patents that appear to apply to a "
+#| "large program that only one such study has been done.  A 2004 study of "
+#| "Linux, the kernel of the GNU/Linux operating system, found 283 different "
+#| "US software patents that seemed to cover it.  That is to say, each of "
+#| "these 283 different patents forbids some computational process found "
+#| "somewhere in the thousands of pages of source code of Linux.  And Linux "
+#| "was less than one percent of the GNU/Linux system."
 msgid ""
 "Just as one novel could run afoul of many different literary patents at "
 "once, one program can be prohibited by many different patents at once.  It "
@@ -481,6 +552,7 @@ msgstr ""
 
 # type: Content of: <div><p>
 #, fuzzy
+#| msgid "Copyright &copy; 2005, 2007, 2008 Free Software Foundation, Inc."
 msgid "Copyright &copy; 2005, 2007, 2008 Richard Stallman"
 msgstr "Copyright &copy; 2005, 2007, 2008 Free Software Foundation, Inc."
 

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: historical-apsl.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2011-05-13 20:27-0300\n"
 "PO-Revision-Date: 2008-12-27 15:22+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "Problems with older versions of the Apple License (APSL) - GNU Project - "
 "Free Software Foundation (FSF)"
@@ -24,16 +25,19 @@ msgstr ""
 "- GNU Project - Free Software Foundation (FSF)"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "The Problems with older versions of the Apple Public Source License"
 msgstr ""
 "Les probl&egrave;mes avec les anciennes versions de la Apple Public Source "
 "License"
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "FSF Position on the Older Versions of APSL"
 msgstr "Position de la FSF sur les anciennes versions de l'APSL"
 
 # type: Content of: <div><blockquote><p>
+#. type: Content of: <div><blockquote><p>
 msgid ""
 "The current version of the Apple Public Source License (APSL) does not have "
 "any of these problems.  <a href=\"/philosophy/apsl.html\">You can read our "
@@ -46,6 +50,7 @@ msgstr ""
 "conserv&eacute; &agrave; des fins historiques seulement."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Apple released an updated version, 1.1, of the APSL but it remained "
 "unacceptable. They changed the termination clause into a &ldquo;"
@@ -58,6 +63,7 @@ msgstr ""
 "genre d'effets n&eacute;fastes."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In January 2001, Apple released another version, APSL 1.2. This version "
 "fixes two of the fatal flaws, but one still remains: any modified version "
@@ -75,6 +81,7 @@ msgstr ""
 "tant que licence de logiciel libre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Below, is the original commentary on the first version of the APSL, version "
 "1.0."
@@ -83,10 +90,12 @@ msgstr ""
 "de l'APSL, la version 1.0."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Original APSL Commentary"
 msgstr "Commentaire original de l'APSL"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "After studying Apple's new source code license, the APSL, I have concluded "
 "that it falls short of being a free software license.  It has three fatal "
@@ -99,10 +108,12 @@ msgstr ""
 "que libre."
 
 # type: Content of: <h4>
+#. type: Content of: <h4>
 msgid "Disrespect for privacy"
 msgstr "Non respect de la vie privée"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The APSL does not allow you to make a modified version and use it for your "
 "own private purposes, without publishing your changes."
@@ -112,10 +123,12 @@ msgstr ""
 "modifications."
 
 # type: Content of: <h4>
+#. type: Content of: <h4>
 msgid "Central control"
 msgstr "Contr&ocirc;le central"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Anyone who releases (or even uses, other than for R&amp;D) a modified "
 "version is required to notify one specific organization, which happens to be "
@@ -127,10 +140,12 @@ msgstr ""
 "est ici Apple."
 
 # type: Content of: <h4>
+#. type: Content of: <h4>
 msgid "Possibility of revocation at any time"
 msgstr "Possibilit&eacute; d'annulation &agrave; tout moment"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The termination clause says that Apple can revoke this license, and forbid "
 "you to keep using all or some part of the software, any time someone makes "
@@ -142,6 +157,7 @@ msgstr ""
 "ou de copyright."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In this way, if Apple declines to fight a questionable patent (or one whose "
 "applicability to the code at hand is questionable), you will not be able to "
@@ -154,6 +170,7 @@ msgstr ""
 "en justice, car vous devrez aussi vous battre contre le copyright d'Apple."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Such a termination clause is especially bad for users outside the US, since "
 "it makes them indirectly vulnerable to the insane US patent system and the "
@@ -168,10 +185,12 @@ msgstr ""
 "pays."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "Any one of these flaws makes a license unacceptable."
 msgstr "Chacun de ces d&eacute;fauts rend une licence inacceptable."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If these three flaws were solved, the APSL would be a free software license "
 "with three major practical problems, reminiscent of the NPL:"
@@ -181,6 +200,7 @@ msgstr ""
 "rit&eacute;s de la NPL&nbsp;:"
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "It is not a true copyleft, because it allows linking with other files which "
 "may be entirely proprietary."
@@ -189,6 +209,7 @@ msgstr ""
 "peuvent &ecirc;tre totalement propri&eacute;taires."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "It is unfair, since it requires you to give Apple rights to your changes "
 "which Apple will not give you for its code."
@@ -198,10 +219,12 @@ msgstr ""
 "code."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "It is incompatible with the GPL."
 msgstr "Elle est incompatible avec la GPL."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Of course, the major difference between the NPL and the APSL is that the NPL "
 "<b>is</b> a free software license.  These problems are significant in the "
@@ -214,6 +237,7 @@ msgstr ""
 "&eacute;liminatoires. Ce serait aussi le cas avec l'APSL."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "At a fundamental level, the APSL makes a claim that, if it became accepted, "
 "would stretch copyright powers in a dangerous way: it claims to be able to "
@@ -234,6 +258,7 @@ msgstr ""
 "tendre la port&eacute;e effective de la puissance du copyright."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Aside from this, we must remember that only part of MacOS is being released "
 "under the APSL.  Even if the fatal flaws and practical problems of the APSL "
@@ -252,6 +277,7 @@ msgstr ""
 "basant sur une petite partie de ce qu'elle fait."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Overall, I think that Apple's action is an example of the effects of the "
 "year-old <a href=\"/philosophy/open-source-misses-the-point.html\">&ldquo;"
@@ -271,6 +297,7 @@ msgstr ""
 "t&eacute; nous voulons pour y vivre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Apple has grasped perfectly the concept with which &ldquo;open source&rdquo; "
 "is promoted, which is &ldquo;show users the source and they will help you "
@@ -287,16 +314,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections (or suggestions) to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections (or suggestions) to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -306,6 +340,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections (or suggestions) to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections (or suggestions) to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -316,14 +371,17 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 1999, 2001, 2007 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 1999, 2001, 2007 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><address>
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium without royalty provided this notice is preserved."
@@ -334,6 +392,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Benjamin Drieu.<br />Révision&nbsp;: <a href=\"mailto:trad-"
@@ -341,9 +400,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
