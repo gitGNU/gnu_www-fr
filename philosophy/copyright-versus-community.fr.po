@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: copyright-versus-community.html\n"
-"POT-Creation-Date: 2009-12-02 16:25-0500\n"
+"POT-Creation-Date: 2010-10-08 12:27-0300\n"
 "PO-Revision-Date: 2009-03-29 18:44+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -561,7 +561,7 @@ msgid ""
 "malicious hardware.  They say that the purpose of this is to &ldquo;close "
 "the analog hole&rdquo;.  I'll show you a couple of analog holes (Stallman "
 "takes off his glasses): here's one and here's another, that they'd like to "
-"poke out permanently."
+"poke out permanently.<a href=\"#footnote1\">[1]</a>"
 msgstr ""
 
 # type: Content of: <dl><dd><p>
@@ -1323,6 +1323,17 @@ msgid ""
 "for an older version of this talk from 2000."
 msgstr ""
 
+# type: Content of: <h4>
+msgid "Footnotes"
+msgstr ""
+
+# type: Content of: <ol><li>
+msgid ""
+"In 2010, the encryption system for digital video output was definitively "
+"cracked.<br /><a href=\"http://www.pcmag.com/article2/0,2817,2369280,00.asp"
+"\">http://www.pcmag.com/article2/0,2817,2369280,00.asp</a>"
+msgstr ""
+
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
@@ -1392,7 +1403,8 @@ msgstr "Traductions de cette page"
 #~ "\n"
 #~ msgstr ""
 #~ "\n"
-#~ "Ceci est la retranscription d'un enregistrement audio r&eacute;alis&eacute; par\n"
+#~ "Ceci est la retranscription d'un enregistrement audio r&eacute;"
+#~ "alis&eacute; par\n"
 #~ "Douglas Carnall, en juillet 2000.\n"
 #~ "\n"
 

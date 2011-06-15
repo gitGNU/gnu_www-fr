@@ -11,10 +11,10 @@ msgstr ""
 "PO-Revision-Date: 2009-12-12 16:08+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
 
 # type: Content of: <title>
 #. type: Content of: <title>
@@ -3699,9 +3699,9 @@ msgid ""
 msgstr ""
 "La GPL permet cela car cette biblioth&egrave;que <i>run-time</i> accompagne "
 "normalement le compilateur ou l'interpr&eacute;teur que vous utilisez. Les "
-"bibliothèques run-time ici sont des «&nbsp;bibliothèques système&nbsp;» "
-"comme le définit la GPLv3, et comme telles sont considérées comme faisant "
-"partie des sources correspondant. La GPLv2 a une exception similaire dans la "
+"bibliothèques run-time ici sont des «&nbsp;bibliothèques système&nbsp;» comme "
+"le définit la GPLv3, et comme telles sont considérées comme faisant partie "
+"des sources correspondant. La GPLv2 a une exception similaire dans la "
 "section 3."
 
 # type: Content of: <dl><dd><p>
@@ -8202,11 +8202,11 @@ msgstr "NON"
 #| "OK if you convert to GPLv2&nbsp;<a href=\"#compat-matrix-footnote-7\">[7]"
 #| "</a>"
 msgid ""
-"OK: Convey project under GPLv2 only&nbsp;<a href=\"#compat-matrix-"
-"footnote-7\">[7]</a>"
+"OK: Convey project under GPLv2 only&nbsp;<a href=\"#compat-matrix-footnote-7"
+"\">[7]</a>"
 msgstr ""
-"OK si vous convertissez vers la GPLv2&nbsp;<a href=\"#compat-matrix-"
-"footnote-7\">[7]</a>"
+"OK si vous convertissez vers la GPLv2&nbsp;<a href=\"#compat-matrix-footnote-"
+"7\">[7]</a>"
 
 # type: Content of: <dl><dd><table><tbody><tr><td>
 #. type: Content of: <dl><dd><table><tbody><tr><td>
@@ -8215,11 +8215,11 @@ msgstr ""
 #| "OK if you convert to GPLv2&nbsp;<a href=\"#compat-matrix-footnote-7\">[7]"
 #| "</a><a href=\"#compat-matrix-footnote-2\">[2]</a>"
 msgid ""
-"OK: Convey project under GPLv2 only&nbsp;<a href=\"#compat-matrix-"
-"footnote-7\">[7]</a><a href=\"#compat-matrix-footnote-2\">[2]</a>"
+"OK: Convey project under GPLv2 only&nbsp;<a href=\"#compat-matrix-footnote-7"
+"\">[7]</a><a href=\"#compat-matrix-footnote-2\">[2]</a>"
 msgstr ""
-"OK si vous convertissez vers la GPLv2&nbsp;<a href=\"#compat-matrix-"
-"footnote-7\">[7]</a><a href=\"#compat-matrix-footnote-2\">[2]</a>"
+"OK si vous convertissez vers la GPLv2&nbsp;<a href=\"#compat-matrix-footnote-"
+"7\">[7]</a><a href=\"#compat-matrix-footnote-2\">[2]</a>"
 
 # type: Content of: <dl><dd><table><tbody><tr><td>
 #. type: Content of: <dl><dd><table><tbody><tr><td>
@@ -8236,8 +8236,8 @@ msgid ""
 "OK: Convey project under GPLv2 or later&nbsp;<a href=\"#compat-matrix-"
 "footnote-7\">[7]</a>"
 msgstr ""
-"OK si vous convertissez vers la GPLv2&nbsp;<a href=\"#compat-matrix-"
-"footnote-7\">[7]</a>"
+"OK si vous convertissez vers la GPLv2&nbsp;<a href=\"#compat-matrix-footnote-"
+"7\">[7]</a>"
 
 # type: Content of: <dl><dd><table><tbody><tr><td>
 #. type: Content of: <dl><dd><table><tbody><tr><td>
@@ -8249,8 +8249,8 @@ msgid ""
 "OK: Convey project under GPLv3&nbsp;<a href=\"#compat-matrix-footnote-8\">[8]"
 "</a>"
 msgstr ""
-"OK si vous convertissez vers la GPLv3&nbsp;<a href=\"#compat-matrix-"
-"footnote-8\">[8]</a>"
+"OK si vous convertissez vers la GPLv3&nbsp;<a href=\"#compat-matrix-footnote-"
+"8\">[8]</a>"
 
 # type: Content of: <dl><dd><table><tbody><tr><th>
 #. type: Content of: <dl><dd><table><tbody><tr><th>
@@ -8280,8 +8280,8 @@ msgid ""
 "OK: Convey project under GPLv3&nbsp;<a href=\"#compat-matrix-footnote-7\">[7]"
 "</a>"
 msgstr ""
-"OK si vous convertissez vers la GPLv3&nbsp;<a href=\"#compat-matrix-"
-"footnote-7\">[7]</a>"
+"OK si vous convertissez vers la GPLv3&nbsp;<a href=\"#compat-matrix-footnote-"
+"7\">[7]</a>"
 
 # type: Content of: <dl><dd><table><tbody><tr><td>
 #. type: Content of: <dl><dd><table><tbody><tr><td>
@@ -8293,8 +8293,8 @@ msgid ""
 "OK: Convey code under GPLv2&nbsp;<a href=\"#compat-matrix-footnote-7\">[7]</"
 "a>"
 msgstr ""
-"OK si vous convertissez vers la GPLv2&nbsp;<a href=\"#compat-matrix-"
-"footnote-7\">[7]</a>"
+"OK si vous convertissez vers la GPLv2&nbsp;<a href=\"#compat-matrix-footnote-"
+"7\">[7]</a>"
 
 # type: Content of: <dl><dd><table><tbody><tr><td>
 #. type: Content of: <dl><dd><table><tbody><tr><td>
@@ -8303,11 +8303,11 @@ msgstr ""
 #| "OK if you convert to GPLv2&nbsp;<a href=\"#compat-matrix-footnote-7\">[7]"
 #| "</a>"
 msgid ""
-"OK: Convey code under GPLv2 or later&nbsp;<a href=\"#compat-matrix-"
-"footnote-7\">[7]</a>"
+"OK: Convey code under GPLv2 or later&nbsp;<a href=\"#compat-matrix-footnote-7"
+"\">[7]</a>"
 msgstr ""
-"OK si vous convertissez vers la GPLv2&nbsp;<a href=\"#compat-matrix-"
-"footnote-7\">[7]</a>"
+"OK si vous convertissez vers la GPLv2&nbsp;<a href=\"#compat-matrix-footnote-"
+"7\">[7]</a>"
 
 # type: Content of: <dl><dd><table><tbody><tr><td>
 #. type: Content of: <dl><dd><table><tbody><tr><td>
@@ -8319,8 +8319,8 @@ msgid ""
 "OK: Convey code under GPLv3&nbsp;<a href=\"#compat-matrix-footnote-7\">[7]</"
 "a>"
 msgstr ""
-"OK si vous convertissez vers la GPLv3&nbsp;<a href=\"#compat-matrix-"
-"footnote-7\">[7]</a>"
+"OK si vous convertissez vers la GPLv3&nbsp;<a href=\"#compat-matrix-footnote-"
+"7\">[7]</a>"
 
 # type: Content of: <dl><dd><table><tbody><tr><td>
 #. type: Content of: <dl><dd><table><tbody><tr><td>
@@ -8339,8 +8339,8 @@ msgid ""
 "OK: Convey code under GPLv3&nbsp;<a href=\"#compat-matrix-footnote-7\">[7]</"
 "a><a href=\"#compat-matrix-footnote-8\">[8]</a>"
 msgstr ""
-"OK si vous convertissez vers la GPLv3&nbsp;<a href=\"#compat-matrix-"
-"footnote-7\">[7]</a><a href=\"#compat-matrix-footnote-8\">[8]</a>"
+"OK si vous convertissez vers la GPLv3&nbsp;<a href=\"#compat-matrix-footnote-"
+"7\">[7]</a><a href=\"#compat-matrix-footnote-8\">[8]</a>"
 
 # type: Content of: <dl><dd><table><tbody><tr><td>
 #. type: Content of: <dl><dd><table><tbody><tr><td>
@@ -8352,8 +8352,8 @@ msgid ""
 "OK: Convey code under GPLv2&nbsp;<a href=\"#compat-matrix-footnote-7\">[7]</"
 "a><a href=\"#compat-matrix-footnote-1\">[1]</a>"
 msgstr ""
-"OK si vous convertissez vers la GPLv2&nbsp;<a href=\"#compat-matrix-"
-"footnote-7\">[7]</a><a href=\"#compat-matrix-footnote-1\">[1]</a>"
+"OK si vous convertissez vers la GPLv2&nbsp;<a href=\"#compat-matrix-footnote-"
+"7\">[7]</a><a href=\"#compat-matrix-footnote-1\">[1]</a>"
 
 # type: Content of: <dl><dd><table><tbody><tr><td>
 #. type: Content of: <dl><dd><table><tbody><tr><td>
@@ -8391,8 +8391,8 @@ msgid ""
 "OK: Convey code under GPLv3&nbsp;<a href=\"#compat-matrix-footnote-8\">[8]</"
 "a>"
 msgstr ""
-"OK si vous convertissez vers la GPLv3&nbsp;<a href=\"#compat-matrix-"
-"footnote-8\">[8]</a>"
+"OK si vous convertissez vers la GPLv3&nbsp;<a href=\"#compat-matrix-footnote-"
+"8\">[8]</a>"
 
 # type: Content of: <dl><dd><table><tbody><tr><td>
 #. type: Content of: <dl><dd><table><tbody><tr><td>
@@ -8436,8 +8436,8 @@ msgid ""
 "OK: Convey project under GPLv3&nbsp;<a href=\"#compat-matrix-footnote-9\">[9]"
 "</a>"
 msgstr ""
-"OK si vous convertissez vers la GPLv3&nbsp;<a href=\"#compat-matrix-"
-"footnote-8\">[8]</a>"
+"OK si vous convertissez vers la GPLv3&nbsp;<a href=\"#compat-matrix-footnote-"
+"8\">[8]</a>"
 
 # type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
