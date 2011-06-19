@@ -21,7 +21,7 @@ msgid ""
 "<a href=\"#footer\">Skip sitemap</a> or <a href=\"#sitemap-2\">skip to "
 "licensing items</a>"
 msgstr ""
-"<a href=\"#footer\">Sauter le plan de site</a> ou <a href=\"#sitemap-2"
+"<a href=\"#footer\">Sauter le plan du site</a> ou <a href=\"#sitemap-2"
 "\">aller aux termes d'utilisation</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
@@ -37,7 +37,7 @@ msgid ""
 "<a href=\"http://savannah.gnu.org/people/?type_id=1\">Projects that need "
 "help</a>"
 msgstr ""
-"<a href=\"http://savannah.gnu.org/people/?type_id=1\">Projets qui ont besoin "
+"<a href=\"http://savannah.gnu.org/people/?type_id=1\">Projets ayant besoin "
 "d'aide</a>"
 
 #. type: Content of: <div><div><div><div><ul><li><ul><li>
@@ -53,7 +53,7 @@ msgid ""
 "<a href=\"/server/takeaction.html#unmaint\">Take over an unmaintained "
 "package</a>"
 msgstr ""
-"<a href=\"/server/takeaction.fr.html#unmaint\">Adopter un paquetage non "
+"<a href=\"/server/takeaction.fr.html#unmaint\">S'occuper d'un paquet non "
 "maintenu</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
@@ -66,7 +66,7 @@ msgstr "<a href=\"/distros/free-distros.fr.html\">Télécharger GNU</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid "<a href=\"http://directory.fsf.org/GNU/\">GNU packages</a>"
-msgstr "<a href=\"http://directory.fsf.org/GNU/\">Paquetages GNU</a>"
+msgstr "<a href=\"http://directory.fsf.org/GNU/\">Paquets GNU</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid "<a href=\"/manual/manual.html\">Free documentation</a>"
@@ -84,7 +84,7 @@ msgstr "<a href=\"http://savannah.gnu.org/\">GNU savannah</a>"
 msgid ""
 "<a href=\"http://libreplanet.org/\">Connect with free software users</a>"
 msgstr ""
-"<a href=\"http://libreplanet.org/\">Être connecté à d'autres utilisateurs de "
+"<a href=\"http://libreplanet.org/\">Se connecter à d'autres utilisateurs de "
 "logiciels libres</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
@@ -97,7 +97,7 @@ msgstr "<a href=\"http://planet.gnu.org/\">Planet GNU</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid "<a href=\"/contact/gnu-advisory.html\">GNU Advisory Committee</a>"
-msgstr ""
+msgstr "<a href=\"/contact/gnu-advisory.html\">Comité consultatif de GNU</a>"
 
 #. type: Content of: <div><div><div><div><p>
 msgid "<a href=\"#sitemap-3\">Skip to general items</a>"
@@ -105,12 +105,13 @@ msgstr "<a href=\"#sitemap-3\">Aller aux points généraux</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid "<a href=\"http://www.fsf.org/licensing\">Software licensing</a>"
-msgstr ""
+msgstr "<a href=\"http://www.fsf.org/licensing\">Licence logicielle</a>"
 
 #. type: Content of: <div><div><div><div><ul><li><ul><li>
 msgid ""
 "<a href=\"http://www.fsf.org/licensing/education\">Licensing education</a>"
 msgstr ""
+"<a href=\"http://www.fsf.org/licensing/education\">Ressources sur les licences</a>"
 
 #. type: Content of: <div><div><div><div><ul><li><ul><li>
 msgid "<a href=\"/licenses\">Free software licenses</a>"
@@ -138,7 +139,7 @@ msgstr "<a href=\"/licenses/gpl-faq.html\">FAQ sur les licences</a>"
 
 #. type: Content of: <div><div><div><div><ul><li><ul><li>
 msgid "<a href=\"/licenses/gpl-faq.html\">Licensing compliance</a>"
-msgstr ""
+msgstr "<a href=\"/licenses/gpl-faq.html\">Conformité des licences</a>"
 
 #. type: Content of: <div><div><div><div><ul><li><ul><li>
 msgid ""
@@ -152,14 +153,15 @@ msgstr ""
 msgid ""
 "<a href=\"http://www.fsf.org/resources/service/\">GNU Service Directory</a>"
 msgstr ""
+"<a href=\"http://www.fsf.org/resources/service/\">Annuaire de services de GNU</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid "<a href=\"/fun/fun.html\">GNU Fun</a>"
-msgstr ""
+msgstr "<a href=\"/fun/fun.html\">Humour GNU</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid "<a href=\"/graphics/graphics.html\">GNU Art</a>"
-msgstr ""
+msgstr "<a href=\"/graphics/graphics.html\">Art GNU</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid "<a href=\"/music/music.html\">Music &amp; Songs</a>"
@@ -185,6 +187,7 @@ msgstr "<a href=\"http://www.fsf.org/blogs/\">Blogs FSF</a>"
 msgid ""
 "<a href=\"http://www.fsf.org/volunteer\">Volunteering and internships</a>"
 msgstr ""
+"<a href=\"http://www.fsf.org/volunteer\">Bénévolat et stages</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid "<a href=\"http://www.fsf.org/resources/hw\">Hardware Database</a>"
@@ -193,11 +196,11 @@ msgstr ""
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid "<a href=\"http://directory.fsf.org\">Free Software Directory</a>"
-msgstr ""
+msgstr "<a href=\"http://directory.fsf.org\">Annuaire de logiciels libres</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid "<a href=\"http://www.fsf.org/resources/\">Free Software Resources</a>"
-msgstr ""
+msgstr "<a href=\"http://www.fsf.org/resources/\">Ressources sur le logiciel libre</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid "<a href=\"http://www.fsf.org/associate/\">Associate Members</a>"
@@ -219,8 +222,7 @@ msgstr "<a href=\"http://audio-video.gnu.org/\">GNU Audio/Video</a>"
 msgid ""
 "<a href=\"/accessibility/accessibility.html\">Accessibility Statement</a>"
 msgstr ""
-"<a href=\"/accessibility/accessibility.html\">Position sur l'accessibilité</"
-"a>"
+"<a href=\"/accessibility/accessibility.html\">Notre position sur l'accessibilité</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid ""
@@ -253,12 +255,12 @@ msgstr "<a href=\"http://www.fsf.org/jfb\">Rejoindre la FSF</a>"
 #. type: Content of: <div><div><div><div><ul><li>
 msgid "<a href=\"/philosophy/\">Free software philosophy</a>"
 msgstr ""
-"<a href=\"/philosophy/philosophy.fr.html\">Philosophie du logiciel libre</a>"
+"<a href=\"/philosophy/philosophy.fr.html\">Éthique du logiciel libre</a>"
 
 #. type: Content of: <div><div><div><div><ul><li><ul><li>
 msgid "<a href=\"/philosophy/free-sw.html\">The Free Software Definition</a>"
 msgstr ""
-"<a href=\"/philosophy/free-sw.fr.html\">Définition d'un logiciel libre</a>"
+"<a href=\"/philosophy/free-sw.fr.html\">Définition du logiciel libre</a>"
 
 #. type: Content of: <div><div><div><div><ul><li><ul><li>
 msgid "<a href=\"/philosophy/pragmatic.html\">Copyleft: Pragmatic Idealism</a>"
