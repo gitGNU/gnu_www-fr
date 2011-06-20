@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: reevaluating-copyright.html\n"
-"POT-Creation-Date: 2009-01-08 04:27-0500\n"
+"POT-Creation-Date: 2011-06-19 12:29-0300\n"
 "PO-Revision-Date: 2009-01-11 16:52+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Language: fr\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "Reevaluating Copyright: The Public Must Prevail - GNU Project - Free "
 "Software Foundation (FSF)"
@@ -25,15 +26,22 @@ msgstr ""
 "valoir - GNU Project - Free Software Foundation (FSF)"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "Reevaluating Copyright: The Public Must Prevail"
 msgstr ""
 "Dans une r&eacute;&eacute;valuation du copyright, le public doit pr&eacute;"
 "valoir"
 
 # type: Content of: <pre>
-#, no-wrap
+#. type: Content of: <pre>
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "                Reevaluating Copyright: The Public Must Prevail\n"
+#| "                [Published in Oregon Law Review, Spring 1996]\n"
+#| "\n"
+#| "                            Richard Stallman\n"
 msgid ""
-"\n"
 "                Reevaluating Copyright: The Public Must Prevail\n"
 "                [Published in Oregon Law Review, Spring 1996]\n"
 "\n"
@@ -46,6 +54,7 @@ msgstr ""
 "                                         Richard Stallman\n"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The legal world is aware that digital information technology poses &ldquo;"
 "problems for copyright,&rdquo; but has not traced these problems to their "
@@ -72,6 +81,7 @@ msgstr ""
 "l'Or&eacute;gon (novembre 1995)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "John Perry Barlow <a href=\"#ft3\">[3]</a>, the keynote speaker, began the "
 "conference by telling us how the Greatful Dead recognized and dealt with "
@@ -88,6 +98,7 @@ msgstr ""
 "de leur musique."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Barlow did not analyze the reasons for treating these media differently, and "
 "later Gary Glisson <a href=\"#ft4\">[4]</a> criticized Barlow's idea that "
@@ -106,6 +117,7 @@ msgstr ""
 "C'est ce que tente simplement de faire cet article."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Barlow suggested that our intuitions based on physical objects as property "
 "do not transfer to information as property because information is &ldquo;"
@@ -133,6 +145,7 @@ msgstr ""
 "Qu'est-ce donc&nbsp;? Je propose une explication simple et pratique."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "United States copyright law considers copyright a bargain between the public "
 "and &ldquo;authors&rdquo; (although in practice, usually publishers take "
@@ -167,6 +180,7 @@ msgstr ""
 "public en gardant cette libert&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This shows why making <a href=\"#later-1\">intellectual property decisions</"
 "a> by analogy to physical object property, or even to older intellectual "
@@ -188,6 +202,7 @@ msgstr ""
 "quel prix."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "For example, we do not decide whether to build a highway in New York City by "
 "analogy with a previous decision about a proposed highway in Iowa. In each "
@@ -215,6 +230,7 @@ msgstr ""
 "pass&eacute;s."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This also shows why Laurence Tribe's principle, that rights concerning "
 "speech should not depend on the choice of medium<a href=\"#ft7\">[7]</a>, is "
@@ -232,6 +248,7 @@ msgstr ""
 "pas des droits dont seraient investis les &eacute;diteurs ou les lecteurs."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The copyright system developed along with the printing press.  In the age of "
 "the printing press, it was unfeasible for an ordinary reader to copy a book. "
@@ -249,6 +266,7 @@ msgstr ""
 "pouvait copier &eacute;conomiquement un livre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "So when the public traded to publishers the freedom to copy books, they were "
 "selling something which they <b>could not use</b>.  Trading something you "
@@ -266,6 +284,7 @@ msgstr ""
 "amen&eacute;s &agrave; faire."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "But the age of the printing press is gradually ending. The xerox machine and "
 "the audio and video tape began the change; digital information technology "
@@ -280,6 +299,7 @@ msgstr ""
 "c'est ce qui se fait&nbsp;!"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Once copying is a useful and practical activity for ordinary people, they "
 "are no longer so willing to give up the freedom to do it. They want to keep "
@@ -298,6 +318,7 @@ msgstr ""
 "public n&eacute; de la copie et du partage des copies."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "With this analysis, we see why rejection of the old copyright bargain is not "
 "based on supposing that the Internet is ineffably unique. The Internet is "
@@ -313,6 +334,7 @@ msgstr ""
 "copyright, tel qu'il est actuellement, devient une mauvaise affaire."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This analysis also explains why it makes sense for the Grateful Dead to "
 "insist on copyright for CD manufacturing but not for individual copying. CD "
@@ -347,6 +369,7 @@ msgstr ""
 "librement)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "We can also see why the abstractness of <a href=\"#later-1\">intellectual "
 "property</a> is not the crucial factor.  Other forms of abstract property "
@@ -370,6 +393,7 @@ msgstr ""
 "Naturellement, nous pensons que cela n'est pas bon."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "By contrast, copying useful, enlightening or entertaining information for a "
 "friend makes the world happier and better off; it benefits the friend, and "
@@ -382,6 +406,7 @@ msgstr ""
 "C'est une activit&eacute; constructive qui resserre les liens sociaux."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Some readers may question this statement because they know publishers claim "
 "that illegal copying causes them &ldquo;loss.&rdquo; This claim is mostly "
@@ -395,6 +420,7 @@ msgstr ""
 "surtout, c'est une p&eacute;tition de principe."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "The claim is mostly inaccurate because it presupposes that the friend would "
 "otherwise have bought a copy from the publisher. That is occasionally true, "
@@ -407,6 +433,7 @@ msgstr ""
 "pr&eacute;judice."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "The claim is partly misleading because the word &ldquo;loss&rdquo; suggests "
 "events of a very different nature&mdash;events in which something they have "
@@ -425,6 +452,7 @@ msgstr ""
 "que ce n'est pas bien de faire cela aux autres."
 
 # type: Content of: <ul><li><p>
+#. type: Content of: <ul><li><p>
 msgid ""
 "But when your friend avoids the need to buy a copy of a book, the bookstore "
 "and the publisher do not lose anything they had. A more fitting description "
@@ -444,6 +472,7 @@ msgstr ""
 "qu'un consommateur potentiel a choisi de ne pas faire affaire avec."
 
 # type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "The claim is begging the question because the idea of &ldquo;loss&rdquo; is "
 "based on the assumption that the publisher &ldquo;should have&rdquo; got "
@@ -464,6 +493,7 @@ msgstr ""
 "&nbsp;pr&eacute;judice&nbsp;&raquo;."
 
 # type: Content of: <ul><li><p>
+#. type: Content of: <ul><li><p>
 msgid ""
 "In other words, the &ldquo;loss&rdquo; comes from the copyright system; it "
 "is not an inherent part of copying. Copying in itself hurts no one."
@@ -473,6 +503,7 @@ msgstr ""
 "En soi, copier ne blesse personne."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The most widely opposed provision of the White Paper is the system of "
 "collective responsibility, whereby a computer owner is required to monitor "
@@ -507,6 +538,7 @@ msgstr ""
 "appliquer le copyright contre les citoyens ordinaires."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "When the United States Constitution was drafted, the idea that authors were "
 "entitled to a copyright monopoly was proposed&mdash;and rejected <a href="
@@ -539,6 +571,7 @@ msgstr ""
 "href=\"#ft11\">[11]</a>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Under the Constitution's view of copyright, if the public prefers to be able "
 "to make copies in certain cases even if that means somewhat fewer works are "
@@ -553,6 +586,7 @@ msgstr ""
 "veut copier."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Ever since the constitutional decision was made, publishers have tried to "
 "reverse it by misinforming the public. They do this by repeating arguments "
@@ -574,6 +608,7 @@ msgstr ""
 "syst&egrave;me."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This error is so ingrained today that people who oppose new copyright powers "
 "feel the need to do so by arguing that even authors and publishers may be "
@@ -602,6 +637,7 @@ msgstr ""
 "correspond &agrave; l'&acirc;ge de l'imprimerie traditionnelle."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "These arguments can be very effective on those issues where they are "
 "available, especially with a Congress and Administration dominated by the "
@@ -627,6 +663,7 @@ msgstr ""
 "incontest&eacute;e et incontestable de la Constitution."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "For example, the recently published position statement of the Digital Future "
 "Coalition, an umbrella organization, lists many reasons to oppose the White "
@@ -655,6 +692,7 @@ msgstr ""
 "dessus des utilisateurs. Ne rien dire pourrait signifier consentir."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Resisting the pressure for additional power for publishers depends on "
 "widespread awareness that the reading and listening public are paramount; "
@@ -675,10 +713,12 @@ msgstr ""
 "&ecirc;tre certains que le public pr&eacute;vaudra."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "ENDNOTES"
 msgstr "RENVOIS"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[2] Informational Infrastructure Task Force, Intellectual Property and the "
 "National Information Infrastructure: The Report of the Working Group on "
@@ -689,6 +729,7 @@ msgstr ""
 "Intellectual Property Rights (1995)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[3] John Perry Barlow, Remarks at the Innovation and the Information "
 "Environment Conference (Nov.  1995). Mr. Barlow is one of the founders of "
@@ -704,6 +745,7 @@ msgstr ""
 "riques&nbsp;; il est aussi un ancien parolier du Grateful Dead."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[4] Gary Glisson, Remarks at the Innovation and the Information Environment "
 "Conference (Nov.  1995); see also Gary Glisson, A Practitioner's Defense of "
@@ -719,6 +761,7 @@ msgstr ""
 "Lane Powell Spears Lubersky &agrave; Portland, Oregon."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[5] Steven Winter, Remarks at the Innovation and the Information Environment "
 "Conference (Nov.  1995). Mr. Winter is a professor at the University of "
@@ -729,10 +772,12 @@ msgstr ""
 "Winter est professeur &agrave; l'Universit&eacute; de la Miami School of Law."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "[6] Winter, supra note 4."
 msgstr "[6] Winter, supra note 4."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[7] See Laurence H. Tribe, The Constitution in Cyberspace: Law and Liberty "
 "Beyond the Electronic Frontier, Humanist, Sept.-Oct. 1991, at 15."
@@ -741,6 +786,7 @@ msgstr ""
 "Beyond the Electronic Frontier, Humanist, Sept.-Oct. 1991, at 15."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[8] Tim Sloan, Remarks at the Innovation and the Information Environment "
 "Conference (Nov. 1995). Mr. Sloan is a member of the National "
@@ -752,6 +798,7 @@ msgstr ""
 "Administration&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[9] See Jane C. Ginsburg, A Tale of Two Copyrights: Liberary Property in "
 "Revolutionary France and America, in, Of Authors and Origins: Essays on "
@@ -769,6 +816,7 @@ msgstr ""
 "façon&nbsp;&raquo;)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[10] U.S. Const., art. I, p. 8, cl. 8 (&ldquo;Congress shall have "
 "Power&hellip;to promote the Progress of Science and useful Arts, by securing "
@@ -782,10 +830,12 @@ msgstr ""
 "respectives&nbsp;&raquo;)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "[11] 286 U.S. 123, 127 (1932)."
 msgstr "[11] 286 U.S. 123, 127 (1932)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[12] James Boyle, Remarks at the Innovation and the Information Environment "
 "Conference (Nov.  1995). Mr. Boyle is a Professor of Law at American "
@@ -797,6 +847,7 @@ msgstr ""
 "Washington, D.C."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[13] Jessica Litman, Remarks at the Innovation and the Information "
 "Environment Conference (Nov.  1995). Ms. Litman is a Professor at Wayne "
@@ -808,6 +859,7 @@ msgstr ""
 "School&nbsp;&raquo;, Detroit, Michigan."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[14] Pamela Samuelson, The Copyright Grab, Wired, Jan. 1996. Ms. Samuelson "
 "is a Professor at Cornell Law School."
@@ -817,7 +869,9 @@ msgstr ""
 
 # type: Content of: <p>
 #.  (available at URL:
-#. <a href="http://home.worldweb.net/dfc/press.html">http://home.worldweb.net/dfc/press.html</a>)
+#. <a href="http://home.worldweb.net/dfc/press.html">
+#. http://home.worldweb.net/dfc/press.html</a>)
+#. type: Content of: <p>
 msgid ""
 "[15] Digital Future Coalition, Broad-Based Coalition Expresses Concern Over "
 "Intellectual Property Proposals, Nov. 15, 1995."
@@ -826,10 +880,12 @@ msgstr ""
 "Intellectual Property Proposals, Nov. 15, 1995"
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "LATER NOTES"
 msgstr "NOTES ULT&Eacute;RIEURES"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[1] This article was part of the path that led me to recognize the <a href="
 "\"/philosophy/not-ipr.html\"> bias and confusion in the term &ldquo;"
@@ -843,6 +899,7 @@ msgstr ""
 "devrait jamais &ecirc;tre utilis&eacute; quelle que soit la circonstance."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "[2] Here I fell into the fashionable error of writing &ldquo;intellectual "
 "property&rdquo; when what I meant was just &ldquo;copyright&rdquo;. This is "
@@ -858,16 +915,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -877,6 +941,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -886,11 +971,20 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 1996, 1999 Richard M. Stallman"
+msgstr ""
+
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Copyright &copy; 1996, 1999 Richard M. Stallman <br /> Verbatim copying "
+#| "and distribution of this entire article is permitted in any medium "
+#| "without royalty provided this notice is preserved."
 msgid ""
-"Copyright &copy; 1996, 1999 Richard M. Stallman <br /> Verbatim copying and "
-"distribution of this entire article is permitted in any medium without "
-"royalty provided this notice is preserved."
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium without royalty provided this notice is preserved."
 msgstr ""
 "Copyright &copy; 1996, 1999 Richard M. Stallman <br />La reproduction exacte "
 "et la distribution intégrale de cet article est permise sur n'importe quel "
@@ -898,6 +992,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Pierre-Yves Enderlin.<br />Révision&nbsp;: <a href="
@@ -905,9 +1000,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

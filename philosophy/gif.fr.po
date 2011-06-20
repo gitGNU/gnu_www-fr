@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gif.html\n"
-"POT-Creation-Date: 2010-12-31 20:27-0500\n"
+"POT-Creation-Date: 2011-06-19 12:29-0300\n"
 "PO-Revision-Date: 2009-01-07 12:53+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -17,16 +17,19 @@ msgstr ""
 "Language: fr\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid "Why There Are No GIF files on GNU Web Pages"
 msgstr "Pourquoi il n'y a pas de fichiers GIF sur le site de GNU"
 
 # type: Content of: <title>
+#. type: Content of: <h2>
 #, fuzzy
 #| msgid "Why There Are No GIF files on GNU Web Pages"
 msgid "Why There Are No GIF Files on GNU Web Pages"
 msgstr "Pourquoi il n'y a pas de fichiers GIF sur le site de GNU"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<strong>While this story is a historical illustration of the danger of "
@@ -51,6 +54,7 @@ msgstr ""
 "consulter <a href=\"/server/standards/\">guide de conduite Web</a>.</strong>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "There are no <abbr>GIF</abbr>s on the GNU web site because of the patents "
@@ -77,6 +81,7 @@ msgstr ""
 "laquelle GNU ne l'utilise pas."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Unisys and IBM both applied for patents in 1983.  Unisys (and perhaps "
@@ -108,6 +113,7 @@ msgstr ""
 "s."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If we released such a program, Unisys and IBM might think it wiser (for "
 "public relations reasons) not to sue a charity like the FSF.  They could "
@@ -123,6 +129,7 @@ msgstr ""
 "responsable de notre part de provoquer cette situation."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Many people think that Unisys has given permission for distributing free "
@@ -141,6 +148,7 @@ msgstr ""
 "&agrave; ce sujet en 1995&nbsp;:"
 
 # type: Content of: <blockquote><p>
+#. type: Content of: <blockquote><p>
 #, fuzzy
 #| msgid ""
 #| "Unisys does not require licensing, or fees to be paid, for non-"
@@ -172,6 +180,7 @@ msgstr ""
 "l'Internet, y compris les &laquo;&nbsp;freeware&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Unfortunately, this doesn't permit <a href=\"/philosophy/free-sw.html"
@@ -202,6 +211,7 @@ msgstr ""
 "format png."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<a href=\"/philosophy/selling.html\">Commercial redistribution of free "
@@ -222,6 +232,7 @@ msgstr ""
 "\">GIF</abbr> au syst&egrave;me GNU, pas selon les termes d'Unisys."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The <a href=\"http://www.fsf.org\">Free Software Foundation</a> is a non-"
@@ -253,6 +264,7 @@ msgstr ""
 "pourraient pas l'inclure, faire ceci ne serait pas tr&egrave;s utile."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Shortly after Unisys made its announcement, when the net in general was "
@@ -274,6 +286,7 @@ msgstr ""
 "ponse."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Even if Unisys really did give permission for free software to generate "
@@ -301,6 +314,7 @@ msgstr ""
 "l&egrave;bre pour son incomp&eacute;tence et son pauvre jugement)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Decoding <abbr>GIF</abbr>s is a different issue.  The Unisys and IBM "
@@ -324,6 +338,7 @@ msgstr ""
 "abbr> dans les logiciels GNU."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Given this situation, we could still include <abbr>GIF</abbr> files in "
@@ -343,6 +358,7 @@ msgstr ""
 "Interchange Format\">GIF</abbr> sur notre serveur."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "But we feel that if we can't distribute the software to enable people to "
@@ -367,11 +383,13 @@ msgstr ""
 "l'alternative que nous recommandons."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In 1999, Unisys had the following to say about the issue of their patent:"
 msgstr "En 1999, Unisys indiquait au sujet de son brevet&nbsp;:"
 
 # type: Content of: <blockquote><p>
+#. type: Content of: <blockquote><p>
 #, fuzzy
 #| msgid ""
 #| "Unisys has frequently been asked whether a Unisys license is required in "
@@ -404,6 +422,7 @@ msgstr ""
 "charg&eacute;)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "With this statement, Unisys is trying to take back what they said in 1995 "
 "when they gave parts of the patent to the public. The legality of such a "
@@ -414,6 +433,7 @@ msgstr ""
 "galit&eacute; d'un tel changement de position est discutable."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "A further issue is that the <abbr>LZW</abbr> patents&mdash;and software "
@@ -431,6 +451,7 @@ msgstr ""
 "contre les brevets de logiciels."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "So even if we could find a solution to enable the free software community "
@@ -452,6 +473,7 @@ msgstr ""
 "abbr>."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Therefore, we don't use <abbr>GIF</abbr>, and we hope you won't use it "
@@ -463,6 +485,7 @@ msgstr ""
 "non plus."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "It is possible to make non-compressed images that act like <abbr>GIF</"
@@ -482,6 +505,7 @@ msgstr ""
 "Interchange Format\">GIF</abbr> sont utiles pour quelques buts."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "It is also possible to create <abbr>GIF</abbr>s using a patent-free run "
@@ -498,6 +522,7 @@ msgstr ""
 "Interchange Format\">GIF</abbr>."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "We decided not to use these pseudo-<abbr>GIF</abbr>s on our web site "
@@ -518,6 +543,7 @@ msgstr ""
 "de lourds pseudo-<abbr title=\"Graphics Interchange Format\">GIF</abbr>."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<a href=\"http://www.libpng.org/pub/png/index.html\"><abbr>PNG</abbr> "
@@ -539,6 +565,7 @@ msgstr ""
 "\">PNG</abbr></a> des images sur ce serveur."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "For more information about the <abbr>GIF</abbr> patent problems, see <a "
@@ -559,6 +586,7 @@ msgstr ""
 "probl&egrave;me des brevets en g&eacute;n&eacute;ral."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "There's a library called <a href=\"http://ca.geocities.com/libungif/"
@@ -575,6 +603,7 @@ msgstr ""
 "brevet d'Unisys."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<a href=\"http://burnallgifs.org\">http://burnallgifs.org</a> is a "
@@ -589,10 +618,12 @@ msgstr ""
 "Interchange Format\">GIF</abbr> sur votre site Web."
 
 # type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Footnote:"
 msgstr "Note&nbsp;:"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<a href=\"#returnnote\" id=\"venuenote\">1.</a> We were able to search "
@@ -624,16 +655,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -643,6 +681,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -653,6 +712,7 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
 #| "Copyright &copy; 1997, 1998, 1999, 2004, 2006, 2007, 2008 Free Software "
@@ -665,10 +725,12 @@ msgstr ""
 "Foundation, Inc.,"
 
 # type: Content of: <div><address>
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium without royalty provided this notice is preserved."
@@ -679,6 +741,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Frédéric Couchet.<br /> Révision&nbsp;: <a href=\"mailto:"
@@ -686,10 +749,12 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
 

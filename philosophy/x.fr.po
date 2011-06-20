@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: x.html\n"
-"POT-Creation-Date: 2010-07-10 04:25-0300\n"
+"POT-Creation-Date: 2011-06-19 12:29-0300\n"
 "PO-Revision-Date: 2009-01-20 20:29+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,12 +16,14 @@ msgstr ""
 "Language: fr\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid "The X Window System Trap - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "Le pi&egrave;ge X Window System - GNU Project - Free Software Foundation "
 "(FSF)"
 
 # type: Attribute 'content' of: <meta>
+#. type: Attribute 'content' of: <meta>
 msgid ""
 "GNU, FSF, Free Software Foundation, freedom, Richard Stallman, rms, free "
 "software movement"
@@ -30,6 +32,7 @@ msgstr ""
 "mouvement du logiciel librE"
 
 # type: Attribute 'content' of: <meta>
+#. type: Attribute 'content' of: <meta>
 msgid ""
 "Richard Stallman discusses the history of the movement to develop a free "
 "operating system."
@@ -38,14 +41,17 @@ msgstr ""
 "système d'exploitation libre."
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "The X Window System Trap"
 msgstr "Le pi&egrave;ge X Window System"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid "by <strong>Richard M. Stallman</strong>"
 msgstr "par <strong>Richard M. Stallman</strong>"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "To copyleft or not to copyleft? That is one of the major controversies in "
@@ -66,6 +72,7 @@ msgstr ""
 "GNU est un exemple de licence copyleft."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Some free software developers prefer non-copyleft distribution.  Non-"
@@ -96,6 +103,7 @@ msgstr ""
 "copyleft."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "For many years, the X Consortium was the chief opponent of copyleft.  It "
 "exerted both moral suasion and pressure to discourage free software "
@@ -112,6 +120,7 @@ msgstr ""
 "logiciel sous copyleft ne peut pas figurer dans une distribution X."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Why did the X Consortium adopt this policy? It had to do with their "
@@ -136,6 +145,7 @@ msgstr ""
 "qu'elles voulaient, le Consortium X devait les aider &agrave; l'obtenir."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Computer companies normally distribute proprietary software.  They wanted "
 "free software developers to donate their work for such use.  If they had "
@@ -159,6 +169,7 @@ msgstr ""
 "que ce n'&eacute;tait m&ecirc;me pas un sacrifice."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "But self-sacrifice is not the issue: tossing away the defense that "
@@ -180,6 +191,7 @@ msgstr ""
 "Consortium X."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "This trust was misplaced.  In its last year, the X Consortium made a plan "
@@ -200,6 +212,7 @@ msgstr ""
 "&eacute;galement &agrave; notre communaut&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "There is an irony here.  If you said yes when the X Consortium asked you not "
 "to use copyleft, you put the X Consortium in a position to license and "
@@ -211,6 +224,7 @@ msgstr ""
 "programme, en plus du code du noyau de X."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The X Consortium did not carry out this plan.  Instead it closed down and "
@@ -248,6 +262,7 @@ msgstr ""
 "et n'accepterait pas de logiciel sous copyleft."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "[In September 1998, several months after X11R6.4 was released with non-"
@@ -268,6 +283,7 @@ msgstr ""
 "X11R6.3. Merci l'Open Group.]"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Even if the X Consortium and the Open Group had never planned to restrict "
@@ -298,6 +314,7 @@ msgstr ""
 "questions de commodit&eacute;s &agrave; court terme."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The X Consortium and Open Group can no longer exert moral suasion by saying "
 "that it is wrong to say no.  This will make it easier to decide to copyleft "
@@ -309,6 +326,7 @@ msgstr ""
 "relatif &agrave; X."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "When you work on the core of X, on programs such as the X server, Xlib, "
@@ -346,6 +364,7 @@ msgstr ""
 "logiciels libres."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The issue is different for programs outside the core of X: applications, "
 "window managers, and additional libraries and widgets.  There is no reason "
@@ -357,6 +376,7 @@ msgstr ""
 "raison de ne pas les mettre sous copyleft, et nous devrions le faire."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "In case anyone feels the pressure exerted by the criteria for inclusion "
@@ -379,6 +399,7 @@ msgstr ""
 "popularit&eacute;, veuillez nous contacter pour vous aider."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "At the same time, it is better if we do not feel too much need for "
 "popularity.  When a businessman tempts you with &ldquo;more popularity,"
@@ -405,6 +426,7 @@ msgstr ""
 "avec copyleft, une fois que vous l'aurez mis au d&eacute;fi."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Friends, free software developers, don't repeat a mistake.  If we do not "
@@ -426,6 +448,7 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
 " Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
@@ -436,12 +459,18 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -451,6 +480,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -460,16 +510,20 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 1998, 1999, 2009 Richard M. Stallman"
+msgstr ""
+
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
 #| "Copyright &copy; 1999 Richard M. Stallman <br /> Verbatim copying and "
 #| "distribution of this entire article is permitted in any medium without "
 #| "royalty provided this notice is preserved."
 msgid ""
-"Copyright &copy; 1998, 1999, 2009 Richard M. Stallman <br /> Verbatim "
-"copying and distribution of this entire article is permitted in any medium "
-"without royalty provided this notice is preserved."
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium without royalty provided this notice is preserved."
 msgstr ""
 "Copyright &copy; 1999 Richard M. Stallman <br />La reproduction exacte et la "
 "distribution intégrale de cet article est permise sur n'importe quel support "
@@ -477,6 +531,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
@@ -484,9 +539,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

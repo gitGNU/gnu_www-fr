@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnutella.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2011-06-19 12:29-0300\n"
 "PO-Revision-Date: 2008-11-23 13:07+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -17,15 +17,18 @@ msgstr ""
 "Language: fr\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid "Regarding Gnutella - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "&Agrave; propos de Gnutella - GNU Project - Free Software Foundation (FSF)"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "Regarding Gnutella"
 msgstr "&Agrave; propos de Gnutella"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "&ldquo;Gnutella&rdquo; is, at present, the name for a protocol for "
 "distributed file sharing, mostly used for music files.  The name also "
@@ -43,6 +46,7 @@ msgstr ""
 "wikipedia.org/wiki/Gnutella\">l'article Wikipedia</a> sur le sujet."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "In any case, the name was originally a word play on &ldquo;GNU&rdquo; (the "
 "original developers planned to release their code under the GNU GPL, and may "
@@ -65,6 +69,7 @@ msgstr ""
 "confusion, peut &ecirc;tre le feront-ils dans le futur."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "There are a number of free software programs that implement the Gnutella "
 "protocol, such as <a href=\"http://gtk-gnutella.sourceforge.net/\">gtk-"
@@ -88,6 +93,7 @@ msgstr ""
 "protocoles</a>."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The Free Software Foundation is concerned with the freedom to copy and "
 "change software; music is outside our scope.  But there is a partial "
@@ -110,6 +116,7 @@ msgstr ""
 "sont tout aussi pertinents."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "No matter what sort of published information is being shared, we urge people "
 "to reject the assumption that some person or company has a natural right to "
@@ -127,16 +134,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -146,6 +160,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -156,14 +191,17 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2004, 2005, 2007 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 2004, 2005, 2007 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><address>
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article are permitted "
 "worldwide, without royalty, in any medium, provided this notice, and the "
@@ -175,6 +213,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Wolfgang Sourdeau.<br />Révision&nbsp;: <a href=\"mailto:"
@@ -182,9 +221,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

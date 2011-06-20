@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2011-05-26 04:28-0300\n"
+"POT-Creation-Date: 2011-06-16 20:28-0300\n"
 "PO-Revision-Date: 2010-03-21 16:00+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -540,10 +540,15 @@ msgstr ""
 
 # type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"BerkleyDB\" href=\"http://www.oracle.com/technology/software/"
+#| "products/berkeley-db/htdocs/oslicense.html\"> Berkeley Database License</"
+#| "a> (aka the Sleepycat Software Product License)"
 msgid ""
-"<a id=\"BerkleyDB\" href=\"http://www.oracle.com/technology/software/"
-"products/berkeley-db/htdocs/oslicense.html\"> Berkeley Database License</a> "
-"(aka the Sleepycat Software Product License)"
+"<a id=\"BerkleyDB\" href=\"http://www.oracle.com/technetwork/database/"
+"berkeleydb/downloads/oslicense-093458.html\">Berkeley Database License</a> "
+"(a.k.a. the Sleepycat Software Product License)"
 msgstr ""
 "<a id=\"BerkleyDB\" href=\"http://www.oracle.com/technology/software/"
 "products/berkeley-db/htdocs/oslicense.html\">Berkeley Database License</a> "
@@ -2022,31 +2027,6 @@ msgstr ""
 # type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"IPL\" href=\"http://www.borland.com/devsupport/interbase/opensource/"
-"IPL.html\"> Interbase Public License, Version 1.0</a>"
-msgstr ""
-"<a id=\"IPL\" href=\"http://www.borland.com/devsupport/interbase/opensource/"
-"IPL.html\">Interbase Public License, Version 1.0</a>"
-
-# type: Content of: <dl><dd><p>
-#. type: Content of: <dl><dd><p>
-msgid ""
-"This is a free software license that is essentially the same as the Mozilla "
-"Public License, Version 1.1.  Like the MPL, the IPL has some complex "
-"restrictions that make it incompatible with the GNU GPL.  That is, a module "
-"covered by the GPL and a module covered by the IPL cannot legally be linked "
-"together.  We urge you not to use the IPL for this reason."
-msgstr ""
-"C'est une licence de logiciel libre qui ressemble pour l'essentiel &agrave; "
-"la Mozilla Public License version 1.1. De m&ecirc;me que la MPL, l'IPL "
-"pr&eacute;sente des restrictions complexes qui la rendent incompatible avec "
-"la GPL.  Ainsi, on n'a pas le droit de lier un module couvert par la GPL "
-"avec un autre couvert par l'IPL. En raison de cela, nous vous demandons "
-"instamment de ne pas utiliser l'IPL."
-
-# type: Content of: <dl><dt>
-#. type: Content of: <dl><dt>
-msgid ""
 "<a id=\"josl\" href=\"http://code.google.com/p/jabber-net/source/browse/"
 "branches/RELEASE_1_0/LICENSE.txt\"> Jabber Open Source License, Version 1.0</"
 "a>"
@@ -3256,75 +3236,6 @@ msgstr ""
 # type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"Ms-LPL\" href=\"http://www.microsoft.com/resources/sharedsource/"
-"licensingbasics/limitedpubliclicense.mspx\">Microsoft Limited Public License "
-"(Ms-LPL)</a>"
-msgstr ""
-"<a id=\"Ms-LPL\" href=\"http://www.microsoft.com/resources/sharedsource/"
-"licensingbasics/limitedpubliclicense.mspx\">Microsoft Limited Public License "
-"(Ms-LPL)</a>"
-
-# type: Content of: <dl><dd><p>
-#. type: Content of: <dl><dd><p>
-msgid ""
-"This license is non-free because of section 3(F), which requires that any "
-"modified software you make from the original code must run on Windows.  The "
-"<a href=\"#ms-pl\">Microsoft Public License</a> does not have this "
-"restriction."
-msgstr ""
-"Cette licence n'est pas libre &agrave; cause de la section 3(F), qui "
-"n&eacute;cessite que tout logiciel modif&eacute; que vous faites &agrave; "
-"partir du code original doit pouvoir s'ex&eacute;cuter sous Windows. La <a "
-"href=\"#ms-pl\">Microsoft Public License</a> n'a pas cette restriction."
-
-# type: Content of: <dl><dt>
-#. type: Content of: <dl><dt>
-msgid ""
-"<a id=\"Ms-LRL\" href=\"http://www.microsoft.com/resources/sharedsource/"
-"licensingbasics/limitedreciprocallicense.mspx\">Microsoft Limited Reciprocal "
-"License (Ms-LRL)</a>"
-msgstr ""
-"<a id=\"Ms-LRL\" href=\"http://www.microsoft.com/resources/sharedsource/"
-"licensingbasics/limitedreciprocallicense.mspx\">Microsoft Limited Reciprocal "
-"License (Ms-LRL)</a>"
-
-# type: Content of: <dl><dd><p>
-#. type: Content of: <dl><dd><p>
-msgid ""
-"This license is non-free because of section 3(G), which requires that any "
-"modified software you make from the original code must run on Windows.  The "
-"<a href=\"#ms-rl\">Microsoft Reciprocal License</a> does not have this "
-"restriction."
-msgstr ""
-"Cette licence n'est pas libre &agrave; cause de la section 3(G), qui "
-"n&eacute;cessite que tout logiciel modif&eacute; que vous faites &agrave; "
-"partir du code original doit pouvoir s'ex&eacute;cuter sous Windows. La <a "
-"href=\"#ms-rl\">Microsoft Reciprocal License</a> n'a pas cette restriction."
-
-# type: Content of: <dl><dt>
-#. type: Content of: <dl><dt>
-msgid ""
-"<a id=\"Ms-RL\" href=\"http://www.microsoft.com/resources/sharedsource/"
-"licensingbasics/referencelicense.mspx\">Microsoft Reference License</a>"
-msgstr ""
-"<a id=\"Ms-RL\" href=\"http://www.microsoft.com/resources/sharedsource/"
-"licensingbasics/referencelicense.mspx\">Microsoft Reference License</a>"
-
-# type: Content of: <dl><dd><p>
-#. type: Content of: <dl><dd><p>
-msgid ""
-"This is a non-free license: you are not allowed to modify the software at "
-"all, and you are only allowed to share it under very particular "
-"circumstances."
-msgstr ""
-"Cette licence n'est pas libre&nbsp;: vous n'&ecirc;tes pas du tout "
-"autoris&eacute; &agrave; modifier le logiciel, et vous n'&ecirc;tes "
-"autoris&eacute; &agrave; le partager que dans des circonstances tr&egrave;s "
-"particuli&egrave;res."
-
-# type: Content of: <dl><dt>
-#. type: Content of: <dl><dt>
-msgid ""
 "<a id=\"Ms-SS\" href=\"http://fedoraproject.org/wiki/Licensing/"
 "Microsoft_Shared_Source_License\"> Microsoft's Shared Source CLI, C#, and "
 "Jscript License</a>"
@@ -4497,6 +4408,94 @@ msgstr "Dernière mise à jour&nbsp;:"
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+# type: Content of: <dl><dt>
+#~ msgid ""
+#~ "<a id=\"IPL\" href=\"http://www.borland.com/devsupport/interbase/"
+#~ "opensource/IPL.html\"> Interbase Public License, Version 1.0</a>"
+#~ msgstr ""
+#~ "<a id=\"IPL\" href=\"http://www.borland.com/devsupport/interbase/"
+#~ "opensource/IPL.html\">Interbase Public License, Version 1.0</a>"
+
+# type: Content of: <dl><dd><p>
+#~ msgid ""
+#~ "This is a free software license that is essentially the same as the "
+#~ "Mozilla Public License, Version 1.1.  Like the MPL, the IPL has some "
+#~ "complex restrictions that make it incompatible with the GNU GPL.  That "
+#~ "is, a module covered by the GPL and a module covered by the IPL cannot "
+#~ "legally be linked together.  We urge you not to use the IPL for this "
+#~ "reason."
+#~ msgstr ""
+#~ "C'est une licence de logiciel libre qui ressemble pour l'essentiel "
+#~ "&agrave; la Mozilla Public License version 1.1. De m&ecirc;me que la MPL, "
+#~ "l'IPL pr&eacute;sente des restrictions complexes qui la rendent "
+#~ "incompatible avec la GPL.  Ainsi, on n'a pas le droit de lier un module "
+#~ "couvert par la GPL avec un autre couvert par l'IPL. En raison de cela, "
+#~ "nous vous demandons instamment de ne pas utiliser l'IPL."
+
+# type: Content of: <dl><dt>
+#~ msgid ""
+#~ "<a id=\"Ms-LPL\" href=\"http://www.microsoft.com/resources/sharedsource/"
+#~ "licensingbasics/limitedpubliclicense.mspx\">Microsoft Limited Public "
+#~ "License (Ms-LPL)</a>"
+#~ msgstr ""
+#~ "<a id=\"Ms-LPL\" href=\"http://www.microsoft.com/resources/sharedsource/"
+#~ "licensingbasics/limitedpubliclicense.mspx\">Microsoft Limited Public "
+#~ "License (Ms-LPL)</a>"
+
+# type: Content of: <dl><dd><p>
+#~ msgid ""
+#~ "This license is non-free because of section 3(F), which requires that any "
+#~ "modified software you make from the original code must run on Windows.  "
+#~ "The <a href=\"#ms-pl\">Microsoft Public License</a> does not have this "
+#~ "restriction."
+#~ msgstr ""
+#~ "Cette licence n'est pas libre &agrave; cause de la section 3(F), qui "
+#~ "n&eacute;cessite que tout logiciel modif&eacute; que vous faites &agrave; "
+#~ "partir du code original doit pouvoir s'ex&eacute;cuter sous Windows. La "
+#~ "<a href=\"#ms-pl\">Microsoft Public License</a> n'a pas cette restriction."
+
+# type: Content of: <dl><dt>
+#~ msgid ""
+#~ "<a id=\"Ms-LRL\" href=\"http://www.microsoft.com/resources/sharedsource/"
+#~ "licensingbasics/limitedreciprocallicense.mspx\">Microsoft Limited "
+#~ "Reciprocal License (Ms-LRL)</a>"
+#~ msgstr ""
+#~ "<a id=\"Ms-LRL\" href=\"http://www.microsoft.com/resources/sharedsource/"
+#~ "licensingbasics/limitedreciprocallicense.mspx\">Microsoft Limited "
+#~ "Reciprocal License (Ms-LRL)</a>"
+
+# type: Content of: <dl><dd><p>
+#~ msgid ""
+#~ "This license is non-free because of section 3(G), which requires that any "
+#~ "modified software you make from the original code must run on Windows.  "
+#~ "The <a href=\"#ms-rl\">Microsoft Reciprocal License</a> does not have "
+#~ "this restriction."
+#~ msgstr ""
+#~ "Cette licence n'est pas libre &agrave; cause de la section 3(G), qui "
+#~ "n&eacute;cessite que tout logiciel modif&eacute; que vous faites &agrave; "
+#~ "partir du code original doit pouvoir s'ex&eacute;cuter sous Windows. La "
+#~ "<a href=\"#ms-rl\">Microsoft Reciprocal License</a> n'a pas cette "
+#~ "restriction."
+
+# type: Content of: <dl><dt>
+#~ msgid ""
+#~ "<a id=\"Ms-RL\" href=\"http://www.microsoft.com/resources/sharedsource/"
+#~ "licensingbasics/referencelicense.mspx\">Microsoft Reference License</a>"
+#~ msgstr ""
+#~ "<a id=\"Ms-RL\" href=\"http://www.microsoft.com/resources/sharedsource/"
+#~ "licensingbasics/referencelicense.mspx\">Microsoft Reference License</a>"
+
+# type: Content of: <dl><dd><p>
+#~ msgid ""
+#~ "This is a non-free license: you are not allowed to modify the software at "
+#~ "all, and you are only allowed to share it under very particular "
+#~ "circumstances."
+#~ msgstr ""
+#~ "Cette licence n'est pas libre&nbsp;: vous n'&ecirc;tes pas du tout "
+#~ "autoris&eacute; &agrave; modifier le logiciel, et vous n'&ecirc;tes "
+#~ "autoris&eacute; &agrave; le partager que dans des circonstances tr&egrave;"
+#~ "s particuli&egrave;res."
 
 # type: Content of: <dl><dt>
 #~ msgid ""

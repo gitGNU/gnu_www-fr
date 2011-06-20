@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: microsoft-verdict.html\n"
-"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"POT-Creation-Date: 2011-06-19 12:29-0300\n"
 "PO-Revision-Date: 2008-11-23 13:18+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,14 +16,17 @@ msgstr ""
 "Language: fr\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid "On the Microsoft Verdict - GNU Project - Free Software Foundation (FSF)"
 msgstr "Du verdict Microsoft - GNU Project - Free Software Foundation (FSF)"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "On the Microsoft Verdict"
 msgstr "Du verdict Microsoft"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Many <a href=\"/gnu/linux-and-gnu.html\">GNU/Linux</a> users think of the "
 "system as competition for Microsoft.  But the Free Software Movement aims to "
@@ -45,6 +48,7 @@ msgstr ""
 "pas faute d'avoir essay&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Since Microsoft is just a part of the problem, its defeat in the anti-trust "
 "lawsuit is not necessarily a victory for free software.  Whether the outcome "
@@ -59,6 +63,7 @@ msgstr ""
 "Microsoft par le juge."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If the remedies are designed to enable other companies compete in offering "
 "proprietary, non-free software, that will do the Free World no particular "
@@ -89,6 +94,7 @@ msgstr ""
 "am&eacute;lior&eacute;s&nbsp;&raquo;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Splitting Microsoft into separate companies could also endanger free "
 "software, because these smaller companies, no longer held in check by the "
@@ -103,6 +109,7 @@ msgstr ""
 "le Microsoft unifi&eacute; actuel."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "I've <a href=\"/philosophy/microsoft-antitrust.html\">proposed remedies</a> "
 "for this case that would help free software compete with Microsoft: for "
@@ -125,6 +132,7 @@ msgstr ""
 "d'entraver le d&eacute;veloppement du syst&egrave;me GNU/Linux)."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "When we see what remedies the judge chooses, we will get an idea of whether "
 "the case has been helpful or harmful to the Free Software Movement."
@@ -135,16 +143,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -154,6 +169,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -164,14 +200,17 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2000, 2007, 2008 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 2000, 2007, 2008 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><address>
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article are permitted "
 "worldwide, without royalty, in any medium, provided this notice, and the "
@@ -183,6 +222,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
@@ -190,9 +230,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

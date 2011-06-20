@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bsd.html\n"
-"POT-Creation-Date: 2010-03-10 04:25-0500\n"
+"POT-Creation-Date: 2011-06-19 12:29-0300\n"
 "PO-Revision-Date: 2009-03-21 17:26+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -17,16 +17,19 @@ msgstr ""
 "Language: fr\n"
 
 # type: Content of: <title>
+#. type: Content of: <title>
 msgid "BSD License Problem - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "Le probl&egrave;me de la licence BSD - GNU Project - Free Software "
 "Foundation (FSF)"
 
 # type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "The BSD License Problem"
 msgstr "Le probl&egrave;me de la licence BSD"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The two major categories of free software license are <a href=\"/copyleft/"
 "copyleft.html\">copyleft</a> and <a href=\"/philosophy/categories.html#Non-"
@@ -52,6 +55,7 @@ msgstr ""
 "utile pour la communaut&eacute; du logiciel libre."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "There are many variants of simple <a href=\"/licenses/license-list."
@@ -85,9 +89,15 @@ msgstr ""
 "particuli&egrave;re&nbsp;:"
 
 # type: Content of: <pre>
-#, no-wrap
+#. type: Content of: <pre>
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "3. All advertising materials mentioning features or use of this software\n"
+#| "   must display the following acknowledgement:\n"
+#| "     This product includes software developed by the University of\n"
+#| "     California, Berkeley and its contributors.\n"
 msgid ""
-"\n"
 "3. All advertising materials mentioning features or use of this software\n"
 "   must display the following acknowledgement:\n"
 "     This product includes software developed by the University of\n"
@@ -100,6 +110,7 @@ msgstr ""
 "     California, Berkeley and its contributors.\n"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Initially the obnoxious BSD advertising clause was used only in the Berkeley "
 "Software Distribution.  That did not cause any particular problem, because "
@@ -111,6 +122,7 @@ msgstr ""
 "n'est pas tr&egrave;s difficile dans la pratique"
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If other developers who used BSD-like licenses had copied the BSD "
 "advertising clause verbatim&mdash;including the sentence that refers to the "
@@ -123,6 +135,7 @@ msgstr ""
 "Californie, alors ils ne rendraient pas le probl&egrave;me plus grave."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "But, as you might expect, other developers did not copy the clause "
 "verbatim.  They changed it, replacing &ldquo;University of California&rdquo; "
@@ -137,6 +150,7 @@ msgstr ""
 "pl&eacute;thore de citations diff&eacute;rentes."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "When people put many such programs together in an operating system, the "
 "result is a serious problem.  Imagine if a software system required 75 "
@@ -151,6 +165,7 @@ msgstr ""
 "d'une pleine page de publicit&eacute;."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "This might seem like extrapolation ad absurdum, but it is actual fact.  In a "
 "1997 version of NetBSD, I counted 75 of these sentences.  (Fortunately "
@@ -161,6 +176,7 @@ msgstr ""
 "pas surpris si la liste avait grandi aujourd'hui."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "To address this problem, in my &ldquo;spare time&rdquo; I talk with "
 "developers who have used BSD-style licenses, asking them if they would "
@@ -178,6 +194,7 @@ msgstr ""
 "l'universit&eacute; d'Utah ont supprim&eacute; leur clause."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Dean Hal Varian at the University of California took up the cause, and "
 "championed it with the administration.  In June 1999, after two years of "
@@ -191,6 +208,7 @@ msgstr ""
 "licence de BSD."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Thus, there is now a new BSD license which does not contain the advertising "
 "clause.  Unfortunately, this does not eliminate the legacy of the "
@@ -208,6 +226,7 @@ msgstr ""
 "BSD; seuls les d&eacute;veloppeurs qui les ont fait peuvent les modifier."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "But if they followed Berkeley's lead before, maybe Berkeley's change in "
 "policy will convince some of them to change.  It's worth asking."
@@ -217,6 +236,7 @@ msgstr ""
 "de changer. &Ccedil;a vaut le coup de demander."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "So if you have a favorite package which still uses the BSD license with the "
 "advertising clause, please ask the maintainer to look at this web page, and "
@@ -227,6 +247,7 @@ msgstr ""
 "cet article et de r&eacute;fl&eacute;chir &agrave; effectuer la modification."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "And if you want to release a program as non-copylefted free software, please "
 "don't use the advertising clause.  Thus, instead of copying the BSD license "
@@ -241,6 +262,7 @@ msgstr ""
 "veuillez utiliser d'autres licences permissives comme Expat ou FreeBSD."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "You can also help spread awareness of the issue by not using the term &ldquo;"
 "BSD-style&rdquo;, and not saying &ldquo;the BSD license&rdquo; which implies "
@@ -264,6 +286,7 @@ msgstr ""
 "ferme, mais juste par d&eacute;faut."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If you would like to cite one specific example of a non-copyleft license, "
 "and you have no particular preference, please pick an example which has no "
@@ -282,6 +305,7 @@ msgstr ""
 "ou l'autre des licences BSD."
 
 # type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "When you want to refer specifically to one of the BSD licenses, please "
 "always state which one: the &ldquo;original BSD license&rdquo; or the &ldquo;"
@@ -294,16 +318,23 @@ msgstr ""
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
@@ -313,6 +344,27 @@ msgstr ""
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
+#| "ways to contact</a> the FSF.  <br /> Please send broken links and other "
+#| "corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
+#| "\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
+"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
+"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
+"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+
+# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -323,16 +375,19 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 1998, 1999, 2001, 2003, 2007 Free Software Foundation, Inc.,"
 msgstr ""
 "Copyright &copy; 1998, 1999, 2001, 2003, 2007 Free Software Foundation, Inc.,"
 
 # type: Content of: <div><address>
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
 # type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article are permitted "
 "worldwide, without royalty, in any medium, provided this notice, and the "
@@ -344,6 +399,7 @@ msgstr ""
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Benjamin Drieu.<br /> Révision&nbsp;: <a href=\"mailto:"
@@ -351,9 +407,11 @@ msgstr ""
 
 # type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
 # type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions ce cette page"
