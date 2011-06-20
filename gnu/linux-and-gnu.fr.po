@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid "Linux and GNU - GNU Project - Free Software Foundation (FSF)"
 msgstr "Linux et le projet GNU - GNU Project - Free Software Foundation (FSF)"
@@ -51,12 +50,10 @@ msgstr "Quoi de neuf&nbsp;?"
 msgid "New Free Software"
 msgstr "Nouveaux logiciels libres"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "Linux and the GNU Project"
 msgstr "Linux et le Projet GNU"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "<strong>by <a href=\"http://www.stallman.org/\">Richard Stallman</a></strong>"
@@ -64,7 +61,6 @@ msgstr ""
 "<strong>par <a href=\"http://www.stallman.org/\">Richard Stallman</a></"
 "strong>"
 
-# type: Content of: <div><blockquote><p>
 #. type: Content of: <div><blockquote><p>
 msgid ""
 "For more information see also the <a href=\"/gnu/gnu-linux-faq.html\">GNU/"
@@ -74,7 +70,6 @@ msgstr ""
 "fr.html\">FAQ GNU/Linux</a> et <a href=\"/gnu/why-gnu-linux.fr.html"
 "\">Pourquoi GNU/Linux&nbsp;?</a>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Many computer users run a modified version of <a href=\"/philosophy/"
@@ -95,7 +90,6 @@ msgstr ""
 "du syst&egrave;me GNU, d&eacute;velop&eacute; par le <a href=\"/gnu/gnu-"
 "history.fr.html\">Projet GNU</a>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "There really is a Linux, and these people are using it, but it is just a "
@@ -120,7 +114,6 @@ msgstr ""
 "distributions appel&eacute;es &laquo;&nbsp;Linux&nbsp;&raquo; sont en "
 "r&eacute;alit&eacute; des distributions GNU/Linux."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Many users do not understand the difference between the kernel, which is "
@@ -136,7 +129,6 @@ msgstr ""
 "velop&eacute; tout le syst&egrave;me d'exploitation en 1991, avec un peu "
 "d'aide."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Programmers generally know that Linux is a kernel.  But since they have "
@@ -157,7 +149,6 @@ msgstr ""
 "&eacute;tait n&eacute;cessaire &agrave; un syst&egrave;me semblable &agrave; "
 "Unix &eacute;tait d&eacute;ja disponible."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "What they found was no accident&mdash;it was the not-quite-complete GNU "
@@ -180,7 +171,6 @@ msgstr ""
 "plans originaux pour le syst&egrave;me GNU. Au moment o&ugrave; Linux "
 "&eacute;tait lanc&eacute;, le syst&egrave;me &eacute;tait presque fini."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Most free software projects have the goal of developing a particular program "
@@ -200,7 +190,6 @@ msgstr ""
 "contribution de ce type de projet par les programmes sp&eacute;cifiques qui "
 "proviennent dudit projet."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If we tried to measure the GNU Project's contribution in this way, what "
@@ -229,7 +218,6 @@ msgstr ""
 "composent, le seul choix le plus appropri&eacute; serait &laquo;&nbsp;"
 "GNU&nbsp;&raquo;."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "But that is not the deepest way to consider the question.  The GNU Project "
@@ -249,7 +237,6 @@ msgstr ""
 "L'objectif final du Projet GNU est de d&eacute;velopper <em>un syst&egrave;"
 "me semblable &agrave; Unix, complet et libre</em>&nbsp;: GNU."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Many people have made major contributions to the free software in the "
@@ -283,7 +270,6 @@ msgstr ""
 "d&eacute;velopp&eacute; un jeu d'&eacute;chec, GNU Chess, car un syst&egrave;"
 "me complet a besoin de jeux aussi."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "By the early 90s we had put together the whole system aside from the "
@@ -301,7 +287,6 @@ msgstr ""
 "html\">le GNU Hurd a commencé à fonctionner de manière fiable en 2001</a>, "
 "mais est encore loin d'être prêt à l'usage public."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Fortunately, we didn't have to wait for the Hurd, because of Linux.  Once "
@@ -319,7 +304,6 @@ msgstr ""
 "syst&egrave;me libre complet&nbsp;: un syst&egrave;me GNU bas&eacute; sur "
 "Linux&nbsp;; le syst&egrave;me GNU/Linux, en plus court."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Making them work well together was not a trivial job.  Some GNU components<a "
@@ -346,7 +330,6 @@ msgstr ""
 "qui, de toute fa&ccedil;on, allait certainement &ecirc;tre r&eacute;"
 "alis&eacute; par quelqu'un."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The GNU Project supports GNU/Linux systems as well as <em>the</em> GNU "
@@ -366,7 +349,6 @@ msgstr ""
 "veloppement de <a href=\"http://www.debian.org/\">Debian GNU/Linux</a> "
 "&agrave; un de ses stades initiaux."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Today there are many different variants of the GNU/Linux system (often "
@@ -387,7 +369,6 @@ msgstr ""
 "href=\"http://ututo.org\">Ututo</a> et <a href=\"http://gnewsense.org/"
 "\">gNewSense</a>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Making a free GNU/Linux distribution is not just a matter of eliminating "
@@ -409,7 +390,6 @@ msgstr ""
 "galement la maintenance d'une <a href=\"http://directory.fsf.org/project/"
 "linux\">version libre de Linux</a>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Whether you use GNU/Linux or not, please don't confuse the public by using "
@@ -425,7 +405,6 @@ msgstr ""
 "syst&egrave;me GNU additionn&eacute; de Linux. Quand vous parlez de cette "
 "combinaison, veuillez l'appeler &laquo;&nbsp;GNU/Linux&nbsp;&raquo;."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you want to make a link on &ldquo;GNU/Linux&rdquo; for further reference, "
@@ -443,7 +422,6 @@ msgstr ""
 "foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?Linux</a> est une bonne URL &agrave; "
 "utiliser."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Addendum: Aside from GNU, one other project has independently produced a "
@@ -463,7 +441,6 @@ msgstr ""
 "sup></a> est fort probablement soit une variante de GNU, soit un type de "
 "syst&egrave;me BSD."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "People sometimes ask whether BSD too is a version of GNU, like GNU/Linux.  "
@@ -490,12 +467,10 @@ msgstr ""
 "GNU/BSD ne refl&eacute;rait pas la situation <a href=\"#gnubsd\"><sup>5</"
 "sup></a>."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "Notes:"
 msgstr "Notes&nbsp;:"
 
-# type: Content of: <ol><li>
 #. type: Content of: <ol><li>
 msgid ""
 "<a id=\"unexciting\"></a>These unexciting but essential components include "
@@ -508,7 +483,6 @@ msgstr ""
 "partie du paquetage <a href=\"/software/binutils/\">GNU Binutils</a>, <a "
 "href=\"/software/tar/\">GNU tar</a>, &hellip;."
 
-# type: Content of: <ol><li>
 #. type: Content of: <ol><li>
 msgid ""
 "<a id=\"nottools\"></a>For instance, The Bourne Again SHell (BASH), the "
@@ -523,7 +497,6 @@ msgstr ""
 "\">biblioth&egrave;que C GNU</a> ne sont pas des outils de programmation. "
 "Tout comme GNUCash, GNOME et GNU Chess."
 
-# type: Content of: <ol><li>
 #. type: Content of: <ol><li>
 msgid ""
 "<a id=\"somecomponents\"></a>For instance, the <a href=\"/software/libc/libc."
@@ -532,7 +505,6 @@ msgstr ""
 "<a id=\"somecomponents\">Par exemple</a>, la <a href=\"/software/libc/libc."
 "html\">biblioth&egrave;que C GNU</a>."
 
-# type: Content of: <ol><li>
 #. type: Content of: <ol><li>
 msgid ""
 "<a id=\"newersystems\"></a>Since that was written, a nearly-all-free Windows-"
@@ -551,7 +523,6 @@ msgstr ""
 "les parties manquantes du noyau, vous aurez aussi besoin d'y ajouter GNU ou "
 "BSD."
 
-# type: Content of: <ol><li>
 #. type: Content of: <ol><li>
 #, fuzzy
 #| msgid ""
@@ -580,13 +551,11 @@ msgstr ""
 "syst&egrave;me. Les utilisateurs ordinaires des bureaux classiques peuvent "
 "difficilement faire la diff&eacute;rence entre GNU/Linux et GNU/*BSD."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -606,7 +575,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions sur cette page Web à <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -625,7 +593,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions sur cette page Web à <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -641,7 +608,6 @@ msgid ""
 "Copyright &copy; 1997, 1998, 1999, 2000, 2001, 2002, 2007 Richard M. Stallman"
 msgstr ""
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -657,7 +623,6 @@ msgstr ""
 "Stallman <br /> Verbatim copying and distribution of this entire article is "
 "permitted in any medium without royalty provided this notice is preserved."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -665,13 +630,11 @@ msgstr ""
 "Traduction&nbsp;: ?<br />Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april."
 "org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

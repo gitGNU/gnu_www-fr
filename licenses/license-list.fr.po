@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid ""
 "Various Licenses and Comments about Them - GNU Project - Free Software "
@@ -25,27 +24,22 @@ msgstr ""
 "Liste des licences avec commentaires - GNU Project - Free Software "
 "Foundation (FSF)"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "Various Licenses and Comments about Them"
 msgstr "Les licences comment&eacute;es"
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "<a id=\"TableOfContents\">Table of Contents</a>"
 msgstr "<a id=\"TableOfContents\">Table des matières</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"#Introduction\">Introduction</a>"
 msgstr "<a href=\"#Introduction\">Introduction</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"#SoftwareLicenses\">Software Licenses</a>"
 msgstr "<a href=\"#SoftwareLicenses\">Licences logicielles</a>"
 
-# type: Content of: <ul><li><ul><li>
 #. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"#GPLCompatibleLicenses\">GPL-Compatible Free Software Licenses</a>"
@@ -53,7 +47,6 @@ msgstr ""
 "<a href=\"#GPLCompatibleLicenses\">Licences de logiciels libres compatibles "
 "avec la GPL</a>"
 
-# type: Content of: <ul><li><ul><li>
 #. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"#GPLIncompatibleLicenses\">GPL-Incompatible Free Software "
@@ -62,25 +55,21 @@ msgstr ""
 "<a href=\"#GPLIncompatibleLicenses\">Licences de logiciels libres "
 "incompatibles avec la GPL</a>"
 
-# type: Content of: <ul><li><ul><li>
 #. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"#NonFreeSoftwareLicense\">Non-Free Software Licenses</a>"
 msgstr ""
 "<a href=\"#NonFreeSoftwareLicense\">Licences de logiciels non-libres</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"#DocumentationLicenses\">Licenses For Documentation</a>"
 msgstr "<a href=\"#DocumentationLicenses\">Licences pour la documentation</a>"
 
-# type: Content of: <ul><li><ul><li>
 #. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"#FreeDocumentationLicenses\">Free Documentation Licenses</a>"
 msgstr ""
 "<a href=\"#FreeDocumentationLicenses\">Licences libres pour la "
 "documentation</a>"
 
-# type: Content of: <ul><li><ul><li>
 #. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"#NonFreeDocumentationLicenses\">Non-Free Documentation Licenses</a>"
@@ -88,7 +77,6 @@ msgstr ""
 "<a href=\"#NonFreeDocumentationLicenses\">Licences non-libres pour la "
 "documentation</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#OtherLicenses\">Licenses for Works of Practical Use Besides "
@@ -97,12 +85,10 @@ msgstr ""
 "<a href=\"#OtherLicenses\">Licences pour les &oelig;uvres d'usage pratique "
 "autres que les logiciels et la documentation</a>"
 
-# type: Content of: <ul><ul><li>
 #. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"#Fonts\">Licenses for Fonts</a>"
 msgstr "<a href=\"#Fonts\">Licences pour les polices</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#OpinionLicenses\">Licenses for Works of Opinion and Judgment</a>"
@@ -110,19 +96,16 @@ msgstr ""
 "<a href=\"#OpinionLicenses\">Licences pour les &oelig;uvres d'opinion et de "
 "jugement</a>"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "<a id=\"Introduction\">Introduction</a>"
 msgstr "<a id=\"Introduction\">Introduction</a>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid "We classify a license according to certain key criteria:"
 msgstr ""
 "Nous classons une licence d'apr&egrave;s quelques questions cl&eacute;"
 "s&nbsp;:"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "Whether it qualifies as a <a href=\"/philosophy/free-sw.html\">free "
@@ -131,7 +114,6 @@ msgstr ""
 "Permet-elle de qualifier, ou non, un <a href=\"/philosophy/free-sw.fr.html"
 "\">logiciel libre&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "Whether it is a <a href=\"/copyleft/copyleft.html\">copyleft</a> license."
@@ -139,7 +121,6 @@ msgstr ""
 "S'agit-il, ou non, d'un <a href=\"/copyleft/copyleft.fr.html\">&laquo;&nbsp;"
 "copyleft&nbsp;&raquo;</a> ou &laquo;&nbsp;gauche d'auteur&nbsp;&raquo;&nbsp;?"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "Whether it is <a href=\"/licenses/gpl-faq.html#WhatDoesCompatMean"
@@ -151,12 +132,10 @@ msgstr ""
 "ne soit sp&eacute;cifi&eacute;, les licences compatibles le sont &agrave; la "
 "fois avec la GPLv2 et la GPLv3."
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "Whether it causes any particular practical problems."
 msgstr "Pose-t-elle certains probl&egrave;mes pratiques&nbsp;?"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "We try to list the most commonly encountered free software license on this "
@@ -171,7 +150,6 @@ msgstr ""
 "ou pas. Les licences sont plus ou moins classées par ordre alphabétique dans "
 "chaque section."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you believe you have found a violation of one of our licenses, please "
@@ -190,12 +168,10 @@ msgid ""
 "to-follow guide."
 msgstr ""
 
-# type: Content of: outside any tag (error?)
 #. type: Content of: outside any tag (error?)
 msgid "<a id=\"LicensingMailingList\"></a>"
 msgstr "<a id=\"LicensingMailingList\"></a>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -228,7 +204,6 @@ msgstr ""
 "\">volontaires qualifiés sur ce sujet</a> pour aider à répondre aux "
 "questions sur les licences)."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you are contemplating writing a new license, please also contact us at <a "
@@ -245,12 +220,10 @@ msgstr ""
 "et les développeurs. Nous ferons de notre mieux pour vous aider à trouver "
 "une licence de logiciel libre existante qui réponde à vos besoins."
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "<a id=\"SoftwareLicenses\">Software Licenses</a>"
 msgstr "<a id=\"SoftwareLicenses\">Les licences de logiciels</a>"
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid ""
 "<a id=\"GPLCompatibleLicenses\"> GPL-Compatible Free Software Licenses</a>"
@@ -258,7 +231,6 @@ msgstr ""
 "<a id=\"GPLCompatibleLicenses\">Les licences de logiciels libres compatibles "
 "avec la GPL</a>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "<strong>The following licenses qualify as <a href=\"/philosophy/free-sw.html"
@@ -270,7 +242,6 @@ msgstr ""
 "qui sont compatibles avec la <a href=\"#GNUGPL\">GPL de GNU</a>&nbsp;:</"
 "strong>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"GNUGPL\" href=\"/licenses/gpl.html\"> GNU General Public License "
@@ -279,7 +250,6 @@ msgstr ""
 "<a id=\"GNUGPL\" href=\"/licenses/gpl.html\">La licence GNU General Public "
 "License version 3</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is the latest version of the GNU GPL: a free software license, and a "
@@ -289,7 +259,6 @@ msgstr ""
 "licence de logiciel libre et d'un &laquo;&nbsp;gauche d'auteur&nbsp;&raquo;. "
 "Nous la recommandons pour la plupart des logiciels."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Please note that GPLv3 is not compatible with GPLv2 by itself.  However, "
@@ -307,7 +276,6 @@ msgstr ""
 "compatibilité entre les licences GNU, veuillez <a href=\"/licenses/gpl-faq."
 "fr.html#AllCompatibility\">consulter notre FAQ</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"GPLv2\" href=\"/licenses/old-licenses/gpl-2.0.html\"> GNU General "
@@ -316,7 +284,6 @@ msgstr ""
 "<a id=\"GPLv2\" href=\"/licenses/old-licenses/gpl-2.0.html\">La licence GNU "
 "General Public License (GPL) version 2</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is the previous version of the GNU GPL: a free software license, and a "
@@ -327,7 +294,6 @@ msgstr ""
 "de logiciel libre et une licence de gauche d'auteur. Nous recommandons la <a "
 "href=\"#GNUGPL\">derni&egrave;re version</a> pour la plupart des logiciels"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Please note that GPLv2 is, by itself, not compatible with GPLv3.  However, "
@@ -345,7 +311,6 @@ msgstr ""
 "compatibilité entre les licences GNU, veuillez <a href=\"/licenses/gpl-faq."
 "fr.html#AllCompatibility\">consulter notre FAQ</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"LGPL\" href=\"/licenses/lgpl.html\"> GNU Lesser General Public "
@@ -354,7 +319,6 @@ msgstr ""
 "<a id=\"LGPL\" href=\"/licenses/lgpl.html\">La GNU Lesser General Public "
 "License (LGPL) version 3</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is the latest version of the LGPL: a free software license, but not a "
@@ -368,7 +332,6 @@ msgstr ""
 "Nous la recommandons dans <a href=\"/licenses/why-not-lgpl.fr.html\">des "
 "circonstances sp&eacute;ciales seulement</a>."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Please note that LGPLv3 is not compatible with GPLv2 by itself.  However, "
@@ -386,7 +349,6 @@ msgstr ""
 "compatibilité entre les licences GNU, veuillez <a href=\"/licenses/gpl-faq."
 "fr.html#AllCompatibility\">consulter notre FAQ</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"LGPLv2.1\" href=\"/licenses/old-licenses/lgpl-2.1.html\"> GNU Lesser "
@@ -395,7 +357,6 @@ msgstr ""
 "<a id=\"LGPLv2.1\" href=\"/licenses/old-licenses/lgpl-2.1.html\">La licence "
 "GNU Lesser General Public License version 2.1</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is the previous version of the LGPL: a free software license, but not a "
@@ -416,7 +377,6 @@ msgstr ""
 "les licences GNU, veuillez <a href=\"/licenses/gpl-faq.fr."
 "html#AllCompatibility\">consulter notre FAQ</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"AGPLv3.0\" href=\"/licenses/agpl.html\">GNU Affero General Public "
@@ -425,7 +385,6 @@ msgstr ""
 "<a id=\"AGPLv3.0\" href=\"/licenses/agpl.html\">GNU Affero General Public "
 "License (AGPL) version 3</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software, copyleft license.  Its terms effectively consist of "
@@ -441,7 +400,6 @@ msgstr ""
 "recommandons aux d&eacute;veloppeurs d'envisager l'utilisation de la GNU "
 "AGPL pour tout logiciel qui sera ex&eacute;cut&eacute; par le r&eacute;seau."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Please note that the GNU AGPL is not compatible with GPLv2.  It is also "
@@ -463,7 +421,6 @@ msgstr ""
 "programme qu'ils veulent. Consulter la section 13 de ces deux licences pour "
 "plus de détails."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a href=\"/prep/maintain/html_node/License-Notices-for-Other-Files.html\" id="
@@ -472,7 +429,6 @@ msgstr ""
 "<a href=\"/prep/maintain/html_node/License-Notices-for-Other-Files.html\" id="
 "\"GNUAllPermissive\">Licence GNU All-Permissive</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a simple permissive free software license, compatible with the GNU "
@@ -485,7 +441,6 @@ msgstr ""
 "fichiers README et les petits fichiers d'aide. Tous les développeurs peuvent "
 "l'utiliser dans des contitions similaires."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Older versions of this license did not have the second sentence with the "
@@ -494,7 +449,6 @@ msgstr ""
 "Les anciennes versions de cette licence n'avaient pas la deuxième phrase "
 "clause de garantie expresse. Cette même analyse s'applique aux deux versions."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"apache2\" href=\"http://www.apache.org/licenses/LICENSE-2.0\"> "
@@ -503,13 +457,11 @@ msgstr ""
 "<a id=\"apache2\" href=\"http://www.apache.org/licenses/LICENSE-2.0\"> "
 "Apache License, Version 2.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "This is a free software license, compatible with version 3 of the GPL."
 msgstr ""
 "C'est une licence de logiciel libre, compatible avec la version 3 de la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Please note that this license is not compatible with GPL version 2, because "
@@ -520,7 +472,6 @@ msgstr ""
 "car elle a des conditions qui ne figurent pas dans l'ancienne version. Ceci "
 "inclut certaines clauses de fin de brevet et d'indemnisation."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"ArtisticLicense2\" href=\"http://www.perlfoundation.org/"
@@ -529,7 +480,6 @@ msgstr ""
 "<a id=\"ArtisticLicense2\" href=\"http://www.perlfoundation.org/"
 "artistic_license_2_0\">Artistic License 2.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license is a free software license, compatible with the GPL thanks to "
@@ -538,7 +488,6 @@ msgstr ""
 "Ceci est une licence de logiciel libre, compatible avec la GPL gr&acirc;ce "
 "&agrave; l'option de changement de licence de la section 4(c)(ii)."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -554,13 +503,11 @@ msgstr ""
 "products/berkeley-db/htdocs/oslicense.html\">Berkeley Database License</a> "
 "(appel&eacute;e aussi Sleepycat Software Product License)."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "This is a free software license, compatible with the GNU GPL."
 msgstr ""
 "Il s'agit d'une licence de logiciel libre compatible avec la GPL de GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"boost\" href=\"http://www.boost.org/LICENSE_1_0.txt\"> Boost "
@@ -569,7 +516,6 @@ msgstr ""
 "<a id=\"boost\" href=\"http://www.boost.org/LICENSE_1_0.txt\">Boost Software "
 "License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a simple, permissive non-copyleft free software license, compatible "
@@ -578,7 +524,6 @@ msgstr ""
 "C'est une licence de logiciel libre simple, permissive, sans gauche "
 "d'auteur, compatible avec la GPL de GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"ModifiedBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#5"
@@ -587,7 +532,6 @@ msgstr ""
 "<a id=\"ModifiedBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#5"
 "\">Modified BSD License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "(Note: on the preceding link, the modified BSD license is listed in the "
@@ -596,7 +540,6 @@ msgstr ""
 "(Note&nbsp;: ce lien pointe vers le paragraphe &laquo;&nbsp;G&eacute;"
 "n&eacute;ralit&eacute;s&nbsp;&raquo;.)"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is the original BSD license, modified by removal of the advertising "
@@ -607,7 +550,6 @@ msgstr ""
 "publicitaire. C'est une licence de logiciel libre simple et permissive, sans "
 "gauche d'auteur, compatible avec la GPL de GNU."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you want a simple, permissive non-copyleft free software license, the "
@@ -627,14 +569,12 @@ msgstr ""
 "l'emploi de la licence X11. La licence X11 et la licence BSD r&eacute;"
 "vis&eacute;e sont tr&egrave;s proches l'une de l'autre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "This license is sometimes referred to as the 3-clause BSD license."
 msgstr ""
 "Cette licence est quelquefois appel&eacute;e &laquo;&nbsp;3-clause BSD "
 "license&nbsp;&raquo;"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -662,7 +602,6 @@ msgid ""
 "CC0."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"CeCILL\" href=\"http://www.cecill.info/licences.en.html\"> CeCILL "
@@ -671,7 +610,6 @@ msgstr ""
 "<a id=\"CeCILL\" href=\"http://www.cecill.info/licences.fr.html\">CeCILL "
 "version 2</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The CeCILL is a free software license, explicitly compatible with the GNU "
@@ -680,7 +618,6 @@ msgstr ""
 "La licence CeCILL est une licence de logiciel libre, explicitement "
 "compatible avec la GPL GNU."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The text of the CeCILL uses a couple of biased terms that ought to be "
@@ -701,7 +638,6 @@ msgstr ""
 "Cependant, cela ne pose pas de probl&egrave;me particulier pour les "
 "programmes utilisant la licence CeCILL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Section 9.4 of the CeCILL commits the program's developers to certain forms "
@@ -717,7 +653,6 @@ msgstr ""
 "cependant, si vous &ecirc;tes s&ucirc;r de vouloir coop&eacute;rer avec les "
 "utilisateurs dans ce sens, alors ce n'est pas un probl&egrave;me pour vous."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"clearbsd\" href=\"http://labs.metacarta.com/license-explanation."
@@ -726,7 +661,6 @@ msgstr ""
 "<a id=\"clearbsd\" href=\"http://labs.metacarta.com/license-explanation."
 "html#license\">Clear BSD License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, compatible with both GPLv2 and GPLv3.  It "
@@ -747,7 +681,6 @@ msgstr ""
 "d&eacute;veloppeur d&eacute;clare des licences de brevets pour vous "
 "pi&eacute;ger, il serait sage d'&eacute;viter le programme."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"CryptixGeneralLicense\" href=\"http://www.cryptix.org/LICENSE.TXT\"> "
@@ -756,7 +689,6 @@ msgstr ""
 "<a id=\"CryptixGeneralLicense\" href=\"http://www.cryptix.org/LICENSE.TXT"
 "\">Cryptix General License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a simple, permissive non-copyleft free software license, compatible "
@@ -766,7 +698,6 @@ msgstr ""
 "d'auteur, compatible avec la GPL de GNU. Tr&egrave;s semblable &agrave; la "
 "licence X11."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"eCos20\" href=\"/licenses/ecos-license.html\"> eCos license version "
@@ -775,7 +706,6 @@ msgstr ""
 "<a id=\"eCos20\" href=\"/licenses/ecos-license.html\">eCos License, version "
 "2.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The eCos license version 2.0 is a GPL-compatible free software license.  It "
@@ -789,7 +719,6 @@ msgstr ""
 "licence a les m&ecirc;mes <a href=\"/philosophy/why-not-lgpl.fr.html"
 "\">points faibles</a> que la LGPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -802,7 +731,6 @@ msgstr ""
 "<a id=\"RPL\" href=\"http://www.opensource.org/licenses/rpl.php\">Reciprocal "
 "Public License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, and it is compatible with GPLv3.  It is "
@@ -820,7 +748,6 @@ msgstr ""
 "destinataires. Cette licence de brevet et la clause d'indemnisation de la "
 "section 9 rendent cette licence incompatible avec la GPLv2."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Eiffel\" href=\"/licenses/eiffel-forum-license-2.html\"> Eiffel "
@@ -829,7 +756,6 @@ msgstr ""
 "<a id=\"Eiffel\" href=\"/licenses/eiffel-forum-license-2.html\">Eiffel Forum "
 "License, version 2</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, compatible with the GNU GPL.  <a href="
@@ -840,7 +766,6 @@ msgstr ""
 "href=\"http://www.eiffel-nice.org/license/forum.txt\">versions précédentes</"
 "a> de la licence Eiffel ne sont pas compatibles avec la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"EUDataGrid\" href=\"http://www.opensource.org/licenses/eudatagrid.php"
@@ -849,7 +774,6 @@ msgstr ""
 "<a id=\"EUDataGrid\" href=\"http://www.opensource.org/licenses/eudatagrid.php"
 "\">EU DataGrid Software License</a>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Expat\" href=\"http://www.jclark.com/xml/copying.txt\"> Expat "
@@ -858,7 +782,6 @@ msgstr ""
 "<a id=\"Expat\" href=\"http://www.jclark.com/xml/copying.txt\">Expat "
 "License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a simple, permissive non-copyleft free software license, compatible "
@@ -869,7 +792,6 @@ msgstr ""
 "compatible avec la GPL de GNU. D'une mani&egrave;re ambigu&euml;, on "
 "l'appelle parfois <em>la Licence du MIT</em>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"FreeBSD\" href=\"http://www.freebsd.org/copyright/freebsd-license."
@@ -878,7 +800,6 @@ msgstr ""
 "<a id=\"FreeBSD\" href=\"http://www.freebsd.org/copyright/freebsd-license."
 "html\">FreeBSD license</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is the original BSD license with the advertising clause and another "
@@ -891,7 +812,6 @@ msgstr ""
 "&nbsp;2-clause BSD license&nbsp;&raquo;). C'est une licence de logiciel "
 "libre permissive simple, sans gauche d'auteur, compatible avec la GNU GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you want a simple, permissive non-copyleft free software license, the "
@@ -907,7 +827,6 @@ msgstr ""
 "pourrait amener &agrave; utiliser la <a href=\"#OriginalBSD\">licence BSD "
 "<em>originale</em></a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a href=\"http://freetype.fis.uniroma2.it/FTL.TXT\" id=\"freetype\">Freetype "
@@ -916,7 +835,6 @@ msgstr ""
 "<a href=\"http://freetype.fis.uniroma2.it/FTL.TXT\" id=\"freetype\">Freetype "
 "Project License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, and compatible with GPLv3.  It has some "
@@ -925,7 +843,6 @@ msgstr ""
 "C'est une licence de logiciel libre, compatible avec la GPLv3. Elle a "
 "quelques conditions d'attribution qui la rendent incompatible avec la GPLv2."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"iMatix\" href=\"http://legacy.imatix.com/html/sfl/sfl4.htm#license"
@@ -934,12 +851,10 @@ msgstr ""
 "<a id=\"iMatix\" href=\"http://legacy.imatix.com/html/sfl/sfl4.htm#license"
 "\"> Licence de iMatix Standard Function Library</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "This is a free software license and is GPL compatible."
 msgstr "Il s'agit d'une licence de logiciel libre compatible avec la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a href=\"http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2\" id="
@@ -948,7 +863,6 @@ msgstr ""
 "<a href=\"http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2\" id="
 "\"ijg\">Independent JPEG Group License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, and compatible with the GNU GPL.  The "
@@ -960,7 +874,6 @@ msgstr ""
 "changements, ainsi que le n&eacute;cessite la GPL, respecteront aussi la "
 "condition similaire de cette licence."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a href=\"http://trac.enlightenment.org/e/browser/trunk/imlib2/COPYING\" id="
@@ -969,7 +882,6 @@ msgstr ""
 "<a href=\"http://trac.enlightenment.org/e/browser/trunk/imlib2/COPYING\" id="
 "\"imlib\">>La license de imlib2</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, and GPL-compatible.  The author has "
@@ -981,7 +893,6 @@ msgstr ""
 "tous les moyens ont &eacute;t&eacute; &laquo;&nbsp;ont &eacute;t&eacute; "
 "rendues disponibles publiquement&nbsp;&raquo; selon leurs mots."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"intel\" href=\"http://www.opensource.org/licenses/intel-open-source-"
@@ -990,20 +901,17 @@ msgstr ""
 "<a id=\"intel\" href=\"http://www.opensource.org/licenses/intel-open-source-"
 "license.html\">Intel Open Source License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "This is a Free Software license, compatible with the GNU GPL."
 msgstr ""
 "Il s'agit d'une licence de logiciel libre compatible avec la GPL de GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a href=\"http://www.isc.org/software/license\" id=\"ISC\">ISC License</a>"
 msgstr ""
 "<a href=\"http://www.isc.org/software/license\" id=\"ISC\">ISC License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license is sometimes also known as the OpenBSD License.  It is a free "
@@ -1012,7 +920,6 @@ msgstr ""
 "Cette licence est parfois aussi connue sous le nom de licence OpenBSD. C'est "
 "une licence de logiciel libre, compatible avec la GNU GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license does have an unfortunate wording choice: it provides recipients "
@@ -1028,7 +935,6 @@ msgstr ""
 "d&eacute;clarait ensuite qu'il &eacute;tait interdit de distribuer des "
 "versions modifi&eacute;es du logiciel."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 #, fuzzy
 #| msgid ""
@@ -1058,7 +964,6 @@ msgstr ""
 "\">Expat License</a> et la <a href=\"#FreeBSD\">Licence FreeBSD</a> sont "
 "similairement permissives et br&egrave;ves."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -1071,7 +976,6 @@ msgstr ""
 "<a id=\"NCSA\" href=\"http://www.otm.uiuc.edu/faculty/forms/opensource.asp"
 "\"> NCSA/University of Illinois Open Source License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license is based on the terms of the <a href=\"#Expat\">Expat</a> and "
@@ -1083,12 +987,10 @@ msgstr ""
 "licence de logiciel libre permissive simple, sans gauche d'auteur et "
 "compatible avec la GPL GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "License of Netscape Javascript"
 msgstr "La licence sur Javascript de Netscape"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is the disjunction of the <a href=\"#NPL\">Netscape Public License</a> "
@@ -1101,7 +1003,6 @@ msgstr ""
 "licence de logiciel libre compatible avec la GPL de GNU, mais en tant que "
 "gauche d'auteur elle est un peu faible."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This disjunctive license is a good choice if you want to make your package "
@@ -1112,7 +1013,6 @@ msgstr ""
 "&agrave; la fois compatible GPL et compatible MPL. Cependant vous obtiendrez "
 "le m&ecirc;me r&eacute;sultat avec la LGPL ou bien la licence de Guile."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Such a disjunctive license might be a good choice if you have been using the "
@@ -1124,7 +1024,6 @@ msgstr ""
 "vers une licence compatible GPL sans retirer pour autant les permissions que "
 "vous avez accord&eacute;es pour les pr&eacute;c&eacute;dentes versions."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"newOpenLDAP\" href=\"http://www.openldap.org/software/release/"
@@ -1133,7 +1032,6 @@ msgstr ""
 "<a id=\"newOpenLDAP\" href=\"http://www.openldap.org/software/release/"
 "license.html\"> OpenLDAP License, Version 2.7</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a permissive non-copyleft free software license that is compatible "
@@ -1142,12 +1040,10 @@ msgstr ""
 "C'est une licence permissive, sans gauche d'auteur, compatible avec la GPL "
 "de GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "<a id=\"PerlLicense\">License of Perl 5 and below</a>"
 msgstr "<a id=\"PerlLicense\">La licence de Perl 5 et ant&eacute;rieures</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license is the disjunction of the <a href=\"#ArtisticLicense\">Artistic "
@@ -1165,7 +1061,6 @@ msgstr ""
 "avec la <a href=\"/licenses/gpl.html\">GPL de GNU</a>, puisque cette "
 "derni&egrave;re est l'un des deux choix."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We recommend you use this license for any Perl 4 or Perl 5 package you "
@@ -1179,12 +1074,10 @@ msgstr ""
 "prions de ne pas l'utiliser en dehors de Perl; utilisez plut&ocirc;t la GPL "
 "de GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "<a id=\"PublicDomain\">Public Domain</a>"
 msgstr "<a id=\"PublicDomain\">Le domaine public</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Being in the public domain is not a license; rather, it means the material "
@@ -1212,7 +1105,6 @@ msgid ""
 "where that is not legally possible."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Python\" href=\"http://www.python.org/2.0.1/license.html\"> License "
@@ -1221,7 +1113,6 @@ msgstr ""
 "<a id=\"Python\" href=\"http://www.python.org/2.0.1/license.html\">La "
 "licence de Python 2.0.1, 2.1.1 et suivantes</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license and is compatible with the GNU GPL.  Please "
@@ -1233,12 +1124,10 @@ msgstr ""
 "sont plac&eacute;es sous une licence diff&eacute;rente (<a href=\"#PythonOld"
 "\">voir plus bas</a>)."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "License of Python 1.6a2 and earlier versions"
 msgstr "La licence de Python, jusqu'&agrave; la version 1.6a2"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license and is compatible with the GNU GPL.  Please "
@@ -1249,7 +1138,6 @@ msgstr ""
 "certaines versions plus r&eacute;centes de Python sont plac&eacute;es sous "
 "une licence diff&eacute;rente (voir ci-dessus et plus bas)."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Ruby\" href=\"http://www.ruby-lang.org/en/LICENSE.txt\"> License of "
@@ -1258,7 +1146,6 @@ msgstr ""
 "<a id=\"Ruby\" href=\"http://www.ruby-lang.org/en/LICENSE.txt\">La licence "
 "de Ruby</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, compatible with the GPL via an explicit "
@@ -1267,7 +1154,6 @@ msgstr ""
 "C'est une licence de logiciel libre, compatible avec la GPL gr&acirc;ce "
 "&agrave; une clause explicite de double licence."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a href=\"http://oss.sgi.com/projects/FreeB/\" id=\"SGIFreeB\"> SGI Free "
@@ -1276,7 +1162,6 @@ msgstr ""
 "<a href=\"http://oss.sgi.com/projects/FreeB/\" id=\"SGIFreeB\">SGI Free "
 "Software License B, version 2.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The SGI Free Software License B version 2.0 is a free software license.  It "
@@ -1287,7 +1172,6 @@ msgstr ""
 "libre. Elle est essentiellement identique à la <a href=\"#X11License\">X11 "
 "License</a>, avec une option permettant de fournir des notices de licence."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Previous versions of the SGI Free Software License B were not free software "
@@ -1303,7 +1187,6 @@ msgstr ""
 "si une partie de logiciel a été publiée sous la SGI Free Software License B, "
 "vous pouvez l'utiliser sous les termes de cette version libre."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"StandardMLofNJ\" href=\"http://cm.bell-labs.com/cm/cs/what/smlnj/"
@@ -1312,7 +1195,6 @@ msgstr ""
 "<a id=\"StandardMLofNJ\" href=\"http://cm.bell-labs.com/cm/cs/what/smlnj/"
 "license.html\">Standard ML of New Jersey Copyright License</a>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Unicode\" href=\"http://www.unicode.org/copyright.html#Exhibit1"
@@ -1321,7 +1203,6 @@ msgstr ""
 "<a id=\"Unicode\" href=\"http://www.unicode.org/copyright.html#Exhibit1"
 "\">Unicode, Inc. License Agreement for Data Files and Software</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a license that Unicode, Inc. has applied to the Unicode Character "
@@ -1335,7 +1216,6 @@ msgstr ""
 "programmes. C'est une licence permissive simple, compatible avec toutes les "
 "versions de la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you want to use files covered by this License Agreement in your own "
@@ -1357,7 +1237,6 @@ msgstr ""
 "conditions de cet accord de licence pour la distribution des fichiers, mais "
 "celles-ci sont très simples."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Please take care to ensure that the files you are using are covered by this "
@@ -1373,7 +1252,6 @@ msgstr ""
 "Une courte explication au début de l'accord de licence détaille les fichiers "
 "qu'elle couvre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Please do not use this License Agreement for your own software.  If you want "
@@ -1386,7 +1264,6 @@ msgstr ""
 "veuillez utiliser la <a href=\"#Expat\">licence Expat</a> qui est de loin "
 "plus répandue et largement reconnue dans la communauté du logiciel libre."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -1413,7 +1290,6 @@ msgid ""
 "a fallback license, and is more thorough and mature than the Unlicense."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Vim\" href=\"http://www.gnu.org/licenses/vim-license.txt\"> License "
@@ -1422,7 +1298,6 @@ msgstr ""
 "<a id=\"Vim\" href=\"http://www.gnu.org/licenses/vim-license.txt\">La "
 "licence de Vim, version 6.1 et suivantes</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, partially copyleft but not really. It is "
@@ -1431,7 +1306,6 @@ msgstr ""
 "Une licence simple et permissive de logiciel libre sans gauche d'auteur, "
 "compatible avec la GPL de GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"W3C\" href=\"http://www.w3.org/Consortium/Legal/2002/copyright-"
@@ -1440,7 +1314,6 @@ msgstr ""
 "<a id=\"W3C\" href=\"http://www.w3.org/Consortium/Legal/2002/copyright-"
 "software-20021231\">W3C Software Notice and License</a>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -1453,7 +1326,6 @@ msgstr ""
 "<a id=\"ZLib\" href=\"http://www.gzip.org/zlib/zlib_license.html\">La "
 "licence de ZLib</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Google's WebM implementation is covered by the <a href=\"#ModifiedBSD"
@@ -1466,7 +1338,6 @@ msgid ""
 "Thus, all of WebM's license is free and GPL-compatible."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"WTFPL\" href=\"http://sam.zoy.org/wtfpl/COPYING\">WTFPL, Version 2</"
@@ -1475,14 +1346,12 @@ msgstr ""
 "<a id=\"WTFPL\" href=\"http://sam.zoy.org/wtfpl/COPYING\">WTFPL, Version 2</"
 "a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "This is a free software license, very permissive and GPL-compatible."
 msgstr ""
 "Il s'agit d'une licence de logiciel libre, très permissive et compatible "
 "avec la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"X11License\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3"
@@ -1491,7 +1360,6 @@ msgstr ""
 "<a id=\"X11License\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3"
 "\">X11 License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a simple, permissive non-copyleft free software license, compatible "
@@ -1506,7 +1374,6 @@ msgstr ""
 "XFree86 sont distribu&eacute;es sous la licence <a href=\"#XFree861.1License"
 "\">XFree86 1.1 license</a>."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license is sometimes called the <em>MIT license</em>, but that term is "
@@ -1516,7 +1383,6 @@ msgstr ""
 "&raquo; mais ce terme est trompeur&nbsp;: le MIT a publi&eacute; ses "
 "logiciels sous diverses licences."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a href=\"http://www.xfree86.org/current/LICENSE4.html\" id="
@@ -1525,7 +1391,6 @@ msgstr ""
 "<a href=\"http://www.xfree86.org/current/LICENSE4.html\" id="
 "\"XFree861.1License\">XFree86 1.1 License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a simple, permissive non-copyleft free software license, compatible "
@@ -1534,7 +1399,6 @@ msgstr ""
 "C'est une licence de logiciel libre simple, permissive, sans gauche "
 "d'auteur, compatible avec la version 3 de la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Please note that this license is incompatible with version 2 of the GPL, "
@@ -1545,7 +1409,6 @@ msgstr ""
 "GPL, &agrave; cause des conditions qui s'appliquent &agrave; toute la "
 "documentation dans la distribution qui contient des accords."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "There are currently several variants of XFree86, and only some of them use "
@@ -1556,7 +1419,6 @@ msgstr ""
 "utilisent cette licence. Les autres continuent &agrave; utiliser la licence "
 "<a href=\"#X11License\">X11 license</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"ZLib\" href=\"http://www.gzip.org/zlib/zlib_license.html\"> License "
@@ -1565,12 +1427,10 @@ msgstr ""
 "<a id=\"ZLib\" href=\"http://www.gzip.org/zlib/zlib_license.html\">La "
 "licence de ZLib</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "This is a free software license, and compatible with the GPL."
 msgstr "Il s'agit d'une licence de logiciel libre compatible avec la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Zope20\" href=\"http://www.zope.org/Resources/ZPL\"> Zope Public "
@@ -1579,7 +1439,6 @@ msgstr ""
 "<a id=\"Zope20\" href=\"http://www.zope.org/Resources/ZPL\">Zope Public "
 "License, versions 2.0 et 2.1</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a simple, permissive non-copyleft free software license which is "
@@ -1588,7 +1447,6 @@ msgstr ""
 "La ZPL est une licence de logiciel libre simple, permissive, sans gauche "
 "d'auteur. Elle est compatible avec la GPL."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid ""
 "<a id=\"GPLIncompatibleLicenses\"> GPL-Incompatible Free Software Licenses</"
@@ -1597,7 +1455,6 @@ msgstr ""
 "<a id=\"GPLIncompatibleLicenses\">Les licences de logiciels libres non "
 "compatibles avec la GPL</a>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "<strong>The following licenses are <a href=\"/philosophy/free-sw.html\">free "
@@ -1610,7 +1467,6 @@ msgstr ""
 "licenses/gpl-faq.fr.html#WhatIsCompatible\"><em>non compatibles</em></a> "
 "avec la <a href=\"#GNUGPL\">GPL de GNU</a>&nbsp;:</strong>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"AGPLv1.0\" href=\"http://www.affero.org/oagpl.html\"> Affero General "
@@ -1619,7 +1475,6 @@ msgstr ""
 "<a id=\"AGPLv1.0\" href=\"http://www.affero.org/oagpl.html\">Affero General "
 "Public License version 1</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The Affero General Public License is a free software license, copyleft, and "
@@ -1635,7 +1490,6 @@ msgstr ""
 "paragraphe (2d), concerne la distribution des programmes applicatifs "
 "&agrave; travers les services web et les r&eacute;seaux."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license has been succeeded by the <a href=\"#AGPLv3.0\">GNU Affero "
@@ -1645,7 +1499,6 @@ msgstr ""
 "Public License version 3</a>&nbsp; veuillez utiliser celle-ci &agrave; la "
 "place."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"AcademicFreeLicense\" href=\"http://opensource.org/licenses/academic."
@@ -1654,7 +1507,6 @@ msgstr ""
 "<a id=\"AcademicFreeLicense\" href=\"http://opensource.org/licenses/academic."
 "php\">Academic Free License, toutes versions jusqu'&agrave; la 3.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The Academic Free License is a free software license, not copyleft, and "
@@ -1668,7 +1520,6 @@ msgstr ""
 "\"#OSLRant\">Open Software License</a>, et doivent &ecirc;tre &eacute;"
 "vit&eacute;es pour les m&ecirc;mes raisons."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"apache1.1\" href=\"http://www.apache.org/licenses/LICENSE-1.1\"> "
@@ -1677,7 +1528,6 @@ msgstr ""
 "<a id=\"apache1.1\" href=\"http://www.apache.org/licenses/LICENSE-1.1"
 "\">Apache License, version 1.1</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a permissive non-copyleft free software license.  It has a few "
@@ -1687,7 +1537,6 @@ msgstr ""
 "Licence de logiciel libre sans gauche d'auteur, permissive, avec quelques "
 "aspects qui la rendent incompatible avec la GPL de GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"apache1\" href=\"http://www.apache.org/licenses/LICENSE-1.0\"> "
@@ -1696,7 +1545,6 @@ msgstr ""
 "<a id=\"apache1\" href=\"http://www.apache.org/licenses/LICENSE-1.0\">Apache "
 "License, version 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a simple, permissive non-copyleft free software license with an "
@@ -1709,7 +1557,6 @@ msgstr ""
 "\">probl&egrave;mes pratiques</a> semblables &agrave; ceux de la licence "
 "BSD, avec y compris l'incompatibilit&eacute; avec la GPL de GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -1722,7 +1569,6 @@ msgstr ""
 "<a id=\"apsl2\" href=\"http://www.opensource.apple.com/apsl/2.0.txt\">Apple "
 "Public Source License (APSL), version 2</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, incompatible with the GNU GPL.  We "
@@ -1737,7 +1583,6 @@ msgstr ""
 "licence. <a href=\"/philosophy/apsl.fr.html\">Plus d'explications sont "
 "disponibles ici</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a href=\"http://www.bittorrent.com/bittorrent-open-source-license\" id="
@@ -1746,7 +1591,6 @@ msgstr ""
 "<a href=\"http://www.bittorrent.com/bittorrent-open-source-license\" id="
 "\"bittorrent\">BitTorrent Open Source License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, but incompatible with the GPL, for the same "
@@ -1756,7 +1600,6 @@ msgstr ""
 "pour les m&ecirc;mes raisons que la <a href=\"#josl\">Jabber Open Source "
 "License</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"OriginalBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#6"
@@ -1765,7 +1608,6 @@ msgstr ""
 "<a id=\"OriginalBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#6"
 "\">Original BSD license</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "(Note: on the preceding link, the original BSD license is listed in the "
@@ -1777,7 +1619,6 @@ msgstr ""
 "Cette licence est parfois appel&eacute;e &laquo;&nbsp;4-clause BSD "
 "license&nbsp;&raquo;)."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a simple, permissive non-copyleft free software license with a "
@@ -1793,7 +1634,6 @@ msgstr ""
 "mais il provoque des <a href=\"/philosophy/bsd.fr.html\">probl&egrave;mes "
 "pratiques</a> et en particulier l'incompatibilit&eacute; avec la GPL de GNU."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We urge you not to use the original BSD license for software you write.  If "
@@ -1809,7 +1649,6 @@ msgstr ""
 "modifi&eacute;e</a> ou la licence X11. Cependant, il n'y a aucune raison de "
 "ne pas utiliser les programmes publi&eacute;s sous la licence BSD originelle."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"CDDL\" href=\"http://www.opensolaris.org/os/licensing/cddllicense.txt"
@@ -1818,7 +1657,6 @@ msgstr ""
 "<a id=\"CDDL\" href=\"http://www.opensolaris.org/os/licensing/cddllicense.txt"
 "\"> Common Development and Distribution License (CDDL), version 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license.  It has a copyleft with a scope that's "
@@ -1834,7 +1672,6 @@ msgstr ""
 "peuvent pas &ecirc;tre li&eacute;s l&eacute;galement. Nous vous pressons de "
 "ne pas utiliser la CDDL pour cette raison."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Also unfortunate in the CDDL is its use of the term &ldquo;<a href=\"/"
@@ -1844,7 +1681,6 @@ msgstr ""
 "philosophy/not-ipr.fr.xhtml\">&laquo;&nbsp;propri&eacute;t&eacute; "
 "intellectuelle&nbsp;&raquo;</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"CPAL\" href=\"http://opensource.org/licenses/cpal_1.0\">Common "
@@ -1853,7 +1689,6 @@ msgstr ""
 "<a id=\"CPAL\" href=\"http://opensource.org/licenses/cpal_1.0\">Common "
 "Public Attribution License 1.0 (CPAL)</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license.  It is based on the <a href=\"#MPL"
@@ -1869,7 +1704,6 @@ msgstr ""
 "aussi de publier le source du programme si vous autoriser d'autres personnes "
 "&agrave; l'utiliser."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"CommonPublicLicense10\" href=\"http://www.eclipse.org/legal/cpl-v10."
@@ -1878,7 +1712,6 @@ msgstr ""
 "<a id=\"CommonPublicLicense10\" href=\"http://www.eclipse.org/legal/cpl-v10."
 "html\">Common Public License Version 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license.  Unfortunately, its weak copyleft and "
@@ -1888,7 +1721,6 @@ msgstr ""
 "faible et le choix de clause l&eacute;gale la rendent incompatible avec la "
 "GPL de GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Condor\" href=\"http://www.cs.wisc.edu/condor/condor-public-license."
@@ -1904,7 +1736,6 @@ msgid ""
 "license."
 msgstr ""
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 #, fuzzy
 #| msgid ""
@@ -1923,7 +1754,6 @@ msgstr ""
 "sur l'utilisation de noms relatifs &agrave; Condor et une condition de "
 "conformit&eacute; aux lois d'exportation am&eacute;ricaines."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"EPL\" href=\"http://www.eclipse.org/legal/epl-v10.html\"> Eclipse "
@@ -1932,7 +1762,6 @@ msgstr ""
 "<a id=\"EPL\" href=\"http://www.eclipse.org/legal/epl-v10.html\">Eclipse "
 "Public License Version 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The Eclipse Public License is similar to the <a href=\"#CommonPublicLicense10"
@@ -1948,7 +1777,6 @@ msgstr ""
 "tendues concernant la violation de licence sp&eacute;cifiquement contre les "
 "contributeurs du programme EPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -1961,7 +1789,6 @@ msgstr ""
 "<a href=\"http://ec.europa.eu/idabc/eupl\" id=\"EUPL\">European Union Public "
 "License (EUPL) version 1.1</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 #, fuzzy
 #| msgid ""
@@ -1990,7 +1817,6 @@ msgstr ""
 "conséquent, les développeurs ne peuvents pas compter sur cette licence pour "
 "un copyleft fort."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The EUPL is compatible with GPLv2, because that is listed as one of the "
@@ -2006,7 +1832,6 @@ msgstr ""
 "en conflit avec celui de la GPLv3. À cause de cette incompatibilité, nous "
 "vous pressons de ne pas utiliser l'EUPL pour les logiciels que vous écrivez."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"IBMPL\" href=\"http://www.opensource.org/licenses/ibmpl.php\"> IBM "
@@ -2015,7 +1840,6 @@ msgstr ""
 "<a id=\"IBMPL\" href=\"http://www.opensource.org/licenses/ibmpl.php\">IBM "
 "Public License, Version 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license.  Unfortunately, it has a choice of law "
@@ -2024,7 +1848,6 @@ msgstr ""
 "C'est une licence de logiciel libre mais malheureusement elle contient un "
 "choix de clause l&eacute;gale qui la rend incompatible avec la GPL de GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"josl\" href=\"http://code.google.com/p/jabber-net/source/browse/"
@@ -2035,7 +1858,6 @@ msgstr ""
 "branches/RELEASE_1_0/LICENSE.txt\">Jabber Open Source License, Version 1.0</"
 "a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The license is a free software license, incompatible with the GPL.  It "
@@ -2051,7 +1873,6 @@ msgstr ""
 "redistribuer sous GPL du code soumis &agrave; cette licence. D'o&ugrave; "
 "l'incompatibilit&eacute;."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"LPPL-1.3a\" href=\"http://www.latex-project.org/lppl/lppl-1-3a.txt"
@@ -2060,7 +1881,6 @@ msgstr ""
 "<a id=\"LPPL-1.3a\" href=\"http://www.latex-project.org/lppl/lppl-1-3a.txt"
 "\">LaTeX Project Public License 1.3a</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We have not written a full analysis of this license, but it is a free "
@@ -2075,7 +1895,6 @@ msgstr ""
 "est incompatible avec la GPL car certaines versions modifi&eacute;es doivent "
 "contenir une copie ou un pointeur vers une version non modifi&eacute;e."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"LPPL-1.2\" href=\"http://www.latex-project.org/lppl/lppl-1-2.txt\"> "
@@ -2084,7 +1903,6 @@ msgstr ""
 "<a id=\"LPPL-1.2\" href=\"http://www.latex-project.org/lppl/lppl-1-2.txt"
 "\">LaTeX Project Public License 1.2</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license is an incomplete statement of the distribution terms for "
@@ -2097,7 +1915,6 @@ msgstr ""
 "libre, mais elle est incompatible avec la <a href=\"/licenses/gpl.html"
 "\">GPL</a> du fait de nombreuses exigences qui ne figurent pas dans la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license contains complex and annoying restrictions on how to publish a "
@@ -2110,7 +1927,6 @@ msgstr ""
 "qui la place &agrave; l'extr&ecirc;me limite de l'acceptable&nbsp;: le fait "
 "que tout fichier modifi&eacute; doive &ecirc;tre renomm&eacute;."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The reason this requirement is acceptable for LaTeX is that TeX has a "
@@ -2128,7 +1944,6 @@ msgstr ""
 "constituerait un obstacle r&eacute;dhibitoire qui nous m&egrave;nerait "
 "&agrave; classer la licence comme non libre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This condition may cause trouble with some major modifications.  For "
@@ -2140,7 +1955,6 @@ msgid ""
 "context does not make it nonfree in the original context."
 msgstr ""
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The LPPL says that some files, in certain versions of LaTeX, may have "
@@ -2154,7 +1968,6 @@ msgstr ""
 "aucun doute redoubler de vigilance si vous voulez produire une version de "
 "LaTeX qui soit un logiciel libre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The LPPL makes the controversial claim that simply having files on a machine "
@@ -2169,19 +1982,16 @@ msgstr ""
 "une position pareille, mais il est encore plus simple de ne pas saisir les "
 "tribunaux du tout."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "Please do not use this license for any other project."
 msgstr "N'utilisez en aucun cas cette licence."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "Note: These comments are for version 1.2 (3 Sep 1999) of the LPPL."
 msgstr ""
 "Note&nbsp;: les commentaires ci-dessus portent sur la version 1.2 de la LPPL "
 "dat&eacute;e du 3 septembre 1999."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"lucent102\" href=\"http://plan9.bell-labs.com/plan9dist/license.html"
@@ -2190,7 +2000,6 @@ msgstr ""
 "<a id=\"lucent102\" href=\"http://plan9.bell-labs.com/plan9dist/license.html"
 "\"> Lucent Public License Version 1.02 (Plan 9 license)</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, but it is incompatible with the GNU GPL "
@@ -2204,7 +2013,6 @@ msgstr ""
 "pas de probl&egrave;me &agrave; utiliser et am&eacute;liorer Plan 9 sous "
 "cette licence."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"ms-pl\" href=\"http://www.microsoft.com/opensource/licenses.mspx#Ms-"
@@ -2213,7 +2021,6 @@ msgstr ""
 "<a id=\"ms-pl\" href=\"http://www.microsoft.com/opensource/licenses.mspx#Ms-"
 "PL\">Microsoft Public License (Ms-PL)</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license; it has a copyleft that is not strong, but "
@@ -2224,7 +2031,6 @@ msgstr ""
 "n'est pas forte, mais incompatible avec la GNU GPL. Nous vous demandons de "
 "ne pas utiliser la Ms-PL pour cette raison."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"ms-rl\" href=\"http://www.microsoft.com/opensource/licenses.mspx#Ms-"
@@ -2233,7 +2039,6 @@ msgstr ""
 "<a id=\"ms-rl\" href=\"http://www.microsoft.com/opensource/licenses.mspx#Ms-"
 "RL\">Microsoft Reciprocal License (Ms-RL)</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license.  It's based on the <a href=\"#ms-pl"
@@ -2246,7 +2051,6 @@ msgstr ""
 "copyleft juste un petit peu plus fort. Elle est aussi incompatible avec la "
 "GNU GPL et nous vous demandons de ne pas utiliser la Ms-RL pour cette raison."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"MPL\" href=\"http://www.mozilla.org/MPL/MPL-1.1.html\"> Mozilla "
@@ -2255,7 +2059,6 @@ msgstr ""
 "<a id=\"MPL\" href=\"http://www.mozilla.org/MPL/MPL-1.1.html\"> Mozilla "
 "Public License (MPL)</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license which is not a strong copyleft; unlike the "
@@ -2273,7 +2076,6 @@ msgstr ""
 "GPL et un module couvert par la MPL. &Agrave; cause de cela, nous vous "
 "demandons instamment de ne pas utiliser la Mozilla Public License."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "However, MPL 1.1 has a provision (section 13) that allows a program (or "
@@ -2288,7 +2090,6 @@ msgstr ""
 "comme choix possible, alors la licence de cette partie de programme est "
 "compatible avec la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"NOSL\" href=\"http://bits.netizen.com.au/licenses/NOSL/nosl.txt\"> "
@@ -2297,7 +2098,6 @@ msgstr ""
 "<a id=\"NOSL\" href=\"http://bits.netizen.com.au/licenses/NOSL/nosl.txt\"> "
 "Netizen Open Source License (NOSL), Version 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license that is essentially the same as the Mozilla "
@@ -2313,7 +2113,6 @@ msgstr ""
 "un autre couvert par la NOSL. En raison de cela, nous vous demandons "
 "instamment de ne pas utiliser la NOSL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"NPL\" href=\"http://www.mozilla.org/NPL/NPL-1.1.html\"> Netscape "
@@ -2322,7 +2121,6 @@ msgstr ""
 "<a id=\"NPL\" href=\"http://www.mozilla.org/NPL/NPL-1.1.html\"> Netscape "
 "Public License (NPL)</a>, versions 1.0 et 1.1"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, not a strong copyleft, and incompatible "
@@ -2340,7 +2138,6 @@ msgstr ""
 "entendu, <em>vous</em> n'avez pas le droit d'utiliser <em>leur</em> code en "
 "contrepartie. Nous vous supplions de ne pas utiliser la NPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Nokia\" href=\"http://opensource.org/licenses/nokia.html\"> Nokia "
@@ -2349,7 +2146,6 @@ msgstr ""
 "<a id=\"Nokia\" href=\"http://opensource.org/licenses/nokia.html\">Nokia "
 "Open Source License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is similar to the Mozilla Public License: a free software license "
@@ -2358,12 +2154,10 @@ msgstr ""
 "Dans l'esprit de la Licence publique de Mozilla&nbsp;: une licence de "
 "logiciel libre incompatible avec la GPL de GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "Old OpenLDAP License, Version 2.3"
 msgstr "L'ancienne licence d'OpenLDAP (version 2.3)"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a permissive non-copyleft free software license with a few "
@@ -2377,7 +2171,6 @@ msgstr ""
 "une <a href=\"#newOpenLDAP\">licence diff&eacute;rente</a>, compatible avec "
 "la GPL de GNU."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We urge you not to use the older OpenLDAP license for software you write.  "
@@ -2389,7 +2182,6 @@ msgstr ""
 "d'&eacute;viter de faire fonctionner les logiciels publi&eacute;s sous cette "
 "licence."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"OSL\" href=\"http://www.opensource.org/licenses/osl-3.0.php\"> Open "
@@ -2398,7 +2190,6 @@ msgstr ""
 "<a id=\"OSL\" href=\"http://www.opensource.org/licenses/osl-3.0.php\">Open "
 "Software License, toutes versions jusqu'à la version 3.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The Open Software License is a free software license.  It is incompatible "
@@ -2407,7 +2198,6 @@ msgstr ""
 "La Open Software License est une licence de logiciel libre. Elle est "
 "incompatible avec la GNU GPL de plusieurs mainières."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "<a id=\"OSLRant\"></a>Recent versions of the Open Software License have a "
@@ -2433,7 +2223,6 @@ msgstr ""
 "incompatible avec la GPL, nous recommandons qu'aucune version de OSL soit "
 "utilisé pour quelque logiciel que ce soit."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We urge you not to use the Open Software License for software you write.  "
@@ -2444,7 +2233,6 @@ msgstr ""
 "vous écrivez. Cependant, il n'y a aucune raison à éviter d'utiliser des "
 "programmes ayant été publiés sous cette licence."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"OpenSSL\" href=\"http://www.sdisw.com/openssl.htm\"> OpenSSL "
@@ -2453,7 +2241,6 @@ msgstr ""
 "<a id=\"OpenSSL\" href=\"http://www.sdisw.com/openssl.htm\">Licence OpenSSL "
 "License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The license of OpenSSL is a conjunction of two licenses, one of them being "
@@ -2468,7 +2255,6 @@ msgstr ""
 "avec la GPL GNU. Elle contient &eacute;galement une clause publicitaire "
 "comme la licence BSD d'origine et la licence Apache."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We recommend using GNUTLS instead of OpenSSL in software you write.  "
@@ -2479,7 +2265,6 @@ msgstr ""
 "logiciels que vous &eacute;crivez. Cependant, il n'y a aucune raison de ne "
 "pas utiliser OpenSSL et les applications qui fonctionnent avec OpenSSL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Phorum\" href=\"http://phorum.org/license.txt\"> Phorum License, "
@@ -2488,7 +2273,6 @@ msgstr ""
 "<a id=\"Phorum\" href=\"http://phorum.org/license.txt\"> Phorum License, "
 "Version 2.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license but it is incompatible with the <a href=\"/"
@@ -2499,7 +2283,6 @@ msgstr ""
 "href=\"/licenses/gpl.html\">GPL</a>.  En particulier, les termes des "
 "paragraphes 3 et 4 sont incompatibles avec la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"PHP-3.01\" href=\"http://www.php.net/license/3_01.txt\"> PHP "
@@ -2508,7 +2291,6 @@ msgstr ""
 "<a id=\"PHP-3.01\" href=\"http://www.php.net/license/3_01.txt\">PHP License, "
 "Version 3.01</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license is used by most of PHP4.  It is a non-copyleft free software "
@@ -2519,7 +2301,6 @@ msgstr ""
 "licence de logiciel libre sans gauche d'auteur, incompatible avec la GPL de "
 "GNU."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We recommend that you not use this license for anything except PHP add-ons."
@@ -2527,7 +2308,6 @@ msgstr ""
 "Nous vous recommandons de r&eacute;server strictement l'usage de cette "
 "licence aux ajouts &agrave; PHP."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"PythonOld\" href=\"http://www.handle.net/python_licenses/python1.6_9-"
@@ -2537,7 +2317,6 @@ msgstr ""
 "python1.6_9-5-00.html\">La licence de Python version 1.6b1 jusqu'à 2.0 et "
 "2.1</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license but is incompatible with the GNU GPL.  The "
@@ -2549,7 +2328,6 @@ msgstr ""
 "est soumise aux lois de l'&Eacute;tat de Virginie (USA). La GPL ne permet "
 "pas cela."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"QPL\" href=\"http://doc.trolltech.com/3.0/license.html\"> Q Public "
@@ -2558,7 +2336,6 @@ msgstr ""
 "<a id=\"QPL\" href=\"http://doc.trolltech.com/3.0/license.html\">Q Public "
 "License (QPL), Version 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a non-copyleft free software license which is incompatible with the "
@@ -2570,7 +2347,6 @@ msgstr ""
 "inconv&eacute;nients pratiques, parce que les sources modifi&eacute;s ne "
 "peuvent &ecirc;tre redistribu&eacute;s que sous forme de correctifs."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We recommend that you avoid using the QPL for anything that you write, and "
@@ -2584,7 +2360,6 @@ msgstr ""
 "s'applique plus &agrave; la biblioth&egrave;que QT elle-m&ecirc;me puisque "
 "dor&eacute;navant elle est sous la GPL de GNU."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Since the QPL is incompatible with the GNU GPL, you cannot take a GPL-"
@@ -2594,7 +2369,6 @@ msgstr ""
 "Puisque la QPL est incompatible avec la GPL de GNU, il est tout &agrave; "
 "fait impossible de lier un programme sous QPL avec un autre sous GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "However, if you have written a program that uses QPL-covered library (called "
@@ -2608,7 +2382,6 @@ msgstr ""
 "sans probl&egrave;me. <em>Pour votre programme</em>, le conflit peut &ecirc;"
 "tre r&eacute;solu par l'ajout d'une notice telle que celle-ci&nbsp;:"
 
-# type: Content of: <dl><dd><pre>
 #. type: Content of: <dl><dd><pre>
 #, fuzzy, no-wrap
 #| msgid ""
@@ -2636,7 +2409,6 @@ msgstr ""
 "  et de ses ex&eacute;cutables autres que FOO.\n"
 "\n"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "You can do this, legally, if you are the copyright holder for the program.  "
@@ -2648,7 +2420,6 @@ msgstr ""
 "cette notice aux fichiers sources, &agrave; la suite du texte expliquant que "
 "le programme est couvert par la GPL de GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"RPSL\" href=\"http://www.opensource.org/licenses/real.php"
@@ -2657,7 +2428,6 @@ msgstr ""
 "<a id=\"RPSL\" href=\"http://www.opensource.org/licenses/real.php"
 "\">RealNetworks Public Source License (RPSL), Version 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The RPSL is a free software license that is GPL-incompatible for a number of "
@@ -2669,7 +2439,6 @@ msgstr ""
 "d&eacute;riv&eacute;s soient sous les termes de la licence RPSL, et stipule "
 "que tout litige doit se r&eacute;gler &agrave; Seattle, Washington."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"SISSL\" href=\"http://www.openoffice.org/licenses/sissl_license.html"
@@ -2678,7 +2447,6 @@ msgstr ""
 "<a id=\"SISSL\" href=\"http://www.openoffice.org/licenses/sissl_license.html"
 "\">Sun Industry Standards Source License 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, not a strong copyleft, which is "
@@ -2689,14 +2457,12 @@ msgstr ""
 "v&egrave;re, incompatible avec la GPL de GNU mais pas tant &agrave; cause de "
 "l'esprit, surtout &agrave; cause de certains d&eacute;tails."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"SPL\" href=\"http://java.sun.com/spl.html\">Sun Public License</a>"
 msgstr ""
 "<a id=\"SPL\" href=\"http://java.sun.com/spl.html\">Sun Public License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is essentially the same as the Mozilla Public License: a free software "
@@ -2709,7 +2475,6 @@ msgstr ""
 "confondre avec la <a href=\"#SunCommunitySourceLicense\">Sun Community "
 "Source License</a>, qui elle n'est pas une licence de logiciel libre."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"xinetd\" href=\"http://fedoraproject.org/wiki/Licensing/"
@@ -2718,7 +2483,6 @@ msgstr ""
 "<a id=\"xinetd\" href=\"http://fedoraproject.org/wiki/Licensing/"
 "Xinetd_License\">Licence de xinetd</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a copyleft free software license, incompatible with the GPL.  It is "
@@ -2730,7 +2494,6 @@ msgstr ""
 "mentaires qu'elle pose sur la redistribution des versions modifi&eacute;es "
 "entrent en contradiction avec les exigences correspondantes de la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Yahoo\" href=\"http://info.yahoo.com/legal/us/yahoo/publiclicense/"
@@ -2739,7 +2502,6 @@ msgstr ""
 "<a id=\"Yahoo\" href=\"http://info.yahoo.com/legal/us/yahoo/publiclicense/"
 "publiclicense-1813.html\">Yahoo! Public License 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license.  It has a copyleft similar to the one found "
@@ -2754,7 +2516,6 @@ msgstr ""
 "licence utilise aussi malheureusement le terme «&nbsp;<a href=\"/philosophy/"
 "not-ipr.fr.html\">propriété intellectuelle</a>&nbsp;»."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Zend\" href=\"http://www.zend.com/license/2_00.txt\"> Zend License, "
@@ -2763,7 +2524,6 @@ msgstr ""
 "<a id=\"Zend\" href=\"http://www.zend.com/license/2_00.txt\">Zend License, "
 "Version 2.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license is used by one part of PHP4.  It is a non-copyleft free "
@@ -2777,14 +2537,12 @@ msgstr ""
 "\">probl&egrave;mes pratiques</a> comparables &agrave; ceux de la licence "
 "BSD d'origine."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "We recommend that you not use this license for anything you write."
 msgstr ""
 "Nous vous recommandons de ne pas utiliser cette licence pour tout ce que "
 "vous &eacute;crivez."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Zope\" href=\"http://www.zope.org/Resources/ZPL\"> Zope Public "
@@ -2793,7 +2551,6 @@ msgstr ""
 "<a id=\"Zope\" href=\"http://www.zope.org/Resources/ZPL\">Zope Public "
 "License version 1</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a simple, fairly permissive non-copyleft free software license with "
@@ -2807,7 +2564,6 @@ msgstr ""
 "particulier &agrave; l'incompatibilit&eacute; avec la <a href=\"/licenses/"
 "gpl.html\">licence GPL de GNU</a>."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We urge you not to use the ZPL version 1 for software you write.  However, "
@@ -2820,7 +2576,6 @@ msgstr ""
 "publi&eacute;s sous cette licence, par exemple les versions pr&eacute;"
 "c&eacute;dentes de Zope."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "<a href=\"#Zope20\">Version 2.0 of the Zope Public License</a> is GPL-"
@@ -2829,13 +2584,11 @@ msgstr ""
 "<a href=\"#Zope20\">La Zope Public License version 2.0</a> est compatible "
 "avec la GPL."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "<a id=\"NonFreeSoftwareLicense\">Non-Free Software Licenses</a>"
 msgstr ""
 "<a id=\"NonFreeSoftwareLicense\">Les licences de logiciels non libres</a>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "<strong>The following licenses <em>do not qualify</em> as <a href=\"/"
@@ -2847,7 +2600,6 @@ msgstr ""
 "\">logiciels libres</a>. Ces licences sont par essence incompatibles avec la "
 "<a href=\"#GNUGPL\">GPL de GNU</a>.</strong>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Of course, we urge you to avoid using non-free software licenses, and to "
@@ -2857,7 +2609,6 @@ msgstr ""
 "logiciels non libres et aussi, plus g&eacute;n&eacute;ralement, l'usage de "
 "logiciels non libres."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "There is no way we could list all the known non-free software licenses here; "
@@ -2871,7 +2622,6 @@ msgstr ""
 "licences qui sont souvent confondues avec des licences libres alors qu'en "
 "r&eacute;alit&eacute; elles n'en sont <strong>pas</strong>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "We have provided links to these licenses when we can do so without violating "
@@ -2892,12 +2642,10 @@ msgstr ""
 "licences, sauf dans quelques cas o&ugrave; nous estimons pouvoir le faire "
 "sans risque."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "Aladdin Free Public License"
 msgstr "Aladdin Free Public License"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Despite its name, this is not a free software license because it does not "
@@ -2909,7 +2657,6 @@ msgstr ""
 "largement le simple empaquetage de logiciel couverts par cette licence qui "
 "demanderait une r&eacute;tribution."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -2923,7 +2670,6 @@ msgstr ""
 "<a id=\"apsl1\" href=\"http://www.opensource.apple.com/apsl/1.2.txt\">Apple "
 "Public Source License (APSL), version 1.x</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Versions 1.0, 1.1 and 1.2 are <a href=\"/philosophy/historical-apsl.html"
@@ -2939,12 +2685,10 @@ msgstr ""
 "publi&eacute;s sous cette licence. <a href=\"#apsl2\">La version 2.0 de la "
 "APSL</a> est une licence de logiciel libre."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "<a id=\"ArtisticLicense\">Artistic License 1.0</a>"
 msgstr "<a id=\"ArtisticLicense\">Artistic License 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We cannot say that this is a free software license because it is too vague; "
@@ -2957,12 +2701,10 @@ msgstr ""
 "clair. Nous vous demandons instamment d'&eacute;viter de l'utiliser, sauf "
 "dans le cadre de la <a href=\"#PerlLicense\">double licence de Perl</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "AT&amp;T Public License"
 msgstr "AT&amp;T Public License"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The AT&amp;T Public License is a non-free license.  It has several serious "
@@ -2971,7 +2713,6 @@ msgstr ""
 "La Licence Publique AT&amp;T est une licence non libre. Elle comporte "
 "plusieurs inconv&eacute;nients assez graves&nbsp;:"
 
-# type: Content of: <dl><dd><ol><li>
 #. type: Content of: <dl><dd><ol><li>
 msgid ""
 "The patent license is voided by any modification, no matter how small, of "
@@ -2981,7 +2722,6 @@ msgstr ""
 "l&eacute;g&egrave;re que vous pourriez apporter &agrave; la partie "
 "principale du code."
 
-# type: Content of: <dl><dd><ol><li>
 #. type: Content of: <dl><dd><ol><li>
 msgid ""
 "You must demand a written agreement when you distribute the sources or "
@@ -2990,12 +2730,10 @@ msgstr ""
 "Il vous faut une autorisation &eacute;crite pour pouvoir distribuer les "
 "sources ou les modifications."
 
-# type: Content of: <dl><dd><ol><li>
 #. type: Content of: <dl><dd><ol><li>
 msgid "It requires notifying AT&amp;T if you distribute a patch."
 msgstr "Vous devez avertir AT&amp;T quand vous distribuez un correctif."
 
-# type: Content of: <dl><dd><ol><li>
 #. type: Content of: <dl><dd><ol><li>
 msgid ""
 "Your license can be terminated through no fault of yours, under section 8/3."
@@ -3003,7 +2741,6 @@ msgstr ""
 "Votre droit de licence peut se trouver annul&eacute; m&ecirc;me si vous "
 "n'avez rien fait de mal (paragraphe 8/3)."
 
-# type: Content of: <dl><dd><ol><li>
 #. type: Content of: <dl><dd><ol><li>
 msgid ""
 "It makes compliance with export control laws a condition of the license."
@@ -3011,14 +2748,12 @@ msgstr ""
 "La compatibilit&eacute; avec les lois de contr&ocirc;le de l'exportation "
 "devient une condition pour la licence."
 
-# type: Content of: <dl><dd><ol><li>
 #. type: Content of: <dl><dd><ol><li>
 msgid "Some versions of the license require you to provide support."
 msgstr ""
 "Dans certaines versions de la licence, vous &ecirc;tes oblig&eacute; de "
 "fournir un support technique."
 
-# type: Content of: <dl><dd><ol><li>
 #. type: Content of: <dl><dd><ol><li>
 msgid ""
 "Some versions of the license say you cannot sell a copy of the software for "
@@ -3028,13 +2763,11 @@ msgstr ""
 "exemplaire du logiciel pour un prix sup&eacute;rieur au co&ucirc;t de la "
 "distribution."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "The license has two other obnoxious features:"
 msgstr ""
 "Cette licence a encore deux autres caract&eacute;ristiques odieuses&nbsp;:"
 
-# type: Content of: <dl><dd><ol><li>
 #. type: Content of: <dl><dd><ol><li>
 msgid ""
 "It has a very broad reverse license to AT&amp;T, which goes far beyond the "
@@ -3044,7 +2777,6 @@ msgstr ""
 "T, qui va bien au-del&agrave; de l'usage de votre code, et m&ecirc;me de "
 "votre code modifi&eacute;."
 
-# type: Content of: <dl><dd><ol><li>
 #. type: Content of: <dl><dd><ol><li>
 msgid ""
 "It asserts one needs a license from AT&amp;T to make a link to their web "
@@ -3061,12 +2793,10 @@ msgstr ""
 "logiciels non libres.) Cependant, l'usage comme la diffusion d'une telle "
 "revendication est &agrave; proscrire."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "eCos Public License, version 1.1"
 msgstr "eCos Public License, version 1.1"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This was the old license of eCos.  It is not a free software license, "
@@ -3081,7 +2811,6 @@ msgstr ""
 "pourraient r&eacute;v&eacute;ler d'autres probl&egrave;mes, nous ne sommes "
 "pas s&ucirc;rs de leur sens."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Today <a href=\"#eCos20\">eCos is available</a> under the GNU GPL with "
@@ -3091,7 +2820,6 @@ msgstr ""
 "GPL de GNU avec en plus l'autorisation de lier avec des programmes non "
 "libres."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"GPL-PA\" href=\"http://www.celepar.pr.gov.br/modules/conteudo/"
@@ -3102,7 +2830,6 @@ msgstr ""
 "conteudo.php?conteudo=69\">GPL pour les programmes informatiques de "
 "l'Administration publique</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The GPL-PA (whose original name in Portuguese is &ldquo;Licen&ccedil;a "
@@ -3113,24 +2840,20 @@ msgstr ""
 "P&uacute;blica Geral para Administra&ccedil;&atilde;o P&uacute;blica&nbsp;"
 "&raquo;) est non-libre pour plusieurs raisons&nbsp;:"
 
-# type: Content of: <dl><dd><ul><li>
 #. type: Content of: <dl><dd><ul><li>
 msgid "It permits use only in &ldquo;normal circumstances&rdquo;."
 msgstr ""
 "Elle ne permet l'utilisation que dans des &laquo;&nbsp;circonstances "
 "normales&nbsp;&raquo;."
 
-# type: Content of: <dl><dd><ul><li>
 #. type: Content of: <dl><dd><ul><li>
 msgid "It does not allow distribution of source code without binaries."
 msgstr "Elle ne permet pas la distribution du code source sans les binaires."
 
-# type: Content of: <dl><dd><ul><li>
 #. type: Content of: <dl><dd><ul><li>
 msgid "Its permissions lapse after 50 years."
 msgstr "Ses permissions sont caduques apr&egrave;s 50 ans."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"HESSLA\" href=\"http://www.hacktivismo.com/about/hessla.php\"> "
@@ -3139,7 +2862,6 @@ msgstr ""
 "<a id=\"HESSLA\" href=\"http://www.hacktivismo.com/about/hessla.php"
 "\">Hacktivismo Enhanced-Source Software License Agreement</a> (HESSLA)"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is not a free software license, because it <a href=\"/licenses/hessla."
@@ -3151,7 +2873,6 @@ msgstr ""
 "&eacute;galement, de mani&egrave;re substantielle, les utilisations "
 "possibles des versions modifi&eacute;es du logiciel</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Jahia\" href=\"http://www.jahia.org/jahia/Jahia/pid/145\"> Jahia "
@@ -3160,7 +2881,6 @@ msgstr ""
 "<a id=\"Jahia\" href=\"http://www.jahia.org/jahia/Jahia/pid/145\">Jahia "
 "Community Source License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The Jahia Community Source License is not a free software license.  Use of "
@@ -3170,7 +2890,6 @@ msgstr ""
 "libre&nbsp;: l'usage du code source est limit&eacute; aux objectifs de "
 "recherche."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"JSON\" href=\"http://www.json.org/license.html\">The JSON License</a>"
@@ -3178,7 +2897,6 @@ msgstr ""
 "<a id=\"JSON\" href=\"http://www.json.org/license.html\">La licence de JSON</"
 "a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is the license of the original implementation of the JSON data "
@@ -3189,12 +2907,10 @@ msgid ""
 "the license is nonfree."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "Old license of ksh93"
 msgstr "L'ancienne licence de ksh93"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "ksh93 used to be shipped with an original license that was not a free "
@@ -3206,7 +2922,6 @@ msgstr ""
 "est son exigence d'envoi de toutes modifications au d&eacute;veloppeur "
 "initial."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "ksh93 is now released under the <a href=\"#CommonPublicLicense10\">Common "
@@ -3215,7 +2930,6 @@ msgstr ""
 "ksh93 est maintenant publi&eacute; sous <a href=\"#CommonPublicLicense10"
 "\">Common Public License</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a href=\"http://packages.debian.org/changelogs/pool/non-free/l/lha/current/"
@@ -3224,7 +2938,6 @@ msgstr ""
 "<a href=\"http://packages.debian.org/changelogs/pool/non-free/l/lha/current/"
 "copyright\">La licence de Lha</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The lha license must be considered non-free because it is so vague that you "
@@ -3233,7 +2946,6 @@ msgstr ""
 "La licence Lha doit &ecirc;tre consid&eacute;r&eacute;e comme non libre car "
 "elle est trop impr&eacute;cise pour donner des permissions claires."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Ms-SS\" href=\"http://fedoraproject.org/wiki/Licensing/"
@@ -3244,7 +2956,6 @@ msgstr ""
 "Microsoft_Shared_Source_License\">Microsoft's Shared Source CLI, C#, and "
 "Jscript License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license does not permit commercial distribution, and only allows "
@@ -3254,7 +2965,6 @@ msgstr ""
 "l'utilisation commerciale que dans des circonstances d&eacute;termin&eacute;"
 "es."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Microsoft has other licenses which it describes as &ldquo;Shared "
@@ -3264,7 +2974,6 @@ msgstr ""
 "Shared Source&nbsp;&raquo;, parmi lesquelles certaines ont diverses "
 "restrictions."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -3277,7 +2986,6 @@ msgstr ""
 "<a id=\"Nokia\" href=\"http://opensource.org/licenses/nokia.html\">Nokia "
 "Open Source License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The NASA Open Source Agreement, version 1.3, is not a free software license "
@@ -3292,7 +3000,6 @@ msgstr ""
 "pend de la combinaison de code de diff&eacute;rentes parties et la licence "
 "de la NASA ne le permet pas."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We urge you not to use this license.  In addition, if you are a United "
@@ -3303,7 +3010,6 @@ msgstr ""
 "tes citoyen des &Eacute;tats-Unis, veuillez &eacute;crire &agrave; la NASA "
 "pour leur demander une vraie licence de logiciel libre."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"OPL\" title=\"Open Public License at Fedora Project wiki\" href="
@@ -3314,7 +3020,6 @@ msgstr ""
 "href=\"https://fedoraproject.org/wiki/Licensing/Open_Public_License\"> Open "
 "Public License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is not a free software license, because it requires sending every "
@@ -3328,12 +3033,10 @@ msgstr ""
 "tre &eacute;galement probl&eacute;matiques, nous ne savons pas au juste si "
 "nous avons bien tout compris."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "License of PINE"
 msgstr "La licence de PINE"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The license of PINE is not a free software license because it mostly "
@@ -3346,7 +3049,6 @@ msgstr ""
 "galement le support qui peut &ecirc;tre utilis&eacute; pour <a href=\"/"
 "philosophy/selling.fr.html\">vendre des copies</a>."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Please note that a successor to Pine, Alpine, is released under the <a href="
@@ -3355,12 +3057,10 @@ msgstr ""
 "Veuillez noter que le successeur de Pine, Alpine, est publi&eacute; sous <a "
 "href=\"#apache2\">Apache License, version 2.0</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "Old Plan 9 license"
 msgstr "L'ancienne licence Plan 9"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is not a free software license; it lacks essential freedoms such as the "
@@ -3376,7 +3076,6 @@ msgstr ""
 "licence. <a href=\"/philosophy/plan-nine.fr.html\"> Pour plus de d&eacute;"
 "tails et commentaires sur cette licence</a>."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "In September 2002 it was observed that the published license for Plan&nbsp;9 "
@@ -3389,7 +3088,6 @@ msgstr ""
 "que le texte porte toujours la date du 20 septembre 2000). Cependant, un "
 "autre changement de licence en 2003 fait de Plan 9 un logiciel libre."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"RPL\" href=\"http://www.opensource.org/licenses/rpl.php\"> "
@@ -3398,7 +3096,6 @@ msgstr ""
 "<a id=\"RPL\" href=\"http://www.opensource.org/licenses/rpl.php\">Reciprocal "
 "Public License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The Reciprocal Public License is a non-free license because of three "
@@ -3415,12 +3112,10 @@ msgstr ""
 "cessite la publication de toute version modifi&eacute;e qu'utilise une "
 "organisation, m&ecirc;me si elle l'utilise de fa&ccedil;on priv&eacute;e."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "Scilab license"
 msgstr "La licence de Scilab"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is not a free software license because it does not allow commercial "
@@ -3432,7 +3127,6 @@ msgstr ""
 "récentes du logiciel Scilab sont des logiciels libres, publiés sous les "
 "termes de la licence CeCILL version 2."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"SML\" href=\"http://www.simplemachines.org/about/license.php\"> "
@@ -3441,7 +3135,6 @@ msgstr ""
 "<a id=\"SML\" href=\"http://www.simplemachines.org/about/license.php"
 "\">Simple Machines License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Despite the name, this is a software license, and it's non-free for several "
@@ -3450,14 +3143,12 @@ msgstr ""
 "En dépit de son nom, c'est uen licence logicielle, mais n'est pas libre pour "
 "plusieurs raisons&nbsp;:"
 
-# type: Content of: <dl><dd><ul><li>
 #. type: Content of: <dl><dd><ul><li>
 msgid ""
 "You must get the licensor's permission before distributing the software."
 msgstr ""
 "Vous devez obtenir l'accord de licenceur avant de distribuer le logiciel."
 
-# type: Content of: <dl><dd><ul><li>
 #. type: Content of: <dl><dd><ul><li>
 msgid ""
 "You <a href=\"/philosophy/selling.html\">cannot sell copies of the software</"
@@ -3466,7 +3157,6 @@ msgstr ""
 "Vous ne <a href=\"/philosophy/selling.fr.html\">pouvez pas vendre des copies "
 "du logiciel</a>."
 
-# type: Content of: <dl><dd><ul><li>
 #. type: Content of: <dl><dd><ul><li>
 msgid ""
 "It's possible that your license can be terminated if you received the "
@@ -3475,14 +3165,12 @@ msgstr ""
 "Il est possible que votre licence soit résiliée si vous reçu le logiciel de "
 "quelqu'un qui n'obéit pas aux termes de la licence."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid "Old Plan 9 license"
 msgid "Old Squeak license"
 msgstr "L'ancienne licence Plan 9"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 #, fuzzy
 #| msgid ""
@@ -3499,7 +3187,6 @@ msgstr ""
 "ir aux lois am&eacute;ricaines sur le contr&ocirc;le de l'exportation. "
 "Appliqu&eacute;e aux polices, elle ne permet pas non plus les modifications."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "In addition, it has a requirement for users to indemnify the developer, "
@@ -3516,12 +3203,10 @@ msgid ""
 "<a href=\"#apache2\">Apache License 2.0</a>."
 msgstr ""
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "<a id=\"SunCommunitySourceLicense\"> Sun Community Source License</a>"
 msgstr "<a id=\"SunCommunitySourceLicense\"> Sun Community Source License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is not a free software license; it lacks essential freedoms such as "
@@ -3533,12 +3218,10 @@ msgstr ""
 "N'utilisez pas cette licence, et s'il vous pla&icirc;t &eacute;vitez "
 "absolument d'utiliser les logiciels publi&eacute;s sous cette licence."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "Sun Solaris Source Code (Foundation Release) License, Version 1.1"
 msgstr "Sun Solaris Source Code (Foundation Release) License, Version 1.1"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is not a free software license.  The license prohibits redistribution, "
@@ -3548,7 +3231,6 @@ msgstr ""
 "ainsi que l'usage commercial du logiciel, et elle peut &ecirc;tre r&eacute;"
 "voqu&eacute;e."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"SystemC-3.0\" href=\"http://www.systemc.org/about/org_docs/license/"
@@ -3557,7 +3239,6 @@ msgstr ""
 "<a id=\"SystemC-3.0\" href=\"http://www.systemc.org/about/org_docs/license/"
 "\">SystemC &quot;Open Source&quot; License, Version 3.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license requires all recipients to proactively help the licensor "
@@ -3573,7 +3254,6 @@ msgstr ""
 "certaines des conditions sont vagues, et la licence utilise le terme «&nbsp;"
 "<a href=\"/philosophy/not-ipr.fr.html\">propriété intellectuelle</a>&nbsp;»."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Despite the name, this license has not been approved as an open source "
@@ -3582,7 +3262,6 @@ msgstr ""
 "En dépit de son nom, cette licence n'a pas été approuvée comme une licence "
 "open source actuellement."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"UtahPublicLicense\" href=\"http://www.cs.utah.edu/~gk/teem/txt/"
@@ -3591,7 +3270,6 @@ msgstr ""
 "<a id=\"UtahPublicLicense\" href=\"http://www.cs.utah.edu/~gk/teem/txt/"
 "LICENSE.txt\">University of Utah Public License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The University of Utah Public License is a non-free license because it does "
@@ -3609,7 +3287,6 @@ msgstr ""
 "des &Eacute;tats-Unis, c'est peut-&ecirc;tre diff&eacute;rent dans d'autres "
 "pays; en tout cas ce sont des pr&eacute;tentions scandaleuses."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The use of this license by the University of Utah exemplifies a <a href="
@@ -3623,7 +3300,6 @@ msgstr ""
 "restreindre l'acc&egrave;s au savoir</a> au lieu d'en faire profiter le "
 "public."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If a university tries to impose a license like this on the software you are "
@@ -3638,18 +3314,15 @@ msgstr ""
 "capacit&eacute; &agrave; anticiper, il est possible d'obtenir gain de cause "
 "sur les requins qui administrent les universit&eacute;s</a>."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "The earlier you raise the issue, the better."
 msgstr ""
 "Le mieux est de soulever le probl&egrave;me le plus t&ocirc;t possible."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "YaST License"
 msgstr "La Licence de YaST"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is not a free software license.  The license prohibits distribution for "
@@ -3663,7 +3336,6 @@ msgstr ""
 "CD-ROM par des soci&eacute;t&eacute;s commerciales ou par des organisations "
 "telles que la FSF."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "There may be another problem in section 2a, but a word seems to be missing "
@@ -3673,7 +3345,6 @@ msgstr ""
 "il y manque un mot apparemment, du coup nous ne savons pas bien quel est le "
 "sens vis&eacute;."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "(The YaST software itself no longer uses this non-free YaST license; "
@@ -3683,18 +3354,15 @@ msgstr ""
 "YaST&nbsp;; c'est maintenant un logiciel libre, publi&eacute; sous la "
 "licence GPL GNU)."
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "<a id=\"DocumentationLicenses\">Licenses For Documentation</a>"
 msgstr "<a id=\"DocumentationLicenses\">Les licences sur la documentation</a>"
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "<a id=\"FreeDocumentationLicenses\">Free Documentation Licenses</a>"
 msgstr ""
 "<a id=\"FreeDocumentationLicenses\">Les licences de documentation libres</a>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "<strong>The following licenses qualify as <a href=\"/philosophy/free-doc.html"
@@ -3704,14 +3372,12 @@ msgstr ""
 "philosophy/free-doc.fr.html\">licences de documentation libre</a>&nbsp;:</"
 "strong>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"FDL\" href=\"/licenses/fdl.html\"> GNU Free Documentation License</a>"
 msgstr ""
 "<a id=\"FDL\" href=\"/licenses/fdl.html\">GNU Free Documentation License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a license intended for use on copylefted free documentation.  We "
@@ -3726,7 +3392,6 @@ msgstr ""
 "exemple. Son domaine d'application n'est d'ailleurs pas exclusivement celui "
 "des &oelig;uvres textuelles (&laquo;&nbsp;livres&nbsp;&raquo;)."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"ACDL\" href=\"http://fedoraproject.org/wiki/Licensing/"
@@ -3737,7 +3402,6 @@ msgstr ""
 "Common_Documentation_License\">Apple's Common Documentation License, Version "
 "1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a Free Documentation license that is incompatible with the GNU FDL.  "
@@ -3751,7 +3415,6 @@ msgstr ""
 "&raquo;, tandis que la FDL comporte d'autres termes non pr&eacute;vus par la "
 "Common Documentation License."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"FreeBSDDL\" href=\"http://www.freebsd.org/copyright/freebsd-doc-"
@@ -3760,7 +3423,6 @@ msgstr ""
 "<a id=\"FreeBSDDL\" href=\"http://www.freebsd.org/copyright/freebsd-doc-"
 "license.html\">FreeBSD Documentation License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a permissive non-copyleft free documentation license that is "
@@ -3769,7 +3431,6 @@ msgstr ""
 "C'est une licence libre pour la documentation, permissive et sans gauche "
 "d'auteur, compatible avec la GNU FDL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"RealOPL\" href=\"http://opencontent.org/openpub/\"> Open Publication "
@@ -3778,7 +3439,6 @@ msgstr ""
 "<a id=\"RealOPL\" href=\"http://opencontent.org/openpub/\">Open Publication "
 "License, Version 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license <strong>can</strong> be used as a free documentation license.  "
@@ -3795,7 +3455,6 @@ msgstr ""
 "indiqu&eacute;es dans le paragraphe VI de la licence. Si l'une d'elles est "
 "invoqu&eacute;e, alors la licence devient non libre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This creates a practical pitfall in using or recommending this license: if "
@@ -3812,7 +3471,6 @@ msgstr ""
 "oubliettes; votre interlocuteur va utiliser la licence avec ses options, "
 "publiera un manuel non libre, et pensera qu'il ou elle a suivi votre conseil."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Likewise, if you use this license without either of the options to make your "
@@ -3825,7 +3483,6 @@ msgstr ""
 "puis consid&eacute;rer ult&eacute;rieurement les options comme une question "
 "de d&eacute;tail, et pour finir nous aurions un manuel non libre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Thus, while manuals published under this license do qualify as free "
@@ -3839,7 +3496,6 @@ msgstr ""
 "Documentation License pour &eacute;viter tout risque d'entra&icirc;ner "
 "quelqu'un sur une mauvaise voie."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Please note that this license is not the same as the <a href=\"#OCL\">Open "
@@ -3858,7 +3514,6 @@ msgstr ""
 "plut&ocirc;t que l'abr&eacute;viation pour &ecirc;tre s&ucirc;r que les gens "
 "comprennent bien ce que vous dites."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid ""
 "<a id=\"NonFreeDocumentationLicenses\">Non-Free Documentation Licenses</a>"
@@ -3866,7 +3521,6 @@ msgstr ""
 "<a id=\"NonFreeDocumentationLicenses\">Les licences de documentation non "
 "libres</a>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "<strong>The following licenses <em>do not qualify</em> as free documentation "
@@ -3875,7 +3529,6 @@ msgstr ""
 "<strong>Voici une liste de licences qui <em>ne peuvent pas</em> &ecirc;tre "
 "qualifi&eacute;es de licences de documentation libre&nbsp;:</strong>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"OCL\" href=\"http://opencontent.org/opl.shtml\"> Open Content "
@@ -3884,7 +3537,6 @@ msgstr ""
 "<a id=\"OCL\" href=\"http://opencontent.org/opl.shtml\">Open Content "
 "License, Version 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license does not qualify as free, because there are restrictions on "
@@ -3894,7 +3546,6 @@ msgstr ""
 "cause des restrictions qu'elle pose sur la vente des copies. Nous "
 "recommandons de ne pas utiliser cette licence."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Please note that this license is not the same as the <a href=\"#RealOPL"
@@ -3914,7 +3565,6 @@ msgstr ""
 "que l'abr&eacute;viation pour &ecirc;tre s&ucirc;r que les gens comprennent "
 "bien ce que vous dites."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"OpenDirectory\" href=\"http://dmoz.org/license.html\"> Open "
@@ -3923,7 +3573,6 @@ msgstr ""
 "<a id=\"OpenDirectory\" href=\"http://dmoz.org/license.html\">Open Directory "
 "License (aussi appel&eacute;e dmoz.org License)</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is not a free documentation license.  The primary problems are that "
@@ -3937,7 +3586,6 @@ msgstr ""
 "site web. Ce sont des restrictions trop importantes &agrave; la "
 "libert&eacute; de l'utilisateur."
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid ""
 "<a id=\"OtherLicenses\">Licenses for Works of Practical Use Besides Software "
@@ -3946,12 +3594,10 @@ msgstr ""
 "<a id=\"OtherLicenses\">Les licences des &oelig;uvres d'usage pratique autre "
 "que les logiciels et la documentation</a>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "<a href=\"/licenses/gpl.html\"> GNU General Public License</a>"
 msgstr "<a href=\"/licenses/gpl.html\">GNU General Public License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The GNU GPL <strong>can</strong> be used for general data which is not "
@@ -3969,12 +3615,10 @@ msgstr ""
 "source&nbsp;&raquo;, et elle utilise pour ce mot la m&ecirc;me d&eacute;"
 "finition que la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid "<a href=\"/licenses/fdl.html\"> GNU Free Documentation License</a>"
 msgstr "<a href=\"/licenses/fdl.html\">GNU Free Documentation License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The GNU FDL is recommended for textbooks and teaching materials for all "
@@ -3992,7 +3636,6 @@ msgstr ""
 "dies, et toutes les autres &oelig;uvres destin&eacute;es &agrave; offrir de "
 "l'information pour un usage concret."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -4005,7 +3648,6 @@ msgstr ""
 "<a id=\"ccby\" href=\"http://creativecommons.org/licenses/by/2.0/legalcode"
 "\">Creative Commons Attribution 2.0 license</a> (aussi appelée CC-BY)"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a non-copyleft free license that is good for art and entertainment "
@@ -4018,7 +3660,6 @@ msgstr ""
 "logiciels ou de la documentation, car elle est incompatible avec la GNU GPL "
 "et la GNU FDL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Creative Commons publishes many licenses which are very different.  "
@@ -4039,7 +3680,6 @@ msgstr ""
 "certaine &oelig;uvre, il est essentiel de demander imm&eacute;diatement "
 "&laquo;&nbsp;Laquelle&nbsp;?&nbsp;&raquo;."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -4055,7 +3695,6 @@ msgstr ""
 "legalcode\">Creative Commons Attribution-Sharealike 2.0 license</a> (aussi "
 "appelée CC-BY-SA)"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a copyleft free license that is good for artistic and entertainment "
@@ -4068,7 +3707,6 @@ msgstr ""
 "logiciels ou de la documentation, car elle est incompatible avec la GNU GPL "
 "et la GNU FDL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Please <a href=\"#which-cc\">be specific about which Creative Commons "
@@ -4077,14 +3715,12 @@ msgstr ""
 "Veuillez <a href=\"#which-cc\">&ecirc;tre sp&eacute;cifique sur la licence "
 "Creative Commons qui est utilis&eacute;e</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"dsl\" href=\"/licenses/dsl.html\"> Design Science License (DSL)</a>"
 msgstr ""
 "<a id=\"dsl\" href=\"/licenses/dsl.html\">Design Science License (DSL)</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free and copyleft license meant for general data.  Please don't "
@@ -4097,7 +3733,6 @@ msgstr ""
 "des logiciels ni pour de la documentation. Elle convient pour les autres "
 "sortes de donn&eacute;es."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"FreeArt\" href=\"http://artlibre.org/licence/lalgb.html\"> Free Art "
@@ -4106,7 +3741,6 @@ msgstr ""
 "<a id=\"FreeArt\" href=\"http://artlibre.org/licence/lalgb.html\">Free Art "
 "License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free and copyleft license meant for artistic works.  It permits "
@@ -4121,12 +3755,10 @@ msgstr ""
 "ne pas l'utiliser pour des logiciels ou de la documentation, car elle est "
 "incompatible avec la GNU GPL et la GNU FDL."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "<a id=\"Fonts\">Licenses for Fonts</a>"
 msgstr "<a id=\"Fonts\">Licences pour les polices de caract&egrave;res</a>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The licenses below apply to an instantation of a design in a computer file, "
@@ -4141,7 +3773,6 @@ msgstr ""
 "statut l&eacute;gal de la conception artisitique est complexe et varie selon "
 "les juridictions."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The GNU GPL <strong>can</strong> be used for fonts.  However, note that it "
@@ -4157,7 +3788,6 @@ msgstr ""
 "Si vous voulez permettre cela, utilisez l'<a href=\"/licenses/gpl-faq.fr."
 "html#FontException\">exception pour les polices</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Arphic\" href=\"http://ftp.gnu.org/gnu/non-gnu/chinese-fonts-"
@@ -4166,7 +3796,6 @@ msgstr ""
 "<a id=\"Arphic\" href=\"http://ftp.gnu.org/gnu/non-gnu/chinese-fonts-"
 "truetype/LICENSE\">Arphic Public License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a copyleft free software license, incompatible with the GPL. Its "
@@ -4178,7 +3807,6 @@ msgstr ""
 "dans ce cadre pr&eacute;cis l'incompatibilit&eacute; GPL ne pose pas de "
 "probl&egrave;me."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"SILOFL\" href=\"http://scripts.sil.org/OFL_web\"> SIL Open Font "
@@ -4187,7 +3815,6 @@ msgstr ""
 "<a id=\"SILOFL\" href=\"http://scripts.sil.org/OFL_web\">SIL Open Font "
 "License 1.1</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The Open Font License (including its original release, version 1.0)  is a "
@@ -4206,7 +3833,6 @@ msgstr ""
 "de ne pas utiliser cette licence pour autre chose que des polices de "
 "caract&egrave;res."
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid ""
 "<a id=\"OpinionLicenses\">Licenses for Works of Opinion and Judgment</a>"
@@ -4214,7 +3840,6 @@ msgstr ""
 "<a id=\"OpinionLicenses\">Licences pour les &oelig;uvres d'opinion et de "
 "jugement</a>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Works that express someone's opinion&mdash;memoirs, editorials, and so "
@@ -4236,7 +3861,6 @@ msgstr ""
 "les &oelig;uvres d'opinion\">Richard Stallman parle de ceci</a> fr&eacute;"
 "quemment dans ses discours."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Because so many licenses meet these criteria, we cannot list them all.  If "
@@ -4247,7 +3871,6 @@ msgstr ""
 "res, nous ne pouvons pas toutes les lister. Si vous en recherchez une pour "
 "vous-m&ecirc;me cependant, il en existe deux que nous recommandons&nbsp;:"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"GNUVerbatim\" href=\"/licenses/licenses.html#VerbatimCopying\">GNU "
@@ -4256,7 +3879,6 @@ msgstr ""
 "<a id=\"GNUVerbatim\" href=\"/licenses/licenses.html#VerbatimCopying\">GNU "
 "Verbatim Copying License</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 #, fuzzy
 #| msgid ""
@@ -4270,7 +3892,6 @@ msgstr ""
 "est tr&egrave;s simple, et particuli&egrave;rement adapt&eacute;e pour les "
 "&oelig;uvres &eacute;crites."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
@@ -4286,7 +3907,6 @@ msgstr ""
 "legalcode\">Creative Commons Attribution-NoDerivs 3.0 license (aussi connue "
 "sous CC-BY-ND)</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 #, fuzzy
 #| msgid ""
@@ -4307,7 +3927,6 @@ msgstr ""
 "d'opinion. Veuillez <a href=\"#which-cc\">&ecirc;tre sp&eacute;cifique sur "
 "la licence Creative Commons qui est utilis&eacute;e</a>."
 
-# type: Content of: outside any tag (error?)
 #. type: Content of: outside any tag (error?)
 msgid ""
 "<strong><a href=\"/licenses/licenses.html\">More about licenses.</a></strong>"
@@ -4315,13 +3934,11 @@ msgstr ""
 "<strong><a href=\"/licenses/licenses.fr.html\">En savoir plus sur les "
 "licences</a></strong>"
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -4341,7 +3958,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions sur cette page Web à <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -4360,7 +3976,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions sur cette page Web à <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -4375,7 +3990,6 @@ msgstr ""
 msgid "Copyright &copy; 2010 Free Software Foundation, Inc."
 msgstr ""
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -4390,7 +4004,6 @@ msgstr ""
 "exacte et la distribution intégrale de cet article est permise sur n'importe "
 "quel support d'archivage, pourvu que cette notice soit préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -4398,18 +4011,15 @@ msgstr ""
 "Traduction&nbsp;: Odile Bénassy.<br />Révision&nbsp;: <a href=\"mailto:trad-"
 "gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
 
-# type: Content of: <dl><dt>
 #~ msgid ""
 #~ "<a id=\"IPL\" href=\"http://www.borland.com/devsupport/interbase/"
 #~ "opensource/IPL.html\"> Interbase Public License, Version 1.0</a>"
@@ -4417,7 +4027,6 @@ msgstr "Traductions de cette page"
 #~ "<a id=\"IPL\" href=\"http://www.borland.com/devsupport/interbase/"
 #~ "opensource/IPL.html\">Interbase Public License, Version 1.0</a>"
 
-# type: Content of: <dl><dd><p>
 #~ msgid ""
 #~ "This is a free software license that is essentially the same as the "
 #~ "Mozilla Public License, Version 1.1.  Like the MPL, the IPL has some "
@@ -4433,7 +4042,6 @@ msgstr "Traductions de cette page"
 #~ "couvert par la GPL avec un autre couvert par l'IPL. En raison de cela, "
 #~ "nous vous demandons instamment de ne pas utiliser l'IPL."
 
-# type: Content of: <dl><dt>
 #~ msgid ""
 #~ "<a id=\"Ms-LPL\" href=\"http://www.microsoft.com/resources/sharedsource/"
 #~ "licensingbasics/limitedpubliclicense.mspx\">Microsoft Limited Public "
@@ -4443,7 +4051,6 @@ msgstr "Traductions de cette page"
 #~ "licensingbasics/limitedpubliclicense.mspx\">Microsoft Limited Public "
 #~ "License (Ms-LPL)</a>"
 
-# type: Content of: <dl><dd><p>
 #~ msgid ""
 #~ "This license is non-free because of section 3(F), which requires that any "
 #~ "modified software you make from the original code must run on Windows.  "
@@ -4455,7 +4062,6 @@ msgstr "Traductions de cette page"
 #~ "partir du code original doit pouvoir s'ex&eacute;cuter sous Windows. La "
 #~ "<a href=\"#ms-pl\">Microsoft Public License</a> n'a pas cette restriction."
 
-# type: Content of: <dl><dt>
 #~ msgid ""
 #~ "<a id=\"Ms-LRL\" href=\"http://www.microsoft.com/resources/sharedsource/"
 #~ "licensingbasics/limitedreciprocallicense.mspx\">Microsoft Limited "
@@ -4465,7 +4071,6 @@ msgstr "Traductions de cette page"
 #~ "licensingbasics/limitedreciprocallicense.mspx\">Microsoft Limited "
 #~ "Reciprocal License (Ms-LRL)</a>"
 
-# type: Content of: <dl><dd><p>
 #~ msgid ""
 #~ "This license is non-free because of section 3(G), which requires that any "
 #~ "modified software you make from the original code must run on Windows.  "
@@ -4478,7 +4083,6 @@ msgstr "Traductions de cette page"
 #~ "<a href=\"#ms-rl\">Microsoft Reciprocal License</a> n'a pas cette "
 #~ "restriction."
 
-# type: Content of: <dl><dt>
 #~ msgid ""
 #~ "<a id=\"Ms-RL\" href=\"http://www.microsoft.com/resources/sharedsource/"
 #~ "licensingbasics/referencelicense.mspx\">Microsoft Reference License</a>"
@@ -4486,7 +4090,6 @@ msgstr "Traductions de cette page"
 #~ "<a id=\"Ms-RL\" href=\"http://www.microsoft.com/resources/sharedsource/"
 #~ "licensingbasics/referencelicense.mspx\">Microsoft Reference License</a>"
 
-# type: Content of: <dl><dd><p>
 #~ msgid ""
 #~ "This is a non-free license: you are not allowed to modify the software at "
 #~ "all, and you are only allowed to share it under very particular "
@@ -4497,7 +4100,6 @@ msgstr "Traductions de cette page"
 #~ "autoris&eacute; &agrave; le partager que dans des circonstances tr&egrave;"
 #~ "s particuli&egrave;res."
 
-# type: Content of: <dl><dt>
 #~ msgid ""
 #~ "<a id=\"MsWECE-6.0\" href=\"http://msdn2.microsoft.com/en-us/embedded/"
 #~ "bb190212.aspx\">Microsoft Windows Embedded CE 6.0 Shared Source License</"
@@ -4507,7 +4109,6 @@ msgstr "Traductions de cette page"
 #~ "bb190212.aspx\">Microsoft Windows Embedded CE 6.0 Shared Source License</"
 #~ "a>"
 
-# type: Content of: <dl><dd><p>
 #~ msgid ""
 #~ "This license is non-free because it places various limitations on the "
 #~ "kinds of modifications you can make.  For example, your modified software "
@@ -4519,7 +4120,6 @@ msgstr "Traductions de cette page"
 #~ "modifi&eacute; doit pouvoir s'ex&eacute;cuter sous WinCE, et vous devez "
 #~ "fournir une assistance aux utilisateurs de votre logiciel."
 
-# type: Content of: <dl><dt>
 #~ msgid ""
 #~ "<a href=\"http://www.osedu.org/licenses/ECL-2.0/\" id=\"ECL2.0"
 #~ "\">Educational Community License 2.0</a>"
@@ -4527,7 +4127,6 @@ msgstr "Traductions de cette page"
 #~ "<a href=\"http://www.osedu.org/licenses/ECL-2.0/\" id=\"ECL2.0"
 #~ "\">Educational Community License 2.0</a>"
 
-# type: Content of: <dl><dt>
 #~ msgid ""
 #~ "<a id=\"NASA\" href=\"http://opensource.arc.nasa.gov/static/opensource/"
 #~ "site/docs/NASA_Open_Source_Agreement_1.3.txt\"> NASA Open Source "
@@ -4537,7 +4136,6 @@ msgstr "Traductions de cette page"
 #~ "site/docs/NASA_Open_Source_Agreement_1.3.txt\">NASA Open Source "
 #~ "Agreement</a>"
 
-# type: Content of: <dl><dt>
 #~ msgid ""
 #~ "<a id=\"Squeak\" href=\"http://squeak.org/SqueakLicense/\"> Squeak "
 #~ "license</a>"
