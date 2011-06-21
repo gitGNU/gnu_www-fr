@@ -121,8 +121,8 @@ msgstr ""
 "L'<a href=\"http://www.loc.gov/standards/iso639-2/langcodes.html\">ISO 639</"
 "a> donne les codes de langues sur deux lettres dans la seconde colonne. Si "
 "un code de langue sur deux lettres n'est pas assigné, un code à trois "
-"lettres (ISO 639-2) peut &ecirc;tre utilisé. Des versions ultérieures aux "
-"RFC 1766 et ISO 639 peuvent exister."
+"lettres (ISO 639-2) peut être utilisé. Des versions ultérieures aux RFC 1766 "
+"et ISO 639 peuvent exister."
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -135,9 +135,8 @@ msgstr ""
 "Si le document ISO 639 ne spécifie pas un code, faites quelques recherches "
 "et trouvez celui qu'il faut utiliser. Le document ISO 3166 donne des codes "
 "pour les pays.  Le code langue et le code pays ne sont pas nécessairement "
-"les m&ecirc;mes. C'est une erreur de supposer qu'un code pays peut &ecirc;"
-"tre substitué à un code langue, à moins que vous ne vérifiez cela dans une "
-"norme."
+"les mêmes. C'est une erreur de supposer qu'un code pays peut être substitué "
+"à un code langue, à moins que vous ne vérifiez cela dans une norme."
 
 #. type: Content of: <h3>
 msgid "What to Translate"
@@ -148,9 +147,8 @@ msgid ""
 "Documents should be converted together with their &ldquo;glue pages&rdquo;, "
 "such as home.html and philosophy/philosophy.html."
 msgstr ""
-"Les documents doivent &ecirc;tre conservés ensemble avec leurs &laquo;&nbsp;"
-"pages collantes&nbsp;&raquo;, tels que home.html et philosophy/philosophy."
-"html"
+"Les documents doivent être conservés ensemble avec leurs «&nbsp;pages "
+"collantes&nbsp;», tels que home.html et philosophy/philosophy.html"
 
 #. type: Content of: <ul><li>
 msgid "Don't translate anything under these directories:"
@@ -182,17 +180,22 @@ msgstr ""
 "traduction</a> <cite>de Brave GNU World</cite>."
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "When translating &ldquo;GNU's Not Unix,&rdquo; please ensure that the "
+#| "translation remains recursive. If a recursive translation cannot be "
+#| "conceived, use the following format: &ldquo;GNU's Not Unix&rdquo; (GNU är "
+#| "inte Unix)."
 msgid ""
 "When translating &ldquo;GNU's Not Unix,&rdquo; please ensure that the "
 "translation remains recursive. If a recursive translation cannot be "
 "conceived, use the following format: &ldquo;GNU's Not Unix&rdquo; (GNU &auml;"
 "r inte Unix)."
 msgstr ""
-"Quand vous traduisez &laquo;&nbsp;GNU N'est pas Unix&nbsp;&raquo; "
-"(NdT&nbsp;: &laquo;&nbsp;GNU's Not Unix&nbsp;&raquo;), veuillez vous assurez "
-"que la traduction reste récursive. Si une traduction récursive ne peut "
-"&ecirc;tre con&ccedil;ue, utiliser la forme suivante&nbsp;: &laquo;&nbsp;"
-"GNU's Not Unix&nbsp;&raquo; (GNU &auml;r inte Unix)."
+"Quand vous traduisez «&nbsp;GNU N'est pas Unix&nbsp;» (NdT&nbsp;: «&nbsp;GNU's "
+"Not Unix&nbsp;»), veuillez vous assurez que la traduction reste récursive. "
+"Si une traduction récursive ne peut être conçue, utiliser la forme "
+"suivante&nbsp;: «&nbsp;GNU's Not Unix&nbsp;» (GNU är inte Unix)."
 
 #. type: Content of: <h3>
 msgid "Translating the home page"
@@ -280,10 +283,10 @@ msgid ""
 "code> is the <a href=\"#LanguageCodes\">language code</a>.  For example, a "
 "German translation of home.html should be named <code>home.de.html</code>."
 msgstr ""
-"Les traductions doivent &ecirc;tre nommées <code>NOMPAGE.LG.html</code> "
-"o&ugrave; <code>LG</code> est le <a href=\"#LanguageCodes\">code à deux "
-"lettres de la langue</a>. Par exemple une traduction en allemand de home."
-"html doit &ecirc;tre nommée <code>home.de.html</code>."
+"Les traductions doivent être nommées <code>NOMPAGE.LG.html</code> où "
+"<code>LG</code> est le <a href=\"#LanguageCodes\">code à deux lettres de la "
+"langue</a>. Par exemple une traduction en allemand de home.html doit être "
+"nommée <code>home.de.html</code>."
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -343,7 +346,7 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid "Translation Teams:"
-msgstr "&Eacute;quipes de traductions&nbsp;:"
+msgstr "Équipes de traductions&nbsp;:"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -362,8 +365,8 @@ msgid ""
 msgstr ""
 "<code>!!</code> - Contactez les gestionnaires de traduction à <a href="
 "\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a> si "
-"vous voulez former une équipe de traduction et &ecirc;tre listé comme "
-"l'animateur de l'équipe de traduction pour votre langue."
+"vous voulez former une équipe de traduction et être listé comme l'animateur "
+"de l'équipe de traduction pour votre langue."
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -400,8 +403,8 @@ msgid ""
 "Mujahidul Islam</a>)"
 msgstr ""
 "<code>bn</code> - <a href=\"https://savannah.gnu.org/projects/www-bn"
-"\">Bengal&icirc;</a> (<a href=\"https://savannah.gnu.org/users/suzan"
-"\">Khandakar Mujahidul Islam</a>)"
+"\">Bengalî</a> (<a href=\"https://savannah.gnu.org/users/suzan\">Khandakar "
+"Mujahidul Islam</a>)"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -454,6 +457,11 @@ msgstr ""
 "a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>eo</code> - <a href=\"https://savannah.gnu.org/projects/www-eo"
+#| "\">Esperanto</a> (<a href=\"https://savannah.gnu.org/users/civodul"
+#| "\">Ludovic Courtès</a>)"
 msgid ""
 "<code>eo</code> - <a href=\"https://savannah.gnu.org/projects/www-eo"
 "\">Esperanto</a> (<a href=\"https://savannah.gnu.org/users/civodul\">Ludovic "
@@ -695,14 +703,18 @@ msgstr ""
 "\">Tagalog</a> (Nouveau coordinateur demandé)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>tr</code> - <a href=\"https://savannah.gnu.org/projects/www-tr"
+#| "\">Turkish</a> (<a href=\"https://savannah.gnu.org/users/exalted\">Ali "
+#| "Servet Dönmez</a>)"
 msgid ""
 "<code>tr</code> - <a href=\"https://savannah.gnu.org/projects/www-tr"
 "\">Turkish</a> (<a href=\"https://savannah.gnu.org/users/exalted\">Ali "
 "Servet D&ouml;nmez</a>)"
 msgstr ""
 "<code>tr</code> - <a href=\"https://savannah.gnu.org/projects/www-tr\">Turc</"
-"a> (<a href=\"https://savannah.gnu.org/users/exalted\">Ali Servet D&ouml;"
-"nmez</a>)"
+"a> (<a href=\"https://savannah.gnu.org/users/exalted\">Ali Servet Dönmez</a>)"
 
 #. type: Content of: <ul><li>
 msgid ""

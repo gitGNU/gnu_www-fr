@@ -49,20 +49,19 @@ msgid ""
 "features of the FDL?</a>"
 msgstr ""
 "<a href=\"/licenses/fdl-howto-opt.fr.html\">Comment utiliser les "
-"fonctionnalit&eacute;s optionnelles de la FDL&nbsp;?</a>"
+"fonctionnalités optionnelles de la FDL&nbsp;?</a>"
 
 # type: Content of: <dl><dd>
 msgid ""
 "We have a <a href=\"/licenses/fdl-howto-opt.html\">separate page</a> that "
 "discusses how to use the optional features of the FDL."
 msgstr ""
-"Nous avons une <a href=\"/licenses/fdl-howto-opt.fr.html\">page s&eacute;"
-"par&eacute;e</a> qui explique comment utiliser les fonctionnalit&eacute;s "
-"optionnelles de la FDL."
+"Nous avons une <a href=\"/licenses/fdl-howto-opt.fr.html\">page séparée</a> "
+"qui explique comment utiliser les fonctionnalités optionnelles de la FDL."
 
 # type: Content of: <dl><dt>
 msgid "Where must one put the license notification?"
-msgstr "O&ugrave; placer la notice de licence&nbsp;?"
+msgstr "Où placer la notice de licence&nbsp;?"
 
 # type: Content of: <dl><dd>
 msgid ""
@@ -72,12 +71,12 @@ msgid ""
 "keep the full notification in <code>elisp.texi</code>, and in the other "
 "files we simply write:"
 msgstr ""
-"Il est suffisant de placer la notice de licence compl&egrave;te dans le "
-"fichier &laquo;&nbsp;principal&nbsp;&raquo; de votre document. Par exemple, "
-"dans le cas du <cite>Emacs Lisp Reference Manual</cite>, plusieurs fichiers "
-"sont inclus par le fichier <code>elisp.texi</code>. Nous conservons la "
-"notice compl&egrave;te dans <code>elisp.texi</code> et nous &eacute;crivons "
-"simplement dans les autres fichiers&nbsp;:"
+"Il est suffisant de placer la notice de licence complète dans le fichier "
+"«&nbsp;principal&nbsp;» de votre document. Par exemple, dans le cas du "
+"<cite>Emacs Lisp Reference Manual</cite>, plusieurs fichiers sont inclus par "
+"le fichier <code>elisp.texi</code>. Nous conservons la notice complète dans "
+"<code>elisp.texi</code> et nous écrivons simplement dans les autres "
+"fichiers&nbsp;:"
 
 # type: Content of: <dl><dd><pre>
 #, no-wrap
@@ -110,8 +109,8 @@ msgid ""
 "idea to release them separately under the GNU GPL."
 msgstr ""
 "Nous recommandons que vous distribuiez aussi vos scripts sous la GNU FDL. "
-"Bien s&ucirc;r, si ces scripts peuvent &ecirc;tre utiles &agrave; d'autres "
-"t&acirc;ches, c'est une bonne id&eacute;e de les distribuer sous la GNU GPL."
+"Bien sûr, si ces scripts peuvent être utiles à d'autres tâches, c'est une "
+"bonne idée de les distribuer sous la GNU GPL."
 
 # type: Content of: <dl><dt>
 msgid "Is it required for the document to have invariant sections?"
@@ -134,16 +133,16 @@ msgid ""
 "Not particularly.  If a section's contents ought to be invariant, make it "
 "invariant."
 msgstr ""
-"Pas particuli&egrave;rement. Si le contenu d'une section doit &ecirc;tre "
-"invariant, mettez cette section invariante."
+"Pas particulièrement. Si le contenu d'une section doit être invariant, "
+"mettez cette section invariante."
 
 # type: Content of: <dl><dt>
 msgid "Should I try to avoid invariant sections?"
-msgstr "Doit-on essayer d'&eacute;viter les sections invariantes&nbsp;?"
+msgstr "Doit-on essayer d'éviter les sections invariantes&nbsp;?"
 
 # type: Content of: <dl><dt>
 msgid "When should a section be invariant?"
-msgstr "Quand une section devrait-elle &ecirc;tre invariante&nbsp;?"
+msgstr "Quand une section devrait-elle être invariante&nbsp;?"
 
 # type: Content of: <dl><dd>
 msgid ""
@@ -151,10 +150,10 @@ msgid ""
 "<em>cannot</em> be invariant.  Only a secondary section can be invariant, "
 "and a technical section is not a secondary section."
 msgstr ""
-"Tout d'abord, il faut garder &agrave; l'esprit qu'une section traitant "
-"d'aspects techniques <em>ne peut</em> &ecirc;tre invariante. Seule une "
-"section secondaire peut &ecirc;tre invariante, et une section technique "
-"n'est pas une section secondaire."
+"Tout d'abord, il faut garder à l'esprit qu'une section traitant d'aspects "
+"techniques <em>ne peut</em> être invariante. Seule une section secondaire "
+"peut être invariante, et une section technique n'est pas une section "
+"secondaire."
 
 # type: Content of: <dl><dd><p>
 msgid ""
@@ -163,9 +162,9 @@ msgid ""
 "to modify it if you don't have permission to modify it."
 msgstr ""
 "Si la section est un texte que vous n'avez pas la permission de modifier, "
-"tel que la GNU GPL, alors elle <em>doit</em> &ecirc;tre invariante. Vous ne "
-"pouvez pas donner la permission de modification si vous n'avez pas vous "
-"m&ecirc;me cette permission."
+"tel que la GNU GPL, alors elle <em>doit</em> être invariante. Vous ne pouvez "
+"pas donner la permission de modification si vous n'avez pas vous même cette "
+"permission."
 
 # type: Content of: <dl><dd><p>
 msgid ""
@@ -173,9 +172,9 @@ msgid ""
 "covers technical material if you don't have permission to allow modification "
 "of that text.)"
 msgstr ""
-"(Une cons&eacute;quence est que vous <em>ne pouvez pas utiliser</em> du "
-"texte pr&eacute;-existant qui couvre des aspects techniques si vous n'avez "
-"pas la permission d'autoriser la modification de ce texte)."
+"(Une conséquence est que vous <em>ne pouvez pas utiliser</em> du texte pré-"
+"existant qui couvre des aspects techniques si vous n'avez pas la permission "
+"d'autoriser la modification de ce texte)."
 
 # type: Content of: <dl><dd><p>
 msgid ""
@@ -184,11 +183,10 @@ msgid ""
 "in a manual, or when we include a section explaining why free documentation "
 "is important, we make that section invariant."
 msgstr ""
-"Quand une section d&eacute;bat de la philosophie du logiciel libre, c'est "
-"une bonne id&eacute;e de la mettre invariante. Par exemple, quand nous "
-"ins&eacute;rons le Manifeste GNU dans un manuel, ou quand nous incluons une "
-"section expliquant pourquoi la documentation libre est importante, nous "
-"mettons ces sections invariantes."
+"Quand une section débat de la philosophie du logiciel libre, c'est une bonne "
+"idée de la mettre invariante. Par exemple, quand nous insérons le Manifeste "
+"GNU dans un manuel, ou quand nous incluons une section expliquant pourquoi "
+"la documentation libre est importante, nous mettons ces sections invariantes."
 
 # type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
