@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the home.shtml page.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
 # Matthieu Caneill <matthieu_caneill AT yahoo.fr>, 2011
+# Martin Gubri, 2011
 #
 msgid ""
 msgstr ""
@@ -34,8 +35,8 @@ msgid ""
 "computer users can have the freedom to share and improve the software they "
 "use."
 msgstr ""
-"Depuis 1983, développement du système d'exploitation libre de style Unix, "
-"GNU, pour que les utilisateurs d'ordinateurs puissent avoir la liberté de "
+"Depuis 1983, nous développons le système d'exploitation libre GNU, de type "
+"Unix, pour que les utilisateurs d'ordinateurs puissent avoir la liberté de "
 "partager et d'améliorer les logiciels qu'ils utilisent."
 
 #. type: Attribute 'title' of: <link>
@@ -62,7 +63,7 @@ msgid ""
 "<a href=\"http://ma.aclu.org/site/R?i=GFduzww44T4ttMzabqwBig..\">Shame on "
 "Massachusetts for censoring the Internet</a>"
 msgstr ""
-"<a href=\"http://ma.aclu.org/site/R?i=GFduzww44T4ttMzabqwBig..\">Honte à "
+"<a href=\"http://ma.aclu.org/site/R?i=GFduzww44T4ttMzabqwBig..\">Honte au "
 "Massachusetts pour censurer l'Internet</a>"
 
 #. type: Content of: <div><ul><li>
@@ -90,10 +91,10 @@ msgid ""
 "\">in the USA</a> and <a href=\"http://www.neutrality.ca\" title=\"Net "
 "neutrality in Canada\">in Canada</a>."
 msgstr ""
-"Soutenez les efforts pour la neutralité du Net en Europe, <a href=\"http://"
-"www.savetheinternet.com\" title=\"Neutralité du Net aux États-Unis d'Amérique"
-"\">aux USA</a> et <a href=\"http://www.neutrality.ca\" title=\"Neutralité du "
-"Net au Canada\">au Canada</a>."
+"Soutenez les efforts pour défendre la neutralité du Net en Europe, <a href="
+"\"http://www.savetheinternet.com\" title=\"Neutralité du Net aux États-Unis "
+"d'Amérique\">aux USA</a> et <a href=\"http://www.neutrality.ca\" title="
+"\"Neutralité du Net au Canada\">au Canada</a>."
 
 #. type: Content of: <div><div><h2>
 msgid "What is GNU?"
@@ -108,8 +109,8 @@ msgid ""
 msgstr ""
 "<a href=\"/gnu/gnu.fr.html\">Le projet GNU</a> a été lancé en 1984 pour "
 "développer le système d'exploitation GNU, un système d'exploitation complet "
-"de style Unix, qui soit un <a href=\"/philosophy/free-sw.fr.html\">logiciel "
-"libre</a>&nbsp;:un logiciel qui respecte votre liberté."
+"de type Unix, qui soit un <a href=\"/philosophy/free-sw.fr.html\">logiciel "
+"libre</a>&nbsp;: un logiciel qui respecte votre liberté."
 
 #. type: Content of: <div><div><p><a>
 msgid "<a href=\"/distros/screenshot.html\">"
@@ -132,7 +133,7 @@ msgstr ""
 "Les systèmes d'exploitation comparables à Unix sont bâtis sur un ensemble de "
 "<a href=\"/software/\">briques logicielles</a> d'applications, de "
 "bibliothèques et d'outils pour les développeurs&nbsp;; plus un programme "
-"pour allouer les resources et communiquer avec le matériel, connu sous le "
+"pour allouer les ressources et communiquer avec le matériel, connu sous le "
 "nom de noyau."
 
 #. type: Content of: <div><div><p>
@@ -157,9 +158,8 @@ msgid ""
 "sometimes incorrectly called simply &ldquo;Linux&rdquo;."
 msgstr ""
 "La combinaison <a href=\"/gnu/linux-and-gnu.fr.html\">de GNU et de Linux</a> "
-"est le système d'exploitation GNU/Linux, maintenant utilisé par des millions "
-"de gens, et parfois appelé simplement &laquo;&nbsp;Linux&nbsp;&raquo; de "
-"manière incorrecte."
+"est le système d'exploitation GNU/Linux, utilisé par des millions de gens, "
+"et parfois appelé incorrectement &laquo;&nbsp;Linux&nbsp;&raquo;."
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -305,7 +305,7 @@ msgid ""
 "\"http://www.fsf.org/associate/\">FSF associate members</a> like <a href="
 "\"http://fsf.org/jfb\">you</a>."
 msgstr ""
-"<strong>Regarder et partager ce film:</strong> <a href=\"http://"
+"<strong>Regardez et partagez ce film:</strong> <a href=\"http://"
 "patentabsurdity.com\">Patent Absurdity</a>&mdash;rendu possible aussi bien "
 "par <a href=\"http://www.fsf.org/associate/\">les membres associés de la "
 "FSF</a> que par <a href=\"http://fsf.org/jfb\">vous</a>."
@@ -333,8 +333,8 @@ msgid ""
 "<a href=\"/server/takeaction.html#directory\">Add to the Free Software "
 "Directory</a>."
 msgstr ""
-"<a href=\"/server/takeaction.fr.html#directory\">Ajoutez des logiciels au "
-"répertoire des logiciels libres</a>."
+"<a href=\"/server/takeaction.fr.html#directory\">Complétez l'annuaire des "
+"logiciels libres</a>."
 
 #. type: Content of: <div><div><ul><li>
 msgid "<a href=\"/server/takeaction.html\">More action items.</a>"
