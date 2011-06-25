@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid ""
 "Patent Reform Is Not Enough - GNU Project - Free Software Foundation (FSF)"
@@ -24,12 +23,10 @@ msgstr ""
 "Une réforme des brevets n'est pas suffisante - GNU Project - Free Software "
 "Foundation (FSF)"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "Patent Reform Is Not Enough"
 msgstr "Une réforme des brevets n'est pas suffisante"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "When people first learn about the problem of software patents, their "
@@ -48,7 +45,6 @@ msgstr ""
 "tableurs&nbsp;»), et l'utilisation du ou-exclusif pour la modification des "
 "contenus d'une image bitmap affichée."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Focusing on these examples can lead some people to ignore the rest of the "
@@ -61,7 +57,6 @@ msgstr ""
 "brevets est correct à la base et qu'il y a seulement besoin de «&nbsp;"
 "réformes&nbsp;» pour mener à bien ses propres règles."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "But would correct implementation really solve the problem of software "
@@ -70,7 +65,6 @@ msgstr ""
 "Mais une mise en œuvre correcte résoudrait-elle réellement le problème des "
 "brevets sur les logiciels&nbsp;? Prenons un exemple."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "In the early 90s we desperately needed a new free program for compression, "
@@ -88,7 +82,6 @@ msgstr ""
 "conception. Leur vitesse et la qualité de la compression supérieures "
 "attirèrent très vite les utilisateurs."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "That September, when the FSF was about a week away from releasing one of "
@@ -101,7 +94,6 @@ msgstr ""
 "fichiers de distribution, l'utilisation de ces programmes aux USA fut "
 "stoppée par un nouveau brevet sorti sous le numéro 5,049,881."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Under the patent system's rules, whether the public is allowed to use these "
@@ -117,7 +109,6 @@ msgstr ""
 "brevet, qui a eu lieu en date du 18 juin 1990. La publication de William en "
 "avril 1991 vient après cette date et n'est donc pas pris en compte."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "A student described a similar algorithm in 1988-1989 in a class paper at the "
@@ -129,7 +120,6 @@ msgstr ""
 "publié. Ainsi, il ne peut être pris en compte comme «&nbsp;travail "
 "antérieur&nbsp;» selon les lois en vigueur."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Reforms to make the patent system work &ldquo;properly&rdquo; would not have "
@@ -148,7 +138,6 @@ msgstr ""
 "deux). L'anomalie se situe dans les règles elles-mêmes et non pas dans leur "
 "mise en application."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "In the US legal system, patents are intended as a bargain between society "
@@ -166,7 +155,6 @@ msgstr ""
 "être révélée de toutes façons. C'était suffisamment facile à découvrir pour "
 "que plusieurs personnes l'aient fait à peu près en même temps."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Under current rules, our ability to use Williams's programs depends on "
@@ -180,7 +168,6 @@ msgstr ""
 "chance. Ce système est bon pour la promotion de la pratique du droit, mais "
 "pas pour le progrès des logiciels."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Teaching the Patent Office to look at more of the existing prior art might "
@@ -195,7 +182,6 @@ msgstr ""
 "l'informatique, comme pour celle que William et d'autres ont développé "
 "indépendamment."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "This will turn software into a quagmire.  Even an innovative program "
@@ -216,12 +202,10 @@ msgstr ""
 "logiciels. Comme le dit <cite>The Economist</cite>, les brevets logiciels "
 "sont tout simplement mauvais pour les affaires."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "What you can do to help"
 msgstr "Ce que vous pouvez faire pour aider"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -242,13 +226,11 @@ msgstr ""
 "\"http://www.ffii.org\">site Web de la FFII</a> pour obtenir plus de détails "
 "sur ce que vous pouvez faire pour aider."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -269,7 +251,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -289,7 +270,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -300,19 +280,16 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 2001, 2008 Free Software Foundation, Inc.,"
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 2001, 2008 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
 #. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
@@ -322,7 +299,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -330,13 +306,11 @@ msgstr ""
 "Traduction&nbsp;: ?.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;"
 "april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

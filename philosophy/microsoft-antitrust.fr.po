@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 msgid ""
 "The Microsoft Antitrust Trial and Free Software - GNU Project - Free "
 "Software Foundation (FSF)"
@@ -24,11 +23,9 @@ msgstr ""
 "Le procès antitrust Microsoft et le logiciel libre - GNU Project - Free "
 "Software Foundation (FSF)"
 
-# type: Content of: <h2>
 msgid "The Microsoft Antitrust Trial and Free Software"
 msgstr "Le procès antitrust Microsoft et le logiciel libre"
 
-# type: Content of: <p>
 msgid ""
 "With the Microsoft antitrust trial moving toward a conclusion, the question "
 "of what to demand of Microsoft if it loses is coming to the fore.  Ralph "
@@ -42,7 +39,6 @@ msgstr ""
 "article a été écrit, en mars 1999] (voir <a href=\"http://www.appraising-"
 "microsoft.org/\">http://www.appraising-microsoft.org/</a>)."
 
-# type: Content of: <p>
 msgid ""
 "The obvious answers&mdash;to restrict contracts between Microsoft and "
 "computer manufacturers, or to break up the company&mdash;will not make a "
@@ -61,7 +57,6 @@ msgstr ""
 "ferait que proposer à l'utilisateur final d'autres alternatives pour "
 "renoncer à leur liberté."
 
-# type: Content of: <p>
 msgid ""
 "So I propose three remedies that would help enable <a href=\"/philosophy/"
 "free-sw.html\">free software</a> operating systems such as GNU/Linux compete "
@@ -82,7 +77,6 @@ msgstr ""
 "les «&nbsp;Halloween documents&nbsp;») pour faire obstacle au logiciel libre. "
 "Il serait des plus efficace d'utiliser les trois remèdes ensemble."
 
-# type: Content of: <ol><li>
 msgid ""
 "Require Microsoft to publish complete documentation of all interfaces "
 "between software components, all communications protocols, and all file "
@@ -94,7 +88,6 @@ msgstr ""
 "communication et les formats de fichiers. Cela bloquerait une des tactiques "
 "favorites de Microsoft&nbsp;: des interfaces secrètes et incompatibles."
 
-# type: Content of: <ol><li><p>
 msgid ""
 "To make this requirement really stick, Microsoft should not be allowed to "
 "use a nondisclosure agreement with some other organization to excuse "
@@ -107,7 +100,6 @@ msgstr ""
 "secrète. La règle serait que, s'ils ne peuvent publier l'interface, ils ne "
 "peuvent en mettre une sur le marché."
 
-# type: Content of: <ol><li><p>
 msgid ""
 "It would, however, be acceptable to permit Microsoft to begin implementation "
 "of an interface before the publication of the interface specifications, "
@@ -119,7 +111,6 @@ msgstr ""
 "celle-ci, pourvu qu'ils mettent à disposition les spécifications en même "
 "temps que l'implémentation."
 
-# type: Content of: <ol><li><p>
 msgid ""
 "Enforcement of this requirement would not be difficult.  If other software "
 "developers complain that the published documentation fails to describe some "
@@ -134,7 +125,6 @@ msgstr ""
 "propos d'interfaces (qu'il faut distinguer des implémentations techniques), "
 "devrait recevoir une réponse."
 
-# type: Content of: <ol><li><p>
 msgid ""
 "Similar terms were included in an agreement between IBM and the European "
 "Community in 1984, settling another antitrust dispute.  See <a href=\"http://"
@@ -146,7 +136,6 @@ msgstr ""
 "Voir&nbsp;: <a href=\"http://www.cptech.org/at/ibm/ibm1984ec.html\">http://"
 "www.cptech.org/at/ibm/ibm1984ec.html</a>."
 
-# type: Content of: <ol><li>
 msgid ""
 "Require Microsoft to use its patents for defense only, in the field of "
 "software.  (If they happen to own patents that apply to other fields, those "
@@ -161,7 +150,6 @@ msgstr ""
 "mentionnée dans les «&nbsp;Halloween Documents&nbsp;»&nbsp;: utiliser les "
 "brevets pour stopper le développement du logiciel libre."
 
-# type: Content of: <ol><li><p>
 msgid ""
 "We should give Microsoft the option of using either self-defense or mutual "
 "defense.  Self defense means offering to cross-license all patents at no "
@@ -178,7 +166,6 @@ msgstr ""
 "n'ont pas de brevets en propre). Le groupe offrirait une licence sur tous "
 "les brevets des membres à tous les membres."
 
-# type: Content of: <ol><li><p>
 msgid ""
 "It is crucial to address the issue of patents, because it does no good to "
 "have Microsoft publish an interface, if they have managed to work some "
@@ -191,7 +178,6 @@ msgstr ""
 "accès), ce qui ferait que nous autres, nous n'aurions pas le droit de le "
 "mettre en &oelig;uvre."
 
-# type: Content of: <ol><li>
 msgid ""
 "Require Microsoft not to certify any hardware as working with Microsoft "
 "software, unless the hardware's complete specifications have been published, "
@@ -202,7 +188,6 @@ msgstr ""
 "n'aient été publiées, ce qui permettrait à n'importe quel programmeur "
 "d'implémenter un logiciel pour qu'il tourne sur ce même matériel."
 
-# type: Content of: <ol><li><p>
 msgid ""
 "Secret hardware specifications are not in general Microsoft's doing, but "
 "they are a significant obstacle for the development of the free operating "
@@ -218,7 +203,6 @@ msgstr ""
 "arrangement est négocié avec Windows, y inscrire ce genre de mesure n'est "
 "pas impossible (ce serait une question de négociation)."
 
-# type: Content of: <p>
 msgid ""
 "This April, Microsoft's Ballmer announced a possible plan to release source "
 "code for some part of Windows.  It is not clear whether that would imply "
@@ -237,7 +221,6 @@ msgstr ""
 "libre, si le logiciel en question peut être utile à d'autres buts que celui "
 "de faire tourner d'autres programmes propriétaires de Microsoft)."
 
-# type: Content of: <p>
 msgid ""
 "However, having the use as free software of a part of Windows is less "
 "crucial than being <em>permitted</em> to implement all parts.  The remedies "
@@ -252,12 +235,10 @@ msgstr ""
 "supérieure à Microsoft Windows, quelque soit le champ dans lequel Microsoft "
 "ne fait pas de Windows un logiciel libre."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -272,7 +253,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -282,15 +262,12 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 msgid "Copyright &copy; 1999, 2007, 2008 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 1999, 2007, 2008 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium without royalty provided this notice is preserved."
@@ -299,18 +276,15 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Pierre-Yves Enderlin.<br />Révision&nbsp;: <a href="
 "\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

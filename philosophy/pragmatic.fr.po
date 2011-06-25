@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid ""
 "Copyleft: Pragmatic Idealism - GNU Project - Free Software Foundation (FSF)"
@@ -24,12 +23,10 @@ msgstr ""
 "Copyleft : Idéalisme pragmatique - GNU Project - Free Software Foundation "
 "(FSF)"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "Copyleft: Pragmatic Idealism"
 msgstr "Copyleft&nbsp;: Idéalisme pragmatique"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "by <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
@@ -37,7 +34,6 @@ msgstr ""
 "par <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></"
 "a>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Every decision a person makes stems from the person's values and goals.  "
@@ -51,7 +47,6 @@ msgstr ""
 "qu'une partie des buts qu'une personne normale peut avoir. Quand ce but est "
 "d'aider les autres aussi bien que soi même, cela s'appelle de l'idéalisme."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "My work on free software is motivated by an idealistic goal: spreading "
@@ -65,7 +60,6 @@ msgstr ""
 "remplacement des logiciels propriétaires qui empêchent la coopération, et "
 "rendre ainsi notre société meilleure."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "That's the basic reason why the GNU General Public License is written the "
@@ -90,7 +84,6 @@ msgstr ""
 "copyright pour donner aux autres coopérateurs un avantage bien à eux&nbsp;: "
 "ils peuvent utiliser notre code."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Not everyone who uses the GNU GPL has this goal.  Many years ago, a friend "
@@ -101,7 +94,6 @@ msgstr ""
 "années, on a demandé à un de mes amis de rééditer un programme copylefté "
 "sous des termes non copyleftés, et il a plus ou moins répondu ainsi&nbsp;:"
 
-# type: Content of: <blockquote><p>
 #. type: Content of: <blockquote><p>
 msgid ""
 "&ldquo;Sometimes I work on free software, and sometimes I work on "
@@ -112,7 +104,6 @@ msgstr ""
 "logiciels propriétaires&nbsp;; mais quand je travaille sur des logiciels "
 "propriétaires, j'exige d'être <em>payé</em>&nbsp;»."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "He was willing to share his work with a community that shares software, but "
@@ -125,7 +116,6 @@ msgstr ""
 "dont les produits seraient interdits à notre communauté. Son but était "
 "différent du mien mais il a décidé que la GNU GPL le satisfaisait également."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you want to accomplish something in the world, idealism is not "
@@ -138,7 +128,6 @@ msgstr ""
 "nécessaire. En d'autres termes, vous devez être «&nbsp;pragmatique&nbsp;». La "
 "GPL est-elle pragmatique&nbsp;? Regardons ses accomplissements."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Consider GNU C++.  Why do we have a free C++ compiler? Only because the GNU "
@@ -160,7 +149,6 @@ msgstr ""
 "à GCC, la GPL s'appliquait à eux. Le bénéfice pour notre communauté est "
 "évident."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Consider GNU Objective C.  NeXT initially wanted to make this front end "
@@ -177,7 +165,6 @@ msgstr ""
 "la GPL. Mais nos juristes ont dit que cela n'esquivait pas ces conditions et "
 "était interdit. Et ainsi l'interface Objective C fut un logiciel libre."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Those examples happened years ago, but the GNU GPL continues to bring us "
@@ -186,7 +173,6 @@ msgstr ""
 "Ces exemples datent de plusieurs années, mais la GNU GPL continue à nous "
 "apporter toujours plus de logiciels libres."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Many GNU libraries are covered by the GNU Lesser General Public License, but "
@@ -206,7 +192,6 @@ msgstr ""
 "mais ce qu'il fit en fait, fut de le rééditer sous la GPL. Maintenant, c'est "
 "un logiciel libre."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The programmers who write improvements to GCC (or Emacs, or Bash, or Linux, "
@@ -226,7 +211,6 @@ msgstr ""
 "nous avons décidé de placer votre version améliorée dans un logiciel "
 "propriétaire&nbsp;»."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Here the GNU GPL comes to the rescue.  The programmer shows the boss that "
@@ -242,7 +226,6 @@ msgstr ""
 "le programmeur faire ce qu'il voulait initialement et le code est inclus "
 "dans la prochaine version."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -264,7 +247,6 @@ msgstr ""
 "propriétaires qui «&nbsp;auraient besoin d'être amenés à la communauté du "
 "logiciel libre&nbsp;»."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "But we are not excluding them from our community; they are choosing not to "
@@ -279,7 +261,6 @@ msgstr ""
 "communauté signifie prendre part à notre coopération&nbsp;; nous ne pouvons "
 "pas «&nbsp;les amener à notre communauté&nbsp;» s'ils ne le désirent pas."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "What we <em>can</em> do is offer them an inducement to join.  The GNU GPL is "
@@ -293,7 +274,6 @@ msgstr ""
 "utiliser ces codes&nbsp;». Bien sûr, cela ne les convaincra pas tous, mais "
 "nous en gagnerons un de temps en temps."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Proprietary software development does not contribute to our community, but "
@@ -314,7 +294,6 @@ msgstr ""
 "&nbsp;» La tentation peut être forte, mais à long terme, nous nous sentons "
 "tous mieux si nous y avons résisté."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The temptation and pressure are harder to recognize when they come "
@@ -336,7 +315,6 @@ msgstr ""
 "fr.html\">fait de X11R6.4 un logiciel propriétaire</a>, ceux d'entre nous "
 "qui ont résisté à cette pression sont heureux de l'avoir fait."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "In September 1998, several months after X11R6.4 was released with nonfree "
@@ -353,7 +331,6 @@ msgstr ""
 "conclusions que nous avions tirées du fait que l'ajout de restrictions était "
 "<em>possible</em>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Pragmatically speaking, thinking about greater long-term goals will "
@@ -368,7 +345,6 @@ msgstr ""
 "ferme, vous trouverez la force de le faire. «&nbsp;Restez debout pour quelque "
 "chose ou vous tomberez pour rien&nbsp;»."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "And if cynics ridicule freedom, ridicule community&hellip;if &ldquo;hard-"
@@ -379,7 +355,6 @@ msgstr ""
 "si des «&nbsp;réalistes forcenés&nbsp;» disent que le profit est le seul "
 "idéal&hellip; ignorez-les et utilisez le copyleft tout de même."
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid ""
 "This essay is published in <a href=\"http://shop.fsf.org/product/free-"
@@ -390,13 +365,11 @@ msgstr ""
 "free-software-free-society/\"><cite>Free Software, Free Society: The "
 "Selected Essays of RichardM. Stallman</cite></a>."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -416,7 +389,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions à <a href=\"mailto:webmasters@gnu.org"
 "\">&lt;webmasters@gnu.org&gt;</a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -435,7 +407,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions à <a href=\"mailto:webmasters@gnu.org"
 "\">&lt;webmasters@gnu.org&gt;</a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -446,12 +417,10 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 1998, 2003 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 1998, 2003 Free Software Foundation, Inc."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
@@ -461,7 +430,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -469,13 +437,11 @@ msgstr ""
 "Traduction&nbsp;: ?<br />Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april."
 "org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

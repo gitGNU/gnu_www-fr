@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid ""
 "Frequently Asked Questions about the GNU GPL v2.0 - GNU Project - Free "
@@ -25,12 +24,10 @@ msgstr ""
 "Foire Aux Questions de la GNU GPL v2.0 - GNU Project - Free Software "
 "Foundation (FSF)"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "Frequently Asked Questions about version 2 of the GNU GPL"
 msgstr "Foire Aux Questions de la GNU GPL version 2"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "This page contains answers to commonly asked questions about the GNU General "
@@ -46,7 +43,6 @@ msgstr ""
 "logiciel libre, veuillez consulter <a href=\"/licenses/licenses.fr.html"
 "\">notre page des licences</a>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "After you read this FAQ, <a href=\"/cgi-bin/license-quiz.cgi\">you can test "
@@ -56,12 +52,10 @@ msgstr ""
 "cgi\">vous pouvez tester vos connaissances sur les licences de logiciels "
 "libres avec notre quiz (en anglais)</a>."
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "Table of Contents"
 msgstr "Table des matières"
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid ""
 "Basic questions about the GPL, the GNU Project, and the Free Software "
@@ -70,7 +64,6 @@ msgstr ""
 "Questions de base sur la GPL, le projet GNU, et le Fondation pour le "
 "logiciel libre"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhatDoesGPLStandFor\" name=\"TOCWhatDoesGPLStandFor\">What does "
@@ -79,7 +72,6 @@ msgstr ""
 "<a href=\"#WhatDoesGPLStandFor\" name=\"TOCWhatDoesGPLStandFor\">Que veut "
 "dire «&nbsp;GPL&nbsp;»&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DoesFreeSoftwareMeanUsingTheGPL\" name="
@@ -90,7 +82,6 @@ msgstr ""
 "\"TOCDoesFreeSoftwareMeanUsingTheGPL\">Est-ce que logiciel libre signifie "
 "utiliser la GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhyUseGPL\" name=\"TOCWhyUseGPL\">Why should I use the GNU GPL "
@@ -99,7 +90,6 @@ msgstr ""
 "<a href=\"#WhyUseGPL\" name=\"TOCWhyUseGPL\">Pourquoi devrais-je utiliser la "
 "GNU GPL plutôt que d'autres licences de logiciel libre&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DoesAllGNUSoftwareUseTheGNUGPLAsItsLicense\" name="
@@ -110,7 +100,6 @@ msgstr ""
 "\"TOCDoesAllGNUSoftwareUseTheGNUGPLAsItsLicense\">Est-ce que tous les "
 "logiciels GNU utilisent la GNU GPL comme licence&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DoesUsingTheGPLForAProgramMakeItGNUSoftware\" name="
@@ -121,7 +110,6 @@ msgstr ""
 "\"TOCDoesUsingTheGPLForAProgramMakeItGNUSoftware\">Est-ce que le fait "
 "d'utiliser la GPL pour un programme en fait un logiciel GNU&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLOtherThanSoftware\" name=\"TOCGPLOtherThanSoftware\">Can I use "
@@ -130,7 +118,6 @@ msgstr ""
 "<a href=\"#GPLOtherThanSoftware\" name=\"TOCGPLOtherThanSoftware\">Puis-je "
 "utiliser la GPL pour autre chose que des logiciels&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhyNotGPLForManuals\" name=\"TOCWhyNotGPLForManuals\">Why don't "
@@ -139,7 +126,6 @@ msgstr ""
 "<a href=\"#WhyNotGPLForManuals\" name=\"TOCWhyNotGPLForManuals\">Pourquoi "
 "n'utilisez-vous pas la GPL pour les manuels&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLTranslations\" name=\"TOCGPLTranslations\">Are there "
@@ -148,7 +134,6 @@ msgstr ""
 "<a href=\"#GPLTranslations\" name=\"TOCGPLTranslations\">Existe-t-il des "
 "traductions de la GPL dans d'autres langues&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhySomeGPLAndNotLGPL\" name=\"TOCWhySomeGPLAndNotLGPL\">Why are "
@@ -159,7 +144,6 @@ msgstr ""
 "certaines bibliothèques GNU sont-elles distribuées sous GPL normale, plutôt "
 "que sous GPL amoindrie (<i>Lesser GPL</i>)&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhoHasThePower\" name=\"TOCWhoHasThePower\">Who has the power to "
@@ -168,7 +152,6 @@ msgstr ""
 "<a href=\"#WhoHasThePower\" name=\"TOCWhoHasThePower\">Qui a la capacité de "
 "faire respecter la GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#AssignCopyright\" name=\"TOCAssignCopyright\">Why does the FSF "
@@ -182,7 +165,6 @@ msgstr ""
 "programme sous GPL, devrais-je faire la même chose&nbsp;? Si oui, "
 "comment&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#ModifyGPL\" name=\"TOCModifyGPL\">Can I modify the GPL and make a "
@@ -191,12 +173,10 @@ msgstr ""
 "<a href=\"#ModifyGPL\" name=\"TOCModifyGPL\">Puis-je modifier la GPL et "
 "faire une licence modifiée&nbsp;?</a>"
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "General understanding of the GPL"
 msgstr "Compréhension générale de la GPL"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhyDoesTheGPLPermitUsersToPublishTheirModifiedVersions\" name="
@@ -208,7 +188,6 @@ msgstr ""
 "GPL permet-elle aux utilisateurs de publier leur versions modifiées&nbsp;?</"
 "a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLRequireSourcePostedPublic\" name="
@@ -220,7 +199,6 @@ msgstr ""
 "source des versions modifiées soit porté à la connaissance du public&nbsp;?</"
 "a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLAndNonfreeOnSameMachine\" name=\"TOCGPLAndNonfreeOnSameMachine"
@@ -231,7 +209,6 @@ msgstr ""
 "\">Puis-je avoir un programme couvert par la GPL et un programme non-libre "
 "indépendant sur le même ordinateur&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#CanIDemandACopy\" name=\"TOCCanIDemandACopy\">If I know someone "
@@ -241,7 +218,6 @@ msgstr ""
 "quelqu'un qui a une copie d'un programme couvert par la GPL, puis-je lui "
 "demander de me donner une copie&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhatDoesWrittenOfferValid\" name=\"TOCWhatDoesWrittenOfferValid"
@@ -255,7 +231,6 @@ msgstr ""
 "signifie-t-il que n'importe qui peut obtenir les sources de n'importe quel "
 "programme sous GPL dans tous les cas&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#TheGPLSaysModifiedVersions\" name=\"TOCTheGPLSaysModifiedVersions"
@@ -268,7 +243,6 @@ msgstr ""
 "licensed&hellip; to all third parties&nbsp;».</i>). Qui sont ces tiers&nbsp;?"
 "</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DoesTheGPLAllowMoney\" name=\"TOCDoesTheGPLAllowMoney\">Does the "
@@ -278,7 +252,6 @@ msgstr ""
 "que la GPL m'autorise à vendre des copies payantes de mon programme&nbsp;?</"
 "a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DoesTheGPLAllowDownloadFee\" name=\"TOCDoesTheGPLAllowDownloadFee"
@@ -289,7 +262,6 @@ msgstr ""
 "\">La GPL me permet-elle de demander de l'argent pour le téléchargement d'un "
 "programme sur mon site&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DoesTheGPLAllowRequireFee\" name=\"TOCDoesTheGPLAllowRequireFee"
@@ -300,7 +272,6 @@ msgstr ""
 "\">Est-ce que la GPL m'autorise à exiger que quiconque reçoit le logiciel "
 "doive me payer un montant et/ou me le signaler&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DoesTheGPLRequireAvailabilityToPublic\" name="
@@ -313,7 +284,6 @@ msgstr ""
 "couvert par la GPL contre rémunération, suis-je obligé de le rendre "
 "également disponible au public gratuitement&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DoesTheGPLAllowNDA\" name=\"TOCDoesTheGPLAllowNDA\">Does the GPL "
@@ -322,7 +292,6 @@ msgstr ""
 "<a href=\"#DoesTheGPLAllowNDA\" name=\"TOCDoesTheGPLAllowNDA\">La GPL me "
 "permet-elle de distribuer une copie sous accord de non divulgation&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DoesTheGPLAllowModNDA\" name=\"TOCDoesTheGPLAllowModNDA\">Does "
@@ -333,7 +302,6 @@ msgstr ""
 "me permet-elle de distribuer une version modifiée ou beta  sous accord de "
 "non divulgation&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DevelopChangesUnderNDA\" name=\"TOCDevelopChangesUnderNDA\">Does "
@@ -344,7 +312,6 @@ msgstr ""
 "GPL me permet-elle de développer une version modifiée sous accord de non "
 "divulgation&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhyMustIInclude\" name=\"TOCWhyMustIInclude\">Why does the GPL "
@@ -354,7 +321,6 @@ msgstr ""
 "exige-t-elle d'inclure une copie de la GPL avec chaque copie du "
 "programme&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhatIfWorkIsShort\" name=\"TOCWhatIfWorkIsShort\">What if the "
@@ -363,7 +329,6 @@ msgstr ""
 "<a href=\"#WhatIfWorkIsShort\" name=\"TOCWhatIfWorkIsShort\">Et si le "
 "programme n'est guère plus long que la licence elle-même&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#RequiredToClaimCopyright\" name=\"TOCRequiredToClaimCopyright"
@@ -374,7 +339,6 @@ msgstr ""
 "\">Dois-je revendiquer un copyright pour mes modifications sur un programme "
 "couvert par la GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#CombinePublicDomainWithGPL\" name=\"TOCCombinePublicDomainWithGPL"
@@ -386,7 +350,6 @@ msgstr ""
 "GPL, puis-je prendre la partie dépendant du domaine public et l'utiliser "
 "comme tel&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#IWantCredit\" name=\"TOCIWantCredit\">I want to get credit for my "
@@ -397,7 +360,6 @@ msgstr ""
 "soit reconnu. Je veux que les gens sachent ce que j'ai écrit. Puis-je encore "
 "être reconnu si j'utilise la GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLOmitPreamble\" name=\"TOCGPLOmitPreamble\">Can I omit the "
@@ -408,7 +370,6 @@ msgstr ""
 "préambule de la GPL, ou les instructions sur la façon de l'utiliser dans vos "
 "propres programmes, pour économiser de l'espace&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhatIsCompatible\" name=\"TOCWhatIsCompatible\">What does it mean "
@@ -417,7 +378,6 @@ msgstr ""
 "<a href=\"#WhatIsCompatible\" name=\"TOCWhatIsCompatible\">Que signifie le "
 "fait que deux licences sont «&nbsp;compatibles&nbsp;»&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhatDoesCompatMean\" name=\"TOCWhatDoesCompatMean\">What does it "
@@ -427,7 +387,6 @@ msgstr ""
 "le fait qu'une licence soit «&nbsp;compatible avec la GPL&nbsp;» (<i>«&nbsp;"
 "compatible with the GPL&nbsp;»</i>)&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#OrigBSD\" name=\"TOCOrigBSD\">Why is the original BSD license "
@@ -436,7 +395,6 @@ msgstr ""
 "<a href=\"#OrigBSD\" name=\"TOCOrigBSD\">Pourquoi la licence BSD originale "
 "est-elle incompatible avec la GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#MereAggregation\" name=\"TOCMereAggregation\">What is the "
@@ -447,7 +405,6 @@ msgstr ""
 "différence entre <i>«&nbsp;mere aggregation&nbsp;»</i> et <i>«&nbsp;combining "
 "two modules into one program&nbsp;»</i>&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLCommercially\" name=\"TOCGPLCommercially\">If I use a piece of "
@@ -460,7 +417,6 @@ msgstr ""
 "le code original pour créer un nouveau programme, puis de commercialiser ce "
 "programme&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#LGPLJava\" name=\"TOCLGPLJava\">How does the LGPL work with Java?"
@@ -469,12 +425,10 @@ msgstr ""
 "<a href=\"#LGPLJava\" name=\"TOCLGPLJava\">Comment la LGPL fonctionne avec "
 "Java&nbsp;?</a>"
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "Using the GPL for your programs"
 msgstr "Utiliser la GPL pour vos programmes"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#CouldYouHelpApplyGPL\" name=\"TOCCouldYouHelpApplyGPL\">Could you "
@@ -484,7 +438,6 @@ msgstr ""
 "vous me donner des instructions détaillées sur la façon d'appliquer la GPL à "
 "mon programme&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#HowIGetCopyright\" name=\"TOCHowIGetCopyright\">How do I get a "
@@ -494,7 +447,6 @@ msgstr ""
 "un copyright sur mon programme de façon à le distribuer sous la GPL&nbsp;?</"
 "a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhatIfSchool\" name=\"TOCWhatIfSchool\">What if my school might "
@@ -503,7 +455,6 @@ msgstr ""
 "<a href=\"#WhatIfSchool\" name=\"TOCWhatIfSchool\">Et si mon école décidait "
 "de mettre mon programme dans son propre logiciel propriétaire&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#ReleaseUnderGPLAndNF\" name=\"TOCReleaseUnderGPLAndNF\">I would "
@@ -514,7 +465,6 @@ msgstr ""
 "voudrais diffuser sous GNU GPL un programme que j'ai écrit, mais j'aimerais "
 "utiliser le même code dans un programme non-libre.</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#CanDeveloperThirdParty\" name=\"TOCCanDeveloperThirdParty\">Can "
@@ -525,7 +475,6 @@ msgstr ""
 "développeur d'un programme qui l'a distribué sous GPL peut-il ensuite "
 "établir avec un tiers une licence pour son usage exclusif&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLUSGov\" name=\"TOCGPLUSGov\">Can the US Government release a "
@@ -534,7 +483,6 @@ msgstr ""
 "<a href=\"#GPLUSGov\" name=\"TOCGPLUSGov\">Le gouvernement américain peut-il "
 "publier un programme couvert par la GNU GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLUSGovAdd\" name=\"TOCGPLUSGovAdd\">Can the US Government "
@@ -544,7 +492,6 @@ msgstr ""
 "peut-il publier des améliorations d'un programme couvert par la GPL&nbsp;?</"
 "a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#VersionTwoOrLater\" name=\"TOCVersionTwoOrLater\">Why should "
@@ -555,7 +502,6 @@ msgstr ""
 "version ultérieure&nbsp;» (<i>«&nbsp;Version 2 of the GPL or any later "
 "version&nbsp;»</i>)&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLOutput\" name=\"TOCGPLOutput\">Is there some way that I can "
@@ -569,7 +515,6 @@ msgstr ""
 "de conception de composants matériels, puis-je exiger que ces éléments de "
 "conception soient libres&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#FontException\" name=\"TOCFontException\">How does the GPL apply "
@@ -578,7 +523,6 @@ msgstr ""
 "<a href=\"#FontException\" name=\"TOCFontException\">Comment la GPL "
 "s'applique t-elle aux polices&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WMS\" name=\"TOCWMS\">What license should I use for website "
@@ -587,7 +531,6 @@ msgstr ""
 "<a href=\"#WMS\" name=\"TOCWMS\">Quelle licence dois-je utiliser pour des "
 "modèles de système de maintenance de sites Web&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#NonFreeTools\" name=\"TOCNonFreeTools\">Can I release a program "
@@ -597,12 +540,10 @@ msgstr ""
 "programme sous licence GPL que j'ai développé en utilisant des outils non-"
 "libres&nbsp;?</a>"
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "Distribution of programs released under the GPL"
 msgstr "Distribution de programmes couverts par la GPL"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#ModifiedJustBinary\" name=\"TOCModifiedJustBinary\">Can I release "
@@ -612,7 +553,6 @@ msgstr ""
 "publier une version modifiée d'un programme sous GPL sous forme binaire "
 "uniquement&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#UnchangedJustBinary\" name=\"TOCUnchangedJustBinary\">I "
@@ -624,7 +564,6 @@ msgstr ""
 "distribue des copies, dois-je obtenir le code source et le redistribuer "
 "aussi&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DistributeWithSourceOnInternet\" name="
@@ -639,7 +578,6 @@ msgstr ""
 "qui en font la demande, puis-je me contenter de mettre les sources sur un "
 "serveur Internet&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#RedistributedBinariesGetSource\" name="
@@ -652,7 +590,6 @@ msgstr ""
 "sous GPL avec une offre de fourniture des sources, et a fait une copie pour "
 "moi. Puis-je utiliser l'offre pour obtenir les sources&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#SourceAndBinaryOnDifferentSites\" name="
@@ -664,7 +601,6 @@ msgstr ""
 "sur mon serveur Internet et les sources sur un site Internet différent&nbsp;?"
 "</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DistributeExtendedBinary\" name=\"TOCDistributeExtendedBinary\">I "
@@ -676,7 +612,6 @@ msgstr ""
 "de fichiers binaires. Me suffit-il de distribuer le code source de la "
 "version originale&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DistributingSourceIsInconvenient\" name="
@@ -690,7 +625,6 @@ msgstr ""
 "si je donnais aux utilisateurs les différences par rapport à la version "
 "«standard» en même temps que les binaires&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#AnonFTPAndSendSources\" name=\"TOCAnonFTPAndSendSources\">I want "
@@ -701,7 +635,6 @@ msgstr ""
 "rendre disponible par FTP anonyme les fichiers binaires, mais envoyer les "
 "sources seulement à ceux qui en font la demande.</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#HowCanIMakeSureEachDownloadGetsSource\" name="
@@ -713,7 +646,6 @@ msgstr ""
 "tout utilisateur qui télécharge les fichiers binaires obtient également le "
 "code source&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#ReleaseNotOriginal\" name=\"TOCReleaseNotOriginal\"> Can I "
@@ -726,7 +658,6 @@ msgstr ""
 "des versions modifiées de celui-ci sous la GPL mais pas l'original lui-même "
 "sous GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#CompanyGPLCostsMoney\" name=\"TOCCompanyGPLCostsMoney\"> I just "
@@ -739,7 +670,6 @@ msgstr ""
 "faut payer pour l'obtenir. Ne violent-ils pas la GPL en ne la rendant pas "
 "disponible sur Internet&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#UnreleasedMods\" name=\"TOCUnreleasedMods\"> A company is running "
@@ -750,7 +680,6 @@ msgstr ""
 "une version modifiée d'un programme sous GPL sur son site Web. La GPL dit-"
 "elle qu'elle doit publier les sources modifiées&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#InternalDistribution\" name=\"TOCInternalDistribution\"> Is use "
@@ -760,7 +689,6 @@ msgstr ""
 "que l'utilisation à l'intérieur d'une organisation ou d'une société est une "
 "«distribution»?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#StolenCopy\" name=\"TOCStolenCopy\"> If someone steals a CD "
@@ -771,7 +699,6 @@ msgstr ""
 "contenant une version d'un programme sous GPL, La  GPL lui donne t-elle le "
 "droit de redistribuer cette version&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#TradeSecretRelease\" name=\"TOCTradeSecretRelease\"> What if a "
@@ -780,7 +707,6 @@ msgstr ""
 "<a href=\"#TradeSecretRelease\" name=\"TOCTradeSecretRelease\">Et si une "
 "société distribuait une copie sous couvert du secret commercial&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLFairUse\" name=\"TOCGPLFairUse\">Do I have &ldquo;fair "
@@ -790,7 +716,6 @@ msgstr ""
 "use»</i> pour l'utilisation du code source d'un programme couvert par la "
 "GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DistributeSubsidiary\" name=\"TOCDistributeSubsidiary\"> Does "
@@ -801,7 +726,6 @@ msgstr ""
 "que déplacer une copie vers une filiale contrôlée majoritairement constitue "
 "une distribution&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#ClickThrough\" name=\"TOCClickThrough\"> Can software installers "
@@ -813,7 +737,6 @@ msgstr ""
 "la GPL&nbsp;? Si j'obtiens un logiciel sous GPL, dois-je tout accepter "
 "quoi&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLCompatInstaller\" name=\"TOCGPLCompatInstaller\">I would like "
@@ -824,12 +747,10 @@ msgstr ""
 "fournir un logiciel sous GPL avec un installeur. Cet installeur doit-il être "
 "compatible avec la licence GPL&nbsp;?</a>"
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "Using programs released under the GPL when writing other programs"
 msgstr "Utiliser des programmes sous GPL pour écrire d'autres programmes"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#CanIUseGPLToolsForNF\" name=\"TOCCanIUseGPLToolsForNF\">Can I use "
@@ -841,7 +762,6 @@ msgstr ""
 "libres&nbsp;? Puis-je utiliser des outils sous GPL pour les compiler&nbsp;?</"
 "a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WhatCaseIsOutputGPL\" name=\"TOCWhatCaseIsOutputGPL\">In what "
@@ -851,7 +771,6 @@ msgstr ""
 "cas le résultat produit par un programme sous GPL est-il également couvert "
 "par la GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#PortProgramToGL\" name=\"TOCPortProgramToGL\">If I port my "
@@ -863,7 +782,6 @@ msgstr ""
 "doive le diffuser en tant que Logiciel Libre placé sous la GPL ou une autre "
 "licence de Logiciel Libre&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLInProprietarySystem\" name=\"TOCGPLInProprietarySystem\">I'd "
@@ -874,7 +792,6 @@ msgstr ""
 "\">J'aimerais incorporer un logiciel sous GPL dans mon système propriétaire. "
 "Est-ce possible&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#LibGCCException\" name=\"TOCLibGCCException\">Does the libstdc++ "
@@ -883,12 +800,10 @@ msgstr ""
 "<a href=\"#LibGCCException\" name=\"TOCLibGCCException\">Est-ce que "
 "l'exception libstdc++ permet de lier dynamiquement&nbsp;?</a>"
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "Combining work with code released under the GPL"
 msgstr "Combiner une &oelig;uvre avec du code sous GPL"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#IfLibraryIsGPL\" name=\"TOCIfLibraryIsGPL\">If a library is "
@@ -899,7 +814,6 @@ msgstr ""
 "est distribuée sous GPL (et non sous LGPL), cela signifie-t-il que n'importe "
 "quel programme qui l'utilise doit être sous GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#LinkingWithGPL\" name=\"TOCLinkingWithGPL\">You have a GPL'ed "
@@ -912,7 +826,6 @@ msgstr ""
 "propriétaire. Le fait que je fasse une édition de liens avec votre programme "
 "implique-t-il que je doive mettre mon programme sous GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#SwitchToLGPL\" name=\"TOCSwitchToLGPL\">If so, is there any "
@@ -922,7 +835,6 @@ msgstr ""
 "d'obtenir une licence de votre programme sous la GPL amoindrie (<i>Lesser "
 "GPL</i>)&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WillYouMakeAnException\" name=\"TOCWillYouMakeAnException\">Using "
@@ -936,7 +848,6 @@ msgstr ""
 "une exception pour nous&nbsp;? Cela augmenterait le nombre d'utilisateurs de "
 "ce programme.</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#IfInterpreterIsGPL\" name=\"TOCIfInterpreterIsGPL\">If a "
@@ -949,7 +860,6 @@ msgstr ""
 "cela signifie que les programmes écrits pour être interprétés par celui-ci "
 "doivent être placés sous des licences compatibles avec la GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#InterpreterIncompat\" name=\"TOCInterpreterIncompat\">If a "
@@ -961,7 +871,6 @@ msgstr ""
 "avec la GPL, puis-je l'utiliser pour faire tourner des programmes placés "
 "sous GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLModuleLicense\" name=\"TOCGPLModuleLicense\">If I add a module "
@@ -972,7 +881,6 @@ msgstr ""
 "module à un module couvert par la GPL, dois-je utiliser la GPL comme licence "
 "pour mon module&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLAndPlugins\" name=\"TOCGPLAndPlugins\">If a program released "
@@ -983,7 +891,6 @@ msgstr ""
 "distribué sous GPL utilise des plug-ins, quelles sont les contraintes "
 "portant sur les licences d'un plug-in&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLPluginsInNF\" name=\"TOCGPLPluginsInNF\">Can I apply the GPL "
@@ -992,7 +899,6 @@ msgstr ""
 "<a href=\"#GPLPluginsInNF\" name=\"TOCGPLPluginsInNF\">Puis-je utiliser la "
 "GPL pour un plug-in dans un programme non-libre&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#NFUseGPLPlugins\" name=\"TOCNFUseGPLPlugins\">Can I release a non-"
@@ -1002,7 +908,6 @@ msgstr ""
 "programme non-libre conçu pour charger un plugin couvert par la GPL&nbsp;?</"
 "a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLWrapper\" name=\"TOCGPLWrapper\">I'd like to incorporate GPL-"
@@ -1017,7 +922,6 @@ msgstr ""
 "compatible avec la GPL (de type licence X 11) entre la partie couverte par "
 "la GPL et la partie propriétaire&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#FSWithNFLibs\" name=\"TOCFSWithNFLibs\"> Can I write free "
@@ -1026,7 +930,6 @@ msgstr ""
 "<a href=\"#FSWithNFLibs\" name=\"TOCFSWithNFLibs\">Puis-je écrire un "
 "logiciel libre qui utilise des bibliothèques non-libres&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLIncompatibleLibs\" name=\"TOCGPLIncompatibleLibs\"> What legal "
@@ -1036,7 +939,6 @@ msgstr ""
 "logiciel libre qui utilise des bibliothèques non-libres. Quels problèmes "
 "légaux surgissent si j'utilise la GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#WindowsRuntimeAndGPL\" name=\"TOCWindowsRuntimeAndGPL\">I'm "
@@ -1049,7 +951,6 @@ msgstr ""
 "diffuser sous GPL. Est-il permis par ma GPL de lier mon programme "
 "dynamiquement avec la bibliothèque de run-time de Visual C++&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#MoneyGuzzlerInc\" name=\"TOCMoneyGuzzlerInc\">I'd like to modify "
@@ -1064,7 +965,6 @@ msgstr ""
 "bibliothèques, aussi tout utilisateur voulant modifier ces versions devrait "
 "acheter ces bibliothèques. Pourquoi la GPL ne le permet-elle pas&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#GPLIncompatibleAlone\" name=\"TOCGPLIncompatibleAlone\">If "
@@ -1080,7 +980,6 @@ msgstr ""
 "compatible avec la licence GPL&nbsp;? Puis-je combiner ou lier Q avec un "
 "programme couvert par la GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#OOPLang\" name=\"TOCOOPLANG\"> In an object-oriented language "
@@ -1092,7 +991,6 @@ msgstr ""
 "hérite, dans quelle mesure la GPL affecte-t-elle le programme "
 "résultant&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#LinkingOverControlledInterface\" name="
@@ -1104,7 +1002,6 @@ msgstr ""
 "modules propriétaires avec ma bibliothèque sous GPL uniquement dans une "
 "interface contrôlée&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#Consider\" name=\"TOCConsider\">Consider this situation: 1. X "
@@ -1119,7 +1016,6 @@ msgstr ""
 "une licence autre que GPL.<br />X a-t-il besoin de la permission de Y&nbsp;?"
 "</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#ManyDifferentLicenses\" name=\"TOCManyDifferentLicenses\">I have "
@@ -1134,12 +1030,10 @@ msgstr ""
 "quelles clauses des licences s'appliquent à mon programme. Pourriez-vous "
 "m'expliquer quelle licences je peux utiliser&nbsp;?</a>"
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "Questions about violations of the GPL"
 msgstr "Questions sur les violations de la GPL"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#ReportingViolation\" name=\"TOCReportingViolation\">What should I "
@@ -1148,7 +1042,6 @@ msgstr ""
 "<a href=\"#ReportingViolation\" name=\"TOCReportingViolation\">Que devrais-"
 "je faire si je découvre une violation potentielle de la GPL&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#HeardOtherLicense\" name=\"TOCHeardOtherLicense\">I heard that "
@@ -1159,7 +1052,6 @@ msgstr ""
 "parler de quelqu'un qui a obtenu une copie d'un programme en GPL sous une "
 "autre licence. Cela est-il possible&nbsp;?</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"#DeveloperViolate\" name=\"TOCDeveloperViolate\">Is the developer "
@@ -1171,7 +1063,6 @@ msgstr ""
 "Est-ce que le développeur pourrait se retrouver un jour en violation de la "
 "GPL&nbsp;?</a>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhatDoesGPLStandFor\" name=\"WhatDoesGPLStandFor\">What "
@@ -1180,7 +1071,6 @@ msgstr ""
 "<b><a href=\"#TOCWhatDoesGPLStandFor\" name=\"WhatDoesGPLStandFor\">Que veut "
 "dire «&nbsp;GPL&nbsp;»&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "&ldquo;GPL&rdquo; stands for &ldquo;General Public License&rdquo;.  The most "
@@ -1194,7 +1084,6 @@ msgstr ""
 "GPL pour faire court. On peut réduire encore plus en «&nbsp;GPL&nbsp;», s'il "
 "est entendu qu'il s'agit de la GNU GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDoesFreeSoftwareMeanUsingTheGPL\" name="
@@ -1205,7 +1094,6 @@ msgstr ""
 "\"DoesFreeSoftwareMeanUsingTheGPL\">Est-ce que logiciel libre signifie "
 "utiliser la GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Not at all&mdash;there are many other free software licenses.  We have an <a "
@@ -1219,7 +1107,6 @@ msgstr ""
 "philosophy/free-sw.fr.html\">certaines libertés spécifiques</a> est une "
 "licence de logiciel libre."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhyUseGPL\" name=\"WhyUseGPL\"> Why should I use the GNU "
@@ -1228,7 +1115,6 @@ msgstr ""
 "<b><a href=\"#TOCWhyUseGPL\" name=\"WhyUseGPL\">Pourquoi devrais-je utiliser "
 "la GNU GPL plutôt que d'autres licences de logiciel libre&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Using the GNU GPL will require that all the <a href=\"/philosophy/pragmatic."
@@ -1244,7 +1130,6 @@ msgstr ""
 "Cependant, dans certaines situations il peut être préférable d'utiliser une "
 "<a href=\"/licenses/why-not-lgpl.fr.html\">licence plus permissive</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDoesAllGNUSoftwareUseTheGNUGPLAsItsLicense\" name="
@@ -1255,7 +1140,6 @@ msgstr ""
 "\"DoesAllGNUSoftwareUseTheGNUGPLAsItsLicense\">Est-ce que tous les logiciels "
 "GNU utilisent la GNU GPL comme licence&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Most GNU software packages use the GNU GPL, but there are a few GNU programs "
@@ -1269,7 +1153,6 @@ msgstr ""
 "i>). Quand nous l'utilisons, c'est pour des raisons <a href=\"/licenses/why-"
 "not-lgpl.fr.html\">stratégiques</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDoesUsingTheGPLForAProgramMakeItGNUSoftware\" name="
@@ -1280,7 +1163,6 @@ msgstr ""
 "\"DoesUsingTheGPLForAProgramMakeItGNUSoftware\">Est-ce que le fait "
 "d'utiliser la GPL pour un programme en fait un logiciel GNU&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Anyone can release a program under the GNU GPL but that does not make it a "
@@ -1289,7 +1171,6 @@ msgstr ""
 "N'importe qui peut publier un programme sous licence GNU GPL mais ça n'en "
 "fait pas un paquet logiciel GNU."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Making the program a GNU software package means explicitly contributing to "
@@ -1304,7 +1185,6 @@ msgstr ""
 "souhaitez contribuer au projet GNU par un programme, veuillez écrire à <a "
 "href=\"mailto:maintainers&#64;gnu.org\">&lt;maintainers&#64;gnu.org&gt;</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCReportingViolation\" name=\"ReportingViolation\"> What "
@@ -1314,7 +1194,6 @@ msgstr ""
 "devrais-je faire si je découvre une violation potentielle de la GPL&nbsp;?</"
 "a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "You should <a href=\"/licenses/gpl-violation.html\">report it.</a> First, "
@@ -1334,7 +1213,6 @@ msgstr ""
 "ou pourrait sinon vous dire comment contacter le détenteur du copyright, "
 "donc signalez-le au mainteneur."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhyDoesTheGPLPermitUsersToPublishTheirModifiedVersions\" "
@@ -1346,7 +1224,6 @@ msgstr ""
 "GPL permet-elle aux utilisateurs de publier leur versions modifiées&nbsp;?</"
 "a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "A crucial aspect of free software is that users are free to cooperate.  It "
@@ -1358,7 +1235,6 @@ msgstr ""
 "désirent s'entraider de partager leurs patches et améliorations avec "
 "d'autres."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Some have proposed alternatives to the GPL that require modified versions to "
@@ -1376,7 +1252,6 @@ msgstr ""
 "problèmes pratiques, cette façon de faire ne permet pas aux utilisateurs de "
 "s'entraider."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Sometimes control over modified versions is proposed as a means of "
@@ -1395,7 +1270,6 @@ msgstr ""
 "requiert que l'auteur d'une version mette son nom dessus, pour la distinguer "
 "des autres versions et protéger la réputation des autres mainteneurs."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLRequireSourcePostedPublic\" name="
@@ -1407,7 +1281,6 @@ msgstr ""
 "source des versions modifiées soit porté à la connaissance du public&nbsp;?</"
 "a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "The GPL does not require you to release your modified version.  You are free "
@@ -1422,7 +1295,6 @@ msgstr ""
 "une organisation peut réaliser une version modifiée et l'utiliser en interne "
 "sans jamais la diffuser en dehors de l'organisation."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "But <em>if</em> you release the modified version to the public in some way, "
@@ -1433,7 +1305,6 @@ msgstr ""
 "manière que soit, la GPL vous oblige à rendre la version du code source "
 "modifiée disponible pour les utilisateurs, sous GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Thus, the GPL gives permission to release the modified program in certain "
@@ -1444,7 +1315,6 @@ msgstr ""
 "conditions, et pas sous d'autres; mais la décision de le distribuer vous "
 "regarde."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLAndNonfreeOnSameMachine\" name="
@@ -1455,7 +1325,6 @@ msgstr ""
 "\"GPLAndNonfreeOnSameMachine\">Puis-je avoir un programme couvert par la GPL "
 "et programme non-libre indépendant sur le même ordinateur&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Yes.  The &ldquo;mere aggregation&rdquo; clause in the GPL makes this "
@@ -1466,7 +1335,6 @@ msgstr ""
 "GPL rend cette autorisation explicite, mais cela renforce seulement ce que "
 "nous pensons être correct."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCCanIDemandACopy\" name=\"CanIDemandACopy\">If I know "
@@ -1477,7 +1345,6 @@ msgstr ""
 "quelqu'un qui a une copie d'un programme couvert par la GPL, puis-je lui "
 "demander de me donner une copie&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "No.  The GPL gives him permission to make and redistribute copies of the "
@@ -1488,7 +1355,6 @@ msgstr ""
 "du programme <em>s'il choisit de le faire</em>. Il a également le droit de "
 "ne pas redistribuer le programme, si c'est son choix."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhatDoesWrittenOfferValid\" name=\"WhatDoesWrittenOfferValid"
@@ -1502,7 +1368,6 @@ msgstr ""
 "signifie-t-il que n'importe qui peut obtenir les sources de n'importe quel "
 "programme sous GPL dans tous les cas&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you choose to provide source through a written offer, then anybody who "
@@ -1512,7 +1377,6 @@ msgstr ""
 "party&nbsp;»</i>) signifie que quiconque dispose de cette offre de votre "
 "part peut l'accepter."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you commercially distribute binaries not accompanied with source code, "
@@ -1531,7 +1395,6 @@ msgstr ""
 "fichiers binaires directement auprès de vous peuvent quand même recevoir une "
 "copie du code source, selon l'offre écrite."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The reason we require the offer to be valid for any third party is so that "
@@ -1543,7 +1406,6 @@ msgstr ""
 "indirectement de cette façon peuvent ainsi commander le code source auprès "
 "de vous."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCTheGPLSaysModifiedVersions\" name="
@@ -1557,7 +1419,6 @@ msgstr ""
 "tout tiers» (<i>«&nbsp;licensed&hellip; to all third parties&nbsp;».</i>). "
 "Qui sont ces tiers&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Section 2 says that modified versions you distribute must be licensed to all "
@@ -1573,7 +1434,6 @@ msgstr ""
 "chose physiquement pour eux. Cela veut seulement dire qu'ils ont une obtenu "
 "une licence de votre part, sous la GPL, pour votre version."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCRequiredToClaimCopyright\" name=\"RequiredToClaimCopyright"
@@ -1584,7 +1444,6 @@ msgstr ""
 "\">Dois-je revendiquer un copyright pour mes modifications sur un programme "
 "couvert par la GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "You are not required to claim a copyright on your changes.  In most "
@@ -1597,7 +1456,6 @@ msgstr ""
 "aussi vous devrez mettre de façon explicite les modifications dans le "
 "domaine public si vous ne voulez pas qu'elles soient sous copyright."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Whether you claim a copyright on your changes or not, either way you must "
@@ -1609,7 +1467,6 @@ msgstr ""
 "publier la version modifiée, dans son entier, sous la GPL. (<a href="
 "\"#GPLRequireSourcePostedPublic\">si vous la publiez</a>)."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCCombinePublicDomainWithGPL\" name="
@@ -1622,7 +1479,6 @@ msgstr ""
 "public et du code couvert sous GPL, Puis-je prendre la partie dépendant du "
 "domaine public et l'utiliser comme tel&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "You can do that, if you can figure out which part is the public domain part "
@@ -1634,7 +1490,6 @@ msgstr ""
 "public par son développeur, il est dans le domaine public peu importe ou il "
 "était auparavant."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDoesTheGPLAllowMoney\" name=\"DoesTheGPLAllowMoney\"> Does "
@@ -1644,7 +1499,6 @@ msgstr ""
 "que la GPL m'autorise à vendre des copies payantes de mon programme&nbsp;?</"
 "a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Yes, the GPL allows everyone to do this.  The <a href=\"/philosophy/selling."
@@ -1657,7 +1511,6 @@ msgstr ""
 "selling.fr.html\">droit de vendre des copies</a> est une partie de la "
 "définition du logiciel libre."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDoesTheGPLAllowDownloadFee\" name="
@@ -1668,7 +1521,6 @@ msgstr ""
 "\"DoesTheGPLAllowDownloadFee\">La GPL me permet-elle de demander de l'argent "
 "pour le téléchargement d'un programme sur mon site&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Yes.  You can charge any fee you wish for distributing a copy of the "
@@ -1682,7 +1534,6 @@ msgstr ""
 "de sources &mdash;&nbsp;cependant, le montant du téléchragement des sources "
 "ne doit pas être plus important que celui du téléchargement des exécutables."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDoesTheGPLAllowRequireFee\" name=\"DoesTheGPLAllowRequireFee"
@@ -1693,7 +1544,6 @@ msgstr ""
 "\">Est-ce que la GPL m'autorise à exiger que quiconque reçoit le logiciel "
 "doive me payer un montant et/ou me le signaler&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "No.  In fact, a requirement like that would make the program non-free.  If "
@@ -1707,7 +1557,6 @@ msgstr ""
 "Voir la <a href=\"/philosophy/free-sw.fr.html\">définition du logiciel "
 "libre</a>."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The GPL is a free software license, and therefore it permits people to use "
@@ -1718,7 +1567,6 @@ msgstr ""
 "l'utilisation et même la redistribution du logiciel sans que l'on ait à "
 "payer de droit à quiconque pour cela."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDoesTheGPLRequireAvailabilityToPublic\" name="
@@ -1731,7 +1579,6 @@ msgstr ""
 "couvert par la GPL contre rémunération, suis-je obligé de le rendre "
 "également disponible au public gratuitement&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "No.  However, if someone pays your fee and gets a copy, the GPL gives them "
@@ -1744,7 +1591,6 @@ msgstr ""
 "exemple, quelqu'un pourrait payer un montant, puis mettre sa copie sur un "
 "site Web à disposition du public."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDoesTheGPLAllowNDA\" name=\"DoesTheGPLAllowNDA\"> Does the "
@@ -1754,7 +1600,6 @@ msgstr ""
 "permet-elle de distribuer des copies sous accord de non divulgation&nbsp;?</"
 "a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "No.  The GPL says that anyone who receives a copy from you has the right to "
@@ -1766,7 +1611,6 @@ msgstr ""
 "version. Elle ne vous donne pas le droit de distribuer votre travail avec "
 "plus de restrictions."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If someone asks you to sign an NDA for receiving GPL-covered copyright FSF, "
@@ -1776,7 +1620,6 @@ msgstr ""
 "logiciel couvert par la GPL sous copyright de la FSF, veuillez en informer "
 "immédiatement la FSF en écrivant à license-violation@gnu.org."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the violation involves GPL-covered code that has some other copyright "
@@ -1787,7 +1630,6 @@ msgstr ""
 "copyright est autre, veuillez en informer ce détenteur du copyright, comme "
 "vous le feriez pour toute autre violation de la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDoesTheGPLAllowModNDA\" name=\"DoesTheGPLAllowModNDA\"> "
@@ -1798,7 +1640,6 @@ msgstr ""
 "GPL me permet-elle de distribuer une version modifiée ou beta sous accord de "
 "non-divulgation&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "No.  The GPL says that your modified versions must carry all the freedoms "
@@ -1812,7 +1653,6 @@ msgstr ""
 "cette version. Vous ne pouvez pas redistribuer de version de ce travail sur "
 "des bases plus restrictives."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDevelopChangesUnderNDA\" name=\"DevelopChangesUnderNDA\"> "
@@ -1823,7 +1663,6 @@ msgstr ""
 "GPL me permet-elle de développer une version modifiée sous accord de non "
 "divulgation&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Yes.  For instance, you can accept a contract to develop changes and agree "
@@ -1836,7 +1675,6 @@ msgstr ""
 "jusqu'à ce que le client soit d'accord. Ceci est permis car dans ce cas "
 "aucun code couvert par la GPL n'est distribué sous accord de non divulgation."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "You can also release your changes to the client under the GPL, but agree not "
@@ -1850,7 +1688,6 @@ msgstr ""
 "n'est distribué sous accord de non divulgation, ou toute autre restriction "
 "supplémentaire."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The GPL would give the client the right to redistribute your version.  In "
@@ -1861,7 +1698,6 @@ msgstr ""
 "scénario, le client choisira probablement de ne pas exercer ce droit, mais "
 "il <em>a</em> le droit de le faire."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCIWantCredit\" name=\"IWantCredit\">I want to get credit for "
@@ -1872,7 +1708,6 @@ msgstr ""
 "soit reconnu. Je veux que les gens sachent ce que j'ai écrit. Puis-je encore "
 "être reconnu si j'utilise la GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "You can certainly get credit for the work.  Part of releasing a program "
@@ -1885,7 +1720,6 @@ msgstr ""
 "votre propre nom (à supposer que vous déteniez ce copyright). La GPL "
 "requiert que chaque copie porte une mention de copyright appropriée."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhyMustIInclude\" name=\"WhyMustIInclude\">Why does the GPL "
@@ -1895,7 +1729,6 @@ msgstr ""
 "exige-t-elle d'inclure une copie de la GPL avec chaque copie du "
 "programme&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Including a copy of the license with the work is vital so that everyone who "
@@ -1905,7 +1738,6 @@ msgstr ""
 "tous ceux qui reçoivent une copie du programme peuvent connaître leurs "
 "droits."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "It might be tempting to include a URL that refers to the license, instead of "
@@ -1918,7 +1750,6 @@ msgstr ""
 "sera toujours valable dans cinq ou dix ans. Dans vingt ans, les URL que nous "
 "connaissons aujourd'hui n'existeront peut-être plus."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The only way to make sure that people who have copies of the program will "
@@ -1930,7 +1761,6 @@ msgstr ""
 "apparaîtront dans le réseau, est d'inclure une copie de la licence dans le "
 "programme."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhatIfWorkIsShort\" name=\"WhatIfWorkIsShort\">What if the "
@@ -1939,7 +1769,6 @@ msgstr ""
 "<b><a href=\"#TOCWhatIfWorkIsShort\" name=\"WhatIfWorkIsShort\">Et si le "
 "programme n'est guère plus long que la licence elle-même&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "If a single program is that short, you may as well use a simple all-"
@@ -1948,7 +1777,6 @@ msgstr ""
 "Si un programme est aussi court, vous pouvez aussi bien utiliser une licence "
 "sans restriction, plutôt que la GNU GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLOmitPreamble\" name=\"GPLOmitPreamble\"> Can I omit the "
@@ -1959,7 +1787,6 @@ msgstr ""
 "préambule de la GPL, ou les instructions sur la façon de l'utiliser dans vos "
 "propres programmes, pour économiser de l'espace&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "The preamble and instructions are integral parts of the GNU GPL and may not "
@@ -1972,7 +1799,6 @@ msgstr ""
 "En fait, la GPL est sous copyright, et sa licence permet seulement de la "
 "recopier telle-quelle dans son intégralité."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The preamble and instructions add up to some 5000 characters, less than 1/3 "
@@ -1987,7 +1813,6 @@ msgstr ""
 "paquetage lui-même soit vraiment petit. Dans ce cas, vous pourriez aussi "
 "bien utiliser une licence totalement permissive au lieu de la GNU GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhatIsCompatible\" name=\"WhatIsCompatible\">What does it "
@@ -1996,7 +1821,6 @@ msgstr ""
 "<b><a href=\"#TOCWhatIsCompatible\" name=\"WhatIsCompatible\">Que signifie "
 "de dire que deux licences sont «&nbsp;compatibles&nbsp;»&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "In order to combine two programs (or substantial parts of them) into a "
@@ -2010,7 +1834,6 @@ msgstr ""
 "programmes le permettent, ils sont compatibles. S'il n'y a aucun moyen de "
 "satisfaire les deux licences en même temps, ils sont incompatibles."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "For some licenses, the way in which the combination is made may affect "
@@ -2022,7 +1845,6 @@ msgstr ""
 "deux modules ensemble, mais ne pas autoriser la fusion de leurs codes dans "
 "un seul module."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Just to install two separate programs in the same system, it is not "
@@ -2033,7 +1855,6 @@ msgstr ""
 "n'est pas nécessaire que leurs licences soient compatibles, car cela ne les "
 "combine pas dans un programme plus gros."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhatDoesCompatMean\" name=\"WhatDoesCompatMean\">What does "
@@ -2043,7 +1864,6 @@ msgstr ""
 "dire le fait qu'une licence soit «&nbsp;compatible avec la "
 "GPL&nbsp;» (<i>«&nbsp;compatible with the GPL&nbsp;»</i>)&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "It means that the other license and the GNU GPL are compatible; you can "
@@ -2054,7 +1874,6 @@ msgstr ""
 "pouvez combiner du code publié sous l'autre licence avec du code publié sous "
 "la GNU GPL dans un programme plus large."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The GPL permits such a combination provided it is released under the GNU "
@@ -2064,7 +1883,6 @@ msgstr ""
 "sous GNU GPL. L'autre licence est compatible avec la GPL si elle permet cela "
 "aussi."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCFSWithNFLibs\" name=\"FSWithNFLibs\">Can I write free "
@@ -2073,7 +1891,6 @@ msgstr ""
 "<b><a href=\"#TOCFSWithNFLibs\" name=\"FSWithNFLibs\">Puis-je écrire un "
 "logiciel libre qui utilise des bibliothèques non-libres&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "If you do this, your program won't be fully usable in a free environment. If "
@@ -2089,7 +1906,6 @@ msgstr ""
 "pourra pas faire partie d'un système d'exploitation libre tel que GNU; c'est "
 "totalement hors des limites du Monde libre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "So please consider: can you find a way to get the job done without using "
@@ -2099,7 +1915,6 @@ msgstr ""
 "réaliser cette action sans utiliser cette bibliothèque&nbsp;? Pouvez-vous "
 "écrire une bibliothèque libre pour la remplacer&nbsp;?"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the program is already written using the non-free library, perhaps it is "
@@ -2119,7 +1934,6 @@ msgstr ""
 "libre. Veuillez suggérez que quiconque pense faire un gros travail sur le "
 "programme, le libère d'abord de sa dépendance à la bibliothèque non-libre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Note that there may also be legal issues with combining certain non-free "
@@ -2133,7 +1947,6 @@ msgstr ""
 "logiciels sous GPL avec les bibliothèques incompatibles avec la GPL</a> pour "
 "plus de renseignements."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLIncompatibleLibs\" name=\"GPLIncompatibleLibs\">What "
@@ -2144,7 +1957,6 @@ msgstr ""
 "du logiciel libre qui utilise des bibliothèques non-libres. Quels problèmes "
 "légaux surgissent si j'utilise la GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "If the libraries that you link with fall within the following exception in "
@@ -2153,7 +1965,6 @@ msgstr ""
 "Si les bibliothèques avec lesquelles vous faites une édition de liens entre "
 "dans le champ de l'exception suivante de la GPL&nbsp;:"
 
-# type: Content of: <dl><dd><blockquote><p>
 #. type: Content of: <dl><dd><blockquote><p>
 msgid ""
 "However, as a special exception, the source code distributed need not "
@@ -2168,7 +1979,6 @@ msgstr ""
 "operating system on which the executable runs, unless that component itself "
 "accompanies the executable."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "then you don't have to do anything special to use them; the requirement to "
@@ -2183,7 +1993,6 @@ msgstr ""
 "majeurs d'un système d'exploitation propriétaire, la GPL dit que l'on peut "
 "les utiliser dans une édition de lien avec votre programme."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you want your program to link against a library not covered by that "
@@ -2196,12 +2005,10 @@ msgstr ""
 "entièrement en dehors de la GPL. Cette note de copyright et de licence "
 "autorise l'édition de lien avec le programme FOO&nbsp;:"
 
-# type: Content of: <dl><dd><blockquote><p>
 #. type: Content of: <dl><dd><blockquote><p>
 msgid "Copyright (C) yyyy &lt;name of copyright holder&gt;"
 msgstr "Copyright (C) yyyy  &lt;name of copyright holder&gt;"
 
-# type: Content of: <dl><dd><blockquote><p>
 #. type: Content of: <dl><dd><blockquote><p>
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
@@ -2215,7 +2022,6 @@ msgstr ""
 "Foundation; soit la version 2 de la licence, soit (comme vous le souhaitez) "
 "toute version ultérieure."
 
-# type: Content of: <dl><dd><blockquote><p>
 #. type: Content of: <dl><dd><blockquote><p>
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
@@ -2228,7 +2034,6 @@ msgstr ""
 "d'ADéQUATION à UN BUT PARTICULIER. Voir la GNU General Public License pour "
 "plus de détails."
 
-# type: Content of: <dl><dd><blockquote><p>
 #. type: Content of: <dl><dd><blockquote><p>
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
@@ -2239,7 +2044,6 @@ msgstr ""
 "temps que ce programme; sinon, merci d'écrire à la Free Software Foundation, "
 "Inc, 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA"
 
-# type: Content of: <dl><dd><blockquote><p>
 #. type: Content of: <dl><dd><blockquote><p>
 msgid ""
 "Linking ABC statically or dynamically with other modules is making a "
@@ -2250,7 +2054,6 @@ msgstr ""
 "&oelig;uvre combinée basée sur ABC. Cependant, les termes et conditions de "
 "la Licence publique générale GNU couvrent la totalité de la combinaison."
 
-# type: Content of: <dl><dd><blockquote><p>
 #. type: Content of: <dl><dd><blockquote><p>
 msgid ""
 "In addition, as a special exception, the copyright holders of ABC give you "
@@ -2271,7 +2074,6 @@ msgstr ""
 "l'autre code concerné, pourvu d'y inclure le code source de l'autre code car "
 "la GPL GNU nécessite la distribution du code source."
 
-# type: Content of: <dl><dd><blockquote><p>
 #. type: Content of: <dl><dd><blockquote><p>
 msgid ""
 "Note that people who make modified versions of ABC are not obligated to "
@@ -2288,14 +2090,12 @@ msgstr ""
 "sans cette exception; cette exception rend également possible de publier une "
 "version modifiée qui perpétue cette exception."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "You should put this text in each file to which the exception applies."
 msgstr ""
 "Vous devez ajouter ce texte dans chaque fichier auquel s'applique "
 "l'exception."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Only the copyright holders for the program can legally authorize this "
@@ -2315,7 +2115,6 @@ msgstr ""
 "cette exception à leur place. Vous devez obtenir l'autorisation des "
 "détenteurs des copyrights de ces programmes."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "When other people modify the program, they do not have to make the same "
@@ -2325,7 +2124,6 @@ msgstr ""
 "même exception pour leur code &mdash;&nbsp;elles ont le choix de le faire ou "
 "non."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the libraries you intend to link with are non-free, please also see <a "
@@ -2336,7 +2134,6 @@ msgstr ""
 "veuillez également consulter <a href=\"#FSWithNFLibs\">la section sur "
 "l'écriture de logiciels libres utilisant des bibliothèques non-libres.</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCHowIGetCopyright\" name=\"HowIGetCopyright\">How do I get a "
@@ -2346,7 +2143,6 @@ msgstr ""
 "obtenir un copyright sur mon programme de façon à le distribuer sous la "
 "GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Under the Berne Convention, everything written is automatically copyrighted "
@@ -2359,7 +2155,6 @@ msgstr ""
 "«obtenir» un copyright sur ce que vous écrivez &mdash;&nbsp;dès lors que "
 "personne d'autre ne peut prétendre posséder votre travail."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "However, registering the copyright in the US is a very good idea.  It will "
@@ -2369,7 +2164,6 @@ msgstr ""
 "Unis. Cela vous donnera plus d'influence pour traiter avec une violation aux "
 "États-Unis."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The case when someone else might possibly claim the copyright is if you are "
@@ -2387,7 +2181,6 @@ msgstr ""
 "genre de travail que vous faites. Le mieux est de consulter un avocat s'il y "
 "a le moindre doute."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you think that the employer or school might have a claim, you can resolve "
@@ -2401,7 +2194,6 @@ msgstr ""
 "(Votre supérieur hiérarchique immédiat ou votre professeur ne sont "
 "généralement PAS autorisés à signer de telles renonciations)."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhatIfSchool\" name=\"WhatIfSchool\">What if my school "
@@ -2412,7 +2204,6 @@ msgstr ""
 "décidait de mettre mon programme dans son propre logiciel propriétaire&nbsp;?"
 "</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Many universities nowadays try to raise funds by restricting the use of the "
@@ -2427,7 +2218,6 @@ msgstr ""
 "commerciales. (Voir «&nbsp;The Kept University&nbsp;», Atlantic Monthly, Mars "
 "2000, pour une discussion générale de ce problème et de ses effets)."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you see any chance that your school might refuse to allow your program to "
@@ -2443,7 +2233,6 @@ msgstr ""
 "de vous le prendre et de le finir sans vous. À un stade moins avancé, vous "
 "avez plus de marge de man&oelig;uvre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "So we recommend that you approach them when the program is only half-done, "
@@ -2458,7 +2247,6 @@ msgstr ""
 "Pour que votre opinion prévale, vous devez avoir le courage de dire&nbsp;: "
 "«&nbsp;Mon programme sera libre, ou ne sera pas&nbsp;»."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCCouldYouHelpApplyGPL\" name=\"CouldYouHelpApplyGPL\">Could "
@@ -2469,7 +2257,6 @@ msgstr ""
 "\">Pourriez-vous me donner des instructions détaillées sur la façon "
 "d'appliquer la GPL à mon programme&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "See the page of <a href=\"/licenses/gpl-howto.html\"> GPL instructions</a>."
@@ -2477,7 +2264,6 @@ msgstr ""
 "Voir la page des <a href=\"/licenses/gpl-howto.fr.html\">instructions pour "
 "la GPL</a>."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCHeardOtherLicense\" name=\"HeardOtherLicense\">I heard that "
@@ -2488,7 +2274,6 @@ msgstr ""
 "parler de quelqu'un qui a obtenu une copie d'un programme en GPL sous une "
 "autre licence. Cela est-il possible&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "The GNU GPL does not give users permission to attach other licenses to the "
@@ -2500,7 +2285,6 @@ msgstr ""
 "le publier sous différentes licences en parallèle. L'une d'entre-elles peut "
 "être la GNU GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The license that comes in your copy, assuming it was put in by the copyright "
@@ -2511,7 +2295,6 @@ msgstr ""
 "mise par le détenteur du copyright et que vous aillez acquis cette copie de "
 "façon légitime, est la licence qui s'applique à votre copie."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCReleaseUnderGPLAndNF\" name=\"ReleaseUnderGPLAndNF\">I "
@@ -2522,7 +2305,6 @@ msgstr ""
 "voudrais diffuser sous GNU GPL un programme que j'ai écrit, mais j'aimerais "
 "utiliser le même code dans un programme non-libre.</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "To release a non-free program is always ethically tainted, but legally there "
@@ -2535,7 +2317,6 @@ msgstr ""
 "êtes le détenteur du copyright pour le code, vous pouvez le publier sous "
 "différentes licences non-exclusives à différents moments."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDeveloperViolate\" name=\"DeveloperViolate\">Is the "
@@ -2547,7 +2328,6 @@ msgstr ""
 "Est-ce que le développeur pourrait se retrouver un jour en violation de la "
 "GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Strictly speaking, the GPL is a license from the developer for others to "
@@ -2561,7 +2341,6 @@ msgstr ""
 "quelque soit ce que fait le développeur, ce n'est pas une «&nbsp;"
 "violation&nbsp;» de la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "However, if the developer does something that would violate the GPL if done "
@@ -2572,7 +2351,6 @@ msgstr ""
 "GPL si quelqu'un d'autre faisait la même chose, alors il perdrait sûrement "
 "de son autorité morale dans la communauté."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCCanDeveloperThirdParty\" name=\"CanDeveloperThirdParty"
@@ -2583,7 +2361,6 @@ msgstr ""
 "développeur d'un programme qui l'a distribué sous GPL peut-il ensuite "
 "établir avec un tiers une licence pour son usage exclusif&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "No, because the public already has the right to use the program under the "
@@ -2592,7 +2369,6 @@ msgstr ""
 "Non, parce que le public détient déjà le droit d'utiliser le programme sous "
 "la GPL, et ce droit ne peut être retiré."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCCanIUseGPLToolsForNF\" name=\"CanIUseGPLToolsForNF\">Can I "
@@ -2604,7 +2380,6 @@ msgstr ""
 "libres&nbsp;? Puis-je utiliser des outils sous GPL pour les compiler&nbsp;?</"
 "a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Yes, because the copyright on the editors and tools does not cover the code "
@@ -2614,7 +2389,6 @@ msgstr ""
 "Oui, parce que le copyright sur l'éditeur de texte et les outils ne couvre "
 "pas le code que vous écrivez."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Some programs copy parts of themselves into the output for technical "
@@ -2631,7 +2405,6 @@ msgstr ""
 "dans le code source. Entre temps, la partie du résultat qui vient des "
 "données fournies au programme hérite du même copyright que ces données."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "As it happens, Bison can also be used to develop non-free programs.  This is "
@@ -2647,7 +2420,6 @@ msgstr ""
 "décision parce qu'il existait déjà d'autres outils comparables à Bison qui "
 "autorisaient déjà une utilisation pour des programmes non-libres."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLFairUse\" name=\"GPLFairUse\">Do I have &ldquo;fair "
@@ -2658,7 +2430,6 @@ msgstr ""
 "pour l'utilisation du code source d'un programme couvert par la GPL&nbsp;?</"
 "a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Yes, you do.  &ldquo;Fair use&rdquo; is use that is allowed without any "
@@ -2673,7 +2444,6 @@ msgstr ""
 "développeur &mdash;&nbsp;dans la licence ou ailleurs, que cette licence soit "
 "la GNU GPL ou tout autre licence de logiciel libre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Note, however, that there is no world-wide principle of fair use; what kinds "
@@ -2683,7 +2453,6 @@ msgstr ""
 "les types d'utilisation relevant du <i>«&nbsp;fair use&nbsp;»</i> varient "
 "selon les pays."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLUSGov\" name=\"GPLUSGov\">Can the US Government release "
@@ -2692,7 +2461,6 @@ msgstr ""
 "<b><a href=\"#TOCGPLUSGov\" name=\"GPLUSGov\">Le gouvernement américain peut-"
 "il publier un programme couvert par la GNU GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "If the program is written by US federal government employees in the course "
@@ -2708,7 +2476,6 @@ msgstr ""
 "(Il peut être un <a href=\"/philosophy/free-sw.fr.html\">logiciel libre</a> "
 "cependant&nbsp;; un programme du domaine public est libre)."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "However, when a US federal government agency uses contractors to develop "
@@ -2724,7 +2491,6 @@ msgstr ""
 "d'auteur à l'agence gouvernementale, qui peut alors publier le logiciel sous "
 "la GPL GNU."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLUSGovAdd\" name=\"GPLUSGovAdd\">Can the US Government "
@@ -2734,7 +2500,6 @@ msgstr ""
 "américain peut-il publier des améliorations d'un programme couvert par la "
 "GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Yes.  If the improvements are written by US government employees in the "
@@ -2747,7 +2512,6 @@ msgstr ""
 "améliorée, en son entier, est toujours couverte par la GPL GNU. Il n'y a pas "
 "de problème dans ce cas."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the US government uses contractors to do the job, then the improvements "
@@ -2756,7 +2520,6 @@ msgstr ""
 "Si le gouvernement utilise des sous-traitants pour faire le travail, alors "
 "les améliorations elles-mêmes peuvent être couvertes par la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLOutput\" name=\"GPLOutput\">Is there some way that I can "
@@ -2770,7 +2533,6 @@ msgstr ""
 "de conception de composants matériels, puis-je exiger que ces éléments de "
 "conception soient libres&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "In general this is legally impossible; copyright law does not give you any "
@@ -2790,7 +2552,6 @@ msgstr ""
 "copyright du résultat hérite de celui qui couvrait les données ayant servi à "
 "le générer."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "So the only way you have a say in the use of the output is if substantial "
@@ -2804,7 +2565,6 @@ msgstr ""
 "partie du résultat produit par Bison (voir ci-dessus) serait couverte par la "
 "GNU GPL si nous n'avions créé une exception pour ce cas particulier."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "You could artificially make a program copy certain text into its output even "
@@ -2819,7 +2579,6 @@ msgstr ""
 "supprimer du résultat et n'utiliser que le reste. Il n'aurait plus alors à "
 "respecter les conditions de redistribution du texte copié."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhatCaseIsOutputGPL\" name=\"WhatCaseIsOutputGPL\">In what "
@@ -2829,13 +2588,11 @@ msgstr ""
 "quels cas le résultat produit par un programme sous GPL est-il également "
 "couvert par la GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid "Only when the program copies part of itself into the output."
 msgstr ""
 "Seulement quand le programme copie des portions de lui-même dans le résultat."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLModuleLicense\" name=\"GPLModuleLicense\">If I add a "
@@ -2846,7 +2603,6 @@ msgstr ""
 "module à un module couvert par la GPL, dois-je utiliser la GPL comme licence "
 "pour mon module&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "The GPL says that the whole combined program has to be released under the "
@@ -2855,7 +2611,6 @@ msgstr ""
 "La GPL dit que l'ensemble du programme combiné doit être publié sous la GPL. "
 "Votre module doit donc être disponible pour utilisation sous GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "But you can give additional permission for the use of your code.  You can, "
@@ -2869,7 +2624,6 @@ msgstr ""
 "La <a href=\"/philosophy/license-list.fr.html\">page de liste des licences</"
 "a> donne une liste partielle des licences compatibles avec la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCIfLibraryIsGPL\" name=\"IfLibraryIsGPL\">If a library is "
@@ -2880,14 +2634,12 @@ msgstr ""
 "bibliothèque est distribuée sous GPL (et non sous LGPL), cela signifie-t-il "
 "que n'importe quel programme qui l'utilise doit être sous GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid "Yes, because the program as it is actually run includes the library."
 msgstr ""
 "Oui, parce que le programme tel qu'il est effectivement exécuté inclus la "
 "bibliothèque."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCIfInterpreterIsGPL\" name=\"IfInterpreterIsGPL\">If a "
@@ -2900,7 +2652,6 @@ msgstr ""
 "cela signifie que les programmes écrits pour être interprétés par celui-ci "
 "doivent être placés sous des licences compatibles avec la GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "When the interpreter just interprets a language, the answer is no.  The "
@@ -2918,7 +2669,6 @@ msgstr ""
 "(programme interprété), de la façon dont vous le souhaitez, et il n'y a "
 "aucune exigence sur le fait d'appliquer licence à des tiers sur ces données."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "However, when the interpreter is extended to provide &ldquo;bindings&rdquo; "
@@ -2948,7 +2698,6 @@ msgstr ""
 "dynamiquement à ces bibliothèques spécifiques</a>, alors il doit être aussi "
 "publié de manière compatible avec la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Another similar and very common case is to provide libraries with the "
@@ -2963,7 +2712,6 @@ msgstr ""
 "fournie avec de nombreuses classes Java. Ces bibliothèques et les programmes "
 "qui les appellents sont toujours liés ensemble dynamiquement."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "A consequence is that if you choose to use GPL'd Perl modules or Java "
@@ -2977,7 +2725,6 @@ msgstr ""
 "utilisée dans l'interpréteur Perl ou Java sur lequel va s'exécuter le "
 "programme combiné Perl ou Java."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWindowsRuntimeAndGPL\" name=\"WindowsRuntimeAndGPL\">I'm "
@@ -2991,7 +2738,6 @@ msgstr ""
 "de la diffuser sous GPL. Est-il permis par ma GPL de lier mon programme "
 "dynamiquement avec la bibliothèque de run-time de Visual C++&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "The GPL permits this because that run-time library normally accompanies the "
@@ -3002,7 +2748,6 @@ msgstr ""
 "normalement le compilateur ou l'interpréteur que vous utilisez. Cela tombe "
 "donc sous le coup de l'exception de la section 3 de la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "That doesn't mean it is a good idea to write the program so that it only "
@@ -3019,7 +2764,6 @@ msgstr ""
 "a> (en ce cas précis, pris au piège de Windows au lieu de Java, mais l'effet "
 "est le même)."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCOrigBSD\" name=\"OrigBSD\">Why is the original BSD license "
@@ -3028,7 +2772,6 @@ msgstr ""
 "<b><a href=\"#TOCOrigBSD\" name=\"OrigBSD\">Pourquoi la licence BSD "
 "originale est-elle incompatible avec la GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Because it imposes a specific requirement that is not in the GPL; namely, "
@@ -3037,7 +2780,6 @@ msgstr ""
 "Parce qu'elle impose une exigence spécifique qui n'est pas dans la GPL; à "
 "savoir la règle portant sur la publicité du programme. La GPL dit&nbsp;:"
 
-# type: Content of: <dl><dd><pre>
 #. type: Content of: <dl><dd><pre>
 #, fuzzy, no-wrap
 #| msgid ""
@@ -3052,7 +2794,6 @@ msgstr ""
 "    You may not impose any further restrictions on the recipients' exercise\n"
 "    of the rights granted herein.\n"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The advertising clause provides just such a further restriction, and thus is "
@@ -3061,7 +2802,6 @@ msgstr ""
 "La clause concernant la publicité est justement l'une de ces restrictions "
 "supplémentaires, et ceci la rend incompatible avec la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The revised BSD license does not have the advertising clause, which "
@@ -3070,7 +2810,6 @@ msgstr ""
 "La licence BSD révisée ne contient plus cette clause sur la publicité, ce "
 "qui élimine le problème."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLAndPlugins\" name=\"GPLAndPlugins\">If a program "
@@ -3081,7 +2820,6 @@ msgstr ""
 "distribué sous GPL utilise des plug-ins, quelles sont les contraintes "
 "portant sur les licences d'un plug-in&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "It depends on how the program invokes its plug-ins.  If the program uses "
@@ -3093,7 +2831,6 @@ msgstr ""
 "séparés, donc la licence du programme principal ne n'impose aucune exigence "
 "les concernant."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the program dynamically links plug-ins, and they make function calls to "
@@ -3110,7 +2847,6 @@ msgstr ""
 "Cela signifie qu'il doivent être distribués sous la GPL ou sous une licence "
 "de logiciel libre compatible avec la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the program dynamically links plug-ins, but the communication between "
@@ -3122,7 +2858,6 @@ msgstr ""
 "`main' du plug-in avec quelques options et l'attente du résultat de "
 "l'exécution du plug-in, nous nous trouvons dans un cas limite."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLPluginsInNF\" name=\"GPLPluginsInNF\">Can I apply the "
@@ -3131,7 +2866,6 @@ msgstr ""
 "<b><a href=\"#TOCGPLPluginsInNF\" name=\"GPLPluginsInNF\">Puis-je utiliser "
 "la GPL pour un plug-in dans un programme non-libre&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "If the program uses fork and exec to invoke plug-ins, then the plug-ins are "
@@ -3144,7 +2878,6 @@ msgstr ""
 "principal n'impose aucune exigence les concernant. Vous pouvez donc utiliser "
 "la GPL pour un plug-in, il n'y a pas d'exigence spéciale."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the program dynamically links plug-ins, and they make function calls to "
@@ -3164,7 +2897,6 @@ msgstr ""
 "problème légal en ajoutant une exception à la licence de votre plug-in, qui "
 "autorise à le lier avec le programme principal non-libre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "See also the question <a href=\"#FSWithNFLibs\">I am writing free software "
@@ -3173,7 +2905,6 @@ msgstr ""
 "Voir aussi la question <a href=\"#FSWithNFLibs\">«&nbsp;Puis-je écrire un "
 "logiciel libre qui utilise des bibliothèques non-libres&nbsp;?&nbsp;»</a>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCNFUseGPLPlugins\" name=\"NFUseGPLPlugins\">Can I release a "
@@ -3183,7 +2914,6 @@ msgstr ""
 "programme non-libre conçu pour charger un plugin couvert par la GPL&nbsp;?</"
 "a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "It depends on how the program invokes its plug-ins.  If the program uses "
@@ -3195,7 +2925,6 @@ msgstr ""
 "ins sont des programmes séparés, alors, la licence du plug-in ne demande pas "
 "de prérequis pour le programme principal."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the program dynamically links plug-ins, and they make function calls to "
@@ -3215,7 +2944,6 @@ msgstr ""
 "la GPL doivent être respectés quand le programme principal est distribué "
 "pour utiliser ces plug-ins."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCLinkingWithGPL\" name=\"LinkingWithGPL\">You have a GPL'ed "
@@ -3228,12 +2956,10 @@ msgstr ""
 "propriétaire. Le fait que je fasse une édition de liens avec votre programme "
 "implique-t-il que je doive mettre mon programme sous GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid "Yes."
 msgstr "Oui."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCSwitchToLGPL\" name=\"SwitchToLGPL\">If so, is there any "
@@ -3243,7 +2969,6 @@ msgstr ""
 "chance d'obtenir une licence de votre programme sous la GPL amoindrie "
 "(<i>Lesser GPL</i>)&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "You can ask, but most authors will stand firm and say no.  The idea of the "
@@ -3257,13 +2982,11 @@ msgstr ""
 "Ceci est fait pour vous inciter à distribuer votre programme de telle sorte "
 "qu'il s'intègre à notre communauté."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "You always have the legal alternative of not using our code."
 msgstr ""
 "Vous disposez toujours de l'alternative légale de ne pas utiliser notre code."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCLinkingOverControlledInterface\" name="
@@ -3276,7 +2999,6 @@ msgstr ""
 "modules propriétaires avec ma bibliothèque sous GPL uniquement dans une "
 "interface contrôlée&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Add this text to the license notice of each file in the package, at the end "
@@ -3286,7 +3008,6 @@ msgstr ""
 "fin du texte qui dit que le fichier est distribué sous la licence GPL "
 "GNU&nbsp;:"
 
-# type: Content of: <dl><dd><pre>
 #. type: Content of: <dl><dd><pre>
 #, fuzzy, no-wrap
 #| msgid ""
@@ -3378,7 +3099,6 @@ msgstr ""
 "perpétue cette exception.\n"
 "\n"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCManyDifferentLicenses\" name=\"ManyDifferentLicenses\">I "
@@ -3393,7 +3113,6 @@ msgstr ""
 "quelles clauses des licences s'appliquent à mon programme. Pourriez-vous "
 "m'expliquer quelle licences je peux utiliser&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "To answer this question, we would need to see a list of each component that "
@@ -3407,7 +3126,6 @@ msgstr ""
 "composant devraient suffire de la façon dont votre bibliothèque les utilise. "
 "Deux exemples potentiels&nbsp;:"
 
-# type: Content of: <dl><dd><ul><li>
 #. type: Content of: <dl><dd><ul><li>
 msgid ""
 "To make my software work, it must be linked to the FOO library, which is "
@@ -3416,7 +3134,6 @@ msgstr ""
 "Pour que mon logiciel fonctionne, il doit subir une édition de liens avec la "
 "librairie FOO, qui est disponible sous Lesser GPL (GPL Amoindrie)."
 
-# type: Content of: <dl><dd><ul><li>
 #. type: Content of: <dl><dd><ul><li>
 msgid ""
 "My software makes a system call (with a command line that I built)  to run "
@@ -3427,7 +3144,6 @@ msgstr ""
 "écrite) pour lancer le programme BAR, qui est «&nbsp;sous GPL, avec une "
 "exception spéciale autorisant une édition de liens avec QUUX&nbsp;»."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCMereAggregation\" name=\"MereAggregation\">What is the "
@@ -3438,7 +3154,6 @@ msgstr ""
 "différence entre <i>«&nbsp;mere aggregation&nbsp;»</i> et <i>«&nbsp;combining "
 "two modules into one program&nbsp;»</i>&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Mere aggregation of two programs means putting them side by side on the same "
@@ -3452,7 +3167,6 @@ msgstr ""
 "d'un même programme. Dans ce cas, si l'un des programmes est couvert par la "
 "GPL, cela n'a pas d'effet sur l'autre programme."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Combining two modules means connecting them together so that they form a "
@@ -3466,7 +3180,6 @@ msgstr ""
 "doit alors aussi être distribué sous GPL--si vous ne pouvez ou ne voulez pas "
 "le faire, vous n'êtes pas autorisé à les combiner."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "What constitutes combining two parts into one program? This is a legal "
@@ -3482,7 +3195,6 @@ msgstr ""
 "au sein d'un espace de mémoire commun, etc.) et de la sémantique de cette "
 "communication (quels genres d'informations sont échangés)."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the modules are included in the same executable file, they are definitely "
@@ -3495,7 +3207,6 @@ msgstr ""
 "pour être exécutés par édition de liens dans un même espace mémoire partagé, "
 "cela signifie presque à coup sûr une combinaison en un seul programme."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "By contrast, pipes, sockets and command-line arguments are communication "
@@ -3513,7 +3224,6 @@ msgstr ""
 "complexes, cela pourrait également constituer une base suffisante pour "
 "considérer les deux éléments combinés comme un seul et même programme."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCAssignCopyright\" name=\"AssignCopyright\">Why does the FSF "
@@ -3527,7 +3237,6 @@ msgstr ""
 "programme sous GPL, devrais-je faire la même chose&nbsp;? Si oui, "
 "comment&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Our lawyers have told us that to be in the <a href=\"/licenses/why-assign."
@@ -3544,7 +3253,6 @@ msgstr ""
 "chaque contributeur, soit de transférer le copyright de sa contribution à la "
 "FSF, soit d'abandonner ce copyright, le plaçant ainsi dans le domaine public."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We also ask individual contributors to get copyright disclaimers from their "
@@ -3556,7 +3264,6 @@ msgstr ""
 "à s'assurer que ce dernier ne puisse prétendre avoir des droits sur les "
 "éléments de contribution au projet."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Of course, if all the contributors put their code in the public domain, "
@@ -3570,7 +3277,6 @@ msgstr ""
 "importantes en matière de code, et à seulement mettre les modifications "
 "mineures dans le domaine public."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you want to make an effort to enforce the GPL on your program, it is "
@@ -3583,7 +3289,6 @@ msgstr ""
 "similaire. Merci de contacter <a href=\"mailto:licensing&#64;gnu.org\">&lt;"
 "licensing&#64;gnu.org&gt;</a> si vous désirez plus de renseignements."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCModifyGPL\" name=\"ModifyGPL\">Can I modify the GPL and "
@@ -3592,7 +3297,6 @@ msgstr ""
 "<b><a href=\"#TOCModifyGPL\" name=\"ModifyGPL\">Puis-je modifier la GPL et "
 "faire une licence modifiée&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "You can use the GPL terms (possibly modified) in another license provided "
@@ -3608,7 +3312,6 @@ msgstr ""
 "différente dans la formulation et en ne mentionnant pas GNU (bien que la "
 "procédure que vous décrivez puisse être similaire)."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you want to use our preamble in a modified license, please write to <a "
@@ -3621,7 +3324,6 @@ msgstr ""
 "org&gt;</a> pour une autorisation.  À cette fin, vous voudrons vérifier les "
 "conditions réelles de la licence pour voir si nous les approuvons."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Although we will not raise legal objections to your making a modified "
@@ -3638,7 +3340,6 @@ msgstr ""
 "incompatibilité bloque des combinaisons utiles de modules.  La prolifération "
 "de différentes licences de logiciels libres est un fardeau en soi."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLCommercially\" name=\"GPLCommercially\">If I use a piece "
@@ -3651,7 +3352,6 @@ msgstr ""
 "le code original pour créer un nouveau programme, puis de commercialiser ce "
 "programme&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "You are allowed to sell copies of the modified program commercially, but "
@@ -3666,7 +3366,6 @@ msgstr ""
 "la GPL, et ils doivent être autorisés à le redistribuer et à le modifier, "
 "comme prévu également par la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "These requirements are the condition for including the GPL-covered code you "
@@ -3675,7 +3374,6 @@ msgstr ""
 "Ces conditions sont indispensables pour inclure dans votre programme le code "
 "sous GPL que vous avez reçu."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLOtherThanSoftware\" name=\"GPLOtherThanSoftware\">Can I "
@@ -3684,7 +3382,6 @@ msgstr ""
 "<b><a href=\"#TOCGPLOtherThanSoftware\" name=\"GPLOtherThanSoftware\">Puis-"
 "je utiliser la GPL pour autre chose que des logiciels&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "You can apply the GPL to any kind of work, as long as it is clear what "
@@ -3696,7 +3393,6 @@ msgstr ""
 "source&nbsp;» de l'&oelig;uvre. Ce que la GPL définit par la forme "
 "privilégiée de l'&oelig;uvre permettant d'y apporter des modifications."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "However, for manuals and textbooks, or more generally any sort of work that "
@@ -3706,7 +3402,6 @@ msgstr ""
 "&oelig;uvre ayant pour but d'enseigner un sujet, nous recommandons "
 "l'utilisation de la GFDL, plutôt que de la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCLGPLJava\" name=\"LGPLJava\">How does the LGPL work with "
@@ -3715,7 +3410,6 @@ msgstr ""
 "<b><a href=\"#TOCLGPLJava\" name=\"LGPLJava\">Comment la LGPL fonctionne "
 "avec Java&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "<a href=\"/licenses/lgpl-java.html\">See this article for details.</a> It "
@@ -3724,7 +3418,6 @@ msgstr ""
 "<a href=\"/licenses/lgpl-java.fr.html\">Voir cet article pour les détails</"
 "a>. Cela fonctionne comme c'est conçu, voulu et attendu."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCConsider\" name=\"Consider\">Consider this situation: 1. X "
@@ -3739,7 +3432,6 @@ msgstr ""
 "une licence autre que GPL.<br />X a-t-il besoin de la permission de Y&nbsp;?"
 "</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Yes.  Y was required to release its version under the GNU GPL, as a "
@@ -3752,7 +3444,6 @@ msgstr ""
 "avec toute autre licence pour son code. Par conséquent, X doit obtenir la "
 "permission de Y avant de distribuer ce code sous une autre licence."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLInProprietarySystem\" name=\"GPLInProprietarySystem"
@@ -3763,7 +3454,6 @@ msgstr ""
 "\">J'aimerais incorporer un logiciel sous GPL dans mon système propriétaire. "
 "Est-ce possible&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "You cannot incorporate GPL-covered software in a proprietary system.  The "
@@ -3778,7 +3468,6 @@ msgstr ""
 "incorporer des logiciels sous GPL dans un système non-libre, cela aurait "
 "pour effet de rendre également non-libre les logiciels sous GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "A system incorporating a GPL-covered program is an extended version of that "
@@ -3794,7 +3483,6 @@ msgstr ""
 "disposent de la liberté à laquelle ils ont droit, et encourager les gens à "
 "donner en échange les améliorations qu'ils ont pu apporter."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "However, in many cases you can distribute the GPL-covered software alongside "
@@ -3808,7 +3496,6 @@ msgstr ""
 "de suffisamment loin, et qu'ils ne sont pas combinés de façon à créer de "
 "fait un seul et même programme."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The difference between this and &ldquo;incorporating&rdquo; the GPL-covered "
@@ -3823,7 +3510,6 @@ msgstr ""
 "même programme, alors vous ne pouvez les traiter comme des programmes "
 "séparés. La GPL doit alors couvrir l'ensemble."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the two programs remain well separated, like the compiler and the kernel, "
@@ -3841,7 +3527,6 @@ msgstr ""
 "importe-t-il&nbsp;? Parce que nous voulons être sûr que l'utilisateur "
 "comprenne bien le statut libre du logiciel de cet ensemble qui est sous GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If people were to distribute GPL-covered software calling it &ldquo;part "
@@ -3857,7 +3542,6 @@ msgstr ""
 "qu'ils ont reçu correspond à un programme libre plus un autre programme, "
 "côte à côte, leurs droits sont clairs."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLWrapper\" name=\"GPLWrapper\"> I'd like to incorporate "
@@ -3872,7 +3556,6 @@ msgstr ""
 "compatible avec la GPL (de type licence X 11) entre la partie couverte par "
 "la GPL et la partie propriétaire&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "No.  The X11 license is compatible with the GPL, so you can add a module to "
@@ -3887,7 +3570,6 @@ msgstr ""
 "incluerait la partie couverte par la GPL, donc <em>cet ensemble</em> devrait "
 "être sous licence GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The fact that proprietary module A communicates with GPL-covered module C "
@@ -3899,7 +3581,6 @@ msgstr ""
 "légalement recevable&nbsp;; ce qui importe, c'est que le module C est inclus "
 "dans l'ensemble."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCLibGCCException\" name=\"LibGCCException\"> Does the libstdc"
@@ -3908,7 +3589,6 @@ msgstr ""
 "<b><a href=\"#TOCLibGCCException\" name=\"LibGCCException\">Est-ce que "
 "l'exception libstdc++ permet de lier dynamiquement&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Yes.  The intent of the exception is to allow people to compile proprietary "
@@ -3917,7 +3597,6 @@ msgstr ""
 "Oui. Le but de l'exception est d'autoriser les gens à compiler des logiciels "
 "propriétaires en utilisant gcc."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCMoneyGuzzlerInc\" name=\"MoneyGuzzlerInc\">I'd like to "
@@ -3934,12 +3613,10 @@ msgstr ""
 "devrait acheter ces bibliothèques. Pourquoi la GPL ne le permet-elle "
 "pas&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid "There are two reasons for this."
 msgstr "Il y a deux raisons à cela."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "First, a general one.  If we permitted company A to make a proprietary file, "
@@ -3955,7 +3632,6 @@ msgstr ""
 "blanche</i> pour faire de la rétention sur le code source pour toute sorte "
 "de modifications et d'extensions à des logiciels sous GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Giving all users access to the source code is one of our main goals, so this "
@@ -3965,7 +3641,6 @@ msgstr ""
 "les utilisateurs, c'est là une conséquence que nous essayons à tout prix "
 "d'éviter."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "More concretely, the versions of the programs linked with the Money Guzzler "
@@ -3979,7 +3654,6 @@ msgstr ""
 "code source qui permet aux utilisateurs de modifier et de recompiler le "
 "programme."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLIncompatibleAlone\" name=\"GPLIncompatibleAlone\">If "
@@ -3995,7 +3669,6 @@ msgstr ""
 "compatible avec la licence GPL&nbsp;? Puis-je combiner ou lier Q avec un "
 "programme couvert par la GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "If a program P is released under the GPL that means <strong>any and every "
@@ -4015,7 +3688,6 @@ msgstr ""
 "obtient P+Q sous la GPL peut supprimer P, de sorte que seul Q demeure, "
 "toujours sous la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the license of module Q permits you to give permission for that, then it "
@@ -4024,7 +3696,6 @@ msgstr ""
 "Si la licence du module Q vous permet d'autoriser cela, alors elle est "
 "compatible avec la GPL. Sinon, elle est incompatible."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the license for Q says in no uncertain terms that you must do certain "
@@ -4039,7 +3710,6 @@ msgstr ""
 "que vous ne pouvez pas publier P+Q sous la GPL non plus. Donc vous ne pouvez "
 "pas lier ou combiner P avec Q."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCModifiedJustBinary\" name=\"ModifiedJustBinary\">Can I "
@@ -4050,7 +3720,6 @@ msgstr ""
 "publier une version modifiée d'un programme sous GPL sous forme binaire "
 "uniquement&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "No.  The whole point of the GPL is that all modified versions must be <a "
@@ -4063,7 +3732,6 @@ msgstr ""
 "&nbsp;ce qui signifie, en particulier, que le code source de la version "
 "modifiée est disponible pour les utilisateurs."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCUnchangedJustBinary\" name=\"UnchangedJustBinary\">I "
@@ -4075,7 +3743,6 @@ msgstr ""
 "distribue des copies, dois-je obtenir le code source et le redistribuer "
 "aussi&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Yes.  The general rule is, if you distribute binaries, you must distribute "
@@ -4087,7 +3754,6 @@ msgstr ""
 "cas où vous recevez une offre écrite pour le code source est tout à fait "
 "limitée."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDistributeWithSourceOnInternet\" name="
@@ -4102,7 +3768,6 @@ msgstr ""
 "demande, puis-je me contenter de mettre les sources sur un serveur "
 "Internet&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "You're supposed to provide the source code by mail-order on a physical "
@@ -4115,7 +3780,6 @@ msgstr ""
 "n'importe quelle version d'un programme sous GPL, mais cela ne suffit pas "
 "pour respecter la section 3 de la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "When a user orders the source, you have to make sure to get the source to "
@@ -4132,7 +3796,6 @@ msgstr ""
 "devez être prêt à le leur envoyer, sur disquette ou sur bande magnétique, "
 "par courrier postal."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the FTP access is convenient enough, perhaps no one will choose to mail-"
@@ -4143,7 +3806,6 @@ msgstr ""
 "de demander une copie par courrier. Si c'est le cas, vous n'aurez pas à en "
 "envoyer. Mais vous ne pouvez pas en être sûr."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Of course, it's easiest to just send the source with the binary in the first "
@@ -4152,7 +3814,6 @@ msgstr ""
 "Bien entendu, il est plus simple de mettre le code source avec le fichier "
 "binaire dès le départ."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you distribute binaries via FTP, <a href=\"#AnonFTPAndSendSource\">you "
@@ -4161,7 +3822,6 @@ msgstr ""
 "Si vous distribuez les binaires par FTP, <a href=\"#AnonFTPAndSendSource"
 "\">vous devez distribuer le source par FTP.</a>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCRedistributedBinariesGetSource\" name="
@@ -4174,7 +3834,6 @@ msgstr ""
 "sous GPL avec une offre de fourniture des sources, et a fait une copie pour "
 "moi. Puis-je utiliser l'offre pour obtenir les sources&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Yes, you can.  The offer must be open to everyone who has a copy of the "
@@ -4187,7 +3846,6 @@ msgstr ""
 "vous donner une copie de l'offre avec la copie de l'exécutable &mdash;&nbsp;"
 "pour que vous puissiez en bénéficier."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCSourceAndBinaryOnDifferentSites\" name="
@@ -4199,7 +3857,6 @@ msgstr ""
 "mon serveur Internet et les sources sur un site Internet différent&nbsp;?</"
 "a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "The GPL says you must offer access to copy the source code &ldquo;from the "
@@ -4216,7 +3873,6 @@ msgstr ""
 "binaires, nous pensons que cela équivaut à «&nbsp;à partir du même "
 "endroit&nbsp;»."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Note, however, that it is not enough to find some site that happens to have "
@@ -4237,7 +3893,6 @@ msgstr ""
 "par là vous assurer que le code source y sera disponible aussi longtemps que "
 "vous rendrez les fichiers binaires accessibles."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDistributeExtendedBinary\" name=\"DistributeExtendedBinary"
@@ -4250,7 +3905,6 @@ msgstr ""
 "de fichiers binaires. Me suffit-il de distribuer le code source de la "
 "version originale&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "No, you must supply the source code that corresponds to the binary.  "
@@ -4261,7 +3915,6 @@ msgstr ""
 "code source correspondant est celui à partir duquel l'utilisateur peut "
 "recompiler le même fichier binaire."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Part of the idea of free software is that users should have access to the "
@@ -4272,7 +3925,6 @@ msgstr ""
 "au code source pour *les programmes qu'ils utilisent*. Ceux qui utilisent "
 "votre version devraient avoir accès au code source de votre version."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "A major goal of the GPL is to build up the Free World by making sure that "
@@ -4285,7 +3937,6 @@ msgstr ""
 "libres. Si vous distribuez une version améliorée d'un logiciel placé sous "
 "GPL, vous devez distribuer le code source amélioré sous GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDistributingSourceIsInconvenient\" name="
@@ -4300,7 +3951,6 @@ msgstr ""
 "si je donnais aux utilisateurs les différences par rapport à la version "
 "«standard»en même temps que les binaires&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "This is a well-meaning request, but this method of providing the source "
@@ -4309,7 +3959,6 @@ msgstr ""
 "L'intention est louable, mais cette méthode pour fournir le code source ne "
 "convient pas vraiment."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "A user that wants the source a year from now may be unable to get the proper "
@@ -4323,7 +3972,6 @@ msgstr ""
 "différences en question ne correspondraient probablement plus avec cette "
 "version."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "So you need to provide complete sources, not just diffs, with the binaries."
@@ -4331,7 +3979,6 @@ msgstr ""
 "Vous devez donc fournir le code source complet, pas seulement les "
 "différences, avec les fichiers binaires."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCAnonFTPAndSendSource\" name=\"AnonFTPAndSendSources\">I "
@@ -4342,7 +3989,6 @@ msgstr ""
 "veux rendre disponible par FTP anonyme les fichiers binaires, mais envoyer "
 "les sources seulement à ceux qui en font la demande</a></b>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you want to distribute binaries by anonymous FTP, you still have to "
@@ -4355,7 +4001,6 @@ msgstr ""
 "les sources fournissent une offre écrite d'envoyer les sources, parce que "
 "c'est le seul moyen de s'assurer que les utilisateurs peuvent les obtenir."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "No matter how you distribute the source, the sources you provide must "
@@ -4368,7 +4013,6 @@ msgstr ""
 "difficile. Si vous pouvez trouver un site pour votre programme, vous pouvez "
 "certainement en trouver un qui a de la place pour vos sources."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "You can make the sources and binaries available on different machines, "
@@ -4380,7 +4024,6 @@ msgstr ""
 "de la même version du programme &mdash;&nbsp;pas une version plus ancienne "
 "ou plus récente."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCHowCanIMakeSureEachDownloadGetsSource\" name="
@@ -4392,7 +4035,6 @@ msgstr ""
 "utilisateur qui télécharge les fichiers binaires obtient également le code "
 "source&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "You don't have to make sure of this.  As long as you make the source and "
@@ -4406,7 +4048,6 @@ msgstr ""
 "ce que l'on attend de vous. C'est à l'utilisateur de décider s'il veut "
 "télécharger les sources."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Our requirements for redistributors are intended to make sure the users can "
@@ -4417,7 +4058,6 @@ msgstr ""
 "les utilisateurs peuvent obtenir le code source, pas de forcer les "
 "utilisateurs à le télécharger même s'ils ne le désirent pas."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCUnreleasedMods\" name=\"UnreleasedMods\">A company is "
@@ -4428,7 +4068,6 @@ msgstr ""
 "utilise une version modifiée d'un programme sous GPL sur son site Web. La "
 "GPL dit-elle qu'elle doit publier les sources modifiées&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "The GPL permits anyone to make a modified version and use it without ever "
@@ -4440,7 +4079,6 @@ msgstr ""
 "particulier. Par conséquent, la société n'est pas obligée de publier les "
 "sources modifiées."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "It is essential for people to have the freedom to make modifications and use "
@@ -4458,7 +4096,6 @@ msgstr ""
 "Nous pensons introduire quelque chose à ce sujet dans la GPL version 3, mais "
 "nous n'avons pas encore de formulation précise en tête."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "In the mean time, you might want to use the <a href=\"http://www.affero.org/"
@@ -4468,7 +4105,6 @@ msgstr ""
 "html\">GPL Affero</a> pour des programmes conçus pour une utilisation sur "
 "des serveurs en réseau."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCInternalDistribution\" name=\"InternalDistribution\">Is "
@@ -4479,7 +4115,6 @@ msgstr ""
 "que l'utilisation à l'intérieur d'une organisation ou d'une société est une "
 "«&nbsp;distribution&nbsp;»&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "No, in that case the organization is just making the copies for itself.  As "
@@ -4492,7 +4127,6 @@ msgstr ""
 "modifiée et l'installer dans ces locaux, sans donner la permission au "
 "personnel de publier la version modifiée à l'extérieur."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "However, when the organization transfers copies to other organizations or "
@@ -4504,7 +4138,6 @@ msgstr ""
 "particulier, fournir des copies à des sous-traitants pour une utilisation "
 "hors site est une distribution."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCStolenCopy\" name=\"StolenCopy\"> If someone steals a CD "
@@ -4515,7 +4148,6 @@ msgstr ""
 "contenant une version d'un programme sous GPL, La  GPL lui donne t-elle le "
 "droit de redistribuer cette version&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "If the version has been released elsewhere, then the thief probably does "
@@ -4528,7 +4160,6 @@ msgstr ""
 "emprisonné pour avoir volé le CD, il se peut qu'il doivent attendre sa "
 "libération avant de le faire."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If the version in question is unpublished and considered by a company to be "
@@ -4545,7 +4176,6 @@ msgstr ""
 "un secret commercial, cela violerait la GPL, mais si la société n'a pas "
 "publié cette version, ce n'est pas une violation."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCTradeSecretRelease\" name=\"TradeSecretRelease\">What if a "
@@ -4555,7 +4185,6 @@ msgstr ""
 "société distribuait une copie sous couvert du secret commercial&nbsp;?</a></"
 "b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "If a company distributes a copy to you and claims it is a trade secret, the "
@@ -4570,7 +4199,6 @@ msgstr ""
 "intentionnellement une copie quand une copie est volée, aussi dans ce cas, "
 "la société n'a pas violé la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhySomeGPLAndNotLGPL\" name=\"WhySomeGPLAndNotLGPL\">Why "
@@ -4581,7 +4209,6 @@ msgstr ""
 "\">Pourquoi certaines bibliothèques GNU sont-elles distribuées sous GPL "
 "normale, plutôt que sous GPL amoindrie (<i>Lesser GPL</i>)&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Using the Lesser GPL for any particular library constitutes a retreat for "
@@ -4596,7 +4223,6 @@ msgstr ""
 "qui est construit sur un logiciel sous GPL. Il s'agit en l'état d'évolutions "
 "négatives."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Sometimes a localized retreat is a good strategy.  Sometimes, using the LGPL "
@@ -4612,7 +4238,6 @@ msgstr ""
 "Cela pourrait être bon pour le logiciel libre, si cela se passe à grande "
 "échelle. Mais nous pouvons seulement spéculer sur l'étendue d'un tel succès."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "It would be nice to try out the LGPL on each library for a while, see "
@@ -4626,7 +4251,6 @@ msgstr ""
 "envisageable. Une fois qu'une bibliothèque particulière est placée sous "
 "LGPL, il est difficile de changer à nouveau."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "So we decide which license to use for each library on a case-by-case basis.  "
@@ -4637,7 +4261,6 @@ msgstr ""
 "cas par cas. Il existe une <a href=\"/licenses/why-not-lgpl.fr.html\">longue "
 "explication</a> sur la façon dont nous procédons pour nous décider."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWillYouMakeAnException\" name=\"WillYouMakeAnException"
@@ -4651,13 +4274,11 @@ msgstr ""
 "une exception pour nous&nbsp;? Cela augmenterait le nombre d'utilisateurs de "
 "ce programme.</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid "Sorry, we don't make such exceptions.  It would not be right."
 msgstr ""
 "Désolé, nous ne faisons pas d'exception de ce genre, cela ne serait pas bien."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Maximizing the number of users is not our aim.  Rather, we are trying to "
@@ -4669,7 +4290,6 @@ msgstr ""
 "possible d'utilisateurs. D'une manière générale, les logiciels propriétaires "
 "freinent les libertés plus qu'ils ne les favorisent."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We do occasionally make license exceptions to assist a project which is "
@@ -4681,7 +4301,6 @@ msgstr ""
 "pour cela une bonne justification du fait que cela fera avancer la cause du "
 "logiciel libre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "We also do sometimes change the distribution terms of a package, when that "
@@ -4694,7 +4313,6 @@ msgstr ""
 "promouvoir la cause du logiciel libre, mais nous sommes très prudent à ce "
 "sujet et il vous faudra nous donner des raisons très convainquantes."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCVersionTwoOrLater\" name=\"VersionTwoOrLater\">Why should "
@@ -4705,7 +4323,6 @@ msgstr ""
 "version ultérieure&nbsp;» (<i>«&nbsp;Version 2 of the GPL or any later "
 "version&nbsp;»</i>)&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "From time to time, at intervals of years, we change the GPL&mdash;sometimes "
@@ -4723,7 +4340,6 @@ msgstr ""
 "programme nous permet de changer les conditions de distribution de "
 "l'ensemble des logiciels GNU, lorsque nous modifions la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If each program lacked the indirect pointer, we would be forced to discuss "
@@ -4737,7 +4353,6 @@ msgstr ""
 "probabilité d'aboutir à un mode de distribution unifié pour les logiciels "
 "GNU serait nulle."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Suppose a program says &ldquo;Version 2 of the GPL or any later "
@@ -4763,7 +4378,6 @@ msgstr ""
 "et même à le modifier, selon les termes de la GPL Version 2  &mdash;&nbsp;"
 "même après que d'autres versions de la GPL auront été rendues disponibles."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If a tighter requirement in a new version of the GPL need not be obeyed for "
@@ -4781,7 +4395,6 @@ msgstr ""
 "utilisateurs devront se conformer aux clauses plus restrictives de la GPL "
 "Version 3, pour les versions suivantes de ce programme."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "However, developers are not obligated to do this; developers can continue "
@@ -4791,7 +4404,6 @@ msgstr ""
 "ils peuvent continuer à autoriser l'utilisation de la version précédente de "
 "la GPL, si c'est leur souhait."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhyNotGPLForManuals\" name=\"WhyNotGPLForManuals\">Why "
@@ -4800,7 +4412,6 @@ msgstr ""
 "<b><a href=\"#TOCWhyNotGPLForManuals\" name=\"WhyNotGPLForManuals\">Pourquoi "
 "n'utilisez-vous pas la GPL pour les manuels&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "It is possible to use the GPL for a manual, but the GNU Free Documentation "
@@ -4810,7 +4421,6 @@ msgstr ""
 "vaut beaucoup mieux utiliser la GNU Free Documentation Licence (GFDL, "
 "Licence de Documentation Libre GNU)."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The GPL was designed for programs; it contains lots of complex clauses that "
@@ -4827,7 +4437,6 @@ msgstr ""
 "par ordinateur avec le livre, ou fournir une offre écrite pour envoyer le "
 "«&nbsp;code source&nbsp;» plus tard."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Meanwhile, the GFDL has clauses that help publishers of free manuals make a "
@@ -4842,7 +4451,6 @@ msgstr ""
 "officiel. Ceci permettrait des versions modifiées, mais ne pourrait pas être "
 "libellé comme «&nbsp;standard&nbsp;»."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Using the GFDL, we permit changes in the text of a manual that covers its "
@@ -4856,7 +4464,6 @@ msgstr ""
 "programme doivent pouvoir modifier la documentation correspondante. La "
 "liberté de faire cela est un impératif éthique."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Our manuals also include sections that state our political position about "
@@ -4870,7 +4477,6 @@ msgstr ""
 "ni supprimées. La GFDL indique des clauses pour ces «&nbsp;sections "
 "invariantes&nbsp;»."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCFontException\" name=\"FontException\">How does the GPL "
@@ -4879,7 +4485,6 @@ msgstr ""
 "<b><a href=\"#TOCFontException\" name=\"FontException\">Comment la GPL "
 "s'applique t-elle aux polices&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Font licensing is a complex issue which needs serious consideration.  The "
@@ -4896,7 +4501,6 @@ msgstr ""
 "blogs/licensing/20050425novalis\">billet explicatif</a> et écrire à <a href="
 "\"mailto:licensing&#64;gnu.org\">licensing&#64;gnu.org</a>."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "To use this exception, add this text to the license notice of each file in "
@@ -4907,7 +4511,6 @@ msgstr ""
 "pour chaque fichier du paquetage (dans la mesure du possible), après le "
 "texte qui dit que le fichier est distribué sous la GPL GNU&nbsp;:"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "<tt> As a special exception, if you create a document which uses this font, "
@@ -4929,7 +4532,6 @@ msgstr ""
 "obligé. Si vous ne le souhaitez pas, supprimez cette clause de votre version."
 "</tt>"
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWMS\" name=\"WMS\"> I am writing a website maintenance "
@@ -4944,7 +4546,6 @@ msgstr ""
 "gestion de contenu&gt;) ou une application qui génère des pages Web à partir "
 "de modèles. Quelle licence dois-je utiliser pour ces modèles&nbsp;?</b>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Templates are minor enough that it is not worth using copyleft to protect "
@@ -4961,7 +4562,6 @@ msgstr ""
 "pourquoi nous recommandons d'utiliser une licence permissive simple pour vos "
 "modèles."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Some templates make calls into Javascript functions.  Since Javascript is "
@@ -4980,29 +4580,24 @@ msgstr ""
 "Javascript (sous copyleft) et le code utilisateur (habituellement en des "
 "termes incompatibles)."
 
-# type: Content of: <dl><dd><p><a>
 #. type: Content of: <dl><dd><p><a>
 #, fuzzy
 #| msgid "<a href=\"template-diagram.png\">"
 msgid "<a href=\"/licenses/template-diagram.png\">"
 msgstr "<a href=\"template-diagram.png\">"
 
-# type: Attribute 'alt' of: <dl><dd><p><a><img>
 #. type: Attribute 'alt' of: <dl><dd><p><a><img>
 msgid "A diagram of the above content"
 msgstr "Un diagramme du contenu ci-dessus"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "</a>"
 msgstr "</a>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid "Here's an exception for Javascript code that does this:"
 msgstr "Il y a une exception pour le code JavaScript qui dit ceci&nbsp;:"
 
-# type: Content of: <dl><dd><blockquote><p>
 #. type: Content of: <dl><dd><blockquote><p>
 msgid ""
 "As a special exception to GPL, any HTML file which merely makes function "
@@ -5028,7 +4623,6 @@ msgstr ""
 "êtes pas obligé. Si vous ne souhaitez pas le faire, supprimez cette "
 "déclaration d'exception de votre version."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCNonFreeTools\" name=\"NonFreeTools\">Can I release a "
@@ -5038,7 +4632,6 @@ msgstr ""
 "programme sous licence GPL que j'ai développé en utilisant des outils non-"
 "libres&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Which programs you used to edit the source code, or to compile it, or study "
@@ -5049,7 +4642,6 @@ msgstr ""
 "l'étudier ou l'enregistrer ne font généralement pas de différence pour les "
 "problèmes relatifs à la licence de ce code source."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "However, if you link non-free libraries with the source code, that would be "
@@ -5066,7 +4658,6 @@ msgstr ""
 "devrez ajouter une notice explicite donnant la permission de lier votre "
 "programme avec elles. The FSF peut vous conseiller pour faire cela."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLTranslations\" name=\"GPLTranslations\">Are there "
@@ -5075,7 +4666,6 @@ msgstr ""
 "<b><a href=\"#TOCGPLTranslations\" name=\"GPLTranslations\">Existe-t-il des "
 "traductions de la GPL dans d'autres langues&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "It would be useful to have translations of the GPL into languages other than "
@@ -5089,7 +4679,6 @@ msgstr ""
 "officiellement valides. Cela comporte un trop grand risque, que nous ne "
 "sommes pas prêt à prendre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "A legal document is in some ways like a program.  Translating it is like "
@@ -5102,7 +4691,6 @@ msgstr ""
 "autre. Seul un juriste compétent dans les deux langues peut le faire &mdash;"
 "&nbsp;et même alors subsiste le risque d'introduire un bogue."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If we were to approve, officially, a translation of the GPL, we would be "
@@ -5117,7 +4705,6 @@ msgstr ""
 "Mais s'il existe une erreur dans la traduction, le résultat pourrait en être "
 "un désastre que nous ne pourrions réparer."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If a program has a bug, we can release a new version, and eventually the old "
@@ -5131,7 +4718,6 @@ msgstr ""
 "les termes d'une certaine traduction, il n'y a plus aucun moyen de reprendre "
 "cette permission, si l'on découvre, ultérieurement, qu'elle avait un bogue."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Helpful people sometimes offer to do the work of translation for us.  If the "
@@ -5147,7 +4733,6 @@ msgstr ""
 "Nous ne pourrions en aucun cas autoriser une traduction non écrite par un "
 "juriste."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Therefore, for the time being, we are not approving translations of the GPL "
@@ -5157,7 +4742,6 @@ msgstr ""
 "GPL comme globalement valides ni contractuelles. Au lieu de cela, nous "
 "faisons deux choses&nbsp;:"
 
-# type: Content of: <dl><dd><ul><li>
 #. type: Content of: <dl><dd><ul><li>
 msgid ""
 "Referring people to unofficial translations.  This means that we permit "
@@ -5168,7 +4752,6 @@ msgstr ""
 "que nous autorisons les gens à écrire des traductions de la GPL, mais que "
 "nous les approuvons pas comme légalement valides et contractuelles."
 
-# type: Content of: <dl><dd><ul><li><p>
 #. type: Content of: <dl><dd><ul><li><p>
 msgid ""
 "An unapproved translation has no legal force, and it should say so "
@@ -5177,7 +4760,6 @@ msgstr ""
 "Une traduction non-approuvée n'a pas de valeur légale, et devrait le "
 "déclarer explicitement. Cela devrait être écrit comme suit&nbsp;:"
 
-# type: Content of: <dl><dd><ul><li><pre>
 #. type: Content of: <dl><dd><ul><li><pre>
 #, fuzzy, no-wrap
 #| msgid ""
@@ -5196,7 +4778,6 @@ msgstr ""
 "Pour être tout-à-fait sûr de ce qui est autorisé, se reférer à la GPL\n"
 "originale (en anglais)\n"
 
-# type: Content of: <dl><dd><ul><li><p>
 #. type: Content of: <dl><dd><ul><li><p>
 msgid ""
 "But the unapproved translation can serve as a hint for how to understand the "
@@ -5206,7 +4787,6 @@ msgstr ""
 "compréhension de la GPL en anglais. Pour beaucoup d'utilisateurs, c'est "
 "suffisant."
 
-# type: Content of: <dl><dd><ul><li><p>
 #. type: Content of: <dl><dd><ul><li><p>
 msgid ""
 "However, businesses using GNU software in commercial activity, and people "
@@ -5218,12 +4798,10 @@ msgstr ""
 "ftp, devraient vérifier la véritable GPL en anglais pour s'assurer de ce "
 "qu'elle autorise."
 
-# type: Content of: <dl><dd><ul><li>
 #. type: Content of: <dl><dd><ul><li>
 msgid "Publishing translations valid for a single country only."
 msgstr "Nous publions des traductions valides pour seulement pour un pays."
 
-# type: Content of: <dl><dd><ul><li><p>
 #. type: Content of: <dl><dd><ul><li><p>
 msgid ""
 "We are considering the idea of publishing translations which are officially "
@@ -5234,7 +4812,6 @@ msgstr ""
 "valides pour un pays seulement. De cette façon, si une erreur est faite, "
 "l'effet sera limité à ce pays, et le dommage pas trop important."
 
-# type: Content of: <dl><dd><ul><li><p>
 #. type: Content of: <dl><dd><ul><li><p>
 msgid ""
 "It will still take considerable expertise and effort from a sympathetic and "
@@ -5246,7 +4823,6 @@ msgstr ""
 "et compétent, aussi ne pouvons-nous promettre de telles traductions dans un "
 "futur proche."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCInterpreterIncompat\" name=\"InterpreterIncompat\">If a "
@@ -5258,7 +4834,6 @@ msgstr ""
 "avec la GPL, puis-je l'utiliser pour faire tourner des programmes placés "
 "sous GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "When the interpreter just interprets a language, the answer is yes.  The "
@@ -5269,7 +4844,6 @@ msgstr ""
 "Le programme interprété est juste des données, pour l'interpréteur; la GPL "
 "ne restreint pas les outils avec lesquels vous traitez le programme."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "However, when the interpreter is extended to provide &ldquo;bindings&rdquo; "
@@ -5287,7 +4861,6 @@ msgstr ""
 "bibliothèques auxquelles on accède de cette façon sont liées dynamiquement "
 "avec les programmes Java qui les appellent."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "So if these facilities are released under a GPL-incompatible license, the "
@@ -5298,7 +4871,6 @@ msgstr ""
 "GPL, la situation est similaire dans tout autre aspect à l'édition de liens "
 "avec une bibliothèque non compatible avec la GPL. Ce qui implique que&nbsp;:"
 
-# type: Content of: <dl><dd><ol><li>
 #. type: Content of: <dl><dd><ol><li>
 msgid ""
 "If you are writing code and releasing it under the GPL, you can state an "
@@ -5309,7 +4881,6 @@ msgstr ""
 "exception explicite donnant l'autorisation d'en faire une édition de liens "
 "avec ces dispositifs incompatibles avec la GPL."
 
-# type: Content of: <dl><dd><ol><li>
 #. type: Content of: <dl><dd><ol><li>
 msgid ""
 "If you wrote and released the program under the GPL, and you designed it "
@@ -5323,7 +4894,6 @@ msgstr ""
 "avec ces dispositifs. Mais si c'est ce que vous souhaitez, il est préférable "
 "de le déclarer de façon explicite."
 
-# type: Content of: <dl><dd><ol><li>
 #. type: Content of: <dl><dd><ol><li>
 msgid ""
 "You can't take someone else's GPL-covered code and use it that way, or add "
@@ -5334,7 +4904,6 @@ msgstr ""
 "et l'utiliser de de cette façon, ou y ajouter de telles exceptions. Seul le "
 "détenteur du copyright pour ce code peut ajouter l'exception."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCWhoHasThePower\" name=\"WhoHasThePower\">Who has the power "
@@ -5343,7 +4912,6 @@ msgstr ""
 "<b><a href=\"#TOCWhoHasThePower\" name=\"WhoHasThePower\">Qui a la capacité "
 "de faire respecter la GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Since the GPL is a copyright license, the copyright holders of the software "
@@ -5359,7 +4927,6 @@ msgstr ""
 "du logiciel couvert par la GPL concerné. Ils sont soit les détenteurs du "
 "copyright, ou bien sont liés au détenteur du copyright."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCOOPLang\" name=\"OOPLang\"> In an object-oriented language "
@@ -5371,7 +4938,6 @@ msgstr ""
 "j'en hérite, dans quelle mesure la GPL affecte-t-elle le programme "
 "résultant&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "Subclassing is creating a derivative work.  Therefore, the terms of the GPL "
@@ -5381,7 +4947,6 @@ msgstr ""
 "de la GPL s'appliquent à l'ensemble du programme dans lequel vous créez une "
 "sous-classe d'une classe sous GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCPortProgramToGL\" name=\"PortProgramToGL\">If I port my "
@@ -5393,7 +4958,6 @@ msgstr ""
 "doive le diffuser en tant que Logiciel Libre placé sous la GPL ou une autre "
 "licence de Logiciel Libre&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "In general, the answer is no&mdash;this is not a legal requirement.  In "
@@ -5414,7 +4978,6 @@ msgstr ""
 "dans le cas de la GPL Amoindrie, elle comporte des exigences que vous devez "
 "suivre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Some libraries are released under the GNU GPL alone; you must use a GPL-"
@@ -5430,7 +4993,6 @@ msgstr ""
 "vous n'aurez probablement pas besoin de ces bibliothèques pour un simple "
 "portage."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Of course, your software is not a contribution to our community if it is not "
@@ -5446,7 +5008,6 @@ msgstr ""
 "et sentir que votre travail a été plus qu'une façon de gagner de l'argent, "
 "cela devrait vous inciter à rendre votre programme libre."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you hope some day to look back on your career and feel that it has "
@@ -5457,7 +5018,6 @@ msgstr ""
 "qu'elle a contribué à la croissance d'une société bonne et libre, vous devez "
 "rendre vos logiciels libres."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCCompanyGPLCostsMoney\" name=\"CompanyGPLCostsMoney\"> I "
@@ -5470,7 +5030,6 @@ msgstr ""
 "qu'il faut payer pour l'obtenir. Ne violent-ils pas la GPL en ne la rendant "
 "pas disponible sur Internet&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "No.  The GPL does not require anyone to use the Internet for distribution.  "
@@ -5486,7 +5045,6 @@ msgstr ""
 "distribuer une copie à vous en particulier, ou tout autre personne en "
 "particulier."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "What the GPL requires is that he must have the freedom to distribute a copy "
@@ -5499,7 +5057,6 @@ msgstr ""
 "distribue une copie du programme à quelqu'un, ce quelqu'un peut alors vous "
 "redistribuer le programme, ou à n'importe qui d'autre, comme ça lui convient."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCReleaseNotOriginal\" name=\"ReleaseNotOriginal\"> Can I "
@@ -5512,7 +5069,6 @@ msgstr ""
 "des versions modifiées de celui-ci sous la GPL mais pas l'original lui-même "
 "sous GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd>
 #. type: Content of: <dl><dd>
 msgid ""
 "No.  Such a license would be self-contradictory.  Let's look at its "
@@ -5521,7 +5077,6 @@ msgstr ""
 "Non. Une telle licence serait contradictoire. Regardons ses implications "
 "pour moi l'utilisateur."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Suppose I start with the original version (call it version A), add some code "
@@ -5538,7 +5093,6 @@ msgstr ""
 "quelqu'un d'autre) supprimer ces 1000 lignes, en produisant la version C qui "
 "a le même code que la version A mais sous la GPL."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you try to block that path, by saying explicitly in the license that I'm "
@@ -5556,7 +5110,6 @@ msgstr ""
 "pas en fait un utilisateur à publier une version telle que la version B sous "
 "la GPL."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCDistributeSubsidiary\" name=\"DistributeSubsidiary\"> Does "
@@ -5567,7 +5120,6 @@ msgstr ""
 "que déplacer une copie vers une filiale contrôlée majoritairement constitue "
 "une distribution&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Whether moving a copy to or from this subsidiary constitutes 'distribution' "
@@ -5583,7 +5135,6 @@ msgstr ""
 "n'est pas totalement claire sur ce point, mais ne semble pas traiter de ce "
 "cas de distribution."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If, in some country, this is considered distribution, and the subsidiary "
@@ -5598,7 +5149,6 @@ msgstr ""
 "droits ou pas droits, elle ne redistribuera pas le programme à moins que la "
 "société mère ne le décide."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCClickThrough\" name=\"ClickThrough\"> Can software "
@@ -5610,7 +5160,6 @@ msgstr ""
 "la GPL&nbsp;? Si j'obtiens un logiciel sous GPL, dois-je tout accepter "
 "quoi&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Some software packaging systems have a place which requires you to click "
@@ -5622,7 +5171,6 @@ msgstr ""
 "cliquer ou d'indiquer votre accord des termes de la GPL. Ce n'est ni requis, "
 "ni interdit. Avec ou sans clic, les règles de la GPL demeurent les mêmes."
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Merely agreeing to the GPL doesn't place any obligations on you.  You are "
@@ -5638,7 +5186,6 @@ msgstr ""
 "accepter l'accord de licence de la GPL, rien ne vous empêche de modifier le "
 "logiciel pour passer outre."
 
-# type: Content of: <dl><dt>
 #. type: Content of: <dl><dt>
 msgid ""
 "<b><a href=\"#TOCGPLCompatInstaller\" name=\"GPLCompatInstaller\">I would "
@@ -5649,7 +5196,6 @@ msgstr ""
 "voudrais fournir un logiciel sous GPL avec un installeur. Cet installeur "
 "doit-il être compatible avec la licence GPL&nbsp;?</a></b>"
 
-# type: Content of: <dl><dd><p>
 #. type: Content of: <dl><dd><p>
 msgid ""
 "No.  The installer and the files it installs are separate works.  As a "
@@ -5659,7 +5205,6 @@ msgstr ""
 "Par conséquent, les termes de la GPL ne s'appliquent pas au logiciel "
 "d'installation."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
@@ -5671,7 +5216,6 @@ msgstr ""
 "vérifier si une telle notion existe également dans votre système juridique.</"
 "li></ol>"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -5692,7 +5236,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -5712,7 +5255,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -5723,18 +5265,15 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 2001, 2006, 2007, 2008 Free Software Foundation, Inc.,"
 msgstr ""
 "Copyright &copy; 2001, 2006, 2007, 2008 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
 #. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
@@ -5744,7 +5283,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -5752,13 +5290,11 @@ msgstr ""
 "Traduction&nbsp;: Vincent Veyron et Olivier Berger.<br /> Révision&nbsp;: <a "
 "href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

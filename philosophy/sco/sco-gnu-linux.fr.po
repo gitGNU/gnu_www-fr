@@ -16,26 +16,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 msgid "SCO, GNU and Linux - GNU Project - Free Software Foundation (FSF)"
 msgstr "SCO, GNU et Linux - GNU Project - Free Software Foundation (FSF)"
 
-# type: Content of: <h2>
 msgid "SCO, GNU and Linux"
 msgstr "SCO, GNU et Linux"
 
-# type: Content of: <p>
 msgid ""
 "by <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
 msgstr ""
 "par <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></"
 "a>"
 
-# type: Content of: <p>
 msgid "<i>This article was first published on ZDNet.</i>"
 msgstr "<i>Cet article a d'abord été publié sur ZDNET</i>."
 
-# type: Content of: <p>
 msgid ""
 "SCO's contract dispute with IBM has been accompanied by a smear campaign "
 "against the whole GNU/Linux system.  But SCO made an obvious mistake when it "
@@ -54,7 +49,6 @@ msgstr ""
 "d'idées publiées (qui sont hors du champ du copyright) au lieu de code, mais "
 "surtout parce qu'ils savent que je ne comparerais jamais Linux avec Unix."
 
-# type: Content of: <p>
 msgid ""
 "Unix is a complete operating system, but Linux is just part of one.  SCO is "
 "using the popular confusion between Linux and the GNU/Linux system to "
@@ -70,7 +64,6 @@ msgstr ""
 "du système qui alloue les ressources de la machine pour les autres "
 "programmes que vous utilisez. Cette partie est Linux."
 
-# type: Content of: <p>
 msgid ""
 "We developed GNU starting in 1984 as a campaign for freedom, whose aim was "
 "to eliminate non-free software from our lives.  GNU is free software, "
@@ -87,7 +80,6 @@ msgstr ""
 "contre rémunération) et de publier des versions modifiées. (Voir <a href=\"/"
 "gnu/thegnuproject.fr.html\">un résumé du projet GNU</a>)."
 
-# type: Content of: <p>
 msgid ""
 "In 1991, GNU was mostly finished, lacking only a kernel.  In 1992, Linus "
 "Torvalds made his kernel, Linux, free software.  Others combined GNU and "
@@ -108,7 +100,6 @@ msgstr ""
 "GNU Hurd (notre noyau), et le noyau NetBSD. Il s'agit fondamentalement du "
 "même système quelque soit le noyau qu'on utilise."
 
-# type: Content of: <p>
 msgid ""
 "Those who combined Linux with GNU didn't recognize that's what they were "
 "doing, and they spoke of the combination as &ldquo;Linux&rdquo;.  The "
@@ -133,7 +124,6 @@ msgstr ""
 "mais il semble qu'elles accusent le système GNU/Linux entier d'être copié "
 "d'Unix."
 
-# type: Content of: <p>
 msgid ""
 "The name GNU stands for &ldquo;GNU's Not Unix&rdquo;.  The whole point of "
 "developing the GNU system is that it is not Unix.  Unix is and always was "
@@ -155,7 +145,6 @@ msgstr ""
 "un travail monumental. Nous l'avons fait pour notre liberté. Et pour la "
 "vôtre."
 
-# type: Content of: <p>
 msgid ""
 "To copy Unix source code would not be ethically wrong <a href=\"#footnote\">"
 "[1]</a>, but it is illegal; our work would fail to give users lawful freedom "
@@ -180,7 +169,6 @@ msgstr ""
 "ne serait-ce que la copie du code d'Unix, malgré notre principe qui estime "
 "qu'empêcher de copier les logiciels est moralement condamnable."
 
-# type: Content of: <p>
 msgid ""
 "Another SCO tool of obfuscation is the term &ldquo;intellectual "
 "property&rdquo;.  This fashionable but foolish term carries an evident bias: "
@@ -211,7 +199,6 @@ msgstr ""
 "href=\"/philosophy/words-to-avoid.fr.html\">notre liste de mots à éviter</a> "
 "pour plus d'explications sur la confusion provoquée par ce terme)."
 
-# type: Content of: <p>
 msgid ""
 "In the hands of a propagandist for increased copyright or patent powers, the "
 "term is a way to prevent clear thinking.  In the hands of someone making "
@@ -225,7 +212,6 @@ msgstr ""
 "contre vous à cause de quelque chose, mais nous ne dirons pas de quoi il "
 "s'agit&nbsp;»."
 
-# type: Content of: <p>
 msgid ""
 "In an actual lawsuit, such ambiguity would make their case fail, or even "
 "prevent it from getting off the ground.  If, however, SCO's aim is to shake "
@@ -238,7 +224,6 @@ msgstr ""
 "de propager la peur, ils pourraient bien trouver le flou et le mystère "
 "avantageux."
 
-# type: Content of: <p>
 msgid ""
 "I cannot prognosticate about the SCO vs IBM lawsuit itself: I don't know "
 "what was in their contract, I don't know what IBM did, and I am not a "
@@ -254,7 +239,6 @@ msgstr ""
 "communauté d'utiliser le code qu'ils ont distribué sous la licence GNU GPL "
 "et les autres licenses de logiciels libres dans leur version de GNU/Linux."
 
-# type: Content of: <p>
 msgid ""
 "However, I can address the broader issue of such situations.  In a community "
 "of over half a million developers, we can hardly expect that there will "
@@ -279,11 +263,9 @@ msgstr ""
 "mais aujourd'hui il fonctionne aussi avec deux noyaux BSD et le noyau GNU. "
 "Notre communauté ne peut être défaite par ça."
 
-# type: Content of: <h4>
 msgid "Footnotes"
 msgstr "Notes"
 
-# type: Content of: <ol><li>
 msgid ""
 "Since this statement directly contradicts the establishment views of the "
 "proprietary software developers, some readers suppose that the word &ldquo;"
@@ -298,19 +280,16 @@ msgstr ""
 "logiciels. Il est répréhensible d'empêcher les autres de copier les "
 "logiciels. C'est pourquoi, les logiciels devraient être libres."
 
-# type: Content of: <h4>
 msgid ""
 "<a href=\"/philosophy/sco/sco.html\">Other Texts to Read related to SCO</a>."
 msgstr ""
 "<a href=\"/philosophy/sco/sco.fr.html\">Autres textes à lire relatifs à SCO</"
 "a>."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -325,7 +304,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -335,7 +313,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 2003 Richard M. Stallman <br /> Verbatim copying and "
 "distribution of this entire article is permitted in any medium, provided "
@@ -345,18 +322,15 @@ msgstr ""
 "distribution intégrale de cet article est permise sur n'importe quel support "
 "d'archivage, pourvu que cette notice soit préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Xavier Nicollet.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

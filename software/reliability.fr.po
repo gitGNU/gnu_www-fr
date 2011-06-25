@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid ""
 "Free Software is More Reliable! - GNU Project - Free Software Foundation "
@@ -25,12 +24,10 @@ msgstr ""
 "Le logiciel libre est plus fiable&nbsp;! - GNU Project - Free Software "
 "Foundation (FSF)"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "Free Software is More Reliable!"
 msgstr "Le logiciel libre est plus fiable&nbsp;!"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Apologists for <a href=\"/philosophy/categories.html#ProprietarySoftware"
@@ -45,7 +42,6 @@ msgstr ""
 "mais nous savons tous que seul un système propriétaire peut produire des "
 "produits fiables. Un groupe de hackers ne peut faire la même chose&nbsp;»."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Empirical evidence disagrees, however; scientific tests, described below, "
@@ -56,7 +52,6 @@ msgstr ""
 "montré que le logiciel libre est <em>plus</em> fiable qu'un logiciel "
 "propriétaire comparable."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "This should not be a surprise; there are good reasons for the high "
@@ -67,12 +62,10 @@ msgstr ""
 "haute fiabilité des logiciels GNU, de bonne raisons de s'attendre à ce que "
 "le logiciel libre aura souvent (bien que pas toujours) une haute fiabilité."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "GNU Utilities Safer!"
 msgstr "Les logiciels GNU plus sûrs&nbsp;!"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Barton P. Miller and his colleagues tested the reliability of Unix utility "
@@ -90,7 +83,6 @@ msgstr ""
 "infinie) plus de 40% (dans le pire des cas) des programmes utilitaires de "
 "base&hellip;&nbsp;»"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "These researchers found that the commercial Unix systems had a failure rate "
@@ -101,7 +93,6 @@ msgstr ""
 "d'échec de 15% à 43%. Par contraste, le taux d'échec pour le système GNU "
 "était seulement de 7%."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Miller also said that, &ldquo;the three commercial systems that we compared "
@@ -115,7 +106,6 @@ msgstr ""
 "utilitaires de base de GNU/Linux étaient toujours sensiblement meilleurs que "
 "les utilitaires des systèmes commerciaux)&nbsp;»."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -140,12 +130,10 @@ msgstr ""
 "David Koski, Cjin Pheow Lee, Vivekananda Maganty, Ravi Murthy, Ajitkumar "
 "Natarajan et Jeff Steidl."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "Why Free Software is More Reliable"
 msgstr "Pourquoi le logiciel libre est plus fiable"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "It is no fluke that the GNU utilities are so reliable. There are good "
@@ -155,7 +143,6 @@ msgstr ""
 "y a de bonnes raisons pour lesquelles le logiciel libre tend vers un très "
 "haut niveau de qualité."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "One reason is that free software gets the whole community involved in "
@@ -171,7 +158,6 @@ msgstr ""
 "électronique, pour venir à bout des problèmes et rendent le travail avec les "
 "logiciels plus serein."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Another is that developers really care about reliability.  Free software "
@@ -191,12 +177,10 @@ msgstr ""
 "en jeu, et il vaudrait mieux pour lui que son logiciel soit propre et "
 "élégant, sous peine de subir le mécontentement de la communauté."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "Cancer Clinic Relies on Free Software!"
 msgstr "La Clinique du cancer fait confiance aux logiciels libres&nbsp;!"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -221,7 +205,6 @@ msgstr ""
 "de drogues, et accomplit de nombreuses autres fonctions. Ce réseau doit être "
 "disponible pour le personnel du Centre à tout moment."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "According to Dr. G.W. Wettstein <a href=\"mailto:greg@wind.rmcc.com\"> &lt;"
@@ -230,7 +213,6 @@ msgstr ""
 "Selon le Dr. G.W. Wettstein <a href=\"mailto:greg@wind.rmcc.com\">&lt;"
 "greg@wind.rmcc.com&gt;</a>&nbsp;:"
 
-# type: Content of: <blockquote><p>
 #. type: Content of: <blockquote><p>
 msgid ""
 "The proper care of our cancer patients would not be what it is today without "
@@ -244,13 +226,11 @@ msgstr ""
 "et de développer des applications innovantes qui &hellip; ne peuvent exister "
 "à partir de voies commerciales&nbsp;»."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -277,7 +257,6 @@ msgid ""
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgstr ""
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -288,7 +267,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -303,7 +281,6 @@ msgstr ""
 "Copyright &copy; 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, "
 "2007, 2008 <a href=\"http://www.fsf.org\">Free Software Foundation</a>, Inc.,"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article are permitted "
@@ -314,7 +291,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -322,22 +298,18 @@ msgstr ""
 "Traduction&nbsp;: Frédéric Couchet.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
 
-# type: Content of: <h3>
 #~ msgid "Bulletproof GNU Utilities!"
 #~ msgstr "Des utilitaires GNU blindés&nbsp;!"
 
-# type: Content of: <p>
 #~ msgid ""
 #~ "Scott Maxwell <a href=\"mailto:s-max@pacbell.net\"> &lt;s-max@pacbell."
 #~ "net&gt;</a> is leading an effort to eliminate &ldquo;fuzz bugs&rdquo; "
@@ -353,6 +325,5 @@ msgstr "Traductions de cette page"
 #~ "scott/bulletproof-penguin.html\">http://home.pacbell.net/s-max/scott/"
 #~ "bulletproof-penguin.html</a>."
 
-# type: Content of: <div><address>
 #~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 #~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"

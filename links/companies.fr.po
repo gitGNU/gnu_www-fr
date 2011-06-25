@@ -15,7 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 msgid ""
 "Companies that sell computers with GNU/Linux preinstalled - GNU Project - "
 "Free Software Foundation (FSF)"
@@ -23,43 +22,33 @@ msgstr ""
 "Sociétés vendant des ordinateurs avec GNU/Linux préinstallé - GNU Project - "
 "Free Software Foundation (FSF)"
 
-# type: Attribute 'content' of: <meta>
 msgid "Free Software Foundation, Inc"
 msgstr "Free Software Foundation, Inc"
 
-# type: Attribute 'content' of: <meta>
 msgid "no"
 msgstr "no"
 
-# type: Attribute 'content' of: <meta>
 msgid "WAI AA, XHTML, CSS, Semantic Markup, Tableless Design, Freedom"
 msgstr "WAI AA, XHTML, CSS, Semantic Markup, Tableless Design, Freedom"
 
-# type: Attribute 'title' of: <link>
 msgid "What's New"
 msgstr "Quoi de neuf&nbsp;?"
 
-# type: Attribute 'content' of: <meta>
 msgid "Free Software Operating System GNU/Linux"
 msgstr "Système d'exploitation GNU/Linux libres"
 
-# type: Attribute 'content' of: <meta>
 msgid "Free Software Foundation"
 msgstr "Free Software Foundation"
 
-# type: Attribute 'content' of: <meta>
 msgid "Web Page"
 msgstr "Page Web"
 
-# type: Attribute 'content' of: <meta>
 msgid "text/html"
 msgstr "text/html"
 
-# type: Attribute 'content' of: <meta>
 msgid "en"
 msgstr "fr"
 
-# type: Content of: <h2>
 msgid ""
 "Companies that sell computers with <acronym title=\"GNU's Not Unix!\">GNU</"
 "acronym>/Linux preinstalled"
@@ -67,7 +56,6 @@ msgstr ""
 "Sociétés vendant des ordinateurs avec <acronym title=\"GNU N'est pas "
 "Unix&nbsp;!\">GNU</acronym>/Linux préinstallé"
 
-# type: Content of: <p>
 msgid ""
 "<a href=\"http://laclinux.com/gnu/Start\">Los Alamos Computers (LAC)</a> "
 "sells laptops, desktops and servers preinstalled with <a href=\"/distros"
@@ -82,7 +70,6 @@ msgstr ""
 "De plus, ils donnent une partie du revenu de chaque vente de ces systèmes à "
 "la FSF."
 
-# type: Content of: <p>
 msgid ""
 "<a href=\"http://www.inatux.com/gnu\">InaTux</a> also offers computers "
 "preinstalled with gNewSense."
@@ -90,7 +77,6 @@ msgstr ""
 "<a href=\"http://www.inatux.com/gnu\">InaTux</a> propose aussi des "
 "ordinateurs préinstallés avec gNewSense."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "You may check out and promote an <a href=\"http://www.ideastorm.com/"
@@ -105,12 +91,10 @@ msgstr ""
 "ideastorm.com/article/show/63082/Preinstall_gNewSense_on_laptops_and_desktops"
 "\">idée pour que gNewSense soit préinstallé sur les ordinateurs de Dell</a>."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
@@ -124,7 +108,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions sur cette page Web à <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -134,18 +117,15 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traduction de cette page"

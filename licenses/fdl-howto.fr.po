@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #, fuzzy
 #| msgid ""
 #| "Tips for using the GNU FDL - GNU Project - Free Software Foundation (FSF)"
@@ -25,13 +24,11 @@ msgid ""
 msgstr ""
 "Comment utiliser la GNU FDL - GNU Project - Free Software Foundation (FSF)"
 
-# type: Content of: <h2>
 #, fuzzy
 #| msgid "Tips on using the GNU Free Documentation License"
 msgid "Tips on Using the GNU Free Documentation License"
 msgstr "Conseils sur l'utilisation de la GNU Free Documentation License"
 
-# type: Content of: <p>
 msgid ""
 "This is a brief explanation of how to place a document under the <a href=\"/"
 "licenses/fdl.html\">GNU Free Documentation License</a>.  For the GNU "
@@ -43,7 +40,6 @@ msgstr ""
 "Pour les licences de logiciels GNU, telles que la GNU GPL, nous avons une <a "
 "href=\"/licenses/gpl-howto.fr.html\">page séparée</a>."
 
-# type: Content of: <dl><dt>
 msgid ""
 "<a href=\"/licenses/fdl-howto-opt.html\">How does one use the optional "
 "features of the FDL?</a>"
@@ -51,7 +47,6 @@ msgstr ""
 "<a href=\"/licenses/fdl-howto-opt.fr.html\">Comment utiliser les "
 "fonctionnalités optionnelles de la FDL&nbsp;?</a>"
 
-# type: Content of: <dl><dd>
 msgid ""
 "We have a <a href=\"/licenses/fdl-howto-opt.html\">separate page</a> that "
 "discusses how to use the optional features of the FDL."
@@ -59,11 +54,9 @@ msgstr ""
 "Nous avons une <a href=\"/licenses/fdl-howto-opt.fr.html\">page séparée</a> "
 "qui explique comment utiliser les fonctionnalités optionnelles de la FDL."
 
-# type: Content of: <dl><dt>
 msgid "Where must one put the license notification?"
 msgstr "Où placer la notice de licence&nbsp;?"
 
-# type: Content of: <dl><dd>
 msgid ""
 "It is sufficient to put the full license notice in the &ldquo;main&rdquo; "
 "file of your document.  For example, with the <cite>Emacs Lisp Reference "
@@ -78,7 +71,6 @@ msgstr ""
 "<code>elisp.texi</code> et nous écrivons simplement dans les autres "
 "fichiers&nbsp;:"
 
-# type: Content of: <dl><dd><pre>
 #, no-wrap
 msgid ""
 "\n"
@@ -95,14 +87,12 @@ msgstr ""
 "@c   Free Software Foundation, Inc.\n"
 "@c See the file elisp.texi for copying conditions.\n"
 
-# type: Content of: <dl><dt>
 msgid ""
 "What do I do with scripts that are needed to render my document properly?"
 msgstr ""
 "Que faire avec les scripts dont j'ai besoin pour construire mon document "
 "correctement&nbsp;?"
 
-# type: Content of: <dl><dd>
 msgid ""
 "We recommend you release these scripts under the GNU FDL as well.  Of "
 "course, if these scripts are generally useful for other tasks, it is a good "
@@ -112,23 +102,19 @@ msgstr ""
 "Bien sûr, si ces scripts peuvent être utiles à d'autres tâches, c'est une "
 "bonne idée de les distribuer sous la GNU GPL."
 
-# type: Content of: <dl><dt>
 msgid "Is it required for the document to have invariant sections?"
 msgstr ""
 "Est-il obligatoire que le document contienne des sections invariantes&nbsp;?"
 
-# type: Content of: <dl><dd>
 msgid ""
 "No.  It is perfectly acceptable for a document to have no invariant sections."
 msgstr "Non. Un document peut parfaitement n'avoir aucune section invariante."
 
-# type: Content of: <dl><dt>
 msgid "Should I try to make sure the document has some invariant sections?"
 msgstr ""
 "Devrais-je essayer de m'assurer que le document a des sections "
 "invariantes&nbsp;?"
 
-# type: Content of: <dl><dd>
 msgid ""
 "Not particularly.  If a section's contents ought to be invariant, make it "
 "invariant."
@@ -136,15 +122,12 @@ msgstr ""
 "Pas particulièrement. Si le contenu d'une section doit être invariant, "
 "mettez cette section invariante."
 
-# type: Content of: <dl><dt>
 msgid "Should I try to avoid invariant sections?"
 msgstr "Doit-on essayer d'éviter les sections invariantes&nbsp;?"
 
-# type: Content of: <dl><dt>
 msgid "When should a section be invariant?"
 msgstr "Quand une section devrait-elle être invariante&nbsp;?"
 
-# type: Content of: <dl><dd>
 msgid ""
 "First of all, keep in mind that a section that treats technical material "
 "<em>cannot</em> be invariant.  Only a secondary section can be invariant, "
@@ -155,7 +138,6 @@ msgstr ""
 "peut être invariante, et une section technique n'est pas une section "
 "secondaire."
 
-# type: Content of: <dl><dd><p>
 msgid ""
 "If the section is text that you're not allowed to modify, such as a copy of "
 "the GNU GPL, then it <em>must</em> be invariant.  You can't give permission "
@@ -166,7 +148,6 @@ msgstr ""
 "pas donner la permission de modification si vous n'avez pas vous même cette "
 "permission."
 
-# type: Content of: <dl><dd><p>
 msgid ""
 "(One consequence is that you <em>cannot use</em> preexisting text which "
 "covers technical material if you don't have permission to allow modification "
@@ -176,7 +157,6 @@ msgstr ""
 "existant qui couvre des aspects techniques si vous n'avez pas la permission "
 "d'autoriser la modification de ce texte)."
 
-# type: Content of: <dl><dd><p>
 msgid ""
 "When a section discusses the philosophy of free software, it is a good idea "
 "to make that section invariant.  For instance, when we put the GNU Manifesto "
@@ -188,12 +168,10 @@ msgstr ""
 "GNU dans un manuel, ou quand nous incluons une section expliquant pourquoi "
 "la documentation libre est importante, nous mettons ces sections invariantes."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -208,7 +186,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -218,16 +195,13 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 msgid "Copyright &copy; 2000, 2001, 2008, 2009 Free Software Foundation, Inc.,"
 msgstr ""
 "Copyright &copy; 2000, 2001, 2008, 2009 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium without royalty provided this notice is preserved."
@@ -236,18 +210,15 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Benjamin Drieu.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

@@ -15,7 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 msgid ""
 "Free Software and (e-)Government - GNU Project - Free Software Foundation "
 "(FSF)"
@@ -23,20 +22,16 @@ msgstr ""
 "Logiciels libres et (e-)gouvernement - GNU Project - Free Software "
 "Foundation (FSF)"
 
-# type: Content of: <h2>
 msgid "Free Software and (e-)Government"
 msgstr "Logiciels libres et (e-)gouvernement"
 
-# type: Content of: <div><blockquote><p>
 msgid "This article originally appeared in The Guardian &mdash; March 3, 2005"
 msgstr ""
 "Cet article a été publié à l'origine dans le journal Guardian, le 3 mars 2005"
 
-# type: Content of: <p>
 msgid "by <a href=\"http://www.stallman.org/\">Richard Stallman</a>"
 msgstr "par <a href=\"http://www.stallman.org/\">Richard Stallman</a>"
 
-# type: Content of: <p>
 msgid ""
 "The UK government has funded the development of software useful for e-"
 "government, and now doesn't know what to do with it. Someone had the bright "
@@ -48,7 +43,6 @@ msgstr ""
 "Quelqu'un a eu la brillante idée de les remettre aux municipalités en les "
 "invitant à se transformer en sociétés de logiciels."
 
-# type: Content of: <p>
 msgid ""
 "The public have already paid to develop this software. Isn't it absurd to "
 "make them pay, now, for permission to use it? Isn't it absurd to restrict "
@@ -65,7 +59,6 @@ msgstr ""
 "fonds publics, de les mettre dans les mains de sociétés qui feront mendier "
 "au public (et même au gouvernement) le droit de les utiliser ensuite."
 
-# type: Content of: <p>
 msgid ""
 "Even worse, they impose frustrating restrictions on the users, denying them "
 "access to the software's source code, the plans that a programmer can read "
@@ -80,7 +73,6 @@ msgstr ""
 "qu'ils ne peuvent pas l'adapter, le comprendre ou même vérifier ce qu'elle "
 "fait."
 
-# type: Content of: <p>
 msgid ""
 "There is a sensible motive for this senseless policy. The motive is to make "
 "sure that someone cares for the software, fixing the problems that "
@@ -95,7 +87,6 @@ msgstr ""
 "tous les usages du logiciel et gardant les utilisateurs sous sa férule, "
 "était la seule manière d'y arriver."
 
-# type: Content of: <p>
 msgid ""
 "Today, we know another way: free software (also known as open source or "
 "Foss). Free software means the users are free to use this software, "
@@ -107,7 +98,6 @@ msgstr ""
 "utilisateurs sont libres de l'utiliser, de le redistribuer, de l'étudier ou "
 "même de l'étendre pour qu'il fasse plus de choses."
 
-# type: Content of: <p>
 msgid ""
 "The word &ldquo;free&rdquo; refers to freedom, not price; think &ldquo;free "
 "speech&rdquo;, not &ldquo;free beer&rdquo;. When there are users that value "
@@ -125,7 +115,6 @@ msgstr ""
 "contrôle total sur l'état de leurs ordinateurs, en ne laissant pas ce "
 "contrôle tomber en des mains privées."
 
-# type: Content of: <p>
 msgid ""
 "Since 1984, groups of volunteers have developed and maintained powerful and "
 "useful free programs &mdash; a few at first, then entire operating systems "
@@ -143,7 +132,6 @@ msgstr ""
 "d'augmenter son utilisation de logiciels libres&nbsp;; voici une parfaite "
 "opportunité pour à la fois les utiliser et y contribuer."
 
-# type: Content of: <p>
 msgid ""
 "The Office of the Deputy Prime Minister should make the e-government "
 "programs free software, set up a site to host their development, and hire a "
@@ -157,7 +145,6 @@ msgstr ""
 "gouvernements de par le monde commenceront à utiliser ces logiciels, à les "
 "corriger, à les étendre et à contribuer en retour."
 
-# type: Content of: <p>
 msgid ""
 "The whole world will benefit, and all the users will admire Britain's "
 "leadership."
@@ -165,7 +152,6 @@ msgstr ""
 "Le monde entier en bénéficiera et tous les utilisateurs admireront la "
 "houlette britannique."
 
-# type: Content of: <pre>
 #, no-wrap
 msgid ""
 "\n"
@@ -177,14 +163,12 @@ msgstr ""
 "   1984 et a fondé la Free Software Foundation (fsf.org) (la Fondation pour le logiciel\n"
 "   libre) en 1985.\n"
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
 "<b>Notes du traducteur</b>&nbsp;:<br /><ol><li id=\"TransNote1\">FOSS&nbsp;: "
 "Free and Open Source Software - Logiciel libre et open source.</li></ol>"
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -199,7 +183,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -209,7 +192,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 2005 Richard Stallman <br /> Verbatim copying and "
 "distribution of this entire article is permitted in any medium without "
@@ -219,18 +201,15 @@ msgstr ""
 "distribution intégrale de cet article est permise sur n'importe quel support "
 "d'archivage, pourvu que cette notice soit préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

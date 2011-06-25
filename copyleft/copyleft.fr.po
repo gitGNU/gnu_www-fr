@@ -16,24 +16,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid "What is Copyleft? - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "Qu'est-ce que le copyleft&nbsp;? - GNU Project - Free Software Foundation "
 "(FSF)"
 
-# type: Attribute 'content' of: <meta>
 #. type: Attribute 'content' of: <meta>
 msgid "GNU, FSF, Free Software Foundation, Linux, Copyleft"
 msgstr "GNU, FSF, Free Software Foundation, Linux, Copyleft"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "What is Copyleft?"
 msgstr "Qu'est-ce que le copyleft&nbsp;?"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Copyleft is a general method for making a program (or other work) free, and "
@@ -44,7 +40,6 @@ msgstr ""
 "&oelig;uvre libre), et qui requiert que toutes les versions modifiées et "
 "étendues du programme soient libres également."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The simplest way to make a program free software is to put it in the <a href="
@@ -69,7 +64,6 @@ msgstr ""
 "dans sa forme modifiée n'auront pas la liberté que l'auteur original leur "
 "aura donné; l'intermédiaire l'aura fait disparaître."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "In the <a href=\"/gnu/thegnuproject.html\">GNU project</a>, our aim is to "
@@ -91,7 +85,6 @@ msgstr ""
 "transmettre la liberté de les copier et de les modifier. Le copyleft "
 "garantit cette liberté pour tous les utilisateurs."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Copyleft also provides an <a href=\"/philosophy/pragmatic.html\">incentive</"
@@ -103,7 +96,6 @@ msgstr ""
 "logiciels libres. Des programmes importants comme le compilateur C++ de GNU "
 "n'existent que grâce à lui."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Copyleft also helps programmers who want to contribute <a href=\"/prep/tasks."
@@ -121,7 +113,6 @@ msgstr ""
 "faire profiter la communauté de ses modifications, mais son employeur "
 "pourrait vouloir transformer le travail en un produit propriétaire."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "When we explain to the employer that it is illegal to distribute the "
@@ -132,7 +123,6 @@ msgstr ""
 "version améliorée autrement que comme logiciel libre, celui-ci décide "
 "souvent de le distribuer librement plutôt que de le laisser tomber."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "To copyleft a program, we first state that it is copyrighted; then we add "
@@ -148,7 +138,6 @@ msgstr ""
 "dérivés</em>, mais seulement si les conditions de distribution demeurent "
 "inchangées. Ainsi, le code et ses libertés sont légalement indissociables."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Proprietary software developers use copyright to take away the users' "
@@ -160,7 +149,6 @@ msgstr ""
 "garantir. C'est pourquoi nous avons inversé le nom, en changeant «copyright» "
 "en «copyleft»."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Copyleft is a way of using of the copyright on the program.  It doesn't mean "
@@ -177,7 +165,6 @@ msgstr ""
 "leave&nbsp;» (NdT&nbsp;: laisser, abandonner)&nbsp; c'est seulement une "
 "référence à la direction inverse de «&nbsp;right&nbsp;» (NdT&nbsp;: droite)."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Copyleft is a general concept, and you can't use a general concept directly; "
@@ -203,7 +190,6 @@ msgstr ""
 "href=\"/licenses/why-assign.fr.html\">Pourquoi la FSF obtient l'attribution "
 "des droits d'auteurs des contributeurs</a>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -235,7 +221,6 @@ msgstr ""
 "lgpl.fr.html\">pourquoi vous ne devriez pas utiliser la LGPL pour votre "
 "prochaine bibliothèque</a>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The <a href=\"/copyleft/fdl.html\">GNU Free Documentation License (FDL)  "
@@ -252,7 +237,6 @@ msgstr ""
 "à assurer à chacun la liberté effective de le copier et de le redistribuer, "
 "avec ou sans modifications, de façon commerciale ou non."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The appropriate license is included in many manuals and in each GNU source "
@@ -261,7 +245,6 @@ msgstr ""
 "La licence appropriée est incluse dans beaucoup de manuels et dans chaque "
 "distribution de code source GNU."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "All these licenses are designed so that you can easily apply them to your "
@@ -275,7 +258,6 @@ msgstr ""
 "votre programme et des références appropriées dans les fichiers sources qui "
 "se réfèrent correctement à la licence."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Using the same distribution terms for many different programs makes it easy "
@@ -295,7 +277,6 @@ msgstr ""
 "construite comme une exception ajoutée à la GPL version3, rendant la "
 "compatibilité automatique."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you would like to copyleft your program with the GNU GPL or the GNU LGPL, "
@@ -310,7 +291,6 @@ msgstr ""
 "devez reproduire le texte intégral de nos licences, si vous en utilisez une. "
 "C'est un tout, et les copies partielles ne sont pas autorisées."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you would like to copyleft your manual with the GNU FDL, please see the "
@@ -324,13 +304,11 @@ msgstr ""
 "d'instructions de la GFDL</a>. De même, les copies partielles ne sont pas "
 "autorisées."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -351,7 +329,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -371,7 +348,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -382,7 +358,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
@@ -391,7 +366,6 @@ msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008, 2009 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
@@ -401,7 +375,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -409,13 +382,11 @@ msgstr ""
 "Traduction&nbsp;: Benjamin Drieu.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a> "
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

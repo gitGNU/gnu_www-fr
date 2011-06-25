@@ -16,15 +16,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 msgid "The GNU Manifesto - GNU Project - Free Software Foundation (FSF)"
 msgstr "Le Manifeste GNU - GNU Project - Free Software Foundation (FSF)"
 
-# type: Content of: <h2>
 msgid "The GNU Manifesto"
 msgstr "Le Manifeste GNU"
 
-# type: Content of: <p>
 msgid ""
 "The GNU Manifesto (which appears below) was written by <a href=\"http://www."
 "stallman.org/\">Richard Stallman</a> at the beginning of the GNU Project, to "
@@ -39,7 +36,6 @@ msgstr ""
 "développements, mais il nous semble maintenant plus judicieux de le laisser "
 "en l'état."
 
-# type: Content of: <p>
 msgid ""
 "Since that time, we have learned about certain common misunderstandings that "
 "different wording could help avoid.  Footnotes added since 1993 help clarify "
@@ -49,7 +45,6 @@ msgstr ""
 "celles-ci peuvent être corrigées en changeant quelques mots. Des notes de "
 "bas de page ajoutées en 1993 aident à clarifier ces points."
 
-# type: Content of: <p>
 msgid ""
 "For up-to-date information about the available GNU software, please see the "
 "information available on our <a href=\"/home.html\">web server</a>, in "
@@ -62,11 +57,9 @@ msgstr ""
 "de logiciels</a>. Pour savoir comment contribuer, consultez <a href=\"/help/"
 "\">http://www.gnu.org/help/help.fr.html</a>."
 
-# type: Content of: <h3>
 msgid "What's GNU? Gnu's Not Unix!"
 msgstr "Qu'est ce que GNU&nbsp;? Gnu N'est pas Unix&nbsp;!"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "GNU, which stands for Gnu's Not Unix, is the name for the complete Unix-"
@@ -87,7 +80,6 @@ msgstr ""
 "sup></a> De nombreux bénévoles m'aident. Les contributions en temps, en "
 "argent, en logiciels et en matériel sont les bienvenues."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "So far we have an Emacs text editor with Lisp for writing editor "
@@ -133,7 +125,6 @@ msgstr ""
 "tout ce qui peut être utile et qui est normalement inclus dans un système "
 "Unix et plus encore."
 
-# type: Content of: <p>
 msgid ""
 "GNU will be able to run Unix programs, but will not be identical to Unix.  "
 "We will make all improvements that are convenient, based on our experience "
@@ -158,7 +149,6 @@ msgstr ""
 "essayerons de supporter UUCP, MIT Chaosnet, et les protocoles de l'Internet "
 "pour la communication."
 
-# type: Content of: <p>
 msgid ""
 "GNU is aimed initially at machines in the 68000/16000 class with virtual "
 "memory, because they are the easiest machines to make it run on.  The extra "
@@ -170,7 +160,6 @@ msgstr ""
 "fonctionner. Nous laissons l'effort supplémentaire pour l'adapter sur de "
 "plus faibles machines à ceux qui voudront l'utiliser sur celles-ci."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "To avoid horrible confusion, please pronounce the &lsquo;G&rsquo; in the "
@@ -182,11 +171,9 @@ msgstr ""
 "Pour éviter d'horribles confusions, veuillez bien prononcer le «&nbsp;"
 "G&nbsp;» de «&nbsp;GNU&nbsp;» quand vous parlez de ce projet."
 
-# type: Content of: <h3>
 msgid "Why I Must Write GNU"
 msgstr "Pourquoi dois-je écrire GNU"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "I consider that the golden rule requires that if I like a program I must "
@@ -220,7 +207,6 @@ msgstr ""
 "allés trop loin : je ne pouvais pas rester dans une institution où de telles "
 "choses avaient lieu contre ma volonté."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "So that I can continue to use computers without dishonor, I have decided "
@@ -242,11 +228,9 @@ msgstr ""
 "puisse invoquer toutes les excuses légales pour m'empêcher de distribuer GNU "
 "librement <a href=\"#f2a\">(2a)</a>.."
 
-# type: Content of: <h3>
 msgid "Why GNU Will Be Compatible with Unix"
 msgstr "Pourquoi GNU sera compatible avec Unix"
 
-# type: Content of: <p>
 msgid ""
 "Unix is not my ideal system, but it is not too bad.  The essential features "
 "of Unix seem to be good ones, and I think I can fill in what Unix lacks "
@@ -258,11 +242,9 @@ msgstr ""
 "pouvoir compléter ce qui manque à Unix sans les gâcher. Et un système "
 "compatible Unix serait commode à adopter par de nombreuses personnes."
 
-# type: Content of: <h3>
 msgid "How GNU Will Be Available"
 msgstr "Disponibilité de GNU"
 
-# type: Content of: <p>
 msgid ""
 "GNU is not in the public domain.  Everyone will be permitted to modify and "
 "redistribute GNU, but no distributor will be allowed to restrict its further "
@@ -276,11 +258,9 @@ msgstr ""
 "philosophy/categories.fr.html#ProprietarySoftware\">propriétaires</a> seront "
 "interdites. Je veux être sûr que toutes les versions de GNU restent libres."
 
-# type: Content of: <h3>
 msgid "Why Many Other Programmers Want to Help"
 msgstr "Pourquoi beaucoup de programmeurs veulent contribuer"
 
-# type: Content of: <p>
 msgid ""
 "I have found many other programmers who are excited about GNU and want to "
 "help."
@@ -288,7 +268,6 @@ msgstr ""
 "J'ai rencontré beaucoup de programmeurs enthousiasmés par GNU et qui "
 "souhaitaient contribuer."
 
-# type: Content of: <p>
 msgid ""
 "Many programmers are unhappy about the commercialization of system "
 "software.  It may enable them to make more money, but it requires them to "
@@ -314,7 +293,6 @@ msgstr ""
 "face à ce seul choix. Ils sont désabusés et pensent que programmer n'est "
 "qu'une façon de gagner de l'argent."
 
-# type: Content of: <p>
 msgid ""
 "By working on and using GNU rather than proprietary programs, we can be "
 "hospitable to everyone and obey the law.  In addition, GNU serves as an "
@@ -331,11 +309,9 @@ msgstr ""
 "environ la moitié des programmeurs avec lesquels j'ai discuté, c'est une "
 "satisfaction importante que l'argent ne peut pas remplacer."
 
-# type: Content of: <h3>
 msgid "How You Can Contribute"
 msgstr "Comment vous pouvez contribuer"
 
-# type: Content of: <blockquote><p>
 msgid ""
 "(Nowadays, for software tasks to work on, see the <a href=\"http://fsf.org/"
 "campaigns/priority-projects\">High Priority Projects list</a> and the <a "
@@ -345,7 +321,6 @@ msgid ""
 "operating system</a>.)"
 msgstr ""
 
-# type: Content of: <p>
 msgid ""
 "I am asking computer manufacturers for donations of machines and money.  I'm "
 "asking individuals for donations of programs and work."
@@ -353,7 +328,6 @@ msgstr ""
 "Je demande aux fabricants d'ordinateurs de faire don de machines et "
 "d'argent. Je demande aux individus de faire don de programmes et de travail."
 
-# type: Content of: <p>
 msgid ""
 "One consequence you can expect if you donate machines is that GNU will run "
 "on them at an early date.  The machines should be complete, ready to use "
@@ -365,7 +339,6 @@ msgstr ""
 "doivent être complètes, prêtes à l'utilisation, sans besoin de système "
 "particulier de climatisation ou d'alimentation."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "I have found very many programmers eager to contribute part-time work for "
@@ -410,7 +383,6 @@ msgstr ""
 "ces composants sera une tâche réalisable. (Le noyau demandera quand même une "
 "communication plus soutenue et sera réalisé par un petit groupe)."
 
-# type: Content of: <p>
 msgid ""
 "If I get donations of money, I may be able to hire a few people full or part "
 "time.  The salary won't be high by programmers' standards, but I'm looking "
@@ -427,11 +399,9 @@ msgstr ""
 "leurs ressources au projet GNU, en leur évitant d'avoir à gagner leur vie "
 "autrement."
 
-# type: Content of: <h3>
 msgid "Why All Computer Users Will Benefit"
 msgstr "Pourquoi tous les utilisateurs en bénéficieront"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Once GNU is written, everyone will be able to obtain good system software "
@@ -443,7 +413,6 @@ msgstr ""
 "Une fois GNU achevé, tout le monde pourra obtenir de bons logiciels libres "
 "comme l'air <a href=\"#f2\"><sup>2</sup></a>."
 
-# type: Content of: <p>
 msgid ""
 "This means much more than just saving everyone the price of a Unix license.  "
 "It means that much wasteful duplication of system programming effort will be "
@@ -454,7 +423,6 @@ msgstr ""
 "Cet effort pourra plutôt se diriger vers l'avancement du domaine "
 "informatique."
 
-# type: Content of: <p>
 msgid ""
 "Complete system sources will be available to everyone.  As a result, a user "
 "who needs changes in the system will always be free to make them himself, or "
@@ -470,7 +438,6 @@ msgstr ""
 "d'une seule société qui possède les sources du programme et qui est la seule "
 "à pouvoir effectuer des changements."
 
-# type: Content of: <p>
 msgid ""
 "Schools will be able to provide a much more educational environment by "
 "encouraging all students to study and improve the system code.  Harvard's "
@@ -486,7 +453,6 @@ msgstr ""
 "cette politique en refusant carrément d'installer certains programmes. Cela "
 "m'a beaucoup inspiré."
 
-# type: Content of: <p>
 msgid ""
 "Finally, the overhead of considering who owns the system software and what "
 "one is or is not entitled to do with it will be lifted."
@@ -494,7 +460,6 @@ msgstr ""
 "Enfin, les frais engendrés par les questions d'appartenance et de droits des "
 "logiciels ne seront plus d'actualité."
 
-# type: Content of: <p>
 msgid ""
 "Arrangements to make people pay for using a program, including licensing of "
 "copies, always incur a tremendous cost to society through the cumbersome "
@@ -520,7 +485,6 @@ msgstr ""
 "fabrication de l'air avec une taxe par personne et se débarrasser des "
 "masques."
 
-# type: Content of: <p>
 msgid ""
 "Copying all or parts of a program is as natural to a programmer as "
 "breathing, and as productive.  It ought to be as free."
@@ -529,11 +493,9 @@ msgstr ""
 "programmeur que de respirer, tout aussi productif. Cela aussi devrait être "
 "libre."
 
-# type: Content of: <h3>
 msgid "Some Easily Rebutted Objections to GNU's Goals"
 msgstr "Quelques objections facilement contrées aux objectifs de GNU"
 
-# type: Content of: <p>
 msgid ""
 "<strong>&ldquo;Nobody will use it if it is free, because that means they "
 "can't rely on any support.&rdquo;</strong>"
@@ -541,7 +503,6 @@ msgstr ""
 "<strong>«&nbsp;Personne ne s'en servira si c'est gratuit, car cela veut dire "
 "que l'on ne peut compter sur aucun support.&nbsp;»</strong>"
 
-# type: Content of: <p>
 msgid ""
 "<strong>&ldquo;You have to charge for the program to pay for providing the "
 "support.&rdquo;</strong>"
@@ -549,7 +510,6 @@ msgstr ""
 "<strong>«&nbsp;Il faut faire payer le logiciel pour financer le service après-"
 "vente.&nbsp;»</strong>"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "If people would rather pay for GNU plus service than get GNU free without "
@@ -565,7 +525,6 @@ msgstr ""
 "ceux qui ont obtenu GNU gratuitement, devrait être rentable <a href=\"#f3"
 "\"><sup>3</sup></a>."
 
-# type: Content of: <p>
 msgid ""
 "We must distinguish between support in the form of real programming work and "
 "mere handholding.  The former is something one cannot rely on from a "
@@ -577,7 +536,6 @@ msgstr ""
 "sur le premier de la part d'un simple revendeur. Si votre problème n'est pas "
 "suffisamment répandu, le revendeur vous enverra balader."
 
-# type: Content of: <p>
 msgid ""
 "If your business needs to be able to rely on support, the only way is to "
 "have all the necessary sources and tools.  Then you can hire any available "
@@ -598,7 +556,6 @@ msgstr ""
 "pas responsables de ce problème. GNU ne propose pas de régler tous les "
 "problèmes, mais seulement quelques-uns."
 
-# type: Content of: <p>
 msgid ""
 "Meanwhile, the users who know nothing about computers need handholding: "
 "doing things for them which they could easily do themselves but don't know "
@@ -608,7 +565,6 @@ msgstr ""
 "ont besoin d'assistance et de personnes pour les aider à faire ce qu'ils "
 "pourraient faire très bien eux-mêmes si seulement ils s'y connaissaient."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Such services could be provided by companies that sell just hand-holding "
@@ -637,7 +593,6 @@ msgstr ""
 "temps, ceux d'entre nous qui n'ont pas besoin du service pourront utiliser "
 "le logiciel sans payer le service."
 
-# type: Content of: <p>
 msgid ""
 "<strong>&ldquo;You cannot reach many people without advertising, and you "
 "must charge for the program to support that.&rdquo;</strong>"
@@ -645,7 +600,6 @@ msgstr ""
 "<strong>«&nbsp;On ne peut pas être connu sans publicité et il faut payer le "
 "logiciel pour financer la publicité.&nbsp;»</strong>"
 
-# type: Content of: <p>
 msgid ""
 "<strong>&ldquo;It's no use advertising a program people can get free.&rdquo;"
 "</strong>"
@@ -653,7 +607,6 @@ msgstr ""
 "<strong>«&nbsp;Ca ne sert à rien de faire de la publicité si on peut obtenir "
 "le logiciel gratuitement.&nbsp;»</strong>"
 
-# type: Content of: <p>
 msgid ""
 "There are various forms of free or very cheap publicity that can be used to "
 "inform numbers of computer users about something like GNU.  But it may be "
@@ -670,7 +623,6 @@ msgstr ""
 "suffisamment rentable pour assurer sa propre publicité et bien davantage. "
 "Ainsi, seuls les utilisateurs qui bénéficient de la publicité la payent."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "On the other hand, if many people get GNU from their friends, and such "
@@ -689,7 +641,6 @@ msgstr ""
 "que les partisans du libre échange ne veulent pas laisser cette décision au "
 "marché libre <a href=\"#f4\"><sup>4</sup></a>&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>&ldquo;My company needs a proprietary operating system to get a "
 "competitive edge.&rdquo;</strong>"
@@ -697,7 +648,6 @@ msgstr ""
 "<strong>«&nbsp;Ma société a besoin d'un système propriétaire pour être "
 "compétitive.&nbsp;»</strong>"
 
-# type: Content of: <p>
 msgid ""
 "GNU will remove operating system software from the realm of competition.  "
 "You will not be able to get an edge in this area, but neither will your "
@@ -714,7 +664,6 @@ msgstr ""
 "pour vous. Si votre domaine est différent, GNU peut vous éviter d'être "
 "poussé dans le domaine onéreux de la vente de systèmes d'exploitation."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "I would like to see GNU development supported by gifts from many "
@@ -727,7 +676,6 @@ msgstr ""
 "fabricants et utilisateurs, réduisant ainsi les coûts pour chacun <a href="
 "\"#f5\"><sup>5</sup></a>."
 
-# type: Content of: <p>
 msgid ""
 "<strong>&ldquo;Don't programmers deserve a reward for their creativity?"
 "&rdquo;</strong>"
@@ -735,7 +683,6 @@ msgstr ""
 "<strong>«&nbsp;Les programmeurs ne méritent-ils pas d'être récompensés pour "
 "leur créativité&nbsp;?&nbsp;»</strong>"
 
-# type: Content of: <p>
 msgid ""
 "If anything deserves a reward, it is social contribution.  Creativity can be "
 "a social contribution, but only in so far as society is free to use the "
@@ -749,7 +696,6 @@ msgstr ""
 "d'être récompensés pour la création de logiciels innovants, de même, ils "
 "méritent d'être punis s'ils limitent l'utilisation de leurs programmes."
 
-# type: Content of: <p>
 msgid ""
 "<strong>&ldquo;Shouldn't a programmer be able to ask for a reward for his "
 "creativity?&rdquo;</strong>"
@@ -757,7 +703,6 @@ msgstr ""
 "<strong>«&nbsp;Un programmeur ne devrait-il pas avoir le droit de demander "
 "une récompense pour sa créativité&nbsp;?&nbsp;»</strong>"
 
-# type: Content of: <p>
 msgid ""
 "There is nothing wrong with wanting pay for work, or seeking to maximize "
 "one's income, as long as one does not use means that are destructive.  But "
@@ -768,7 +713,6 @@ msgstr ""
 "Mais les méthodes pratiquées dans le domaine du logiciel sont fondées sur la "
 "destruction."
 
-# type: Content of: <p>
 msgid ""
 "Extracting money from users of a program by restricting their use of it is "
 "destructive because the restrictions reduce the amount and the ways that the "
@@ -782,7 +726,6 @@ msgstr ""
 "l'humanité. Quand le choix de limiter est délibéré, les conséquences "
 "néfastes qui en découlent sont de la destruction délibérée."
 
-# type: Content of: <p>
 msgid ""
 "The reason a good citizen does not use such destructive means to become "
 "wealthier is that, if everyone did so, we would all become poorer from the "
@@ -802,13 +745,11 @@ msgstr ""
 "récompensé pour sa création ne justifie pas que l'on prive le monde en "
 "général de toute ou partie de cette créativité."
 
-# type: Content of: <p>
 msgid "<strong>&ldquo;Won't programmers starve?&rdquo;</strong>"
 msgstr ""
 "<strong>«&nbsp;Les programmeurs ne vont-ils pas mourir de faim&nbsp;?&nbsp;»</"
 "strong>"
 
-# type: Content of: <p>
 msgid ""
 "I could answer that nobody is forced to be a programmer.  Most of us cannot "
 "manage to get any money for standing on the street and making faces.  But we "
@@ -820,7 +761,6 @@ msgstr ""
 "la rue. Mais nous ne sommes pas pour autant condamnés à passer notre vie "
 "dans la rue à faire des grimaces et à mourir de faim. On fait autre chose."
 
-# type: Content of: <p>
 msgid ""
 "But that is the wrong answer because it accepts the questioner's implicit "
 "assumption: that without ownership of software, programmers cannot possibly "
@@ -831,7 +771,6 @@ msgstr ""
 "programmeurs ne pourraient pas recevoir le moindre sou. C'est, soi-disant, "
 "tout ou rien."
 
-# type: Content of: <p>
 msgid ""
 "The real reason programmers will not starve is that it will still be "
 "possible for them to get paid for programming; just not paid as much as now."
@@ -840,7 +779,6 @@ msgstr ""
 "est qu'il sera quand même possible pour eux d'être payés pour programmer; "
 "seulement, peut-être pas autant qu'actuellement."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Restricting copying is not the only basis for business in software.  It "
@@ -863,7 +801,6 @@ msgstr ""
 "qui sont actuellement moins utilisées. Il y a de nombreuses façons "
 "d'organiser une entreprise."
 
-# type: Content of: <p>
 msgid ""
 "Probably programming will not be as lucrative on the new basis as it is "
 "now.  But that is not an argument against the change.  It is not considered "
@@ -878,7 +815,6 @@ msgstr ""
 "même chose, ce ne serait pas non plus une injustice. (En pratique, ils "
 "gagneraient quand même beaucoup plus)."
 
-# type: Content of: <p>
 msgid ""
 "<strong>&ldquo;Don't people have a right to control how their creativity is "
 "used?&rdquo;</strong>"
@@ -886,7 +822,6 @@ msgstr ""
 "<strong>«&nbsp;Les gens n'ont-ils pas le droit de gérer l'utilisation de leur "
 "créativité&nbsp;?&nbsp;»</strong>"
 
-# type: Content of: <p>
 msgid ""
 "&ldquo;Control over the use of one's ideas&rdquo; really constitutes control "
 "over other people's lives; and it is usually used to make their lives more "
@@ -896,7 +831,6 @@ msgstr ""
 "contrôler la vie des autres; et c'est souvent utilisé pour leur rendre la "
 "vie plus difficile."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "People who have studied the issue of intellectual property rights<a href="
@@ -918,7 +852,6 @@ msgstr ""
 "gouvernement ont été créés par des législations précises dans des buts bien "
 "précis."
 
-# type: Content of: <p>
 msgid ""
 "For example, the patent system was established to encourage inventors to "
 "disclose the details of their inventions.  Its purpose was to help society "
@@ -939,7 +872,6 @@ msgstr ""
 "trop de tort. Ils ne gênent pas la plupart des individus qui utilisent des "
 "produits brevetés."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The idea of copyright did not exist in ancient times, when authors "
@@ -969,7 +901,6 @@ msgstr ""
 "imprimerie ne causait pas beaucoup de tort, et ne gênait pas la plupart des "
 "personnes qui lisaient ces livres."
 
-# type: Content of: <p>
 msgid ""
 "All intellectual property rights are just licenses granted by society "
 "because it was thought, rightly or wrongly, that society as a whole would "
@@ -984,7 +915,6 @@ msgstr ""
 "d'accorder cette licence&nbsp;? Quels actes autorisons-nous avec cette "
 "licence&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "The case of programs today is very different from that of books a hundred "
 "years ago.  The fact that the easiest way to copy a program is from one "
@@ -1004,14 +934,12 @@ msgstr ""
 "société, matériellement et spirituellement; cette personne ne devrait pas "
 "appliquer le droit d'auteur, que la loi l'y autorise ou non."
 
-# type: Content of: <p>
 msgid ""
 "<strong>&ldquo;Competition makes things get done better.&rdquo;</strong>"
 msgstr ""
 "<strong>«&nbsp;La compétition permet de mieux faire les choses.&nbsp;»</"
 "strong>"
 
-# type: Content of: <p>
 msgid ""
 "The paradigm of competition is a race: by rewarding the winner, we encourage "
 "everyone to run faster.  When capitalism really works this way, it does a "
@@ -1031,7 +959,6 @@ msgstr ""
 "concurrents. Si tous les coureurs s'engageaient dans un combat, ils "
 "finiraient tous en retard."
 
-# type: Content of: <p>
 msgid ""
 "Proprietary and secret software is the moral equivalent of runners in a fist "
 "fight.  Sad to say, the only referee we've got does not seem to object to "
@@ -1045,7 +972,6 @@ msgstr ""
 "parcourus, vous avez le droit de tirer un coup de feu&nbsp;»). Il devrait en "
 "fait séparer les combattants, et punir les coureurs qui tentent de se battre."
 
-# type: Content of: <p>
 msgid ""
 "<strong>&ldquo;Won't everyone stop programming without a monetary incentive?"
 "&rdquo;</strong>"
@@ -1053,7 +979,6 @@ msgstr ""
 "<strong>«&nbsp;Les gens s'arrêteront-ils de programmer sans l'appât du "
 "gain&nbsp;?&nbsp;»</strong>"
 
-# type: Content of: <p>
 msgid ""
 "Actually, many people will program with absolutely no monetary incentive.  "
 "Programming has an irresistible fascination for some people, usually the "
@@ -1066,7 +991,6 @@ msgstr ""
 "musiciens professionnels qui continuent à jouer, même sans l'espoir de "
 "pouvoir en faire leur gagne-pain."
 
-# type: Content of: <p>
 msgid ""
 "But really this question, though commonly asked, is not appropriate to the "
 "situation.  Pay for programmers will not disappear, only become less.  So "
@@ -1079,7 +1003,6 @@ msgstr ""
 "programmeurs qui travailleront pour une moindre rémunération&nbsp;? D'après "
 "mon expérience, la réponse est oui."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "For more than ten years, many of the world's best programmers worked at "
@@ -1099,7 +1022,6 @@ msgstr ""
 "récompensés de plusieurs autres manières: la notoriété, le respect des "
 "autres, par exemple. Et la créativité est une récompense en soi."
 
-# type: Content of: <p>
 msgid ""
 "Then most of them left when offered a chance to do the same interesting work "
 "for a lot of money."
@@ -1107,7 +1029,6 @@ msgstr ""
 "Et puis la plupart sont partis pour faire le même travail pour beaucoup plus "
 "d'argent."
 
-# type: Content of: <p>
 msgid ""
 "What the facts show is that people will program for reasons other than "
 "riches; but if given a chance to make a lot of money as well, they will come "
@@ -1121,7 +1042,6 @@ msgstr ""
 "moins bien ont du mal face à ceux qui payent bien, mais ils devraient "
 "pouvoir s'en sortir si les gros payeurs sont bannis."
 
-# type: Content of: <p>
 msgid ""
 "<strong>&ldquo;We need the programmers desperately.  If they demand that we "
 "stop helping our neighbors, we have to obey.&rdquo;</strong>"
@@ -1129,7 +1049,6 @@ msgstr ""
 "<strong>«&nbsp;Nos besoins en programmeurs sont tellement importants que "
 "s'ils interdisent le partage, nous ne pouvons que leur obéir.&nbsp;»</strong>"
 
-# type: Content of: <p>
 msgid ""
 "You're never so desperate that you have to obey this sort of demand.  "
 "Remember: millions for defense, but not a cent for tribute!"
@@ -1137,13 +1056,11 @@ msgstr ""
 "La situation n'est jamais aussi désespérée au point d'être amené à obéir à "
 "une telle interdiction."
 
-# type: Content of: <p>
 msgid ""
 "<strong>&ldquo;Programmers need to make a living somehow.&rdquo;</strong>"
 msgstr ""
 "<strong>«&nbsp;Les programmeurs doivent bien gagner leur pain.&nbsp;»</strong>"
 
-# type: Content of: <p>
 msgid ""
 "In the short run, this is true.  However, there are plenty of ways that "
 "programmers could make a living without selling the right to use a program.  "
@@ -1159,7 +1076,6 @@ msgstr ""
 "manière de gagner son pain. Vous pouvez facilement trouver d'autres manières "
 "si vous le voulez. Voici quelques exemples."
 
-# type: Content of: <p>
 msgid ""
 "A manufacturer introducing a new computer will pay for the porting of "
 "operating systems onto the new hardware."
@@ -1167,7 +1083,6 @@ msgstr ""
 "Un fabricant arrivant avec un nouvel ordinateur payera pour le portage des "
 "systèmes d'exploitation sur le nouveau matériel."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The sale of teaching, hand-holding and maintenance services could also "
@@ -1179,7 +1094,6 @@ msgstr ""
 "L'offre de services d'enseignement, de conseil et de maintenance peut "
 "permettre la création d'emplois."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "People with new ideas could distribute programs as freeware<a href=\"#f7"
@@ -1196,7 +1110,6 @@ msgstr ""
 "utilisateurs satisfaitsou en offrant un service de conseil. J'ai déjà "
 "rencontré des personnes travaillant ainsi."
 
-# type: Content of: <p>
 msgid ""
 "Users with related needs can form users' groups, and pay dues.  A group "
 "would contract with programming companies to write programs that the group's "
@@ -1207,13 +1120,11 @@ msgstr ""
 "à une société de développement pour écrire les programmes spécifiques pour "
 "ses membres."
 
-# type: Content of: <p>
 msgid "All sorts of development can be funded with a Software Tax:"
 msgstr ""
 "Toutes sortes de développement pourraient être financés par une taxe sur les "
 "logiciels&nbsp;:"
 
-# type: Content of: <p>
 msgid ""
 "Suppose everyone who buys a computer has to pay x percent of the price as a "
 "software tax.  The government gives this to an agency like the NSF to spend "
@@ -1224,7 +1135,6 @@ msgstr ""
 "cette somme à un organisme tel que la NSF pour subvenir au développement de "
 "logiciels"
 
-# type: Content of: <p>
 msgid ""
 "But if the computer buyer makes a donation to software development himself, "
 "he can take a credit against the tax.  He can donate to the project of his "
@@ -1238,7 +1148,6 @@ msgstr ""
 "pourra donc être exempté de la taxe si le montant de sa donation recouvre "
 "celle-ci."
 
-# type: Content of: <p>
 msgid ""
 "The total tax rate could be decided by a vote of the payers of the tax, "
 "weighted according to the amount they will be taxed on."
@@ -1246,20 +1155,16 @@ msgstr ""
 "Le taux de la taxe pourrait être déterminé par un vote de ceux qui la "
 "payent, pondéré par le montant de l'imposition."
 
-# type: Content of: <p>
 msgid "The consequences:"
 msgstr "Les conséquences&nbsp;:"
 
-# type: Content of: <ul><li>
 msgid "The computer-using community supports software development."
 msgstr ""
 "La communauté des utilisateurs soutient le développement des logiciels."
 
-# type: Content of: <ul><li>
 msgid "This community decides what level of support is needed."
 msgstr "Cette communauté décide du niveau du soutien nécessaire."
 
-# type: Content of: <ul><li>
 msgid ""
 "Users who care which projects their share is spent on can choose this for "
 "themselves."
@@ -1267,7 +1172,6 @@ msgstr ""
 "Pour les utilisateurs qui se soucient de quels projets profitent de leur "
 "participation, ils pourront les choisir eux-mêmes."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "In the long run, making programs free is a step toward the post-scarcity "
@@ -1294,7 +1198,6 @@ msgstr ""
 "de famille, la réparation de robots et l'exploration d'astéroïdes. Il n'y "
 "aura donc plus besoin de gagner sa vie en programmant."
 
-# type: Content of: <p>
 msgid ""
 "We have already greatly reduced the amount of work that the whole society "
 "must do for its actual productivity, but only a little of this has "
@@ -1314,11 +1217,9 @@ msgstr ""
 "du développement logiciel. Nous devons faire cela, pour que les gains de "
 "productivité se traduisent en moins d'heures de travail pour nous."
 
-# type: Content of: <h4>
 msgid "Footnotes"
 msgstr "Notes"
 
-# type: Content of: <ol><li>
 msgid ""
 "<a name=\"f1\"></a>The wording here was careless.  The intention was that "
 "nobody would have to pay for <b>permission</b> to use the GNU system.  But "
@@ -1348,7 +1249,6 @@ msgstr ""
 "l'amélioration de programmes, tant mieux. L'important est que toute personne "
 "détenant une copie a le droit de l'utiliser en collaboration avec d'autres."
 
-# type: Content of: <ol><li>
 #, fuzzy
 #| msgid ""
 #| "<a name=\"f2a\"></a>The expression ``give away'' is another indication "
@@ -1372,7 +1272,6 @@ msgstr ""
 "avoid.fr.html#GiveAwaySoftware\"> <q>Mots et expressions à éviter</q></a> "
 "pour d'autres explications."
 
-# type: Content of: <ol><li>
 msgid ""
 "<a name=\"f2\"></a>This is another place I failed to distinguish carefully "
 "between the two different meanings of &ldquo;free&rdquo;.  The statement as "
@@ -1387,11 +1286,9 @@ msgstr ""
 "effectivement la mauvaise idée. [NdT&nbsp;: En français, la distinction "
 "entre «&nbsp;libre&nbsp;» et «&nbsp;gratuit&nbsp;» est évidente.]"
 
-# type: Content of: <ol><li>
 msgid "<a name=\"f3\"></a>Several such companies now exist."
 msgstr "<a name=\"f3\"></a> De telles sociétés existent actuellement."
 
-# type: Content of: <ol><li>
 msgid ""
 "<a name=\"f4\"></a> Although it is a charity rather than a company, the Free "
 "Software Foundation for 10 years raised most of its funds from its "
@@ -1404,7 +1301,6 @@ msgstr ""
 "order.html\">commander des logiciels, des livres, &hellip; à la FSF</a> pour "
 "soutenir son travail."
 
-# type: Content of: <ol><li>
 msgid ""
 "<a name=\"f5\"></a>A group of computer companies pooled funds around 1991 to "
 "support maintenance of the GNU C Compiler."
@@ -1412,7 +1308,6 @@ msgstr ""
 "<a name=\"f5\"></a> Un groupe de sociétés a réuni des fonds vers 1991 pour "
 "financer la maintenance du compilateur C de GNU."
 
-# type: Content of: <ol><li>
 msgid ""
 "<a name=\"f8\"></a>I think I was mistaken in saying that proprietary "
 "software was the most common basis for making money in software.  It seems "
@@ -1433,7 +1328,6 @@ msgstr ""
 "logiciels libres. Par conséquent, je ne m'attends plus à ce que les "
 "programmeurs payés gagnent moins dans un monde de logiciels libres."
 
-# type: Content of: <ol><li>
 msgid ""
 "<a name=\"f6\"></a>In the 1980s I had not yet realized how confusing it was "
 "to speak of &ldquo;the issue&rdquo; of &ldquo;intellectual property&rdquo;.  "
@@ -1457,7 +1351,6 @@ msgstr ""
 "ipr.fr.html\">des explications plus détaillées</a> sur la manière dont ce "
 "terme sème la confusion et le parti-pris."
 
-# type: Content of: <ol><li>
 msgid ""
 "<a name=\"f7\"></a>Subsequently we learned to distinguish between &ldquo;"
 "free software&rdquo; and &ldquo;freeware&rdquo;.  The term &ldquo;"
@@ -1475,12 +1368,10 @@ msgstr ""
 "to-avoid.fr.html#Freeware\">Termes prêtant à confusion, que vous devriez "
 "éviter</a> pour plus d'explications."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
@@ -1494,7 +1385,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions sur cette page Web à &lt;"
 "webmasters@gnu.org&gt;."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -1504,7 +1394,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
 #| "Copyright &copy; 1985, 1993, 2003, 2005, 2007, 2008, 2009 Free Software "
@@ -1516,7 +1405,6 @@ msgstr ""
 "Copyright &copy; 1985, 1993, 2003, 2005, 2007, 2008, 2009 Free Software "
 "Foundation, Inc.,"
 
-# type: Content of: <div><p>
 msgid ""
 "Permission is granted to anyone to make or distribute verbatim copies of "
 "this document, in any medium, provided that the copyright notice and "
@@ -1530,23 +1418,19 @@ msgstr ""
 "d'autre redistribution ainsi que permis par cette notice. <br />Il n'est pas "
 "permis de faire de versions modifiées de ce document."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: ?.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;"
 "april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
 
-# type: Content of: <blockquote><p>
 #, fuzzy
 #~| msgid ""
 #~| "(Nowadays, for software tasks to work on, see <a href=\"http://savannah."

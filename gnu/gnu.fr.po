@@ -15,7 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 #, fuzzy
 #| msgid ""
@@ -26,34 +25,29 @@ msgstr ""
 "À propos du système d'exploitation GNU - GNU project - Free Software "
 "Foundation (FSF)"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 #, fuzzy
 #| msgid "About the GNU Operating System"
 msgid "The GNU Operating System"
 msgstr "À propos du système d'exploitation GNU"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 #, fuzzy
 #| msgid "<a href=\"/gnu/manifesto.html\">The GNU Manifesto</a>"
 msgid "<a href=\"/gnu/about-gnu.html\">About the GNU Operating System</a>"
 msgstr "<a href=\"/gnu/manifesto.fr.html\">Le manifeste GNU</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 #, fuzzy
 #| msgid "<a href=\"/gnu/gnu-history.html\">An overview of GNU</a>"
 msgid "<a href=\"/gnu/gnu-history.html\">A historical overview of GNU</a>"
 msgstr "<a href=\"/gnu/gnu-history.fr.html\">Un aperçu de GNU</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/gnu/thegnuproject.html\">A more detailed history of GNU</a>"
 msgstr ""
 "<a href=\"/gnu/thegnuproject.fr.html\">Une histoire plus détaillée de GNU</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/gnu/initial-announcement.html\">The initial announcement</a> of "
@@ -62,12 +56,10 @@ msgstr ""
 "<a href=\"/gnu/initial-announcement.fr.html\">L'annonce initiale</a> du "
 "projet"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/gnu/manifesto.html\">The GNU Manifesto</a>"
 msgstr "<a href=\"/gnu/manifesto.fr.html\">Le manifeste GNU</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/gnu/byte-interview.html\">BYTE interview with Richard Stallman</"
@@ -76,7 +68,6 @@ msgstr ""
 "<a href=\"/gnu/byte-interview.fr.html\">Entretien sur BYTE avec Richard "
 "Stallman</a> (1986)"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/gnu/rms-lisp.html\">My Lisp Experiences and the Development of "
@@ -85,7 +76,6 @@ msgstr ""
 "<a href=\"/gnu/rms-lisp.fr.html\">Mes expériences de Lisp et du "
 "développement de GNU Emacs</a> (par Richard M. Stallman)"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://query.nytimes.com/gst/fullpage.html?"
@@ -120,14 +110,12 @@ msgid ""
 "Software</a> (1999)"
 msgstr ""
 
-# type: Content of: <h2>
 #. type: Content of: <h3>
 #, fuzzy
 #| msgid "<a name=\"gnulinux\"></a>GNU and Linux"
 msgid "<a id=\"gnulinux\"></a>GNU and Linux"
 msgstr "<a name=\"gnulinux\"></a>GNU et Linux"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/gnu/linux-and-gnu.html\">The relationship between GNU and Linux</"
@@ -135,7 +123,6 @@ msgid ""
 msgstr ""
 "<a href=\"/gnu/linux-and-gnu.fr.html\">Les relations entre GNU et Linux</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/gnu/why-gnu-linux.html\">Why the &lsquo;Linux system&rsquo; "
@@ -144,7 +131,6 @@ msgstr ""
 "<a href=\"/gnu/why-gnu-linux.fr.html\">Pourquoi le «&nbsp;système "
 "Linux&nbsp;» devrait être appelé GNU/Linux</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/gnu/gnu-users-never-heard-of-gnu.html\">GNU Users Who Have Never "
@@ -153,19 +139,16 @@ msgstr ""
 "<a href=\"/gnu/gnu-users-never-heard-of-gnu.fr.html\">Les utilisateurs de "
 "GNU qui n'ont jamais entendu parler de GNU</a>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "<a href=\"/gnu/gnu-linux-faq.html\">A GNU/Linux FAQ</a>"
 msgstr "<a href=\"/gnu/gnu-linux-faq.fr.html\">Une FAQ sur GNU/Linux</a>"
 
-# type: Content of: <h2>
 #. type: Content of: <h3>
 #, fuzzy
 #| msgid "<a name=\"misc\"></a>Other GNU-related resources"
 msgid "<a id=\"misc\"></a>Other GNU-related resources"
 msgstr "<a name=\"misc\"></a>Autres ressources relatives à GNU"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 #, fuzzy
 #| msgid ""
@@ -178,13 +161,11 @@ msgstr ""
 "<a href=\"/gnu/gnu-user-groups.fr.html\">Groupes d'utilisateurs de GNU/Linux "
 "et de GNU/Hurd</a>"
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -204,7 +185,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions sur cette page Web à <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -223,7 +203,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions sur cette page Web à <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -234,14 +213,12 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid "Copyright &copy; 2007, 2008, 2010 Free Software Foundation, Inc."
 msgid "Copyright &copy; 2011 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2007, 2008, 2010 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -256,7 +233,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -264,18 +240,15 @@ msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
 
-# type: Content of: <ul><li>
 #, fuzzy
 #~| msgid "<a href=\"/gnu/fs-user-groups.html\">Free software user groups</a>"
 #~ msgid ""

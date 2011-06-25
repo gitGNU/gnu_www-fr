@@ -15,7 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid ""
 "Amazon letter from RMS to Tim O'Reilly - GNU Project - Free Software "
@@ -24,12 +23,10 @@ msgstr ""
 "Lettre Amazon de RMS à Tim O'Reilly - GNU Project - Free Software Foundation "
 "(FSF)"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "Letter from RMS to Tim O'Reilly"
 msgstr "Lettre de RMS à O'Reilly"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Here's a message that <a href=\"http://www.stallman.org/\">Richard M. "
@@ -44,7 +41,6 @@ msgstr ""
 "\">PDG</acronym> d'Amazon, qui appelait à ce que les brevets logiciels ne "
 "durent que de 3 à 5 ans."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Please <a href=\"/philosophy/amazon.html\">read more</a> about this boycott."
@@ -52,7 +48,6 @@ msgstr ""
 "Veuillez <a href=\"/philosophy/amazon.fr.html\">en lire plus</a> au sujet de "
 "ce boycott."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Please also support us by making a link from your own home page and sites to "
@@ -63,7 +58,6 @@ msgstr ""
 "et sur vos sites vers <a href=\"/philosophy/amazon.fr.html\"><strong>http://"
 "www.gnu.org/philosophy/amazon.fr.html</strong></a>&nbsp;!"
 
-# type: Content of: <pre>
 #. type: Content of: <pre>
 #, fuzzy, no-wrap
 #| msgid ""
@@ -180,13 +174,11 @@ msgstr ""
 "à formuler à l'encontre d'Amazon.\n"
 "\n"
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -207,7 +199,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -227,7 +218,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -238,17 +228,14 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 1999, 2007, 2008 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 1999, 2007, 2008 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
 #. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
@@ -258,7 +245,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -266,13 +252,11 @@ msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

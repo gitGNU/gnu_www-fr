@@ -15,37 +15,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid "Software - GNU Project - Free Software Foundation"
 msgstr "Logiciels - GNU Project - Free Software Foundation"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "Download GNU"
 msgstr "Téléchargez GNU"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Download distributions"
 msgstr "Téléchargez des distributions"
 
-# type: Content of: <div><p><a>
 #. type: Content of: <div><p><a>
 msgid "<a href=\"/distros/free-distros.html\">"
 msgstr "<a href=\"/distros/free-distros.html\">"
 
-# type: Attribute 'alt' of: <div><p><a><img>
 #. type: Attribute 'alt' of: <div><p><a><img>
 msgid "GNU and Linux"
 msgstr "GNU et Linux"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid "</a>"
 msgstr "</a>"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "<span class=\"highlight\">If you're looking for a whole system to install, "
@@ -56,7 +49,6 @@ msgstr ""
 "consultez notre <a href=\"/distros/free-distros.html\">liste de "
 "distributions GNU/Linux qui sont entièrement libres</a>.</span>"
 
-# type: Content of: <div><p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -72,7 +64,6 @@ msgstr ""
 "consultez notre <a href=\"/distros/free-distros.html\">liste de "
 "distributions GNU/Linux qui sont entièrement libres</a>.</span>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -107,7 +98,6 @@ msgstr ""
 "\"/doc/doc.html\">liens vers la documentation des logiciels libres</a> sont "
 "listés séparément."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "We also maintain a list of <a href=\"http://www.fsf.org/campaigns/priority."
@@ -122,7 +112,6 @@ msgstr ""
 "contribuer à GNU, consultez la page GNU <a href=\"/help/help.html\">on "
 "cherche de l'aide</a>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you are developing a GNU package, or you are thinking of starting, you "
@@ -143,7 +132,6 @@ msgstr ""
 "autres licences de logiciels libres, veuillez consulter notre page des <a "
 "href=\"/licenses/licenses.fr.html\">Licences</a>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -160,17 +148,14 @@ msgstr ""
 "Windows qui sont curieux à propos des logiciels libres mais qui ne sont pas "
 "encore prêts à utiliser un système d'exploitation libre."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "How to get GNU software"
 msgstr "Comment obtenir des logiciels GNU"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid "GNU software is available by several different methods:"
 msgstr "Les logiciels GNU peuvent être obtenus de différentes manières&nbsp;:"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/order/ftp.html\">Download it from the web or via FTP</a>: we "
@@ -184,7 +169,6 @@ msgstr ""
 "\"/help/donate.html\">don</a> à la FSF, si vous le pouvez, pour nous aider à "
 "écrire plus de logiciels libres)."
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "Get a copy from a friend.  (Likewise please make a donation if you can.)"
@@ -192,7 +176,6 @@ msgstr ""
 "En obtenant une copie par un ami. (De même, veuillez faire un don si vous le "
 "pouvez)."
 
-# type: Content of: <div><p>
 #. type: Content of: <ul><li>
 #, fuzzy
 #| msgid ""
@@ -207,7 +190,6 @@ msgstr ""
 "consultez notre <a href=\"/distros/free-distros.html\">liste de "
 "distributions GNU/Linux qui sont entièrement libres</a>.</span>"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 #, fuzzy
 #| msgid ""
@@ -222,7 +204,6 @@ msgstr ""
 "préinstallé chez <a href=\"/links/companies.fr.html\">une de ces sociétés</"
 "a> qui peut offrir cela."
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 #, fuzzy
 #| msgid ""
@@ -246,12 +227,10 @@ msgstr ""
 "entrepôts pour leurs sources&nbsp;; les pages Web du paquetage devraient "
 "indiquer où se trouve l'entrepôt."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "<a name=\"allgnupkgs\" id=\"allgnupkgs\">All GNU packages</a>"
 msgstr ""
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Here is a list of all current GNU packages, using their package identifiers "
@@ -260,12 +239,10 @@ msgid ""
 "\"mailto:maintainers@gnu.org\">&lt;maintainers@gnu.org&gt;</a>."
 msgstr ""
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "Decommissioned GNU packages"
 msgstr "Paquetages déclassés"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -365,13 +342,11 @@ msgstr ""
 "\">webpublish</a>, <a href=\"xbase/\">xbase</a>, <a href=\"xinfo/\">xinfo</"
 "a>, <a href=\"xmhtml/\">xmhtml</a>."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -391,7 +366,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions sur cette page Web à <a href="
 "\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -410,7 +384,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions sur cette page Web à <a href="
 "\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -421,7 +394,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -434,7 +406,6 @@ msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008, 2009 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article are permitted "
@@ -445,7 +416,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -453,17 +423,14 @@ msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
 
-# type: Content of: <div><address>
 #~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 #~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"

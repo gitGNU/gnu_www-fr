@@ -15,7 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 msgid ""
 "GPL-compliant version of RTLinux Open Patent License in Works - GNU Project "
 "- Free Software Foundation (FSF)"
@@ -23,7 +22,6 @@ msgstr ""
 "La version compatible GPL de la «&nbsp;Open RTLinux Patent License&nbsp;» "
 "effective - GNU Project - Free Software Foundation (FSF)"
 
-# type: Attribute 'content' of: <meta>
 msgid ""
 "GNU, FSF, Free Software Foundation, Linux, RTLinux, violation, general, "
 "public, license, gpl, general public license, GNU/Linux, Yodaiken, patent"
@@ -31,7 +29,6 @@ msgstr ""
 "GNU, FSF, Free Software Foundation, Linux, RTLinux, violation, générale, "
 "publique, licence, gpl, general public license, GNU/Linux, Yodaiken, brevet"
 
-# type: Attribute 'content' of: <meta>
 msgid ""
 "The Free Software Foundation and Finite State Machine Labs (FSMLAbs) have "
 "come to an agreement on a fully GPL-compliant version of FSMLabs RTLinux "
@@ -41,18 +38,15 @@ msgstr ""
 "arrivés à un accord sur une version totalement compatible de la licence "
 "FSMLabs RTLinux Open Patent License."
 
-# type: Content of: <h2>
 msgid "GPL-compliant version of RTLinux Open Patent License in Works"
 msgstr ""
 "Version compatible GPL de la licence RTLinux Open Patent License dans les "
 "œuvres"
 
-# type: Content of: <p>
 msgid ""
 "Here is our new announcement as of Oct 8 (its actual posting was delayed)."
 msgstr "Voici notre annonce du 8 octobre (sa publication a été retardée)."
 
-# type: Content of: <p>
 msgid ""
 "The Free Software Foundation and Finite State Machine Labs Inc.  (FSMLabs) "
 "today announced the release of the Open RTLinux patent license Version 2 "
@@ -69,7 +63,6 @@ msgstr ""
 "745 dans des logiciels libres couverts par la GPL, sans paiement de droits. "
 "Cette licence protège l'utilisation sous GPL du processus RTLinux."
 
-# type: Content of: <p>
 msgid ""
 "FSMLabs and FSF expect the release of this license to accelerate the rate of "
 "the free software revolution in the fields of embedded and realtime "
@@ -92,7 +85,6 @@ msgstr ""
 "sociétés de par le monde. La FSF remercie FSMLabs pour ses contributions "
 "continues à la communauté du logiciel libre."
 
-# type: Content of: <p>
 msgid ""
 "Here is the previous announcement, which was the subject of our <a href=\"/"
 "press/2001-09-18-RTLinux.html\">18 September press release</a>."
@@ -100,7 +92,6 @@ msgstr ""
 "Voici l'annonce précédente, qui fut le sujet de notre <a href=\"/press/2001-"
 "09-18-RTLinux.html\">édition du 18 septembre.</a>."
 
-# type: Content of: <p>
 msgid ""
 "The Free Software Foundation and Finite State Machine Labs (FSMLAbs) have "
 "come to an agreement on a fully GPL-compliant version of FSMLabs RTLinux "
@@ -132,12 +123,10 @@ msgstr ""
 "et pour son soutien de longue date et la publication de logiciels libres "
 "sous GPL."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -152,7 +141,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -162,15 +150,12 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 msgid "Copyright &copy; 2001 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 2001 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article are permitted in "
 "any medium without royalty provide the copyright notice and this notice are "
@@ -180,18 +165,15 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

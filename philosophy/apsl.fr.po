@@ -15,7 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid ""
 "FSF's Opinion on the Apple Public Source License (APSL) - GNU Project - Free "
@@ -24,12 +23,10 @@ msgstr ""
 "Opinion de la FSF sur la Apple Public Source License (APSL) - Projet GNU - "
 "Free Software Foundation (FSF)"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "FSF's Opinion of the Apple Public Source License (APSL) 2.0"
 msgstr "Opinion de la FSF sur la Apple Public Source License (APSL) 2.0"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The Apple Public Source License (APSL) version 2.0 qualifies as a free "
@@ -51,7 +48,6 @@ msgstr ""
 "APSL à utiliser les termes de la version 2.0 plutôt que ceux d'une licence "
 "plus ancienne."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "In version 2.0 of the APSL, the definition of &ldquo;Externally "
@@ -75,7 +71,6 @@ msgstr ""
 "voie, sans gêner excessivement la vie privée des utilisateurs ni la liberté "
 "d'utiliser le logiciel."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The FSF now considers the APSL to be a free software license with two major "
@@ -84,7 +79,6 @@ msgstr ""
 "La FSF considère maintenant la APSL comme une licence de logiciel libre avec "
 "deux problèmes pratiques majeurs, qui rappellent la NPL&nbsp;:"
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid ""
 "It is not a true copyleft, because it allows linking with other files which "
@@ -93,12 +87,10 @@ msgstr ""
 "Ce n'est pas un vrai copyleft, parce qu'elle autorise des liens avec "
 "d'autres fichiers qui peuvent être entièrement propriétaires."
 
-# type: Content of: <ul><li>
 #. type: Content of: <ul><li>
 msgid "It is incompatible with the GPL."
 msgstr "Elle est incompatible avec la GPL."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "For this reason, we recommend you do not release new software using this "
@@ -110,7 +102,6 @@ msgstr ""
 "ou d'améliorer des logiciels réalisés par d'autres personnes sous cette "
 "licence."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Aside from this, we must remember that only part of Mac OS X is being "
@@ -126,7 +117,6 @@ msgstr ""
 "tout. Nous ne devons pas juger toute une société sur une seule partie de ce "
 "qu'elle fait."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "<a href=\"http://www.gnu-darwin.org\">GNU-Darwin</a> is a combination of GNU "
@@ -135,13 +125,11 @@ msgstr ""
 "<a href=\"http://www.gnu-darwin.org\">GNU-Darwin</a> est une combinaison de "
 "GNU et Darwin qui n'est supposée utiliser que des logiciels libres."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -162,7 +150,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -182,7 +169,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -193,18 +179,15 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 1999, 2001, 2007, 2008 Free Software Foundation, Inc.,"
 msgstr ""
 "Copyright &copy; 1999, 2001, 2007, 2008 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
 #. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
@@ -214,7 +197,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -222,13 +204,11 @@ msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br />Révision&nbsp;: <a href=\"mailto:trad-"
 "gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

@@ -15,33 +15,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 msgid "FSF Statement on SCO v. IBM"
 msgstr "Déclaration de la FSF sur le procès SCO contre IBM"
 
-# type: Attribute 'content' of: <meta>
 msgid "FSF Statement on SCO v. IBM lawsuit"
 msgstr "Déclaration de la FSF sur le procès SCO contre IBM"
 
-# type: Attribute 'content' of: <meta>
 msgid ""
 "SCO, IBM, GPL, infringement, violation, FSF, GNU, Linux, freedom, software"
 msgstr ""
 "SCO, IBM, GPL, infraction, violation, FSF, GNU, Linux, liberté, logiciel"
 
-# type: Content of: <h2>
 msgid "FSF Statement on <cite>SCO v. IBM</cite>"
 msgstr "Déclaration de la FSF sur le procès <cite>SCO contre IBM</cite>"
 
-# type: Content of: <p>
 msgid "by <strong>Eben Moglen</strong>"
 msgstr "par <strong>Eben Moglen</strong>"
 
-# type: Content of: <p>
 msgid "June 25, 2003"
 msgstr "le 25 juin 2003"
 
-# type: Content of: <p>
 msgid ""
 "The lawsuit brought by the SCO Group against IBM has generated many requests "
 "for comment by FSF.  The Foundation has refrained from making official "
@@ -61,7 +54,6 @@ msgstr ""
 "irresponsable, distillé des doutes sur la légalité du logiciel libre en "
 "général. Ces déclarations nécessitent une réponse."
 
-# type: Content of: <p>
 msgid ""
 "SCO's lawsuit asserts that IBM has breached contractual obligations between "
 "the two companies, and also that IBM has incorporated trade secret "
@@ -86,7 +78,6 @@ msgstr ""
 "grandes sociétés dans le monde, les alertant sur la possibilité de violation "
 "de copyright en utilisant des logiciels libres."
 
-# type: Content of: <p>
 msgid ""
 "It is crucial to clarify certain confusions that SCO's spokesmen have shown "
 "no disposition to dispel.  In the first place, SCO has used &ldquo;"
@@ -126,7 +117,6 @@ msgstr ""
 "son ensemble</cite> réalise les mêmes fonctions qui furent autrefois "
 "réalisées uniquement par le système d'exploitation Unix."
 
-# type: Content of: <p>
 msgid ""
 "SCO's confusing use of names makes the basis of its claims unclear: has SCO "
 "alleged that trade secrets of Unix's originator, AT&amp;T&mdash;of which SCO "
@@ -186,7 +176,6 @@ msgstr ""
 "&mdash; et qui violeraient, ainsi que l'affirme SCO, ses droits d'une "
 "quelconque manière que ce soit."
 
-# type: Content of: <p>
 msgid ""
 "Moreover, there are straightforward legal reasons why SCO's assertions "
 "concerning claims against the kernel or other free software are likely to "
@@ -217,7 +206,6 @@ msgstr ""
 "commerciale elle-même, sous une licence qui permet spécifiquement la copie "
 "et la distribution illimitée."
 
-# type: Content of: <p>
 msgid ""
 "The same fact stands as an irrevocable barrier to SCO's claim that &ldquo;"
 "Linux&rdquo; violates SCO's copyright on Unix source code.  Copyright, as "
@@ -259,7 +247,6 @@ msgstr ""
 "façon ou d'une autre, cela ne permettait pas de copier et de redistribuer "
 "toute partie étant sous copyright leur appartenant, présente dans le code."
 
-# type: Content of: <p>
 msgid ""
 "In the face of these facts, SCO's public statements are at best misleading "
 "and irresponsible.  SCO has profited handily from the work of free software "
@@ -281,7 +268,6 @@ msgstr ""
 "procéder immédiatement à la séparation de ses désaccords commerciaux avec "
 "IBM, de ses obligations envers la communauté du logiciel libre."
 
-# type: Content of: <p>
 msgid ""
 "<em> Eben Moglen is General Counsel to FSF, and serves on its board of "
 "directors.  </em>"
@@ -289,19 +275,16 @@ msgstr ""
 "<em>Eben Moglen est le Conseiller général de la FSF, et siège à son conseil "
 "d'administration</em>"
 
-# type: Content of: <h4>
 msgid ""
 "<a href=\"/philosophy/sco/sco.html\">Other Texts to Read related to SCO</a>."
 msgstr ""
 "<a href=\"/philosophy/sco/sco.fr.html\">Autres textes à lire relatifs à SCO</"
 "a>."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -316,7 +299,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -326,15 +308,12 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 msgid "Copyright &copy; 2003 Free Software Foundation Inc.,"
 msgstr "Copyright &copy; 2003 Free Software Foundation Inc.,"
 
-# type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 msgid ""
 "Verbatim copying of this article is permitted in any medium, provided this "
 "notice is preserved."
@@ -343,18 +322,15 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

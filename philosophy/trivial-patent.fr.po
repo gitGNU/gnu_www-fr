@@ -16,25 +16,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 msgid ""
 "The Anatomy of a Trivial Patent - GNU project - Free Software Foundation "
 "(FSF)"
 msgstr ""
 "L'anatomie d'un brevet trivial - GNU project - Free Software Foundation (FSF)"
 
-# type: Content of: <h2>
 msgid "The Anatomy of a Trivial Patent"
 msgstr "L'anatomie d'un brevet trivial"
 
-# type: Content of: <p>
 msgid ""
 "by <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
 msgstr ""
 "par <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></"
 "a>"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Programmers are well aware that many of the software patents cover "
@@ -53,7 +49,6 @@ msgstr ""
 "évidentes seulement a posteriori. Et c'est étonnamment difficile de "
 "démontrer que cela est faux dans un débat. Pourquoi cela&nbsp;?"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "One reason is that any idea can be made look complex when analyzed to "
@@ -75,7 +70,6 @@ msgstr ""
 "complexe et dire «&nbsp;Comment quelque chose d'aussi complexe peut-il être "
 "évident&nbsp;?&nbsp;»"
 
-# type: Content of: <p>
 msgid ""
 "I will use an example to show you how.  Here's claim number one from US "
 "patent number 5,963,916, applied for in October 1996:"
@@ -84,7 +78,6 @@ msgstr ""
 "révendication numéro une du brevet américain numéro 5.963.916 déposé en "
 "octobre 1996&nbsp;:"
 
-# type: Content of: <p>
 msgid ""
 "1. A method for enabling a remote user to preview a portion of a pre-"
 "recorded music product from a network web site containing pre-selected "
@@ -100,7 +93,6 @@ msgstr ""
 "l'utilisateur distant et le réseau du site Web, la méthode comprenant les "
 "étapes de&nbsp;:"
 
-# type: Content of: <ul><li>
 msgid ""
 "using the remote user's computer to establish a telecommunications link to "
 "the network web site wherein the network web site comprises (i) a central "
@@ -117,7 +109,6 @@ msgstr ""
 "périphérique de stockage central pour stocker les parties pré-sélectionnées "
 "d'une pluralité de différents produits de musique pré-enregistrés&nbsp;;"
 
-# type: Content of: <ul><li>
 msgid ""
 "transmitting user identification data from the remote user's computer to the "
 "central host server thereby allowing the central host server to identify and "
@@ -128,7 +119,6 @@ msgstr ""
 "fait autorisant le serveur hôte central à identifier et à suivre le "
 "cheminement de l'utilisateur à travers le site Web du réseau&nbsp;;"
 
-# type: Content of: <ul><li>
 msgid ""
 "choosing at least one pre-selected portion of the pre-recorded music "
 "products from the central host server;"
@@ -136,13 +126,11 @@ msgstr ""
 "choisir au moins une partie pré-sélectionnée du produit musical pré-"
 "enregistré depuis le serveur hôte central."
 
-# type: Content of: <ul><li>
 msgid ""
 "receiving the chosen pre-selected portion of the pre-recorded products; and"
 msgstr ""
 "recevoir la partie pré-sélectionnée choisie du produit pré-enregistré; et"
 
-# type: Content of: <ul><li>
 msgid ""
 "interactively previewing the received chosen pre-selected portion of the pre-"
 "recorded music product."
@@ -150,7 +138,6 @@ msgstr ""
 "prévisualiser interactivement la partie pré-sélectionnée choisie reçue du "
 "produit musical pré-sélectionné."
 
-# type: Content of: <p>
 msgid ""
 "That sure looks like a complex system, right? Surely it took a real clever "
 "guy to think of this? No, but it took cleverness to make it seem so "
@@ -161,7 +148,6 @@ msgstr ""
 "fallu de l'habileté pour le faire paraître complexe. Analysons d'où viens la "
 "compléxité&nbsp;:"
 
-# type: Content of: <p>
 msgid ""
 "<i>1. A method for enabling a remote user to preview a portion of a pre-"
 "recorded music product from a network web site containing pre-selected "
@@ -171,7 +157,6 @@ msgstr ""
 "une partie d'un produit musical pré-enregistré depuis  site Web sur un "
 "réseau contenant des parties pré-sélectionnées</i>"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "That states the biggest part of their idea.  They have selections from "
@@ -184,11 +169,9 @@ msgstr ""
 "certains morceaux de musique sur un serveur, ainsi un utilisateur peut les "
 "écouter."
 
-# type: Content of: <p>
 msgid "<i>of different pre-recorded music products,</i>"
 msgstr "<i>de différents produits musicaux pré-enregistrés</i>"
 
-# type: Content of: <p>
 msgid ""
 "This emphasizes their server stores selections from more than one piece of "
 "music."
@@ -196,7 +179,6 @@ msgstr ""
 "Ceci souligne que leur serveur stocke des sélections de plus d'un morceau de "
 "musique."
 
-# type: Content of: <p>
 msgid ""
 "It is a basic principle of computer science is that if a computer can do a "
 "thing once, it can do that thing many times, on different data each time.  "
@@ -209,7 +191,6 @@ msgstr ""
 "qu'appliquer ce principe à un cas spécifique en fait une «&nbsp;"
 "invention&nbsp;»."
 
-# type: Content of: <p>
 msgid ""
 "<i>using a computer, a computer display and a telecommunications link "
 "between the remote user's computer and the network web site,</i>"
@@ -218,11 +199,9 @@ msgstr ""
 "télécommunication entre l'ordinateur de l'utilisateur distant et le réseau "
 "du site Web,</i>"
 
-# type: Content of: <p>
 msgid "This says they are using a server on a network."
 msgstr "Ceci dit qu'ils utilisent un serveur sur un réseau."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<i>the method comprising the steps of: * a) using the remote user's "
@@ -236,7 +215,6 @@ msgstr ""
 "l'utilisateur distant pour établir un lien de télécommunication vers le "
 "réseau du site Web</i>"
 
-# type: Content of: <p>
 msgid ""
 "This says that the user connects to the server over the network.  (That's "
 "the way one uses a server.)"
@@ -244,7 +222,6 @@ msgstr ""
 "Ceci dit que l'utilisateur se connecte au serveur à travers le réseau. "
 "(C'est la manière d'utiliser un serveur)."
 
-# type: Content of: <p>
 msgid ""
 "<i>wherein the network web site comprises (i) a central host server coupled "
 "to a communications network</i>"
@@ -252,13 +229,11 @@ msgstr ""
 "<i>où le réseau du site Web comprend (i) un serveur hôte central couplé à un "
 "réseau de communication</i>"
 
-# type: Content of: <p>
 msgid ""
 "This informs us that the server is on the net.  (That is typical of servers.)"
 msgstr ""
 "Ceci nous informe qu'un serveur est sur le Net. (C'est typique d'un serveur)."
 
-# type: Content of: <p>
 msgid ""
 "<i>for retrieving and transmitting the pre-selected portion of the pre-"
 "recorded music product upon request by a remote user</i>"
@@ -266,11 +241,9 @@ msgstr ""
 "<i>pour recherche et transmission de la partie pré-sélectionnée du produit "
 "musical pré-enregistré sur demande par un utilisateur à distance</i>"
 
-# type: Content of: <p>
 msgid "This repeats the general idea stated in the first two lines."
 msgstr "Ceci répète l'idée générale indiquée dans les deux premières lignes."
 
-# type: Content of: <p>
 msgid ""
 "<i>and (ii) a central storage device for storing pre-selected portions of a "
 "plurality of different pre-recorded music products;</i>"
@@ -279,7 +252,6 @@ msgstr ""
 "sélectionnées d'une pluralité de différents produits de musique pré-"
 "enregistrés&nbsp;;</i>"
 
-# type: Content of: <p>
 msgid ""
 "They have decided to put a hard disk (or equivalent) in their computer and "
 "store the music samples on that.  Ever since around 1980, this has been the "
@@ -290,7 +262,6 @@ msgstr ""
 "ceci a été la manière normale de stocker n'importe quoi sur un ordinateur "
 "pour un accès rapide."
 
-# type: Content of: <p>
 msgid ""
 "Note how they emphasize once again the fact that they can store more than "
 "one selection on this disk.  Of course, every file system will let you store "
@@ -300,7 +271,6 @@ msgstr ""
 "d'une sélection sur ce disque. Naturellement, chaque système de fichiers "
 "vous laissera stocker plus d'un fichier."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<i>* b) transmitting user identification data from the remote user's "
@@ -317,7 +287,6 @@ msgstr ""
 "ainsi d'identifier et de tracer la progression de l'utilisateur sur le site "
 "Web.</i>"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "This says that they keep track of who you are and what you access&mdash;a "
@@ -332,7 +301,6 @@ msgstr ""
 "accèdez, une tâche courante (bien que mauvaise) pour les serveurs Web. Je "
 "crois que c'était déjà quelque chose de courant en 1996."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<i>* c) choosing at least one pre-selected portion of the pre-recorded "
@@ -344,7 +312,6 @@ msgstr ""
 "<i>* c) Choisir au moins une partie pré-sélectionnée du produit musical pré-"
 "enregistré depuis le serveur hôte central.</i>"
 
-# type: Content of: <p>
 msgid ""
 "In other words, the user clicks to say which link to follow.  That is "
 "typical for web servers; if they had found another way to do it, that might "
@@ -354,7 +321,6 @@ msgstr ""
 "typique pour les serveurs Web&nbsp; s'ils avaient trouvé un autre moyen de "
 "le faire, ça aurait pu être une invention."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<i>* d) receiving the chosen pre-selected portion of the pre-recorded "
@@ -366,7 +332,6 @@ msgstr ""
 "<i>* d) recevoir la partie pré-sélectionnée choisie du produit pré-"
 "enregistré&nbsp;; et</i>"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "When you follow a link, your browser reads the contents.  This is typical "
@@ -378,7 +343,6 @@ msgstr ""
 "Quand vous suivez un lien, le navigateur lie le contenu. C'est un "
 "comportement typique pour un navigateur Web."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<i>* e) interactively previewing the received chosen pre-selected portion "
@@ -390,7 +354,6 @@ msgstr ""
 "<i>* e) prévisualisé interactivement la partie pré-sélectionnée choisie "
 "reçue du produit musical pré-sélectionné.</i>"
 
-# type: Content of: <p>
 msgid ""
 "This says that your browser plays the music for you.  (That is what many "
 "browsers do, when you follow a link to an audio file.)"
@@ -399,7 +362,6 @@ msgstr ""
 "beaucoup de navigateurs font, lorsque vous suivez un lien vers un fichier "
 "audio)."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Now you can see how they padded this claim to make it into a complex "
@@ -420,7 +382,6 @@ msgstr ""
 "étend la prétendue «&nbsp;invention&nbsp;» pour laquelle ils ont reçu un "
 "brevet."
 
-# type: Content of: <p>
 msgid ""
 "This example is typical of software patents.  Even the occasional patent "
 "whose idea is nontrivial has the same sort of added complication."
@@ -428,11 +389,9 @@ msgstr ""
 "Cet exemple est typique des brevets logiciels. Même les brevets occasionnels "
 "dont l'idée est non-triviale ont le même genre de complications ajoutées."
 
-# type: Content of: <p>
 msgid "Now look at a subsequent claim:"
 msgstr "Regardez maintenant la revendication suivante&nbsp;:"
 
-# type: Content of: <p>
 msgid ""
 "<i>3. The method of [149]claim 1 wherein the central memory device comprises "
 "a plurality of compact disc-read only memory (CD-ROMs).</i>"
@@ -441,7 +400,6 @@ msgstr ""
 "central de mémoire comporte une pluralité de <acronym title=\"Compact Disc - "
 "Read Only Memory\">CD-ROM</acronym>.</i>"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "What they are saying here is, &ldquo;Even if you don't think that claim 1 "
@@ -459,11 +417,9 @@ msgstr ""
 "données en fait une invention à coup-sûr. Un concepteur moyen de système "
 "n'aurait jamais pensé à cela.&nbsp;»"
 
-# type: Content of: <p>
 msgid "Now look at the next claim:"
 msgstr "Maintenant regardez la revendication suivante&nbsp;:"
 
-# type: Content of: <p>
 msgid ""
 "<i>4. The method of [150]claim 1 wherein the central memory device comprises "
 "a RAID array drive.</i>"
@@ -472,7 +428,6 @@ msgstr ""
 "central de mémoire comprend une matrice de disque <acronym title=\"Redundant "
 "Array of Inexpensive Disks\">RAID</acronym>.</i>"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "A RAID array is a group of disks set up to work like one big disk, with "
@@ -501,7 +456,6 @@ msgstr ""
 "disponibilité. Mais ces brillants inventeurs ont breveté l'utilisation d'une "
 "matrice RAID pour ce but particulier."
 
-# type: Content of: <p>
 msgid ""
 "Trivial as it is, this patent would not necessarily be found legally invalid "
 "if there is a lawsuit about it.  Not only the US Patent Office but the "
@@ -518,7 +472,6 @@ msgstr ""
 "en.wikipedia.org/wiki/Muster\">pass muster&nbsp;»</a> qui est un <a href="
 "\"http://fr.wikipedia.org/wiki/Idiotisme\">idiotisme</a>),selon eux."
 
-# type: Content of: <p>
 msgid ""
 "What's more, the courts are reluctant to overrule the Patent Office, so "
 "there is a better chance of getting a patent overturned if you can show a "
@@ -538,7 +491,6 @@ msgstr ""
 "meilleure base de données de jurisprudence pourrait à la place rendre les "
 "choses pires encore."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "It is very hard to make a patent system behave reasonably; it is a "
@@ -566,7 +518,6 @@ msgstr ""
 "serait sans perte&nbsp;: les brevets non-évidents dans le domaine du "
 "logiciel ne font aucun bien non plus."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The patent system is supposed, intended, to promote progress, and those "
@@ -592,7 +543,6 @@ msgstr ""
 "researchoninnovation.org/patent.pdf\">http://www.researchoninnovation.org/"
 "patent.pdf</a>[en])."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
@@ -603,7 +553,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -615,7 +564,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -625,7 +573,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 2006 Richard Stallman<br /> Verbatim copying and "
 "distribution of this entire article are permitted in any medium provided "
@@ -635,18 +582,15 @@ msgstr ""
 "distribution intégrale de cet article est permise sur n'importe quel support "
 "d'archivage, pourvu que cette notice soit préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Mathieu Stumpf.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

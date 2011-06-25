@@ -16,22 +16,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 msgid "The Motif License - GNU Project - Free Software Foundation (FSF)"
 msgstr "La licence Motif - GNU Project - Free Software Foundation (FSF)"
 
-# type: Content of: <h2>
 msgid "The Motif License"
 msgstr "La licence Motif"
 
-# type: Content of: <p>
 msgid ""
 "by <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
 msgstr ""
 "par <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></"
 "a>"
 
-# type: Content of: <p>
 msgid ""
 "A couple of weeks ago, the Open Group changed the license of Motif, inviting "
 "free software developers to use it.  However, the new Motif license does not "
@@ -43,7 +39,6 @@ msgstr ""
 "nouvelle licence Motif ne correspond pas à la définition du logiciel libre, "
 "ou à la définition inférieure du logiciel open source."
 
-# type: Content of: <p>
 msgid ""
 "Their announcement says they have released Motif to &ldquo;the open source "
 "community&rdquo;, but this is true only in an unnatural interpretation of "
@@ -57,7 +52,6 @@ msgstr ""
 "la place, ils ont invité les personnes de lacommunauté du logiciel libre à "
 "la quitter en utilisant Motif."
 
-# type: Content of: <p>
 msgid ""
 "I've written to the Open Group about this, asking them to change the "
 "license.  We can hope they will, but we can't assume it.  In the present "
@@ -75,7 +69,6 @@ msgstr ""
 "toujours une violation de la GPL, excepté dans des circonstances très "
 "spéciales."
 
-# type: Content of: <p>
 msgid ""
 "Fortunately there is a free software alternative to Motif, called LessTif.  "
 "Most programs that were written for Motif can use LessTif with no changes.  "
@@ -92,11 +85,9 @@ msgstr ""
 "poser une candidature, contactez <a href=\"mailto:lesstif@hungry.com\">&lt;"
 "lesstif@hungry.com&gt;</a>."
 
-# type: Content of: <p>
 msgid "Here are some of the problems of the Motif license:"
 msgstr "Voici quelques problèmes de la licence Motif&nbsp;:"
 
-# type: Content of: <ul><li>
 msgid ""
 "It claims that you accept the license merely by &ldquo;using&rdquo; Motif.  "
 "Only a shrink-wrap license or something similar can do that, and shrink-wrap "
@@ -107,7 +98,6 @@ msgstr ""
 "plastique&nbsp;» peut le faire, et de telles licences sont une mauvaise "
 "chose."
 
-# type: Content of: <ul><li>
 #, fuzzy
 #| msgid ""
 #| "The license is restricted to use on certain operating systems, those "
@@ -124,7 +114,6 @@ msgstr ""
 "logiciel libre tout comme le mouvement Open Source considèrent les "
 "restrictions d'utilisation inacceptables."
 
-# type: Content of: <ul><li>
 #, fuzzy
 #| msgid ""
 #| "Their definition of the term &ldquo;open source&rdquo; is very different "
@@ -136,7 +125,6 @@ msgstr ""
 "Leur définition du terme «&nbsp;open source&nbsp;» est très différente de "
 "celle utilisée par le mouvement de l'Open Source, ce qui sème la confusion."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "In the Free Software Movement, we disagree with the Open Source Movement "
@@ -161,12 +149,10 @@ msgstr ""
 "leurs critères de base. Les faits de la situation sont assez "
 "complexes&nbsp;; compliquer le problème n'est pas souhaitable."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -181,7 +167,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -191,7 +176,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
 #| "Copyright &copy; 1997, 1998, 1999, 2007, 2008 Free Software Foundation, "
@@ -202,11 +186,9 @@ msgid ""
 msgstr ""
 "Copyright &copy; 1997, 1998, 1999, 2007, 2008 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium without royalty provided this notice is preserved."
@@ -215,23 +197,19 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: ?<br />Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april."
 "org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
 
-# type: Content of: <ul><li>
 #~ msgid ""
 #~ "Ironically, that restriction excludes nearly all the commercial GNU/Linux "
 #~ "distributions.  They typically include some non-free software&mdash;an "

@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #, fuzzy
 #| msgid ""
 #| "The Wassenaar Agreement - GNU Project - Free Software Foundation (FSF)"
@@ -24,13 +23,11 @@ msgid ""
 "The Wassenaar Arrangement - GNU Project - Free Software Foundation (FSF)"
 msgstr "L'Accord Wassenaar - GNU Project - Free Software Foundation (FSF)"
 
-# type: Content of: <h2>
 #, fuzzy
 #| msgid "The Wassenaar Agreement"
 msgid "The Wassenaar Arrangement"
 msgstr "L'Accord Wassenaar"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Our first information about the new Wassenaar agreement came in the form "
@@ -53,7 +50,6 @@ msgstr ""
 "situés dans les pays non Wassenaar à participer à la distribution et au "
 "développement de logiciels libres de cryptage."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Subsequently the actual text of the new version of Wassenaar was "
@@ -74,7 +70,6 @@ msgstr ""
 "semblent signifier quelque chose comme logiciel libre par cela). Donc le "
 "problème semble avoir été une fausse alerte."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "However, the US continues to seek such restrictions, and therefore it "
@@ -93,7 +88,6 @@ msgstr ""
 "émettrait davantage de restrictions concernant l'exportation de logiciels "
 "libres."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Here is our interpretation of the text of the latest Wassenaar agreement, "
@@ -106,7 +100,6 @@ msgstr ""
 "nous l'avons vu. Ceci n'a pas été vérifié par un juriste. (NdT&nbsp;: Cette "
 "traduction non plus)."
 
-# type: Content of: <p>
 msgid ""
 "According to the General Software Notes, entry 2, the agreement does not "
 "cover software which is in &ldquo;the public domain&rdquo;. This is defined "
@@ -122,7 +115,6 @@ msgstr ""
 "que le copyright en soi ne saurait ôter à un programme ce statut de «&nbsp;"
 "domaine public&nbsp;»."
 
-# type: Content of: <p>
 msgid ""
 "There are currently discussions about the agreement and it would seem "
 "logical that the definition of &ldquo;public domain&rdquo; is something that "
@@ -132,7 +124,6 @@ msgstr ""
 "que la définition de «&nbsp;domaine public&nbsp;» soit clarifiée lors de "
 "prochaines réunions."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Finnish officials have stated that <cite>&ldquo;nothing will change as "
@@ -147,7 +138,6 @@ msgstr ""
 "longtemps que le logiciel du «&nbsp;domaine public&nbsp;» et l'accord "
 "Wassenaar Dec 3 seront concernés&nbsp;»</cite>."
 
-# type: Content of: <p>
 msgid ""
 "In Denmark, we are told, there has been an incident where the Ministry of "
 "Commerce informed an administrator to stop offering the program PGP for "
@@ -157,7 +147,6 @@ msgstr ""
 "commerce a informé un administrateur d'arrêter de proposer le programme PGP "
 "en téléchargement."
 
-# type: Content of: <p>
 msgid ""
 "Recent news indicate that the Australian government has prohibited the "
 "export of free software for encryption by modifying the Wassenaar list that "
@@ -168,12 +157,10 @@ msgstr ""
 "Wassenaar relative à la définition du logiciel «&nbsp;dans le domaine "
 "public&nbsp;»."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -188,7 +175,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -198,16 +184,13 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 msgid "Copyright &copy; 1996, 1997, 1998, 2008 Free Software Foundation, Inc.,"
 msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 2008 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium without royalty provided this notice is preserved."
@@ -216,23 +199,19 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Pascal Desroche.<br />Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
 
-# type: Content of: <p>
 #~ msgid ""
 #~ "People in the UK can help by looking at <a href=\"http://www.stand.org.uk/"
 #~ "\">http://www.stand.org.uk/</a> and participate in their campaign."

@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 msgid ""
 "The Problems of the Plan 9 License - GNU Project - Free Software Foundation "
 "(FSF)"
@@ -24,18 +23,15 @@ msgstr ""
 "Les problèmes de la licence de Plan 9 - GNU Project - Free Software "
 "Foundation (FSF)"
 
-# type: Content of: <h2>
 msgid "The Problems of the (Earlier) Plan 9 License"
 msgstr "Les problèmes de la (précédente) licence de Plan 9"
 
-# type: Content of: <p>
 msgid ""
 "by <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
 msgstr ""
 "par <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></"
 "a>"
 
-# type: Content of: <p>
 msgid ""
 "<em>Note:</em> This applies to the earlier license used for Plan 9.  The "
 "current license of Plan 9 does qualify as free software (and also as open "
@@ -47,7 +43,6 @@ msgstr ""
 "également open source). Aussi, cet article sur un exemple spécifique n'a "
 "qu'une valeur historique. Néanmoins, l'idée générale demeure valide."
 
-# type: Content of: <p>
 msgid ""
 "When I saw the announcement that the Plan 9 software had been released as "
 "&ldquo;open source&rdquo;, I wondered whether it might be free software as "
@@ -64,7 +59,6 @@ msgstr ""
 "pour le mouvement pour le logiciel libre. (Voyez <a href=\"/philosophy/free-"
 "sw.fr.html\">http://www.gnu.org/philosophy/free-sw.fr.html</a>)."
 
-# type: Content of: <p>
 msgid ""
 "I am not a supporter of the Open Source Movement, but I was glad when one of "
 "their leaders told me they don't consider the license acceptable either.  "
@@ -83,7 +77,6 @@ msgstr ""
 "compris; voyez <a href=\"/philosophy/open-source-misses-the-point.fr.html"
 "\">http://www.gnu.org/philosophy/open-source-misses-the-point.fr.html</a>)."
 
-# type: Content of: <p>
 msgid ""
 "Here is a list of the problems that I found in the Plan 9 license.  Some "
 "provisions restrict the Plan 9 software so that it is clearly non-free; "
@@ -93,11 +86,9 @@ msgstr ""
 "Certaines clauses restreignent le logiciel Plan 9 afin qu'il soit clairement "
 "non-libre&nbsp;; d'autres sont juste extrêmement désagréables."
 
-# type: Content of: <p>
 msgid "First, here are the provisions that make the software non-free."
 msgstr "Premièrement, voici les clauses qui rendent le logiciel non-libre."
 
-# type: Content of: <p>
 msgid ""
 "<strong> You agree to provide the Original Contributor, at its request, with "
 "a copy of the complete Source Code version, Object Code version and related "
@@ -110,7 +101,6 @@ msgstr ""
 "contribution par vous si elles sont utilisées dans n'importe quel but.</"
 "strong>"
 
-# type: Content of: <p>
 msgid ""
 "This prohibits modifications for private use, denying the users a basic "
 "right."
@@ -118,7 +108,6 @@ msgstr ""
 "Ceci interdit les modifications pour usage privé, enlevant ainsi un droit "
 "élémentaire aux utilisateurs."
 
-# type: Content of: <p>
 msgid ""
 "<strong> and may, at Your option, include a reasonable charge for the cost "
 "of any media.  </strong>"
@@ -126,7 +115,6 @@ msgstr ""
 "<strong> et pouvez, à votre discrétion, demander une rétribution raisonnable "
 "pour le coût de quelque support que ce soit.</strong>"
 
-# type: Content of: <p>
 msgid ""
 "This seems to limit the price that may be charged for an initial "
 "distribution, prohibiting selling copies for a profit."
@@ -134,7 +122,6 @@ msgstr ""
 "Ceci paraît limiter le prix qui peut être demandé pour une distribution "
 "initiale, interdisant la vente de copie dans un but lucratif."
 
-# type: Content of: <p>
 msgid ""
 "<strong> Distribution of Licensed Software to third parties pursuant to this "
 "grant shall be subject to the same terms and conditions as set forth in this "
@@ -144,7 +131,6 @@ msgstr ""
 "cet accord sera sujette aux mêmes modalités et conditions que celles "
 "présentées dans ce contrat,</strong>"
 
-# type: Content of: <p>
 msgid ""
 "This seems to say that when you redistribute you must insist on a contract "
 "with the recipients, just as Lucent demands when you download it."
@@ -153,7 +139,6 @@ msgstr ""
 "accord avec le récipiendaire conforme à ce que AT&amp;T demande lorsque vous "
 "le téléchargez."
 
-# type: Content of: <p>
 msgid ""
 "<strong> 1. The licenses and rights granted under this Agreement shall "
 "terminate automatically if (i) You fail to comply with all of the terms and "
@@ -167,7 +152,6 @@ msgstr ""
 "judiciaire à l'encontre du contributeur originel et/ou autre contributeur.</"
 "strong>"
 
-# type: Content of: <p>
 msgid ""
 "This seemed reasonable to me at first glance, but later I realized that it "
 "goes too far.  A retaliation clause like this would be legitimate if it were "
@@ -183,7 +167,6 @@ msgstr ""
 "d'un de vos logiciels libres couverts par la GPL et que vous la défendiez en "
 "cour, vous perdriez le droit d'utiliser le code de Plan 9."
 
-# type: Content of: <p>
 msgid ""
 "<strong> You agree that, if you export or re-export the Licensed Software or "
 "any modifications to it, You are responsible for compliance with the United "
@@ -198,7 +181,6 @@ msgstr ""
 "contributeur originel et tous les autres contributeurs pour la "
 "responsabilité encourue en conséquence.</strong>"
 
-# type: Content of: <p>
 msgid ""
 "It is unacceptable for a license to require compliance with US export "
 "control regulations.  Laws being what they are, these regulations apply "
@@ -215,14 +197,12 @@ msgstr ""
 "personnes et aux activités hors de la juridiction du gouvernement des États-"
 "Unis et ceci est définitivement mauvais."
 
-# type: Content of: <p>
 msgid ""
 "A part of the distribution is covered by a further unacceptable restriction:"
 msgstr ""
 "Une partie de la distribution est couverte par une autre restriction "
 "inacceptable&nbsp;:"
 
-# type: Content of: <p>
 msgid ""
 "<strong> 2.2 No right is granted to Licensee to create derivative works of "
 "or to redistribute (other than with the Original Software or a derivative "
@@ -239,7 +219,6 @@ msgstr ""
 "Typewriter83), identifiées dans le sous-répertoire /sys/lib/postscript/font."
 "</strong>"
 
-# type: Content of: <p>
 msgid ""
 "One part of this collection is free&mdash;the Ghostscript fonts that are "
 "covered by the GNU GPL.  All the rest does not even come close."
@@ -247,14 +226,12 @@ msgstr ""
 "Une partie de cette collection est libre (les polices de Ghostscript sont "
 "couvertes par la GNU GPL), tout le reste ne s'en approche même pas."
 
-# type: Content of: <p>
 msgid ""
 "Aside from those fatal flaws, the license has other obnoxious provisions:"
 msgstr ""
 "En dehors de ces défauts sévères, la licence a d'autres dispositions "
 "infectes&nbsp;:"
 
-# type: Content of: <p>
 msgid ""
 "<strong> &hellip;As such, if You or any Contributor include Licensed "
 "Software in a commercial offering (&ldquo;Commercial Contributor&rdquo;), "
@@ -268,11 +245,9 @@ msgstr ""
 "d'indemniser le contributeur originel et tous les autres contributeurs "
 "(«&nbsp;contributeurs indemnisés&nbsp;» collectivement)</strong>"
 
-# type: Content of: <p>
 msgid "Requiring indemnities from users is quite obnoxious."
 msgstr "Imposer des indemnités de la part d'utilisateurs est très regrettable."
 
-# type: Content of: <p>
 msgid ""
 "<strong> Contributors shall have unrestricted, nonexclusive, worldwide, "
 "perpetual, royalty-free rights, to use, reproduce, modify, display, perform, "
@@ -286,7 +261,6 @@ msgstr ""
 "modifications et d'en autoriser autant à des tiers, y compris sans limite en "
 "tant que partie ou en accompagnement aulogiciel sous licence&nbsp;;</strong>"
 
-# type: Content of: <p>
 msgid ""
 "This is a variant of the <a href=\"/licenses/license-list."
 "html#SoftwareLicenses\">NPL</a> asymmetry: you get limited rights to use "
@@ -301,12 +275,10 @@ msgstr ""
 "licence de logiciel libre (si les autres problèmes étaient corrigés), c'est "
 "néanmoins regrettable."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -321,7 +293,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -331,7 +302,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 2000 Richard Stallman <br /> Verbatim copying and "
 "distribution of this entire article is permitted in any medium without "
@@ -341,18 +311,15 @@ msgstr ""
 "distribution intégrale de cet article est permise sur n'importe quel support "
 "d'archivage, pourvu que cette notice soit préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Wolfgang Sourdeau<br />Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

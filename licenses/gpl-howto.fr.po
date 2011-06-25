@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid ""
 "How to use GNU licenses for your own software - GNU Project - Free Software "
@@ -25,12 +24,10 @@ msgstr ""
 "Comment utiliser les licences GNU pour vos logiciels&nbsp;? - GNU Project - "
 "Free Software Foundation (FSF)"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "How to use GNU licenses for your own software"
 msgstr "Comment utiliser les licences GNU pour vos logiciels&nbsp;?"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "This is a brief explanation of how to place a program under the <a href=\"/"
@@ -49,7 +46,6 @@ msgstr ""
 "documentation libre GNU (GNU Free Documentation License)</a>, nous avons une "
 "<a href=\"/licenses/fdl-howto.fr.html\">page séparée</a>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you are looking for more detailed information, consider perusing our list "
@@ -60,7 +56,6 @@ msgstr ""
 "liste <a href=\"/licenses/gpl-faq.fr.html\">questions fréquentes concernant "
 "la Licence Publique Générale de GNU</a>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you are considering using the GNU Lesser General Public License, please "
@@ -75,7 +70,6 @@ msgstr ""
 "bibliothèque»</a>. Cet article explique pourquoi il serait peut-être mieux "
 "d'utiliser plutôt la GPL ordinaire et sur quoi repose cette décision."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Whichever license you plan to use, the process involves adding two elements "
@@ -90,7 +84,6 @@ msgstr ""
 "les droits de copie précisant que le programme est distribué      sous les "
 "termes de la Licence Publique Générale GNU (ou la GPL amoindrie)."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The copyright notice should include the year in which you finished preparing "
@@ -118,7 +111,6 @@ msgid ""
 "documentation about this usage."
 msgstr ""
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Always use the English word &ldquo;Copyright&rdquo;; by international "
@@ -135,7 +127,6 @@ msgstr ""
 "nécessaire. Il n'y a aucune signification légale dans l'utilisation de la "
 "séquence de trois caractères «(C)», bien que cela ne gêne pas."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "You should also include a copy of the license itself somewhere in the "
@@ -150,7 +141,6 @@ msgstr ""
 "version texte de la GPL</a>. Dans les programmes GNU, la licence se trouve "
 "habituellement dans un fichier intitulé COPYING."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you are releasing your program under the LGPL, you should also include <a "
@@ -167,7 +157,6 @@ msgstr ""
 "d'inclure les deux licences de sorte que les utilisateurs aient toutes les "
 "informations nécessaires pour comprendre leurs droits."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you are releasing your program under the GNU AGPL, you only need to "
@@ -181,7 +170,6 @@ msgstr ""
 "utiliser la version anglaise. Cela ne devrait pas poser de problème quant à "
 "sa validité. Dans le doute, consulter un avocat."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you have copied code from other programs covered by the same license, "
@@ -192,7 +180,6 @@ msgstr ""
 "copiez aussi leur notice de copyright. Rassemblez toutes les notices de "
 "copyright au début de chaque fichier."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "It is very important for practical reasons to include contact information "
@@ -204,7 +191,6 @@ msgstr ""
 "probablement de les écrire dans le fichier README. Mais cela n'a rien à voir "
 "avec les questions légales entourant la mise sous licence."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The copying permission statement should come right after the copyright "
@@ -215,7 +201,6 @@ msgstr ""
 "notices de copyright. Pour un programme ne comprenant qu'un seul fichier la "
 "déclaration devrait ressembler (pour la GPL) à&nbsp;:"
 
-# type: Content of: <pre>
 #. type: Content of: <pre>
 #, fuzzy, no-wrap
 #| msgid ""
@@ -260,7 +245,6 @@ msgstr ""
 "    You should have received a copy of the GNU General Public License\n"
 "    along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.\n"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "For programs that are more than one file, it is better to replace &ldquo;"
@@ -272,7 +256,6 @@ msgstr ""
 "déclaration par une ligne indiquant «&nbsp;This file is part of NAME&nbsp;». "
 "Par exemple&nbsp;:"
 
-# type: Content of: <pre>
 #. type: Content of: <pre>
 #, fuzzy, no-wrap
 #| msgid ""
@@ -323,7 +306,6 @@ msgstr ""
 "    You should have received a copy of the GNU General Public License\n"
 "    along with Foobar.  If not, see &lt;http://www.gnu.org/licenses/&gt;.\n"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "This statement should go near the beginning of every source file, close to "
@@ -338,7 +320,6 @@ msgstr ""
 "endroits. Pour utiliser la GNU AGPL, insérez le mot «&nbsp;Affero&nbsp;» "
 "avant «&nbsp;General&nbsp;» aux <em>trois</em> endroits."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "For interactive programs, it is usually a good idea to make the program "
@@ -351,7 +332,6 @@ msgstr ""
 "démarre. Consulter <a href=\"/licenses/gpl-3.0.html#howto\">la fin de la "
 "GPL</a> pour plus d'informations à ce sujet."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If you are releasing your program under the GNU AGPL, and it can interact "
@@ -370,7 +350,6 @@ msgstr ""
 "suffisamment flexible pour que vous choisissiez une méthode qui convienne à "
 "votre programme spécifique (consulter la section 13 pour des détails)."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "There is no legal requirement to register your copyright with anyone; simply "
@@ -387,7 +366,6 @@ msgstr ""
 "licence aux États-Unis. La plupart des autres pays n'ont pas de système "
 "d'enregistrement de copyright."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "It's wise to ask your employer or school, if any, to sign a copyright "
@@ -401,7 +379,6 @@ msgstr ""
 "d'auteur&nbsp;; remplacez seulement les noms et la description du "
 "programme&nbsp;:"
 
-# type: Content of: <blockquote><p>
 #. type: Content of: <blockquote><p>
 msgid ""
 "Yoyodyne, Inc., hereby disclaims all copyright interest in the program "
@@ -415,7 +392,6 @@ msgstr ""
 "Gnomovision&nbsp;» (qui fait des passages aux compilateurs) écrit par James "
 "Hacker."
 
-# type: Content of: <blockquote><p>
 #. type: Content of: <blockquote><p>
 #, fuzzy
 #| msgid ""
@@ -431,7 +407,6 @@ msgstr ""
 msgid "Moe Ghoul, President of Vice"
 msgstr ""
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "We would like to list all free software programs in the Free Software "
@@ -445,7 +420,6 @@ msgstr ""
 "href=\"http://directory.fsf.org/\">page Web du répertoire</a> pour des "
 "informations et un formulaire de soumission en ligne."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "It is also possible to make your program a GNU package, a part of the GNU "
@@ -461,7 +435,6 @@ msgstr ""
 "consulter notre <a href=\"/help/evaluation.html\">page d'évaluation des "
 "logiciels GNU</a> pour plus d'informations et un court questionnaire."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "But you are welcome to use any of our licenses even if your program is not a "
@@ -476,13 +449,11 @@ msgstr ""
 "particulière, vous pouvez utiliser <a href=\"/graphics/license-logos.fr.html"
 "\" title=\"Logos des licences\">un de nos logos</a>."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -503,7 +474,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -523,7 +493,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -534,17 +503,14 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 2001, 2007, 2008, 2009 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 2001, 2007, 2008, 2009 Free Software Foundation, Inc."
 
-# type: Content of: <div><address>
 #. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
@@ -554,7 +520,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -562,18 +527,15 @@ msgstr ""
 "Traduction&nbsp;: Wolfgang Sourdeau.<br />Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traduction de cette page"
 
-# type: Content of: <p>
 #~ msgid ""
 #~ "For software with several releases over multiple years, it is best to "
 #~ "spell out each year, in full, without using ranges or abbreviations, as "

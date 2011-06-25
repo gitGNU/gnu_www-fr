@@ -15,17 +15,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid "GNU/Linux Distros - GNU Operating System"
 msgstr "Distributions GNU/Linux - Le système d'exploitation GNU"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "GNU/Linux Distros"
 msgstr "Distributions GNU/Linux"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Free GNU/Linux system distributions (or &ldquo;distros&rdquo;) only include "
@@ -41,12 +38,10 @@ msgstr ""
 "tout autre logiciel ou documentation non-libre. Si par erreur elles en "
 "incluent, elles le retirent dès qu'elles s'en rendent compte."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "Free GNU/Linux Distros"
 msgstr "Distributions GNU/Linux libres"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -72,7 +67,6 @@ msgid ""
 "<a href=\"/distros/free-distros.html\"> Free GNU/Linux distributions</a>."
 msgstr ""
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -92,12 +86,10 @@ msgstr ""
 "rejoindre le développement d'une distribution libre existante plutôt que "
 "démarrer une nouvelle distribution."
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "Free Distro Guidelines"
 msgstr "Recommandations pour une distribution libre"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -114,7 +106,6 @@ msgstr ""
 "distribution-guidelines.fr.html\">Recommandations pour la distribution de "
 "systèmes libres</a>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -131,12 +122,10 @@ msgstr ""
 "distribution-guidelines.fr.html\">Recommandations pour la distribution de "
 "systèmes libres</a>"
 
-# type: Content of: <h3>
 #. type: Content of: <h3>
 msgid "Common Distros"
 msgstr "Distributions courantes"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 #, fuzzy
 #| msgid ""
@@ -159,7 +148,6 @@ msgid ""
 "known GNU/Linux distros</a>."
 msgstr ""
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "We appeal to the developers of these distros to remove the non-free parts "
@@ -168,13 +156,11 @@ msgstr ""
 "Nous appelons les développeurs de ces distributions à supprimer les parties "
 "non-libres et de les rendre par conséquent totalement libres."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -194,7 +180,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions sur cette page Web à <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -213,7 +198,6 @@ msgstr ""
 "liens orphelins ou d'autres suggestions sur cette page Web à <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -224,14 +208,12 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid "Copyright &copy; 2009 Free Software Foundation, Inc."
 msgid "Copyright &copy; 2010 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2009 Free Software Foundation, Inc."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article are permitted "
@@ -242,7 +224,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -250,13 +231,11 @@ msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

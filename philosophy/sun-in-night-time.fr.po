@@ -15,11 +15,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <h2>
 msgid "The Curious Incident of Sun in the Night-Time"
 msgstr "Le curieux non-événement de Sun dans la pénombre"
 
-# type: Content of: <p>
 msgid ""
 "<i>We leave this web page in place for the sake of history, but as of "
 "December 2006, Sun is in the middle of <a href=\"http://www.fsf.org/news/fsf-"
@@ -33,7 +31,6 @@ msgstr ""
 "a>. Quand ce changement sera terminé, la plateforme Java de Sun sera un "
 "logiciel libre.</i>"
 
-# type: Content of: <p>
 msgid ""
 "by <a href=\"http://www.stallman.org/\">Richard M. Stallman</a><br /> May "
 "24, 2006."
@@ -41,7 +38,6 @@ msgstr ""
 "par <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></"
 "a><br />le 24 mai 2006."
 
-# type: Content of: <p>
 msgid ""
 "Our community has been abuzz with the rumor that Sun has made its "
 "implementation Java free software (or &ldquo;open source&rdquo;).  Community "
@@ -54,7 +50,6 @@ msgstr ""
 "représente la nouvelle contribution de Sun pour la communauté du logiciel "
 "libre et open source&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "Nothing.  Absolutely nothing&mdash;and that's what makes the response to "
 "this non-incident so curious."
@@ -62,7 +57,6 @@ msgstr ""
 "Rien. Absolument rien &mdash; et c'est ce qui rend la réponse à ce non-"
 "événement si curieux."
 
-# type: Content of: <p>
 msgid ""
 "Sun's Java implementation remains proprietary software, just as before.  It "
 "doesn't come close to meeting the criteria for <a href=\"/philosophy/free-sw."
@@ -76,7 +70,6 @@ msgstr ""
 "open source. Son code est uniquement disponible avec accord de non-"
 "divulgation."
 
-# type: Content of: <p>
 msgid ""
 "So what did Sun actually do? It allowed more convenient redistribution of "
 "the binaries of its Java platform.  With this change, GNU/Linux distros can "
@@ -89,7 +82,6 @@ msgstr ""
 "non-libre de Sun, tout comme certaines fournissent actuellement le pilote "
 "non-libre de nVidia. Mais elles ne le font qu'au prix d'être non-libres."
 
-# type: Content of: <p>
 msgid ""
 "The Sun license has one restriction that may ironically reduce the tendency "
 "for users to accept non-free software without thinking twice: it insists "
@@ -108,7 +100,6 @@ msgstr ""
 "sans avertir les utilisateurs qu'ils ont un logiciel non-libre, tout comme "
 "certains systèmes GNU/Linux installent silencieusement le pilote nVidia."
 
-# type: Content of: <p>
 msgid ""
 "If you look closely at Sun's announcement, you will see that it accurately "
 "represents these facts. It does not say that Sun's Java platform is free "
@@ -124,7 +115,6 @@ msgstr ""
 "open source majeures&nbsp;». C'est-à-dire disponible en tant que logiciel "
 "propriétaire en des termes qui dénient votre liberté."
 
-# type: Content of: <p>
 msgid ""
 "Why did this non-incident generate a large and confused reaction? Perhaps "
 "because people do not read these announcements carefully.  Ever since the "
@@ -143,7 +133,6 @@ msgstr ""
 "elles le désirent). Le lecteur distrait peut remarquer les deux termes à "
 "proximité et supposer à tort que l'un qualifie l'autre."
 
-# type: Content of: <p>
 msgid ""
 "Some believe that this non-incident represents Sun's exploratory steps "
 "towards eventually releasing its Java platform as free software.  Let's hope "
@@ -160,7 +149,6 @@ msgstr ""
 "trap.fr.html\">Piège Java</a> demeure pour le travail des développeurs qui "
 "ne prennent pas de précautions pour l'éviter."
 
-# type: Content of: <p>
 msgid ""
 "We in the GNU Project continue developing the <a href=\"http://gcc.gnu.org/"
 "java/\">GNU Compiler for Java and GNU Classpath</a>; we made great progress "
@@ -175,12 +163,10 @@ msgstr ""
 "vous voulez exécuter Java et avoir la liberté, veuillez nous rejoindre et "
 "nous aider."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -195,7 +181,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -205,7 +190,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 2006 Richard M. Stallman <br /> Verbatim copying and "
 "distribution of this entire article is permitted in any medium without "
@@ -215,18 +199,15 @@ msgstr ""
 "distribution intégrale de cet article est permise sur n'importe quel support "
 "d'archivage, pourvu que cette notice soit préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

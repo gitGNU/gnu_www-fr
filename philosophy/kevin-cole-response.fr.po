@@ -16,11 +16,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <h2>
 msgid "A Response Letter to the Word Attachments"
 msgstr "Une lettre de réponse aux pièces jointes Word"
 
-# type: Attribute 'content' of: <meta>
 msgid ""
 "GNU, FSF, Free Software Foundation, Linux, general, public, license, gpl, "
 "general public license, freedom, software, power, rights, word, attachment, "
@@ -30,11 +28,9 @@ msgstr ""
 "licence générale publique, liberté, logiciel, pouvoir, droits, pièces "
 "jointes, word,microsoft"
 
-# type: Content of: <p>
 msgid "This is an automatic message:"
 msgstr "Ceci est un message automatique&nbsp;:"
 
-# type: Content of: <p>
 msgid ""
 "The document you have sent is not an Internet mail format.  It is a "
 "proprietary format that is unreadable on several types of computers, "
@@ -59,7 +55,6 @@ msgstr ""
 "Microsoft Word sont souvent infectés par des virus. Les fichiers Excel, "
 "Access et Power Point sont également vulnérables à ces infections."
 
-# type: Content of: <p>
 msgid ""
 "Please &ldquo;Save As&rdquo; DOS Text, HTML or Portable Document Format "
 "(PDF) and send the resulting file as an attachment.  Another option is to "
@@ -72,7 +67,6 @@ msgstr ""
 "directement dans le mail (sans utiliser Microsoft Outlook ou Microsoft Word) "
 "à ce moment, vous n'aurez pas besoin du tout d'utiliser de pièce jointe."
 
-# type: Content of: <p>
 msgid ""
 "In the highly unlikely event that your document cannot be converted to an "
 "open, non-proprietary format, consider posting it on a web page, and sending "
@@ -82,11 +76,9 @@ msgstr ""
 "dans un format ouvert, non propriétaire, envisagez de le poster sur une page "
 "web, et envoyez un courriel contenant l'URL pointant vers ce fichier."
 
-# type: Content of: <p>
 msgid "Thank you."
 msgstr "Merci."
 
-# type: Content of: <p>
 msgid ""
 "(Microsoft is a criminal company that has been found guilty of antitrust "
 "violations by both the U.S. District Court and the U.S. Court of Appeals.)"
@@ -95,12 +87,10 @@ msgstr ""
 "violation des lois antitrust à la fois par un Tribunal d'instance américain "
 "et la Cour d'appel américaine)."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -115,7 +105,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -125,18 +114,15 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Jérôme Dominguez.<br />Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

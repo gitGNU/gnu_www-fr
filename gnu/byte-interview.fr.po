@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 msgid ""
 "BYTE Interview with Richard Stallman - GNU Project - Free Software "
 "Foundation (FSF)"
@@ -24,15 +23,12 @@ msgstr ""
 "Entretien de BYTE avec Richard Stallman - GNU Project - Free Software "
 "Foundation (FSF)"
 
-# type: Content of: <h2>
 msgid "BYTE Interview with Richard Stallman"
 msgstr "Entretien de BYTE avec Richard Stallman"
 
-# type: Content of: <p>
 msgid "Conducted by David Betz and Jon Edwards"
 msgstr "Entretien dirigé par David Betz and Jon Edwards"
 
-# type: Content of: <h3>
 msgid ""
 "Richard Stallman discusses his public-domain Unix-compatible software system "
 "with BYTE editors (July 1986)"
@@ -40,7 +36,6 @@ msgstr ""
 "Richard Stallman s'entretient avec les Rédacteurs en chef de BYTE de son "
 "système compatible Unix qui est dans le domaine public. (juillet 1986)"
 
-# type: Content of: <p>
 msgid ""
 "Richard Stallman has undertaken probably the most ambitious free software "
 "development project to date, the GNU system.  In his GNU Manifesto, "
@@ -61,7 +56,6 @@ msgstr ""
 "&nbsp;» (GNU est un acronyme de GNU's Not Unix ; le «&nbsp;G&nbsp;» se "
 "prononce)."
 
-# type: Content of: <p>
 msgid ""
 "Stallman is widely known as the author of EMACS, a powerful text editor that "
 "he developed at the <abbr title=\"Massachusetts Institute of Technology"
@@ -77,7 +71,6 @@ msgstr ""
 "EMACS s'est déjà fait la réputation d'une des meilleures mises en &oelig;"
 "uvre d'EMACS actuellement disponible quel que soit le prix."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: We read your GNU Manifesto in the March 1985 issue of "
 "Dr. Dobb's.  What has happened since? Was that really the beginning, and how "
@@ -87,7 +80,6 @@ msgstr ""
 "dans une édition du Dr. Dobb's. Que s'est-il passé depuis&nbsp;? Est-ce que "
 "c'était vraiment le tout début et comment avez-vous progressé depuis&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: The publication in Dr. Dobb's wasn't the "
 "beginning of the project.  I wrote the GNU Manifesto when I was getting "
@@ -122,7 +114,6 @@ msgstr ""
 "aussi un historique de toutes les variables que vous avez listées, ce qui "
 "rend terriblement plus facile le dépistage des structures de listes."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: You have finished an editor that is now widely "
 "distributed and you are about to finish the compiler."
@@ -130,16 +121,13 @@ msgstr ""
 "<strong>BYTE</strong>&nbsp;: Vous avez fini un éditeur qui est maintenant "
 "largement distribué et vous êtes sur le point de terminer le compilateur."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: I expect that it will be finished this October."
 msgstr "<strong>Stallman</strong>&nbsp;:j'espère le finir pour octobre. "
 
-# type: Content of: <p>
 msgid "<strong>BYTE</strong>: What about the kernel?"
 msgstr "<strong>BYTE</strong>&nbsp;: Qu'en est-il du noyau&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: I'm currently planning to start with the kernel "
 "that was written at <abbr>MIT</abbr> and was released to the public recently "
@@ -176,7 +164,6 @@ msgstr ""
 "caractéristique. J'ai une idée directrice pour le faire, la tester sera le "
 "moyen pour moi de voir si ça marche correctement."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: Do you have a brief description you can give us as to "
 "how GNU as a system will be superior to other systems? We know that one of "
@@ -191,7 +178,6 @@ msgstr ""
 "dont vous avez dit que vous dépasserez Unix et que vous produirez quelque "
 "chose de mieux."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: The C compiler will produce better code and run "
 "faster.  The debugger is better.  With each piece I may or may not find a "
@@ -228,7 +214,6 @@ msgstr ""
 "parce qu'il essaye de travailler avec trop de données et qu'il ne peut les "
 "garder toutes."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: And that isn't likely to be hit if you've got virtual "
 "memory.  You may just take forever to come up with the solution."
@@ -237,7 +222,6 @@ msgstr ""
 "avez de la mémoire virtuelle. Il suffit juste de patienter pour obtenir la "
 "solution."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: Actually these limits tend to hit in a time long "
 "before you take forever to come up with the solution."
@@ -245,7 +229,6 @@ msgstr ""
 "<strong>Stallman</strong>&nbsp;: En fait, ces limites tendent à être "
 "atteintes bien avant que vous ayez trouvé la solution."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: Can you say something about what types of machines "
 "and environments GNU EMACS in particular has been made to run under? It's "
@@ -256,7 +239,6 @@ msgstr ""
 "conçu&nbsp;? Il fonctionne maintenant sur des VAX ; est-ce qu'il a été "
 "adapté et de quelle façon, vers des ordinateurs personnels&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: I'm not sure what you mean by personal "
 "computers.  For example, is a Sun a personal computer? GNU EMACS requires at "
@@ -276,14 +258,12 @@ msgstr ""
 "relativement récente d'Unix, pourra faire fonctionner GNU EMACS, ce qui est "
 "le cas de la plupart d'entre elles."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: Has anyone tried to port it to Ataris or Macintoshes?"
 msgstr ""
 "<strong>BYTE</strong>&nbsp;: Personne n'a jamais tenté de le porter sur "
 "Atari ou Macintosh&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: The Atari 1040ST still doesn't have quite enough "
 "memory.  The next Atari machine, I expect, will run it.  I also think that "
@@ -313,7 +293,6 @@ msgstr ""
 "lenteur avec laquelle la plupart des gens se penche sur l'utilisation de la "
 "mémoire virtuelle me surprend ; je pense que c'est vraiment essentiel."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: I think people don't really view it as being "
 "necessary for single-user machines."
@@ -321,7 +300,6 @@ msgstr ""
 "<strong>BYTE</strong>&nbsp;: Je pense que les gens ne considèrent pas "
 "vraiment cela nécessaire pour une machine mono-utilisateur."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: They don't understand that single user doesn't "
 "mean single program.  Certainly for any Unix-like system it's important to "
@@ -339,7 +317,6 @@ msgstr ""
 "vous ne pourriez pas lancer correctement le reste du système GNU ou un "
 "système Unix."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: How much of LISP is present in GNU EMACS? It occurred "
 "to me that it may be useful to use that as a tool for learning LISP."
@@ -348,7 +325,6 @@ msgstr ""
 "me semble que ce serait utile de l'utiliser comme outil d'apprentissage du "
 "LISP."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: You can certainly do that.  GNU EMACS contains a "
 "complete, although not very powerful, LISP system.  It's powerful enough for "
@@ -363,7 +339,6 @@ msgstr ""
 "pourrait utiliser pour programmer un système, mais il a tout ce dont LISP a "
 "besoin."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: Do you have any predictions about when you would be "
 "likely to distribute a workable environment in which, if we put it on our "
@@ -376,7 +351,6 @@ msgstr ""
 "vraiment un travail correct, et cela sans utiliser autre chose que le code "
 "que vous distribuez&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: It's really hard to say.  That could happen in a "
 "year, but of course it could take longer.  It could also conceivably take "
@@ -401,12 +375,10 @@ msgstr ""
 "Une autre raison est que j'ai passé beaucoup, beaucoup de temps sur GNU "
 "EMACS. Au début, je ne pensais pas du tout avoir à le faire."
 
-# type: Content of: <p>
 msgid "<strong>BYTE</strong>: Tell us about your distribution scheme."
 msgstr ""
 "<strong>BYTE</strong>&nbsp;: Parlez-nous de votre schéma de distribution."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: I don't put software or manuals in the public "
 "domain, and the reason is that I want to make sure that all the users get "
@@ -429,13 +401,11 @@ msgstr ""
 "retiendront d'ajouter des perfectionnements, mais beaucoup d'autres feront "
 "les mêmes perfectionnements et ils le feront librement."
 
-# type: Content of: <p>
 msgid "<strong>BYTE</strong>: And how do you go about guaranteeing that?"
 msgstr ""
 "<strong>BYTE</strong>&nbsp;: Et comment allez-vous faire pour le "
 "garantir&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: I do this by copyrighting the programs and "
 "putting on a notice giving people explicit permission to copy the programs "
@@ -455,7 +425,6 @@ msgstr ""
 "donnez à quelqu'un d'autre, vous devez le faire sous les mêmes conditions "
 "que celles que j'utilise."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: Do you obtain any rights over the executable code "
 "derived from the C compiler?"
@@ -463,7 +432,6 @@ msgstr ""
 "<strong>BYTE</strong>&nbsp;: Percevez-vous des droits sur le code exécutable "
 "dérivé du compilateur C&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: The copyright law doesn't give me copyright on "
 "output from the compiler, so it doesn't give me a way to say anything about "
@@ -480,7 +448,6 @@ msgstr ""
 "utile de les arrêter de développer quelque chose avec ce compilateur, alors "
 "je ne vais pas le faire."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: Do your restrictions apply if people take pieces of "
 "your code to produce other things as well?"
@@ -489,7 +456,6 @@ msgstr ""
 "quelqu'un prend une partie de votre code pour en faire quelque chose "
 "d'autre&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: Yes, if they incorporate with changes any sizable "
 "piece.  If it were two lines of code, that's nothing; copyright doesn't "
@@ -515,7 +481,6 @@ msgstr ""
 "qu'une personne droite qui distribue un logiciel encourage les autres àle "
 "partager encore plus."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: In a sense you are enticing people into this mode of "
 "thinking by providing all of these interesting tools that they can use but "
@@ -525,7 +490,6 @@ msgstr ""
 "façon de penser en distribuant tous ces outils très intéressants qu'ils "
 "peuvent utiliser, mais seulement s'ils adhèrent à votre philosophie."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: Yes.  You could also see it as using the legal "
 "system that software hoarders have set up against them.  I'm using it to "
@@ -535,7 +499,6 @@ msgstr ""
 "l'utilisation du système légal que les thésauriseurs de logiciels ont érigé "
 "contre eux. Je l'utilise pour protéger le public contre eux."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: Given that manufacturers haven't wanted to fund the "
 "project, who do you think will use the GNU system when it is done?"
@@ -544,7 +507,6 @@ msgstr ""
 "voulu financer le projet, à votre avis qui utilisera le système GNU quand il "
 "sera terminé&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: I have no idea, but it is not an important "
 "question.  My purpose is to make it possible for people to reject the chains "
@@ -567,7 +529,6 @@ msgstr ""
 "alternatives que de ne pas utiliser d'ordinateur. Eh bien, à cette personne, "
 "je vais donner une alternative confortable."
 
-# type: Content of: <p>
 msgid ""
 "Other people may use the GNU system simply because it is technically "
 "superior.  For example, my C compiler is producing about as good a code as I "
@@ -592,7 +553,6 @@ msgstr ""
 "veux socialement meilleur. Le projet GNU est vraiment un projet social. Il "
 "utilise des aspects techniques pour opérer des changements dans la société."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: Then it is fairly important to you that people adopt "
 "GNU.  It is not just an academic exercise to produce this software to give "
@@ -604,7 +564,6 @@ msgstr ""
 "produire des logiciels qu'on cède ensuite aux gens. Vous espérez que cela "
 "changera la façon de faire dans l'industrie du logiciel."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: Yes.  Some people say no one will ever use it "
 "because it doesn't have some attractive corporate logo on it, and other "
@@ -621,7 +580,6 @@ msgstr ""
 "changer la laideur du milieu dans lequel je me trouve, alors c'est ce que "
 "j'ai à faire."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: Can you address the implications? You obviously feel "
 "that this is an important political and social statement."
@@ -630,7 +588,6 @@ msgstr ""
 "Manifestement, vous pensez qu'il s'agit là de bases importantes, "
 "politiquement et socialement."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<strong>Stallman</strong>: It is a change.  I'm trying to change the way "
@@ -717,7 +674,6 @@ msgstr ""
 "première. Qu'on ait le droit de la copier ne veut rien dire&nbsp;: c'est "
 "impossible."
 
-# type: Content of: <p>
 msgid ""
 "Books were printed only on printing presses until recently.  It was possible "
 "to make a copy yourself by hand, but it wasn't practical because it took so "
@@ -737,7 +693,6 @@ msgstr ""
 "pas vraiment ôté de liberté aux lecteurs. Il n'y avait rien qu'un acquéreur "
 "de livre puisse faire qui n'était interdit par le copyright."
 
-# type: Content of: <p>
 msgid ""
 "But this isn't true for computer programs.  It's also not true for tape "
 "cassettes.  It's partly false now for books, but it is still true that for "
@@ -782,7 +737,6 @@ msgstr ""
 "issu de quelque chose possédé par le public devrait être capable d'en faire "
 "la demande."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: But aren't pirates interested in getting copies of "
 "programs because they want to use those programs, not because they want to "
@@ -792,7 +746,6 @@ msgstr ""
 "de se procurer des copies de programmes pour les utiliser, par pour en "
 "utiliser la connaissance afin de générer quelque chose de meilleur."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: I don't see that that's the important "
 "distinction.  More people using a program means that the program contributes "
@@ -804,7 +757,6 @@ msgstr ""
 "que ce programme contribue plus à la société. Vous avez une baguette de pain "
 "qui peut se manger une fois ou un million."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: Some users buy commercial software to obtain "
 "support.  How does your distribution scheme provide support?"
@@ -813,7 +765,6 @@ msgstr ""
 "commercial à cause du support technique. Comment l'organisation de votre "
 "distribution prévoit-elle un tel support&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: I suspect that those users are misled and are not "
 "thinking clearly.  It is certainly useful to have support, but when they "
@@ -857,13 +808,11 @@ msgstr ""
 "contenant les noms et numéros de téléphone, ainsi que leur rôle, des "
 "personnes en charge du support."
 
-# type: Content of: <p>
 msgid "<strong>BYTE</strong>: Do you collect their bug fixes?"
 msgstr ""
 "<strong>BYTE</strong>&nbsp;: Rassemblez-vous leurs corrections de "
 "bogues&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: Well, they send them to me.  I asked all the "
 "people who wanted to be listed to promise that they would never ask any of "
@@ -876,7 +825,6 @@ msgstr ""
 "de garder le secret, quoi qu'ils aient entendu ou quelles que soient les "
 "modifications qu'on leur aurait donné sur un logiciel GNU."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: So you can't have people competing to provide support "
 "based on their knowing the solution to some problem that somebody else "
@@ -886,7 +834,6 @@ msgstr ""
 "soient en compétition pour fournir un support basé sur le fait qu'ils savent "
 "qu'ils ont la solution à un problème, alors que les autres non."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: No.  They can compete based on their being clever "
 "and more likely to find the solution to your problem, or their already "
@@ -900,7 +847,6 @@ msgstr ""
 "sachant mieux comment vous expliquer quoi faire. Ils peuvent tenter de faire "
 "mieux, mais ils ne peuvent pas entraver leurs concurrents."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: I suppose it's like buying a car.  You're not forced "
 "to go back to the original manufacturer for support or continued maintenance."
@@ -909,7 +855,6 @@ msgstr ""
 "Vous n'êtes pas obligé de vous adresser au constructeur d'origine pour "
 "assurer le support technique ou s'occuper de la maintenance."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: Or buying a house&mdash;what would it be like if "
 "the only person who could ever fix problems with your house was the "
@@ -929,7 +874,6 @@ msgstr ""
 "bogues, sauf dans les binaires. Le résultat, c'est que les bogues ne sont "
 "jamais vraiment corrigés."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: They're all duplicating effort trying to solve bugs "
 "independently."
@@ -937,7 +881,6 @@ msgstr ""
 "<strong>BYTE</strong>&nbsp;: Tous multiplient les efforts pour résoudre les "
 "bugs indépendamment."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: Yes.  Here is another point that helps put the "
 "problem of proprietary information in a social perspective.  Think about the "
@@ -978,14 +921,12 @@ msgstr ""
 "font tout le travail et ce monde qui est le nôtre, où tout le monde passe un "
 "temps fou à recopier ce que fait le voisin."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: Like typing in copyright notices on the software."
 msgstr ""
 "<strong>BYTE</strong>&nbsp;: Comme retranscrire des copyrights sur les "
 "logiciels."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: More like policing everyone to make sure that "
 "they don't have forbidden copies of anything and duplicating all the work "
@@ -995,13 +936,11 @@ msgstr ""
 "s'assurer qu'il n'a pas de copie interdite de quoi que ce soit et reproduire "
 "tout le travail que d'autres ont déjà fait, puisqu'il est propriétaire."
 
-# type: Content of: <p>
 msgid "<strong>BYTE</strong>: A cynic might wonder how you earn your living."
 msgstr ""
 "<strong>BYTE</strong>&nbsp;: Cyniquement, on peut se demander de quoi vous "
 "vivez."
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: From consulting.  When I do consulting, I always "
 "reserve the right to give away what I wrote for the consulting job.  Also, I "
@@ -1024,7 +963,6 @@ msgstr ""
 "je peux gagner ma vie en tant que consultant, je le ferai, car je pense que "
 "c'est la meilleure voie."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: What is currently included in the official GNU "
 "distribution tape?"
@@ -1032,7 +970,6 @@ msgstr ""
 "<strong>BYTE</strong>&nbsp;: Que contient la bande de la distribution "
 "officielle de GNU&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: Right now the tape contains GNU EMACS (one "
 "version fits all computers); Bison, a program that replaces <acronym title="
@@ -1046,13 +983,11 @@ msgstr ""
 "simplifié du LISP que l'on doit au professeur Sussman et Hack, un jeu "
 "d'exploration de donjon, semblable à Rogue."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: Does the printed manual come with the tape as well?"
 msgstr ""
 "<strong>BYTE</strong>&nbsp;: Cette bande est accompagnée d'un manuel&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: No.  Printed manuals cost $15 each or copy them "
 "yourself.  Copy this interview and share it, too."
@@ -1061,11 +996,9 @@ msgstr ""
 "15&nbsp;$ l'exemplaire ou alors copiez-les vous-même. Vous pouvez tout à "
 "fait copier cet entretien et le faire partager."
 
-# type: Content of: <p>
 msgid "<strong>BYTE</strong>: How can you get a copy of that?"
 msgstr "<strong>BYTE</strong>&nbsp;: Où s'en procurer une copie&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: Write to the Free Software Foundation, 675 "
 "Massachusetts Ave., Cambridge, MA 02139."
@@ -1073,7 +1006,6 @@ msgstr ""
 "<strong>Stallman</strong>&nbsp;: Écrivez à&nbsp;: Free Software Foundation, "
 "675 Massachusetts Ave., Cambridge, MA 02139."
 
-# type: Content of: <p>
 msgid ""
 "[The current address (since 2005) is: Free Software Foundation 51 Franklin "
 "St, Fifth Floor Boston, MA 02110-1301, USA Voice: +1-617-542-5942 Fax: +1-"
@@ -1083,7 +1015,6 @@ msgstr ""
 "Franklin St, Fifth Floor Boston, MA 02110-1301, USA Voice: +1-617-542-5942 "
 "Fax: +1-617-542-2652]"
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: What are you going to do when you are done with the "
 "GNU system?"
@@ -1091,7 +1022,6 @@ msgstr ""
 "<strong>BYTE</strong>&nbsp;: Quels sont vos projets, une fois que vous en "
 "aurez terminé avec le système GNU&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: I'm not sure.  Sometimes I think that what I'll "
 "go on to do is the same thing in other areas of software."
@@ -1100,7 +1030,6 @@ msgstr ""
 "ce que je ferai sera ce que je fais déjà, mais dans d'autres domaines "
 "logiciels."
 
-# type: Content of: <p>
 msgid ""
 "<strong>BYTE</strong>: So this is just the first of a whole series of "
 "assaults on the software industry?"
@@ -1108,7 +1037,6 @@ msgstr ""
 "<strong>BYTE</strong>&nbsp;: Il ne s'agirait donc que du début d'une série "
 "d'attaques contre l'industrie logicielle&nbsp;?"
 
-# type: Content of: <p>
 msgid ""
 "<strong>Stallman</strong>: I hope so.  But perhaps what I'll do is just live "
 "a life of ease working a little bit of the time just to live.  I don't have "
@@ -1121,12 +1049,10 @@ msgstr ""
 "gens intéressants avec qui flâner ou apprendre à faire des choses que je ne "
 "sais pas faire."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -1141,7 +1067,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -1151,17 +1076,14 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 1999, 2000, 2001, 2002, 2007 Free Software Foundation, Inc.,"
 msgstr ""
 "Copyright &copy; 1999, 2000, 2001, 2002, 2007 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
-# type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium without royalty provided this notice is preserved."
@@ -1170,18 +1092,15 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Pierre-Yves Enderlin.<br /> Révision&nbsp;: <a href="
 "\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

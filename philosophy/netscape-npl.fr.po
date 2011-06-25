@@ -16,24 +16,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid "Netscape Public License - GNU Project - Free Software Foundation (FSF)"
 msgstr "Netscape Public License - GNU Project - Free Software Foundation (FSF)"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "On the Netscape Public License"
 msgstr "À propos de la Netscape Public License (Licence publique de Netscape)"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "by <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
 msgstr ""
 "par <a href=\"http://www.stallman.org\"><strong>Richard Stallman</strong></a>"
 
-# type: Content of: <div><blockquote><p>
 #. type: Content of: <div><blockquote><p>
 #, fuzzy
 #| msgid ""
@@ -52,7 +48,6 @@ msgstr ""
 "Notre premier article sur ce sujet était <a href=\"/philosophy/netscape.fr."
 "html\">Netscape envisage la libération du navigateur Netscape</a>]"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The Netscape Public License, or NPL, as it was ultimately designed in 1998, "
@@ -72,12 +67,10 @@ msgstr ""
 "Public License. À cause de ces défauts, nous vous pressons de ne pas "
 "utiliser la NPL ou la MPL pour votre logiciel libre."
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "1. Not all users are equal"
 msgstr "1. Tous les utilisateurs ne sont pas égaux"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The first problem I noticed in the NPL was that it does not give Netscape "
@@ -93,7 +86,6 @@ msgstr ""
 "modifications de n'importe quelle manière &mdash; même dans des versions "
 "propriétaires du logiciel."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The problem here is subtle, because this does not make the program non-"
@@ -106,7 +98,6 @@ msgstr ""
 "modifier; cela ne nous retire aucune liberté particulière. D'un point de vue "
 "purement pratique, cela pourrait ne pas ressembler du tout à un problème."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The problem lies in the deeper message embodied in this condition.  It "
@@ -122,7 +113,6 @@ msgstr ""
 "seront certainement affectés, et le changement ne renforcera pas notre "
 "communauté."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "One proposed solution for this asymmetry is to put a time limit on it&mdash;"
@@ -134,7 +124,6 @@ msgstr ""
 "parce que la limite temporelle ruinerait la problématique du message sous-"
 "jacent."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The practical effects of this condition are minimized by another drawback of "
@@ -148,7 +137,6 @@ msgstr ""
 "garantir que les modifications faites par les utilisateurs soient "
 "disponibles en tant que logiciel libre."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The MPL (Mozilla Public License) does <em>not</em> have this problem.  That "
@@ -157,12 +145,10 @@ msgstr ""
 "La MPL (Mozilla Public License) n'a <em>pas</em> ce problème. C'est la "
 "principale différence entre la MPL et la NPL."
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "2. Not a copyleft"
 msgstr "2. Pas une gauche d'auteur"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The NPL has the form of a copyleft; it explicitly says that all "
@@ -185,7 +171,6 @@ msgstr ""
 "routines d'appel ajoutées aux anciens fichiers devront être fournies sous la "
 "NPL, et elles ne seront pas très utiles en elles-mêmes."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The lack of real copyleft is not a catastrophe; it does not make the "
@@ -211,7 +196,6 @@ msgstr ""
 "libre</a> sans gauche d'auteur, et cela ne suffit pas à faire de la NPL une "
 "licence pire que d'autres licences sans gauche d'auteur."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "However, while this is not catastrophic, it is nonetheless a drawback.  And "
@@ -229,12 +213,10 @@ msgstr ""
 "devons travailler dur à informer les gens à propos d'un problème qu'il n'est "
 "pas facile d'expliquer en peu de mots."
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "3. Not compatible with the GPL"
 msgstr "3. Pas compatible avec la GPL"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The most serious practical problem in the NPL is that it is incompatible "
@@ -249,7 +231,6 @@ msgstr ""
 "même en liant des fichiers objet ou des bibliothèques; quelle que soit la "
 "manière employée, cela viole une licence ou l'autre."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "This conflict occurs because the GPL is serious about copyleft: it was "
@@ -267,7 +248,6 @@ msgstr ""
 "interdit de lier le programme sous gauche d'auteur avec du code qui a "
 "d'autres restrictions ou conditions &mdash; comme la NPL."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Being incompatible with the GPL does not make a program non-free; it does "
@@ -282,7 +262,6 @@ msgstr ""
 "de code en deux collections qui ne peuvent être mélangées.  D'un point de "
 "vue pratique, ce problème est très important."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Solving this by changing the GPL is possible, but that would entail "
@@ -295,12 +274,10 @@ msgstr ""
 "est également possible de résoudre ce problème par une petite modification "
 "de la NPL. (Voir ci-dessous pour les détails spécifiques)."
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "4. A note about names"
 msgstr "4. Note au sujet des noms"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "NPL stands for Netscape Public License, but GPL does not stand for GNU "
@@ -313,18 +290,15 @@ msgstr ""
 "(Licence publique Générale GNU), abrégé en GNU GPL. Parfois des gens mettent "
 "de côté le mot «GNU» et écrivent juste GPL."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid "(This is not a problem, just a fact that you should know.)"
 msgstr ""
 "(Ce n'est pas un problème, seulement un fait que vous devriez connaître)."
 
-# type: Content of: <h4>
 #. type: Content of: <h4>
 msgid "Conclusion"
 msgstr "Conclusion"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Since problem 3 is the most serious, I hope that people will politely and "
@@ -336,7 +310,6 @@ msgstr ""
 "une solution. Des solutions sont disponibles; les mettre en œuvre est de "
 "leur ressort."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Here is a possible way to permit linking NPL-covered code and GPL-covered "
@@ -346,7 +319,6 @@ msgstr ""
 "du code sous NPL et du code sous GPL. Cela peut être fait en ajoutant ces "
 "deux paragraphes à la NPL&nbsp;:"
 
-# type: Content of: <pre>
 #. type: Content of: <pre>
 #, fuzzy, no-wrap
 #| msgid ""
@@ -393,7 +365,6 @@ msgstr ""
 "     distribution sont cette version ou ce choix de versions de la\n"
 "     Licence publique générale GNU.)\n"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "This allows people to combine NPL-covered code with GPL-covered code, and to "
@@ -403,7 +374,6 @@ msgstr ""
 "couvert par la GPL, et de distribuer le travail combiné sous les termes de "
 "la GNU GPL."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "It permits people to release modifications to such combined works under the "
@@ -414,7 +384,6 @@ msgstr ""
 "sous les termes de la GNU GPL &mdash; mais le chemin le plus court est de "
 "les fournir sous la NPL."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "When people take advantage of A.2, their changes will be released only under "
@@ -428,7 +397,6 @@ msgstr ""
 "des versions propriétaires. Il est raisonnable de croire que Netscape voie "
 "ceci comme une infortune."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "However, the NPL gives proprietary software developers an easy way to make "
@@ -442,7 +410,6 @@ msgstr ""
 "un Travail Original. En fait, c'est plus facile, pour eux, que la section "
 "A.2 pour les utilisateurs de la GPL."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If Netscape feels it can live with the trouble of (effectively)  proprietary "
@@ -464,13 +431,11 @@ msgstr ""
 "afin d'éviter de placer les développeurs de logiciel libre devant un sérieux "
 "dilemme."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -491,7 +456,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -511,7 +475,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -522,17 +485,14 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 1998, 2003, 2007, Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 1998, 2003, 2007, Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
 #. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
@@ -542,7 +502,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -550,13 +509,11 @@ msgstr ""
 "Traduction&nbsp;: Aurélien Campéas.<br />Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

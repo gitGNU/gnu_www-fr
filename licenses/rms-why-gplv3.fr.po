@@ -16,21 +16,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 msgid "Why Upgrade to GPLv3 - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "Pourquoi mettre à jour vers la GPLv3 - GNU Project - Free Software "
 "Foundation (FSF)"
 
-# type: Content of: <h2>
 msgid "Why Upgrade to GPLv3"
 msgstr "Pourquoi mettre à jour vers la GPLv3"
 
-# type: Content of: <p>
 msgid "by <strong>Richard Stallman</strong>"
 msgstr "par <strong>Richard Stallman</strong>"
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<a href=\"/licenses/gpl.html\">Version 3 of the GNU General Public "
@@ -48,7 +44,6 @@ msgstr ""
 "sous la version 2 de la GPL. Cet article explique pourquoi une mise à jour "
 "de la licence est importante."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "First of all, it is important to note that upgrading is a choice.  GPL "
@@ -67,7 +62,6 @@ msgstr ""
 "GPLv3. Ces deux licences sont incompatibles mais cela n'est pas un sérieux "
 "problème."
 
-# type: Content of: <p>
 msgid ""
 "When we say that GPLv2 and GPLv3 are incompatible, it means there is no "
 "legal way to combine code under GPLv2 with code under GPLv3 in a single "
@@ -87,7 +81,6 @@ msgstr ""
 "ajouter une clause de compatibilité avec la GPLv2 dans la GPLv3, mais cela "
 "n'aurait pas convenu, car la GPLv2 aurait eu besoin d'une clause similaire."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Fortunately, license incompatibility only matters when you want to link, "
@@ -118,7 +111,6 @@ msgstr ""
 "Ainsi, si Bash et GCC évoluent vers la GPLv3, tandis que Linux reste sous la "
 "GPLv2, il n'y pas de conflit."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Keeping a program under GPLv2 won't create problems.  The reason to "
@@ -130,7 +122,6 @@ msgstr ""
 "Garder un logiciel sous GPLv2 ne créera pas de problème. La raison de migrer "
 "est le fait de problèmes existants auxquels la GPLv3 va être confrontée."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "One major danger that GPLv3 will block is tivoization.  Tivoization means "
@@ -160,7 +151,6 @@ msgstr ""
 "ordinateurs profitent de la liberté accordée par les logiciels libres, mais "
 "ne vous laissent pas en faire autant."
 
-# type: Content of: <p>
 msgid ""
 "Some argue that competition between appliances in a free market should "
 "suffice to keep nasty features to a low level.  Perhaps competition alone "
@@ -179,7 +169,6 @@ msgstr ""
 "seulement que vous puissiez supplier ou menacer quiconque décide à votre "
 "place."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "In the crucial area of Digital Restrictions Management&mdash;nasty "
@@ -219,7 +208,6 @@ msgstr ""
 "sans DRM car ils n'existent pas. Peu importe le nombre de produits, ils ont "
 "tous l'équivalent de menottes numériques."
 
-# type: Content of: <p>
 msgid ""
 "GPLv3 ensures you are free to remove the handcuffs.  It doesn't forbid DRM, "
 "or any kind of feature.  It places no limits on the substantive "
@@ -236,7 +224,6 @@ msgstr ""
 "façon dont ils vous refusent cette liberté. Afin de protéger votre liberté, "
 "la GPLv3 interdit la tivoïsation."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The ban on tivoization applies to any product whose use by consumers, "
@@ -254,7 +241,6 @@ msgstr ""
 "affaires et organisations (le dernier brouillon de la GPLv3 établit ce "
 "critère explicitement)."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Another threat that GPLv3 resists is that of patent deals like the Novell-"
@@ -275,7 +261,6 @@ msgstr ""
 "accord pour essayer d'avoir cela. L'accord offre aux clients de Novell une "
 "faible protection face aux brevets Microsoft."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Microsoft made a few mistakes in the Novell-Microsoft deal, and GPLv3 is "
@@ -293,7 +278,6 @@ msgstr ""
 "limitée à toute la communauté. Afin d'en profiter, les programmes doivent "
 "utiliser la GPLv3."
 
-# type: Content of: <p>
 msgid ""
 "Microsoft's lawyers are not stupid, and next time they may manage to avoid "
 "those mistakes.  GPLv3 therefore says they don't get a &ldquo;next "
@@ -307,7 +291,6 @@ msgstr ""
 "tentatives de collectes de royalties pour Microsoft par les redistributeurs "
 "auprès des utilisateurs."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "GPLv3 also provides for explicit patent protection of the users from the "
@@ -329,7 +312,6 @@ msgstr ""
 "brevets, que ce soit contre eux ou contre les personnes ayant reçue une "
 "copie de leur part."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The explicit patent license in GPLv3 does not go as far as we might have "
@@ -366,7 +348,6 @@ msgstr ""
 "d'idées, c'est donc sans surprise qu'ils en mettent en &oelig;uvre certaines "
 "couvertes par des centaines de brevets."
 
-# type: Content of: <p>
 msgid ""
 "The only way to make software development safe is to abolish software "
 "patents, and we aim to achieve this some day.  But we cannot do this through "
@@ -385,7 +366,6 @@ msgstr ""
 "développement de programmes face aux brevets. Si nous avions essayé de faire "
 "cela avec la GPLv3, nous aurions échoué."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Therefore, GPLv3 seeks to limit and channel the danger.  In particular, "
@@ -413,7 +393,6 @@ msgstr ""
 "vous inclut pas&nbsp;». Cela stoppe aussi les collusions avec d'autres "
 "détenteurs de brevets pour le faire."
 
-# type: Content of: <p>
 msgid ""
 "Further advantages of GPLv3 include better internationalization, gentler "
 "termination, support for BitTorrent, and compatibility with the Apache "
@@ -424,7 +403,6 @@ msgstr ""
 "la compatibilité avec la licence Apache. L'un dans l'autre, beaucoup de "
 "raisons à cette mise à jour."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Change is unlikely to cease once GPLv3 is released.  If new threats to "
@@ -443,7 +421,6 @@ msgstr ""
 "programmes n'auront pas de problèmes d'adaptation à la GPLv4 quand viendra "
 "le moment."
 
-# type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "One way to do this is to release a program under &ldquo;GPL version 3 or "
@@ -471,7 +448,6 @@ msgstr ""
 "façon ou d'une autre, les programmes devraient offrir cette flexibilité dans "
 "le futur."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
@@ -493,7 +469,6 @@ msgstr ""
 "immédiatement de manière parfaitement opérationnelle. Le plus fou, c'est que "
 "cette promesse est souvent tenue&nbsp;! </li></ol>"
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -508,7 +483,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -518,7 +492,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
 #| "Copyright &copy; 2007 Richard Stallman <br /> Verbatim copying and "
@@ -533,18 +506,15 @@ msgstr ""
 "distribution intégrale de cet article est permise sur n'importe quel support "
 "d'archivage, pourvu que cette notice soit préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Claude le Paih.<br />Révision&nbsp;: <a href=\"mailto:trad-"
 "gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

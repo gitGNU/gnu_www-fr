@@ -16,7 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
 #. type: Content of: <title>
 msgid ""
 "Why you shouldn't use the Lesser GPL for your next library - GNU Project - "
@@ -25,14 +24,12 @@ msgstr ""
 "Pourquoi vous ne devriez pas utiliser la LGPL pour votre prochaine "
 "bibliothèque - GNU Project - Free Software Foundation (FSF)"
 
-# type: Content of: <h2>
 #. type: Content of: <h2>
 msgid "Why you shouldn't use the Lesser GPL for your next library"
 msgstr ""
 "Pourquoi vous ne devriez pas utiliser la LGPL pour votre prochaine "
 "bibliothèque"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The GNU Project has two principal licenses to use for libraries.  One is the "
@@ -48,7 +45,6 @@ msgstr ""
 "propriétaires; utiliser la GPL ordinaire pour une bibliothèque la rend "
 "disponible uniquement pour les programmes libres."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Which license is best for a given library is a matter of strategy, and it "
@@ -64,7 +60,6 @@ msgstr ""
 "l'autre. Donc nous recherchons maintenant à diffuser plus de bibliothèques "
 "<strong>sous la GPL ordinaire</strong>."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Proprietary software developers have the advantage of money; free software "
@@ -80,7 +75,6 @@ msgstr ""
 "bibliothèque qu'ils peuvent utiliser alors que les développeurs "
 "propriétaires ne peuvent pas."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Using the ordinary GPL is not advantageous for every library.  There are "
@@ -98,7 +92,6 @@ msgstr ""
 "la bibliothèque ne peut donner au logiciel libre un quelconque avantage, "
 "donc il est mieux d'utiliser la Lesser GPL pour cette bibliothèque."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "This is why we used the Lesser GPL for the GNU C library.  After all, there "
@@ -111,7 +104,6 @@ msgstr ""
 "pour la nôtre aurait amené les développeurs de logiciels propriétaires à en "
 "utiliser une autre &mdash; c'est bon pour eux, pas pour nous."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "However, when a library provides a significant unique capability, like GNU "
@@ -131,7 +123,6 @@ msgstr ""
 "programme applicatif qui est libre aujourd'hui précisément car cela était "
 "nécessaire pour utiliser Readline."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "If we amass a collection of powerful GPL-covered libraries that have no "
@@ -153,7 +144,6 @@ msgstr ""
 "commencent à envisager de libérer le code, des projets commerciaux peuvent "
 "être également influencés."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Proprietary software developers, seeking to deny the free competition an "
@@ -174,7 +164,6 @@ msgstr ""
 "rationaliser l'idée que d'augmenter la popularité de cette bibliothèque est "
 "ce dont la communauté a besoin plus que tout."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "But we should not listen to these temptations, because we can achieve much "
@@ -194,13 +183,11 @@ msgstr ""
 "plus de popularité, car le logiciel libre dans son ensemble progressera "
 "mieux contre la compétition."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -221,7 +208,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
@@ -241,7 +227,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -252,17 +237,14 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 1999, 2007 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 1999, 2007 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
 #. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article are permitted "
@@ -273,7 +255,6 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
@@ -281,13 +262,11 @@ msgstr ""
 "Traduction&nbsp;: Michel Rodriguez.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

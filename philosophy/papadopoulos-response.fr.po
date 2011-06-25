@@ -16,11 +16,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <h2>
 msgid "A Response Letter to the Word Attachments"
 msgstr "Une lettre de réponse aux pièces jointes Word"
 
-# type: Attribute 'content' of: <meta>
 msgid ""
 "GNU, FSF, Free Software Foundation, Linux, general, public, license, gpl, "
 "general public license, freedom, software, power, rights, word, attachment, "
@@ -30,7 +28,6 @@ msgstr ""
 "general public license, liberté, logiciel, pouvoir, droits, word, pièce "
 "jointe, microsoft"
 
-# type: Attribute 'content' of: <meta>
 msgid ""
 "This essay explains why Microsoft Word attachments to email are bad, and "
 "describes what you can do to help stop this practice."
@@ -39,11 +36,9 @@ msgstr ""
 "courriels sont néfastes et décrit ce que vous pouvez faire pour aider à "
 "arrêter cette pratique."
 
-# type: Content of: <p>
 msgid "From: Alexandros Papadopoulos"
 msgstr "par Alexandros Papadopoulos"
 
-# type: Content of: <p>
 msgid ""
 "I'm sorry, but I was unable to read the Microsoft Word document you sent me. "
 "Microsoft has been steadily changing the .doc format over the releases of "
@@ -63,7 +58,6 @@ msgstr ""
 "Microsoft Word Viewer existe, mais elle ne tourne que sous le système "
 "d'exploitation Microsoft Windows et ne permet pas d'éditer le document."
 
-# type: Content of: <p>
 msgid ""
 "The development team that designed the software I choose to use (OpenOffice."
 "org), has tried hard to figure out how the .doc format is created and "
@@ -87,7 +81,6 @@ msgstr ""
 "Windows et Microsoft Office pourraient être capable de lire et écrire des "
 "documents .doc."
 
-# type: Content of: <p>
 msgid ""
 "Unfortunately, it seems that Microsoft is sometimes successful. My non-"
 "Microsoft application was unable to open the .doc document you sent me. As a "
@@ -98,7 +91,6 @@ msgstr ""
 "envoyé. En conséquence, nous ne pouvons pas échanger d'information, jusqu'à "
 "ce que l'une des choses suivantes se produise&nbsp;:"
 
-# type: Content of: <p>
 msgid ""
 "[0] The information intended to be read/processed by me is converted to an "
 "open format that people who don't use Microsoft Windows and Microsoft Office "
@@ -108,7 +100,6 @@ msgstr ""
 "format ouvert, format que les gens n'utilisant pas Microsoft Windows ou "
 "Microsoft Office sont capables de manipuler."
 
-# type: Content of: <p>
 msgid ""
 "[1] I purchase and install Microsoft Windows, Microsoft Word, and by "
 "deduction all other Microsoft applications necessary to do my work."
@@ -116,7 +107,6 @@ msgstr ""
 "[1] J'achète et installe Microsoft Windows, Microsoft Word, et par déduction "
 "toutes les autres applications Microsoft nécessaires pour faire mon boulot."
 
-# type: Content of: <p>
 msgid ""
 "Because it will be a cold day in hell before I do the latter, I would "
 "suggest we find a different way of exchanging information electronically."
@@ -125,11 +115,9 @@ msgstr ""
 "suggérerais que nous trouvions un autre moyen d'échanger de l'information "
 "par voie électronique."
 
-# type: Content of: <p>
 msgid "--A"
 msgstr "--A"
 
-# type: Content of: <p>
 msgid ""
 "PS: I hope you realize that I have nothing against you as a person. I just "
 "can't use the document you sent me, and I tried to explain why the implicit "
@@ -140,7 +128,6 @@ msgstr ""
 "vous m'avez envoyé, et j'ai essayé de vous expliquer que l'hypothèse "
 "implicite selon laquelle j'aurais pu le lire était une erreur."
 
-# type: Content of: <p>
 msgid ""
 "PPS: When I tried to open the document you sent to me, my word processor "
 "crashed, obviously unable to properly interpret the .doc format. My word "
@@ -160,7 +147,6 @@ msgstr ""
 "barrières que Microsoft a mis en place et d'afficher correctement le "
 "document. Je crois qu'ils sont les derniers à blâmer pour cet échec."
 
-# type: Content of: <p>
 msgid ""
 "PPPS: For further reasons why .doc should not be the format of choice when "
 "exchanging information electronically, I invite you to read <a href=\"/"
@@ -177,12 +163,10 @@ msgstr ""
 "faisons (vous en tant qu'expéditeur et moi en tant que destinataire) en "
 "échangeant des documents Microsoft Word."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -197,7 +181,6 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
-# type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -207,18 +190,15 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Christophe Chisogne.<br />Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
 msgid "Last updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
