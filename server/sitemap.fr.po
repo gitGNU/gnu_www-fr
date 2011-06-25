@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
-"POT-Creation-Date: 2011-01-19 12:29-0500\n"
-"PO-Revision-Date: 2011-06-12 15:43+0200\n"
+"POT-Creation-Date: 2011-06-24 12:29-0300\n"
+"PO-Revision-Date: 2011-06-25 17:04+0000\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,43 +16,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
+#. type: Content of: <title>
 msgid "Webserver Sitemap - GNU Project - Free Software Foundation (FSF)"
 msgstr "Plan du site - GNU Project - Free Software Foundation (FSF)"
 
-# type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "Webserver Sitemap"
 msgstr "Plan du site"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/\">Home</a>"
 msgstr "<a href=\"/home.fr.shtml\">Accueil</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/gnu/gnu.html\">About</a>"
 msgstr "<a href=\"/gnu/gnu.fr.html\">À propos de GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/software/software.html\">Free Software</a>"
 msgstr "<a href=\"/software/software.fr.html\">Logiciels libres</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/philosophy.html\">Philosophy</a>"
 msgstr "<a href=\"/philosophy/philosophy.fr.html\">Philosophie</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/licenses/licenses.html\">Licenses</a>"
 msgstr "<a href=\"/licenses/licenses.fr.html\">Licences</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/server/sitemap.html\">Sitemap</a>"
 msgstr "<a href=\"/server/sitemap.fr.html\">Plan du site</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/help/help.html\">Help Us</a>"
 msgstr "<a href=\"/help/help.fr.html\">Aider GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://www.fsf.org/campaigns/priority.html\" style=\"font-weight: "
 "bold;\" title=\"Help or suggest a priority project for the Free Software "
@@ -62,7 +62,7 @@ msgstr ""
 "bold;\" title=\"Aider ou suggérer un projet prioritaire pour la Free "
 "Software community\">Aider un projet prioritaire</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://gplv3.fsf.org/\" style=\"font-weight: bold;\" title=\"Help "
 "revise the GNU FDL and SFDL\">Help revise GNU licenses</a>"
@@ -70,7 +70,7 @@ msgstr ""
 "<a href=\"http://gplv3.fsf.org/\" style=\"font-weight: bold;\" title=\"Aider "
 "à réviser la GNU FDL et la SFDL\">Aider à la révision de licences GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/distros/free-distros.html\" style=\"font-weight: bold;\" title="
 "\"Free GNU/Linux distributions\">Free&nbsp;GNU/Linux&nbsp;distributions</a>"
@@ -79,7 +79,7 @@ msgstr ""
 "\"Distributions libres GNU/Linux\">Distributions&nbsp;libres&nbsp;GNU/Linux</"
 "a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://directory.fsf.org/\" title=\"Browse our directory of free "
 "software projects\">Free&nbsp;Software&nbsp;Directory</a>"
@@ -88,7 +88,7 @@ msgstr ""
 "projets de logiciels libres\">Répertoire&nbsp;des&nbsp;logiciels&nbsp;"
 "libres</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/software/\" title=\"List of GNU software packages\">GNU software "
 "packages</a>"
@@ -96,11 +96,11 @@ msgstr ""
 "<a href=\"/software/software.fr.html\" title=\"Liste des paquetages "
 "logiciels GNU\">Paquetages&nbsp;logiciels&nbsp;GNU</a>"
 
-# type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Stay up to date"
 msgstr "Rester informé"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://www.fsf.org/register_form\">Get&nbsp;email&nbsp;alerts&nbsp;"
 "from&nbsp;the&nbsp;FSF</a>"
@@ -108,7 +108,7 @@ msgstr ""
 "<a href=\"http://www.fsf.org/register_form\">Recevoir&nbsp;des&nbsp;"
 "courriels&nbsp;d'alertes&nbsp;de&nbsp;la&nbsp;FSF</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/keepingup.html\" title=\"Keep up to date with the latest news "
 "from the GNU project\">Keeping Up</a>"
@@ -116,7 +116,7 @@ msgstr ""
 "<a href=\"/keepingup.fr.html\" title=\"Rester informé des dernières "
 "nouvelles sur le projet GNU\">Rester informé</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://lists.gnu.org\" title=\"Discuss with other free software "
 "users and developers\">GNU Mailing Lists</a>"
@@ -124,11 +124,11 @@ msgstr ""
 "<a href=\"http://lists.gnu.org\" title=\"Discuter avec d'autres utilisateurs "
 "et développeurs de logiciels libres\">Liste de diffusion de GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/people/speakers.html\">GNU Speakers</a>"
 msgstr "<a href=\"/people/speakers.html\">Orateurs GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/gnu/gnu-user-groups.html\" title=\"Meet people in your area who "
 "use and develop free software\">GNU User Groups</a>"
@@ -137,15 +137,15 @@ msgstr ""
 "votre région qui utilisent et développent des logiciels libres\">Groupes "
 "d'utilisateurs GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/press/press.html\">Press Information</a>"
 msgstr "<a href=\"/press/press.html\">Presse</a>"
 
-# type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "For developers"
 msgstr "Pour les développeurs"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://savannah.gnu.org/\" title=\"Get involved in one of our free "
 "software projects\">Development projects</a>"
@@ -153,7 +153,7 @@ msgstr ""
 "<a href=\"http://savannah.gnu.org/\" title=\"Contribuer à l'un de nos "
 "projets de logiciels libres\">Projets de développement</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/software/devel.html\" title=\"Are you a developer? Get access to "
 "developer resources\">Developer resources</a>"
@@ -161,11 +161,11 @@ msgstr ""
 "<a href=\"/software/devel.html\" title=\"Vous êtes un développeur&nbsp;? "
 "Accédez aux ressources pour développeur\">Ressources pour développeur</a>"
 
-# type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Support the FSF"
 msgstr "Soutenez la FSF"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://www.fsf.org/associate/support_freedom/join_fsf"
 "\"><strong>Join the FSF today!</strong></a>"
@@ -173,7 +173,7 @@ msgstr ""
 "<a href=\"http://www.fsf.org/associate/support_freedom/join_fsf"
 "\"><strong>Rejoignez la FSF aujourd'hui&nbsp;!</strong></a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://www.fsf.org/associate/support_freedom/donate\">Donate to "
 "the FSF today!</a>"
@@ -181,72 +181,72 @@ msgstr ""
 "<a href=\"http://www.fsf.org/associate/support_freedom/donate\">Faites un "
 "don à la FSF aujourd'hui&nbsp;!</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"http://order.fsf.org/\">Buy manuals and gear</a>"
 msgstr ""
 "<a href=\"http://order.fsf.org/\">Acheter des manuels et des accessoires</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"http://patron.fsf.org/\">Corporate Patronage</a>"
 msgstr "<a href=\"http://patron.fsf.org/\">Corporate Patronage</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/thankgnus/thankgnus.html\">Thank GNUs</a>"
 msgstr "<a href=\"/thankgnus/thankgnus.html\">Merci aux GNUs</a>"
 
-# type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "For fun"
 msgstr "Humour"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/graphics/graphics.html\">GNU Graphics and Art</a>"
 msgstr "<a href=\"/graphics/graphics.fr.html\">Illustrations GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/fun/humor.html\">Laugh along with GNU</a>"
 msgstr "<a href=\"/fun/humor.html\">Rire avec GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/music/\">GNU Music and Songs</a>"
 msgstr "<a href=\"/music/\">Musiques et chansons GNU</a>"
 
-# type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Other resources"
 msgstr "Autres ressources"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/links/links.html\">Free Software Links</a>"
 msgstr "<a href=\"/links/links.html\">Free Software Links</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/jobs\">Free Software Jobs</a>"
 msgstr "<a href=\"/jobs\">Emplois dans les logiciels libres</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"http://donate.fsf.org/\">Donate online to the FSF</a>"
 msgstr "<a href=\"http://donate.fsf.org/\">Dons en ligne à la FSF</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/gnu/thegnuproject.html\">The GNU Project</a>"
 msgstr "<a href=\"/gnu/thegnuproject.fr.html\">Le Projet GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/fsf/\">Free Software Foundation</a>"
 msgstr "<a href=\"/fsf/\">Free Software Foundation</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/gnu/\">About the GNU Project</a>"
 msgstr "<a href=\"/gnu/gnu.fr.html\">À propos du Projet GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/keepingup.html\">Keeping Up With GNU/FSF</a>"
 msgstr "<a href=\"/keepingup.fr.html\">Rester informé sur GNU et la FSF</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/press/\">FSF/GNU Press Information</a>"
 msgstr "<a href=\"/press/\">Articles de presse sur la FSF et GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/events.html\">Coming events</a> (and some <a href=\"/events/"
 "events.html\">past events</a>)"
@@ -254,12 +254,12 @@ msgstr ""
 "<a href=\"/events.html\">Événements à venir</a> (et quelques <a href=\"/"
 "events/events.html\">événements passés</a>)"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "Available <a href=\"/software/software.html\">free software</a>"
 msgstr ""
 "<a href=\"/software/software.fr.html\">Logiciels libres</a> disponibles"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "Latest releases of GNU software are cataloged in the <a href=\"http://"
 "directory.fsf.org/\">Free Software Directory</a> under <a href= \"http://"
@@ -270,19 +270,19 @@ msgstr ""
 "rubrique <a href= \"http://directory.fsf.org/GNU/\">Tous les paquetages GNU</"
 "a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/non-gnu/\">Non-GNU Free Software</a>"
 msgstr "<a href=\"/non-gnu/\">Logiciels libres non-GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/software/year2000.html\">Year 2000</a> issues."
 msgstr "Problèmes de <a href=\"/software/year2000.html\">l'an 2000</a>."
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/gwm/\">GNU Writing Movement</a>"
 msgstr "<a href=\"/gwm/\">Le mouvement d'écriture de GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/education/\">GNU and Education</a> is about Free Software for "
 "students and teachers, and Free learning resources"
@@ -291,7 +291,7 @@ msgstr ""
 "logiciels libres pour les étudiants et les enseignants, et les ressources "
 "d'apprentissage libres"
 
-# type: Content of: <ul><li><ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid ""
 "A list of <a href= \"/education/software.html\">Educational Free Software "
 "and Savannah Projects</a>"
@@ -299,7 +299,7 @@ msgstr ""
 "Une liste de <a href= \"/education/software.html\">Projets de logiciels "
 "libres pour l'éducation et de projets Savannah</a>"
 
-# type: Content of: <ul><li><ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid ""
 "<a href=\"/education/freelearning.html\">Free Learning Resources</a> "
 "advocates and lists free encyclopedia, textbook, and otherwise curriculum "
@@ -308,15 +308,15 @@ msgstr ""
 "<a href=\"/education/freelearning.html\">Ressources d'apprentissage libres</"
 "a> liste les livres, encyclopédie et autres ressources de savoir libres"
 
-# type: Content of: <ul><li><ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid "<a href=\"/encyclopedia/\">The Free Encylopedia Project</a>"
 msgstr "<a href=\"/encyclopedia/\">Le Projet d'encyclopédie libre</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "GNU Information Service in <a href= \"/japan/toc.html\">Japanese</a>"
 msgstr "Service d'information GNU en <a href= \"/japan/toc.html\">japonais</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/people/speakers.html\">Speakers</a> who can speak on behalf of "
 "the GNU project and the Free Software Movement."
@@ -324,7 +324,7 @@ msgstr ""
 "<a href=\"/people/speakers.html\">Orateurs</a> qui peuvent parler au nom du "
 "Projet GNU et du Mouvement pour le logiciel libre."
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/people/people.html\">GNU's Who's Who</a> - the people of the GNU "
 "project"
@@ -332,13 +332,13 @@ msgstr ""
 "<a href=\"/people/people.html\">Who's Who de GNU</a> - les personnes du "
 "Projet GNU"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href= \"/brave-gnu-world/brave-gnu-world.en.html\">Brave GNU World</a>"
 msgstr ""
 "<a href= \"/brave-gnu-world/brave-gnu-world.en.html\">Brave GNU World</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/bulletins/bulletins.html\">GNUs Bulletins</a> Archive - the "
 "Newsletter of the FSF (no longer published)"
@@ -346,7 +346,7 @@ msgstr ""
 "Archive des <a href=\"/bulletins/bulletins.html\">Bulletins GNU</a> - la "
 "lettre de la FSF (n'est plus publiée)"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "The <a href=\"/graphics/graphics.html\">GNU Art Gallery</a> and the <a href="
 "\"/fun/humor.html\">GNU Fun Page</a>"
@@ -354,19 +354,19 @@ msgstr ""
 "La <a href=\"/graphics/graphics.fr.html\">Galerie des illustrations GNU</a> "
 "et la page <a href=\"/fun/humor.html\">Humour GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/music/\">GNU Music</a>"
 msgstr "<a href=\"/music/\">Musiques GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/testimonials/\">GNU Testimonials</a>"
 msgstr "<a href=\"/testimonials/\">Témoignages sur GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/licenses/\">Licenses</a>"
 msgstr "<a href=\"/licenses/licenses.fr.html\">Licences</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/philosophy/license-list.html\">Various Licenses and our Comments "
 "about Them</a>"
@@ -374,12 +374,12 @@ msgstr ""
 "<a href=\"/philosophy/license-list.fr.html\">Diverses licences et nos "
 "commentaires à leur sujet</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/copyleft/copyleft.html\">What is Copyleft?</a>"
 msgstr ""
 "<a href=\"/copyleft/copyleft.fr.html\">Qu'est-ce que le copyleft&nbsp;?</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "The <a href=\"/copyleft/gpl.html\">GNU General Public License</a> (also "
 "available as a <a href= \"/copyleft/gpl.txt\">text file</a> and its <a href= "
@@ -390,7 +390,7 @@ msgstr ""
 "ses <a href= \"/copyleft/copyleft.fr.html#translations\">traductions non-"
 "officielles</a>)"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "The <a href=\"/copyleft/fdl.html\">GNU Free Documentation License</a> (also "
 "available as a <a href= \"/copyleft/fdl.txt\">text file</a> and its <a href= "
@@ -401,7 +401,7 @@ msgstr ""
 "est ses <a href= \"/copyleft/copyleft.fr.html#GFDLtranslations\">traductions "
 "non-officielles</a>)"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/philosophy/why-gfdl.html\">Why you should use the GNU Free "
 "Documentation License</a>"
@@ -409,7 +409,7 @@ msgstr ""
 "<a href=\"/philosophy/why-gfdl.fr.html\">Pourquoi utiliser la licence GNU "
 "Free Documentation License</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "The <a href=\"/copyleft/lesser.html\">GNU Lesser General Public License</a> "
 "(also available as a <a href= \"/copyleft/lesser.txt\">text file</a> and its "
@@ -421,7 +421,7 @@ msgstr ""
 "\">fichier texte</a> et ses <a href= \"/copyleft/copyleft.fr."
 "html#LGPLtranslations\">traductions non-officielles</a>)"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/philosophy/why-not-lgpl.html\">Why you shouldn't use the Lesser "
 "GPL for your next library</a>"
@@ -429,7 +429,7 @@ msgstr ""
 "<a href=\"/philosophy/why-not-lgpl.fr.html\">Pourquoi vous ne devriez pas "
 "utiliser la Lesser GPL pour votre prochaine bibliothèque</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/copyleft/copying-1.0.html\">Version 1 of the GNU General Public "
 "License</a>"
@@ -437,7 +437,7 @@ msgstr ""
 "<a href=\"/copyleft/copying-1.0.html\">Version 1 de la licence GNU General "
 "Public License</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "What to do if you see a <a href= \"/copyleft/gpl-violation.html\">possible "
 "violation</a> of the <a href=\"/copyleft/gpl.html\">GPL</a>, the <a href= \"/"
@@ -449,7 +449,7 @@ msgstr ""
 "la <a href= \"/copyleft/lesser.html\">LGPL</a> ou de la <a href= \"/copyleft/"
 "fdl.html\">GFDL</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/licenses/gpl-faq.html\">Frequently Asked Questions about the GNU "
 "Licenses</a>"
@@ -457,17 +457,17 @@ msgstr ""
 "<a href=\"/licenses/gpl-faq.fr.html\">Foire aux questions sur les licences "
 "GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/philosophy.html\">Philosophical texts</a>"
 msgstr "<a href=\"/philosophy/philosophy.fr.html\">Textes philosophiques</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
 msgstr ""
 "<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel libre&nbsp;?"
 "</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/philosophy/words-to-avoid.html\">Confusing Words</a> Which You "
 "Might Want to Avoid"
@@ -475,7 +475,7 @@ msgstr ""
 "<a href=\"/philosophy/words-to-avoid.fr.html\">Mots confus</a> que vous "
 "devriez éviter"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href= \"/philosophy/open-source-misses-the-point.html\">\"Open Source "
 "Software\" or \"Free Software\"?</a>"
@@ -483,15 +483,15 @@ msgstr ""
 "<a href= \"/philosophy/open-source-misses-the-point.fr.html\">«&nbsp;"
 "Logiciels open source&nbsp;» ou «&nbsp;Logiciels libres&nbsp;»&nbsp;?</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/patent-examp/\">Harmful Software Patents</a>"
 msgstr "<a href=\"/patent-examp/\">Brevets logiciels dangereux</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/help/help.html#helpgnu\">Write Free Software</a>"
 msgstr "<a href=\"/help/help.fr.html#helpgnu\">Écrire des logiciels libres</a>"
 
-# type: Content of: <ul><li><ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid ""
 "<a href=\"/projects/help-wanted.html\">Help wanted</a> with existing GNU "
 "software"
@@ -499,30 +499,30 @@ msgstr ""
 "<a href=\"/projects/help-wanted.html\">Besoin d'aide</a> sur les logiciels "
 "GNU existants"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "List of <a href=\"/prep/tasks.html\">other software tasks</a> you can work on"
 msgstr ""
 "Liste des <a href=\"/prep/tasks.html\">autres tâches sur les logiciels</a> "
 "sur lesquelles vous pouvez travailler"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/software/devel.html\">GNU Software Developer Resources</a>"
 msgstr ""
 "<a href=\"/software/devel.html\">Ressources pour développeur de logiciels "
 "GNU</a>"
 
-# type: Content of: <ul><li><ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid "<a href=\"/help/help.html#documentation\">Write Free Documentation</a>"
 msgstr ""
 "<a href=\"/help/help.fr.html#documentation\">Écrire de la documentation "
 "libre</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/prep/standards.html\">GNU Coding Standards</a>"
 msgstr "<a href=\"/prep/standards.html\">Standards de codage GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/prep/maintain.html\">Information For maintainers of GNU Software</"
 "a>"
@@ -530,18 +530,18 @@ msgstr ""
 "<a href=\"/prep/maintain.html\">Informations pour les mainteneurs de "
 "logiciels GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/help/evaluation.html\">Evaluation Guidelines for GNU Software</a>"
 msgstr ""
 "<a href=\"/help/evaluation.html\">Recommandations d'évaluation pour les "
 "logiciels GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/prep/\">GNU Project Information</a>"
 msgstr "<a href=\"/prep/\">Informations sur le Prjoet GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/brave-gnu-world/brave-gnu-world.html\">Brave GNU World</a>, the "
 "monthly GNU column (and its <a href= \"/brave-gnu-world/translations.html"
@@ -551,15 +551,15 @@ msgstr ""
 "l'éditorial mensuel de GNU (et ses <a href= \"/brave-gnu-world/translations."
 "html\">traductions</a>)"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "The GNU Project <a href=\"/server/server.html\">Webserver</a>"
 msgstr "Le <a href=\"/server/server.html\">serveur Web</a> du Projet GNU"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/server/whatsnew.html\">What's New</a>!!"
 msgstr "<a href=\"/server/whatsnew.fr.html\">Quoi de neuf&nbsp;?</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/server/list-mirrors.html\">Mirrors</a> of and <a href=\"/server/"
 "mirror.html\">How To Mirror</a> this site"
@@ -567,7 +567,7 @@ msgstr ""
 "<a href=\"/server/list-mirrors.html\">Miroirs</a> et <a href=\"/server/"
 "mirror.html\">Comment faire un miroir</a> de ce site"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href= \"/server/standards/README.translations.html\">Translating</a> GNU "
 "web pages into other languages"
@@ -575,16 +575,16 @@ msgstr ""
 "<a href= \"/server/standards/README.translations.fr.html\">Traduction</a> "
 "des pages Web de GNU dans d'autres langues"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/spanish/\">GNU Spanish Translation Team</a>"
 msgstr "<a href=\"/spanish/\">L'équipe de traduction espagnole de GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/server/privacy-policy.html\">Privacy Policy</a>"
 msgstr ""
 "<a href=\"/server/privacy-policy.html\">Politique de confidentialité</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href= \"/server/standards/readme_index.html\">Guidelines</a> for GNU Web "
 "Site Volunteers"
@@ -592,7 +592,7 @@ msgstr ""
 "<a href= \"/server/standards/readme_index.html\">Recommandations</a> pour "
 "les volontaires du site Web de GNU"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "List of <a href=\"/server/tasks.html\">tasks (14k characters)</a> to make "
 "this web <a href= \"/server/server.html\">site</a> better, please help with "
@@ -602,36 +602,36 @@ msgstr ""
 "améliorer ce <a href= \"/server/server.html\">site Web</a>. Merci de nous "
 "aider&nbsp;!"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/award/\">Awards Archive</a>"
 msgstr "<a href=\"/award/\">Archives des distinctions</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/award/2001/\">Award 2001</a>"
 msgstr "<a href=\"/award/\">Distinctions 2001</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/wwwhurdes/\">Old Hurd website</a>"
 msgstr "<a href=\"/wwwhurdes/\">Ancien site Web de Hurd</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/help/help.html\">Helping the GNU Project</a>"
 msgstr "<a href=\"/help/help.fr.html\">Aider le Projet GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "Please <a href=\"/order/order.html\">Buy from the FSF</a>"
 msgstr "Veuillez <a href=\"/order/order.html\">Acheter à la FSF</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "Pleas? buy a <a href=\"/order/deluxe.html\">Deluxe Distributions</a>"
 msgstr ""
 "Veuillez acheter une <a href=\"/order/deluxe.html\">Distribution Deluxe</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "Please <a href=\"/help/donate.html\">Donate Money</a>"
 msgstr "Veuillez <a href=\"/help/donate.html\">Faire un don</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href= \"/help/donate.html#BecomeAPatronOfTheFSF\">Become a Patron of the "
 "FSF</a>"
@@ -639,28 +639,28 @@ msgstr ""
 "<a href= \"/help/donate.html#BecomeAPatronOfTheFSF\">Devenir un bienfaiteur "
 "de la FSF</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "Please <a href=\"/help/help.html#helpgnu\">Write Free Software</a>"
 msgstr ""
 "Veuillez <a href=\"/help/help.fr.html#helpgnu\">Écrire des logiciels libres</"
 "a>"
 
-# type: Content of: <ul><li><ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid "<a href=\"/prep/tasks.html\">Unstarted tasks</a> you can work on"
 msgstr ""
 "<a href=\"/prep/tasks.html\">Tâches non commencées</a> sur lesquelles vous "
 "pouvez travailler"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/volunteers/\">GNU Project Volunteers</a>"
 msgstr "<a href=\"/volunteers/\">Les volontaires du Projet GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/help/gethelp.html\">Getting help with GNU software</a>"
 msgstr ""
 "<a href=\"/help/gethelp.html\">Obtenir de l'aide avec les logiciels GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/doc/doc.html\">Documentation for GNU software</a> and <a href=\"/"
 "manual/manual.html\">Manuals online</a>"
@@ -668,15 +668,15 @@ msgstr ""
 "<a href=\"/doc/doc.html\">Documentation pour les logiciels GNU</a> et <a "
 "href=\"/manual/manual.html\">Manuels en ligne</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"http://mail.gnu.org/\">GNU mailing lists</a>"
 msgstr "<a href=\"http://mail.gnu.org/\">Listes de diffusion de GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/prep/service.html\">GNU Service Directory</a>"
 msgstr "<a href=\"/prep/service.html\">Annuaire des services de GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"http://directory.fsf.org/\" id= \"FreeSoftwareCatalog\" name="
 "\"FreeSoftwareCatalog\">Free Software Catalog</a>"
@@ -684,19 +684,19 @@ msgstr ""
 "<a href=\"http://directory.fsf.org/\" id= \"FreeSoftwareCatalog\" name="
 "\"FreeSoftwareCatalog\">Catalogue des logiciels libres</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/software/year2000.html\">Year 2000 Information</a>"
 msgstr "<a href=\"/software/year2000.html\">Informations sur l'an 2000</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/usenet/\">GNU Newsgroups</a>"
 msgstr "<a href=\"/usenet/\">Groupes de discussion sur GNU</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "Getting GNU software"
 msgstr "Obtenir des logiciels GNU"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"/order/order.html\">Ordering CDs, Books, Reference Cards, and T-"
 "Shirts</a> ( <a href= \"http://order.fsf.org/\">online ordering is "
@@ -706,83 +706,87 @@ msgstr ""
 "références et des T-Shirts</a> ( <a href= \"http://order.fsf.org/\">Commande "
 "en ligne disponible</a>)"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/gear/\">Order GNU Gear</a>"
 msgstr "<a href=\"/gear/\">Commander des accessoires GNU</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/order/deluxe.html\">Deluxe Distributions</a>"
 msgstr "<a href=\"/order/deluxe.html\">Distributions Deluxe</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/order/ftp.html\">Downloading via FTP</a>"
 msgstr "<a href=\"/order/ftp.html\">Téléchargement par FTP</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a href=\"/links/links.html\">Links to other free software sites</a>"
 msgstr ""
 "<a href=\"/links/links.fr.html\">Liens vers d'autres sites de logiciels "
 "libres</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "International FSF"
 msgstr "La FSF à l'international"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"http://www.fsfe.org\">FSF Europe</a>"
 msgstr "<a href=\"http://www.fsfe.org\">FSF Europe</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"http://fsfla.org\">FSF Latin America</a>"
 msgstr "<a href=\"http://fsfla.org\">FSF Amérique latine</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"http://fsf.org.in\">FSF India</a>"
 msgstr "<a href=\"http://fsf.org.in\">FSF Inde</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"http://www.es.gnu.org\">GNU Espa&ntilde;a</a>"
 msgstr "<a href=\"http://www.es.gnu.org\">GNU Espa&ntilde;a</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"http://fsffrance.org\">FSF France</a>"
 msgstr "<a href=\"http://fsffrance.org\">FSF France</a>"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "Miscellaneous"
 msgstr "Divers"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/jobs/jobs.html\">Free software job openings</a>"
 msgstr "<a href=\"/jobs/jobs.html\">Emplois dans les logiciels libres</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"/gnu/gnu-user-groups.html\">Listing of GNU user groups</a>"
 msgstr ""
 "<a href=\"/gnu/gnu-user-groups.html\">Liste des groupes d'utilisateurs GNU</"
 "a>"
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
-"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
-"liens orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/"
-"people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
-"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+"gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
-# type: Content of: <div><p>
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens orphelins ou d'autres suggestions "
+"sur cette page Web à <a href=\"mailto:webmasters@gnu.org\">&lt;"
+"webmasters@gnu.org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008 Free Software Foundation, Inc.,"
@@ -790,11 +794,11 @@ msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008 Free Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
-# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium, provided this notice is preserved."
@@ -803,22 +807,21 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise-à-jour&nbsp;:"
 
-# type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
 
-# type: Content of: <ul><li><ul><li>
 #~ msgid "<a href=\"/2001/\">Awards Archive</a>"
 #~ msgstr "<a href=\"/2001/\">Archive des distinctions</a>"

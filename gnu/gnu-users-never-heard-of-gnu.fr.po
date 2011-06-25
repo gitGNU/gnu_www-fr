@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-users-never-heard-of-gnu.html\n"
-"POT-Creation-Date: 2009-05-24 04:27-0300\n"
+"POT-Creation-Date: 2011-06-24 20:29-0300\n"
 "PO-Revision-Date: 2009-07-18 15:46+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "GNU Users Who Have Never Heard of GNU - GNU Project - Free Software "
 "Foundation (FSF)"
@@ -23,18 +23,18 @@ msgstr ""
 "Les utilisateurs de GNU qui n'ont jamais entendu parler de GNU - GNU Project "
 "- Free Software Foundation (FSF)"
 
-# type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "GNU Users Who Have Never Heard of GNU"
 msgstr ">Les utilisateurs de GNU qui n'ont jamais entendu parler de GNU"
 
-# type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "<strong>by <a href=\"http://www.stallman.org/\">Richard Stallman</a></strong>"
 msgstr ""
 "<strong>par <a href=\"http://www.stallman.org/\">Richard Stallman</a></"
 "strong>"
 
-# type: Content of: <div><blockquote><p>
+#. type: Content of: <div><blockquote><p>
 msgid ""
 "To learn more about this issue, you can also read our <a href=\"/gnu/gnu-"
 "linux-faq.html\">GNU/Linux FAQ</a>, our page on <a href=\"/gnu/why-gnu-linux."
@@ -46,7 +46,7 @@ msgstr ""
 "gnu/why-gnu-linux.fr.html\">Pourquoi GNU/Linux&nbsp;?</a> et notre page sur "
 "<a href=\"/gnu/linux-and-gnu.fr.html\">Linux et le Projet GNU</a>."
 
-# type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Most people have never heard of GNU.  Even most of the people who use the "
 "GNU system have never heard of GNU, thanks to so many people and companies "
@@ -65,7 +65,7 @@ msgstr ""
 "accident&nbsp;; la raison du développement de GNU était spécifiquement de "
 "rendre possible d'utiliser un ordinateur et d'avoir la liberté."
 
-# type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "The association between the name GNU and our goals of freedom and social "
 "solidarity exists in the minds of hundreds of thousands of GNU/Linux users "
@@ -80,7 +80,7 @@ msgstr ""
 "\"http://www.gnu.org\">www.gnu.org</a>, qui parle de logiciel libre et de "
 "liberté."
 
-# type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "A person seeing the name &ldquo;GNU&rdquo; for the first time in &ldquo;GNU/"
 "Linux&rdquo; won't immediately associate it with anything.  However, when "
@@ -95,7 +95,7 @@ msgstr ""
 "exemple, cela pourrait les intriguer et leur faire chercher plus "
 "d'informations sur GNU."
 
-# type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "If they don't look for it, they may encounter it anyway.  The &ldquo;open "
 "source&rdquo; rhetoric tends to lead people's attention away from issues of "
@@ -114,7 +114,7 @@ msgstr ""
 "l'&oelig;uvre d'une campagne pour la liberté et la communauté), s'il sait "
 "qu'il est un utilisateur du système GNU."
 
-# type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Over time, calling the system &ldquo;GNU/Linux&rdquo; spreads awareness of "
 "the ideals of freedom for which we developed the GNU system.  It is also "
@@ -134,26 +134,30 @@ msgstr ""
 "car la conscience de GNU apporte avec elle, lentement mais sûrement, la "
 "conscience des idéaux de liberté du logiciel libre et de la communauté."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
-"liens orphelins ou d'autres suggestions sur cette page Web à <a href="
-"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
-# type: Content of: <div><p>
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page "
+"Web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -163,11 +167,11 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2006, 2007 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2006, 2007 Free Software Foundation, Inc."
 
-# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article are permitted "
 "worldwide, without royalty, in any medium, provided this notice, and the "
@@ -177,18 +181,18 @@ msgstr ""
 "permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
 "préservée."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-# type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-# type: Content of: <div><h4>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traduction de cette page"

@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tasks.html\n"
-"POT-Creation-Date: 2008-09-04 16:25-0300\n"
-"PO-Revision-Date: 2008-08-17 13:05+0100\n"
+"POT-Creation-Date: 2011-06-24 12:29-0300\n"
+"PO-Revision-Date: 2011-06-25 17:06+0000\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,18 +15,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-# type: Content of: <title>
+#. type: Content of: <title>
 msgid ""
 "Tasks to do for www.gnu.org - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "Tâches à faire pour www.gnu.org - GNU Project - Free Software Foundation "
 "(FSF)"
 
-# type: Content of: <h2>
+#. type: Content of: <h2>
 msgid "Tasks to do for www.gnu.org"
 msgstr "Tâches à faire pour www.gnu.org"
 
-# type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Here are many possible tasks for improving the GNU web pages.  If you would "
 "like to help with one of them, please e-mail <a href=\"mailto:webmasters@gnu."
@@ -37,17 +37,17 @@ msgstr ""
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a> AVANT de faire "
 "quoi que ce soit."
 
-# type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Accessibility"
 msgstr "Accessibilité"
 
-# type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Investigate how www.gnu.org could provide better accessibility to all "
 "regardless of disability."
 msgstr "Cherchez comment www.gnu.org pourrait améliorer l'accessibilité."
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "A good place to start is the <a href=\"http://www.w3.org/WAI/\">Web "
 "Accessibility Initiative (WAI)</a>."
@@ -55,11 +55,11 @@ msgstr ""
 "Un bon site où commencer est <a href=\"http://www.w3.org/WAI/\">Web "
 "Accessibility Initiative (WAI)</a>. "
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "Other resources on and off the web could also be checked."
 msgstr "Autres ressources à consulter."
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "People at or near MIT could check with MIT's <a href=\"http://web.mit.edu/"
 "atic/www/\">Adaptive Technology for Information and Computing</a> in person."
@@ -69,7 +69,7 @@ msgstr ""
 "for Information and Computing</a> (Technologies adaptatives pour "
 "l'information et l'informatique)."
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "People who have access to similar centers at other schools, organizations, "
 "and companies could check with them."
@@ -77,7 +77,7 @@ msgstr ""
 "Les personnes qui ont accès à des centres ,sociétés ou des organismes "
 "similaires peuvent s'informer auprès d'eux."
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Disabled users of the web could also be interviewed, and perhaps even added "
 "to the webmasters team for this task and others."
@@ -86,11 +86,11 @@ msgstr ""
 "d'accessibilité sur le Web et peut-être même les faire adhérer à l'équipe de "
 "webmestres pour ce problème en particulier."
 
-# type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Site Scripting"
 msgstr "Scripts Web"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Set up manual indexing using the system proposed by Miloslav Nic.  See the "
 "email exchange for more details on what is to be done."
@@ -99,33 +99,33 @@ msgstr ""
 "Miloslav Nic. Consulter l'échange de courriels pour plus de détails sur ce "
 "qui peut être fait."
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "<a name=\"fun\">in directory /fun/ include</a>"
 msgstr "<a name=\"fun\">dans le répertoire /fun/ contient</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "cgi-bin scripts that"
 msgstr "des scripts cgi-bin qui"
 
-# type: Content of: <ul><li><ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid "conduct a dialog with GNU Emacs's doctor.el and convert it into HTML."
 msgstr ""
 "effectuent un dialogue avec doctor.el de GNU Emacs et le convertissent en "
 "HTML."
 
-# type: Content of: <ul><li><ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid "get a zippyism from GNU Emacs's yow.el and convert it into HTML."
 msgstr ""
 "prennent un «&nbsp;zippyisme&nbsp;» de yow.el de GNU Emacs et le "
 "convertissent en HTML."
 
-# type: Content of: <ul><li><ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid "feed zippyisms to GNU Emacs's doctor and convert it into HTML."
 msgstr ""
 "envoient des «&nbsp;zippyismes&nbsp;» à doctor de GNU Emacs et le "
 "convertissent en HTML."
 
-# type: Content of: <ul><li><ul><li><p>
+#. type: Content of: <ul><li><ul><li><p>
 msgid ""
 "Roland McGrath has done some of this on his <a href=\"http://www.frob.com/"
 "~roland\">home pages</a>. Ask him if you can copy his work over to http://"
@@ -135,11 +135,11 @@ msgstr ""
 "com/~roland\">page d'accueil</a>. Demandez-lui si vous pouvez copier son "
 "travail sur http://www.gnu.org."
 
-# type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Format Conversions"
 msgstr "Conversions de format"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "We are looking for people to volunteer to convert documentation from various "
 "formats to the <a href=\"/software/texinfo/texinfo.html\">Texinfo</a> "
@@ -154,7 +154,7 @@ msgstr ""
 "vous êtes volontaire, veuillez envoyer un courriel à <a href=\"mailto:"
 "gvc@gnu.org\">&lt;gvc@gnu.org&gt;</a>."
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Rewrite the various philosophy pages and bulletins in <a href=\"/software/"
 "texinfo/texinfo.html\">Texinfo</a> and convert to HTML using texi2html.  "
@@ -164,7 +164,7 @@ msgstr ""
 "software/texinfo/texinfo.html\">Texinfo</a> et les convertir en HTML en "
 "utilisant texi2html. Ils peuvent alors être facilement inclus dans&nbsp;:"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "the <a href=\"http://ftp.gnu.org/gnu/GNUinfo\">/gnu/GNUinfo</a> subdirectory "
 "of <a href=\"http://ftp.gnu.org/\">ftp.gnu.org</a>"
@@ -172,23 +172,23 @@ msgstr ""
 "le sous-répertoire <a href=\"http://ftp.gnu.org/gnu/GNUinfo\">/gnu/GNUinfo</"
 "a> de <a href=\"http://ftp.gnu.org/\">ftp.gnu.org</a>"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "the etc/ subdirectory of the GNU Emacs distribution"
 msgstr "le sous-répertoire etc/ de la distribution GNU Emacs"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "in the GNU system's Info tree"
 msgstr "dans l'arbre Info du système GNU"
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid "other useful locations."
 msgstr "d'autres emplacements utiles."
 
-# type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Writing Web Pages"
 msgstr "Écrire des pages Web"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Write web pages for GNU programs that lacks web pages on our server or whose "
 "web pages are obsolete using our <a href=\"/software/boilerplate_software."
@@ -201,13 +201,13 @@ msgstr ""
 "Lire également notre <a href=\"/server/standards/README.software.html\">page "
 "sur les standards de pages pour les logiciels</a>."
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid "Work on improving our <a href=\"/server/sitemap.html\">sitemap</a>."
 msgstr ""
 "Travailler à améliorer notre <a href=\"/server/sitemap.html\">plan de site</"
 "a>."
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "Design a better sitemap that helps people find all places on the website "
 "easily.  The sitemap should highlight particularly important parts of sub-"
@@ -220,7 +220,7 @@ msgstr ""
 "listing Philosophie dans le plan du site doit contenir des liens vers des "
 "articles particulièrement utiles de la page Philosophie)."
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "Come up with several different ways of presenting the sitemap, that consider "
 "both the differences in"
@@ -228,15 +228,15 @@ msgstr ""
 "Créer différent moyens de présenter le plan du site, en tenant compte des "
 "différences"
 
-# type: Content of: <ul><li><ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid "how people perceive web pages, and"
 msgstr "dont les gens perçoivent les pages Web, et"
 
-# type: Content of: <ul><li><ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid "how people use the site."
 msgstr "de la façon dont les gens utilisent le site."
 
-# type: Content of: <ul><li><ul><li>
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "Also, the idea of creating a programatically generated sitemap has been "
 "proposed; this would primarily be a tool to aid in writing by hand a more "
@@ -246,11 +246,11 @@ msgstr ""
 "proposée&nbsp;; ce serait essentiellement un outil pour aider à écrire "
 "manuellement un plan de site plus facile à utiliser."
 
-# type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Graphics"
 msgstr "Illustrations"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Remove JPEG artifacts from all PNG pictures. You do this by removing \"loose"
 "\" pixels and turning them into 1bpp (in case of black/white drawings)."
@@ -259,7 +259,7 @@ msgstr ""
 "supprimant les pixels «&nbsp;loose&nbsp;» et en les transformant en 1bpp "
 "(dans le cas d'illustrations en noir et blanc)."
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Create new <a href=\"/graphics/graphics.html\">graphics</a> for our web "
 "pages. We mostly want to have nicer drawings like the ones we already have "
@@ -269,11 +269,11 @@ msgstr ""
 "pour nos pages Web. Nous voulons surtout avoir de plus beaux dessins comme "
 "ceux que nous avons déjà et peut-être en plus de couleurs."
 
-# type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Validation and Broken Links"
 msgstr "Validation et liens orphelins"
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Check all the web pages for well formedness, consistency with our HTML style "
 "sheet, and webmaster guidelines. All web pages need to be valid to their "
@@ -286,7 +286,7 @@ msgstr ""
 "href=\"http://validator.w3.org\">Validateur du W3C</a> est un bon point de "
 "départ)."
 
-# type: Content of: <ul><li>
+#. type: Content of: <ul><li>
 msgid ""
 "Help is needed <a href=\"/server/standards/README.webmastering."
 "html#poldeadlink\">repairing broken links</a>.  There are numerous <a href="
@@ -309,11 +309,11 @@ msgstr ""
 "webmastering.html#poladdlink\">liens</a> est respectée en trouvant des liens "
 "de substitution."
 
-# type: Content of: <h3>
+#. type: Content of: <h3>
 msgid "Localization"
 msgstr "Localisation"
 
-# type: Content of: <p>
+#. type: Content of: <p>
 msgid ""
 "Help <a href=\"/server/standards/README.translations.html\">translate GNU "
 "web pages</a> from English into other languages.  You can either join an "
@@ -327,27 +327,31 @@ msgstr ""
 "nouvelle. Consulter les <a href=\"/server/standards/README.translations.fr."
 "html#TranslationsUnderway\">équipes de traduction existantes</a>."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
-"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF. Veuillez envoyer les liens "
-"orphelins ou d'autres suggestions sur cette page Web aux <a href=\"/people/"
-"webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
-"webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+"gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
-# type: Content of: <div><p>
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens orphelins ou d'autres suggestions "
+"sur cette page Web à <a href=\"mailto:webmasters@gnu.org\">&lt;"
+"webmasters@gnu.org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 2001, 2004, 2005, 2006, 2007, 2008 Free "
 "Software Foundation, Inc.,"
@@ -355,11 +359,11 @@ msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 2001, 2004, 2005, 2006, 2007, 2008 Free "
 "Software Foundation, Inc.,"
 
-# type: Content of: <div><address>
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
-# type: Content of: <div><p>
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium, provided this notice is preserved."
@@ -367,18 +371,18 @@ msgstr ""
 "Verbatim copying and distribution of this entire article is permitted in any "
 "medium, provided this notice is preserved."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>."
 
-# type: Content of: <div><p>
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise-à-jour&nbsp;:"
 
-# type: Content of: <div><h3>
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
