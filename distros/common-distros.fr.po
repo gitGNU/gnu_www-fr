@@ -2,13 +2,14 @@
 # Copyright (C) 2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the common-distros.html package.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2009.
+# Denis Barbier <bouzim AT gmail.com>, 2011
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: common-distros.html\n"
 "POT-Creation-Date: 2011-06-23 04:25-0300\n"
-"PO-Revision-Date: 2010-02-14 14:51+0100\n"
-"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"PO-Revision-Date: 2011-06-27 23:54+0200\n"
+"Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -55,16 +56,13 @@ msgstr ""
 "libres</a>."
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "All of the distributions listed on this page fail to follow the "
-#| "guidelines in at least two important ways:"
 msgid ""
 "Except where noted, all of the distributions listed on this page fail to "
 "follow the guidelines in at least two important ways:"
 msgstr ""
-"Toutes les distributions listées dans cette page ne respectent pas les "
-"recommandations pour au moins deux points importants&nbsp;:"
+"Sauf indications contraires, toutes les distributions listées dans cette "
+"page ne respectent pas les recommandations pour au moins deux points "
+"importants&nbsp;:"
 
 #. type: Content of: <ul><li><p>
 msgid ""
@@ -80,19 +78,14 @@ msgstr ""
 "malheureusement pas assez strictes, comme c'est expliqué ci-dessous."
 
 #. type: Content of: <ul><li><p>
-#, fuzzy
-#| msgid ""
-#| "The version of the kernel Linux that they distribute includes blobs: "
-#| "pieces of object code, distributed without source, usually to help "
-#| "operate some device."
 msgid ""
 "The kernel that they distribute (in most cases, Linux) includes &ldquo;"
 "blobs&rdquo;: pieces of object code distributed without source, usually "
 "firmware to run some device."
 msgstr ""
-"La version du noyau Linux qu'elles distribuent contient des blobs&nbsp;: des "
-"morceaux de code objet, distribués sans les sources, habituellement pour "
-"faire fonctionner un périphérique."
+"Le noyau qu'elles distribuent (Linux dans la plupart des cas) contient des "
+"«&nbsp;blobs&nbsp;»&nbsp;: des morceaux de code objet, distribués sans les "
+"sources, habituellement pour faire fonctionner un périphérique."
 
 #. type: Content of: <p>
 msgid ""
@@ -116,53 +109,41 @@ msgstr ""
 
 #. type: Content of: <h3>
 msgid "Arch GNU/Linux"
-msgstr ""
+msgstr "Arch GNU/Linux"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "We're not aware of problems in CentOS aside from the two listed above: "
-#| "there's no clear policy about what software can be included, and nonfree "
-#| "blobs are shipped with Linux.  Of course, with no firm policy in place, "
-#| "there might be other nonfree software included that we missed."
 msgid ""
 "Arch has the two usual problems: there's no clear policy about what software "
 "can be included, and nonfree blobs are shipped with their Linux kernel.  "
 "Arch also has no policy about not distributing nonfree software through "
 "their normal channels."
 msgstr ""
-"Nous ne connaissons pas de problèmes dans CentOS hormis les deux ci-"
-"dessus&nbsp;: il n'y a pas de politique claire sur les logiciels qui peuvent "
-"être inclus, et des blobs non-libres sont fournis avec Linux. Bien sûr, sans "
-"politique ferme appliquée, il pourrait y avoir d'autres logiciels non-libres "
-"que nous avons manqués."
+"Arch a les deux problèmes habituels&nbsp;: il n'y a pas de politique claire "
+"sur les logiciels qui peuvent être inclus, et des blobs non-libres sont "
+"fournis avec leur noyau Linux. Arch n'a pas non plus de politique pour "
+"empêcher de distribuer des logiciels non-libres dans leurs canaux de "
+"distribution normaux."
 
 #. type: Content of: <h3>
 msgid "CentOS"
 msgstr "CentOS"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "We're not aware of problems in CentOS aside from the two listed above: "
-#| "there's no clear policy about what software can be included, and nonfree "
-#| "blobs are shipped with Linux.  Of course, with no firm policy in place, "
-#| "there might be other nonfree software included that we missed."
 msgid ""
 "We're not aware of problems in CentOS aside from the two usual ones: there's "
 "no clear policy about what software can be included, and nonfree blobs are "
 "shipped with Linux, the kernel.  Of course, with no firm policy in place, "
 "there might be other nonfree software included that we missed."
 msgstr ""
-"Nous ne connaissons pas de problèmes dans CentOS hormis les deux ci-"
-"dessus&nbsp;: il n'y a pas de politique claire sur les logiciels qui peuvent "
-"être inclus, et des blobs non-libres sont fournis avec Linux. Bien sûr, sans "
-"politique ferme appliquée, il pourrait y avoir d'autres logiciels non-libres "
-"que nous avons manqués."
+"Nous ne connaissons pas de problèmes dans CentOS hormis les deux "
+"habituels&nbsp;: il n'y a pas de politique claire sur les logiciels qui "
+"peuvent être inclus, et des blobs non-libres sont fournis avec le noyau "
+"Linux. Bien sûr, sans politique ferme appliquée, il pourrait y avoir "
+"d'autres logiciels non-libres que nous avons manqués."
 
 #. type: Content of: <h3>
 msgid "Debian GNU/Linux"
-msgstr ""
+msgstr "Debian GNU/Linux"
 
 #. type: Content of: <p>
 #, fuzzy
@@ -222,7 +203,7 @@ msgstr ""
 
 #. type: Content of: <h3>
 msgid "Gentoo GNU/Linux"
-msgstr ""
+msgstr "Gentoo GNU/Linux"
 
 #. type: Content of: <p>
 msgid ""
@@ -233,10 +214,8 @@ msgstr ""
 "libres au moyen de son système de paquetages principal."
 
 #. type: Content of: <h3>
-#, fuzzy
-#| msgid "Mandriva"
 msgid "Mandriva GNU/Linux"
-msgstr "Mandriva"
+msgstr "Mandriva GNU/Linux"
 
 #. type: Content of: <p>
 msgid ""
@@ -258,10 +237,8 @@ msgstr ""
 "Mandriva propose aussi les logiciels non-libres au moyen d'entrepôts dédiés."
 
 #. type: Content of: <h3>
-#, fuzzy
-#| msgid "openSUSE"
 msgid "openSUSE GNU/Linux"
-msgstr "openSUSE"
+msgstr "openSUSE GNU/Linux"
 
 #. type: Content of: <p>
 msgid ""
@@ -272,7 +249,7 @@ msgstr ""
 
 #. type: Content of: <h3>
 msgid "Red Hat GNU/Linux"
-msgstr ""
+msgstr "Red Hat GNU/Linux"
 
 #. type: Content of: <p>
 msgid ""
@@ -293,12 +270,6 @@ msgid "Slackware"
 msgstr "Slackware"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "We're not aware of problems in Slackware aside from the two listed above: "
-#| "there's no clear policy about what software can be included, and nonfree "
-#| "blobs are shipped with Linux.  Of course, with no firm policy in place, "
-#| "there might be other nonfree software included that we missed."
 msgid ""
 "Slackware has the two usual problems: there's no clear policy about what "
 "software can be included, and nonfree blobs are included in Linux, the "
@@ -306,31 +277,27 @@ msgid ""
 "course, with no firm policy in place, there might be other nonfree software "
 "included that we missed."
 msgstr ""
-"Nous ne connaissons pas de problèmes dans Slackware, hormis ceux listés plus "
-"haut&nbsp;: il n'y a pas de politique claire sur les logiciels qui peuvent "
-"être inclus, et des blobs non-libres sont fournis avec Linux. Bien sûr, sans "
-"politique ferme appliquée, il pourrait y avoir d'autres logiciels non-libres "
-"que nous avons manqués."
+"Slackware a les deux problèmes habituels&nbsp;: il n'y a pas de politique "
+"claire sur les logiciels qui peuvent être inclus, et des blobs non-libres "
+"sont fournis avec le noyau Linux. Elle inclut aussi le programme xv de "
+"visualisation d'images. Bien sûr, sans politique ferme appliquée, il "
+"pourrait y avoir d'autres logiciels non-libres que nous avons manqués."
 
 #. type: Content of: <h3>
 msgid "SUSE GNU/Linux"
-msgstr ""
+msgstr "SUSE GNU/Linux"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "Several nonfree software programs are available for download from SUSE's "
-#| "official FTP site."
 msgid ""
 "In addition to the usual two problems, several nonfree software programs are "
 "available for download from SUSE's official FTP site."
 msgstr ""
-"Plusieurs logiciels non-libres sont disponibles au téléchargements sur le "
-"site FTP officiel de SUSE."
+"En plus des deux problèmes habituels, plusieurs logiciels non-libres sont "
+"disponibles au téléchargement sur le site FTP officiel de SUSE."
 
 #. type: Content of: <h3>
 msgid "Ubuntu GNU/Linux"
-msgstr ""
+msgstr "Ubuntu GNU/Linux"
 
 #. type: Content of: <p>
 #, fuzzy
@@ -357,10 +324,8 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <h3>
-#, fuzzy
-#| msgid "What about BSD systems?"
 msgid "BSD systems"
-msgstr "Et au sujet des systèmes BSD&nbsp;?"
+msgstr "Systèmes BSD"
 
 #. type: Content of: <p>
 #, fuzzy
@@ -394,7 +359,7 @@ msgstr ""
 
 #. type: Content of: <h3>
 msgid "Haiku"
-msgstr ""
+msgstr "Haiku"
 
 #. type: Content of: <p>
 msgid ""
@@ -437,10 +402,8 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-#, fuzzy
-#| msgid "Copyright &copy; 2009 Free Software Foundation, Inc."
 msgid "Copyright &copy; 2011 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2009 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2011 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -467,112 +430,3 @@ msgstr "Dernière mise à jour&nbsp;:"
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
-
-#, fuzzy
-#~| msgid ""
-#~| "Debian's Social Contract does say that all software in the main "
-#~| "distribution will be free software.  Unfortunately, that's not always "
-#~| "true in practice.  Debian has repeatedly made tacit or explicit "
-#~| "exceptions for specific pieces of nonfree software, such as the blobs "
-#~| "included in or accompanying Linux.  We're still hopeful that there won't "
-#~| "be such exceptions in the future, but we can't turn a blind eye to the "
-#~| "situation as it stands today."
-#~ msgid ""
-#~ "Debian's Social Contract does say that all software in the main "
-#~ "distribution will be free software. At present, that's not always true in "
-#~ "practice: Debian has repeatedly made tacit or explicit exceptions for "
-#~ "specific pieces of nonfree software, such as the blobs included in or "
-#~ "accompanying Linux. The 2011 release of Debian, called &ldquo;"
-#~ "Squeeze&rdquo;, has removed these blobs. That is a substantial step "
-#~ "towards a completely free distro, but isn't all the way there."
-#~ msgstr ""
-#~ "Le Contrat social de Debian spécifie que tous les logiciels dans la "
-#~ "distribution principale seront libres. Malheureusement, ce n'est pas "
-#~ "toujours le cas en pratique. Debian a souvent fait des exceptions tacites "
-#~ "ou explicites pour certains logiciels non-libres, comme les blobs inclus "
-#~ "dans Linux ou l'accompagnant. Nous espérons qu'il n'y aura pas de telles "
-#~ "exceptions dans le futur, mais nous ne pouvons fermer les yeux sur la "
-#~ "situation actuelle."
-
-#, fuzzy
-#~| msgid "<a id=\"BSD\"></a>"
-#~ msgid "<a id=\"Arch\"></a>"
-#~ msgstr "<a id=\"BSD\"></a>"
-
-#~ msgid "<a id=\"CentOS\"></a>"
-#~ msgstr "<a id=\"CentOS\"></a>"
-
-#~ msgid "<a id=\"Debian\"></a>"
-#~ msgstr "<a id=\"Debian\"></a>"
-
-#~ msgid "<a id=\"Fedora\"></a>"
-#~ msgstr "<a id=\"Fedora\"></a>"
-
-#~ msgid "<a id=\"Gentoo\"></a>"
-#~ msgstr "<a id=\"Gentoo\"></a>"
-
-#~ msgid "<a id=\"Mandriva\"></a>"
-#~ msgstr "<a id=\"Mandriva\"></a>"
-
-#~ msgid "<a id=\"openSUSE\"></a>"
-#~ msgstr "<a id=\"openSUSE\"></a>"
-
-#~ msgid "<a id=\"RedHat\"></a>"
-#~ msgstr "<a id=\"RedHat\"></a>"
-
-#~ msgid "<a id=\"Slackware\"></a>"
-#~ msgstr "<a id=\"Slackware\"></a>"
-
-#~ msgid "<a id=\"SUSE\"></a>"
-#~ msgstr "<a id=\"SUSE\"></a>"
-
-#~ msgid "<a id=\"Ubuntu\"></a>"
-#~ msgstr "<a id=\"Ubuntu\"></a>"
-
-#~ msgid "<a id=\"BSD\"></a>"
-#~ msgstr "<a id=\"BSD\"></a>"
-
-#~ msgid "Debian"
-#~ msgstr "Debian"
-
-#~ msgid "Gentoo"
-#~ msgstr "Gentoo"
-
-#~ msgid ""
-#~ "openSUSE offers its users access to a repository of nonfree software."
-#~ msgstr ""
-#~ "openSUSE propose à ces utilisateurs un accès à des entrepôts de logiciels "
-#~ "non-libres."
-
-#~ msgid "Red Hat"
-#~ msgstr "Red Hat"
-
-#~ msgid "SUSE"
-#~ msgstr "SUSE"
-
-#~ msgid "Ubuntu"
-#~ msgstr "Ubuntu"
-
-#~ msgid ""
-#~ "BSD systems refer to proprietary drivers as &ldquo;blobs&rdquo; and some "
-#~ "have policies against including these.  That is good, but unfortunately "
-#~ "no BSD system has policies against proprietary binary-only firmware that "
-#~ "might be loaded even by free drivers."
-#~ msgstr ""
-#~ "Les systèmes BSD se réfèrent à des pilotes propriétaires comme les «&nbsp;"
-#~ "blobs&nbsp;» et certains ont une politique contre l'inclusions de ceux-"
-#~ "ci. C'est bien, mais malheureusement, aucun système BSD n'a de politique "
-#~ "contre les firmware binaires propriétaires qui pourraient être chargés, "
-#~ "même par des pilotes libres."
-
-#~ msgid ""
-#~ "Nonfree firmwares in Linux are called &ldquo;blobs,&rdquo; but the "
-#~ "meaning in BSD parlance is different, as above.  Thus, when BSD "
-#~ "developers say their distributions contains no blobs, it is a "
-#~ "miscommunication; they are talking about something else."
-#~ msgstr ""
-#~ "Les microcodes non-libres dans Linux sont appelés «&nbsp;blobs&nbsp;», "
-#~ "mais dans le vocabulaire BSD, «&nbsp;blob&nbsp;» a un autre sens. Par "
-#~ "conséquent, quand les développeurs BSD disent que leurs distributions ne "
-#~ "contiennent pas de blobs, il y a mauvaise communication, car ils parlent "
-#~ "d'autre chose."
