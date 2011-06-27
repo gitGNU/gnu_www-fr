@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-2.0-translations.html\n"
-"POT-Creation-Date: 2011-03-25 20:27-0300\n"
+"POT-Creation-Date: 2011-06-26 12:29-0300\n"
 "PO-Revision-Date: 2009-08-23 18:21+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -53,13 +53,24 @@ msgstr ""
 "et nous espérons qu'elles aideront plus de gens à comprendre la GPL."
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "We give permission to publish translations of the GPL, GFDL, or LGPL into "
+#| "other languages, provided that you (1) label your translations as "
+#| "unofficial (see below for how to do this), to inform people that they do "
+#| "not count legally as substitutes for the authentic version, and (2) you "
+#| "agree to install changes at our request, if we learn from other friends "
+#| "of GNU that changes are necessary to make the translation clearer."
 msgid ""
-"We give permission to publish translations of the GPL, GFDL, or LGPL into "
-"other languages, provided that you (1) label your translations as unofficial "
-"(see below for how to do this), to inform people that they do not count "
-"legally as substitutes for the authentic version, and (2) you agree to "
-"install changes at our request, if we learn from other friends of GNU that "
-"changes are necessary to make the translation clearer."
+"We give permission to publish translations of the GNU GPL, LGPL, AGPL, and "
+"FDL into other languages, provided that (1) you label your translations as "
+"unofficial (see below for how to do this), to inform people that they do not "
+"count legally as substitutes for the authentic version, (2) the translation "
+"is not hosted on a commercial site and does not refer to any company, (3) "
+"the page containing the translation has no links on it (links to gnu.org and "
+"fsf.org are okay), and (4) you agree to install changes at our request, if "
+"we learn from other friends of GNU that changes are necessary to make the "
+"translation clearer."
 msgstr ""
 "Nous permettons la publication de traductions de la GPL ou de la LGPL dans "
 "d'autres langues, pourvu que (1) vous spécifiiez dans vos traductions "
@@ -68,6 +79,13 @@ msgstr ""
 "version originale, et (2) que vous autorisiez à ajouter des modifications à "
 "notre demande, si nous apprenons par d'autres amis de GNU que des "
 "modifications sont nécessaires pour rendre la traduction plus claire."
+
+#. type: Content of: <p>
+msgid ""
+"If there is an unofficial translation made by a bona fide free software "
+"organization that we know to be clueful, we will link to their version over "
+"any other."
+msgstr ""
 
 #. type: Content of: <p>
 msgid ""
@@ -133,40 +151,6 @@ msgstr ""
 "traductions des licences en cours se trouvent <a href=\"/licenses/licenses."
 "fr.html\">ici</a>"
 
-#.  Link from leuce.com is dead, however link poespas.co.za cannot be connected to, so keeping it currently, added above - 25-Mar-2011 - shailesh
-#.   (<a href="http://www.poespas.co.za/wiki/index.php/GNU_Algemene_Publieke_Lisensie">
-#. 1</a>)
-#.   (<a href="http://www.leuce.com/translate/GNU-GPL-af.txt">2</a>)
-#. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<code>[af]</code> Afrikaans translation of the GPL (<a href=\"http://www."
-#| "poespas.co.za/wiki/index.php/GNU_Algemene_Publieke_Lisensie\">1</a>)  (<a "
-#| "href=\"http://www.leuce.com/translate/GNU-GPL-af.txt\">2</a>)"
-msgid ""
-"<code>[af]</code> <a href=\"http://www.poespas.co.za/wiki/index.php/"
-"GNU_Algemene_Publieke_Lisensie\">Afrikaans</a> translation of the GPL"
-msgstr ""
-"<code>[af]</code> Traduction en afrikaans de la GPL (<a href=\"http://www."
-"poespas.co.za/wiki/index.php/GNU_Algemene_Publieke_Lisensie\">1</a>)  (<a "
-"href=\"http://www.leuce.com/translate/GNU-GPL-af.txt\">2</a>)"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[sq]</code> <a href=\"http://www.alblinux.net/dok/GPL.html\">Albanian</"
-"a> translation of the GPL"
-msgstr ""
-"<code>[sq]</code> Traduction en <a href=\"http://www.alblinux.net/dok/GPL."
-"html\">albanais</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[ar]</code> <a href=\"http://www.linuxfuture.org/download/"
-"Arabic_GPL_2.0.htm\">Arabic</a> translation of the GPL"
-msgstr ""
-"<code>[ar]</code> Traduction en <a href=\"http://www.linuxfuture.org/"
-"download/Arabic_GPL_2.0.htm\">arabe</a> de la GPL"
-
 #. type: Content of: <ul><li>
 msgid ""
 "<code>[pt-br]</code> <a href=\"http://www.magnux.org/doc/GPL-pt_BR.txt"
@@ -177,131 +161,26 @@ msgstr ""
 
 #. type: Content of: <ul><li>
 msgid ""
-"<code>[cs]</code> Czech translations of the GPL (<a href=\"http://staff."
-"cesnet.cz/~lhotka/gnugpl-cz.html\">1</a>)  (<a href=\"http://gnu.cz/article."
-"php?id_art=32\">2</a>)"
-msgstr ""
-"<code>[cs]</code> Traductions en tchèque de la GPL (<a href=\"http://staff."
-"cesnet.cz/~lhotka/gnugpl-cz.html\">1</a>) (<a href=\"http://gnu.cz/article."
-"php?id_art=32\">2</a>)"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[da]</code> <a href=\"http://www.fundanemt.com/gpl_da.html\">Danish</"
-"a> translation of the GPL"
-msgstr ""
-"<code>[da]</code> Traduction en <a href=\"http://www.fundanemt.com/gpl_da."
-"html\">danois</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[nl]</code> <a href=\"http://users.skynet.be/xterm/gpld.txt\">Dutch</"
-"a> translation of the GPL"
-msgstr ""
-"<code>[nl]</code> Traduction en <a href=\"http://users.skynet.be/xterm/gpld."
-"txt\">néerlandais</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[eo]</code> <a href=\"http://www.esperanto.mv.ru/Cetero/gpl.html"
-"\">Esperanto</a> translation of the GPL"
-msgstr ""
-"<code>[eo]</code> Traduction en <a href=\"http://www.esperanto.mv.ru/Cetero/"
-"gpl.html\">esperanto</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
 "<code>[fa]</code> <a href=\"http://www.kaveh.org/gnu/gpl-fa.html\">Farsi</a> "
 "translation of the GPL"
 msgstr ""
 "<code>[fa]</code> Traduction en <a href=\"http://www.kaveh.org/gnu/gpl-fa."
 "html\">farsi</a> de la GPL"
 
+#.  these translations have links other than to www.fsf.org and www.gnu.org
+#.        and <a href="http://members.tripod.com.br/RamonFlores/GNU/gpl.html">
+#.        Galician minimo</a> 
 #. type: Content of: <ul><li>
-msgid ""
-"<code>[fi]</code> <a href=\"http://www.turre.com/licenses/gpl-2.0_fi.html"
-"\">Finnish</a> translation of the GPL"
-msgstr ""
-"<code>[fi]</code> Traduction en <a href=\"http://www.turre.com/licenses/"
-"gpl_fi.php\">finnois</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[fr]</code> <a href=\"http://fsffrance.org/gpl/gpl-fr.fr.html"
-"\">French</a> translation of the GPL"
-msgstr ""
-"<code>[fr]</code> Traduction en <a href=\"http://fsffrance.org/gpl/gpl-fr.fr."
-"html\">français</a> de la GPL"
-
-#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>[lt]</code> <a href=\"http://www.autopenhosting.org/gnu/gnu_gpl.html"
+#| "\">Lithuanian</a> translation of the GPL"
 msgid ""
 "<code>[gl]</code> <a href=\"http://www.mancomun.org/GPL2_GL/gpl2_gl.txt\"> "
-"Galician</a> and <a href=\"http://members.tripod.com.br/RamonFlores/GNU/gpl."
-"html\"> Galician minimo</a> translation of the GPL"
+"Galician</a> translation of the GPL"
 msgstr ""
-"<code>[gl]</code> Traduction en <a href=\"http://www.mancomun.org/GPL2_GL/"
-"gpl2_gl.txt\">galicien</a> et en <a href=\"http://members.tripod.com.br/"
-"RamonFlores/GNU/gpl.html\">galicien minimo</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[ka]</code> <a href=\"http://aiet.qartuli.net/projects/gnu-gpl_en.php"
-"\">Georgian</a> translation of the GPL"
-msgstr ""
-"<code>[ka]</code> Traduction en <a href=\"http://aiet.qartuli.net/projects/"
-"gnu-gpl_en.php\">géorgien</a> de la GPL"
-
-#. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<code>[de]</code> <a href=\"http://www.gnu.de/gpl-ger.html\">German</a> "
-#| "translation of the GPL"
-msgid ""
-"<code>[de]</code> <a href=\"http://www.gnu.de/documents/gpl-2.0.de.html"
-"\">German</a> translation of the GPL"
-msgstr ""
-"<code>[de]</code> Traduction en <a href=\"http://www.gnu.de/gpl-ger.html"
-"\">allemand</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[el]</code> Greek translation of the GPL (<a href=\"http://stillmover."
-"tripod.com/Adana/\">1</a>)  (<a href=\"http://www.eexi.gr/?q=node/16\">2</a>)"
-msgstr ""
-"<code>[el]</code> Traduction en <a href=\"http://stillmover.tripod.com/Adana/"
-"\">grec</a> de la GPL (formats PDF et TXT)"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[he]</code> <a href=\"http://www.law.co.il/media/computer-law/gpl-"
-"hebrew.html\"> Hebrew</a> translation of the GPL"
-msgstr ""
-"<code>[he]</code> Traduction en <a href=\"http://www.law.co.il/computer-law/"
-"gpl-hebrew.html\">hébreu</a> de la GPL"
-
-#.  Link from dexxed.com is dead, Added the second working link to word 'Hungarian' above - 25Mar2011 - shailesh
-#. 	(<a href="http://www.dexxed.com/gnu/hu/">
-#. 1</a>,
-#.         <a href="http://gnu.hu/gpl.html">2</a>)
-#. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<code>[ro]</code> <a href=\"http://www.roedu.net/gplro.html\">Romanian</"
-#| "a> translation of the GPL"
-msgid ""
-"<code>[hu]</code> <a href=\"http://gnu.hu/gpl.html\">Hungarian</a> "
-"translation of the GPL"
-msgstr ""
-"<code>[ro]</code> Traduction en <a href=\"http://www.roedu.net/gplro.html"
-"\">roumain</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[id]</code> <a href=\"http://vlsm.org/etc/gpl-unofficial.id.html"
-"\">Indonesian</a> translation of the GPL"
-msgstr ""
-"<code>[id]</code> Traduction en <a href=\"http://vlsm.org/etc/gpl-unofficial."
-"id.html\">indonésien</a> de la GPL"
+"<code>[lt]</code> Traduction en <a href=\"http://www.autopenhosting.org/gnu/"
+"gnu_gpl.html\">lituanien</a> de la GPL"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -310,48 +189,6 @@ msgid ""
 msgstr ""
 "<code>[it]</code> Traduction en <a href=\"http://www.softwarelibero.it/"
 "gnudoc/gpl.it.txt\">italien</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[ja]</code> Japanese translations of the GPL (<a href=\"http://www."
-"opensource.jp/gpl/gpl.ja.html.euc-jp\">1</a>)  (<a href=\"ftp://ftp.sra.co."
-"jp/pub/gnu/local-fix/GPL2-j/\">2</a>)"
-msgstr ""
-"<code>[ja]</code> Traductions en japonais de la GPL (<a href=\"http://www."
-"opensource.jp/gpl/gpl.ja.html.euc-jp\">1</a>) (<a href=\"ftp://ftp.sra.co.jp/"
-"pub/gnu/local-fix/GPL2-j/\">2</a>)"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[ko]</code> <a href=\"http://korea.gnu.org/people/chsong/copyleft/gpl."
-"ko.html\">Korean</a> translation of the GPL"
-msgstr ""
-"<code>[ko]</code>Traduction en  <a href=\"http://korea.gnu.org/people/chsong/"
-"copyleft/gpl.ko.html\">coréen</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[lt]</code> <a href=\"http://www.autopenhosting.org/gnu/gnu_gpl.html"
-"\">Lithuanian</a> translation of the GPL"
-msgstr ""
-"<code>[lt]</code> Traduction en <a href=\"http://www.autopenhosting.org/gnu/"
-"gnu_gpl.html\">lituanien</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[mk]</code> <a href=\"http://www.slobodensoftver.org.mk/dokumenti/"
-"gnu_gpl_mk.html\">Macedonian</a> translation of the GPL"
-msgstr ""
-"<code>[mk]</code> Traduction en <a href=\"http://www.slobodensoftver.org.mk/"
-"dokumenti/gnu_gpl_mk.html\">macédonien</a>de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[nb]</code> <a href=\"http://www.joomlainorge.no/norsk-gnu-general-"
-"public-licence-gpl-v2\">Norwegian (Bokm&aring;l)</a> translation of the GPL"
-msgstr ""
-"<code>[nb]</code> Traduction en <a href=\"http://www.joomlainorge.no/norsk-"
-"gnu-general-public-licence-gpl-v2\">norvégien (Bokm&aring;l)</a> de la GPL"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -371,91 +208,26 @@ msgstr ""
 
 #. type: Content of: <ul><li>
 msgid ""
-"<code>[ru]</code> Russian translations of the GPL (<a href=\"http://www."
-"infolex.narod.ru/gpl_gnu/gplrus.html\">1</a>)  (<a href=\"http://law.bugtraq."
-"ru/freesoft/gplrus3.html\">2</a>)"
-msgstr ""
-"<code>[ru]</code> Traductions en russe de la GPL (<a href=\"http://www."
-"infolex.narod.ru/gpl_gnu/gplrus.html\">1</a>) (<a href=\"http://law.bugtraq."
-"ru/freesoft/gplrus3.html\">2</a>)"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[sr]</code> <a href=\"http://alas.matf.bg.ac.yu/~mr99164/ojl.html"
-"\">Serbian</a> translation of the GPL"
-msgstr ""
-"<code>[sr]</code> Traduction en <a href=\"http://alas.matf.bg.ac.yu/~mr99164/"
-"ojl.html\">serbe</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[es]</code> Spanish translations of the GPL (<a href=\"http://gugs."
-"sindominio.net/licencias/\">1</a> - several different translations)  (<a "
-"href=\"http://www.fsl.org.mx/index.pl/fsl/artculos/articulosmb2/licencias/"
-"licencia-gpl-espaolmxico\">2</a> - Spanish Mexican)"
-msgstr ""
-"<code>[es]</code> Traductions en espagnol de la GPL (<a href=\"http://gugs."
-"sindominio.net/licencias/\">1</a> - plusieurs traductions) (<a href=\"http://"
-"www.fsl.org.mx/index.pl/fsl/artculos/articulosmb2/licencias/licencia-gpl-"
-"espaolmxico\">2</a> - espagnol mexicain)"
-
-#. type: Content of: <ul><li>
-msgid ""
 "<code>[sv]</code> <a href=\"http://danielnylander.se/gpl/\">Swedish</a> "
 "translation of the GPL"
 msgstr ""
 "<code>[sv]</code> Traduction en <a href=\"http://danielnylander.se/gpl/"
 "\">suédois</a>de la GPL"
 
+#.  these translations have links other than to www.fsf.org and www.gnu.org
+#.  (<a href="http://www.belgeler.org/howto/gpl.html">
+#. 2</a>)
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>[da]</code> <a href=\"http://www.fundanemt.com/gpl_da.html"
+#| "\">Danish</a> translation of the GPL"
 msgid ""
-"<code>[th]</code> <a href=\"http://developer.thai.net/gpl/\">Thai</a> "
-"translation of the GPL"
-msgstr ""
-"<code>[th]</code> Traduction en <a href=\"http://developer.thai.net/gpl/"
-"\">thaï</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[tr]</code> Turkish translations of the GPL (<a href=\"http://www."
-"arayan.com/da/gpl_tr.html\">1</a>) (<a href=\"http://www.belgeler.org/howto/"
-"gpl.html\">2</a>)"
-msgstr ""
-"<code>[tr]</code> Traduction en turc de la GPL (<a href=\"http://www.arayan."
-"com/da/gpl_tr.html\">1</a>) (<a href=\"http://www.belgeler.org/howto/gpl.html"
-"\">2</a>)"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[uk]</code> <a href=\"http://www.linux.kiev.ua/ua/devel/licenses/gnu-"
-"gpl2/\">Ukranian</a> translation of the GPL"
-msgstr ""
-"<code>[uk]</code> Traduction en <a href=\"http://www.linux.kiev.ua/ua/devel/"
-"licenses/gnu-gpl/\">ukrainien</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[vi]</code> <a href=\"http://vi.wikisource.org/wiki/GPL\">Vietnamese</"
+"<code>[tr]</code> <a href=\"http://www.arayan.com/da/gpl_tr.html\">Turkish</"
 "a> translation of the GPL"
 msgstr ""
-"<code>[vi]</code> Traduction en <a href=\"http://vi.wikisource.org/wiki/GPL"
-"\">vietnamien</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[cy]</code> <a href=\"http://www.hebffinia.com/gpl_cymraeg/\">Welsh</"
-"a> translation of the GPL"
-msgstr ""
-"<code>[cy]</code> Traduction en <a href=\"http://www.hebffinia.com/"
-"gpl_cymraeg/\">gallois</a> de la GPL"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>[zh-cn]</code> <a href=\"http://gnu.freehostingguru.com/gpl/\">Chinese "
-"(Simplified)</a> translation of the GPL"
-msgstr ""
-"<code>[zh-cn]</code> Traduction en <a href=\"http://gnu.freehostingguru.com/"
-"gpl/\">chinois (simplifié)</a> de la GPL"
+"<code>[da]</code> Traduction en <a href=\"http://www.fundanemt.com/gpl_da."
+"html\">danois</a> de la GPL"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -535,6 +307,233 @@ msgstr "Dernière mise à jour&nbsp;:"
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+#, fuzzy
+#~| msgid ""
+#~| "<code>[af]</code> Afrikaans translation of the GPL (<a href=\"http://www."
+#~| "poespas.co.za/wiki/index.php/GNU_Algemene_Publieke_Lisensie\">1</a>)  "
+#~| "(<a href=\"http://www.leuce.com/translate/GNU-GPL-af.txt\">2</a>)"
+#~ msgid ""
+#~ "<code>[af]</code> <a href=\"http://www.poespas.co.za/wiki/index.php/"
+#~ "GNU_Algemene_Publieke_Lisensie\">Afrikaans</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[af]</code> Traduction en afrikaans de la GPL (<a href=\"http://www."
+#~ "poespas.co.za/wiki/index.php/GNU_Algemene_Publieke_Lisensie\">1</a>)  (<a "
+#~ "href=\"http://www.leuce.com/translate/GNU-GPL-af.txt\">2</a>)"
+
+#~ msgid ""
+#~ "<code>[sq]</code> <a href=\"http://www.alblinux.net/dok/GPL.html"
+#~ "\">Albanian</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[sq]</code> Traduction en <a href=\"http://www.alblinux.net/dok/GPL."
+#~ "html\">albanais</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[ar]</code> <a href=\"http://www.linuxfuture.org/download/"
+#~ "Arabic_GPL_2.0.htm\">Arabic</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[ar]</code> Traduction en <a href=\"http://www.linuxfuture.org/"
+#~ "download/Arabic_GPL_2.0.htm\">arabe</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[cs]</code> Czech translations of the GPL (<a href=\"http://staff."
+#~ "cesnet.cz/~lhotka/gnugpl-cz.html\">1</a>)  (<a href=\"http://gnu.cz/"
+#~ "article.php?id_art=32\">2</a>)"
+#~ msgstr ""
+#~ "<code>[cs]</code> Traductions en tchèque de la GPL (<a href=\"http://"
+#~ "staff.cesnet.cz/~lhotka/gnugpl-cz.html\">1</a>) (<a href=\"http://gnu.cz/"
+#~ "article.php?id_art=32\">2</a>)"
+
+#~ msgid ""
+#~ "<code>[nl]</code> <a href=\"http://users.skynet.be/xterm/gpld.txt"
+#~ "\">Dutch</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[nl]</code> Traduction en <a href=\"http://users.skynet.be/xterm/"
+#~ "gpld.txt\">néerlandais</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[eo]</code> <a href=\"http://www.esperanto.mv.ru/Cetero/gpl.html"
+#~ "\">Esperanto</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[eo]</code> Traduction en <a href=\"http://www.esperanto.mv.ru/"
+#~ "Cetero/gpl.html\">esperanto</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[fi]</code> <a href=\"http://www.turre.com/licenses/gpl-2.0_fi.html"
+#~ "\">Finnish</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[fi]</code> Traduction en <a href=\"http://www.turre.com/licenses/"
+#~ "gpl_fi.php\">finnois</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[fr]</code> <a href=\"http://fsffrance.org/gpl/gpl-fr.fr.html"
+#~ "\">French</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[fr]</code> Traduction en <a href=\"http://fsffrance.org/gpl/gpl-fr."
+#~ "fr.html\">français</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[gl]</code> <a href=\"http://www.mancomun.org/GPL2_GL/gpl2_gl.txt"
+#~ "\"> Galician</a> and <a href=\"http://members.tripod.com.br/RamonFlores/"
+#~ "GNU/gpl.html\"> Galician minimo</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[gl]</code> Traduction en <a href=\"http://www.mancomun.org/GPL2_GL/"
+#~ "gpl2_gl.txt\">galicien</a> et en <a href=\"http://members.tripod.com.br/"
+#~ "RamonFlores/GNU/gpl.html\">galicien minimo</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[ka]</code> <a href=\"http://aiet.qartuli.net/projects/gnu-gpl_en."
+#~ "php\">Georgian</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[ka]</code> Traduction en <a href=\"http://aiet.qartuli.net/"
+#~ "projects/gnu-gpl_en.php\">géorgien</a> de la GPL"
+
+#, fuzzy
+#~| msgid ""
+#~| "<code>[de]</code> <a href=\"http://www.gnu.de/gpl-ger.html\">German</a> "
+#~| "translation of the GPL"
+#~ msgid ""
+#~ "<code>[de]</code> <a href=\"http://www.gnu.de/documents/gpl-2.0.de.html"
+#~ "\">German</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[de]</code> Traduction en <a href=\"http://www.gnu.de/gpl-ger.html"
+#~ "\">allemand</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[el]</code> Greek translation of the GPL (<a href=\"http://"
+#~ "stillmover.tripod.com/Adana/\">1</a>)  (<a href=\"http://www.eexi.gr/?"
+#~ "q=node/16\">2</a>)"
+#~ msgstr ""
+#~ "<code>[el]</code> Traduction en <a href=\"http://stillmover.tripod.com/"
+#~ "Adana/\">grec</a> de la GPL (formats PDF et TXT)"
+
+#~ msgid ""
+#~ "<code>[he]</code> <a href=\"http://www.law.co.il/media/computer-law/gpl-"
+#~ "hebrew.html\"> Hebrew</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[he]</code> Traduction en <a href=\"http://www.law.co.il/computer-"
+#~ "law/gpl-hebrew.html\">hébreu</a> de la GPL"
+
+#, fuzzy
+#~| msgid ""
+#~| "<code>[ro]</code> <a href=\"http://www.roedu.net/gplro.html\">Romanian</"
+#~| "a> translation of the GPL"
+#~ msgid ""
+#~ "<code>[hu]</code> <a href=\"http://gnu.hu/gpl.html\">Hungarian</a> "
+#~ "translation of the GPL"
+#~ msgstr ""
+#~ "<code>[ro]</code> Traduction en <a href=\"http://www.roedu.net/gplro.html"
+#~ "\">roumain</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[id]</code> <a href=\"http://vlsm.org/etc/gpl-unofficial.id.html"
+#~ "\">Indonesian</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[id]</code> Traduction en <a href=\"http://vlsm.org/etc/gpl-"
+#~ "unofficial.id.html\">indonésien</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[ja]</code> Japanese translations of the GPL (<a href=\"http://www."
+#~ "opensource.jp/gpl/gpl.ja.html.euc-jp\">1</a>)  (<a href=\"ftp://ftp.sra."
+#~ "co.jp/pub/gnu/local-fix/GPL2-j/\">2</a>)"
+#~ msgstr ""
+#~ "<code>[ja]</code> Traductions en japonais de la GPL (<a href=\"http://www."
+#~ "opensource.jp/gpl/gpl.ja.html.euc-jp\">1</a>) (<a href=\"ftp://ftp.sra.co."
+#~ "jp/pub/gnu/local-fix/GPL2-j/\">2</a>)"
+
+#~ msgid ""
+#~ "<code>[ko]</code> <a href=\"http://korea.gnu.org/people/chsong/copyleft/"
+#~ "gpl.ko.html\">Korean</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[ko]</code>Traduction en  <a href=\"http://korea.gnu.org/people/"
+#~ "chsong/copyleft/gpl.ko.html\">coréen</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[mk]</code> <a href=\"http://www.slobodensoftver.org.mk/dokumenti/"
+#~ "gnu_gpl_mk.html\">Macedonian</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[mk]</code> Traduction en <a href=\"http://www.slobodensoftver.org."
+#~ "mk/dokumenti/gnu_gpl_mk.html\">macédonien</a>de la GPL"
+
+#~ msgid ""
+#~ "<code>[nb]</code> <a href=\"http://www.joomlainorge.no/norsk-gnu-general-"
+#~ "public-licence-gpl-v2\">Norwegian (Bokm&aring;l)</a> translation of the "
+#~ "GPL"
+#~ msgstr ""
+#~ "<code>[nb]</code> Traduction en <a href=\"http://www.joomlainorge.no/"
+#~ "norsk-gnu-general-public-licence-gpl-v2\">norvégien (Bokm&aring;l)</a> de "
+#~ "la GPL"
+
+#~ msgid ""
+#~ "<code>[ru]</code> Russian translations of the GPL (<a href=\"http://www."
+#~ "infolex.narod.ru/gpl_gnu/gplrus.html\">1</a>)  (<a href=\"http://law."
+#~ "bugtraq.ru/freesoft/gplrus3.html\">2</a>)"
+#~ msgstr ""
+#~ "<code>[ru]</code> Traductions en russe de la GPL (<a href=\"http://www."
+#~ "infolex.narod.ru/gpl_gnu/gplrus.html\">1</a>) (<a href=\"http://law."
+#~ "bugtraq.ru/freesoft/gplrus3.html\">2</a>)"
+
+#~ msgid ""
+#~ "<code>[sr]</code> <a href=\"http://alas.matf.bg.ac.yu/~mr99164/ojl.html"
+#~ "\">Serbian</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[sr]</code> Traduction en <a href=\"http://alas.matf.bg.ac.yu/"
+#~ "~mr99164/ojl.html\">serbe</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[es]</code> Spanish translations of the GPL (<a href=\"http://gugs."
+#~ "sindominio.net/licencias/\">1</a> - several different translations)  (<a "
+#~ "href=\"http://www.fsl.org.mx/index.pl/fsl/artculos/articulosmb2/licencias/"
+#~ "licencia-gpl-espaolmxico\">2</a> - Spanish Mexican)"
+#~ msgstr ""
+#~ "<code>[es]</code> Traductions en espagnol de la GPL (<a href=\"http://"
+#~ "gugs.sindominio.net/licencias/\">1</a> - plusieurs traductions) (<a href="
+#~ "\"http://www.fsl.org.mx/index.pl/fsl/artculos/articulosmb2/licencias/"
+#~ "licencia-gpl-espaolmxico\">2</a> - espagnol mexicain)"
+
+#~ msgid ""
+#~ "<code>[th]</code> <a href=\"http://developer.thai.net/gpl/\">Thai</a> "
+#~ "translation of the GPL"
+#~ msgstr ""
+#~ "<code>[th]</code> Traduction en <a href=\"http://developer.thai.net/gpl/"
+#~ "\">thaï</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[tr]</code> Turkish translations of the GPL (<a href=\"http://www."
+#~ "arayan.com/da/gpl_tr.html\">1</a>) (<a href=\"http://www.belgeler.org/"
+#~ "howto/gpl.html\">2</a>)"
+#~ msgstr ""
+#~ "<code>[tr]</code> Traduction en turc de la GPL (<a href=\"http://www."
+#~ "arayan.com/da/gpl_tr.html\">1</a>) (<a href=\"http://www.belgeler.org/"
+#~ "howto/gpl.html\">2</a>)"
+
+#~ msgid ""
+#~ "<code>[uk]</code> <a href=\"http://www.linux.kiev.ua/ua/devel/licenses/"
+#~ "gnu-gpl2/\">Ukranian</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[uk]</code> Traduction en <a href=\"http://www.linux.kiev.ua/ua/"
+#~ "devel/licenses/gnu-gpl/\">ukrainien</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[vi]</code> <a href=\"http://vi.wikisource.org/wiki/GPL"
+#~ "\">Vietnamese</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[vi]</code> Traduction en <a href=\"http://vi.wikisource.org/wiki/"
+#~ "GPL\">vietnamien</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[cy]</code> <a href=\"http://www.hebffinia.com/gpl_cymraeg/"
+#~ "\">Welsh</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[cy]</code> Traduction en <a href=\"http://www.hebffinia.com/"
+#~ "gpl_cymraeg/\">gallois</a> de la GPL"
+
+#~ msgid ""
+#~ "<code>[zh-cn]</code> <a href=\"http://gnu.freehostingguru.com/gpl/"
+#~ "\">Chinese (Simplified)</a> translation of the GPL"
+#~ msgstr ""
+#~ "<code>[zh-cn]</code> Traduction en <a href=\"http://gnu.freehostingguru."
+#~ "com/gpl/\">chinois (simplifié)</a> de la GPL"
 
 #, fuzzy
 #~| msgid ""
