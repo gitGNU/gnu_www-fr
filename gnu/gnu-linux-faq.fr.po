@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnu-linux-faq.html\n"
 "POT-Creation-Date: 2011-05-24 20:27-0300\n"
-"PO-Revision-Date: 2009-10-28 16:48+0100\n"
-"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"PO-Revision-Date: 2011-07-01 01:06+0200\n"
+"Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -69,7 +69,7 @@ msgid ""
 "people call the system &ldquo;Linux&rdquo;?</a>"
 msgstr ""
 "<a href=\"#howerror\" id=\"TOChowerror\">D'où vient le fait que la plupart "
-"des gens appellent le système «&nbsp;Linux&nbsp;»?</a>"
+"des gens appellent le système «&nbsp;Linux&nbsp;»&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -77,7 +77,7 @@ msgid ""
 "Linux&rdquo; instead of &ldquo;Linux&rdquo;?</a>"
 msgstr ""
 "<a href=\"#always\" id=\"TOCalways\">Devrions-nous toujours utiliser le nom "
-"«&nbsp;GNU/Linux&nbsp;» à la place de «&nbsp;Linux&nbsp;»?</a>"
+"«&nbsp;GNU/Linux&nbsp;» à la place de «&nbsp;Linux&nbsp;»&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -132,7 +132,8 @@ msgid ""
 msgstr ""
 "<a href=\"#windows\" id=\"TOCwindows\">L'abréviation de «&nbsp;GNU/"
 "Linux&nbsp;» en «&nbsp;Linux&nbsp;» n'est-elle pas simplement comme "
-"l'abréviation de «&nbsp;Microsoft Windows&nbsp;» en «&nbsp;Windows&nbsp;»?</a>"
+"l'abréviation de «&nbsp;Microsoft Windows&nbsp;» en «&nbsp;"
+"Windows&nbsp;»&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -195,11 +196,6 @@ msgstr ""
 "que c'est trop long. Pourquoi ne pas recommander un nom plus court&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"#justgnu\" id=\"TOCjustgnu\">Since Linux is a secondary "
-#| "contribution, would it be false to the facts to call the system simply "
-#| "\"GNU\"?</a>"
 msgid ""
 "<a href=\"#justgnu\" id=\"TOCjustgnu\">Since Linux is a secondary "
 "contribution, would it be false to the facts to call the system simply "
@@ -207,7 +203,7 @@ msgid ""
 msgstr ""
 "<a href=\"#justgnu\" id=\"TOCjustgnu\">Puisque Linux est une contribution "
 "secondaire serait-il incorrect dans les faits d'appeler simplement le "
-"système «&nbsp;GNU&nbsp;»?</a>"
+"système «&nbsp;GNU&nbsp;»&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -255,11 +251,6 @@ msgstr ""
 "système de nos jours, alors pourquoi le mentionnerait-on&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"#manycompanies\" id=\"TOCmanycompanies\">Many companies "
-#| "contributed to the system as it is today; doesn't that mean we ought to "
-#| "call it GNU/Redhat/Novell/Linux?</a>"
 msgid ""
 "<a href=\"#manycompanies\" id=\"TOCmanycompanies\">Many companies "
 "contributed to the system as it is today; doesn't that mean we ought to call "
@@ -267,7 +258,7 @@ msgid ""
 msgstr ""
 "<a href=\"#manycompanies\" id=\"TOCmanycompanies\">Beaucoup d'entreprises "
 "ont contribué au système tel qu'il est actuellement, cela ne signifie-t-il "
-"pas que nous devrions l'appeler GNU/Redhat/Novell/Linux?</a>"
+"pas que nous devrions l'appeler GNU/Red&nbsp;Hat/Novell/Linux?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -275,7 +266,7 @@ msgid ""
 "Linux&rdquo; instead of &ldquo;GNU Linux&rdquo;?</a>"
 msgstr ""
 "<a href=\"#whyslash\" id=\"TOCwhyslash\">Pourquoi écrivez-vous «&nbsp;GNU/"
-"Linux&nbsp;» au lieu de «&nbsp;GNU Linux&nbsp;»?</a>"
+"Linux&nbsp;» au lieu de «&nbsp;GNU Linux&nbsp;»&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -283,7 +274,7 @@ msgid ""
 "than &ldquo;Linux/GNU&rdquo;?</a>"
 msgstr ""
 "<a href=\"#whyorder\" id=\"TOCwhyorder\">Pourquoi «&nbsp;GNU/Linux&nbsp;» "
-"plutôt que «&nbsp;Linux/GNU&nbsp;»?</a>"
+"plutôt que «&nbsp;Linux/GNU&nbsp;»&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -303,7 +294,7 @@ msgstr ""
 "<a href=\"#distronames1\" id=\"TOCdistronames1\">Le nom officiel de ma "
 "distribution est «&nbsp;Foobar Linux&nbsp;»&nbsp;: cela ne pose-t-il pas un "
 "problème de l'appeler par n'importe quel autre nom que juste «&nbsp;"
-"Linux&nbsp;»?</a>"
+"Linux&nbsp;»&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -487,25 +478,20 @@ msgstr ""
 "ce légitime de renommer le système d'exploitation&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "Isn't it wrong to force people to call the system &ldquo;GNU/Linux&rdquo;?"
 msgid ""
 "<a href=\"#force\">Isn't it wrong to force people to call the system &ldquo;"
 "GNU/Linux&rdquo;?</a>"
 msgstr ""
-"N'est-ce pas mal de forcer les gens à appeler le système «&nbsp;GNU/"
-"Linux&nbsp;»?"
+"<a href=\"#force\">N'est-ce pas mal de forcer les gens à appeler le système "
+"«&nbsp;GNU/Linux&nbsp;»&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "Why not sue people who call the whole system &ldquo;Linux&rdquo;?"
 msgid ""
 "<a href=\"#whynotsue\">Why not sue people who call the whole system &ldquo;"
 "Linux&rdquo;?</a>"
 msgstr ""
-"Pourquoi ne pas assigner en justice les personnes qui appellent le système "
-"entier «&nbsp;Linux&nbsp;»?"
+"<a href=\"#whynotsue\">Pourquoi ne pas assigner en justice les personnes qui "
+"appellent le système entier «&nbsp;Linux&nbsp;»&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -640,17 +626,14 @@ msgstr ""
 "html\">aide le public à reconnaître l'importance pratique de ces idéaux</a>."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "How did it come about that most people call the system &ldquo;"
-#| "Linux&rdquo;?"
 msgid ""
 "How did it come about that most people call the system &ldquo;Linux&rdquo;? "
 "<span class=\"anchor-reference-id\">(<a href=\"#howerror\">#howerror</a>)</"
 "span>"
 msgstr ""
 "D'où vient le fait que la plupart des gens appellent le système «&nbsp;"
-"Linux&nbsp;»?"
+"Linux&nbsp;»&nbsp;? <span class=\"anchor-reference-id\">(<a href=\"#howerror"
+"\">#howerror</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -707,16 +690,13 @@ msgstr ""
 "pour justifier le nom qu'ils ont l'habitude d'utiliser."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Should we always say &ldquo;GNU/Linux&rdquo; instead of &ldquo;"
-#| "Linux&rdquo;?"
 msgid ""
 "Should we always say &ldquo;GNU/Linux&rdquo; instead of &ldquo;Linux&rdquo;? "
 "<span class=\"anchor-reference-id\">(<a href=\"#always\">#always</a>)</span>"
 msgstr ""
 "Devrions-nous toujours utiliser le nom «&nbsp;GNU/Linux&nbsp;» à la place de "
-"«&nbsp;Linux&nbsp;»?"
+"«&nbsp;Linux&nbsp;»&nbsp;? <span class=\"anchor-reference-id\">(<a href="
+"\"#always\">#always</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -745,14 +725,14 @@ msgstr ""
 "vous évitez l'ambiguïté."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "Would Linux have achieved the same success if there had been no GNU?"
 msgid ""
 "Would Linux have achieved the same success if there had been no GNU? <span "
 "class=\"anchor-reference-id\">(<a href=\"#linuxalone\">#linuxalone</a>)</"
 "span>"
 msgstr ""
-"Est-ce que Linux aurait eu le même succès s'il n'y avait pas eu GNU&nbsp;?"
+"Est-ce que Linux aurait eu le même succès s'il n'y avait pas eu GNU&nbsp;? "
+"class=\"anchor-reference-id\">(<a href=\"#linuxalone\">#linuxalone</a>)</"
+"span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -797,17 +777,14 @@ msgstr ""
 "libre&nbsp;: GNU/Linux."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Wouldn't it be better for the community if you did not divide people with "
-#| "this request?"
 msgid ""
 "Wouldn't it be better for the community if you did not divide people with "
 "this request? <span class=\"anchor-reference-id\">(<a href=\"#divide"
 "\">#divide</a>)</span>"
 msgstr ""
 "Ne serait-il pas mieux pour la communauté que vous ne divisiez pas les gens "
-"avec cette demande&nbsp;?"
+"avec cette demande&nbsp;? <span class=\"anchor-reference-id\">(<a href="
+"\"#divide\">#divide</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -897,10 +874,6 @@ msgstr ""
 "sera pas facile) ou que nous soyons complètement vaincus (espérons que non)."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Doesn't the GNU project support an individual's free speech rights to "
-#| "call the system by any name that individual chooses?"
 msgid ""
 "Doesn't the GNU project support an individual's free speech rights to call "
 "the system by any name that individual chooses? <span class=\"anchor-"
@@ -908,7 +881,8 @@ msgid ""
 msgstr ""
 "Le projet GNU ne soutient-il pas le droit à la liberté d'expression de "
 "chaque individu d'appeler le système par n'importe quel nom qu'il "
-"choisit&nbsp;?"
+"choisit&nbsp;? <span class=\"anchor-reference-id\">(<a href=\"#freespeech"
+"\">#freespeech</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -925,17 +899,15 @@ msgstr ""
 "valeurs de liberté ont fait naître ce système."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Since everyone knows GNU's role in developing the system, doesn't the "
-#| "&ldquo;GNU/&rdquo; in the name go without saying?"
 msgid ""
 "Since everyone knows GNU's role in developing the system, doesn't the &ldquo;"
 "GNU/&rdquo; in the name go without saying? <span class=\"anchor-reference-id"
 "\">(<a href=\"#everyoneknows\">#everyoneknows</a>)</span>"
 msgstr ""
 "Puisque tout le monde connaît le rôle de GNU dans le développement du "
-"système, le «&nbsp;GNU/&nbsp;» dans le nom ne va-t-il pas sans dire&nbsp;?"
+"système, le «&nbsp;GNU/&nbsp;» dans le nom ne va-t-il pas sans dire&nbsp;? "
+"<span class=\"anchor-reference-id\">(<a href=\"#everyoneknows"
+"\">#everyoneknows</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -981,17 +953,14 @@ msgstr ""
 "rôle du projet GNU dans telle ou telle activité, mais pas de celui de GNU."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Since I know the role of GNU in this system, why does it matter what name "
-#| "I use?"
 msgid ""
 "Since I know the role of GNU in this system, why does it matter what name I "
 "use? <span class=\"anchor-reference-id\">(<a href=\"#everyoneknows2"
 "\">#everyoneknows2</a>)</span>"
 msgstr ""
 "Puisque je connais le rôle de GNU dans ce système, pourquoi le nom que "
-"j'utilise a-t-il une importance&nbsp;?"
+"j'utilise a-t-il une importance&nbsp;? <span class=\"anchor-reference-id\">"
+"(<a href=\"#everyoneknows2\">#everyoneknows2</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1007,10 +976,6 @@ msgstr ""
 "leur dites pas, qui le fera&nbsp;?"
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Isn't shortening &ldquo;GNU/Linux&rdquo; to &ldquo;Linux&rdquo; just like "
-#| "shortening &ldquo;Microsoft Windows&rdquo; to &ldquo;Windows&rdquo;?"
 msgid ""
 "Isn't shortening &ldquo;GNU/Linux&rdquo; to &ldquo;Linux&rdquo; just like "
 "shortening &ldquo;Microsoft Windows&rdquo; to &ldquo;Windows&rdquo;? <span "
@@ -1018,7 +983,8 @@ msgid ""
 msgstr ""
 "L'abréviation de «&nbsp;GNU/Linux&nbsp;» en «&nbsp;Linux&nbsp;» n'est-elle pas "
 "simplement comme l'abréviation de «&nbsp;Microsoft Windows&nbsp;» en «&nbsp;"
-"Windows&nbsp;»?"
+"Windows&nbsp;»&nbsp;? <span class=\"anchor-reference-id\">(<a href=\"#windows"
+"\">#windows</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1029,14 +995,6 @@ msgstr ""
 "l'abréviation est trompeuse."
 
 #. type: Content of: <dl><dd><p>
-#, fuzzy
-#| msgid ""
-#| "Most everyone in developed countries really does know that the &ldquo;"
-#| "Windows&rdquo; system is made by Microsoft, so shortening &ldquo;"
-#| "Microsoft Windows&rdquo; to &ldquo;Windows&rdquo; does not mislead anyone "
-#| "as to that system's nature and origin.  Shortening &ldquo;GNU/"
-#| "Linux&rdquo; to &ldquo;Linux&rdquo; does give the wrong idea of where the "
-#| "system comes from."
 msgid ""
 "Almost everyone in developed countries really does know that the &ldquo;"
 "Windows&rdquo; system is made by Microsoft, so shortening &ldquo;Microsoft "
@@ -1060,15 +1018,13 @@ msgstr ""
 "d'exploitation."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Isn't GNU a collection of programming tools that were included in Linux?"
 msgid ""
 "Isn't GNU a collection of programming tools that were included in Linux? "
 "<span class=\"anchor-reference-id\">(<a href=\"#tools\">#tools</a>)</span>"
 msgstr ""
 "Est-ce que GNU n'est pas une bibliothèque d'outils de programmation qui a "
-"été intégrée dans Linux&nbsp;?"
+"été intégrée dans Linux&nbsp;? <span class=\"anchor-reference-id\">(<a href="
+"\"#tools\">#tools</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1116,13 +1072,13 @@ msgstr ""
 "GNUCash, GNU Chess et GNOME pour le système GNU."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "What is the difference between an operating system and a kernel?"
 msgid ""
 "What is the difference between an operating system and a kernel? <span class="
 "\"anchor-reference-id\">(<a href=\"#osvskernel\">#osvskernel</a>)</span>"
 msgstr ""
-"Quelle est la différence entre un système d'exploitation et un noyau&nbsp;?"
+"Quelle est la différence entre un système d'exploitation et un noyau&nbsp;? "
+"<span class=\"anchor-reference-id\">(<a href=\"#osvskernel\">#osvskernel</a>)"
+"</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1203,17 +1159,15 @@ msgstr ""
 "parlerez de distributions du système GNU/Linux."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "The kernel of a system is like the foundation of a house.  How can a "
-#| "house be almost complete when it doesn't have a foundation?"
 msgid ""
 "The kernel of a system is like the foundation of a house.  How can a house "
 "be almost complete when it doesn't have a foundation? <span class=\"anchor-"
 "reference-id\">(<a href=\"#house\">#house</a>)</span>"
 msgstr ""
 "Le noyau d'un système est comme les fondations d'une maison. Comment une "
-"maison peut-elle être presque terminée quand elle n'a pas de fondation&nbsp;?"
+"maison peut-elle être presque terminée quand elle n'a pas de "
+"fondation&nbsp;? <span class=\"anchor-reference-id\">(<a href=\"#house"
+"\">#house</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1269,32 +1223,28 @@ msgstr ""
 "un rôle comparable à celui du cerveau humain."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "Isn't writing the kernel most of the work in an operating system?"
 msgid ""
 "Isn't writing the kernel most of the work in an operating system? <span "
 "class=\"anchor-reference-id\">(<a href=\"#kernelmost\">#kernelmost</a>)</"
 "span>"
 msgstr ""
 "L'écriture du noyau n'est-elle pas le plus gros travail dans un système "
-"d'exploitation&nbsp;?"
+"d'exploitation&nbsp;? <span class=\"anchor-reference-id\">(<a href="
+"\"#kernelmost\">#kernelmost</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid "No, many components take a lot of work."
 msgstr "Non, beaucoup de composants requièrent beaucoup de travail."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "We're calling the whole system after the kernel, Linux.  Isn't it normal "
-#| "to name an operating system after a kernel?"
 msgid ""
 "We're calling the whole system after the kernel, Linux.  Isn't it normal to "
 "name an operating system after a kernel? <span class=\"anchor-reference-id\">"
 "(<a href=\"#afterkernel\">#afterkernel</a>)</span>"
 msgstr ""
 "Nous nommons le système entier d'après son noyau, Linux. N'est-il pas normal "
-"d'appeler un système d'exploitation d'après son noyau&nbsp;?"
+"d'appeler un système d'exploitation d'après son noyau&nbsp;? <span class="
+"\"anchor-reference-id\">(<a href=\"#afterkernel\">#afterkernel</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1327,17 +1277,14 @@ msgstr ""
 "ou en écrivant «&nbsp;le noyau, Linux&nbsp;» ou «&nbsp;Linux, le noyau.&nbsp;»"
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "The problem with &ldquo;GNU/Linux&rdquo; is that it is too long.  How "
-#| "about recommending a shorter name?"
 msgid ""
 "The problem with &ldquo;GNU/Linux&rdquo; is that it is too long.  How about "
 "recommending a shorter name? <span class=\"anchor-reference-id\">(<a href="
 "\"#long\">#long</a>)</span>"
 msgstr ""
 "Le problème avec «&nbsp;GNU/Linux&nbsp;» est que c'est trop long. Pourquoi ne "
-"pas recommander un nom plus court&nbsp;?"
+"pas recommander un nom plus court&nbsp;? <span class=\"anchor-reference-id\">"
+"(<a href=\"#long\">#long</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1358,17 +1305,14 @@ msgstr ""
 "nous l'appelons «&nbsp;GNU/Linux&nbsp;» pour les raisons données ci-dessous."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Since Linux is a secondary contribution, would it be false to the facts "
-#| "to call the system simply &ldquo;GNU&rdquo;?"
 msgid ""
 "Since Linux is a secondary contribution, would it be false to the facts to "
 "call the system simply &ldquo;GNU&rdquo;? <span class=\"anchor-reference-id"
 "\">(<a href=\"#justgnu\">#justgnu</a>)</span>"
 msgstr ""
 "Puisque Linux est une contribution secondaire serait-il incorrect dans les "
-"faits d'appeler simplement le système «&nbsp;GNU&nbsp;»?"
+"faits d'appeler simplement le système «&nbsp;GNU&nbsp;»&nbsp;? <span class="
+"\"anchor-reference-id\">(<a href=\"#justgnu\">#justgnu</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1423,12 +1367,6 @@ msgstr ""
 "parler."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "I would have to pay a fee if I use &ldquo;Linux&rdquo; in the name of a "
-#| "product, and that would also apply if I say &ldquo;GNU/Linux&rdquo;.  Is "
-#| "it wrong if I use &ldquo;GNU&rdquo; without &ldquo;Linux&rdquo;, to save "
-#| "the fee?"
 msgid ""
 "I would have to pay a fee if I use &ldquo;Linux&rdquo; in the name of a "
 "product, and that would also apply if I say &ldquo;GNU/Linux&rdquo;.  Is it "
@@ -1439,7 +1377,8 @@ msgstr ""
 "J'aurais besoin de payer une taxe si j'utilisais «&nbsp;Linux&nbsp;» dans le "
 "nom d'un produit, et ce serait aussi le cas si j'utilisais «&nbsp;GNU/"
 "Linux&nbsp;». Est-ce un problème d'utiliser«&nbsp;GNU&nbsp;» sans «&nbsp;"
-"Linux&nbsp;», pour éviter la taxe&nbsp;?"
+"Linux&nbsp;», pour éviter la taxe&nbsp;? <span class=\"anchor-reference-id\">"
+"(<a href=\"#trademarkfee\">#trademarkfee</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1462,12 +1401,6 @@ msgstr ""
 "critiquerons pas."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Many other projects contributed to the system as it is today; it includes "
-#| "TeX, X11, Apache, Perl, and many more programs.  Don't your arguments "
-#| "imply we have to give them credit too? (But that would lead to a name so "
-#| "long it is absurd.)"
 msgid ""
 "Many other projects contributed to the system as it is today; it includes "
 "TeX, X11, Apache, Perl, and many more programs.  Don't your arguments imply "
@@ -1479,7 +1412,8 @@ msgstr ""
 "actuellement&nbsp;: cela inclut TeX, X11, Apache, Perl, et beaucoup d'autres "
 "programmes. Est-ce que votre argument n'implique pas que nous devrions leur "
 "donner de la reconnaissance également&nbsp;? (Mais cela mènerait à un nom "
-"aussi long qu'absurde)."
+"aussi long qu'absurde). <span class=\"anchor-reference-id\">(<a href=\"#many"
+"\">#many</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1537,10 +1471,6 @@ msgstr ""
 "secondaire (Linux) en omettant la contribution principale (GNU)."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Many other projects contributed to the system as it is today, but they "
-#| "don't insist on calling it XYZ/Linux.  Why should we treat GNU specially?"
 msgid ""
 "Many other projects contributed to the system as it is today, but they don't "
 "insist on calling it XYZ/Linux.  Why should we treat GNU specially? <span "
@@ -1548,7 +1478,8 @@ msgid ""
 msgstr ""
 "Beaucoup d'autre projets ont contribué au système tel qu'il est "
 "actuellement, mais ils n'insistent pas à demander qu'on l'appelle XYZ/Linux. "
-"Pourquoi devrait-on traiter GNU spécialement&nbsp;?"
+"Pourquoi devrait-on traiter GNU spécialement&nbsp;? <span class=\"anchor-"
+"reference-id\">(<a href=\"#others\">#others</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1573,17 +1504,14 @@ msgstr ""
 "cadre sur lequel le système a été bâti."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "GNU is a small fraction of the system nowadays, so why should we mention "
-#| "it?"
 msgid ""
 "GNU is a small fraction of the system nowadays, so why should we mention it? "
 "<span class=\"anchor-reference-id\">(<a href=\"#allsmall\">#allsmall</a>)</"
 "span>"
 msgstr ""
 "GNU est une petite fraction du système de nos jours, alors pourquoi le "
-"mentionnerait-on&nbsp;?"
+"mentionnerait-on&nbsp;? <span class=\"anchor-reference-id\">(<a href="
+"\"#allsmall\">#allsmall</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1609,18 +1537,15 @@ msgstr ""
 "Linux&nbsp;» reste approprié."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Many companies contributed to the system as it is today; doesn't that "
-#| "mean we ought to call it GNU/Redhat/Novell/Linux?"
 msgid ""
 "Many companies contributed to the system as it is today; doesn't that mean "
 "we ought to call it GNU/Red&nbsp;Hat/Novell/Linux? <span class=\"anchor-"
 "reference-id\">(<a href=\"#manycompanies\">#manycompanies</a>)</span>"
 msgstr ""
 "Beaucoup d'entreprises ont contribué au système tel qu'il est actuellement, "
-"cela ne signifie-t-il pas que nous devrions l'appeler GNU/Redhat/Novell/"
-"Linux&nbsp;?"
+"cela ne signifie-t-il pas que nous devrions l'appeler GNU/Red&nbsp;Hat/"
+"Novell/Linux&nbsp;? <span class=\"anchor-reference-id\">(<a href="
+"\"#manycompanies\">#manycompanies</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -1649,17 +1574,14 @@ msgstr ""
 "même manière qu'à tous les autres développeurs de GNU."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Why do you write &ldquo;GNU/Linux&rdquo; instead of &ldquo;GNU "
-#| "Linux&rdquo;?"
 msgid ""
 "Why do you write &ldquo;GNU/Linux&rdquo; instead of &ldquo;GNU Linux&rdquo;? "
 "<span class=\"anchor-reference-id\">(<a href=\"#whyslash\">#whyslash</a>)</"
 "span>"
 msgstr ""
 "Pourquoi écrivez-vous «&nbsp;GNU/Linux&nbsp;» au lieu de «&nbsp;GNU "
-"Linux&nbsp;»?"
+"Linux&nbsp;»&nbsp;? <span class=\"anchor-reference-id\">(<a href=\"#whyslash"
+"\">#whyslash</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1730,12 +1652,13 @@ msgstr ""
 "GNU con Linux&nbsp;»"
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "Why &ldquo;GNU/Linux&rdquo; rather than &ldquo;Linux/GNU&rdquo;?"
 msgid ""
 "Why &ldquo;GNU/Linux&rdquo; rather than &ldquo;Linux/GNU&rdquo;? <span class="
 "\"anchor-reference-id\">(<a href=\"#whyorder\">#whyorder</a>)</span>"
-msgstr "Pourquoi «&nbsp;GNU/Linux&nbsp;» plutôt que «&nbsp;Linux/GNU&nbsp;»?"
+msgstr ""
+"Pourquoi «&nbsp;GNU/Linux&nbsp;» plutôt que «&nbsp;Linux/GNU&nbsp;»&nbsp;? "
+"<span class=\"anchor-reference-id\">(<a href=\"#whyorder\">#whyorder</a>)</"
+"span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1760,17 +1683,14 @@ msgstr ""
 "Linux."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "My distro is called &ldquo;Foobar Linux&rdquo;; doesn't that show it's "
-#| "really Linux?"
 msgid ""
 "My distro is called &ldquo;Foobar Linux&rdquo;; doesn't that show it's "
 "really Linux? <span class=\"anchor-reference-id\">(<a href=\"#distronames"
 "\">#distronames</a>)</span>"
 msgstr ""
 "Ma distribution s'appelle «&nbsp;Foobar Linux&nbsp;»&nbsp;: est-ce que cela "
-"ne montre pas que c'est réellement Linux&nbsp;?"
+"ne montre pas que c'est réellement Linux&nbsp;? <span class=\"anchor-"
+"reference-id\">(<a href=\"#distronames\">#distronames</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -1782,10 +1702,6 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "My distro's official name is &ldquo;Foobar Linux&rdquo;; isn't it wrong "
-#| "to call the distro anything but &ldquo;Linux&rdquo;?"
 msgid ""
 "My distro's official name is &ldquo;Foobar Linux&rdquo;; isn't it wrong to "
 "call the distro anything but &ldquo;Linux&rdquo;? <span class=\"anchor-"
@@ -1793,7 +1709,8 @@ msgid ""
 msgstr ""
 "Le nom officiel de ma distribution est «&nbsp;Foobar Linux&nbsp;»&nbsp;: cela "
 "ne pose-t-il pas un problème de l'appeler par n'importe quel autre nom que "
-"juste «&nbsp;Linux&nbsp;»?"
+"juste «&nbsp;Linux&nbsp;»&nbsp;? <span class=\"anchor-reference-id\">(<a href="
+"\"#distronames1\">#distronames1</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -1808,11 +1725,6 @@ msgstr ""
 "corriger l'erreur que de faire l'erreur en premier lieu."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Wouldn't it be more effective to ask companies such as Mandrake, Red Hat "
-#| "and IBM to call their distributions &ldquo;GNU/Linux&rdquo; rather than "
-#| "asking individuals?"
 msgid ""
 "Wouldn't it be more effective to ask companies such as Mandrake, Red Hat and "
 "IBM to call their distributions &ldquo;GNU/Linux&rdquo; rather than asking "
@@ -1821,7 +1733,8 @@ msgid ""
 msgstr ""
 "Ne serait-il pas plus efficace de demander à des entreprises comme Mandrake, "
 "Red Hat et IBM d'appeler leur distributions «&nbsp;GNU/Linux&nbsp;» plutôt "
-"que de demander à chaque personne individuellement&nbsp;?"
+"que de demander à chaque personne individuellement&nbsp;? <span class="
+"\"anchor-reference-id\">(<a href=\"#companies\">#companies</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1857,11 +1770,6 @@ msgstr ""
 "les entreprises feront plus de profit en l'appelant «&nbsp;GNU/Linux&nbsp;»."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Wouldn't it be better to reserve the name &ldquo;GNU/Linux&rdquo; for "
-#| "distributions that are purely free software? After all, that is the ideal "
-#| "of GNU."
 msgid ""
 "Wouldn't it be better to reserve the name &ldquo;GNU/Linux&rdquo; for "
 "distributions that are purely free software? After all, that is the ideal of "
@@ -1870,7 +1778,8 @@ msgid ""
 msgstr ""
 "Ne serait-il pas mieux de réserver le nom «&nbsp;GNU/Linux&nbsp;» pour les "
 "distributions constituées uniquement de logiciels libres&nbsp;? Après tout, "
-"c'est bien l'idéal de GNU."
+"c'est bien l'idéal de GNU. <span class=\"anchor-reference-id\">(<a href="
+"\"#reserve\">#reserve</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1934,15 +1843,6 @@ msgstr ""
 "versions de Linux&nbsp;» correctes et légitimes."
 
 #. type: Content of: <dl><dd><p>
-#, fuzzy
-#| msgid ""
-#| "It is very useful to start GNU/Linux User Groups, which call the system "
-#| "GNU/Linux and adopt the ideals of the GNU Project as a basis for their "
-#| "activities.  If the Linux User Group in your area has the problems "
-#| "describe above, we suggest you either campaign within the group to change "
-#| "its orientation (and name) or start a new group.  The people who focus on "
-#| "the more superficial goals have a right to their views, but don't let "
-#| "them drag you along!"
 msgid ""
 "It is very useful to start GNU/Linux User Groups, which call the system GNU/"
 "Linux and adopt the ideals of the GNU Project as a basis for their "
@@ -1962,16 +1862,14 @@ msgstr ""
 "laissez pas vous entraîner&nbsp;!"
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Why not make a GNU distribution of Linux (sic) and call that GNU/Linux?"
 msgid ""
 "Why not make a GNU distribution of Linux (sic) and call that GNU/Linux? "
 "<span class=\"anchor-reference-id\">(<a href=\"#gnudist\">#gnudist</a>)</"
 "span>"
 msgstr ""
 "Pourquoi ne pas faire une distribution de Linux (sic) et l'appeler GNU/"
-"Linux&nbsp;?"
+"Linux&nbsp;? <span class=\"anchor-reference-id\">(<a href=\"#gnudist"
+"\">#gnudist</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2010,10 +1908,6 @@ msgstr ""
 "libres, comme gNewSense et Ututo."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Why not just say &ldquo;Linux is the GNU kernel&rdquo; and release some "
-#| "existing version of GNU/Linux under the name &ldquo;GNU&rdquo;?"
 msgid ""
 "Why not just say &ldquo;Linux is the GNU kernel&rdquo; and release some "
 "existing version of GNU/Linux under the name &ldquo;GNU&rdquo;? <span class="
@@ -2021,7 +1915,8 @@ msgid ""
 msgstr ""
 "Pourquoi ne pas simplement dire «&nbsp;Linux est le noyau de GNU&nbsp;» et ne "
 "pas distribuer une version existante quelconque de GNU/Linux sous le nom "
-"«&nbsp;GNU&nbsp;»&nbsp;?"
+"«&nbsp;GNU&nbsp;»&nbsp;? <span class=\"anchor-reference-id\">(<a href="
+"\"#linuxgnu\">#linuxgnu</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2047,15 +1942,13 @@ msgstr ""
 "ne serait pas juste, et nous ne voulons pas agir de cette façon."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Did the GNU Project condemn and oppose use of Linux in the early days?"
 msgid ""
 "Did the GNU Project condemn and oppose use of Linux in the early days? <span "
 "class=\"anchor-reference-id\">(<a href=\"#condemn\">#condemn</a>)</span>"
 msgstr ""
 "Le projet GNU a-t-il condamné ou s'est-il opposé à Linux dans les premiers "
-"temps&nbsp;?"
+"temps&nbsp;? <span class=\"anchor-reference-id\">(<a href=\"#condemn"
+"\">#condemn</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2112,15 +2005,13 @@ msgstr ""
 "posés par cette erreur de dénomination «&nbsp;Linux&nbsp;»."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Why did you wait so long before asking people to use the name GNU/Linux?"
 msgid ""
 "Why did you wait so long before asking people to use the name GNU/Linux? "
 "<span class=\"anchor-reference-id\">(<a href=\"#wait\">#wait</a>)</span>"
 msgstr ""
 "Pourquoi avez-vous attendu si longtemps avant de demander aux gens "
-"d'utiliser le nom GNU/Linux&nbsp;?"
+"d'utiliser le nom GNU/Linux&nbsp;? <span class=\"anchor-reference-id\">(<a "
+"href=\"#wait\">#wait</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2134,17 +2025,14 @@ msgstr ""
 "cela sera nécessaire."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Should the GNU/<i>name</i> convention be applied to all programs that are "
-#| "GPL'ed?"
 msgid ""
 "Should the GNU/<i>name</i> convention be applied to all programs that are "
 "GPL'ed? <span class=\"anchor-reference-id\">(<a href=\"#allgpled"
 "\">#allgpled</a>)</span>"
 msgstr ""
 "La convention GNU/<i>nom</i> devrait-elle être appliquée à tous les "
-"programmes sous GPL&nbsp;?"
+"programmes sous GPL&nbsp;? <span class=\"anchor-reference-id\">(<a href="
+"\"#allgpled\">#allgpled</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2240,17 +2128,14 @@ msgstr ""
 "seulement Linux."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Since much of GNU comes from Unix, shouldn't GNU give credit to Unix by "
-#| "using &ldquo;Unix&rdquo; in its name?"
 msgid ""
 "Since much of GNU comes from Unix, shouldn't GNU give credit to Unix by "
 "using &ldquo;Unix&rdquo; in its name? <span class=\"anchor-reference-id\">"
 "(<a href=\"#unix\">#unix</a>)</span>"
 msgstr ""
 "Puisque la majorité de GNU vient d'Unix, GNU ne devrait-il pas montrer de la "
-"reconnaissance à Unix en utilisant «&nbsp;Unix&nbsp;» dans son nom&nbsp;?"
+"reconnaissance à Unix en utilisant «&nbsp;Unix&nbsp;» dans son nom&nbsp;? "
+"<span class=\"anchor-reference-id\">(<a href=\"#unix\">#unix</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2286,14 +2171,6 @@ msgstr ""
 "les années 70."
 
 #. type: Content of: <dl><dd><p>
-#, fuzzy
-#| msgid ""
-#| "The first such recursive acronym was TINT, &ldquo;TINT Is Not "
-#| "TECO&rdquo;.  The author of TINT wrote another implementation of TECO "
-#| "(there were already many of them, for various systems), but instead of "
-#| "calling it by a dull name like &ldquo;somethingorother TECO&rdquo;, he "
-#| "thought of a clever amusing name.  (That's what hacking means: <a href="
-#| "\"http://stallman.org/articles/on-hacking.html\">playful cleverness</a>.)"
 msgid ""
 "The first such recursive acronym was TINT, &ldquo;TINT Is Not TECO&rdquo;.  "
 "The author of TINT wrote another implementation of TECO (there were already "
@@ -2305,7 +2182,7 @@ msgstr ""
 "Le premier de ces acronymes était TINT, «&nbsp;TINT Is Not TECO&nbsp;». "
 "L'auteur de TINT a écrit une autre implémentation de TECO (il en existait "
 "déjà beaucoup, pour de nombreux systèmes), mais au lieu de l'appeler par un "
-"nom ennuyeux comme «&nbsp;quelque chose TECO&nbsp;», il a imaginé un nom plus "
+"nom ennuyeux comme <em>quelque chose</em> TECO, il a imaginé un nom plus "
 "intelligent et plus amusant. (C'est ce que hacking signifie&nbsp;: <a href="
 "\"http://stallman.org/articles/on-hacking.html\">intelligence ludique</a>)."
 
@@ -2423,17 +2300,14 @@ msgstr ""
 "puisque la majorité du système est identique au système GNU/Linux."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "If I install the GNU tools on Windows, does that mean I am running a GNU/"
-#| "Windows system?"
 msgid ""
 "If I install the GNU tools on Windows, does that mean I am running a GNU/"
 "Windows system? <span class=\"anchor-reference-id\">(<a href=\"#othersys"
 "\">#othersys</a>)</span>"
 msgstr ""
 "Si j'installe les outils GNU sur Windows, cela signifie-t-il que je "
-"fonctionne sous un système GNU/Windows&nbsp;?"
+"fonctionne sous un système GNU/Windows&nbsp;? <span class=\"anchor-reference-"
+"id\">(<a href=\"#othersys\">#othersys</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2472,10 +2346,6 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Why not call the system &ldquo;Linux&rdquo; anyway, and strengthen Linus "
-#| "Torvalds' role as posterboy for our community?"
 msgid ""
 "Why not call the system &ldquo;Linux&rdquo; anyway, and strengthen Linus "
 "Torvalds' role as posterboy for our community? <span class=\"anchor-"
@@ -2483,7 +2353,8 @@ msgid ""
 msgstr ""
 "Pourquoi ne pas carrément appeler le système «&nbsp;Linux&nbsp;», et "
 "renforcer le rôle de Linus Torwald comme posterboy (ndt&nbsp;: tête "
-"d'affiche, image de pub) pour notre communauté&nbsp;?"
+"d'affiche, image de pub) pour notre communauté&nbsp;? <span class=\"anchor-"
+"reference-id\">(<a href=\"#helplinus\">#helplinus</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2588,17 +2459,14 @@ msgstr ""
 "&nbsp;»</a>."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "The battle is already lost&mdash;society has made its decision and we "
-#| "can't change it, so why even think about it?"
 msgid ""
 "The battle is already lost&mdash;society has made its decision and we can't "
 "change it, so why even think about it? <span class=\"anchor-reference-id\">"
 "(<a href=\"#lost\">#lost</a>)</span>"
 msgstr ""
 "La bataille est déjà perdue&nbsp;: la société a pris sa décision et nous ne "
-"pouvons rien y changer, pourquoi continuer à y penser&nbsp;?"
+"pouvons rien y changer, pourquoi continuer à y penser&nbsp;? <span class="
+"\"anchor-reference-id\">(<a href=\"#lost\">#lost</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2617,17 +2485,14 @@ msgstr ""
 "Linux&nbsp;» vous-même, et ainsi, vous éduquerez les autres."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Society has made its decision and we can't change it, so what good does "
-#| "it do if I say &ldquo;GNU/Linux&rdquo;?"
 msgid ""
 "Society has made its decision and we can't change it, so what good does it "
 "do if I say &ldquo;GNU/Linux&rdquo;? <span class=\"anchor-reference-id\">(<a "
 "href=\"#whatgood\">#whatgood</a>)</span>"
 msgstr ""
 "La société a pris sa décision et nous ne pouvons rien y changer, quel bien "
-"cela fait-il si je dis «&nbsp;GNU/Linux&nbsp;»&nbsp;?"
+"cela fait-il si je dis «&nbsp;GNU/Linux&nbsp;»&nbsp;? <span class=\"anchor-"
+"reference-id\">(<a href=\"#whatgood\">#whatgood</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2651,10 +2516,6 @@ msgstr ""
 "certains d'entre eux répandrons sûrement la correction à d'autres personnes."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Wouldn't it be better to call the system &ldquo;Linux&rdquo; and teach "
-#| "people its real origin with a ten-minute explanation?"
 msgid ""
 "Wouldn't it be better to call the system &ldquo;Linux&rdquo; and teach "
 "people its real origin with a ten-minute explanation? <span class=\"anchor-"
@@ -2662,7 +2523,8 @@ msgid ""
 msgstr ""
 "Ne serait-il pas mieux d'appeler le système «&nbsp;Linux&nbsp;» et "
 "d'apprendre aux gens son origine réelle avec une explication tenant en 10 "
-"minutes&nbsp;?"
+"minutes&nbsp;? <span class=\"anchor-reference-id\">(<a href=\"#explain"
+"\">#explain</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2708,17 +2570,14 @@ msgstr ""
 "d'aider le projet GNU."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Some people laugh at you when you ask them to call the system GNU/Linux.  "
-#| "Why do you subject yourself to this treatment?"
 msgid ""
 "Some people laugh at you when you ask them to call the system GNU/Linux.  "
 "Why do you subject yourself to this treatment? <span class=\"anchor-"
 "reference-id\">(<a href=\"#treatment\">#treatment</a>)</span>"
 msgstr ""
 "Certaines personnes se moquent de vous quand vous leur demandez d'appeler le "
-"système GNU/Linux. Pourquoi se rendre la cible de ce traitement&nbsp;?"
+"système GNU/Linux. Pourquoi se rendre la cible de ce traitement&nbsp;? <span "
+"class=\"anchor-reference-id\">(<a href=\"#treatment\">#treatment</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2758,17 +2617,15 @@ msgstr ""
 "de bon sens arrêteront de rire."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Some people condemn you when you ask them to call the system GNU/Linux.  "
-#| "Don't you lose by alienating them?"
 msgid ""
 "Some people condemn you when you ask them to call the system GNU/Linux.  "
 "Don't you lose by alienating them? <span class=\"anchor-reference-id\">(<a "
 "href=\"#alienate\">#alienate</a>)</span>"
 msgstr ""
 "Certaines personnes vous condamnent quand vous leur demandez d'appeler le "
-"système GNU/Linux. Ne perdez-vous pas du terrain en vous les aliénant&nbsp;?"
+"système GNU/Linux. Ne perdez-vous pas du terrain en vous les aliénant&nbsp;? "
+"<span class=\"anchor-reference-id\">(<a href=\"#alienate\">#alienate</a>)</"
+"span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2801,15 +2658,13 @@ msgstr ""
 "corriger ceux qui se trompent de nom."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Whatever you contributed, is it legitimate to rename the operating system?"
 msgid ""
 "Whatever you contributed, is it legitimate to rename the operating system? "
 "<span class=\"anchor-reference-id\">(<a href=\"#rename\">#rename</a>)</span>"
 msgstr ""
 "Quelle que soit votre contribution, est-ce légitime de renommer le système "
-"d'exploitation&nbsp;?"
+"d'exploitation&nbsp;? <span class=\"anchor-reference-id\">(<a href=\"#rename"
+"\">#rename</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2822,15 +2677,13 @@ msgstr ""
 "renommer «&nbsp;Linux&nbsp;» ne devraient pas l'avoir fait."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Isn't it wrong to force people to call the system &ldquo;GNU/Linux&rdquo;?"
 msgid ""
 "Isn't it wrong to force people to call the system &ldquo;GNU/Linux&rdquo;? "
 "<span class=\"anchor-reference-id\">(<a href=\"#force\">#force</a>)</span>"
 msgstr ""
 "N'est-ce pas mal de forcer les gens à appeler le système «&nbsp;GNU/"
-"Linux&nbsp;»?"
+"Linux&nbsp;»&nbsp;? <span class=\"anchor-reference-id\">(<a href=\"#force"
+"\">#force</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2842,14 +2695,13 @@ msgstr ""
 "faire de même."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid "Why not sue people who call the whole system &ldquo;Linux&rdquo;?"
 msgid ""
 "Why not sue people who call the whole system &ldquo;Linux&rdquo;? <span "
 "class=\"anchor-reference-id\">(<a href=\"#whynotsue\">#whynotsue</a>)</span>"
 msgstr ""
 "Pourquoi ne pas assigner en justice les personnes qui appellent le système "
-"entier «&nbsp;Linux&nbsp;»?"
+"entier «&nbsp;Linux&nbsp;»&nbsp;? class=\"anchor-reference-id\">(<a href="
+"\"#whynotsue\">#whynotsue</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2863,17 +2715,14 @@ msgstr ""
 "Linux&nbsp;» parce que c'est la bonne chose à faire."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Shouldn't you put something in the GNU GPL to require people to call the "
-#| "system &ldquo;GNU&rdquo;?"
 msgid ""
 "Shouldn't you put something in the GNU GPL to require people to call the "
 "system &ldquo;GNU&rdquo;? <span class=\"anchor-reference-id\">(<a href="
 "\"#require\">#require</a>)</span>"
 msgstr ""
 "Ne devriez-vous pas mettre quelque chose dans la GPL GNU pour obliger les "
-"gens à appeler le système «&nbsp;GNU&nbsp;»&nbsp;?"
+"gens à appeler le système «&nbsp;GNU&nbsp;»&nbsp;? <span class=\"anchor-"
+"reference-id\">(<a href=\"#require\">#require</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2897,11 +2746,6 @@ msgstr ""
 "utiliser pour le système."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Since you objected to the original BSD license's advertising requirement "
-#| "to give credit to the University of California, isn't it hypocritical to "
-#| "demand credit for the GNU project?"
 msgid ""
 "Since you objected to the original BSD license's advertising requirement to "
 "give credit to the University of California, isn't it hypocritical to demand "
@@ -2910,7 +2754,9 @@ msgid ""
 msgstr ""
 "Puisque vous étiez contre l'exigence de publicité de la licence originale "
 "BSD de reconnaître le mérite de l'université de Californie, n'est-il pas "
-"hypocrite de demander de la reconnaissance pour le projet GNU&nbsp;?"
+"hypocrite de demander de la reconnaissance pour le projet GNU&nbsp;? <span "
+"class=\"anchor-reference-id\">(<a href=\"#BSDlicense\">#BSDlicense</a>)</"
+"span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2922,11 +2768,6 @@ msgstr ""
 "donner la reconnaissance que nous méritons."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Since you failed to put something in the GNU GPL to require people to "
-#| "call the system &ldquo;GNU&rdquo;, you deserve what happened; why are you "
-#| "complaining now?"
 msgid ""
 "Since you failed to put something in the GNU GPL to require people to call "
 "the system &ldquo;GNU&rdquo;, you deserve what happened; why are you "
@@ -2935,7 +2776,9 @@ msgid ""
 msgstr ""
 "Puisque vous avez échoué à mettre quelque chose dans la GPL GNU qui exige "
 "des utilisateurs qu'ils appellent le système «&nbsp;GNU&nbsp;», vous n'avez "
-"que ce que vous méritez&nbsp;: pourquoi vous plaignez-vous maintenant&nbsp;?"
+"que ce que vous méritez&nbsp;: pourquoi vous plaignez-vous maintenant&nbsp;? "
+"<span class=\"anchor-reference-id\">(<a href=\"#deserve\">#deserve</a>)</"
+"span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2956,16 +2799,14 @@ msgstr ""
 "nous le sommes."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Wouldn't you be better off not contradicting what so many people believe?"
 msgid ""
 "Wouldn't you be better off not contradicting what so many people believe? "
 "<span class=\"anchor-reference-id\">(<a href=\"#contradict\">#contradict</a>)"
 "</span>"
 msgstr ""
 "Ne seriez-vous pas mieux si vous ne contredisiez pas ce que tant de "
-"personnes croient&nbsp;?"
+"personnes croient&nbsp;? <span class=\"anchor-reference-id\">(<a href="
+"\"#contradict\">#contradict</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2987,16 +2828,14 @@ msgstr ""
 "et acceptables."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Since many people call it &ldquo;Linux&rdquo;, doesn't that make it right?"
 msgid ""
 "Since many people call it &ldquo;Linux&rdquo;, doesn't that make it right? "
 "<span class=\"anchor-reference-id\">(<a href=\"#somanyright\">#somanyright</"
 "a>)</span>"
 msgstr ""
 "Puisque tant de gens l'appellent «&nbsp;Linux&nbsp;», cela ne leur donne-t-il "
-"pas raison&nbsp;?"
+"pas raison&nbsp;? <span class=\"anchor-reference-id\">(<a href=\"#somanyright"
+"\">#somanyright</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid "We don't think that the popularity of an error makes it the truth."
@@ -3004,11 +2843,6 @@ msgstr ""
 "Nous ne pensons pas que la popularité d'une erreur la fasse devenir juste."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Many people care about what's convenient or who's winning, not about "
-#| "arguments of right or wrong.  Couldn't you get more of their support by a "
-#| "different road?"
 msgid ""
 "Many people care about what's convenient or who's winning, not about "
 "arguments of right or wrong.  Couldn't you get more of their support by a "
@@ -3017,7 +2851,8 @@ msgid ""
 msgstr ""
 "Beaucoup de personnes sont intéressées par ce qui est pratique ou au "
 "gagnant, pas par des arguments de justice ou d'injustice. Ne pourriez-vous "
-"pas obtenir leur soutien par d'autres moyens&nbsp;?"
+"pas obtenir leur soutien par d'autres moyens&nbsp;? <span class=\"anchor-"
+"reference-id\">(<a href=\"#winning\">#winning</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -3073,14 +2908,12 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-#, fuzzy
-#| msgid ""
-#| "Copyright &copy; 2001, 2006, 2007, 2008 Free Software Foundation, Inc.,"
 msgid ""
 "Copyright &copy; 2001, 2006, 2007, 2008, 2010, 2011 Free Software "
 "Foundation, Inc."
 msgstr ""
-"Copyright &copy; 2001, 2006, 2007, 2008 Free Software Foundation, Inc.,"
+"Copyright &copy; 2001, 2006, 2007, 2008, 2010, 2011 Free Software "
+"Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -3088,8 +2921,8 @@ msgid ""
 "medium without royalty provided this notice is preserved."
 msgstr ""
 "La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"permise sur n'importe quel support d'archivage sans contrepartie financière, "
+"pourvu que cette notice soit préservée."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
@@ -3106,86 +2939,3 @@ msgstr "Dernière mise à jour&nbsp;:"
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
-
-#~ msgid ""
-#~ "It means that the people who make the &ldquo;Foobar Linux&rdquo; distro "
-#~ "are repeating the common mistake."
-#~ msgstr ""
-#~ "Cela signifie juste que les personnes qui font la distribution «&nbsp;"
-#~ "Foobar Linux&nbsp;» répètent l'erreur générale."
-
-#~ msgid "Why do you call it GNU/Linux and not Linux?"
-#~ msgstr "Pourquoi l'appelez-vous GNU/Linux et pas Linux&nbsp;?"
-
-#~ msgid "Why is the name important?"
-#~ msgstr "Pourquoi le nom est-il important&nbsp;?"
-
-#~ msgid "Isn't the kernel the brain of the system?"
-#~ msgstr "Le noyau n'est-il pas le cerveau du système&nbsp;?"
-
-#~ msgid "Should we say &ldquo;GNU/BSD&rdquo; too?"
-#~ msgstr "Devrions-nous dire également «&nbsp;GNU/BSD&nbsp;»&nbsp;?"
-
-#~ msgid "Can't there be Linux systems without GNU?"
-#~ msgstr "Ne peut-il y avoir de systèmes Linux sans GNU&nbsp;?"
-
-#~ msgid "Isn't it wrong for us to label Linus Torvalds' work as GNU?"
-#~ msgstr ""
-#~ "N'est-il pas incorrect de notre part de libeller le travail de Linus "
-#~ "Torvalds, GNU&nbsp;?"
-
-#~ msgid "Does Linus Torvalds agree that Linux is just the kernel?"
-#~ msgstr ""
-#~ "Linus Torvalds reconnaît-il que Linux est uniquement le noyau&nbsp;?"
-
-#~ msgid ""
-#~ "It is possible to make a system that uses Linux as the kernel but is not "
-#~ "based on GNU.  I'm told there are small systems, used for embedded "
-#~ "development, that include Linux but not the GNU system.  IBM was once "
-#~ "rumored to be planning to put Linux as the kernel into AIX; whether or "
-#~ "not they actually tried to do this, it is theoretically possible.  What "
-#~ "conclusions can we draw from this about the naming of various systems?"
-#~ msgstr ""
-#~ "Il est possible de faire un système qui utilise Linux comme noyau mais "
-#~ "n'est pas basé sur GNU. J'ai entendu parler de petits systèmes, utilisés "
-#~ "pour du développement embarqué, qui incluent Linux mais pas le système "
-#~ "GNU. Il y a eu à un moment des rumeurs sur IBM, disant qu'ils pensaient "
-#~ "utiliser le noyau Linux dans un système AIX&nbsp;: qu'ils essayent "
-#~ "réellement de le faire ou non, c'est théoriquement possible. Quelles "
-#~ "conclusions devons-nous tirer quant à la dénomination des différents "
-#~ "systèmes&nbsp;?"
-
-#~ msgid ""
-#~ "People who think of the kernel as more important than all the rest of the "
-#~ "system say, &ldquo;They all contain Linux, so let's call them all Linux "
-#~ "systems.&rdquo; But any two of these systems are mostly different, and "
-#~ "calling them by the same name is misleading.  (It leads people to think "
-#~ "that the kernel is more important than all the rest of the system, for "
-#~ "instance.)"
-#~ msgstr ""
-#~ "Les personnes qui pensent que le noyau est plus important que tout le "
-#~ "reste du système disent&nbsp;: «&nbsp;Ils contiennent tous Linux, donc "
-#~ "appelons tous les systèmes Linux.&nbsp;» Mais chacun de ces systèmes est "
-#~ "très différents des autres, et les appeler tous par le même nom conduit à "
-#~ "la confusion. (Cela amène les gens à penser que le noyau est plus "
-#~ "important que tout le reste du système, par exemple.)."
-
-#~ msgid ""
-#~ "In the small embedded systems, Linux may be most of the system; perhaps "
-#~ "&ldquo;Linux systems&rdquo; is the right name for them.  They are very "
-#~ "different from GNU/Linux systems, which are more GNU than Linux.  The "
-#~ "hypothetical IBM system would be different from either of those.  The "
-#~ "right name for it would be AIX/Linux: basically AIX, but with Linux as "
-#~ "the kernel.  These different names would show users how these systems are "
-#~ "different."
-#~ msgstr ""
-#~ "Dans les petits systèmes embarqués, Linux constitue peut-être la majorité "
-#~ "du système&nbsp;: peut-être que «&nbsp;systèmes Linux&nbsp;» est le bon "
-#~ "terme pour eux. Ils sont très différents des systèmes GNU/Linux, qui sont "
-#~ "plus GNU que Linux. Le système IBM hypothétique serait différent de ces "
-#~ "deux groupes. Le nom correct à lui donner serait AIX/Linux&nbsp;: "
-#~ "fondamentalement AIX, mais avec le noyau Linux. Ces différents noms "
-#~ "montreraient aux utilisateurs en quoi ces systèmes sont différents."
-
-#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
-#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"

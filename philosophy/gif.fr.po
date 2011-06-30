@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gif.html\n"
 "POT-Creation-Date: 2011-06-19 12:29-0300\n"
-"PO-Revision-Date: 2009-01-07 12:53+0100\n"
+"PO-Revision-Date: 2011-07-01 01:22+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,8 +21,6 @@ msgid "Why There Are No GIF files on GNU Web Pages"
 msgstr "Pourquoi il n'y a pas de fichiers GIF sur le site de GNU"
 
 #. type: Content of: <h2>
-#, fuzzy
-#| msgid "Why There Are No GIF files on GNU Web Pages"
 msgid "Why There Are No GIF Files on GNU Web Pages"
 msgstr "Pourquoi il n'y a pas de fichiers GIF sur le site de GNU"
 
@@ -639,16 +637,12 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-#, fuzzy
-#| msgid ""
-#| "Copyright &copy; 1997, 1998, 1999, 2004, 2006, 2007, 2008 Free Software "
-#| "Foundation, Inc.,"
 msgid ""
 "Copyright &copy; 1997, 1998, 1999, 2004, 2006, 2007, 2008, 2010 Free "
 "Software Foundation, Inc.,"
 msgstr ""
-"Copyright &copy; 1997, 1998, 1999, 2004, 2006, 2007, 2008 Free Software "
-"Foundation, Inc.,"
+"Copyright &copy; 1997, 1998, 1999, 2004, 2006, 2007, 2008, 2010 Free "
+"Software Foundation, Inc.,"
 
 #. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
@@ -660,8 +654,8 @@ msgid ""
 "medium without royalty provided this notice is preserved."
 msgstr ""
 "La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"permise sur n'importe quel support d'archivage sans contrepartie financière, "
+"pourvu que cette notice soit préservée."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
@@ -679,19 +673,3 @@ msgstr "Dernière mise à jour&nbsp;:"
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
 
-#~ msgid ""
-#~ "Why There Are No <abbr title=\"Graphics Interchange Format\">GIF</abbr> "
-#~ "files on GNU Web Pages"
-#~ msgstr ""
-#~ "Pourquoi il n'y a pas de fichiers <abbr title=\"Graphics Interchange "
-#~ "Format\">GIF</abbr> sur le site de GNU"
-
-#~ msgid ""
-#~ "<a href=\"http://www.libpng.org/pub/png/pngapbr.html\">The browser "
-#~ "support page</a> lists browsers which are compatible with the <abbr>PNG</"
-#~ "abbr> format and comments on how well they support it."
-#~ msgstr ""
-#~ "La <a href=\"http://www.libpng.org/pub/png/pngapbr.html\">browser support "
-#~ "page</a> énumère les navigateurs qui sont compatibles avec le format "
-#~ "<abbr title=\"Portable Network Graphics\">PNG</abbr> et indique à quel "
-#~ "point ils le gèrent."
