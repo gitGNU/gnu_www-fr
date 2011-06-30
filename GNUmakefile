@@ -54,7 +54,7 @@ HG  := hg
 TLA := tla
 
 translations := $(shell find -name '*.$(TEAM).po' | sort)
-log := "Fusion automatique à partir de l'entrepôt maître."
+log := "Automatic merge from the master repository."
 # Warning message for the `publish' rule.
 pubwmsg := "Warning (%s): %s\n  does not exist; (either obsolete or \`cvs\
 update\' in $(wwwdir) needed).\n"
@@ -64,7 +64,7 @@ REPO := $(shell (test -d CVS && echo CVS) || (test -d .svn && echo SVN) \
 	  || (test -d .bzr && echo Bzr) || (test -d .git && echo Git) \
 	  || (test -d .hg && echo Hg) || (test -d \{arch\} && echo Arch))
 ifndef REPO
-$(error Système de contrôle de version non supporté)
+$(error Unsupported Version Control System)
 endif
 
 # For those who love details.
@@ -98,7 +98,7 @@ all: update sync
 .PHONY: update
 update:
 ifeq ($(VCS),yes)
-	@echo Mise à jour des entrepôts...
+	@echo Updating the repositories...
 	cd $(wwwdir) && $(cvs-update)
 ifeq ($(REPO),CVS)
 	$(cvs-update)
@@ -116,7 +116,7 @@ else ifeq ($(REPO),Arch)
 	$(TLA) update
 endif
 else
-	$(info Les entrepôts n'ont pas été mis à jour, vous voulez peut-être faire "make VCS=yes".)
+	$(info Repositories were not updated, you might want "make VCS=yes".)
 endif
 
 # Synchronize (update) the PO files from the master POTs.
@@ -167,7 +167,7 @@ report:
 	@for file in $(translations) ; do \
 	  LC_ALL=C $(MSGFMT) --statistics -o /dev/null $$file 2>&1 \
 	    | egrep '(fuzzy|untranslated)' \
-	      && echo "$${file#./} doit être mis à jour." || true ; \
+	      && echo "$${file#./} needs updating." || true ; \
 	done
 
 # Helper target to rewrap all PO files; avoids spurious diffs when
