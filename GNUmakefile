@@ -59,6 +59,8 @@ log := "Automatic merge from the master repository."
 pubwmsg := "Warning (%s): %s\n  does not exist; (either obsolete or \`cvs\
 update\' in $(wwwdir) needed).\n"
 
+_have-compendium := $(shell test -f compendium.$(TEAM) && echo yes)
+
 # Determine the VCS.
 REPO := $(shell (test -d CVS && echo CVS) || (test -d .svn && echo SVN) \
 	  || (test -d .bzr && echo Bzr) || (test -d .git && echo Git) \
@@ -79,6 +81,30 @@ QUIET := --verbose
 else
 CVSQUIET := -q
 QUIET := --quiet
+endif
+
+# The command to update a PO file from the POT.
+# $(1) = PO file
+# $(2) = POT file
+ifeq ($(_have-compendium),yes)
+
+#  When there is a compendium, use msgcat to remove msgids which are
+#  found in compendium (to make sure that translation comes from there),
+#  and then call msgmerge
+define update-po
+cat compendium.$(TEAM) |\
+   $(MSGCAT) --use-first --less-than=2 -o $(1) $(1) compendium.$(TEAM) - ; \
+   $(MSGMERGE) $(MSGMERGEVERBOSE) -C compendium.$(TEAM) --quiet \
+	--update --previous $(1) $(2)
+endef
+
+else
+
+define update-po
+$(MSGMERGE) $(MSGMERGEVERBOSE) --quiet \
+	--update --previous $(1) $(2)
+endef
+
 endif
 
 # The command to update the CVS repositories.
@@ -123,13 +149,12 @@ endif
 .PHONY: sync
 sync: update
 	@for file in $(translations); do \
-	  if [ ! -f $(wwwdir)`dirname $$file`/po/`basename \
-	    $${file/.$(TEAM).po/.pot}` ]; then \
+	  potdir=$(wwwdir)`dirname $$file`/po; \
+	  potfile=`basename $${file/.$(TEAM).po/.pot}`; \
+	  if [ ! -f $$potdir/$$potfile ]; then \
 	    echo "Warning: $(notdir $$file) has no equivalent .pot in www."; \
 	  else \
-	    $(ECHO) $(MSGMERGE) $(MSGMERGEVERBOSE) --quiet --update \
-	    --previous $$file \
-	    $(wwwdir)`dirname $$file`/po/`basename $${file/.$(TEAM).po/.pot}`; \
+	    $(ECHO) $(call update-po,$$file,$$potdir/$$potfile); \
 	  fi; \
 	done
 ifeq ($(VCS),yes)
