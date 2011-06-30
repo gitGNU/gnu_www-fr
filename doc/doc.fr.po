@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: doc.html\n"
 "POT-Creation-Date: 2011-04-13 12:27-0300\n"
-"PO-Revision-Date: 2009-10-28 16:38+0100\n"
-"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"PO-Revision-Date: 2011-06-30 23:12+0200\n"
+"Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -108,42 +108,31 @@ msgstr ""
 
 #. type: Content of: <h3>
 msgid "Contribute"
-msgstr ""
+msgstr "Contribuer"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "Finally, please help us write more documentation! This is one of the most "
-#| "important ways to contribute to the free software movement.  For more "
-#| "details on this and other ways to help, <a href=\"/help/help.html#helpgnu"
-#| "\">click here</a>."
 msgid ""
 "Please help us write more documentation! This is one of the most important "
 "ways to contribute to the free software movement.  For more details on this "
 "and other ways to help, <a href=\"/help/help.html#helpgnu\">click here</a>."
 msgstr ""
-"Enfin, veuillez nous aider en écrivant plus de documentation&nbsp;! C'est "
-"l'un des moyens les plus importants de contribuer au mouvement du logiciel "
-"libre. Pour plus de détails sur ce sujet et d'autres moyens d'aider, <a href="
-"\"/help/help.fr.html#helpgnu\">cliquez ici</a>."
+"Veuillez nous aider en écrivant plus de documentation&nbsp;! C'est l'un des "
+"moyens les plus importants de contribuer au mouvement du logiciel libre. "
+"Pour plus de détails sur ce sujet et d'autres moyens d'aider, <a href=\"/"
+"help/help.fr.html#helpgnu\">cliquez ici</a>."
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "Please consider helping us <a href=\"/doc/expanding.html\">expand "
-#| "bookstore availability</a> of <a href=\"/doc/gnupresspub.html\">GNU "
-#| "Press</a> books.  For this or any reason, you can <a href=\"/doc/contact."
-#| "html\">contact GNU Press</a> in a variety of ways."
 msgid ""
 "<b>GNU Press:</b> another way to contribute is to help us <a href=\"/doc/"
 "expanding.html\">expand bookstore availability</a> of <a href=\"/doc/"
 "gnupresspub.html\">GNU Press</a> books.  For this or any reason, you can <a "
 "href=\"/doc/contact.html\">contact GNU Press</a>."
 msgstr ""
-"Veuillez nous aider en <a href=\"/doc/expanding.fr.html\">étendant la "
-"disponiblité</a> des livres <a href=\"/doc/gnupresspub.fr.html\">GNU Press</"
-"a> dans les librairies. Pour cette raison ou toute autre, vous pouvez <a "
-"href=\"/doc/contact.fr.html\">contacter GNU Press</a> de diverses manières."
+"<b>GNU Press:</b> un autre moyen de contribuer est de nous aider en <a href="
+"\"/doc/expanding.fr.html\">étendant la disponiblité</a> des livres <a href="
+"\"/doc/gnupresspub.fr.html\">GNU Press</a> dans les librairies. Pour cette "
+"raison ou toute autre, vous pouvez <a href=\"/doc/contact.fr.html"
+"\">contacter GNU Press</a> de diverses manières."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
@@ -180,15 +169,11 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-#, fuzzy
-#| msgid ""
-#| "Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2008, 2009 Free "
-#| "Software Foundation, Inc."
 msgid ""
 "Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2008, 2009, 2010 Free "
 "Software Foundation, Inc."
 msgstr ""
-"Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2008, 2009 Free "
+"Copyright &copy; 2001, 2002, 2003, 2004, 2005, 2006, 2008, 2009, 2010 Free "
 "Software Foundation, Inc."
 
 #. type: Content of: <div><p>
@@ -215,17 +200,3 @@ msgstr "Dernière mise à jour&nbsp;:"
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
-
-#, fuzzy
-#~| msgid ""
-#~| "<a href=\"http://www.changelog.org\">changelog.log</a> is an aggregation "
-#~| "of ChangeLog entries from GNU and GNOME projects."
-#~ msgid ""
-#~ "<a href=\"http://www.changelog.org\">changelog.org</a> is an aggregation "
-#~ "of ChangeLog entries from GNU and GNOME projects."
-#~ msgstr ""
-#~ "<a href=\"http://www.changelog.org\">changelog.log</a> est un agrégateur "
-#~ "des entrées de ChangeLog des projets GNU et GNOME."
-
-#~ msgid "GNU Press"
-#~ msgstr "GNU Press"
