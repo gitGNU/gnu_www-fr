@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: README.translations.html\n"
-"POT-Creation-Date: 2011-06-21 20:30-0300\n"
+"POT-Creation-Date: 2011-06-30 20:30-0300\n"
 "PO-Revision-Date: 2011-06-25 23:48+0000\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -411,14 +411,16 @@ msgstr ""
 "Puigpelat</a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>th</code> - <a href=\"https://savannah.gnu.org/projects/www-th"
+#| "\">Thai</a> (New coordinator needed)"
 msgid ""
 "<code>cs</code> - <a href=\"https://savannah.gnu.org/projects/www-cs"
-"\">Czech</a> (<a href=\"https://savannah.gnu.org/users/mkysela\">Martin "
-"Kysela</a>)"
+"\">Czech</a> (New coordinator needed)"
 msgstr ""
-"<code>cs</code> - <a href=\"https://savannah.gnu.org/projects/www-cs"
-"\">Tchèque</a> (<a href=\"https://savannah.gnu.org/users/mkysela\">Martin "
-"Kysela</a>)"
+"<code>th</code> - <a href=\"https://savannah.gnu.org/projects/www-th\">Thaï</"
+"a> (Nouveau coordinateur demandé)"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -851,3 +853,12 @@ msgstr "Dernière mise à jour&nbsp;:"
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traduction de cette page"
+
+#~ msgid ""
+#~ "<code>cs</code> - <a href=\"https://savannah.gnu.org/projects/www-cs"
+#~ "\">Czech</a> (<a href=\"https://savannah.gnu.org/users/mkysela\">Martin "
+#~ "Kysela</a>)"
+#~ msgstr ""
+#~ "<code>cs</code> - <a href=\"https://savannah.gnu.org/projects/www-cs"
+#~ "\">Tchèque</a> (<a href=\"https://savannah.gnu.org/users/mkysela\">Martin "
+#~ "Kysela</a>)"
