@@ -119,6 +119,11 @@ msgid ""
 "from time to time, for as many packages as possible.  <a href=\"/bulletins/"
 "bulletins.html\">More info</a>."
 msgstr ""
+"Un premier fascicule d'un <a href=\"/bulletins/gnustatus-2011-01.html"
+"\">Rapport d'état de GNU</a> est disponible. C'est une renaissance partielle "
+"du <cite>Bulletin de GNU</cite>, visant à offrir des informations sur GNU en "
+"temps réel, pour autant de paquets que possible. <a href=\"/bulletins/"
+"bulletins.html\">Plus d'info</a>."
 
 #. type: Content of: <dl><dt>
 msgid "9 December 2010"
@@ -130,6 +135,10 @@ msgid ""
 "then a disk failure.  Also, some Apache features have been turned off for "
 "web pages.  <a href=\"http://savannah.gnu.org/news/\">Full news items</a>."
 msgstr ""
+"Savannah a été indisponible pendant quelques heures à cause d'une "
+"compromission de mots de passe puis d'un échec de disque. En outre, des "
+"fonctions d'Apache ont été désactivées pour les pages Web. <a href=\"http://"
+"savannah.gnu.org/news/\">Éléments complets d'actualité</a>."
 
 #. type: Content of: <dl><dt>
 msgid "16 November 2010"
@@ -143,6 +152,12 @@ msgid ""
 "internet-blacklist-coica-is-back-take-action-before-thursday\">the post on "
 "fsf.org</a> for more information."
 msgstr ""
+"Citoyens américains&nbsl;: arrêtez le projet de loi relatif à liste noire "
+"sur Internet. Signez la pétition sur <a href=\"http://demandprogress.org/"
+"blacklist/\">http://demandprogress.org/blacklist</a>, et regardez <a href="
+"\"http://www.fsf.org/blogs/community/the-internet-blacklist-coica-is-back-"
+"take-action-before-thursday\">le message sur fsf.org</a> pour plus "
+"d'informations."
 
 #. type: Content of: <dl><dt>
 msgid "29 September 2010"
@@ -156,6 +171,12 @@ msgid ""
 "of a few hours per week as reliable technical consultants helping people "
 "transcode their videos to free formats like WebM and Ogg Theora."
 msgstr ""
+"Intéressés par des formats libres de vidéo&nbsp;? Nous avons besoin de votle "
+"aide&nbsp;! <a href=\"http://www.fsf.org/blogs/community/interested-in-free-"
+"video-formats-we-need-your-help\">La FSF cherche</a> des bénévoles "
+"souhaitant consacrer en moyenne quelques heures par semaine en tant que "
+"consultants techniques fiables pour aider les personnes à encoder leurs "
+"vidéos dans des formats libres comme WebM et Ogg Theora."
 
 #. type: Content of: <dl><dt>
 msgid "30 June 2010"
@@ -168,6 +189,11 @@ msgid ""
 "\">read it</a> and <a href=\"http://www.fsf.org/free-software-supporter"
 "\">subscribe</a> to receive future monthly issues by e-mail."
 msgstr ""
+"Le numéro de juin du <cite>Soutiens au logiciel libre</cite> est publié -- "
+"vous pouvez <a href=\"http://lists.fsf.org/archive/html/info-fsf/2010-06/"
+"msg00003.html\">le lire</a> et <a href=\"http://www.fsf.org/free-software-"
+"supporter\">vous inscrire</a> pour recevoir les futurs numéros mensuels par "
+"e-mail."
 
 #. type: Content of: <dl><dt>
 msgid "25 March 2010"
@@ -180,6 +206,11 @@ msgid ""
 "with the release of <a href=\"http://www.gnu.org/accessibility/accessibility."
 "html\">the GNU Accessibility Statement</a>."
 msgstr ""
+"GNU encourage les personnes travaillant sur des logiciels libres à suivre "
+"les standards et les lignes directrices pour une accessibilité universelle "
+"sur GNU/Linux et d'autres systèmes d'exploitation libres, avec la "
+"publication de <a href=\"http://www.gnu.org/accessibility/accessibility.html"
+"\">la déclaration sur l'accessibilité</a>."
 
 #. type: Content of: <dl><dt>
 msgid "20 March 2010"
@@ -191,6 +222,9 @@ msgid ""
 "for free software in <a href=\"http://www.gnu.org/philosophy/who-does-that-"
 "server-really-serve.html\">a new article</a>."
 msgstr ""
+"Le Président de la FSF, Richard Stallman, explique les dangers des logiciels "
+"de service pour le logiciel libre dans <a href=\"http://www.gnu.org/"
+"philosophy/who-does-that-server-really-serve.html\">un nouvel article</a>."
 
 #. type: Content of: <dl><dt>
 msgid "2 January 2010"
@@ -203,6 +237,11 @@ msgid ""
 "1.11.1 or 1.10.3 release, or otherwise work around <a href=\"http://thread."
 "gmane.org/gmane.comp.sysutils.autotools.announce/131\">the problem</a>."
 msgstr ""
+"Tous les paquets utilisant <a href=\"/software/automake/\">GNU Automake</a> "
+"pour créer des archives tar pour des distributions avec <tt>make dist</tt> "
+"devraient passer à la version 1.11.1 ou 1.10.3, ou bien contourner <a href="
+"\"http://thread.gmane.org/gmane.comp.sysutils.autotools.announce/131\">le "
+"problème</a>."
 
 #. type: Content of: <dl><dt>
 msgid "31 December 2009"
@@ -215,6 +254,10 @@ msgid ""
 "in Cambridge, Massachusetts. <a href=\"http://groups.fsf.org/wiki/"
 "LibrePlanet2010/GNUHackersMeeting\">Read the details and RSVP.</a>"
 msgstr ""
+"La FSF accueille une rencontre de hackers GNU pour les mainteneurs et les "
+"contributeurs de GNU du 18 au 21 mars, au sein de la conférence "
+"LibrePlanet 2010 à Cambridge, Massachusetts. <a href=\"http://groups.fsf.org/"
+"wiki/LibrePlanet2010/GNUHackersMeeting\">Lire les détails et RSVP.</a>"
 
 #. type: Content of: <dl><dt>
 msgid "23 July 2009"
@@ -228,7 +271,7 @@ msgid ""
 "pirate-party.html\">How the Swedish Pirate Party Platform Backfires on Free "
 "Software</a>."
 msgstr ""
-"Le président de la FSF Richard Stallman explique les interactions non-"
+"Le président de la FSF Richard Stallman explique les interactions non "
 "désirées entre la plateforme du Parti pirate suédois et les logiciels libres "
 "&mdash; et propose une solution &mdash; dans son nouvel article, <a href="
 "\"http://www.gnu.org/philosophy/pirate-party.fr.html\">Comment les "
@@ -246,11 +289,10 @@ msgid ""
 "fsf.org/wiki/Canada/RewriteCanadianCopyrightLaw\">the LibrePlanet page</a> "
 "for information on participating."
 msgstr ""
-"Aidez à l'amélioration de la loi canadienne sur le copyright ! Le Globe and "
+"Aidez à l'amélioration de la loi canadienne sur le copyright&nbsp;! Le Globe and "
 "Mail a mis C-61, un projet de réforme du copyright, sur un wiki pour son "
-"édition. Voir la page <a href=\"http://groups.fsf.org/wiki/Canada/"
-"RewriteCanadianCopyrightLaw\">LibrePlanet</a> pour des informations pour "
-"participer."
+"édition. Plus d'informations pour participer sur la page <a href=\"http://groups.fsf.org/wiki/Canada/"
+"RewriteCanadianCopyrightLaw\">LibrePlanet</a>."
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -259,10 +301,10 @@ msgid ""
 "href=\"http://www.fsf.org/news/campaigns-manager\">Read about the job and "
 "how to apply</a>."
 msgstr ""
-"La FSF recrute un nouveau responsable des campagnes, pour aider GNU et "
-"DefectiveByDesign, PlayOgg et d'autres campagnes sur les logiciels libres "
-"passionnantes. <a href=\"http://www.fsf.org/news/campaigns-manager\">Lire la "
-"fiche de poste etcomment postuler</a>."
+"La FSF recrute un nouveau responsable des campagnes, pour aider GNU, "
+"DefectiveByDesign, PlayOgg ainsi que d'autres campagnes sur les logiciels "
+"libres tout aussi passionnantes. <a href=\"http://www.fsf.org/news/campaigns-manager\">Lire "
+"la fiche de poste et comment postuler</a>."
 
 #. type: Content of: <dl><dt>
 msgid "7 May 2009"
@@ -292,9 +334,9 @@ msgid ""
 "interview here.</a>"
 msgstr ""
 "Richard Stallman a donné une interview à O'Reilly Media dans laquelle il "
-"parle des licences de logiciels libres et de nombres de problèmes actuels, "
-"dont les brevets logiciels, les pilotes de périphériques libres, et les "
-"campagnes en cours de la FSF. <a href=\"http://www.gnu.org/philosophy/"
+"parle des licences de logiciels libres et d'un certain nombre de problèmes "
+"actuels, dont les brevets logiciels, les pilotes de périphériques libres, et "
+"les campagnes en cours de la FSF. <a href=\"http://www.gnu.org/philosophy/"
 "speeches-and-interview.fr.html\">Lisez l'interview ici.</a>"
 
 #. type: Content of: <dl><dt>
@@ -325,7 +367,7 @@ msgid ""
 "org/news/2008_free_software_awards\">Read more</a> about their work and the "
 "awards."
 msgstr ""
-"Wietse Venema et Creative Commons ont été déclarés vainqueurs pour les "
+"Wietse Venema et Creative Commons ont été déclarés vainqueurs des "
 "récompenses annuelles sur les logiciels libres à LibrePlanet la semaine "
 "dernière. <a href=\"http://www.fsf.org/news/2008_free_software_awards\">En "
 "lire plus</a> sur leur travail et les récompenses."
@@ -346,7 +388,7 @@ msgstr ""
 "Aidez à déjouer <a href=\"http://www.gnu.org/philosophy/javascript-trap.html"
 "\">le piège JavaScript&nbsp;!</a>. Pendant la conférence LibrePlanet, "
 "Richard Stallman a annoncé un plan d'action pour régler le problème des "
-"programmes JavaScript, Flash et Silverlight non-libres. <a href=\"http://www."
+"programmes JavaScript, Flash et Silverlight non libres. <a href=\"http://www."
 "fsf.org/news/javascript-trap\">En lire plus</a> sur cette menace à la "
 "liberté des utilisateurs et sur la façon d'aider."
 
@@ -377,7 +419,7 @@ msgid ""
 "New Zealanders, please support the <a href=\"http://creativefreedom.org.nz/"
 "\">Creative Freedom Foundation</a>."
 msgstr ""
-"Néo-zélandais, veuillez soutenir <a href=\"http://creativefreedom.org.nz/"
+"Néo-zélandais, veuillez soutenir la <a href=\"http://creativefreedom.org.nz/"
 "\">Creative Freedom Foundation</a>."
 
 #. type: Content of: <dl><dt>
@@ -392,7 +434,7 @@ msgid ""
 msgstr ""
 "Européens, veuillez assister à <a href=\"http://www.greens-efa.org/cms/"
 "default/dok/270/270613.who_wants_to_control_the_internet@en.htm\">cette "
-"conférence</a> sur le paquet Télécoms, appelé&nbsp;: «&nbsp;Qui veut "
+"conférence</a> sur le paquet Télécoms, appelée&nbsp;: «&nbsp;Qui veut "
 "contrôler Internet&nbsp;?&nbsp;»."
 
 #. type: Content of: <dl><dt>
@@ -407,8 +449,8 @@ msgid ""
 "\">pdfreaders.org</a>."
 msgstr ""
 "PDF est un format libre supporté par les logiciels libres mais beaucoup de "
-"documents PDF vous indique d'utiliser un lecteur PDF particulier. En "
-"apprendre plus sur les lecteurs PDF libres et leurs avantages sur <a href="
+"documents PDF vous indiquent d'utiliser un lecteur PDF particulier. Plus "
+"d'informations sur les lecteurs PDF libres et leurs avantages sur <a href="
 "\"http://pdfreaders.org/\">pdfreaders.org</a>."
 
 #. type: Content of: <dl><dt>
@@ -437,7 +479,7 @@ msgid ""
 "victory in its BadVista.org campaign. <a href=\"http://badvista.org\">Read "
 "and share the full announcement.</a>"
 msgstr ""
-"Avec la publication de la version beta publique de Windows 7 aujourd'hui, la "
+"Avec la sortie de la version beta publique de Windows 7 aujourd'hui, la "
 "FSF déclare sa victoire pour sa campagne BadVista.org. <a href=\"http://"
 "badvista.org\">Lisez et partagez l'annonce complète</a>."
 
@@ -451,48 +493,48 @@ msgstr "<a href=\"/server/08whatsnew.fr.html\"> <strong>2008</strong> </a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/07whatsnew.html\"> <strong>2007</strong> </a>"
-msgstr "<a href=\"/server/07whatsnew.html\"> <strong>2007</strong> </a>"
+msgstr "<a href=\"/server/07whatsnew.fr.html\"> <strong>2007</strong> </a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/06whatsnew.html\"> <strong>2006</strong> </a>"
-msgstr "<a href=\"/server/06whatsnew.html\"> <strong>2006</strong> </a>"
+msgstr "<a href=\"/server/06whatsnew.fr.html\"> <strong>2006</strong> </a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/05whatsnew.html\"> <strong>2005</strong> </a>"
-msgstr "<a href=\"/server/05whatsnew.html\"> <strong>2005</strong> </a>"
+msgstr "<a href=\"/server/05whatsnew.fr.html\"> <strong>2005</strong> </a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/04whatsnew.html\"> <strong>2004</strong> </a>"
-msgstr "<a href=\"/server/04whatsnew.html\"> <strong>2004</strong> </a>"
+msgstr "<a href=\"/server/04whatsnew.fr.html\"> <strong>2004</strong> </a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/03whatsnew.html\"> <strong>2003</strong> </a>"
-msgstr "<a href=\"/server/03whatsnew.html\"> <strong>2003</strong> </a>"
+msgstr "<a href=\"/server/03whatsnew.fr.html\"> <strong>2003</strong> </a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/02whatsnew.html\"> <strong>2002</strong> </a>"
-msgstr "<a href=\"/server/02whatsnew.html\"> <strong>2002</strong> </a>"
+msgstr "<a href=\"/server/02whatsnew.fr.html\"> <strong>2002</strong> </a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/01whatsnew.html\"> <strong>2001</strong> </a>"
-msgstr "<a href=\"/server/01whatsnew.html\"> <strong>2001</strong> </a>"
+msgstr "<a href=\"/server/01whatsnew.fr.html\"> <strong>2001</strong> </a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/00whatsnew.html\"> <strong>2000</strong> </a>"
-msgstr "<a href=\"/server/00whatsnew.html\"> <strong>2000</strong> </a>"
+msgstr "<a href=\"/server/00whatsnew.fr.html\"> <strong>2000</strong> </a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/99whatsnew.html\"> <strong>1999</strong> </a>"
-msgstr "<a href=\"/server/99whatsnew.html\"> <strong>1999</strong> </a>"
+msgstr "<a href=\"/server/99whatsnew.fr.html\"> <strong>1999</strong> </a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/98whatsnew.html\"> <strong>1998</strong> </a>"
-msgstr "<a href=\"/server/98whatsnew.html\"> <strong>1998</strong> </a>"
+msgstr "<a href=\"/server/98whatsnew.fr.html\"> <strong>1998</strong> </a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/97whatsnew.html\"> <strong>1997</strong> </a>"
-msgstr "<a href=\"/server/97whatsnew.html\"> <strong>1997</strong> </a>"
+msgstr "<a href=\"/server/97whatsnew.fr.html\"> <strong>1997</strong> </a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/server/96whatsnew.html\"> <strong>1996</strong> </a>"
-msgstr "<a href=\"/server/96whatsnew.html\"> <strong>1996</strong> </a>"
+msgstr "<a href=\"/server/96whatsnew.fr.html\"> <strong>1996</strong> </a>"
