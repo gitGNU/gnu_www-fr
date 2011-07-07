@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: footer-text.html\n"
-"POT-Creation-Date: 2011-05-08 20:25-0300\n"
+"POT-Creation-Date: 2011-07-06 20:25-0300\n"
 "PO-Revision-Date: 2011-06-12 22:12+0200\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -139,12 +139,22 @@ msgid "<a href=\"/licenses/gpl-faq.html\">Software licensing FAQ</a>"
 msgstr "<a href=\"/licenses/gpl-faq.html\">FAQ sur les licences</a>"
 
 #. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid "<a href=\"/licenses/gpl-faq.html\">Licensing compliance</a>"
-msgstr "<a href=\"/licenses/gpl-faq.html\">Conformité des licences</a>"
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.fsf.org/licensing/education\">Licensing education</a>"
+msgid ""
+"<a href=\"http://www.fsf.org/licensing/compliance\">Licensing compliance</a>"
+msgstr ""
+"<a href=\"http://www.fsf.org/licensing/education\">Ressources sur les "
+"licences</a>"
 
 #. type: Content of: <div><div><div><div><ul><li><ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"/licenses/gpl-faq.html\">How to use GNU licenses for your own "
+#| "software</a>"
 msgid ""
-"<a href=\"/licenses/gpl-faq.html\">How to use GNU licenses for your own "
+"<a href=\"/licenses/gpl-howto.html\">How to use GNU licenses for your own "
 "software</a>"
 msgstr ""
 "<a href=\"/licenses/gpl-faq.fr.html\">Comment utiliser les licences GNU pour "
@@ -353,6 +363,9 @@ msgstr ""
 #. type: Content of: <div><div><p>
 msgid "<a href=\"#header\">back to top</a>"
 msgstr "<a href=\"#header\">Haut de la page</a>"
+
+#~ msgid "<a href=\"/licenses/gpl-faq.html\">Licensing compliance</a>"
+#~ msgstr "<a href=\"/licenses/gpl-faq.html\">Conformité des licences</a>"
 
 #~ msgid "Check out other Free Software Foundation campaigns"
 #~ msgstr "Consultez les autres campagnes de la Free Software Foundation"
