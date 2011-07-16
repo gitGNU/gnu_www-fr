@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnu-linux-faq.html\n"
 "POT-Creation-Date: 2011-05-24 20:27-0300\n"
-"PO-Revision-Date: 2011-07-01 01:06+0200\n"
-"Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
+"PO-Revision-Date: 2011-07-07 23:41+0100\n"
+"Last-Translator: Marc de Maillard <mdemaillard@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -103,7 +103,7 @@ msgid ""
 msgstr ""
 "<a href=\"#freespeech\" id=\"TOCfreespeech\">Le projet GNU ne soutient-il "
 "pas le droit à la liberté d'expression de chaque individu d'appeler le "
-"système par n'importe quel nom qu'il choisit&nbsp;?</a>"
+"système par le nom qu'il choisit&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -121,8 +121,8 @@ msgid ""
 "of GNU in this system, why does it matter what name I use?</a>"
 msgstr ""
 "<a href=\"#everyoneknows2\" id=\"TOCeveryoneknows2\">Puisque je connais le "
-"rôle de GNU dans ce système, pourquoi le nom que j'utilise a-t-il une "
-"importance&nbsp;?</a>"
+"rôle de GNU dans ce système, pourquoi le nom que j'utilise est-il "
+"important&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -248,7 +248,7 @@ msgid ""
 "system nowadays, so why should we mention it?</a>"
 msgstr ""
 "<a href=\"#allsmall\" id=\"TOCallsmall\">GNU est une petite fraction du "
-"système de nos jours, alors pourquoi le mentionnerait-on&nbsp;?</a>"
+"système de nos jours, alors pourquoi devrait-on le mentionner&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -557,6 +557,8 @@ msgid ""
 "Why do you call it GNU/Linux and not Linux? <span class=\"anchor-reference-id"
 "\">(<a href=\"#why\">#why</a>)</span>"
 msgstr ""
+"Pourquoi l'appelez-vous GNU/Linux et pas Linux&nbsp;? <span class=\"anchor-"
+"reference-id\">(<a href=\"#why\">#why</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -599,6 +601,8 @@ msgid ""
 "Why is the name important? <span class=\"anchor-reference-id\">(<a href="
 "\"#whycare\">#whycare</a>)</span>"
 msgstr ""
+"Pourquoi le nom est-il important&nbsp;? <span class=\"anchor-reference-id\">"
+"(<a href=\"#whycare\">#whycare</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1213,6 +1217,8 @@ msgid ""
 "Isn't the kernel the brain of the system? <span class=\"anchor-reference-id"
 "\">(<a href=\"#brain\">#brain</a>)</span>"
 msgstr ""
+"Le noyau n'est-il pas le cerveau du système&nbsp;? <span class=\"anchor-"
+"reference-id\">(<a href=\"#brain\">#brain</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1700,6 +1706,12 @@ msgid ""
 "their official name, and we hope that if you are involved with a different "
 "distribution, you will encourage it to do the same."
 msgstr ""
+"Cela signifie que les personnes qui font la distribution «&nbsp;Foobar "
+"Linux&nbsp;» répètent l'erreur courant. Nous appécions le fait que les "
+"distributions comme Debian, Dragora, Musix, Trisquel et Venenux ont adopté "
+"GNU/Linux comme faisant partie de leur nom officiel, et espérons que si vous "
+"êtes impliqués dans une autre distribution, que vous l'encouragerez à faire "
+"de même."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -2225,6 +2237,8 @@ msgid ""
 "Should we say &ldquo;GNU/BSD&rdquo; too? <span class=\"anchor-reference-id\">"
 "(<a href=\"#bsd\">#bsd</a>)</span>"
 msgstr ""
+"Devrions-nous dire également «&nbsp;GNU/BSD&nbsp;»&nbsp;? <span class="
+"\"anchor-reference-id\">(<a href=\"#bsd\">#bsd</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2328,11 +2342,15 @@ msgid ""
 "Can't there be Linux systems without GNU? <span class=\"anchor-reference-id"
 "\">(<a href=\"#justlinux\">#justlinux</a>)</span>"
 msgstr ""
+"Ne peut-il pas y avoir de système Linux sans GNU&nbsp;? <span class=\"anchor-"
+"reference-id\">(<a href=\"#justlinux\">#justlinux</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
 "There are systems that contain Linux and not GNU; Android is an example."
 msgstr ""
+"Il y a des systèmes qui contiennent Linux et pas GNU&nbsp;: Android en est "
+"un exemple."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2344,6 +2362,14 @@ msgid ""
 "[meaning the GNU system].&rdquo; Android contains just as much of Linux as "
 "GNU/Linux does.  What it doesn't have is GNU."
 msgstr ""
+"Android est très différent du système GNU/Linux&nbsp;: parce qu'il ne "
+"contient pas GNU, seulement Linux. En effet, c'est un système complètement "
+"différent. Si vous pensez au système dans son ensemble en tant que «&nbsp;"
+"Linux&nbsp;», vous trouverez nécessaire de dire quelque chose du genre, "
+"«&nbsp;Android contient Linux, mais n'est pas Linux, parce qu'il n'a pas les "
+"bibliothèques et outils habituels Linux (sic) (c'est à dire le système GNU)"
+"&nbsp;». Android contient exactement autant de Linux que GNU/Linux. Ce qu'il "
+"n'a pas c'est GNU."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -2423,6 +2449,9 @@ msgid ""
 "Isn't it wrong for us to label Linus Torvalds' work as GNU? <span class="
 "\"anchor-reference-id\">(<a href=\"#claimlinux\">#claimlinux</a>)</span>"
 msgstr ""
+"N'est-ce pas une erreur de notre part d'étiqueter le travail de Linus "
+"Torvalds en tant que GNU&nbsp;? <span class=\"anchor-reference-id\">(<a href="
+"\"#claimlinux\">#claimlinux</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2442,6 +2471,9 @@ msgid ""
 "Does Linus Torvalds agree that Linux is just the kernel? <span class="
 "\"anchor-reference-id\">(<a href=\"#linusagreed\">#linusagreed</a>)</span>"
 msgstr ""
+"Est-ce que Linus Torvalds est d'accord que Linux est uniquement le "
+"noyau&nbsp;? <span class=\"anchor-reference-id\">(<a href=\"#linusagreed"
+"\">#linusagreed</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2931,7 +2963,7 @@ msgstr ""
 "Traduction&nbsp;: Marc de Maillard<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
-#.  timestamp start 
+#.  timestamp start
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
