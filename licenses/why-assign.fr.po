@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: why-assign.html\n"
-"POT-Creation-Date: 2009-01-05 04:25-0500\n"
+"POT-Creation-Date: 2011-07-14 04:29-0300\n"
 "PO-Revision-Date: 2009-01-05 17:18+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid ""
 "Why the FSF gets copyright assignments from contributors - GNU Project - "
 "Free Software Foundation (FSF)"
@@ -22,15 +23,18 @@ msgstr ""
 "Pourquoi la FSF obtient la cession des copyrights des contributeurs - GNU "
 "Project - Free Software Foundation (FSF)"
 
+#. type: Content of: <h2>
 msgid "Why the FSF gets copyright assignments from contributors"
 msgstr "Pourquoi la FSF obtient la cession des copyrights des contributeurs"
 
+#. type: Content of: <p>
 msgid ""
 "by <strong>Professor Eben Moglen</strong>, Columbia University Law School"
 msgstr ""
 "par le <strong>Professeur Eben Moglen</strong>, de la Columbia University "
 "Law School"
 
+#. type: Content of: <p>
 msgid ""
 "Under US copyright law, which is the law under which most free software "
 "programs have historically been first published, there are very substantial "
@@ -51,6 +55,7 @@ msgstr ""
 "sous copyright, pour faire respecter avec succès le copyright, la "
 "coopération de tous les auteurs est nécessaire."
 
+#. type: Content of: <p>
 msgid ""
 "In order to make sure that all of our copyrights can meet the recordkeeping "
 "and other requirements of registration, and in order to be able to enforce "
@@ -74,22 +79,30 @@ msgstr ""
 "confiance."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -99,29 +112,36 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2001, 2008, 2009 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 2001, 2008, 2009 Free Software Foundation, Inc.,"
 
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium without royalty provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage sans contrepartie financière, "
-"pourvu que cette notice soit préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

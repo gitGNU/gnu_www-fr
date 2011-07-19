@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sco.html\n"
-"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"POT-Creation-Date: 2011-07-14 04:30-0300\n"
 "PO-Revision-Date: 2009-01-20 21:40+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,10 +15,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <h2>
 msgid "FSF's Position regarding SCO's attacks on Free Software"
 msgstr ""
 "Position de la FSF concernant les attaques de SCO contre le logiciel libre"
 
+#. type: Content of: <p>
 msgid ""
 "Much press coverage has been given in the last months to SCO's press and "
 "legal attacks on Free Software and the GNU/Linux system.  Even though these "
@@ -35,6 +37,7 @@ msgstr ""
 "Moglen, demeure profondément impliquée dans le calendrier stratégique des "
 "réponses de la communauté à SCO."
 
+#. type: Content of: <p>
 msgid ""
 "Professor Moglen has been coordinating with IBM's lawyers on the matter, "
 "including both their inside and outside counsel.  He has coordinated with "
@@ -52,12 +55,14 @@ msgstr ""
 "source, et  l'industrie technologique, pour rassembler une coalition vaste "
 "et organisée pour s'opposer à SCO, juridiquement et médiatiquement."
 
+#. type: Content of: <p>
 msgid ""
 "On this site, we will publish documents related to our work opposing SCO."
 msgstr ""
 "Sur ce site, nous publions des documents relatifs à notre travail "
 "d'opposition à SCO."
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/sco/subpoena.html\"><cite>The SCO Subpoena of FSF</"
 "cite></a>, by Bradley M. Kuhn, released on Tuesday 18 May 2004."
@@ -65,6 +70,7 @@ msgstr ""
 "<a href=\"/philosophy/sco/subpoena.fr.html\"><cite>L'assignation de la FSF "
 "par SCO</cite></a>, par Bradley M. Kuhn, publiée le mardi 18 mai 2004."
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/sco/sco-without-fear.html\"><cite>SCO: Without Fear "
 "and Without Research </cite></a>, by Eben Moglen, released on Monday 24 "
@@ -74,6 +80,7 @@ msgstr ""
 "peur et sans recherche</cite></a>, par Eben Moglen, paru le lundi 24 "
 "novembre 2003."
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/sco/sco-preemption.html\"><cite>SCO Scuttles Sense, "
 "Claiming GPL Invalidity</cite></a>, by Eben Moglen, released on Monday 18 "
@@ -83,6 +90,7 @@ msgstr ""
 "revendiquant l'invalidité de la GPL</cite></a>, par Eben Moglen, paru le "
 "lundi 18 août 2003."
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/sco/questioning-sco.html\"><cite>Questioning SCO: A "
 "Hard Look at Nebulous Claims</cite></a>, by Eben Moglen, released on Friday "
@@ -92,6 +100,7 @@ msgstr ""
 "SCO&nbsp;: Un regard insistant sur des revendications nébuleuses</cite></a>, "
 "par Eben Moglen, paru le vendredi 1<sup>er</sup> août 2003."
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/sco/sco-gnu-linux.html\"><cite>SCO, GNU, and Linux</"
 "cite></a>, by Richard Stallman, released on Sunday 29 June 2003."
@@ -99,6 +108,7 @@ msgstr ""
 "<a href=\"/philosophy/sco/sco-gnu-linux.fr.html\"><cite>SCO, GNU, et Linux</"
 "cite></a>, par Richard Stallman, paru le dimanche 29 juin 2003."
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/sco/sco-v-ibm.html\"><cite>FSF Statement on <em>SCO v. "
 "IBM</em></cite></a>, by Eben Moglen, released on Friday 27 June 2003."
@@ -108,22 +118,30 @@ msgstr ""
 "2003."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -133,6 +151,7 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008 Free Software Foundation, Inc.,"
@@ -140,26 +159,32 @@ msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008 Free Software Foundation, Inc.,"
 
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium, provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

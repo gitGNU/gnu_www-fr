@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quick-guide-gplv3.html\n"
-"POT-Creation-Date: 2010-05-06 04:25-0300\n"
+"POT-Creation-Date: 2011-07-14 04:26-0300\n"
 "PO-Revision-Date: 2011-06-26 00:52+0000\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,16 +16,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid "A Quick Guide to GPLv3 - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "Guide rapide de la GPLv3 - GNU Project - Free Software Foundation (FSF)"
 
+#. type: Content of: <h2>
 msgid "A Quick Guide to GPLv3"
 msgstr "Guide rapide de la GPLv3"
 
+#. type: Content of: <p>
 msgid "by <strong>Brett Smith</strong>"
 msgstr "par <strong>Brett Smith</strong>"
 
+#. type: Content of: <p>
 msgid ""
 "[This article is also available in <a href=\"/licenses/quick-guide-gplv3.pdf"
 "\">PDF</a> and <a href=\"/licenses/quick-guide-gplv3.tar.gz"
@@ -35,6 +39,7 @@ msgstr ""
 "guide-gplv3.pdf\">PDF</a> et <a href=\"/licenses/quick-guide-gplv3.tar.gz"
 "\">reStructuredText</a>.]"
 
+#. type: Content of: <p>
 msgid ""
 "After a year and a half of public consultation, thousands of comments, and "
 "four drafts, version 3 of the GNU General Public License (<a class="
@@ -60,9 +65,11 @@ msgstr ""
 "ils vont dans le sens des objectifs de la GPL et des intérêts des "
 "développeurs."
 
+#. type: Content of: <div><h3>
 msgid "The Foundations of the GPL"
 msgstr "Les fondements de la GPL"
 
+#. type: Content of: <div><p>
 msgid ""
 "Nobody should be restricted by the software they use.  There are four "
 "freedoms that every user should have:"
@@ -70,18 +77,23 @@ msgstr ""
 "Personne ne devrait être limité par les logiciels qu'il utilise. Il y a "
 "quatre libertés que tout utilisateur devrait avoir&nbsp;:"
 
+#. type: Content of: <div><ul><li>
 msgid "the freedom to use the software for any purpose,"
 msgstr "La liberté d'utiliser le logiciel pour n'importe quel usage,"
 
+#. type: Content of: <div><ul><li>
 msgid "the freedom to change the software to suit your needs,"
 msgstr "La liberté d'améliorer le programme pour répondre à vos besoins,"
 
+#. type: Content of: <div><ul><li>
 msgid "the freedom to share the software with your friends and neighbors, and"
 msgstr "La liberté de redistribuer des copies à vos amis, voisins, &hellip;,"
 
+#. type: Content of: <div><ul><li>
 msgid "the freedom to share the changes you make."
 msgstr "La liberté de redistribuer ces améliorations."
 
+#. type: Content of: <div><p>
 msgid ""
 "When a program offers users all of these freedoms, we call it <a class="
 "\"reference external\" href=\"/philosophy/free-sw.html\">free software</a>."
@@ -90,6 +102,7 @@ msgstr ""
 "qualifions de <a class=\"reference external\" href=\"/philosophy/free-sw.fr."
 "html\">logiciel libre</a>."
 
+#. type: Content of: <div><p>
 msgid ""
 "Developers who write software can release it under the terms of the GNU "
 "GPL.  When they do, it will be free software and stay free software, no "
@@ -107,6 +120,7 @@ msgstr ""
 "c'est le cas dans les logicielspropriétaires), nous utilisons ces droits "
 "d'auteur pour nous assurer que tous les utilisateurs ont ces libertés."
 
+#. type: Content of: <div><p>
 msgid ""
 "We update the GPL to protect its copyleft from being undermined by legal or "
 "technological developments.  The most recent version protects users from "
@@ -116,6 +130,7 @@ msgstr ""
 "par des évolutions légales ou technologiques. La dernière version protège "
 "les utilisateurs contre trois dangers récents&nbsp;:"
 
+#. type: Content of: <div><ul><li>
 msgid ""
 "Tivoization: Some companies have created various different kinds of devices "
 "that run GPLed software, and then rigged the hardware so that they can "
@@ -133,6 +148,7 @@ msgstr ""
 "fait cet équipement. Quand un équipement vous empêche de faire cela, nous "
 "appelons cela la «&nbsp;Tivoisation&nbsp;»."
 
+#. type: Content of: <div><ul><li>
 msgid ""
 "Laws prohibiting free software: Legislation like the Digital Millennium "
 "Copyright Act and the European Union Copyright Directive make it a crime to "
@@ -153,6 +169,7 @@ msgstr ""
 "but-not-forbidding-drm\">ci-dessous</a>). Ces lois ne devraient pas "
 "interférer avec les droits que vous confère la licence GPL."
 
+#. type: Content of: <div><ul><li>
 msgid ""
 "Discriminatory patent deals: Microsoft has recently started telling people "
 "that they will not sue free software users for patent infringement&mdash;as "
@@ -170,6 +187,7 @@ msgstr ""
 "avec la liberté des utilisateurs. Aucune entreprise ne devrait être en "
 "mesure de faire cela."
 
+#. type: Content of: <div><p>
 msgid ""
 "Version 3 also has a number of improvements to make the license easier for "
 "everyone to use and understand.  But even with all these changes, GPLv3 "
@@ -188,11 +206,13 @@ msgstr ""
 "GPLv3 et en quoi ces changements améliorent la licence pour les utilisateurs "
 "et les développeurs."
 
+#. type: Content of: <div><h3>
 msgid ""
 "Neutralizing Laws That Prohibit Free Software &mdash; But Not Forbidding DRM"
 msgstr ""
 "Neutraliser les lois prohibant les logiciels libres, sans interdire les DRM"
 
+#. type: Content of: <div><p>
 msgid ""
 "You're probably familiar with the Digital Restrictions Mismanagement (DRM) "
 "on DVDs and other media.  You're probably also familiar with the laws that "
@@ -210,6 +230,7 @@ msgstr ""
 "française].Personne ne devrait pouvoir vous empêcher d'écrire le code que "
 "vous souhaitez écrire, et la GPLv3 protège ce droit qui est le vôtre."
 
+#. type: Content of: <div><p>
 msgid ""
 "It's always possible to use GPLed code to write software that implements "
 "DRM.  However, if someone does that with code protected by GPLv3, section 3 "
@@ -226,6 +247,7 @@ msgstr ""
 "libres de distribuer ce logiciel et vous ne serez pas menacés de sanctions "
 "du fait des lois DMCA, EUCD, DADVSI ou assimilées."
 
+#. type: Content of: <div><p>
 msgid ""
 "As usual, the GNU GPL does not restrict what people do in software; it just "
 "stops them from restricting others."
@@ -233,9 +255,11 @@ msgstr ""
 "Comme toujours, la licence GNU GPL ne bride pas les gens dans les logiciels "
 "qu'ils font, elle les empêche juste de brider l'usage que les autres en font."
 
+#. type: Content of: <div><h3>
 msgid "Protecting Your Right to Tinker"
 msgstr "Protéger votre droit de bricoler"
 
+#. type: Content of: <div><p>
 msgid ""
 "Tivoization is a dangerous attempt to curtail users' freedom: the right to "
 "modify your software will become meaningless if none of your computers let "
@@ -259,6 +283,7 @@ msgstr ""
 "est fait, mais quelle que soit l'information dont vous avez besoin, vous "
 "devez être en mesure de l'obtenir."
 
+#. type: Content of: <div><p>
 msgid ""
 "This requirement is limited in scope.  Distributors are still allowed to use "
 "cryptographic keys for any purpose, and they'll only be required to disclose "
@@ -281,9 +306,11 @@ msgstr ""
 "par le biais de la technologie, d'une loi sur les brevets ou de toute autre "
 "façon."
 
+#. type: Content of: <div><h3>
 msgid "Stronger Protection Against Patent Threats"
 msgstr "Une protection plus forte contre la menace des brevets"
 
+#. type: Content of: <div><p>
 msgid ""
 "In the 17 years since GPLv2 was published, the software patent landscape has "
 "changed considerably, and free software licenses have developed new "
@@ -305,6 +332,7 @@ msgstr ""
 "copyright à l'encontre d'un autre utilisateur en vue de l'empêcher d'exercer "
 "ses droits issus de la GPLv3, la licence de l'attaquant sera révoquée."
 
+#. type: Content of: <div><p>
 msgid ""
 "What this means for users and developers is that they'll be able to work "
 "with GPLv3-covered software without worrying that a desperate contributor "
@@ -319,9 +347,11 @@ msgstr ""
 "ses utilisateurs plus de protection que n'importe quelle autre licence de "
 "logiciels libres contre les agressions faites par l'entremise de brevets."
 
+#. type: Content of: <div><h3>
 msgid "Clarifying License Compatibility"
 msgstr "Clarifications autour des compatibilités entre licences"
 
+#. type: Content of: <div><p>
 msgid ""
 "If you found some code and wanted to incorporate it into a GPLed project, "
 "GPLv2 said that the license on the other code was not allowed to have any "
@@ -334,6 +364,7 @@ msgstr ""
 "présente dans la GPLv2. Tant que c'était le cas, nous avons déclaré la "
 "licence «&nbsp;compatible GPL&nbsp;»."
 
+#. type: Content of: <div><p>
 msgid ""
 "However, some licenses had requirements that weren't really restrictive, "
 "because they were so easy to comply with.  For example, some licenses say "
@@ -350,6 +381,7 @@ msgstr ""
 "pas le droit d'utiliser cette marque. Nous avons aussi toujours dit que ces "
 "licences étaient compatibles avec la GPLv2."
 
+#. type: Content of: <div><p>
 msgid ""
 "Now, GPLv3 explicitly gives everyone permission to use code that has "
 "requirements like this.  These new terms should help clear up "
@@ -362,9 +394,11 @@ msgstr ""
 "licences qui sont compatibles GPL, quant aux raisons pour cela et quant à ce "
 "que vous pouvez faire avec du code compatible GPL."
 
+#. type: Content of: <div><h3>
 msgid "New Compatible Licenses"
 msgstr "Nouvelles licences compatibles"
 
+#. type: Content of: <div><p>
 msgid ""
 "In addition to clarifying the rules about licenses that are already GPL-"
 "compatible, GPLv3 is also newly compatible with a few other licenses.  The "
@@ -383,6 +417,7 @@ msgstr ""
 "du logiciel libre. Ce diagramme illustre certaines des relations usuelles de "
 "compatibilité entre différentes licences de logiciels libres&nbsp;:"
 
+#. type: Attribute 'alt' of: <div><img>
 msgid ""
 "A chart illustrating compatibility relationships between different free "
 "software licenses.  For details, see the FSF's license list page."
@@ -390,6 +425,7 @@ msgstr ""
 "Diagramme représentant les relations de compatibilités entre les différentes "
 "licences de logiciels libres."
 
+#. type: Content of: <div><p>
 msgid ""
 "Arrows pointing from one license to another indicate that the first license "
 "is compatible with the second.  This is true even if you follow multiple "
@@ -414,6 +450,7 @@ msgstr ""
 "la GPLv2 et la GPLv3) mais illustre au moins le fait que la GPLv3 est "
 "compatible avec à peu près tout ce qui était compatible GPLv2."
 
+#. type: Content of: <div><p>
 msgid ""
 "The GNU Affero GPL version 3 has also been brought into the fold.  The "
 "original Affero GPL was designed to ensure that all users of a web "
@@ -439,9 +476,11 @@ msgstr ""
 "renforcer leur gauche d'auteur tout en capitalisant sur les portions de code "
 "mûres à leur disposition sous licence GPL."
 
+#. type: Content of: <div><h3>
 msgid "More Ways for Developers to Provide Source"
 msgstr "Plus de façons pour les développeurs de fournir les sources"
 
+#. type: Content of: <div><p>
 msgid ""
 "One of the fundamental requirements of the GPL is that when you distribute "
 "object code to users, you must also provide them with a way to get the "
@@ -466,6 +505,7 @@ msgstr ""
 "sensiblement plus facile pour bon nombre de petits distributeurs qui font "
 "seulement de petites modifications à des grands corpus de codes source."
 
+#. type: Content of: <div><p>
 msgid ""
 "The new license also makes it much easier to convey object code via "
 "BitTorrent.  First, people who are merely downloading or seeding the torrent "
@@ -480,6 +520,7 @@ msgstr ""
 "torrent doit fournir la source simplement en disant aux autres utilisateurs "
 "du torrent sur quel serveur public elle est disponible."
 
+#. type: Content of: <div><p>
 msgid ""
 "These new options help keep the GPL in line with community standards for "
 "offering source, without making it harder for users to get."
@@ -488,11 +529,13 @@ msgstr ""
 "la communauté concernant la mise à disposition des sources, sans rendre "
 "l'obtention de ces sources plus dure pour les utilisateurs."
 
+#. type: Content of: <div><h3>
 msgid "Less Source to Distribute: New System Libraries Exception"
 msgstr ""
 "Moins de sources à distribuer&nbsp;: de nouvelles exceptions pour les "
 "bibliothèques systèmes"
 
+#. type: Content of: <div><p>
 msgid ""
 "Both versions of the GPL require you to provide all the source necessary to "
 "build the software, including supporting libraries, compilation scripts, and "
@@ -507,6 +550,7 @@ msgstr ""
 "les codes sources de certains éléments de c&oelig;ur du système "
 "d'exploitation, tels que les bibliothèques C."
 
+#. type: Content of: <div><p>
 msgid ""
 "GPLv3 has adjusted the definition of System Library to include software that "
 "may not come directly with the operating system, but that all users of the "
@@ -520,6 +564,7 @@ msgstr ""
 "logiciel les aient. Par exemple, cela inclut les bibliothèques standards des "
 "langages de programmation usuels tels que Python et Ruby."
 
+#. type: Content of: <div><p>
 msgid ""
 "The new definition also makes it clear that you can combine GPLed software "
 "with GPL-incompatible System Libraries, such as OpenSolaris' C library, and "
@@ -533,9 +578,11 @@ msgstr ""
 "logiciels libres qui souhaitent fournir ces combinaisons à leurs "
 "utilisateurs."
 
+#. type: Content of: <div><h3>
 msgid "A Global License"
 msgstr "Une licence globale"
 
+#. type: Content of: <div><p>
 msgid ""
 "GPLv2 talks about &quot;distribution&quot; a lot&mdash;when you share the "
 "program with someone else, you're distributing it.  The license never says "
@@ -556,6 +603,7 @@ msgstr ""
 "d'autres acceptions du terme. De fait, un juge dans un tel pays pourrait "
 "interpréter la GPLv2 différemment qu'un juge des États-Unis."
 
+#. type: Content of: <div><p>
 msgid ""
 "GPLv3 uses a new term, &quot;convey,&quot; and provides a definition for "
 "that term.  &quot;Convey&quot; has the same meaning we intended for &quot;"
@@ -573,10 +621,12 @@ msgstr ""
 "disséminées dans la licence qui vont aussi aider à garantir que "
 "l'application serait la même de par le monde."
 
+#. type: Content of: <div><h3>
 msgid "When the Rules Are Broken: A Smooth Path to Compliance"
 msgstr ""
 "Quand les règles sont violées&nbsp;: un chemin facilité vers leur respect"
 
+#. type: Content of: <div><p>
 msgid ""
 "Under GPLv2, if you violated the license in any way, your rights were "
 "automatically and permanently lost.  The only way to get them back was to "
@@ -596,6 +646,7 @@ msgstr ""
 "restauration de sa licence pouvait être ardu et coûteux&nbsp;: une "
 "distribution GNU/Linux typique se fonde sur le travail de milliers de gens."
 
+#. type: Content of: <div><p>
 msgid ""
 "GPLv3 offers a reprieve for good behavior: if you violate the license, "
 "you'll get your rights back once you stop the violation, unless a copyright "
@@ -614,6 +665,7 @@ msgstr ""
 "directement avec le détenteur des droits qui a pris contact avec vous, et "
 "vos droits seront alors aussi rétablis."
 
+#. type: Content of: <div><p>
 msgid ""
 "Compliance with the GPL has always been the top priority of the FSF "
 "Compliance Lab and other groups enforcing the license worldwide.  These "
@@ -626,9 +678,11 @@ msgstr ""
 "reste la première priorité pour ces gens, et incitent ceux qui violent les "
 "termes de la licence à la respecter."
 
+#. type: Content of: <div><h3>
 msgid "The Latest and Greatest"
 msgstr "L'apothéose"
 
+#. type: Content of: <div><p>
 msgid ""
 "Some of these changes probably seem less important to you than others.  "
 "That's okay.  Every project is different, and needs different things from "
@@ -640,6 +694,7 @@ msgstr ""
 "différentes choses de sa licence. Mais il y a de fortes chances qu'un "
 "certain nombre de ces améliorations vous aident dans votre travail."
 
+#. type: Content of: <div><p>
 msgid ""
 "And taken as a whole, all these upgrades represent something more: we made a "
 "better copyleft.  It does more to protect users' freedom, but it also "
@@ -662,6 +717,7 @@ msgstr ""
 "distributeurs ou même les avocats. Nous espérons que vous utiliserez la "
 "GPLv3 lors de la prochaine sortie de votre logiciel."
 
+#. type: Content of: <div><p>
 msgid ""
 "If you'd like to learn more about upgrading your project to GPLv3, the FSF "
 "Compliance Lab would be happy to assist you.  On <a class=\"reference "
@@ -689,22 +745,34 @@ msgstr ""
 "à protéger la liberté de tous les utilisateurs."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:licensing@gnu.org"
-"\"><em>licensing@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:licensing@gnu.org\">&lt;licensing@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send broken links and other corrections or suggestions to <a href="
+#| "\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:licensing@gnu.org\"><em>licensing@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -714,26 +782,40 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2007, 2008, 2010 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2007, 2008, 2010 Free Software Foundation, Inc."
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article are permitted "
-"worldwide without royalty in any medium provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Marc Chauvet.<br />Révision&nbsp;: <a href=\"mailto:trad-"
 "gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions"
+
+#~ msgid ""
+#~ "Verbatim copying and distribution of this entire article are permitted "
+#~ "worldwide without royalty in any medium provided this notice is preserved."
+#~ msgstr ""
+#~ "La reproduction exacte et la distribution intégrale de cet article est "
+#~ "permise sur n'importe quel support d'archivage, pourvu que cette notice "
+#~ "soit préservée."

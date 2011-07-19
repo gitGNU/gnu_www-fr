@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: software-literary-patents.html\n"
-"POT-Creation-Date: 2010-07-01 16:25-0300\n"
+"POT-Creation-Date: 2011-07-14 04:30-0300\n"
 "PO-Revision-Date: 2011-07-01 01:21+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid ""
 "Software Patents and Literary Patents - GNU Project - Free Software "
 "Foundation (FSF)"
@@ -22,14 +23,17 @@ msgstr ""
 "Brevets logiciels et brevets littéraires - GNU Project - Free Software "
 "Foundation (FSF)"
 
+#. type: Content of: <h2>
 msgid "Software Patents and Literary Patents"
 msgstr "Brevets logiciels et brevets littéraires"
 
+#. type: Content of: <p>
 msgid ""
 "by <strong><a href=\"http://stallman.org/\">Richard Stallman</a></strong>"
 msgstr ""
 "par <strong><a href=\"http://stallman.org/\">Richard Stallman</a></strong>"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<em>A version of this article was first published in <cite>The Guardian</"
@@ -44,6 +48,7 @@ msgstr ""
 "Londres, le 20 juin 2005. Il se concentre sur la directive européenne sur "
 "les brevets logiciels</em>."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "When politicians consider the question of software patents, they are "
@@ -82,6 +87,7 @@ msgstr ""
 "intellectuelle&nbsp;»</a>, encourage cette confusion&nbsp;; une raison pour "
 "laquelle il ne devrait jamais être utilisé)."
 
+#. type: Content of: <p>
 msgid ""
 "Those who imagine effects like those of copyright law cannot grasp the "
 "disastrous effects of software patents.  We can use Victor Hugo as an "
@@ -92,6 +98,7 @@ msgstr ""
 "logiciels. Nous pouvons utiliser Victor Hugo comme exemple pour illustrer "
 "cette différence."
 
+#. type: Content of: <p>
 msgid ""
 "A novel and a modern complex program have certain points in common: each one "
 "is large, and implements many ideas in combination.  So let's follow the "
@@ -110,6 +117,7 @@ msgstr ""
 "littéraires seraient-ils comparables aux effets du droit d'auteur "
 "littéraire&nbsp;?"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Consider the novel, Les Misérables, which Hugo wrote.  Since he wrote it, "
@@ -136,6 +144,7 @@ msgstr ""
 "restreint que la copie. Hugo n'avait pas copié «&nbsp;Les Misérables&nbsp;», "
 "il n'était donc pas en danger."
 
+#. type: Content of: <p>
 msgid ""
 "Patents work differently.  Patents cover ideas; each patent is a monopoly on "
 "practicing some idea, which is described in the patent itself.  Here's one "
@@ -146,6 +155,7 @@ msgstr ""
 "décrite dans le brevet lui-même. Voici un exemple d'un brevet littéraire "
 "hypothétique&nbsp;:"
 
+#. type: Content of: <ul><li>
 msgid ""
 "Claim 1: a communication process that represents in the mind of a reader the "
 "concept of a character who has been in jail for a long time and becomes "
@@ -155,6 +165,7 @@ msgstr ""
 "l'esprit d'un lecteur le concept d'un personnage qui a été en prison "
 "longtemps et qui devient amer envers la société et l'humanité."
 
+#. type: Content of: <ul><li>
 msgid ""
 "Claim 2: a communication process according to claim 1, wherein said "
 "character subsequently finds moral redemption through the kindness of "
@@ -164,6 +175,7 @@ msgstr ""
 "revendication 1, où ledit personnage trouve finalement la rédemption morale "
 "dans la gentillesse d'un autre."
 
+#. type: Content of: <ul><li>
 msgid ""
 "Claim 3: a communication process according to claims 1 and 2, wherein said "
 "character changes his name during the story."
@@ -171,6 +183,7 @@ msgstr ""
 "Revendication 3&nbsp;: un processus de communication conformément à la "
 "revendication 1 et 2, où ledit personnage change de nom pendant l'histoire."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "If such a patent had existed in 1862 when Les Misérables was published, "
@@ -191,9 +204,11 @@ msgstr ""
 "poursuivi et dans ce cas, il aurait perdu. Le roman aurait pu être "
 "interdit&mdash;en fait censuré&mdash;par le détenteur du brevet."
 
+#. type: Content of: <p>
 msgid "Now consider this hypothetical literary patent:"
 msgstr "Considérons maintenant ce brevet littéraire hypothétique&nbsp;:"
 
+#. type: Content of: <ul><li>
 msgid ""
 "Claim 1: a communication process that represents in the mind of a reader the "
 "concept of a character who has been in jail for a long time and subsequently "
@@ -203,6 +218,7 @@ msgstr ""
 "l'esprit d'un lecteur le concept d'un personnage qui a été en prison "
 "longtemps et qui change finalement de nom."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Les Misérables would have been prohibited by that patent too, because "
@@ -217,6 +233,7 @@ msgstr ""
 "description s'applique aussi à l'histoire de la vie de Jean Valjean. Et "
 "voici un autre brevet hypothétique&nbsp;:"
 
+#. type: Content of: <ul><li>
 msgid ""
 "Claim 1: a communication process that represents in the mind of a reader the "
 "concept of a character who finds moral redemption and then changes his name."
@@ -225,9 +242,11 @@ msgstr ""
 "l'esprit d'un lecteur le concept d'un personnage qui trouve la rédemption "
 "morale et qui change ensuite de nom."
 
+#. type: Content of: <p>
 msgid "Jean Valjean would have been forbidden by this patent too."
 msgstr "Jean Valjean aurait violé ce brevet aussi."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "These three patents would all cover the story of one character in a "
@@ -249,9 +268,11 @@ msgstr ""
 "lequel d'entre eux aurait pu interdire la publication de «&nbsp;"
 "Misérables&nbsp;»."
 
+#. type: Content of: <p>
 msgid "This patent also could have been violated:"
 msgstr "Ce brevet pourrait aussi avoir été violé&nbsp;:"
 
+#. type: Content of: <ul><li>
 msgid ""
 "Claim 1: a communication process that presents a character whose given name "
 "matches the last syllable of his family name."
@@ -260,6 +281,7 @@ msgstr ""
 "personnage dont le prénom correspond à la dernière syllabe de son nom de "
 "famille."
 
+#. type: Content of: <p>
 msgid ""
 "through the name &ldquo;Jean Valjean&rdquo;, but at least this patent would "
 "have been easy to avoid."
@@ -267,6 +289,7 @@ msgstr ""
 "à cause de du nom «&nbsp;Jean Valjean&nbsp;», mais au moins ce brevet aurait "
 "pu être facilement évité."
 
+#. type: Content of: <p>
 msgid ""
 "You might think that these ideas are so simple that no patent office would "
 "have issued them.  We programmers are often amazed by the simplicity of the "
@@ -282,6 +305,7 @@ msgstr ""
 "brevet sur la barre de progression et un brevet sur le paiement par cartes "
 "de crédit. Ces brevets seraient risibles s'ils n'étaient pas si dangereux."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Other aspects of Les Misérables could also have run afoul of patents.  "
@@ -315,6 +339,7 @@ msgstr ""
 "idées brevetées représentent, mais ces obstacles ne constitueraient pas une "
 "promotion du progrès en littérature, ils le bloqueraient."
 
+#. type: Content of: <p>
 msgid ""
 "However, a very broad patent could have made all these issues irrelevant.  "
 "Imagine a patent with broad claims like these:"
@@ -323,6 +348,7 @@ msgstr ""
 "insignifiants. Imaginez des brevets avec des revendications étendues comme "
 "celles-ci&nbsp;:"
 
+#. type: Content of: <ul><li>
 #, fuzzy
 #| msgid ""
 #| "Communication process structured with narration that continues through "
@@ -334,11 +360,13 @@ msgstr ""
 "Un processus de communication structuré par une narration qui se poursuit "
 "sur plusieurs pages."
 
+#. type: Content of: <ul><li>
 msgid "A narration structure sometimes resembling a fugue or improvisation."
 msgstr ""
 "Une structure de narration ressemblant parfois à une fugue ou une "
 "improvisation."
 
+#. type: Content of: <ul><li>
 msgid ""
 "Intrigue articulated around the confrontation of specific characters, each "
 "in turn setting traps for the others."
@@ -346,12 +374,15 @@ msgstr ""
 "Une intrigue articulée autour de la confrontation de personnages "
 "spécifiques, chacun tendant des pièges aux autres."
 
+#. type: Content of: <ul><li>
 msgid "Narration that presents many layers of society."
 msgstr "Une narration qui présente plusieurs couches de la société."
 
+#. type: Content of: <ul><li>
 msgid "Narration that shows the wheels of hidden conspiracy."
 msgstr "Une narration qui montre les rouages d'une conspiration secrète."
 
+#. type: Content of: <p>
 msgid ""
 "Who would the patent holders have been? They could have been other "
 "novelists, perhaps Dumas or Balzac, who had written such novels&mdash;but "
@@ -372,6 +403,7 @@ msgstr ""
 "des sociétés qui ne produisent rien d'autres que des menaces et des "
 "poursuites judiciaires, fleurissent aujourd'hui."
 
+#. type: Content of: <p>
 msgid ""
 "Given these broad patents, Victor Hugo would not have reached the point of "
 "asking what patents might get him sued for using the character of Jean "
@@ -383,6 +415,7 @@ msgstr ""
 "poursuites pour l'utilisation du personnage de Jean Valjean, car il n'aurait "
 "même pas envisagé d'écrire un roman de cette façon."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "This analogy can help non-programmers see what software patents do. "
@@ -407,6 +440,7 @@ msgstr ""
 "formats de fichier comme les nouveaux formats de fichiers Word de Microsoft. "
 "Le format vidéo MPEG 2 est couvert par 39 brevets américains différents."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Just as one novel could run afoul of many different literary patents at "
@@ -440,6 +474,7 @@ msgstr ""
 "informatique trouvé quelque part dans les milliers de pages de code source "
 "de Linux. Et Linux représentait moins de 1&nbsp;% du système GNU/Linux."
 
+#. type: Content of: <p>
 msgid ""
 "The way to prevent software patents from bollixing software development is "
 "simple: don't authorize them.  This ought to be easy, since most patent laws "
@@ -460,6 +495,7 @@ msgstr ""
 "logiciels en danger."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
 " Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
@@ -469,19 +505,26 @@ msgstr ""
 "people/webmeisters.html\">webmestres de GNU</a> à l'adresse <a href=\"mailto:"
 "webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -491,27 +534,41 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2005, 2007, 2008 Richard Stallman"
 msgstr "Copyright &copy; 2005, 2007, 2008 Richard Stallman"
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article are permitted "
-"worldwide, without royalty, in any medium, provided this notice, and the "
-"copyright notice, are preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+#~ msgid ""
+#~ "Verbatim copying and distribution of this entire article are permitted "
+#~ "worldwide, without royalty, in any medium, provided this notice, and the "
+#~ "copyright notice, are preserved."
+#~ msgstr ""
+#~ "La reproduction exacte et la distribution intégrale de cet article est "
+#~ "permise sur n'importe quel support d'archivage, pourvu que cette notice "
+#~ "soit préservée."

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: help.html\n"
-"POT-Creation-Date: 2011-03-24 20:27-0300\n"
+"POT-Creation-Date: 2011-07-14 04:25-0300\n"
 "PO-Revision-Date: 2011-07-01 01:11+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -304,8 +304,11 @@ msgid "Help the FSF raise funds by:"
 msgstr "Aidez la FSF à collecter des fonds&nbsp;:"
 
 #. type: Content of: <ul><li><ul><li>
-msgid "making a <a href=\"http://donate.fsf.org/\">donation</a> to the FSF."
-msgstr "en faisant un <a href=\"http://donate.fsf.org/\">don</a> à la FSF."
+msgid ""
+"making a donation, either <a href=\"http://donate.fsf.org/\">directly to the "
+"FSF</a> or <a href=\"http://flattr.com/thing/313733/gnuproject-on-Flattr"
+"\">via Flattr</a>."
+msgstr ""
 
 #. type: Content of: <ul><li><ul><li>
 msgid ""
@@ -467,12 +470,13 @@ msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium, provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
@@ -489,3 +493,6 @@ msgstr "Dernière mise à jour&nbsp;:"
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+#~ msgid "making a <a href=\"http://donate.fsf.org/\">donation</a> to the FSF."
+#~ msgstr "en faisant un <a href=\"http://donate.fsf.org/\">don</a> à la FSF."

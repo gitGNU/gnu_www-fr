@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: words-to-avoid.html\n"
-"POT-Creation-Date: 2010-12-12 20:27-0500\n"
+"POT-Creation-Date: 2011-07-14 04:30-0300\n"
 "PO-Revision-Date: 2011-07-01 01:32+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 #, fuzzy
 #| msgid ""
 #| "Confusing Words and Phrases That Are Worth Avoiding - GNU Project - Free "
@@ -27,9 +28,11 @@ msgstr ""
 "Mots et phrases prêtant à confusion, que vous devriez éviter - GNU Project - "
 "Free Software Foundation (FSF)"
 
+#. type: Content of: <h2>
 msgid "Words to Avoid (or Use with Care) Because They Are Loaded or Confusing"
 msgstr ""
 
+#. type: Content of: <p>
 msgid ""
 "There are a number of words and phrases that we recommend avoiding, or "
 "avoiding in certain contexts and usages.  Some are ambiguous or misleading; "
@@ -39,6 +42,7 @@ msgstr ""
 "soit parce qu'ils sont ambigus, soit parce qu'ils suggèrent des opinions "
 "avec lesquelles nous espérons que vous n'êtes pas entièrement d'accord."
 
+#. type: Content of: <div>
 msgid ""
 "Also note <a href=\"/philosophy/categories.html\">Categories of Free "
 "Software</a>."
@@ -46,6 +50,7 @@ msgstr ""
 "Veuillez aussi consulter <a href=\"/philosophy/categories.fr.html"
 "\">Catégories de logiciels libres</a>."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<a href=\"/philosophy/philosophy.html\">Other Texts to Read</a> | &ldquo;"
@@ -159,9 +164,11 @@ msgstr ""
 "a>&nbsp;» | «&nbsp;<a href=\"#SellSoftware\">Vendre des logiciels</a>&nbsp;» "
 "| «&nbsp;<a href=\"#Theft\" name=\"TOCTheft\">Vol</a>&nbsp;»"
 
+#. type: Content of: <h4>
 msgid "&ldquo;BSD-style&rdquo;"
 msgstr "«&nbsp;BSD-style&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "The expression &ldquo;BSD-style license&rdquo; leads to confusion because it "
 "<a href=\"/philosophy/bsd.html\">lumps together licenses that have important "
@@ -175,6 +182,7 @@ msgstr ""
 "originale BSD avec sa clause publicitaire, est incompatible avec la GPL GNU, "
 "mais la licence BSD révisée est compatible avec la GPL."
 
+#. type: Content of: <p>
 msgid ""
 "To avoid confusion, it is best to name <a href=\"/licenses/license-list.html"
 "\"> the specific license in question</a> and avoid the vague term &ldquo;BSD-"
@@ -184,9 +192,11 @@ msgstr ""
 "license-list.fr.html\">la licence spécifique en question</a> et d'éviter le "
 "terme vague «&nbsp;de type BSD&nbsp;»."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Closed&rdquo;"
 msgstr "«&nbsp;Fermé&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "Describing nonfree software as &ldquo;closed&rdquo; clearly refers to the "
 "term &ldquo;open source&rdquo;.  In the free software movement, <a href=\"/"
@@ -207,9 +217,11 @@ msgstr ""
 "qualifions de «&nbsp;non libre&nbsp;» ou <a href=\"/philosophy/categories.fr."
 "html#ProprietarySoftware\">«&nbsp;propriétaire&nbsp;»</a>."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Cloud Computing&rdquo;"
 msgstr "«&nbsp;Cloud computing&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "The term &ldquo;cloud computing&rdquo; is a marketing buzzword with no clear "
 "meaning.  It is used for a range of different activities whose only common "
@@ -224,6 +236,7 @@ msgstr ""
 "conséquent, le terme est source à confusion. Si vous essayez de l'utiliser "
 "dans votre raisonnement, votre raisonnement sera vague."
 
+#. type: Content of: <p>
 msgid ""
 "When thinking about or responding to a statement someone else has made using "
 "this term, the first step is to clarify the topic.  Which kind of activity "
@@ -238,6 +251,7 @@ msgstr ""
 "déclaration) à clarifier le sujet dirigera la discussion vers une conclusion "
 "utile."
 
+#. type: Content of: <p>
 msgid ""
 "Curiously, Larry Ellison, a proprietary software developer, also <a href="
 "\"http://news.cnet.com/8301-13953_3-10052188-80.html\"> noted the vacuity of "
@@ -251,9 +265,11 @@ msgstr ""
 "d'utiliser quand même le terme, car en tant que développeur de logiciels "
 "propriétaires, il n'est pas motivé par les mêmes idéaux que nous."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Commercial&rdquo;"
 msgstr "«&nbsp;Commercial&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "Please don't use &ldquo;commercial&rdquo; as a synonym for &ldquo;nonfree."
 "&rdquo; That confuses two entirely different issues."
@@ -261,6 +277,7 @@ msgstr ""
 "N'utilisez pas le mot «&nbsp;commercial&nbsp;» comme synonyme de «&nbsp;non "
 "libre&nbsp;». Cela mélange deux problèmes totalementdifférents."
 
+#. type: Content of: <p>
 msgid ""
 "A program is commercial if it is developed as a business activity.  A "
 "commercial program can be free or nonfree, depending on its manner of "
@@ -276,6 +293,7 @@ msgstr ""
 "licence. Les deux questions, quel type d'entité a développé le programme et "
 "quelle liberté est laissée aux utilisateurs, sont indépendantes."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "In the first decade of the free software movement, free software packages "
@@ -297,6 +315,7 @@ msgstr ""
 "Mais dans les années 1990, le logiciel commercial libre a commencé à "
 "apparaître."
 
+#. type: Content of: <p>
 msgid ""
 "Free commercial software is a contribution to our community, so we should "
 "encourage it.  But people who think that &ldquo;commercial&rdquo; means "
@@ -311,9 +330,11 @@ msgstr ""
 "contradictoire et la rejettent en se basant sur une incompréhension. Faites "
 "attention à ne pas utiliser le mot «&nbsp;commercial&nbsp;» de cette manière."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Compensation&rdquo;"
 msgstr "«&nbsp;Compensation&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "To speak of &ldquo;compensation for authors&rdquo; in connection with "
 "copyright carries the assumptions that (1) copyright exists for the sake of "
@@ -329,19 +350,23 @@ msgstr ""
 "assomption est simplement <a href=\"misinterpreting-copyright.fr.html"
 "\">fausse</a>, et la seconde est outrageuse."
 
+#. type: Content of: <h4>
 #, fuzzy
 #| msgid "&ldquo;Consumer&rdquo;"
 msgid "&ldquo;Consume&rdquo;"
 msgstr "«&nbsp;Consommateur&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "It is erroneous to speak of \"consuming\" digital information, music, "
 "software, etc.  See the following entry,"
 msgstr ""
 
+#. type: Content of: <h4>
 msgid "&ldquo;Consumer&rdquo;"
 msgstr "«&nbsp;Consommateur&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "The term &ldquo;consumer,&rdquo; when used to refer to computer users, is "
 "loaded with assumptions we should reject.  Playing a digital recording, or "
@@ -352,6 +377,7 @@ msgstr ""
 "devons rejeter. Écouter un enregistrement numérique ou exécuter un programme "
 "ne le consomment pas."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The terms &ldquo;producer&rdquo; and &ldquo;consumer&rdquo; come from "
@@ -366,6 +392,7 @@ msgstr ""
 "de la théorie économique, et apportent avec eux leur perpective étroite et "
 "leurs mauvaises assomptions. Ils tendent à brouiller votre raisonnement."
 
+#. type: Content of: <p>
 msgid ""
 "In addition, describing the users of software as &ldquo;consumers&rdquo; "
 "presumes a narrow role for them: it regards them as cattle that passively "
@@ -376,6 +403,7 @@ msgstr ""
 "terme les assimile à du bétail qui broute passivement ce que d'autres leur "
 "donnent."
 
+#. type: Content of: <p>
 msgid ""
 "This kind of thinking leads to travesties like the CBDTPA &ldquo;Consumer "
 "Broadband and Digital Television Promotion Act&rdquo; which would require "
@@ -389,6 +417,7 @@ msgstr ""
 "numérique. Si tout ce que font les utilisateurs est «&nbsp;consommer&nbsp;», "
 "alors, pourquoi cela les dérangeraient-ils&nbsp;?"
 
+#. type: Content of: <p>
 msgid ""
 "The shallow economic conception of users as &ldquo;consumers&rdquo; tends to "
 "go hand in hand with the idea that published works are mere &ldquo;content."
@@ -398,6 +427,7 @@ msgstr ""
 "consommateurs&nbsp;» va de pair avec l'idée que les œuvres publiées sont des "
 "«&nbsp;contenus&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "To describe people who are not limited to passive use of works, we suggest "
 "terms such as &ldquo;individuals&rdquo; and &ldquo;citizens&rdquo;."
@@ -406,9 +436,11 @@ msgstr ""
 "leurs ordinateurs, nous suggérons des termes comme «&nbsp;particuliers&nbsp;» "
 "et «&nbsp;citoyens&nbsp;»."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Content&rdquo;"
 msgstr "«&nbsp;Contenu&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "If you want to describe a feeling of comfort and satisfaction, by all means "
 "say you are &ldquo;content,&rdquo; but using the word as a noun to describe "
@@ -424,6 +456,7 @@ msgstr ""
 "boîtes et de faire de l'argent. En effet, ce terme ne respecte pas les "
 "oeuvres elles-mêmes."
 
+#. type: Content of: <p>
 msgid ""
 "Those who use this term are often the publishers that push for increased "
 "copyright power in the name of the authors (&ldquo;creators,&rdquo; as they "
@@ -447,6 +480,7 @@ msgstr ""
 "intellectuelle&nbsp;» est aussi <a href=\"#IntellectualProperty\">trompeur</"
 "a>)."
 
+#. type: Content of: <p>
 msgid ""
 "However, as long as other people use the term &ldquo;content "
 "provider&rdquo;, political dissidents can well call themselves &ldquo;"
@@ -457,6 +491,7 @@ msgstr ""
 "dissidents politiques peuvent tout aussi bien les appeler les «&nbsp;"
 "fournisseurs mécontents&nbsp;» (malcontent providers)."
 
+#. type: Content of: <p>
 msgid ""
 "The term &ldquo;content management&rdquo; takes the prize for vacuity.  "
 "&ldquo;Content&rdquo; means &ldquo;some sort of information,&rdquo; and "
@@ -472,6 +507,7 @@ msgstr ""
 "un système pour faire quelque chose avec un type d'information. Cette "
 "description correspond à la plupart des programmes."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "In most cases, that term really refers to a system for updating pages on "
@@ -486,9 +522,11 @@ msgstr ""
 "jour des pages sur un site Web. Pour cela, nous recommandons le terme «&nbsp;"
 "système de révision de site Web&nbsp;»."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Creator&rdquo;"
 msgstr "«&nbsp;Créateur&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "The term &ldquo;creator&rdquo; as applied to authors implicitly compares "
 "them to a deity (&ldquo;the creator&rdquo;).  The term is used by publishers "
@@ -506,9 +544,11 @@ msgstr ""
 "auteur&nbsp;» à la place. Cependant, dans beaucoup de cas, «&nbsp;détenteurs "
 "de droits d'auteur&nbsp;» est ce que vous voulez réellement dire."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Digital Goods&rdquo;"
 msgstr "«&nbsp;Biens numériques&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "The term &ldquo;digital goods,&rdquo; as applied to copies of works of "
 "authorship, erroneously identifies them with physical goods&mdash;which "
@@ -519,9 +559,11 @@ msgstr ""
 "biens physiques (qui ne peuvent être copiés, et qui par conséquent doivent "
 "être fabriqués et vendus."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Digital Rights Management&rdquo;"
 msgstr "«&nbsp;Gestion des droits numériques&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "&ldquo;Digital Rights Management&rdquo; refers to technical schemes designed "
 "to impose restrictions on computer users.  The use of the word &ldquo;"
@@ -538,6 +580,7 @@ msgstr ""
 "imposent les restrictions, tout en ignorant le grand nombre de ceux à qui "
 "sont imposées ces restrictions."
 
+#. type: Content of: <p>
 msgid ""
 "Good alternatives include &ldquo;Digital Restrictions Management,&rdquo; and "
 "&ldquo;digital handcuffs.&rdquo;"
@@ -547,15 +590,18 @@ msgstr ""
 "restrictions numériques&nbsp;» (Digital Restrictions Malware) et «&nbsp;"
 "Menotticiel&nbsp;» (handcuffware)."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Ecosystem&rdquo;"
 msgstr "«&nbsp;Écosystème&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "It is a mistake to describe the free software community, or any human "
 "community, as an &ldquo;ecosystem,&rdquo; because that word implies the "
 "absence of ethical judgment."
 msgstr ""
 
+#. type: Content of: <p>
 msgid ""
 "The term &ldquo;ecosystem&rdquo; implicitly suggests an attitude of "
 "nonjudgmental observation: don't ask how what <em>should</em> happen, just "
@@ -566,6 +612,7 @@ msgid ""
 "this is neither right nor wrong, merely an ecological phenomenon."
 msgstr ""
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "By contrast, beings that adopt an ethical stance towards their "
@@ -587,9 +634,11 @@ msgstr ""
 "société civile, la démocratie, les droits de l'Homme, la paix, la santé "
 "publique, &hellip; ou la liberté des utilisateurs d'ordinateurs."
 
+#. type: Content of: <h4>
 msgid "&ldquo;For free&rdquo;"
 msgstr "«&nbsp;Gratuitement&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "If you want to say that a program is free software, please don't say that it "
 "is available &ldquo;for free.&rdquo; That term specifically means &ldquo;for "
@@ -600,6 +649,7 @@ msgstr ""
 "franc&nbsp;». L'important, dans le logiciel libre, c'est la liberté, pas le "
 "prix."
 
+#. type: Content of: <p>
 msgid ""
 "Free software copies are often available for free&mdash;for example, by "
 "downloading via FTP.  But free software copies are also available for a "
@@ -614,6 +664,7 @@ msgstr ""
 "logiciels propriétaires sont normalement disponibles gratuitement pour "
 "certains utilisateurs."
 
+#. type: Content of: <p>
 msgid ""
 "To avoid confusion, you can say that the program is available &ldquo;as free "
 "software.&rdquo;"
@@ -621,9 +672,11 @@ msgstr ""
 "Pour éviter toute confusion, vous pouvez dire que le programme est "
 "disponible «&nbsp;librement&nbsp;»."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Freely available&rdquo;"
 msgstr "«&nbsp;Disponible gratuitement&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "Don't use &ldquo;freely available software&rdquo; as a synonym for &ldquo;"
 "free software.&rdquo; The terms are not equivalent.  Software is &ldquo;"
@@ -637,9 +690,11 @@ msgstr ""
 "copie. «&nbsp;Logiciel libre&nbsp;» est défini en termes de la liberté des "
 "utilisateurs qui ont une copie. Ce sont des réponses à différentes questions."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Freeware&rdquo;"
 msgstr "«&nbsp;Freeware (graticiel)&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "Please don't use the term &ldquo;freeware&rdquo; as a synonym for &ldquo;"
 "free software.&rdquo; The term &ldquo;freeware&rdquo; was used often in the "
@@ -652,6 +707,7 @@ msgstr ""
 "leur forme exécutable, sans le code source. Aujourd'hui, ce terme n'a pas "
 "vraiment de définition acceptée."
 
+#. type: Content of: <p>
 msgid ""
 "When using languages other than English, please avoid borrowing English "
 "terms such as &ldquo;free software&rdquo; or &ldquo;freeware.&rdquo; It is "
@@ -664,6 +720,7 @@ msgstr ""
 "moins ambigu que <a href=\"/philosophy/fs-translations.fr.html\">votre "
 "langue</a> offre, par exemple."
 
+#. type: Content of: <p>
 msgid ""
 "By using a word in <a href=\"/philosophy/fs-translations.html\">your own "
 "language</a>, you show that you are really referring to freedom and not just "
@@ -680,9 +737,11 @@ msgstr ""
 "habitueront vite et découvriront ainsi le véritable message véhiculé par le "
 "logiciel libre."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Give away software&rdquo;"
 msgstr "«&nbsp;Donner des logiciels&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "It's misleading to use the term &ldquo;give away&rdquo; to mean &ldquo;"
 "distribute a program as free software.&rdquo; This locution has the same "
@@ -696,11 +755,13 @@ msgstr ""
 "est le prix, pas la liberté. Une façon d'éviter la confusion est de dire "
 "«&nbsp;distribuer en tant que logiciel libre&nbsp;»."
 
+#. type: Content of: <h4>
 #, fuzzy
 #| msgid "&ldquo;Market&rdquo;"
 msgid "&ldquo;Hacker&rdquo;"
 msgstr "«&nbsp;Marché&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "A hacker is someone who <a href=\"http://stallman.org/articles/on-hacking."
 "html\"> enjoys playful cleverness</a>&mdash;not necessarily with computers.  "
@@ -719,6 +780,7 @@ msgstr ""
 "hackers, se sont mépris sur ce terme et l'ont assimilé à «&nbsp;casseurs de "
 "sécurité&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "Please don't spread this mistake.  People who break security are &ldquo;"
 "crackers.&rdquo;"
@@ -726,9 +788,11 @@ msgstr ""
 "Veuillez ne pas répandre cette erreur. Les personnes qui cassent la sécurité "
 "sont des «&nbsp;crackers&nbsp;»."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Intellectual property&rdquo;"
 msgstr "«&nbsp;Propriété Intellectuelle&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "Publishers and lawyers like to describe copyright as &ldquo;intellectual "
 "property&rdquo;&mdash;a term also applied to patents, trademarks, and other "
@@ -745,6 +809,7 @@ msgstr ""
 "spécifiquement de «&nbsp;copyright&nbsp;», de «&nbsp;brevets&nbsp;» ou de "
 "«&nbsp;marques déposées&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "The term &ldquo;intellectual property&rdquo; carries a hidden "
 "assumption&mdash;that the way to think about all these disparate issues is "
@@ -756,6 +821,7 @@ msgstr ""
 "basée sur une analogie avec les objets physiques, et la façon dont nous les "
 "envisageons comme étant notre propriété."
 
+#. type: Content of: <p>
 msgid ""
 "When it comes to copying, this analogy disregards the crucial difference "
 "between material objects and information: information can be copied and "
@@ -766,6 +832,7 @@ msgstr ""
 "copiée et partagée presque sans effort, alors que ce n'est pas possible avec "
 "les objets matériels."
 
+#. type: Content of: <p>
 msgid ""
 "To avoid spreading unnecessary bias and confusion, it is best to adopt a "
 "firm policy <a href=\"/philosophy/not-ipr.html\"> not to speak or even think "
@@ -775,6 +842,7 @@ msgstr ""
 "href=\"/philosophy/not-ipr.fr.html\">de ne pas parler ni même de penser en "
 "termes de «&nbsp;propriété intellectuelle&nbsp;»</a>."
 
+#. type: Content of: <p>
 msgid ""
 "The hypocrisy of calling these powers &ldquo;rights&rdquo; is <a href=\"/"
 "philosophy/wipo-PublicAwarenessOfCopyright-2002.html\"> starting to make the "
@@ -785,9 +853,11 @@ msgstr ""
 "embarasser l'Organisation mondiale de la «&nbsp;propriété "
 "intellectuelle&nbsp;»</a>."
 
+#. type: Content of: <h4>
 msgid "&ldquo;LAMP system&rdquo;"
 msgstr "«&nbsp;Système LAMP&nbsp;»"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "&ldquo;LAMP&rdquo; stands for &ldquo;Linux, Apache, MySQL and PHP&rdquo;"
@@ -808,11 +878,13 @@ msgstr ""
 "au lieu de «&nbsp;LAMP&nbsp;» ce devrait être «&nbsp;GLAMP&nbsp;»&nbsp;: «&nbsp;"
 "GNU, Linux, Apache, MySQL and PHP&nbsp;»."
 
+#. type: Content of: <h4>
 #, fuzzy
 #| msgid "&ldquo;LAMP system&rdquo;"
 msgid "&ldquo;Linux system&rdquo;"
 msgstr "«&nbsp;Système LAMP&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "Linux is the name of the kernel that Linus Torvalds developed starting in "
 "1991.  The operating system in which Linux is used is basically GNU with "
@@ -828,9 +900,11 @@ msgstr ""
 "\"/gnu/linux-and-gnu.fr.html\">GNU/Linux</a>, pour donner à la le crédit au "
 "Projet GNU et pour distinguer le système complet du noyau seul."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Market&rdquo;"
 msgstr "«&nbsp;Marché&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "It is misleading to describe the users of free software, or the software "
 "users in general, as a &ldquo;market.&rdquo;"
@@ -838,6 +912,7 @@ msgstr ""
 "Il est trompeur de décrire les utilisateurs de logiciels libres ou les "
 "utilisateurs de logiciels en général en terme de «&nbsp;marché&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "This is not to say there is no room for markets in the free software "
 "community.  If you have a free software support business, then you have "
@@ -849,6 +924,7 @@ msgstr ""
 "vous commercez avec eux dans un marché. Aussi longtemps que vous respectez "
 "leur liberté, nous vous souhaitons de réussir dans votre marché."
 
+#. type: Content of: <p>
 msgid ""
 "But the free software movement is a social movement, not a business, and the "
 "success it aims for is not a market success.  We are trying to serve the "
@@ -864,9 +940,11 @@ msgstr ""
 "pour la liberté à une campagne commerciale est un déni de l'importance de la "
 "liberté et légitimise le logiciel propriétaire."
 
+#. type: Content of: <h4>
 msgid "&ldquo;MP3 player&rdquo;"
 msgstr "«&nbsp;Lecteur MP3&nbsp;»"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "In the late 1990's it became feasible to make portable, solid-state "
@@ -899,9 +977,11 @@ msgstr ""
 "«&nbsp;lecteur audio numérique&nbsp;», ou simplement «&nbsp;lecteur "
 "audio&nbsp;» si le contexte le permet."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Open&rdquo;"
 msgstr "«&nbsp;Ouvert&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "Please avoid using the term &ldquo;open&rdquo; or &ldquo;open source&rdquo; "
 "as a substitute for &ldquo;free software&rdquo;.  Those terms refer to a <a "
@@ -921,9 +1001,11 @@ msgstr ""
 "avec leur slogan (cela conduit les gens à penser que nous partageons leurs "
 "vues)."
 
+#. type: Content of: <h4>
 msgid "&ldquo;PC&rdquo;"
 msgstr "«&nbsp;PC&nbsp;»"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "It's ok to use the abbreviation &ldquo;PC&rdquo; to refer to a certain "
@@ -941,14 +1023,17 @@ msgstr ""
 "l'implication que l'ordinateur fonctionne sous Microsoft Windows. Si vous "
 "installez GNU/Linux sur le même ordinateur, cela reste un PC."
 
+#. type: Content of: <p>
 msgid ""
 "The term &ldquo;WC&rdquo; has been suggested for a computer running Windows."
 msgstr ""
 "Le terme «&nbsp;WC&nbsp;» a été suggéré pour un ordinateur exécutant Windows."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Photoshop&rdquo;"
 msgstr "«&nbsp;Photoshop&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "Please avoid using the term &ldquo;photoshop&rdquo; as a verb, meaning any "
 "kind of photo manipulation or image editing in general.  Photoshop is just "
@@ -962,9 +1047,11 @@ msgstr ""
 "il existe beaucoup d'autres alternatives libres, comme <a href=\"/software/"
 "gimp\">GIMP</a> par exemple."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Piracy&rdquo;"
 msgstr "«&nbsp;Piratage&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "Publishers often refer to copying they don't approve of as &ldquo;piracy."
 "&rdquo; In this way, they imply that it is ethically equivalent to attacking "
@@ -978,6 +1065,7 @@ msgstr ""
 "identique à l'attaque de bateaux en haute mer, et au rapt ou au meurtre de "
 "leurs passagers."
 
+#. type: Content of: <p>
 msgid ""
 "If you don't believe that copying not approved by the publisher is just like "
 "kidnapping and murder, you might prefer not to use the word &ldquo;"
@@ -994,9 +1082,11 @@ msgstr ""
 "Quelques uns d'entre nous préfèrent même utiliser un terme positif comme "
 "«&nbsp;partage d'informations avec son voisin&nbsp;»."
 
+#. type: Content of: <h4>
 msgid "&ldquo;PowerPoint&rdquo;"
 msgstr "«&nbsp;PowerPoint&nbsp;»"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Please avoid using the term &ldquo;PowerPoint&rdquo; to mean any kind of "
@@ -1017,9 +1107,11 @@ msgstr ""
 "d'autres alternatives libres, comme la classe <tt>beamer</tt> disponible "
 "dans toute distribution (La)TeX et OpenOffice.org Impress."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Protection&rdquo;"
 msgstr "«&nbsp;Protection&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "Publishers' lawyers love to use the term &ldquo;protection&rdquo; to "
 "describe copyright.  This word carries the implication of preventing "
@@ -1033,6 +1125,7 @@ msgstr ""
 "au propriétaire et à l'éditeur qui bénéficie du copyright, plutôt qu'aux "
 "utilisateurs qui sont limités par lui."
 
+#. type: Content of: <p>
 msgid ""
 "It is easy to avoid &ldquo;protection&rdquo; and use neutral terms instead.  "
 "For example, instead of saying, &ldquo;Copyright protection lasts a very "
@@ -1044,6 +1137,7 @@ msgstr ""
 "copyright dure très longtemps&nbsp;», vous pouvez dire «&nbsp;Le copyright "
 "dure très longtemps&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "If you want to criticize copyright instead of supporting it, you can use the "
 "term &ldquo;copyright restrictions.&rdquo; Thus, you can say, &ldquo;"
@@ -1054,6 +1148,7 @@ msgstr ""
 "conséquent dire; «&nbsp;Les restrictions du copyright durent très "
 "longtemps&nbsp;»."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The term &ldquo;protection&rdquo; is also used to describe malicious "
@@ -1076,11 +1171,13 @@ msgstr ""
 "vue utilisateur, c'est de l'obstruction. Nous appeleons donc cela «&nbsp;"
 "obstruction à la copie&nbsp;»."
 
+#. type: Content of: <h4>
 #, fuzzy
 #| msgid "&ldquo;RAND (reasonable and nondiscriminatory)&rdquo;"
 msgid "&ldquo;RAND (Reasonable and Non-Discriminatory)&rdquo;"
 msgstr "«&nbsp;RAND (Reasonable And Non-Discriminatory)&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "Standards bodies that promulgate patent-restricted standards that prohibit "
 "free software typically have a policy of obtaining patent licenses that "
@@ -1095,6 +1192,7 @@ msgstr ""
 "«&nbsp;reasonable and non-discriminatory&nbsp;» (raisonnable et non "
 "discriminatoire)."
 
+#. type: Content of: <p>
 msgid ""
 "That term whitewashes a class of patent licenses that are normally neither "
 "reasonable nor nondiscriminatory.  It is true that these licenses do not "
@@ -1109,6 +1207,7 @@ msgstr ""
 "déraisonnables. Ainsi, une moitié de «&nbsp;RAND&nbsp;» est trompeuse, "
 "l'autre moitié est partiale."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Standards bodies should recognize that these licenses are discriminatory, "
@@ -1135,6 +1234,7 @@ msgstr ""
 "l'ont répandu, laissent à ces sociétés le soin de dicter les vues que vous "
 "exprimez."
 
+#. type: Content of: <p>
 msgid ""
 "We suggest the term &ldquo;uniform fee only,&rdquo; or &ldquo;UFO&rdquo; for "
 "short, as a replacement.  It is accurate because the only condition in these "
@@ -1144,9 +1244,11 @@ msgstr ""
 "seulement) ou «&nbsp;UFO&nbsp;» en abrégé, à la place. Il est approprié car "
 "la seule condition de ces licences est un droit d'accès uniforme."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Sell software&rdquo;"
 msgstr "«&nbsp;Vendre des logiciels&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "The term &ldquo;sell software&rdquo; is ambiguous.  Strictly speaking, "
 "exchanging a copy of a free program for a sum of money is selling; but "
@@ -1166,6 +1268,7 @@ msgstr ""
 "propriétaires sur l'utilisation d'un programme&nbsp;» en fonction de ce que "
 "vous voulez dire."
 
+#. type: Content of: <p>
 msgid ""
 "See <a href=\"/philosophy/selling.html\">Selling Free Software</a> for "
 "further discussion of this issue."
@@ -1173,9 +1276,11 @@ msgstr ""
 "Consulter <a href=\"/philosophy/selling.fr.html\">Vendre des logiciels "
 "libres</a> pour une discussion plus détaillée sur le sujet."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Software Industry&rdquo;"
 msgstr "«&nbsp;Industrie logicielle&nbsp;»"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The term &ldquo;software industry&rdquo; encourages people to imagine "
@@ -1199,6 +1304,7 @@ msgstr ""
 "développent des logiciels libres et/ou non libres, mais celles qui "
 "développent des logiciels libres ne sont pas comme des usines."
 
+#. type: Content of: <p>
 msgid ""
 "The term &ldquo;industry&rdquo; is being used as propaganda by advocates of "
 "software patents.  They call software development &ldquo;industry&rdquo; and "
@@ -1216,9 +1322,11 @@ msgstr ""
 "logiciels en 2003, a voté pour définir «&nbsp;industrie&nbsp;» comme «&nbsp;"
 "production automatisée de biens&nbsp;»</a>."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Theft&rdquo;"
 msgstr "«&nbsp;Vol&nbsp;»"
 
+#. type: Content of: <p>
 msgid ""
 "Copyright apologists often use words like &ldquo;stolen&rdquo; and &ldquo;"
 "theft&rdquo; to describe copyright infringement.  At the same time, they ask "
@@ -1231,6 +1339,7 @@ msgstr ""
 "référence au niveau de l'éthique&nbsp;: si la copie est interdite, c'est "
 "qu'elle doit être mauvaise."
 
+#. type: Content of: <p>
 msgid ""
 "So it is pertinent to mention that the legal system&mdash;at least in the "
 "US&mdash;rejects the idea that copyright infringement is &ldquo;theft."
@@ -1242,6 +1351,7 @@ msgstr ""
 "avocats du copyright qui utilisent des termes comme «&nbsp;voler&nbsp;» "
 "dénaturent l'autorité à laquelle ils font appel."
 
+#. type: Content of: <p>
 msgid ""
 "The idea that laws decide what is right or wrong is mistaken in general.  "
 "Laws are, at their best, an attempt to achieve justice; to say that laws "
@@ -1252,9 +1362,11 @@ msgstr ""
 "dire que les lois définissent la justice ou une éthique est prendre le "
 "problème à l'envers."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Trusted Computing&rdquo;"
 msgstr "«&nbsp;Informatique de confiance&nbsp;»"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<a href=\"/philosophy/can-you-trust.html\">&ldquo;Trusted computing&rdquo;"
@@ -1276,9 +1388,11 @@ msgstr ""
 "s'agit «&nbsp;d'informatique de confiance&nbsp;». De votre point de vue, il "
 "s'agit «&nbsp;d'informatique déloyale&nbsp;»."
 
+#. type: Content of: <h4>
 msgid "&ldquo;Vendor&rdquo;"
 msgstr "«&nbsp;Vendeur&nbsp;»"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Please don't use the term &ldquo;vendor&rdquo; to refer generally to "
@@ -1308,6 +1422,7 @@ msgstr ""
 "des vendeurs. De même, seuls certains développeurs de distributions GNU/"
 "Linux sont des vendeurs."
 
+#. type: Content of: <div>
 #, fuzzy
 #| msgid ""
 #| "Also note <a href=\"/philosophy/categories.html\">Categories of Free "
@@ -1319,6 +1434,7 @@ msgstr ""
 "Veuillez aussi consulter <a href=\"/philosophy/categories.fr.html"
 "\">Catégories de logiciels libres</a>."
 
+#. type: Content of: <h4>
 msgid ""
 "This essay is published in <a href=\"http://shop.fsf.org/product/free-"
 "software-free-society/\"><cite>Free Software, Free Society: The Selected "
@@ -1329,22 +1445,30 @@ msgstr ""
 "Essays of Richard M. Stallman</cite></a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -1354,6 +1478,7 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
 #| "Copyright &copy; 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2004, 2007, "
@@ -1365,23 +1490,28 @@ msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2004, 2007, 2008, "
 "2009 Free Software Foundation, Inc."
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium without royalty provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage sans contrepartie financière, "
-"pourvu que cette notice soit préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Benjamin Drieu.<br />Révision&nbsp;: <a href=\"mailto:trad-"
 "gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

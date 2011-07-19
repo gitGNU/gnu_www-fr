@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: README.translations.html\n"
-"POT-Creation-Date: 2011-06-30 20:30-0300\n"
+"POT-Creation-Date: 2011-07-15 04:25-0300\n"
 "PO-Revision-Date: 2011-06-25 23:48+0000\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -28,6 +28,22 @@ msgstr ""
 #. type: Content of: <h2>
 msgid "Guide to Translating www.gnu.org Web Pages"
 msgstr "Guide de traduction des pages web de www.gnu.org"
+
+#. type: Content of: <a>
+msgid "<a href=\"/graphics/atypinggnu.html\">"
+msgstr "<a href=\"/graphics/atypinggnu.fr.html\">"
+
+#. type: Attribute 'alt' of: <a><img>
+msgid "A Typing GNU"
+msgstr ""
+
+#. type: Attribute 'title' of: <a><img>
+msgid "A Typing GNU Hacker"
+msgstr ""
+
+#. type: Content of: outside any tag (error?)
+msgid "</a>"
+msgstr "</a>"
 
 #. type: Content of: <div><blockquote><p>
 msgid ""
@@ -51,18 +67,6 @@ msgstr ""
 "pour votre langue, veuillez écrire à <a href=\"mailto:web-translators@gnu.org"
 "\"> &lt;web-translators@gnu.org&gt;</a> après avoir lu les <a href=\"/"
 "software/trans-coord/manual/\">manuels</a>."
-
-#. type: Content of: <a>
-msgid "<a href=\"/graphics/atypinggnu.html\">"
-msgstr "<a href=\"/graphics/atypinggnu.fr.html\">"
-
-#. type: Attribute 'alt' of: <a><img>
-msgid "[image of the typing GNU]"
-msgstr "[Image d'un GNU tapant à la machine]"
-
-#. type: Content of: outside any tag (error?)
-msgid "</a>"
-msgstr "</a>"
 
 #. type: Content of: <h3>
 msgid "General Guide"
@@ -143,9 +147,13 @@ msgid "What to Translate"
 msgstr "Ce qu'il faut traduire"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "Documents should be converted together with their &ldquo;glue "
+#| "pages&rdquo;, such as home.html and philosophy/philosophy.html."
 msgid ""
 "Documents should be converted together with their &ldquo;glue pages&rdquo;, "
-"such as home.html and philosophy/philosophy.html."
+"such as <code>home.html</code> and <code>philosophy/philosophy.html</code>."
 msgstr ""
 "Les documents doivent être conservés ensemble avec leurs «&nbsp;pages "
 "collantes&nbsp;», tels que home.html et philosophy/philosophy.html"
@@ -180,16 +188,27 @@ msgstr ""
 "traduction</a> <cite>de Brave GNU World</cite>."
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "When translating &ldquo;GNU's Not Unix,&rdquo; please ensure that the "
+#| "translation remains recursive. If a recursive translation cannot be "
+#| "conceived, use the following format: &ldquo;GNU's Not Unix&rdquo; (GNU "
+#| "&auml;r inte Unix)."
 msgid ""
-"When translating &ldquo;GNU's Not Unix,&rdquo; please ensure that the "
+"When translating &ldquo;GNU's Not Unix&rdquo;, please ensure that the "
 "translation remains recursive. If a recursive translation cannot be "
-"conceived, use the following format: &ldquo;GNU's Not Unix&rdquo; (GNU &auml;"
-"r inte Unix)."
+"conceived,"
 msgstr ""
 "Quand vous traduisez «&nbsp;GNU N'est pas Unix&nbsp;» (NdT&nbsp;: «&nbsp;GNU's "
 "Not Unix&nbsp;»), veuillez vous assurez que la traduction reste récursive. "
 "Si une traduction récursive ne peut être conçue, utiliser la forme "
 "suivante&nbsp;: «&nbsp;GNU's Not Unix&nbsp;» (GNU är inte Unix)."
+
+#. type: Content of: <ul><li>
+msgid ""
+"use the following format: &ldquo;GNU's Not Unix (<span xml:lang=\"sv\" lang="
+"\"sv\">GNU &auml;r inte Unix</span>)&rdquo;."
+msgstr ""
 
 #. type: Content of: <h3>
 msgid "Translating the home page"
@@ -202,7 +221,7 @@ msgstr ""
 "La page d'accueil traduite doit contenir la liste complète des traductions "
 "via SSI."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
 msgid "The required SSI tag looks like this:"
 msgstr "L'élément SSI nécessaire ressemble à cela&nbsp;:"
 
@@ -272,10 +291,15 @@ msgid "Filenames"
 msgstr "Les noms de fichier"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "Translations should be named <code>PAGENAME.LG.html</code> where "
+#| "<code>LG</code> is the <a href=\"#LanguageCodes\">language code</a>.  For "
+#| "example, a German translation of home.html should be named <code>home.de."
+#| "html</code>."
 msgid ""
-"Translations should be named <code>PAGENAME.LG.html</code> where <code>LG</"
-"code> is the <a href=\"#LanguageCodes\">language code</a>.  For example, a "
-"German translation of home.html should be named <code>home.de.html</code>."
+"Translations should be named <code>article.LANG.html</code> where "
+"<code>LANG</code> is the <a href=\"#LanguageCodes\">language code</a>."
 msgstr ""
 "Les traductions doivent être nommées <code>NOMPAGE.LG.html</code> où "
 "<code>LG</code> est le <a href=\"#LanguageCodes\">code à deux lettres de la "
@@ -284,9 +308,21 @@ msgstr ""
 
 #. type: Content of: <ul><li>
 msgid ""
+"For example, a German translation of <em>home.html</em> should be named "
+"<code>home.de.html</code>."
+msgstr ""
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "There exists a symlink <code>index.html</code> pointing to some other "
+#| "file <code>other.html</code>.  Create a symlink named <code>index.LG."
+#| "html</code> pointing to the correct translation <code>other.LG.html</"
+#| "code>."
+msgid ""
 "There exists a symlink <code>index.html</code> pointing to some other file "
-"<code>other.html</code>.  Create a symlink named <code>index.LG.html</code> "
-"pointing to the correct translation <code>other.LG.html</code>."
+"<code>other.html</code>.  Create a symlink named <code>index.LANG.html</"
+"code> pointing to the correct translation <code>other.LANG.html</code>."
 msgstr ""
 "Il existe un  lien symbolique de <code>index.html</code> qui pointe vers un "
 "autre fichier <code>autre.html</code>. Créer le lien symbolique nommé "
@@ -306,6 +342,16 @@ msgid "Keeping Translations Current"
 msgstr "Maintenir les traductions à jour"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "For all translations to be kept current, you should subscribe to the <a "
+#| "href=\"http://lists.gnu.org/mailman/listinfo/www-commits\">www-commits</"
+#| "a> mailing list.  Then you will get sent one email for each page that is "
+#| "modified in cvs (for the www module).  The traffic is around 4-5 mails "
+#| "per day, more on weekends. It's suggested that you save all such email "
+#| "and burst through them about once a week to make sure the translations "
+#| "are current.  You may also use <code>make report TEAM=LANG</code> if you "
+#| "have <a href=\"/software/gnun/\">GNUN</a> installed."
 msgid ""
 "For all translations to be kept current, you should subscribe to the <a href="
 "\"http://lists.gnu.org/mailman/listinfo/www-commits\">www-commits</a> "
@@ -313,7 +359,7 @@ msgid ""
 "modified in cvs (for the www module).  The traffic is around 4-5 mails per "
 "day, more on weekends. It's suggested that you save all such email and burst "
 "through them about once a week to make sure the translations are current.  "
-"You may also use <code>make report TEAM=LANG</code> if you have <a href=\"/"
+"You may also use <kbd>make report TEAM=LANG</kbd> if you have <a href=\"/"
 "software/gnun/\">GNUN</a> installed."
 msgstr ""
 "Pour que toutes les traductions restent à jour, vous devez vous abonner à la "
@@ -373,9 +419,13 @@ msgstr ""
 "a>, <a href=\"https://savannah.gnu.org/users/hatem\">Hatem Hossny</a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>az</code> - Azerbaijani (<a href=\"https://savannah.gnu.org/users/"
+#| "igrar\">Igrar Huseynov</a>)"
 msgid ""
 "<code>az</code> - Azerbaijani (<a href=\"https://savannah.gnu.org/users/igrar"
-"\">Igrar Huseynov</a>)"
+"\">Igrar Huseynov</a> - New coordinator needed)"
 msgstr ""
 "<code>az</code> - Azéri (<a href=\"https://savannah.gnu.org/users/igrar"
 "\">Igrar Huseynov</a>)"
@@ -391,10 +441,15 @@ msgstr ""
 "Doganov</a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>bn</code> - <a href=\"https://savannah.gnu.org/projects/www-bn"
+#| "\">Bengali</a> (<a href=\"https://savannah.gnu.org/users/suzan"
+#| "\">Khandakar Mujahidul Islam</a>)"
 msgid ""
 "<code>bn</code> - <a href=\"https://savannah.gnu.org/projects/www-bn"
 "\">Bengali</a> (<a href=\"https://savannah.gnu.org/users/suzan\">Khandakar "
-"Mujahidul Islam</a>)"
+"Mujahidul Islam</a> - New coordinator needed)"
 msgstr ""
 "<code>bn</code> - <a href=\"https://savannah.gnu.org/projects/www-bn"
 "\">Bengalî</a> (<a href=\"https://savannah.gnu.org/users/suzan\">Khandakar "
@@ -423,10 +478,15 @@ msgstr ""
 "\">Tchèque</a> (Besoin d'un nouveau coordinateur)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>da</code> - <a href=\"https://savannah.gnu.org/projects/www-da"
+#| "\">Danish</a> (<a href=\"https://savannah.gnu.org/users/erikg\">Erik "
+#| "Gravgaard</a>)"
 msgid ""
 "<code>da</code> - <a href=\"https://savannah.gnu.org/projects/www-da"
 "\">Danish</a> (<a href=\"https://savannah.gnu.org/users/erikg\">Erik "
-"Gravgaard</a>)"
+"Gravgaard</a> - New coordinator needed)"
 msgstr ""
 "<code>da</code> - <a href=\"https://savannah.gnu.org/projects/www-da"
 "\">Danois</a> (<a href=\"https://savannah.gnu.org/users/erikg\">Erik "
@@ -453,10 +513,15 @@ msgstr ""
 "a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>eo</code> - <a href=\"https://savannah.gnu.org/projects/www-eo"
+#| "\">Esperanto</a> (<a href=\"https://savannah.gnu.org/users/civodul"
+#| "\">Ludovic Court&egrave;s</a>)"
 msgid ""
 "<code>eo</code> - <a href=\"https://savannah.gnu.org/projects/www-eo"
 "\">Esperanto</a> (<a href=\"https://savannah.gnu.org/users/civodul\">Ludovic "
-"Court&egrave;s</a>)"
+"Court&egrave;s</a> - New coordinator needed)"
 msgstr ""
 "<code>eo</code> - <a href=\"https://savannah.gnu.org/projects/www-eo"
 "\">Esperanto</a> (<a href=\"https://savannah.gnu.org/users/civodul\">Ludovic "
@@ -473,20 +538,30 @@ msgstr ""
 "Reina</a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>fa</code> - <a href=\"https://savannah.gnu.org/projects/www-fa"
+#| "\">Farsi/Persian</a> (<a href=\"https://savannah.gnu.org/users/someeh"
+#| "\">A. E. Some&lsquo;eh</a>)"
 msgid ""
 "<code>fa</code> - <a href=\"https://savannah.gnu.org/projects/www-fa\">Farsi/"
-"Persian</a> (<a href=\"https://savannah.gnu.org/users/someeh\">A. E. "
-"Some&lsquo;eh</a>)"
+"Persian</a> (<a href=\"https://savannah.gnu.org/users/esmaeeli\">Abbas "
+"Esmaeeli Some&lsquo;eh</a>)"
 msgstr ""
 "<code>fa</code> - <a href=\"https://savannah.gnu.org/projects/www-fa\">Farsi/"
 "Perse</a> (<a href=\"https://savannah.gnu.org/users/someeh\">A. E. "
 "Some&lsquo;eh</a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>fi</code> - <a href=\"https://savannah.gnu.org/projects/www-fi"
+#| "\">Finnish</a> (<a href=\"https://savannah.gnu.org/users/solarius"
+#| "\">Ville</a>)"
 msgid ""
 "<code>fi</code> - <a href=\"https://savannah.gnu.org/projects/www-fi"
 "\">Finnish</a> (<a href=\"https://savannah.gnu.org/users/solarius\">Ville</"
-"a>)"
+"a> - New coordinator needed)"
 msgstr ""
 "<code>fi</code> - <a href=\"https://savannah.gnu.org/projects/www-fi"
 "\">Finnois</a> (<a href=\"https://savannah.gnu.org/users/solarius\">Ville</"
@@ -539,32 +614,40 @@ msgstr ""
 "Hatta</a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>ko</code> - Korean (Song Chang-hun, <a href=\"mailto:chsong@gnu.org"
+#| "\">&lt;chsong@gnu.org&gt;</a>)"
 msgid ""
 "<code>ko</code> - Korean (Song Chang-hun, <a href=\"mailto:chsong@gnu.org"
-"\">&lt;chsong@gnu.org&gt;</a>)"
+"\">&lt;chsong@gnu.org&gt;</a> - New coordinator needed)"
 msgstr ""
 "<code>ko</code> - Coréen (Song Chang-hun, <a href=\"mailto:chsong@gnu.org"
 "\">&lt;chsong@gnu.org&gt;</a>"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>th</code> - <a href=\"https://savannah.gnu.org/projects/www-th"
+#| "\">Thai</a> (New coordinator needed)"
 msgid ""
 "<code>ku</code> - <a href=\"https://savannah.gnu.org/projects/www-ku"
-"\">Kurdish</a> (<a href=\"https://savannah.gnu.org/users/ulas\">Abdullah "
-"Ulas</a>)"
+"\">Kurdish</a> (New coordinator needed)"
 msgstr ""
-"<code>ku</code> - <a href=\"https://savannah.gnu.org/projects/www-ku"
-"\">Kurde</a> (<a href=\"https://savannah.gnu.org/users/ulas\">Abdullah Ulas</"
-"a>)"
+"<code>th</code> - <a href=\"https://savannah.gnu.org/projects/www-th\">Thaï</"
+"a> (Nouveau coordinateur demandé)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>tl</code> - <a href=\"https://savannah.gnu.org/projects/www-tl"
+#| "\">Tagalog</a> (New coordinator needed)"
 msgid ""
 "<code>ml</code> - <a href=\"https://savannah.gnu.org/projects/www-ml"
-"\">Malayalam</a> (<a href=\"https://savannah.gnu.org/users/aeshyamae\">Shyam "
-"Karanattu</a>)"
+"\">Malayalam</a> (New coordinator needed)"
 msgstr ""
-"<code>ml</code> - <a href=\"https://savannah.gnu.org/projects/www-ml"
-"\">Malayalam</a> (<a href=\"https://savannah.gnu.org/users/aeshyamae\">Shyam "
-"Karanattu</a>)"
+"<code>tl</code> - <a href=\"https://savannah.gnu.org/projects/www-tl"
+"\">Tagalog</a> (Nouveau coordinateur demandé)"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -736,7 +819,7 @@ msgstr ""
 "\">Nan Deng</a>, <a href=\"https://savannah.gnu.org/users/zeuux\">Bill Xu</"
 "a>, <a href=\"https://savannah.gnu.org/users/chxiaobin\">Chen Xiaobin</a>)"
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <p>
 msgid "Note that"
 msgstr "Notez que"
 
@@ -744,7 +827,7 @@ msgstr "Notez que"
 msgid "<code>en</code> - English"
 msgstr "<code>en</code> - Anglais"
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <p>
 msgid ""
 "is a special case.  The bulk of the site is written in English, which is the "
 "de-facto language of the GNU Project.  We <em>occasionally</em> need "
@@ -768,12 +851,18 @@ msgstr ""
 msgid "Final Notes"
 msgstr "Notes finales"
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "If you translate a page for www.gnu.org, please insert the following tag, "
+#| "in the <code>&lt;HEAD&gt;...&lt;/HEAD&gt;</code> (or <code>&lt;head&gt;</"
+#| "code> for xhtml) section.  Where <code>web-translators-es@gnu.org</code> "
+#| "is the forwarding address for your translations team:"
 msgid ""
-"If you translate a page for www.gnu.org, please insert the following tag, in "
-"the <code>&lt;HEAD&gt;...&lt;/HEAD&gt;</code> (or <code>&lt;head&gt;</code> "
-"for xhtml) section.  Where <code>web-translators-es@gnu.org</code> is the "
-"forwarding address for your translations team:"
+"If you translate a page for www.gnu.org, please insert the following tag in "
+"the <code>&lt;head&gt;</code> section.  Where <code>web-translators-LANG@gnu."
+"org</code> is the forwarding address for your translations team, for example "
+"for the Spanish translation team:"
 msgstr ""
 "Si vous traduisez une page pour www.gnu.org, merci d'insérer l'élément "
 "suivant, dans la section <code>&lt;HEAD&gt;...&lt;/HEAD&gt;</code> (ou "
@@ -831,12 +920,13 @@ msgstr "Copyright &copy; 2011 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium, provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
@@ -853,6 +943,27 @@ msgstr "Dernière mise à jour&nbsp;:"
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traduction de cette page"
+
+#~ msgid "[image of the typing GNU]"
+#~ msgstr "[Image d'un GNU tapant à la machine]"
+
+#~ msgid ""
+#~ "<code>ku</code> - <a href=\"https://savannah.gnu.org/projects/www-ku"
+#~ "\">Kurdish</a> (<a href=\"https://savannah.gnu.org/users/ulas\">Abdullah "
+#~ "Ulas</a>)"
+#~ msgstr ""
+#~ "<code>ku</code> - <a href=\"https://savannah.gnu.org/projects/www-ku"
+#~ "\">Kurde</a> (<a href=\"https://savannah.gnu.org/users/ulas\">Abdullah "
+#~ "Ulas</a>)"
+
+#~ msgid ""
+#~ "<code>ml</code> - <a href=\"https://savannah.gnu.org/projects/www-ml"
+#~ "\">Malayalam</a> (<a href=\"https://savannah.gnu.org/users/aeshyamae"
+#~ "\">Shyam Karanattu</a>)"
+#~ msgstr ""
+#~ "<code>ml</code> - <a href=\"https://savannah.gnu.org/projects/www-ml"
+#~ "\">Malayalam</a> (<a href=\"https://savannah.gnu.org/users/aeshyamae"
+#~ "\">Shyam Karanattu</a>)"
 
 #~ msgid ""
 #~ "<code>cs</code> - <a href=\"https://savannah.gnu.org/projects/www-cs"

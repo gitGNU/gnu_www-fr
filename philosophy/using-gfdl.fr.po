@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: using-gfdl.html\n"
-"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"POT-Creation-Date: 2011-07-14 04:30-0300\n"
 "PO-Revision-Date: 2008-11-23 13:45+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,16 +15,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid "Using GNU FDL - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "Utiliser la FDL GNU (GFDL) - GNU Project - Free Software Foundation (FSF)"
 
+#. type: Content of: <h2>
 msgid "Using GNU FDL"
 msgstr "Utiliser la FDL GNU (GFDL)"
 
+#. type: Content of: <p>
 msgid "by <a href=\"http://www.stallman.org\">Richard Stallman</a>"
 msgstr "par <a href=\"http://www.stallman.org\">Richard Stallman</a>"
 
+#. type: Content of: <p>
 msgid ""
 "If you know someone who is writing a manual about free software, and looking "
 "towards commercial publication, you have a chance to help the Free Software "
@@ -39,6 +43,7 @@ msgstr ""
 "html\">Licence de documentation libre GNU (GNU Free Documentation License "
 "&mdash; GFDL)</a>."
 
+#. type: Content of: <p>
 msgid ""
 "Until recently, commercial book publication almost always implied a non-free "
 "book.  But just as free commercial software has been increasing for a while, "
@@ -57,6 +62,7 @@ msgstr ""
 "à présent de publier des livres sous la FDL GNU, et de payer les auteurs de "
 "la même manière que d'habitude &mdash; SI les auteurs sont fermes à ce sujet."
 
+#. type: Content of: <p>
 msgid ""
 "But publishers are likely to first propose an ordinary proprietary book. And "
 "if the authors agree, that's what it will be.  So it is essential for "
@@ -71,6 +77,7 @@ msgstr ""
 "parlera d'écrire un manuel, vous pouvez influencer le cours des événements "
 "simplement en suggérant cette possibilité."
 
+#. type: Content of: <p>
 msgid ""
 "If a publisher rejects the request at first, the GNU Project may be able to "
 "help the authors prevail.  They can contact us at <a href=\"mailto:gnu@gnu."
@@ -80,6 +87,7 @@ msgstr ""
 "auteurs à les persuader. Ils peuvent nous contacter à <a href=\"mailto:"
 "gnu&#64;gnu.org\">&lt;gnu&#64;gnu.org&gt;</a>."
 
+#. type: Content of: <p>
 msgid ""
 "There are <a href=\"/licenses/license-list.html#DocumentationLicenses\"> "
 "other</a> legitimate free documentation licenses, but sometimes using them "
@@ -102,6 +110,7 @@ msgstr ""
 "que la FDL GNU, peuvent nous contacter afin que nous puissions vérifier que "
 "la licence relève vraiment de la documentation libre."
 
+#. type: Content of: <p>
 msgid ""
 "When a commercial manual is free and relates to the GNU system, the GNU "
 "Project can recommend it to the public.  So if the authors or publisher set "
@@ -122,6 +131,7 @@ msgstr ""
 "l'achat). Veuillez informer <a href=\"mailto:webmasters&#64;gnu.org\">&lt;"
 "webmasters&#64;gnu.org&gt;</a> si vous trouvez de telles pages."
 
+#. type: Content of: <p>
 msgid ""
 "See also <a href=\"/philosophy/free-doc.html\">Free Software and Free "
 "Manuals</a>."
@@ -130,22 +140,30 @@ msgstr ""
 "html\">Logiciels et manuels libres</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -155,24 +173,41 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-msgid ""
-"Copyright &copy; 1999 Richard M. Stallman <br /> Verbatim copying and "
-"distribution of this entire article is permitted in any medium without "
-"royalty provided this notice is preserved."
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 1999 Richard M. Stallman"
 msgstr ""
-"Copyright &copy; 1999 Richard M. Stallman <br />La reproduction exacte et la "
-"distribution intégrale de cet article est permise sur n'importe quel support "
-"d'archivage, pourvu que cette notice soit préservée."
+
+#. type: Content of: <div><p>
+msgid ""
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
+msgstr ""
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+#~ msgid ""
+#~ "Copyright &copy; 1999 Richard M. Stallman <br /> Verbatim copying and "
+#~ "distribution of this entire article is permitted in any medium without "
+#~ "royalty provided this notice is preserved."
+#~ msgstr ""
+#~ "Copyright &copy; 1999 Richard M. Stallman <br />La reproduction exacte et "
+#~ "la distribution intégrale de cet article est permise sur n'importe quel "
+#~ "support d'archivage, pourvu que cette notice soit préservée."

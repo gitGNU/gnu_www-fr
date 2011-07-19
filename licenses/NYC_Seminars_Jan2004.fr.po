@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NYC_Seminars_Jan2004.html\n"
-"POT-Creation-Date: 2009-01-25 04:25-0500\n"
+"POT-Creation-Date: 2011-07-14 04:26-0300\n"
 "PO-Revision-Date: 2009-02-16 11:03+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,18 +16,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <h2>
 msgid "FSF Seminars in 2004"
 msgstr "Séminiares de la FSF en 2004"
 
+#. type: Content of: <div><b>
 msgid ""
 "<big><span style=\"font-weight: bold;\">FSF Offers Seminars </span></"
-"big><b>on<br /> Study and Analysis of the GPL and Legal Ethics in Free "
-"Software Licensing</b><br /><br /><br />"
+"big><b>on"
+msgstr ""
+
+#. type: Content of: <div>
+#, fuzzy
+#| msgid ""
+#| "<big><span style=\"font-weight: bold;\">FSF Offers Seminars </span></"
+#| "big><b>on<br /> Study and Analysis of the GPL and Legal Ethics in Free "
+#| "Software Licensing</b><br /><br /><br />"
+msgid ""
+"Study and Analysis of the GPL and Legal Ethics in Free Software Licensing</b>"
 msgstr ""
 "<big><span style=\"font-weight: bold;\">La FSF propose des séminaires </"
 "span></big><b>sur l'<br />Étude et analyse de la GPL et ethique légale dans "
 "les licences de logiciels libres</b><br /><br /><br />"
 
+#. type: Content of: <p>
 msgid ""
 "<span style=\"font-family: Nimbus Roman No9 L, serif;\">On January 20 and "
 "21, 2004, the Free Software Foundation (FSF) will offer two day-long "
@@ -48,6 +60,7 @@ msgstr ""
 "Daniel Ravicher, Consultant Sénior à la FSF et Bradley M. Kuhn, Directeur "
 "Exécutif à la FSF. </span>"
 
+#. type: Content of: <p>
 msgid ""
 "<b>&ldquo;Detailed Study and Analysis of GPL and LGPL&rdquo;</b>, the "
 "seminar on January 20, will give a section-by-section explanation of the "
@@ -65,6 +78,7 @@ msgstr ""
 "dans des entreprises existantes et dans de nouveaux modèles d'activité "
 "fondée sur le logiciel libre."
 
+#. type: Content of: <p>
 msgid ""
 "On January 21, FSF will offer <b>&ldquo;GPL Compliance Case Studies and "
 "Legal Ethics in Free Software Licensing&rdquo;</b>.  Also a day-long "
@@ -89,6 +103,7 @@ msgstr ""
 "considérations éthiques à destination des avocats qui souhaitent représenter "
 "des clients qui utilisent ou vendent des logiciels libres."
 
+#. type: Content of: <div><div>
 msgid ""
 "To register for the seminar, please download the <a href=\"/licenses/"
 "RegistrationForm.pdf\">registration form</a>, fill it in and fax it to FSF."
@@ -97,6 +112,16 @@ msgstr ""
 "\"RegistrationForm.pdf\">formulaire d'inscription</a>, le remplir et le "
 "faxer à la FSF."
 
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "<b>Lunchtime Speaker: </b><a href=\"http://emoglen.law.columbia.edu/"
+#| "\">Eben Moglen</a> will be the lunchtime speaker.  Professor Moglen is "
+#| "Professor of Law and Legal History at Columbia Law School and one of the "
+#| "nation's foremost scholars on copyright, patents and the proposed &ldquo;"
+#| "Broadcast Flag&rdquo;.  He is also a member of FSF's Board of Directors "
+#| "and the foundation's General Counsel.  Professor Moglen has also written "
+#| "extensively on the SCO vs IBM lawsuit.  <br /> <br />"
 msgid ""
 "<b>Lunchtime Speaker: </b><a href=\"http://emoglen.law.columbia.edu/\">Eben "
 "Moglen</a> will be the lunchtime speaker.  Professor Moglen is Professor of "
@@ -104,7 +129,7 @@ msgid ""
 "foremost scholars on copyright, patents and the proposed &ldquo;Broadcast "
 "Flag&rdquo;.  He is also a member of FSF's Board of Directors and the "
 "foundation's General Counsel.  Professor Moglen has also written extensively "
-"on the SCO vs IBM lawsuit.  <br /> <br />"
+"on the SCO vs IBM lawsuit."
 msgstr ""
 "<b>Intervenant de midi&nbsp;:</b> <a href=\"http://emoglen.law.columbia.edu/"
 "\">Eben Moglen</a> interviendra à l'heure du déjeuner. Le professeur Moglen "
@@ -117,15 +142,39 @@ msgstr ""
 "professeur Moglen a aussi publié de nombreux écrits sur le procès entre SCO "
 "et IBM.<br /><br />"
 
+#. type: Content of: <p><span>
+#, fuzzy
+#| msgid ""
+#| "<span style=\"font-weight: bold;\">&ldquo;Detailed Study and Analysis of "
+#| "GPL and LGPL&rdquo;<br /> </span><span style=\"font-family: Nimbus Roman "
+#| "No9 L, serif\">January 20, 9 am to 6 pm<br /> </span>"
 msgid ""
 "<span style=\"font-weight: bold;\">&ldquo;Detailed Study and Analysis of GPL "
-"and LGPL&rdquo;<br /> </span><span style=\"font-family: Nimbus Roman No9 L, "
-"serif\">January 20, 9 am to 6 pm<br /> </span>"
+"and LGPL&rdquo;"
 msgstr ""
 "<span style=\"font-weight: bold;\">«&nbsp;Étude détaillée et analyse des "
 "licences GPL et LGPL&nbsp;»<br /></span><span style=\"font-family: Nimbus "
 "Roman No9 L, serif\">le 20 janvier de 9h à 18h<br /> </span>"
 
+#. type: Content of: <p><span>
+#, fuzzy
+#| msgid ""
+#| "<span style=\"font-weight: bold;\">&ldquo;Detailed Study and Analysis of "
+#| "GPL and LGPL&rdquo;<br /> </span><span style=\"font-family: Nimbus Roman "
+#| "No9 L, serif\">January 20, 9 am to 6 pm<br /> </span>"
+msgid ""
+"</span><span style=\"font-family: Nimbus Roman No9 L, serif\">January 20, 9 "
+"am to 6 pm"
+msgstr ""
+"<span style=\"font-weight: bold;\">«&nbsp;Étude détaillée et analyse des "
+"licences GPL et LGPL&nbsp;»<br /></span><span style=\"font-family: Nimbus "
+"Roman No9 L, serif\">le 20 janvier de 9h à 18h<br /> </span>"
+
+#. type: Content of: <p>
+msgid "</span>"
+msgstr ""
+
+#. type: Content of: <p>
 msgid ""
 "<i>Prerequisites:</i> Attendees should have a general familiarity with "
 "software development processes.  A basic understanding of how copyright law "
@@ -135,6 +184,7 @@ msgstr ""
 "des processus de développement logiciel. Une connaissance basique des usages "
 "typiques des droits d'auteur aux logiciels est aussi recommandée."
 
+#. type: Content of: <p>
 msgid ""
 "<i>Audience: </i>The course is of most interest to lawyers, software "
 "developers and managers who run (or have clients who run) software "
@@ -149,6 +199,7 @@ msgstr ""
 "telles entreprises et enfin aux managers qui souhaitent utiliser des "
 "logiciels sous licence GPL ou LGPL au sein de leur entreprise."
 
+#. type: Content of: <p>
 msgid ""
 "The course will include the topics listed below, along with ample time for "
 "questions and discussions."
@@ -156,56 +207,112 @@ msgstr ""
 "Ce cours abordera les sujets suivants, en plus de laisser beaucoup de temps "
 "aux questions et aux discussions&nbsp;:"
 
-msgid ""
-"* Free Software Principles and the Free Software Definition<br /> * Preamble "
-"of the GNU General Public License (GPL)<br /> * GPL, Section 0: Definitions, "
-"etc.<br /> * GPL, Section 1: Grant for Verbatim Source Copying<br /> * "
-"Derivative Works: Statute and Case Law<br /> * GPL, Section 2: Grants for "
-"Source Derivative Works<br /> * GPL, Section 3: Grants for Creating Binary "
-"Derivative Works<br /> * The Implied Patent Grant in GPL<br /> * GPL, "
-"Section 4: Termination of License<br /> * GPL, Section 5: Acceptance of "
-"License<br /> * GPL, Section 6: Prohibition on Further Restrictions<br /> * "
-"GPL, Section 7: Conflicts with other Agreements or Orders<br /> * GPL, "
-"Section 8: International Licensing Issues<br /> * GPL, Section 9: FSF as "
-"GPL's Stewards<br /> * GPL, Section 10: Copyright Holder's Exceptions to "
-"GPL<br /> * GPL, Section 11: Disclaimer of Warranties<br /> * GPL, Section "
-"12: Limitation of Liability<br /> * Lesser General Public License (LGPL)<br /"
-">"
+#. type: Content of: <p>
+msgid "* Free Software Principles and the Free Software Definition"
 msgstr ""
-"* Principes et définition du logiciel libre<br />* Préambule de la licence "
-"GNU GPL<br />* GPL, Section 0&nbsp;: Définitions, etc.<br />* GPL, Section "
-"1&nbsp;: Cession des droits pour la copie conforme de la source<br />* "
-"Travaux dérivés&nbsp;: Loi et étude de cas légale<br/>* GPL, Section "
-"2&nbsp;: Cession des droits pour les &oelig;uvres dérivées sous forme de "
-"source<br />* GPL, Section 3&nbsp;: Cession des droits pour les &oelig;uvres "
-"dérivées sous forme de binaires<br />* La cession tacite de brevet incluse "
-"dans la GPL<br />* GPL, Section 4&nbsp;: Résiliation de la licence<br />* "
-"GPL, Section 5&nbsp;: Acceptation de la licence<br />* GPL, Section 6&nbsp;: "
-"Interdiction de restrictions supplémentaires<br />* GPL, Section 7&nbsp;: "
-"Conflits avec d'autres accords ou décisions de justice<br />* GPL, Section "
-"8&nbsp;: Licence à l'international<br />* GPL, Section 9&nbsp;: La FSF en "
-"tant qu'assistante de la GPL<br />* GPL, Section 10&nbsp;: Exceptions à la "
-"GPL pour les détenteurs de droits d'auteur<br />* GPL, Section 11&nbsp;: "
-"Dégagement de responsabilité concernant les garanties<br />* GPL, Section "
-"12&nbsp;: Limitation de responsabilité<br />* La licence LGPL<br />"
 
+#. type: Content of: <p>
+msgid "* Preamble of the GNU General Public License (GPL)"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 0: Definitions, etc."
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 1: Grant for Verbatim Source Copying"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* Derivative Works: Statute and Case Law"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 2: Grants for Source Derivative Works"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 3: Grants for Creating Binary Derivative Works"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* The Implied Patent Grant in GPL"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 4: Termination of License"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 5: Acceptance of License"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 6: Prohibition on Further Restrictions"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 7: Conflicts with other Agreements or Orders"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 8: International Licensing Issues"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 9: FSF as GPL's Stewards"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 10: Copyright Holder's Exceptions to GPL"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 11: Disclaimer of Warranties"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* GPL, Section 12: Limitation of Liability"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "* Lesser General Public License (LGPL)"
+msgstr ""
+
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "For more details, please visit <a href=\"/licenses/210104_seminar.html\"> "
+#| "http://www.gnu.org/licenses/210104_seminar.html</a>."
 msgid ""
 "For more details, please visit <a href=\"/licenses/200104_seminar.html\"> "
-"http://www.gnu.org/licenses/200104_seminar.html.</a> <br />"
+"http://www.gnu.org/licenses/200104_seminar.html.</a>"
 msgstr ""
-"Pour plus de détails, veuillez visiter <a href=\"/licenses/200104_seminar.fr."
-"html\"> http://www.gnu.org/licenses/200104_seminar.fr.html.</a> <br />"
+"Pour plus de détails, veuillez visiter <a href=\"/licenses/210104_seminar.fr."
+"html\"> http://www.gnu.org/licenses/210104_seminar.fr.html</a>."
 
+#. type: Content of: <p><b>
+#, fuzzy
+#| msgid ""
+#| "<b>&ldquo;GPL Compliance Case Studies and Legal Ethics in Free Software "
+#| "Licensing&rdquo;<br /> </b><span style=\"font-family: Nimbus Roman No9 L, "
+#| "serif\">January 21, 9 am to 6 pm<br /> </span>"
 msgid ""
 "<b>&ldquo;GPL Compliance Case Studies and Legal Ethics in Free Software "
-"Licensing&rdquo;<br /> </b><span style=\"font-family: Nimbus Roman No9 L, "
-"serif\">January 21, 9 am to 6 pm<br /> </span>"
+"Licensing&rdquo;"
 msgstr ""
 "<b>«&nbsp;Étude de cas de respect de la GPL et conduite à tenir d'un point de "
 "vue légal lors de la publication de logiciels sous licence libre&nbsp;»<br /"
 "> </b><span style=\"font-family: Nimbus Roman No9 L, serif\">le 21 janvier "
 "de 9h à 18h<br /> </span>"
 
+#. type: Content of: <p><span>
+msgid ""
+"</b><span style=\"font-family: Nimbus Roman No9 L, serif\">January 21, 9 am "
+"to 6 pm"
+msgstr ""
+
+#. type: Content of: <p>
 msgid ""
 "<i>Prerequisites:</i> Attendees should have successfully completed the "
 "course, a <i>Detailed Study and Analysis of GPL and LGPL</i>, as the "
@@ -219,6 +326,7 @@ msgstr ""
 "acquis, ou alors les participants doivent avoir participé à une précédente "
 "séance de ce cours, lors de précédents séminaires."
 
+#. type: Content of: <p>
 msgid ""
 "<i>Audience:</i> The course is of most interest to lawyers who have clients "
 "or employers that deal with Free Software on a regular basis.  However, "
@@ -231,71 +339,112 @@ msgstr ""
 "dirigeants d'entreprises qui utilisent ou distribuent des logiciels libres "
 "trouveront aussi un grand intérêt à ce cours."
 
+#. type: Content of: <p>
 msgid "GPL Compliance Case Studies:"
 msgstr "Étude de cas de respect de la licence GPL&nbsp;:"
 
+#. type: Content of: <p>
 msgid "* Overview of FSF's GPL Compliance Lab"
 msgstr "* Présentation succincte du «&nbsp;GPL Compliance Lab&nbsp;» de la FSF"
 
-msgid "* GPL Violation Case Study A<br />"
+#. type: Content of: <div>
+#, fuzzy
+#| msgid "* GPL Violation Case Study A<br />"
+msgid "* GPL Violation Case Study A"
 msgstr "* Étude de cas de violation de la licence GPL, cas A<br />"
 
+#. type: Content of: <div><div>
 msgid "- Explains how FSF deals with sometimes belligerent violators."
 msgstr ""
 "- Explication de la démarche de la FSF à l'encontre de certains violateurs "
 "de la licence."
 
-msgid "* GPL Violation Case Study B<br />"
+#. type: Content of: <div>
+#, fuzzy
+#| msgid "* GPL Violation Case Study B<br />"
+msgid "* GPL Violation Case Study B"
 msgstr "* Étude de cas de violation de la licence GPL, cas B<br />"
 
+#. type: Content of: <div><div>
+#, fuzzy
+#| msgid ""
+#| "- Explains how smoothly violations can be resolved and the process that "
+#| "an otherwise friendly violator can expect.<br />"
 msgid ""
 "- Explains how smoothly violations can be resolved and the process that an "
-"otherwise friendly violator can expect.<br />"
+"otherwise friendly violator can expect."
 msgstr ""
 "- Démonstration du fait que les violations peuvent être réglées très "
 "facilement et présentation de la démarche habituelle de la FSF à l'encontre "
 "d'un violateur de bonne volonté.<br />"
 
-msgid "* GPL Violation Case Study C<br />"
+#. type: Content of: <div>
+#, fuzzy
+#| msgid "* GPL Violation Case Study C<br />"
+msgid "* GPL Violation Case Study C"
 msgstr "* Étude de cas de violation de la licence GPL, cas C<br />"
 
+#. type: Content of: <div><div>
+#, fuzzy
+#| msgid ""
+#| "- Problems faced regarding kernel modules for device drivers for "
+#| "government-regulated hardware, and cases where both an upstream provider "
+#| "and a downstream distributor are in violation on separate matters.<br />"
 msgid ""
 "- Problems faced regarding kernel modules for device drivers for government-"
 "regulated hardware, and cases where both an upstream provider and a "
-"downstream distributor are in violation on separate matters.<br />"
+"downstream distributor are in violation on separate matters."
 msgstr ""
 "- Illustration des problèmes concernant les modules du noyau pour leur "
 "utilisation dans des drivers d'un équipement soumis à régulation, et "
 "exemples où un fournisseur en amont et un distributeur en aval sont tous "
 "deux en violation de la licence, sur des questions distinctes.<br />"
 
-msgid "* GPL Violation Case Study D<br />"
+#. type: Content of: <div>
+#, fuzzy
+#| msgid "* GPL Violation Case Study D<br />"
+msgid "* GPL Violation Case Study D"
 msgstr "* Étude de cas de violation de la licence GPL, cas D<br />"
 
+#. type: Content of: <div><div>
+#, fuzzy
+#| msgid ""
+#| "- Violations from a company committed to doing Free Software but has "
+#| "occasional GPL violations or near-violations.<br />"
 msgid ""
 "- Violations from a company committed to doing Free Software but has "
-"occasional GPL violations or near-violations.<br />"
+"occasional GPL violations or near-violations."
 msgstr ""
 "- Violations par une entreprise impliquée dans le logiciel libre, mais qui "
 "viole parfois la licence GPL, et qui est très proche de la violer d'autres "
 "fois.<br />"
 
-msgid "* Good Practices for GPL Compliance<br /><br />"
+#. type: Content of: <div>
+#, fuzzy
+#| msgid "* Good Practices for GPL Compliance<br /><br />"
+msgid "* Good Practices for GPL Compliance"
 msgstr "* Bonnes pratiques pour respecter la licence GPL<br /><br />"
 
+#. type: Content of: <p>
 msgid "Ethical Considerations for the Attorney Practicing Free Software"
 msgstr "Considérations éthiques pour l'avocat défendant les logiciels libres"
 
-msgid ""
-"* Part I: Representing Free Software Clients<br /> * Part II: Practicing "
-"Free Software<br /> * Part III: More General Ethical Considerations Relevant "
-"to Free Software<br />"
+#. type: Content of: <p>
+msgid "* Part I: Representing Free Software Clients"
 msgstr ""
-"* Partie I&nbsp;: Représenter des clients issus du logiciel libre<br />* "
-"Partie II&nbsp;: Exercer dans le cadre des logiciels libres<br />* Partie "
-"III&nbsp;: Considérations éthiques plus générales à propos des logiciels "
-"libres<br />"
 
+#. type: Content of: <p>
+#, fuzzy
+#| msgid "Ethical Considerations for the Attorney Practicing Free Software"
+msgid "* Part II: Practicing Free Software"
+msgstr "Considérations éthiques pour l'avocat défendant les logiciels libres"
+
+#. type: Content of: <p>
+msgid ""
+"* Part III: More General Ethical Considerations Relevant to Free Software"
+msgstr ""
+
+#. type: Content of: <p>
 msgid ""
 "For more details, please visit <a href=\"/licenses/210104_seminar.html\"> "
 "http://www.gnu.org/licenses/210104_seminar.html</a>."
@@ -303,34 +452,66 @@ msgstr ""
 "Pour plus de détails, veuillez visiter <a href=\"/licenses/210104_seminar.fr."
 "html\"> http://www.gnu.org/licenses/210104_seminar.fr.html</a>."
 
-msgid ""
-"<br /> <b>Pricing (Book by December 24, 2003 for registration discount):</"
-"b><br /> <br />"
+#. type: Content of: <div>
+#, fuzzy
+#| msgid ""
+#| "<br /> <b>Pricing (Book by December 24, 2003 for registration discount):</"
+#| "b><br /> <br />"
+msgid "<b>Pricing (Book by December 24, 2003 for registration discount):</b>"
 msgstr ""
 "<br /><b>Prix (Inscrivez-vous d'ici le 24 décembre 2003 afin d'obtenir la </"
 "b><br /><br />"
 
+#. type: Content of: <div><div>
+#, fuzzy
+#| msgid ""
+#| "Both Courses: $875 for registrations on or before December 24, 2003 and "
+#| "$975 after December 24<br />"
 msgid ""
 "Both Courses: $875 for registrations on or before December 24, 2003 and $975 "
-"after December 24<br />"
+"after December 24"
 msgstr ""
 "Les deux cours&nbsp;: 875$ pour les inscriptions d'ici le 24 décembre 2003 "
 "et 975$ après<br />"
 
+#. type: Content of: <div><div>
+#, fuzzy
+#| msgid ""
+#| "Both Courses: $875 for registrations on or before December 24, 2003 and "
+#| "$975 after December 24<br />"
 msgid ""
 "First Course Only: $495 for registrations on or before December 24, 2003 and "
-"$595 after December 24<br /> <br /> <span style=\"font-family: Nimbus Roman "
-"No9 L, serif\"><span style=\"text-decoration: underline;\">Financial Aid "
-"Policy:</span> Applicants with annual incomes of up to $15,000 are entitled "
-"to a 75% discount.  People with incomes between $15,000 and $30,000 receive "
-"a 50% discount.  Any member of the judiciary, academics or attorneys from "
-"non-profit organizations receive a 10% discount.  If you fall within one of "
-"these categories, please contact John at <a href=\"mailto:johns@fsf.org"
-"\">&lt;johns@fsf.org&gt;</a> or Ravi at <a href=\"mailto:ravi@fsf.org\">&lt;"
-"ravi@fsf.org&gt;</a> or by phone at 617.620.9640.</span><br /> <br /> To "
-"register for the seminar, please download the <a href=\"/licenses/"
-"RegistrationForm.pdf\">registration form</a>, fill it in and fax it to FSF."
-"<br /> <br />"
+"$595 after December 24"
+msgstr ""
+"Les deux cours&nbsp;: 875$ pour les inscriptions d'ici le 24 décembre 2003 "
+"et 975$ après<br />"
+
+#. type: Content of: <div><div>
+#, fuzzy
+#| msgid ""
+#| "First Course Only: $495 for registrations on or before December 24, 2003 "
+#| "and $595 after December 24<br /> <br /> <span style=\"font-family: Nimbus "
+#| "Roman No9 L, serif\"><span style=\"text-decoration: underline;"
+#| "\">Financial Aid Policy:</span> Applicants with annual incomes of up to "
+#| "$15,000 are entitled to a 75% discount.  People with incomes between "
+#| "$15,000 and $30,000 receive a 50% discount.  Any member of the judiciary, "
+#| "academics or attorneys from non-profit organizations receive a 10% "
+#| "discount.  If you fall within one of these categories, please contact "
+#| "John at <a href=\"mailto:johns@fsf.org\">&lt;johns@fsf.org&gt;</a> or "
+#| "Ravi at <a href=\"mailto:ravi@fsf.org\">&lt;ravi@fsf.org&gt;</a> or by "
+#| "phone at 617.620.9640.</span><br /> <br /> To register for the seminar, "
+#| "please download the <a href=\"/licenses/RegistrationForm.pdf"
+#| "\">registration form</a>, fill it in and fax it to FSF.<br /> <br />"
+msgid ""
+"<span style=\"font-family: Nimbus Roman No9 L, serif\"><span style=\"text-"
+"decoration: underline;\">Financial Aid Policy:</span> Applicants with annual "
+"incomes of up to $15,000 are entitled to a 75% discount.  People with "
+"incomes between $15,000 and $30,000 receive a 50% discount.  Any member of "
+"the judiciary, academics or attorneys from non-profit organizations receive "
+"a 10% discount.  If you fall within one of these categories, please contact "
+"John at <a href=\"mailto:johns@fsf.org\">&lt;johns@fsf.org&gt;</a> or Ravi "
+"at <a href=\"mailto:ravi@fsf.org\">&lt;ravi@fsf.org&gt;</a> or by phone at "
+"617.620.9640.</span>"
 msgstr ""
 "Premiers cours seulement&nbsp; 495&nbsp;$ jusqu'au 24 décembre 2003 et "
 "595&nbsp;$ après le 24 décembre.<br /> <br /> <span style=\"font-family: "
@@ -348,6 +529,19 @@ msgstr ""
 "\">formulaire d'inscription</a>, le remplir et la faxer à la FSF.<br /> <br /"
 ">"
 
+#. type: Content of: <p><span>
+#, fuzzy
+#| msgid ""
+#| "<span style=\"font-family: Nimbus Roman No9 L, serif\"><b>CLE Credits: </"
+#| "b>Attorneys who successfully complete </span><b>&ldquo;Detailed Study and "
+#| "Analysis of GPL and LGPL&rdquo; </b>on <span style=\"font-family: Nimbus "
+#| "Roman No9 L, serif\">January 20, will be entitled to 7 New York "
+#| "Transitional CLE credits.  Those who complete </span><b>&ldquo;GPL "
+#| "Compliance Case Studies and Legal Ethics in Free Software "
+#| "Licensing&rdquo; </b>on <span style=\"font-family: Nimbus Roman No9 L, "
+#| "serif\">January 21, will be entitled to a total of 7.5 New York "
+#| "Transitional CLE credits, 3 in the area of Professional Practice and 4.5 "
+#| "toward the Ethics and Professionalism requirments.<br /> </span>"
 msgid ""
 "<span style=\"font-family: Nimbus Roman No9 L, serif\"><b>CLE Credits: </"
 "b>Attorneys who successfully complete </span><b>&ldquo;Detailed Study and "
@@ -358,7 +552,7 @@ msgid ""
 "style=\"font-family: Nimbus Roman No9 L, serif\">January 21, will be "
 "entitled to a total of 7.5 New York Transitional CLE credits, 3 in the area "
 "of Professional Practice and 4.5 toward the Ethics and Professionalism "
-"requirments.<br /> </span>"
+"requirments."
 msgstr ""
 "<span style=\"font-family: Nimbus Roman No9 L, serif\"><b>Crédits CLE&nbsp;: "
 "</b>Les avocats qui termineront avec succès </span><b>«&nbsp;Étude et analyse "
@@ -371,13 +565,22 @@ msgstr ""
 "professionnelle et 4,5 dans le domaine de l'éthique et du professionnalisme."
 "<br /> </span>"
 
+#. type: Content of: <p><span>
+#, fuzzy
+#| msgid ""
+#| "<span style=\"font-family: Nimbus Roman No9 L, serif\">Companies that "
+#| "have signed up as Corporate Patrons of FSF receive two complimentary "
+#| "seats at the seminar and reduced rates for additional participants.  "
+#| "Please contact patron@fsf.org for more details. You can find out more "
+#| "about the Corporate Patron Program at <a href=\"http://patron.fsf.org/\"> "
+#| "http://patron.fsf.org.</a><br /> </span>"
 msgid ""
 "<span style=\"font-family: Nimbus Roman No9 L, serif\">Companies that have "
 "signed up as Corporate Patrons of FSF receive two complimentary seats at the "
 "seminar and reduced rates for additional participants.  Please contact "
 "patron@fsf.org for more details. You can find out more about the Corporate "
 "Patron Program at <a href=\"http://patron.fsf.org/\"> http://patron.fsf.org."
-"</a><br /> </span>"
+"</a>"
 msgstr ""
 "<span style=\"font-family: Nimbus Roman No9 L, serif\">Les entreprises qui "
 "se seront inscrites en tant que mécènes de la FSF [NdT&nbsp;: Corporate "
@@ -387,6 +590,7 @@ msgstr ""
 "trouverez plus de détails au sujet de ce programme de mécénat à <a href="
 "\"http://patron.fsf.org/\">http://patron.fsf.org</a><br /> </span>"
 
+#. type: Content of: <p>
 msgid ""
 "<span style=\"font-family: Nimbus Roman No9 L, serif\">Both days of the "
 "seminar will be held at Columbia Law School in New York.  Directions will be "
@@ -402,22 +606,30 @@ msgstr ""
 "par téléphone au +1&nbsp;617&nbsp;620&nbsp;9640.</span>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -427,28 +639,93 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2004, 2007, 2008, 2009 Free Software Foundation, Inc."
 msgstr ""
 "Copyright &copy; 2004, 2007, 2008, 2009 Free Software Foundation, Inc.,"
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article are permitted "
-"worldwide, without royalty, in any medium, provided this notice, and the "
-"copyright notice, are preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Marc Chauvet.<br /> Révision&nbsp;: <a href=\"mailto:trad-"
 "gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+#~ msgid ""
+#~ "* Free Software Principles and the Free Software Definition<br /> * "
+#~ "Preamble of the GNU General Public License (GPL)<br /> * GPL, Section 0: "
+#~ "Definitions, etc.<br /> * GPL, Section 1: Grant for Verbatim Source "
+#~ "Copying<br /> * Derivative Works: Statute and Case Law<br /> * GPL, "
+#~ "Section 2: Grants for Source Derivative Works<br /> * GPL, Section 3: "
+#~ "Grants for Creating Binary Derivative Works<br /> * The Implied Patent "
+#~ "Grant in GPL<br /> * GPL, Section 4: Termination of License<br /> * GPL, "
+#~ "Section 5: Acceptance of License<br /> * GPL, Section 6: Prohibition on "
+#~ "Further Restrictions<br /> * GPL, Section 7: Conflicts with other "
+#~ "Agreements or Orders<br /> * GPL, Section 8: International Licensing "
+#~ "Issues<br /> * GPL, Section 9: FSF as GPL's Stewards<br /> * GPL, Section "
+#~ "10: Copyright Holder's Exceptions to GPL<br /> * GPL, Section 11: "
+#~ "Disclaimer of Warranties<br /> * GPL, Section 12: Limitation of "
+#~ "Liability<br /> * Lesser General Public License (LGPL)<br />"
+#~ msgstr ""
+#~ "* Principes et définition du logiciel libre<br />* Préambule de la "
+#~ "licence GNU GPL<br />* GPL, Section 0&nbsp;: Définitions, etc.<br />* "
+#~ "GPL, Section 1&nbsp;: Cession des droits pour la copie conforme de la "
+#~ "source<br />* Travaux dérivés&nbsp;: Loi et étude de cas légale<br/>* "
+#~ "GPL, Section 2&nbsp;: Cession des droits pour les &oelig;uvres dérivées "
+#~ "sous forme de source<br />* GPL, Section 3&nbsp;: Cession des droits pour "
+#~ "les &oelig;uvres dérivées sous forme de binaires<br />* La cession tacite "
+#~ "de brevet incluse dans la GPL<br />* GPL, Section 4&nbsp;: Résiliation de "
+#~ "la licence<br />* GPL, Section 5&nbsp;: Acceptation de la licence<br />* "
+#~ "GPL, Section 6&nbsp;: Interdiction de restrictions supplémentaires<br />* "
+#~ "GPL, Section 7&nbsp;: Conflits avec d'autres accords ou décisions de "
+#~ "justice<br />* GPL, Section 8&nbsp;: Licence à l'international<br />* "
+#~ "GPL, Section 9&nbsp;: La FSF en tant qu'assistante de la GPL<br />* GPL, "
+#~ "Section 10&nbsp;: Exceptions à la GPL pour les détenteurs de droits "
+#~ "d'auteur<br />* GPL, Section 11&nbsp;: Dégagement de responsabilité "
+#~ "concernant les garanties<br />* GPL, Section 12&nbsp;: Limitation de "
+#~ "responsabilité<br />* La licence LGPL<br />"
+
+#~ msgid ""
+#~ "For more details, please visit <a href=\"/licenses/200104_seminar.html\"> "
+#~ "http://www.gnu.org/licenses/200104_seminar.html.</a> <br />"
+#~ msgstr ""
+#~ "Pour plus de détails, veuillez visiter <a href=\"/licenses/200104_seminar."
+#~ "fr.html\"> http://www.gnu.org/licenses/200104_seminar.fr.html.</a> <br />"
+
+#~ msgid ""
+#~ "* Part I: Representing Free Software Clients<br /> * Part II: Practicing "
+#~ "Free Software<br /> * Part III: More General Ethical Considerations "
+#~ "Relevant to Free Software<br />"
+#~ msgstr ""
+#~ "* Partie I&nbsp;: Représenter des clients issus du logiciel libre<br />* "
+#~ "Partie II&nbsp;: Exercer dans le cadre des logiciels libres<br />* Partie "
+#~ "III&nbsp;: Considérations éthiques plus générales à propos des logiciels "
+#~ "libres<br />"
+
+#~ msgid ""
+#~ "Verbatim copying and distribution of this entire article are permitted "
+#~ "worldwide, without royalty, in any medium, provided this notice, and the "
+#~ "copyright notice, are preserved."
+#~ msgstr ""
+#~ "La reproduction exacte et la distribution intégrale de cet article est "
+#~ "permise sur n'importe quel support d'archivage, pourvu que cette notice "
+#~ "soit préservée."

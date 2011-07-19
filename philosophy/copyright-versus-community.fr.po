@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: copyright-versus-community.html\n"
-"POT-Creation-Date: 2010-10-08 12:27-0300\n"
+"POT-Creation-Date: 2011-07-14 04:29-0300\n"
 "PO-Revision-Date: 2009-03-29 18:44+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: Content of: <title>
 msgid ""
 "Copyright versus Community in the Age of Computer Networks - GNU Project - "
 "Free Software Foundation (FSF)"
@@ -22,23 +23,28 @@ msgstr ""
 "Copyright contre Communauté à l'âge des réseaux informatiques - GNU Project "
 "- Free Software Foundation (FSF)"
 
+#. type: Content of: <h2>
 msgid "Copyright versus Community in the Age of Computer Networks"
 msgstr "Copyright contre Communauté à l'âge des réseaux informatiques"
 
+#. type: Content of: <p>
 msgid ""
 "<b>Keynote speech at LIANZA conference, Christchurch Convention Centre, 12 "
 "October 2009</b>"
 msgstr ""
 
+#. type: Content of: <dl><dt>
 msgid "BC:"
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Tena koutou, tena koutou, tena koutou katoa.  Today I have the privilege of "
 "introducing Richard Stallman, whose keynote speech is being sponsored by the "
 "School of Information Management at Victoria University of Wellington."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Richard has been working to promote software freedom for over 25 years.  In "
 "1983 he started the GNU project to develop a free operating system [the GNU "
@@ -48,18 +54,22 @@ msgid ""
 "has touched all of your lives."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "I like to describe him as the most influential person most people have never "
 "heard of, although he tells me that that cannot possibly be true because it "
 "cannot be tested."
 msgstr ""
 
+#. type: Content of: <dl><dt>
 msgid "RMS:"
 msgstr ""
 
+#. type: Content of: <dl><dd>
 msgid "We can't tell."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "I said that&mdash;I still like it.  His ideas about software freedom and "
 "free access to information were used by Tim Berners-Lee when he created the "
@@ -67,11 +77,13 @@ msgid ""
 "encyclopedia inspired Jimmy Wales to set up what is now Wikipedia."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Today Richard will be talking to us about copyright vs community in the age "
 "of computer networks, and their implications for libraries.  Richard."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "I've been in New Zealand for a couple of weeks, and in the North Island it "
 "was raining most of the time.  Now I know why they call gumboots &ldquo;"
@@ -82,6 +94,7 @@ msgid ""
 "really feel Picton."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "The reason people usually invite me to give speeches is because of my work "
 "on free software.  This is not a talk about free software; this talk answers "
@@ -90,6 +103,7 @@ msgid ""
 "what free software means."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Free software is a matter of freedom, not price, so think of &ldquo;free "
 "speech&rdquo;, not &ldquo;free beer&rdquo;.  Free software is software that "
@@ -97,24 +111,29 @@ msgid ""
 "user deserves always to have."
 msgstr ""
 
+#. type: Content of: <dl><dd><ul><li>
 msgid "Freedom 0 is the freedom to run the program as you wish."
 msgstr ""
 
+#. type: Content of: <dl><dd><ul><li>
 msgid ""
 "Freedom 1 is the freedom to study the source code of the program and change "
 "it to make the program do what you wish."
 msgstr ""
 
+#. type: Content of: <dl><dd><ul><li>
 msgid ""
 "Freedom 2 is the freedom to help your neighbour; that is, the freedom to "
 "redistribute copies of the program, exact copies when you wish."
 msgstr ""
 
+#. type: Content of: <dl><dd><ul><li>
 msgid ""
 "And Freedom 3 is the freedom to contribute to your community.  That's the "
 "freedom to publish your modified versions when you wish."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "If the program gives you these four freedoms then it's free software, which "
 "means the social system of its distribution and use is an ethical system, "
@@ -127,6 +146,7 @@ msgid ""
 "that all users can be free."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Proprietary software keeps the users divided and helpless: divided, because "
 "they're forbidden to share it, and helpless, because they don't have the "
@@ -136,6 +156,7 @@ msgid ""
 "the user."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "For instance, Microsoft Windows has a back door with which Microsoft can "
 "forcibly install software changes, without getting permission from the "
@@ -146,6 +167,7 @@ msgid ""
 "out the window."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "But any proprietary software gives the developers unjust power over the "
 "users.  Some of the developers abuse this power more, and some abuse it "
@@ -154,6 +176,7 @@ msgid ""
 "you deserve free software."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "At the end of speeches about free software, people sometimes ask whether "
 "these same freedoms and ideas apply to other things.  If you have a copy of "
@@ -162,6 +185,7 @@ msgid ""
 "have them or not.  And that's the question that I'm going to address today."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "If you have a copy of something that's not software, for the most part, the "
 "only thing that might deny you any of these freedoms is copyright law.  With "
@@ -171,6 +195,7 @@ msgid ""
 "distinction as between source code and executable code."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "For instance, if we're talking about a text, if you can see the text to read "
 "it, there's nothing in the text that you can't see.  So it's not the same "
@@ -178,11 +203,13 @@ msgid ""
 "that might deny you these freedoms."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "So the question can be restated: &ldquo;What should copyright law allow you "
 "to do with published works? What should copyright law say?&rdquo;"
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Copyright has developed along with copying technology, so it's useful to "
 "review the history of copying technology.  Copying developed in the ancient "
@@ -190,6 +217,7 @@ msgid ""
 "read one copy and write another."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "This technology was rather inefficient, but another interesting "
 "characteristic was that it had no economy of scale.  To write ten copies "
@@ -200,6 +228,7 @@ msgid ""
 "copy, if someone wanted to copy it, he could."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "There was nothing like copyright in the ancient world.  If you had a copy "
 "and wanted to copy it, nobody was going to tell you you weren't "
@@ -209,6 +238,7 @@ msgid ""
 "copyright is often used in attempts to censor people."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "That went on for thousands of years, but then there was a big advance in "
 "copying technology, namely the printing press.  The printing press made "
@@ -218,6 +248,7 @@ msgid ""
 "just writing it by hand; that would be faster than trying to print one copy."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "The printing press has an economy of scale: it takes a lot of work to set "
 "the type, but then you can make many copies very fast.  Also, the printing "
@@ -229,6 +260,7 @@ msgid ""
 "copies."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Copyright began in the age of the printing press.  Copyright in England "
 "began as a system of censorship in the 1500s.  I believe it was originally "
@@ -243,12 +275,14 @@ msgid ""
 "it once."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "This was a totally different idea&mdash;a temporary monopoly for the author, "
 "instead of a perpetual monopoly for the publisher.  The idea developed that "
 "copyright was a means of promoting writing."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "When the US constitution was written, some people wanted authors to be "
 "entitled to a copyright, but that was rejected.  Instead, the US "
@@ -259,6 +293,7 @@ msgid ""
 "time; publishers keep hoping for us to forget about this."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Here we have an idea of copyright which is an industrial regulation on "
 "publishers, controlled by authors, and designed to provide benefits to the "
@@ -266,6 +301,7 @@ msgid ""
 "readers."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Now in the early centuries of printing, and still I believe in the 1790s, "
 "lots of readers wrote copies by hand because they couldn't afford printed "
@@ -275,6 +311,7 @@ msgid ""
 "enforce, uncontroversial, and arguably beneficial for society."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "It was easy to enforce, because it only had to be enforced against "
 "publishers.  And it's easy to find the unauthorized publishers of a "
@@ -283,6 +320,7 @@ msgid ""
 "computer to do that."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "It was uncontroversial because, as the readers were not restricted, they had "
 "nothing to complain about.  Theoretically they were restricted from "
@@ -291,12 +329,14 @@ msgid ""
 "restricted."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "It was arguably beneficial because the general public, according to the "
 "concepts of copyright law, traded away a theoretical right they were not in "
 "a position to exercise.  In exchange, they got the benefits of more writing."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Now if you trade away something you have no possible use for, and you get "
 "something you can use in exchange, it's a positive trade.  Whether or not "
@@ -304,6 +344,7 @@ msgid ""
 "question, but at least it's positive."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "So if this were still in the age of the printing press, I don't think I'd be "
 "complaining about copyright law.  But the age of the printing press is "
@@ -312,6 +353,7 @@ msgid ""
 "again not uniformly so."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Here's what we had in the age of the printing press: mass production very "
 "efficient, one at a time copying still just as slow as the ancient world.  "
@@ -319,6 +361,7 @@ msgid ""
 "has benefited the most."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "We get to a situation much more like the ancient world, where one at a time "
 "copying is not so much worse [i.e., harder] than mass production copying.  "
@@ -328,6 +371,7 @@ msgid ""
 "a CD-writer yourself, so you go to a store where you can do it."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "This means that copyright no longer fits in with the technology as it used "
 "to.  Even if the words of copyright law had not changed, they wouldn't have "
@@ -337,16 +381,19 @@ msgid ""
 "publishers, in the name of the authors."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "In other words, it's tyranny.  It's intolerable and we can't allow it to "
 "continue this way."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "As a result of this change, [copyright] is no longer easy to enforce, no "
 "longer uncontroversial, and no longer beneficial."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "It's no longer easy to enforce because now the publishers want to enforce it "
 "against each and every person, and to do this requires cruel measures, "
@@ -355,20 +402,24 @@ msgid ""
 "prosecute the War on Sharing."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "It's no longer uncontroversial.  There are political parties in several "
 "countries whose basic platform is &ldquo;freedom to share&rdquo;."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "It's no longer beneficial because the freedoms that we conceptually traded "
 "away (because we couldn't exercise them), we now can exercise.  They're "
 "tremendously useful, and we want to exercise them."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid "What would a democratic government do in this situation?"
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "It would reduce copyright power.  It would say: &ldquo;The trade we made on "
 "behalf of our citizens, trading away some of their freedom which now they "
@@ -378,11 +429,13 @@ msgid ""
 "extending copyright power when they should reduce it."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "One example is in the dimension of time.  Around the world we see pressure "
 "to make copyright last longer and longer and longer."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "A wave of this started in the US in 1998.  Copyright was extended by 20 "
 "years on both past and future works.  I do not understand how they hope to "
@@ -393,6 +446,7 @@ msgid ""
 "the artists found out that their copyrights would be extended in 1998."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "It's theoretically conceivable that 20 years more copyright on future works "
 "would convince people to make more effort in producing those works.  But not "
@@ -405,6 +459,7 @@ msgid ""
 "course they can't do because none of them really looks that far ahead."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "The real reason for this law, the desire that prompted various companies to "
 "purchase this law in the US Congress, which is how laws are decided on for "
@@ -412,6 +467,7 @@ msgid ""
 "monopolies to continue."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "For instance, Disney was aware that the first film in which Mickey Mouse "
 "appeared would go into the public domain in a few years, and then anybody "
@@ -421,6 +477,7 @@ msgid ""
 "for this law, which we refer to as the Mickey Mouse Copyright Act."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "The movie companies say they want perpetual copyright, but the US "
 "Constitution won't let them get that officially.  So they came up with a way "
@@ -432,11 +489,13 @@ msgid ""
 "we stop them next time."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "That's one dimension, the dimension of duration.  But even more important is "
 "the dimension of breadth: which uses of the work does copyright cover?"
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "In the age of the printing press, copyright wasn't supposed to cover all "
 "uses of a copyrighted work, because copyright regulated certain uses that "
@@ -444,6 +503,7 @@ msgid ""
 "certain things you were simply allowed to do with your copy of a book."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Now the publishers have got the idea that they can turn our computers "
 "against us, and use them to seize total power over all use of published "
@@ -453,6 +513,7 @@ msgid ""
 "itself is designed to restrict the user."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "The first way in which the general public saw this was in DVDs.  A movie on "
 "a DVD was usually encrypted, and the format was secret.  The DVD conspiracy "
@@ -464,6 +525,7 @@ msgid ""
 "us."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "It worked for a while, but then some people figured out the secret format, "
 "and published free software capable of reading the movie on a DVD and "
@@ -473,12 +535,14 @@ msgid ""
 "software capable of doing such jobs."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "So that particular piece of free software was the subject of a court case.  "
 "Its distribution in the US is forbidden; the US practices censorship of "
 "software."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "The movie companies are well aware that they can't really make that program "
 "disappear&mdash;it's easy enough to find it.  So they designed another "
@@ -486,6 +550,7 @@ msgid ""
 "called AACS, or the axe."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "The AACS conspiracy makes precise rules about all players.  For instance, in "
 "2011 it's going to be forbidden to make analog video outputs.  So all video "
@@ -497,6 +562,7 @@ msgid ""
 "poke out permanently.<a href=\"#footnote1\">[1]</a>"
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "How do I know about these conspiracies? The reason is they're not "
 "secret&mdash;they have websites.  The AACS website proudly describes the "
@@ -506,6 +572,7 @@ msgid ""
 "and Sony, and Disney, and IBM."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "A conspiracy of companies designed to restrict the public's access to "
 "technology ought to be prosecuted as a serious crime, like a conspiracy to "
@@ -515,12 +582,14 @@ msgid ""
 "conspiracies, which is why they don't bother to hide them."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "In general DRM is set up by a conspiracy of companies.  Once in a while a "
 "single company can do it, but generally it requires a conspiracy between "
 "technology companies and publishers, so [it's] almost always a conspiracy."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "They thought that nobody would ever be able to break the AACS, but about "
 "three and a half years ago someone released a free program capable of "
@@ -528,6 +597,7 @@ msgid ""
 "to run it you need to know the key."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "And then, six months later, I saw a photo of two adorable puppies, with 32 "
 "hex digits above them, and I wondered: &ldquo;Why put those two things "
@@ -537,6 +607,7 @@ msgid ""
 "the key from being wiped out.&rdquo;"
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "And that's what it was&mdash;that was the key to break the axe.  People "
 "posted it, and editors deleted it, because laws in many countries now "
@@ -545,6 +616,7 @@ msgid ""
 "in over 700,000 web sites."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "That's a big outpouring of public disgust with DRM.  But it didn't win the "
 "war, because the publishers changed the key.  Not only that: with HD DVD, "
@@ -555,6 +627,7 @@ msgid ""
 "possible, at least not with our present level of knowledge."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Never accept any product designed to attack your freedom.  If you don't have "
 "the free software to play a DVD, you mustn't buy or rent any DVDs, or accept "
@@ -563,9 +636,11 @@ msgid ""
 "DVDs, I won't take them."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid "So this is how things stand in video, but we've also seen DRM in music."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "For instance, about ten years ago we started to see things that looked like "
 "compact disks, but they weren't written quite like compact disks.  They "
@@ -574,6 +649,7 @@ msgid ""
 "read them on a computer.  These different methods had various problems."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Eventually Sony came up with a clever idea.  They put a program on the disk, "
 "so that if you stuck the disk into a computer, the disk would install the "
@@ -583,6 +659,7 @@ msgid ""
 "the system, and modify various parts of the system."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "For instance, it modified the command you could use to examine the system to "
 "see if the software was present, so as to disguise itself.  It modified the "
@@ -592,6 +669,7 @@ msgid ""
 "code&mdash;code that had been released under the GNU General Public License."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Now the GNU GPL is a copyleft license, and that means it says &ldquo;Yes, "
 "you're free to put this code into other things, but when you do, the entire "
@@ -601,6 +679,7 @@ msgid ""
 "they get the software.&rdquo;"
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Sony didn't comply with all that.  That's commercial copyright infringement, "
 "which is a felony.  They're both felonies, but Sony wasn't prosecuted "
@@ -609,6 +688,7 @@ msgid ""
 "defend our freedom in any way."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "People got angry and they sued Sony.  However, they made a mistake.  They "
 "focused their condemnation not on the evil purpose of this scheme, but only "
@@ -617,6 +697,7 @@ msgid ""
 "freedom, it will not do those other things."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Actually, that particular corrupt disk scheme was not so bad, because if you "
 "were not using Windows it would not affect you at all.  Even if you were "
@@ -626,11 +707,13 @@ msgid ""
 "day.  This shows the kind of thing we've had to deal with."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Fortunately music DRM is receding.  Even the main record companies sell "
 "downloads without DRM.  But we see a renewed effort to impose DRM on books."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "You see, the publishers want to take away the traditional freedoms of book "
 "readers&mdash;freedom to do things such as borrow a book from the public "
@@ -640,11 +723,13 @@ msgid ""
 "doing.)"
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Even the freedom to keep the book as long as you wish, and read it as many "
 "times as you wish, they plan to get rid of."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "The way they do it is with DRM.  They knew that so many people read books "
 "and would get angry if these freedoms were taken away that they didn't "
@@ -653,11 +738,13 @@ msgid ""
 "people manage to demand something.  So they came up with a two-stage plan."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "First, take away these freedoms from ebooks, and second, convince people to "
 "switch from paper books to ebooks.  They've succeeded with stage 1."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "In the US they did it with the Digital Millennium Copyright Act, and in New "
 "Zealand, that was part of the year-ago Copyright Act; censorship on software "
@@ -665,11 +752,13 @@ msgid ""
 "got to be repealed."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "The second stage is convince people to switch from printed books to ebooks; "
 "that didn't go so well."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "One publisher in 2001 had the idea they would make their line of ebooks "
 "really popular if they started it with my biography.  So they found an "
@@ -682,6 +771,7 @@ msgid ""
 "paper."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "But in any case, ebooks failed at the beginning of this decade.  People just "
 "didn't want to read them very much.  And I said, &ldquo;they will try "
@@ -692,6 +782,7 @@ msgid ""
 "readers."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Now they're upon us.  Things like the Sony Shreader (its official name is "
 "the Sony Reader, but if you put on 'sh' it explains what it's designed to do "
@@ -700,23 +791,27 @@ msgid ""
 "Kindle which is what it's going to do to your books."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "The Kindle is an extremely malicious product, almost as malicious as "
 "Microsoft Windows.  They both have spy features, they both have Digital "
 "Restrictions Management, and they both have back doors."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "In the case of the Kindle, the only way you can buy a book is to buy it from "
 "Amazon, and Amazon requires you to identify yourself, so they know "
 "everything that you've bought."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Then there is Digital Restrictions Management, so you can't lend the book or "
 "sell it to a used bookstore, and the library can't lend it either."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "And then there's the back door, which we found out about about three months "
 "ago, because Amazon used it.  Amazon sent a command to all the Kindles to "
@@ -725,17 +820,20 @@ msgid ""
 "has a back door with which it can erase books remotely."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "What else it can do, who knows? Maybe it's like Microsoft Windows.  Maybe "
 "Amazon can remotely upgrade the software, which means that whatever "
 "malicious things are not in it now, they could put them in it tomorrow."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "This is intolerable&mdash;any one of these restrictions is intolerable.  "
 "They want to create a world where nobody lends books to anybody anymore."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Imagine that you visit a friend and there are no books on the shelf.  It's "
 "not that your friend doesn't read, but his books are all inside a device, "
@@ -745,6 +843,7 @@ msgid ""
 "people who love books."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Make sure that you inform people what this device implies.  It means other "
 "readers will no longer be your friends, because you will be acting like a "
@@ -755,30 +854,38 @@ msgid ""
 "the implications of this device."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "I have nothing against distributing books in digital form, if they are not "
 "designed to take away our freedom.  Strictly speaking, it is possible to "
 "have an ebook reader:"
 msgstr ""
 
+#. type: Content of: <dl><dd><ul><li>
 msgid "that is not designed to attack you,"
 msgstr ""
 
+#. type: Content of: <dl><dd><ul><li>
 msgid "which runs free software and not proprietary software,"
 msgstr ""
 
+#. type: Content of: <dl><dd><ul><li>
 msgid "which doesn't have DRM,"
 msgstr ""
 
+#. type: Content of: <dl><dd><ul><li>
 msgid "which doesn't make people identify yourself to get a book,"
 msgstr ""
 
+#. type: Content of: <dl><dd><ul><li>
 msgid "which doesn't have a back door, [and]"
 msgstr ""
 
+#. type: Content of: <dl><dd><ul><li>
 msgid "which doesn't restrict what you can do with the files on your machine."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "It's possible, but the big companies really pushing ebooks are doing it to "
 "attack our freedom, and we mustn't stand for that.  This is what governments "
@@ -786,16 +893,19 @@ msgid ""
 "copyright harsher and nastier, more restrictive than ever before."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "But what should they do? Governments should make copyright power less.  Here "
 "are my specific proposals."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "First of all, there is the dimension of time.  I propose copyright should "
 "last ten years, starting from the date of publication of a work."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Why from the date of publication? Because before that, we don't have "
 "copies.  It doesn't matter to us whether we would have been allowed to copy "
@@ -804,6 +914,7 @@ msgid ""
 "clock."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "But why ten years? I don't know about in this country, but in the US, the "
 "publication cycle has got shorter and shorter.  Nowadays almost all books "
@@ -812,6 +923,7 @@ msgid ""
 "be plenty comfortable."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "But not everybody agrees.  I once proposed this in a panel discussion with "
 "fiction writers, and the award-winning fantasy writer next to me said &ldquo;"
@@ -822,6 +934,7 @@ msgid ""
 "which he wanted to do so people could read it."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "This is what every artist starts out wanting&mdash;wanting to distribute her "
 "work so it will get read and appreciated.  Very few make a lot of money.  "
@@ -829,6 +942,7 @@ msgid ""
 "Rowling."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "J.K. Rowling, in Canada, got an injunction against people who had bought her "
 "book in a bookstore, ordering them not to read it.  So in response I call "
@@ -837,18 +951,21 @@ msgid ""
 "shouldn't buy them."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "It's few authors that make enough money that they can be corrupted in this "
 "way.  Most of them don't get anywhere near that, and continue wanting the "
 "same thing they wanted at the outset: they want their work to be appreciated."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "He wanted to distribute his own book, and copyright was stopping him.  He "
 "realized that more than five years of copyright was unlikely to ever do him "
 "any good."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "If people would rather have copyright last five years, I won't be against "
 "it.  I propose ten as a first stab at the problem.  Let's reduce it to ten "
@@ -856,11 +973,13 @@ msgid ""
 "don't say I think ten years is the exact right number&mdash;I don't know."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "What about the dimension of breadth? Which activities should copyright "
 "cover? I distinguish three broad categories of works."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "First of all, there are the functional works that you use to do a practical "
 "job in your life.  This includes software, recipes, educational works, "
@@ -868,6 +987,7 @@ msgid ""
 "should be free."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "If you use the work to do a job in your life, then if you can't change the "
 "work to suit you, you don't control your life.  Once you have changed the "
@@ -876,6 +996,7 @@ msgid ""
 "you've made."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "This leads quickly to the conclusion that users have to have the same four "
 "freedoms [for all functional works], not just for software.  And you'll "
@@ -885,6 +1006,7 @@ msgid ""
 "piracy&rdquo;."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "The term &ldquo;pirate&rdquo; is pure propaganda.  When people ask me what I "
 "think of music piracy, I say &ldquo;As far as I know, when pirates attack "
@@ -896,6 +1018,7 @@ msgid ""
 "we hear it."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "People might have objected twenty years ago: &ldquo;If we don't give up our "
 "freedom, if we don't let the publishers of these works control us, the works "
@@ -905,6 +1028,7 @@ msgid ""
 "textbooks being published&mdash;we know that that fear is misguided."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "There is no need to despair and give up our freedom thinking that otherwise "
 "the works won't get made.  There are lots of ways to encourage them to get "
@@ -912,6 +1036,7 @@ msgid ""
 "our freedom.  In this category, they should all be free."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "But what about the second category, of works that say what certain people "
 "thought, like memoirs, essays of opinion, scientific papers, and various "
@@ -920,6 +1045,7 @@ msgid ""
 "a contribution to society."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Therefore it is workable and acceptable to have a somewhat reduced copyright "
 "system where all commercial use is covered by copyright, all modification is "
@@ -927,6 +1053,7 @@ msgid ""
 "exact copies."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "That freedom is the minimum freedom we must establish for all published "
 "works, because the denial of that freedom is what creates the War on "
@@ -937,6 +1064,7 @@ msgid ""
 "any published work."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "In the second category of works, that's all we need; we don't need to make "
 "them free.  Therefore I think it's OK to have a reduced copyright system "
@@ -946,11 +1074,13 @@ msgid ""
 "system, except for superstars, is usually totally inadequate."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "What about works of art and entertainment? Here it took me a while to decide "
 "what to think about modifications."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "You see, on one hand, a work of art can have an artistic integrity and "
 "modifying it could destroy that.  Of course, copyright doesn't necessarily "
@@ -960,6 +1090,7 @@ msgid ""
 "and rich."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Even if we look at named authors only: consider Shakespeare, who borrowed "
 "stories from other works only a few decades old, and did them in different "
@@ -968,6 +1099,7 @@ msgid ""
 "been written."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "But eventually I realized that modifying a work of art can be a contribution "
 "to art, but it's not desperately urgent in most cases.  If you had to wait "
@@ -979,6 +1111,7 @@ msgid ""
 "can wait."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "So I propose the same partly reduced copyright that covers commercial use "
 "and modification, but everyone's got to be free to non-commercially "
@@ -986,6 +1119,7 @@ msgid ""
 "and people can contribute to art by publishing their modified versions."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "One other thing: if you're going to take little pieces out of a bunch of "
 "works and rearrange them into something totally different, that should just "
@@ -997,12 +1131,14 @@ msgid ""
 "purpose."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "That's what I propose, and in particular, this means that sharing copies on "
 "the Internet must be legal.  Sharing is good.  Sharing builds the bonds of "
 "society.  To attack sharing is to attack society."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "So any time the government proposes some new means to attack people who "
 "share, to stop them from sharing, we have to recognize that this is evil, "
@@ -1011,6 +1147,7 @@ msgid ""
 "is evil.  Sharing is good and the government should encourage sharing."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "But copyright did after all have a useful purpose.  Copyright as a means to "
 "carry out that purpose has a problem now, because it doesn't fit in with the "
@@ -1021,6 +1158,7 @@ msgid ""
 "methods."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "One is taxes&mdash;distribute tax money directly to artists.  This could be "
 "a special tax, perhaps on Internet connectivity, or it could come from "
@@ -1032,6 +1170,7 @@ msgid ""
 "does not imply linear proportion."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "What I propose is measure the popularity of the various artists, which you "
 "could do through polling (samples) in which nobody is required to "
@@ -1039,17 +1178,20 @@ msgid ""
 "means basically that [the payment] tapers off after a while."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "If superstar A is a thousand times as popular as successful artist B, with "
 "this system A would get ten times as much money as B, not a thousand times."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Linearly would give A a thousand times as much as B, which means that if we "
 "wanted B to get enough to live on we're going to have to make A tremendously "
 "rich.  This is wasteful use of the tax money&mdash;it shouldn't be done."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "But if we make it taper off, then yes, each superstar will get handsomely "
 "more than an ordinary successful artist, but the total of all the superstars "
@@ -1059,6 +1201,7 @@ msgid ""
 "efficiently than the existing system."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "The existing system is regressive.  It actually gives far, far more per "
 "record, for instance, to a superstar than to anybody else.  The money is "
@@ -1068,6 +1211,7 @@ msgid ""
 "believe in a welfare state."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "I have another suggestion which is voluntary payments.  Suppose every player "
 "had a button you could push to send a dollar to the artist who made the work "
@@ -1076,6 +1220,7 @@ msgid ""
 "that button fairly often."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "For instance, all of us could afford to push that button once every day, and "
 "we wouldn't miss that much money.  It's not that much money for us, I'm "
@@ -1086,6 +1231,7 @@ msgid ""
 "really love certain art and are really happy to support the artists."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "An idea just came to me.  The player could also give you a certificate of "
 "having supported so-and-so, and it could even count up how many times you "
@@ -1094,6 +1240,7 @@ msgid ""
 "want to do it."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "For instance, we could have a PR campaign which is friendly and kind: &ldquo;"
 "Have you sent a dollar to some artists today? Why not? It's only a "
@@ -1102,6 +1249,7 @@ msgid ""
 "&ldquo;Yeah, I love what I just watched.  I'll send a dollar.&rdquo;"
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "This is already starting to work to some extent.  There's a Canadian singer "
 "who used to be called Jane Siberry.  She put her music on her website and "
@@ -1115,6 +1263,7 @@ msgid ""
 "this average was against."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "So it can work, but it's a pain in the neck under present circumstances.  "
 "You've got to have a credit card to do it, and that means you can't do it "
@@ -1124,15 +1273,18 @@ msgid ""
 "it would work far, far better."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid "So these are my two suggestions."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "And in mecenatglobal.org, you can find another scheme that combines aspects "
 "of the two, which was invented by Francis Muguet and designed to fit in with "
 "existing legal systems better to make it easier to enact."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Be careful of proposals to &ldquo;compensate the rights holders&rdquo;, "
 "because when they say &ldquo;compensate&rdquo;, they're trying to presume "
@@ -1144,6 +1296,7 @@ msgid ""
 "all heard of, who are so popular that they have clout)."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "We don't owe a debt; we have nobody that we have to &ldquo;"
 "compensate&rdquo;.  [But] supporting the arts is still a useful thing to "
@@ -1152,6 +1305,7 @@ msgid ""
 "still good to do it other ways that respect our freedom."
 msgstr ""
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Demand that they change the two evil parts of the New Zealand Copyright "
 "Act.  They shouldn't replace the three strikes punishment, because sharing "
@@ -1161,37 +1315,53 @@ msgid ""
 "citizens, and we don't know how because they won't tell us."
 msgstr ""
 
+#. type: Content of: <p>
 msgid ""
 "<a href=\"/philosophy/copyright-versus-community-2000.html\">Click here</a> "
 "for an older version of this talk from 2000."
 msgstr ""
 
+#. type: Content of: <h4>
 msgid "Footnotes"
 msgstr ""
 
+#. type: Content of: <ol><li>
 msgid ""
 "In 2010, the encryption system for digital video output was definitively "
-"cracked.<br /><a href=\"http://www.pcmag.com/article2/0,2817,2369280,00.asp"
-"\">http://www.pcmag.com/article2/0,2817,2369280,00.asp</a>"
+"cracked."
+msgstr ""
+
+#. type: Content of: <ol><li>
+msgid ""
+"<a href=\"http://www.pcmag.com/article2/0,2817,2369280,00.asp\">http://www."
+"pcmag.com/article2/0,2817,2369280,00.asp</a>"
 msgstr ""
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -1201,28 +1371,34 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 #, fuzzy
 msgid "Copyright &copy; 2001, 2007, 2009 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2001, 2007 Free Software Foundation, Inc.,"
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium, provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Miluz.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;"
 "april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
 

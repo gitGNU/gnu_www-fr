@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: w3c-patent.html\n"
-"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"POT-Creation-Date: 2011-07-14 04:30-0300\n"
 "PO-Revision-Date: 2009-01-20 00:02+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,11 +15,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid "Position on W3C \"RF\" Patent Policy - Free Software Foundation (FSF)"
 msgstr ""
 "Position de la FSF sur la politique de brevets «&nbsp;libres de "
 "droits&nbsp;»(royalty-free) du W3 Consortium - Free Software Foundation (FSF)"
 
+#. type: Attribute 'content' of: <meta>
 msgid ""
 "GNU, FSF, Free Software Foundation, Linux, patent, general, public, license, "
 "gpl, general public license, policy, freedom, software, Eben, Moglen, Eben "
@@ -29,6 +31,7 @@ msgstr ""
 "licence, gpl, licence publique générale, politique, liberté, logiciel, Eben, "
 "Moglen, Eben Moglen"
 
+#. type: Attribute 'content' of: <meta>
 msgid ""
 "The W3C RF patent policy seems on its surface to be helpful to Free "
 "Software, but in fact it is not.  FSF encourages the public to say so in "
@@ -38,18 +41,22 @@ msgstr ""
 "Consortium semble à la surface aider le logiciel libre, mais ce n'est pas le "
 "cas. La FSF encourage le public à le dire en réponse au dernier appel."
 
+#. type: Content of: <h2>
 msgid ""
 "FSF's Position on W3 Consortium &ldquo;Royalty-Free&rdquo; Patent Policy"
 msgstr ""
 "Position de la FSF sur la politique de brevets «&nbsp;libres de "
 "droits&nbsp;» (royalty-free) du W3 Consortium"
 
+#. type: Content of: <p>
 msgid "<i>Rewritten 1 June 2003</i>"
 msgstr "<i>Ré-écrit le 1<sup>er</sup> juin 2003</i>"
 
+#. type: Content of: <h3>
 msgid "Our Position"
 msgstr "Notre position"
 
+#. type: Content of: <p>
 msgid ""
 "The Free Software Foundation, represented by Professor Moglen of Columbia "
 "University Law School, has participated in the W3 Consortium Patent Policy "
@@ -71,6 +78,7 @@ msgstr ""
 "interdiraient la mise en &oelig;uvre des standards en tant que logiciels "
 "libres."
 
+#. type: Content of: <p>
 msgid ""
 "The problem comes from the &ldquo;field of use&rdquo; restrictions that "
 "patent holders are allowed to put in their royalty-free patent licenses.  "
@@ -89,6 +97,7 @@ msgstr ""
 "même légèrement des spécifications, la licence de brevet ne vous protège "
 "plus contre des poursuites pour violation de brevet."
 
+#. type: Content of: <p>
 msgid ""
 "One requirement for Free Software is that users have the freedom to modify "
 "and redistribute it.  But we can hardly consider that users have freedom to "
@@ -105,6 +114,7 @@ msgstr ""
 "d'utilisation&nbsp;» empêcheraient la mise en &oelig;uvre des standards du "
 "W3C en tant que  <a href=\"/philosophy/free-sw.fr.html\">logiciel libre</a>."
 
+#. type: Content of: <p>
 msgid ""
 "&ldquo;Field of use&rdquo; restrictions are also legally incompatible with "
 "section 7 of the <a href=\"/licenses/gpl.html#TOC3\">GNU General Public "
@@ -116,6 +126,7 @@ msgstr ""
 "\">GNU GeneralPublic License</a>, puisque la liberté de l'utilisateur de "
 "modifier est proche de zéro de cette manière."
 
+#. type: Content of: <p>
 msgid ""
 "Many other Free Software licenses have no provisions equivalent to the GPL's "
 "Section 7, but you can't solve the problem merely by using one of those "
@@ -136,6 +147,7 @@ msgstr ""
 "semble vous donner la liberté, mais cette liberté a été retirée par des "
 "restrictions qui ne sont pas définies dans cette licence."
 
+#. type: Content of: <p>
 msgid ""
 "For example, suppose the W3 obtains patent licenses for a standard "
 "describing certain functionality in a web server.  One of the things you "
@@ -160,6 +172,7 @@ msgstr ""
 "exactement, dans le nouveau contexte rendrait possible des revendications "
 "pour violation de brevet."
 
+#. type: Content of: <p>
 msgid ""
 "Freedom to modify software can always be limited by third-party patents in "
 "ways that the software copyright license doesn't disclose.  This is why "
@@ -180,6 +193,7 @@ msgstr ""
 "d'aider à résoudre ce problème, et peut dans certains cas précis, même aider "
 "à l'empirer."
 
+#. type: Content of: <p>
 msgid ""
 "By allowing &ldquo;field of use&rdquo; restrictions, the proposed policy "
 "falls short of protecting the rights of the Free Software community to fully "
@@ -196,6 +210,7 @@ msgstr ""
 "mis en &oelig;uvre en tant que logiciels libres, n'a été que partiellement "
 "atteint."
 
+#. type: Content of: <p>
 msgid ""
 "The FSF plans to continue to participate in the implementation process.  We "
 "will try to convince patent-holders not to impose &ldquo;field of use&rdquo; "
@@ -209,9 +224,11 @@ msgstr ""
 "logiciels libres à mettre en &oelig;uvre les futurs standards du Web, à "
 "faire de même"
 
+#. type: Content of: <h3>
 msgid "Interaction with the GPL"
 msgstr "Interaction avec la GPL"
 
+#. type: Content of: <p>
 msgid ""
 "The problem of &ldquo;field of use&rdquo; restrictions comes from <a href="
 "\"http://www.w3.org/Consortium/Patent-Policy-20030520.html#sec-Requirements"
@@ -230,6 +247,7 @@ msgstr ""
 "restrictions du «&nbsp;champ d'utilisation&nbsp;» interagissent avec la GNU "
 "GPL."
 
+#. type: Content of: <p>
 msgid ""
 "The problem is the interaction of such a &ldquo;field of use&rdquo; "
 "restriction with <a href=\"/licenses/gpl.html#TOC3\">Section 7 of GPL</a>.  "
@@ -254,6 +272,7 @@ msgstr ""
 "fins utiles&nbsp;» pourraient facilement sortir du champ du brevet au-delà "
 "de ce que la restriction du «&nbsp;champ d'utilisation&nbsp;» permet."
 
+#. type: Content of: <p>
 msgid ""
 "Here's a detailed step-by-step example that shows how this problem could "
 "play out:"
@@ -261,6 +280,7 @@ msgstr ""
 "Voici un exemple détaillé étape par étape qui montre comment ce problème "
 "pourrait survenir&nbsp;:"
 
+#. type: Content of: <ol><li>
 msgid ""
 "Programmer <em>P</em> downloads the Konqueror web browser, receiving it "
 "under terms of GPL."
@@ -268,6 +288,7 @@ msgstr ""
 "Le programmeur <em>P</em> télécharge le navigateur Web Konqueror, en le "
 "recevant selon les termes de la GPL."
 
+#. type: Content of: <ol><li>
 msgid ""
 "<em>P</em> learns of a new web standard that requires exercising a technique "
 "for parsing URLs that is patented by Corporation <em>C</em>.  <em>C</em> has "
@@ -286,6 +307,7 @@ msgstr ""
 "les navigateurs doivent faire avec les URL, et ne dit rien à propos de la "
 "partie serveur ou des clients qui ne sont pas de navigateurs."
 
+#. type: Content of: <ol><li>
 msgid ""
 "<em>P</em> implements this technique in Konqueror, and seeks to redistribute "
 "the modified version on his website so that other users can benefit from "
@@ -298,6 +320,7 @@ msgstr ""
 "nouveau standard. S'il le fait, il est lié par la GPL par la loi sur le "
 "droit d'auteur, car il distribue une version modifiée."
 
+#. type: Content of: <ol><li>
 msgid ""
 "However, he knows full well of a condition on that code that contradicts the "
 "GPL (violating Section 7) &mdash; namely, he knows that <em>C</em>'s patent "
@@ -312,6 +335,7 @@ msgstr ""
 "conséquent, en vertu de la section 7 de la GPL, il n'a pas le droit de "
 "redistribuer."
 
+#. type: Content of: <ol><li>
 msgid ""
 "You might think that <em>P</em> can simply assign his copyright to the "
 "existing copyright holder of Konqueror and let distribution happen from that "
@@ -331,6 +355,7 @@ msgstr ""
 "pas du logiciel libre. Ceux qui reçoivent ces distributions sont bloqués et "
 "ne peuvent entreprendre de futures distributions ou modifications eux-mêmes."
 
+#. type: Content of: <p>
 msgid ""
 "Regardless of who makes the changes, the result either shuts down "
 "distribution or forces the original developer to abandon the GPL (and the "
@@ -347,22 +372,30 @@ msgstr ""
 "d'application&nbsp;»."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -372,29 +405,36 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2002, 2008 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 2002, 2008 Free Software Foundation, Inc.,"
 
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium, provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

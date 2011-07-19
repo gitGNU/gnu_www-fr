@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: subpoena.html\n"
-"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"POT-Creation-Date: 2011-07-14 04:30-0300\n"
 "PO-Revision-Date: 2009-01-21 00:11+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,15 +15,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <h2>
 msgid "The SCO Subpoena of FSF"
 msgstr "L'assignation de la FSF par SCO"
 
+#. type: Content of: <p>
 msgid "by <strong>Bradley M. Kuhn</strong>"
 msgstr "par <strong>Bradley M. Kuhn</strong>"
 
+#. type: Content of: <p>
 msgid "Tuesday 18 May 2004"
 msgstr "Mardi 18 mai 2004"
 
+#. type: Content of: <p>
 msgid ""
 "Late last year, we were subpoenaed by SCO as part of the ongoing dispute "
 "between SCO and IBM.  Today, <a href=\"sco-subpoena.pdf\">we made that "
@@ -44,6 +48,7 @@ msgstr ""
 "ils demandent des informations qui sont des communications confidentielles "
 "entre nous et nos avocats, ou entre nous et nos contributeurs."
 
+#. type: Content of: <p>
 msgid ""
 "As the SCO lawsuit drags on, we will have to make some tough decisions about "
 "how to answer this subpoena.  We are certain that we will not produce all "
@@ -72,6 +77,7 @@ msgstr ""
 "remboursés pour les coûts directs, les coûts indirects en termes de temps de "
 "travail du personnel seront à notre charge."
 
+#. type: Content of: <p>
 msgid ""
 "Meanwhile, the leaked SCO documents have confirmed what we long believed: "
 "Microsoft, having found that the smear campaign against GPL was not "
@@ -95,6 +101,7 @@ msgstr ""
 "il y aura toujours d'autres «SCO» pour attaquer notre mouvement et notre "
 "travail."
 
+#. type: Content of: <p>
 msgid ""
 "Even though we believe that SCO has no basis to make the claims they make, "
 "that does not mean our community should assume it has nothing to learn from "
@@ -122,6 +129,7 @@ msgstr ""
 "plus remplies de la planète, IBM, qui a le carnet de chèques approprié pour "
 "combattre efficacement un telle nuisance judiciaire."
 
+#. type: Content of: <p>
 msgid ""
 "However, this does not mean FSF's work is done.  In addition to answering "
 "and/or disputing the subpoena, we must also educate the community about why "
@@ -166,6 +174,7 @@ msgstr ""
 "comptons grandement sur votre soutien financier pour nous aider à accomplir "
 "cette tâche capitale."
 
+#. type: Content of: <p>
 msgid ""
 "As always, we at FSF look to the long-term future.  SCO is a blip&mdash;a "
 "precursor to the challenges Free Software will face.  We strive to be ahead "
@@ -177,6 +186,7 @@ msgstr ""
 "face le logiciel libre. Nous nous efforçons d'être en avance sur ce tournant "
 "et d'ouvrir la voie pour un avenir juridique sûr pour le logiciel libre."
 
+#. type: Content of: <p>
 msgid ""
 "We need your support to continue this work.  We ask that if you are not yet "
 "<a href=\"http://member.fsf.org\">an associate member of FSF, that you join "
@@ -195,11 +205,13 @@ msgstr ""
 "d'administration en partageant avec vous son dernier ouvrage, en continuant "
 "notre œuvre."
 
+#. type: Content of: <p>
 msgid "If you already an associate member, please encourage a friend to join!"
 msgstr ""
 "Si vous êtes déjà un membre affilié, veuillez encourager un ami à nous "
 "rejoindre&nbsp;!"
 
+#. type: Content of: <h4>
 msgid ""
 "<a href=\"/philosophy/sco/sco.html\">Other Texts to Read related to SCO</a>."
 msgstr ""
@@ -207,25 +219,33 @@ msgstr ""
 "a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
 "<b>Notes du traducteur</b>&nbsp;: <ol><li id=\"TransNote1\">FUD&nbsp;: Peur, "
 "incertitude et doute. Sorte de rumeur destinée à semer la confusion dans les "
 "esprits.</li></ol>"
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -235,29 +255,36 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2004, 2008 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 2004, 2008 Free Software Foundation, Inc.,"
 
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium, provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br />Révision&nbsp;: <a href=\"mailto:trad-"
 "gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

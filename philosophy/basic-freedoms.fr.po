@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: basic-freedoms.html\n"
-"POT-Creation-Date: 2010-11-15 04:28-0500\n"
+"POT-Creation-Date: 2011-07-14 04:29-0300\n"
 "PO-Revision-Date: 2011-06-26 00:32+0000\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid ""
 "Freedom of Speech, Press and Association on the Internet - GNU Project - "
 "Free Software Foundation (FSF)"
@@ -23,9 +24,11 @@ msgstr ""
 "Liberté d'expression, de la presse et d'association sur l'Internet - GNU "
 "Project - Free Software Foundation (FSF)"
 
+#. type: Content of: <h2>
 msgid "Freedom of Speech, Press, and Association on the Internet"
 msgstr "Liberté d'expression, de la presse et d'association sur l'Internet"
 
+#. type: Content of: <p>
 msgid ""
 "The Free Software Foundation supports the freedoms of speech, press, and "
 "association on the Internet.  Please check out:"
@@ -34,6 +37,7 @@ msgstr ""
 "liberté de la presse et d'association sur l'Internet. Nous vous invitons à "
 "regarder les points suivants&nbsp;:"
 
+#. type: Content of: <ul><li>
 msgid ""
 "The <a href= \"http://www.ciec.org/\" >Citizens Internet Empowerment "
 "Coalition</a> came together to oppose Congress' first attempt to regulate "
@@ -48,6 +52,7 @@ msgstr ""
 "des États-Unis a jugé inconstitutionnelle le 26 juin 1997. Leur site est "
 "conservé comme point de repère pour l'affaire CDA."
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/censoring-emacs.html\">Censoring GNU Emacs</a> "
 "describes how the Communications Decency Act required the GNU Project to "
@@ -59,6 +64,7 @@ msgstr ""
 "communication» a obligé le projet GNU à censurer GNU Emacs et comment cela a "
 "paradoxalement eu l'effet inverse de ce que voulaient les censeurs."
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://www.factnet.org/\">F.A.C.T.Net Inc.</a> is a non-profit "
 "Internet digest, news service, library, dialogue center, and archive "
@@ -71,6 +77,7 @@ msgstr ""
 "de la pensée internationale libre, de la liberté d'expression, et des droits "
 "à la vie privée."
 
+#. type: Content of: <ul><li>
 msgid ""
 "The <a href=\"http://www.eff.org/blueribbon.html\">Blue Ribbon Campaign</a> "
 "for Online Freedom of Speech, Press and Association."
@@ -79,6 +86,7 @@ msgstr ""
 "(Blue Ribbon Campaign) pour la liberté d'expression en ligne, de la presse "
 "et d'association."
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/savingeurope.html\">Saving Europe from Software "
 "Patents</a>"
@@ -86,6 +94,7 @@ msgstr ""
 "<a href=\"/philosophy/savingeurope.fr.html\">Sauver l'Europe des brevets sur "
 "les logiciels</a>"
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/links/links.html#FreedomOrganizations\">Organizations</a> that "
 "work for freedom in computer development and electronic communications."
@@ -95,22 +104,30 @@ msgstr ""
 "développement informatique."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -120,6 +137,7 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2007 "
 "Free Software Foundation, Inc.,"
@@ -127,30 +145,44 @@ msgstr ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2007 "
 "Free Software Foundation, Inc.,"
 
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article are permitted "
-"worldwide, without royalty, in any medium, provided this notice, and the "
-"copyright notice, are preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: ?.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;"
 "april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+#~ msgid ""
+#~ "Verbatim copying and distribution of this entire article are permitted "
+#~ "worldwide, without royalty, in any medium, provided this notice, and the "
+#~ "copyright notice, are preserved."
+#~ msgstr ""
+#~ "La reproduction exacte et la distribution intégrale de cet article est "
+#~ "permise sur n'importe quel support d'archivage, pourvu que cette notice "
+#~ "soit préservée."
 
 #~ msgid ""
 #~ "<a href=\"http://www.savetheweb.org\">Save the Web</a> is a movement "

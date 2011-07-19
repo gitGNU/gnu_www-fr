@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: my_doom.html\n"
-"POT-Creation-Date: 2009-12-16 04:25-0500\n"
+"POT-Creation-Date: 2011-07-14 04:29-0300\n"
 "PO-Revision-Date: 2011-07-01 01:26+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,15 +16,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <h2>
 msgid "MyDoom and You"
 msgstr "MyDoom et Vous"
 
+#. type: Content of: <p>
 msgid ""
 "by <a href=\"http://stallman.org/\"><strong>Richard Stallman</strong></a>"
 msgstr ""
 "par <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></"
 "a>"
 
+#. type: Content of: <p>
 msgid ""
 "I grew up in a community whose other members sometimes committed crimes as "
 "serious as murder. The city of New York, with its 8 million inhabitants, had "
@@ -37,6 +40,7 @@ msgstr ""
 "année, et la plupart étaient commis par des gens qui habitaient la ville. "
 "Les agressions et les vols étaient encore plus courants."
 
+#. type: Content of: <p>
 msgid ""
 "Other evils involving information rather than physical violence were common "
 "also. For instance, some New York police regularly lied on the witness "
@@ -57,6 +61,7 @@ msgstr ""
 "ensembles logiciels séduisants sans le code source, et exigeaient d'eux la "
 "promesse de ne les partager avec personne d'autre."
 
+#. type: Content of: <p>
 msgid ""
 "Despite these prevalent evils, never in my life have I seen anyone try to "
 "condemn all New Yorkers on the basis of the wrongs that only some have "
@@ -77,6 +82,7 @@ msgstr ""
 "comme coupables. Ce serait de la «culpabilité par association» et chacun sait "
 "que c'est injuste."
 
+#. type: Content of: <p>
 msgid ""
 "I now live in the smaller city of Cambridge, Massachusetts. Murder and "
 "robbery occur here, too; I do not know if Cambridge police regularly lie in "
@@ -92,6 +98,7 @@ msgstr ""
 "autant. Ici aussi les gens admettent que la culpabilité par association est "
 "une injustice."
 
+#. type: Content of: <p>
 msgid ""
 "However, people don't always remember to apply the principle. My virtual "
 "community, the free software community which I have helped to build since "
@@ -108,6 +115,7 @@ msgstr ""
 "de faire passer toute notre communauté pour responsable du développement du "
 "virus MyDoom."
 
+#. type: Content of: <p>
 msgid ""
 "We can be pretty sure that some New Yorkers have committed murder, because "
 "they have been tried and convicted for it. We do not know whether anyone in "
@@ -130,6 +138,7 @@ msgstr ""
 "employés de SCO, mécontents, aient développé le virus pour se venger. Mais "
 "aucune preuve ne vient apppuyer toutes ces spéculations."
 
+#. type: Content of: <p>
 msgid ""
 "If some day we find out that those who developed the virus were free "
 "software users, then my virtual community will be in the same situation as "
@@ -141,6 +150,7 @@ msgstr ""
 "même situation que New York et Cambridge&nbsp;: on aura prouvé que certains "
 "de ses membres ont agi de façon destructrice."
 
+#. type: Content of: <p>
 msgid ""
 "This should not surprise anyone. The free software community numbers in the "
 "tens of millions, larger than New York or even Shanghai. It is hardly to be "
@@ -160,6 +170,7 @@ msgstr ""
 "galeuses parmi des millions de gens n'est pas une surprise, et ce n'est pas "
 "une excuse pour la culpabilité par association."
 
+#. type: Content of: <p>
 msgid ""
 "I am confident that nearly all readers of this article have nothing to do "
 "with developing the MyDoom virus. So if someone is accusing you, don't act "
@@ -171,6 +182,7 @@ msgstr ""
 "accuse, ne soyez pas sur la défensive. Vous n'avez pas plus à voir avec le "
 "virus que votre accusateur, alors gardez la tête haute et dites-le."
 
+#. type: Content of: <p>
 msgid ""
 "If anyone has knowledge or evidence about who developed the virus, I hope he "
 "or she will come forth and make an accusation against specific people based "
@@ -185,25 +197,33 @@ msgstr ""
 "Cambridge, ni dans le monde (du) libre."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
 "<b>Note du traducteur</b>&nbsp;:<br /><ol><li id=\"TransNote1\">Jeu de mots "
 "entre «&nbsp;testifying&nbsp;» (témoigner) et«&nbsp;lying&nbsp;» (mentir).</"
 "li></ol>"
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -213,27 +233,41 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2004, 2007 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2004, 2007 Free Software Foundation, Inc."
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article are permitted "
-"worldwide, without royalty, in any medium, provided this notice, and the "
-"copyright notice, are preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Bruno Menan.<br />Révision&nbsp;: <a href=\"mailto:trad-"
 "gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+#~ msgid ""
+#~ "Verbatim copying and distribution of this entire article are permitted "
+#~ "worldwide, without royalty, in any medium, provided this notice, and the "
+#~ "copyright notice, are preserved."
+#~ msgstr ""
+#~ "La reproduction exacte et la distribution intégrale de cet article est "
+#~ "permise sur n'importe quel support d'archivage, pourvu que cette notice "
+#~ "soit préservée."

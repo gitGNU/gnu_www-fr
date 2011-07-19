@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: schools.html\n"
-"POT-Creation-Date: 2010-06-30 16:25-0300\n"
+"POT-Creation-Date: 2011-07-14 04:30-0300\n"
 "PO-Revision-Date: 2009-11-29 17:56+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 #, fuzzy
 #| msgid ""
 #| "Why schools should exclusively use free software - GNU Project - Free "
@@ -27,15 +28,18 @@ msgstr ""
 "Pourquoi les écoles devraient utiliser exclusivement des logiciels libres - "
 "GNU Project - Free Software Foundation (FSF)"
 
+#. type: Content of: <h2>
 #, fuzzy
 #| msgid "Why schools should exclusively use free software"
 msgid "Why Schools Should Exclusively Use Free Software"
 msgstr ""
 "Pourquoi les écoles devraient utiliser exclusivement des logiciels libres"
 
+#. type: Content of: <p>
 msgid "by <a href=\"http://www.stallman.org/\">Richard Stallman</a>"
 msgstr "par <a href=\"http://www.stallman.org/\">Richard Stallman</a>"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "There are general reasons why all computer users should insist on free "
@@ -60,11 +64,13 @@ msgstr ""
 "logiciels libres, les utilisateurs ont la liberté de coopérer, de mieux "
 "diriger leur vie. Cela s'applique aux écoles comme à tout le monde."
 
+#. type: Content of: <p>
 msgid ""
 "The purpose of this article is to state additional reasons that apply "
 "specifically to education."
 msgstr ""
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "First, free software can save the schools money. Even in the richest "
@@ -86,6 +92,7 @@ msgstr ""
 "ordinateurs de toutes les écoles. Dans les pays pauvres, cela peut aider à "
 "réduire la «&nbsp;fracture numérique&nbsp;»."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "This obvious reason, while important, is rather shallow. And proprietary "
@@ -104,6 +111,7 @@ msgstr ""
 "attention&nbsp;: une école qui accepte ce «&nbsp;cadeau&nbsp;» risque de "
 "devoir payer les futures mises à jour. Approfondissons donc la question."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "School should teach students ways of life that will benefit society as a "
@@ -136,6 +144,7 @@ msgstr ""
 "remises à ces élèves et étudiants après leurs études une fois qu'ils auront "
 "grandi."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "School should teach students ways of life that will benefit society as a "
@@ -167,6 +176,7 @@ msgstr ""
 "remises à ces élèves et étudiants après leurs études une fois qu'ils auront "
 "grandi."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Free software permits students to learn how software works.  When "
@@ -196,6 +206,7 @@ msgstr ""
 "vrais programmes que les gens utilisent réellement. Ils seront extrêmement "
 "curieux de lire le code source des programmes qu'ils utilisent."
 
+#. type: Content of: <p>
 msgid ""
 "Proprietary software rejects their thirst for knowledge: it says, &ldquo;The "
 "knowledge you want is a secret&mdash;learning is forbidden!&rdquo; Free "
@@ -217,6 +228,7 @@ msgstr ""
 "encouragent cela et permettent aux apprentis programmeurs doués de "
 "progresser."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The next reason for using free software in schools is on an even deeper "
@@ -254,12 +266,14 @@ msgstr ""
 "devront être accessibles aux élèves pour être copiés, emportés à la maison "
 "et redistribués par la suite."
 
+#. type: Content of: <p>
 msgid ""
 "Of course, the school must practice what it preaches: all the software "
 "installed by the school should be available for students to copy, take home, "
 "and redistribute further."
 msgstr ""
 
+#. type: Content of: <p>
 msgid ""
 "Teaching the students to use free software, and to participate in the free "
 "software community, is a hands-on civics lesson. It also teaches students "
@@ -273,6 +287,7 @@ msgstr ""
 "ultralibéraux. Les logiciels libres devraient être utilisés à tous les "
 "niveaux de l'École."
 
+#. type: Content of: <ol><li>
 #, fuzzy
 #| msgid ""
 #| "<cite><a name=\"1\"></a>RJ Reynolds tobacco company was fined $15m in "
@@ -295,22 +310,30 @@ msgstr ""
 "health/tobaccotrial/usa.htm</a>.</cite>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -320,32 +343,49 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-#, fuzzy
-#| msgid ""
-#| "Copyright &copy; 2003 Richard Stallman <br /> Verbatim copying and "
-#| "distribution of this entire article are permitted without royalty in any "
-#| "medium provided this notice is preserved."
-msgid ""
-"Copyright &copy; 2003, 2009 Richard Stallman <br /> Verbatim copying and "
-"distribution of this entire article are permitted without royalty in any "
-"medium provided this notice is preserved."
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 2003, 2009 Richard Stallman"
 msgstr ""
-"Copyright &copy; 2003 Richard Stallman <br />La reproduction exacte et la "
-"distribution intégrale de cet article est permise sur n'importe quel support "
-"d'archivage, pourvu que cette notice soit préservée."
+
+#. type: Content of: <div><p>
+msgid ""
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
+msgstr ""
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Laurent Bertaud.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+#, fuzzy
+#~| msgid ""
+#~| "Copyright &copy; 2003 Richard Stallman <br /> Verbatim copying and "
+#~| "distribution of this entire article are permitted without royalty in any "
+#~| "medium provided this notice is preserved."
+#~ msgid ""
+#~ "Copyright &copy; 2003, 2009 Richard Stallman <br /> Verbatim copying and "
+#~ "distribution of this entire article are permitted without royalty in any "
+#~ "medium provided this notice is preserved."
+#~ msgstr ""
+#~ "Copyright &copy; 2003 Richard Stallman <br />La reproduction exacte et la "
+#~ "distribution intégrale de cet article est permise sur n'importe quel "
+#~ "support d'archivage, pourvu que cette notice soit préservée."
 
 #~ msgid ""
 #~ "But there are special reasons that apply to schools. They are the subject "

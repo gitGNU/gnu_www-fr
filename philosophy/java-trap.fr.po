@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: java-trap.html\n"
-"POT-Creation-Date: 2010-08-16 20:27-0300\n"
+"POT-Creation-Date: 2011-07-14 04:29-0300\n"
 "PO-Revision-Date: 2011-07-01 01:20+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,17 +16,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <h2>
 #, fuzzy
 #| msgid "Free But Shackled - The Java Trap"
 msgid "Free but Shackled - The Java Trap"
 msgstr "Libre mais entravé - Le Piège Java"
 
+#. type: Content of: <p>
 msgid "by <a href=\"http://www.stallman.org/\">Richard Stallman</a>"
 msgstr "par <a href=\"http://www.stallman.org/\">Richard Stallman</a>"
 
+#. type: Content of: <div><h3>
 msgid "Headnote"
 msgstr "Note"
 
+#. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
 #| "As of December 2006, Sun is in the middle of <a href=\"http://www.fsf.org/"
@@ -51,24 +55,28 @@ msgstr ""
 "libre peut causer un problème similaire. Nous devons retenir la leçon de "
 "l'histoire de Java de sorte à éviter d'autres pièges à l'avenir."
 
+#. type: Content of: <div><p>
 msgid ""
 "You must be careful, however, because not every Java platform is free.  Sun "
 "continues distributing an executable Java platform which is nonfree, and "
 "other companies do so too."
 msgstr ""
 
+#. type: Content of: <div><p>
 msgid ""
 "The free environment for Java is called IcedTea; the source code Sun freed "
 "is included in that.  So that is the one you should use.  Many GNU/Linux "
 "distributions come with IcedTea, but some include nonfree Java platforms."
 msgstr ""
 
+#. type: Content of: <div><p>
 msgid ""
 "To reliably ensure your Java programs run fine in a free environment, you "
 "need to develop them using IcedTea.  Theoretically the Java platforms should "
 "be compatible, but they are not compatible 100 percent."
 msgstr ""
 
+#. type: Content of: <div><p>
 msgid ""
 "In addition, there are nonfree programs with &ldquo;Java&rdquo; in their "
 "name, such as JavaFX, and there are nonfree Java packages you might find "
@@ -77,6 +85,7 @@ msgid ""
 "comes with IcedTea."
 msgstr ""
 
+#. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
 #| "As of December 2006, Sun is in the middle of <a href=\"http://www.fsf.org/"
@@ -100,6 +109,7 @@ msgstr ""
 "libre peut causer un problème similaire. Nous devons retenir la leçon de "
 "l'histoire de Java de sorte à éviter d'autres pièges à l'avenir."
 
+#. type: Content of: <div><p>
 #, fuzzy
 #| msgid ""
 #| "Please also see: <a href=\"javascript-trap.html\">The Javascript Trap</a>"
@@ -109,9 +119,11 @@ msgstr ""
 "Veuillez aussi consulter&nbsp;: <a href=\"javascript-trap.html\">Le piège "
 "JavaScript</a>"
 
+#. type: Content of: <p>
 msgid "April 12, 2004"
 msgstr "Le 12 avril 2004"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "If your program is free software, it is basically ethical&mdash;but there "
@@ -131,6 +143,7 @@ msgstr ""
 "dont dépend votre programme. Comme ce problème est aujourd'hui le plus "
 "visible avec les programmes Java, nous l'avons nommé le Piège Java."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "A program is free software if its users have certain crucial freedoms. "
@@ -157,6 +170,7 @@ msgstr ""
 "\">http://www.gnu.org/philosophy/free-sw.fr.html</a>). Qu'un programme donné "
 "soit un logiciel libre ne dépend que de la signification de sa licence."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Whether the program can be used in the Free World, used by people who "
@@ -198,6 +212,7 @@ msgstr ""
 "de ses fonctionnalités. D'une façon ou d'une autre, tout ou partie du "
 "programme ne peut pas fonctionner sans elles."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "If some of a program's dependencies are non-free, this means that all or "
@@ -222,6 +237,7 @@ msgstr ""
 "un logiciel libre, mais il est en fait entravé par des dépendances non-"
 "libres."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "This problem can occur in any kind of software, in any language. For "
@@ -261,6 +277,7 @@ msgstr ""
 "par leur attrait du langage, ils sous-estiment le problème des dépendances "
 "et tombent dans le Piège Java."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Sun's implementation of Java is non-free. The standard Java libraries are "
@@ -282,6 +299,7 @@ msgstr ""
 "Java (GCJ) et GNU Classpath, mais ils ne supportent pas encore toutes les "
 "fonctionnalités. Nous sommes encore en train de rattraper le retard."
 
+#. type: Content of: <p>
 msgid ""
 "If you develop a Java program on Sun's Java platform, you are liable to use "
 "Sun-only features without even noticing. By the time you find this out, you "
@@ -298,6 +316,7 @@ msgstr ""
 "travail&nbsp;». Alors votre programme sera tombé dans le Piège Java; il sera "
 "inutilisable dans le Monde Libre."
 
+#. type: Content of: <p>
 msgid ""
 "The reliable way to avoid the Java Trap is to have only a free "
 "implementation of Java on your system. Then if you use a Java feature or "
@@ -310,6 +329,7 @@ msgstr ""
 "encore, vous vous en rendrez compte immédiatement, et vous pourrez réécrire "
 "ce code tout de suite."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Sun continues to develop additional &ldquo;standard&rdquo; Java "
@@ -344,6 +364,7 @@ msgstr ""
 "j2me_pb-1_0-fr-spec-license.html\">http://jcp.org/aboutJava/communityprocess/"
 "final/jsr129/j2me_pb-1_0-fr-spec-license.html</a>)."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Fortunately, that specification license does permit releasing an "
@@ -371,6 +392,7 @@ msgstr ""
 "parution de versions incomplètes, ce qui est interdit aux personnes ayant lu "
 "les spécifications."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "In the early days of the Free Software Movement, it was impossible to "
@@ -417,6 +439,7 @@ msgstr ""
 "avec le système GNU/Linux, nous pouvons à présent exécuter ces programmes "
 "sur des plates-formes libres."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The situation is different today. We now have powerful free operating "
@@ -442,6 +465,7 @@ msgstr ""
 "leur vient pas à l'esprit. La plus simple des solutions concernant le Piège "
 "Java est d'apprendre au gens à ne pas tomber dedans."
 
+#. type: Content of: <p>
 msgid ""
 "To keep your Java code safe from the Java Trap, install a free Java "
 "development environment and use it. More generally, whatever language you "
@@ -464,6 +488,7 @@ msgstr ""
 "dans la liste des licences de logiciels libres (<a href=\"/licenses/license-"
 "list.fr.html\">http://www.gnu.org/licenses/license-list.fr.html</a>)."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "We are trying to rescue the trapped Java programs, so if you like the "
@@ -495,9 +520,11 @@ msgstr ""
 "en sorte que l'application que vous écrivez en ce moment soit conçue pour "
 "fonctionner dans un environnement libre dès le départ."
 
+#. type: Content of: <h3>
 msgid "See also:"
 msgstr "Voir également&nbsp;:"
 
+#. type: Content of: <p>
 msgid ""
 "<a href=\"/philosophy/sun-in-night-time.html\">The Curious Incident of Sun "
 "in the Night-Time</a>"
@@ -506,22 +533,30 @@ msgstr ""
 "de Sun dans la pénombre</a>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -531,26 +566,32 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2004, 2010 Richard Stallman"
 msgstr "Copyright &copy; 2004, 2010 Richard Stallman"
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium without royalty provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage sans contrepartie financière, "
-"pourvu que cette notice soit préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Francis Pied.<br /> Révision&nbsp;: <a href=\"mailto:trad-"
 "gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

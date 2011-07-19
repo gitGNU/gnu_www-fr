@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: fighting-software-patents.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2011-07-14 04:29-0300\n"
 "PO-Revision-Date: 2008-12-27 13:36+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,6 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid ""
 "Fighting Software Patents - Singly and Together - GNU Project - Free "
 "Software Foundation (FSF)"
@@ -22,12 +23,15 @@ msgstr ""
 "Combattre les brevets logiciels - Individuellement et collectivement - GNU "
 "Project - Free Software Foundation (FSF)"
 
+#. type: Content of: <h2>
 msgid "Fighting Software Patents - Singly and Together"
 msgstr "Combattre les brevets logiciels - Individuellement et collectivement"
 
+#. type: Content of: <p>
 msgid "by Richard Stallman"
 msgstr "par Richard Stallman"
 
+#. type: Content of: <p>
 msgid ""
 "Software patents are the software project equivalent of land mines: each "
 "design decision carries a risk of stepping on a patent, which can destroy "
@@ -37,6 +41,7 @@ msgstr ""
 "mines&nbsp;: chaque choix de conception comporte le risque de buter sur un "
 "brevet, lequel peut détruire votre projet."
 
+#. type: Content of: <p>
 msgid ""
 "Developing a large and complex program means combining many ideas, often "
 "hundreds or thousands of them. In a country that allows software patents, "
@@ -56,6 +61,7 @@ msgstr ""
 "important. Cela représente un tel travail de réaliser ce type d'étude, "
 "qu'une seule a été réalisée."
 
+#. type: Content of: <p>
 msgid ""
 "Practically speaking, if you are a software developer, you will usually be "
 "threatened by one patent at a time. When this happens, you may be able to "
@@ -81,6 +87,7 @@ msgstr ""
 "invalider un brevet, nous pourrions tous répondre avec les informations "
 "utiles que nous pourrions avoir."
 
+#. type: Content of: <p>
 msgid ""
 "However, fighting patents one by one will never eliminate the danger of "
 "software patents, any more than swatting mosquitos will eliminate malaria. "
@@ -99,6 +106,7 @@ msgstr ""
 "environ cent mille brevets logiciels par an; nos meilleurs efforts ne "
 "pourront jamais désactiver ces mines aussi vite qu'ils les posent."
 
+#. type: Content of: <p>
 msgid ""
 "Some of these mines are impossible to clear. Every software patent is "
 "harmful, and every software patent unjustly restricts how you use your "
@@ -117,6 +125,7 @@ msgstr ""
 "n'y a rien que nous puissions faire quand la seule erreur significative "
 "relève de la politique d'attribution des brevets logiciels."
 
+#. type: Content of: <p>
 msgid ""
 "To make a part of the castle safe, you've got to do more than kill the "
 "monsters as they appear&mdash;you have to wipe out the generator that "
@@ -131,6 +140,7 @@ msgstr ""
 "brevets de sorte que les brevets ne puissent plus menacer les développeurs "
 "de logiciels et les utilisateurs."
 
+#. type: Content of: <p>
 msgid ""
 "There is no conflict between these two campaigns: we can work on the short-"
 "term escape and the long-term fix at once. If we take care, we can make our "
@@ -154,6 +164,7 @@ msgstr ""
 "moins, une menace de moins pour les programmeurs&nbsp;: l'objectif est "
 "zéro&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "The battle over software patents in the European Union is reaching a crucial "
 "stage. The European Parliament voted a year ago to reject software patents "
@@ -179,22 +190,30 @@ msgstr ""
 "pour être en contact avec les autres activistes."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -204,26 +223,32 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2004 Richard Stallman"
 msgstr "Copyright &copy; 2004 Richard Stallman"
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium without royalty provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage sans contrepartie financière, "
-"pourvu que cette notice soit préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

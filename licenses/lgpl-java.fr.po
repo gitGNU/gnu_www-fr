@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: lgpl-java.html\n"
-"POT-Creation-Date: 2008-08-27 16:25-0300\n"
+"POT-Creation-Date: 2011-07-14 04:26-0300\n"
 "PO-Revision-Date: 2008-09-13 16:16+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,12 +15,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <h2>
 msgid "The LGPL and Java"
 msgstr "La LGPL et Java"
 
+#. type: Content of: <p>
 msgid "by <a href=\"mailto:licensing@fsf.org\">David Turner</a>"
 msgstr "par <a href=\"mailto:licensing@fsf.org\">David Turner</a>"
 
+#. type: Content of: <div><blockquote><p>
 msgid ""
 "This article was written in November 2004, when <a href=\"/licenses/old-"
 "licenses/lgpl-2.1.html\">LGPLv2.1</a> was the most current version of the "
@@ -34,6 +37,7 @@ msgstr ""
 "publiée. Les points principaux de cet article demeurent vrais avec la "
 "LGPLv3, mais certains détails, comme les numéros de section, ont changé."
 
+#. type: Content of: <p>
 msgid ""
 "It has always been the FSF's position that dynamically linking applications "
 "to libraries creates a single work derived from both the library code and "
@@ -53,6 +57,7 @@ msgstr ""
 "licence GPL. En revanche, des bibliothèques sous licence GNU Lesser General "
 "Public License (LGPL) peuvent être liées à des applications propriétaires."
 
+#. type: Content of: <p>
 msgid ""
 "In July of 2003, Slashdot published a story claiming that I had claimed that "
 "the LGPL did not function as intended in the case of Java.  This story was "
@@ -69,6 +74,7 @@ msgstr ""
 "reçu de nombreuses questions sur cette histoire depuis, à la fois sur "
 "licensing@gnu.org et sur mon adresse personnelle."
 
+#. type: Content of: <p>
 msgid ""
 "FSF's position has remained constant throughout: the LGPL works as intended "
 "with all known programming languages, including Java.  Applications which "
@@ -85,6 +91,7 @@ msgstr ""
 "versions de la bibliothèque à être liées avec l'application&nbsp;  et de "
 "permettre la rétro-ingénierie pour déboguer cela."
 
+#. type: Content of: <p>
 msgid ""
 "The typical arrangement for Java is that each library an application uses is "
 "distributed as a separate JAR (Java Archive) file.  Applications use Java's "
@@ -104,6 +111,7 @@ msgstr ""
 "bibliothèque doit autoriser la distribution de l'&oelig;uvre. La LGPL permet "
 "cette distribution."
 
+#. type: Content of: <p>
 msgid ""
 "If you distribute a Java application that imports LGPL libraries, it's easy "
 "to comply with the LGPL.  Your application's license needs to allow users to "
@@ -125,6 +133,7 @@ msgstr ""
 "application. Vous n'avez pas à vous inquiéter de cela (les personnes qui "
 "modifient la bibliothèque sont responsables de son fonctionnement)."
 
+#. type: Content of: <p>
 msgid ""
 "When you distribute the library with your application (or on its own), you "
 "need to include source code for the library.  But if your application "
@@ -137,6 +146,7 @@ msgstr ""
 "bibliothèque par leurs propres moyens, vous n'avez pas besoin de fournir le "
 "code source de la bibliothèque."
 
+#. type: Content of: <p>
 msgid ""
 "The only difference between Java and C from the LGPL's perspective is that "
 "Java is an object-oriented language, supporting inheritance.  The LGPL "
@@ -153,22 +163,30 @@ msgstr ""
 "manière qu'elle permet les appels de fonction ordinaires."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -178,30 +196,45 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2004 Free Software Foundation, Inc.,"
 msgstr "Copyright &copy; 2004 Free Software Foundation, Inc.,"
 
+#. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article are permitted "
-"worldwide, without royalty, in any medium, provided this notice, and the "
-"copyright notice, are preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
+
+#~ msgid ""
+#~ "Verbatim copying and distribution of this entire article are permitted "
+#~ "worldwide, without royalty, in any medium, provided this notice, and the "
+#~ "copyright notice, are preserved."
+#~ msgstr ""
+#~ "La reproduction exacte et la distribution intégrale de cet article est "
+#~ "permise sur n'importe quel support d'archivage, pourvu que cette notice "
+#~ "soit préservée."

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rms-lisp.html\n"
-"POT-Creation-Date: 2009-08-06 04:25-0300\n"
+"POT-Creation-Date: 2011-07-14 04:25-0300\n"
 "PO-Revision-Date: 2009-08-23 18:12+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid ""
 "My Lisp Experiences and the Development of GNU Emacs - GNU Project - Free "
 "Software Foundation (FSF)"
@@ -23,9 +24,11 @@ msgstr ""
 "Mes expériences avec Lisp et le développement de GNU Emacs  - GNU Project - "
 "Free Software Foundation (FSF)"
 
+#. type: Content of: <h2>
 msgid "My Lisp Experiences and the Development of GNU Emacs"
 msgstr "Mes expériences avec Lisp et le développement de GNU Emacs"
 
+#. type: Content of: <h3>
 msgid ""
 "(Transcript of Richard Stallman's Speech, 28 Oct 2002, at the International "
 "Lisp Conference)."
@@ -33,6 +36,7 @@ msgstr ""
 "(Transcription du discours de Richard Stallman, 28 octobre 2002, à la "
 "conférence internationale Lisp"
 
+#. type: Content of: <p>
 msgid ""
 "Since none of my usual speeches have anything to do with Lisp, none of them "
 "were appropriate for today. So I'm going to have to wing it.  Since I've "
@@ -44,6 +48,7 @@ msgstr ""
 "suffisamment de choses dans ma carrière en relation avec Lisp, je devrais "
 "être capable de raconter quelque chose d'intéressant."
 
+#. type: Content of: <p>
 msgid ""
 "My first experience with Lisp was when I read the Lisp 1.5 manual in high "
 "school. That's when I had my mind blown by the idea that there could be a "
@@ -66,6 +71,7 @@ msgstr ""
 "quelques données. Tout cela était avant que je ne vois ce qu'est du vrai "
 "logiciel, qui exécute un vrai travail système"
 
+#. type: Content of: <p>
 msgid ""
 "I began doing work on a real Lisp implementation with JonL White once I "
 "started working at <abbr title=\"Massachusetts Institute of Technology"
@@ -80,6 +86,7 @@ msgstr ""
 "ironique vu ce qui s'est passé par la suite&nbsp;: il a vraiment dû "
 "regretter ce jour-là."
 
+#. type: Content of: <p>
 msgid ""
 "During the 1970s, before my life became politicized by horrible events, I "
 "was just going along making one extension after another for various "
@@ -107,6 +114,7 @@ msgstr ""
 "l'utilisiez. Je ne sais pas si c'était le premier programme à le faire, mais "
 "c'était certainement le premier éditeur comme ça."
 
+#. type: Content of: <p>
 msgid ""
 "This spirit of building up gigantic, complicated programs to use in your own "
 "editing, and then exchanging them with other people, fueled the spirit of "
@@ -133,6 +141,7 @@ msgstr ""
 "nature de notre façon de vivre au labo d'I.A. qui à mené à Emacs et l'a fait "
 "devenir ce qu'il était."
 
+#. type: Content of: <p>
 msgid ""
 "The original Emacs did not have Lisp in it. The lower level language, the "
 "non-interpreted language &mdash; was <abbr>PDP</abbr>-10 Assembler. The "
@@ -161,6 +170,7 @@ msgstr ""
 "une chaîne de commande. Vous la terminiez par Échap Échap, et elle était "
 "exécutée."
 
+#. type: Content of: <p>
 msgid ""
 "Well, people wanted to extend this language with programming facilities, so "
 "they added some. For instance, one of the first was a looping construct, "
@@ -187,6 +197,7 @@ msgstr ""
 "méthodes plutôt sophistiquées&nbsp;: je pense que Lisp a hérité saméthode "
 "unwind-protect de <acronym>TECO</acronym>."
 
+#. type: Content of: <p>
 msgid ""
 "We started putting in rather sophisticated facilities, all with the ugliest "
 "syntax you could ever think of, and it worked &mdash; people were able to "
@@ -207,6 +218,7 @@ msgstr ""
 "programmation. En fait, nous avons découvert que le meilleur langage de "
 "programmation pour faire cela était Lisp."
 
+#. type: Content of: <p>
 msgid ""
 "It was Bernie Greenberg, who discovered that it was <a href=\"#foot-5\">(5)</"
 "a>.  He wrote a version of Emacs in Multics MacLisp, and he wrote his "
@@ -231,6 +243,7 @@ msgstr ""
 "été effrayées. Elles ont lu le manuel, découvert qu'elles pouvaient faire "
 "des choses utiles, et ont appris à programmer."
 
+#. type: Content of: <p>
 msgid ""
 "So Bernie saw that an application &mdash; a program that does something "
 "useful for you &mdash; which has Lisp inside it and which you could extend "
@@ -250,6 +263,7 @@ msgstr ""
 "difficile) quand ils ne croient pas qu'ils puissent programmer, jusqu'à ce "
 "qu'ils arrivent au point où ils sont devenus programmeurs."
 
+#. type: Content of: <p>
 msgid ""
 "At that point, people began to wonder how they could get something like this "
 "on a platform where they didn't have full service Lisp implementation. "
@@ -302,6 +316,7 @@ msgstr ""
 "de fonctionner particulièrement rapidement seraient écrites à un niveau "
 "inférieur."
 
+#. type: Content of: <p>
 msgid ""
 "Therefore, when I wrote my second implementation of Emacs, I followed the "
 "same kind of design. The low level language was not machine language "
@@ -321,6 +336,7 @@ msgstr ""
 "l'éditeur, insérer du «&nbsp;leading text&nbsp;», lire et écrire des "
 "fichiers, réafficher la pile à l'écran, gérer les fenêtres de l'éditeur."
 
+#. type: Content of: <p>
 msgid ""
 "Now, this was not the first Emacs that was written in C and ran on Unix. The "
 "first was written by James Gosling, and was referred to as GosMacs. A "
@@ -349,6 +365,7 @@ msgstr ""
 "monde en bénéficie. Personne n'a jamais essayé de surveiller son "
 "application, mais à ce que j'en sais les gens ont coopéré."
 
+#. type: Content of: <p>
 msgid ""
 "Gosling did, at first, seem to participate in this spirit. He wrote in a "
 "manual that he called the program Emacs hoping that others in the community "
@@ -364,6 +381,7 @@ msgstr ""
 "participer à améliorer le programme. Mais après cela il a apparemment changé "
 "d'esprit, et a vendu le programme à une entreprise."
 
+#. type: Content of: <p>
 msgid ""
 "At that time I was working on the GNU system (a free software Unix-like "
 "operating system that many people erroneously call &ldquo;Linux&rdquo;).  "
@@ -391,6 +409,7 @@ msgstr ""
 "données étaient les chaînes de caractères, les nombres et quelques autres "
 "choses spécialisées."
 
+#. type: Content of: <p>
 msgid ""
 "I concluded I couldn't use it and had to replace it all, the first step of "
 "which was to write an actual Lisp interpreter. I gradually adapted every "
@@ -405,6 +424,7 @@ msgstr ""
 "les structures de données des parties internes de l'éditeur exposables et "
 "manipulables par les programmes Lisp des utilisateurs."
 
+#. type: Content of: <p>
 msgid ""
 "The one exception was redisplay. For a long time, redisplay was sort of an "
 "alternate world. The editor would enter the world of redisplay and things "
@@ -422,6 +442,7 @@ msgstr ""
 "possible de lancer du code Lisp pendant le réaffichage. C'est quelque chose "
 "d'assez pratique."
 
+#. type: Content of: <p>
 msgid ""
 "This second Emacs program was &lsquo;free software&rsquo; in the modern "
 "sense of the term &mdash; it was part of an explicit political campaign to "
@@ -443,6 +464,7 @@ msgstr ""
 "A. du M.I.T., de travailler sur du savoir, et ne pas être en travers du "
 "chemin de qui que ce soit, et de disséminer de plus en plus le savoir."
 
+#. type: Content of: <p>
 msgid ""
 "At the time, you could make a computer that was about the same price range "
 "as other computers that weren't meant for Lisp, except that it would run "
@@ -463,6 +485,7 @@ msgstr ""
 "nombre, il sortaient des résultats insensés et finalement plantaient au bout "
 "d'un moment."
 
+#. type: Content of: <p>
 msgid ""
 "The Lisp machine was able to execute instructions about as fast as those "
 "other machines, but each instruction &mdash; a car instruction would do data "
@@ -483,6 +506,7 @@ msgstr ""
 "écrites dans le micro code. Des gens ont porté de l'intérêt à leur "
 "fabrication, ce qui signifie qu'ils allaient lancer une entreprise."
 
+#. type: Content of: <p>
 msgid ""
 "There were two different ideas about what this company should be like.  "
 "Greenblatt wanted to start what he called a &ldquo;hacker&rdquo; company. "
@@ -503,6 +527,7 @@ msgstr ""
 "doutaient qu'il puisse réussir. Ils pensaient que son plan pour éviter les "
 "investissements extérieurs ne marcherait pas."
 
+#. type: Content of: <p>
 msgid ""
 "Why did he want to avoid outside investment? Because when a company has "
 "outside investors, they take control and they don't let you have any "
@@ -515,6 +540,7 @@ msgstr ""
 "si vous avez des scrupules, ils vous remplacent également en tant que "
 "directeur."
 
+#. type: Content of: <p>
 msgid ""
 "So Greenblatt had the idea that he would find a customer who would pay in "
 "advance to buy the parts. They would build machines and deliver them; with "
@@ -530,6 +556,7 @@ msgstr ""
 "d'acheter des composants pour plus de machines, et caetera et caetera. Les "
 "autres personnes dans le groupe ne pensaient pas que cela puisse fonctionner."
 
+#. type: Content of: <p>
 msgid ""
 "Greenblatt then recruited Russell Noftsker, the man who had hired me, who "
 "had subsequently left the AI Lab and created a successful company.  Russell "
@@ -550,6 +577,7 @@ msgstr ""
 "société nommée Symbolics. Ils chercheraient des investissements extérieurs, "
 "n'auraient aucun scrupule, et feraient tout leur possible pour gagner."
 
+#. type: Content of: <p>
 msgid ""
 "But Greenblatt didn't give up. He and the few people loyal to him decided to "
 "start Lisp Machines Inc. anyway and go ahead with their plans. And what do "
@@ -572,6 +600,7 @@ msgstr ""
 "machines Lisp. Quand Symbolics a vu que LMI n'allait pas s'écrouler, ils ont "
 "commencé à chercher des moyens de le détruire."
 
+#. type: Content of: <p>
 msgid ""
 "Thus, the abandonment of our lab was followed by &ldquo;war&rdquo; in our "
 "lab.  The abandonment happened when Symbolics hired away all the hackers, "
@@ -601,6 +630,7 @@ msgstr ""
 "entreprises avaient licenciées. Personne ne s'était rendu compte que le "
 "groupe de hacker du Labo d'I.A. avait disparu, mais c'était le cas."
 
+#. type: Content of: <p>
 msgid ""
 "So Symbolics came up with a plan <a href=\"#foot-4\">(4)</a>.  They said to "
 "the lab, &ldquo;We will continue making our changes to the system available "
@@ -615,6 +645,7 @@ msgstr ""
 "donnerons accès au système de machine Lisp de Symbolics, et vous pourrez "
 "l'utiliser, mais c'est tout ce que vous pourrez faire&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "This, in effect, meant that they demanded that we had to choose a side, and "
 "use either the <abbr>MIT</abbr> version of the system or the Symbolics "
@@ -635,6 +666,7 @@ msgstr ""
 "soutiendrions LMI puisque nous les aiderions à exister. Donc nous ne "
 "pouvions plus rester neutres."
 
+#. type: Content of: <p>
 msgid ""
 "Up until that point, I hadn't taken the side of either company, although it "
 "made me miserable to see what had happened to our community and the "
@@ -653,6 +685,7 @@ msgstr ""
 "les améliorations équivalentes à neuf moi-même (c'est-à-dire avec mon propre "
 "code)."
 
+#. type: Content of: <p>
 msgid ""
 "After a while <a href=\"#foot-3\">(3)</a>, I came to the conclusion that it "
 "would be best if I didn't even look at their code. When they made a beta "
@@ -666,6 +699,7 @@ msgstr ""
 "moi-même. Au moment où ils avaient une vraie version, j'avais la mienne "
 "également."
 
+#. type: Content of: <p>
 msgid ""
 "In this way, for two years, I prevented them from wiping out Lisp Machines "
 "Incorporated, and the two companies went on. But, I didn't want to spend "
@@ -685,6 +719,7 @@ msgstr ""
 "bâtir une nouvelle communauté pour remplacer l'autre que leurs actions et "
 "d'autres avait rayé de la carte."
 
+#. type: Content of: <p>
 msgid ""
 "The Lisp community in the 70s was not limited to the <abbr>MIT</abbr> AI "
 "Lab, and the hackers were not all at <abbr>MIT</abbr>. The war that "
@@ -699,6 +734,7 @@ msgstr ""
 "abandonnaient la coopération, et tout cela détruisait la communauté, et il "
 "n'en restait pas grand chose."
 
+#. type: Content of: <p>
 msgid ""
 "Once I stopped punishing Symbolics, I had to figure out what to do next. I "
 "had to make a free operating system, that was clear &mdash; the only way "
@@ -709,6 +745,7 @@ msgstr ""
 "clair&nbsp;: la seule façon de faire travailler des gens ensemble et de les "
 "faire partager était avec un système d'exploitation libre."
 
+#. type: Content of: <p>
 msgid ""
 "At first, I thought of making a Lisp-based system, but I realized that "
 "wouldn't be a good idea technically. To have something like the Lisp machine "
@@ -737,6 +774,7 @@ msgstr ""
 "cette façon, donc j'ai rejeté l'idée de faire un système comme la machine "
 "Lisp."
 
+#. type: Content of: <p>
 msgid ""
 "I decided instead to make a Unix-like operating system that would have Lisp "
 "implementations to run as user programs. The kernel wouldn't be written in "
@@ -753,6 +791,7 @@ msgstr ""
 "cela, j'ai cherché à faire le minimum d'implémentation Lisp possible. La "
 "taille des programmes était un souci énorme."
 
+#. type: Content of: <p>
 msgid ""
 "There were people in those days, in 1985, who had one-megabyte machines "
 "without virtual memory. They wanted to be able to use GNU Emacs. This meant "
@@ -763,6 +802,7 @@ msgstr ""
 "Cequi signifie qu'il fallait que je garde le programme aussi petit que "
 "possible."
 
+#. type: Content of: <p>
 msgid ""
 "For instance, at the time the only looping construct was &lsquo;"
 "while&rsquo;, which was extremely simple. There was no way to break out of "
@@ -781,6 +821,7 @@ msgstr ""
 "et caetera&nbsp;: simplifier au maximum était l'esprit de GNU Emacs, "
 "l'esprit de Emacs Lisp, depuis le début."
 
+#. type: Content of: <p>
 msgid ""
 "Obviously, machines are bigger now, and we don't do it that way anymore. We "
 "put in &lsquo;caar&rsquo; and &lsquo;cadr&rsquo; and so on, and we might put "
@@ -800,6 +841,7 @@ msgstr ""
 "Lisp&nbsp;: je le fais de temps à autre mais je minimise les fois où je le "
 "fais."
 
+#. type: Content of: <p>
 msgid ""
 "That was not the end of the GNU projects involved with Lisp. Later on around "
 "1995, we were looking into starting a graphical desktop project. It was "
@@ -813,6 +855,7 @@ msgstr ""
 "programmation afin d'en écrire une grande partie et de le rendre facilement "
 "extensible, comme l'éditeur. La question était lequel choisir."
 
+#. type: Content of: <p>
 msgid ""
 "At the time, <acronym title=\"Tool Command Language\">TCL</acronym> was "
 "being pushed heavily for this purpose. I had a very low opinion of "
@@ -842,6 +885,7 @@ msgstr ""
 "recommander qu'il soit le paquet pour extension préféré pour tous les "
 "programmes GNU."
 
+#. type: Content of: <p>
 msgid ""
 "There's an interesting benefit you can get from using such a powerful "
 "language as a version of Lisp as your primary extensibility language.  You "
@@ -867,6 +911,7 @@ msgstr ""
 "charger cela dans n'importe quelle application et la configurer dans votre "
 "langage favori, et cela marcherait également avec d'autres configurations."
 
+#. type: Content of: <p>
 msgid ""
 "As long as the extensibility languages are weak, the users have to use only "
 "the language you provided them. Which means that people who love any given "
@@ -899,6 +944,7 @@ msgstr ""
 "entièrement fini maintenant, mais si quelqu'un est intéressé par ce projet, "
 "contactez-moi. Donc c'est notre plan pour le futur."
 
+#. type: Content of: <p>
 msgid ""
 "I haven't been speaking about free software, but let me briefly tell you a "
 "little bit about what that means. Free software does not refer to price; it "
@@ -922,6 +968,7 @@ msgstr ""
 "utilisez des logiciels non-libres, vous perdez cette liberté capitale, donc "
 "ne le faites jamais."
 
+#. type: Content of: <p>
 msgid ""
 "The purpose of the GNU project is to make it easier for people to reject "
 "freedom-trampling, user-dominating, non-free software by providing free "
@@ -942,6 +989,7 @@ msgstr ""
 "est petit, mieux c'est. Nous voulons vous faciliter la vie libre, la "
 "coopération."
 
+#. type: Content of: <p>
 msgid ""
 "This is a matter of the freedom to cooperate. We're used to thinking of "
 "freedom and cooperation with society as if they are opposites. But here "
@@ -962,6 +1010,7 @@ msgstr ""
 "autorisés à vous aider vous-même. Divisés et impuissants, voilà l'état des "
 "utilisateurs de logiciel non libre."
 
+#. type: Content of: <p>
 msgid ""
 "We've produced a tremendous range of free software. We've done what people "
 "said we could never do; we have two operating systems of free software. We "
@@ -995,6 +1044,7 @@ msgstr ""
 "vente et peut être acheté sur <a href=\"http://www.gnu.org/\">www.gnu.org</"
 "a>. Happy hacking! (Codez joyeusement&nbsp;!)."
 
+#. type: Content of: <ol><li>
 msgid ""
 "Greenblatt's plan, as I understood it, was to hire lab people part time, so "
 "that they could continue working at the AI Lab.  Symbolics hired them full "
@@ -1005,6 +1055,7 @@ msgstr ""
 "puissent continuer à travailler au Labo d'I.A.. Symbolics les a engagé à "
 "temps plein à la place, donc ils ont arrêté de travailler au M.I.T."
 
+#. type: Content of: <ol><li>
 msgid ""
 "It was not that I cared particularly about the fate of LMI, but rather I did "
 "not want to let Symbolics gain through its aggression against the AI Lab."
@@ -1013,6 +1064,7 @@ msgstr ""
 "je ne voulais pas laisser Symbolics gagner parson aggression contre le labo "
 "d'I.A."
 
+#. type: Content of: <ol><li>
 msgid ""
 "This statement has been misconstrued as saying that I never, ever looked at "
 "Symbolics' code.  Actually it says I did."
@@ -1020,6 +1072,7 @@ msgstr ""
 "Cette phrase a été mal interprétée, selon quoi je n'aurais jamais, jamais "
 "jeté un &oelig;il sur le code de Symbolics. En réalité, je l'ai fait."
 
+#. type: Content of: <ol><li><p>
 msgid ""
 "The Symbolics source code was available at MIT, where I was entitled to read "
 "it, and at first that's how I found out about their changes.  But that meant "
@@ -1036,6 +1089,7 @@ msgstr ""
 "regarder du tout. De cette façon, je pouvais écrire le code de la meilleure "
 "façon, sans me soucier de ce qui était dans le code Symbolics."
 
+#. type: Content of: <ol><li>
 msgid ""
 "The background of this plan, which I did not state explicitly in the talk, "
 "is that during an initial period the ex-AI-Lab hackers, whether at Symbolics "
@@ -1050,6 +1104,7 @@ msgstr ""
 "l'exigeait pas. Le plan de Symbolics était de briser cette coopération "
 "unilatéralement."
 
+#. type: Content of: <ol><li>
 msgid ""
 "Bernie Greenberg says that Dan Weinreb's implementation of Emacs for the "
 "Lisp Machine came before Greenberg's implementation for Multics.  I "
@@ -1059,6 +1114,7 @@ msgstr ""
 "machine Lisp est arrivée avant l'implémentation deGreenberg pour Multics. Je "
 "m'excuse pour cette erreur."
 
+#. type: Content of: <ol><li>
 msgid ""
 "Symbolics at one point protested to MIT that my work, by thwarting their "
 "plan, had cost Symbolics a million dollars."
@@ -1066,6 +1122,7 @@ msgstr ""
 "Symbolics a à un moment protesté au M.I.T. que mon travail, en contrant leur "
 "plan, avait couté à Symbolics un million de dollars."
 
+#. type: Content of: <ol><li>
 msgid ""
 "Guy Steele designed the original symmetrical Emacs command set; then he and "
 "I began implementing Emacs (on top of TECO), but after one long joint "
@@ -1081,22 +1138,30 @@ msgstr ""
 "contribué de manière substantielle."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -1106,26 +1171,32 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2003, 2007 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2003, 2007 Free Software Foundation, Inc."
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium, provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Marc de Maillard.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: use-free-software.html\n"
-"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"POT-Creation-Date: 2011-07-14 04:30-0300\n"
 "PO-Revision-Date: 2008-12-27 17:19+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid ""
 "The Free Software Community After 20 Years - GNU Project - Free Software "
 "Foundation (FSF)"
@@ -23,19 +24,34 @@ msgstr ""
 "La Communauté du logiciel libre 20 ans après - GNU Project - Free Software "
 "Foundation (FSF)"
 
-msgid ""
-"The Free Software Community After 20 Years: <br /> With great but incomplete "
-"success, what now?"
+#. type: Content of: <h2>
+#, fuzzy
+#| msgid ""
+#| "The Free Software Community After 20 Years - GNU Project - Free Software "
+#| "Foundation (FSF)"
+msgid "The Free Software Community After 20 Years:"
+msgstr ""
+"La Communauté du logiciel libre 20 ans après - GNU Project - Free Software "
+"Foundation (FSF)"
+
+#. type: Content of: <h2>
+#, fuzzy
+#| msgid ""
+#| "The Free Software Community After 20 Years: <br /> With great but "
+#| "incomplete success, what now?"
+msgid "With great but incomplete success, what now?"
 msgstr ""
 "La Communauté du logiciel libre 20 ans après :<br />Une réussite magnifique "
 "mais inachevée. Et maintenant&nbsp;?"
 
+#. type: Content of: <p>
 msgid ""
 "by <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
 msgstr ""
 "par <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></"
 "a>"
 
+#. type: Content of: <p>
 msgid ""
 "It was 5 Jan 1984, twenty years ago today, that I quit my job at MIT to "
 "begin developing a free software operating system, <a href=\"/gnu/the-gnu-"
@@ -57,6 +73,7 @@ msgstr ""
 "modifier, et de le redistribuer avec ou sans modifications, gratuitement ou "
 "contre paiement."
 
+#. type: Content of: <p>
 msgid ""
 "My hope was that a free operating system would open a path to escape forever "
 "from the system of subjugation which is proprietary software.  I had "
@@ -69,6 +86,7 @@ msgstr ""
 "les logiciels non libres imposent à leurs utilisateurs, et j'étais déterminé "
 "à y échapper et à donner à d'autres  le moyen d'y échapper."
 
+#. type: Content of: <p>
 msgid ""
 "Non-free software carries with it an antisocial system that prohibits "
 "cooperation and community.  You are typically unable to see the source code; "
@@ -85,6 +103,7 @@ msgstr ""
 "ce soit. Interdire le partage des logiciels revient à couper les liens qui "
 "unissent la société."
 
+#. type: Content of: <p>
 msgid ""
 "Today we have a large community of users who run GNU, Linux and other free "
 "software.  Thousands of people would like to extend this, and have adopted "
@@ -107,6 +126,7 @@ msgstr ""
 "avons-nous remplacé cet objectif par celui, beaucoup plus superficiel, de la "
 "popularité&nbsp;?"
 
+#. type: Content of: <p>
 msgid ""
 "It's easy to get in the habit of overlooking this distinction, because in "
 "many common situations it makes no difference.  When you're trying to "
@@ -123,6 +143,7 @@ msgstr ""
 "comportement. Cependant, dans d'autres situations ces deux objectifs "
 "conduisent à des décisions très différentes."
 
+#. type: Content of: <p>
 msgid ""
 "For instance, what should we say when the non-free Invidious video driver, "
 "the non-free Prophecy database, or the non-free Indonesia language "
@@ -139,6 +160,7 @@ msgstr ""
 "libre comme tous les autres&nbsp;: un élément séduisant mais nocif, une "
 "incitation à renoncer à sa liberté, un problème à résoudre&nbsp;?"
 
+#. type: Content of: <p>
 msgid ""
 "If you take as your goal the increased popularity of certain free software, "
 "if you seek to convince more people to use some free programs some of the "
@@ -157,6 +179,7 @@ msgstr ""
 "ultime de notre communauté, alors on devrait saluer toutes les applications "
 "qui fonctionnent avec ce système, qu'elles soient libres ou non."
 
+#. type: Content of: <p>
 msgid ""
 "But if our goal is freedom, that changes everything.  Users cannot be free "
 "while using a non-free program.  To free the citizens of cyberspace, we have "
@@ -171,6 +194,7 @@ msgstr ""
 "communauté, ce sont des incitations à se résigner à une non liberté "
 "permanente."
 
+#. type: Content of: <p>
 msgid ""
 "There are two common motivations to develop a free program.  One is that "
 "there is no program to do the job.  Unfortunately, accepting the use of a "
@@ -192,6 +216,7 @@ msgstr ""
 "constitue un encouragement pour les développeurs à persévérer jusqu'à ce "
 "qu'il devienne meilleur que celui-ci."
 
+#. type: Content of: <p>
 msgid ""
 "Those non-free programs are not trivial.  Developing free replacements for "
 "them will be a big job; it may take years.  The work may need the help of "
@@ -209,6 +234,7 @@ msgstr ""
 "garder intacte la détermination et la persévérance nécessaires pour finir ce "
 "travail&nbsp;?"
 
+#. type: Content of: <p>
 msgid ""
 "The most effective way to strengthen our community for the future is to "
 "spread understanding of the value of freedom&mdash;to teach more people to "
@@ -221,26 +247,35 @@ msgstr ""
 "inacceptables. Les gens pour qui la liberté est essentielle seront toujours, "
 "après tout, ses meilleurs défenseurs."
 
+#. type: Content of: <p>
 msgid "<strong>Originally published on Newsforge.</strong>"
 msgstr "<strong>Publié à l'origine sur Newsforge.</strong>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -250,26 +285,32 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2004 Richard Stallman"
 msgstr "Copyright &copy; 2004 Richard Stallman"
 
+#. type: Content of: <div><p>
 msgid ""
-"Verbatim copying and distribution of this entire article is permitted in any "
-"medium, provided this notice is preserved."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
-"La reproduction exacte et la distribution intégrale de cet article est "
-"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
-"préservée."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Bruno Menan.<br />Révision&nbsp;: <a href=\"mailto:trad-"
 "gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
+#. type: Content of: <div><h4>
 msgid "Translations of this page"
 msgstr "Traductions de cette page"
