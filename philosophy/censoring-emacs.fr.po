@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: censoring-emacs.html\n"
 "POT-Creation-Date: 2011-07-14 04:29-0300\n"
-"PO-Revision-Date: 2008-11-01 17:57+0100\n"
-"Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
+"PO-Revision-Date: 2011-07-21 09:34+0200\n"
+"Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -25,19 +25,14 @@ msgid "Censoring My Software"
 msgstr "Je censure mes logiciels"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "by <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</"
-#| "strong></a> <br /> [From Datamation, March 1 1996]"
 msgid ""
 "by <a href=\"http://www.stallman.org/\"><strong>Richard Stallman</strong></a>"
 msgstr ""
-"par <a href=\"http://www.stallman.org\"><strong>Richard Stallman</strong> </"
-"a><br /> [De Datamation, 1 mars 1996]"
+"par <a href=\"http://www.stallman.org\"><strong>Richard Stallman</strong></a>"
 
 #. type: Content of: <p>
 msgid "[From Datamation, March 1 1996]"
-msgstr ""
+msgstr "[De Datamation, 1er mars 1996]"
 
 #. type: Content of: <p>
 msgid ""
@@ -258,10 +253,8 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-#, fuzzy
-#| msgid "Censoring My Software, by Richard Stallman"
 msgid "Copyright &copy; 1996 Richard Stallman"
-msgstr "Je censure mes logiciels, par Richard Stallman"
+msgstr "Copyright &copy; 1996 Richard Stallman"
 
 #. type: Content of: <div><p>
 msgid ""

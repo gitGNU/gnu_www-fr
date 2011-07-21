@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thegnuproject.html\n"
 "POT-Creation-Date: 2011-07-14 04:25-0300\n"
-"PO-Revision-Date: 2011-06-22 08:15+0000\n"
+"PO-Revision-Date: 2011-07-21 09:48+0200\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -439,15 +439,15 @@ msgstr "Plus tard, j'ai entendu ces mots, attribués à Hillel(1)&nbsp;:"
 
 #. type: Content of: <blockquote><p>
 msgid "If I am not for myself, who will be for me?"
-msgstr ""
+msgstr "If I am not for myself, who will be for me?"
 
 #. type: Content of: <blockquote><p>
 msgid "If I am only for myself, what am I?"
-msgstr ""
+msgstr "If I am only for myself, what am I?"
 
 #. type: Content of: <blockquote><p>
 msgid "If not now, when?"
-msgstr ""
+msgstr "If not now, when?<sup><a href=\"#TransNote1\">1</a></sup>"
 
 #. type: Content of: <p>
 msgid "The decision to start the GNU Project was based on a similar spirit."
@@ -1420,11 +1420,6 @@ msgstr ""
 "avantage considérable à la continuation du développement du logiciel libre."
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "(1) This license is now called the GNU Lesser General Public License, to "
-#| "avoid giving the idea that all libraries ought to use it.  <a href=\"/"
-#| "philosophy/why-not-lgpl.html\"></a>."
 msgid ""
 "(1) This license is now called the GNU Lesser General Public License, to "
 "avoid giving the idea that all libraries ought to use it.  See <a href=\"/"
@@ -1433,7 +1428,9 @@ msgid ""
 msgstr ""
 "(1) Cette licence s'appelle maintenant la GNU Lesser General Public License, "
 "pour éviter de laisser penser que toutes les bibliothèques doivent "
-"l'utiliser. <a href=\"/philosophy/why-not-lgpl.fr.html\"></a>."
+"l'utiliser. Consultez l'article <a href=\"/philosophy/why-not-lgpl.fr.html"
+"\">Pourquoi vous ne devriez pas utiliser la LGPL pour votre prochaine "
+"bibliothèque</a> pour plus d'informations."
 
 #. type: Content of: <h3>
 msgid "Scratching an itch?"
@@ -2364,6 +2361,8 @@ msgid ""
 "Copyright &copy; 1998, 2001, 2002, 2005, 2006, 2007, 2008, 2010 Richard "
 "Stallman"
 msgstr ""
+"Copyright &copy; 1998, 2001, 2002, 2005, 2006, 2007, 2008, 2010 Richard "
+"Stallman"
 
 #. type: Content of: <div><p>
 msgid ""
