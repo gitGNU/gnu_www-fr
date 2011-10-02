@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: takeaction.html\n"
 "POT-Creation-Date: 2011-09-20 12:31-0300\n"
-"PO-Revision-Date: 2011-06-12 18:08+0200\n"
+"PO-Revision-Date: 2011-10-02 10:10+0200\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,6 +25,8 @@ msgid ""
 "#content h4 + p { padding-left: 2em; margin-bottom: 0.5em;} #content h4 "
 "{ font-size: 1.1em !important; padding-left: 1em; }"
 msgstr ""
+"#content h4 + p { padding-left: 2em; margin-bottom: 0.5em;} #content h4 "
+"{ font-size: 1.1em !important; padding-left: 1em; }"
 
 #. type: Content of: <h2>
 msgid "Take Action"
@@ -36,16 +38,17 @@ msgid ""
 "\">Developers</a> - <a href=\"#sys\">Sysadmins</a> - <a href=\"#web"
 "\">Webmasters</a> - <a href=\"#xlate\">Translators</a>."
 msgstr ""
+"Actions pour&nbsp;: <a href=\"#act\">Activistes</a> - <a href=\"#dev"
+"\">Développeurs</a> - <a href=\"#sys\">Administrateurs système</a> - <a href="
+"\"#web\">Webmasters</a> - <a href=\"#xlate\">Traducteurs</a>."
 
 #. type: Content of: <h3>
 msgid "For Free Software Activists&hellip;"
 msgstr "Pour les militants du logiciel libre&hellip;"
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid "<b>Support current FSF campaigns</b>"
 msgid "Support current FSF campaigns"
-msgstr "Campagnes actuelles soutenues par la FSF"
+msgstr "Soutenir les campagnes actuelles de la FSF"
 
 #. type: Content of: <p>
 msgid ""
@@ -71,10 +74,8 @@ msgstr ""
 "libreplanet.org/\">LibrePlanet</a>."
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid "<b>Help fight software patents</b>"
 msgid "Help fight software patents"
-msgstr "<b>Aidez à combattre les brevets logiciels en Europe&nbsp;:</b>"
+msgstr "Aider à combattre les brevets logiciels"
 
 #. type: Content of: <p>
 msgid ""
@@ -91,10 +92,8 @@ msgstr ""
 "\"http://patentabsurdity.com\"><cite>L'absurdité des brevets</cite></a>."
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid "<b>Call on WIPO to change its name and mission</b>"
 msgid "Call on WIPO to change its name and mission"
-msgstr "<b>Appelez l'OMPI à changer son nom et sa mission&nbsp;:</b>"
+msgstr "Appeler l'OMPI à changer son nom et sa mission"
 
 #. type: Content of: <p>
 msgid ""
@@ -102,13 +101,11 @@ msgid ""
 "declaration</a> calling on WIPO to change its name and mission."
 msgstr ""
 "Merci de <a href=\"http://fsfeurope.org/documents/wiwo.en.html\">soutenir "
-"cette déclaration</a> qui appelle WIPO à changer de nom et de mission."
+"cette déclaration</a> qui appelle l'OMPI à changer de nom et de mission."
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid "<b>Enhance the Free Software Directory</b>"
 msgid "Enhance the Free Software Directory"
-msgstr "<b>Améliorez le Répertoire des logiciels libres&nbsp;:</b>"
+msgstr "Améliorer le répertoire des logiciels libres"
 
 #. type: Content of: <p>
 msgid ""
@@ -121,7 +118,7 @@ msgid ""
 "for us to start with."
 msgstr ""
 "Nous aimerions avoir vos suggestions pour l'ajout de logiciels libres dans "
-"le <a href=\"/directory\">Répertoire des logiciels libres</a>. Veuillez "
+"le <a href=\"/directory\">répertoire des logiciels libres</a>. Veuillez "
 "rechercher vos logiciels libres préférés ici, et pour chacun que vous ne "
 "trouvez pas, veuillez le suggérer. <a href=\"mailto:bug-directory@gnu.org"
 "\">Veuillez nous envoyer</a> le nom du paquetage et l'URL où il peut être "
@@ -130,16 +127,12 @@ msgstr ""
 "avec lequel nous pourrions démarrer."
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid ""
-#| "<strong>Start a GNU/Linux User Group in your area, and send us your "
-#| "group's information</strong>"
 msgid ""
 "Start a GNU/Linux User Group in your area, and send us your group's "
 "information"
 msgstr ""
-"<strong>Montez un Groupe d'utilisateurs GNU/Linux dans votre région et "
-"envoyez-nous les informations sur votre groupe</strong>"
+"Montez un Groupe d'utilisateurs GNU/Linux dans votre région et envoyez-nous "
+"les informations sur votre groupe"
 
 #. type: Content of: <p>
 msgid ""
@@ -154,11 +147,8 @@ msgid "For Software Developers&hellip;"
 msgstr "Pour les développeurs de logiciels&hellip;"
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid "<b>Contribute to high priority free software projects</b>"
 msgid "Contribute to high priority free software projects"
-msgstr ""
-"<b>Contribuer à des projets de logiciels libres hautement prioritaires</b>"
+msgstr "Contribuer à des projets de logiciels libres hautement prioritaires"
 
 #. type: Content of: <p>
 msgid ""
@@ -169,10 +159,8 @@ msgstr ""
 "\">page web des projets hautement prioritaires</a> de la FSF."
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid "<strong>Contribute to GNUstep</strong>"
 msgid "Contribute to GNUstep"
-msgstr "<strong>Contribuer au Projet GNUstep</strong>"
+msgstr "Contribuer au projet GNUstep"
 
 #. type: Content of: <p>
 msgid ""
@@ -187,34 +175,10 @@ msgstr ""
 "l'état d'environnement de développement complet et fonctionnel."
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid "<b>Take over an unmaintained GNU package</b>"
 msgid "Take over an unmaintained GNU package"
-msgstr "<b>Reprenez un paquetage GNU non maintenu</b>"
+msgstr "Reprendre un paquetage GNU non maintenu"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "These GNU packages are looking for a maintainer: <a href=\"/software/"
-#| "alive/\">alive</a>, <a href=\"/software/dotgnu-forum/\">dotgnu-forum</a>, "
-#| "<a href=\"/software/dr-geo/\">dr-geo</a>, <a href=\"/software/ggradebook/"
-#| "\">ggradebook</a>, <a href=\"/software/gift/\">gift</a>, <a href=\"/"
-#| "software/gleem/\">gleem</a>, <a href=\"/software/gnu-queue/\">gnu-queue</"
-#| "a>, <a href=\"/software/goldwater/\">goldwater</a>, <a href=\"/software/"
-#| "halifax/\">halifax</a>, <a href=\"/software/maverik/\">maverik</a>, <a "
-#| "href=\"/software/orgadoc/\">orgadoc</a>, <a href=\"/software/pgccfd/"
-#| "\">pgccfd</a>, <a href=\"/software/polyxmass/\">polyxmass</a>, <a href=\"/"
-#| "software/quickthreads/\">quickthreads</a>, <a href=\"/software/"
-#| "snakecharmer/\">snakecharmer</a>, <a href=\"/software/sxml/\">sxml</a>, "
-#| "<a href=\"/software/trueprint/\">trueprint</a>.  We are also looking for "
-#| "a co-maintainer for the CASE tool <a href=\"/software/ferret/\">ferret</"
-#| "a> and the bug tracking tool <a href=\"/software/gnats/\">gnats</a>.  See "
-#| "the package web pages for specific information, and <a href=\"/help/"
-#| "evaluation.html#whatmeans\">this general information about GNU packages "
-#| "and maintenance</a>, and then email <a href=\"mailto:maintainers@gnu.org"
-#| "\">maintainers@gnu.org</a> if you have time and interest in taking over "
-#| "one of these projects.  Of course, many <a href=\"http://savannah.gnu.org/"
-#| "people\">GNU projects are seeking other help</a> of various kinds."
 msgid ""
 "These GNU packages are looking for a maintainer: <a href=\"/software/alive/"
 "\">alive</a>, <a href=\"/software/dotgnu-forum/\">dotgnu-forum</a>, <a href="
@@ -238,42 +202,37 @@ msgstr ""
 "Ces paquetages GNU sont à la recherche d'un repreneur&nbsp;: <a href=\"/"
 "software/alive/\">alive</a>, <a href=\"/software/dotgnu-forum/\">dotgnu-"
 "forum</a>, <a href=\"/software/dr-geo/\">dr-geo</a>, <a href=\"/software/"
-"ggradebook/\">ggradebook</a>, <a href=\"/software/gift/\">gift</a>, <a href="
-"\"/software/gleem/\">gleem</a>, <a href=\"/software/gnu-queue/\">gnu-queue</"
-"a>, <a href=\"/software/goldwater/\">goldwater</a>, <a href=\"/software/"
-"halifax/\">halifax</a>, <a href=\"/software/maverik/\">maverik</a>, <a href="
-"\"/software/orgadoc/\">orgadoc</a>, <a href=\"/software/pgccfd/\">pgccfd</"
-"a>, <a href=\"/software/polyxmass/\">polyxmass</a>, <a href=\"/software/"
+"ggradebook/\">ggradebook</a>, <a href=\"/software/gleem/\">gleem</a>, <a "
+"href=\"/software/gnu-queue/\">gnu-queue</a>, <a href=\"/software/goldwater/"
+"\">goldwater</a>, <a href=\"/software/halifax/\">halifax</a>, <a href=\"/"
+"software/orgadoc/\">orgadoc</a>, <a href=\"/software/pgccfd/\">pgccfd</a>, "
+"<a href=\"/software/polyxmass/\">polyxmass</a>, <a href=\"/software/"
 "quickthreads/\">quickthreads</a>, <a href=\"/software/snakecharmer/"
 "\">snakecharmer</a>, <a href=\"/software/sxml/\">sxml</a>, <a href=\"/"
 "software/trueprint/\">trueprint</a>. Nous recherchons aussi un co-mainteneur "
 "pour l'outil CASE <a href=\"/software/ferret/\">ferret</a> et l'outil de "
 "suivi de bogues <a href=\"/software/gnats/\">gnats</a>. Consultez les pages "
-"web de ces paquetages for des informations détaillées, ainsi que les <a href="
-"\"/help/evaluation.html#whatmeans\">informations générales au sujet des "
+"web de ces paquetages pour des informations détaillées, ainsi que les <a "
+"href=\"/help/evaluation.html#whatmeans\">informations générales au sujet des "
 "paquetages GNU et de leur maintenance</a>, et ensuite envoyez un courriel à "
 "<a href=\"mailto:maintainers@gnu.org\">maintainers@gnu.org</a> si vous avez "
-"le temps et l'envie d'adopter un de ces projets. Bien entendu, beaucoup de "
-"<a href=\"http://savannah.gnu.org/people\">projets GNU cherchent de l'aide</"
-"a> de toute nature."
+"le temps et l'envie d'adopter un de ces projets."
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid "<strong>Contribute to the development of a GNU package</strong>"
 msgid "Contribute to the development of a GNU package"
-msgstr "<strong>Contribuer au développement d'un paquetage GNU</strong>"
+msgstr "Contribuer au développement d'un paquetage GNU"
 
 #. type: Content of: <p>
 msgid ""
 "See &ldquo;<a href=\"http://savannah.gnu.org/people\">help wanted</a>&rdquo; "
 "requests from the maintainers of many packages."
 msgstr ""
-"Voir les appels à l'&ldquo;<a href=\"http://savannah.gnu.org/people\">aide "
-"désirée</a>&rdquo; des mainteneurs de nombreux paquetages."
+"Consultez les <a href=\"http://savannah.gnu.org/people\">appels à l'aide</a> "
+"des mainteneurs de nombreux paquetages."
 
 #. type: Content of: <h4>
 msgid "GNU configure for Python packages"
-msgstr ""
+msgstr "GNU configure pour les paquetages Python"
 
 #. type: Content of: <p>
 msgid ""
@@ -283,12 +242,15 @@ msgid ""
 "href=\"/software/bazaar/\">GNU Bazaar</a> and <a href=\"/software/"
 "mediagoblin/\">GNU MediaGoblin</a>."
 msgstr ""
+"Nous avons besoin d'un <a href=\"/prep/standards/standards.html#Configuration"
+"\">GNU configure standard</a> et d'un système basé sur make pour les "
+"paquetages écrits en Python qui utilisent sa méthode avec <tt>build.py</tt>. "
+"Ceci serait immédiatement utile pour <a href=\"/software/bazaar/\">GNU "
+"Bazaar</a> et <a href=\"/software/mediagoblin/\">GNU MediaGoblin</a>."
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid "<strong>Make your program a GNU package</strong>"
 msgid "Make your program a GNU package"
-msgstr "<strong>Faites de votre programme un paquetage GNU</strong>"
+msgstr "Faire de votre programme un paquetage GNU"
 
 #. type: Content of: <p>
 msgid ""
@@ -305,10 +267,8 @@ msgid "For System Administrators&hellip;"
 msgstr "Pour les administrateurs système&hellip;"
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid "<strong>Help with administration of Savannah</strong>"
 msgid "Help with administration of Savannah"
-msgstr "<strong>Aidez à l'administration de Savannah</strong>"
+msgstr "Aidez à l'administration de Savannah"
 
 #. type: Content of: <p>
 msgid ""
@@ -325,10 +285,8 @@ msgid "For Webmasters&hellip;"
 msgstr "Pour les Webmasters&hellip;"
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid "<strong>Join the GNU webmasters team</strong>"
 msgid "Join the GNU webmasters team"
-msgstr "<strong>Rejoignez l'équipe des Webmasters de GNU</strong>"
+msgstr "Rejoignez l'équipe des webmasters de GNU"
 
 #. type: Content of: <p>
 msgid ""
@@ -342,10 +300,8 @@ msgid "For Translators&hellip;"
 msgstr "Pour les traducteurs&hellip;"
 
 #. type: Content of: <h4>
-#, fuzzy
-#| msgid "<strong>Join a GNU translation team</strong>"
 msgid "Join a GNU translation team"
-msgstr "<strong>Rejoignez une équipe de traduction de GNU</strong>"
+msgstr "Rejoignez une équipe de traduction de GNU"
 
 #. type: Content of: <p>
 msgid ""
@@ -357,16 +313,13 @@ msgstr ""
 "\">plus d'informations</a>."
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "Finally, visit <a href=\"/help/help.html\">How You Can Help the GNU "
-#| "Project</a> for more information."
 msgid ""
 "Finally, the separate page <a href=\"/help/help.html\">How You Can Help the "
 "GNU Project</a> has more details and additional items."
 msgstr ""
-"Enfin, visitez <a href=\"/help/help.fr.html\">Comment aider le Projet GNU</"
-"a> pour plus d'informations."
+"Enfin, visitez la page dédiée <a href=\"/help/help.fr.html\">Comment aider "
+"le Projet GNU</a> pour plus d'informations ainsi que d'autres demandes "
+"d'aide."
 
 #. type: Content of: <p>
 msgid ""
@@ -374,6 +327,9 @@ msgid ""
 "\">Developers</a> - <a href=\"#sys\">Sysadmins</a> - <a href=\"#web"
 "\">Webmasters</a> - <a href=\"#xlate\">Translators</a>."
 msgstr ""
+"Actions pour&nbsp;: <a href=\"#act\">Activistes</a> - <a href=\"#dev"
+"\">Développeurs</a> - <a href=\"#sys\">Administrateurs système</a> - <a href="
+"\"#web\">Webmasters</a> - <a href=\"#xlate\">Traducteurs</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
@@ -434,26 +390,3 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise-à-jour&nbsp;:"
-
-#~ msgid "<strong>Read and comment on proposed license changes</strong>"
-#~ msgstr ""
-#~ "<strong>Lire et faire des commentaires sur les changements proposés dans "
-#~ "les licences</strong>"
-
-#~ msgid ""
-#~ "Please <a href=\"http://gplv3.fsf.org\">read and leave comments</a> on "
-#~ "the current drafts of the GNU Free Documentation License, and the GNU "
-#~ "Simple Free Documentation License."
-#~ msgstr ""
-#~ "Veuillez <a href=\"http://gplv3.fsf.org\">lire et déposer des "
-#~ "commentaires</a> sur les projets de rédaction des licences GNU Free "
-#~ "Documentation License et GNU Simple Free Documentation."
-
-#~ msgid ""
-#~ "Verbatim copying and distribution of this entire article are permitted "
-#~ "worldwide, without royalty, in any medium, provided this notice, and the "
-#~ "copyright notice, are preserved."
-#~ msgstr ""
-#~ "La reproduction exacte et la distribution intégrale de cet article est "
-#~ "permise sur n'importe quel support d'archivage, pourvu que cette notice "
-#~ "soit préservée."
