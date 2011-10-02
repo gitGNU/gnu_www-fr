@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-linux-faq.html\n"
-"POT-Creation-Date: 2011-07-14 04:25-0300\n"
+"POT-Creation-Date: 2011-09-20 12:27-0300\n"
 "PO-Revision-Date: 2011-07-07 23:41+0100\n"
 "Last-Translator: Marc de Maillard <mdemaillard@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -386,9 +386,25 @@ msgstr ""
 "Windows&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"#justlinux\" id=\"TOCjustlinux\">Can't there be Linux systems "
+#| "without GNU?</a>"
 msgid ""
-"<a href=\"#justlinux\" id=\"TOCjustlinux\">Can't there be Linux systems "
-"without GNU?</a>"
+"<a href=\"#justlinux\" id=\"TOCjustlinux\">Can't Linux be used without GNU?</"
+"a>"
+msgstr ""
+"<a href=\"#justlinux\" id=\"TOCjustlinux\">Ne peut-il y avoir de systèmes "
+"Linux sans GNU&nbsp;?</a>"
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"#justlinux\" id=\"TOCjustlinux\">Can't there be Linux systems "
+#| "without GNU?</a>"
+msgid ""
+"<a href=\"#linuxsyswithoutgnu\" id=\"TOClinuxsyswithoutgnu\">Are there "
+"complete Linux systems without GNU?</a>"
 msgstr ""
 "<a href=\"#justlinux\" id=\"TOCjustlinux\">Ne peut-il y avoir de systèmes "
 "Linux sans GNU&nbsp;?</a>"
@@ -2338,29 +2354,68 @@ msgstr ""
 "situation très différente de GNU/Linux."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "Can't there be Linux systems without GNU? <span class=\"anchor-reference-"
+#| "id\">(<a href=\"#justlinux\">#justlinux</a>)</span>"
 msgid ""
-"Can't there be Linux systems without GNU? <span class=\"anchor-reference-id"
-"\">(<a href=\"#justlinux\">#justlinux</a>)</span>"
+"Can't Linux be used without GNU? <span class=\"anchor-reference-id\">(<a "
+"href=\"#justlinux\">#justlinux</a>)</span>"
 msgstr ""
 "Ne peut-il pas y avoir de système Linux sans GNU&nbsp;? <span class=\"anchor-"
 "reference-id\">(<a href=\"#justlinux\">#justlinux</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
-"There are systems that contain Linux and not GNU; Android is an example."
+"Linux is used by itself, or with small other programs, in some appliances.  "
+"These small software systems are a far cry from the GNU/Linux system.  Users "
+"do not install them on PCs, for instance, and would find them rather "
+"disappointing.  It is useful to say that these appliances run just Linux, to "
+"show how different those small platforms are from GNU/Linux."
+msgstr ""
+
+#. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "Can't there be Linux systems without GNU? <span class=\"anchor-reference-"
+#| "id\">(<a href=\"#justlinux\">#justlinux</a>)</span>"
+msgid ""
+"Are there complete Linux systems without GNU? <span class=\"anchor-reference-"
+"id\">(<a href=\"#linuxsyswithoutgnu\">#linuxsyswithoutgnu</a>)</span>"
+msgstr ""
+"Ne peut-il pas y avoir de système Linux sans GNU&nbsp;? <span class=\"anchor-"
+"reference-id\">(<a href=\"#justlinux\">#justlinux</a>)</span>"
+
+#. type: Content of: <dl><dd>
+#, fuzzy
+#| msgid ""
+#| "There are systems that contain Linux and not GNU; Android is an example."
+msgid ""
+"There are complete systems that contain Linux and not GNU; Android is an "
+"example.  But it is a mistake to call them &ldquo;Linux&rdquo; systems."
 msgstr ""
 "Il y a des systèmes qui contiennent Linux et pas GNU&nbsp;: Android en est "
 "un exemple."
 
 #. type: Content of: <dl><dd><p>
+#, fuzzy
+#| msgid ""
+#| "Android is very different from the GNU/Linux system&mdash;because it "
+#| "doesn't contain GNU, only Linux.  In effect, it's a totally different "
+#| "system.  If you think of the whole system as &ldquo;Linux&rdquo;, you "
+#| "find it necessary to say things like, &ldquo;Android contains Linux, but "
+#| "it isn't Linux, because it doesn't have the usual Linux [sic] libraries "
+#| "and utilities [meaning the GNU system].&rdquo; Android contains just as "
+#| "much of Linux as GNU/Linux does.  What it doesn't have is GNU."
 msgid ""
-"Android is very different from the GNU/Linux system&mdash;because it doesn't "
-"contain GNU, only Linux.  In effect, it's a totally different system.  If "
-"you think of the whole system as &ldquo;Linux&rdquo;, you find it necessary "
-"to say things like, &ldquo;Android contains Linux, but it isn't Linux, "
-"because it doesn't have the usual Linux [sic] libraries and utilities "
-"[meaning the GNU system].&rdquo; Android contains just as much of Linux as "
-"GNU/Linux does.  What it doesn't have is GNU."
+"Android is very different from the GNU/Linux system&mdash;because it "
+"contains very little of the GNU system, only Linux.  Overall, it's a "
+"different system.  If you call the whole system &ldquo;Linux&rdquo;, you "
+"will find it necessary to say things like, &ldquo;Android contains Linux, "
+"but it isn't Linux, because it doesn't have the usual Linux [sic] libraries "
+"and utilities [meaning the GNU system].&rdquo; Android contains just as much "
+"of Linux as GNU/Linux does.  What it doesn't have is the GNU system.  "
+"Instead it has a lot of Google software."
 msgstr ""
 "Android est très différent du système GNU/Linux&nbsp;: parce qu'il ne "
 "contient pas GNU, seulement Linux. En effet, c'est un système complètement "
@@ -2968,7 +3023,3 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-#. type: Content of: <div><h4>
-msgid "Translations of this page"
-msgstr "Traductions de cette page"

@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: README.translations.html\n"
-"POT-Creation-Date: 2011-07-15 04:25-0300\n"
+"POT-Creation-Date: 2011-09-29 04:25-0300\n"
 "PO-Revision-Date: 2011-06-25 23:48+0000\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -409,14 +409,16 @@ msgstr ""
 "de l'équipe de traduction pour votre langue."
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>th</code> - <a href=\"https://savannah.gnu.org/projects/www-th"
+#| "\">Thai</a> (New coordinator needed)"
 msgid ""
 "<code>ar</code> - <a href=\"https://savannah.nongnu.org/projects/www-ar"
-"\">Arabic</a> (<a href=\"https://savannah.gnu.org/users/mbf\">Hossam Hossny</"
-"a>, <a href=\"https://savannah.gnu.org/users/hatem\">Hatem Hossny</a>)"
+"\">Arabic</a> (- New coordinator needed)"
 msgstr ""
-"<code>ar</code> - <a href=\"https://savannah.nongnu.org/projects/www-ar"
-"\">Arabe</a> (<a href=\"https://savannah.gnu.org/users/mbf\">Hossam Hossny</"
-"a>, <a href=\"https://savannah.gnu.org/users/hatem\">Hatem Hossny</a>)"
+"<code>th</code> - <a href=\"https://savannah.gnu.org/projects/www-th\">Thaï</"
+"a> (Nouveau coordinateur demandé)"
 
 #. type: Content of: <ul><li>
 #, fuzzy
@@ -723,10 +725,15 @@ msgstr ""
 "Kraritonov</a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>sk</code> - <a href=\"https://savannah.nongnu.org/projects/www-sk"
+#| "\">Slovak</a> (<a href=\"https://savannah.gnu.org/users/dominiks"
+#| "\">Dominik Smatana</a>)"
 msgid ""
 "<code>sk</code> - <a href=\"https://savannah.nongnu.org/projects/www-sk"
 "\">Slovak</a> (<a href=\"https://savannah.gnu.org/users/dominiks\">Dominik "
-"Smatana</a>)"
+"Smatana</a> - New coordinator needed)"
 msgstr ""
 "<code>sk</code> - <a href=\"https://savannah.nongnu.org/projects/www-sk"
 "\">Slovaque</a> (<a href=\"https://savannah.gnu.org/users/dominiks\">Dominik "
@@ -940,9 +947,16 @@ msgstr ""
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-#. type: Content of: <div><h4>
-msgid "Translations of this page"
-msgstr "Traduction de cette page"
+#~ msgid ""
+#~ "<code>ar</code> - <a href=\"https://savannah.nongnu.org/projects/www-ar"
+#~ "\">Arabic</a> (<a href=\"https://savannah.gnu.org/users/mbf\">Hossam "
+#~ "Hossny</a>, <a href=\"https://savannah.gnu.org/users/hatem\">Hatem "
+#~ "Hossny</a>)"
+#~ msgstr ""
+#~ "<code>ar</code> - <a href=\"https://savannah.nongnu.org/projects/www-ar"
+#~ "\">Arabe</a> (<a href=\"https://savannah.gnu.org/users/mbf\">Hossam "
+#~ "Hossny</a>, <a href=\"https://savannah.gnu.org/users/hatem\">Hatem "
+#~ "Hossny</a>)"
 
 #~ msgid "[image of the typing GNU]"
 #~ msgstr "[Image d'un GNU tapant à la machine]"

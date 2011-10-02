@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eldred-amicus.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2011-09-20 12:29-0300\n"
 "PO-Revision-Date: 2008-12-30 11:25+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,9 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <h2>
 msgid "FSF's Brief Amicus Curiae, Eldred v. Ashcroft"
 msgstr "Brief Amicus Curiae de la FSF, Eldred v. Ashcroft"
 
+#. type: Attribute 'content' of: <meta>
 msgid ""
 "GNU, FSF, Free Software Foundation, GNU, Linux, freedom, software, power, "
 "rights, copyright, extension, opinion, eldred, ashcroft, mickey mouse, law, "
@@ -28,6 +30,7 @@ msgstr ""
 "droits, copyright, extension, opinion, eldred, ashcroft, mickey mouse, loi, "
 "disney, sonny bono, rétroactif, perpétuel"
 
+#. type: Content of: <p>
 msgid ""
 "[ This file is also available in <a href=\"/philosophy/eldred-amicus.ps"
 "\">PostScript</a> and <a href=\"/philosophy/eldred-amicus.pdf\">PDF</a> "
@@ -37,39 +40,104 @@ msgstr ""
 "amicus.ps\">Postscript</a> et <a href=\"/philosophy/eldred-amicus.pdf\">PDF</"
 "a>"
 
-msgid ""
-"No. 01-618 <br /> <br /> <br /> I<small>N </small>T<small>HE</small> <br /> "
-"<b>Supreme Court of the United States</b> <br /> <br /> E<small>RIC </"
-"small>E<small>LDRED</small>, <i>et al.</i>, <br /> <i>Petitioners,</i> <br /"
-"> <br /> v. <br /> <br /> J<small>OHN </small>D. A<small>SHCROFT</small>, In "
-"his official capacity <br /> as Attorney General, <br /> <i>Respondent.</i> "
-"<br /> <br /> <br /> <b>On Writ of Certiorari to the United States <br /> "
-"Court of Appeals for the <br /> District of Columbia Circuit</b> <br /> <br /"
-"> <b>Brief <i>Amicus Curiae</i> of the <br /> Free Software Foundation <br /"
-"> in Support of Petitioners</b> <br /> <br />"
+#. type: Content of: <p>
+msgid "No. 01-618"
 msgstr ""
-"No. 01-618 <br /><br /><br />À L<small>A</small><br /><strong>Cour Suprême "
-"des États-Unis</strong><br /><br />E<small>RIC</small> E<small>LDRED</"
-"small>, <i>et al.</i>,<br /><i>Requérants</i><br /><br />v. <br /><br /"
-">J<small>OHN </small>D. A<small>HCROFT</small>, En sa qualité officielle "
-"<br />de Ministre de la Justice, <br /><i>Intimé</i><br /><br /><br /"
-"><strong>Requête en Certiorari<br />auprès de la Cour Suprême des États-"
-"Unis<br />pour le Tribunal de première instance Columbia</strong> <br /><br /"
-"><strong>Brief <i>Amicus Curiae</i><br />de la Free Software Foundation <br /"
-">à l'Appui des Requérants</strong><br /><br />"
 
-msgid ""
-"E<small>BEN </small>M<small>OGLEN</small> <br /> <i>Counsel of record</i> "
-"<br /> 435 West 116th Street <br /> New York, NY 10027 <br /> (212) 854-8382 "
-"<br /> <br /> Counsel for <i>Amicus Curiae</i>"
+#. type: Content of: <p>
+msgid "I<small>N </small>T<small>HE</small>"
 msgstr ""
-"E<small>BEN </small>M<small>OGLEN</small> <br /><i>Avocat inscrit au "
-"dossier</i><br />435 West 116th Street<br />New York, NY 10027<br />(212) "
-"854-8382 <br /><br />Avocat de l'<i>Amicus Curiae</i>"
 
+#. type: Content of: <p>
+msgid "<b>Supreme Court of the United States</b>"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "E<small>RIC </small>E<small>LDRED</small>, <i>et al.</i>,"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "<i>Petitioners,</i>"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "v."
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"J<small>OHN </small>D. A<small>SHCROFT</small>, In his official capacity"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "as Attorney General,"
+msgstr ""
+
+#. type: Content of: <p>
+#, fuzzy
+#| msgid "<i>Cases</i>"
+msgid "<i>Respondent.</i>"
+msgstr "<i>Causes</i>"
+
+#. type: Content of: <p><b>
+msgid "<b>On Writ of Certiorari to the United States"
+msgstr ""
+
+#. type: Content of: <p><b>
+msgid "Court of Appeals for the"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "District of Columbia Circuit</b>"
+msgstr ""
+
+#. type: Content of: <p><b>
+#, fuzzy
+#| msgid "Interest of <i>Amicus Curiae</i>"
+msgid "<b>Brief <i>Amicus Curiae</i> of the"
+msgstr "Intérêt de l'<i>Amicus Curiae</i>"
+
+#. type: Content of: <p><b>
+#, fuzzy
+#| msgid "Copyright &copy; 2000 Free Software Foundation, Inc."
+msgid "Free Software Foundation"
+msgstr "Copyright &copy; 2000 Free Software Foundation, Inc."
+
+#. type: Content of: <p>
+msgid "in Support of Petitioners</b>"
+msgstr ""
+
+#. type: Content of: <ul><li>
+msgid "E<small>BEN </small>M<small>OGLEN</small>"
+msgstr ""
+
+#. type: Content of: <ul><li>
+msgid "<i>Counsel of record</i>"
+msgstr ""
+
+#. type: Content of: <ul><li>
+msgid "435 West 116th Street"
+msgstr ""
+
+#. type: Content of: <ul><li>
+msgid "New York, NY 10027"
+msgstr ""
+
+#. type: Content of: <ul><li>
+msgid "(212) 854-8382"
+msgstr ""
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid "Interest of <i>Amicus Curiae</i>"
+msgid "Counsel for <i>Amicus Curiae</i>"
+msgstr "Intérêt de l'<i>Amicus Curiae</i>"
+
+#. type: Content of: <h3>
 msgid "Question Presented"
 msgstr "Question présentée"
 
+#. type: Content of: <ol><li>
 msgid ""
 "Did the Court of Appeals err in holding that, under the Copyright Clause, "
 "Congress may indefinitely extend the term of existing copyrights by "
@@ -80,9 +148,11 @@ msgstr ""
 "droits d'auteur existants en adoptant nominalement <i>in seriatim</i> des "
 "prolongements limités&nbsp;?"
 
+#. type: Content of: <h4>
 msgid "Contents"
 msgstr "Table des matières"
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a name=\"tex2html16\" href=\"eldred-amicus.html#SECTION01000000000000000000"
 "\">Question Presented</a>"
@@ -90,6 +160,7 @@ msgstr ""
 "<a name=\"tex2html16\" href=\"#SECTION01000000000000000000\">Question "
 "présentée</a>"
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a name=\"tex2html17\" href=\"eldred-amicus.html#SECTION02000000000000000000"
 "\">Contents</a>"
@@ -97,6 +168,7 @@ msgstr ""
 "<a name=\"tex2html17\" href=\"#SECTION02000000000000000000\">Table des "
 "matières</a>"
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a name=\"tex2html18\" href=\"eldred-amicus.html#SECTION03000000000000000000"
 "\">Table of Authorities</a>"
@@ -104,6 +176,7 @@ msgstr ""
 "<a name=\"tex2html18\" href=\"#SECTION03000000000000000000\">Tableau des "
 "autorités</a>"
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a name=\"tex2html19\" href=\"eldred-amicus.html#SECTION04000000000000000000"
 "\">Interest of <i>Amicus Curiae</i></a>"
@@ -111,6 +184,7 @@ msgstr ""
 "<a name=\"tex2html19\" href=\"#SECTION04000000000000000000\">Intérêt de "
 "l'<i>Amicus Curiae</i></a>"
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a name=\"tex2html20\" href=\"eldred-amicus.html#SECTION05000000000000000000"
 "\">Summary of Argument</a>"
@@ -118,12 +192,14 @@ msgstr ""
 "<a name=\"tex2html20\" href=\"#SECTION05000000000000000000\">Résumé de "
 "l'argument</a>"
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a name=\"tex2html21\" href=\"eldred-amicus.html#SECTION06000000000000000000"
 "\">Argument</a>"
 msgstr ""
 "<a name=\"tex2html21\" href=\"#SECTION06000000000000000000\">Argument</a>"
 
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a name=\"tex2html22\" href=\"eldred-amicus.html#SECTION06010000000000000000"
 "\">The Framers Intended Copyright to Be a Statutory Monopoly Awarded to "
@@ -133,6 +209,7 @@ msgstr ""
 "destinaient le droit d'auteur à établir un monopole sur les &oelig;uvres "
 "d'auteur pendant un temps strictement limité</a>"
 
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a name=\"tex2html23\" href=\"eldred-amicus.html#SECTION06020000000000000000"
 "\">The Historical Policy Embodied in the Copyright Clause is Absolutely "
@@ -144,6 +221,7 @@ msgstr ""
 "nécessaire à la réconciliation entre le monopole du droit d'auteur et le "
 "système de libre expression</a>"
 
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid ""
 "<a name=\"tex2html24\" href=\"eldred-amicus.html#SECTION06021000000000000000"
 "\">Indefinite Extension of the Term of Monopoly on Existing Works of "
@@ -155,6 +233,7 @@ msgstr ""
 "est incompatible avec la clause relative au droit d'auteur et le premier "
 "amendement</a>"
 
+#. type: Content of: <ul><li><ul><li><ul><li>
 msgid ""
 "<a name=\"tex2html25\" href=\"eldred-amicus.html#SECTION06022000000000000000"
 "\">The Fifth Amendment Prohibits Legislative Action Such as This With "
@@ -168,6 +247,7 @@ msgstr ""
 "de faire avec la libre expression ce qui ne peut pas l'être avec la simple "
 "propriété</a>"
 
+#. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a name=\"tex2html26\" href=\"eldred-amicus.html#SECTION06030000000000000000"
 "\">Particular Dangers of Abuse and Corruption Justify Strict Constitutional "
@@ -177,102 +257,246 @@ msgstr ""
 "spécifiques d'abus et de corruption justifient un examen constitutionnel "
 "rigoureux lorsqu'il s'agit de prolonger la durée des monopoles établis</a>"
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a name=\"tex2html27\" href=\"eldred-amicus.html#SECTION07000000000000000000"
 "\">Conclusion</a>"
 msgstr ""
 "<a name=\"tex2html27\" href=\"#SECTION07000000000000000000\">Conclusion</a>"
 
+#. type: Content of: <h3>
 msgid "Table of Authorities"
 msgstr "Tableau des autorités"
 
+#. type: Content of: <p>
 msgid "<i>Cases</i>"
 msgstr "<i>Causes</i>"
 
-msgid ""
-"Abrams v. United States, 250 U.S. 616 (1919) 10 <br /> Darcy v. Allen, (The "
-"Case of Monopolies), <br /> 11 Co. Rep. 84 (1603) 5 <br /> Eldred v. Reno, "
-"239 F.3d 372 (CADC 2001) 7, <i>passim</i> <br /> Feist Publications, Inc. v. "
-"Rural Telephone <br /> Service, Co., Inc., 499 U.S. 340 (1991) 7,11,12 <br /"
-"> Goldstein v. California, 412 U.S. 546 (1973) 12 <br /> Harper &amp; Row, "
-"Publishers, Inc.  v. Nation <br /> Enterprises, 471 U.S. 539 (1985) 9 <br /> "
-"Hawaii Housing Authority v.  <br /> Midkiff, 467 U.S. 229 (1984) 14 <br /> "
-"New York Times Co. v. Sullivan, 376 U.S. 254 (1964) 10 <br /> Reno v. "
-"American Civil Liberties Union, <br /> 521 U.S. 844 (1997) 10 <br /> San "
-"Francisco Arts &amp; Athletics, Inc. v.  <br /> United States Olympic "
-"Committee, <br /> 483 U.S. 522 (1987) 9 <br /> Schnapper v. Foley, 667 F.2d "
-"102 (CADC 1981) 11 <br /> Singer Mfg. Co. v. June Mfg. Co., 163 U.S. 169 "
-"(1896) 11 <br /> Trademark Cases, 100 U.S. 82 (1879) 11 <br /> West Virginia "
-"Board of Education v. Barnette, <br /> 319 U.S. 624 (1943) 10"
+#. type: Content of: <p>
+msgid "Abrams v. United States, 250 U.S. 616 (1919) 10"
 msgstr ""
-"Abrams v. United States, 250 U.S. 616 (1919) 10<br />Darcy v. Allen, (The "
-"Case of Monopolies),<br />11 Co. Rep. 84 (1603) 5<br />Eldred v. Reno, 239 "
-"F.3d 372 (CADC 2001) 7, <i>passim</i><br />Feist Publications, Inc. v. Rural "
-"Telephone<br />Service, Co., Inc., 499 U.S. 340 (1991) 7,11,12<br /"
-">Goldstein v. California, 412 U.S. 546 (1973) 12<br />Harper &amp; Row, "
-"Publishers, Inc.  v. Nation<br />Enterprises, 471 U.S. 539 (1985) 9<br /"
-">Hawaii Housing Authority v.<br />Midkiff, 467 U.S. 229 (1984) 14<br />New "
-"York Times Co. v. Sullivan, 376 U.S. 254 (1964) 10<br />Reno v. American "
-"Civil Liberties Union,<br />521 U.S. 844 (1997) 10<br />San Francisco Arts "
-"&amp; Athletics, Inc. v.<br />United States Olympic Committee,<br />483 U.S. "
-"522 (1987) 9<br />Schnapper v. Foley, 667 F.2d 102 (CADC 1981) 11<br /"
-">Singer Mfg. Co. v. June Mfg. Co., 163 U.S. 169 (1896) 11<br />Trademark "
-"Cases, 100 U.S. 82 (1879) 11<br />West Virginia Board of Education v. "
-"Barnette,<br />319 U.S. 624 (1943) 10"
 
+#. type: Content of: <p>
+msgid "Darcy v. Allen, (The Case of Monopolies),"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "11 Co. Rep. 84 (1603) 5"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Eldred v. Reno, 239 F.3d 372 (CADC 2001) 7, <i>passim</i>"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Feist Publications, Inc. v. Rural Telephone"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Service, Co., Inc., 499 U.S. 340 (1991) 7,11,12"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Goldstein v. California, 412 U.S. 546 (1973) 12"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Harper &amp; Row, Publishers, Inc.  v. Nation"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Enterprises, 471 U.S. 539 (1985) 9"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Hawaii Housing Authority v."
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Midkiff, 467 U.S. 229 (1984) 14"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "New York Times Co. v. Sullivan, 376 U.S. 254 (1964) 10"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Reno v. American Civil Liberties Union,"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "521 U.S. 844 (1997) 10"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "San Francisco Arts &amp; Athletics, Inc. v."
+msgstr ""
+
+#. type: Content of: <p>
+msgid "United States Olympic Committee,"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "483 U.S. 522 (1987) 9"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Schnapper v. Foley, 667 F.2d 102 (CADC 1981) 11"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Singer Mfg. Co. v. June Mfg. Co., 163 U.S. 169 (1896) 11"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Trademark Cases, 100 U.S. 82 (1879) 11"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "West Virginia Board of Education v. Barnette,"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "319 U.S. 624 (1943) 10"
+msgstr ""
+
+#. type: Content of: <p>
 msgid "<i>Constitutions, Statutes, and Regulations</i>"
 msgstr "<i>Constitutions, lois et règlements</i>"
 
-msgid ""
-"U.S. Const. Art. I, &#167;8, cl.&nbsp;8 3, <i>passim</i> <br /> U.S. Const. "
-"Amend. I 7, <i>passim</i> <br /> U.S. Const. Amend. V 13,14 <br /> Copyright "
-"Act of 1709 (Statute of Anne), <br /> 8 Anne, c.&nbsp;19 6 <br /> Copyright "
-"Act of 1790, 1 Stat. 124 6 <br /> Sonny Bono Copyright Term <br /> Extension "
-"Act, Pub.&nbsp;L.&nbsp;No.&nbsp;105-298, <br /> Title I, 112 Stat. 2827 3, "
-"<i>passim</i> <br /> Statute of Monopolies, 21 Jac.&nbsp;I, c.&nbsp;3 5"
+#. type: Content of: <p>
+msgid "U.S. Const. Art. I, &#167;8, cl.&nbsp;8 3, <i>passim</i>"
 msgstr ""
-"U.S. Const. Art. I, &sect;8, cl.&nbsp;8 3, <i>passim</i><br />U.S. Const. "
-"Amend. I 7, <i>passim</i><br />U.S. Const. Amend. V 13,14<br />Copyright Act "
-"of 1709 (Statute of Anne),<br />8 Anne, c.&nbsp;19 6<br />Copyright Act of "
-"1790, 1 Stat. 124 6<br />Sonny Bono Copyright Term<br />Extension Act, Pub."
-"&nbsp;L.&nbsp;No.&nbsp;105-298,<br />Title I, 112 Stat. 2827 3, <i>passim</"
-"i><br />Statute of Monopolies, 21 Jac.&nbsp;I, c.&nbsp;3 5"
 
+#. type: Content of: <p>
+msgid "U.S. Const. Amend. I 7, <i>passim</i>"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "U.S. Const. Amend. V 13,14"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Copyright Act of 1709 (Statute of Anne),"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "8 Anne, c.&nbsp;19 6"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Copyright Act of 1790, 1 Stat. 124 6"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Sonny Bono Copyright Term"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Extension Act, Pub.&nbsp;L.&nbsp;No.&nbsp;105-298,"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Title I, 112 Stat. 2827 3, <i>passim</i>"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Statute of Monopolies, 21 Jac.&nbsp;I, c.&nbsp;3 5"
+msgstr ""
+
+#. type: Content of: <p>
 msgid "<i>Other Materials</i>"
 msgstr "<i>Autres documents</i>"
 
-msgid ""
-"Yochai Benkler, Free as the Air to Common <br /> Use: First Amendment "
-"Constraints on <br /> Enclosure of the Public Domain, <br /> 74 N.Y.U.L. "
-"Rev. 354 (1999) 8 <br /> William Blackstone, Commentaries on <br /> the Laws "
-"of England (1769) 5 <br /> The Charter and General Laws of the Colony <br /> "
-"and Province of Massachusetts Bay (Boston, 1814) 6 <br /> 144 Cong. Rec. "
-"H9951 (daily ed. Oct. 7, 1998) 3 <br /> Thomas I. Emerson, The System of "
-"Freedom <br /> of Expression (1970) 9 <br /> Max Farrand, The Records of the "
-"Federal <br /> Convention of 1787 (1937) 6 <br /> George Lee Haskins, Law "
-"and Authority <br /> in Early Massachusetts (1960) 6 <br /> Melville B. "
-"Nimmer, Does Copyright Abridge <br /> the First Amendment Guaranties of Free "
-"Speech <br /> and the Press?, 17 UCLA L. Rev. 1180 (1970) 8 <br /> Mark "
-"Rose, Authors and Owners: <br /> The Invention of Copyright (1993) 6 <br /> "
-"Cecily Violet Wedgwood, The King's Peace (1955) 5"
+#. type: Content of: <p>
+msgid "Yochai Benkler, Free as the Air to Common"
 msgstr ""
-"Yochai Benkler, Free as the Air to Common<br />Use: First Amendment "
-"Constraints on<br />Enclosure of the Public Domain,<br />74 N.Y.U.L. Rev. "
-"354 (1999) 8<br />William Blackstone, Commentaries on<br />the Laws of "
-"England (1769) 5<br />The Charter and General Laws of the Colony<br />and "
-"Province of Massachusetts Bay (Boston, 1814) 6<br />144 Cong. Rec. H9951 "
-"(daily ed. Oct. 7, 1998) 3<br />Thomas I. Emerson, The System of Freedom<br /"
-">of Expression (1970) 9<br />Max Farrand, The Records of the Federal<br /"
-">Convention of 1787 (1937) 6<br />George Lee Haskins, Law and Authority <br /"
-">in Early Massachusetts (1960) 6<br />Melville B. Nimmer, Does Copyright "
-"Abridge<br />the First Amendment Guaranties of Free Speech<br />and the "
-"Press?, 17 UCLA L. Rev. 1180 (1970) 8<br />Mark Rose, Authors and Owners:"
-"<br />The Invention of Copyright (1993) 6<br />Cecily Violet Wedgwood, The "
-"King's Peace (1955) 5"
 
+#. type: Content of: <p>
+msgid "Use: First Amendment Constraints on"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Enclosure of the Public Domain,"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "74 N.Y.U.L. Rev. 354 (1999) 8"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "William Blackstone, Commentaries on"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "the Laws of England (1769) 5"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "The Charter and General Laws of the Colony"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "and Province of Massachusetts Bay (Boston, 1814) 6"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "144 Cong. Rec. H9951 (daily ed. Oct. 7, 1998) 3"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Thomas I. Emerson, The System of Freedom"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "of Expression (1970) 9"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Max Farrand, The Records of the Federal"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Convention of 1787 (1937) 6"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "George Lee Haskins, Law and Authority"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "in Early Massachusetts (1960) 6"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Melville B. Nimmer, Does Copyright Abridge"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "the First Amendment Guaranties of Free Speech"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "and the Press?, 17 UCLA L. Rev. 1180 (1970) 8"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Mark Rose, Authors and Owners:"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "The Invention of Copyright (1993) 6"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Cecily Violet Wedgwood, The King's Peace (1955) 5"
+msgstr ""
+
+#. type: Content of: <h3>
 msgid "Interest of <i>Amicus Curiae</i>"
 msgstr "Intérêt de l'<i>Amicus Curiae</i>"
 
+#. type: Content of: <p>
 msgid ""
 "This brief is filed on behalf of the Free Software Foundation, a charitable "
 "corporation with its main offices in Boston, Massachusetts.<a name="
@@ -320,18 +544,33 @@ msgstr ""
 "encourager le partage, comme pour protéger les droits des utilisateurs et le "
 "domaine public."
 
+#. type: Content of: <h3>
 msgid "Summary of Argument"
 msgstr "Résumé de l'argument"
 
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "Actually, Sonny [Bono] wanted the term of copyright protection to last "
+#| "forever.  <br /> --Rep. Mary Bono <br /> 144 Cong. Rec. H9951 (daily ed. "
+#| "Oct. 7, 1998)"
 msgid ""
 "Actually, Sonny [Bono] wanted the term of copyright protection to last "
-"forever.  <br /> --Rep. Mary Bono <br /> 144 Cong. Rec. H9951 (daily ed. "
-"Oct. 7, 1998)"
+"forever."
 msgstr ""
 "«&nbsp;À vrai dire, Sonny [Bono] voulait que la durée de la protection du "
 "droit d'auteur soit éternelle.&nbsp;»<br /> --Rep. Mary Bono<br />144 Cong. "
 "Rec. H9951 (daily ed. Oct. 7, 1998)"
 
+#. type: Content of: <blockquote><p>
+msgid "--Rep. Mary Bono"
+msgstr ""
+
+#. type: Content of: <blockquote><p>
+msgid "144 Cong. Rec. H9951 (daily ed. Oct. 7, 1998)"
+msgstr ""
+
+#. type: Content of: <p>
 msgid ""
 "If the late Representative Bono believed that was possible, he was "
 "mistaken.  The Court of Appeals erred in holding that Congressmen sharing "
@@ -344,6 +583,7 @@ msgstr ""
 "Constitution interdit expressément simplement parce qu'ils procèdent par "
 "succession de règlements plutôt que par une loi unique."
 
+#. type: Content of: <p>
 msgid ""
 "No one seriously contends that Congress may achieve an expressly "
 "unauthorized end by dividing the means of its achievement into multiple "
@@ -382,6 +622,7 @@ msgstr ""
 "du droit d'auteur) de Sonny Bono, Pub.&nbsp;L.&nbsp;No.&nbsp;105-298, Title "
 "I, 112 Stat. 2827, en question dans cette affaire."
 
+#. type: Content of: <p>
 msgid ""
 "In the sphere of copyright, the limited time requirement protects the public "
 "domain, by providing for its constant enrichment.  The public domain is an "
@@ -408,6 +649,7 @@ msgstr ""
 "dichotomie idée/expression -- mais aussi dans le rôle qu'elle joue&nbsp;: la "
 "protection des ressources communes du domaine public."
 
+#. type: Content of: <p>
 msgid ""
 "The CTEA unconstitutionally imperils the commons of the public domain by "
 "flouting the clear intention of the limited term requirement.  If Congress "
@@ -442,9 +684,11 @@ msgstr ""
 "constitutionnel de libre expression, le langage de la clause relative au "
 "droit d'auteur et l'histoire de nos traditions n'en demandent pas moins."
 
+#. type: Content of: <h3>
 msgid "Argument"
 msgstr "Argument"
 
+#. type: Content of: <h3>
 msgid ""
 "The Framers Intended Copyright to Be a Statutory Monopoly Awarded to Works "
 "of Authorship For A Strictly Limited Time"
@@ -452,6 +696,7 @@ msgstr ""
 "Les pionniers destinaient le droit d'auteur à établir un monopole sur les "
 "&oelig;uvres d'auteur pendant un temps strictement limité"
 
+#. type: Content of: <p>
 msgid ""
 "The words &ldquo;for limited Times&rdquo; appear in the Copyright Clause, "
 "Article I, &#167;8, cl.&nbsp;8 as the result of long and bitter experience "
@@ -496,6 +741,7 @@ msgstr ""
 "années qui ont écédé la guerre civile en Angleterre. <i>Voir</i> Cecily "
 "Violet Wedgwood, <i>The King's Peace</i> (la paix du roi) 156-62 (1955)."
 
+#. type: Content of: <p>
 msgid ""
 "American colonists at odds with the government of Charles I perceived the "
 "evil of governmental monopolies; in the Massachusetts Bay Colony as early as "
@@ -518,6 +764,7 @@ msgstr ""
 "Massachusetts</i> (Les lois et autorités dans les premiers temps du "
 "Massachussets) 130 (1960)."
 
+#. type: Content of: <p>
 msgid ""
 "When the Copyright Act of 1709, the famous &ldquo;Statute of Anne,&rdquo; "
 "was framed, the drafters insisted on a limited term far more stringent than "
@@ -541,6 +788,7 @@ msgstr ""
 "loi sur le droit d'auteur de 1790. <i>Voir</i> Copyright Act of 1709, 8 "
 "Anne, c.&nbsp;19; Act of May 31, 1790, 1 Stat. 124-25."
 
+#. type: Content of: <p>
 msgid ""
 "The Framers of the Constitution unanimously accepted the idea of the limited "
 "term for copyrights in the drafting of Article I, without substantial "
@@ -564,6 +812,7 @@ msgstr ""
 "histoire des tentatives de contrôle des nuisances générées par les monopoles "
 "statutaires en limitant leur durée."
 
+#. type: Content of: <p>
 msgid ""
 "The constitutional importance of the &ldquo;limited Times&rdquo; restriction "
 "cannot be vitiated, as the Court of Appeals' reasoning would do, by "
@@ -601,6 +850,7 @@ msgstr ""
 "public, couverts par statut devant la Cour, qui diffère la reversion de "
 "chaque droit d'auteur existant à des décennies."
 
+#. type: Content of: <h3>
 msgid ""
 "The Historical Policy Embodied in the Copyright Clause is Absolutely "
 "Essential to Reconcile the Copyright Monopoly with the System of Free "
@@ -610,6 +860,7 @@ msgstr ""
 "absolument nécessaire à la réconciliation entre le monopole du droit "
 "d'auteur et le système de libre expression"
 
+#. type: Content of: <p>
 msgid ""
 "As important as the principle of limited time is in the general restraint of "
 "the harms that flow from statutory monopolies, in the area of copyright it "
@@ -655,6 +906,7 @@ msgstr ""
 "serait donc si copieusement protégé aux fins de l'expression libre qu'aucune "
 "réclamation du premier amendement ne peut être recevable. 239 F.3d, 375-376."
 
+#. type: Content of: <p>
 msgid ""
 "This position simply cannot be right.  The Court below conceded that an "
 "attempt by Congress to make copyright perpetual <i>in haec verba</i> would "
@@ -674,6 +926,7 @@ msgstr ""
 "premier amendement impuissant pour autant. Comme le disait le grand "
 "spécialiste du droit d'auteur Melville Nimmer&nbsp;:"
 
+#. type: Content of: <blockquote><p>
 msgid ""
 "If I may own Blackacre in perpetuity, why not also <i>Black Beauty</i>? The "
 "answer lies in the first amendment.  There is no countervailing speech "
@@ -687,6 +940,7 @@ msgstr ""
 "éternelle d'une propriété matérielle, réelle et personnelle. Une tel langage "
 "existe concernant la propriété littéraire ou le droit d'auteur."
 
+#. type: Content of: <p>
 msgid ""
 "Melville B. Nimmer, <i>Does Copyright Abridge the First Amendment Guaranties "
 "of Free Speech and the Press?</i>, 17 UCLA L. Rev. 1180, 1193 (1970)."
@@ -696,6 +950,7 @@ msgstr ""
 "garanties de la liberté d'expression et de la presse?), 17 UCLA L. Rev. "
 "1180, 1193 (1970)."
 
+#. type: Content of: <p>
 msgid ""
 "Nor has the Court of Appeals' position any support in the holdings of this "
 "Court.  On the contrary, as this Court's cases make clear, copyright and "
@@ -745,6 +1000,7 @@ msgstr ""
 "plus importantes que nécessaires pour favoriser un intérêt gouvernemental "
 "substantiel&nbsp;». <i>Id.</i>, 537 (citation omise)."
 
+#. type: Content of: <p>
 msgid ""
 "The First Amendment abhors the vacuum of limited expression.  The making of "
 "new works by the criticism, imitation, revision, and rearrangement of "
@@ -800,6 +1056,7 @@ msgstr ""
 "d'Appel a failli dans son devoir de protéger les intérêts inestimables du "
 "système de libre expression."
 
+#. type: Content of: <h4>
 msgid ""
 "Indefinite Extension of the Term of Monopoly on Existing Works of Authorship "
 "is Incompatible with Both the Copyright Clause and the First Amendment"
@@ -808,6 +1065,7 @@ msgstr ""
 "d'auteur existantes est incompatible avec la clause relative au droit "
 "d'auteur et le premier amendement"
 
+#. type: Content of: <p>
 msgid ""
 "Precisely because the creation of exclusive rights in expressions inevitably "
 "involves some danger of the monopolization of ideas, it is crucial to the "
@@ -824,6 +1082,7 @@ msgstr ""
 "Sous notre Constitution la reversion de toutes les &oelig;uvres d'auteur "
 "doit irrévocablement être acquise au public."
 
+#. type: Content of: <p>
 msgid ""
 "This reversion is not constitutionally optional.  In the context of patents, "
 "this Court has described the reversion as a &ldquo;condition&rdquo; that the "
@@ -837,6 +1096,7 @@ msgstr ""
 "passe dans le domaine public à l'expiration du brevet. <i>Singer Mfg. Co.</"
 "i> v. <i>June Mfg. Co.</i>, 163 U.S. 169, 185 (1896)."
 
+#. type: Content of: <p>
 msgid ""
 "Notwithstanding this evident constitutional principle, the Court of Appeals "
 "held that Congress may create a perpetuity in copyrights so long as it does "
@@ -875,6 +1135,7 @@ msgstr ""
 "vingt sept mots, dirigée à prouver que les neuf premières sont d'une façon "
 "ou d'une autre constitutionnellement irrecevables."
 
+#. type: Content of: <p>
 msgid ""
 "This Court first held in the <i>Trademark Cases</i>, 100 U.S. 82 (1879), and "
 "reaffirmed in <i>Feist, supra</i>, 499 U.S., at 346-47, that Congress cannot "
@@ -900,6 +1161,7 @@ msgstr ""
 "sur la déclaration d'objectifs qui introduit la clause relative au droit "
 "d'auteur."
 
+#. type: Content of: <p>
 msgid ""
 "The Copyright Clause is unique among the enumerations of legislative power "
 "in Article I, &#167;8 in containing a declaration of purpose; it alone "
@@ -918,6 +1180,7 @@ msgstr ""
 "inclus spécifiquement et de façon atypique, est un modèle de contruction "
 "constitutionnelle aberrant."
 
+#. type: Content of: <p>
 msgid ""
 "Even without reference to the beginning of the clause, however, this Court's "
 "prior opinions show that the Court of Appeals has misperceived the task of "
@@ -950,6 +1213,7 @@ msgstr ""
 "durée décrite dans le <abbr title=\"Copyright Term Extension Act\">CTEA</"
 "abbr> serait «&nbsp;limité&nbsp;»."
 
+#. type: Content of: <h4>
 msgid ""
 "The Fifth Amendment Prohibits Legislative Action Such as This With Respect "
 "to Physical Property Rights, and There Is No Constitutional Justification "
@@ -961,6 +1225,7 @@ msgstr ""
 "constitutionnelle ne permet de faire avec la libre expression ce qui ne peut "
 "pas l'être avec la simple ropriété"
 
+#. type: Content of: <p>
 msgid ""
 "On the logic of the Court of Appeals' holding, which is apparently supported "
 "in this Court by the Solicitor General, Congress could pass a statute "
@@ -988,6 +1253,7 @@ msgstr ""
 "durée des droits existants les priverait du bénéfice que le «&nbsp;marché du "
 "droit d'auteur&nbsp;» est supposé leur «&nbsp;assurer&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "But the copyright bargain faces two ways: &ldquo;securing&rdquo; authors "
 "their limited monopoly in return for the reversion to the public.  "
@@ -1014,6 +1280,7 @@ msgstr ""
 "pour la santé du domaine public <a name=\"tex2html3\" href=\"#foot138"
 "\"><strong><sup>[3]</sup></strong></a>."
 
+#. type: Content of: <p>
 msgid ""
 "Nor would the Takings Clause of the Fifth Amendment permit such "
 "uncompensated legislative adjustment of the terms of interest in real "
@@ -1050,6 +1317,7 @@ msgstr ""
 "en anéantissant ou en reportant indéfiniment l'intérêt de reversion sans "
 "payer de compensation."
 
+#. type: Content of: <p>
 msgid ""
 "What the Fifth Amendment prohibits with respect to interference with "
 "existing rights in real property should not be permissible where the rights "
@@ -1074,6 +1342,7 @@ msgstr ""
 "vigueur quand les monopoles statutaires particuliers en question ont été "
 "garantis, et ce, sans l'interférence anticonstitutionnelle du Congrès."
 
+#. type: Content of: <h3>
 msgid ""
 "Particular Dangers of Abuse and Corruption Justify Strict Constitutional "
 "Scrutiny When the Term of Statutory Monopolies is Extended"
@@ -1082,6 +1351,7 @@ msgstr ""
 "constitutionnel rigoureux lorsqu'il s'agit de prolonger la durée des "
 "monopoles établis"
 
+#. type: Content of: <p>
 msgid ""
 "During the first century of our Republic, the term of copyright was extended "
 "once.  During the next seventy years, it was extended once more.  Since "
@@ -1100,6 +1370,7 @@ msgstr ""
 "supplémentaire les droits protégés par le premier amendement à n'importe qui "
 "excepté aux détenteurs de monopoles statutaires."
 
+#. type: Content of: <p>
 msgid ""
 "No pattern of legislation could more clearly indicate the presence of the "
 "very evils against which the Framers of the Constitution and their forebears "
@@ -1144,9 +1415,11 @@ msgstr ""
 "augmente les dangers de corruption sans diminuer le tort fait au domaine "
 "public."
 
+#. type: Content of: <h3>
 msgid "Conclusion"
 msgstr "Conclusion"
 
+#. type: Content of: <p>
 msgid ""
 "Perhaps the late Representative Bono did indeed believe that copyright "
 "should last forever.  That any legislator could hold that view suggests the "
@@ -1165,9 +1438,13 @@ msgstr ""
 "\">CTEA</abbr> viole les exigences de la clause sur le droit d'auteur et du "
 "premier amendement. La décision de la Cour d'Appel devrait être annulée."
 
-msgid "Respectfully submitted.  <br /> <br /> <br />"
+#. type: Content of: <p>
+#, fuzzy
+#| msgid "Respectfully submitted.  <br /> <br /> <br />"
+msgid "Respectfully submitted."
 msgstr "Respectueusement.<br /> <br /> <br />"
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a name=\"foot151\" href=\"#tex2html1\"><sup>1</sup></a> Counsel for both "
 "parties have consented to the filing of this brief, and those consents have "
@@ -1184,6 +1461,7 @@ msgstr ""
 "conseils n'a apporté de contribution monétaire à sa préparation et à sa "
 "soumission."
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a name=\"foot152\" href=\"#tex2html2\"><sup>2</sup></a> The only amendment "
 "made was in the replacement of the phrase originally suggested by Charles "
@@ -1196,6 +1474,7 @@ msgstr ""
 "accordés pendant un «&nbsp;certain temps&nbsp;». <i>Voir</i> 3 <i>id.</i>, p "
 "122."
 
+#. type: Content of: <ul><li>
 msgid ""
 "<a name=\"foot138\" href=\"#tex2html3\"><sup>3</sup></a> The Court of "
 "Appeals minimized the importance of the impoverishment of the public domain "
@@ -1228,22 +1507,30 @@ msgstr ""
 "et de redistribution pendant des décennies."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections (or suggestions) to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections (or suggestions) to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -1254,14 +1541,123 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Miluz<br />Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;"
 "april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-msgid "Translations of this page"
-msgstr "Traductions de cette page"
+#~ msgid ""
+#~ "No. 01-618 <br /> <br /> <br /> I<small>N </small>T<small>HE</small> <br /"
+#~ "> <b>Supreme Court of the United States</b> <br /> <br /> E<small>RIC </"
+#~ "small>E<small>LDRED</small>, <i>et al.</i>, <br /> <i>Petitioners,</i> "
+#~ "<br /> <br /> v. <br /> <br /> J<small>OHN </small>D. A<small>SHCROFT</"
+#~ "small>, In his official capacity <br /> as Attorney General, <br /> "
+#~ "<i>Respondent.</i> <br /> <br /> <br /> <b>On Writ of Certiorari to the "
+#~ "United States <br /> Court of Appeals for the <br /> District of Columbia "
+#~ "Circuit</b> <br /> <br /> <b>Brief <i>Amicus Curiae</i> of the <br /> "
+#~ "Free Software Foundation <br /> in Support of Petitioners</b> <br /> <br /"
+#~ ">"
+#~ msgstr ""
+#~ "No. 01-618 <br /><br /><br />À L<small>A</small><br /><strong>Cour "
+#~ "Suprême des États-Unis</strong><br /><br />E<small>RIC</small> "
+#~ "E<small>LDRED</small>, <i>et al.</i>,<br /><i>Requérants</i><br /><br /"
+#~ ">v. <br /><br />J<small>OHN </small>D. A<small>HCROFT</small>, En sa "
+#~ "qualité officielle <br />de Ministre de la Justice, <br /><i>Intimé</"
+#~ "i><br /><br /><br /><strong>Requête en Certiorari<br />auprès de la Cour "
+#~ "Suprême des États-Unis<br />pour le Tribunal de première instance "
+#~ "Columbia</strong> <br /><br /><strong>Brief <i>Amicus Curiae</i><br />de "
+#~ "la Free Software Foundation <br />à l'Appui des Requérants</strong><br /"
+#~ "><br />"
+
+#~ msgid ""
+#~ "E<small>BEN </small>M<small>OGLEN</small> <br /> <i>Counsel of record</i> "
+#~ "<br /> 435 West 116th Street <br /> New York, NY 10027 <br /> (212) 854-"
+#~ "8382 <br /> <br /> Counsel for <i>Amicus Curiae</i>"
+#~ msgstr ""
+#~ "E<small>BEN </small>M<small>OGLEN</small> <br /><i>Avocat inscrit au "
+#~ "dossier</i><br />435 West 116th Street<br />New York, NY 10027<br />(212) "
+#~ "854-8382 <br /><br />Avocat de l'<i>Amicus Curiae</i>"
+
+#~ msgid ""
+#~ "Abrams v. United States, 250 U.S. 616 (1919) 10 <br /> Darcy v. Allen, "
+#~ "(The Case of Monopolies), <br /> 11 Co. Rep. 84 (1603) 5 <br /> Eldred v. "
+#~ "Reno, 239 F.3d 372 (CADC 2001) 7, <i>passim</i> <br /> Feist "
+#~ "Publications, Inc. v. Rural Telephone <br /> Service, Co., Inc., 499 U.S. "
+#~ "340 (1991) 7,11,12 <br /> Goldstein v. California, 412 U.S. 546 (1973) 12 "
+#~ "<br /> Harper &amp; Row, Publishers, Inc.  v. Nation <br /> Enterprises, "
+#~ "471 U.S. 539 (1985) 9 <br /> Hawaii Housing Authority v.  <br /> Midkiff, "
+#~ "467 U.S. 229 (1984) 14 <br /> New York Times Co. v. Sullivan, 376 U.S. "
+#~ "254 (1964) 10 <br /> Reno v. American Civil Liberties Union, <br /> 521 U."
+#~ "S. 844 (1997) 10 <br /> San Francisco Arts &amp; Athletics, Inc. v.  <br /"
+#~ "> United States Olympic Committee, <br /> 483 U.S. 522 (1987) 9 <br /> "
+#~ "Schnapper v. Foley, 667 F.2d 102 (CADC 1981) 11 <br /> Singer Mfg. Co. v. "
+#~ "June Mfg. Co., 163 U.S. 169 (1896) 11 <br /> Trademark Cases, 100 U.S. 82 "
+#~ "(1879) 11 <br /> West Virginia Board of Education v. Barnette, <br /> 319 "
+#~ "U.S. 624 (1943) 10"
+#~ msgstr ""
+#~ "Abrams v. United States, 250 U.S. 616 (1919) 10<br />Darcy v. Allen, (The "
+#~ "Case of Monopolies),<br />11 Co. Rep. 84 (1603) 5<br />Eldred v. Reno, "
+#~ "239 F.3d 372 (CADC 2001) 7, <i>passim</i><br />Feist Publications, Inc. "
+#~ "v. Rural Telephone<br />Service, Co., Inc., 499 U.S. 340 (1991) "
+#~ "7,11,12<br />Goldstein v. California, 412 U.S. 546 (1973) 12<br />Harper "
+#~ "&amp; Row, Publishers, Inc.  v. Nation<br />Enterprises, 471 U.S. 539 "
+#~ "(1985) 9<br />Hawaii Housing Authority v.<br />Midkiff, 467 U.S. 229 "
+#~ "(1984) 14<br />New York Times Co. v. Sullivan, 376 U.S. 254 (1964) 10<br /"
+#~ ">Reno v. American Civil Liberties Union,<br />521 U.S. 844 (1997) 10<br /"
+#~ ">San Francisco Arts &amp; Athletics, Inc. v.<br />United States Olympic "
+#~ "Committee,<br />483 U.S. 522 (1987) 9<br />Schnapper v. Foley, 667 F.2d "
+#~ "102 (CADC 1981) 11<br />Singer Mfg. Co. v. June Mfg. Co., 163 U.S. 169 "
+#~ "(1896) 11<br />Trademark Cases, 100 U.S. 82 (1879) 11<br />West Virginia "
+#~ "Board of Education v. Barnette,<br />319 U.S. 624 (1943) 10"
+
+#~ msgid ""
+#~ "U.S. Const. Art. I, &#167;8, cl.&nbsp;8 3, <i>passim</i> <br /> U.S. "
+#~ "Const. Amend. I 7, <i>passim</i> <br /> U.S. Const. Amend. V 13,14 <br /> "
+#~ "Copyright Act of 1709 (Statute of Anne), <br /> 8 Anne, c.&nbsp;19 6 <br /"
+#~ "> Copyright Act of 1790, 1 Stat. 124 6 <br /> Sonny Bono Copyright Term "
+#~ "<br /> Extension Act, Pub.&nbsp;L.&nbsp;No.&nbsp;105-298, <br /> Title I, "
+#~ "112 Stat. 2827 3, <i>passim</i> <br /> Statute of Monopolies, 21 Jac."
+#~ "&nbsp;I, c.&nbsp;3 5"
+#~ msgstr ""
+#~ "U.S. Const. Art. I, &sect;8, cl.&nbsp;8 3, <i>passim</i><br />U.S. Const. "
+#~ "Amend. I 7, <i>passim</i><br />U.S. Const. Amend. V 13,14<br />Copyright "
+#~ "Act of 1709 (Statute of Anne),<br />8 Anne, c.&nbsp;19 6<br />Copyright "
+#~ "Act of 1790, 1 Stat. 124 6<br />Sonny Bono Copyright Term<br />Extension "
+#~ "Act, Pub.&nbsp;L.&nbsp;No.&nbsp;105-298,<br />Title I, 112 Stat. 2827 3, "
+#~ "<i>passim</i><br />Statute of Monopolies, 21 Jac.&nbsp;I, c.&nbsp;3 5"
+
+#~ msgid ""
+#~ "Yochai Benkler, Free as the Air to Common <br /> Use: First Amendment "
+#~ "Constraints on <br /> Enclosure of the Public Domain, <br /> 74 N.Y.U.L. "
+#~ "Rev. 354 (1999) 8 <br /> William Blackstone, Commentaries on <br /> the "
+#~ "Laws of England (1769) 5 <br /> The Charter and General Laws of the "
+#~ "Colony <br /> and Province of Massachusetts Bay (Boston, 1814) 6 <br /> "
+#~ "144 Cong. Rec. H9951 (daily ed. Oct. 7, 1998) 3 <br /> Thomas I. Emerson, "
+#~ "The System of Freedom <br /> of Expression (1970) 9 <br /> Max Farrand, "
+#~ "The Records of the Federal <br /> Convention of 1787 (1937) 6 <br /> "
+#~ "George Lee Haskins, Law and Authority <br /> in Early Massachusetts "
+#~ "(1960) 6 <br /> Melville B. Nimmer, Does Copyright Abridge <br /> the "
+#~ "First Amendment Guaranties of Free Speech <br /> and the Press?, 17 UCLA "
+#~ "L. Rev. 1180 (1970) 8 <br /> Mark Rose, Authors and Owners: <br /> The "
+#~ "Invention of Copyright (1993) 6 <br /> Cecily Violet Wedgwood, The King's "
+#~ "Peace (1955) 5"
+#~ msgstr ""
+#~ "Yochai Benkler, Free as the Air to Common<br />Use: First Amendment "
+#~ "Constraints on<br />Enclosure of the Public Domain,<br />74 N.Y.U.L. Rev. "
+#~ "354 (1999) 8<br />William Blackstone, Commentaries on<br />the Laws of "
+#~ "England (1769) 5<br />The Charter and General Laws of the Colony<br />and "
+#~ "Province of Massachusetts Bay (Boston, 1814) 6<br />144 Cong. Rec. H9951 "
+#~ "(daily ed. Oct. 7, 1998) 3<br />Thomas I. Emerson, The System of "
+#~ "Freedom<br />of Expression (1970) 9<br />Max Farrand, The Records of the "
+#~ "Federal<br />Convention of 1787 (1937) 6<br />George Lee Haskins, Law and "
+#~ "Authority <br />in Early Massachusetts (1960) 6<br />Melville B. Nimmer, "
+#~ "Does Copyright Abridge<br />the First Amendment Guaranties of Free "
+#~ "Speech<br />and the Press?, 17 UCLA L. Rev. 1180 (1970) 8<br />Mark Rose, "
+#~ "Authors and Owners:<br />The Invention of Copyright (1993) 6<br />Cecily "
+#~ "Violet Wedgwood, The King's Peace (1955) 5"

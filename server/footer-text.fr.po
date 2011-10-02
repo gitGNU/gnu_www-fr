@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: footer-text.html\n"
-"POT-Creation-Date: 2011-07-13 20:25-0300\n"
+"POT-Creation-Date: 2011-09-30 20:25-0300\n"
 "PO-Revision-Date: 2011-07-19 10:36+0200\n"
 "Last-Translator: Raymond Rochedieu <ecrire@papiray.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,322 +16,69 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
-#. type: Content of: <div><div><div><div><p>
-msgid ""
-"<a href=\"#footer\">Skip sitemap</a> or <a href=\"#sitemap-2\">skip to "
-"licensing items</a>"
-msgstr ""
-"<a href=\"#footer\">Sauter le plan du site</a> ou <a href=\"#sitemap-2"
-"\">aller aux termes d'utilisation</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/gnu/gnu-history.html\">GNU History</a>"
-msgstr "<a href=\"/gnu/gnu-history.fr.html\">Histoire de GNU</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/help/\">Get involved</a>"
-msgstr "<a href=\"/help/help.fr.html\">S'impliquer</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid ""
-"<a href=\"http://savannah.gnu.org/people/?type_id=1\">Projects that need "
-"help</a>"
-msgstr ""
-"<a href=\"http://savannah.gnu.org/people/?type_id=1\">Projets ayant besoin "
-"d'aide</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid ""
-"<a href=\"/server/standards/translations/priorities.html#Languages\">Help "
-"translate this website</a>"
-msgstr ""
-"<a href=\"/server/standards/translations/priorities.html#Languages\">Aider à "
-"traduire ce site web</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid ""
-"<a href=\"/server/takeaction.html#unmaint\">Take over an unmaintained "
-"package</a>"
-msgstr ""
-"<a href=\"/server/takeaction.fr.html#unmaint\">S'occuper d'un paquet non "
-"maintenu</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/server/takeaction.html#gnustep\">Use GNUstep</a>"
-msgstr "<a href=\"/server/takeaction.fr.html#gnustep\">Utiliser GNUstep</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/distros/free-distros.html\">Download GNU</a>"
-msgstr "<a href=\"/distros/free-distros.fr.html\">Télécharger GNU</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://directory.fsf.org/GNU/\">GNU packages</a>"
-msgstr "<a href=\"http://directory.fsf.org/GNU/\">Paquets GNU</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/manual/manual.html\">Free documentation</a>"
-msgstr "<a href=\"/manual/manual.html\">Documentation libre</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://lists.gnu.org/\">GNU mailing lists</a>"
-msgstr "<a href=\"http://lists.gnu.org/\">Listes de diffusion GNU</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://savannah.gnu.org/\">GNU savannah</a>"
-msgstr "<a href=\"http://savannah.gnu.org/\">GNU savannah</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid ""
-"<a href=\"http://libreplanet.org/\">Connect with free software users</a>"
-msgstr ""
-"<a href=\"http://libreplanet.org/\">Se connecter à d'autres utilisateurs de "
-"logiciels libres</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/people/\">GNU's Who?</a>"
+#. type: Content of: <div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/people/\">GNU's Who?</a>"
+msgid "<a href=\"/\">GNU&nbsp;home&nbsp;page</a>"
 msgstr "<a href=\"/people/\">Trombinoscope GNU</a>"
 
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://planet.gnu.org/\">Planet GNU</a>"
-msgstr "<a href=\"http://planet.gnu.org/\">Planet GNU</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/contact/gnu-advisory.html\">GNU Advisory Committee</a>"
-msgstr "<a href=\"/contact/gnu-advisory.html\">Comité consultatif de GNU</a>"
-
-#. type: Content of: <div><div><div><div><p>
-msgid "<a href=\"#sitemap-3\">Skip to general items</a>"
-msgstr "<a href=\"#sitemap-3\">Aller aux points généraux</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://www.fsf.org/licensing\">Software licensing</a>"
-msgstr "<a href=\"http://www.fsf.org/licensing\">Licence logicielle</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid ""
-"<a href=\"http://www.fsf.org/licensing/education\">Licensing education</a>"
-msgstr ""
-"<a href=\"http://www.fsf.org/licensing/education\">Ressources sur les "
-"licences</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid "<a href=\"/licenses\">Free software licenses</a>"
-msgstr "<a href=\"/licenses\">Licences de logiciels libres</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li><ul><li>
-msgid "<a href=\"/licenses/gpl.html\">GNU GPL</a>"
-msgstr "<a href=\"/licenses/gpl.html\">GNU GPL</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li><ul><li>
-msgid "<a href=\"/licenses/agpl.html\">GNU AGPL</a>"
-msgstr "<a href=\"/licenses/agpl.html\">GNU AGPL</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li><ul><li>
-msgid "<a href=\"/licenses/lgpl.html\">GNU LGPL</a>"
-msgstr "<a href=\"/licenses/lgpl.html\">GNU LGPL</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li><ul><li>
-msgid "<a href=\"/licenses/fdl.html\">GNU FDL</a>"
-msgstr "<a href=\"/licenses/fdl.html\">GNU FDL</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid "<a href=\"/licenses/gpl-faq.html\">Software licensing FAQ</a>"
-msgstr "<a href=\"/licenses/gpl-faq.html\">FAQ sur les licences</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid ""
-"<a href=\"http://www.fsf.org/licensing/compliance\">Licensing compliance</a>"
-msgstr ""
-"<a href=\"http://www.fsf.org/licensing/education\">Respect des licences</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid ""
-"<a href=\"/licenses/gpl-howto.html\">How to use GNU licenses for your own "
-"software</a>"
-msgstr ""
-"<a href=\"/licenses/gpl-howto.fr.html\">Comment utiliser les licences GNU "
-"pour vos propres logiciels</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid ""
-"<a href=\"http://www.fsf.org/resources/service/\">GNU Service Directory</a>"
-msgstr ""
-"<a href=\"http://www.fsf.org/resources/service/\">Annuaire des services de "
-"GNU</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/fun/fun.html\">GNU Fun</a>"
-msgstr "<a href=\"/fun/fun.html\">Humour GNU</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/graphics/graphics.html\">GNU Art</a>"
-msgstr "<a href=\"/graphics/graphics.html\">Art GNU</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/music/music.html\">Music &amp; Songs</a>"
-msgstr "<a href=\"/music/music.html\">Musiques &amp; chansons</a>"
-
-#. type: Content of: <div><div><div><div><p>
-msgid "<a href=\"#sitemap-4\">Skip to philosophical items</a>"
-msgstr "<a href=\"#sitemap-4\">Aller aux points philosophiques</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://www.fsf.org/news/\">Latest News</a>"
-msgstr "<a href=\"http://www.fsf.org/news/\">Dernières nouvelles</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid "<a href=\"http://www.fsf.org/events/\">Upcoming Events</a>"
-msgstr "<a href=\"http://www.fsf.org/events/\">Événements à venir</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid "<a href=\"http://www.fsf.org/blogs/\">FSF Blogs</a>"
+#. type: Content of: <div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"http://www.fsf.org/blogs/\">FSF Blogs</a>"
+msgid "<a href=\"http://www.fsf.org/\">FSF&nbsp;home&nbsp;page</a>"
 msgstr "<a href=\"http://www.fsf.org/blogs/\">Blogs FSF</a>"
 
-#. type: Content of: <div><div><div><div><ul><li>
+#. type: Content of: <div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/graphics/graphics.html\">GNU Art</a>"
+msgid "<a href=\"/graphics/graphics.html\">GNU&nbsp;Art</a>"
+msgstr "<a href=\"/graphics/graphics.html\">Art GNU</a>"
+
+#. type: Content of: <div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/fun/fun.html\">GNU Fun</a>"
+msgid "<a href=\"/fun/fun.html\">GNU&nbsp;Fun</a>"
+msgstr "<a href=\"/fun/fun.html\">Humour GNU</a>"
+
+#. type: Content of: <div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/people/\">GNU's Who?</a>"
+msgid "<a href=\"/people/people.html\">GNU's&nbsp;Who?</a>"
+msgstr "<a href=\"/people/\">Trombinoscope GNU</a>"
+
+#. type: Content of: <div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"http://directory.fsf.org\">Free Software Directory</a>"
 msgid ""
-"<a href=\"http://www.fsf.org/volunteer\">Volunteering and internships</a>"
-msgstr "<a href=\"http://www.fsf.org/volunteer\">Bénévolat et stages</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://www.fsf.org/resources/hw\">Hardware Database</a>"
-msgstr ""
-"<a href=\"http://www.fsf.org/resources/hw\">Base de données du matériel</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://directory.fsf.org\">Free Software Directory</a>"
+"<a href=\"http://directory.fsf.org\">Free&nbsp;Software&nbsp;Directory</a>"
 msgstr "<a href=\"http://directory.fsf.org\">Annuaire de logiciels libres</a>"
 
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://www.fsf.org/resources/\">Free Software Resources</a>"
-msgstr ""
-"<a href=\"http://www.fsf.org/resources/\">Ressources sur le logiciel libre</"
-"a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://www.fsf.org/associate/\">Associate Members</a>"
-msgstr "<a href=\"http://www.fsf.org/associate/\">Membres associés</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://www.fsf.org/associate/account/\">My FSF Account</a>"
-msgstr "<a href=\"http://www.fsf.org/associate/account/\">Mon compte FSF</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://www.fsf.org/about/contact.html\">Contact the FSF</a>"
-msgstr "<a href=\"http://www.fsf.org/about/contact.html\">Contacter la FSF</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://audio-video.gnu.org/\">GNU Audio/Video</a>"
-msgstr "<a href=\"http://audio-video.gnu.org/\">GNU Audio/Vidéo</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid ""
-"<a href=\"/accessibility/accessibility.html\">Accessibility Statement</a>"
-msgstr ""
-"<a href=\"/accessibility/accessibility.html\">Notre position sur "
-"l'accessibilité</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid ""
-"<a href=\"http://ftp.gnu.org/gnu/\">GNU FTP Site</a> and <a href=\"/prep/ftp."
-"html\">mirrors</a>"
-msgstr ""
-"<a href=\"http://ftp.gnu.org/gnu/\">Sites FTP GNU</a> et <a href=\"/prep/ftp."
-"html\">miroirs</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/people/speakers.html\">GNU Speakers</a>"
-msgstr "<a href=\"/people/speakers.html\">Orateurs GNU</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://www.fsf.org/jobs\">Free software jobs</a>"
-msgstr "<a href=\"http://www.fsf.org/jobs\">Emplois dans le logiciel libre</a>"
-
-#. type: Content of: <div><div><div><div><p>
-msgid "<a href=\"#footer\">Skip list</a>"
-msgstr "<a href=\"#footer\">Sauter la liste</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://donate.fsf.org\">Donate to the FSF</a>"
-msgstr "<a href=\"http://donate.fsf.org\">Donner à la FSF</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://www.fsf.org/jfb\">Join the FSF</a>"
-msgstr "<a href=\"http://www.fsf.org/jfb\">Rejoindre la FSF</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/philosophy/\">Free software philosophy</a>"
-msgstr ""
-"<a href=\"/philosophy/philosophy.fr.html\">Éthique du logiciel libre</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid "<a href=\"/philosophy/free-sw.html\">The Free Software Definition</a>"
-msgstr ""
-"<a href=\"/philosophy/free-sw.fr.html\">Définition du logiciel libre</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid "<a href=\"/philosophy/pragmatic.html\">Copyleft: Pragmatic Idealism</a>"
-msgstr ""
-"<a href=\"/philosophy/pragmatic.fr.html\">Copyleft&nbsp;: idéalisme "
-"pragmatique</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid ""
-"<a href=\"/philosophy/free-doc.html\">Free Software and Free Manuals</a>"
-msgstr ""
-"<a href=\"/philosophy/free-doc.fr.html\">Logiciels et manuels libres</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid "<a href=\"/philosophy/selling.html\">Selling Free Software</a>"
-msgstr ""
-"<a href=\"/philosophy/selling.fr.html\">Vendre des logiciels libres</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid ""
-"<a href=\"/philosophy/fs-motives.html\">Motives for Writing Free Software</a>"
-msgstr ""
-"<a href=\"/philosophy/fs-motives.fr.html\">Raisons d'écrire des logiciels "
-"libres</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid "<a href=\"/philosophy/right-to-read.html\">The Right To Read</a>"
-msgstr "<a href=\"/philosophy/right-to-read.fr.html\">Le droit de lire</a>"
-
-#. type: Content of: <div><div><div><div><ul><li><ul><li>
-msgid ""
-"<a href=\"/philosophy/open-source-misses-the-point.html\">Why Open Source "
-"Misses the Point of Free Software</a>"
-msgstr ""
-"<a href=\"/philosophy/open-source-misses-the-point.html\">Pourquoi l'« open "
-"source » passe à coté du problème que soulève le logiciel libre</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"/software/for-windows.html\">Free software for Windows</a>"
-msgstr ""
-"<a href=\"/software/for-windows.html\">Logiciels libres pour Windows</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid ""
-"<a href=\"http://defectivebydesign.org/\">Defective by Design &mdash; Fight "
-"DRM</a>"
-msgstr ""
-"<a href=\"http://defectivebydesign.org/\">Defective by Design &mdash; "
-"Combattre les DRM</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://windows7sins.org/\">Windows 7 Sins</a>"
-msgstr "<a href=\"http://windows7sins.org/\">Les 7 péchés de Windows7</a>"
-
-#. type: Content of: <div><div><div><div><ul><li>
-msgid "<a href=\"http://playogg.org/\">Support free media formats</a>"
-msgstr "<a href=\"http://playogg.org/\">Soutenir les formats médias libres</a>"
+#. type: Content of: <div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/server/takeaction.html#gnustep\">Use GNUstep</a>"
+msgid "<a href=\"/server/sitemap.html\">Site&nbsp;map</a>"
+msgstr "<a href=\"/server/takeaction.fr.html#gnustep\">Utiliser GNUstep</a>"
 
 #. type: Content of: <div><div><p>
+#, fuzzy
+#| msgid ""
+#| "<small>The <a href=\"http://www.fsf.org\">Free Software Foundation</a> is "
+#| "the principal organizational sponsor of the <a href=\"http://www.gnu.org/"
+#| "\">GNU Operating System</a>. <strong>Our mission is to preserve, protect "
+#| "and promote the freedom to use, study, copy, modify, and redistribute "
+#| "computer software, and to defend the rights of Free Software users.</"
+#| "strong></small>"
 msgid ""
 "<small>The <a href=\"http://www.fsf.org\">Free Software Foundation</a> is "
 "the principal organizational sponsor of the <a href=\"http://www.gnu.org/"
 "\">GNU Operating System</a>. <strong>Our mission is to preserve, protect and "
 "promote the freedom to use, study, copy, modify, and redistribute computer "
-"software, and to defend the rights of Free Software users.</strong></small>"
+"software, and to defend the rights of Free Software users.</strong> Support "
+"GNU and the FSF by <a href=\"http://shop.fsf.org/\">buying manuals and gear</"
+"a>, <a href=\"http://www.fsf.org/join\">joining the FSF as an associate "
+"member</a> or by making a donation, either <a href=\"http://donate.fsf.org/"
+"\">directly to the FSF</a> or <a href=\"http://flattr.com/thing/313733/"
+"gnuproject-on-Flattr\">via Flattr</a>.</small>"
 msgstr ""
 "<small>La <a href=\"http://www.fsf.org\">Free Software Foundation</a> est le "
 "principal sponsor institutionnel du <a href=\"http://www.gnu.org/\">système "
@@ -341,21 +88,263 @@ msgstr ""
 "utilisateurs de logiciels libres.</strong></small>"
 
 #. type: Content of: <div><div><p>
-msgid ""
-"<small><strong>Support GNU and the FSF by <a href=\"http://shop.fsf.org/"
-"\">buying manuals and gear</a>, <a href=\"http://www.fsf.org/join\">joining "
-"the FSF as an associate member</a> or by making a donation, either <a href="
-"\"http://donate.fsf.org/\">directly to the FSF</a> or <a href=\"http://"
-"flattr.com/thing/313733/gnuproject-on-Flattr\">via Flattr</a>.</strong></"
-"small>"
-msgstr ""
-"<small><strong>Soutenez GNU et la FSF <a href=\"http://shop.fsf.org/\">en "
-"achetant des manuels et autres objets</a>, <a href=\"http://www.fsf.org/join"
-"\">en adhérant à la FSF en tant que membre associé</a> ou en faisant un don, "
-"soit <a href=\"http://donate.fsf.org/\">directement à la FSF</a>, soit <a "
-"href=\"http://flattr.com/thing/313733/gnuproject-on-Flattr\">via Flattr</a>."
-"</strong></small>"
-
-#. type: Content of: <div><div><p>
 msgid "<a href=\"#header\">back to top</a>"
 msgstr "<a href=\"#header\">Haut de la page</a>"
+
+#~ msgid ""
+#~ "<a href=\"#footer\">Skip sitemap</a> or <a href=\"#sitemap-2\">skip to "
+#~ "licensing items</a>"
+#~ msgstr ""
+#~ "<a href=\"#footer\">Sauter le plan du site</a> ou <a href=\"#sitemap-2"
+#~ "\">aller aux termes d'utilisation</a>"
+
+#~ msgid "<a href=\"/gnu/gnu-history.html\">GNU History</a>"
+#~ msgstr "<a href=\"/gnu/gnu-history.fr.html\">Histoire de GNU</a>"
+
+#~ msgid "<a href=\"/help/\">Get involved</a>"
+#~ msgstr "<a href=\"/help/help.fr.html\">S'impliquer</a>"
+
+#~ msgid ""
+#~ "<a href=\"http://savannah.gnu.org/people/?type_id=1\">Projects that need "
+#~ "help</a>"
+#~ msgstr ""
+#~ "<a href=\"http://savannah.gnu.org/people/?type_id=1\">Projets ayant "
+#~ "besoin d'aide</a>"
+
+#~ msgid ""
+#~ "<a href=\"/server/standards/translations/priorities.html#Languages\">Help "
+#~ "translate this website</a>"
+#~ msgstr ""
+#~ "<a href=\"/server/standards/translations/priorities.html#Languages"
+#~ "\">Aider à traduire ce site web</a>"
+
+#~ msgid ""
+#~ "<a href=\"/server/takeaction.html#unmaint\">Take over an unmaintained "
+#~ "package</a>"
+#~ msgstr ""
+#~ "<a href=\"/server/takeaction.fr.html#unmaint\">S'occuper d'un paquet non "
+#~ "maintenu</a>"
+
+#~ msgid "<a href=\"/distros/free-distros.html\">Download GNU</a>"
+#~ msgstr "<a href=\"/distros/free-distros.fr.html\">Télécharger GNU</a>"
+
+#~ msgid "<a href=\"http://directory.fsf.org/GNU/\">GNU packages</a>"
+#~ msgstr "<a href=\"http://directory.fsf.org/GNU/\">Paquets GNU</a>"
+
+#~ msgid "<a href=\"/manual/manual.html\">Free documentation</a>"
+#~ msgstr "<a href=\"/manual/manual.html\">Documentation libre</a>"
+
+#~ msgid "<a href=\"http://lists.gnu.org/\">GNU mailing lists</a>"
+#~ msgstr "<a href=\"http://lists.gnu.org/\">Listes de diffusion GNU</a>"
+
+#~ msgid "<a href=\"http://savannah.gnu.org/\">GNU savannah</a>"
+#~ msgstr "<a href=\"http://savannah.gnu.org/\">GNU savannah</a>"
+
+#~ msgid ""
+#~ "<a href=\"http://libreplanet.org/\">Connect with free software users</a>"
+#~ msgstr ""
+#~ "<a href=\"http://libreplanet.org/\">Se connecter à d'autres utilisateurs "
+#~ "de logiciels libres</a>"
+
+#~ msgid "<a href=\"http://planet.gnu.org/\">Planet GNU</a>"
+#~ msgstr "<a href=\"http://planet.gnu.org/\">Planet GNU</a>"
+
+#~ msgid "<a href=\"/contact/gnu-advisory.html\">GNU Advisory Committee</a>"
+#~ msgstr ""
+#~ "<a href=\"/contact/gnu-advisory.html\">Comité consultatif de GNU</a>"
+
+#~ msgid "<a href=\"#sitemap-3\">Skip to general items</a>"
+#~ msgstr "<a href=\"#sitemap-3\">Aller aux points généraux</a>"
+
+#~ msgid "<a href=\"http://www.fsf.org/licensing\">Software licensing</a>"
+#~ msgstr "<a href=\"http://www.fsf.org/licensing\">Licence logicielle</a>"
+
+#~ msgid ""
+#~ "<a href=\"http://www.fsf.org/licensing/education\">Licensing education</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.fsf.org/licensing/education\">Ressources sur les "
+#~ "licences</a>"
+
+#~ msgid "<a href=\"/licenses\">Free software licenses</a>"
+#~ msgstr "<a href=\"/licenses\">Licences de logiciels libres</a>"
+
+#~ msgid "<a href=\"/licenses/gpl.html\">GNU GPL</a>"
+#~ msgstr "<a href=\"/licenses/gpl.html\">GNU GPL</a>"
+
+#~ msgid "<a href=\"/licenses/agpl.html\">GNU AGPL</a>"
+#~ msgstr "<a href=\"/licenses/agpl.html\">GNU AGPL</a>"
+
+#~ msgid "<a href=\"/licenses/lgpl.html\">GNU LGPL</a>"
+#~ msgstr "<a href=\"/licenses/lgpl.html\">GNU LGPL</a>"
+
+#~ msgid "<a href=\"/licenses/fdl.html\">GNU FDL</a>"
+#~ msgstr "<a href=\"/licenses/fdl.html\">GNU FDL</a>"
+
+#~ msgid "<a href=\"/licenses/gpl-faq.html\">Software licensing FAQ</a>"
+#~ msgstr "<a href=\"/licenses/gpl-faq.html\">FAQ sur les licences</a>"
+
+#~ msgid ""
+#~ "<a href=\"http://www.fsf.org/licensing/compliance\">Licensing compliance</"
+#~ "a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.fsf.org/licensing/education\">Respect des licences</"
+#~ "a>"
+
+#~ msgid ""
+#~ "<a href=\"/licenses/gpl-howto.html\">How to use GNU licenses for your own "
+#~ "software</a>"
+#~ msgstr ""
+#~ "<a href=\"/licenses/gpl-howto.fr.html\">Comment utiliser les licences GNU "
+#~ "pour vos propres logiciels</a>"
+
+#~ msgid ""
+#~ "<a href=\"http://www.fsf.org/resources/service/\">GNU Service Directory</"
+#~ "a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.fsf.org/resources/service/\">Annuaire des services "
+#~ "de GNU</a>"
+
+#~ msgid "<a href=\"/music/music.html\">Music &amp; Songs</a>"
+#~ msgstr "<a href=\"/music/music.html\">Musiques &amp; chansons</a>"
+
+#~ msgid "<a href=\"#sitemap-4\">Skip to philosophical items</a>"
+#~ msgstr "<a href=\"#sitemap-4\">Aller aux points philosophiques</a>"
+
+#~ msgid "<a href=\"http://www.fsf.org/news/\">Latest News</a>"
+#~ msgstr "<a href=\"http://www.fsf.org/news/\">Dernières nouvelles</a>"
+
+#~ msgid "<a href=\"http://www.fsf.org/events/\">Upcoming Events</a>"
+#~ msgstr "<a href=\"http://www.fsf.org/events/\">Événements à venir</a>"
+
+#~ msgid ""
+#~ "<a href=\"http://www.fsf.org/volunteer\">Volunteering and internships</a>"
+#~ msgstr "<a href=\"http://www.fsf.org/volunteer\">Bénévolat et stages</a>"
+
+#~ msgid "<a href=\"http://www.fsf.org/resources/hw\">Hardware Database</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.fsf.org/resources/hw\">Base de données du matériel</"
+#~ "a>"
+
+#~ msgid ""
+#~ "<a href=\"http://www.fsf.org/resources/\">Free Software Resources</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.fsf.org/resources/\">Ressources sur le logiciel "
+#~ "libre</a>"
+
+#~ msgid "<a href=\"http://www.fsf.org/associate/\">Associate Members</a>"
+#~ msgstr "<a href=\"http://www.fsf.org/associate/\">Membres associés</a>"
+
+#~ msgid "<a href=\"http://www.fsf.org/associate/account/\">My FSF Account</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.fsf.org/associate/account/\">Mon compte FSF</a>"
+
+#~ msgid ""
+#~ "<a href=\"http://www.fsf.org/about/contact.html\">Contact the FSF</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.fsf.org/about/contact.html\">Contacter la FSF</a>"
+
+#~ msgid "<a href=\"http://audio-video.gnu.org/\">GNU Audio/Video</a>"
+#~ msgstr "<a href=\"http://audio-video.gnu.org/\">GNU Audio/Vidéo</a>"
+
+#~ msgid ""
+#~ "<a href=\"/accessibility/accessibility.html\">Accessibility Statement</a>"
+#~ msgstr ""
+#~ "<a href=\"/accessibility/accessibility.html\">Notre position sur "
+#~ "l'accessibilité</a>"
+
+#~ msgid ""
+#~ "<a href=\"http://ftp.gnu.org/gnu/\">GNU FTP Site</a> and <a href=\"/prep/"
+#~ "ftp.html\">mirrors</a>"
+#~ msgstr ""
+#~ "<a href=\"http://ftp.gnu.org/gnu/\">Sites FTP GNU</a> et <a href=\"/prep/"
+#~ "ftp.html\">miroirs</a>"
+
+#~ msgid "<a href=\"/people/speakers.html\">GNU Speakers</a>"
+#~ msgstr "<a href=\"/people/speakers.html\">Orateurs GNU</a>"
+
+#~ msgid "<a href=\"http://www.fsf.org/jobs\">Free software jobs</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.fsf.org/jobs\">Emplois dans le logiciel libre</a>"
+
+#~ msgid "<a href=\"#footer\">Skip list</a>"
+#~ msgstr "<a href=\"#footer\">Sauter la liste</a>"
+
+#~ msgid "<a href=\"http://donate.fsf.org\">Donate to the FSF</a>"
+#~ msgstr "<a href=\"http://donate.fsf.org\">Donner à la FSF</a>"
+
+#~ msgid "<a href=\"http://www.fsf.org/jfb\">Join the FSF</a>"
+#~ msgstr "<a href=\"http://www.fsf.org/jfb\">Rejoindre la FSF</a>"
+
+#~ msgid "<a href=\"/philosophy/\">Free software philosophy</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/philosophy.fr.html\">Éthique du logiciel libre</a>"
+
+#~ msgid ""
+#~ "<a href=\"/philosophy/free-sw.html\">The Free Software Definition</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/free-sw.fr.html\">Définition du logiciel libre</a>"
+
+#~ msgid ""
+#~ "<a href=\"/philosophy/pragmatic.html\">Copyleft: Pragmatic Idealism</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/pragmatic.fr.html\">Copyleft&nbsp;: idéalisme "
+#~ "pragmatique</a>"
+
+#~ msgid ""
+#~ "<a href=\"/philosophy/free-doc.html\">Free Software and Free Manuals</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/free-doc.fr.html\">Logiciels et manuels libres</a>"
+
+#~ msgid "<a href=\"/philosophy/selling.html\">Selling Free Software</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/selling.fr.html\">Vendre des logiciels libres</a>"
+
+#~ msgid ""
+#~ "<a href=\"/philosophy/fs-motives.html\">Motives for Writing Free "
+#~ "Software</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/fs-motives.fr.html\">Raisons d'écrire des logiciels "
+#~ "libres</a>"
+
+#~ msgid "<a href=\"/philosophy/right-to-read.html\">The Right To Read</a>"
+#~ msgstr "<a href=\"/philosophy/right-to-read.fr.html\">Le droit de lire</a>"
+
+#~ msgid ""
+#~ "<a href=\"/philosophy/open-source-misses-the-point.html\">Why Open Source "
+#~ "Misses the Point of Free Software</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/open-source-misses-the-point.html\">Pourquoi l'« "
+#~ "open source » passe à coté du problème que soulève le logiciel libre</a>"
+
+#~ msgid "<a href=\"/software/for-windows.html\">Free software for Windows</a>"
+#~ msgstr ""
+#~ "<a href=\"/software/for-windows.html\">Logiciels libres pour Windows</a>"
+
+#~ msgid ""
+#~ "<a href=\"http://defectivebydesign.org/\">Defective by Design &mdash; "
+#~ "Fight DRM</a>"
+#~ msgstr ""
+#~ "<a href=\"http://defectivebydesign.org/\">Defective by Design &mdash; "
+#~ "Combattre les DRM</a>"
+
+#~ msgid "<a href=\"http://windows7sins.org/\">Windows 7 Sins</a>"
+#~ msgstr "<a href=\"http://windows7sins.org/\">Les 7 péchés de Windows7</a>"
+
+#~ msgid "<a href=\"http://playogg.org/\">Support free media formats</a>"
+#~ msgstr ""
+#~ "<a href=\"http://playogg.org/\">Soutenir les formats médias libres</a>"
+
+#~ msgid ""
+#~ "<small><strong>Support GNU and the FSF by <a href=\"http://shop.fsf.org/"
+#~ "\">buying manuals and gear</a>, <a href=\"http://www.fsf.org/join"
+#~ "\">joining the FSF as an associate member</a> or by making a donation, "
+#~ "either <a href=\"http://donate.fsf.org/\">directly to the FSF</a> or <a "
+#~ "href=\"http://flattr.com/thing/313733/gnuproject-on-Flattr\">via Flattr</"
+#~ "a>.</strong></small>"
+#~ msgstr ""
+#~ "<small><strong>Soutenez GNU et la FSF <a href=\"http://shop.fsf.org/\">en "
+#~ "achetant des manuels et autres objets</a>, <a href=\"http://www.fsf.org/"
+#~ "join\">en adhérant à la FSF en tant que membre associé</a> ou en faisant "
+#~ "un don, soit <a href=\"http://donate.fsf.org/\">directement à la FSF</a>, "
+#~ "soit <a href=\"http://flattr.com/thing/313733/gnuproject-on-Flattr\">via "
+#~ "Flattr</a>.</strong></small>"

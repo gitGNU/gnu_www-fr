@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: questioning-sco.html\n"
-"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"POT-Creation-Date: 2011-09-20 12:31-0300\n"
 "PO-Revision-Date: 2009-01-20 21:34+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,16 +16,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid "FSF: Questioning SCO: A Hard Look at Nebulous Claims"
 msgstr ""
 "Remise en cause de la position de SCO&nbsp;: une analyse critique de leurs "
 "revendications floues"
 
+#. type: Content of: <h2>
 msgid "Questioning SCO: A Hard Look at Nebulous Claims"
 msgstr ""
 "Remise en cause de la position de SCO&nbsp;: une analyse critique de leurs "
 "revendications floues"
 
+#. type: Attribute 'content' of: <meta>
 msgid ""
 "SCO, GNU, Linux, free, software, foundation, freedom, legal, gpl, gnu, "
 "general, public, license, licensing, IBM, attacks, sue"
@@ -33,12 +36,15 @@ msgstr ""
 "SCO, GNU, Linux, libre, logiciel, fondation, liberté, légal, gpl, gnu, "
 "général, publique, licence, licensing, IBM, attaque, procès"
 
+#. type: Content of: <p>
 msgid "by <strong>Eben Moglen</strong>"
 msgstr "par <strong>Eben Moglen</strong>"
 
+#. type: Content of: <p>
 msgid "Friday 1 August 2003"
 msgstr "vendredi 1er août 2003"
 
+#. type: Content of: <p>
 msgid ""
 "Users of free software around the world are being pressured to pay The SCO "
 "Group, formerly Caldera, on the basis that SCO has &ldquo;intellectual "
@@ -70,6 +76,7 @@ msgstr ""
 "des logiciels libres prétendument en violation de ces droits ne fait que "
 "renforcer les soupçons."
 
+#. type: Content of: <p>
 msgid ""
 "It is impossible to assess the weight of undisclosed evidence.  Based on the "
 "facts currently known, which are the facts SCO itself has chosen to "
@@ -95,9 +102,11 @@ msgstr ""
 "questions que les clients et les avocats pourraient vouloir creuser "
 "lorsqu'ils détermineront leur réponse à la demande de licence de SCO."
 
+#. type: Content of: <h3>
 msgid "Where's the Beef?"
 msgstr "Où est le problème&nbsp;?"
 
+#. type: Content of: <p>
 msgid ""
 "What does SCO actually claim belongs to it that someone else has taken or is "
 "misusing? Though SCO talks about &ldquo;intellectual property,&rdquo; this "
@@ -134,6 +143,7 @@ msgstr ""
 "(1) il faut qu'il y ait un secret&nbsp;; et (2) il faut que le plaignant ait "
 "pris des mesures raisonnables pour conserver ce secret."
 
+#. type: Content of: <p>
 msgid ""
 "So SCO's claims against users of the Linux kernel cannot rest on patent, "
 "trademark, or trade secret.  They can only be copyright claims.  Indeed, SCO "
@@ -151,6 +161,7 @@ msgstr ""
 "portions de code copiées de l'Unix Sys V de SCO, en violation de ses droits "
 "d'auteurs.<a href=\"#foot26\">[2]</a>"
 
+#. type: Content of: <p>
 msgid ""
 "The usual course in copyright infringement disputes is to show the "
 "distributor or distributors of the supposedly-infringing work the "
@@ -181,9 +192,11 @@ msgstr ""
 "copiée par ces développeurs. À la place, SCO exige des utilisateurs qu'ils "
 "prennent une licence. Ce qui nous amène à la question suivante."
 
+#. type: Content of: <h3>
 msgid "Why Do Users Need Licenses?"
 msgstr "Pourquoi les utilisateurs ont-il besoin d'une licence&nbsp;?"
 
+#. type: Content of: <p>
 msgid ""
 "In general, users of copyrighted works do not need licenses.  The Copyright "
 "Act conveys to copyright holders certain exclusive rights in their works.  "
@@ -220,6 +233,7 @@ msgstr ""
 "proposer des logiciels avec des contrats, le tout dans un emballage sous "
 "vide. Mais ce n'est pas parce que la loi requiert une telle licence."
 
+#. type: Content of: <p>
 msgid ""
 "This is why lawsuits of the form that SCO appears to be threatening&mdash;"
 "against users of copyrighted works for infringement damages&mdash;do not "
@@ -246,6 +260,7 @@ msgstr ""
 "lors d'une conférence de presse. Cela n'arrive pas, pour la simple raison "
 "que ce n'est pas légal."
 
+#. type: Content of: <p>
 msgid ""
 "But don't users of free software make copies, and need a license for that "
 "activity? The Copyright Act contains a special limitation on the exclusive "
@@ -270,9 +285,11 @@ msgstr ""
 "elle besoin d'une licence pour ce faire&nbsp;? Oui, elle en aurait besoin, "
 "et elle la possède d'ores et déjà."
 
+#. type: Content of: <h3>
 msgid "Do Users Already Have a License?"
 msgstr "Les utilisateurs possèdent-ils déjà une licence&nbsp;?"
 
+#. type: Content of: <p>
 msgid ""
 "The Linux kernel is a computer program that combines copyrighted "
 "contributions from tens of thousands of individual programmers and firms.  "
@@ -297,6 +314,7 @@ msgstr ""
 "tous les ayant-droits dont le travail est intégré, même sous une forme "
 "combinée ou dérivée publiée sous les termes de cette licence."
 
+#. type: Content of: <p>
 msgid ""
 "SCO, it bears repeating, has long distributed the Linux kernel under GPL, "
 "and continues to do so as of this writing.  It has directly given users "
@@ -319,6 +337,7 @@ msgstr ""
 "seule raison que SCO souhaiterait que, finalement, la licence que cette "
 "entreprise utilisait déjà soit différente."
 
+#. type: Content of: <p>
 msgid ""
 "In response to this simple fact, some SCO officials have recently argued "
 "that there is somehow a difference between their &ldquo;distribution&rdquo; "
@@ -376,9 +395,11 @@ msgstr ""
 "ayant-droit pour qu'il accorde plus de respect à cette seconde licence qu'il "
 "n'en a accordé à la première&nbsp;?"
 
+#. type: Content of: <h3>
 msgid "Conclusion"
 msgstr "Conclusion"
 
+#. type: Content of: <p>
 msgid ""
 "Users asked to take a license from SCO on the basis of alleged copyright "
 "infringement by the distributors of the Linux kernel have a right to ask "
@@ -410,9 +431,11 @@ msgstr ""
 "de la marche à suivre pour répondre aux exigences de SCO. J'espère que nous "
 "aurons bientôt certaines des réponses."
 
+#. type: Content of: <h4>
 msgid "Footnotes"
 msgstr "Notes"
 
+#. type: Content of: <ol><li>
 msgid ""
 "Linux kernel source under GPL was available from SCO's FTP site as of July "
 "21, 2003."
@@ -420,6 +443,7 @@ msgstr ""
 "Le code source du noyau Linux était disponible sur le site FTP de SCO le 21 "
 "juillet 2003, lors de l'écriture de ce texte."
 
+#. type: Content of: <ol><li>
 msgid ""
 "See <a href=\"http://ir.sco.com/ReleaseDetail.cfm?ReleaseID=114170\"> SCO "
 "Press Release, July 21, 2003</a>."
@@ -427,6 +451,7 @@ msgstr ""
 "Se reporter au <a href=\"http://ir.sco.com/ReleaseDetail.cfm?ReleaseID=114170"
 "\">communiqué de presse de SCO daté du 21 juillet 2003</a> [en anglais]."
 
+#. type: Content of: <p>
 msgid ""
 "<em>Eben Moglen is professor of law at Columbia University Law School.  He "
 "serves without fee as General Counsel of the Free Software Foundation.</em>"
@@ -434,28 +459,37 @@ msgstr ""
 "<em>Eben Moglen est professeur de droit à la Columbia University Law School. "
 "Il sert gracieusement d'avocat-conseil à la Free Software Foundation.</em>"
 
+#. type: Content of: <h4>
 msgid ""
 "<a href=\"/philosophy/sco/sco.html\">Other Texts to Read related to SCO</a>."
 msgstr ""
 "<a href=\"/philosophy/sco/sco.fr.html\">Autres textes concernant SCO</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -465,9 +499,11 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2003 Eben Moglen"
 msgstr "Copyright &copy; 2003 Eben Moglen"
 
+#. type: Content of: <div><p>
 msgid ""
 "Verbatim copying of this article is permitted in any medium, provided this "
 "notice is preserved."
@@ -477,14 +513,13 @@ msgstr ""
 "préservée."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Marc Chauvet.<br />Révision&nbsp;: <a href=\"mailto:trad-"
 "gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-msgid "Translations of this page"
-msgstr "Traductions de cette page"

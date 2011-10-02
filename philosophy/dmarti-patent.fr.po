@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dmarti-patent.html\n"
-"POT-Creation-Date: 2008-08-25 16:25-0300\n"
+"POT-Creation-Date: 2011-09-20 12:29-0300\n"
 "PO-Revision-Date: 2008-12-30 10:25+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,21 +16,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid "Patent Reform Now - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
 "Réformons les brevets maintenant - GNU Project - Free Software Foundation "
 "(FSF)"
 
+#. type: Content of: <h2>
 msgid "Patent Reform Now! Mail USPTO before 12 April 2001!"
 msgstr ""
 "Réformons les brevets maintenant&nbsp;! Contactez par courriel l'Office "
 "américain des brevets et des marques d'ici au 12 Avril 2001&nbsp;!"
 
+#. type: Content of: <p>
 msgid ""
 "by Don Marti <a href=\"mailto:dmarti@ssc.com\">&lt;dmarti@ssc.com&gt;</a>"
 msgstr ""
 "par Don Marti <a href=\"mailto:dmarti@ssc.com\">&lt;dmarti@ssc.com&gt;</a>"
 
+#. type: Content of: <p>
 msgid ""
 "<em> [This page remains here for historical interest; we will post the "
 "results of this campaign when we hear who who has been put on the "
@@ -40,9 +44,11 @@ msgstr ""
 "résultats de cette campagne lorsque nous saurons qui a été nommé au comité.]"
 "</em>"
 
+#. type: Content of: <p>
 msgid "3 April 2001"
 msgstr "le 3 avril 2001"
 
+#. type: Content of: <p>
 msgid ""
 "Only six working days remain until the deadline arrives to submit "
 "nominations for the US Patent and Trademark Office's Patent Public Advisory "
@@ -62,6 +68,7 @@ msgstr ""
 "suggérez la nomination. Ça ne prend pas longtemps et vous pouvez le faire "
 "par courriel."
 
+#. type: Content of: <p>
 msgid ""
 "Richard M. Stallman, inventor of notable software innovations including the "
 "Emacs editor and the software distribution model &ldquo;copyleft&rdquo;, is "
@@ -84,6 +91,7 @@ msgstr ""
 "peut faire office de CV [pour le courrier à l'USPTO], car elle résume ses "
 "réalisations."
 
+#. type: Content of: <p>
 msgid ""
 "If you a fan of other patent reform advocates, you might consider nominating "
 "one of them instead of, or in addition to, RMS. Lawrence Lessig, Eben Moglen "
@@ -99,6 +107,7 @@ msgstr ""
 "l'USPTO à corriger son système défaillant, trouvez quelqu'un pour suggérer "
 "votre nomination."
 
+#. type: Content of: <p>
 msgid ""
 "Last year, Acting Secretary of Commerce Robert L. Mallett appointed <a href="
 "\"http://www.uspto.gov/web/offices/com/speeches/00-43.htm\">an initial "
@@ -113,6 +122,7 @@ msgstr ""
 "professeurs (dont l'un est professeur de droit, d'où le total de neuf, si "
 "vous comptez). Aucun n'est défenseur de la réforme des brevets."
 
+#. type: Content of: <p>
 msgid ""
 "Here is the original notice from the Federal Register (converted from the <a "
 "href=\"http://www.uspto.gov/web/offices/com/sol/notices/pubadvcomnom.pdf\"> "
@@ -123,6 +133,7 @@ msgstr ""
 "com/sol/notices/pubadvcomnom.pdf\">fichier original au format PDF</a> sur le "
 "site de l'USPTO)."
 
+#. type: Content of: <p>
 msgid ""
 "Mail <a href=\"mailto:PPACnomination@uspto.gov\">&lt;PPACnomination@uspto."
 "gov&gt;</a> today."
@@ -130,24 +141,46 @@ msgstr ""
 "Contactez <a href=\"mailto:PPACnomination@uspto.gov\">&lt;"
 "PPACnomination@uspto.gov&gt;</a> dès aujourd'hui."
 
+#. type: Content of: <p>
 msgid "<b>DEPARTMENT OF COMMERCE </b>"
 msgstr "<b>SÉCRÉTARIAT D'ÉTAT AU COMMERCE DES ÉTATS-UNIS</b>"
 
-msgid ""
-"<br /><b>United States Patent and Trademark Office </b> <br />[Docket No. "
-"000317075103502] <br />RIN 0651 XX22 <br /><b>Public Advisory Committees</b> "
-"<br /><b>AGENCY:</b> United States Patent and Trademark Office, Commerce.  "
-"<br /><b>ACTION:</b> Notice and request for nominations."
+#. type: Content of: outside any tag (error?)
+#, fuzzy
+#| msgid ""
+#| "<b>Meetings of the Patent and Trademark Public Advisory Committees </b>"
+msgid "<b>United States Patent and Trademark Office </b>"
 msgstr ""
-"<b>Office américain des brevets et des marques</b><br />[Dossier N&deg; "
-"000317075103502]<br />RIN 0651 XX22<br /><b>Comités Consultatifs Publics</"
-"b><br /><b>AGENCE&nbsp;:</b> Office américain des brevets et des marques, au "
-"sein du Secrétariat d'État au Commerce.<br /><b>ACTION&nbsp;:</b> Avis et "
-"demande de propositions en vue de nominations."
+"<b>Réunions des Comités Consultatifs Publics chargés des Brevets et des "
+"Marques</b>"
 
+#. type: Content of: outside any tag (error?)
+msgid "[Docket No. 000317075103502]"
+msgstr ""
+
+#. type: Content of: outside any tag (error?)
+msgid "RIN 0651 XX22"
+msgstr ""
+
+#. type: Content of: outside any tag (error?)
+#, fuzzy
+#| msgid "<b>Advisory Committees</b>"
+msgid "<b>Public Advisory Committees</b>"
+msgstr "<b>Comités Consultatifs</b>"
+
+#. type: Content of: outside any tag (error?)
+msgid "<b>AGENCY:</b> United States Patent and Trademark Office, Commerce."
+msgstr ""
+
+#. type: Content of: outside any tag (error?)
+msgid "<b>ACTION:</b> Notice and request for nominations."
+msgstr ""
+
+#. type: Content of: <p>
 msgid "<b>SUMMARY </b>"
 msgstr "<b>RÉSUMÉ</b>"
 
+#. type: Content of: <p>
 msgid ""
 "On November 29, 1999, the President signed into law the Patent and Trademark "
 "Office Efficiency Act (the ``Act''), Pub. L. 106113, Appendix I, Title IV, "
@@ -172,6 +205,7 @@ msgstr ""
 "domaines. L'USPTO demande des candidatures pour trois (3) membres dans "
 "chacun de ces comités, pour des mandats commençant le 13 juillet 2001."
 
+#. type: Content of: <p>
 msgid ""
 "<b>DATES:</b> Nominations must be postmarked or electronically transmitted "
 "on or before April 12, 2001."
@@ -180,6 +214,7 @@ msgstr ""
 "électronique ou expédiées par courrier au plus tard le 12 avril 2001, le "
 "cachet de la poste faisant foi dans le cas des courriers postaux."
 
+#. type: Content of: <p>
 msgid ""
 "<b>ADDRESSES:</b> Persons wishing to submit nominations should send the "
 "nominee's resume to Chief of Staff, Office of the Director of the USPTO, "
@@ -199,6 +234,7 @@ msgstr ""
 "postal à l'attention du directeur de cabinet et adressé au bureau du "
 "directeur de l'USPTO, Washington, DC 20231, États-Unis."
 
+#. type: Content of: <p>
 msgid ""
 "<b>FOR FURTHER INFORMATION CONTACT:</b> Chief of Staff by facsimile "
 "transmission marked to his attention at (703) 3058664, or by mail marked to "
@@ -210,6 +246,7 @@ msgstr ""
 "postal à son attention et adressé au bureau du directeur de l'USPTO, "
 "Washington, DC 20231, États-Unis."
 
+#. type: Content of: <p>
 msgid ""
 "<b>SUPPLEMENTARY INFORMATION:</b> Under the Act, the then-Acting Secretary "
 "of Commerce appointed members to the two Patent and Trademark Public "
@@ -221,6 +258,7 @@ msgstr ""
 "le 13 juillet 2000. Les fonctions de ces comités consultatifs "
 "comprennent&nbsp;:"
 
+#. type: Content of: <ul><li>
 msgid ""
 "Review and advise the Director of the USPTO on matters relating to policies, "
 "goals, performance, budget, and user fees of the USPTO relating to patents "
@@ -231,6 +269,7 @@ msgstr ""
 "d'utilisation de l'USPTO concernant respectivement les brevets et les "
 "marques commerciales,"
 
+#. type: Content of: <ul><li>
 msgid ""
 "Within 60 days after the end of each fiscal year: (1) Prepare an annual "
 "report on the matters listed above; (2) transmit the report to the Secretary "
@@ -250,9 +289,11 @@ msgstr ""
 "Commerce pour un mandat de trois (3) ans et sont responsables devant celui-"
 "ci.</li></ol>"
 
+#. type: Content of: <p>
 msgid "<b>Advisory Committees</b>"
 msgstr "<b>Comités Consultatifs</b>"
 
+#. type: Content of: <p>
 msgid ""
 "The Public Advisory Committees are each composed of nine (9)  voting members "
 "who are appointed by the Secretary of Commerce (the ``Secretary'') and who "
@@ -284,6 +325,7 @@ msgstr ""
 "membres observateurs représentants chacune des organisations syndicales "
 "reconnues par l'USPTO."
 
+#. type: Content of: <p>
 msgid ""
 "<b>Procedures and Guidelines of the Patent and Trademark Public Advisory "
 "Committees</b>"
@@ -291,6 +333,7 @@ msgstr ""
 "<b>Procédures et lignes directrices des Comités Consultatifs Publics chargés "
 "des Brevets et des Marques</b>"
 
+#. type: Content of: <p>
 msgid ""
 "Each newly appointed member of the Patent and Trademark Public Advisory "
 "Committees will serve for a term of three years. Members appointed in the "
@@ -330,6 +373,7 @@ msgstr ""
 "dans les Comités Consultatifs Publics plus de soixante jours par année "
 "civile&nbsp;:"
 
+#. type: Content of: <ul><li>
 msgid ""
 "Each member will be required to file a confidential financial disclosure "
 "form within thirty (30) days of appointment. 5 C.F.R.  2634.202(c), "
@@ -339,6 +383,7 @@ msgstr ""
 "donnéesfinancières dans les trente (30) jours suivants sa nomination "
 "(Réf&nbsp;:5 C.F.R. 2634.202(c), 2634.204, 2634.903 et 2634.904(b))."
 
+#. type: Content of: <ul><li>
 msgid ""
 "Each member will be subject to many of the public integrity laws, including "
 "criminal bars against representing a party, 18 U.S.C. 203(c), or acting "
@@ -360,6 +405,7 @@ msgstr ""
 "physique ou morale qui lui est proche) a un intérêt financier (Réf&nbsp;: 18 "
 "U.S.C. 208)."
 
+#. type: Content of: <ul><li>
 msgid ""
 "Representation of foreign interests may also raise issues. 35 U.S.C. 5(a)"
 "(1)  and 18 U.S.C. 219."
@@ -367,11 +413,13 @@ msgstr ""
 "Le fait de représenter des intérêts étrangers peut également soulever des "
 "problèmes (Réf&nbsp;: 35 U.S.C. 5(a)(1) et 18 U.S.C. 219)."
 
+#. type: Content of: <p>
 msgid "<b>Meetings of the Patent and Trademark Public Advisory Committees </b>"
 msgstr ""
 "<b>Réunions des Comités Consultatifs Publics chargés des Brevets et des "
 "Marques</b>"
 
+#. type: Content of: <p>
 msgid ""
 "Meetings of each Advisory Committee will take place at the call of the chair "
 "to consider an agenda set by the chair. Meetings may be conducted in person, "
@@ -391,9 +439,11 @@ msgstr ""
 "candidats doivent également avoir la capacité à participer aux séances du "
 "Comité via Internet."
 
+#. type: Content of: <p>
 msgid "<b>Procedure for Submitting Nominations</b>"
 msgstr "<b>Procédure de proposition de candidatures</b>"
 
+#. type: Content of: <p>
 msgid ""
 "Submit resumes for nominations for the Patent Public Advisory Committee and "
 "the Trademark Public Advisory Committee to the USPTO's Chief of Staff as "
@@ -403,9 +453,17 @@ msgstr ""
 "Publics chargés des Brevet et des Marques au directeur de cabinet de "
 "l'USPTO, comme indiqué ci-dessus."
 
-msgid "Dated: March 7, 2001.  <br />Nicholas P. Godici,"
+#. type: Content of: <p>
+#, fuzzy
+#| msgid "Dated: March 7, 2001.  <br />Nicholas P. Godici,"
+msgid "Dated: March 7, 2001."
 msgstr "Date&nbsp;: 7 mars 2001.<br />Nicholas P. Godici,"
 
+#. type: Content of: <p>
+msgid "Nicholas P. Godici,"
+msgstr ""
+
+#. type: Content of: <p>
 msgid ""
 "<i>Acting Under Secretary of Commerce for Intellectual Property and Acting "
 "Director of the United States Patent and Trademark Office.</i>"
@@ -414,13 +472,22 @@ msgstr ""
 "de l'Office américain des brevets et des marques, sous l'autorité du "
 "Secrétaire d'État au Commerce.</i>"
 
-msgid "[FR Doc. 016238 Filed 31201; 8:45 am] <br /> BILLING CODE 351016U"
+#. type: Content of: <p>
+#, fuzzy
+#| msgid "[FR Doc. 016238 Filed 31201; 8:45 am] <br /> BILLING CODE 351016U"
+msgid "[FR Doc. 016238 Filed 31201; 8:45 am]"
 msgstr "[FR Doc. 016238 Dépôt 31201; 8:45 am]<br />BILLING CODE 351016U"
 
+#. type: Content of: <p>
+msgid "BILLING CODE 351016U"
+msgstr ""
+
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send questions and comments regarding this specific page to <a href="
 "\"mailto:dmarti@ssc.com\">Don Marti &lt;dmarti@ssc.com&gt;</a>."
@@ -428,6 +495,7 @@ msgstr ""
 "Veuillez envoyer les questions et commentaires concernant cette page à <a "
 "href=\"mailto:dmarti@ssc.com\">Don Marti &lt;dmarti@ssc.com&gt;</a>."
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
@@ -437,6 +505,7 @@ msgstr ""
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
 "contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -446,9 +515,11 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "This article is reprinted here with permission from Don Marti."
 msgstr "Cet article est republié ici avec la permission de Don Marti."
 
+#. type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 2001, Specialized Systems Consultants, Inc. All rights "
 "reserved."
@@ -456,6 +527,7 @@ msgstr ""
 "Copyright &copy; 2001, Specialized Systems Consultants, Inc. Tous droits "
 "réservés."
 
+#. type: Content of: <div><p>
 msgid ""
 "First published on the Linux Journal web site 3 April 2001. Verbatim copying "
 "and distribution of this entire article is permitted in any medium, provided "
@@ -467,14 +539,25 @@ msgstr ""
 "préservée."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "?<br />Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april.org\">trad-"
 "gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-msgid "Translations of this page"
-msgstr "Traductions de cette page"
+#~ msgid ""
+#~ "<br /><b>United States Patent and Trademark Office </b> <br />[Docket No. "
+#~ "000317075103502] <br />RIN 0651 XX22 <br /><b>Public Advisory Committees</"
+#~ "b> <br /><b>AGENCY:</b> United States Patent and Trademark Office, "
+#~ "Commerce.  <br /><b>ACTION:</b> Notice and request for nominations."
+#~ msgstr ""
+#~ "<b>Office américain des brevets et des marques</b><br />[Dossier N&deg; "
+#~ "000317075103502]<br />RIN 0651 XX22<br /><b>Comités Consultatifs Publics</"
+#~ "b><br /><b>AGENCE&nbsp;:</b> Office américain des brevets et des marques, "
+#~ "au sein du Secrétariat d'État au Commerce.<br /><b>ACTION&nbsp;:</b> Avis "
+#~ "et demande de propositions en vue de nominations."

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sco-without-fear.html\n"
-"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"POT-Creation-Date: 2011-09-20 12:31-0300\n"
 "PO-Revision-Date: 2009-01-20 23:55+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,15 +16,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <h2>
 msgid "SCO: Without Fear and Without Research"
 msgstr "SCO&nbsp;: sans peur et sans recherche"
 
+#. type: Content of: <p>
 msgid "by <strong>Eben Moglen</strong>"
 msgstr "par <strong>Eben Moglen</strong>"
 
+#. type: Content of: <p>
 msgid "Monday 24 November 2003"
 msgstr "Lundi  24 novembre 2003"
 
+#. type: Content of: <p>
 msgid ""
 "There's a traditional definition of a shyster: a lawyer who, when the law is "
 "against him, pounds on the facts; when the facts are against him, pounds on "
@@ -43,9 +47,11 @@ msgstr ""
 "théories juridiques fumeuses et de réclamations fallacieuses montrent que le "
 "vieil adage n'a pas perdu de sa valeur."
 
+#. type: Content of: <h3>
 msgid "Just The Facts"
 msgstr "Les faits"
 
+#. type: Content of: <p>
 msgid ""
 "SCO continues to claim in public statements about its lawsuit against IBM "
 "that it can show infringement of its copyrights in Unix Sys V source code by "
@@ -64,6 +70,7 @@ msgstr ""
 "cavalière envers la loi sur le copyright et même sa propre incurie en guise "
 "de recherche de faits."
 
+#. type: Content of: <p>
 msgid ""
 "On August 18, 2003, SCO's CEO, Darl McBride, offered a slide presentation of "
 "supposed examples of infringing literal copying from Sys V to Linux at a "
@@ -80,6 +87,7 @@ msgstr ""
 "encourageants pour les investisseurs et ceux qui espéraient que SCO savait "
 "de quoi il parlait.<a href=\"#foot17\">[1]</a>"
 
+#. type: Content of: <p>
 msgid ""
 "In Las Vegas Mr.&nbsp;McBride offered two examples of code from the Linux "
 "program that were supposedly copied from Sys V.  The first implements the "
@@ -112,6 +120,7 @@ msgstr ""
 "plagié n'était pas le leur, probablement parce qu'ils avaient supprimé «&nbsp;"
 "par mégarde&nbsp;» la mention de copyright originelle."
 
+#. type: Content of: <p>
 msgid ""
 "Mr.&nbsp;McBride's second example was only slightly less unconvincing.  Mr "
 "McBride showed several dozen lines of memory allocation code from &ldquo;"
@@ -158,6 +167,7 @@ msgstr ""
 "Caldera en supprimant par erreur la mention de copyright (incorrecte) de "
 "Caldera. "
 
+#. type: Content of: <p>
 msgid ""
 "Thus SCO's second example was of supposedly impermissible copying of code "
 "that was in the public domain to begin with, and which SCO itself had "
@@ -193,6 +203,7 @@ msgstr ""
 "question&nbsp;: une variante dédié à de rares ordinateurs pour qui le code "
 "supposé litigieux avait déjà été supprimé."
 
+#. type: Content of: <p>
 msgid ""
 "What the Las Vegas &ldquo;examples&rdquo; actually demonstrated was that "
 "SCO's factual claims were irresponsibly inflated when they weren't being "
@@ -207,9 +218,11 @@ msgstr ""
 "choisis par eux, il n'est pas étonnant qu'après août, SCO se soit tourné "
 "vers la loi. Mais la loi n'était pas de leur côté non plus."
 
+#. type: Content of: <h3>
 msgid "Making Up the Law"
 msgstr "La loi"
 
+#. type: Content of: <p>
 msgid ""
 "SCO's legal situation contains an inherent contradiction.  SCO claims, in "
 "the letters it has sent to large corporate users of free software and in "
@@ -233,6 +246,7 @@ msgstr ""
 "pratiques commerciales déloyales et ne pourra pas mettre à exécution ses "
 "menaces contre les utilisateurs du noyau Linux."
 
+#. type: Content of: <p>
 msgid ""
 "But if the GPL is not a valid and effective copyright permission, by what "
 "right is SCO distributing the copyrighted works of Linux's contributors, and "
@@ -269,6 +283,7 @@ msgstr ""
 "attaque&nbsp;: IBM et tous les contributeurs du noyau sont en droit d'exiger "
 "des dommages et intérêts."
 
+#. type: Content of: <p>
 msgid ""
 "IBM's counterclaim painted SCO into a corner on the subject of the GPL.  Not "
 "only the facts but also the law are now fundamentally against SCO's "
@@ -299,6 +314,7 @@ msgstr ""
 "profit, mais il a honteusement cherché à fuir ses responsabilités. La loi ne "
 "permet pas ce double-jeu."
 
+#. type: Content of: <p>
 msgid ""
 "So now it has become time for SCO and its lawyers to pound the table.  SCO's "
 "response to IBM's counterclaim has been a round of absurd attacks on the "
@@ -336,9 +352,11 @@ msgstr ""
 "plus caricatural se retrouve sans ressources. À quoi faut-il s'attendre de "
 "la part de SCO&nbsp;; à une attaque contre le juge&nbsp;?"
 
+#. type: Content of: <h4>
 msgid "Footnotes"
 msgstr "Notes"
 
+#. type: Content of: <ol><li>
 msgid ""
 "The most complete review of the SCO Las Vegas presentation was written by "
 "Bruce Perens, and is available at <a href=\"http://www.perens.com/SCO/"
@@ -348,6 +366,7 @@ msgstr ""
 "est accessible sur <a  href=\"http://www.perens.com/SCO/SCOSlideShow.html"
 "\">http://www.perens.com/SCO/SCOSlideShow.html</a>."
 
+#. type: Content of: <p>
 msgid ""
 "<em> Eben Moglen is General Counsel to FSF, and serves on its board of "
 "directors.  </em>"
@@ -355,6 +374,7 @@ msgstr ""
 "<em>Eben Moglen est professeur de droit à la Columbia University Law School. "
 "Il conseille gracieusement la Free Software Foundation</em>."
 
+#. type: Content of: <h4>
 msgid ""
 "<a href=\"/philosophy/sco/sco.html\">Other Texts to Read related to SCO</a>."
 msgstr ""
@@ -362,22 +382,30 @@ msgstr ""
 "a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -387,23 +415,41 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid "Copyright &copy; 2003 Richard Stallman"
+msgid "Copyright &copy; 2003 Eben Moglen"
+msgstr "Copyright &copy; 2003 Richard Stallman"
+
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Verbatim copying and distribution of this entire article is permitted in "
+#| "any medium, provided this notice is preserved."
 msgid ""
-"Copyright &copy; 2003 Eben Moglen <br /> Verbatim copying of this article is "
-"permitted in any medium, provided this notice is preserved."
+"Verbatim copying of this article is permitted in any medium, provided this "
+"notice is preserved."
 msgstr ""
-"Copyright &copy; 2003 Eben Moglen <br />La reproduction exacte et la "
-"distribution intégrale de cet article est permise sur n'importe quel support "
-"d'archivage, pourvu que cette notice soit préservée."
+"La reproduction exacte et la distribution intégrale de cet article est "
+"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
+"préservée."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Laurent Bertaud et Jérôme Dominguez.<br />Révision&nbsp;: "
 "<a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-msgid "Translations of this page"
-msgstr "Traductions de cette page"
+#~ msgid ""
+#~ "Copyright &copy; 2003 Eben Moglen <br /> Verbatim copying of this article "
+#~ "is permitted in any medium, provided this notice is preserved."
+#~ msgstr ""
+#~ "Copyright &copy; 2003 Eben Moglen <br />La reproduction exacte et la "
+#~ "distribution intégrale de cet article est permise sur n'importe quel "
+#~ "support d'archivage, pourvu que cette notice soit préservée."

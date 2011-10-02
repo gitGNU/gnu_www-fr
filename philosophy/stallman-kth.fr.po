@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: stallman-kth\n"
-"POT-Creation-Date: 2010-06-17 04:25-0300\n"
+"POT-Creation-Date: 2011-09-20 12:30-0300\n"
 "PO-Revision-Date: 2011-07-01 01:22+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,34 +16,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid "Speech in Sweden - GNU Project - Free Software Foundation (FSF)"
 msgstr "Conférence en Suède - GNU Project - Free Software Foundation (FSF)"
 
+#. type: Content of: <h2>
 msgid "RMS lecture at KTH (Sweden), 30 October 1986"
 msgstr "Conférence de RMS au KTH (Suède), le 30 octobre 1986"
 
+#. type: Content of: <div><p><em>
 #, fuzzy
 #| msgid ""
 #| "<em>(Kungliga Tekniska Högskolan (Royal Institute of Technology))<br /> "
 #| "Stockholm, Sweden</em>"
-msgid ""
-"<em>(Kungliga Tekniska H&ouml;gskolan (Royal Institute of Technology))<br /> "
-"Stockholm, Sweden</em>"
+msgid "<em>(Kungliga Tekniska H&ouml;gskolan (Royal Institute of Technology))"
 msgstr ""
 "<em>(Kungliga Tekniska Högskolan (Institut Royal de Technologies))<br /"
 ">Stockholm Suède</em>"
 
-#, fuzzy
-#| msgid ""
-#| "<em> Arranged by the student society<br /> &ldquo;Datorföreningen "
-#| "Stacken&rdquo;<br /> 30 October 1986 </em>"
-msgid ""
-"<em> Arranged by the student society<br /> &ldquo;Datorf&ouml;reningen "
-"Stacken&rdquo;<br /> 30 October 1986 </em>"
+#. type: Content of: <div><p>
+msgid "Stockholm, Sweden</em>"
 msgstr ""
-"<em>organisé par l'association des étudiants<br />«&nbsp;Datorföreningen "
-"Stacken&nbsp;»<br />le 30 octobre 1986</em>"
 
+#. type: Content of: <div><p><em>
+msgid "<em> Arranged by the student society"
+msgstr ""
+
+#. type: Content of: <div><p><em>
+msgid "&ldquo;Datorf&ouml;reningen Stacken&rdquo;"
+msgstr ""
+
+#. type: Content of: <div><p>
+msgid "30 October 1986 </em>"
+msgstr ""
+
+#. type: Content of: <p>
 msgid ""
 "<strong>[Note: This is a slightly edited transcript of the talk.  As such it "
 "contains false starts, as well as locutions that are natural in spoken "
@@ -57,6 +64,7 @@ msgstr ""
 "publication. Il n'est pas évident de savoir comment le traduire dans un "
 "anglais correct sans faire violence au discours original.]</strong>"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "It seems that there are three things that people would like me to talk "
@@ -123,6 +131,7 @@ msgstr ""
 "et les gens peuvent sortir et je peux envoyer Jan Rynning dehors pour "
 "appeler les autres."
 
+#. type: Content of: <p>
 msgid ""
 "Anyway, should I set up this system to notify you about the parts of the "
 "talk, or do you just like to sit through all of it? (Answer: Yeaaah)"
@@ -131,6 +140,7 @@ msgstr ""
 "de l'entretien ou vous avez juste envie de le suivre jusqu'au bout&nbsp;?"
 "(Réponse&nbsp;: Yeaaah&nbsp;!)"
 
+#. type: Content of: <p>
 msgid ""
 "When I started programming, it was 1969, and I did it in an IBM laboratory "
 "in New York.  After that I went to a school with a computer science "
@@ -168,6 +178,7 @@ msgstr ""
 "écran pour tout le système, aussi si l'un d'entre eux était bloqué, c'était "
 "un vrai désastre."
 
+#. type: Content of: <p>
 msgid ""
 "In the years that followed I was inspired by that ideas, and many times I "
 "would climb over ceilings or underneath floors to unlock rooms that had "
@@ -203,6 +214,7 @@ msgstr ""
 "aillent au diable&nbsp;!&nbsp;», et c'est exactement l'esprit que nous "
 "devons leur apprendre à ne pas avoir."
 
+#. type: Content of: <p>
 msgid ""
 "But this spirit of unlocking doors wasn't an isolated thing, it was part of "
 "an entire way of life.  The hackers at the AI lab were really enthusiastic "
@@ -230,6 +242,7 @@ msgstr ""
 "C'est leur temps, leur argent, mais pas grand-chose ne se fait dans un "
 "endroit comme ça. Ce n'est pas drôle d'être dans un endroit comme ça."
 
+#. type: Content of: <p>
 msgid ""
 "Another thing that we didn't have at the AI lab was file protection.  There "
 "was no security at all on the computer.  And we very consciously wanted it "
@@ -260,6 +273,7 @@ msgstr ""
 "la maison en attendant que quelqu'un vienne le matin pour réparer le "
 "système, alors que vous saviez dix fois mieux que lui ce qu'il fallait faire."
 
+#. type: Content of: <p>
 msgid ""
 "And we didn't let any professors or bosses decide what work was going to be "
 "done either, because our job was to improve the system! We talked to the "
@@ -282,6 +296,7 @@ msgstr ""
 "de fonctionnement sans douleur et après mon expérience là-bas, je fus "
 "convaincu que c'était la meilleure façon de vivre pour les gens."
 
+#. type: Content of: <p>
 msgid ""
 "Unfortunately the AI lab in that form was destroyed.  For many years we were "
 "afraid the AI lab would be destroyed by another lab at MIT, the Lab for "
@@ -300,6 +315,7 @@ msgstr ""
 "donné qu'il croyait que les gens devaient obéir aux ordres et d'autres "
 "choses dans le style."
 
+#. type: Content of: <p>
 msgid ""
 "But that danger we managed to defend against, only to be destroyed by "
 "something we had never anticipated, and that was commercialism.  Around the "
@@ -318,6 +334,7 @@ msgstr ""
 "détruire le labo d'I.A. du M.I.T. Et c'est ce qu'ils ont fait, malgré tous "
 "mes efforts pour les en empêcher."
 
+#. type: Content of: <p>
 msgid ""
 "Essentially all the competent programmers except for me, at the AI lab were "
 "hired away, and this caused more than a momentary change, it caused a "
@@ -353,6 +370,7 @@ msgstr ""
 "essayer de les punir pour ça, j'ai décidé de me consacrer à créer une "
 "nouvelle communauté avec cet esprit."
 
+#. type: Content of: <p>
 msgid ""
 "But one of the problems I had to face was the problem of <a href=\"/"
 "philosophy/categories.html#ProprietarySoftware\">proprietary software</a>.  "
@@ -391,6 +409,7 @@ msgstr ""
 "abîmées, ils avaient juste à les laisser là et appeler les personnes de "
 "service «&nbsp;Reprenez-les et ramenez-nous en de nouvelles&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "In the real old days our hackers used to modify the machines that came from "
 "Digital also.  For example, they built paging-boxes to put on the PDP-10's.  "
@@ -427,6 +446,7 @@ msgstr ""
 "indirect et ont transformé pour l'essentiel une toute petite machine en une "
 "autre à peu près correcte."
 
+#. type: Content of: <p>
 msgid ""
 "I guess it is one of the disadvantages of VLSI that it's no longer so "
 "feasible to add instructions to your machines."
@@ -435,6 +455,7 @@ msgstr ""
 "Integration (intégration à très grande échelle)) est qu'il n'est plus "
 "vraiment pratique d'ajouter des instructions sur vos machines."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The PDP-1 also had a very interesting feature, which is that it was "
@@ -465,6 +486,7 @@ msgstr ""
 "instructions sur le PDP-1. Et beaucoup d'autres beaux programmes d'affichage "
 "ont pu être écrits ainsi en peu d'instructions."
 
+#. type: Content of: <p>
 msgid ""
 "So, that was the AI lab.  But what was the culture of hackers like aside "
 "from their anarchism? In the days of the PDP-1 only one person could use the "
@@ -519,6 +541,7 @@ msgstr ""
 "à gazouiller. Vous aviez une sensation de douce satisfaction, de "
 "tranquillité pour le travail que vous avez fait la nuit."
 
+#. type: Content of: <p>
 msgid ""
 "Another tradition that we began was that of having places to sleep at the "
 "lab.  Ever since I first was there, there was always at least one bed at the "
@@ -544,6 +567,7 @@ msgstr ""
 "et une fois que vous êtiez complètement épuisé, vous escaladiez la surface "
 "horizontale souple la plus proche. Une ambiance vraiment sans cérémonie."
 
+#. type: Content of: <p>
 msgid ""
 "But when the hackers all left the lab this caused a demographic change, "
 "because the professors and the students who didn't really love the machine "
@@ -562,6 +586,7 @@ msgstr ""
 "ça, nous pourrons compter sur la maintenance de l'entreprise&nbsp;». Il fut "
 "prouvé qu'ils avaient absolument tort, mais c'est ce qu'ils ont fait."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "That was exactly when a new KL-10 system was supposed to arrive, and the "
@@ -588,6 +613,7 @@ msgstr ""
 "ça eu plusieurs effets immédiats. Certains n'ont pas été vraimentimmédiats "
 "mais ils ont inévitablement suivi comme n'importe qui d'averti l'aurait vu."
 
+#. type: Content of: <p>
 msgid ""
 "One thing was that that software was much more poorly written, and harder to "
 "understand; therefore making it harder for people to make the changes that "
@@ -626,6 +652,7 @@ msgstr ""
 "comme ça nous pouvons tomber sur des personnes comme vous et les "
 "aider&nbsp;». Certaines personnes ne savent pas qu'elles sont riches."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "But of course Twenex not only has security, and by default turns on "
@@ -688,6 +715,7 @@ msgstr ""
 "sécurité, mais il a suffit de venir quelques après-midi pour découvrir que "
 "le bout de gouvernail d'à peu près tout le monde avait été supprimé."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "When I found out about those, I overthrew them.  The first time, I "
@@ -738,6 +766,7 @@ msgstr ""
 "d'Oz&nbsp;» est l'une des expressions utilisées par Firesign Theater. Je ne "
 "le savais pas à ce moment-là."
 
+#. type: Content of: <p>
 msgid ""
 "But gradually things got worse and worse, it's just the nature of the way "
 "the system had been constructed forced people to demand more and more "
@@ -777,6 +806,7 @@ msgstr ""
 "de quelques données sur cette machine. Je veux m'assurer qu'elles ne sont "
 "pas verrouillées par la sécurité&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "And an other thing that I always do is I always turn of all protection on my "
 "directory and files, because from time to time I have useful programs stored "
@@ -787,6 +817,7 @@ msgstr ""
 "programmes utiles et s'il y a un bogue je veux que les gens puissent le "
 "corriger."
 
+#. type: Content of: <p>
 msgid ""
 "But that machine wasn't designed also to support the phenomenon called "
 "&ldquo;tourism&rdquo;.  Now &ldquo;tourism&rdquo; is a very old tradition at "
@@ -836,6 +867,7 @@ msgstr ""
 "d'années, grandissant petit à petit, un artisan après l'autre, auquels "
 "s'ajoutaient de nouveaux dispositifs supplémentaires."
 
+#. type: Content of: <p>
 msgid ""
 "Sort of like cities in France you might say, where you can see the extremely "
 "old buildings with additions made a few hundred years later all the way up "
@@ -854,6 +886,7 @@ msgstr ""
 "sur les programmes et nous avoir montré qu'ils étaient capables de faire du "
 "bon travail."
 
+#. type: Content of: <p>
 msgid ""
 "But the ITS machines had certain other features that helped prevent this "
 "from getting out of hand, one of these was the &ldquo;spy&rdquo; feature, "
@@ -885,6 +918,7 @@ msgstr ""
 "avait oubliés. Et cela a continué comme ça pendant des années, des "
 "années&hellip; et des années."
 
+#. type: Content of: <p>
 msgid ""
 "But the Twenex system wasn't designed for this sort of thing, and eventually "
 "they wouldn't tolerate me with my password that everybody knew, tourists "
@@ -904,6 +938,7 @@ msgstr ""
 "tant que moi&hellip; [ à ce moment-là, RMS est interrompu par des "
 "applaudissements énormes ]&hellip; pour ça."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "But when they first got this Twenex system they had several changes in "
@@ -947,6 +982,7 @@ msgstr ""
 "n'avaient plus les moyens d'attirer les hackers. Et de nos jours au M.I.T., "
 "il y a plus de gens intéressés à hacker ITS que Twenex."
 
+#. type: Content of: <p>
 msgid ""
 "And the final reason why this is so, is that Twenex can't be shared.  Twenex "
 "is a proprietary program and you're only allowed to have the sources if you "
@@ -977,6 +1013,7 @@ msgstr ""
 "million de singes dactylographiant qui finiront bien par apporter quelque "
 "chose d'utile&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "It was clear to me from what I saw happening to these proprietary systems "
 "that the only way we could have the spirit of the old AI lab was to have a "
@@ -993,6 +1030,7 @@ msgstr ""
 "a conduit au projet GNU. Ainsi j'estime que nous sommes arrivés à la "
 "deuxième partie de l'entretien."
 
+#. type: Content of: <p>
 msgid ""
 "About three and a half year ago it was clear to me that I should start "
 "developing a <a href=\"/philosophy/free-sw.html\">free software</a> system.  "
@@ -1034,6 +1072,7 @@ msgstr ""
 "argument est le bon. Et si ce n'est pas le cas, vous obtenez le plantage du "
 "système."
 
+#. type: Content of: <p>
 msgid ""
 "Of course you can put in explicit checks, you can write a robust program if "
 "you want, but the fact is that you are going to get things like memory "
@@ -1046,6 +1085,7 @@ msgstr ""
 "alimentez une fonction, un argument de type inapproprié si vous n'aviez pas "
 "prévu d'y placer des éléments à contrôler pour ça."
 
+#. type: Content of: <p>
 msgid ""
 "So the result is then that you need something running underneath the LISP "
 "system to you catch these errors, and give the user the ability to keep on "
@@ -1084,6 +1124,7 @@ msgstr ""
 "EINE pour «&nbsp;Eine Is Not Emacs&nbsp;», et ZWEI pour «&nbsp;Zwei Was Eine "
 "Initially&nbsp;», et finalement c'était arrivé à GNU."
 
+#. type: Content of: <p>
 msgid ""
 "I would say that since the time about two and a half years ago when I "
 "actually started working on GNU, I've done more than half of the work.  When "
@@ -1117,6 +1158,7 @@ msgstr ""
 "encouragerait les gens à l'acheter. J'ai pensé que c'était ignoble alors je "
 "lui ai dit que mon premier projet sera de faire un compilateur."
 
+#. type: Content of: <p>
 msgid ""
 "I didn't really know much about optimizing compilers at the time, because "
 "I'd never worked on one.  But I got my hands on a compiler, that I was told "
@@ -1129,6 +1171,7 @@ msgstr ""
 "compilateur appelé PASTEL dont les auteurs disaient que c'était du «&nbsp;"
 "PASCAL mal fichu&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "Pastel was a very complicated language including features such as "
 "parametrized types and explicit type parameters and many complicated "
@@ -1165,6 +1208,7 @@ msgstr ""
 "l'allocation automatique de registre et quelques idées sur la façon de "
 "manipuler différents types de machines."
 
+#. type: Content of: <p>
 msgid ""
 "Well, since this compiler already compiled PASTEL, what i needed to do was "
 "add a front-end for C, which I did, and add a back-end for the 68000 which I "
@@ -1212,6 +1256,7 @@ msgstr ""
 "des quelque dix passes du compilateur en compilation croisée sur cette "
 "machine et j'ai constaté alors que la seconde ne pourrait jamais fonctionner."
 
+#. type: Content of: <p>
 msgid ""
 "While I was thinking about what to do about these problems and wondering "
 "whether I should try to fix them or write entirely new compiler, in a "
@@ -1241,6 +1286,7 @@ msgstr ""
 "Ainsi vous pouvez les changer pour les commandes d'édition que vous voulez "
 "vraiment."
 
+#. type: Content of: <p>
 msgid ""
 "In the summer of that year, about two years ago now, a friend of mine told "
 "me that because of his work in early development of Gosling Emacs, he had "
@@ -1268,6 +1314,7 @@ msgstr ""
 "qu'il était aussi lâche et ignoble que vous pouvez le voir dans cette "
 "histoire."
 
+#. type: Content of: <p>
 msgid ""
 "But in any case, my friend gave me this program, and my intention was to "
 "change the editing commands at the top level to make them compatible with "
@@ -1307,6 +1354,7 @@ msgstr ""
 "vous obligeant à passer par des manipulations alphanumériques compliquées "
 "qui ne vont pas vraiment dans ce sens."
 
+#. type: Content of: <p>
 msgid ""
 "So I wrote a LISP interpreter and put it in in place of MOCKLISP and in the "
 "process I found that I had to rewrite many of the editor's internal data "
@@ -1332,6 +1380,7 @@ msgstr ""
 "leur étaient affectées. Et cela a eu pour résultat, pendant environ six "
 "mois, de me faire réécrire à peu près tout ce qu'il y avait dans l'éditeur."
 
+#. type: Content of: <p>
 msgid ""
 "In addition, because it is so hard to write things in MOCKLISP, all the "
 "things that had been written in MOCKLISP were very unclean and by rewriting "
@@ -1347,6 +1396,7 @@ msgstr ""
 "Et quand j'ai commencé à distribuer le programme, il ne restait qu'une "
 "petite partie de ce que j'avais reçu."
 
+#. type: Content of: <p>
 msgid ""
 "At this point, the company that Gosling thinks he sold the program to "
 "challenged my friend's right to distribute it, and the message was on backup "
@@ -1393,6 +1443,7 @@ msgstr ""
 "quelque chose un jour. Cela faisait suffisamment peur aux gens pour que plus "
 "personne ne l'utilise. C'est triste."
 
+#. type: Content of: <p>
 msgid ""
 "(Sometimes I think that perhaps one of the best things I could do with my "
 "life is: find a gigantic pile of proprietary software that was a trade "
@@ -1410,6 +1461,7 @@ msgstr ""
 "réellement moi-même&nbsp;; mais tout le monde serait trop lâche pour le "
 "prendre quand même)."
 
+#. type: Content of: <p>
 msgid ""
 "So I was forced to rewrite all the rest that remained, and I did that, it "
 "took me about a week and a half.  So they won a tremendous victory.  And I "
@@ -1420,6 +1472,7 @@ msgstr ""
 "une grande victoire! Il était certain que je ne coopérerais jamais plus avec "
 "eux en aucune manière après ça."
 
+#. type: Content of: <p>
 msgid ""
 "Then after GNU Emacs was reasonably stable, which took all in all about a "
 "year and a half, I started getting back to other parts of the system.  I "
@@ -1449,6 +1502,7 @@ msgstr ""
 "de l'utiliser. Naturellement vous pouvez taper n'importe quelle expression "
 "en C et il en imprimera la valeur."
 
+#. type: Content of: <p>
 msgid ""
 "You can also do some things that are not usual in symbolic C debuggers, for "
 "example: You can refer to any C datatype at any memory address, either to "
@@ -1494,6 +1548,7 @@ msgstr ""
 "après la dernière commande donnée, ça devient très pratique. Vous avez juste "
 "à taper retour-chariot pour chaque élément de la liste que vous voulez voir."
 
+#. type: Content of: <p>
 msgid ""
 "There are also explicitly settable variables in the debugger, any number of "
 "them.  You say dollar-sign followed by a name, and that is a variable.  You "
@@ -1544,17 +1599,21 @@ msgstr ""
 "tableau. Supposez que vous avez un tableau de pointeurs, vous pouvez "
 "faire&nbsp;:"
 
+#. type: Content of: <pre>
 #, no-wrap
 msgid "PRINT X[$foo++]"
 msgstr "PRINT X[$foo++]"
 
+#. type: Content of: <p>
 msgid "But first you do"
 msgstr "mais d'abord vous faites"
 
+#. type: Content of: <pre>
 #, no-wrap
 msgid "SET $foo=0"
 msgstr "SET $foo=0"
 
+#. type: Content of: <p>
 msgid ""
 "Okay, when you do that [points at the &ldquo;Print&rdquo; expression], you "
 "get the zeroth element of X, and then you do it again and it gets the first "
@@ -1594,6 +1653,7 @@ msgstr ""
 "documentation pour vos commandes, de façon à ce qu'elles soient traitées "
 "dans les aménagements de «&nbsp;help&nbsp;» comme des commandes intégrées."
 
+#. type: Content of: <p>
 msgid ""
 "One other unusual thing in this debugger, is the ability to discard frames "
 "from the stack.  Because I believe it's important not just to be able to "
@@ -1616,10 +1676,12 @@ msgstr ""
 "programme, mais également changer le flux de contrôle. Dans ce débogueur, "
 "vous pouvez changer le flux de contrôle très directement en disant&nbsp;:"
 
+#. type: Content of: <pre>
 #, no-wrap
 msgid "SET $PC=&lt;some number&gt;"
 msgstr "SET $PC=&lt;un certain nombre&gt;"
 
+#. type: Content of: <p>
 msgid ""
 "So you can set the program counter.  You can also set the stack pointer, or "
 "you can say"
@@ -1627,10 +1689,12 @@ msgstr ""
 "Et vous pouvez placer le compteur. Vous pouvez également placer l'indicateur "
 "de pile, ou vous pouvez dire&nbsp;:"
 
+#. type: Content of: <pre>
 #, no-wrap
 msgid "SET $SP+=&lt;something&gt;"
 msgstr "SET $SP+=&lt;quelque chose&gt;"
 
+#. type: Content of: <p>
 msgid ""
 "If you want to increment the stack pointer a certain amount.  But in "
 "addition you can also tell it to start at a particular line in the program, "
@@ -1662,6 +1726,7 @@ msgstr ""
 "ça simule le retour et stoppe à nouveau le programme&nbsp;; vous pouvez "
 "ainsi continuer de modifier autre chose."
 
+#. type: Content of: <p>
 msgid ""
 "And with all these things put together you thus have pretty good control "
 "over what's going on in a program."
@@ -1669,6 +1734,7 @@ msgstr ""
 "Avec toutes ces choses réunies, vous avez donc un excellent contrôle sur ce "
 "qu'il se passe dans un programme."
 
+#. type: Content of: <p>
 msgid ""
 "In addition one slightly amusing thing: C has string constants, what happens "
 "if you use a string constant in an expression that you're computing in the "
@@ -1685,6 +1751,7 @@ msgstr ""
 "contrôle. Ainsi il trouve de façon invisible un endroit pour placer la "
 "constante de chaîne."
 
+#. type: Content of: <p>
 msgid ""
 "Eventually when this debugger is running on the real GNU system, I intend to "
 "put in facilities in the debugger to examine all of the internal status of "
@@ -1715,6 +1782,7 @@ msgstr ""
 "réellement. Je crois qu'en général un débogueur devrait vous permettre de "
 "découvrir tout qu'il se passe dans le processus inférieur."
 
+#. type: Content of: <p>
 msgid ""
 "There are two other main parts of the GNU system that already exist.  One is "
 "the new C compiler, and one is the TRIX kernel."
@@ -1722,6 +1790,7 @@ msgstr ""
 "Deux autres parties centrales du système GNU existent déjà. L'un est le "
 "nouveau compilateur C et l'autre le noyau TRIX."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The new C compiler is something that I've written this year since last "
@@ -1756,14 +1825,17 @@ msgstr ""
 "instructions en notation algébrique. Par exemple, l'instruction ADD pourrait "
 "être représentée comme ceci&nbsp;:"
 
-#, no-wrap
-msgid ""
-"\n"
-"  r[3]=r[2]+4\n"
+#. type: Content of: <pre>
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "  r[3]=r[2]+4\n"
+msgid "  r[3]=r[2]+4\n"
 msgstr ""
 "\n"
 "  r[3]=r[2]+4\n"
 
+#. type: Content of: <p>
 msgid ""
 "This would be a representation inside their compiler for instruction to take "
 "the contents of register two, add four and store it in register three.  In "
@@ -1782,6 +1854,7 @@ msgstr ""
 "expression dans une autre, donnant une expression algébrique plus compliquée "
 "à l'instruction combinée."
 
+#. type: Content of: <p>
 msgid ""
 "Sometimes depending on whether the result of the first instruction had any "
 "further use, it might be necessary to make a combined instruction with two "
@@ -1811,6 +1884,7 @@ msgstr ""
 "diverses vérifications à faire à leur sujet dans les situations où votre "
 "objectif n'est pas de conserver de valeur."
 
+#. type: Content of: <p>
 msgid ""
 "But after checking all those things, then you take the substituted combined "
 "expression and put it through a pattern matcher, which recognizes all the "
@@ -1826,6 +1900,7 @@ msgstr ""
 "leur instruction combinée, sinon vous les laissez seules. Leur technique est "
 "de combiner deux ou trois instructions liées en flux de données dans ce but."
 
+#. type: Content of: <p>
 msgid ""
 "In the Arizona compiler, they actually represent things as text strings like "
 "this, and their compiler is horribly slow.  First I had some idea of just "
@@ -1842,9 +1917,14 @@ msgstr ""
 "des représentations de structure de liste pour toutes ces expressions. Des "
 "choses comme ceci&nbsp;:"
 
-#, no-wrap
+#. type: Content of: <pre>
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "     (set (reg 2)\n"
+#| "          (+ (reg 2)\n"
+#| "             (int 4)))\n"
 msgid ""
-"\n"
 "     (set (reg 2)\n"
 "          (+ (reg 2)\n"
 "             (int 4)))\n"
@@ -1854,6 +1934,7 @@ msgstr ""
 "          (+ (reg 2)\n"
 "             (int 4)))\n"
 
+#. type: Content of: <p>
 msgid ""
 "This looks like Lisp, but the semantics of these are not quite LISP, because "
 "each symbol here is one recognized specially.  There's a particular fixed "
@@ -1876,6 +1957,7 @@ msgstr ""
 "sa longueur en octets. Ça peut être élargi pour manipuler d'autres choses si "
 "vous en avez besoin."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "And the way I do automatic register allocation is that when I initially "
@@ -1919,6 +2001,7 @@ msgstr ""
 "essaye de regrouper les pseudo-registres dans de vrais registres autant "
 "qu'il peut, en les rangeant par ordre d'importance."
 
+#. type: Content of: <p>
 msgid ""
 "And finally it then has to correct the code for various problems, such as "
 "happen when there were pseudo registers that don't fit in the real "
@@ -1943,6 +2026,7 @@ msgstr ""
 "dehors des registres, comme c'est nécessaire pour corriger ce genre de "
 "problème."
 
+#. type: Content of: <p>
 msgid ""
 "Problems can also arise with index registers.  If you're trying to index by "
 "something, then most of the time that code will become invalid if the index "
@@ -1961,6 +2045,7 @@ msgstr ""
 "l'instruction et de là copier la valeur incrémentée en amont du slot de "
 "mémoire où elle vit vraiment."
 
+#. type: Content of: <p>
 msgid ""
 "There's got room for a lot of hair, and I've not finished implementing all "
 "the hair needed to make really fully efficient."
@@ -1969,6 +2054,7 @@ msgstr ""
 "mettre en &oelig;uvre tout ce qui est nécessaire pour le rendre vraiment "
 "pleinement efficace."
 
+#. type: Content of: <p>
 msgid ""
 "This compiler currently works by having a parser which turns C code into "
 "effectively a syntax tree annotated with C datatype information.  Then "
@@ -2013,6 +2099,7 @@ msgstr ""
 "l'attributeur dynamique de registre et enfin quelque chose pour le convertir "
 "en code assembleur."
 
+#. type: Content of: <p>
 msgid ""
 "In the Arizona compiler the instruction recognizer was generated with LEX.  "
 "Your machine description was simply a LEX program that LEX would turn into a "
@@ -2030,6 +2117,7 @@ msgstr ""
 "est utilisé comme sous-programme dans plusieurs parties différentes du "
 "compilateur."
 
+#. type: Content of: <p>
 msgid ""
 "Currently this compiler runs about as fast as PCC.  It runs noticeably "
 "faster if you tell it not to do the hairy register allocation, in which case "
@@ -2046,6 +2134,7 @@ msgstr ""
 "que pour VAX, il produit le meilleur code que j'ai vu de tous les "
 "compilateurs C sur VAX."
 
+#. type: Content of: <p>
 msgid ""
 "For the 68000 the code is still not ideal.  I can see places where early "
 "stages do things that are not the best, because it can't fully look ahead.  "
@@ -2064,6 +2153,7 @@ msgstr ""
 "ultérieure va faire, donc je dois travailler davantage sur ce genre de "
 "choses."
 
+#. type: Content of: <p>
 msgid ""
 "Sometimes this causes it to free up registers unnecessarily.  Because when "
 "things wind up in memory and it needs to copy them into registers, it needs "
@@ -2085,6 +2175,7 @@ msgstr ""
 "copier les choses dans les registres, alors il peut en libérer trop et ne "
 "pas utiliser tous les registres qu'il pourrait."
 
+#. type: Content of: <p>
 msgid ""
 "(Question: Do you have a code generator for 32000?) Not yet, but again, it's "
 "not a code generator it's just a machine description that you need.  A list "
@@ -2105,6 +2196,7 @@ msgstr ""
 "pour le VAX, le travail de portage de ce compilateur de VAX aux 68000 a "
 "juste pris quelques jours. Donc il est très facile à transférer."
 
+#. type: Content of: <p>
 msgid ""
 "The compiler currently generates assembler code and it can generate "
 "debugging information either in the format that DBX wants, or in the special "
@@ -2127,6 +2219,7 @@ msgstr ""
 "qu'il se soit compilé correctement. Je pense que ça ne prendra que quelques "
 "mois, ensuite je le diffuserai."
 
+#. type: Content of: <p>
 msgid ""
 "The other sizable part of the system that exist, is the kernel.  (Question: "
 "A pause?) Ah, yeah I guess we've forgotten about breaks.  Why don't I finish "
@@ -2138,6 +2231,7 @@ msgstr ""
 "Pourquoi je ne finirai pas de parler du noyau&nbsp;? Ce qui devrait prendre "
 "environ cinq minutes seulement, et ensuite nous pourrons faire une coupure."
 
+#. type: Content of: <p>
 msgid ""
 "Now, for the kernel I am planning to use a system called TRIX (it doesn't "
 "stand for anything that I know of) which was developed as a research project "
@@ -2175,6 +2269,7 @@ msgstr ""
 "appelle alors le domaine auquel vous essayez de parler. Mais pour vous et "
 "cet autre domaine, cela se passe de manière invisible."
 
+#. type: Content of: <p>
 msgid ""
 "The TRIX kernel runs, and it has a certain limited amount of Unix "
 "compatibility, but it needs a lot more.  Currently it has a file system that "
@@ -2191,6 +2286,7 @@ msgstr ""
 "mais ce système de fichiers n'a aucune des fonctionalités nécessaires "
 "d'après moi."
 
+#. type: Content of: <p>
 msgid ""
 "Features that I believe must be added include: Version numbers, undeletion, "
 "information on when and how and where the file was backed up on tape, atomic "
@@ -2227,6 +2323,7 @@ msgstr ""
 "compatibilité d'Unix avec les programmes utilisateurs, ça doit se passer de "
 "façon invisible."
 
+#. type: Content of: <p>
 msgid ""
 "I have a weird hairy scheme to try to make version numbers fit with the "
 "existing Unix user programs.  And this is the idea that you specify a file "
@@ -2260,6 +2357,7 @@ msgstr ""
 "nouvelle version de «&nbsp;FOO&nbsp;», mais si vous dites «&nbsp;FOO.&nbsp;», "
 "ça va écrire un fichier nommé exactement «&nbsp;FOO&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "Now there's some challenges involved in working out all the details in this, "
 "and seeing whether there are any lingering problems, whether some Unix "
@@ -2271,6 +2369,7 @@ msgstr ""
 "échouent malgré le fait d'avoir fourni des noms avec des points et ainsi de "
 "suite, pour tenter de lui faire avoir le même comportement."
 
+#. type: Content of: <p>
 msgid ""
 "I would expect that when you open a file for output whose name ends in a "
 "point, you should actually open that name right away, so you get the so you "
@@ -2289,6 +2388,7 @@ msgstr ""
 "fermé parce que le travail a échoué ou à cause du plantage du système ou de "
 "n'importe quoi du genre, il devrait être sous un nom différent."
 
+#. type: Content of: <p>
 msgid ""
 "And this idea can be connected up to &ldquo;star matching&rdquo;, by saying "
 "that a name that doesn't end in a point is matched against all the names "
@@ -2299,25 +2399,31 @@ msgstr ""
 "point équivaut à tous les noms sans numéro de version. Ainsi, si un certain "
 "répertoire a des fichiers comme ceci&nbsp;:"
 
-#, no-wrap
-msgid ""
-"\n"
-"  foo.1 foo.2 bar.8\n"
+#. type: Content of: <pre>
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "  foo.1 foo.2 bar.8\n"
+msgid "  foo.1 foo.2 bar.8\n"
 msgstr ""
 "\n"
 "  foo.1 foo.2 bar.8\n"
 
+#. type: Content of: <p>
 msgid "If I say &ldquo;*&rdquo;, that's equivalent to"
 msgstr "Si je dis «&nbsp;*&nbsp;», ça équivaut à"
 
-#, no-wrap
-msgid ""
-"\n"
-"  foo bar\n"
+#. type: Content of: <pre>
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "  foo bar\n"
+msgid "  foo bar\n"
 msgstr ""
 "\n"
 "  foo bar\n"
 
+#. type: Content of: <p>
 msgid ""
 "because it takes all the names and gets rid of their versions, and takes all "
 "the distinct ones.  But if I say &ldquo;*.&rdquo; then it takes all the "
@@ -2340,6 +2446,7 @@ msgstr ""
 "versions&hellip; bon, pas vraiment, vous devriez dire «&nbsp;*.c.*.&nbsp;» "
 "mais je n'ai pas rendu compte des détails ici."
 
+#. type: Content of: <p>
 msgid ""
 "Another thing, that isn't a user visible feature and is certainly compatible "
 "to put in, is failsafeness in the file system.  Namely, by writing all the "
@@ -2362,6 +2469,7 @@ msgstr ""
 "ses noms et par là rendre possible si l'un des répertoires du disque est "
 "perdu de le reconstruire à partir du reste du contenu du disque."
 
+#. type: Content of: <p>
 msgid ""
 "Also I think I know how to make it possible to atomically update any portion "
 "of a file.  Thus if you want to replace a certain subrange of a file with "
@@ -2375,6 +2483,7 @@ msgstr ""
 "toute tentative de lecture du fichier cela ne permette de voir que celles-ci "
 "ou seulement les anciennes."
 
+#. type: Content of: <p>
 msgid ""
 "For network support, I intend eventually to implement TCP/IP for this "
 "system.  I also think it's possible to use KERMIT to get something "
@@ -2385,6 +2494,7 @@ msgstr ""
 "d'utiliser KERMIT pour obtenir quelque chose d'équivalent au UUCP de manière "
 "efficace."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "A shell I believe has already been written.  It has two modes, one "
@@ -2416,6 +2526,7 @@ msgstr ""
 "faire est beaucoup moins important que ce qui a été fait mais on a toujours "
 "besoin de beaucoup de gens pour aider."
 
+#. type: Content of: <p>
 msgid ""
 "People always ask me &ldquo;When is it going to be finished?&rdquo; Of "
 "course I can't know when it's going to be finished, but that's the wrong "
@@ -2446,9 +2557,11 @@ msgstr ""
 "vraiment controversées. Alors ne partez pas maintenant. Si vous partez "
 "maintenant vous allez rater la véritable expérience."
 
+#. type: Content of: <p>
 msgid "<strong> [Here we had a 15 min. break] </strong>"
 msgstr "<strong>[Ici, nous avons eu 15 minutes de pause]</strong>"
 
+#. type: Content of: <p>
 msgid ""
 "I've been asked to announce how you can get copies of GNU software.  Well, "
 "one way of course is if you know a friend who has a copy, you can copy it, "
@@ -2467,6 +2580,7 @@ msgstr ""
 "n'est pas la même chose que la distribution libre. Je l'expliquerai en "
 "détail plus tard."
 
+#. type: Content of: <p>
 msgid ""
 "Here I have an EMACS manual, of the nicely printed variety.  It has been "
 "phototypeset and then offset printed.  Although you can also print it "
@@ -2487,6 +2601,7 @@ msgstr ""
 "sur un gnu] c'est un accapareur de logiciel effrayé, je parlerai de lui dans "
 "un moment."
 
+#. type: Content of: <p>
 msgid ""
 "Software is a relatively new phenomenon.  People started distributing "
 "software perhaps thirty years ago.  It was only about twenty years ago that "
@@ -2502,6 +2617,7 @@ msgstr ""
 "pouvait avoir. Et il y avait quelques idées sur ce que les autres domaines "
 "de la vie pouvaient apporter comme tradition par analogie."
 
+#. type: Content of: <p>
 msgid ""
 "One analogy that is liked by a lot of professors in Europe, is that between "
 "programs and mathematics.  A program is sort of a large formula.  Now, "
@@ -2513,6 +2629,7 @@ msgstr ""
 "de grande formule. Par tradition, personne ne peut posséder une formule "
 "mathématique. N'importe qui peut la copier et s'en servir."
 
+#. type: Content of: <p>
 msgid ""
 "The analogy that's most meaningful to ordinary people is with recipes.  If "
 "you think about it, the thing that you have in ordinary life that's most "
@@ -2531,6 +2648,7 @@ msgstr ""
 "toujours ce qu'il y a de plus proche. Et personne n'est autorisé à posséder "
 "une recette."
 
+#. type: Content of: <p>
 msgid ""
 "But the analogy that was chosen was the analogy with books, which have "
 "copyright.  And why was this choice made? Because the people that had the "
@@ -2548,6 +2666,7 @@ msgstr ""
 "Cela a été fait d'une façon totalement égoïste, en transformant le domaine "
 "de la programmation en quelque chose de sinistre."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "When I entered the field, when I started working at MIT in 1971, the idea "
@@ -2576,6 +2695,7 @@ msgstr ""
 "ajouté de nombreux utilitaires. Il n'y avait aucun droit d'auteur sur ce "
 "programme."
 
+#. type: Content of: <p>
 msgid ""
 "It was only in the late seventies that this began to change.  I was "
 "extremely impressed by the sharing spirit that we had.  We were doing "
@@ -2600,6 +2720,7 @@ msgstr ""
 "renvoyées pour que je puisse les incorporer à de nouvelles versions d'EMACS, "
 "de manière à ce que chacun dans la communauté puisse en bénéficier."
 
+#. type: Content of: <p>
 msgid ""
 "But this started to be destroyed when SCRIBE was developed at CMU, and then "
 "was sold to a company.  This was very disturbing to a lot of us at many "
@@ -2620,6 +2741,7 @@ msgstr ""
 "reste de la société, jusqu'à ce qu'il ne reste plus que ceux qui avaient des "
 "consciences très fortes pour continuer. Et c'est ce qu'il s'est passé."
 
+#. type: Content of: <p>
 msgid ""
 "The field of programming has now become an ugly one, where everyone "
 "cynically thinks about how much money he is going to get by not being nice "
@@ -2629,6 +2751,7 @@ msgstr ""
 "pense de façon cynique à combien il va gagner à ne pas être sympa avec ses "
 "homologues et les utilisateurs."
 
+#. type: Content of: <p>
 msgid ""
 "I want to establish that the practice of owning software is both materially "
 "wasteful, spiritually harmful to society and evil.  All these three things "
@@ -2651,6 +2774,7 @@ msgstr ""
 "malfaisant parce que ça gaspille délibérément le travail effectué dans la "
 "société en provoquant l'affaiblissement social."
 
+#. type: Content of: <p>
 msgid ""
 "First I want to explain the kinds of harm that are done by attempts to own "
 "software and other information that's generally useful, then I'll go on to "
@@ -2663,6 +2787,7 @@ msgstr ""
 "pratique, ensuite je veux parler de la façon de combattre ce phénomène et "
 "comment je m'y prends moi-même."
 
+#. type: Content of: <p>
 msgid ""
 "The idea of owning information is harmful in three different levels.  "
 "Materially harmful on three different levels, and each kind of material harm "
@@ -2672,6 +2797,7 @@ msgstr ""
 "Matériellement nocif à trois niveaux différents. Et à chaque type de "
 "nocivité matérielle correspond une nocivité spirituelle."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The first level is just that it discourages the use of the program, it "
@@ -2702,6 +2828,7 @@ msgstr ""
 "prix, le programme a été à moitié gaspillé. La même quantité de travail a "
 "produit seulement la moitié de richesse."
 
+#. type: Content of: <p>
 msgid ""
 "Now in fact, you don't have to do anything special to cause a program to get "
 "around to all the people who want to use it, because they can copy it "
@@ -2735,6 +2862,7 @@ msgstr ""
 "nuisance spirituelle. Cette attitude de dire «&nbsp;Au diable mes voisins, "
 "donnez-moi à MOI une copie&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "After I ran into people saying they wouldn't let me have copies of "
 "something, because they had signed some secrecy agreement, then when "
@@ -2748,6 +2876,7 @@ msgstr ""
 "pouvais pas faire à quelqu'un d'autre ce qui m'avait tant exaspéré quand on "
 "me l'avait fait à moi."
 
+#. type: Content of: <p>
 msgid ""
 "But this is just one of the levels of harm.  The second level of harm comes "
 "when people want to change the program, because no program is really right "
@@ -2763,6 +2892,7 @@ msgstr ""
 "ils rajouter du poivre vert, les gens doivent également modifier les "
 "programmes pour obtenir les effets dont ils ont besoin."
 
+#. type: Content of: <p>
 msgid ""
 "Now, the software owners don't really care whether people can change the "
 "program or not, but it's useful for their ends to prevent people.  Generally "
@@ -2796,6 +2926,7 @@ msgstr ""
 "spéculer sur la fraction de l'ensemble des programmeurs du monde qui perdent "
 "leur temps de cette façon."
 
+#. type: Content of: <p>
 msgid ""
 "And then there is also the situation where a program is adequate make do, "
 "but it's uncomfortable.  For example: The first time we had a graphics "
@@ -2826,6 +2957,7 @@ msgstr ""
 "prêts, désireux et capables d'arranger ça mais que nous n'en avions pas le "
 "droit. On nous sabotait."
 
+#. type: Content of: <p>
 msgid ""
 "And then there are all the people who use computers and say that the "
 "computers are a mystery to them, they don't know they work.  Well how can "
@@ -2840,6 +2972,7 @@ msgstr ""
 "d'apprendre comment les programmes devraient être écrits ou comment ils font "
 "ce qu'ils font, c'est de lire le code source."
 
+#. type: Content of: <p>
 msgid ""
 "So I could only wonder whether the idea of the user who just thinks of the "
 "computer as a tool is not actually a self-fulfilling prophecy, a result of "
@@ -2850,6 +2983,7 @@ msgstr ""
 "prophétie d'auto-épanouissement&nbsp;; une conséquence du fait de maintenir "
 "le code source secret."
 
+#. type: Content of: <p>
 msgid ""
 "Now the spiritual harm that goes with this kind of material harm, is in the "
 "spirit of self-sufficiency.  When a person spends a lot of time using a "
@@ -2881,6 +3015,7 @@ msgstr ""
 "ce qui résulte de ne pas être autorisé à améliorer les choses quand vous "
 "avez l'esprit public."
 
+#. type: Content of: <p>
 msgid ""
 "The third level of harm is in the interaction between software developers "
 "themselves.  Because any field of knowledge advance most when people can "
@@ -2900,6 +3035,7 @@ msgstr ""
 "commence à partir du début et en ralentissent ainsi considérablement "
 "l'avancement."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "So we can see: How many spreadsheet systems were made all by different "
@@ -2952,6 +3088,7 @@ msgstr ""
 "peut souvent tirer bénéfice d'être entièrement réécrit, mais à condition de "
 "pouvoir lire le vieux d'abord."
 
+#. type: Content of: <p>
 msgid ""
 "Thus, the people in the programming field have evolved a way of wasting a "
 "lot of their time and thus making apparently a need for more programmers "
@@ -2984,6 +3121,7 @@ msgstr ""
 "le nombre de programmeurs utilisés. Il y a quelque chose d'un peu "
 "schizophrène là-dedans."
 
+#. type: Content of: <p>
 msgid ""
 "And the spiritual harm that corresponds to this level of material harm is to "
 "the spirit of scientific cooperation, which used to be so strong that "
@@ -2999,6 +3137,7 @@ msgstr ""
 "guerre. C'était uniquement pour le bénéfice à long terme de l'humanité. De "
 "nos jours, les gens ne s'en inquiètent plus."
 
+#. type: Content of: <p>
 msgid ""
 "To get an idea of what it's like to obstruct the use of a program, let's "
 "imagine that we had a sandwich, that you could eat, and it wouldn't be "
@@ -3012,6 +3151,7 @@ msgstr ""
 "sandwich, n'importe quel nombre de fois et il en resterait toujours comme "
 "s'il nourrissait autant qu'à l'origine."
 
+#. type: Content of: <p>
 msgid ""
 "The best thing to do, the thing that we ought to do with this sandwich is "
 "carry it around to the places where there are hungry people; bringing it to "
@@ -3026,6 +3166,7 @@ msgstr ""
 "que sinon les gens ne se permettraient pas de le manger et il serait "
 "gaspillé."
 
+#. type: Content of: <p>
 msgid ""
 "The program is like this sandwich, but even more so because it can be in "
 "many different places at once being eaten, used by different people one "
@@ -3039,6 +3180,7 @@ msgstr ""
 "suffisait pour alimenter tout le monde, partout, pour toujours, et cela n'a "
 "pas pu se produire parce que quelqu'un a cru qu'il pouvait le posséder."
 
+#. type: Content of: <p>
 msgid ""
 "Now, the people who believe that they can own programs, generally put "
 "forward two lines of argument for this.  The first one is &ldquo;I wrote it, "
@@ -3055,6 +3197,7 @@ msgstr ""
 "signent des accords stipulant qu'il appartient à l'entreprise pour laquelle "
 "ils travaillent."
 
+#. type: Content of: <p>
 msgid ""
 "So I believe this is one of the things you can easily talk yourself into "
 "believing is important, but you can just as easily convince yourself it "
@@ -3064,6 +3207,7 @@ msgstr ""
 "dire en croyant que c'est important, mais vous pouvez aussi aisément vous "
 "convaincre que cela n'a pas d'importance du tout."
 
+#. type: Content of: <p>
 msgid ""
 "Usually, these people use this argument to demand the right to control even "
 "how people can change a program.  They say: &ldquo;Nobody should be able to "
@@ -3084,6 +3228,7 @@ msgstr ""
 "beaucoup de sel&nbsp;!&nbsp;», «&nbsp;Mais mon médecin m'a dit qu'il n'était "
 "pas bon pour moi de manger salé. Que dois-je faire&nbsp;?&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "Clearly, the person who is using the program is much closer to the event.  "
 "The use of the program affects him very directly, whereas it only has a sort "
@@ -3097,6 +3242,7 @@ msgstr ""
 "donc, pour donner aux gens autant de contrôle que possible sur leurs propres "
 "vies, c'est l'utilisateur qui doit décider."
 
+#. type: Content of: <p>
 msgid ""
 "The second line of argument they make is the economic one.  &ldquo;How will "
 "people get payed to program?&rdquo; they say, and there's a little bit of "
@@ -3128,6 +3274,7 @@ msgstr ""
 "un toit au-dessus de ma tête&nbsp;?&nbsp;» mais &nbsp;comment pourra-t'il se "
 "payer un appartement dans une copropriété&nbsp;?&nbsp;»."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "The current system were chosen by the people who invest in software "
@@ -3164,6 +3311,7 @@ msgstr ""
 "il y a quinze ans ils étaient libres et les gens avaient déjà été payés pour "
 "ça."
 
+#. type: Content of: <p>
 msgid ""
 "When you have something like a program, like an infinite sandwich, like a "
 "road, which has to be built once, but once it is built it pretty much "
@@ -3198,6 +3346,7 @@ msgstr ""
 "bons endroits pour mettre leurs routes feront des profits et les autres "
 "feront faillite&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "There's a funny thing that happens whenever someone comes up with a way of "
 "making lots of money by hoarding something.  Until that time you've probably "
@@ -3233,6 +3382,7 @@ msgstr ""
 "quelque chose, généralement tous ces gens disparaissent. Et on commence à "
 "dire «&nbsp;personne ne le fera à moins d'être payé aussi bien&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "And I saw this happen in the field of programming.  The very same people who "
 "used to work at the AI lab and get payed very little and love it, now "
@@ -3259,6 +3409,7 @@ msgstr ""
 "gens qui accepteraient de le faire pour pas grand-chose, particulièrement "
 "quand c'est créatif et amusant."
 
+#. type: Content of: <p>
 msgid ""
 "Now I saw the unique world of the AI lab destroyed, and I saw that selling "
 "software was an intrinsic part of what had destroyed it, and I saw also, as "
@@ -3296,6 +3447,7 @@ msgstr ""
 "technique à des fins sociales. Avec le système GNU, j'espère vacciner les "
 "utilisateurs contre la menace des accapareurs de logiciel."
 
+#. type: Content of: <p>
 msgid ""
 "Right now the hoarders essentially claims the power to render a person's "
 "computer useless.  There used to be people in the US, most commonly about "
@@ -3329,6 +3481,7 @@ msgstr ""
 "donnerai une copie de ce programme avec une autorisation&nbsp;», et ça "
 "s'appelle «&nbsp;le racket de protection de logiciel&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "Really all they're doing is interfering with everybody else doing what needs "
 "to be done, but they're pretending as much to them selves as to the rest of "
@@ -3347,6 +3500,7 @@ msgstr ""
 "le logiciel libre GNU et il n'y a rien que vous puissiez me faire "
 "désormais&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "Now, one of the justifications people sometimes offer for owning software, "
 "is the idea of giving people an incentive to produce things.  I support the "
@@ -3390,6 +3544,7 @@ msgstr ""
 "encourageant les programmeurs à faire des choses qui ne sont pas bonnes pour "
 "la société."
 
+#. type: Content of: <p>
 msgid ""
 "I'm unusual.  I'd rather believe that I'm a good member of society and that "
 "I'm contributing something, than feel that I'm ripping society off "
@@ -3409,9 +3564,11 @@ msgstr ""
 "proposer des arrangements pour encourager les gens à faire la bonne, qui est "
 "de faire du logiciel libre."
 
+#. type: Content of: <p>
 msgid "Thank you."
 msgstr "Merci."
 
+#. type: Content of: <p>
 msgid ""
 "<strong>[After this RMS answered questions for about an hour.  I have only "
 "included a very few of the questions and answers in this version.  The tape "
@@ -3423,11 +3580,13 @@ msgstr ""
 "version. La bande était mauvaise, et je n'ai pas eu le temps de faire un "
 "travail approprié sur la totalité]</strong>"
 
+#. type: Content of: <dl><dt>
 msgid "<b>Q</b>: Has anyone tried to make problems for you?"
 msgstr ""
 "<b>Question&nbsp;:</b> Est-ce que quelqu'un a tenté de vous causer des "
 "ennuis&nbsp;?"
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "<b>A:</b> The only time anyone has tried to make a problem for me was those "
 "owners, so called, self-styled owners of Gosling Emacs.  Aside from that "
@@ -3456,6 +3615,7 @@ msgstr ""
 "pirate&nbsp;» pour décrire quelqu'un qui souhaite partager le logiciel avec "
 "son voisin comme un bon citoyen."
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "I forgot to tell you this: The idea of copyright was invented after the "
 "printing press.  In ancient times authors copied from each other freely, and "
@@ -3470,6 +3630,7 @@ msgstr ""
 "en fragments, parce qu'ils ont été cités longuement dans d'autres travaux "
 "qui, eux ont survécu."
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "This was because books were copied one copy at the time.  It was ten times "
 "as hard to make ten copies as it was to make one copy.  Then the printing "
@@ -3484,6 +3645,7 @@ msgstr ""
 "main était si désagréable que cela pouvait rendre la tâche tout à fait "
 "impossible."
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "When books could only be made by mass production, copyright then started to "
 "make sense and it also did not take away the freedom of the reading public.  "
@@ -3506,6 +3668,7 @@ msgstr ""
 "copier n'importe quel genre d'information&hellip; [coupure due à la rotation "
 "de la bande]."
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Thus we are back in the same situation as in the ancient world where "
 "copyright did not make sense."
@@ -3513,6 +3676,7 @@ msgstr ""
 "Ainsi nous retournons dans la même situation que dans le monde antique où le "
 "droit d'auteur n'avait pas de sens."
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "If we consider our idea of property, they come from material objects.  "
 "Material objects satisfy a conservation law, pretty much.  Yes it's true I "
@@ -3533,6 +3697,7 @@ msgstr ""
 "plus de travail de production et nos idées de propriété ont été développées "
 "pour qu'il y ait un sens moral à ce que ces faits concordent."
 
+#. type: Content of: <dl><dd><p>
 #, fuzzy
 #| msgid ""
 #| "For a piece of information that anyone can copy, the facts are "
@@ -3578,6 +3743,7 @@ msgstr ""
 "seulement une personne peut avoir le disque, ça pourrait aussi bien être "
 "celui qui le possède."
 
+#. type: Content of: <dl><dd><p>
 #, fuzzy
 #| msgid ""
 #| "But when somebody else comes up and says: &ldquo;I'm not going to hurt "
@@ -3604,6 +3770,7 @@ msgstr ""
 "à profiter de votre chaise en l'ayant toujours à disposition mais j'en aurai "
 "une aussi&nbsp;». C'est bon."
 
+#. type: Content of: <dl><dd><p>
 #, fuzzy
 #| msgid ""
 #| "If people don't have to build, they can just snap their fingers and "
@@ -3638,6 +3805,7 @@ msgstr ""
 "matériel, pas qu'ils réalisent que ce qu'ils ont vraiment obtenu est sous "
 "forme de données numériques copiables."
 
+#. type: Content of: <dl><dd><p>
 #, fuzzy
 #| msgid ""
 #| "What is a computer after all but a universal machine? You've probably "
@@ -3669,6 +3837,7 @@ msgstr ""
 "vers les machines universelles mais ils ne veulent pas que le public "
 "l'obtienne."
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "Essentially they are trying to preserve the &ldquo;material object "
 "age&rdquo;, but it's gone, and we should get our ideas of right and wrong in "
@@ -3679,6 +3848,7 @@ msgstr ""
 "faux devrait être synchrone avec les faits réels du monde dans lequel nous "
 "vivons."
 
+#. type: Content of: <dl><dt>
 #, fuzzy
 #| msgid ""
 #| "<b>Q</b>: So it boils down to ownership of information.  Do you think "
@@ -3691,6 +3861,7 @@ msgstr ""
 "l'information. Pensez-vous qu'il y ait des exemples où, selon vous, il est "
 "bon de posséder l'information&nbsp;?"
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "<b>A:</b> With information that's not generally useful, or is of a personal "
 "nature, I would say it's OK. In other words not information about how to do "
@@ -3707,6 +3878,7 @@ msgstr ""
 "ils ne peuvent réellement rien créer. Je dirais qu'il est parfaitement "
 "raisonnable de garder ce genre de chose secret et sous contrôle."
 
+#. type: Content of: <dl><dd><p>
 msgid ""
 "But in terms of creative information, information that people can use or "
 "enjoy, and that will be used and enjoyed more the more people who have it, "
@@ -3717,22 +3889,30 @@ msgstr ""
 "l'auront, nous devrions toujours en encourager la copie."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -3742,9 +3922,11 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 1987, 2009, 2010 Richard Stallman and Bjrn Remseth"
 msgstr "Copyright &copy; 1987, 2009, 2010 Richard Stallman and Bjrn Remseth"
 
+#. type: Content of: <div><p>
 msgid ""
 "Permission is granted to make and distribute verbatim copies of this "
 "transcript as long as the copyright and this permission notice appear."
@@ -3754,14 +3936,24 @@ msgstr ""
 "préservée."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Miluz.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;"
 "april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-msgid "Translations of this page"
-msgstr "Traductions de cette page"
+#, fuzzy
+#~| msgid ""
+#~| "<em> Arranged by the student society<br /> &ldquo;Datorföreningen "
+#~| "Stacken&rdquo;<br /> 30 October 1986 </em>"
+#~ msgid ""
+#~ "<em> Arranged by the student society<br /> &ldquo;Datorf&ouml;reningen "
+#~ "Stacken&rdquo;<br /> 30 October 1986 </em>"
+#~ msgstr ""
+#~ "<em>organisé par l'association des étudiants<br />«&nbsp;Datorföreningen "
+#~ "Stacken&nbsp;»<br />le 30 octobre 1986</em>"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: patent-practice-panel.html\n"
-"POT-Creation-Date: 2008-08-25 16:26-0300\n"
+"POT-Creation-Date: 2011-09-20 12:30-0300\n"
 "PO-Revision-Date: 2009-01-11 14:32+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <title>
 msgid ""
 "Daniel Ravicher's FFII panel presentation, November 10, 2004 - GNU Project - "
 "Free Software Foundation (FSF)"
@@ -23,6 +24,7 @@ msgstr ""
 "Présentation à la table ronde de la FFII de Daniel Ravicher, le 10 novembre "
 "2004 - GNU Project - Free Software Foundation (FSF)"
 
+#. type: Content of: <h2>
 msgid ""
 "New developments in patent practice: assessing the risks and cost of "
 "portfolio licensing and hold-ups"
@@ -30,9 +32,11 @@ msgstr ""
 "Nouveaux développements dans la pratique des brevets&nbsp;: évaluation des "
 "risques, le coût des concessions de licences et la rétention"
 
+#. type: Content of: <p>
 msgid "by <strong>Daniel B. Ravicher</strong>"
 msgstr "par <strong>Daniel B. Ravicher</strong>"
 
+#. type: Content of: <p>
 msgid ""
 "<em>This is a transcript of a panel presentation given by Daniel B.  "
 "Ravicher as the executive director of the Public Patent Foundation on "
@@ -48,6 +52,7 @@ msgstr ""
 "d'Information Libre) à Bruxelles, Belgique. La transcription a été faite par "
 "Aendrew Rininsland.</em>"
 
+#. type: Content of: <p>
 msgid ""
 "Thanks. I think, for me, the whole two days of conferences boils to really "
 "one question, and the whole debate boils down to one question: &ldquo;How do "
@@ -57,6 +62,7 @@ msgstr ""
 "résumer en une question&nbsp;: «&nbsp;Comment voulons-nous déterminer le "
 "succès dans l'industrie des logiciels&nbsp;?&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "Or, another way, who do we want to determine those who succeed and those who "
 "fail in the software industry? Because there are various people who can make "
@@ -79,6 +85,7 @@ msgstr ""
 "prendre les décisions au sujet du choix du logiciel &mdash; pas des "
 "bureaucrates."
 
+#. type: Content of: <p>
 msgid ""
 "Now, what does that have to do with patents? The larger you make a patent "
 "system, the more you allow the patent system to impact software, and the "
@@ -99,6 +106,7 @@ msgstr ""
 "consommateurs. Cela signifie qu'il est moins probable que les mérites soient "
 "déterminants dans la réussite d'un logiciel."
 
+#. type: Content of: <p>
 msgid ""
 "We have to recognize that even without software patents, large developers "
 "have intrinsic advantages over small developers. Large developers have the "
@@ -123,6 +131,7 @@ msgstr ""
 "pourrait bénéficier à de petits développeurs et donc pourrait éroder "
 "certains des avantages qu'ont naturellement les grandes corporations."
 
+#. type: Content of: <p>
 msgid ""
 "I think that point's been belaboured already. We know that small developers "
 "are not benefited by a patent system, in fact, they are prejudiced by a "
@@ -144,6 +153,7 @@ msgstr ""
 "des bureaucrates, se basant sur les sociétés à qui les brevets sont accordés "
 "et sur les gagnants dans les affaires de violation de brevets&nbsp;?"
 
+#. type: Content of: <p>
 msgid ""
 "The other thing we need to recognize is whether or not the patent system has "
 "a preference for users of certain types of software. A patent system as we "
@@ -198,6 +208,7 @@ msgstr ""
 "utilisateurs de logiciels propriétaires aux utilisateurs de logiciels open "
 "source."
 
+#. type: Content of: <p>
 msgid ""
 "If we come back to the initial question, which I think this is all about, "
 "how do we want success in the software market to be determined? Do we want "
@@ -210,6 +221,7 @@ msgstr ""
 "type de facteurs, ou voulons-nous que ce soit déterminé par l'obtention du "
 "meilleur logiciel au meilleur prix&nbsp;?"
 
+#. type: Content of: <p>
 msgid ""
 "Now, I think it's important to concede the point that people on the other "
 "side will make, which is, will a less-onerous patent system, or they would "
@@ -245,6 +257,7 @@ msgstr ""
 "la marque et les relations. Pourquoi les laissez-vous les copier&nbsp;? Ça "
 "ne doit pas vous inquiéter tant que ça."
 
+#. type: Content of: <p>
 msgid ""
 "And so the question is, then, does a patent system have a net-beneficial "
 "effect or a net-detrimental effect on software development? I think we've "
@@ -294,6 +307,7 @@ msgstr ""
 "demandons&nbsp;: «&nbsp;Si vous vous inquiétez des personnes qui copient, "
 "alors pourquoi faire des licences croisées avec elles&nbsp;?&nbsp;»."
 
+#. type: Content of: <p>
 msgid ""
 "You know, the last point is, who else does a patent system benefit? If it "
 "benefits large developers over small developers, is there anyone else? A "
@@ -315,6 +329,7 @@ msgstr ""
 "achat de capitaux et puis qui l'utilisent pour taxer les d'autres "
 "développeurs, d'autres distributeurs d'un produit."
 
+#. type: Content of: <p>
 msgid ""
 "Do we really want a system which encourages people to not add products or "
 "services to the market place but only detracts from the profits and "
@@ -325,22 +340,30 @@ msgstr ""
 "les bénéfices et les possibilités de ceux qui le font&nbsp;?"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF.  <br /> Please send broken links and other "
-"corrections or suggestions to <a href=\"mailto:webmasters@gnu.org"
-"\"><em>webmasters@gnu.org</em></a>."
+"ways to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -350,24 +373,38 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
+#, fuzzy
+#| msgid "Copyright &copy; 2006 Richard Stallman"
+msgid "Copyright &copy; 2006 Daniel B. Ravicher"
+msgstr "Copyright &copy; 2006 Richard Stallman"
+
+#. type: Content of: <div><p>
 msgid ""
-"Copyright &copy; 2006 Daniel B. Ravicher <br /> Verbatim copying and "
-"distribution of this entire article is permitted in any medium, provided "
-"this notice is preserved."
+"Verbatim copying and distribution of this entire article is permitted in any "
+"medium, provided this notice is preserved."
 msgstr ""
-"Copyright &copy; 2006 Daniel B. Ravicher <br />La reproduction exacte et la "
-"distribution intégrale de cet article est permise sur n'importe quel support "
-"d'archivage, pourvu que cette notice soit préservée."
+"La reproduction exacte et la distribution intégrale de cet article est "
+"permise sur n'importe quel support d'archivage, pourvu que cette notice soit "
+"préservée."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: EWENS.<br /> Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;"
 "april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-msgid "Translations of this page"
-msgstr "Traductions de cette page"
+#~ msgid ""
+#~ "Copyright &copy; 2006 Daniel B. Ravicher <br /> Verbatim copying and "
+#~ "distribution of this entire article is permitted in any medium, provided "
+#~ "this notice is preserved."
+#~ msgstr ""
+#~ "Copyright &copy; 2006 Daniel B. Ravicher <br />La reproduction exacte et "
+#~ "la distribution intégrale de cet article est permise sur n'importe quel "
+#~ "support d'archivage, pourvu que cette notice soit préservée."

@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2011-07-21 00:54+0300\n"
+"POT-Creation-Date: 2011-09-20 12:27-0300\n"
 "PO-Revision-Date: 2011-06-25 17:03+0000\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -42,22 +42,32 @@ msgid "<a href=\"#SoftwareLicenses\">Software Licenses</a>"
 msgstr "<a href=\"#SoftwareLicenses\">Licences logicielles</a>"
 
 #. type: Content of: <ul><li><ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"#GPLCompatibleLicenses\">GPL-Compatible Free Software Licenses</"
+#| "a>"
 msgid ""
-"<a href=\"#GPLCompatibleLicenses\">GPL-Compatible Free Software Licenses</a>"
+"<a href=\"#GPLCompatibleLicenses\"> GPL-Compatible Free Software Licenses</a>"
 msgstr ""
 "<a href=\"#GPLCompatibleLicenses\">Licences de logiciels libres compatibles "
 "avec la GPL</a>"
 
 #. type: Content of: <ul><li><ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"#GPLIncompatibleLicenses\">GPL-Incompatible Free Software "
+#| "Licenses</a>"
 msgid ""
-"<a href=\"#GPLIncompatibleLicenses\">GPL-Incompatible Free Software "
+"<a href=\"#GPLIncompatibleLicenses\"> GPL-Incompatible Free Software "
 "Licenses</a>"
 msgstr ""
 "<a href=\"#GPLIncompatibleLicenses\">Licences de logiciels libres "
 "incompatibles avec la GPL</a>"
 
 #. type: Content of: <ul><li><ul><li>
-msgid "<a href=\"#NonFreeSoftwareLicense\">Non-Free Software Licenses</a>"
+#, fuzzy
+#| msgid "<a href=\"#NonFreeSoftwareLicense\">Non-Free Software Licenses</a>"
+msgid "<a href=\"#NonFreeSoftwareLicenses\">Non-Free Software Licenses</a>"
 msgstr ""
 "<a href=\"#NonFreeSoftwareLicense\">Licences de logiciels non libres</a>"
 
@@ -72,15 +82,24 @@ msgstr ""
 "documentation</a>"
 
 #. type: Content of: <ul><li><ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"#NonFreeDocumentationLicenses\">Non-Free Documentation "
+#| "Licenses</a>"
 msgid ""
-"<a href=\"#NonFreeDocumentationLicenses\">Non-Free Documentation Licenses</a>"
+"<a href=\"#NonFreeDocumentationLicenses\"> Non-Free Documentation Licenses</"
+"a>"
 msgstr ""
 "<a href=\"#NonFreeDocumentationLicenses\">Licences non libres pour la "
 "documentation</a>"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"#OtherLicenses\">Licenses for Works of Practical Use Besides "
+#| "Software and Documentation</a>"
 msgid ""
-"<a href=\"#OtherLicenses\">Licenses for Works of Practical Use Besides "
+"<a href=\"#OtherLicenses\"> Licenses for Works of Practical Use Besides "
 "Software and Documentation</a>"
 msgstr ""
 "<a href=\"#OtherLicenses\">Licences pour les &oelig;uvres d'usage pratique "
@@ -91,8 +110,12 @@ msgid "<a href=\"#Fonts\">Licenses for Fonts</a>"
 msgstr "<a href=\"#Fonts\">Licences pour les polices</a>"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"#OpinionLicenses\">Licenses for Works of Opinion and Judgment</"
+#| "a>"
 msgid ""
-"<a href=\"#OpinionLicenses\">Licenses for Works of Opinion and Judgment</a>"
+"<a href=\"#OpinionLicenses\"> Licenses for Works of Opinion and Judgment</a>"
 msgstr ""
 "<a href=\"#OpinionLicenses\">Licences pour les &oelig;uvres d'opinion et de "
 "jugement</a>"
@@ -218,10 +241,10 @@ msgstr "<a id=\"SoftwareLicenses\">Les licences de logiciels</a>"
 
 #. type: Content of: <h3>
 msgid ""
-"<a id=\"GPLCompatibleLicenses\"> GPL-Compatible Free Software Licenses</a>"
+"<a id=\"FreeLicenses\"></a> <a id=\"GPLCompatibleLicenses\"> GPL-Compatible "
+"Free Software Licenses</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#GPLCompatibleLicenses\">#GPLCompatibleLicenses</a>)</span>"
 msgstr ""
-"<a id=\"GPLCompatibleLicenses\">Les licences de logiciels libres compatibles "
-"avec la GPL</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -233,13 +256,14 @@ msgstr ""
 "de <a href=\"/philosophy/free-sw.fr.html\">logiciels libres</a> et qui sont "
 "compatibles avec la <a href=\"#GNUGPL\">GPL de GNU</a>&nbsp;:</strong>"
 
+#.  both generic and version-specific anchors 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"GNUGPL\" href=\"/licenses/gpl.html\"> GNU General Public License "
-"(GPL) version 3</a>"
+"<a id=\"GNUGPL\"></a> <a id=\"GNUGPLv3\" href=\"/licenses/gpl.html\"> GNU "
+"General Public License (GPL) version 3</a> <span class=\"anchor-reference-id"
+"\"> (<a href=\"#GNUGPL\">#GNUGPL</a>)  (<a href=\"#GNUGPL\">#GNUGPLv3</a>)  "
+"</span>"
 msgstr ""
-"<a id=\"GNUGPL\" href=\"/licenses/gpl.html\">La licence GNU General Public "
-"License version 3</a>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -267,9 +291,14 @@ msgstr ""
 "\"/licenses/gpl-faq.fr.html#AllCompatibility\">consulter notre FAQ</a>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"GPLv2\" href=\"/licenses/old-licenses/gpl-2.0.html\"> GNU General "
+#| "Public License (GPL) version 2</a>"
 msgid ""
 "<a id=\"GPLv2\" href=\"/licenses/old-licenses/gpl-2.0.html\"> GNU General "
-"Public License (GPL) version 2</a>"
+"Public License (GPL) version 2</a> <span class=\"anchor-reference-id\">(<a "
+"href=\"#GPLv2\">#GPLv2</a>)</span>"
 msgstr ""
 "<a id=\"GPLv2\" href=\"/licenses/old-licenses/gpl-2.0.html\">La licence GNU "
 "General Public License (GPL) version 2</a>"
@@ -302,9 +331,15 @@ msgstr ""
 "notre FAQ</a>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"LGPL\" href=\"/licenses/lgpl.html\"> GNU Lesser General Public "
+#| "License (LGPL) version 3</a>"
 msgid ""
-"<a id=\"LGPL\" href=\"/licenses/lgpl.html\"> GNU Lesser General Public "
-"License (LGPL) version 3</a>"
+"<a id=\"LGPL\"></a> <a id=\"LGPLv3\" href=\"/licenses/lgpl.html\"> GNU "
+"Lesser General Public License (LGPL) version 3</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#LGPL\">#LGPL</a>)  (<a href=\"#LGPL\">#LGPLv3</"
+"a>)</span>"
 msgstr ""
 "<a id=\"LGPL\" href=\"/licenses/lgpl.html\">La GNU Lesser General Public "
 "License (LGPL) version 3</a>"
@@ -340,9 +375,14 @@ msgstr ""
 "notre FAQ</a>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"LGPLv2.1\" href=\"/licenses/old-licenses/lgpl-2.1.html\"> GNU "
+#| "Lesser General Public License (LGPL) version 2.1</a>"
 msgid ""
 "<a id=\"LGPLv2.1\" href=\"/licenses/old-licenses/lgpl-2.1.html\"> GNU Lesser "
-"General Public License (LGPL) version 2.1</a>"
+"General Public License (LGPL) version 2.1</a> <span class=\"anchor-reference-"
+"id\"> (<a href=\"#LGPLv2.1\">#LGPLv2.1</a>)</span>"
 msgstr ""
 "<a id=\"LGPLv2.1\" href=\"/licenses/old-licenses/lgpl-2.1.html\">La licence "
 "GNU Lesser General Public License version 2.1</a>"
@@ -367,9 +407,15 @@ msgstr ""
 "fr.html#AllCompatibility\">consulter notre FAQ</a>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"AGPLv3.0\" href=\"/licenses/agpl.html\">GNU Affero General Public "
+#| "License (AGPL) version 3</a>"
 msgid ""
-"<a id=\"AGPLv3.0\" href=\"/licenses/agpl.html\">GNU Affero General Public "
-"License (AGPL) version 3</a>"
+"<a id=\"AGPL\"></a> <a id=\"AGPLv3.0\" href=\"/licenses/agpl.html\"> GNU "
+"Affero General Public License (AGPL) version 3</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#AGPL\">#AGPL</a>)  (<a href=\"#AGPLv3.0"
+"\">#AGPLv3.0</a>)</span>"
 msgstr ""
 "<a id=\"AGPLv3.0\" href=\"/licenses/agpl.html\">GNU Affero General Public "
 "License (AGPL) version 3</a>"
@@ -411,9 +457,14 @@ msgstr ""
 "plus de détails."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"/prep/maintain/html_node/License-Notices-for-Other-Files.html\" "
+#| "id=\"GNUAllPermissive\">GNU All-Permissive License</a>"
 msgid ""
-"<a href=\"/prep/maintain/html_node/License-Notices-for-Other-Files.html\" id="
-"\"GNUAllPermissive\">GNU All-Permissive License</a>"
+"<a id=\"GNUAllPermissive\" href=\"/prep/maintain/html_node/License-Notices-"
+"for-Other-Files.html\"> GNU All-Permissive License</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#GNUAllPermissive\">#GNUAllPermissive</a>)</span>"
 msgstr ""
 "<a href=\"/prep/maintain/html_node/License-Notices-for-Other-Files.html\" id="
 "\"GNUAllPermissive\">Licence GNU All-Permissive</a>"
@@ -440,9 +491,14 @@ msgstr ""
 "versions."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"apache2\" href=\"http://www.apache.org/licenses/LICENSE-2.0\"> "
+#| "Apache License, Version 2.0</a>"
 msgid ""
 "<a id=\"apache2\" href=\"http://www.apache.org/licenses/LICENSE-2.0\"> "
-"Apache License, Version 2.0</a>"
+"Apache License, Version 2.0</a> <span class=\"anchor-reference-id\">(<a href="
+"\"#apache2\">#apache2</a>)</span>"
 msgstr ""
 "<a id=\"apache2\" href=\"http://www.apache.org/licenses/LICENSE-2.0\"> "
 "Apache License, Version 2.0</a>"
@@ -463,9 +519,14 @@ msgstr ""
 "inclut certaines clauses de fin de brevet et d'indemnisation."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"ArtisticLicense2\" href=\"http://www.perlfoundation.org/"
+#| "artistic_license_2_0\">Artistic License 2.0</a>"
 msgid ""
 "<a id=\"ArtisticLicense2\" href=\"http://www.perlfoundation.org/"
-"artistic_license_2_0\">Artistic License 2.0</a>"
+"artistic_license_2_0\"> Artistic License 2.0</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#ArtisticLicense2\">#ArtisticLicense2</a>)</span>"
 msgstr ""
 "<a id=\"ArtisticLicense2\" href=\"http://www.perlfoundation.org/"
 "artistic_license_2_0\">Artistic License 2.0</a>"
@@ -478,11 +539,19 @@ msgstr ""
 "Ceci est une licence de logiciel libre, compatible avec la GPL grâce à "
 "l'option de changement de licence de la section 4(c)(ii)."
 
+#.  misspelled id, leave for compatibility 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"BerkleyDB\" href=\"http://www.oracle.com/technetwork/database/"
+#| "berkeleydb/downloads/oslicense-093458.html\">Berkeley Database License</"
+#| "a> (a.k.a. the Sleepycat Software Product License)"
 msgid ""
-"<a id=\"BerkleyDB\" href=\"http://www.oracle.com/technetwork/database/"
-"berkeleydb/downloads/oslicense-093458.html\">Berkeley Database License</a> "
-"(a.k.a. the Sleepycat Software Product License)"
+"<a id=\"BerkleyDB\"></a> <a id=\"BerkeleyDB\" href=\"http://www.oracle.com/"
+"technetwork/database/berkeleydb/downloads/oslicense-093458.html\"> Berkeley "
+"Database License</a> (a.k.a. the Sleepycat Software Product License)  <span "
+"class=\"anchor-reference-id\"> (<a href=\"#BerkeleyDB\">#BerkeleyDB</a>)</"
+"span>"
 msgstr ""
 "<a id=\"BerkleyDB\" href=\"http://www.oracle.com/technetwork/database/"
 "berkeleydb/downloads/oslicense-093458.html\">Berkeley Database License</a> "
@@ -494,9 +563,14 @@ msgstr ""
 "Il s'agit d'une licence de logiciel libre compatible avec la GPL de GNU."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"boost\" href=\"http://www.boost.org/LICENSE_1_0.txt\"> Boost "
+#| "Software License</a>"
 msgid ""
 "<a id=\"boost\" href=\"http://www.boost.org/LICENSE_1_0.txt\"> Boost "
-"Software License</a>"
+"Software License</a> <span class=\"anchor-reference-id\">(<a href=\"#boost"
+"\">#boost</a>)</span>"
 msgstr ""
 "<a id=\"boost\" href=\"http://www.boost.org/LICENSE_1_0.txt\">Boost Software "
 "License</a>"
@@ -510,9 +584,14 @@ msgstr ""
 "d'auteur, compatible avec la GPL de GNU."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"ModifiedBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2."
+#| "html#5\"> Modified BSD license</a>"
 msgid ""
 "<a id=\"ModifiedBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#5"
-"\"> Modified BSD license</a>"
+"\"> Modified BSD license</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#ModifiedBSD\">#ModifiedBSD</a>)</span>"
 msgstr ""
 "<a id=\"ModifiedBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#5"
 "\">Modified BSD License</a>"
@@ -558,9 +637,14 @@ msgstr ""
 "Cette licence est quelquefois appelée «&nbsp;3-clause BSD license&nbsp;»"
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"CC0\" href=\"http://creativecommons.org/publicdomain/zero/1.0/"
+#| "legalcode\">CC0</a>"
 msgid ""
 "<a id=\"CC0\" href=\"http://creativecommons.org/publicdomain/zero/1.0/"
-"legalcode\">CC0</a>"
+"legalcode\"> CC0</a> <span class=\"anchor-reference-id\">(<a href=\"#CC0"
+"\">#CC0</a>)</span>"
 msgstr ""
 "<a id=\"CC0\" href=\"http://creativecommons.org/publicdomain/zero/1.0/"
 "legalcode\">CC0</a>"
@@ -589,9 +673,14 @@ msgstr ""
 "recommandons d'utiliser CC0."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"CeCILL\" href=\"http://www.cecill.info/licences.en.html\"> CeCILL "
+#| "version 2</a>"
 msgid ""
 "<a id=\"CeCILL\" href=\"http://www.cecill.info/licences.en.html\"> CeCILL "
-"version 2</a>"
+"version 2</a> <span class=\"anchor-reference-id\">(<a href=\"#CeCILL"
+"\">#CeCILL</a>)</span>"
 msgstr ""
 "<a id=\"CeCILL\" href=\"http://www.cecill.info/licences.fr.html\">CeCILL "
 "version 2</a>"
@@ -638,9 +727,14 @@ msgstr ""
 "utilisateurs dans ce sens, alors ce n'est pas un problème pour vous."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"clearbsd\" href=\"http://labs.metacarta.com/license-explanation."
+#| "html#license\">The Clear BSD License</a>"
 msgid ""
 "<a id=\"clearbsd\" href=\"http://labs.metacarta.com/license-explanation."
-"html#license\">The Clear BSD License</a>"
+"html#license\"> The Clear BSD License</a> <span class=\"anchor-reference-id"
+"\"> (<a href=\"#clearbsd\">#clearbsd</a>)</span>"
 msgstr ""
 "<a id=\"clearbsd\" href=\"http://labs.metacarta.com/license-explanation."
 "html#license\">Clear BSD License</a>"
@@ -665,9 +759,14 @@ msgstr ""
 "piéger, il serait sage d'éviter le programme."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"CryptixGeneralLicense\" href=\"http://www.cryptix.org/LICENSE.TXT"
+#| "\"> Cryptix General License</a>"
 msgid ""
 "<a id=\"CryptixGeneralLicense\" href=\"http://www.cryptix.org/LICENSE.TXT\"> "
-"Cryptix General License</a>"
+"Cryptix General License</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#CryptixGeneralLicense\">#CryptixGeneralLicense</a>)</span>"
 msgstr ""
 "<a id=\"CryptixGeneralLicense\" href=\"http://www.cryptix.org/LICENSE.TXT"
 "\">Cryptix General License</a>"
@@ -680,10 +779,16 @@ msgstr ""
 "Il s'agit d'une licence de logiciel libre simple et permissive, sans gauche "
 "d'auteur, compatible avec la GPL de GNU. Très semblable à la licence X11."
 
+#.  without decimal, leave for compatibility 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"eCos20\" href=\"/licenses/ecos-license.html\"> eCos license "
+#| "version 2.0</a>"
 msgid ""
-"<a id=\"eCos20\" href=\"/licenses/ecos-license.html\"> eCos license version "
-"2.0</a>"
+"<a id=\"eCos20\"></a> <a id=\"eCos2.0\" href=\"/licenses/ecos-license.html"
+"\"> eCos license version 2.0</a> <span class=\"anchor-reference-id\"> (<a "
+"href=\"#eCos20\">#eCos2.0</a>)</span>"
 msgstr ""
 "<a id=\"eCos20\" href=\"/licenses/ecos-license.html\">eCos License, version "
 "2.0</a>"
@@ -702,9 +807,14 @@ msgstr ""
 "faibles</a> que la LGPL."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"ECL2.0\" href=\"http://www.opensource.org/licenses/ecl2.php\"> "
+#| "Educational Community License 2.0</a>"
 msgid ""
 "<a id=\"ECL2.0\" href=\"http://www.opensource.org/licenses/ecl2.php\"> "
-"Educational Community License 2.0</a>"
+"Educational Community License 2.0</a> <span class=\"anchor-reference-id\"> "
+"(<a href=\"#ECL.20\">#ECL2.0</a>)</span>"
 msgstr ""
 "<a id=\"ECL2.0\" href=\"http://www.opensource.org/licenses/ecl2.php\"> "
 "Educational Community License 2.0</a>"
@@ -727,9 +837,14 @@ msgstr ""
 "avec la GPLv2."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Eiffel\" href=\"/licenses/eiffel-forum-license-2.html\"> Eiffel "
+#| "Forum License, version 2</a>"
 msgid ""
 "<a id=\"Eiffel\" href=\"/licenses/eiffel-forum-license-2.html\"> Eiffel "
-"Forum License, version 2</a>"
+"Forum License, version 2</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#Eiffel\">#Eiffel</a>)</span>"
 msgstr ""
 "<a id=\"Eiffel\" href=\"/licenses/eiffel-forum-license-2.html\">Eiffel Forum "
 "License, version 2</a>"
@@ -745,17 +860,27 @@ msgstr ""
 "a> de la licence Eiffel ne sont pas compatibles avec la GPL."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"EUDataGrid\" href=\"http://www.opensource.org/licenses/eudatagrid."
+#| "php\"> EU DataGrid Software License</a>"
 msgid ""
 "<a id=\"EUDataGrid\" href=\"http://www.opensource.org/licenses/eudatagrid.php"
-"\"> EU DataGrid Software License</a>"
+"\"> EU DataGrid Software License</a> <span class=\"anchor-reference-id\"> "
+"(<a href=\"#EUDataGrid\">#EUDataGrid</a>)</span>"
 msgstr ""
 "<a id=\"EUDataGrid\" href=\"http://www.opensource.org/licenses/eudatagrid.php"
 "\">EU DataGrid Software License</a>"
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Expat\" href=\"http://www.jclark.com/xml/copying.txt\"> Expat "
+#| "License</a>"
 msgid ""
 "<a id=\"Expat\" href=\"http://www.jclark.com/xml/copying.txt\"> Expat "
-"License</a>"
+"License</a> <span class=\"anchor-reference-id\">(<a href=\"#Expat\">#Expat</"
+"a>)</span>"
 msgstr ""
 "<a id=\"Expat\" href=\"http://www.jclark.com/xml/copying.txt\">Expat "
 "License</a>"
@@ -771,9 +896,14 @@ msgstr ""
 "<em>la Licence du MIT</em>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"FreeBSD\" href=\"http://www.freebsd.org/copyright/freebsd-license."
+#| "html\"> FreeBSD license</a>"
 msgid ""
 "<a id=\"FreeBSD\" href=\"http://www.freebsd.org/copyright/freebsd-license."
-"html\"> FreeBSD license</a>"
+"html\"> FreeBSD license</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#FreeBSD\">#FreeBSD</a>)</span>"
 msgstr ""
 "<a id=\"FreeBSD\" href=\"http://www.freebsd.org/copyright/freebsd-license."
 "html\">FreeBSD license</a>"
@@ -806,11 +936,10 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a href=\"http://freetype.fis.uniroma2.it/FTL.TXT\" id=\"freetype\">Freetype "
-"Project License</a>"
+"<a id=\"freetype\" href=\"http://freetype.fis.uniroma2.it/FTL.TXT\"> "
+"Freetype Project License</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#freetype\">#freetype</a>)</span>"
 msgstr ""
-"<a href=\"http://freetype.fis.uniroma2.it/FTL.TXT\" id=\"freetype\">Freetype "
-"Project License</a>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -821,9 +950,14 @@ msgstr ""
 "quelques conditions d'attribution qui la rendent incompatible avec la GPLv2."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"iMatix\" href=\"http://legacy.imatix.com/html/sfl/sfl4.htm#license"
+#| "\"> License of the iMatix Standard Function Library</a>"
 msgid ""
 "<a id=\"iMatix\" href=\"http://legacy.imatix.com/html/sfl/sfl4.htm#license"
-"\"> License of the iMatix Standard Function Library</a>"
+"\"> License of the iMatix Standard Function Library</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#iMatix\">#iMatix</a>)</span>"
 msgstr ""
 "<a id=\"iMatix\" href=\"http://legacy.imatix.com/html/sfl/sfl4.htm#license"
 "\"> Licence de iMatix Standard Function Library</a>"
@@ -833,9 +967,14 @@ msgid "This is a free software license and is GPL compatible."
 msgstr "Il s'agit d'une licence de logiciel libre compatible avec la GPL."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2\" "
+#| "id=\"ijg\">Independent JPEG Group License</a>"
 msgid ""
-"<a href=\"http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2\" id="
-"\"ijg\">Independent JPEG Group License</a>"
+"<a id=\"ijg\" href=\"http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?"
+"rev=1.2\"> Independent JPEG Group License</a> <span class=\"anchor-reference-"
+"id\">(<a href=\"#ijg\">#ijg</a>)</span>"
 msgstr ""
 "<a href=\"http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2\" id="
 "\"ijg\">Independent JPEG Group License</a>"
@@ -852,9 +991,14 @@ msgstr ""
 "licence."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://trac.enlightenment.org/e/browser/trunk/imlib2/COPYING\" "
+#| "id=\"imlib\">License of imlib2</a>"
 msgid ""
-"<a href=\"http://trac.enlightenment.org/e/browser/trunk/imlib2/COPYING\" id="
-"\"imlib\">License of imlib2</a>"
+"<a id=\"imlib\" href=\"http://trac.enlightenment.org/e/browser/trunk/imlib2/"
+"COPYING\"> License of imlib2</a> <span class=\"anchor-reference-id\">(<a "
+"href=\"#imlib\">#imlib</a>)</span>"
 msgstr ""
 "<a href=\"http://trac.enlightenment.org/e/browser/trunk/imlib2/COPYING\" id="
 "\"imlib\">>La license de imlib2</a>"
@@ -871,23 +1015,23 @@ msgstr ""
 "mots."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"intel\" href=\"http://www.opensource.org/licenses/intel-open-"
+#| "source-license.html\"> Intel Open Source License</a>"
 msgid ""
 "<a id=\"intel\" href=\"http://www.opensource.org/licenses/intel-open-source-"
-"license.html\"> Intel Open Source License</a>"
+"license.html\"> Intel Open Source License</a> <span class=\"anchor-reference-"
+"id\">(<a href=\"#intel\">#intel</a>)</span>"
 msgstr ""
 "<a id=\"intel\" href=\"http://www.opensource.org/licenses/intel-open-source-"
 "license.html\">Intel Open Source License</a>"
 
-#. type: Content of: <dl><dd><p>
-msgid "This is a Free Software license, compatible with the GNU GPL."
-msgstr ""
-"Il s'agit d'une licence de logiciel libre compatible avec la GPL de GNU."
-
 #. type: Content of: <dl><dt>
 msgid ""
-"<a href=\"http://www.isc.org/software/license\" id=\"ISC\">ISC License</a>"
+"<a id=\"ISC\" href=\"http://www.isc.org/software/license\"> ISC License</a> "
+"<span class=\"anchor-reference-id\">(<a href=\"#ISC\">#ISC</a>)</span>"
 msgstr ""
-"<a href=\"http://www.isc.org/software/license\" id=\"ISC\">ISC License</a>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -898,10 +1042,17 @@ msgstr ""
 "une licence de logiciel libre, compatible avec la GNU GPL."
 
 #. type: Content of: <dl><dd><p>
+#, fuzzy
+#| msgid ""
+#| "This license does have an unfortunate wording choice: it provides "
+#| "recipients with &quot;Permission to use, copy, modify, and/or distribute "
+#| "this software....&quot; This is roughly the same language from the "
+#| "license of Pine that the University of Washington later claimed "
+#| "prohibited people from distributing modified versions of the software."
 msgid ""
 "This license does have an unfortunate wording choice: it provides recipients "
 "with &quot;Permission to use, copy, modify, and/or distribute this "
-"software....&quot; This is roughly the same language from the license of "
+"software&hellip;&quot; This is roughly the same language from the license of "
 "Pine that the University of Washington later claimed prohibited people from "
 "distributing modified versions of the software."
 msgstr ""
@@ -932,9 +1083,14 @@ msgstr ""
 "similairement permissives et brèves."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"NCSA\" href=\"http://www.opensource.org/licenses/UoI-NCSA.php\"> "
+#| "NCSA/University of Illinois Open Source License</a>"
 msgid ""
 "<a id=\"NCSA\" href=\"http://www.opensource.org/licenses/UoI-NCSA.php\"> "
-"NCSA/University of Illinois Open Source License</a>"
+"NCSA/University of Illinois Open Source License</a> <span class=\"anchor-"
+"reference-id\">(<a href=\"#NCSA\">#NCSA</a>)</span>"
 msgstr ""
 "<a id=\"NCSA\" href=\"http://www.opensource.org/licenses/UoI-NCSA.php\"> "
 "NCSA/University of Illinois Open Source License</a>"
@@ -950,9 +1106,13 @@ msgstr ""
 "de logiciel libre permissive simple, sans gauche d'auteur et compatible avec "
 "la GPL GNU."
 
+#.  lc `s', leave for compatibility 
 #. type: Content of: <dl><dt>
-msgid "License of Netscape Javascript"
-msgstr "La licence sur Javascript de Netscape"
+msgid ""
+"<a id=\"NetscapeJavascript\"></a> <a id=\"NetscapeJavaScript\"></a> License "
+"of Netscape JavaScript <span class=\"anchor-reference-id\"> (<a href="
+"\"#NetscapeJavaScript\">#NetscapeJavaScript</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -988,9 +1148,14 @@ msgstr ""
 "les précédentes versions."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"newOpenLDAP\" href=\"http://www.openldap.org/software/release/"
+#| "license.html\"> OpenLDAP License, Version 2.7</a>"
 msgid ""
 "<a id=\"newOpenLDAP\" href=\"http://www.openldap.org/software/release/"
-"license.html\"> OpenLDAP License, Version 2.7</a>"
+"license.html\"> OpenLDAP License, Version 2.7</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#newOpenLDAP\">#newOpenLDAP</a>)</span>"
 msgstr ""
 "<a id=\"newOpenLDAP\" href=\"http://www.openldap.org/software/release/"
 "license.html\"> OpenLDAP License, Version 2.7</a>"
@@ -1004,8 +1169,10 @@ msgstr ""
 "de GNU."
 
 #. type: Content of: <dl><dt>
-msgid "<a id=\"PerlLicense\">License of Perl 5 and below</a>"
-msgstr "<a id=\"PerlLicense\">La licence de Perl 5 et antérieures</a>"
+msgid ""
+"<a id=\"PerlLicense\">License of Perl 5 and below</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#PerlLicense\">#PerlLicense</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -1036,8 +1203,10 @@ msgstr ""
 "Perl&nbsp;; utilisez plutôt la GPL de GNU."
 
 #. type: Content of: <dl><dt>
-msgid "<a id=\"PublicDomain\">Public Domain</a>"
-msgstr "<a id=\"PublicDomain\">Le domaine public</a>"
+msgid ""
+"<a id=\"PublicDomain\">Public Domain</a> <span class=\"anchor-reference-id"
+"\"> (<a href=\"#PublicDomain\">#PublicDomain</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -1074,9 +1243,14 @@ msgstr ""
 "où ce n'est pas légalement possible."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Python\" href=\"http://www.python.org/2.0.1/license.html\"> "
+#| "License of Python 2.0.1, 2.1.1, and newer versions</a>"
 msgid ""
 "<a id=\"Python\" href=\"http://www.python.org/2.0.1/license.html\"> License "
-"of Python 2.0.1, 2.1.1, and newer versions</a>"
+"of Python 2.0.1, 2.1.1, and newer versions</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#Python\">#Python</a>)</span>"
 msgstr ""
 "<a id=\"Python\" href=\"http://www.python.org/2.0.1/license.html\">La "
 "licence de Python 2.0.1, 2.1.1 et suivantes</a>"
@@ -1092,8 +1266,11 @@ msgstr ""
 "une licence différente (<a href=\"#PythonOld\">voir plus bas</a>)."
 
 #. type: Content of: <dl><dt>
-msgid "License of Python 1.6a2 and earlier versions"
-msgstr "La licence de Python, jusqu'à la version 1.6a2"
+msgid ""
+"<a id=\"Python1.6a2\"></a> License of Python 1.6a2 and earlier versions "
+"<span class=\"anchor-reference-id\"> (<a href=\"#Python1.6a2\">#Python1.6a2</"
+"a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -1106,9 +1283,14 @@ msgstr ""
 "différente (voir ci-dessus et plus bas)."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Ruby\" href=\"http://www.ruby-lang.org/en/LICENSE.txt\"> License "
+#| "of Ruby</a>"
 msgid ""
 "<a id=\"Ruby\" href=\"http://www.ruby-lang.org/en/LICENSE.txt\"> License of "
-"Ruby</a>"
+"Ruby</a> <span class=\"anchor-reference-id\">(<a href=\"#Ruby\">#Ruby</a>)</"
+"span>"
 msgstr ""
 "<a id=\"Ruby\" href=\"http://www.ruby-lang.org/en/LICENSE.txt\">La licence "
 "de Ruby</a>"
@@ -1122,9 +1304,14 @@ msgstr ""
 "clause explicite de double licence."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://oss.sgi.com/projects/FreeB/\" id=\"SGIFreeB\"> SGI Free "
+#| "Software License B, version 2.0</a>"
 msgid ""
-"<a href=\"http://oss.sgi.com/projects/FreeB/\" id=\"SGIFreeB\"> SGI Free "
-"Software License B, version 2.0</a>"
+"<a id=\"SGIFreeB\" href=\"http://oss.sgi.com/projects/FreeB/\"> SGI Free "
+"Software License B, version 2.0</a> <span class=\"anchor-reference-id\"> (<a "
+"href=\"#SGIFreeB\">#SGIFreeB</a>)</span>"
 msgstr ""
 "<a href=\"http://oss.sgi.com/projects/FreeB/\" id=\"SGIFreeB\">SGI Free "
 "Software License B, version 2.0</a>"
@@ -1155,17 +1342,28 @@ msgstr ""
 "vous pouvez l'utiliser sous les termes de cette version libre."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"StandardMLofNJ\" href=\"http://cm.bell-labs.com/cm/cs/what/smlnj/"
+#| "license.html\">Standard ML of New Jersey Copyright License</a>"
 msgid ""
 "<a id=\"StandardMLofNJ\" href=\"http://cm.bell-labs.com/cm/cs/what/smlnj/"
-"license.html\">Standard ML of New Jersey Copyright License</a>"
+"license.html\"> Standard ML of New Jersey Copyright License</a> <span class="
+"\"anchor-reference-id\"> (<a href=\"#StandardMLofNJ\">#StandardMLofNJ</a>)</"
+"span>"
 msgstr ""
 "<a id=\"StandardMLofNJ\" href=\"http://cm.bell-labs.com/cm/cs/what/smlnj/"
 "license.html\">Standard ML of New Jersey Copyright License</a>"
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Unicode\" href=\"http://www.unicode.org/copyright.html#Exhibit1"
+#| "\">Unicode, Inc. License Agreement for Data Files and Software</a>"
 msgid ""
-"<a id=\"Unicode\" href=\"http://www.unicode.org/copyright.html#Exhibit1"
-"\">Unicode, Inc. License Agreement for Data Files and Software</a>"
+"<a id=\"Unicode\" href=\"http://www.unicode.org/copyright.html#Exhibit1\"> "
+"Unicode, Inc. License Agreement for Data Files and Software</a> <span class="
+"\"anchor-reference-id\"> (<a href=\"#Unicode\">#Unicode</a>)</span>"
 msgstr ""
 "<a id=\"Unicode\" href=\"http://www.unicode.org/copyright.html#Exhibit1"
 "\">Unicode, Inc. License Agreement for Data Files and Software</a>"
@@ -1232,7 +1430,11 @@ msgstr ""
 "plus répandue et largement reconnue dans la communauté du logiciel libre."
 
 #. type: Content of: <dl><dt>
-msgid "<a id=\"Unlicense\" href=\"http://unlicense.org/\">The Unlicense</a>"
+#, fuzzy
+#| msgid "<a id=\"Unlicense\" href=\"http://unlicense.org/\">The Unlicense</a>"
+msgid ""
+"<a id=\"Unlicense\" href=\"http://unlicense.org/\"> The Unlicense</a> <span "
+"class=\"anchor-reference-id\"> (<a href=\"#Unlicense\">#Unlicense</a>)</span>"
 msgstr "<a id=\"Unlicense\" href=\"http://unlicense.org/\">L'Unlicense</a>"
 
 #. type: Content of: <dl><dd><p>
@@ -1262,9 +1464,14 @@ msgstr ""
 "substitution, et est plus simple et mature que l'Unlicense."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Vim\" href=\"http://www.gnu.org/licenses/vim-license.txt\"> "
+#| "License of Vim, Version 6.1 or later</a>"
 msgid ""
 "<a id=\"Vim\" href=\"http://www.gnu.org/licenses/vim-license.txt\"> License "
-"of Vim, Version 6.1 or later</a>"
+"of Vim, Version 6.1 or later</a> <span class=\"anchor-reference-id\">(<a "
+"href=\"#Vim\">#Vim</a>)</span>"
 msgstr ""
 "<a id=\"Vim\" href=\"http://www.gnu.org/licenses/vim-license.txt\">La "
 "licence de Vim, version 6.1 et suivantes</a>"
@@ -1278,17 +1485,27 @@ msgstr ""
 "compatible avec la GPL de GNU."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"W3C\" href=\"http://www.w3.org/Consortium/Legal/2002/copyright-"
+#| "software-20021231\"> W3C Software Notice and License</a>"
 msgid ""
 "<a id=\"W3C\" href=\"http://www.w3.org/Consortium/Legal/2002/copyright-"
-"software-20021231\"> W3C Software Notice and License</a>"
+"software-20021231\"> W3C Software Notice and License</a> <span class="
+"\"anchor-reference-id\">(<a href=\"#W3C\">#W3C</a>)</span>"
 msgstr ""
 "<a id=\"W3C\" href=\"http://www.w3.org/Consortium/Legal/2002/copyright-"
 "software-20021231\">W3C Software Notice and License</a>"
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"WebM\" href=\"http://www.webmproject.org/license/\">License of "
+#| "WebM</a>"
 msgid ""
-"<a id=\"WebM\" href=\"http://www.webmproject.org/license/\">License of WebM</"
-"a>"
+"<a id=\"WebM\" href=\"http://www.webmproject.org/license/\"> License of "
+"WebM</a> <span class=\"anchor-reference-id\">(<a href=\"#WebM\">#WebM</a>)</"
+"span>"
 msgstr ""
 "<a id=\"WebM\" href=\"http://www.webmproject.org/license/\">La licence de "
 "WebM</a>"
@@ -1306,9 +1523,13 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"WTFPL\" href=\"http://sam.zoy.org/wtfpl/COPYING\">WTFPL, Version "
+#| "2</a>"
 msgid ""
-"<a id=\"WTFPL\" href=\"http://sam.zoy.org/wtfpl/COPYING\">WTFPL, Version 2</"
-"a>"
+"<a id=\"WTFPL\" href=\"http://sam.zoy.org/wtfpl/COPYING\"> WTFPL, Version 2</"
+"a> <span class=\"anchor-reference-id\">(<a href=\"#WTFPL\">#WTFPL</a>)</span>"
 msgstr ""
 "<a id=\"WTFPL\" href=\"http://sam.zoy.org/wtfpl/COPYING\">WTFPL, Version 2</"
 "a>"
@@ -1320,9 +1541,14 @@ msgstr ""
 "avec la GPL."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"X11License\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3"
+#| "\"> X11 License</a>"
 msgid ""
 "<a id=\"X11License\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3"
-"\"> X11 License</a>"
+"\"> X11 License</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#X11License\">#X11License</a>)</span>"
 msgstr ""
 "<a id=\"X11License\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3"
 "\">X11 License</a>"
@@ -1349,9 +1575,14 @@ msgstr ""
 "trompeur&nbsp;: le MIT a publié ses logiciels sous diverses licences."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.xfree86.org/current/LICENSE4.html\" id="
+#| "\"XFree861.1License\">XFree86 1.1 License</a>"
 msgid ""
-"<a href=\"http://www.xfree86.org/current/LICENSE4.html\" id="
-"\"XFree861.1License\">XFree86 1.1 License</a>"
+"<a id=\"XFree861.1License\" href=\"http://www.xfree86.org/current/LICENSE4."
+"html\"> XFree86 1.1 License</a> <span class=\"anchor-reference-id\"> (<a "
+"href=\"#XFree861.1License\">#XFree861.1License</a>)</span>"
 msgstr ""
 "<a href=\"http://www.xfree86.org/current/LICENSE4.html\" id="
 "\"XFree861.1License\">XFree86 1.1 License</a>"
@@ -1385,9 +1616,14 @@ msgstr ""
 "\"#X11License\">X11 license</a>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"ZLib\" href=\"http://www.gzip.org/zlib/zlib_license.html\"> "
+#| "License of ZLib</a>"
 msgid ""
 "<a id=\"ZLib\" href=\"http://www.gzip.org/zlib/zlib_license.html\"> License "
-"of ZLib</a>"
+"of ZLib</a> <span class=\"anchor-reference-id\">(<a href=\"#ZLib\">#ZLib</a>)"
+"</span>"
 msgstr ""
 "<a id=\"ZLib\" href=\"http://www.gzip.org/zlib/zlib_license.html\">La "
 "licence de ZLib</a>"
@@ -1396,10 +1632,16 @@ msgstr ""
 msgid "This is a free software license, and compatible with the GPL."
 msgstr "Il s'agit d'une licence de logiciel libre compatible avec la GPL."
 
+#.  without decimal, leave for compatibility 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Zope20\" href=\"http://www.zope.org/Resources/ZPL\"> Zope Public "
+#| "License, versions 2.0 and 2.1</a>"
 msgid ""
-"<a id=\"Zope20\" href=\"http://www.zope.org/Resources/ZPL\"> Zope Public "
-"License, versions 2.0 and 2.1</a>"
+"<a id=\"Zope20\"></a> <a id=\"Zope2.0\" href=\"http://www.zope.org/Resources/"
+"ZPL\"> Zope Public License, versions 2.0 and 2.1</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#Zope2.0\">#Zope2.0</a>)</span>"
 msgstr ""
 "<a id=\"Zope20\" href=\"http://www.zope.org/Resources/ZPL\">Zope Public "
 "License, versions 2.0 et 2.1</a>"
@@ -1415,10 +1657,9 @@ msgstr ""
 #. type: Content of: <h3>
 msgid ""
 "<a id=\"GPLIncompatibleLicenses\"> GPL-Incompatible Free Software Licenses</"
-"a>"
+"a> <span class=\"anchor-reference-id\"> (<a href=\"#GPLIncompatibleLicenses"
+"\">#GPLIncompatibleLicenses</a>)</span>"
 msgstr ""
-"<a id=\"GPLIncompatibleLicenses\">Les licences de logiciels libres non "
-"compatibles avec la GPL</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1433,9 +1674,14 @@ msgstr ""
 "avec la <a href=\"#GNUGPL\">GPL de GNU</a>&nbsp;:</strong>"
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"AGPLv1.0\" href=\"http://www.affero.org/oagpl.html\"> Affero "
+#| "General Public License version 1</a>"
 msgid ""
 "<a id=\"AGPLv1.0\" href=\"http://www.affero.org/oagpl.html\"> Affero General "
-"Public License version 1</a>"
+"Public License version 1</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#AGPLv1.0\">#AGPLv1.0</a>)</span>"
 msgstr ""
 "<a id=\"AGPLv1.0\" href=\"http://www.affero.org/oagpl.html\">Affero General "
 "Public License version 1</a>"
@@ -1463,9 +1709,15 @@ msgstr ""
 "Public License version 3</a>&nbsp;; veuillez utiliser celle-ci à la place."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"AcademicFreeLicense\" href=\"http://opensource.org/licenses/"
+#| "academic.php\"> Academic Free License, all versions through 3.0</a>"
 msgid ""
 "<a id=\"AcademicFreeLicense\" href=\"http://opensource.org/licenses/academic."
-"php\"> Academic Free License, all versions through 3.0</a>"
+"php\"> Academic Free License, all versions through 3.0</a> <span class="
+"\"anchor-reference-id\"> (<a href=\"#AcademicFreeLicense"
+"\">#AcademicFreeLicense</a>)</span>"
 msgstr ""
 "<a id=\"AcademicFreeLicense\" href=\"http://opensource.org/licenses/academic."
 "php\">Academic Free License, toutes versions jusqu'à la 3.0</a>"
@@ -1483,9 +1735,14 @@ msgstr ""
 "\">Open Software License</a>, et doivent être évitées pour les mêmes raisons."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"apache1.1\" href=\"http://www.apache.org/licenses/LICENSE-1.1\"> "
+#| "Apache License, Version 1.1</a>"
 msgid ""
 "<a id=\"apache1.1\" href=\"http://www.apache.org/licenses/LICENSE-1.1\"> "
-"Apache License, Version 1.1</a>"
+"Apache License, Version 1.1</a> <span class=\"anchor-reference-id\"> (<a "
+"href=\"#apache1.1\">#apache1.1</a>)</span>"
 msgstr ""
 "<a id=\"apache1.1\" href=\"http://www.apache.org/licenses/LICENSE-1.1"
 "\">Apache License, version 1.1</a>"
@@ -1501,9 +1758,14 @@ msgstr ""
 "l'interdiction absolue d'utiliser des noms liés à Apache."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"apache1\" href=\"http://www.apache.org/licenses/LICENSE-1.0\"> "
+#| "Apache License, Version 1.0</a>"
 msgid ""
 "<a id=\"apache1\" href=\"http://www.apache.org/licenses/LICENSE-1.0\"> "
-"Apache License, Version 1.0</a>"
+"Apache License, Version 1.0</a> <span class=\"anchor-reference-id\"> (<a "
+"href=\"#apache1\">#apache1</a>)</span>"
 msgstr ""
 "<a id=\"apache1\" href=\"http://www.apache.org/licenses/LICENSE-1.0\">Apache "
 "License, version 1.0</a>"
@@ -1521,9 +1783,14 @@ msgstr ""
 "l'incompatibilité avec la GPL de GNU."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"apsl2\" href=\"http://www.opensource.apple.com/apsl\"> Apple "
+#| "Public Source License (APSL), version 2</a>"
 msgid ""
 "<a id=\"apsl2\" href=\"http://www.opensource.apple.com/apsl\"> Apple Public "
-"Source License (APSL), version 2</a>"
+"Source License (APSL), version 2</a> <span class=\"anchor-reference-id\">(<a "
+"href=\"#apsl2\">#apsl2</a>)</span>"
 msgstr ""
 "<a id=\"apsl2\" href=\"http://www.opensource.apple.com/apsl\"> Apple Public "
 "Source License (APSL), version 2</a>"
@@ -1542,9 +1809,14 @@ msgstr ""
 "\">Plus d'explications sont disponibles ici</a>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.bittorrent.com/bittorrent-open-source-license\" id="
+#| "\"bittorrent\">BitTorrent Open Source License</a>"
 msgid ""
-"<a href=\"http://www.bittorrent.com/bittorrent-open-source-license\" id="
-"\"bittorrent\">BitTorrent Open Source License</a>"
+"<a id=\"bittorrent\" href=\"http://www.bittorrent.com/bittorrent-open-source-"
+"license\"> BitTorrent Open Source License</a> <span class=\"anchor-reference-"
+"id\"> (<a href=\"#bittorrent\">#bittorrent</a>)</span>"
 msgstr ""
 "<a href=\"http://www.bittorrent.com/bittorrent-open-source-license\" id="
 "\"bittorrent\">BitTorrent Open Source License</a>"
@@ -1559,9 +1831,14 @@ msgstr ""
 "a>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"OriginalBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2."
+#| "html#6\"> Original BSD license</a>"
 msgid ""
 "<a id=\"OriginalBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#6"
-"\"> Original BSD license</a>"
+"\"> Original BSD license</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#OriginalBSD\">#OriginalBSD</a>)</span>"
 msgstr ""
 "<a id=\"OriginalBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#6"
 "\">Original BSD license</a>"
@@ -1607,9 +1884,14 @@ msgstr ""
 "publiés sous la licence BSD originelle."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"CDDL\" href=\"http://www.opensolaris.org/os/licensing/cddllicense."
+#| "txt\"> Common Development and Distribution License (CDDL), version 1.0</a>"
 msgid ""
 "<a id=\"CDDL\" href=\"http://www.opensolaris.org/os/licensing/cddllicense.txt"
-"\"> Common Development and Distribution License (CDDL), version 1.0</a>"
+"\"> Common Development and Distribution License (CDDL), version 1.0</a> "
+"<span class=\"anchor-reference-id\"> (<a href=\"#CDDL\">#CDDL</a>)</span>"
 msgstr ""
 "<a id=\"CDDL\" href=\"http://www.opensolaris.org/os/licensing/cddllicense.txt"
 "\"> Common Development and Distribution License (CDDL), version 1.0</a>"
@@ -1638,9 +1920,14 @@ msgstr ""
 "philosophy/not-ipr.fr.xhtml\">«&nbsp;propriété intellectuelle&nbsp;»</a>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"CPAL\" href=\"http://opensource.org/licenses/cpal_1.0\">Common "
+#| "Public Attribution License 1.0 (CPAL)</a>"
 msgid ""
-"<a id=\"CPAL\" href=\"http://opensource.org/licenses/cpal_1.0\">Common "
-"Public Attribution License 1.0 (CPAL)</a>"
+"<a id=\"CPAL\" href=\"http://opensource.org/licenses/cpal_1.0\"> Common "
+"Public Attribution License 1.0 (CPAL)</a> <span class=\"anchor-reference-id"
+"\"> (<a href=\"#CPAL\">#CPAL</a>)</span>"
 msgstr ""
 "<a id=\"CPAL\" href=\"http://opensource.org/licenses/cpal_1.0\">Common "
 "Public Attribution License 1.0 (CPAL)</a>"
@@ -1660,9 +1947,14 @@ msgstr ""
 "du programme si vous autorisez d'autres personnes à l'utiliser."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"CommonPublicLicense10\" href=\"http://www.eclipse.org/legal/cpl-"
+#| "v10.html\"> Common Public License Version 1.0</a>"
 msgid ""
 "<a id=\"CommonPublicLicense10\" href=\"http://www.eclipse.org/legal/cpl-v10."
-"html\"> Common Public License Version 1.0</a>"
+"html\"> Common Public License Version 1.0</a> <span class=\"anchor-reference-"
+"id\"> (<a href=\"#CommonPublicLicense10\">#CommonPublicLicense10</a>)</span>"
 msgstr ""
 "<a id=\"CommonPublicLicense10\" href=\"http://www.eclipse.org/legal/cpl-v10."
 "html\">Common Public License Version 1.0</a>"
@@ -1677,9 +1969,14 @@ msgstr ""
 "GNU."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Condor\" href=\"http://www.cs.wisc.edu/condor/condor-public-"
+#| "license.html#condor\"> Condor Public License</a>"
 msgid ""
 "<a id=\"Condor\" href=\"http://www.cs.wisc.edu/condor/condor-public-license."
-"html#condor\"> Condor Public License</a>"
+"html#condor\"> Condor Public License</a> <span class=\"anchor-reference-id"
+"\"> (<a href=\"#Condor\">#Condor</a>)</span>"
 msgstr ""
 "<a id=\"Condor\" href=\"http://www.cs.wisc.edu/condor/condor-public-license."
 "html#condor\">Condor Public License</a>"
@@ -1704,9 +2001,14 @@ msgstr ""
 "aux lois d'exportation américaines."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"EPL\" href=\"http://www.eclipse.org/legal/epl-v10.html\"> Eclipse "
+#| "Public License Version 1.0</a>"
 msgid ""
 "<a id=\"EPL\" href=\"http://www.eclipse.org/legal/epl-v10.html\"> Eclipse "
-"Public License Version 1.0</a>"
+"Public License Version 1.0</a> <span class=\"anchor-reference-id\">(<a href="
+"\"#EPL\">#EPL</a>)</span>"
 msgstr ""
 "<a id=\"EPL\" href=\"http://www.eclipse.org/legal/epl-v10.html\">Eclipse "
 "Public License Version 1.0</a>"
@@ -1726,22 +2028,36 @@ msgstr ""
 "contre les contributeurs du programme EPL."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.osor.eu/eupl\" id=\"EUPL\">European Union Public "
+#| "License (EUPL) version 1.1</a>"
 msgid ""
-"<a href=\"http://www.osor.eu/eupl\" id=\"EUPL\">European Union Public "
-"License (EUPL) version 1.1</a>"
+"<a id=\"EUPL\" href=\"http://www.osor.eu/eupl\"> European Union Public "
+"License (EUPL) version 1.1</a> <span class=\"anchor-reference-id\">(<a href="
+"\"#EUPL\">#EUPL</a>)</span>"
 msgstr ""
 "<a href=\"http://www.osor.eu/eupl\" id=\"EUPL\">European Union Public "
 "License (EUPL) version 1.1</a>"
 
 #. type: Content of: <dl><dd><p>
+#, fuzzy
+#| msgid ""
+#| "This is a free software license.  By itself, it has a copyleft comparable "
+#| "to the GPL's.  However, it allows recipients to distribute the work under "
+#| "the terms of other selected licenses, and some of those&mdash;the <a href="
+#| "\"#EPL\">Eclipse Public License</a> and the <a href="
+#| "\"#CommonPublicLicense10\">Common Public License</a> in particular&mdash;"
+#| "only provide a weaker copyleft.  Thus, developers can't rely on this "
+#| "license to provide a strong copyleft."
 msgid ""
 "This is a free software license.  By itself, it has a copyleft comparable to "
-"the GPL's.  However, it allows recipients to distribute the work under the "
-"terms of other selected licenses, and some of those&mdash;the <a href=\"#EPL"
-"\">Eclipse Public License</a> and the <a href=\"#CommonPublicLicense10"
-"\">Common Public License</a> in particular&mdash;only provide a weaker "
-"copyleft.  Thus, developers can't rely on this license to provide a strong "
-"copyleft."
+"the GPL's, and incompatible with it.  However, it gives recipients ways to "
+"relicense the work under the terms of other selected licenses, and some of "
+"those&mdash;the <a href=\"#EPL\">Eclipse Public License</a> and the <a href="
+"\"#CommonPublicLicense10\">Common Public License</a> in particular&mdash;"
+"only provide a weaker copyleft.  Thus, developers can't rely on this license "
+"to provide a strong copyleft."
 msgstr ""
 "C'est une licence de logiciel libre. En soi, elle a un copyleft comparable à "
 "celui de la  GPL. Cependant, elle permet aux destinataires de distribuer "
@@ -1754,23 +2070,34 @@ msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
-"The EUPL is compatible with GPLv2, because that is listed as one of the "
-"alternative licenses that recipients may use.  However, it is incompatible "
-"with GPLv3, because recipients are not given permission to use GPLv3's "
-"terms, and the EUPL's copyleft conflicts with GPLv3's.  Because of this "
-"incompatibility, we urge you not to use the EUPL for any software you write."
+"The EUPL allows relicensing to GPLv2, because that is listed as one of the "
+"alternative licenses that users may convert to.  It also, indirectly, allows "
+"relicensing to GPL version 3, because there is a way to relicense to the "
+"CeCILL v2, and the CeCILL v2 gives a way to relicense to any version of the "
+"GNU GPL."
 msgstr ""
-"L'EUPL est compatible avec la GPLv2, car elle est citée comme une des "
-"licences alternatives que les destinataires peuvent utiliser. Cependant, "
-"elle est incompatible avec la GPLv3, car les destinataires n'ont pas la "
-"permission d'utiliser les termes de la GPLv3, et le copyleft de l'EUPL est "
-"en conflit avec celui de la GPLv3. À cause de cette incompatibilité, nous "
-"vous pressons de ne pas utiliser l'EUPL pour les logiciels que vous écrivez."
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"To do this two-step relicensing, you need to first write a piece of code "
+"which you can license under the CeCILL v2, or find a suitable module already "
+"available that way, and add it to the program.  Adding that code to the EUPL-"
+"covered program provides grounds to relicense it to the CeCILL v2.  Then you "
+"need to write a piece of code which you can license under the GPLv3+, or "
+"find a suitable module already available that way, and add it to the "
+"program.  Adding that code to the CeCILL-covered program provides grounds to "
+"relicense it to GPLv3+."
+msgstr ""
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"IBMPL\" href=\"http://www.opensource.org/licenses/ibmpl.php\"> "
+#| "IBM Public License, Version 1.0</a>"
 msgid ""
 "<a id=\"IBMPL\" href=\"http://www.opensource.org/licenses/ibmpl.php\"> IBM "
-"Public License, Version 1.0</a>"
+"Public License, Version 1.0</a> <span class=\"anchor-reference-id\">(<a href="
+"\"#IBMPL\">#IBMPL</a>)</span>"
 msgstr ""
 "<a id=\"IBMPL\" href=\"http://www.opensource.org/licenses/ibmpl.php\">IBM "
 "Public License, Version 1.0</a>"
@@ -1784,10 +2111,15 @@ msgstr ""
 "choix de clause légale qui la rend incompatible avec la GPL de GNU."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"josl\" href=\"http://code.google.com/p/jabber-net/source/browse/"
+#| "branches/RELEASE_1_0/LICENSE.txt\"> Jabber Open Source License, Version "
+#| "1.0</a>"
 msgid ""
 "<a id=\"josl\" href=\"http://code.google.com/p/jabber-net/source/browse/"
 "branches/RELEASE_1_0/LICENSE.txt\"> Jabber Open Source License, Version 1.0</"
-"a>"
+"a> <span class=\"anchor-reference-id\"> (<a href=\"#josl\">#josl</a>)</span>"
 msgstr ""
 "<a id=\"josl\" href=\"http://code.google.com/p/jabber-net/source/browse/"
 "branches/RELEASE_1_0/LICENSE.txt\">Jabber Open Source License, Version 1.0</"
@@ -1808,9 +2140,14 @@ msgstr ""
 "du code soumis à cette licence. D'où l'incompatibilité."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"LPPL-1.3a\" href=\"http://www.latex-project.org/lppl/lppl-1-3a.txt"
+#| "\"> LaTeX Project Public License 1.3a</a>"
 msgid ""
 "<a id=\"LPPL-1.3a\" href=\"http://www.latex-project.org/lppl/lppl-1-3a.txt"
-"\"> LaTeX Project Public License 1.3a</a>"
+"\"> LaTeX Project Public License 1.3a</a> <span class=\"anchor-reference-id"
+"\"> (<a href=\"#LPPL-1.3a\">#LPPL-1.3a</a>)</span>"
 msgstr ""
 "<a id=\"LPPL-1.3a\" href=\"http://www.latex-project.org/lppl/lppl-1-3a.txt"
 "\">LaTeX Project Public License 1.3a</a>"
@@ -1830,9 +2167,14 @@ msgstr ""
 "vers une version non modifiée."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"LPPL-1.2\" href=\"http://www.latex-project.org/lppl/lppl-1-2.txt"
+#| "\"> LaTeX Project Public License 1.2</a>"
 msgid ""
 "<a id=\"LPPL-1.2\" href=\"http://www.latex-project.org/lppl/lppl-1-2.txt\"> "
-"LaTeX Project Public License 1.2</a>"
+"LaTeX Project Public License 1.2</a> <span class=\"anchor-reference-id\"> "
+"(<a href=\"#LPPL-1.2\">#LPPL-1.2</a>)</span>"
 msgstr ""
 "<a id=\"LPPL-1.2\" href=\"http://www.latex-project.org/lppl/lppl-1-2.txt"
 "\">LaTeX Project Public License 1.2</a>"
@@ -1925,9 +2267,14 @@ msgstr ""
 "datée du 3 septembre 1999."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"lucent102\" href=\"http://plan9.bell-labs.com/plan9dist/license."
+#| "html\"> Lucent Public License Version 1.02 (Plan 9 license)</a>"
 msgid ""
 "<a id=\"lucent102\" href=\"http://plan9.bell-labs.com/plan9dist/license.html"
-"\"> Lucent Public License Version 1.02 (Plan 9 license)</a>"
+"\"> Lucent Public License Version 1.02 (Plan 9 license)</a> <span class="
+"\"anchor-reference-id\"> (<a href=\"#lucent102\">#lucent102</a>)</span>"
 msgstr ""
 "<a id=\"lucent102\" href=\"http://plan9.bell-labs.com/plan9dist/license.html"
 "\"> Lucent Public License Version 1.02 (Plan 9 license)</a>"
@@ -1945,9 +2292,14 @@ msgstr ""
 "problème à utiliser et améliorer Plan&nbsp;9 sous cette licence."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"ms-pl\" href=\"http://www.microsoft.com/opensource/licenses."
+#| "mspx#Ms-PL\">Microsoft Public License (Ms-PL)</a>"
 msgid ""
 "<a id=\"ms-pl\" href=\"http://www.microsoft.com/opensource/licenses.mspx#Ms-"
-"PL\">Microsoft Public License (Ms-PL)</a>"
+"PL\"> Microsoft Public License (Ms-PL)</a> <span class=\"anchor-reference-id"
+"\">(<a href=\"#ms-pl\">#ms-pl</a>)</span>"
 msgstr ""
 "<a id=\"ms-pl\" href=\"http://www.microsoft.com/opensource/licenses.mspx#Ms-"
 "PL\">Microsoft Public License (Ms-PL)</a>"
@@ -1963,9 +2315,14 @@ msgstr ""
 "ne pas utiliser la Ms-PL pour cette raison."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"ms-rl\" href=\"http://www.microsoft.com/opensource/licenses."
+#| "mspx#Ms-RL\">Microsoft Reciprocal License (Ms-RL)</a>"
 msgid ""
 "<a id=\"ms-rl\" href=\"http://www.microsoft.com/opensource/licenses.mspx#Ms-"
-"RL\">Microsoft Reciprocal License (Ms-RL)</a>"
+"RL\"> Microsoft Reciprocal License (Ms-RL)</a> <span class=\"anchor-"
+"reference-id\">(<a href=\"#ms-rl\">#ms-rl</a>)</span>"
 msgstr ""
 "<a id=\"ms-rl\" href=\"http://www.microsoft.com/opensource/licenses.mspx#Ms-"
 "RL\">Microsoft Reciprocal License (Ms-RL)</a>"
@@ -1984,9 +2341,14 @@ msgstr ""
 "cette raison."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"MPL\" href=\"http://www.mozilla.org/MPL/MPL-1.1.html\"> Mozilla "
+#| "Public License (MPL)</a>"
 msgid ""
 "<a id=\"MPL\" href=\"http://www.mozilla.org/MPL/MPL-1.1.html\"> Mozilla "
-"Public License (MPL)</a>"
+"Public License (MPL)</a> <span class=\"anchor-reference-id\">(<a href=\"#MPL"
+"\">#MPL</a>)</span>"
 msgstr ""
 "<a id=\"MPL\" href=\"http://www.mozilla.org/MPL/MPL-1.1.html\"> Mozilla "
 "Public License (MPL)</a>"
@@ -2023,9 +2385,14 @@ msgstr ""
 "la GPL."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"NOSL\" href=\"http://bits.netizen.com.au/licenses/NOSL/nosl.txt"
+#| "\"> Netizen Open Source License (NOSL), Version 1.0</a>"
 msgid ""
 "<a id=\"NOSL\" href=\"http://bits.netizen.com.au/licenses/NOSL/nosl.txt\"> "
-"Netizen Open Source License (NOSL), Version 1.0</a>"
+"Netizen Open Source License (NOSL), Version 1.0</a> <span class=\"anchor-"
+"reference-id\">(<a href=\"#NOSL\">#NOSL</a>)</span>"
 msgstr ""
 "<a id=\"NOSL\" href=\"http://bits.netizen.com.au/licenses/NOSL/nosl.txt\"> "
 "Netizen Open Source License (NOSL), Version 1.0</a>"
@@ -2046,9 +2413,14 @@ msgstr ""
 "utiliser la NOSL."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"NPL\" href=\"http://www.mozilla.org/NPL/NPL-1.1.html\"> Netscape "
+#| "Public License (NPL)</a>, versions 1.0 and 1.1"
 msgid ""
 "<a id=\"NPL\" href=\"http://www.mozilla.org/NPL/NPL-1.1.html\"> Netscape "
-"Public License (NPL)</a>, versions 1.0 and 1.1"
+"Public License (NPL)</a>, versions 1.0 and 1.1 <span class=\"anchor-"
+"reference-id\">(<a href=\"#NPL\">#NPL</a>)</span>"
 msgstr ""
 "<a id=\"NPL\" href=\"http://www.mozilla.org/NPL/NPL-1.1.html\"> Netscape "
 "Public License (NPL)</a>, versions 1.0 et 1.1"
@@ -2071,9 +2443,14 @@ msgstr ""
 "ne pas utiliser la NPL."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Nokia\" href=\"http://opensource.org/licenses/nokia.html\"> Nokia "
+#| "Open Source License</a>"
 msgid ""
 "<a id=\"Nokia\" href=\"http://opensource.org/licenses/nokia.html\"> Nokia "
-"Open Source License</a>"
+"Open Source License</a> <span class=\"anchor-reference-id\">(<a href=\"#Nokia"
+"\">#Nokia</a>)</span>"
 msgstr ""
 "<a id=\"Nokia\" href=\"http://opensource.org/licenses/nokia.html\">Nokia "
 "Open Source License</a>"
@@ -2087,8 +2464,10 @@ msgstr ""
 "logiciel libre incompatible avec la GPL de GNU."
 
 #. type: Content of: <dl><dt>
-msgid "Old OpenLDAP License, Version 2.3"
-msgstr "L'ancienne licence d'OpenLDAP (version 2.3)"
+msgid ""
+"<a id=\"oldOpenLDAP\"> Old OpenLDAP License, Version 2.3</a> <span class="
+"\"anchor-reference-id\"> (<a href=\"#oldOpenLDAP\">#oldOpenLDAP</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2113,9 +2492,14 @@ msgstr ""
 "faire fonctionner les logiciels publiés sous cette licence."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"OSL\" href=\"http://www.opensource.org/licenses/osl-3.0.php\"> "
+#| "Open Software License, all versions through 3.0</a>"
 msgid ""
 "<a id=\"OSL\" href=\"http://www.opensource.org/licenses/osl-3.0.php\"> Open "
-"Software License, all versions through 3.0</a>"
+"Software License, all versions through 3.0</a> <span class=\"anchor-"
+"reference-id\">(<a href=\"#OSL\">#OSL</a>)</span>"
 msgstr ""
 "<a id=\"OSL\" href=\"http://www.opensource.org/licenses/osl-3.0.php\">Open "
 "Software License, toutes versions jusqu'à la version 3.0</a>"
@@ -2164,9 +2548,14 @@ msgstr ""
 "programmes ayant été publiés sous cette licence."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"OpenSSL\" href=\"http://www.sdisw.com/openssl.htm\"> OpenSSL "
+#| "license</a>"
 msgid ""
 "<a id=\"OpenSSL\" href=\"http://www.sdisw.com/openssl.htm\"> OpenSSL "
-"license</a>"
+"license</a> <span class=\"anchor-reference-id\"> (<a href=\"#OpenSSL"
+"\">#OpenSSL</a>)</span>"
 msgstr ""
 "<a id=\"OpenSSL\" href=\"http://www.sdisw.com/openssl.htm\">OpenSSL License</"
 "a>"
@@ -2196,9 +2585,14 @@ msgstr ""
 "et les applications qui fonctionnent avec OpenSSL."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Phorum\" href=\"http://phorum.org/license.txt\"> Phorum License, "
+#| "Version 2.0</a>"
 msgid ""
 "<a id=\"Phorum\" href=\"http://phorum.org/license.txt\"> Phorum License, "
-"Version 2.0</a>"
+"Version 2.0</a> <span class=\"anchor-reference-id\"> (<a href=\"#Phorum"
+"\">#Phorum</a>)</span>"
 msgstr ""
 "<a id=\"Phorum\" href=\"http://phorum.org/license.txt\"> Phorum License, "
 "Version 2.0</a>"
@@ -2214,9 +2608,14 @@ msgstr ""
 "paragraphes 3 et 4 sont incompatibles avec la GPL."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"PHP-3.01\" href=\"http://www.php.net/license/3_01.txt\"> PHP "
+#| "License, Version 3.01</a>"
 msgid ""
 "<a id=\"PHP-3.01\" href=\"http://www.php.net/license/3_01.txt\"> PHP "
-"License, Version 3.01</a>"
+"License, Version 3.01</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#PHP-3.01\">#PHP-3.01</a>)</span>"
 msgstr ""
 "<a id=\"PHP-3.01\" href=\"http://www.php.net/license/3_01.txt\">PHP License, "
 "Version 3.01</a>"
@@ -2239,9 +2638,14 @@ msgstr ""
 "ajouts à PHP."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"PythonOld\" href=\"http://www.handle.net/python_licenses/"
+#| "python1.6_9-5-00.html\"> License of Python 1.6b1 through 2.0 and 2.1</a>"
 msgid ""
 "<a id=\"PythonOld\" href=\"http://www.handle.net/python_licenses/python1.6_9-"
-"5-00.html\"> License of Python 1.6b1 through 2.0 and 2.1</a>"
+"5-00.html\"> License of Python 1.6b1 through 2.0 and 2.1</a> <span class="
+"\"anchor-reference-id\"> (<a href=\"#PythonOld\">#PythonOld</a>)</span>"
 msgstr ""
 "<a name=\"PythonOld\" href=\"http://www.handle.net/python_licenses/"
 "python1.6_9-5-00.html\">La licence de Python version 1.6b1 jusqu'à 2.0 et "
@@ -2258,9 +2662,14 @@ msgstr ""
 "aux lois de l'État de Virginie (USA). La GPL ne permet pas cela."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"QPL\" href=\"http://doc.trolltech.com/3.0/license.html\"> Q "
+#| "Public License (QPL), Version 1.0</a>"
 msgid ""
 "<a id=\"QPL\" href=\"http://doc.trolltech.com/3.0/license.html\"> Q Public "
-"License (QPL), Version 1.0</a>"
+"License (QPL), Version 1.0</a> <span class=\"anchor-reference-id\">(<a href="
+"\"#QPL\">#QPL</a>)</span>"
 msgstr ""
 "<a id=\"QPL\" href=\"http://doc.trolltech.com/3.0/license.html\">Q Public "
 "License (QPL), Version 1.0</a>"
@@ -2342,9 +2751,14 @@ msgstr ""
 "couvert par la GPL de GNU."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"RPSL\" href=\"http://www.opensource.org/licenses/real.php"
+#| "\">RealNetworks Public Source License (RPSL), Version 1.0</a>"
 msgid ""
-"<a id=\"RPSL\" href=\"http://www.opensource.org/licenses/real.php"
-"\">RealNetworks Public Source License (RPSL), Version 1.0</a>"
+"<a id=\"RPSL\" href=\"http://www.opensource.org/licenses/real.php\"> "
+"RealNetworks Public Source License (RPSL), Version 1.0</a> <span class="
+"\"anchor-reference-id\">(<a href=\"#RPSL\">#RPSL</a>)</span>"
 msgstr ""
 "<a id=\"RPSL\" href=\"http://www.opensource.org/licenses/real.php"
 "\">RealNetworks Public Source License (RPSL), Version 1.0</a>"
@@ -2361,9 +2775,14 @@ msgstr ""
 "se régler à Seattle, Washington."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"SISSL\" href=\"http://www.openoffice.org/licenses/sissl_license."
+#| "html\">Sun Industry Standards Source License 1.0</a>"
 msgid ""
 "<a id=\"SISSL\" href=\"http://www.openoffice.org/licenses/sissl_license.html"
-"\">Sun Industry Standards Source License 1.0</a>"
+"\"> Sun Industry Standards Source License 1.0</a> <span class=\"anchor-"
+"reference-id\">(<a href=\"#SISSL\">#SISSL</a>)</span>"
 msgstr ""
 "<a id=\"SISSL\" href=\"http://www.openoffice.org/licenses/sissl_license.html"
 "\">Sun Industry Standards Source License 1.0</a>"
@@ -2379,16 +2798,26 @@ msgstr ""
 "cause de certains détails."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"SPL\" href=\"http://java.sun.com/spl.html\">Sun Public License</a>"
 msgid ""
-"<a id=\"SPL\" href=\"http://java.sun.com/spl.html\">Sun Public License</a>"
+"<a id=\"SPL\" href=\"http://java.sun.com/spl.html\"> Sun Public License</a> "
+"<span class=\"anchor-reference-id\">(<a href=\"#SPL\">#SPL</a>)</span>"
 msgstr ""
 "<a id=\"SPL\" href=\"http://java.sun.com/spl.html\">Sun Public License</a>"
 
 #. type: Content of: <dl><dd><p>
+#, fuzzy
+#| msgid ""
+#| "This is essentially the same as the Mozilla Public License: a free "
+#| "software license incompatible with the GNU GPL.  Please do not confuse "
+#| "this with the <a href=\"#SunCommunitySourceLicense\">Sun Community Source "
+#| "License</a> which is not a free software license."
 msgid ""
 "This is essentially the same as the Mozilla Public License: a free software "
 "license incompatible with the GNU GPL.  Please do not confuse this with the "
-"<a href=\"#SunCommunitySourceLicense\">Sun Community Source License</a> "
+"<a href=\"#SunCommunitySourceLicense\">Sun Community Source License</a>, "
 "which is not a free software license."
 msgstr ""
 "Dans l'esprit de la licence publique de Mozilla&nbsp;: une licence de "
@@ -2397,9 +2826,14 @@ msgstr ""
 "a>, qui elle n'est pas une licence de logiciel libre."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"xinetd\" href=\"http://fedoraproject.org/wiki/Licensing/"
+#| "Xinetd_License\">License of xinetd</a>"
 msgid ""
 "<a id=\"xinetd\" href=\"http://fedoraproject.org/wiki/Licensing/"
-"Xinetd_License\">License of xinetd</a>"
+"Xinetd_License\"> License of xinetd</a> <span class=\"anchor-reference-id\"> "
+"(<a href=\"#xinetd\">#xinetd</a>)</span>"
 msgstr ""
 "<a id=\"xinetd\" href=\"http://fedoraproject.org/wiki/Licensing/"
 "Xinetd_License\">Licence de xinetd</a>"
@@ -2416,18 +2850,30 @@ msgstr ""
 "contradiction avec les exigences correspondantes de la GPL."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Yahoo\" href=\"http://www.zimbra.com/license/"
+#| "yahoo_public_license_1.1.html\">Yahoo! Public License 1.1</a>"
 msgid ""
 "<a id=\"Yahoo\" href=\"http://www.zimbra.com/license/"
-"yahoo_public_license_1.1.html\">Yahoo! Public License 1.1</a>"
+"yahoo_public_license_1.1.html\"> Yahoo! Public License 1.1</a> <span class="
+"\"anchor-reference-id\">(<a href=\"#Yahoo\">#Yahoo</a>)</span>"
 msgstr ""
 "<a id=\"Yahoo\" href=\"http://info.yahoo.com/legal/us/yahoo/publiclicense/"
 "publiclicense-1813.html\">Yahoo! Public License 1.0</a>"
 
 #. type: Content of: <dl><dd><p>
+#, fuzzy
+#| msgid ""
+#| "This is a free software license.  It has a copyleft similar to the one "
+#| "found in the Mozilla Public License.  It also has a choice of law clause "
+#| "in section 7.  These features both make the license GPL-incompatible.  "
+#| "The license also unfortunately uses the term &ldquo;<a href=\"/philosophy/"
+#| "not-ipr.html\">intellectual property</a>&rdquo;."
 msgid ""
 "This is a free software license.  It has a copyleft similar to the one found "
 "in the Mozilla Public License.  It also has a choice of law clause in "
-"section 7.  These features both make the license GPL-incompatible.  The "
+"section&nbsp;7.  These features both make the license GPL-incompatible.  The "
 "license also unfortunately uses the term &ldquo;<a href=\"/philosophy/not-"
 "ipr.html\">intellectual property</a>&rdquo;."
 msgstr ""
@@ -2438,9 +2884,14 @@ msgstr ""
 "philosophy/not-ipr.fr.html\">propriété intellectuelle</a>&nbsp;»."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Zend\" href=\"http://www.zend.com/license/2_00.txt\">Zend "
+#| "License, Version 2.0</a>"
 msgid ""
-"<a id=\"Zend\" href=\"http://www.zend.com/license/2_00.txt\">Zend License, "
-"Version 2.0</a>"
+"<a id=\"Zend\" href=\"http://www.zend.com/license/2_00.txt\"> Zend License, "
+"Version 2.0</a> <span class=\"anchor-reference-id\">(<a href=\"#Zend"
+"\">#Zend</a>)</span>"
 msgstr ""
 "<a id=\"Zend\" href=\"http://www.zend.com/license/2_00.txt\">Zend License, "
 "Version 2.0</a>"
@@ -2464,9 +2915,14 @@ msgstr ""
 "vous écrivez."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Zimbra\" href=\"http://www.zimbra.com/license/zimbra-public-"
+#| "license-1-3.html\">Zimbra Public License 1.3</a>"
 msgid ""
 "<a id=\"Zimbra\" href=\"http://www.zimbra.com/license/zimbra-public-license-"
-"1-3.html\">Zimbra Public License 1.3</a>"
+"1-3.html\"> Zimbra Public License 1.3</a> <span class=\"anchor-reference-id"
+"\"> (<a href=\"#Zimbra\">#Zimbra</a>)</span>"
 msgstr ""
 "<a id=\"Zimbra\" href=\"http://www.zimbra.com/license/zimbra-public-license-"
 "1-3.html\">Zimbra Public License 1.3</a>"
@@ -2480,9 +2936,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Zope\" href=\"http://www.zope.org/Resources/ZPL\">Zope Public "
+#| "License version 1</a>"
 msgid ""
-"<a id=\"Zope\" href=\"http://www.zope.org/Resources/ZPL\">Zope Public "
-"License version 1</a>"
+"<a id=\"Zope\" href=\"http://www.zope.org/Resources/ZPL\"> Zope Public "
+"License version 1</a> <span class=\"anchor-reference-id\"> (<a href=\"#Zope"
+"\">#Zope</a>)</span>"
 msgstr ""
 "<a id=\"Zope\" href=\"http://www.zope.org/Resources/ZPL\">Zope Public "
 "License version 1</a>"
@@ -2520,9 +2981,11 @@ msgstr ""
 "avec la GPL."
 
 #. type: Content of: <h3>
-msgid "<a id=\"NonFreeSoftwareLicense\">Non-Free Software Licenses</a>"
+msgid ""
+"<a id=\"NonFreeSoftwareLicense\"></a> <a id=\"NonFreeSoftwareLicenses\"> Non-"
+"Free Software Licenses</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#NonFreeSoftwareLicenses\">#NonFreeSoftwareLicenses</a>)</span>"
 msgstr ""
-"<a id=\"NonFreeSoftwareLicense\">Les licences de logiciels non libres</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2576,8 +3039,10 @@ msgstr ""
 "estimons pouvoir le faire sans risque."
 
 #. type: Content of: <dl><dt>
-msgid "Aladdin Free Public License"
-msgstr "Aladdin Free Public License"
+msgid ""
+"<a id=\"Aladdin\">Aladdin Free Public License</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#Aladdin\">#Aladdin</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2591,10 +3056,16 @@ msgstr ""
 "une rétribution."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"apsl1\" href=\"https://fedoraproject.org/wiki/Licensing/"
+#| "Apple_Public_Source_License_1.2\"> Apple Public Source License (APSL), "
+#| "version 1.x</a>"
 msgid ""
-"<a id=\"apsl1\" href=\"https://fedoraproject.org/wiki/Licensing/"
+"<a id=\"apsl1\" href= \"https://fedoraproject.org/wiki/Licensing/"
 "Apple_Public_Source_License_1.2\"> Apple Public Source License (APSL), "
-"version 1.x</a>"
+"version 1.x</a> <span class=\"anchor-reference-id\">(<a href=\"#apsl1"
+"\">#apsl1</a>)</span>"
 msgstr ""
 "<a id=\"apsl1\" href=\"https://fedoraproject.org/wiki/Licensing/"
 "Apple_Public_Source_License_1.2\"> Apple Public Source License (APSL), "
@@ -2616,8 +3087,10 @@ msgstr ""
 "libre."
 
 #. type: Content of: <dl><dt>
-msgid "<a id=\"ArtisticLicense\">Artistic License 1.0</a>"
-msgstr "<a id=\"ArtisticLicense\">Artistic License 1.0</a>"
+msgid ""
+"<a id=\"ArtisticLicense\">Artistic License 1.0</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#ArtisticLicense\">#ArtisticLicense</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2632,8 +3105,10 @@ msgstr ""
 "dans le cadre de la <a href=\"#PerlLicense\">double licence de Perl</a>."
 
 #. type: Content of: <dl><dt>
-msgid "AT&amp;T Public License"
-msgstr "AT&amp;T Public License"
+msgid ""
+"<a id=\"ATTPublicLicense\">AT&amp;T Public License</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#ATTPublicLicense\">#ATTPublicLicense</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2719,8 +3194,10 @@ msgstr ""
 "diffusion d'une telle revendication est à proscrire."
 
 #. type: Content of: <dl><dt>
-msgid "eCos Public License, version 1.1"
-msgstr "eCos Public License, version 1.1"
+msgid ""
+"<a id=\"eCos11\">eCos Public License, version 1.1</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#eCos11\">#eCos11</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2744,10 +3221,16 @@ msgstr ""
 "avec en plus l'autorisation de lier avec des programmes non libres."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"GPL-PA\" href=\"http://www.celepar.pr.gov.br/modules/conteudo/"
+#| "conteudo.php?conteudo=69\"> GPL for Computer Programs of the Public "
+#| "Administration</a>"
 msgid ""
 "<a id=\"GPL-PA\" href=\"http://www.celepar.pr.gov.br/modules/conteudo/"
 "conteudo.php?conteudo=69\"> GPL for Computer Programs of the Public "
-"Administration</a>"
+"Administration</a> <span class=\"anchor-reference-id\"> (<a href=\"#GPL-PA"
+"\">#GPL-PA</a>)</span>"
 msgstr ""
 "<a id=\"GPL-PA\" href=\"http://www.celepar.pr.gov.br/modules/conteudo/"
 "conteudo.php?conteudo=69\">GPL pour les programmes informatiques de "
@@ -2778,9 +3261,14 @@ msgid "Its permissions lapse after 50 years."
 msgstr "Ses permissions sont caduques après 50 ans."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"HESSLA\" href=\"http://www.hacktivismo.com/about/hessla.php\"> "
+#| "Hacktivismo Enhanced-Source Software License Agreement</a> (HESSLA)"
 msgid ""
 "<a id=\"HESSLA\" href=\"http://www.hacktivismo.com/about/hessla.php\"> "
-"Hacktivismo Enhanced-Source Software License Agreement</a> (HESSLA)"
+"Hacktivismo Enhanced-Source Software License Agreement</a> (HESSLA)  <span "
+"class=\"anchor-reference-id\"> (<a href=\"#HESSLA\">#HESSLA</a>)</span>"
 msgstr ""
 "<a id=\"HESSLA\" href=\"http://www.hacktivismo.com/about/hessla.php"
 "\">Hacktivismo Enhanced-Source Software License Agreement</a> (HESSLA)"
@@ -2797,9 +3285,14 @@ msgstr ""
 "modifiées du logiciel</a>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Jahia\" href=\"http://www.jahia.org/jahia/Jahia/pid/145\"> Jahia "
+#| "Community Source License</a>"
 msgid ""
 "<a id=\"Jahia\" href=\"http://www.jahia.org/jahia/Jahia/pid/145\"> Jahia "
-"Community Source License</a>"
+"Community Source License</a> <span class=\"anchor-reference-id\">(<a href="
+"\"#Jahia\">#Jahia</a>)</span>"
 msgstr ""
 "<a id=\"Jahia\" href=\"http://www.jahia.org/jahia/Jahia/pid/145\">Jahia "
 "Community Source License</a>"
@@ -2813,8 +3306,13 @@ msgstr ""
 "libre&nbsp;: l'usage du code source est limité aux objectifs de recherche."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"JSON\" href=\"http://www.json.org/license.html\">The JSON "
+#| "License</a>"
 msgid ""
-"<a id=\"JSON\" href=\"http://www.json.org/license.html\">The JSON License</a>"
+"<a id=\"JSON\" href=\"http://www.json.org/license.html\"> The JSON License</"
+"a> <span class=\"anchor-reference-id\">(<a href=\"#JSON\">#JSON</a>)</span>"
 msgstr ""
 "<a id=\"JSON\" href=\"http://www.json.org/license.html\">La licence de JSON</"
 "a>"
@@ -2830,8 +3328,10 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <dl><dt>
-msgid "Old license of ksh93"
-msgstr "L'ancienne licence de ksh93"
+msgid ""
+"<a id=\"ksh93\">Old license of ksh93</a> <span class=\"anchor-reference-id\">"
+"(<a href=\"#ksh93\">#ksh93</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2852,9 +3352,14 @@ msgstr ""
 "Public License</a>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://packages.debian.org/changelogs/pool/non-free/l/lha/"
+#| "current/copyright\"> License of Lha</a>"
 msgid ""
-"<a href=\"http://packages.debian.org/changelogs/pool/non-free/l/lha/current/"
-"copyright\"> License of Lha</a>"
+"<a id=\"Lha\" href= \"http://packages.debian.org/changelogs/pool/non-free/l/"
+"lha/current/copyright\"> License of Lha</a> <span class=\"anchor-reference-id"
+"\">(<a href=\"#Lha\">#Lha</a>)</span>"
 msgstr ""
 "<a href=\"http://packages.debian.org/changelogs/pool/non-free/l/lha/current/"
 "copyright\">La licence de Lha</a>"
@@ -2868,10 +3373,16 @@ msgstr ""
 "imprécise pour donner des permissions claires."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Ms-SS\" href=\"http://fedoraproject.org/wiki/Licensing/"
+#| "Microsoft_Shared_Source_License\"> Microsoft's Shared Source CLI, C#, and "
+#| "Jscript License</a>"
 msgid ""
-"<a id=\"Ms-SS\" href=\"http://fedoraproject.org/wiki/Licensing/"
+"<a id=\"Ms-SS\" href= \"http://fedoraproject.org/wiki/Licensing/"
 "Microsoft_Shared_Source_License\"> Microsoft's Shared Source CLI, C#, and "
-"Jscript License</a>"
+"Jscript License</a> <span class=\"anchor-reference-id\">(<a href=\"#Ms-SS"
+"\">#Ms-SS</a>)</span>"
 msgstr ""
 "<a id=\"Ms-SS\" href=\"http://fedoraproject.org/wiki/Licensing/"
 "Microsoft_Shared_Source_License\">Microsoft's Shared Source CLI, C#, and "
@@ -2894,9 +3405,14 @@ msgstr ""
 "Source&nbsp;», parmi lesquelles certaines ont diverses restrictions."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"NASA\" href=\"http://www.opensource.org/licenses/nasa1.3\"> NASA "
+#| "Open Source Agreement</a>"
 msgid ""
 "<a id=\"NASA\" href=\"http://www.opensource.org/licenses/nasa1.3\"> NASA "
-"Open Source Agreement</a>"
+"Open Source Agreement</a> <span class=\"anchor-reference-id\">(<a href="
+"\"#NASA\">#NASA</a>)</span>"
 msgstr ""
 "<a id=\"NASA\" href=\"http://www.opensource.org/licenses/nasa1.3\"> NASA "
 "Open Source Agreement</a>"
@@ -2924,11 +3440,18 @@ msgstr ""
 "citoyen des États-Unis, veuillez écrire à la NASA pour leur demander une "
 "vraie licence de logiciel libre."
 
+#.  old id, leave for compatibility 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"OPL\" title=\"Open Public License at Fedora Project wiki\" href="
+#| "\"https://fedoraproject.org/wiki/Licensing/Open_Public_License\"> Open "
+#| "Public License</a>"
 msgid ""
-"<a id=\"OPL\" title=\"Open Public License at Fedora Project wiki\" href="
-"\"https://fedoraproject.org/wiki/Licensing/Open_Public_License\"> Open "
-"Public License</a>"
+"<a id=\"OPL\"></a> <a id=\"OpenPublicL\" title=\"Open Public License at "
+"Fedora Project wiki\" href=\"https://fedoraproject.org/wiki/Licensing/"
+"Open_Public_License\"> Open Public License</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#OpenPublicL\">#OpenPublicL</a>)</span>"
 msgstr ""
 "<a id=\"OPL\" title=\"Open Public License sur le wiki du projet Fedora\" "
 "href=\"https://fedoraproject.org/wiki/Licensing/Open_Public_License\"> Open "
@@ -2947,8 +3470,10 @@ msgstr ""
 "nous ne savons pas au juste si nous avons bien tout compris."
 
 #. type: Content of: <dl><dt>
-msgid "License of PINE"
-msgstr "La licence de PINE"
+msgid ""
+"<a id=\"PINE\">License of PINE</a> <span class=\"anchor-reference-id\">(<a "
+"href=\"#PINE\">#PINE</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2971,8 +3496,10 @@ msgstr ""
 "\"#apache2\">Apache License, version 2.0</a>."
 
 #. type: Content of: <dl><dt>
-msgid "Old Plan 9 license"
-msgstr "L'ancienne licence Plan 9"
+msgid ""
+"<a id=\"Plan9\">Old Plan 9 license</a> <span class=\"anchor-reference-id\">"
+"(<a href=\"#Plan9\">#Plan9</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -3002,9 +3529,14 @@ msgstr ""
 "licence en 2003 fait de Plan 9 un logiciel libre."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"RPL\" href=\"http://www.opensource.org/licenses/rpl.php\"> "
+#| "Reciprocal Public License</a>"
 msgid ""
 "<a id=\"RPL\" href=\"http://www.opensource.org/licenses/rpl.php\"> "
-"Reciprocal Public License</a>"
+"Reciprocal Public License</a> <span class=\"anchor-reference-id\">(<a href="
+"\"#RPL\">#RPL</a>)</span>"
 msgstr ""
 "<a id=\"RPL\" href=\"http://www.opensource.org/licenses/rpl.php\">Reciprocal "
 "Public License</a>"
@@ -3025,14 +3557,21 @@ msgstr ""
 "qu'utilise une organisation, même si elle l'utilise de façon privée."
 
 #. type: Content of: <dl><dt>
-msgid "Scilab license"
-msgstr "La licence de Scilab"
+msgid ""
+"<a id=\"Scilab\">Scilab license</a> <span class=\"anchor-reference-id\"> (<a "
+"href=\"#Scilab\">#Scilab</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
+#, fuzzy
+#| msgid ""
+#| "This is not a free software license because it does not allow commercial "
+#| "distribution of a modified version.  Thankfully, recent versions of the "
+#| "Scilab software are free software, released under CeCILL version 2."
 msgid ""
 "This is not a free software license because it does not allow commercial "
 "distribution of a modified version.  Thankfully, recent versions of the "
-"Scilab software are free software, released under CeCILL version 2."
+"Scilab software are free software, released under CeCILL version&nbsp;2."
 msgstr ""
 "Ce n'est pas une licence de logiciel libre car elle n'autorise pas la "
 "distribution commerciale d'une version modifiée. Heureusement, les versions "
@@ -3040,9 +3579,14 @@ msgstr ""
 "termes de la licence CeCILL version 2."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"SML\" href=\"http://www.simplemachines.org/about/license.php\"> "
+#| "Simple Machines License</a>"
 msgid ""
 "<a id=\"SML\" href=\"http://www.simplemachines.org/about/license.php\"> "
-"Simple Machines License</a>"
+"Simple Machines License</a> <span class=\"anchor-reference-id\">(<a href="
+"\"#SML\">#SML</a>)</span>"
 msgstr ""
 "<a id=\"SML\" href=\"http://www.simplemachines.org/about/license.php"
 "\">Simple Machines License</a>"
@@ -3078,8 +3622,10 @@ msgstr ""
 "logiciel de quelqu'un qui n'obéit pas aux termes de la licence."
 
 #. type: Content of: <dl><dt>
-msgid "Old Squeak license"
-msgstr "L'ancienne licence Squeak"
+msgid ""
+"<a id=\"Squeak\">Old Squeak license</a> <span class=\"anchor-reference-id\"> "
+"(<a href=\"#Squeak\">#Squeak</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -3102,18 +3648,26 @@ msgstr ""
 "réfléchir à deux fois avant de l'utiliser."
 
 #. type: Content of: <dl><dd><p>
+#, fuzzy
+#| msgid ""
+#| "Recent versions of Squeak (from 4.0 on) are released under an <a href="
+#| "\"#Expat\">Expat-style License</a> with some portions of the code under "
+#| "the <a href=\"#apache2\">Apache License 2.0</a>."
 msgid ""
 "Recent versions of Squeak (from 4.0 on) are released under an <a href="
 "\"#Expat\">Expat-style License</a> with some portions of the code under the "
-"<a href=\"#apache2\">Apache License 2.0</a>."
+"<a href=\"#apache2\">Apache License&nbsp;2.0</a>."
 msgstr ""
 "Les versions récentes de Squeak (à partir de 4.0) sont sous une <a href="
 "\"#Expat\">licence de type Expat</a> avec certaines portions du code sous "
 "l'<a href=\"#apache2\">Apache License 2.0</a>."
 
 #. type: Content of: <dl><dt>
-msgid "<a id=\"SunCommunitySourceLicense\"> Sun Community Source License</a>"
-msgstr "<a id=\"SunCommunitySourceLicense\"> Sun Community Source License</a>"
+msgid ""
+"<a id=\"SunCommunitySourceLicense\">Sun Community Source License</a> <span "
+"class=\"anchor-reference-id\"> (<a href=\"#SunCommunitySourceLicense"
+"\">#SunCommunitySourceLicense</a>)  </span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -3127,8 +3681,11 @@ msgstr ""
 "logiciels publiés sous cette licence."
 
 #. type: Content of: <dl><dt>
-msgid "Sun Solaris Source Code (Foundation Release) License, Version 1.1"
-msgstr "Sun Solaris Source Code (Foundation Release) License, Version 1.1"
+msgid ""
+"<a id=\"SunSolarisSourceCode\"> Sun Solaris Source Code (Foundation Release) "
+"License, Version 1.1</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#SunSolarisSourceCode\">#SunSolarisSourceCode</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -3139,9 +3696,14 @@ msgstr ""
 "ainsi que l'usage commercial du logiciel, et elle peut être révoquée."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"SystemC-3.0\" href=\"http://www.systemc.org/about/org_docs/"
+#| "license/\"> SystemC &quot;Open Source&quot; License, Version 3.0</a>"
 msgid ""
 "<a id=\"SystemC-3.0\" href=\"http://www.systemc.org/about/org_docs/license/"
-"\"> SystemC &quot;Open Source&quot; License, Version 3.0</a>"
+"\"> SystemC &quot;Open Source&quot; License, Version 3.0</a> <span class="
+"\"anchor-reference-id\"> (<a href=\"#SystemC-3.0\">#SystemC-3.0</a>)</span>"
 msgstr ""
 "<a id=\"SystemC-3.0\" href=\"http://www.systemc.org/about/org_docs/license/"
 "\">SystemC &quot;Open Source&quot; License, Version 3.0</a>"
@@ -3170,9 +3732,15 @@ msgstr ""
 "open source actuellement."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"UtahPublicLicense\" href=\"http://www.cs.utah.edu/~gk/teem/txt/"
+#| "LICENSE.txt\"> University of Utah Public License</a>"
 msgid ""
 "<a id=\"UtahPublicLicense\" href=\"http://www.cs.utah.edu/~gk/teem/txt/"
-"LICENSE.txt\"> University of Utah Public License</a>"
+"LICENSE.txt\"> University of Utah Public License</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#UtahPublicLicense\">#UtahPublicLicense</a>)</"
+"span>"
 msgstr ""
 "<a id=\"UtahPublicLicense\" href=\"http://www.cs.utah.edu/~gk/teem/txt/"
 "LICENSE.txt\">University of Utah Public License</a>"
@@ -3224,8 +3792,10 @@ msgid "The earlier you raise the issue, the better."
 msgstr "Le mieux est de soulever le problème le plus tôt possible."
 
 #. type: Content of: <dl><dt>
-msgid "YaST License"
-msgstr "La Licence de YaST"
+msgid ""
+"<a id=\"YaST\"> YaST License</a> <span class=\"anchor-reference-id\">(<a "
+"href=\"#YaST\">#YaST</a>)</span>"
+msgstr ""
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -3261,9 +3831,11 @@ msgid "<a id=\"DocumentationLicenses\">Licenses For Documentation</a>"
 msgstr "<a id=\"DocumentationLicenses\">Les licences sur la documentation</a>"
 
 #. type: Content of: <h3>
-msgid "<a id=\"FreeDocumentationLicenses\">Free Documentation Licenses</a>"
+msgid ""
+"<a id=\"FreeDocumentationLicenses\">Free Documentation Licenses</a> <span "
+"class=\"anchor-reference-id\"> (<a href=\"#FreeDocumentationLicenses"
+"\">#FreeDocumentationLicenses</a>)  </span>"
 msgstr ""
-"<a id=\"FreeDocumentationLicenses\">Les licences de documentation libres</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -3275,8 +3847,13 @@ msgstr ""
 "strong>"
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"FDL\" href=\"/licenses/fdl.html\"> GNU Free Documentation "
+#| "License</a>"
 msgid ""
-"<a id=\"FDL\" href=\"/licenses/fdl.html\"> GNU Free Documentation License</a>"
+"<a id=\"FDL\" href=\"/licenses/fdl.html\"> GNU Free Documentation License</"
+"a> <span class=\"anchor-reference-id\">(<a href=\"#FDL\">#FDL</a>)</span>"
 msgstr ""
 "<a id=\"FDL\" href=\"/licenses/fdl.html\">GNU Free Documentation License</a>"
 
@@ -3295,10 +3872,16 @@ msgstr ""
 "livres&nbsp;»)."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"ACDL\" href=\"http://fedoraproject.org/wiki/Licensing/"
+#| "Common_Documentation_License\"> Apple's Common Documentation License, "
+#| "Version 1.0</a>"
 msgid ""
 "<a id=\"ACDL\" href=\"http://fedoraproject.org/wiki/Licensing/"
 "Common_Documentation_License\"> Apple's Common Documentation License, "
-"Version 1.0</a>"
+"Version 1.0</a> <span class=\"anchor-reference-id\">(<a href=\"#ACDL"
+"\">#ACDL</a>)</span>"
 msgstr ""
 "<a id=\"ACDL\" href=\"http://fedoraproject.org/wiki/Licensing/"
 "Common_Documentation_License\">Apple's Common Documentation License, Version "
@@ -3317,9 +3900,14 @@ msgstr ""
 "d'autres termes non prévus par la Common Documentation License."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"FreeBSDDL\" href=\"http://www.freebsd.org/copyright/freebsd-doc-"
+#| "license.html\"> FreeBSD Documentation License</a>"
 msgid ""
 "<a id=\"FreeBSDDL\" href=\"http://www.freebsd.org/copyright/freebsd-doc-"
-"license.html\"> FreeBSD Documentation License</a>"
+"license.html\"> FreeBSD Documentation License</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#FreeBSDDL\">#FreeBSDDL</a>)</span>"
 msgstr ""
 "<a id=\"FreeBSDDL\" href=\"http://www.freebsd.org/copyright/freebsd-doc-"
 "license.html\">FreeBSD Documentation License</a>"
@@ -3332,10 +3920,17 @@ msgstr ""
 "C'est une licence libre pour la documentation, permissive et sans gauche "
 "d'auteur, compatible avec la GNU FDL."
 
+#.  old id, leave for compatibility 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"RealOPL\" href=\"http://opencontent.org/openpub/\"> Open "
+#| "Publication License, Version 1.0</a>"
 msgid ""
-"<a id=\"RealOPL\" href=\"http://opencontent.org/openpub/\"> Open Publication "
-"License, Version 1.0</a>"
+"<a id=\"RealOPL\"></a> <a id=\"OpenPublicationL\" href=\"http://opencontent."
+"org/openpub/\"> Open Publication License, Version 1.0</a> <span class="
+"\"anchor-reference-id\"> (<a href=\"#OpenPublicationL\">#OpenPublicationL</"
+"a>)</span>"
 msgstr ""
 "<a id=\"RealOPL\" href=\"http://opencontent.org/openpub/\">Open Publication "
 "License, Version 1.0</a>"
@@ -3415,10 +4010,10 @@ msgstr ""
 
 #. type: Content of: <h3>
 msgid ""
-"<a id=\"NonFreeDocumentationLicenses\">Non-Free Documentation Licenses</a>"
+"<a id=\"NonFreeDocumentationLicenses\"> Non-Free Documentation Licenses</a> "
+"<span class=\"anchor-reference-id\"> (<a href=\"#NonFreeDocumentationLicenses"
+"\">#NonFreeDocumentationLicenses</a>)  </span>"
 msgstr ""
-"<a id=\"NonFreeDocumentationLicenses\">Les licences de documentation non "
-"libres</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -3428,10 +4023,16 @@ msgstr ""
 "<strong>Voici une liste de licences qui <em>ne peuvent pas</em> être "
 "qualifiées de licence de documentation libres&nbsp;:</strong>"
 
+#.  brief id, leave for compatibility 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"OCL\" href=\"http://opencontent.org/opl.shtml\"> Open Content "
+#| "License, Version 1.0</a>"
 msgid ""
-"<a id=\"OCL\" href=\"http://opencontent.org/opl.shtml\"> Open Content "
-"License, Version 1.0</a>"
+"<a id=\"OCL\"></a> <a id=\"OpenContentL\" href=\"http://opencontent.org/opl."
+"shtml\"> Open Content License, Version 1.0</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#OpenContentL\">#OpenContentL</a>)</span>"
 msgstr ""
 "<a id=\"OCL\" href=\"http://opencontent.org/opl.shtml\">Open Content "
 "License, Version 1.0</a>"
@@ -3463,9 +4064,14 @@ msgstr ""
 "l'abréviation pour être sûr que les gens comprennent bien ce que vous dites."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"OpenDirectory\" href=\"http://dmoz.org/license.html\"> Open "
+#| "Directory License (aka dmoz.org License)</a>"
 msgid ""
 "<a id=\"OpenDirectory\" href=\"http://dmoz.org/license.html\"> Open "
-"Directory License (aka dmoz.org License)</a>"
+"Directory License (aka dmoz.org License)</a> <span class=\"anchor-reference-"
+"id\"> (<a href=\"#OpenDirectory\">#OpenDirectory</a>)</span>"
 msgstr ""
 "<a id=\"OpenDirectory\" href=\"http://dmoz.org/license.html\">Open Directory "
 "License (aussi appelée dmoz.org License)</a>"
@@ -3483,16 +4089,30 @@ msgstr ""
 "restrictions trop importantes à la liberté de l'utilisateur."
 
 #. type: Content of: <h2>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"OtherLicenses\">Licenses for Works of Practical Use Besides "
+#| "Software and Documentation</a>"
 msgid ""
-"<a id=\"OtherLicenses\">Licenses for Works of Practical Use Besides Software "
-"and Documentation</a>"
+"<a id=\"OtherLicenses\"> Licenses for Works of Practical Use Besides "
+"Software and Documentation</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#OtherLicenses\">#OtherLicenses</a>)</span>"
 msgstr ""
 "<a id=\"OtherLicenses\">Les licences des &oelig;uvres d'usage pratique autre "
 "que les logiciels et la documentation</a>"
 
 #. type: Content of: <dl><dt>
-msgid "<a href=\"/licenses/gpl.html\"> GNU General Public License</a>"
-msgstr "<a href=\"/licenses/gpl.html\">GNU General Public License</a>"
+#, fuzzy
+#| msgid ""
+#| "<a id=\"GNUGPL\" href=\"/licenses/gpl.html\"> GNU General Public License "
+#| "(GPL) version 3</a>"
+msgid ""
+"<a id=\"GPLOther\" href=\"/licenses/gpl.html\"> GNU General Public License</"
+"a> <span class=\"anchor-reference-id\"> (<a href=\"#GPLOther\">#GPLOther</a>)"
+"</span>"
+msgstr ""
+"<a id=\"GNUGPL\" href=\"/licenses/gpl.html\">La licence GNU General Public "
+"License version 3</a>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -3510,8 +4130,16 @@ msgstr ""
 "pour ce mot la même définition que la GPL."
 
 #. type: Content of: <dl><dt>
-msgid "<a href=\"/licenses/fdl.html\"> GNU Free Documentation License</a>"
-msgstr "<a href=\"/licenses/fdl.html\">GNU Free Documentation License</a>"
+#, fuzzy
+#| msgid ""
+#| "<a id=\"FDL\" href=\"/licenses/fdl.html\"> GNU Free Documentation "
+#| "License</a>"
+msgid ""
+"<a id=\"FDLOther\" href=\"/licenses/fdl.html\"> GNU Free Documentation "
+"License</a> <span class=\"anchor-reference-id\"> (<a href=\"#FDLOther"
+"\">#FDLOther</a>)</span>"
+msgstr ""
+"<a id=\"FDL\" href=\"/licenses/fdl.html\">GNU Free Documentation License</a>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -3530,9 +4158,14 @@ msgstr ""
 "l'information pour un usage concret."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"ccby\" href=\"http://creativecommons.org/licenses/by/2.0/legalcode"
+#| "\"> Creative Commons Attribution 2.0 license</a> (a.k.a. CC&nbsp;BY)"
 msgid ""
 "<a id=\"ccby\" href=\"http://creativecommons.org/licenses/by/2.0/legalcode"
-"\"> Creative Commons Attribution 2.0 license</a> (a.k.a. CC&nbsp;BY)"
+"\"> Creative Commons Attribution 2.0 license</a> (a.k.a. CC&nbsp;BY)  <span "
+"class=\"anchor-reference-id\">(<a href=\"#ccby\">#ccby</a>)</span>"
 msgstr ""
 "<a id=\"ccby\" href=\"http://creativecommons.org/licenses/by/2.0/legalcode"
 "\">Creative Commons Attribution 2.0 license</a> (aussi appelée CC&nbsp;BY)"
@@ -3550,14 +4183,25 @@ msgstr ""
 "et la GNU FDL."
 
 #. type: Content of: <dl><dd><p>
+#, fuzzy
+#| msgid ""
+#| "Creative Commons publishes many licenses which are very different.  "
+#| "Therefore, to say that a work &ldquo;uses a Creative Commons "
+#| "license&rdquo; is to leave the principal questions about the work's "
+#| "licensing unanswered.  When you see such a statement in a work, please "
+#| "ask the author to highlight the substance of the license choices.  And if "
+#| "someone proposes to &ldquo;use a Creative Commons license&rdquo; for a "
+#| "certain work, it is vital to ask immediately, &ldquo;Which one?&rdquo;"
 msgid ""
+"<span class=\"anchor-reference-id\">(<a href=\"#\">#which-cc</a>)</span> "
 "Creative Commons publishes many licenses which are very different.  "
 "Therefore, to say that a work &ldquo;uses a Creative Commons license&rdquo; "
 "is to leave the principal questions about the work's licensing unanswered.  "
-"When you see such a statement in a work, please ask the author to highlight "
-"the substance of the license choices.  And if someone proposes to &ldquo;use "
-"a Creative Commons license&rdquo; for a certain work, it is vital to ask "
-"immediately, &ldquo;Which one?&rdquo;"
+"When you see such a statement in a work, please ask the author to change the "
+"work to state clearly and visibly <em>which</em>of the Creative Commons "
+"license it uses.  And if someone proposes to &ldquo;use a Creative Commons "
+"license&rdquo; for a certain work, it is vital to ask &ldquo;Which Creative "
+"Commons license?&rdquo; before proceeding any further."
 msgstr ""
 "Il n'y a littéralement pas de liberté spécifique que toutes les licences "
 "Creative Commons n'autorisent. Cependant, dire qu'une &oelig;uvre «&nbsp;"
@@ -3569,10 +4213,16 @@ msgstr ""
 "«&nbsp;Laquelle&nbsp;?&nbsp;»."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"ccbysa\" href=\"http://creativecommons.org/licenses/by-sa/2.0/"
+#| "legalcode\"> Creative Commons Attribution-Sharealike 2.0 license</a> (a.k."
+#| "a. CC&nbsp;BY-SA)"
 msgid ""
 "<a id=\"ccbysa\" href=\"http://creativecommons.org/licenses/by-sa/2.0/"
 "legalcode\"> Creative Commons Attribution-Sharealike 2.0 license</a> (a.k.a. "
-"CC&nbsp;BY-SA)"
+"CC&nbsp;BY-SA)  <span class=\"anchor-reference-id\"> (<a href=\"#ccbysa"
+"\">#ccbysa</a>)</span>"
 msgstr ""
 "<a id=\"ccbysa\" href=\"http://creativecommons.org/licenses/by-sa/2.0/"
 "legalcode\">Creative Commons Attribution-Sharealike 2.0 license</a> (aussi "
@@ -3599,8 +4249,13 @@ msgstr ""
 "Commons qui est utilisée</a>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"dsl\" href=\"/licenses/dsl.html\"> Design Science License (DSL)</"
+#| "a>"
 msgid ""
-"<a id=\"dsl\" href=\"/licenses/dsl.html\"> Design Science License (DSL)</a>"
+"<a id=\"dsl\" href=\"/licenses/dsl.html\"> Design Science License (DSL)</a> "
+"<span class=\"anchor-reference-id\">(<a href=\"#dsl\">#dsl</a>)</span>"
 msgstr ""
 "<a id=\"dsl\" href=\"/licenses/dsl.html\">Design Science License (DSL)</a>"
 
@@ -3616,9 +4271,14 @@ msgstr ""
 "documentation. Elle convient pour les autres sortes de données."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"FreeArt\" href=\"http://artlibre.org/licence/lalgb.html\"> Free "
+#| "Art License</a>"
 msgid ""
 "<a id=\"FreeArt\" href=\"http://artlibre.org/licence/lalgb.html\"> Free Art "
-"License</a>"
+"License</a> <span class=\"anchor-reference-id\"> (<a href=\"#FreeArt"
+"\">#FreeArt</a>)</span>"
 msgstr ""
 "<a id=\"FreeArt\" href=\"http://artlibre.org/licence/lalgb.html\">Free Art "
 "License</a>"
@@ -3638,8 +4298,10 @@ msgstr ""
 "et la GNU FDL."
 
 #. type: Content of: <h3>
-msgid "<a id=\"Fonts\">Licenses for Fonts</a>"
-msgstr "<a id=\"Fonts\">Licences pour les polices de caractères</a>"
+msgid ""
+"<a id=\"Fonts\">Licenses for Fonts</a> <span class=\"anchor-reference-id\">"
+"(<a href=\"#Fonts\">#Fonts</a>)</span>"
+msgstr ""
 
 #. type: Content of: <p>
 msgid ""
@@ -3653,6 +4315,19 @@ msgstr ""
 "En l'état de nos connaissances, il est toujours possible de mettre un droit "
 "d'auteur pour la mise en &oelig;uvre d'une conception. Le statut légal de la "
 "conception artistique est complexe et varie selon les juridictions."
+
+#. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"GNUGPL\" href=\"/licenses/gpl.html\"> GNU General Public License "
+#| "(GPL) version 3</a>"
+msgid ""
+"<a id=\"GPLFonts\" href=\"/licenses/gpl.html\"> GNU General Public License</"
+"a> <span class=\"anchor-reference-id\"> (<a href=\"#GPLFonts\">#GPLFonts</a>)"
+"</span>"
+msgstr ""
+"<a id=\"GNUGPL\" href=\"/licenses/gpl.html\">La licence GNU General Public "
+"License version 3</a>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -3670,9 +4345,14 @@ msgstr ""
 "pour les polices</a>."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Arphic\" href=\"http://ftp.gnu.org/gnu/non-gnu/chinese-fonts-"
+#| "truetype/LICENSE\"> Arphic Public License</a>"
 msgid ""
 "<a id=\"Arphic\" href=\"http://ftp.gnu.org/gnu/non-gnu/chinese-fonts-"
-"truetype/LICENSE\"> Arphic Public License</a>"
+"truetype/LICENSE\"> Arphic Public License</a> <span class=\"anchor-reference-"
+"id\"> (<a href=\"#Arphic\">#Arphic</a>)</span>"
 msgstr ""
 "<a id=\"Arphic\" href=\"http://ftp.gnu.org/gnu/non-gnu/chinese-fonts-"
 "truetype/LICENSE\">Arphic Public License</a>"
@@ -3688,9 +4368,14 @@ msgstr ""
 "cadre précis l'incompatibilité GPL ne pose pas de problème."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"SILOFL\" href=\"http://scripts.sil.org/OFL_web\"> SIL Open Font "
+#| "License 1.1</a>"
 msgid ""
 "<a id=\"SILOFL\" href=\"http://scripts.sil.org/OFL_web\"> SIL Open Font "
-"License 1.1</a>"
+"License 1.1</a> <span class=\"anchor-reference-id\"> (<a href=\"#SILOFL"
+"\">#SILOFL</a>)</span>"
 msgstr ""
 "<a id=\"SILOFL\" href=\"http://scripts.sil.org/OFL_web\">SIL Open Font "
 "License 1.1</a>"
@@ -3713,8 +4398,13 @@ msgstr ""
 "que des polices de caractères."
 
 #. type: Content of: <h2>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"OpinionLicenses\">Licenses for Works of Opinion and Judgment</a>"
 msgid ""
-"<a id=\"OpinionLicenses\">Licenses for Works of Opinion and Judgment</a>"
+"<a id=\"OpinionLicenses\">Licenses for Works of Opinion and Judgment</a> "
+"<span class=\"anchor-reference-id\"> (<a href=\"#OpinionLicenses"
+"\">#OpinionLicenses</a>)</span>"
 msgstr ""
 "<a id=\"OpinionLicenses\">Licences pour les &oelig;uvres d'opinion et de "
 "jugement</a>"
@@ -3751,26 +4441,41 @@ msgstr ""
 "existe deux que nous recommandons&nbsp;:"
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"GNUVerbatim\" href=\"/licenses/licenses.html#VerbatimCopying"
+#| "\">GNU Verbatim Copying License</a>"
 msgid ""
-"<a id=\"GNUVerbatim\" href=\"/licenses/licenses.html#VerbatimCopying\">GNU "
-"Verbatim Copying License</a>"
+"<a id=\"GNUVerbatim\" href=\"/licenses/licenses.html#VerbatimCopying\"> GNU "
+"Verbatim Copying License</a> <span class=\"anchor-reference-id\"> (<a href="
+"\"#GNUVerbatim\">#GNUVerbatim</a>)</span>"
 msgstr ""
 "<a id=\"GNUVerbatim\" href=\"/licenses/licenses.html#VerbatimCopying\">GNU "
 "Verbatim Copying License</a>"
 
 #. type: Content of: <dl><dd><p>
+#, fuzzy
+#| msgid ""
+#| "This is the license used throughout the GNU web site.  It is very simple, "
+#| "and especially well-suited to written works."
 msgid ""
-"This is the license used throughout the GNU web site.  It is very simple, "
-"and especially well-suited to written works."
+"This was the license used throughout the GNU web site for many years.  It is "
+"very simple, and especially well-suited to written works."
 msgstr ""
 "C'est la licence utilisée sur le site web de GNU. Elle est très simple, et "
 "particulièrement adaptée pour les &oelig;uvres écrites."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"ccbynd\" href=\"http://creativecommons.org/licenses/by-nd/3.0/"
+#| "legalcode\">Creative Commons Attribution-NoDerivs 3.0 license (a.k.a. "
+#| "CC&nbsp;BY-ND)</a>"
 msgid ""
 "<a id=\"ccbynd\" href=\"http://creativecommons.org/licenses/by-nd/3.0/"
-"legalcode\">Creative Commons Attribution-NoDerivs 3.0 license (a.k.a. "
-"CC&nbsp;BY-ND)</a>"
+"legalcode\"> Creative Commons Attribution-NoDerivs 3.0 license (a.k.a. "
+"CC&nbsp;BY-ND)</a> <span class=\"anchor-reference-id\"> (<a href=\"#ccbynd"
+"\">#ccbynd</a>)</span>"
 msgstr ""
 "<a id=\"ccbynd\" href=\"http://creativecommons.org/licenses/by-nd/3.0/"
 "legalcode\">Creative Commons Attribution-NoDerivs 3.0 license (aussi connue "
@@ -3804,18 +4509,22 @@ msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
-"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF."
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
 "contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send broken links and other corrections or suggestions to <a href="
+#| "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
-"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"\"mailto:licensing@gnu.org\">&lt;licensing@gnu.org&gt;</a>."
 msgstr ""
 "Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
 "cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
@@ -3832,8 +4541,8 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2010 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2010 Free Software Foundation, Inc."
+msgid "Copyright &copy; 2011 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2011 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -3857,6 +4566,124 @@ msgstr ""
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
 
-#. type: Content of: <div><h4>
-msgid "Translations of this page"
-msgstr "Traductions de cette page"
+#~ msgid ""
+#~ "<a id=\"GPLCompatibleLicenses\"> GPL-Compatible Free Software Licenses</a>"
+#~ msgstr ""
+#~ "<a id=\"GPLCompatibleLicenses\">Les licences de logiciels libres "
+#~ "compatibles avec la GPL</a>"
+
+#~ msgid ""
+#~ "<a href=\"http://freetype.fis.uniroma2.it/FTL.TXT\" id=\"freetype"
+#~ "\">Freetype Project License</a>"
+#~ msgstr ""
+#~ "<a href=\"http://freetype.fis.uniroma2.it/FTL.TXT\" id=\"freetype"
+#~ "\">Freetype Project License</a>"
+
+#~ msgid "This is a Free Software license, compatible with the GNU GPL."
+#~ msgstr ""
+#~ "Il s'agit d'une licence de logiciel libre compatible avec la GPL de GNU."
+
+#~ msgid ""
+#~ "<a href=\"http://www.isc.org/software/license\" id=\"ISC\">ISC License</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.isc.org/software/license\" id=\"ISC\">ISC License</a>"
+
+#~ msgid "License of Netscape Javascript"
+#~ msgstr "La licence sur Javascript de Netscape"
+
+#~ msgid "<a id=\"PerlLicense\">License of Perl 5 and below</a>"
+#~ msgstr "<a id=\"PerlLicense\">La licence de Perl 5 et antérieures</a>"
+
+#~ msgid "<a id=\"PublicDomain\">Public Domain</a>"
+#~ msgstr "<a id=\"PublicDomain\">Le domaine public</a>"
+
+#~ msgid "License of Python 1.6a2 and earlier versions"
+#~ msgstr "La licence de Python, jusqu'à la version 1.6a2"
+
+#~ msgid ""
+#~ "<a id=\"GPLIncompatibleLicenses\"> GPL-Incompatible Free Software "
+#~ "Licenses</a>"
+#~ msgstr ""
+#~ "<a id=\"GPLIncompatibleLicenses\">Les licences de logiciels libres non "
+#~ "compatibles avec la GPL</a>"
+
+#~ msgid ""
+#~ "The EUPL is compatible with GPLv2, because that is listed as one of the "
+#~ "alternative licenses that recipients may use.  However, it is "
+#~ "incompatible with GPLv3, because recipients are not given permission to "
+#~ "use GPLv3's terms, and the EUPL's copyleft conflicts with GPLv3's.  "
+#~ "Because of this incompatibility, we urge you not to use the EUPL for any "
+#~ "software you write."
+#~ msgstr ""
+#~ "L'EUPL est compatible avec la GPLv2, car elle est citée comme une des "
+#~ "licences alternatives que les destinataires peuvent utiliser. Cependant, "
+#~ "elle est incompatible avec la GPLv3, car les destinataires n'ont pas la "
+#~ "permission d'utiliser les termes de la GPLv3, et le copyleft de l'EUPL "
+#~ "est en conflit avec celui de la GPLv3. À cause de cette incompatibilité, "
+#~ "nous vous pressons de ne pas utiliser l'EUPL pour les logiciels que vous "
+#~ "écrivez."
+
+#~ msgid "Old OpenLDAP License, Version 2.3"
+#~ msgstr "L'ancienne licence d'OpenLDAP (version 2.3)"
+
+#~ msgid "<a id=\"NonFreeSoftwareLicense\">Non-Free Software Licenses</a>"
+#~ msgstr ""
+#~ "<a id=\"NonFreeSoftwareLicense\">Les licences de logiciels non libres</a>"
+
+#~ msgid "Aladdin Free Public License"
+#~ msgstr "Aladdin Free Public License"
+
+#~ msgid "<a id=\"ArtisticLicense\">Artistic License 1.0</a>"
+#~ msgstr "<a id=\"ArtisticLicense\">Artistic License 1.0</a>"
+
+#~ msgid "AT&amp;T Public License"
+#~ msgstr "AT&amp;T Public License"
+
+#~ msgid "eCos Public License, version 1.1"
+#~ msgstr "eCos Public License, version 1.1"
+
+#~ msgid "Old license of ksh93"
+#~ msgstr "L'ancienne licence de ksh93"
+
+#~ msgid "License of PINE"
+#~ msgstr "La licence de PINE"
+
+#~ msgid "Old Plan 9 license"
+#~ msgstr "L'ancienne licence Plan 9"
+
+#~ msgid "Scilab license"
+#~ msgstr "La licence de Scilab"
+
+#~ msgid "Old Squeak license"
+#~ msgstr "L'ancienne licence Squeak"
+
+#~ msgid ""
+#~ "<a id=\"SunCommunitySourceLicense\"> Sun Community Source License</a>"
+#~ msgstr ""
+#~ "<a id=\"SunCommunitySourceLicense\"> Sun Community Source License</a>"
+
+#~ msgid "Sun Solaris Source Code (Foundation Release) License, Version 1.1"
+#~ msgstr "Sun Solaris Source Code (Foundation Release) License, Version 1.1"
+
+#~ msgid "YaST License"
+#~ msgstr "La Licence de YaST"
+
+#~ msgid "<a id=\"FreeDocumentationLicenses\">Free Documentation Licenses</a>"
+#~ msgstr ""
+#~ "<a id=\"FreeDocumentationLicenses\">Les licences de documentation libres</"
+#~ "a>"
+
+#~ msgid ""
+#~ "<a id=\"NonFreeDocumentationLicenses\">Non-Free Documentation Licenses</a>"
+#~ msgstr ""
+#~ "<a id=\"NonFreeDocumentationLicenses\">Les licences de documentation non "
+#~ "libres</a>"
+
+#~ msgid "<a href=\"/licenses/gpl.html\"> GNU General Public License</a>"
+#~ msgstr "<a href=\"/licenses/gpl.html\">GNU General Public License</a>"
+
+#~ msgid "<a href=\"/licenses/fdl.html\"> GNU Free Documentation License</a>"
+#~ msgstr "<a href=\"/licenses/fdl.html\">GNU Free Documentation License</a>"
+
+#~ msgid "<a id=\"Fonts\">Licenses for Fonts</a>"
+#~ msgstr "<a id=\"Fonts\">Licences pour les polices de caractères</a>"

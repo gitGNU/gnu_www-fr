@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: javascript-trap.html\n"
-"POT-Creation-Date: 2010-07-01 16:25-0300\n"
+"POT-Creation-Date: 2011-09-20 12:29-0300\n"
 "PO-Revision-Date: 2009-07-18 16:42+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,12 +15,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 
+#. type: Content of: <h2>
 msgid "The JavaScript Trap"
 msgstr "Le piège JavaScript"
 
+#. type: Content of: <p>
 msgid "by <a href=\"http://www.stallman.org/\">Richard Stallman</a>"
 msgstr "par <a href=\"http://www.stallman.org/\">Richard Stallman</a>"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<strong>You may be running non-free programs on your computer every day "
@@ -33,6 +36,7 @@ msgstr ""
 "ordinateur chaque jour sans même vous en apercevoir &mdash;&nbsp;par "
 "l'intermédiaire de votre navigateur Web.</strong>"
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "In the free software community, the idea that non-free programs mistreat "
@@ -56,6 +60,7 @@ msgstr ""
 "que les navigateurs proposent d'installer, car ils peuvent être libres ou "
 "non-libres."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "But browsers run other non-free programs which they don't ask you about "
@@ -73,6 +78,7 @@ msgstr ""
 "des pages Web ou vers lesquels elles lient. Ces programmes sont très souvent "
 "écrits en JavaScript, bien que d'autres langages puissent être utilisés."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "JavaScript (officially called ECMAscript, but few use that name) was once "
@@ -94,6 +100,7 @@ msgstr ""
 "balises HTML, plutôt que comme de vrais logiciels&nbsp;; ils ne "
 "représentaient pas un problème significatif."
 
+#. type: Content of: <p>
 msgid ""
 "Many sites still use JavaScript that way, but some use it for major programs "
 "that do large jobs.  For instance, Google Docs downloads into your machine a "
@@ -114,6 +121,7 @@ msgstr ""
 "compacté n'est pas du code source, et le vrai code source n'est pas "
 "disponible pour l'utilisateur."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Browsers don't normally tell you when they load JavaScript programs.  "
@@ -141,6 +149,7 @@ msgstr ""
 "plupart des utilisateurs ne sont pas conscients de ce problème&nbsp;; le "
 "silence des navigateurs tend à le dissimuler."
 
+#. type: Content of: <p>
 msgid ""
 "It is possible to release a JavaScript program as free software, by "
 "distributing the source code under a free software license.  But even if the "
@@ -159,6 +168,7 @@ msgstr ""
 "L'effet est comparable à la Tivoïzation bien que moins difficile à "
 "outrepasser."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "JavaScript is not the only language web sites use for programs sent to "
@@ -186,6 +196,7 @@ msgstr ""
 "Un remplacement libre de Silverlight ne ferait pas l'affaire pour le monde "
 "du libre, à moins qu'il ne propose des codecs de remplacement libres."
 
+#. type: Content of: <p>
 msgid ""
 "Java applets also run in the browser, and raise similar issues.  In general, "
 "any sort of applet system poses this sort of problem.  Having a free "
@@ -197,6 +208,7 @@ msgstr ""
 "genre de problème. Avoir un environnement d'exécution libre pour un applet "
 "ne nous amène qu'un peu plus loin pour rencontrer le problème."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "A strong movement has developed that calls for web sites to communicate "
@@ -238,6 +250,7 @@ msgstr ""
 "utilisateurs&nbsp;» doivent faire partie du critère pour un comportement "
 "correct des sites Web."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Silently loading and running non-free programs is one among several "
@@ -278,6 +291,7 @@ msgstr ""
 "traite que du problème du logiciel du côté client. Nous traiterons le "
 "problème du côté serveur séparément."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "In practical terms, how can we deal with the problem of non-free "
@@ -289,6 +303,7 @@ msgstr ""
 "Pratiquement, comment pouvons-nous traiter le problème des programmes "
 "JavaScript non-libres dans les sites Web&nbsp;? Voici un plan d'action."
 
+#. type: Content of: <p>
 msgid ""
 "First, we need a practical criterion for nontrivial JavaScript programs.  "
 "Since &quot;nontrivial&quot; is a matter of degree, this is a matter of "
@@ -300,6 +315,7 @@ msgstr ""
 "d'interprétation, il s'agit de concevoir un critère simple qui donne de bons "
 "résultats, plutôt que de déterminer la réponse correcte."
 
+#. type: Content of: <p>
 msgid ""
 "Our proposal is to consider a JavaScript program nontrivial if it makes an "
 "AJAX request, and consider it nontrivial if it defines methods and either "
@@ -310,6 +326,7 @@ msgstr ""
 "et s'il charge un script externe ou s'il est chargé en tant que script "
 "externe."
 
+#. type: Content of: <p>
 msgid ""
 "At the end of this article we propose a convention by which a nontrivial "
 "JavaScript program in a web page can state the URL where its source code is "
@@ -320,6 +337,7 @@ msgstr ""
 "l'emplacement de son code source ainsi que sa licence, en utilisant des "
 "commentaires stylés."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "Finally, we need to change free browsers to support freedom for users of "
@@ -341,6 +359,7 @@ msgstr ""
 "Peut-être que <a href=\"https://addons.mozilla.org/fr/firefox/addon/722"
 "\">NoScript</a> pourrait être adapté pour faire cela."
 
+#. type: Content of: <p>
 msgid ""
 "Browser users also need a convenient facility to specify JavaScript code to "
 "use <em>instead</em> of the JavaScript in a certain page.  (The specified "
@@ -365,6 +384,7 @@ msgstr ""
 "comme les changements dans les sites de partage. Le Projet GNU aimerait "
 "recommander les sites dédiés aux changements libres seulement."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "These features will make it possible for a JavaScript program included in "
@@ -392,6 +412,7 @@ msgstr ""
 "Notre campagne pour libérer le code JavaScript des sites Web peut alors "
 "commencer."
 
+#. type: Content of: <p>
 #, fuzzy
 #| msgid ""
 #| "<strong>Thank you to <a href=\"/people/people.html#mattlee\">Matt Lee</a> "
@@ -407,17 +428,23 @@ msgstr ""
 "href=\"http://ejohn.org\">John Resig</a> pour leur aide pour la définition "
 "de notre proposition de critère.</strong>"
 
+#. type: Content of: <h3>
 msgid "Appendix: a convention for releasing free JavaScript programs"
 msgstr ""
 "Appendice : une convention pour publier des programmes JavaScript libres"
 
+#. type: Content of: <p>
 msgid "For references to corresponding source code, we recommend"
 msgstr "Pour des références au code source correspondant, nous recommandons"
 
-#, no-wrap
+#. type: Content of: <pre>
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "\n"
+#| "    // @source:\n"
+#| "\n"
 msgid ""
-"\n"
-"\n"
 "    // @source:\n"
 "\n"
 msgstr ""
@@ -426,9 +453,11 @@ msgstr ""
 "    // @source:\n"
 "\n"
 
+#. type: Content of: <p>
 msgid "followed by the URL."
 msgstr "suivi de l'URL"
 
+#. type: Content of: <p>
 msgid ""
 "To indicate the license of the JavaScript code embedded in a page, we "
 "recommend putting the license notice between two notes of this form:"
@@ -439,9 +468,18 @@ msgstr ""
 
 #. TRANSLATORS: Do not translate these license notices.  The <pre>
 #.     elements have dir="ltr" explicitly set to cater for RTL languages.
-#, no-wrap
+#. type: Content of: <pre>
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "\n"
+#| "    @licstart  The following is the entire license notice for the \n"
+#| "    JavaScript code in this page.\n"
+#| "    ...\n"
+#| "    @licend  The above is the entire license notice\n"
+#| "    for the JavaScript code in this page.\n"
+#| "\n"
 msgid ""
-"\n"
 "\n"
 "    @licstart  The following is the entire license notice for the \n"
 "    JavaScript code in this page.\n"
@@ -468,9 +506,11 @@ msgstr ""
 "\n"
 "\n"
 
+#. type: Content of: <p>
 msgid "Of course, all of this should be contained in a multiline comment."
 msgstr "Bien sûr, tout ceci doit être contenu dans un commentaire multiligne."
 
+#. type: Content of: <p>
 msgid ""
 "The <a href=\"/licenses/gpl.html\">GNU GPL</a>, like many other free "
 "software licenses, requires distribution of a copy of the license with both "
@@ -486,10 +526,28 @@ msgstr ""
 "Vous pouvez oublier ce prérequis, pour du code dont vous êtes le détenteur "
 "des droits d'auteur, avec une notice de licence comme ceci&nbsp;:"
 
-#, no-wrap
+#. type: Content of: <pre>
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "\n"
+#| "    Copyright (C) YYYY  Developer\n"
+#| "\n"
+#| "    The JavaScript code in this page is free software: you can\n"
+#| "    redistribute it and/or modify it under the terms of the GNU\n"
+#| "    General Public License (GNU GPL) as published by the Free Software\n"
+#| "    Foundation, either version 3 of the License, or (at your option)\n"
+#| "    any later version.  The code is distributed WITHOUT ANY WARRANTY;\n"
+#| "    without even the implied warranty of MERCHANTABILITY or FITNESS\n"
+#| "    FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.\n"
+#| "\n"
+#| "    As additional permission under GNU GPL version 3 section 7, you\n"
+#| "    may distribute non-source (e.g., minimized or compacted) forms of\n"
+#| "    that code without the copy of the GNU GPL normally required by\n"
+#| "    section 4, provided you include this license notice and a URL\n"
+#| "    through which recipients can access the Corresponding Source.\n"
+#| "\n"
 msgid ""
-"\n"
-"\n"
 "    Copyright (C) YYYY  Developer\n"
 "\n"
 "    The JavaScript code in this page is free software: you can\n"
@@ -546,27 +604,36 @@ msgstr ""
 "    par laquelle les destinataires peuvent accéder au code source correspondant.\n"
 "\n"
 
+#. type: Content of: outside any tag (error?)
 msgid "I thank Jaffar Rumith for bringing this issue to my attention."
 msgstr ""
 "Je remercie Jaffar Rumith pour avoir porté ce problème à mon attention."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
+#. type: Content of: <div><p>
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF.  <br /> Please send broken links and other corrections "
-"or suggestions to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF.<br />Veuillez "
-"envoyer (en anglais) les liens morts ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
+#. type: Content of: <div><p>
+msgid ""
+"Please send broken links and other corrections or suggestions to <a href="
+"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+msgstr ""
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+
+#. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -576,11 +643,13 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
+#. type: Content of: <div><p>
 #, fuzzy
 #| msgid "Copyright &copy; 2009 Richard Stallman"
 msgid "Copyright &copy; 2009, 2010 Richard Stallman"
 msgstr "Copyright &copy; 2009 Richard Stallman"
 
+#. type: Content of: <div><p>
 msgid ""
 "This work is licensed under the Creative Commons Attribution-No Derivative "
 "Works 3.0 United States License. To view a copy of this license, visit <a "
@@ -596,14 +665,13 @@ msgstr ""
 "California, 94105, USA."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
 "Traduction&nbsp;: Cédric Corazza.<br /> Révision&nbsp;: <a href=\"mailto:"
 "trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
+#. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-msgid "Translations of this page"
-msgstr "Traductions de cette page"

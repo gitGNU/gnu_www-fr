@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tasks.html\n"
-"POT-Creation-Date: 2011-07-14 04:30-0300\n"
+"POT-Creation-Date: 2011-09-20 12:31-0300\n"
 "PO-Revision-Date: 2011-06-25 17:06+0000\n"
 "Last-Translator: Cédric Corazza <cedric.corazza@wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -87,55 +87,6 @@ msgstr ""
 "webmestres pour ce problème en particulier."
 
 #. type: Content of: <h3>
-msgid "Site Scripting"
-msgstr "Scripts Web"
-
-#. type: Content of: <ul><li>
-msgid ""
-"Set up manual indexing using the system proposed by Miloslav Nic.  See the "
-"email exchange for more details on what is to be done."
-msgstr ""
-"Effectuer une indexation mauelle en utilisant le système proposé par "
-"Miloslav Nic. Consulter l'échange de courriels pour plus de détails sur ce "
-"qui peut être fait."
-
-#. type: Content of: <ul><li>
-msgid "<a name=\"fun\">in directory /fun/ include</a>"
-msgstr "<a name=\"fun\">dans le répertoire /fun/ contient</a>"
-
-#. type: Content of: <ul><li><ul><li>
-msgid "cgi-bin scripts that"
-msgstr "des scripts cgi-bin qui"
-
-#. type: Content of: <ul><li><ul><li><ul><li>
-msgid "conduct a dialog with GNU Emacs's doctor.el and convert it into HTML."
-msgstr ""
-"effectuent un dialogue avec doctor.el de GNU Emacs et le convertissent en "
-"HTML."
-
-#. type: Content of: <ul><li><ul><li><ul><li>
-msgid "get a zippyism from GNU Emacs's yow.el and convert it into HTML."
-msgstr ""
-"prennent un «&nbsp;zippyisme&nbsp;» de yow.el de GNU Emacs et le "
-"convertissent en HTML."
-
-#. type: Content of: <ul><li><ul><li><ul><li>
-msgid "feed zippyisms to GNU Emacs's doctor and convert it into HTML."
-msgstr ""
-"envoient des «&nbsp;zippyismes&nbsp;» à doctor de GNU Emacs et le "
-"convertissent en HTML."
-
-#. type: Content of: <ul><li><ul><li><p>
-msgid ""
-"Roland McGrath has done some of this on his <a href=\"http://www.frob.com/"
-"~roland\">home pages</a>. Ask him if you can copy his work over to http://"
-"www.gnu.org."
-msgstr ""
-"Roland McGrath en a effectué quelques-uns sur sa <a href=\"http://www.frob."
-"com/~roland\">page d'accueil</a>. Demandez-lui si vous pouvez copier son "
-"travail sur http://www.gnu.org."
-
-#. type: Content of: <h3>
 msgid "Format Conversions"
 msgstr "Conversions de format"
 
@@ -201,90 +152,11 @@ msgstr ""
 "Lire également notre <a href=\"/server/standards/README.software.html\">page "
 "sur les standards de pages pour les logiciels</a>."
 
-#. type: Content of: <ul><li>
-msgid "Work on improving our <a href=\"/server/sitemap.html\">sitemap</a>."
-msgstr ""
-"Travailler à améliorer notre <a href=\"/server/sitemap.html\">plan de site</"
-"a>."
-
-#. type: Content of: <ul><li><ul><li>
-msgid ""
-"Design a better sitemap that helps people find all places on the website "
-"easily.  The sitemap should highlight particularly important parts of sub-"
-"pages.  (For example, the philosophy listing on the site map should have "
-"under it links to some particularly useful essays on the philosophy page)."
-msgstr ""
-"Concevoir un plan de site meilleur qui aident les gens à trouver tous les "
-"emplacements du site Web facilemnt. Le plan de site doit mettre en valeur "
-"les parties particulièrement importantes des sous-pages. (Par exemple, le "
-"listing Philosophie dans le plan du site doit contenir des liens vers des "
-"articles particulièrement utiles de la page Philosophie)."
-
-#. type: Content of: <ul><li><ul><li>
-msgid ""
-"Come up with several different ways of presenting the sitemap, that consider "
-"both the differences in"
-msgstr ""
-"Créer différent moyens de présenter le plan du site, en tenant compte des "
-"différences"
-
-#. type: Content of: <ul><li><ul><li><ul><li>
-msgid "how people perceive web pages, and"
-msgstr "dont les gens perçoivent les pages Web, et"
-
-#. type: Content of: <ul><li><ul><li><ul><li>
-msgid "how people use the site."
-msgstr "de la façon dont les gens utilisent le site."
-
-#. type: Content of: <ul><li><ul><li>
-msgid ""
-"Also, the idea of creating a programatically generated sitemap has been "
-"proposed; this would primarily be a tool to aid in writing by hand a more "
-"easily navigated sitemap."
-msgstr ""
-"L'idée de créer un plan du site généré par programme a aussi été "
-"proposée&nbsp;; ce serait essentiellement un outil pour aider à écrire "
-"manuellement un plan de site plus facile à utiliser."
-
 #. type: Content of: <h3>
-msgid "Graphics"
-msgstr "Illustrations"
-
-#. type: Content of: <ul><li>
-msgid ""
-"Remove JPEG artifacts from all PNG pictures. You do this by removing \"loose"
-"\" pixels and turning them into 1bpp (in case of black/white drawings)."
-msgstr ""
-"Supprimer les artéfacts JPEG de toutes les images PNG. Ceci s'effectue en "
-"supprimant les pixels «&nbsp;loose&nbsp;» et en les transformant en 1bpp "
-"(dans le cas d'illustrations en noir et blanc)."
-
-#. type: Content of: <ul><li>
-msgid ""
-"Create new <a href=\"/graphics/graphics.html\">graphics</a> for our web "
-"pages. We mostly want to have nicer drawings like the ones we already have "
-"and perhaps in more colors."
-msgstr ""
-"Créer de nouvelles <a href=\"/graphics/graphics.fr.html\">illustrations</a> "
-"pour nos pages Web. Nous voulons surtout avoir de plus beaux dessins comme "
-"ceux que nous avons déjà et peut-être en plus de couleurs."
-
-#. type: Content of: <h3>
-msgid "Validation and Broken Links"
+#, fuzzy
+#| msgid "Validation and Broken Links"
+msgid "Broken Links"
 msgstr "Validation et liens orphelins"
-
-#. type: Content of: <ul><li>
-msgid ""
-"Check all the web pages for well formedness, consistency with our HTML style "
-"sheet, and webmaster guidelines. All web pages need to be valid to their "
-"specific DTD, (the <a href=\"http://validator.w3.org\">W3C Validator</a> is "
-"a good place to start)."
-msgstr ""
-"Vérifier que toutes les pages Web sont bien formées, qu'elles respectent "
-"notre feuille de style HTML et les recommandations des webmestres. Toutes "
-"les pages Web doivent être valides en regard de leur DTD spécifique (le <a "
-"href=\"http://validator.w3.org\">Validateur du W3C</a> est un bon point de "
-"départ)."
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -385,6 +257,116 @@ msgstr ""
 msgid "Updated:"
 msgstr "Dernière mise-à-jour&nbsp;:"
 
-#. type: Content of: <div><h4>
-msgid "Translations of this page"
-msgstr "Traductions de cette page"
+#~ msgid "Site Scripting"
+#~ msgstr "Scripts Web"
+
+#~ msgid ""
+#~ "Set up manual indexing using the system proposed by Miloslav Nic.  See "
+#~ "the email exchange for more details on what is to be done."
+#~ msgstr ""
+#~ "Effectuer une indexation mauelle en utilisant le système proposé par "
+#~ "Miloslav Nic. Consulter l'échange de courriels pour plus de détails sur "
+#~ "ce qui peut être fait."
+
+#~ msgid "<a name=\"fun\">in directory /fun/ include</a>"
+#~ msgstr "<a name=\"fun\">dans le répertoire /fun/ contient</a>"
+
+#~ msgid "cgi-bin scripts that"
+#~ msgstr "des scripts cgi-bin qui"
+
+#~ msgid ""
+#~ "conduct a dialog with GNU Emacs's doctor.el and convert it into HTML."
+#~ msgstr ""
+#~ "effectuent un dialogue avec doctor.el de GNU Emacs et le convertissent en "
+#~ "HTML."
+
+#~ msgid "get a zippyism from GNU Emacs's yow.el and convert it into HTML."
+#~ msgstr ""
+#~ "prennent un «&nbsp;zippyisme&nbsp;» de yow.el de GNU Emacs et le "
+#~ "convertissent en HTML."
+
+#~ msgid "feed zippyisms to GNU Emacs's doctor and convert it into HTML."
+#~ msgstr ""
+#~ "envoient des «&nbsp;zippyismes&nbsp;» à doctor de GNU Emacs et le "
+#~ "convertissent en HTML."
+
+#~ msgid ""
+#~ "Roland McGrath has done some of this on his <a href=\"http://www.frob.com/"
+#~ "~roland\">home pages</a>. Ask him if you can copy his work over to http://"
+#~ "www.gnu.org."
+#~ msgstr ""
+#~ "Roland McGrath en a effectué quelques-uns sur sa <a href=\"http://www."
+#~ "frob.com/~roland\">page d'accueil</a>. Demandez-lui si vous pouvez copier "
+#~ "son travail sur http://www.gnu.org."
+
+#~ msgid "Work on improving our <a href=\"/server/sitemap.html\">sitemap</a>."
+#~ msgstr ""
+#~ "Travailler à améliorer notre <a href=\"/server/sitemap.html\">plan de "
+#~ "site</a>."
+
+#~ msgid ""
+#~ "Design a better sitemap that helps people find all places on the website "
+#~ "easily.  The sitemap should highlight particularly important parts of sub-"
+#~ "pages.  (For example, the philosophy listing on the site map should have "
+#~ "under it links to some particularly useful essays on the philosophy page)."
+#~ msgstr ""
+#~ "Concevoir un plan de site meilleur qui aident les gens à trouver tous les "
+#~ "emplacements du site Web facilemnt. Le plan de site doit mettre en valeur "
+#~ "les parties particulièrement importantes des sous-pages. (Par exemple, le "
+#~ "listing Philosophie dans le plan du site doit contenir des liens vers des "
+#~ "articles particulièrement utiles de la page Philosophie)."
+
+#~ msgid ""
+#~ "Come up with several different ways of presenting the sitemap, that "
+#~ "consider both the differences in"
+#~ msgstr ""
+#~ "Créer différent moyens de présenter le plan du site, en tenant compte des "
+#~ "différences"
+
+#~ msgid "how people perceive web pages, and"
+#~ msgstr "dont les gens perçoivent les pages Web, et"
+
+#~ msgid "how people use the site."
+#~ msgstr "de la façon dont les gens utilisent le site."
+
+#~ msgid ""
+#~ "Also, the idea of creating a programatically generated sitemap has been "
+#~ "proposed; this would primarily be a tool to aid in writing by hand a more "
+#~ "easily navigated sitemap."
+#~ msgstr ""
+#~ "L'idée de créer un plan du site généré par programme a aussi été "
+#~ "proposée&nbsp;; ce serait essentiellement un outil pour aider à écrire "
+#~ "manuellement un plan de site plus facile à utiliser."
+
+#~ msgid "Graphics"
+#~ msgstr "Illustrations"
+
+#~ msgid ""
+#~ "Remove JPEG artifacts from all PNG pictures. You do this by removing "
+#~ "\"loose\" pixels and turning them into 1bpp (in case of black/white "
+#~ "drawings)."
+#~ msgstr ""
+#~ "Supprimer les artéfacts JPEG de toutes les images PNG. Ceci s'effectue en "
+#~ "supprimant les pixels «&nbsp;loose&nbsp;» et en les transformant en 1bpp "
+#~ "(dans le cas d'illustrations en noir et blanc)."
+
+#~ msgid ""
+#~ "Create new <a href=\"/graphics/graphics.html\">graphics</a> for our web "
+#~ "pages. We mostly want to have nicer drawings like the ones we already "
+#~ "have and perhaps in more colors."
+#~ msgstr ""
+#~ "Créer de nouvelles <a href=\"/graphics/graphics.fr.html\">illustrations</"
+#~ "a> pour nos pages Web. Nous voulons surtout avoir de plus beaux dessins "
+#~ "comme ceux que nous avons déjà et peut-être en plus de couleurs."
+
+#~ msgid ""
+#~ "Check all the web pages for well formedness, consistency with our HTML "
+#~ "style sheet, and webmaster guidelines. All web pages need to be valid to "
+#~ "their specific DTD, (the <a href=\"http://validator.w3.org\">W3C "
+#~ "Validator</a> is a good place to start)."
+#~ msgstr ""
+#~ "Vérifier que toutes les pages Web sont bien formées, qu'elles respectent "
+#~ "notre feuille de style HTML et les recommandations des webmestres. Toutes "
+#~ "les pages Web doivent être valides en regard de leur DTD spécifique (le "
+#~ "<a href=\"http://validator.w3.org\">Validateur du W3C</a> est un bon "
+#~ "point de départ)."

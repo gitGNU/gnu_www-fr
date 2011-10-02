@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: links.html\n"
-"POT-Creation-Date: 2011-07-14 04:29-0300\n"
+"POT-Creation-Date: 2011-09-20 12:28-0300\n"
 "PO-Revision-Date: 2011-07-21 09:41+0200\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -408,11 +408,17 @@ msgstr ""
 msgid "<a href=\"http://www.cipsga.org.br/\">CIPSGA</a>"
 msgstr "<a href=\"http://www.cipsga.org.br/\">CIPSGA</a>"
 
+#. <a href="http://www.plugincinema.com/plugin/plugin_cinema/pffp.htm/">
+#. </a>
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://www.plugincinema.com/plugin/plugin_cinema/pffp.htm/"
+#| "\">pFFP</a> - The plugincinema Free Film Project promotes the use of free "
+#| "software to make and distribute films."
 msgid ""
-"<a href=\"http://www.plugincinema.com/plugin/plugin_cinema/pffp.htm/\">pFFP</"
-"a> - The plugincinema Free Film Project promotes the use of free software to "
-"make and distribute films."
+"pFFP - The plugincinema Free Film Project promotes the use of free software "
+"to make and distribute films."
 msgstr ""
 "<a href=\"http://www.plugincinema.com/plugin/plugin_cinema/pffp.htm/\">pFFP</"
 "a> - Le plugincinema Free Film Project promeut l'utilisation de logiciels "
@@ -861,7 +867,3 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-#. type: Content of: <div><h4>
-msgid "Translations of this page"
-msgstr "Traductions de cette page"
