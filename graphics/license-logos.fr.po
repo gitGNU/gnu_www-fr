@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: license-logos.html\n"
 "POT-Creation-Date: 2011-09-20 12:27-0300\n"
-"PO-Revision-Date: 2009-02-14 20:28+0100\n"
-"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"PO-Revision-Date: 2011-10-02 11:19+0200\n"
+"Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #. type: Content of: <title>
 msgid "GNU License Logos - GNU Project - Free Software Foundation (FSF)"
-msgstr "Logos des licences GNU - GNU Project - Free Software Foundation (FSF)"
+msgstr "Logos des licences GNU - Projet GNU - Free Software Foundation (FSF)"
 
 #. type: Content of: <style>
 msgid ""
@@ -36,14 +36,6 @@ msgid "GNU License Logos"
 msgstr "Logos des licences GNU"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "If you are releasing work under version 3 of the GNU <a href=\"/licenses/"
-#| "gpl.html\">GPL</a>, <a href=\"/licenses/lgpl.html\">LGPL</a>, or <a href="
-#| "\"/licenses/agpl.html\">AGPL</a>, feel free to use these buttons on your "
-#| "site or in your application to advertise the license.  These logos are "
-#| "immediately recognizable, and will assure your users that their freedom "
-#| "is being protected."
 msgid ""
 "If you are releasing work under the <a href=\"/licenses/fdl.html\">GFDL</a>, "
 "or version 3 of the GNU <a href=\"/licenses/gpl.html\">GPL</a>, <a href=\"/"
@@ -52,37 +44,31 @@ msgid ""
 "advertise the license.  These logos are immediately recognizable, and will "
 "assure your users that their freedom is being protected."
 msgstr ""
-"Si vous publiez un travail sous la version 3 de la <a href=\"/licenses/gpl."
-"html\">GPL</a>, <a href=\"/licenses/lgpl.html\">LGPL</a> ou <a href=\"/"
-"licenses/agpl.html\">AGPL</a>, vous pouvez utiliser ces boutons sur votre "
-"site ou dans votre application pour signaler la licence. Ces logos sont tout "
-"de suite reconnaissables et assureront à vos utilisateurs que leur liberté "
-"est protégée."
+"Si vous publiez un travail sous la licence <a href=\"/licenses/fdl.html"
+"\">GFDL</a> ou sous la version 3 de la <a href=\"/licenses/gpl.html\">GPL</"
+"a>, <a href=\"/licenses/lgpl.html\">LGPL</a> ou <a href=\"/licenses/agpl.html"
+"\">AGPL</a>, vous pouvez utiliser ces boutons sur votre site ou dans votre "
+"application pour signaler la licence. Ces logos sont tout de suite "
+"reconnaissables et assureront à vos utilisateurs que leur liberté est "
+"protégée."
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "Here are some vector versions: <a href=\"gpl-v3-logo.svg\">GPLv3 SVG</a>, "
-#| "<a href=\"lgpl-agpl-v3-logos.svg\">LGPLv3 and AGPLv3 SVG</a>."
 msgid ""
 "Here are some vector versions: <a href=\"gpl-v3-logo.svg\">GPLv3 SVG</a>, <a "
 "href=\"lgpl-agpl-v3-logos.svg\">LGPLv3 and AGPLv3 SVG</a>, <a href=\"gfdl-"
 "logo.svg\">GFDL SVG</a>."
 msgstr ""
 "Voici quelques versions vectorielles&nbsp;: <a href=\"gpl-v3-logo.svg\">SVG "
-"GPLv3</a>, <a href=\"lgpl-agpl-v3-logos.svg\">SVG LGPLv3 et AGPLv3</a>."
+"GPLv3</a>, <a href=\"lgpl-agpl-v3-logos.svg\">SVG LGPLv3 et AGPLv3</a>, <a "
+"href=\"gfdl-logo.svg\">GFDL SVG</a>."
 
 #. type: Content of: <table><tr><th><a>
-#, fuzzy
-#| msgid "<a href=\"gplv3-88x31.png\">"
 msgid "<a href=\"gfdl-logo-small.png\">"
-msgstr "<a href=\"gplv3-88x31.png\">"
+msgstr "<a href=\"gfdl-logo-small.png\">"
 
 #. type: Attribute 'alt' of: <table><tr><th><a><img>
-#, fuzzy
-#| msgid "[Large GPLv3 logo]"
 msgid "[Large GFDL logo]"
-msgstr "[Grand logo GPLv3]"
+msgstr "[Grand logo GFDL]"
 
 #. type: Content of: <table><tr><td>
 msgid "</a>"
@@ -113,10 +99,8 @@ msgid "[Large GNU AGPLv3 logo]"
 msgstr "[Grand logo AGPLv3 GNU]"
 
 #. type: Content of: <table><tr><th><a>
-#, fuzzy
-#| msgid "<a href=\"gplv3-88x31.png\">"
 msgid "<a href=\"gfdl-logo-tiny.png\">"
-msgstr "<a href=\"gplv3-88x31.png\">"
+msgstr "<a href=\"gfdl-logo-tiny.png\">"
 
 #. type: Attribute 'alt' of: <table><tr><td><a><img>
 msgid "[Small GPLv3 logo]"
@@ -147,6 +131,8 @@ msgid ""
 "GFDL logo in other sizes: <a href=\"gfdl-logo-med.png\">Bigger</a>, <a href="
 "\"gfdl-logo-large.png\">Even bigger</a>"
 msgstr ""
+"Logo GFDL dans d'autres tailles&nbsp;: <a href=\"gfdl-logo-med.png\">plus "
+"grand</a>, <a href=\"gfdl-logo-large.png\">encore plus grand</a>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
@@ -173,10 +159,8 @@ msgstr ""
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
-#, fuzzy
-#| msgid "Copyright &copy; 2007, 2008 Free Software Foundation, Inc.,"
 msgid "Copyright &copy; 2007, 2008, 2011 Free Software Foundation, Inc.,"
-msgstr "Copyright &copy; 2007, 2008 Free Software Foundation, Inc.,"
+msgstr "Copyright &copy; 2007, 2008, 2011 Free Software Foundation, Inc.,"
 
 #. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
@@ -203,9 +187,3 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-#~ msgid "51 pixels tall"
-#~ msgstr "51 pixels en hauteur"
-
-#~ msgid "88x31 pixels"
-#~ msgstr "88x31 pixels"

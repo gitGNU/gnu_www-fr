@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: provide.html\n"
 "POT-Creation-Date: 2011-09-30 12:25-0300\n"
-"PO-Revision-Date: 2010-02-14 15:57+0100\n"
+"PO-Revision-Date: 2011-10-02 11:34+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -54,15 +54,6 @@ msgstr ""
 "philosophy/free-sw.fr.html\">logiciels libres</a>."
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "Since 1985 the FSF has sponsored the development of the free software "
-#| "operating system <a href=\"/gnu/gnu-history.html\">GNU</a>.  The <a href="
-#| "\"/gnu/linux-and-gnu.html\">GNU/Linux</a> variant of GNU is already "
-#| "widely used.  The GNU/Hurd system, based on our <a href=\"/software/hurd/"
-#| "hurd.html\">GNU Hurd</a> kernel, is ready for wizards and enthusiasts to "
-#| "try.  A wide variety of GNU software in general <a href=\"/software/"
-#| "software.html#HowToGetSoftware\">is available for download</a>."
 msgid ""
 "Since 1985 the FSF has sponsored the development of the free software "
 "operating system <a href=\"/gnu/gnu-history.html\">GNU</a>.  The <a href=\"/"
@@ -78,7 +69,7 @@ msgstr ""
 "utilisée. Le système GNU/Hurd, basé sur notre noyau <a href=\"/software/hurd/"
 "hurd.html\">GNU Hurd</a>, est prêt à être essayé par les gourous et les "
 "enthousiastes. Une grande variété de logiciels GNU <a href=\"/software/"
-"software.html#HowToGetSoftware\">est disponible en téléchargement</a>."
+"software.html\">est disponible en téléchargement</a>."
 
 #. type: Content of: <p>
 msgid "Things you can obtain directly from the FSF include:"
@@ -94,10 +85,8 @@ msgid "<a href=\"http://patron.fsf.org\">Corporate Patronage</a>"
 msgstr "<a href=\"http://patron.fsf.org\">Corporate Patronage</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<a href=\"http://directory.fsf.org/GNU/\">Software</a>"
 msgid "<a href=\"http://directory.fsf.org/wiki/GNU/\">Software</a>"
-msgstr "<a href=\"http://directory.fsf.org/GNU/\">Logiciels</a>"
+msgstr "<a href=\"http://directory.fsf.org/wiki/GNU/\">Logiciels</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
