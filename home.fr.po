@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.html\n"
-"POT-Creation-Date: 2011-09-30 04:25-0300\n"
-"PO-Revision-Date: 2011-10-02 11:32+0200\n"
+"POT-Creation-Date: 2011-10-02 04:25-0300\n"
+"PO-Revision-Date: 2011-10-02 11:52+0200\n"
 "Last-Translator: Matthieu Caneill <matthieu_caneill@yahoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -96,12 +96,12 @@ msgstr ""
 "libre</a>&nbsp;: un logiciel qui respecte votre liberté."
 
 #. type: Content of: <div><div><p><a>
-msgid "<a href=\"/distros/screenshot.html\">"
-msgstr "<a href=\"/distros/screenshot.html\">"
+msgid "<a href=\"/graphics/gnuolantern.html\">"
+msgstr "<a href=\"/graphics/gnuolantern.html\">"
 
 #. type: Attribute 'alt' of: <div><div><p><a><img>
-msgid "Screenshot of GNU"
-msgstr "Capture d'écran de GNU"
+msgid "GNU O Lantern"
+msgstr "Lanterne-citrouille GNU"
 
 #. type: Content of: <div><div><p>
 msgid "</a>"
@@ -428,6 +428,9 @@ msgid ""
 msgstr ""
 "<a href=\"/server/standards/README.translations.fr.html\">Traductions</a> de "
 "cette page"
+
+#~ msgid "Screenshot of GNU"
+#~ msgstr "Capture d'écran de GNU"
 
 #~ msgid ""
 #~ "<a href=\"http://ma.aclu.org/site/R?i=GFduzww44T4ttMzabqwBig..\">Shame on "
