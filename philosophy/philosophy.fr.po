@@ -7,14 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: philosophy.html\n"
-"POT-Creation-Date: 2011-09-23 12:25-0300\n"
+"POT-Creation-Date: 2011-10-22 20:25-0300\n"
 "PO-Revision-Date: 2011-07-01 01:31+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 
 #. type: Content of: <title>
 msgid ""
@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Philosophie du Projet GNU - GNU Project - Free Software Foundation (FSF)"
 
-#. type: Content of: <h2>
+#. type: Content of: <div><h2>
 msgid "Philosophy of the GNU Project"
 msgstr "Philosophie du Projet GNU"
 
@@ -35,132 +35,13 @@ msgstr "Philosophie du Projet GNU"
 #| "the subject, and links to further resources."
 msgid ""
 "Our development of the GNU free software operating system is motivated by "
-"the philosophy of the free software movement. This page provides an "
-"introduction to that philosophy, links to the latest articles we have on the "
-"subject, and links to further resources."
+"the philosophy of the free software movement.  This page provides an "
+"introduction to that philosophy."
 msgstr ""
 "Notre développement du système d'exploitation libre GNU est motivé par la "
 "philosophie de mouvement du logiciel libre. Cette page fournit une "
 "introduction à cette philosophy, des liens vers les derniers articles sur le "
 "sujet et des liens vers d'autres ressources."
-
-#. type: Content of: <h3>
-msgid "Latest Articles"
-msgstr "Derniers articles"
-
-#. type: Content of: <p>
-msgid ""
-"Hot off the presses, here are the latest published articles on free software "
-"and the GNU project."
-msgstr ""
-"Sortis des presses, voici les derniers articles publiés sur les logiciels "
-"libres et le projet GNU."
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/judge-internet-usage.html\">A wise user judges each "
-"Internet usage scenario carefully</a>"
-msgstr ""
-
-#. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
-msgid ""
-"<a href=\"/philosophy/android-and-users-freedom.html\">Android and Users' "
-"Freedom</a>"
-msgstr ""
-"<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel libre&nbsp;?"
-"</a>"
-
-#. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"/philosophy/open-source-misses-the-point.html\">Why &ldquo;Open "
-#| "Source&rdquo; misses the point of Free Software</a>"
-msgid ""
-"<a href=\"/philosophy/europes-unitary-patent.html\">Europe's &ldquo;unitary "
-"patent&rdquo; could mean unlimited software patents</a>"
-msgstr ""
-"<a href=\"/philosophy/open-source-misses-the-point.fr.html\">Pourquoi "
-"l'«&nbsp;open source&nbsp;» passe à côté du problème que soulève le logiciel "
-"libre&nbsp;?</a>"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/keep-control-of-your-computing.html\">Keep control of "
-"your computing, so it doesn't control you!</a>"
-msgstr ""
-
-#. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
-msgid ""
-"<a href=\"/philosophy/the-danger-of-ebooks.html\">The Danger of E-Books</a>"
-msgstr ""
-"<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel libre&nbsp;?"
-"</a>"
-
-#. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
-msgid ""
-"<a href=\"/philosophy/practical.html\">The advantages of free software</a>"
-msgstr ""
-"<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel libre&nbsp;?"
-"</a>"
-
-#. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<a href=\"/philosophy/javascript-trap.html\">The Javascript Trap</a>"
-msgid ""
-"<a href=\"/philosophy/assigning-copyright.html\">When a Company Asks For "
-"Your Copyright</a>"
-msgstr ""
-"<a href=\"/philosophy/javascript-trap.fr.html\">Le piège JavaScript</a>"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/google-engineering-talk.html\">GNU &amp; The Free "
-"Software Foundation - Engineering Tech Talk at Google</a>"
-msgstr ""
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://www.guardian.co.uk/technology/blog/2010/apr/06/digital-"
-"economy-bill-richard-stallman\">Digital economy bill: One clown giveth and "
-"the other clown taketh away</a>"
-msgstr ""
-
-#. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
-msgid ""
-"<a href=\"/philosophy/who-does-that-server-really-serve.html\">Who Does That "
-"Server Really Serve?</a>"
-msgstr ""
-"<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel libre&nbsp;?"
-"</a>"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/public-domain-manifesto.html\">Why I Will Not Sign the "
-"Public Domain Manifesto</a>"
-msgstr ""
-
-#. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"/philosophy/selling.html\">Selling Free Software</a> is OK!"
-msgid ""
-"<a href=\"/philosophy/selling-exceptions.html\">On Selling Exceptions to the "
-"GNU GPL</a>"
-msgstr ""
-"<a href=\"/philosophy/selling.fr.html\">Vendre des logiciels libres</a> ce "
-"n'est pas un problème&nbsp;!"
-
-#. type: Content of: <h3>
-msgid "About Free Software"
-msgstr "À propos du logiciel libre"
 
 #. type: Content of: <p>
 msgid ""
@@ -179,11 +60,29 @@ msgstr ""
 "utile qu'il peut l'être; nous croyons que les utilisateurs de logiciels "
 "devraient pouvoir les utiliser."
 
+#. type: Content of: <p>
+msgid "For further reading, please select a section from the menu above."
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"We also maintain a list of <a href=\"/philosophy/latest-articles.html\">most "
+"recently added articles</a>."
+msgstr ""
+
+#. type: Content of: <h3>
+msgid "Introduction"
+msgstr ""
+
 #. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
 msgstr ""
 "<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel libre&nbsp;?"
 "</a>"
+
+#. type: Content of: <ul><li>
+msgid "<a href=\"/gnu/gnu.html\">History of GNU/Linux</a>"
+msgstr ""
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -229,76 +128,17 @@ msgstr ""
 "Stallman</a>"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"/philosophy/open-source-misses-the-point.html\">Why &ldquo;Open "
+#| "Source&rdquo; misses the point of Free Software</a>"
 msgid ""
-"<a href=\"/philosophy/open-source-misses-the-point.html\">Why &ldquo;Open "
-"Source&rdquo; misses the point of Free Software</a>"
+"<a href=\"/philosophy/open-source-misses-the-point.html\">Why \"Open Source"
+"\" misses the point of Free Software</a>"
 msgstr ""
 "<a href=\"/philosophy/open-source-misses-the-point.fr.html\">Pourquoi "
 "l'«&nbsp;open source&nbsp;» passe à côté du problème que soulève le logiciel "
 "libre&nbsp;?</a>"
-
-#. type: Content of: <h3>
-msgid "Further Resources"
-msgstr ""
-
-#. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "We have many more articles than can fit on a single page. You can find "
-#| "them on the pages linked here."
-msgid ""
-"We have many more than can fit on a single page. You can find more linked "
-"here."
-msgstr ""
-"Nous avons beaucoup d'articles qui tiennent sur une seule page. Vous pouvez "
-"les trouver sur les pages liées ici."
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://audio-video.gnu.org\"> Audio and video recordings</a>. Here "
-"you can watch video or listen to audio recordings of speeches and other "
-"events from the Free Software Foundation or the GNU project."
-msgstr ""
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/essays-and-articles.html\"> Essays and articles.</a> A "
-"series of articles describing the philosophy of the free software movement, "
-"which is the motivation for our development of the free software operating "
-"system GNU."
-msgstr ""
-"<a href=\"/philosophy/essays-and-articles.fr.html\">Essais et articles</a>. "
-"Cette page recense une série d'articles décrivant la philosophie du "
-"mouvement pour le logiciel libre, qui est la motivation de notre "
-"développement du système d'exploitation libre GNU."
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/speeches-and-interview.html\">Speeches and interviews."
-"</a> Links to interviews and Transcriptions of speeches about free software "
-"and the GNU project."
-msgstr ""
-"<a href=\"/philosophy/speeches-and-interview.fr.html\">Discours et "
-"entretiens</a>. Liens vers les entretiens et les transcriptions de discours "
-"sur les logiciels libres et le projet GNU."
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"/gnu/gnu.html\">History of GNU, and discussion of GNU and Linux.</"
-"a>"
-msgstr ""
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"/philosophy/third-party-ideas.html\">Third party ideas.</a> These "
-"articles give other people's philosophical opinions in support of free "
-"software, or related issues, and don't speak for the GNU project&mdash;but "
-"we more or less agree with them."
-msgstr ""
-"<a href=\"/philosophy/third-party-ideas.fr.html\">Idées de tierces parties</"
-"a>. Ces articles donnent les opinions d'autres personnes en faveur du "
-"logiciel libre, ou des problèmes liés, et ne parlent pas du projet GNU "
-"&mdash;&nbsp;mais nous sommes plus ou moins d'accord avec."
 
 #.  please leave both these ID attributes here. ... 
 #.  ... we removed this as an H$ section as it was duplicating the  
@@ -351,12 +191,8 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-msgid ""
-"Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
-"2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc."
-msgstr ""
-"Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
-"2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc."
+msgid "Copyright &copy; 2011 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2011 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -379,3 +215,131 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
+
+#~ msgid "Latest Articles"
+#~ msgstr "Derniers articles"
+
+#~ msgid ""
+#~ "Hot off the presses, here are the latest published articles on free "
+#~ "software and the GNU project."
+#~ msgstr ""
+#~ "Sortis des presses, voici les derniers articles publiés sur les logiciels "
+#~ "libres et le projet GNU."
+
+#, fuzzy
+#~| msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
+#~ msgid ""
+#~ "<a href=\"/philosophy/android-and-users-freedom.html\">Android and Users' "
+#~ "Freedom</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel "
+#~ "libre&nbsp;?</a>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<a href=\"/philosophy/open-source-misses-the-point.html\">Why &ldquo;"
+#~| "Open Source&rdquo; misses the point of Free Software</a>"
+#~ msgid ""
+#~ "<a href=\"/philosophy/europes-unitary-patent.html\">Europe's &ldquo;"
+#~ "unitary patent&rdquo; could mean unlimited software patents</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/open-source-misses-the-point.fr.html\">Pourquoi "
+#~ "l'«&nbsp;open source&nbsp;» passe à côté du problème que soulève le "
+#~ "logiciel libre&nbsp;?</a>"
+
+#, fuzzy
+#~| msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
+#~ msgid ""
+#~ "<a href=\"/philosophy/the-danger-of-ebooks.html\">The Danger of E-Books</"
+#~ "a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel "
+#~ "libre&nbsp;?</a>"
+
+#, fuzzy
+#~| msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
+#~ msgid ""
+#~ "<a href=\"/philosophy/practical.html\">The advantages of free software</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel "
+#~ "libre&nbsp;?</a>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<a href=\"/philosophy/javascript-trap.html\">The Javascript Trap</a>"
+#~ msgid ""
+#~ "<a href=\"/philosophy/assigning-copyright.html\">When a Company Asks For "
+#~ "Your Copyright</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/javascript-trap.fr.html\">Le piège JavaScript</a>"
+
+#, fuzzy
+#~| msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
+#~ msgid ""
+#~ "<a href=\"/philosophy/who-does-that-server-really-serve.html\">Who Does "
+#~ "That Server Really Serve?</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel "
+#~ "libre&nbsp;?</a>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<a href=\"/philosophy/selling.html\">Selling Free Software</a> is OK!"
+#~ msgid ""
+#~ "<a href=\"/philosophy/selling-exceptions.html\">On Selling Exceptions to "
+#~ "the GNU GPL</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/selling.fr.html\">Vendre des logiciels libres</a> "
+#~ "ce n'est pas un problème&nbsp;!"
+
+#~ msgid "About Free Software"
+#~ msgstr "À propos du logiciel libre"
+
+#, fuzzy
+#~| msgid ""
+#~| "We have many more articles than can fit on a single page. You can find "
+#~| "them on the pages linked here."
+#~ msgid ""
+#~ "We have many more than can fit on a single page. You can find more linked "
+#~ "here."
+#~ msgstr ""
+#~ "Nous avons beaucoup d'articles qui tiennent sur une seule page. Vous "
+#~ "pouvez les trouver sur les pages liées ici."
+
+#~ msgid ""
+#~ "<a href=\"/philosophy/essays-and-articles.html\"> Essays and articles.</"
+#~ "a> A series of articles describing the philosophy of the free software "
+#~ "movement, which is the motivation for our development of the free "
+#~ "software operating system GNU."
+#~ msgstr ""
+#~ "<a href=\"/philosophy/essays-and-articles.fr.html\">Essais et articles</"
+#~ "a>. Cette page recense une série d'articles décrivant la philosophie du "
+#~ "mouvement pour le logiciel libre, qui est la motivation de notre "
+#~ "développement du système d'exploitation libre GNU."
+
+#~ msgid ""
+#~ "<a href=\"/philosophy/speeches-and-interview.html\">Speeches and "
+#~ "interviews.</a> Links to interviews and Transcriptions of speeches about "
+#~ "free software and the GNU project."
+#~ msgstr ""
+#~ "<a href=\"/philosophy/speeches-and-interview.fr.html\">Discours et "
+#~ "entretiens</a>. Liens vers les entretiens et les transcriptions de "
+#~ "discours sur les logiciels libres et le projet GNU."
+
+#~ msgid ""
+#~ "<a href=\"/philosophy/third-party-ideas.html\">Third party ideas.</a> "
+#~ "These articles give other people's philosophical opinions in support of "
+#~ "free software, or related issues, and don't speak for the GNU "
+#~ "project&mdash;but we more or less agree with them."
+#~ msgstr ""
+#~ "<a href=\"/philosophy/third-party-ideas.fr.html\">Idées de tierces "
+#~ "parties</a>. Ces articles donnent les opinions d'autres personnes en "
+#~ "faveur du logiciel libre, ou des problèmes liés, et ne parlent pas du "
+#~ "projet GNU &mdash;&nbsp;mais nous sommes plus ou moins d'accord avec."
+
+#~ msgid ""
+#~ "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, "
+#~ "2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc."
+#~ msgstr ""
+#~ "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, "
+#~ "2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc."

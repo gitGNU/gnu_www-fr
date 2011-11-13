@@ -7,14 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: trivial-patent.html\n"
-"POT-Creation-Date: 2011-09-20 12:31-0300\n"
+"POT-Creation-Date: 2011-10-05 20:25-0300\n"
 "PO-Revision-Date: 2011-07-07 20:21+0100\n"
 "Last-Translator: Raymond Rochedieu <ecrire@papiray.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 
 #. type: Content of: <title>
 msgid ""
@@ -35,11 +35,17 @@ msgstr ""
 "a>"
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Programmers are well aware that many of the existing software patents "
+#| "cover laughably obvious ideas.  Yet the patent system's defenders often "
+#| "argue that these ideas are nontrivial, obvious only in hindsight.  And it "
+#| "is surprisingly difficult to defeat them in debate.  Why is that?"
 msgid ""
 "Programmers are well aware that many of the existing software patents cover "
-"laughably obvious ideas.  Yet the patent system's defenders often argue that "
-"these ideas are nontrivial, obvious only in hindsight.  And it is "
-"surprisingly difficult to defeat them in debate.  Why is that?"
+"laughably obvious ideas. Yet the patent system's defenders often argue that "
+"these ideas are nontrivial, obvious only in hindsight. And it is "
+"surprisingly difficult to defeat them in debate. Why is that?"
 msgstr ""
 "Les programmeurs sont bien conscients du fait que de nombreux brevets "
 "existants sont des idées ridiculement évidentes. Pourtant les défenseurs du "
@@ -48,10 +54,17 @@ msgstr ""
 "démontrer la fausseté de ce propos dans un débat. Pourquoi cela&nbsp;?"
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "One reason is that any idea can be made to look complex when analyzed to "
+#| "death.  Another reason is that these trivial ideas often look quite "
+#| "complex as described in the patents themselves.  The patent system's "
+#| "defenders can point to the complex description and say, &ldquo;How can "
+#| "anything this complex be obvious?&rdquo;"
 msgid ""
 "One reason is that any idea can be made to look complex when analyzed to "
-"death.  Another reason is that these trivial ideas often look quite complex "
-"as described in the patents themselves.  The patent system's defenders can "
+"death. Another reason is that these trivial ideas often look quite complex "
+"as described in the patents themselves. The patent system's defenders can "
 "point to the complex description and say, &ldquo;How can anything this "
 "complex be obvious?&rdquo;"
 msgstr ""
@@ -63,15 +76,19 @@ msgstr ""
 "il être évident&nbsp;?&nbsp;»"
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "I will use an example to show you how.  Here's claim number one from US "
+#| "patent number 5,963,916, applied for in October 1996:"
 msgid ""
-"I will use an example to show you how.  Here's claim number one from US "
+"I will use an example to show you how. Here's claim number one from US "
 "patent number 5,963,916, applied for in October 1996:"
 msgstr ""
 "Je vais utiliser un exemple pour vous en montrer la méthode. Voici l'énoncé "
 "de l'objectif numéro un du brevet américain numéro 5.963.916 déposé en "
 "octobre 1996&nbsp;:"
 
-#. type: Content of: <p>
+#. type: Content of: <blockquote><p>
 msgid ""
 "1. A method for enabling a remote user to preview a portion of a pre-"
 "recorded music product from a network web site containing pre-selected "
@@ -87,10 +104,19 @@ msgstr ""
 "l'utilisateur distant et un site Web en réseau, la méthode comprenant les "
 "étapes suivantes&nbsp;:"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <blockquote><ul><li>
+#, fuzzy
+#| msgid ""
+#| "using the remote user's computer to establish a telecommunications link "
+#| "to the network web site wherein the network web site comprises (i) a "
+#| "central host server coupled to a communications network for retrieving "
+#| "and transmitting the pre-selected portion of the pre-recorded music "
+#| "product upon request by a remote user and (ii) a central storage device "
+#| "for storing pre-selected portions of a plurality of different pre-"
+#| "recorded music products;"
 msgid ""
-"using the remote user's computer to establish a telecommunications link to "
-"the network web site wherein the network web site comprises (i) a central "
+"a) using the remote user's computer to establish a telecommunications link "
+"to the network web site wherein the network web site comprises (i) a central "
 "host server coupled to a communications network for retrieving and "
 "transmitting the pre-selected portion of the pre-recorded music product upon "
 "request by a remote user and (ii) a central storage device for storing pre-"
@@ -104,56 +130,84 @@ msgstr ""
 "central pour stocker les parties pré-sélectionnées d'un ensemble de "
 "différents produits de musique pré-enregistrés&nbsp;;"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "transmitting user identification data from the remote user's computer to "
+#| "the central host server thereby allowing the central host server to "
+#| "identify and track the user's progress through the network web site;"
 msgid ""
-"transmitting user identification data from the remote user's computer to the "
-"central host server thereby allowing the central host server to identify and "
-"track the user's progress through the network web site;"
+"b) transmitting user identification data from the remote user's computer to "
+"the central host server thereby allowing the central host server to identify "
+"and track the user's progress through the network web site;"
 msgstr ""
 "transmettre les données d'identification de l'utilisateur depuis "
 "l'ordinateur distant de l'utilisateur vers le serveur hôte central, et ce "
 "pour autoriser le serveur hôte central à identifier et à suivre le "
 "cheminement de l'utilisateur à travers le site Web du réseau&nbsp;;"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "choosing at least one pre-selected portion of the pre-recorded music "
+#| "products from the central host server;"
 msgid ""
-"choosing at least one pre-selected portion of the pre-recorded music "
+"c) choosing at least one pre-selected portion of the pre-recorded music "
 "products from the central host server;"
 msgstr ""
 "choisir au moins une partie pré-sélectionnée du produit musical pré-"
 "enregistré depuis le serveur hôte central."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "receiving the chosen pre-selected portion of the pre-recorded products; "
+#| "and"
 msgid ""
-"receiving the chosen pre-selected portion of the pre-recorded products; and"
+"d) receiving the chosen pre-selected portion of the pre-recorded products; "
+"and"
 msgstr ""
 "recevoir la partie pré-sélectionnée choisie du produit pré-enregistré&nbsp;; "
 "et"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "interactively previewing the received chosen pre-selected portion of the "
+#| "pre-recorded music product."
 msgid ""
-"interactively previewing the received chosen pre-selected portion of the pre-"
-"recorded music product."
+"e) interactively previewing the received chosen pre-selected portion of the "
+"pre-recorded music product."
 msgstr ""
 "prévisualiser interactivement la partie pré-sélectionnée choisie et reçue du "
 "produit musical pré-sélectionné."
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "That sure looks like a complex system, right? Surely it took a real "
+#| "clever guy to think of this? No, but it took cleverness to make it seem "
+#| "so complex.  Let's analyze where the complexity comes from:"
 msgid ""
 "That sure looks like a complex system, right? Surely it took a real clever "
-"guy to think of this? No, but it took cleverness to make it seem so "
-"complex.  Let's analyze where the complexity comes from:"
+"guy to think of this? No, but it took cleverness to make it seem so complex. "
+"Let's analyze where the complexity comes from:"
 msgstr ""
 "Voilà bien un système qui semble complexe, pas vrai&nbsp;? Il a sûrement "
 "fallu un gars vraiment malin pour penser à cela&nbsp;,non?  Mais il a fallu "
 "de l'habileté pour le faire paraître complexe. Analysons d'où vient cette "
 "complexité&nbsp;:"
 
-#. type: Content of: <p>
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "<i>1. A method for enabling a remote user to preview a portion of a pre-"
+#| "recorded music product from a network web site containing pre-selected "
+#| "portions</i>"
 msgid ""
-"<i>1. A method for enabling a remote user to preview a portion of a pre-"
+"1. A method for enabling a remote user to preview a portion of a pre-"
 "recorded music product from a network web site containing pre-selected "
-"portions</i>"
+"portions"
 msgstr ""
 "<i>1. Une méthode pour permettre à un utilisateur distant d'écouter une "
 "partie d'un produit musical pré-enregistré depuis un site Web réseau "
@@ -167,8 +221,10 @@ msgstr ""
 "Voilà énoncée la plus grande partie de leur idée. Des extraits de certains "
 "morceaux de musique sur un serveur, peuvent être écoutés par un utilisateur."
 
-#. type: Content of: <p>
-msgid "<i>of different pre-recorded music products,</i>"
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid "<i>of different pre-recorded music products,</i>"
+msgid "of different pre-recorded music products,"
 msgstr "<i>de produits musicaux pré-enregistrés variés,</i>"
 
 #. type: Content of: <p>
@@ -180,9 +236,15 @@ msgstr ""
 "musique."
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "It is a basic principle of computer science is that if a computer can do "
+#| "a thing once, it can do that thing many times, on different data each "
+#| "time.  Many patents pretend that applying this principle to a specific "
+#| "case makes an &ldquo;invention&rdquo;."
 msgid ""
-"It is a basic principle of computer science is that if a computer can do a "
-"thing once, it can do that thing many times, on different data each time.  "
+"It is a basic principle of computer science that if a computer can do a "
+"thing once, it can do that thing many times, on different data each time. "
 "Many patents pretend that applying this principle to a specific case makes "
 "an &ldquo;invention&rdquo;."
 msgstr ""
@@ -192,10 +254,14 @@ msgstr ""
 "qu'appliquer ce principe à un cas spécifique en fait une «&nbsp;"
 "invention&nbsp;»."
 
-#. type: Content of: <p>
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "<i>using a computer, a computer display and a telecommunications link "
+#| "between the remote user's computer and the network web site,</i>"
 msgid ""
-"<i>using a computer, a computer display and a telecommunications link "
-"between the remote user's computer and the network web site,</i>"
+"using a computer, a computer display and a telecommunications link between "
+"the remote user's computer and the network web site,"
 msgstr ""
 "<i>en utilisant un périphérique d'affichage d'ordinateur et un lien de "
 "télécommunication entre l'ordinateur de l'utilisateur distant et un site Web "
@@ -205,10 +271,18 @@ msgstr ""
 msgid "This says they are using a server on a network."
 msgstr "Ceci indique qu'ils utilisent un serveur sur un réseau."
 
-#. type: Content of: <p>
+#. type: Content of: <blockquote><p>
+msgid "the method comprising the steps of:"
+msgstr ""
+
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "<i>the method comprising the steps of: using the remote user's computer "
+#| "to establish a telecommunications link to the network web site</i>"
 msgid ""
-"<i>the method comprising the steps of: using the remote user's computer to "
-"establish a telecommunications link to the network web site</i>"
+"a) using the remote user's computer to establish a telecommunications link "
+"to the network web site"
 msgstr ""
 "<i>la méthode comprenant les étapes suivantes&nbsp;: utiliser l'ordinateur "
 "de l'utilisateur distant pour établir un lien de télécommunication vers le "
@@ -222,10 +296,14 @@ msgstr ""
 "Il est dit que l'utilisateur se connecte au serveur à travers le réseau "
 "(c'est comme ça qu'on utilise un serveur)."
 
-#. type: Content of: <p>
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "<i>wherein the network web site comprises (i) a central host server "
+#| "coupled to a communications network</i>"
 msgid ""
-"<i>wherein the network web site comprises (i) a central host server coupled "
-"to a communications network</i>"
+"wherein the network web site comprises (i) a central host server coupled to "
+"a communications network"
 msgstr ""
 "<i>où le réseau du site Web comprend (i) un serveur hôte central couplé à un "
 "réseau de communication</i>"
@@ -237,10 +315,14 @@ msgstr ""
 "Ceci nous informe qu'un serveur est sur le Net. (C'est l'utilité d'un "
 "serveur)."
 
-#. type: Content of: <p>
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "<i>for retrieving and transmitting the pre-selected portion of the pre-"
+#| "recorded music product upon request by a remote user</i>"
 msgid ""
-"<i>for retrieving and transmitting the pre-selected portion of the pre-"
-"recorded music product upon request by a remote user</i>"
+"for retrieving and transmitting the pre-selected portion of the pre-recorded "
+"music product upon request by a remote user"
 msgstr ""
 "<i>pour rechercher et transmettre, sur demande d'un utilisateur distant, la "
 "partie pré-sélectionnée du produit musical pré-enregistré </i>"
@@ -249,10 +331,14 @@ msgstr ""
 msgid "This repeats the general idea stated in the first two lines."
 msgstr "Ceci reprend l'idée générale indiquée dans les deux premières lignes."
 
-#. type: Content of: <p>
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "<i>and (ii) a central storage device for storing pre-selected portions of "
+#| "a plurality of different pre-recorded music products;</i>"
 msgid ""
-"<i>and (ii) a central storage device for storing pre-selected portions of a "
-"plurality of different pre-recorded music products;</i>"
+"and (ii) a central storage device for storing pre-selected portions of a "
+"plurality of different pre-recorded music products;"
 msgstr ""
 "<i>et (ii) un périphérique de stockage central pour stocker des parties pré-"
 "sélectionnées d'un ensemble de différents produits de musique pré-"
@@ -281,17 +367,6 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"<i>transmitting user identification data from the remote user's computer to "
-"the central host server thereby allowing the central host server to identify "
-"and track the user's progress through the network web site;</i>"
-msgstr ""
-"<i>transmettre les données d'identification de l'utilisateur depuis "
-"l'ordinateur distant de l'utilisateur vers l'application centrale permettant "
-"ainsi d'identifier et de tracer la progression de l'utilisateur sur le site "
-"Web&nbsp;;</i>"
-
-#. type: Content of: <p>
-msgid ""
 "This says that they keep track of who you are and what you access&mdash;a "
 "common (though nasty) thing for web servers to do.  I believe it was common "
 "already in 1996."
@@ -299,14 +374,6 @@ msgstr ""
 "Ceci explique juste qu'ils gardent une trace de votre identité et de ce à "
 "quoi vous accèdez, une tâche banale (bien que mauvaise) pour les serveurs "
 "Web. Je crois que c'était déjà d'usage courant en 1996."
-
-#. type: Content of: <p>
-msgid ""
-"<i>choosing at least one pre-selected portion of the pre-recorded music "
-"products from the central host server;</i>"
-msgstr ""
-"<i>choisir au moins une partie pré-sélectionnée du produit musical pré-"
-"enregistré depuis le serveur hôte central.</i>"
 
 #. type: Content of: <p>
 msgid ""
@@ -320,27 +387,11 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"<i>receiving the chosen pre-selected portion of the pre-recorded products; "
-"and</i>"
-msgstr ""
-"<i>recevoir la partie pré-sélectionnée choisie du produit pré-"
-"enregistré&nbsp;; et</i>"
-
-#. type: Content of: <p>
-msgid ""
 "When you follow a link, your browser reads the contents.  This is typical "
 "behavior for a web browser."
 msgstr ""
 "Quand vous suivez un lien, votre navigateur lit le contenu. C'est un "
 "comportement typique pour un navigateur Web."
-
-#. type: Content of: <p>
-msgid ""
-"<i>interactively previewing the received chosen pre-selected portion of the "
-"pre-recorded music product.</i>"
-msgstr ""
-"<i>prévisualiser interactivement la partie pré-sélectionnée choisie et reçue "
-"du produit musical pré-enregistré</i>"
 
 #. type: Content of: <p>
 msgid ""
@@ -366,8 +417,12 @@ msgstr ""
 "prétendue «&nbsp;invention&nbsp;» pour laquelle ils ont reçu un brevet."
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "This example is typical of software patents.  Even the occasional patent "
+#| "whose idea is nontrivial has the same sort of added complication."
 msgid ""
-"This example is typical of software patents.  Even the occasional patent "
+"This example is typical of software patents. Even the occasional patent "
 "whose idea is nontrivial has the same sort of added complication."
 msgstr ""
 "Cet exemple est typique des brevets logiciels. Même les quelques brevets "
@@ -378,10 +433,14 @@ msgstr ""
 msgid "Now look at a subsequent claim:"
 msgstr "Regardez maintenant la revendication suivante&nbsp;:"
 
-#. type: Content of: <p>
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "<i>3. The method of [149]claim 1 wherein the central memory device "
+#| "comprises a plurality of compact disc-read only memory (CD-ROMs).</i>"
 msgid ""
-"<i>3. The method of [149]claim 1 wherein the central memory device comprises "
-"a plurality of compact disc-read only memory (CD-ROMs).</i>"
+"3. The method of claim 1 wherein the central memory device comprises a "
+"plurality of compact disc-read only memory (CD-ROMs)."
 msgstr ""
 "<i>3. La méthode de la revendication [149] 1 dans laquelle le périphérique "
 "central de mémoire comporte une pluralité de <acronym title=\"Compact Disc - "
@@ -403,10 +462,14 @@ msgstr ""
 msgid "Now look at the next claim:"
 msgstr "Maintenant regardez la revendication suivante&nbsp;:"
 
-#. type: Content of: <p>
+#. type: Content of: <blockquote><p>
+#, fuzzy
+#| msgid ""
+#| "<i>4. The method of [150]claim 1 wherein the central memory device "
+#| "comprises a RAID array drive.</i>"
 msgid ""
-"<i>4. The method of [150]claim 1 wherein the central memory device comprises "
-"a RAID array drive.</i>"
+"4. The method of claim 1 wherein the central memory device comprises a RAID "
+"array drive."
 msgstr ""
 "<i>4. La méthode de la revendication [150] 1 dans laquelle le périphérique "
 "central de stockage de mémoire comprend une matrice de disque <acronym title="
@@ -445,9 +508,9 @@ msgstr ""
 "seulement le bureau des brevets américain, mais également les cours de "
 "justice, tendent à appliquer une norme très basse lorsque l'on juge si un "
 "brevet est «&nbsp;non-évident&nbsp;». Ce brevet pourrait être validé par "
-"l'inspection (ndt&nbsp;: traduit de «&nbsp;This patent might <a href=\"http://"
-"en.wikipedia.org/wiki/Muster\">pass muster&nbsp;»</a> qui est une <a href="
-"\"http://fr.wikipedia.org/wiki/Idiotisme\">stupidité</a>),selon eux."
+"l'inspection (ndt&nbsp;: traduit de «&nbsp;This patent might <a href="
+"\"http://en.wikipedia.org/wiki/Muster\">pass muster&nbsp;»</a> qui est une "
+"<a href=\"http://fr.wikipedia.org/wiki/Idiotisme\">stupidité</a>),selon eux."
 
 #. type: Content of: <p>
 msgid ""
@@ -575,6 +638,37 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
+
+#~ msgid ""
+#~ "<i>transmitting user identification data from the remote user's computer "
+#~ "to the central host server thereby allowing the central host server to "
+#~ "identify and track the user's progress through the network web site;</i>"
+#~ msgstr ""
+#~ "<i>transmettre les données d'identification de l'utilisateur depuis "
+#~ "l'ordinateur distant de l'utilisateur vers l'application centrale "
+#~ "permettant ainsi d'identifier et de tracer la progression de "
+#~ "l'utilisateur sur le site Web&nbsp;;</i>"
+
+#~ msgid ""
+#~ "<i>choosing at least one pre-selected portion of the pre-recorded music "
+#~ "products from the central host server;</i>"
+#~ msgstr ""
+#~ "<i>choisir au moins une partie pré-sélectionnée du produit musical pré-"
+#~ "enregistré depuis le serveur hôte central.</i>"
+
+#~ msgid ""
+#~ "<i>receiving the chosen pre-selected portion of the pre-recorded "
+#~ "products; and</i>"
+#~ msgstr ""
+#~ "<i>recevoir la partie pré-sélectionnée choisie du produit pré-"
+#~ "enregistré&nbsp;; et</i>"
+
+#~ msgid ""
+#~ "<i>interactively previewing the received chosen pre-selected portion of "
+#~ "the pre-recorded music product.</i>"
+#~ msgstr ""
+#~ "<i>prévisualiser interactivement la partie pré-sélectionnée choisie et "
+#~ "reçue du produit musical pré-enregistré</i>"
 
 #~ msgid ""
 #~ "Copyright &copy; 2006 Richard Stallman<br /> Verbatim copying and "

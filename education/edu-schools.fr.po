@@ -7,14 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: schools.html\n"
-"POT-Creation-Date: 2011-07-14 04:30-0300\n"
+"POT-Creation-Date: 2011-10-02 20:25-0300\n"
 "PO-Revision-Date: 2009-11-29 17:56+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 
 #. type: Content of: <title>
 #, fuzzy
@@ -28,12 +28,43 @@ msgstr ""
 "Pourquoi les écoles devraient utiliser exclusivement des logiciels libres - "
 "GNU Project - Free Software Foundation (FSF)"
 
-#. type: Content of: <h2>
+#. type: Content of: <div><h2>
 #, fuzzy
 #| msgid "Why schools should exclusively use free software"
 msgid "Why Schools Should Exclusively Use Free Software"
 msgstr ""
 "Pourquoi les écoles devraient utiliser exclusivement des logiciels libres"
+
+#. type: Content of: <div><ul><li>
+msgid "<a href=\"/education/edu-contents.html\">Education Contents</a>"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+msgid "<a href=\"/education/edu-cases.html\">Case Studies</a>"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+msgid "<a href=\"/education/edu-resources.html\">Educational Resources</a>"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+msgid "<a href=\"/education/edu-projects.html\">Education Projects</a>"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+msgid "<a href=\"/education/edu-faq.html\">FAQ</a>"
+msgstr ""
+
+#. type: Content of: <div><ul><li>
+msgid "<a href=\"/education/edu-team.html\">The Education Team</a>"
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"<a href=\"/education/education.html\">Education</a> &rarr; <a href=\"/"
+"education/education.html#indepth\">In Depth</a> &rarr; Why Schools Should "
+"Exclusively Use Free Software"
+msgstr ""
 
 #. type: Content of: <p>
 msgid "by <a href=\"http://www.stallman.org/\">Richard Stallman</a>"
@@ -54,7 +85,8 @@ msgid ""
 "with proprietary software, the computer does what the software owner wants "
 "it to do, not what the user wants it to do.  Free software also gives users "
 "the freedom to cooperate with each other, to lead an upright life.  These "
-"reasons apply to schools as they do to everyone."
+"reasons apply to schools as they do to everyone.  The purpose of this "
+"article is to state additional reasons that apply specifically to education."
 msgstr ""
 "Il existe des raisons très générales pour lesquelles tout utilisateur "
 "d'ordinateur devrait se focaliser sur les logiciels libres. Ils donnent la "
@@ -66,8 +98,8 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"The purpose of this article is to state additional reasons that apply "
-"specifically to education."
+"Educational activities (including schools) have a <a href=\"/education/"
+"education.html\">duty to teach only free software.</a> Here are the reasons."
 msgstr ""
 
 #. type: Content of: <p>
@@ -159,9 +191,9 @@ msgstr ""
 msgid ""
 "What schools should refuse to do is teach dependence.  Those corporations "
 "offer free samples to schools for the same reason tobacco companies "
-"distribute free cigarettes to minors: to get children addicted <a href=\"#1"
-"\">(1)</a>.  They will not give discounts to these students once they've "
-"grown up and graduated."
+"distribute free cigarettes to minors: to get children addicted <a href="
+"\"#note1\">(1)</a>.  They will not give discounts to these students once "
+"they've grown up and graduated."
 msgstr ""
 "L'École devrait enseigner aux élèves des comportements qui profiteront à la "
 "société toute entière. Elle devrait promouvoir l'utilisation des logiciels "
@@ -296,7 +328,7 @@ msgstr ""
 #| "features/health/tobaccotrial/usa.htm\">http://www.bbc.co.uk/worldservice/"
 #| "sci_tech/features/health/tobaccotrial/usa.htm</a>.  </cite>"
 msgid ""
-"<cite><a name=\"1\"></a>RJ Reynolds Tobacco Company was fined $15m in 2002 "
+"<cite><a id=\"note1\"></a>RJ Reynolds Tobacco Company was fined $15m in 2002 "
 "for handing out free samples of cigarettes at events attended by children.  "
 "See <a href=\"http://www.bbc.co.uk/worldservice/sci_tech/features/health/"
 "tobaccotrial/usa.htm\">http://www.bbc.co.uk/worldservice/sci_tech/features/"
@@ -325,9 +357,13 @@ msgstr ""
 "contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send broken links and other corrections or suggestions to <a href="
+#| "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
-"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"\"mailto:education@gnu.org\">&lt;education@gnu.org&gt;</a>."
 msgstr ""
 "Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
 "cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
@@ -368,10 +404,6 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-#. type: Content of: <div><h4>
-msgid "Translations of this page"
-msgstr "Traductions de cette page"
 
 #, fuzzy
 #~| msgid ""
