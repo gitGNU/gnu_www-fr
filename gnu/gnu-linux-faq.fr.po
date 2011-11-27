@@ -1,15 +1,15 @@
 # French translation of http://www.gnu.org/gnu/gnu-linux-faq.html
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnu-linux-faq.html page.
-# Marc de Maillard.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
-#
+# Marc de Maillard.
+# Denis Barbier <bouzim@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-linux-faq.html\n"
-"POT-Creation-Date: 2011-09-20 12:27-0300\n"
-"PO-Revision-Date: 2011-07-07 23:41+0100\n"
-"Last-Translator: Marc de Maillard <mdemaillard@gmail.com>\n"
+"POT-Creation-Date: 2011-11-20 20:25-0500\n"
+"PO-Revision-Date: 2011-11-27 21:52+0100\n"
+"Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -387,28 +387,20 @@ msgstr ""
 "Windows&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"#justlinux\" id=\"TOCjustlinux\">Can't there be Linux systems "
-#| "without GNU?</a>"
 msgid ""
 "<a href=\"#justlinux\" id=\"TOCjustlinux\">Can't Linux be used without GNU?</"
 "a>"
 msgstr ""
-"<a href=\"#justlinux\" id=\"TOCjustlinux\">Ne peut-il y avoir de systèmes "
-"Linux sans GNU&nbsp;?</a>"
+"<a href=\"#justlinux\" id=\"TOCjustlinux\">Linux ne peut-il être utilisé "
+"sans GNU&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"#justlinux\" id=\"TOCjustlinux\">Can't there be Linux systems "
-#| "without GNU?</a>"
 msgid ""
 "<a href=\"#linuxsyswithoutgnu\" id=\"TOClinuxsyswithoutgnu\">Are there "
 "complete Linux systems without GNU?</a>"
 msgstr ""
-"<a href=\"#justlinux\" id=\"TOCjustlinux\">Ne peut-il y avoir de systèmes "
-"Linux sans GNU&nbsp;?</a>"
+"<a href=\"#linuxsyswithoutgnu\" id=\"TOClinuxsyswithoutgnu\">Existe-t-il des "
+"systèmes Linux complets sans GNU&nbsp;?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -2358,16 +2350,12 @@ msgstr ""
 "situation très différente de GNU/Linux."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Can't there be Linux systems without GNU? <span class=\"anchor-reference-"
-#| "id\">(<a href=\"#justlinux\">#justlinux</a>)</span>"
 msgid ""
 "Can't Linux be used without GNU? <span class=\"anchor-reference-id\">(<a "
 "href=\"#justlinux\">#justlinux</a>)</span>"
 msgstr ""
-"Ne peut-il pas y avoir de système Linux sans GNU&nbsp;? <span class=\"anchor-"
-"reference-id\">(<a href=\"#justlinux\">#justlinux</a>)</span>"
+"Linux ne peut-il être utilisé sans GNU&nbsp;? <span class=\"anchor-reference-"
+"id\">(<a href=\"#justlinux\">#justlinux</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -2377,40 +2365,32 @@ msgid ""
 "disappointing.  It is useful to say that these appliances run just Linux, to "
 "show how different those small platforms are from GNU/Linux."
 msgstr ""
+"Linux est utilisé pour lui-même, ou avec d'autres petits programmes, dans "
+"certains appareils. Ces petits systèmes logiciels sont très différent d'un "
+"système GNU/Linux. Les utilisateurs ne les installent pas sur leur PC, par "
+"exemple, et les trouveraient plutôt décevants. Il est utile de dire que ces "
+"appareils n'exécutent que Linux, pour montrer combien ces petites "
+"plateformes sont différentes de GNU/Linux."
 
 #. type: Content of: <dl><dt>
-#, fuzzy
-#| msgid ""
-#| "Can't there be Linux systems without GNU? <span class=\"anchor-reference-"
-#| "id\">(<a href=\"#justlinux\">#justlinux</a>)</span>"
 msgid ""
 "Are there complete Linux systems without GNU? <span class=\"anchor-reference-"
 "id\">(<a href=\"#linuxsyswithoutgnu\">#linuxsyswithoutgnu</a>)</span>"
 msgstr ""
-"Ne peut-il pas y avoir de système Linux sans GNU&nbsp;? <span class=\"anchor-"
-"reference-id\">(<a href=\"#justlinux\">#justlinux</a>)</span>"
+"Existe-t-il des systèmes Linux complets sans GNU&nbsp;? <span class=\"anchor-"
+"reference-id\">(<a href=\"#linuxsyswithoutgnu\">#linuxsyswithoutgnu</a>)</"
+"span>"
 
 #. type: Content of: <dl><dd>
-#, fuzzy
-#| msgid ""
-#| "There are systems that contain Linux and not GNU; Android is an example."
 msgid ""
 "There are complete systems that contain Linux and not GNU; Android is an "
 "example.  But it is a mistake to call them &ldquo;Linux&rdquo; systems."
 msgstr ""
-"Il y a des systèmes qui contiennent Linux et pas GNU&nbsp;: Android en est "
-"un exemple."
+"Il y a des systèmes complets qui contiennent Linux et pas GNU&nbsp;: Android "
+"en est un exemple. Mais c'est une erreur de les appeler des systèmes «&nbsp;"
+"Linux&nbsp;»."
 
 #. type: Content of: <dl><dd><p>
-#, fuzzy
-#| msgid ""
-#| "Android is very different from the GNU/Linux system&mdash;because it "
-#| "doesn't contain GNU, only Linux.  In effect, it's a totally different "
-#| "system.  If you think of the whole system as &ldquo;Linux&rdquo;, you "
-#| "find it necessary to say things like, &ldquo;Android contains Linux, but "
-#| "it isn't Linux, because it doesn't have the usual Linux [sic] libraries "
-#| "and utilities [meaning the GNU system].&rdquo; Android contains just as "
-#| "much of Linux as GNU/Linux does.  What it doesn't have is GNU."
 msgid ""
 "Android is very different from the GNU/Linux system&mdash;because it "
 "contains very little of the GNU system, only Linux.  Overall, it's a "
@@ -2422,13 +2402,14 @@ msgid ""
 "Instead it has a lot of Google software."
 msgstr ""
 "Android est très différent du système GNU/Linux&nbsp;: parce qu'il ne "
-"contient pas GNU, seulement Linux. En effet, c'est un système complètement "
-"différent. Si vous pensez au système dans son ensemble en tant que «&nbsp;"
-"Linux&nbsp;», vous trouverez nécessaire de dire quelque chose du genre, "
-"«&nbsp;Android contient Linux, mais n'est pas Linux, parce qu'il n'a pas les "
-"bibliothèques et outils habituels Linux (sic) (c'est à dire le système GNU)"
-"&nbsp;». Android contient exactement autant de Linux que GNU/Linux. Ce qu'il "
-"n'a pas c'est GNU."
+"contient qu'une toute petite partie du système GNU, seulement Linux. Pour "
+"tout le reste, c'est un système différent. Si vous appelez le système dans "
+"son ensemble «&nbsp;Linux&nbsp;», vous trouverez nécessaire de dire quelque "
+"chose du genre, «&nbsp;Android contient Linux, mais n'est pas Linux, parce "
+"qu'il n'a pas les bibliothèques et outils habituels Linux (sic) (c'est à "
+"dire le système GNU)&nbsp;». Android contient exactement autant de Linux que "
+"GNU/Linux. Ce qu'il n'a pas, c'est le système GNU. À la place, il contient "
+"beaucoup de logiciels Google."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -2537,13 +2518,13 @@ msgstr ""
 #. type: Content of: <dl><dd><p>
 msgid ""
 "He recognized this at the beginning.  The earliest Linux release notes said, "
-"<a href=\"http://www.kernel.org/pub/linux/kernel/Historic/old-versions/"
+"<a href=\"http://ftp.funet.fi/pub/linux/historical/kernel/old-versions/"
 "RELNOTES-0.01\"> &ldquo;Most of the tools used with linux are GNU software "
 "and are under the GNU copyleft. These tools aren't in the distribution - ask "
 "me (or GNU)  for more info&rdquo;</a>."
 msgstr ""
 "Il l'a reconnu dès le début. La première note de distribution de Linux "
-"dit&nbsp;: <a href=\"http://www.kernel.org/pub/linux/kernel/Historic/old-"
+"dit&nbsp;: <a href=\"http://ftp.funet.fi/pub/linux/historical/kernel/old-"
 "versions/RELNOTES-0.01\">«&nbsp;La plupart des outils utilisés avec Linux "
 "sont des logiciels GNU et sont sous la licence GNU. Ces outils ne sont pas "
 "dans la distribution&nbsp;: demandez-moi (ou à GNU) pour plus d'informations."
