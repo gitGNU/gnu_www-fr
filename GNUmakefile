@@ -88,7 +88,7 @@ endif
 # $(2) = POT file
 ifeq ($(_have-compendium),yes)
 
-#  When there is a compendium, use msgcat to remove msgids which are
+#  When there is a compendium, use msgcat to remove msgids which are
 #  found in compendium (to make sure that translation comes from there),
 #  and then call msgmerge
 define update-po
