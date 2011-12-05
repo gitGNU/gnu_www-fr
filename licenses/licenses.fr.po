@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: licenses.html\n"
-"POT-Creation-Date: 2011-09-20 12:27-0300\n"
+"POT-Creation-Date: 2011-11-29 04:25-0500\n"
 "PO-Revision-Date: 2011-07-27 18:06+0200\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -785,13 +785,20 @@ msgstr ""
 "License</a> (GNU FDL)."
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "This page is licensed under a <a rel=\"license\" href=\"http://"
+#| "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+#| "NoDerivs 3.0 United States License</a>."
 msgid ""
-"For essays of opinion and scientific papers, we recommend the simple &ldquo;"
-"verbatim copying only&rdquo; license that is used for this web page."
+"For essays of opinion and scientific papers, we recommend either the <a href="
+"\"http://creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons "
+"Attribution-NoDerivs 3.0 United States License</a>, or the simple &ldquo;"
+"verbatim copying only&rdquo; license stated above."
 msgstr ""
-"Pour des essais d'opinion et des articles scientifiques, nous recommandons "
-"la simple licence «&nbsp;verbatim copying only&nbsp;» («&nbsp;copie "
-"intégrale uniquement&nbsp;») qui est utilisée pour cette page Web."
+"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. type: Content of: <p>
 msgid ""
@@ -811,9 +818,9 @@ msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF."
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
@@ -839,16 +846,8 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-msgid ""
-"Copyright &copy; 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2004, 2005, 2006, "
-"2007, 2008 Free Software Foundation, Inc.,"
-msgstr ""
-"Copyright &copy; 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2004, 2005, 2006, "
-"2007, 2008 Free Software Foundation, Inc.,"
-
-#. type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+msgid "Copyright &copy; 2011 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2011 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -871,3 +870,23 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
+
+#~ msgid ""
+#~ "For essays of opinion and scientific papers, we recommend the simple "
+#~ "&ldquo;verbatim copying only&rdquo; license that is used for this web "
+#~ "page."
+#~ msgstr ""
+#~ "Pour des essais d'opinion et des articles scientifiques, nous "
+#~ "recommandons la simple licence «&nbsp;verbatim copying "
+#~ "only&nbsp;» («&nbsp;copie intégrale uniquement&nbsp;») qui est utilisée "
+#~ "pour cette page Web."
+
+#~ msgid ""
+#~ "Copyright &copy; 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2004, 2005, "
+#~ "2006, 2007, 2008 Free Software Foundation, Inc.,"
+#~ msgstr ""
+#~ "Copyright &copy; 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2004, 2005, "
+#~ "2006, 2007, 2008 Free Software Foundation, Inc.,"
+
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"

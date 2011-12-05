@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.html\n"
-"POT-Creation-Date: 2011-11-01 12:02-0300\n"
+"POT-Creation-Date: 2011-12-04 20:00-0500\n"
 "PO-Revision-Date: 2011-11-01 19:40+0100\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -38,6 +38,10 @@ msgstr ""
 "Depuis 1983, nous développons le système d'exploitation libre GNU, de type "
 "Unix, pour que les utilisateurs d'ordinateurs puissent avoir la liberté de "
 "partager et d'améliorer les logiciels qu'ils utilisent."
+
+#. type: Attribute 'title' of: <link>
+msgid "Planet GNU"
+msgstr ""
 
 #. type: Attribute 'title' of: <link>
 msgid "What's New"
@@ -99,7 +103,7 @@ msgstr "<a href=\"/distros/screenshot.html\">"
 msgid "Screenshot of GNU"
 msgstr "Capture d'écran de GNU"
 
-#. type: Content of: <div><div><p>
+#. type: Content of: <div><div><div><h4>
 msgid "</a>"
 msgstr "</a>"
 
@@ -157,9 +161,20 @@ msgid "<a href=\"/distros/free-distros.html\">Download GNU now</a>"
 msgstr ""
 "<a href=\"/distros/free-distros.fr.html\">Téléchargez GNU maintenant</a>"
 
-#. type: Content of: <div><div><div><h4>
-msgid "GNUs Flashes"
-msgstr "Infos GNU"
+#. type: Content of: <div><div><div><h4><a>
+#, fuzzy
+#| msgid ""
+#| "For more news, see <a href=\"http://planet.gnu.org/\">Planet GNU</a>."
+msgid ""
+"<a href=\"http://planet.gnu.org/\">Planet GNU</a> <a href=\"http://planet."
+"gnu.org/rss20.xml\">"
+msgstr ""
+"Pour plus d'informations, consultez <a href=\"http://planet.gnu.org/"
+"\">Planet GNU</a>."
+
+#. type: Attribute 'alt' of: <div><div><div><h4><a><img>
+msgid "RSS Feed"
+msgstr ""
 
 #. type: Content of: <div><div><div><p>
 msgid "For more news, see <a href=\"http://planet.gnu.org/\">Planet GNU</a>."
@@ -348,21 +363,39 @@ msgstr ""
 "librairies OpenDWG, et Oracle Forms."
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "<strong>Can you help take over an <a href=\"/server/takeaction."
+#| "html#unmaint\">unmaintained GNU package</a>?</strong> <a href=\"/software/"
+#| "alive/\">alive</a>, <a href=\"/software/dotgnu-forum/\">dotgnu-forum</a>, "
+#| "<a href=\"/software/dr-geo/\">dr-geo</a>, <a href=\"/software/ggradebook/"
+#| "\">ggradebook</a>, <a href=\"/software/gleem/\">gleem</a>, <a href=\"/"
+#| "software/gnu-queue/\">gnu-queue</a>, <a href=\"/software/goldwater/"
+#| "\">goldwater</a>, <a href=\"/software/halifax/\">halifax</a>, <a href=\"/"
+#| "software/orgadoc/\">orgadoc</a>, <a href=\"/software/pgccfd/\">pgccfd</"
+#| "a>, <a href=\"/software/polyxmass/\">polyxmass</a>, <a href=\"/software/"
+#| "quickthreads/\">quickthreads</a>, <a href=\"/software/snakecharmer/"
+#| "\">snakecharmer</a>, <a href=\"/software/sxml/\">sxml</a>, <a href=\"/"
+#| "software/trueprint/\">trueprint</a> are all <a href=\"/server/takeaction."
+#| "html#unmaint\">looking for maintainers</a>.  We also need <a href=\"/"
+#| "server/takeaction.html#python_configure\">GNU configure for Python "
+#| "packages</a>."
 msgid ""
-"<strong>Can you help take over an <a href=\"/server/takeaction.html#unmaint"
+"<strong>Can you take over an <a href=\"/server/takeaction.html#unmaint"
 "\">unmaintained GNU package</a>?</strong> <a href=\"/software/alive/"
 "\">alive</a>, <a href=\"/software/dotgnu-forum/\">dotgnu-forum</a>, <a href="
 "\"/software/dr-geo/\">dr-geo</a>, <a href=\"/software/ggradebook/"
 "\">ggradebook</a>, <a href=\"/software/gleem/\">gleem</a>, <a href=\"/"
 "software/gnu-queue/\">gnu-queue</a>, <a href=\"/software/goldwater/"
 "\">goldwater</a>, <a href=\"/software/halifax/\">halifax</a>, <a href=\"/"
-"software/orgadoc/\">orgadoc</a>, <a href=\"/software/pgccfd/\">pgccfd</a>, "
-"<a href=\"/software/polyxmass/\">polyxmass</a>, <a href=\"/software/"
-"quickthreads/\">quickthreads</a>, <a href=\"/software/snakecharmer/"
-"\">snakecharmer</a>, <a href=\"/software/sxml/\">sxml</a>, <a href=\"/"
-"software/trueprint/\">trueprint</a> are all <a href=\"/server/takeaction."
-"html#unmaint\">looking for maintainers</a>.  We also need <a href=\"/server/"
-"takeaction.html#python_configure\">GNU configure for Python packages</a>."
+"software/metahtml/\">metahtml</a>, <a href=\"/software/orgadoc/\">orgadoc</"
+"a>, <a href=\"/software/pgccfd/\">pgccfd</a>, <a href=\"/software/polyxmass/"
+"\">polyxmass</a>, <a href=\"/software/quickthreads/\">quickthreads</a>, <a "
+"href=\"/software/snakecharmer/\">snakecharmer</a>, <a href=\"/software/sxml/"
+"\">sxml</a>, <a href=\"/software/trueprint/\">trueprint</a> are all <a href="
+"\"/server/takeaction.html#unmaint\">looking for maintainers</a>.  We also "
+"need <a href=\"/server/takeaction.html#python_configure\">GNU configure for "
+"Python packages</a>."
 msgstr ""
 "<strong>Pouvez-vous adopter un <a href=\"/server/takeaction.fr.html#unmaint"
 "\">paquetage GNU non maintenu</a>&nbsp;?</strong> <a href=\"/software/alive/"
@@ -427,4 +460,7 @@ msgstr ""
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
-msgstr "Dernière mise à jour&nbsp;: "
+msgstr "Dernière mise à jour&nbsp;:"
+
+#~ msgid "GNUs Flashes"
+#~ msgstr "Infos GNU"

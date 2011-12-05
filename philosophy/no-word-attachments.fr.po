@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: no-word-attachments.html\n"
-"POT-Creation-Date: 2011-09-20 12:30-0300\n"
+"POT-Creation-Date: 2011-11-27 04:25-0500\n"
 "PO-Revision-Date: 2009-05-21 16:18+0100\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Content of: <title>
@@ -357,6 +357,12 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
+"(Explanatory note: I can handle ODF too, but it isn't very convenient for "
+"me, so I don't include it in my list of suggestions.)"
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
 "<em>You sent the attachment in Microsoft Word format, a secret proprietary "
 "format, so it is hard for me to read.  If you send me plain text, HTML, or "
 "PDF, then I will read it.</em>"
@@ -408,13 +414,19 @@ msgstr ""
 "technology/3154479.stm</a> pour plus d'informations</em>."
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "<em>But above all, sending people Word documents puts pressure on them to "
+#| "use Microsoft software and helps to deny them any other choice.  In "
+#| "effect, you become a buttress of the Microsoft monopoly.  This pressure "
+#| "is a major obstacle to the broader adoption of free software.  Would you "
+#| "please switch to a different way of sending files to other people, "
+#| "instead of Word format?</em>"
 msgid ""
 "<em>But above all, sending people Word documents puts pressure on them to "
 "use Microsoft software and helps to deny them any other choice.  In effect, "
 "you become a buttress of the Microsoft monopoly.  This pressure is a major "
-"obstacle to the broader adoption of free software.  Would you please switch "
-"to a different way of sending files to other people, instead of Word format?"
-"</em>"
+"obstacle to the broader adoption of free software.</em>"
 msgstr ""
 "<em>Mais par dessus tout, envoyer aux gens des documents Word les force à "
 "utiliser des produits Microsoft et leur interdit tout autre choix. Dans les "
@@ -422,6 +434,22 @@ msgstr ""
 "pratique constitue un obstacle majeur pour une large adoption du logiciel "
 "libre. Pourriez-vous s'il vous plaît, utiliser autre chose que des documents "
 "Word pour communiquer avec les autres&nbsp;?</em>"
+
+#. type: Content of: <p>
+msgid ""
+"<em>Would you please switch to a different way of sending files to other "
+"people, instead of Word format?</em>"
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"<em>Microsoft is already starting to make Word users switch to a new version "
+"of Word format, based on OOXML.  Its specs are 6000 pages long--so complex "
+"that probably no one else can ever implement it--and Microsoft can sue you "
+"for patent infringement if you try.  If you don't wish to join in this "
+"attack against interoperability, the way to avoid it is by deciding not to "
+"use Word format for interchange.</em>"
+msgstr ""
 
 #. type: Content of: <p>
 msgid ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
-"POT-Creation-Date: 2011-11-04 12:25-0300\n"
+"POT-Creation-Date: 2011-12-02 12:25-0500\n"
 "PO-Revision-Date: 2011-06-25 17:04+0000\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -1386,6 +1386,14 @@ msgstr ""
 #, fuzzy
 #| msgid "<a href=\"/graphics/graphics.html\">GNU Graphics and Art</a>"
 msgid ""
+"<a href=\"/graphics/gnu-ascii-liberty.html\">gnu-ascii-liberty.html - GNU is "
+"Liberty</a>"
+msgstr "<a href=\"/graphics/graphics.fr.html\">Illustrations GNU</a>"
+
+#. type: Content of: <div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/graphics/graphics.html\">GNU Graphics and Art</a>"
+msgid ""
 "<a href=\"/graphics/gnu-ascii.html\">gnu-ascii.html - GNU Project - ASCII "
 "Gnu</a>"
 msgstr "<a href=\"/graphics/graphics.fr.html\">Illustrations GNU</a>"
@@ -2299,10 +2307,12 @@ msgid "<a href=\"/music/gdb-song.html\">gdb-song.html - The GDB Song</a>"
 msgstr ""
 
 #. type: Content of: <div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/server/whatsnew.html\">What's New</a>!!"
 msgid ""
-"<a href=\"/music/till_there_was_gnu.html\">till_there_was_gnu.html - 'Til "
+"<a href=\"/music/till_there_was_gnu.html\">till_there_was_gnu.html - 'Till "
 "There Was GNU</a>"
-msgstr ""
+msgstr "<a href=\"/server/whatsnew.fr.html\">Quoi de neuf&nbsp;?</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -2576,6 +2586,16 @@ msgstr ""
 #, fuzzy
 #| msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
 msgid "<a href=\"/philosophy/fire.html\">fire.html - Copyrighting fire!</a>"
+msgstr ""
+"<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel libre&nbsp;?"
+"</a>"
+
+#. type: Content of: <div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
+msgid ""
+"<a href=\"/philosophy/free-digital-society.html\">free-digital-society.html "
+"- A Free Digital Society</a>"
 msgstr ""
 "<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel libre&nbsp;?"
 "</a>"
@@ -4236,7 +4256,7 @@ msgstr ""
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
-msgstr "Dernière mise-à-jour&nbsp;:"
+msgstr "Dernière mise à jour&nbsp;:"
 
 #. type: Content of: <div><h4>
 msgid "Translations of this page"
