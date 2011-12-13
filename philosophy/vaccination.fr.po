@@ -4,12 +4,14 @@
 #
 # Marc de Maillard, 2011.
 # Julia Jumeau <juliaj@free.fr>, 2011.
+# Thérèse Godefroy <godef.th AT free.fr>, 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: vaccination.html\n"
 "POT-Creation-Date: 2011-09-20 12:31-0300\n"
-"PO-Revision-Date: 2011-12-08 22:31+0100\n"
-"Last-Translator: Marc de Maillard <mdemaillard@gmail.com>\n"
+"PO-Revision-Date: 2011-12-13 17:13+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -58,7 +60,7 @@ msgid ""
 "right to benefit from a derivative of my own work, a right I possess under "
 "current copyright law."
 msgstr ""
-"Ils me disent que je devrais arrêter d'utiliser la License générale publique "
+"Ils me disent que je devrais arrêter d'utiliser la Licence générale publique "
 "GNU, une licence qui me vaccine contre le mal. À la place, je devrais "
 "adopter une licence qui permet à d'autres personnes de me voler en toute "
 "impunité. Ils veulent que j'adopte une licence qui m'interdise de me "
@@ -120,7 +122,7 @@ msgid ""
 "illness to those who want to rob me.  I want freedom from their robbery; but "
 "they want the power to hurt me.  They get sick when they cannot hurt me."
 msgstr ""
-"La License publique générale GNU me protège. La connotation de virus et "
+"La Licence publique générale GNU me protège. La connotation de virus et "
 "d'infection est que mon choix de défense rend malades ceux qui essaient de "
 "me voler. Je veux être libre de leurs vols, mais ils veulent la possibilité "
 "de m'attaquer. Cela les rend malades de ne pas pouvoir m'atteindre."
@@ -144,8 +146,8 @@ msgid ""
 "dislike this arrangement, but it exists."
 msgstr ""
 "Notez que le vol dont je parle est complètement légal dans certaines "
-"situations : si vous placez votre travail sous une license BSD modifiée, ou "
-"une license similaire, alors cela autorise légalement d'autres personnes à "
+"situations : si vous placez votre travail sous une licence BSD modifiée, ou "
+"une licence similaire, alors cela autorise légalement d'autres personnes à "
 "prendre votre travail, à le corriger ou à l'améliorer, et à vous interdire "
 "d'utiliser ce code. Personnellement je désapprouve ces pratiques mais elles "
 "existent."
@@ -199,13 +201,15 @@ msgid ""
 msgstr ""
 "La reproduction exacte et la distribution intégrale de cet article est "
 "permise sur n'importe quel support d'archivage sans contrepartie financière, "
-"pourvu que cette notice soit préservè."
+"pourvu que cette notice soit préservée."
 
 # type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
-msgstr " "
+msgstr ""
+"Traduction&nbsp;: Marc de Maillard<br />Révision&nbsp;: <a href=\"mailto:"
+"trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
 #. type: Content of: <div><p>
