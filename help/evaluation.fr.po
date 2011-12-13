@@ -1,13 +1,14 @@
 # French translation of http://www.gnu.org/help/evaluation.html
 # Copyright (C) 2001 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnu.org package.
-# Thérèse Godefroy <godef.th@free.fr>, 2011.
+# Thérèse Godefroy <godef.th AT free.fr>, 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: evaluation\n"
 "POT-Creation-Date: 2011-09-20 12:27-0300\n"
-"PO-Revision-Date: 2011-12-08 19:14+0100\n"
-"Last-Translator: Therese <godef.th@free.fr>\n"
+"PO-Revision-Date: 2011-12-13 17:25+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -41,13 +42,6 @@ msgstr ""
 "l'évaluer dans les meilleurs délais."
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "Please take your time filling out the questionnaire.  We've written it as "
-#| "preformatted text so you can copy to your system and fill it out at your "
-#| "convenience.  When you're done, please email it to <a href=\"mailto:"
-#| "gnueval-input@gnu.org\";>&lt;gnueval-input@gnu.org&gt;</a> (as plain "
-#| "text)."
 msgid ""
 "Please take your time filling out the questionnaire.  We've written it as "
 "preformatted text so you can copy to your system and fill it out at your "
@@ -55,9 +49,9 @@ msgid ""
 "input@gnu.org\">&lt;gnueval-input@gnu.org&gt;</a> (as plain text)."
 msgstr ""
 "Prenez votre temps pour remplir ce questionnaire. Nous l'avons écrit en "
-"texte préformatté pour que vous puissiez le copier sur votre système et le "
+"texte préformaté pour que vous puissiez le copier sur votre système et le "
 "remplir à loisir. Quand vous aurez fini, veuillez l'envoyer par courriel à "
-"<a href=\"mailto:gnueval-input@gnu.org\";>&lt;gnueval-input@gnu.org&gt;</a> "
+"<a href=\"mailto:gnueval-input@gnu.org\">&lt;gnueval-input@gnu.org&gt;</a> "
 "(en texte brut)."
 
 #. type: Content of: <p>
@@ -101,8 +95,9 @@ msgstr ""
 "s'intègrent dans le système GNU, aussi bien techniquement que "
 "philosophiquement, ainsi que sur leur qualité, leur utilité, et autres "
 "caractéristiques souhaitables. C'est Richard Stallman, le <i>Chief "
-"GNUisance</i> (NdT&nbsp;: chef enGNUyant), qui prend la décision finale "
-"d'accepter ou non la contribution, sur la base du rapport d'évaluation."
+"GNUisance</i><a href=\"#TransNote1\"><sup>1</sup></a>, qui prend la décision "
+"finale d'accepter ou non la contribution, sur la base du rapport "
+"d'évaluation."
 
 #. type: Content of: <p>
 msgid ""
@@ -132,12 +127,6 @@ msgstr ""
 "regarder également les documents complets."
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "If you don't wish to fill out the questionnaire and/or meet the "
-#| "requirements for official GNU packages, we still encourage you to submit "
-#| "it to the <a href=\"http://directory.fsf.org\";>Free Software Directory</"
-#| "a>.  We want the Directory to cover all released free software packages."
 msgid ""
 "If you don't wish to fill out the questionnaire and/or meet the requirements "
 "for official GNU packages, we still encourage you to submit it to the <a "
@@ -146,9 +135,9 @@ msgid ""
 msgstr ""
 "Si vous ne souhaitez pas remplir le questionnaire, ou satisfaire aux "
 "conditions des paquetages GNU officiels, nous vous encourageons à soumettre "
-"tout de même votre programme au <a href=\"http://directory.fsf.org\";"
-">répertoire des logiciels libres</a>. Nous voulons que ce répertoire couvre "
-"tous les logiciels libres publiés. "
+"tout de même votre programme au <a href=\"http://directory.fsf.org"
+"\">répertoire des logiciels libres</a>. Nous voulons que ce répertoire "
+"couvre tous les logiciels libres publiés. "
 
 #. type: Content of: <p>
 msgid "Thanks again for your interest in GNU."
@@ -359,7 +348,7 @@ msgstr ""
 #. type: Content of: <h3>
 msgid "Questionnaire for offering software to GNU"
 msgstr ""
-"Questionnaire<sup><a href=\"#TransNote1\">1</a></sup> pour faire don d'un "
+"Questionnaire<sup><a href=\"#TransNote2\">2</a></sup> pour faire don d'un "
 "logiciel à GNU"
 
 #. type: Content of: <pre>
@@ -500,16 +489,12 @@ msgstr ""
 "\n"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "Again, please email the questionnaire to <a href=\"mailto:gnueval-"
-#| "input@gnu.org\";>&lt;gnueval-input@gnu.org&gt;</a> when it is done."
 msgid ""
 "Again, please email the questionnaire to <a href=\"mailto:gnueval-input@gnu."
 "org\">&lt;gnueval-input@gnu.org&gt;</a> when it is done."
 msgstr ""
 "Comme dit plus haut, veuillez renvoyer le questionnaire à <a href=\"mailto:"
-"gnueval-input@gnu.org\";>&lt;gnueval-input@gnu.org&gt;</a> quand vous aurez "
+"gnueval-input@gnu.org\">&lt;gnueval-input@gnu.org&gt;</a> quand vous aurez "
 "fini de le remplir."
 
 #. type: Content of: <h3>
@@ -528,8 +513,10 @@ msgstr ""
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
-"<b>Notes de traduction</b>&nbsp;:<ol><li id=\"TransNote1\">Le questionnaire "
-"n'a pas été traduit car il doit être rempli en anglais.</li></ol>"
+"<b>Notes de traduction</b><ol>\n"
+"<li id=\"TransNote1\">Traduction possible&nbsp;: chef enGNUyant.\n"
+"<li id=\"TransNote2\">Le questionnaire n'a pas été traduit car il doit être "
+"rempli en anglais.</li></ol>"
 
 #. type: Content of: <div><p>
 msgid ""
@@ -542,16 +529,12 @@ msgstr ""
 "contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
 #. type: Content of: <div><p>
-#, fuzzy
-#| msgid ""
-#| "Please send broken links and other corrections or suggestions to <a href="
-#| "\"mailto:gnueval-input@gnu.org\";>&lt;gnueval-input@gnu.org&gt;</a>."
 msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:gnueval-input@gnu.org\">&lt;gnueval-input@gnu.org&gt;</a>."
 msgstr ""
 "Veuillez indiquer (en anglais) les liens orphelins ou d'autres suggestions "
-"sur cette page web à <a href=\"mailto:gnueval-input@gnu.org\";>&lt;gnueval-"
+"sur cette page web à <a href=\"mailto:gnueval-input@gnu.org\">&lt;gnueval-"
 "input@gnu.org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -582,28 +565,10 @@ msgstr ""
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
-"Traduction&nbsp;: Thérèse Godefroy<br />Révision&nbsp;:<br />Contact&nbsp;: "
-"<a href=\"mailto:trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
+"Traduction&nbsp;: Thérèse Godefroy<br />Révision&nbsp;: <a href=\"mailto:"
+"trad-gnu&#64;april.org\">trad-gnu&#64;april.org</a>"
 
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-#~ msgid ""
-#~ "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu."
-#~ "org\";>&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/"
-#~ "\">other ways to contact</a> the FSF."
-#~ msgstr ""
-#~ "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
-#~ "gnu@gnu.org\";>&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/"
-#~ "contact/\">d'autres moyens de contacter</a> la FSF. "
-
-#~ msgid ""
-#~ "This page is licensed under a <a rel=\"license\" href=\"http://"
-#~ "creativecommons.org/licenses/by-nd/3.0/us/\";>Creative Commons "
-#~ "Attribution-NoDerivs 3.0 United States License</a>."
-#~ msgstr ""
-#~ "Cette page peut-être utilisée suivant les conditions de la licence <a rel="
-#~ "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/\";"
-#~ ">Creative Commons Attribution-NoDerivs 3.0 United States License</a>."
