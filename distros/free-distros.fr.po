@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: free-distros.html\n"
-"POT-Creation-Date: 2011-09-20 12:25-0300\n"
+"POT-Creation-Date: 2011-12-09 20:25-0500\n"
 "PO-Revision-Date: 2011-10-02 10:48+0200\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -85,12 +85,18 @@ msgstr ""
 "ils doivent écrire à &lt;webmasters@gnu.org&gt;."
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "If you're wondering why a certain popular distribution isn't listed here, "
+#| "you may want to check our page explaining <a href=\"/distros/common-"
+#| "distros.html\">why we don't endorse some common distributions</a>.  "
+#| "There, we've listed the reasons why several well-known distributions "
+#| "don't meet our guidelines."
 msgid ""
-"If you're wondering why a certain popular distribution isn't listed here, "
-"you may want to check our page explaining <a href=\"/distros/common-distros."
-"html\">why we don't endorse some common distributions</a>.  There, we've "
-"listed the reasons why several well-known distributions don't meet our "
-"guidelines."
+"If you're wondering why a certain distribution isn't listed here, you may "
+"want to check our page explaining <a href=\"/distros/common-distros.html"
+"\">why we don't endorse some common distributions</a>.  There, we've listed "
+"the reasons why several well-known distributions don't meet our guidelines."
 msgstr ""
 "Si vous vous demandez pourquoi une certaine distribution populaire n'est pas "
 "référencée ici, vous voudrez peut-être consulter la page indiquant <a href="
@@ -110,10 +116,14 @@ msgstr ""
 "accomplir ce but, et espérons pouvoir les mettre sur la liste bientôt."
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Information about <a href=\"/software/software.html\">individual GNU "
+#| "packages</a> (most of which are included in the free distros here) is "
+#| "available separately."
 msgid ""
-"Information about <a href=\"/software/software.html\">individual GNU "
-"packages</a> (most of which are included in the free distros here) is "
-"available separately."
+"<a href=\"/software/software.html\">Individual GNU packages</a> (most of "
+"which are included in the free distros here)  are described separately."
 msgstr ""
 "Des informations au sujet des <a href=\"/software/software.fr.html"
 "\">paquetages GNU individuels</a> (la plupart faisant partie des distros "
@@ -276,6 +286,15 @@ msgstr "Venenux"
 #. type: Content of: <table><tr><td>
 msgid "Venenux, a GNU/Linux distribution built around the KDE desktop."
 msgstr "Venenux, une distribution libre bâtie autour d'un bureau KDE."
+
+#. type: Content of: <p>
+msgid ""
+"In addition to their own sites, many of these distros are available from <a "
+"href=\"http://mirror.fsf.org\">mirror.fsf.org</a>.  Feel free to download or "
+"mirror the distros from there, preferably using rsync.  (Free distro "
+"maintainers: please contact <a href=\"mailto:sysadmin@fsf.org\">FSF "
+"sysadmin</a> to have your distro mirrored there.)"
+msgstr ""
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
