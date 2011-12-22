@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2011-12-14 20:25-0500\n"
+"POT-Creation-Date: 2011-12-16 04:25-0500\n"
 "PO-Revision-Date: 2011-06-25 17:03+0000\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -3720,10 +3720,17 @@ msgstr ""
 "ainsi que l'usage commercial du logiciel, et elle peut être révoquée."
 
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"IBMPL\" href=\"http://www.opensource.org/licenses/ibmpl.php\"> "
+#| "IBM Public License, Version 1.0</a>"
 msgid ""
 "<a id=\"Sybase\" href=\"http://www.opensource.org/licenses/"
-"Watcom-1.0\">Sybase Open Watcom Public License version 1.0</a>"
+"Watcom-1.0\">Sybase Open Watcom Public License version 1.0</a> <span class="
+"\"anchor-reference-id\">(<a href=\"#Watcom\">#Watcom</a>)</span>"
 msgstr ""
+"<a id=\"IBMPL\" href=\"http://www.opensource.org/licenses/ibmpl.php\">IBM "
+"Public License, Version 1.0</a>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""

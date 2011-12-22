@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
-"POT-Creation-Date: 2011-12-09 12:25-0500\n"
+"POT-Creation-Date: 2011-12-16 12:25-0500\n"
 "PO-Revision-Date: 2011-06-25 17:04+0000\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -3845,6 +3845,99 @@ msgid ""
 "<a href=\"/server/source/source.html\">server/source - Web server utility "
 "sources</a>"
 msgstr ""
+
+#. type: Content of: <div><div><div><div>
+#, fuzzy
+#| msgid "<a href=\"/prep/standards.html\">GNU Coding Standards</a>"
+msgid "<a href=\"/server/staging/\">server/staging</a>"
+msgstr "<a href=\"/prep/standards.html\">Standards de codage GNU</a>"
+
+#. type: Content of: <div><div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/server/sitemap.html\">Sitemap</a>"
+msgid ""
+"<a href=\"/server/staging/edu-cases.html\">edu-cases.html - Case Studies</a>"
+msgstr "<a href=\"/server/sitemap.fr.html\">Plan du site</a>"
+
+#. type: Content of: <div><div><div><ul><li>
+#, fuzzy
+#| msgid ""
+#| "A list of <a href= \"/education/software.html\">Educational Free Software "
+#| "and Savannah Projects</a>"
+msgid ""
+"<a href=\"/server/staging/edu-contents.html\">edu-contents.html - Free "
+"Software and Education - Table of Contents</a>"
+msgstr ""
+"Une liste de <a href= \"/education/software.html\">Projets de logiciels "
+"libres pour l'éducation et de projets Savannah</a>"
+
+#. type: Content of: <div><div><div><ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"/licenses/gpl-faq.html\">Frequently Asked Questions about the "
+#| "GNU Licenses</a>"
+msgid ""
+"<a href=\"/server/staging/edu-faq.html\">edu-faq.html - Educational "
+"Frequently Asked Questions</a>"
+msgstr ""
+"<a href=\"/licenses/gpl-faq.fr.html\">Foire aux questions sur les licences "
+"GNU</a>"
+
+#. type: Content of: <div><div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/gnu/thegnuproject.html\">The GNU Project</a>"
+msgid ""
+"<a href=\"/server/staging/edu-projects.html\">edu-projects.html - Other "
+"Education Groups and Projects</a>"
+msgstr "<a href=\"/gnu/thegnuproject.fr.html\">Le Projet GNU</a>"
+
+#. type: Content of: <div><div><div><ul><li>
+#, fuzzy
+#| msgid ""
+#| "A list of <a href= \"/education/software.html\">Educational Free Software "
+#| "and Savannah Projects</a>"
+msgid ""
+"<a href=\"/server/staging/edu-resources.html\">edu-resources.html - Free "
+"Educational Resources</a>"
+msgstr ""
+"Une liste de <a href= \"/education/software.html\">Projets de logiciels "
+"libres pour l'éducation et de projets Savannah</a>"
+
+#. type: Content of: <div><div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/server/sitemap.html\">Sitemap</a>"
+msgid ""
+"<a href=\"/server/staging/edu-team.html\">edu-team.html - The Education "
+"Team</a>"
+msgstr "<a href=\"/server/sitemap.fr.html\">Plan du site</a>"
+
+#. type: Content of: <div><div><div><ul><li>
+#, fuzzy
+#| msgid ""
+#| "A list of <a href= \"/education/software.html\">Educational Free Software "
+#| "and Savannah Projects</a>"
+msgid ""
+"<a href=\"/server/staging/education.html\">education.html - Free Software "
+"and Education</a>"
+msgstr ""
+"Une liste de <a href= \"/education/software.html\">Projets de logiciels "
+"libres pour l'éducation et de projets Savannah</a>"
+
+#. type: Content of: <div><div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/gnu/thegnuproject.html\">The GNU Project</a>"
+msgid ""
+"<a href=\"/server/staging/home.html\">home.html - The GNU Operating System</"
+"a>"
+msgstr "<a href=\"/gnu/thegnuproject.fr.html\">Le Projet GNU</a>"
+
+#. type: Content of: <div><div><div><ul><li>
+#, fuzzy
+#| msgid "<a href=\"/philosophy/philosophy.html\">Philosophical texts</a>"
+msgid ""
+"<a href=\"/server/staging/philosophy.html\">philosophy.html - Philosophy of "
+"the GNU Project</a>"
+msgstr "<a href=\"/philosophy/philosophy.fr.html\">Textes philosophiques</a>"
 
 #. type: Content of: <div><div><div><div>
 #, fuzzy

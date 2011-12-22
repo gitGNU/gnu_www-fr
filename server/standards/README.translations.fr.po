@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: README.translations.html\n"
-"POT-Creation-Date: 2011-12-08 04:25-0500\n"
+"POT-Creation-Date: 2011-12-16 12:25-0500\n"
 "PO-Revision-Date: 2011-10-02 09:50+0200\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -18,311 +18,404 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Content of: <title>
+#, fuzzy
+#| msgid ""
+#| "Guide to Translating www.gnu.org Web Pages - GNU Project - Free Software "
+#| "Foundation (FSF)"
 msgid ""
-"Guide to Translating www.gnu.org Web Pages - GNU Project - Free Software "
+"Guide to Translating Web Pages on www.gnu.org - GNU Project - Free Software "
 "Foundation (FSF)"
 msgstr ""
 "Guide de traduction des pages web de www.gnu.org - GNU Project - Free "
 "Software Foundation (FSF)"
 
 #. type: Content of: <h2>
-msgid "Guide to Translating www.gnu.org Web Pages"
+#, fuzzy
+#| msgid "Guide to Translating www.gnu.org Web Pages"
+msgid "Guide to Translating Web Pages on www.gnu.org"
 msgstr "Guide de traduction des pages web de www.gnu.org"
 
-#. type: Content of: <a>
+#. type: Content of: <p><a>
 msgid "<a href=\"/graphics/atypinggnu.html\">"
 msgstr "<a href=\"/graphics/atypinggnu.fr.html\">"
 
-#. type: Attribute 'alt' of: <a><img>
+#. type: Attribute 'alt' of: <p><a><img>
 msgid "A Typing GNU"
 msgstr "Un GNU tapant à la machine"
 
-#. type: Attribute 'title' of: <a><img>
+#. type: Attribute 'title' of: <p><a><img>
 msgid "A Typing GNU Hacker"
 msgstr "Un hacker GNU sur son clavier"
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <p>
 msgid "</a>"
 msgstr "</a>"
 
-#. type: Content of: <div><p>
+#. type: Content of: <h3>
+msgid "Introduction"
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"Translating gnu.org with its many articles and keeping them updated is a "
+"complex task which requires careful organization. Translators are grouped "
+"into teams, one for each language, and each team normally has a coordinator. "
+"However, there are some languages for which no team has been formed yet, and "
+"sometimes a team lacks a coordinator."
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"Team Coordinators use software tools to update pages efficiently for partial "
+"changes. One of these tools is a program called <strong>GNUnited Nations</"
+"strong> (GNUN) that makes it very easy to maintain and keep track of "
+"translations that need to be updated; it was developed ad hoc by our current "
+"GNU Translations Manager Yavor Doganov."
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"The Translations Manager is the person in charge of the overall organization "
+"of teams and is generally involved in training new Team Coordinators."
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"As a Team Member, you can contribute to translations without knowing "
+"anything about GNUN, but you can help at more levels if you know how to use "
+"it."
+msgstr ""
+
+#. type: Content of: <h3>
+msgid "Who can help"
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"All teams are always looking for new volunteers. Basically, there is a task "
+"for everyone in the translation process: we need people with good language "
+"skills, as well as people with good technical skills or willing to learn "
+"some simple technical skills."
+msgstr ""
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"If you have a deep understanding of written English and a rich command of "
+"your native language, you can certainly engage in translation, or do proof-"
+"reading. Writing good English is not necessary."
+msgstr ""
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"If your understanding of English is not first class, or if you don't know "
+"English at all but have a good mastery of your mother tongue, you can help "
+"review other people's translations to make sure they read well and have a "
+"good style."
+msgstr ""
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"If you are a native English speaker, and you can read another language, even "
+"if not quickly and easily, you can still help improve translations in that "
+"language. Translators sometimes misunderstand English idioms and expressions "
+"and write translations that are misleading or even incorrect. These errors "
+"are obvious to the native English speaker&mdash;you can indicate possible "
+"errors and explain the intended meaning, and others can retranslate that "
+"part."
+msgstr ""
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"If you are inclined or willing to go for the more technical side of the "
+"translation process, you can help further; for example, by preparing "
+"translated texts for publication."
+msgstr ""
+
+#. type: Content of: <h3>
+msgid "How to Participate"
+msgstr ""
+
+#. type: Content of: <dl><dt>
+msgid "As a Team Member"
+msgstr ""
+
+#. type: Content of: <dl><dd>
+msgid ""
+"Please read the <a href=\"#general-guide\">General Guide for Translations</"
+"a> below and then contact the relevant <a href=\"#teams\">translation team</"
+"a>. Each team has its own system of organizing the work. Thus, to join an "
+"existing team, you need to get detailed information from that team. The Team "
+"Coordinator will be able to guide you through their specific methods. If you "
+"don't get an answer from the team in two weeks, write to the Translations "
+"Manager <a href=\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu."
+"org&gt;</a>."
+msgstr ""
+
+#. type: Content of: <dl><dt>
+msgid "As an Occasional Contributor"
+msgstr ""
+
+#. type: Content of: <dl><dd>
+msgid ""
+"If you just want to submit a new translation and are not interested in "
+"collaborating regularly, follow the <a href=\"#general-guide\">General Guide "
+"for Translations</a> below and then send your translation to the appropriate "
+"<a href=\"#teams\"> Team Coordinator</a> if there is one, or to the "
+"Translations Manager <a href=\"mailto:web-translators@gnu.org\">&lt;web-"
+"translators@gnu.org&gt;</a> if there is no team or coordinator for your "
+"language."
+msgstr ""
+
+#. type: Content of: <dl><dt>
+msgid "As a Team Coordinator"
+msgstr ""
+
+#. type: Content of: <dl><dd>
 #, fuzzy
 #| msgid ""
 #| "Please send broken links and other corrections or suggestions to <a href="
 #| "\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a>."
 msgid ""
-"This guide is being revised, so some of the information may no longer be "
-"relevant. To avoid any unnecessary effort, please contact <a href=\"mailto:"
-"web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a> first."
+"If you would like to form a new team or become a Team Coordinator, please "
+"read this entire page and then get in touch with the Translations Manager <a "
+"href=\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page "
 "web à <a href=\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <h3>
-msgid "General Guide"
+#, fuzzy
+#| msgid "General Guide"
+msgid "General Guide for Translations"
 msgstr "Guide général"
 
-#. type: Content of: <ul><li>
-msgid "Before doing anything, please read"
-msgstr "Avant de faire quoi que ce soit, veuillez lire"
+#. type: Content of: <p>
+msgid "Here are our specific goals for our translated pages."
+msgstr ""
+
+#. type: Content of: <h4>
+msgid "Accuracy"
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"In order to produce a translation which is accurate and faithful to the "
+"original, you need to be familiar with the basic concepts of the GNU Project "
+"and the specific terminology used in gnu.org:"
+msgstr ""
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"&ldquo;Copyleft&rdquo; is a term that can be difficult to translate in some "
+"languages. It is a pun on the word &ldquo;Copyright&rdquo; based on the two "
+"meanings of &ldquo;right&rdquo;: ethical and directional. You can read the "
+"article <a href=\"/copyleft/copyleft.html\">What is Copyleft?</a> to learn "
+"more about it and see how it has been translated into other languages. You "
+"will see that in most cases it has not been translated at all, so if you "
+"can't find a good translation for it in your language, the only option may "
+"be to use the English word."
+msgstr ""
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"See the <a href=\"/philosophy/fs-translations.html\">Translations of the "
+"Term &ldquo;Free Software&rdquo;</a> in several languages."
+msgstr ""
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"You can learn more about specific terms and the GNU philosophy by reading "
+"some articles such as the following, among others that you may find useful:"
+msgstr ""
+
+#. type: Content of: <ul><li><ul><li>
+msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
+msgstr ""
 
 #. type: Content of: <ul><li><ul><li>
 msgid ""
-"the <a href=\"/server/standards/readme_index.html\">Guidelines</a> for GNU "
-"Web Site Volunteers,"
+"<a href=\"/philosophy/categories.html\">Categories of Free and Nonfree "
+"Software</a>"
 msgstr ""
-"Les <a href=\"/server/standards/readme_index.html\">directives</a> pour les "
-"volontaires du site web GNU"
+
+#. type: Content of: <ul><li><ul><li>
+msgid "<a href=\"/philosophy/words-to-avoid.html\">Words to Avoid</a>"
+msgstr ""
+
+#. type: Content of: <ul><li><ul><li>
+msgid "<a href=\"/gnu/why-gnu-linux.html\">What's in a Name?</a>"
+msgstr ""
 
 #. type: Content of: <ul><li><ul><li>
 msgid ""
-"the <a href=\"/server/fsf-html-style-sheet.html\">FSF HTML Style Sheet</a>, "
-"http://www.gnu.org/server/fsf-html-style-sheet.html"
+"<a href=\"/philosophy/open-source-misses-the-point.html\">Open Source Misses "
+"the Point of Free Software</a>"
 msgstr ""
-"La <a href=\"/server/fsf-html-style-sheet.html\">feuille de style HTML de la "
-"FSF</a>, http://www.gnu.org/server/fsf-html-style-sheet.html"
 
-#. type: Content of: <ul><li><ul><li>
-msgid "the <a href=\"/software/trans-coord/manual/\">GNUN</a> manuals."
-msgstr "les manuels <a href=\"/software/trans-coord/manual/\">GNUN</a>."
-
-#. type: Content of: <ul><li>
-msgid ""
-"After reading this page, refer to the <a href=\"#TranslationsUnderway"
-"\">Translations Underway</a> list, and check if there is already a team "
-"formed for the language you want to translate to. If not, contact <a href="
-"\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a>, and "
-"ask if you can start a new team for your language."
-msgstr ""
-"Après la lecture de cette page, référez-vous à la liste des <a href="
-"\"#TranslationsUnderway\">traductions en cours</a> et vérifiez s'il existe "
-"déjà une équipe qui s'occupe de la langue dans laquelle vous voulez "
-"traduire. Sinon, contactez <a href=\"mailto:web-translators@gnu.org\">&lt;"
-"web-translators@gnu.org&gt;</a>, et demandez si vous pouvez commencer une "
-"nouvelle équipe de traduction pour votre langue."
-
-#. type: Content of: <h3>
-msgid "Language Codes"
-msgstr "Les codes de langues"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://www.loc.gov/standards/iso639-2/php/code_list.php\">ISO 639</"
-"a> gives the two-letter language codes in its 2<sup>nd</sup> column.  If a "
-"two-letter language code is not assigned, 3-letter (ISO 639-2) can be used.  "
-"Later versions of RFC 1766 and ISO 639 may exist."
-msgstr ""
-"L'<a href=\"http://www.loc.gov/standards/iso639-2/langcodes.html\">ISO 639</"
-"a> donne les codes de langues sur deux lettres dans la seconde colonne. Si "
-"un code de langue sur deux lettres n'est pas assigné, un code à trois "
-"lettres (ISO 639-2) peut être utilisé. Des versions ultérieures aux RFC 1766 "
-"et ISO 639 peuvent exister."
-
-#. type: Content of: <ul><li>
-msgid ""
-"If ISO 639 does not have a code, do some research and find out the right one "
-"to use. ISO 3166 gives the codes for countries.  Language and country codes "
-"do not have to be the same. It is a mistake to assume a country code can be "
-"substituted for a language code &mdash; unless you verify it against a "
-"standard."
-msgstr ""
-"Si le document ISO 639 ne spécifie pas un code, faites quelques recherches "
-"et trouvez celui qu'il faut utiliser. Le document ISO 3166 donne des codes "
-"pour les pays.  Le code langue et le code pays ne sont pas nécessairement "
-"les mêmes. C'est une erreur de supposer qu'un code pays peut être substitué "
-"à un code langue, à moins que vous ne vérifiez cela dans une norme."
-
-#. type: Content of: <h3>
-msgid "What to Translate"
-msgstr "Ce qu'il faut traduire"
-
-#. type: Content of: <ul><li>
-msgid ""
-"Documents should be converted together with their &ldquo;glue pages&rdquo;, "
-"such as <code>home.html</code> and <code>philosophy/philosophy.html</code>."
-msgstr ""
-"Les documents doivent être conservés ensemble avec leurs «&nbsp;pages "
-"collantes&nbsp;», tels que <code>home.html</code> et <code>philosophy/"
-"philosophy.html</code>."
-
-#. type: Content of: <ul><li>
-msgid "Don't translate anything under these directories:"
-msgstr "Ne traduisez rien dans ces répertoires&nbsp;:"
-
-#. type: Content of: <ul><li><dl><dt>
-msgid "<code>/software/</code>"
-msgstr "<code>/software/</code>"
-
-#. type: Content of: <ul><li><dl><dd>
-msgid ""
-"We leave that area up to each maintainer. But if you want to help a "
-"maintainer do translations, ask hir (him or her)."
-msgstr ""
-"Nous laissons cette zone à la disposition de leurs mainteneurs respectifs. "
-"Mais si vous voulez aider un mainteneur à faire des traductions, demandez-le "
-"lui."
-
-#. type: Content of: <ul><li><dl><dt>
-msgid "<code>/brave-gnu-world/</code>"
-msgstr "<code>/brave-gnu-world/</code>"
-
-#. type: Content of: <ul><li><dl><dd>
-msgid ""
-"Here's how to <a href=\"/brave-gnu-world/translations.html\">help translate</"
-"a> <cite>Brave GNU World</cite>."
-msgstr ""
-"Voilà comment <a href=\"/brave-gnu-world/translations.html\">aider à la "
-"traduction</a> <cite>de Brave GNU World</cite>."
-
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
+#, fuzzy
+#| msgid ""
+#| "When translating &ldquo;GNU's Not Unix&rdquo;, please ensure that the "
+#| "translation remains recursive. If a recursive translation cannot be "
+#| "conceived,"
 msgid ""
 "When translating &ldquo;GNU's Not Unix&rdquo;, please ensure that the "
 "translation remains recursive. If a recursive translation cannot be "
-"conceived,"
+"conceived, use the following format (this is an example for Swedish): &ldquo;"
+"GNU's Not Unix (<span xml:lang=\"sv\" lang=\"sv\"> GNU &auml;r inte Unix</"
+"span>)&rdquo;."
 msgstr ""
 "Quand vous traduisez «&nbsp;GNU N'est pas Unix&nbsp;» (NdT&nbsp;: «&nbsp;"
 "GNU's Not Unix&nbsp;»), veuillez vous assurez que la traduction reste "
 "récursive. Si une traduction récursive ne peut être conçue,"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <h4>
+#, fuzzy
+#| msgid "Translations Underway"
+msgid "Translators Manual"
+msgstr "Traductions en cours"
+
+#. type: Content of: <p>
 msgid ""
-"use the following format: &ldquo;GNU's Not Unix (<span xml:lang=\"sv\" lang="
-"\"sv\">GNU &auml;r inte Unix</span>)&rdquo;."
+"You may also want to read the <a href=\"/software/trans-coord/manual/web-"
+"trans/\">GNU Web Translators Manual</a> if you wish to have a better "
+"understanding of how our translation system works. But please talk to the "
+"team first; most probably you will not be required to read it in order to "
+"start helping."
 msgstr ""
-"utilisez la forme suivante&nbsp;: «&nbsp;GNU's Not Unix (<span xml:lang=\"sv"
-"\" lang=\"sv\">GNU är inte Unix</span>)&nbsp;»."
+
+#. type: Content of: <h4>
+msgid "What to Translate"
+msgstr "Ce qu'il faut traduire"
+
+#. type: Content of: <p>
+msgid ""
+"All essays and articles in the following directories should be translated in "
+"all available languages, but you should first browse our <a href=\"/server/"
+"standards/translations/priorities.html\">Web Translation Priorities</a>:"
+msgstr ""
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid "<code>/software/</code>"
+msgid "<code>copyleft/</code>"
+msgstr "<code>/software/</code>"
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid "<code>/software/</code>"
+msgid "<code>education/</code>"
+msgstr "<code>/software/</code>"
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid "<code>/brave-gnu-world/</code>"
+msgid "<code>gnu/</code>"
+msgstr "<code>/brave-gnu-world/</code>"
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid "<code>/software/</code>"
+msgid "<code>licenses/</code>"
+msgstr "<code>/software/</code>"
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid "<code>/software/</code>"
+msgid "<code>philosophy/</code>"
+msgstr "<code>/software/</code>"
+
+#. type: Content of: <p>
+msgid ""
+"Again, please coordinate with your language team before starting any work, "
+"to get clear instructions on how to proceed and to avoid duplicating efforts."
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"<em><strong>Note:</strong></em> The material in the <code>software/</code> "
+"directory pertains to individual GNU packages. If you would like to "
+"translate something in that directory, please talk with the maintainers of "
+"the package to see what they would like to do."
+msgstr ""
 
 #. type: Content of: <h3>
-msgid "Translating the home page"
-msgstr "Traduire la page d'accueil"
+msgid "Guide for Team Coordinators"
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"If there is no team established for your language or a new Team Coordinator "
+"is needed, we will be grateful if you undertake that task.  To volunteer, "
+"write to the Translations Manager <a href=\"mailto:web-translators@gnu.org"
+"\">&lt;web-translators@gnu.org&gt;</a>, but please first read the following "
+"explanation of what a Team Coordinator does specifically, apart from what "
+"has been described in the General Guide."
+msgstr ""
 
 #. type: Content of: <ul><li>
 msgid ""
-"The translated homepage must include the full list of translations via SSI."
+"First, let's look at the tools that we use in our website to process "
+"translations and to keep them updated."
 msgstr ""
-"La page d'accueil traduite doit contenir la liste complète des traductions "
-"via SSI."
 
-#. type: Content of: <ul><li><p>
-msgid "The required SSI tag looks like this:"
-msgstr "L'élément SSI nécessaire ressemble à cela&nbsp;:"
-
-#. type: Content of: <ul><li><pre>
-#, no-wrap
-msgid ""
-"            &lt;!--#include file=\"translations.include\" --&gt;\n"
-"        "
-msgstr ""
-"            &lt;!--#include file=\"translations.include\" --&gt;\n"
-"        "
-
-#. type: Content of: <ul><li>
-msgid ""
-"If you provide a new home page translation you must update the "
-"<code>translations.include</code> file. The file is stored in the GNU "
-"webservers root directory."
-msgstr ""
-"Si vous fournissez une nouvelle traduction de la page d'accueil vous devez "
-"mettre à jour le fichier <code>translations.include</code>. Le fichier est "
-"stocké dans le répertoire racine du serveur web GNU."
-
-#. type: Content of: <h3>
-msgid "Linking Other Documents"
-msgstr "Lier d'autres documents"
-
-#. type: Content of: <ul><li>
-msgid ""
-"All links are relative to the web server root, meaning that they should link "
-"to, for example, /software/software.html and not just software.html."
-msgstr ""
-"Tous les liens sont relatifs à la racine du serveur web, ce qui veut dire "
-"qu'ils doivent pointer vers, par exemple, /software/software.html et pas "
-"juste software.html."
-
-#. type: Content of: <ul><li>
-msgid ""
-"Link should be made pointing to a translated page if it exists, else made "
-"pointing to the English original. You should NOT make links that depend upon "
-"content negotiation. One reason is that they will fail on mirror servers "
-"that do not do content negotiation."
-msgstr ""
-"Un lien doit pointer vers la langue courante du document, si la traduction "
-"de la page existe, sinon elle doit pointer vers la version anglaise "
-"originale. Vous ne devez PAS faire des liens qui dépendent de la négociation "
-"de contenu. Une raison à cela est que ces liens seraient défectueux sur les "
-"serveurs miroirs qui ne gèrent pas la négociation de contenu."
-
-#. type: Content of: <h3>
-msgid "Translations into Other Languages"
-msgstr "Les traductions dans d'autres langues"
-
-#. type: Content of: <ul><li>
-msgid ""
-"The top and bottom of all translations (including the English original) "
-"should contain links to other translations of the document when such exists. "
-"See the <a href=\"/boilerplate.html\">http://www.gnu.org/boilerplate.html</"
-"a> for an example on how to do this."
-msgstr ""
-"Le haut et le bas de toutes les traductions (ce qui inclut l'original en "
-"anglais) doivent contenir les liens vers les autres traductions du document "
-"quand elles existent. Voir <a href=\"/boilerplate.html\">http://www.gnu.org/"
-"boilerplate.html</a> pour un exemple montrant comment faire cela."
-
-#. type: Content of: <h3>
-msgid "Filenames"
-msgstr "Les noms de fichier"
-
-#. type: Content of: <ul><li>
-msgid ""
-"Translations should be named <code>article.LANG.html</code> where "
-"<code>LANG</code> is the <a href=\"#LanguageCodes\">language code</a>."
-msgstr ""
-"Les traductions doivent être nommées <code>article.LANGUE.html</code> où "
-"<code>LANGUE</code> est le <a href=\"#LanguageCodes\">code à deux lettres de "
-"la langue</a>."
-
-#. type: Content of: <ul><li>
-msgid ""
-"For example, a German translation of <em>home.html</em> should be named "
-"<code>home.de.html</code>."
-msgstr ""
-"Par exemple une traduction en allemand de <em>home.html</em> doit être "
-"nommée <code>home.de.html</code>."
-
-#. type: Content of: <ul><li>
-msgid ""
-"There exists a symlink <code>index.html</code> pointing to some other file "
-"<code>other.html</code>.  Create a symlink named <code>index.LANG.html</"
-"code> pointing to the correct translation <code>other.LANG.html</code>."
-msgstr ""
-"Il existe un  lien symbolique de <code>index.html</code> qui pointe vers un "
-"autre fichier <code>autre.html</code>. Créer le lien symbolique nommé "
-"<code>index.LANGUE.html</code> pointant vers la traduction correcte "
-"<code>autre.LANGUE.html</code>"
-
-#. type: Content of: <h3>
+#. type: Content of: <h4>
 msgid "Tools to Help Translators"
 msgstr "Les outils pour aider les traducteurs"
 
-#. type: Content of: <ul><li>
-msgid "See <a href=\"/software/gnun/\">GNUnited Nations</a>."
-msgstr "Voir <a href=\"/software/gnun/\">GNUnited Nations</a>."
+#. type: Content of: <p>
+msgid ""
+"We use .po (Portable Object) files to process and maintain translations. A ."
+"po file contains the original text and its translation, divided in "
+"paragraphs. We do it this way so that, when there is a change in the English "
+"version of a page, our system will generate an updated .po file showing the "
+"strings that have changed. The translator then updates the translation of "
+"those strings."
+msgstr ""
 
-#. type: Content of: <h3>
+#. type: Content of: <p>
+msgid ""
+"To edit a .po file, use <a href=\"/software/emacs/\">GNU Emacs</a> (install "
+"<em>gettext-el</em> to automatically switch to PO mode) or any .po file "
+"editor."
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"How is the .po file used? GNUnited Nations (GNUN), a build system for www."
+"gnu.org translations, generates a .pot file (.po template) of an original "
+"HTML article; whenever there is a change in the original article, the .pot "
+"file is regenerated to merge the changes. Finally, it regenerates the "
+"translations in HTML format. For further information see <a href=\"/software/"
+"gnun/\">GNUnited Nations (GNUN)</a>."
+msgstr ""
+
+#. type: Content of: <h4>
 msgid "Keeping Translations Current"
 msgstr "Maintenir les traductions à jour"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "For all translations to be kept current, you should subscribe to the <a "
+#| "href=\"http://lists.gnu.org/mailman/listinfo/www-commits\">www-commits</"
+#| "a> mailing list.  Then you will get sent one email for each page that is "
+#| "modified in cvs (for the www module).  The traffic is around 4-5 mails "
+#| "per day, more on weekends. It's suggested that you save all such email "
+#| "and burst through them about once a week to make sure the translations "
+#| "are current.  You may also use <kbd>make report TEAM=LANG</kbd> if you "
+#| "have <a href=\"/software/gnun/\">GNUN</a> installed."
 msgid ""
-"For all translations to be kept current, you should subscribe to the <a href="
-"\"http://lists.gnu.org/mailman/listinfo/www-commits\">www-commits</a> "
-"mailing list.  Then you will get sent one email for each page that is "
-"modified in cvs (for the www module).  The traffic is around 4-5 mails per "
-"day, more on weekends. It's suggested that you save all such email and burst "
-"through them about once a week to make sure the translations are current.  "
-"You may also use <kbd>make report TEAM=LANG</kbd> if you have <a href=\"/"
-"software/gnun/\">GNUN</a> installed."
+"For all translations to be kept current, if you decide to become a Team "
+"Coordinator, you should subscribe to the <a href=\"http://lists.gnu.org/"
+"mailman/listinfo/www-commits\">www-commits</a> mailing list. Then you will "
+"be sent one email for each page that is modified in <em>CVS</em> (for the "
+"www module). The traffic is around 4-5 mails per day, more on weekends. It's "
+"suggested that you burst through them about once a week to make sure the "
+"translations are current. You may also use &ldquo;<em><code>make report "
+"TEAM=LANG</code></em>&rdquo; if you have <a href=\"/software/gnun/\">GNUN</"
+"a> installed."
 msgstr ""
 "Pour que toutes les traductions restent à jour, vous devez vous abonner à la "
 "liste de diffusion <a href=\"http://lists.gnu.org/mailman/listinfo/www-"
@@ -334,46 +427,124 @@ msgstr ""
 "aussi utiliser <kbd>make report TEAM=LANG</kbd> si vous avez installé <a "
 "href=\"/software/gnun/\">GNUN</a>."
 
+#. type: Content of: <ul><li>
+msgid ""
+"A coordinator should also read and be well acquainted with the following "
+"documentation:"
+msgstr ""
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid "the <a href=\"/software/trans-coord/manual/\">GNUN</a> manuals."
+msgid ""
+"<a href=\"/software/trans-coord/manual/web-trans/\">GNU Web Translators "
+"Manual</a>."
+msgstr "les manuels <a href=\"/software/trans-coord/manual/\">GNUN</a>."
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid "the <a href=\"/software/trans-coord/manual/\">GNUN</a> manuals."
+msgid ""
+"<a href=\"/software/trans-coord/manual/gnun/\">GNUnited Nations (GNUN) "
+"Manual</a>,"
+msgstr "les manuels <a href=\"/software/trans-coord/manual/\">GNUN</a>."
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "the <a href=\"/server/standards/readme_index.html\">Guidelines</a> for "
+#| "GNU Web Site Volunteers,"
+msgid ""
+"<a href=\"/server/standards/readme_index.html\">GNU Web Site Guidelines: For "
+"Volunteers</a>"
+msgstr ""
+"Les <a href=\"/server/standards/readme_index.html\">directives</a> pour les "
+"volontaires du site web GNU"
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "the <a href=\"/server/fsf-html-style-sheet.html\">FSF HTML Style Sheet</"
+#| "a>, http://www.gnu.org/server/fsf-html-style-sheet.html"
+msgid ""
+"<a href=\"/server/fsf-html-style-sheet.html\">GNU Web Site Guidelines: HTML "
+"Style Sheet</a>."
+msgstr ""
+"La <a href=\"/server/fsf-html-style-sheet.html\">feuille de style HTML de la "
+"FSF</a>, http://www.gnu.org/server/fsf-html-style-sheet.html"
+
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Please send broken links and other corrections or suggestions to <a href="
+#| "\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a>."
+msgid ""
+"After you have read at least the first two manuals and this entire page, "
+"please contact the Translations Manager <a href=\"mailto:web-translators@gnu."
+"org\">&lt;web-translators@gnu.org&gt;</a> for further assistance."
+msgstr ""
+"Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page "
+"web à <a href=\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu."
+"org&gt;</a>."
+
 #. type: Content of: <h3>
-msgid "Translations Underway"
+#, fuzzy
+#| msgid "Translation Teams:"
+msgid "Translation Teams"
+msgstr "Équipes de traductions&nbsp;:"
+
+#. Some docs refer to this anchor
+#. type: Content of: outside any tag (error?)
+#, fuzzy
+#| msgid "Translations Underway"
+msgid "<span id=\"TranslationsUnderway\"></span>"
 msgstr "Traductions en cours"
 
 #. type: Content of: <p>
 msgid ""
-"The language code is followed by the name of the language, and the name and "
-"e-mail address of the translation team leader."
+"Volunteers to establish new teams are more than welcome and will be assisted "
+"during the learning process."
 msgstr ""
-"Les codes de langues sont suivis par le nom de langue, et le nom et "
-"l'adresse électronique de l'animateur de l'équipe de traduction."
 
 #. type: Content of: <p>
-msgid "Translation Teams:"
-msgstr "Équipes de traductions&nbsp;:"
-
-#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>!!</code> - Contact the Translation Managers at <a href=\"mailto:"
+#| "web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a> if you "
+#| "would like to form a Translation Team and be listed as the translation "
+#| "team lead for your language."
 msgid ""
-"<code>??</code> - This place is reserved for your name, when you form a "
-"translation team for another language."
-msgstr ""
-"<code>??</code> - Cette emplacement est réservé pour votre nom, quand vous "
-"formerez une équipe pour une autre langue."
-
-#. type: Content of: <ul><li>
-msgid ""
-"<code>!!</code> - Contact the Translation Managers at <a href=\"mailto:web-"
-"translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a> if you would like "
-"to form a Translation Team and be listed as the translation team lead for "
-"your language."
+"Contact the Translations Manager <a href=\"mailto:web-translators@gnu.org"
+"\">&lt;web-translators@gnu.org&gt;</a> if you would like to form a new team "
+"or become a Team Coordinator and be listed as the translation Team "
+"Coordinator for your language."
 msgstr ""
 "<code>!!</code> - Contactez les gestionnaires de traduction à <a href="
 "\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a> si "
 "vous voulez former une équipe de traduction et être listé comme l'animateur "
 "de l'équipe de traduction pour votre langue."
 
+#. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The language code is followed by the name of the language, and the name "
+#| "and e-mail address of the translation team leader."
+msgid ""
+"In the following list, the language code is followed by the name of the "
+"language, and by the name and contact details of the translation Team "
+"Coordinator."
+msgstr ""
+"Les codes de langues sont suivis par le nom de langue, et le nom et "
+"l'adresse électronique de l'animateur de l'équipe de traduction."
+
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>ar</code> - <a href=\"https://savannah.nongnu.org/projects/www-ar"
+#| "\">Arabic</a> (- New coordinator needed)"
 msgid ""
 "<code>ar</code> - <a href=\"https://savannah.nongnu.org/projects/www-ar"
-"\">Arabic</a> (- New coordinator needed)"
+"\">Arabic</a> (New coordinator needed)"
 msgstr ""
 "<code>ar</code> - <a href=\"https://savannah.gnu.org/projects/www-ar"
 "\">Arabe</a> (Nouveau coordinateur demandé)"
@@ -541,8 +712,12 @@ msgstr ""
 "Hatta</a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>ko</code> - Korean (Song Chang-hun, <a href=\"mailto:chsong@gnu.org"
+#| "\">&lt;chsong@gnu.org&gt;</a> - New coordinator needed)"
 msgid ""
-"<code>ko</code> - Korean (Song Chang-hun, <a href=\"mailto:chsong@gnu.org"
+"<code>ko</code> - Korean (Song Chang-hun <a href=\"mailto:chsong@gnu.org"
 "\">&lt;chsong@gnu.org&gt;</a> - New coordinator needed)"
 msgstr ""
 "<code>ko</code> - Coréen (Song Chang-hun, <a href=\"mailto:chsong@gnu.org"
@@ -565,10 +740,15 @@ msgstr ""
 "\">Malayalam</a> (Nouveau coordinateur demandé)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>nb</code> - <a href=\"https://savannah.gnu.org/projects/www-nb"
+#| "\">Norwegian Bokm&aring;l</a> (<a href=\"https://savannah.gnu.org/users/"
+#| "att\">Andreas Tolfsen</a>)"
 msgid ""
 "<code>nb</code> - <a href=\"https://savannah.gnu.org/projects/www-nb"
 "\">Norwegian Bokm&aring;l</a> (<a href=\"https://savannah.gnu.org/users/att"
-"\">Andreas Tolfsen</a>)"
+"\"> Andreas Tolfsen</a>)"
 msgstr ""
 "<code>nb</code> - <a href=\"https://savannah.gnu.org/projects/www-nb"
 "\">Norvégien Bokm&aring;l</a> (<a href=\"https://savannah.gnu.org/users/att"
@@ -626,11 +806,17 @@ msgstr ""
 "\">Laurentiu Buzdugan</a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>ru</code> - <a href=\"https://savannah.nongnu.org/projects/www-ru"
+#| "\">Russian</a> (<a href=\"https://savannah.gnu.org/users/jimcrow"
+#| "\">Anatoly A. Kazantsev</a>, <a href=\"https://savannah.gnu.org/users/"
+#| "ineiev\">Pavel Kraritonov</a>)"
 msgid ""
 "<code>ru</code> - <a href=\"https://savannah.nongnu.org/projects/www-ru"
 "\">Russian</a> (<a href=\"https://savannah.gnu.org/users/jimcrow\">Anatoly "
-"A. Kazantsev</a>, <a href=\"https://savannah.gnu.org/users/ineiev\">Pavel "
-"Kraritonov</a>)"
+"A.  Kazantsev</a>, <a href=\"https://savannah.gnu.org/users/ineiev\">Pavel "
+"Kharitonov</a>)"
 msgstr ""
 "<code>ru</code> - <a href=\"https://savannah.nongnu.org/projects/www-ru"
 "\">Russe</a> (<a href=\"https://savannah.gnu.org/users/jimcrow\">Anatoly A. "
@@ -711,10 +897,17 @@ msgstr ""
 "\">Evgeniy Sudyr</a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>zh-cn</code> - <a href=\"https://savannah.gnu.org/projects/www-zh-cn"
+#| "\">Simplified Chinese</a> (<a href=\"https://savannah.gnu.org/users/"
+#| "monnand\">Nan Deng</a>, <a href=\"https://savannah.gnu.org/users/zeuux"
+#| "\">Bill Xu</a>, <a href=\"https://savannah.gnu.org/users/chxiaobin\">Chen "
+#| "Xiaobin</a>)"
 msgid ""
 "<code>zh-cn</code> - <a href=\"https://savannah.gnu.org/projects/www-zh-cn"
 "\">Simplified Chinese</a> (<a href=\"https://savannah.gnu.org/users/monnand"
-"\">Nan Deng</a>, <a href=\"https://savannah.gnu.org/users/zeuux\">Bill Xu</"
+"\"> Nan Deng</a>, <a href=\"https://savannah.gnu.org/users/zeuux\">Bill Xu</"
 "a>, <a href=\"https://savannah.gnu.org/users/chxiaobin\">Chen Xiaobin</a>)"
 msgstr ""
 "<code>zh-cn</code> - <a href=\"https://savannah.gnu.org/projects/www-zh-cn"
@@ -723,10 +916,17 @@ msgstr ""
 "a>, <a href=\"https://savannah.gnu.org/users/chxiaobin\">Chen Xiaobin</a>)"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "<code>zh-tw</code> - <a href=\"https://savannah.gnu.org/projects/www-zh-cn"
+#| "\">Traditional Chinese</a> (<a href=\"https://savannah.gnu.org/users/"
+#| "monnand\">Nan Deng</a>, <a href=\"https://savannah.gnu.org/users/zeuux"
+#| "\">Bill Xu</a>, <a href=\"https://savannah.gnu.org/users/chxiaobin\">Chen "
+#| "Xiaobin</a>)"
 msgid ""
 "<code>zh-tw</code> - <a href=\"https://savannah.gnu.org/projects/www-zh-cn"
 "\">Traditional Chinese</a> (<a href=\"https://savannah.gnu.org/users/monnand"
-"\">Nan Deng</a>, <a href=\"https://savannah.gnu.org/users/zeuux\">Bill Xu</"
+"\"> Nan Deng</a>, <a href=\"https://savannah.gnu.org/users/zeuux\">Bill Xu</"
 "a>, <a href=\"https://savannah.gnu.org/users/chxiaobin\">Chen Xiaobin</a>)"
 msgstr ""
 "<code>zh-tw</code> - <a href=\"https://savannah.gnu.org/projects/www-zh-cn"
@@ -734,23 +934,29 @@ msgstr ""
 "\">Nan Deng</a>, <a href=\"https://savannah.gnu.org/users/zeuux\">Bill Xu</"
 "a>, <a href=\"https://savannah.gnu.org/users/chxiaobin\">Chen Xiaobin</a>)"
 
-#. type: Content of: <p>
-msgid "Note that"
-msgstr "Notez que"
-
 #. type: Content of: <ul><li>
-msgid "<code>en</code> - English"
-msgstr "<code>en</code> - Anglais"
+msgid "<code>??</code> - Not available? Then this line is reserved for you."
+msgstr ""
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "is a special case.  The bulk of the site is written in English, which is "
+#| "the de-facto language of the GNU Project.  We <em>occasionally</em> need "
+#| "original documents written in other languages translated into English.  "
+#| "It is best to notify the team leader of your language that you volunteer, "
+#| "because we always contact them first.  If there is no team and you are "
+#| "willing to help with this, please contact <a href=\"mailto:web-"
+#| "translators@gnu.org\"> &lt;web-translators@gnu.org&gt;</a>."
 msgid ""
-"is a special case.  The bulk of the site is written in English, which is the "
-"de-facto language of the GNU Project.  We <em>occasionally</em> need "
-"original documents written in other languages translated into English.  It "
-"is best to notify the team leader of your language that you volunteer, "
-"because we always contact them first.  If there is no team and you are "
-"willing to help with this, please contact <a href=\"mailto:web-"
-"translators@gnu.org\"> &lt;web-translators@gnu.org&gt;</a>."
+"<strong>Note:</strong> <em>English (<code>en</code>)</em> is a special case. "
+"The bulk of the site is written in English, which is the de-facto language "
+"of the GNU Project. We <em>occasionally</em> need original documents written "
+"in other languages translated into English.  It is best to notify the team "
+"coordinator of your language that you volunteer, because we always contact "
+"them first. If there is no team coordinator and you are willing to help with "
+"this, please contact <a href=\"mailto:web-translators@gnu.org\">&lt;web-"
+"translators@gnu.org&gt; </a>."
 msgstr ""
 "est un cas spécial. L'original de ce site est écrit en anglais, qui est la "
 "langue de-facto du projet GNU. Nous avons <em>occasionnellement</em> besoin "
@@ -762,31 +968,6 @@ msgstr ""
 "nous contacter à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
-#. type: Content of: <h3>
-msgid "Final Notes"
-msgstr "Notes finales"
-
-#. type: Content of: <p>
-msgid ""
-"If you translate a page for www.gnu.org, please insert the following tag in "
-"the <code>&lt;head&gt;</code> section.  Where <code>web-translators-LANG@gnu."
-"org</code> is the forwarding address for your translations team, for example "
-"for the Spanish translation team:"
-msgstr ""
-"Si vous traduisez une page pour www.gnu.org, merci d'insérer l'élément "
-"suivant, dans la section <code>&lt;head&gt;</code>, où <code>web-translators-"
-"LANGUE@gnu.org</code> est l'adresse de votre équipe de traduction, par "
-"exemple pour l'équipe de traduction espagnole&nbsp;:"
-
-#. type: Content of: <pre>
-#, no-wrap
-msgid ""
-"  &lt;link rev=\"translated\" href=\"mailto:web-translators-es@gnu.org\"&nbsp;/&gt;\n"
-"  "
-msgstr ""
-"  &lt;link rev=\"translated\" href=\"mailto:web-translators-es@gnu.org\"&nbsp;/&gt;\n"
-"  "
-
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
@@ -796,21 +977,25 @@ msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
-"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF."
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
 "contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
 #. type: Content of: <div><p>
+#, fuzzy
+#| msgid ""
+#| "Please send broken links and other corrections or suggestions to <a href="
+#| "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
-"\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a>."
+"\"mailto:bug-baz@gnu.org\">&lt;bug-baz@gnu.org&gt;</a>."
 msgstr ""
-"Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette page "
-"web à <a href=\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu."
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -848,6 +1033,234 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
+
+#, fuzzy
+#~| msgid ""
+#~| "Please send broken links and other corrections or suggestions to <a href="
+#~| "\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a>."
+#~ msgid ""
+#~ "This guide is being revised, so some of the information may no longer be "
+#~ "relevant. To avoid any unnecessary effort, please contact <a href="
+#~ "\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a> "
+#~ "first."
+#~ msgstr ""
+#~ "Veuillez envoyer les liens orphelins ou d'autres suggestions sur cette "
+#~ "page web à <a href=\"mailto:web-translators@gnu.org\">&lt;web-"
+#~ "translators@gnu.org&gt;</a>."
+
+#~ msgid "Before doing anything, please read"
+#~ msgstr "Avant de faire quoi que ce soit, veuillez lire"
+
+#~ msgid ""
+#~ "After reading this page, refer to the <a href=\"#TranslationsUnderway"
+#~ "\">Translations Underway</a> list, and check if there is already a team "
+#~ "formed for the language you want to translate to. If not, contact <a href="
+#~ "\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a>, "
+#~ "and ask if you can start a new team for your language."
+#~ msgstr ""
+#~ "Après la lecture de cette page, référez-vous à la liste des <a href="
+#~ "\"#TranslationsUnderway\">traductions en cours</a> et vérifiez s'il "
+#~ "existe déjà une équipe qui s'occupe de la langue dans laquelle vous "
+#~ "voulez traduire. Sinon, contactez <a href=\"mailto:web-translators@gnu.org"
+#~ "\">&lt;web-translators@gnu.org&gt;</a>, et demandez si vous pouvez "
+#~ "commencer une nouvelle équipe de traduction pour votre langue."
+
+#~ msgid "Language Codes"
+#~ msgstr "Les codes de langues"
+
+#~ msgid ""
+#~ "<a href=\"http://www.loc.gov/standards/iso639-2/php/code_list.php\">ISO "
+#~ "639</a> gives the two-letter language codes in its 2<sup>nd</sup> "
+#~ "column.  If a two-letter language code is not assigned, 3-letter (ISO "
+#~ "639-2) can be used.  Later versions of RFC 1766 and ISO 639 may exist."
+#~ msgstr ""
+#~ "L'<a href=\"http://www.loc.gov/standards/iso639-2/langcodes.html\">ISO "
+#~ "639</a> donne les codes de langues sur deux lettres dans la seconde "
+#~ "colonne. Si un code de langue sur deux lettres n'est pas assigné, un code "
+#~ "à trois lettres (ISO 639-2) peut être utilisé. Des versions ultérieures "
+#~ "aux RFC 1766 et ISO 639 peuvent exister."
+
+#~ msgid ""
+#~ "If ISO 639 does not have a code, do some research and find out the right "
+#~ "one to use. ISO 3166 gives the codes for countries.  Language and country "
+#~ "codes do not have to be the same. It is a mistake to assume a country "
+#~ "code can be substituted for a language code &mdash; unless you verify it "
+#~ "against a standard."
+#~ msgstr ""
+#~ "Si le document ISO 639 ne spécifie pas un code, faites quelques "
+#~ "recherches et trouvez celui qu'il faut utiliser. Le document ISO 3166 "
+#~ "donne des codes pour les pays.  Le code langue et le code pays ne sont "
+#~ "pas nécessairement les mêmes. C'est une erreur de supposer qu'un code "
+#~ "pays peut être substitué à un code langue, à moins que vous ne vérifiez "
+#~ "cela dans une norme."
+
+#~ msgid ""
+#~ "Documents should be converted together with their &ldquo;glue "
+#~ "pages&rdquo;, such as <code>home.html</code> and <code>philosophy/"
+#~ "philosophy.html</code>."
+#~ msgstr ""
+#~ "Les documents doivent être conservés ensemble avec leurs «&nbsp;pages "
+#~ "collantes&nbsp;», tels que <code>home.html</code> et <code>philosophy/"
+#~ "philosophy.html</code>."
+
+#~ msgid "Don't translate anything under these directories:"
+#~ msgstr "Ne traduisez rien dans ces répertoires&nbsp;:"
+
+#~ msgid ""
+#~ "We leave that area up to each maintainer. But if you want to help a "
+#~ "maintainer do translations, ask hir (him or her)."
+#~ msgstr ""
+#~ "Nous laissons cette zone à la disposition de leurs mainteneurs "
+#~ "respectifs. Mais si vous voulez aider un mainteneur à faire des "
+#~ "traductions, demandez-le lui."
+
+#~ msgid ""
+#~ "Here's how to <a href=\"/brave-gnu-world/translations.html\">help "
+#~ "translate</a> <cite>Brave GNU World</cite>."
+#~ msgstr ""
+#~ "Voilà comment <a href=\"/brave-gnu-world/translations.html\">aider à la "
+#~ "traduction</a> <cite>de Brave GNU World</cite>."
+
+#~ msgid ""
+#~ "use the following format: &ldquo;GNU's Not Unix (<span xml:lang=\"sv\" "
+#~ "lang=\"sv\">GNU &auml;r inte Unix</span>)&rdquo;."
+#~ msgstr ""
+#~ "utilisez la forme suivante&nbsp;: «&nbsp;GNU's Not Unix (<span xml:lang="
+#~ "\"sv\" lang=\"sv\">GNU är inte Unix</span>)&nbsp;»."
+
+#~ msgid "Translating the home page"
+#~ msgstr "Traduire la page d'accueil"
+
+#~ msgid ""
+#~ "The translated homepage must include the full list of translations via "
+#~ "SSI."
+#~ msgstr ""
+#~ "La page d'accueil traduite doit contenir la liste complète des "
+#~ "traductions via SSI."
+
+#~ msgid "The required SSI tag looks like this:"
+#~ msgstr "L'élément SSI nécessaire ressemble à cela&nbsp;:"
+
+#~ msgid ""
+#~ "            &lt;!--#include file=\"translations.include\" --&gt;\n"
+#~ "        "
+#~ msgstr ""
+#~ "            &lt;!--#include file=\"translations.include\" --&gt;\n"
+#~ "        "
+
+#~ msgid ""
+#~ "If you provide a new home page translation you must update the "
+#~ "<code>translations.include</code> file. The file is stored in the GNU "
+#~ "webservers root directory."
+#~ msgstr ""
+#~ "Si vous fournissez une nouvelle traduction de la page d'accueil vous "
+#~ "devez mettre à jour le fichier <code>translations.include</code>. Le "
+#~ "fichier est stocké dans le répertoire racine du serveur web GNU."
+
+#~ msgid "Linking Other Documents"
+#~ msgstr "Lier d'autres documents"
+
+#~ msgid ""
+#~ "All links are relative to the web server root, meaning that they should "
+#~ "link to, for example, /software/software.html and not just software.html."
+#~ msgstr ""
+#~ "Tous les liens sont relatifs à la racine du serveur web, ce qui veut dire "
+#~ "qu'ils doivent pointer vers, par exemple, /software/software.html et pas "
+#~ "juste software.html."
+
+#~ msgid ""
+#~ "Link should be made pointing to a translated page if it exists, else made "
+#~ "pointing to the English original. You should NOT make links that depend "
+#~ "upon content negotiation. One reason is that they will fail on mirror "
+#~ "servers that do not do content negotiation."
+#~ msgstr ""
+#~ "Un lien doit pointer vers la langue courante du document, si la "
+#~ "traduction de la page existe, sinon elle doit pointer vers la version "
+#~ "anglaise originale. Vous ne devez PAS faire des liens qui dépendent de la "
+#~ "négociation de contenu. Une raison à cela est que ces liens seraient "
+#~ "défectueux sur les serveurs miroirs qui ne gèrent pas la négociation de "
+#~ "contenu."
+
+#~ msgid "Translations into Other Languages"
+#~ msgstr "Les traductions dans d'autres langues"
+
+#~ msgid ""
+#~ "The top and bottom of all translations (including the English original) "
+#~ "should contain links to other translations of the document when such "
+#~ "exists. See the <a href=\"/boilerplate.html\">http://www.gnu.org/"
+#~ "boilerplate.html</a> for an example on how to do this."
+#~ msgstr ""
+#~ "Le haut et le bas de toutes les traductions (ce qui inclut l'original en "
+#~ "anglais) doivent contenir les liens vers les autres traductions du "
+#~ "document quand elles existent. Voir <a href=\"/boilerplate.html\">http://"
+#~ "www.gnu.org/boilerplate.html</a> pour un exemple montrant comment faire "
+#~ "cela."
+
+#~ msgid "Filenames"
+#~ msgstr "Les noms de fichier"
+
+#~ msgid ""
+#~ "Translations should be named <code>article.LANG.html</code> where "
+#~ "<code>LANG</code> is the <a href=\"#LanguageCodes\">language code</a>."
+#~ msgstr ""
+#~ "Les traductions doivent être nommées <code>article.LANGUE.html</code> où "
+#~ "<code>LANGUE</code> est le <a href=\"#LanguageCodes\">code à deux lettres "
+#~ "de la langue</a>."
+
+#~ msgid ""
+#~ "For example, a German translation of <em>home.html</em> should be named "
+#~ "<code>home.de.html</code>."
+#~ msgstr ""
+#~ "Par exemple une traduction en allemand de <em>home.html</em> doit être "
+#~ "nommée <code>home.de.html</code>."
+
+#~ msgid ""
+#~ "There exists a symlink <code>index.html</code> pointing to some other "
+#~ "file <code>other.html</code>.  Create a symlink named <code>index.LANG."
+#~ "html</code> pointing to the correct translation <code>other.LANG.html</"
+#~ "code>."
+#~ msgstr ""
+#~ "Il existe un  lien symbolique de <code>index.html</code> qui pointe vers "
+#~ "un autre fichier <code>autre.html</code>. Créer le lien symbolique nommé "
+#~ "<code>index.LANGUE.html</code> pointant vers la traduction correcte "
+#~ "<code>autre.LANGUE.html</code>"
+
+#~ msgid "See <a href=\"/software/gnun/\">GNUnited Nations</a>."
+#~ msgstr "Voir <a href=\"/software/gnun/\">GNUnited Nations</a>."
+
+#~ msgid ""
+#~ "<code>??</code> - This place is reserved for your name, when you form a "
+#~ "translation team for another language."
+#~ msgstr ""
+#~ "<code>??</code> - Cette emplacement est réservé pour votre nom, quand "
+#~ "vous formerez une équipe pour une autre langue."
+
+#~ msgid "Note that"
+#~ msgstr "Notez que"
+
+#~ msgid "<code>en</code> - English"
+#~ msgstr "<code>en</code> - Anglais"
+
+#~ msgid "Final Notes"
+#~ msgstr "Notes finales"
+
+#~ msgid ""
+#~ "If you translate a page for www.gnu.org, please insert the following tag "
+#~ "in the <code>&lt;head&gt;</code> section.  Where <code>web-translators-"
+#~ "LANG@gnu.org</code> is the forwarding address for your translations team, "
+#~ "for example for the Spanish translation team:"
+#~ msgstr ""
+#~ "Si vous traduisez une page pour www.gnu.org, merci d'insérer l'élément "
+#~ "suivant, dans la section <code>&lt;head&gt;</code>, où <code>web-"
+#~ "translators-LANGUE@gnu.org</code> est l'adresse de votre équipe de "
+#~ "traduction, par exemple pour l'équipe de traduction espagnole&nbsp;:"
+
+#~ msgid ""
+#~ "  &lt;link rev=\"translated\" href=\"mailto:web-translators-es@gnu.org\"&nbsp;/&gt;\n"
+#~ "  "
+#~ msgstr ""
+#~ "  &lt;link rev=\"translated\" href=\"mailto:web-translators-es@gnu.org\"&nbsp;/&gt;\n"
+#~ "  "
 
 #~ msgid ""
 #~ "Most important: <span class=\"highlight\"><em>Do NOT translate the raw "

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: philosophy.html\n"
-"POT-Creation-Date: 2011-10-22 20:25-0300\n"
+"POT-Creation-Date: 2011-12-19 20:25-0500\n"
 "PO-Revision-Date: 2011-07-01 01:31+0200\n"
 "Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -139,6 +139,16 @@ msgstr ""
 "<a href=\"/philosophy/open-source-misses-the-point.fr.html\">Pourquoi "
 "l'«&nbsp;open source&nbsp;» passe à côté du problème que soulève le logiciel "
 "libre&nbsp;?</a>"
+
+#. type: Content of: <ul><li>
+#, fuzzy
+#| msgid "<a href=\"/philosophy/free-sw.html\">What is Free Software?</a>"
+msgid ""
+"<a href=\"/philosophy/government-free-software.html\">Measures governments "
+"can use to promote free software</a>"
+msgstr ""
+"<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel libre&nbsp;?"
+"</a>"
 
 #.  please leave both these ID attributes here. ... 
 #.  ... we removed this as an H$ section as it was duplicating the  
