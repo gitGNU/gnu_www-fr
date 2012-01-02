@@ -2,18 +2,21 @@
 # Copyright (C) 2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the other-free-books.html package.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2009.
+# Arthur Godet <arth.godet AT gmail.com>, 2011.
+# Thérèse Godefroy <godef.th AT free.fr>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: other-free-books.html\n"
-"POT-Creation-Date: 2011-10-29 20:25-0300\n"
-"PO-Revision-Date: 2009-11-29 14:59+0100\n"
-"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"POT-Creation-Date: 2011-12-26 22:36+0100\n"
+"PO-Revision-Date: 2011-12-30 15:43+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
 msgid ""
@@ -74,12 +77,12 @@ msgid ""
 "order/ftp.html\">ftp site</a> and <a href=\"/manual/manual.html\">browse "
 "them online</a>.  We have been doing this since around 1986."
 msgstr ""
-"Nous publions un certain nombre de livre de documentation libres nous-mêmes. "
-"Vous pouvez <a href=\"http://shop.fsf.org/\">commander des copies imprimées</"
-"a> de nos livres, les télécharger à partir du répertoire <code>/gnu/Manuals</"
-"code> de notre <a href=\"/order/ftp.html\">site FTP</a> et les <a href=\"/"
-"manual/manual.html\">consulter en ligne</a>. Ils sont disponibles depuis "
-"1986 environ."
+"Nous publions un certain nombre de livres de documentation libres nous-"
+"mêmes. Vous pouvez <a href=\"http://shop.fsf.org/\"> commander des copies "
+"imprimées</a> de nos livres, les télécharger à partir du répertoire <code>/"
+"gnu/Manuals</code> de notre <a href=\"/order/ftp.html\">site FTP</a> et les "
+"<a href=\"/manual/manual.html\">consulter en ligne</a>. Ils sont disponibles "
+"depuis 1986 environ."
 
 #. type: Content of: <p>
 msgid ""
@@ -94,13 +97,11 @@ msgstr ""
 "livres libres. (Tout comme nos livres, ceux-ci sont libres dans le sens de "
 "liberté&nbsp;; les copies imprimées sont vendues). Sur cette page, nous "
 "conservons une liste de ces livres que nous avons trouvés. Si vous trouvez "
-"un livre libre qui n'est pas indiqué ici, veuillez nous le faire savoir à <a "
-"href=\"mailto:free-books@gnu.org\">emailing us at &lt;free-books@gnu.org&gt;"
-"</a>."
+"un livre libre qui n'est pas indiqué ici, veuillez nous le faire savoir en "
+"<a href=\"mailto:free-books@gnu.org\">nous envoyant un courriel à &lt;free-"
+"books@gnu.org&gt;</a>."
 
 #. type: Content of: <h3>
-#, fuzzy
-#| msgid "Free Books"
 msgid "Free books"
 msgstr "Livres libres"
 
@@ -129,46 +130,36 @@ msgid "License"
 msgstr "Licence"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.network-theory.co.uk/octave/manual/\">GNU Octave "
-#| "Manual Version 3</a>"
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/org/manual/\">The Org Mode&nbsp;7 "
 "Reference Manual (for Org version&nbsp;7.3)</a>"
 msgstr ""
-"<a href=\"http://www.network-theory.co.uk/octave/manual/\">GNU Octave Manual "
-"Version 3</a>"
+"<a href=\"http://www.network-theory.co.uk/org/manual/\">The Org Mode&nbsp;7 "
+"Reference Manual (for Org version&nbsp;7.3)</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "Carsten Dominik and others"
-msgstr ""
+msgstr "Carsten Dominik et coll."
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid "Network Theory Ltd."
 msgid "Network Theory Ltd"
 msgstr "Network Theory Ltd."
 
 #. type: Content of: <table><tr><td>
 msgid "978-1-906966-08-9"
-msgstr ""
+msgstr "978-1-906966-08-9"
 
 #. type: Content of: <table><tr><td>
 msgid "<a href=\"/licenses/fdl.html\">GNU Free Documentation License</a>"
 msgstr "<a href=\"/licenses/fdl.html\">GNU Free Documentation License</a>"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.network-theory.co.uk/postgresql/vol2/\">The "
-#| "PostgreSQL Reference Manual Volume 2: Programming Guide</a>"
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/postgresql9/\">The "
 "PostgreSQL&nbsp;9.0 Reference Manual (in four volumes)</a>"
 msgstr ""
-"<a href=\"http://www.network-theory.co.uk/postgresql/vol2/\">The PostgreSQL "
-"Reference Manual Volume 2: Programming Guide</a>"
+"<a href=\"http://www.network-theory.co.uk/postgresql9/\">The "
+"PostgreSQL&nbsp;9.0 Reference Manual (en 4 volumes)</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "The PostgreSQL Global Development Group"
@@ -176,57 +167,51 @@ msgstr "The PostgreSQL Global Development Group"
 
 #. type: Content of: <table><tr><td>
 msgid "978-1-906966-"
-msgstr ""
+msgstr "978-1-906966-"
 
 #. type: Content of: <table><tr><td>
 msgid "{04-1,05-8,06-5,07-2}"
-msgstr ""
+msgstr "{04-1,05-8,06-5,07-2}"
 
 #. type: Content of: <table><tr><td>
 msgid ""
 "<a href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#5\">Modified BSD "
 "license</a>"
 msgstr ""
+"<a href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2.html#5\">Modified BSD "
+"license</a>"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.network-theory.co.uk/python/language/\">Python "
-#| "Language Reference Manual</a>"
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/perl/language/\">The Perl Language "
 "Reference Manual (for Perl version&nbsp;5.12.1)</a>"
 msgstr ""
-"<a href=\"http://www.network-theory.co.uk/python/language/\">Python Language "
-"Reference Manual</a>"
+"<a href=\"http://www.network-theory.co.uk/perl/language/\">The Perl Language "
+"Reference Manual (for Perl version&nbsp;5.12.1)</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "Larry Wall and others"
-msgstr ""
+msgstr "Larry Wall et coll."
 
 #. type: Content of: <table><tr><td>
 msgid "9781906966027"
-msgstr ""
+msgstr "9781906966027"
 
 #. type: Content of: <table><tr><td>
 msgid "<a href=\"/licenses/gpl.html\">GNU General Public License</a>"
 msgstr "<a href=\"/licenses/gpl.html\">GNU General Public License</a>"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.network-theory.co.uk/octave/manual/\">GNU Octave "
-#| "Manual Version 3</a>"
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/octave/manual/\">GNU Octave Manual "
 "Version&nbsp;3</a>"
 msgstr ""
 "<a href=\"http://www.network-theory.co.uk/octave/manual/\">GNU Octave Manual "
-"Version 3</a>"
+"Version&nbsp;3</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "J.W. Eaton et al."
-msgstr "J.W. Eaton et al."
+msgstr "J.W. Eaton et coll."
 
 #. type: Content of: <table><tr><td>
 msgid "Network Theory Ltd."
@@ -257,17 +242,14 @@ msgid "9781593271763"
 msgstr "9781593271763"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.network-theory.co.uk/valgrind/manual/\">Valgrind 3.3 "
-#| "&mdash; Advanced Debugging and Profiling for GNU/Linux applications</a>"
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/valgrind/manual/"
 "\">Valgrind&nbsp;3.3 &mdash; Advanced Debugging and Profiling for GNU/Linux "
 "applications</a>"
 msgstr ""
-"<a href=\"http://www.network-theory.co.uk/valgrind/manual/\">Valgrind 3.3 "
-"&mdash; Advanced Debugging and Profiling for GNU/Linux applications</a>"
+"<a href=\"http://www.network-theory.co.uk/valgrind/manual/"
+"\">Valgrind&nbsp;3.3 &mdash; Advanced Debugging and Profiling for GNU/Linux "
+"applications</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "J. Seward, N. Nethercote, J. Weidendorfer et al"
@@ -278,16 +260,12 @@ msgid "0954612051"
 msgstr "0954612051"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.network-theory.co.uk/postgresql/vol1/\">The "
-#| "PostgreSQL Reference Manual Volume 1: SQL Language Reference</a>"
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/postgresql/vol1/\">The PostgreSQL "
 "Reference Manual Volume&nbsp;1: SQL Language Reference</a>"
 msgstr ""
 "<a href=\"http://www.network-theory.co.uk/postgresql/vol1/\">The PostgreSQL "
-"Reference Manual Volume 1: SQL Language Reference</a>"
+"Reference Manual Volume&nbsp;1: SQL Language Reference</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "0954612027"
@@ -298,32 +276,24 @@ msgid "PostgreSQL License"
 msgstr "PostgreSQL License"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.network-theory.co.uk/postgresql/vol2/\">The "
-#| "PostgreSQL Reference Manual Volume 2: Programming Guide</a>"
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/postgresql/vol2/\">The PostgreSQL "
 "Reference Manual Volume&nbsp;2: Programming Guide</a>"
 msgstr ""
 "<a href=\"http://www.network-theory.co.uk/postgresql/vol2/\">The PostgreSQL "
-"Reference Manual Volume 2: Programming Guide</a>"
+"Reference Manual Volume&nbsp;2: Programming Guide</a>>"
 
 #. type: Content of: <table><tr><td>
 msgid "0954612035"
 msgstr "0954612035"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.network-theory.co.uk/postgresql/vol3/\">The "
-#| "PostgreSQL Reference Manual Volume 3: Server Administration Guide</a>"
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/postgresql/vol3/\">The PostgreSQL "
 "Reference Manual Volume&nbsp;3: Server Administration Guide</a>"
 msgstr ""
 "<a href=\"http://www.network-theory.co.uk/postgresql/vol3/\">The PostgreSQL "
-"Reference Manual Volume 3: Server Administration Guide</a>"
+"Reference Manual Volume&nbsp;3: Server Administration Guide</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "0954612043"
@@ -378,16 +348,12 @@ msgid "0-9541617-6-9"
 msgstr "0-9541617-6-9"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.network-theory.co.uk/R/base/\">The R Reference "
-#| "Manual - Base Package - Volume 1</a>"
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/R/base/\">The R Reference Manual - "
 "Base Package - Volume&nbsp;1</a>"
 msgstr ""
 "<a href=\"http://www.network-theory.co.uk/R/base/\">The R Reference Manual - "
-"Base Package - Volume 1</a>"
+"Base Package - Volume&nbsp;1</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "The R Development Core Team"
@@ -398,16 +364,12 @@ msgid "0-9546120-0-0"
 msgstr "0-9546120-0-0"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.network-theory.co.uk/R/base2/\">The R Reference "
-#| "Manual - Base Package - Volume 2</a>"
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/R/base2/\">The R Reference Manual "
 "- Base Package - Volume&nbsp;2</a>"
 msgstr ""
 "<a href=\"http://www.network-theory.co.uk/R/base2/\">The R Reference Manual "
-"- Base Package - Volume 2</a>"
+"- Base Package - Volume&nbsp;2</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "0-9546120-1-9"
@@ -455,27 +417,23 @@ msgstr ""
 
 #. type: Content of: <table><tr><td>
 msgid "M. Galassi, et al."
-msgstr "M. Galassi, et al."
+msgstr "M. Galassi, et coll."
 
 #. type: Content of: <table><tr><td>
 msgid "0-9541617-0-X"
 msgstr "0-9541617-0-X"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.network-theory.co.uk/R/manual/\">An Introduction to "
-#| "R</a>"
 msgid ""
 "<a href=\"http://www.network-theory.co.uk/R/manual/\">An Introduction "
 "to&nbsp;R</a>"
 msgstr ""
-"<a href=\"http://www.network-theory.co.uk/R/manual/\">An Introduction to R</"
-"a>"
+"<a href=\"http://www.network-theory.co.uk/R/manual/\">An Introduction "
+"to&nbsp;R</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "W.N. Venables, et al."
-msgstr "W.N. Venables, et al."
+msgstr "W.N. Venables, et coll."
 
 #. type: Content of: <table><tr><td>
 msgid "0-9541617-4-2"
@@ -507,7 +465,7 @@ msgstr ""
 
 #. type: Content of: <table><tr><td>
 msgid "Per Cederqvist, et al."
-msgstr "Per Cederqvist, et al."
+msgstr "Per Cederqvist, et coll."
 
 #. type: Content of: <table><tr><td>
 msgid "0-9541617-1-8"
@@ -530,16 +488,12 @@ msgid "1-59059-356-1"
 msgstr "1-59059-356-1"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.greenteapress.com/thinkpython.html\">How to Think "
-#| "Like a Computer Scientist: Learning with Python</a>, First Edition"
 msgid ""
 "<a href=\"http://www.greenteapress.com/thinkpython/thinkpython.html\">How to "
 "Think Like a Computer Scientist: Learning with Python, First Edition</a>"
 msgstr ""
-"<a href=\"http://www.greenteapress.com/thinkpython.html\">How to Think Like "
-"a Computer Scientist: Learning with Python</a>, First Edition"
+"<a href=\"http://www.greenteapress.com/thinkpython/thinkpython.html\">How to "
+"Think Like a Computer Scientist: Learning with Python, First Edition</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "Allen Downey, Jeff Elkner and Chris Meyers"
@@ -570,42 +524,32 @@ msgid "0-757-1043-0"
 msgstr "0-757-1043-0"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "Open Publication License, Version 1.0 (no options exercised)  <a name="
-#| "\"ALP_ENTRY\" href=\"#ALP_NOTE\">(See note below)</a>"
 msgid ""
 "Open Publication License, Version&nbsp;1.0 (no options exercised)  <a name="
 "\"ALP_ENTRY\" href=\"#ALP_NOTE\">(See note below)</a>"
 msgstr ""
-"Open Publication License, Version 1.0 (no options exercised)  <a name="
-"\"ALP_ENTRY\" href=\"#ALP_NOTE\">(voir note ci-dessous)</a>"
+"Open Publication License, Version&nbsp;1.0 (sans option exercée)  <a name="
+"\"ALP_ENTRY\" href=\"#ALP_NOTE\">(Voir la note ci-dessous)</a>"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.zope.org/Documentation/Books/ZopeBook/\">The Zope "
-#| "Book</a>, First Edition"
 msgid ""
 "<a href=\"http://www.faqs.org/docs/ZopeBook/\">The Zope Book, First Edition</"
 "a>"
 msgstr ""
-"<a href=\"http://www.zope.org/Documentation/Books/ZopeBook/\">The Zope Book</"
-"a>, First Edition"
+"<a href=\"http://www.faqs.org/docs/ZopeBook/\">The Zope Book, First Edition</"
+"a>"
 
 #. type: Content of: <table><tr><td>
 msgid "Amos Latteier and Michel Pelletier"
-msgstr "Amos Latteier and Michel Pelletier"
+msgstr "Amos Latteier et Michel Pelletier"
 
 #. type: Content of: <table><tr><td>
 msgid "0-7357-1137-2"
 msgstr "0-7357-1137-2"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid "Open Publication License, Version 1.0 (no options exercised)"
 msgid "Open Publication License, Version&nbsp;1.0 (no options exercised)"
-msgstr "Open Publication License, Version 1.0 (no options exercised)"
+msgstr "Open Publication License, Version 1.0 (sans option exercée)"
 
 #. type: Content of: <table><tr><td>
 msgid "Linux Device Drivers, Second Edition"
@@ -688,15 +632,10 @@ msgid "0-7357-0078-8"
 msgstr "0-7357-0078-8"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.oreilly.com/catalog/1932111816/\">Open Source "
-#| "Development with CVS</a>"
 msgid ""
 "<a href=\"http://cvsbook.red-bean.com/\">Open Source Development with CVS</a>"
 msgstr ""
-"<a href=\"http://www.oreilly.com/catalog/1932111816/\">Open Source "
-"Development with CVS</a>"
+"<a href=\"http://cvsbook.red-bean.com/\">Open Source Development with CVS</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "Karl Fogel and Moshe Bar"
@@ -771,16 +710,12 @@ msgstr ""
 "Documentation License</a>"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.oreilly.com/catalog/make3/book/index.csp\">Managing "
-#| "Projects with GNU Make</a>, Third Edition"
 msgid ""
 "<a href=\"http://www.oreilly.com/catalog/make3/book/index.csp\">Managing "
 "Projects with GNU Make, Third Edition</a>"
 msgstr ""
 "<a href=\"http://www.oreilly.com/catalog/make3/book/index.csp\">Managing "
-"Projects with GNU Make</a>, Third Edition"
+"Projects with GNU Make, Third Edition</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "Robert Mecklenburg"
@@ -799,16 +734,12 @@ msgstr ""
 "License</a>"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.oreilly.com/catalog/samba2/book/toc.html\">Using "
-#| "Samba</a>, 2nd Edition"
 msgid ""
 "<a href=\"http://www.oreilly.com/catalog/samba2/book/toc.html\">Using Samba, "
 "2nd Edition</a>"
 msgstr ""
-"<a href=\"http://www.oreilly.com/catalog/samba2/book/toc.html\">Using Samba</"
-"a>, 2nd Edition"
+"<a href=\"http://www.oreilly.com/catalog/samba2/book/toc.html\">Using Samba, "
+"2nd Edition</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "Jay Ts, Robert Eckstein, David Collier-Brown"
@@ -833,28 +764,20 @@ msgid "0-596-00448-6"
 msgstr "0-596-00448-6"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://creativecommons.org/licenses/by/2.0/legalcode\">Creative "
-#| "Commons Attribution 2.0 License</a>"
 msgid ""
 "<a href=\"http://creativecommons.org/licenses/by/2.0/legalcode\">Creative "
 "Commons Attribution&nbsp;2.0 License</a>"
 msgstr ""
 "<a href=\"http://creativecommons.org/licenses/by/2.0/legalcode\">Creative "
-"Commons Attribution 2.0 License</a>"
+"Commons Attribution&nbsp;2.0 License</a>"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://www.oreilly.com/openbook/motif/\">Motif Reference "
-#| "Manual, VOL.6B</a>, Second Edition"
 msgid ""
 "<a href=\"http://www.oreilly.com/openbook/motif/\">Motif Reference Manual, "
 "Vol.&nbsp;6B, Second Edition</a>"
 msgstr ""
 "<a href=\"http://www.oreilly.com/openbook/motif/\">Motif Reference Manual, "
-"VOL.6B</a>, Second Edition"
+"Vol.&nbsp;6B, Second Edition</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "Antony Fountain, Paula Ferguson"
@@ -865,10 +788,8 @@ msgid "1-56592-654-4"
 msgstr "1-56592-654-4"
 
 #. type: Content of: <table><tr><td>
-#, fuzzy
-#| msgid "Open Publication License, Version 1.0 or later"
 msgid "Open Publication License, Version&nbsp;1.0 or later"
-msgstr "Open Publication License, Version 1.0 or later"
+msgstr "Open Publication License, Version&nbsp;1.0 ou ultérieure"
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -879,15 +800,6 @@ msgstr ""
 "&mdash; Vim&nbsp;:</strong></a>"
 
 #. type: Content of: <dl><dd>
-#, fuzzy
-#| msgid ""
-#| "The 2001 printing of this book failed to list the license notification "
-#| "properly.  This printed edition says it is a proprietary book.  The "
-#| "publisher has assured us that this was purely a printing error and that "
-#| "the intended license is the Open Publication License, Version 1.0, with "
-#| "no options exercised.  Their <a href=\"http://www.newriders.com/content/"
-#| "images/0735710015/errata/0735710015.pdf\">errata (in PDF format)</a> "
-#| "confirms this."
 msgid ""
 "The 2001 printing of this book failed to list the license notification "
 "properly.  This printed edition says it is a proprietary book.  The "
@@ -900,8 +812,8 @@ msgstr ""
 "L'édition 2001 de ce livre indiquait une licence incorrecte. L'édition "
 "imprimée indiquait qu'il s'agissait d'un livre propriétaire. L'éditeur nous "
 "a assuré que c'était seulement une erreur d'impression et que la licence "
-"était en fait la Open Publication License, Version 1.0, sans options "
-"exercées. Leur <a href=\"http://www.newriders.com/content/images/0735710015/"
+"était en fait la « Open Publication License, Version&nbsp;1.0, sans option "
+"exercée ». Leur <a href=\"http://www.newriders.com/content/images/0735710015/"
 "errata/0735710015.pdf\">errata (au format PDF)</a> l'atteste."
 
 #. type: Content of: <dl><dt>
@@ -913,16 +825,6 @@ msgstr ""
 "Programming, First Edition&nbsp;:</strong></a>"
 
 #. type: Content of: <dl><dd>
-#, fuzzy
-#| msgid ""
-#| "The June 2001 printing of this book failed to list the license "
-#| "notification properly.  This printed edition says it is a proprietary "
-#| "book.  The publisher has assured us that this was purely a printing error "
-#| "and that the intended license is &ldquo;Open Publication License, Version "
-#| "1.0, No options exercised&rdquo;.  Their <a href=\"http://www."
-#| "advancedlinuxprogramming.com/errata.html\">errata page</a> confirms "
-#| "this.  They have assured us that the next printing will have the "
-#| "corrected license."
 msgid ""
 "The June 2001 printing of this book failed to list the license notification "
 "properly.  This printed edition says it is a proprietary book.  The "
@@ -935,10 +837,10 @@ msgstr ""
 "L'édition 2001 de ce livre indiquait une licence incorrecte. L'édition "
 "imprimée indiquait qu'il s'agissait d'un livre propriétaire. L'éditeur nous "
 "a assuré que c'était seulement une erreur d'impression et que la licence "
-"était en fait la Open Publication License, Version 1.0, sans options "
-"exercées. Leur <a href=\"http://www.advancedlinuxprogramming.com/errata.html"
-"\">page errata</a> l'atteste. Ils nous ont assuré que la prochaine édition "
-"imprimée aurait la licence corrigée."
+"était en fait la « Open Publication License, Version 1.0, sans options "
+"exercées ». Leur <a href=\"http://www.advancedlinuxprogramming.com/errata."
+"html\">page errata</a> l'atteste. Ils nous ont assuré que la prochaine "
+"édition imprimée aurait la licence corrigée."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -978,8 +880,8 @@ msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgstr ""
-"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
-"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
+"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -1021,3 +923,6 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
+
+#~ msgid "Translations of this page"
+#~ msgstr "Traductions de cette page"

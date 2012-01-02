@@ -3,18 +3,20 @@
 # This file is distributed under the same license as the fdl-howto.html package.
 # Benjamin Drieu.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+# Thérèse Godefroy <godef.th AT free.fr>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: fdl-howto.html\n"
-"POT-Creation-Date: 2011-09-20 12:27-0300\n"
-"PO-Revision-Date: 2011-07-21 09:42+0200\n"
-"Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
+"POT-Creation-Date: 2011-12-27 09:59+0100\n"
+"PO-Revision-Date: 2011-12-30 15:47+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
 msgid ""
@@ -33,7 +35,7 @@ msgid ""
 "software licenses, such as the GNU GPL, we have a <a href=\"/licenses/gpl-"
 "howto.html\">separate page</a>."
 msgstr ""
-"Ceci est une brève explication de la manière de passer un document sous "
+"Ceci est une brève explication sur la manière de placer un document sous "
 "licence <a href=\"/licenses/fdl.html\">GNU Free Documentation License</a>. "
 "Pour les licences de logiciels GNU, telles que la GNU GPL, nous avons une <a "
 "href=\"/licenses/gpl-howto.fr.html\">page séparée</a>."
@@ -127,7 +129,7 @@ msgid ""
 "invariant."
 msgstr ""
 "Pas particulièrement. Si le contenu d'une section doit être invariant, "
-"mettez cette section invariante."
+"rendez cette section invariante."
 
 #. type: Content of: <dl><dt>
 msgid "Should I try to avoid invariant sections?"
@@ -179,7 +181,7 @@ msgstr ""
 "Quand une section débat de la philosophie du logiciel libre, c'est une bonne "
 "idée de la mettre invariante. Par exemple, quand nous insérons le Manifeste "
 "GNU dans un manuel, ou quand nous incluons une section expliquant pourquoi "
-"la documentation libre est importante, nous mettons ces sections invariantes."
+"la documentation libre est importante, nous rendons ces sections invariantes."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
@@ -201,8 +203,8 @@ msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 msgstr ""
-"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
-"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
+"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -245,3 +247,6 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
+
+#~ msgid "Translations of this page"
+#~ msgstr "Traductions de cette page"

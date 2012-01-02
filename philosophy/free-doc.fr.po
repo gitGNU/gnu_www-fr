@@ -3,21 +3,23 @@
 # This file is distributed under the same license as the free-doc.html package.
 # Benjamin Drieu.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>
+# Thérèse Godefroy <godef.th AT free.fr>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: free-doc.html\n"
 "POT-Creation-Date: 2011-09-20 12:29-0300\n"
-"PO-Revision-Date: 2009-11-29 16:07+0100\n"
-"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"PO-Revision-Date: 2011-12-30 15:47+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2011-09-20 12:29-0300\n"
+"Language: fr\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 #| msgid ""
 #| "Free Software and Free Manuals - GNU Project - Free Software Foundation "
 #| "(FSF)"
@@ -25,19 +27,19 @@ msgid ""
 "Why Free Software needs Free Documentation - GNU Project - Free Software "
 "Foundation (FSF)"
 msgstr ""
-"Logiciels et manuels libres - GNU Project - Free Software Foundation (FSF)"
+"Pourquoi le logiciel libre a besoin d'une documentation libre - GNU Project "
+"- Free Software Foundation (FSF)"
 
 #. type: Content of: <h2>
-#, fuzzy
 #| msgid "Free Software and Free Manuals"
 msgid "Why Free Software needs Free Documentation"
-msgstr "Logiciels et manuels libres"
+msgstr "Pourquoi le logiciel libre a besoin d'une documentation libre"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/copyleft/fdl.html\">The GNU Free Documentation License</a>"
 msgstr ""
 "La <a href=\"/copyleft/fdl.html\">Licence pour la Documentation Libre GNU</"
-"a> (GNU Free Documentation License)"
+"a> [EN] (GNU Free Documentation License)"
 
 #. type: Content of: <p>
 msgid ""
@@ -50,10 +52,10 @@ msgid ""
 msgstr ""
 "Le plus grand défaut des systèmes d'exploitation libres n'est pas dans le "
 "logiciel, mais dans le manque de bons manuels libres que nous pouvons y "
-"inclure.  Beaucoup de nos programmes les plus importants ne sont pas fournis "
-"avec des manuels complets.  La documentation est une partie essentielle de "
-"tout logiciel; quand un logiciel libre important n'est pas fourni avec un "
-"manuel libre, c'est un manque majeur.  Aujourd'hui, nous avons de nombreux "
+"inclure. Beaucoup de nos programmes les plus importants ne sont pas fournis "
+"avec des manuels complets. La documentation est une partie essentielle de "
+"tout logiciel ; quand un logiciel libre important n'est pas fourni avec un "
+"manuel libre, c'est un manque majeur. Aujourd'hui, nous avons de nombreux "
 "manques importants."
 
 #. type: Content of: <p>
@@ -76,13 +78,12 @@ msgid ""
 "modification, source files not available&mdash;which exclude them from the "
 "free software community."
 msgstr ""
-"Mais pourquoi cela&nbsp;?  Les auteurs de ces bons manuels les ont écrit "
-"pour O'Reilly Associates, qui les publie sous des termes restrictifs (pas de "
-"copie, pas de modification, les sources ne sont pas disponibles).  Cela les "
+"Mais pourquoi cela&nbsp;? Les auteurs de ces bons manuels les ont écrit pour "
+"O'Reilly Associates, qui les publie sous des termes restrictifs (pas de "
+"copie, pas de modification, les sources ne sont pas disponibles). Cela les "
 "exclut de la communauté du logiciel libre."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "That wasn't the first time this sort of thing has happened, and (to our "
 #| "community's great loss) it was far from the last.  Proprietary manual "
@@ -102,7 +103,7 @@ msgid ""
 "contract with a publisher that would restrict it so that we cannot use it."
 msgstr ""
 "Ce n'était pas la première fois que ce genre de choses se produisait, et "
-"(malheureusement pour notre communauté) c'en est loin  d'être fini. Les "
+"(malheureusement pour notre communauté) c'en est loin d'être fini. Les "
 "éditeurs de manuels propriétaires ont encouragé un grand nombre d'auteurs à "
 "restreindre leurs manuels depuis. J'ai souvent entendu un utilisateur de GNU "
 "me parler d'un manuel qu'il était en train d'écrire et avec lequel il "
@@ -130,19 +131,18 @@ msgid ""
 "available only on paper.  GNU manuals come with permission to copy and "
 "modify; the Perl manuals do not.  These restrictions are the problems."
 msgstr ""
-"L'intérêt d'une documentation libre (tout comme pour un logiciel libre) est "
-"la liberté, pas le prix. Le problème avec ces manuels n'était pas que "
-"O'Reilly Associates vende les versions imprimées de ses manuels, ce qui est "
-"bon en soi.  (La Free Software Foundation <a href=\"/doc/doc."
-"html#DescriptionsOfGNUDocumentation\"> vend aussi des impressions</a> des <a "
-"href=\"/doc/doc.html\">manuels GNU</a>). Mais les manuels GNU sont "
-"disponibles sous forme de code source, alors que ces manuels-là ne sont "
+"L'intérêt d'une documentation libre (tout comme d'un logiciel libre) est la "
+"liberté, pas le prix. Le problème avec ces manuels n'était pas que O'Reilly "
+"Associates vende les versions imprimées de ses manuels, ce qui est bon en "
+"soi. (La Free Software Foundation <a href=\"/doc/doc."
+"html#DescriptionsOfGNUDocumentation\"> vend aussi des versions imprimées</a> "
+"[EN] des <a href=\"/doc/doc.fr.html\">manuels GNU</a>). Mais les manuels GNU "
+"sont disponibles sous forme de code source, alors que ces manuels-là ne sont "
 "disponibles que sous forme imprimée. Les manuels de GNU sont distribués avec "
-"la permission de les copier et de les modifier; mais pas ces manuels de "
+"la permission de les copier et de les modifier ; mais pas ces manuels de "
 "Perl. Ces restrictions sont le problème."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "The criterion for a free manual is pretty much the same as for free "
 #| "software: it is a matter of giving all users certain freedoms.  "
@@ -157,10 +157,10 @@ msgid ""
 "paper.  Permission for modification is crucial too."
 msgstr ""
 "Les conditions à remplir pour un manuel libre sont à peu près les mêmes que "
-"pour un logiciel; il s'agit de donner à tous les utilisateurs certaines "
-"libertés.  La redistribution (y compris une distribution commerciale) doit "
+"pour un logiciel ; il s'agit de donner à tous les utilisateurs certaines "
+"libertés. La redistribution (y compris une distribution commerciale) doit "
 "être autorisée afin que le manuel accompagne chaque copie du programme, de "
-"manière électronique ou imprimée.  Permettre les modifications est crucial "
+"manière électronique ou imprimée. Permettre les modifications est crucial "
 "aussi."
 
 #. type: Content of: <p>
@@ -179,7 +179,6 @@ msgstr ""
 "décrivent nos actions et nos positions."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "But there is a particular reason why the freedom to modify is crucial for "
 #| "documentation for free software.  When people exercise their right to "
@@ -210,7 +209,6 @@ msgstr ""
 "programme ne répond pas aux besoins de notre communauté."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "While a blanket prohibition on modification is unacceptable, some kinds "
 #| "of limits on the method of modification pose no problem.  For example, "
@@ -230,9 +228,9 @@ msgid ""
 "sections deal with nontechnical topics.  (Some GNU manuals have them.)"
 msgstr ""
 "Même si un refus total des modifications est inacceptable, quelques limites "
-"sur la manière de modifier une documentation ne pose pas de problème. Par "
+"sur la manière de modifier une documentation ne posent pas de problème. Par "
 "exemple, il est normal d'avoir des injonctions de préserver la notice de "
-"copyright originale, les termes de distribution ou la  liste des auteurs. Il "
+"copyright originale, les termes de distribution ou la liste des auteurs. Il "
 "n'y a pas non plus de problème à demander que les versions modifiées "
 "incluent une notice expliquant qu'il s'agit d'une version modifiée, et même "
 "d'avoir des sections entières qui ne puissent ni être supprimées ni être "
@@ -246,14 +244,13 @@ msgid ""
 "manual to fit the modified program.  In other words, they don't block the "
 "free software community from making full use of the manual."
 msgstr ""
-"Ce type de restrictions n'est pas un problème, car d'une manière pratique "
-"elles n'empêchent pas le programmeur consciencieux d'adapter le manuel pour "
+"Ce type de restrictions n'est pas un problème, car en pratique elles "
+"n'empêchent pas le programmeur consciencieux d'adapter le manuel pour "
 "correspondre au programme modifié. En d'autres termes, elles n'empêchent pas "
 "la communauté du logiciel libre de faire son &oelig;uvre à la fois sur le "
 "programme et sur le manuel."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "However, it must be possible to modify all the <em>technical</em> content "
 #| "of the manual, and then distribute the result in all the usual media, "
@@ -265,7 +262,7 @@ msgid ""
 "through all the usual channels; otherwise, the restrictions do block the "
 "community, the manual is not free, and so we need another manual."
 msgstr ""
-"De toutes façons, il doit être possible de modifier toute la partie "
+"De toute façon, il doit être possible de modifier toute la partie "
 "<em>technique</em> du manuel&nbsp;; sinon ces restrictions bloquent la "
 "communauté, le manuel n'est pas libre, et nous avons besoin d'un autre "
 "manuel."
@@ -281,7 +278,7 @@ msgstr ""
 "Malheureusement, il est souvent difficile de trouver quelqu'un pour écrire "
 "un autre manuel quand un manuel propriétaire existe déjà. L'obstacle est que "
 "la plupart des utilisateurs pensent qu'un manuel propriétaire est "
-"suffisament bon, alors ils ne ressentent pas le besoin d'écrire un manuel "
+"suffisamment bon, alors ils ne ressentent pas le besoin d'écrire un manuel "
 "libre. Il ne voient pas qu'un système d'exploitation libre a une fissure qui "
 "nécessite un colmatage."
 
@@ -291,7 +288,7 @@ msgid ""
 "considered the issue.  I hope this article will do something to change that."
 msgstr ""
 "Pourquoi ces utilisateurs pensent-ils que les manuels propriétaires sont "
-"suffisament bons&nbsp;?  La plupart ne se sont pas penchés sur le problème. "
+"suffisamment bons&nbsp;? La plupart ne se sont pas penchés sur le problème. "
 "J'espère que cet article sera utile dans ce sens."
 
 #. type: Content of: <p>
@@ -327,7 +324,6 @@ msgstr ""
 "libre."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "We can also encourage commercial publishers to sell free, copylefted "
 #| "manuals instead of proprietary ones.  One way you can help this is to "
@@ -345,7 +341,6 @@ msgstr ""
 "et de préférer les manuels sans copyright à des manuels copyrightés."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "[Note: We now maintain a <a href=\"/doc/other-free-books.html\">web page "
 #| "that lists free books available from other publishers</a>]."
@@ -353,8 +348,8 @@ msgid ""
 "[Note: We maintain a <a href=\"/doc/other-free-books.html\">page that lists "
 "free books available from other publishers</a>]."
 msgstr ""
-"[Note&nbsp;: Nous maintenons une <a href=\"/doc/other-free-books.html\">page "
-"Web listant les livres publiés, par d'autres éditeurs, en tant que "
+"[Note&nbsp;: Nous maintenons une <a href=\"/doc/other-free-books.fr.html"
+"\">page web listant les livres publiés, par d'autres éditeurs, en tant que "
 "documentation libre</a>]"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
@@ -377,8 +372,8 @@ msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgstr ""
-"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
-"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
+"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -410,3 +405,6 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
+
+#~ msgid "Translations of this page"
+#~ msgstr "Traductions de cette page"
