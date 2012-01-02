@@ -8,18 +8,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: government-free-software\n"
-"POT-Creation-Date: 2011-12-22 12:25-0500\n"
+"Report-Msgid-Bugs-To:  \n"
+"POT-Creation-Date: 2012-01-01 04:25-0500\n"
 "PO-Revision-Date: 2011-12-28 07:07+0100\n"
 "Last-Translator: Arthur Godet <arth.godet AT gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Report-Msgid-Bugs-To:  \n"
 "Plural-Forms:  \n"
 
+#. type: Content of: <title>
+#, fuzzy
+#| msgid "Measures governments can use to promote free software"
+msgid ""
+"Measures Governments Can Use to Promote Free Software - GNU Project - Free "
+"Software Foundation"
+msgstr ""
+"Mesures à la portée des gouvernements pour promouvoir le logiciel libre"
+
 #. type: Content of: <h2>
-msgid "Measures governments can use to promote free software"
+#, fuzzy
+#| msgid "Measures governments can use to promote free software"
+msgid "Measures Governments Can Use to Promote Free Software"
 msgstr ""
 "Mesures à la portée des gouvernements pour promouvoir le logiciel libre"
 
@@ -82,12 +94,19 @@ msgstr ""
 "et de dynamiser l'industrie locale de support de logiciel."
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "In this text, \"state entities\" refers to all levels of government, and "
+#| "means public agencies including schools, public-private partnerships, "
+#| "largely state-funded activities such as charter schools, and \"private\" "
+#| "corporations controlled by the state or established with special "
+#| "privileges or functions by the state."
 msgid ""
-"In this text, \"state entities\" refers to all levels of government, and "
-"means public agencies including schools, public-private partnerships, "
-"largely state-funded activities such as charter schools, and \"private\" "
-"corporations controlled by the state or established with special privileges "
-"or functions by the state."
+"In this text, &ldquo;state entities&rdquo; refers to all levels of "
+"government, and means public agencies including schools, public-private "
+"partnerships, largely state-funded activities such as charter schools, and "
+"&ldquo;private&rdquo; corporations controlled by the state or established "
+"with special privileges or functions by the state."
 msgstr ""
 "Dans ce texte, « organismes étatiques » se réfère à tous les niveaux de "
 "gouvernement, et signifie les organismes publics y compris les écoles, les "
@@ -104,9 +123,16 @@ msgstr ""
 "où celle-ci détermine l'avenir d'une nation&nbsp;:"
 
 #. type: Content of: <ul><li>
+#, fuzzy
+#| msgid ""
+#| "Educational activities, or at least those of of state entities, must "
+#| "teach only free software (thus, they should never lead students to use a "
+#| "nonfree program), and should teach the civic reasons for insisting on "
+#| "free software.  To teach a nonfree program is to teach dependence, which "
+#| "is contrary to the mission of the school."
 msgid ""
-"Educational activities, or at least those of of state entities, must teach "
-"only free software (thus, they should never lead students to use a nonfree "
+"Educational activities, or at least those of state entities, must teach only "
+"free software (thus, they should never lead students to use a nonfree "
 "program), and should teach the civic reasons for insisting on free "
 "software.  To teach a nonfree program is to teach dependence, which is "
 "contrary to the mission of the school."
@@ -127,12 +153,19 @@ msgstr ""
 "sur le type de logiciel utilisé par les particuliers et par les "
 "organisations&nbsp;:"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
+#, fuzzy
+#| msgid ""
+#| "Laws and public sector practices must be changed so that they never "
+#| "require or pressure individuals or organizations to use a nonfree "
+#| "program.  They should also discourage communication and publication "
+#| "practices that imply such consequences (including DRM)."
 msgid ""
 "Laws and public sector practices must be changed so that they never require "
 "or pressure individuals or organizations to use a nonfree program.  They "
 "should also discourage communication and publication practices that imply "
-"such consequences (including DRM)."
+"such consequences (including <a href=\"http://www.defectivebydesign.org/"
+"what_is_drm\">Digital Restrictions Management</a>)."
 msgstr ""
 "Les lois et les pratiques du secteur public doivent être modifiées afin de "
 "ne jamais obliger les particuliers ou les organisations à utiliser un "
@@ -140,7 +173,7 @@ msgstr ""
 "aussi décourager les pratiques de communication et de publication qui "
 "impliquent de telles conséquences."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
 msgid ""
 "Whenever a state entity distributes software to the public, including "
 "programs included in or specified by its web pages, it must be distributed "
@@ -151,7 +184,7 @@ msgstr ""
 "programmes doivent être distribués en tant que logiciels libres, et être "
 "aptes à fonctionner dans un environnement 100% libre."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
 msgid ""
 "State entity web sites and servers must be designed to function fully with "
 "100% free environments on the user's computer."
@@ -160,15 +193,24 @@ msgstr ""
 "pour fonctionner parfaitement dans des environnements 100% libres sur "
 "l'ordinateur de l'utilisateur."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
+#, fuzzy
+#| msgid ""
+#| "State entities must use only file formats and communication protocols "
+#| "that are well supported by free software, preferably with published "
+#| "specifications.  (We do not state this in terms of \"standards\" because "
+#| "it should apply to nonstandardized interfaces as well as standardized "
+#| "ones.)  For example, they must not distribute audio or video recordings "
+#| "in formats that require Flash or nonfree codecs, and public libraries "
+#| "must not distribute works with Digital Restrictions Management."
 msgid ""
 "State entities must use only file formats and communication protocols that "
 "are well supported by free software, preferably with published "
-"specifications.  (We do not state this in terms of \"standards\" because it "
-"should apply to nonstandardized interfaces as well as standardized ones.)  "
-"For example, they must not distribute audio or video recordings in formats "
-"that require Flash or nonfree codecs, and public libraries must not "
-"distribute works with Digital Restrictions Management."
+"specifications.  (We do not state this in terms of &ldquo;standards&rdquo; "
+"because it should apply to nonstandardized interfaces as well as "
+"standardized ones.)  For example, they must not distribute audio or video "
+"recordings in formats that require Flash or nonfree codecs, and public "
+"libraries must not distribute works with Digital Restrictions Management."
 msgstr ""
 "Les organismes étatiques doivent utiliser uniquement les formats de fichier "
 "et les protocoles de communication qui sont bien pris en charge par le "
@@ -191,7 +233,7 @@ msgstr ""
 "pas céder celui-ci aux mains d'entités privées. Ces points s'appliquent à "
 "tous leurs ordinateurs, y compris les smartphones."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
 msgid ""
 "State entities must migrate to free software, and must not install, or "
 "continue using, any nonfree software except under a temporary exception.  "
@@ -206,7 +248,7 @@ msgstr ""
 "sont démontrées. L'objectif de cette agence devrait être de réduire le "
 "nombre de ces exceptions à zéro."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
 msgid ""
 "When a state entity pays for development of a computing solution, the "
 "contract must require it be delivered as free software and be capable of "
@@ -220,7 +262,7 @@ msgstr ""
 "contrats doivent l'exiger, de sorte que si les développeurs ne se conforment "
 "pas à cette exigence, leur ouvrage ne puisse être payé."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
 msgid ""
 "When a state entity buys or leases computers, it must choose among the "
 "models that come closest, in their class, to being capable of running "
@@ -237,7 +279,7 @@ msgstr ""
 "modèles disponibles à la fois pour le public et l'État doivent être préférés "
 "aux modèles disponibles uniquement pour l'État."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
 msgid ""
 "The state should negotiate actively with manufacturers to bring about the "
 "availability in the market (to the state and the public) of suitable "
@@ -249,7 +291,7 @@ msgstr ""
 "les domaines pertinents, de produits matériels <em>[hardware]</em> "
 "appropriés qui ne nécessitent aucun logiciel privateur."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
 msgid ""
 "The state should invite other states to negotiate collectively with "
 "manufacturers about suitable hardware products.  Together they will have "
@@ -260,12 +302,20 @@ msgstr ""
 "auront plus de poids."
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The computational sovereignty (and security) of the state includes "
+#| "control over the computers that do the state's work.  This requires "
+#| "avoiding Software as a Service, unless the service is run by a state "
+#| "agency under the same branch of government, as well as other practices "
+#| "that deminish the state control over its computing.  Therefore,"
 msgid ""
 "The computational sovereignty (and security) of the state includes control "
-"over the computers that do the state's work.  This requires avoiding "
-"Software as a Service, unless the service is run by a state agency under the "
-"same branch of government, as well as other practices that deminish the "
-"state control over its computing.  Therefore,"
+"over the computers that do the state's work.  This requires avoiding <a href="
+"\"/philosophy/who-does-that-server-really-serve.html\"> Software as a "
+"Service</a>, unless the service is run by a state agency under the same "
+"branch of government, as well as other practices that diminish the state "
+"control over its computing.  Therefore,"
 msgstr ""
 "La souveraineté et la sécurité informatiques d'un État supposent le contrôle "
 "de l'État sur les ordinateurs effectuant des tâches de son ressort. Cela "
@@ -302,12 +352,18 @@ msgstr ""
 "Une autre politique regarde le développement de logiciels libres et non "
 "libres&nbsp;:"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
+#, fuzzy
+#| msgid ""
+#| "The state should encourage developers to create or enhance free software "
+#| "and who make it available to the public, e.g. by tax breaks and other "
+#| "financial incentive.  Contrariwise, no such incentives should be granted "
+#| "for development, distribution or use of non-free software."
 msgid ""
 "The state should encourage developers to create or enhance free software and "
 "who make it available to the public, e.g. by tax breaks and other financial "
 "incentive.  Contrariwise, no such incentives should be granted for "
-"development, distribution or use of non-free software."
+"development, distribution or use of nonfree software."
 msgstr ""
 "L'État doit encourager les développeurs à créer ou à améliorer le Logiciel "
 "Libre ainsi que tous ceux qui les mettent à disposition du public, par "
@@ -315,18 +371,24 @@ msgstr ""
 "financières. Au contraire, aucune incitation ne doit être accordée pour le "
 "développement, la distribution ou l'utilisation de logiciels non libres."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <ul><li><p>
+#, fuzzy
+#| msgid ""
+#| "In particular, proprietary software developers should not be able to "
+#| "\"donate\" copies to schools and claim a tax write-off for the nominal "
+#| "value of the software.  Proprietary software is not legitimate in a "
+#| "school."
 msgid ""
-"In particular, proprietary software developers should not be able to \"donate"
-"\" copies to schools and claim a tax write-off for the nominal value of the "
-"software.  Proprietary software is not legitimate in a school."
+"In particular, proprietary software developers should not be able to &ldquo;"
+"donate&rdquo; copies to schools and claim a tax write-off for the nominal "
+"value of the software.  Proprietary software is not legitimate in a school."
 msgstr ""
 "En particulier, les développeurs de logiciels privateurs ne devraient pas "
 "être en mesure de «&nbsp;donner&nbsp;» des copies à des écoles et réclamer "
 "une déduction d'impôt basée sur la valeur nominale du logiciel. Les "
 "logiciels privateurs n'ont nulle légitimité dans les écoles."
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <p>
 msgid ""
 "With these measures, the state can recover control over its computing, and "
 "lead the country's citizens, businesses and organizations towards control "
@@ -357,8 +419,8 @@ msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgstr ""
-"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -372,7 +434,7 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2009 Free Software Foundation, Inc."
+msgid "Copyright &copy; 2011 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2011 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
@@ -382,8 +444,8 @@ msgid ""
 "NoDerivs 3.0 United States License</a>."
 msgstr ""
 "Cette page peut-être utilisée suivant les conditions de la licence <a rel="
-"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr"
-"\">Creative Commons Attribution-NoDerivs 3.0 United States License</a>."
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>

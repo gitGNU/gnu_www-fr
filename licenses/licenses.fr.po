@@ -12,15 +12,14 @@ msgstr ""
 "PO-Revision-Date: 2011-12-30 15:52+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Outdated-Since: 2011-07-21 20:25-0300\n"
-"Language: fr\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#| msgid "Licenses - GNU Project - Free Software Foundation"
 msgid "Licenses - GNU Project - Free Software Foundation (FSF)"
 msgstr "Licences - GNU Project - Free Software Foundation (FSF)"
 
@@ -512,12 +511,6 @@ msgid "Verbatim Copying and Distribution"
 msgstr "Copie et distribution conforme (verbatim)"
 
 #. type: Content of: <p>
-#| msgid ""
-#| "The standard copyright notice for GNU webpages reads: <em><span class="
-#| "\"highlight\">Verbatim copying and distribution of this entire article "
-#| "are permitted worldwide, without royalty, in any medium, provided this "
-#| "notice is preserved</span>.</em> Please note the following commentary by "
-#| "Eben Moglen:"
 msgid ""
 "The standard copyright terms for GNU web pages is now the <a href=\"http://"
 "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
@@ -541,12 +534,6 @@ msgstr ""
 "suivant d'Eben Moglen&nbsp;:"
 
 #. type: Content of: <p>
-#| msgid ""
-#| "&ldquo;Our intention in using the phrase &lsquo;verbatim copying in any "
-#| "medium&rsquo; is not to require retention of page headings and footers or "
-#| "other formatting features.  Retention of weblinks in both hyperlinked and "
-#| "non-hyperlinked media (as notes or some other form of printed URL in non-"
-#| "HTML media) is required.&rdquo;"
 msgid ""
 "&ldquo;Our intention in using the phrase &lsquo;verbatim copying in any "
 "medium&rsquo; is not to require retention of page headings and footers or "
@@ -718,11 +705,6 @@ msgstr ""
 "juridiquement insécables."
 
 #. type: Content of: <p>
-#| msgid ""
-#| "Proprietary software developers use copyright to take away the users' "
-#| "freedom; we use copyright to guarantee their freedom.  That's why we "
-#| "reverse the name, changing &ldquo;copyright&rdquo; into &ldquo;copyleft."
-#| "&rdquo;"
 msgid ""
 "Proprietary software developers use copyright to take away the users' "
 "freedom; we use copyright to guarantee their freedom.  That's why we reverse "
@@ -809,10 +791,6 @@ msgstr ""
 "License</a> (GNU FDL)."
 
 #. type: Content of: <p>
-#| msgid ""
-#| "This page is licensed under a <a rel=\"license\" href=\"http://"
-#| "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
-#| "NoDerivs 3.0 United States License</a>."
 msgid ""
 "For essays of opinion and scientific papers, we recommend either the <a href="
 "\"http://creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons "
@@ -842,26 +820,22 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 #. type: Content of: <div><p>
-#| msgid ""
-#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-#| "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-#| "ways to contact</a> the FSF."
 msgid ""
 "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
 "to contact</a> the FSF."
 msgstr ""
-"Veuillez envoyer les requêtes générales concernant la FSF et GNU à <a href="
-"\"mailto:gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/"
-"contact/contact.fr.html\">d'autres moyens de contacter</a> la FSF."
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
+"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
 
 #. type: Content of: <div><p>
 msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 msgstr ""
-"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
+"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -919,9 +893,6 @@ msgstr "Dernière mise à jour&nbsp;:"
 
 #~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 #~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
-
-#~ msgid "Translations of this page"
-#~ msgstr "Traductions de cette page"
 
 #, fuzzy
 #~| msgid ""
