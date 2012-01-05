@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the trivial-patent.html package.
 # Mathieu Stumpf.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
-# Thérèse Godefroy <godef.th AT free.fr>, 2011.
+# Thérèse Godefroy <godef.th AT free.fr>, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: trivial-patent.html\n"
-"POT-Creation-Date: 2011-10-05 20:25-0300\n"
-"PO-Revision-Date: 2011-12-30 15:50+0100\n"
+"POT-Creation-Date: 2011-12-27 10:58+0100\n"
+"PO-Revision-Date: 2012-01-03 13:02+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -23,7 +23,7 @@ msgid ""
 "The Anatomy of a Trivial Patent - GNU project - Free Software Foundation "
 "(FSF)"
 msgstr ""
-"L'anatomie d'un brevet trivial - projet GNU - Free Software Foundation (FSF)"
+"L'anatomie d'un brevet trivial - GNU Project - Free Software Foundation (FSF)"
 
 #. type: Content of: <h2>
 msgid "The Anatomy of a Trivial Patent"
@@ -83,9 +83,9 @@ msgid ""
 "computer and the network web site, the method comprising the steps of:"
 msgstr ""
 "1. Une méthode pour permettre à un utilisateur distant d'écouter une partie "
-"d'un produit musical pré-enregistré, depuis un site web faisant partie d'un "
-"réseau, contenant des extraits pré-sélectionnés de différents produits "
-"musicaux pré-enregistrés, en utilisant un ordinateur, un périphérique "
+"d'un produit musical préenregistré, depuis un site web faisant partie d'un "
+"réseau, contenant des extraits présélectionnés de différents produits "
+"musicaux préenregistrés, en utilisant un ordinateur, un périphérique "
 "d'affichage et un lien de télécommunication entre l'ordinateur de "
 "l'utilisateur distant et le site web du réseau, la méthode comprenant les "
 "étapes suivantes&nbsp;:"
@@ -103,9 +103,9 @@ msgstr ""
 "télécommunications vers le site web du réseau, le site web du réseau "
 "comprenant : (1) un serveur hôte central couplé à un réseau de communication "
 "pour rechercher et transmettre, sur demande d'un utilisateur distant, la "
-"partie pré-sélectionnée du produit musical pré-enregistré, et (2) un "
-"périphérique de stockage central pour stocker les parties pré-sélectionnées "
-"d'un ensemble de différents produits musicaux pré-enregistrés&nbsp;;"
+"partie présélectionnée du produit musical préenregistré, et (2) un "
+"périphérique de stockage central pour stocker les parties présélectionnées "
+"d'un ensemble de différents produits musicaux préenregistrés&nbsp;;"
 
 #. type: Content of: <blockquote><p>
 msgid ""
@@ -123,24 +123,24 @@ msgid ""
 "c) choosing at least one pre-selected portion of the pre-recorded music "
 "products from the central host server;"
 msgstr ""
-"c) choisir au moins une partie pré-sélectionnée du produit musical pré-"
-"enregistré depuis le serveur hôte central&nbsp;;"
+"c) choisir au moins une partie présélectionnée du produit musical "
+"préenregistré depuis le serveur hôte central&nbsp;;"
 
 #. type: Content of: <blockquote><p>
 msgid ""
 "d) receiving the chosen pre-selected portion of the pre-recorded products; "
 "and"
 msgstr ""
-"d) recevoir la partie pré-sélectionnée choisie du produit pré-"
-"enregistré&nbsp;; et"
+"d) recevoir la partie présélectionnée choisie du produit "
+"préenregistré&nbsp;; et"
 
 #. type: Content of: <blockquote><p>
 msgid ""
 "e) interactively previewing the received chosen pre-selected portion of the "
 "pre-recorded music product."
 msgstr ""
-"e) prévisualiser interactivement la partie pré-sélectionnée choisie et reçue "
-"du produit musical pré-enregistré."
+"e) prévisualiser interactivement la partie présélectionnée choisie et reçue "
+"du produit musical préenregistré."
 
 #. type: Content of: <p>
 msgid ""
@@ -160,8 +160,8 @@ msgid ""
 "portions"
 msgstr ""
 "1. Une méthode pour permettre à un utilisateur distant d'écouter une partie "
-"d'un produit musical pré-enregistré, depuis un site web faisant partie d'un "
-"réseau, contenant des extraits pré-sélectionnés"
+"d'un produit musical préenregistré, depuis un site web faisant partie d'un "
+"réseau, contenant des extraits présélectionnés"
 
 #. type: Content of: <p>
 msgid ""
@@ -174,7 +174,7 @@ msgstr ""
 
 #. type: Content of: <blockquote><p>
 msgid "of different pre-recorded music products,"
-msgstr "de différents produits musicaux pré-enregistrés,"
+msgstr "de différents produits musicaux préenregistrés,"
 
 #. type: Content of: <p>
 msgid ""
@@ -250,7 +250,7 @@ msgid ""
 "music product upon request by a remote user"
 msgstr ""
 "pour rechercher et transmettre, sur demande d'un utilisateur distant, la "
-"partie pré-sélectionnée du produit musical pré-enregistré, "
+"partie présélectionnée du produit musical préenregistré, "
 
 #. type: Content of: <p>
 msgid "This repeats the general idea stated in the first two lines."
@@ -261,9 +261,9 @@ msgid ""
 "and (ii) a central storage device for storing pre-selected portions of a "
 "plurality of different pre-recorded music products;"
 msgstr ""
-"et (2) un périphérique de stockage central pour stocker les parties pré-"
-"sélectionnées d'un ensemble de différents produits musicaux pré-"
-"enregistrés&nbsp;;"
+"et (2) un périphérique de stockage central pour stocker les parties "
+"présélectionnées d'un ensemble de différents produits musicaux "
+"préenregistrés&nbsp;;"
 
 #. type: Content of: <p>
 msgid ""
@@ -497,8 +497,8 @@ msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 msgstr ""
-"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
-"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
+"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -567,6 +567,9 @@ msgstr "Dernière mise à jour&nbsp;:"
 #~ msgstr ""
 #~ "<i>prévisualiser interactivement la partie pré-sélectionnée choisie et "
 #~ "reçue du produit musical pré-enregistré</i>"
+
+#~ msgid "Translations of this page"
+#~ msgstr "Traductions de cette page"
 
 #~ msgid ""
 #~ "Copyright &copy; 2006 Richard Stallman<br /> Verbatim copying and "

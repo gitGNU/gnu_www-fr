@@ -2,34 +2,32 @@
 # Copyright (C) 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnu.org package.
 # Richard Stallman <rms AT gnu.org>, 2011.
-# Thérèse Godefroy <godef.th AT free.fr>, 2011.
-# Arthur Godet <arth.godet AT gmail.com>, 2011.
+# Thérèse Godefroy <godef.th AT free.fr>, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: government-free-software\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2012-01-01 04:25-0500\n"
-"PO-Revision-Date: 2011-12-28 07:07+0100\n"
-"Last-Translator: Arthur Godet <arth.godet AT gmail.com>\n"
+"PO-Revision-Date: 2012-01-03 14:20+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-01-01 04:25-0500\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 #| msgid "Measures governments can use to promote free software"
 msgid ""
 "Measures Governments Can Use to Promote Free Software - GNU Project - Free "
 "Software Foundation"
 msgstr ""
-"Mesures à la portée des gouvernements pour promouvoir le logiciel libre"
+"Mesures à la portée des gouvernements pour promouvoir le logiciel libre - "
+"GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 #| msgid "Measures governments can use to promote free software"
 msgid "Measures Governments Can Use to Promote Free Software"
 msgstr ""
@@ -94,7 +92,6 @@ msgstr ""
 "et de dynamiser l'industrie locale de support de logiciel."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "In this text, \"state entities\" refers to all levels of government, and "
 #| "means public agencies including schools, public-private partnerships, "
@@ -123,7 +120,6 @@ msgstr ""
 "où celle-ci détermine l'avenir d'une nation&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 #| msgid ""
 #| "Educational activities, or at least those of of state entities, must "
 #| "teach only free software (thus, they should never lead students to use a "
@@ -154,7 +150,6 @@ msgstr ""
 "organisations&nbsp;:"
 
 #. type: Content of: <ul><li><p>
-#, fuzzy
 #| msgid ""
 #| "Laws and public sector practices must be changed so that they never "
 #| "require or pressure individuals or organizations to use a nonfree "
@@ -171,7 +166,9 @@ msgstr ""
 "ne jamais obliger les particuliers ou les organisations à utiliser un "
 "programme non libre, ni les y pousser, même indirectement. Elles doivent "
 "aussi décourager les pratiques de communication et de publication qui "
-"impliquent de telles conséquences."
+"impliquent de telles conséquences, y compris la <a href=\"http://www."
+"defectivebydesign.org/what_is_drm\">gestion numérique des restrictions (DRM)"
+"</a> [EN])."
 
 #. type: Content of: <ul><li><p>
 msgid ""
@@ -194,7 +191,6 @@ msgstr ""
 "l'ordinateur de l'utilisateur."
 
 #. type: Content of: <ul><li><p>
-#, fuzzy
 #| msgid ""
 #| "State entities must use only file formats and communication protocols "
 #| "that are well supported by free software, preferably with published "
@@ -302,7 +298,6 @@ msgstr ""
 "auront plus de poids."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "The computational sovereignty (and security) of the state includes "
 #| "control over the computers that do the state's work.  This requires "
@@ -319,8 +314,9 @@ msgid ""
 msgstr ""
 "La souveraineté et la sécurité informatiques d'un État supposent le contrôle "
 "de l'État sur les ordinateurs effectuant des tâches de son ressort. Cela "
-"exige d'éviter le SaaS (logiciel en tant que service), à moins qu'il ne soit "
-"géré par une agence de l'État. (Cependant, pour respecter la séparation des "
+"exige d'éviter le <a href=\"/philosophy/who-does-that-server-really-serve."
+"html\">logiciel en tant que service (SaaS)</a>, à moins qu'il ne soit géré "
+"par une agence de l'État. (Cependant, pour respecter la séparation des "
 "pouvoirs, les travaux informatiques des services relevant respectivement de "
 "l'exécutif, du législatif et du judiciaire ne doivent pas être confiés à une "
 "agence relevant d'un autre pouvoir.) Plus généralement, cela exige d'éviter "
@@ -353,7 +349,6 @@ msgstr ""
 "libres&nbsp;:"
 
 #. type: Content of: <ul><li><p>
-#, fuzzy
 #| msgid ""
 #| "The state should encourage developers to create or enhance free software "
 #| "and who make it available to the public, e.g. by tax breaks and other "
@@ -365,14 +360,13 @@ msgid ""
 "incentive.  Contrariwise, no such incentives should be granted for "
 "development, distribution or use of nonfree software."
 msgstr ""
-"L'État doit encourager les développeurs à créer ou à améliorer le Logiciel "
-"Libre ainsi que tous ceux qui les mettent à disposition du public, par "
-"exemple au moyen d'exonérations fiscales ou toutes autres incitations "
+"L'État doit encourager les développeurs à créer ou à améliorer le logiciel "
+"libre ainsi que tous ceux qui les mettent à disposition du public, par "
+"exemple au moyen d'exonérations fiscales ou de toutes autres incitations "
 "financières. Au contraire, aucune incitation ne doit être accordée pour le "
 "développement, la distribution ou l'utilisation de logiciels non libres."
 
 #. type: Content of: <ul><li><p>
-#, fuzzy
 #| msgid ""
 #| "In particular, proprietary software developers should not be able to "
 #| "\"donate\" copies to schools and claim a tax write-off for the nominal "
@@ -419,8 +413,8 @@ msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgstr ""
-"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
-"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
+"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -434,6 +428,7 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
+#| msgid "Copyright &copy; 2009 Free Software Foundation, Inc."
 msgid "Copyright &copy; 2011 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2011 Free Software Foundation, Inc."
 
@@ -444,8 +439,8 @@ msgid ""
 "NoDerivs 3.0 United States License</a>."
 msgstr ""
 "Cette page peut-être utilisée suivant les conditions de la licence <a rel="
-"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
-"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States License</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
