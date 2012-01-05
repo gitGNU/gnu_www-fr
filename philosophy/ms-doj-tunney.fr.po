@@ -2,18 +2,20 @@
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the ms-doj-tunney.html package.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ms-doj-tunney.html\n"
-"POT-Creation-Date: 2011-09-20 12:29-0300\n"
-"PO-Revision-Date: 2009-01-09 15:48+0100\n"
-"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"POT-Creation-Date: 2011-12-27 10:47+0100\n"
+"PO-Revision-Date: 2012-01-04 12:01+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <h2>
 msgid ""
@@ -28,30 +30,28 @@ msgid "January 28, 2002"
 msgstr "Le 28 janvier 2002"
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid "Dear Ms Hesse,"
 msgid "Renata B. Hesse"
-msgstr "Chère Mme Hesse,"
+msgstr "Renata B. Hesse"
 
 #. type: Content of: <p>
 msgid "Antitrust Division"
-msgstr ""
+msgstr "Antitrust Division"
 
 #. type: Content of: <p>
 msgid "U.S. Department of Justice"
-msgstr ""
+msgstr "U.S. Department of Justice"
 
 #. type: Content of: <p>
 msgid "601 D Street NW"
-msgstr ""
+msgstr "601 D Street NW"
 
 #. type: Content of: <p>
 msgid "Suite 1200"
-msgstr ""
+msgstr "Suite 1200"
 
 #. type: Content of: <p>
 msgid "Washington, DC 20530-0001"
-msgstr ""
+msgstr "Washington, DC 20530-0001"
 
 #. type: Content of: <p>
 msgid "Dear Ms Hesse,"
@@ -557,14 +557,12 @@ msgstr ""
 "l'avons décrit."
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid "Very truly yours,<br /> Eben Moglen"
 msgid "Very truly yours,"
-msgstr "Très sincèrement vôtre,<br /> Eben Moglen"
+msgstr "Très sincèrement vôtre,"
 
 #. type: Content of: <p>
 msgid "Eben Moglen"
-msgstr ""
+msgstr "Eben Moglen"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
@@ -577,18 +575,18 @@ msgid ""
 "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
 "ways to contact</a> the FSF."
 msgstr ""
-"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
-"gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF."
 
 #. type: Content of: <div><p>
 msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 msgstr ""
-"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
-"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"Veuillez envoyer (en anglais) les liens orphelins et autres corrections ou "
+"suggestions à <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</"
+"em></a>."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -596,7 +594,7 @@ msgid ""
 "\">Translations README</a> for information on coordinating and submitting "
 "translations of this article."
 msgstr ""
-"Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html"
+"Veuillez consulter le <a href=\"/server/standards/README.translations.html"
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
@@ -614,7 +612,7 @@ msgid ""
 "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
 "NoDerivs 3.0 United States License</a>."
 msgstr ""
-"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
 "\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
@@ -629,11 +627,3 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-#~ msgid ""
-#~ "Renata B. Hesse<br /> Antitrust Division<br /> U.S. Department of "
-#~ "Justice<br /> 601 D Street NW<br /> Suite 1200<br /> Washington, DC "
-#~ "20530-0001"
-#~ msgstr ""
-#~ "Renata B. Hesse<br />Antitrust Division<br />U.S. Department of Justice "
-#~ "<br />601 D Street NW<br />Suite 1200<br />Washington, DC  20530-0001"

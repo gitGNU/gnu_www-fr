@@ -2,18 +2,20 @@
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the fs-translations.html package.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: fs-translations.html\n"
-"POT-Creation-Date: 2011-09-20 12:29-0300\n"
-"PO-Revision-Date: 2011-07-01 01:26+0200\n"
-"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"POT-Creation-Date: 2011-12-27 10:39+0100\n"
+"PO-Revision-Date: 2012-01-04 20:58+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
 msgid ""
@@ -35,16 +37,9 @@ msgid ""
 msgstr ""
 "Ceci est une liste des traductions non ambiguës recommandées pour le terme "
 "«&nbsp;logiciel libre&nbsp;» (<a href=\"/philosophy/open-source-misses-the-"
-"point.fr.html\">libre comme dans liberté</a>) dans diverses langues."
+"point.html\">libre comme dans liberté</a>) dans diverses langues."
 
 #. type: Content of: <p>
-#, fuzzy
-#| msgid ""
-#| "If you know a correction or addition to the list, please email it to <a "
-#| "href=\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</"
-#| "a>.  Please stick to ASCII in your message.  For the non-English "
-#| "characters of the translation, please use the UTF-8 representation, and "
-#| "the characters using HTML entity syntax (&amp;#xxxx).  Thanks."
 msgid ""
 "If you know a correction or addition to the list, please email it to <a href="
 "\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a>.  "
@@ -56,8 +51,8 @@ msgstr ""
 "un courriel à l'adresse suivante <a href=\"mailto:web-translators@gnu.org"
 "\">&lt;web-translators@gnu.org&gt;</a>. Veuillez utiliser des caracères "
 "ASCII dans votre message. Pour les caractères non anglais de la traduction, "
-"veuillez utiliser l'encodage UTF-8 et des entités HTML (&amp;#xxxx) pour les "
-"caractères. Merci."
+"veuillez utiliser l'encodage UTF-8 et (là où c'est nécessaire) les entités "
+"HTML (&amp;#xxxx) pour les caractères. Merci."
 
 #. type: Content of: <p>
 msgid ""
@@ -65,54 +60,38 @@ msgid ""
 "transliterations (with vowels added where relevant).  Please send any "
 "corrections or additions to those, too."
 msgstr ""
+"Les expressions entre parenthèses en caractères latins, à la suite de "
+"certaines entrées, sont des translittérations (avec ajout de voyelles si "
+"besoin). Veuillez signaler également toute correction à leur apporter, ou "
+"tout ajout nécessaire."
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<strong>German:</strong> freie Software"
 msgid "<strong>Afrikaans:</strong> vrye sagteware"
-msgstr "<strong>Allemand&nbsp;:</strong> freie Software"
+msgstr "<strong>Afrikaans&nbsp;:</strong> vrye sagteware"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<strong>Albanian:</strong> software i lirë"
 msgid "<strong>Albanian:</strong> software i lir&euml;"
-msgstr "<strong>Albanais&nbsp;:</strong> software i lirë"
+msgstr "<strong>Albanais&nbsp;:</strong> software i lir&euml;"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<strong>Arabic:</strong> &#1576;&#1585;&#1605;&#1580;&#1610;&#1575;&#1578;"
-#| "&#32;&#1581;&#1585;&#1577; (Barmagiyat Horrah)"
 msgid ""
 "<strong>Arabic:</strong> &#1576;&#1585;&#1605;&#1580;&#1610;&#1575;&#1578;"
 "&#32;&#1581;&#1585;&#1577; (barmagiyat &#x1e25;orrah)"
 msgstr ""
-"<strong>Arabe&nbsp;:</strong> &#1576;&#1585;&#1605;&#1580;&#1577; &#1581;"
-"&#1585;&#1577; (Barmagiyat Horrah)"
+"<strong>Arabe :</strong> &#1576;&#1585;&#1605;&#1580;&#1610;&#1575;&#1578;"
+"&#32;&#1581;&#1585;&#1577; (barmagiyat &#x1e25;orrah)"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<strong>Bulgarian:</strong> &#1089;&#1074;&#1086;&#1073;&#1086;&#1076;"
-#| "&#1077;&#1085; &#1089;&#1086;&#1092;&#1090;&#1091;&#1077;&#1088; "
-#| "(svoboden softuer)"
 msgid ""
 "<strong>Armenian:</strong> &#1377;&#1382;&#1377;&#1407; &#1390;&#1408;&#1377;"
 "&#1379;&#1387;&#1408;/&#1390;&#1408;&#1377;&#1379;&#1408;&#1381;&#1408; "
 "(azat tsragir/tsragrer)"
 msgstr ""
-"<strong>Bulgare&nbsp;:</strong> &#1089;&#1074;&#1086;&#1073;&#1086;&#1076;"
-"&#1077;&#1085; &#1089;&#1086;&#1092;&#1090;&#1091;&#1077;&#1088; (svoboden "
-"softuer)"
+"<strong>Arménien :</strong> &#1377;&#1382;&#1377;&#1407; &#1390;&#1408;"
+"&#1377;&#1379;&#1387;&#1408;/&#1390;&#1408;&#1377;&#1379;&#1408;&#1381;"
+"&#1408; (azat tsragir/tsragrer)"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<strong>Belarusian:</strong> &#1089;&#1074;&#1072;&#1073;&#1086;&#1076;"
-#| "&#1085;&#1072;&#1077; &#1087;&#1088;&#1072;&#1075;&#1088;&#1072;&#1084;"
-#| "&#1085;&#1072;&#1077; &#1079;&#1072;&#1073;&#1077;&#1089;&#1100;&#1087;"
-#| "&#1103;&#1095;&#1101;&#1085;&#1100;&#1085;&#1077; (svabodnaye pragramnaye "
-#| "zabespyachenne)"
 msgid ""
 "<strong>Belarusian:</strong> &#1089;&#1074;&#1072;&#1073;&#1086;&#1076;"
 "&#1085;&#1072;&#1077; &#1087;&#1088;&#1072;&#1075;&#1088;&#1072;&#1084;"
@@ -121,9 +100,10 @@ msgid ""
 "zabes'pjachen'ne)"
 msgstr ""
 "<strong>Biélorusse&nbsp;:</strong> &#1089;&#1074;&#1072;&#1073;&#1086;&#1076;"
-"&#1085;&#1072;&#1077;&#1087;&#1088;&#1072;&#1075;&#1088;&#1072;&#1084;&#1085;"
-"&#1072;&#1077;&#1079;&#1072;&#1073;&#1077;&#1089;&#1100;&#1087;&#1103;&#1095;"
-"&#1101;&#1085;&#1100;&#1085;&#1077; (svabodnaye pragramnaye zabespyachenne)"
+"&#1085;&#1072;&#1077; &#1087;&#1088;&#1072;&#1075;&#1088;&#1072;&#1084;"
+"&#1085;&#1072;&#1077; &#1079;&#1072;&#1073;&#1077;&#1089;&#1100;&#1087;"
+"&#1103;&#1095;&#1101;&#1085;&#1100;&#1085;&#1077; (svabodnae pragramnae "
+"zabes'pjachen'ne)"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -171,10 +151,8 @@ msgid "<strong>Dutch:</strong> vrije software"
 msgstr "<strong>Néerlandais&nbsp;:</strong> vrije software"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<strong>Esperanto:</strong> libera softvaro"
 msgid "<strong>Esperanto:</strong> libera programaro / programo"
-msgstr "<strong>Esperanto&nbsp;:</strong> libera softvaro"
+msgstr "<strong>Esperanto&nbsp;:</strong> libera programaro / programo"
 
 #. type: Content of: <ul><li>
 msgid "<strong>Estonian:</strong> vaba tarkvara"
@@ -201,11 +179,6 @@ msgid "<strong>German:</strong> freie Software"
 msgstr "<strong>Allemand&nbsp;:</strong> freie Software"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<strong>Greek:</strong> &#949;&#955;&#949;&#973;&#952;&#949;&#961;&#959; "
-#| "&#955;&#959;&#947;&#953;&#963;&#956;&#953;&#954;&#972; (elefthero "
-#| "logismiko)"
 msgid ""
 "<strong>Greek:</strong> &#949;&#955;&#949;&#973;&#952;&#949;&#961;&#959; "
 "&#955;&#959;&#947;&#953;&#963;&#956;&#953;&#954;&#972; (eleuthero logismiko)"
@@ -239,20 +212,17 @@ msgid "<strong>Icelandic:</strong> frj&aacute;ls hugb&uacute;na&#240;ur"
 msgstr "<strong>Islandais&nbsp;:</strong> frj&aacute;ls hugb&uacute;na&#240;ur"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<strong>Esperanto:</strong> libera softvaro"
 msgid "<strong>Ido:</strong> libera programaro"
-msgstr "<strong>Esperanto&nbsp;:</strong> libera softvaro"
+msgstr "<strong>Ido&nbsp;:</strong> libera programaro"
 
 #. type: Content of: <ul><li>
 msgid "<strong>Indonesian:</strong> perangkat lunak bebas"
 msgstr "<strong>Indonésien&nbsp;:</strong> perangkat lunak bebas"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<strong>Catalan:</strong> programari lliure"
 msgid "<strong>Interlingua:</strong> libere programmage / libere programmario"
-msgstr "<strong>Catalan&nbsp;:</strong> programari lliure"
+msgstr ""
+"<strong>Interlingua&nbsp;:</strong> libere programmage / libere programmario"
 
 #. type: Content of: <ul><li>
 msgid "<strong>Irish:</strong> bog earra&iacute; saoire"
@@ -289,10 +259,8 @@ msgid "<strong>Norwegian:</strong> fri programvare"
 msgstr "<strong>Norvégien&nbsp;:</strong> fri programvare"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<strong>Indonesian:</strong> perangkat lunak bebas"
 msgid "<strong>Malay:</strong> perisian bebas"
-msgstr "<strong>Indonésien&nbsp;:</strong> perangkat lunak bebas"
+msgstr "<strong>Malais&nbsp;:</strong> perisian bebas"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -325,12 +293,6 @@ msgid "<strong>Romanian:</strong> software liber"
 msgstr "<strong>Roumain&nbsp;:</strong> software liber"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<strong>Russian:</strong> &#1089;&#1074;&#1086;&#1073;&#1086;&#1076;"
-#| "&#1085;&#1086;&#1077; &#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;"
-#| "&#1084;&#1085;&#1086;&#1077; &#1086;&#1073;&#1077;&#1089;&#1087;&#1077;"
-#| "&#1095;&#1077;&#1085;&#1080;&#1077;"
 msgid ""
 "<strong>Russian:</strong> &#1089;&#1074;&#1086;&#1073;&#1086;&#1076;&#1085;"
 "&#1086;&#1077; &#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1084;"
@@ -340,7 +302,7 @@ msgstr ""
 "<strong>Russe&nbsp;:</strong> &#1089;&#1074;&#1086;&#1073;&#1086;&#1076;"
 "&#1085;&#1086;&#1077; &#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;"
 "&#1084;&#1085;&#1086;&#1077; &#1086;&#1073;&#1077;&#1089;&#1087;&#1077;"
-"&#1095;&#1077;&#1085;&#1080;&#1077;"
+"&#1095;&#1077;&#1085;&#1080;&#1077; (svobodnoe programmnoe obespechenie)"
 
 #. type: Content of: <ul><li>
 msgid "<strong>Sardinian:</strong> software liberu"
@@ -357,10 +319,8 @@ msgstr ""
 "(slobodni softver)"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<strong>Slovak:</strong> slobodn&yacute; softvér"
 msgid "<strong>Slovak:</strong> slobodn&yacute; softv&eacute;r"
-msgstr "<strong>Slovaque&nbsp;:</strong> slobodn&yacute; softvér"
+msgstr "<strong>Slovaque&nbsp;:</strong> slobodn&yacute; softv&eacute;r"
 
 #. type: Content of: <ul><li>
 msgid "<strong>Slovenian:</strong> prosto programje"
@@ -392,32 +352,18 @@ msgstr ""
 "&#3021;"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<strong>Tamil:</strong> &#2965;&#2975;&#3021;&#2975;&#2993;&#3021;&#2993;"
-#| "&#32;&#2990;&#3014;&#2985;&#3021;&#2986;&#3018;&#2992;&#3009;&#2995;"
-#| "&#3021;"
 msgid ""
 "<strong>Thai:</strong> &#3595;&#3629;&#3615;&#3605;&#3660;&#3649;&#3623;"
 "&#3619;&#3660;&#3648;&#3626;&#3619;&#3637;"
 msgstr ""
-"<strong>Tamoul&nbsp;:</strong> &#2965;&#2975;&#3021;&#2975;&#2993;&#3021;"
-"&#2993;&#32;&#2990;&#3014;&#2985;&#3021;&#2986;&#3018;&#2992;&#3009;&#2995;"
-"&#3021;"
+"<strong>Thaï&nbsp;:</strong> &#3595;&#3629;&#3615;&#3605;&#3660;&#3649;"
+"&#3623;&#3619;&#3660;&#3648;&#3626;&#3619;&#3637;"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid "<strong>Turkish:</strong> özg&#252;r yaz&#305;l&#305;m"
 msgid "<strong>Turkish:</strong> &ouml;zg&#252;r yaz&#305;l&#305;m"
-msgstr "<strong>Turc&nbsp;:</strong> özg&#252;r yaz&#305;l&#305;m"
+msgstr "<strong>Turc&nbsp;:</strong> &ouml;zg&#252;r yaz&#305;l&#305;m"
 
 #. type: Content of: <ul><li>
-#, fuzzy
-#| msgid ""
-#| "<strong>Ukranian:</strong> &#1074;&#1110;&#1083;&#1100;&#1085;&#1077; "
-#| "&#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1085;&#1077; &#1079;"
-#| "&#1072;&#1073;&#1077;&#1079;&#1087;&#1077;&#1095;&#1077;&#1085;&#1085;"
-#| "&#1103; (vil'ne prohramne zabezpechennia)"
 msgid ""
 "<strong>Ukrainian:</strong> &#1074;&#1110;&#1083;&#1100;&#1085;&#1077; "
 "&#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1085;&#1077; &#1079;"
@@ -427,7 +373,7 @@ msgstr ""
 "<strong>Ukrainien&nbsp;:</strong> &#1074;&#1110;&#1083;&#1100;&#1085;&#1077; "
 "&#1087;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1085;&#1077; &#1079;"
 "&#1072;&#1073;&#1077;&#1079;&#1087;&#1077;&#1095;&#1077;&#1085;&#1085;"
-"&#1103; (vil'ne prohramne zabezpechennia)"
+"&#1103; (vil'ne prohramne zabezpechennja)"
 
 #. type: Content of: <ul><li>
 msgid "<strong>Vietnamese:</strong> ph&#7847;n m&#7873;m t&#7921; do"
@@ -454,25 +400,16 @@ msgid ""
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
+"\">d'autres moyens de contacter</a> la FSF."
 
 #. type: Content of: <div><p>
-#, fuzzy
-#| msgid ""
-#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
-#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-#| "contact</a> the FSF.  <br /> Please send broken links and other "
-#| "corrections or suggestions to <a href=\"mailto:web-translators@gnu.org"
-#| "\">&lt;web-translators@gnu.org&gt;</a>."
 msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a>."
 msgstr ""
-"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
-"gnu@gnu.org\"><em>gnu@gnu.org</em></a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF. <br /> Veuillez envoyer les "
-"liens orphelins ou d'autres suggestions sur cette page Web à <a href="
-"\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</a>."
+"Veuillez indiquer les liens orphelins et autres corrections ou suggestions à "
+"<a href=\"mailto:web-translators@gnu.org\">&lt;web-translators@gnu.org&gt;</"
+"a>."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -498,7 +435,7 @@ msgid ""
 "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
 "NoDerivs 3.0 United States License</a>."
 msgstr ""
-"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
 "\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
