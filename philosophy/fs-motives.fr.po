@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: fs-motives.html\n"
-"POT-Creation-Date: 2011-09-20 12:29-0300\n"
+"POT-Creation-Date: 2012-01-11 12:25-0500\n"
 "PO-Revision-Date: 2011-06-26 01:12+0000\n"
 "Last-Translator: Denis Barbier <bouzim@gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -23,50 +23,98 @@ msgstr "Raisons d'écrire des logiciels libres"
 msgid "These are some of the motives for writing free software."
 msgstr "Voici quelques unes des raisons d'écrire des logiciels libres."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <dl><dt>
+msgid "Fun."
+msgstr ""
+
+#. type: Content of: <dl><dd>
+#, fuzzy
+#| msgid ""
+#| "<strong>Fun.</strong> For some people, often the best programmers, "
+#| "writing software is the greatest fun, especially when there is no boss to "
+#| "tell you what to do.  Nearly all free software developers share this "
+#| "motive."
 msgid ""
-"<strong>Fun.</strong> For some people, often the best programmers, writing "
-"software is the greatest fun, especially when there is no boss to tell you "
-"what to do.  Nearly all free software developers share this motive."
+"For some people, often the best programmers, writing software is the "
+"greatest fun, especially when there is no boss to tell you what to do."
 msgstr ""
 "<strong>Le plaisir</strong>. Pour certaines personnes, souvent les meilleurs "
 "programmeurs, écrire des logiciels est un vrai plaisir, particulièrement "
 "quand il n'y a pas de chef pour vous dire quoi faire. Pratiquement tous les "
 "développeurs de logiciels libres partagent cette motivation."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <dl><dd>
+msgid "Nearly all free software developers share this motive."
+msgstr ""
+
+#. type: Content of: <dl><dt>
+msgid "Political idealism."
+msgstr ""
+
+#. type: Content of: <dl><dd>
+#, fuzzy
+#| msgid ""
+#| "<strong>Political idealism.</strong> The desire to build a world of "
+#| "freedom, and help computer users escape from the power of software "
+#| "developers."
 msgid ""
-"<strong>Political idealism.</strong> The desire to build a world of freedom, "
-"and help computer users escape from the power of software developers."
+"The desire to build a world of freedom, and help computer users escape from "
+"the power of software developers."
 msgstr ""
 "<strong>L'idéalisme politique</strong>. Le désir de bâtir un monde de "
 "liberté, et d'aider les utilisateurs d'ordinateurs à échapper au pouvoir des "
 "développeurs de logiciels."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <dl><dt>
+msgid "To be admired."
+msgstr ""
+
+#. type: Content of: <dl><dd>
+#, fuzzy
+#| msgid ""
+#| "<strong>To be admired.</strong> If you write a successful, useful free "
+#| "program, the users will admire you.  That feels very good."
 msgid ""
-"<strong>To be admired.</strong> If you write a successful, useful free "
-"program, the users will admire you.  That feels very good."
+"If you write a successful, useful free program, the users will admire you.  "
+"That feels very good."
 msgstr ""
 "<strong>Pour être admiré</strong>. Si vous écrivez un logiciel libre utile "
 "et populaire, les utilisateurs vous admireront. C'est une sensation très "
 "agréable."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <dl><dt>
+msgid "Professional reputation."
+msgstr ""
+
+#. type: Content of: <dl><dd>
+#, fuzzy
+#| msgid ""
+#| "<strong>Professional reputation.</strong> If you write a successful, "
+#| "useful free program, that will suffice to show you are a good programmer."
 msgid ""
-"<strong>Professional reputation.</strong> If you write a successful, useful "
-"free program, that will suffice to show you are a good programmer."
+"If you write a successful, useful free program, that will suffice to show "
+"you are a good programmer."
 msgstr ""
 "<strong>La réputation professionnelle</strong>. Si vous écrivez un logiciel "
 "libre utilie et populaire, cela suffira à montrer que vous êtes un bon "
 "programmeur."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <dl><dt>
+msgid "Gratitude."
+msgstr ""
+
+#. type: Content of: <dl><dd>
+#, fuzzy
+#| msgid ""
+#| "<strong>Gratitude.</strong> If you have used the community's free "
+#| "programs for years, and it has been important to your work, you feel "
+#| "grateful and indebted to their developers.  When you write a program that "
+#| "could be useful to many people, that is your chance to pay it forward."
 msgid ""
-"<strong>Gratitude.</strong> If you have used the community's free programs "
-"for years, and it has been important to your work, you feel grateful and "
-"indebted to their developers.  When you write a program that could be useful "
-"to many people, that is your chance to pay it forward."
+"If you have used the community's free programs for years, and it has been "
+"important to your work, you feel grateful and indebted to their developers.  "
+"When you write a program that could be useful to many people, that is your "
+"chance to pay it forward."
 msgstr ""
 "<strong>La gratitude</strong>. Si vous avez utilisé les logiciels libres de "
 "la communauté depuis des années, et que cela a été important pour votre "
@@ -74,15 +122,27 @@ msgstr ""
 "développeurs. Quand vous écrivez un programme qui pourrait être utilisé par "
 "beaucoup de monde, c'est pour vous le moyen de rendre la pareille."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <dl><dt>
+msgid "Hatred for Microsoft."
+msgstr ""
+
+#. type: Content of: <dl><dd>
+#, fuzzy
+#| msgid ""
+#| "<strong>Hatred for Microsoft.</strong> It is a mistake to focus our "
+#| "criticism <a href=\"/philosophy/microsoft.html\">narrowly on Microsoft</"
+#| "a>.  Indeed, Microsoft is evil, since it makes non-free software.  Even "
+#| "worse, it implements <a href=\"http://DefectiveByDesign.org\">Digital "
+#| "Restrictions Management</a> in that software.  But many other companies "
+#| "do one or both of these.  Nonetheless, it is a fact that many people "
+#| "utterly despise Microsoft, and some contribute to free software based on "
+#| "that feeling."
 msgid ""
-"<strong>Hatred for Microsoft.</strong> It is a mistake to focus our "
-"criticism <a href=\"/philosophy/microsoft.html\">narrowly on Microsoft</a>.  "
-"Indeed, Microsoft is evil, since it makes non-free software.  Even worse, it "
-"implements <a href=\"http://DefectiveByDesign.org\">Digital Restrictions "
-"Management</a> in that software.  But many other companies do one or both of "
-"these.  Nonetheless, it is a fact that many people utterly despise "
-"Microsoft, and some contribute to free software based on that feeling."
+"It is a mistake to focus our criticism <a href=\"/philosophy/microsoft.html"
+"\">narrowly on Microsoft</a>.  Indeed, Microsoft is evil, since it makes non-"
+"free software.  Even worse, it implements <a href=\"http://DefectiveByDesign."
+"org\">Digital Restrictions Management</a> in that software.  But many other "
+"companies do one or both of these."
 msgstr ""
 "<strong>La haine de Microsoft</strong>. C'est une erreur de concentrer notre "
 "critique sur <a href=\"/philosophy/microsoft.fr.html\">seulement Microsoft</"
@@ -93,27 +153,63 @@ msgstr ""
 "méprisent au plus haut point Microsoft, et certaines d'entre elles "
 "contribuent au logiciel libre pour cette raison."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <dl><dd>
 msgid ""
-"<strong>Money.</strong> A considerable number of people are paid to develop "
-"free software or have built businesses around it."
+"Nonetheless, it is a fact that many people utterly despise Microsoft, and "
+"some contribute to free software based on that feeling."
+msgstr ""
+
+#. type: Content of: <dl><dt>
+msgid "Money."
+msgstr ""
+
+#. type: Content of: <dl><dd>
+#, fuzzy
+#| msgid ""
+#| "<strong>Money.</strong> A considerable number of people are paid to "
+#| "develop free software or have built businesses around it."
+msgid ""
+"A considerable number of people are paid to develop free software or have "
+"built businesses around it."
 msgstr ""
 "<strong>L'argent</strong>. Un nombre considérable de personnes sont payées "
 "pour développer des logiciels libres ou ont monté des sociétés gravitant "
 "autour du logiciel libre."
 
-#. type: Content of: <ul><li>
+#. type: Content of: <dl><dt>
+msgid "Wanting a better program to use."
+msgstr ""
+
+#. type: Content of: <dl><dd>
+#, fuzzy
+#| msgid ""
+#| "<strong>Wanting a better program to use.</strong> People often work on "
+#| "improvements in programs they use, in order to make them more "
+#| "convenient.  (Some commentators recognize no motive other than this, but "
+#| "their picture of human nature is too narrow.)"
 msgid ""
-"<strong>Wanting a better program to use.</strong> People often work on "
-"improvements in programs they use, in order to make them more convenient.  "
-"(Some commentators recognize no motive other than this, but their picture of "
-"human nature is too narrow.)"
+"People often work on improvements in programs they use, in order to make "
+"them more convenient.  (Some commentators recognize no motive other than "
+"this, but their picture of human nature is too narrow.)"
 msgstr ""
 "<strong>La volonté d'un meilleur programme à utiliser</strong>. Les gens "
 "travaillent souvent sur des améliorations des programmes qu'ils utilisent, "
 "pour les rendre plus pratiques. (Certains commentateurs ne reconnaissent "
 "d'autres raisons que celle-ci, mais leur vision de la nature humaine est "
 "trop étroite)."
+
+#. type: Content of: <dl><dt>
+msgid "Education"
+msgstr ""
+
+#. type: Content of: <dl><dd>
+msgid ""
+"If you write free software, it is often an opportunity to dramatically "
+"improve both your technical and social skills; if you are a teacher, "
+"encouraging your students to take part in an existing free software project "
+"or organizing them into a free software project may provide an excellent "
+"opportunity for them."
+msgstr ""
 
 #. type: Content of: <p>
 msgid ""
@@ -164,15 +260,15 @@ msgid ""
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
+"\">d'autres moyens de contacter</a> la FSF."
 
 #. type: Content of: <div><p>
 msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgstr ""
-"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
-"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
+"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -181,7 +277,7 @@ msgid ""
 "\">Translations README</a> for information on coordinating and submitting "
 "translations of this article."
 msgstr ""
-"Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html"
+"Veuillez consulter le <a href=\"/server/standards/README.translations.html"
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
@@ -195,7 +291,7 @@ msgid ""
 "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
 "NoDerivs 3.0 United States License</a>."
 msgstr ""
-"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
 "\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 

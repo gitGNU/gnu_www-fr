@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: software.html\n"
-"POT-Creation-Date: 2011-12-30 20:25-0500\n"
+"POT-Creation-Date: 2012-01-10 04:25-0500\n"
 "PO-Revision-Date: 2012-01-10 21:55+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -239,7 +239,9 @@ msgstr ""
 "détails."
 
 #. type: Content of: <h3>
-msgid "<a name=\"allgnupkgs\" id=\"allgnupkgs\">All GNU packages</a>"
+#, fuzzy
+#| msgid "<a name=\"allgnupkgs\" id=\"allgnupkgs\">All GNU packages</a>"
+msgid "<a id=\"allgnupkgs\">All GNU packages</a>"
 msgstr "<a name=\"allgnupkgs\" id=\"allgnupkgs\">Tous les paquetages GNU</a>"
 
 #. type: Content of: <p>
@@ -350,7 +352,7 @@ msgid ""
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
 "contact</a> the FSF."
 msgstr ""
-"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
 "\">d'autres moyens de contacter</a> la FSF."
 
@@ -360,7 +362,7 @@ msgid ""
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgstr ""
 "Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -383,7 +385,7 @@ msgid ""
 "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
 "NoDerivs 3.0 United States License</a>."
 msgstr ""
-"Cette page peut être utilisée suivant les conditions de la licence <a rel="
+"Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
 "\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
