@@ -3,20 +3,19 @@
 # This file is distributed under the same license as the right-to-read.html package.
 # Pierre Sarrazin, 2008.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
-# Thérèse Godefroy <godef.th AT free.fr>, 2011.
+# Thérèse Godefroy <godef.th AT free.fr>, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: right-to-read.html\n"
-"POT-Creation-Date: 2011-09-20 12:30-0300\n"
-"PO-Revision-Date: 2011-12-30 15:49+0100\n"
+"POT-Creation-Date: 2012-01-10 12:25-0500\n"
+"PO-Revision-Date: 2012-01-11 18:02+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  \n"
 
 #. type: Content of: <title>
 msgid "The Right to Read - GNU Project - Free Software Foundation (FSF)"
@@ -389,14 +388,14 @@ msgid ""
 "FTAA was effectively killed by Lula, President of Brazil, who rejected the "
 "DMCA requirement and others."
 msgstr ""
-"Depuis 2001, les USA tentent d'utiliser la proposition de traité <em>Free "
-"Trade Area of the Americas</em><a href=\"#TransNote4\"><sup>4</sup></a> "
-"(FTAA) pour imposer les mêmes règles à tous les pays occidentaux. Le FTAA "
-"est l'un de ces traités de soi-disant «&nbsp;libre échange&nbsp;», mais est "
-"en fait conçu pour donner aux monde des affaires un pouvoir de plus en plus "
-"grand sur les gouvernements démocratiques. L'imposition de lois du genre "
-"DMCA est typique de cet esprit. Le FTAA a été pratiquement tué par Lula, "
-"président du Brésil, qui a rejeté la clause DMCA ainsi que d'autres."
+"Depuis 2001, les USA tentent d'utiliser la proposition de traité « Zone de "
+"libre-échange des Amériques » (ZLEA) pour imposer les mêmes règles à tous "
+"les pays occidentaux. Le ZLEA est l'un de ces traités de soi-disant «&nbsp;"
+"libre échange&nbsp;», mais est en fait conçu pour donner aux monde des "
+"affaires un pouvoir de plus en plus grand sur les gouvernements "
+"démocratiques. L'imposition de lois du genre DMCA est typique de cet esprit. "
+"Le ZLEA a été pratiquement tué par Lula, président du Brésil, qui a rejeté "
+"la clause DMCA ainsi que d'autres."
 
 #. type: Content of: <p>
 msgid ""
@@ -411,7 +410,7 @@ msgstr ""
 "comme l'Australie et le Mexique, par le biais d'accords de «&nbsp;libre "
 "échange&nbsp;» bilatéraux, et à des pays tel que le Costa-Rica par le biais "
 "du <acronym title=\"Central American Free Trade Agreement\">CAFTA</"
-"acronym><a href=\"#TransNote5\"><sup>5</sup></a>. Le président Correa de "
+"acronym><a href=\"#TransNote4\"><sup>4</sup></a>. Le président Correa de "
 "l'Équateur a refusé de signer un accord de «&nbsp;libre échange&nbsp;» avec "
 "les États-Unis, mais j'ai entendu dire que l'Équateur a adopté quelque chose "
 "de similaire à la DMCA en 2003."
@@ -567,6 +566,80 @@ msgstr ""
 "aux droits qu'il leur accorde."
 
 #. type: Content of: <h3>
+msgid "Bad News"
+msgstr "Mauvaises nouvelles"
+
+#. type: Content of: <p>
+msgid ""
+"The battle for the right to read is already in progress, The enemy is "
+"organized, while we are not, so it is going against us.  Here are articles "
+"about bad things that have happened since the original publication of this "
+"article."
+msgstr ""
+"La bataille pour le droit de lire est déjà en cours. L'ennemi est organisé "
+"alors que nous ne le sommes pas, aussi elle tourne à notre détriment. Voici "
+"des articles sur ce qui est arrivé de mauvais depuis la publication de cet "
+"article."
+
+#. type: Content of: <ul><li>
+msgid ""
+"Today's commercial ebooks <a href=\"/philosophy/the-danger-of-ebooks.html\"> "
+"abolish readers' traditional freedoms.</a>"
+msgstr ""
+"Les livres électroniques d'aujourd'hui <a href=\"/philosophy/the-danger-of-"
+"ebooks.html\">abolissent les libertés traditionnelles des lecteurs</a> [EN]."
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://www.nature.com/nature_education/biology.html\"> A \"biology "
+"textbook\" web site</a> that you can access only by signing a <a href="
+"\"http://www.nature.com/principles/viewTermsOfUse\"> contract not to lend it "
+"to anyone else</a>, which the publisher can revoke at will."
+msgstr ""
+"<a href=\"http://www.nature.com/nature_education/biology.html\">Le site web "
+"d'un \"manuel de biology\"</a> [EN] auquel vous ne pouvez accéder qu'en "
+"signant un <a href=\"http://www.nature.com/principles/viewTermsOfUse"
+"\">contrat interdisant de le prêter à quiconque</a>, que l'éditeur peut "
+"révoquer à son gré."
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://news.zdnet.com/2100-9595_22-103151.html\">Electronic "
+"Publishing:</a> An article about distribution of books in electronic form, "
+"and copyright issues affecting the right to read a copy."
+msgstr ""
+"<a href=\"http://news.zdnet.com/2100-9595_22-103151.html\">La publication "
+"électronique</a> [EN] : un article dont le sujet est la distribution de "
+"livres sous forme électronique, et les questions de copyright affectant le "
+"droit de lire une copie."
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://channels.microsoft.com/presspass/press/1999/Aug99/SeyboldPR."
+"asp\">Books inside Computers:</a> Software to control who can read books and "
+"documents on a PC."
+msgstr ""
+"<a href=\"http://channels.microsoft.com/presspass/press/1999/Aug99/SeyboldPR."
+"asp\">Des livres dans les ordinateurs</a> [EN]&nbsp;: des logiciels pour "
+"contrôler qui peut lire des livres et des documents sur un PC."
+
+#. type: Content of: <p>
+msgid ""
+"If we want to stop the bad news and create some good news, we need to "
+"organize and fight.  The FSF's <a href=\"http://defectivebydesign.org\"> "
+"Defective by Design</a> campaign has made a start &mdash; subscribe to the "
+"campaign's mailing list to lend a hand.  And <a href=\"http://www.fsf.org/"
+"associate\">join the FSF</a> to help fund our work."
+msgstr ""
+"Si nous voulons arrêter les mauvaises nouvelles et créer quelques bonnes "
+"nouvelles, nous avons besoin de nous organiser et de nous battre. La "
+"campagne de la FSF <a href=\"http://defectivebydesign.org\"> Defective by "
+"Design</a><a href=\"#TransNote5\"><sup>5</sup></a> [EN] a pris le départ - "
+"inscrivez-vous à la liste de diffusion de la campagne pour donner un coup de "
+"main. Et <a href=\"http://www.fsf.org/associate\">rejoignez la FSF</a> [EN] "
+"pour aider à financer notre travail."
+
+#. type: Content of: <h3>
 msgid "References"
 msgstr "Références"
 
@@ -650,39 +723,6 @@ msgstr ""
 "story/0,10801,49358,00.html\" id=\"COPYPROCTECTION\">Copy Protection: Just "
 "Say No</a> [EN], publié dans Computer World."
 
-#. type: Content of: <p>
-msgid ""
-"The <a href=\"#AuthorsNote\">author's note</a> talks about the battle for "
-"the right to read and electronic surveillance.  The battle is beginning now; "
-"here are links to two articles about technologies now being developed to "
-"deny you the right to read."
-msgstr ""
-"La <a href=\"#AuthorsNote\">note de l'auteur</a> parle de la bataille pour "
-"le droit de lire, et de la surveillance électronique. La bataille a déjà "
-"commencé, voici deux liens vers des articles présentant les technologies "
-"déjà développées pour interdire le droit à la lecture&nbsp;:"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://news.zdnet.com/2100-9595_22-103151.html\">Electronic "
-"Publishing:</a> An article about distribution of books in electronic form, "
-"and copyright issues affecting the right to read a copy."
-msgstr ""
-"<a href=\"http://news.zdnet.com/2100-9595_22-103151.html\">La publication "
-"électronique :</a> un article dont le sujet est la distribution de livres "
-"sous forme électronique, et les questions de copyright affectant le droit de "
-"lire une copie."
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://channels.microsoft.com/presspass/press/1999/Aug99/SeyboldPR."
-"asp\">Books inside Computers:</a> Software to control who can read books and "
-"documents on a PC."
-msgstr ""
-"<a href=\"http://channels.microsoft.com/presspass/press/1999/Aug99/SeyboldPR."
-"asp\">Des livres dans les ordinateurs</a>&nbsp;: des logiciels pour "
-"contrôler qui peut lire des livres et des documents sur un PC."
-
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
@@ -692,8 +732,8 @@ msgstr ""
 "<li id=\"TransNote2\">Loi sur le copyright du millénaire numérique.</li>\n"
 "<li id=\"TransNote3\">Loi sur les standards et la certification des systèmes "
 "de sécurité.</li>\n"
-"<li id=\"TransNote4\">Zone de libre échange des Amériques.</li>\n"
-"<li id=\"TransNote5\">Accord de libre échange d'Amérique centrale.</li>\n"
+"<li id=\"TransNote4\">Accord de libre échange d'Amérique centrale.</li>\n"
+"<li id=\"TransNote5\">Défectueux par conception.</li>\n"
 "</ol>"
 
 #. type: Content of: <div><p>
@@ -711,8 +751,8 @@ msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgstr ""
-"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
-"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
+"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -750,3 +790,14 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
+
+#~ msgid ""
+#~ "The <a href=\"#AuthorsNote\">author's note</a> talks about the battle for "
+#~ "the right to read and electronic surveillance.  The battle is beginning "
+#~ "now; here are links to two articles about technologies now being "
+#~ "developed to deny you the right to read."
+#~ msgstr ""
+#~ "La <a href=\"#AuthorsNote\">note de l'auteur</a> parle de la bataille "
+#~ "pour le droit de lire, et de la surveillance électronique. La bataille a "
+#~ "déjà commencé, voici deux liens vers des articles présentant les "
+#~ "technologies déjà développées pour interdire le droit à la lecture&nbsp;:"
