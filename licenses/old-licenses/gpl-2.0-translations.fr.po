@@ -2,18 +2,21 @@
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gpl-2.0-translations.html package.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-2.0-translations.html\n"
 "POT-Creation-Date: 2011-11-03 12:25-0300\n"
-"PO-Revision-Date: 2011-07-01 01:13+0200\n"
-"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"PO-Revision-Date: 2012-01-13 18:47+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2011-09-20 12:28-0300\n"
+"Language: fr\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
 msgid ""
@@ -36,7 +39,6 @@ msgid "Information about unofficial translations"
 msgstr "À propos des traductions non officielles"
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "The reason the FSF does not approve these translations as officially "
 #| "valid is that checking them would be difficult and expensive (needing the "
@@ -57,8 +59,7 @@ msgstr ""
 "coûteuse (besoin de l'aide de juristes bilingues dans d'autres pays). Et "
 "pire, si une erreur se glissait, les conséquences pourraient être "
 "désastreuses pour toute la communauté du logiciel libre. Tant que ces "
-"traductions ne sont pas officielles, elles ne peuvent pas faire de dégâts, "
-"et nous espérons qu'elles aideront plus de gens à comprendre la GPL."
+"traductions ne sont pas officielles, elles ne peuvent pas faire de dégâts."
 
 #. type: Content of: <p>
 msgid ""
@@ -72,12 +73,23 @@ msgid ""
 "concepts as well as other philosophical principles that may appear in the "
 "document."
 msgstr ""
+"Notre objectif en mettant des liens vers ces traductions est d'aider plus de "
+"gens à comprendre la GPL. Pour cela, les traductions ont besoin d'être assez "
+"précises, même si elles ne sont pas parfaites. Pour faire une bonne "
+"traduction, il est essentiel d'avoir parfaitement compris des concepts "
+"fondamentaux comme le <a href=\"/copyleft/copyleft.html\">copyleft</a> et la "
+"<a href=\"/philosophy/free-sw.html\">définition du logiciel libre</a>. C'est "
+"pourquoi les personnes qui veulent contribuer aux traductions doivent "
+"s'assurer qu'elles sont familières avec ces concepts ainsi qu'avec les "
+"autres principes philosophiques qui pourraient apparaître dans le document."
 
 #. type: Content of: <p>
 msgid ""
 "We give permission to publish translations of the GNU GPL, LGPL, AGPL, and "
 "FDL into other languages, provided that:"
 msgstr ""
+"Nous permettons la publication de traductions des licences GPL, LGPL, AGPL, "
+"et FDL de GNU en d'autres langues, aux conditions suivantes :"
 
 #. type: Content of: <ol><li>
 msgid ""
@@ -85,18 +97,26 @@ msgid ""
 "count legally as substitutes for the authentic version (see below for how to "
 "do this)."
 msgstr ""
+"vous spécifiez que votre traduction est non officielle, pour informer les "
+"gens que d'un point de vue juridique elle ne remplace pas la version "
+"authentique (voir ci-dessous comment le faire) ;"
 
 #. type: Content of: <ol><li>
 msgid ""
 "You agree to install changes at our request, if we learn from other friends "
 "of GNU that changes are necessary to make the translation clearer."
 msgstr ""
+"vous acceptez de faire des modifications à notre demande, si nous apprenons "
+"par d'autres amis de GNU que des modifications sont nécessaires pour rendre "
+"la traduction plus claire ;"
 
 #. type: Content of: <ol><li>
 msgid ""
 "The translation is not hosted on a commercial site and does not refer to any "
 "company."
 msgstr ""
+"la traduction n'est pas hébergée par un site commercial et ne se réfère à "
+"aucune société ;"
 
 #. type: Content of: <ol><li>
 msgid ""
@@ -104,18 +124,26 @@ msgid ""
 "and gnu.org.  We might accept links about other free software packages, but "
 "we prefer to avoid them."
 msgstr ""
+"la page contenant la traduction n'a de liens que vers fsf.org et gnu.org "
+"(nous pourrions accepter des liens vers d'autres paquetages logiciels, mais "
+"nous préférons l'éviter) ;"
 
 #. type: Content of: <ol><li>
 msgid ""
 "The page should say it is released under some version of the Creative "
 "Commons Attribution Noderivs license."
 msgstr ""
+"la page dit qu'elle peut être utilisée suivant les conditions de la licence "
+"<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>. "
 
 #. type: Content of: <ol><li>
 msgid ""
 "We may accept small exceptions to these rules in legacy cases that are hard "
 "to fix."
 msgstr ""
+"Nous pouvons accepter de légères exceptions à ces règles en cas de pages "
+"anciennes qui sont difficiles à corriger."
 
 #. type: Content of: <p>
 msgid ""
@@ -125,6 +153,13 @@ msgid ""
 "will link to that translation rather than others.  We still can't make it "
 "official, but we expect it is probably mostly correct."
 msgstr ""
+"Nous ne mettons pas systématiquement en lien toutes les traductions non "
+"officielles que nous connaissons dans un langage donné. Par exemple, si une "
+"traduction est faite par une organisation soutenant le logiciel libre que "
+"nous connaissons et en qui nous avons confiance, nous la mettons en lien de "
+"préférence aux autres. Nous ne pouvons toujours pas la considérer comme "
+"officielle, mais nous nous attendons à ce qu'elle soit essentiellement "
+"correcte."
 
 #. type: Content of: <p>
 msgid ""
@@ -152,12 +187,18 @@ msgid ""
 "However, we hope that this translation will help <em>language</em> speakers "
 "understand the GNU GPL better."
 msgstr ""
-"Ceci est une traduction non officielle de la GNU General Public License en "
-"français.  Elle n'a pas été publiée par la Free Software Foundation, et ne "
-"détermine pas les termes de distribution pour les logiciels qui utilisent la "
-"GNU GPL &mdash;&nbsp;seul le texte anglais original de la GNU GPL en a le "
-"droit.  Cependant, nous espérons que cette traduction aidera les "
-"francophones à mieux comprendre la GNU GPL."
+"This is an unofficial translation of the GNU General Public License into "
+"<em>language</em>.  It was not published by the Free Software Foundation, "
+"and does not legally state the distribution terms for software that uses the "
+"GNU GPL&mdash;only the original English text of the GNU GPL does that.  "
+"However, we hope that this translation will help <em>language</em> speakers "
+"understand the GNU GPL better.<br/><br/>\n"
+"Ceci est une traduction non officielle de la <em>GNU General Public License</"
+"em> en français.  Elle n'a pas été publiée par la <em>Free Software "
+"Foundation</em>, et ne détermine pas les termes de distribution pour les "
+"logiciels qui utilisent la GNU GPL - seul le texte anglais original de la "
+"GNU GPL en a le droit.  Cependant, nous espérons que cette traduction aidera "
+"les francophones à mieux comprendre la GNU GPL."
 
 #. type: Content of: <p>
 msgid ""
@@ -167,10 +208,10 @@ msgid ""
 "guidelines and make a link to it from this page."
 msgstr ""
 "Si vous faites une traduction, veuillez en informer les responsables de la "
-"traduction de GNU <a href=\"mailto:web-translators&#64;gnu.org\">&lt;web-"
-"translators&#64;gnu.org&gt;</a>. Ils s'assureront que votre traduction "
-"respecte les règles précédentes et ajouteront un lien vers votre traduction "
-"sur cette page."
+"traduction de GNU <a href=\"mailto:web-translators@gnu.org\">&lt;web-"
+"translators@gnu.org&gt;</a>. Ils s'assureront que votre traduction respecte "
+"les règles précédentes et ajouteront un lien vers votre traduction sur cette "
+"page."
 
 #. type: Content of: <p>
 msgid ""
@@ -210,7 +251,6 @@ msgstr ""
 #.        and <a href="http://members.tripod.com.br/RamonFlores/GNU/gpl.html">
 #.        Galician minimo</a> 
 #. type: Content of: <ul><li>
-#, fuzzy
 #| msgid ""
 #| "<code>[lt]</code> <a href=\"http://www.autopenhosting.org/gnu/gnu_gpl.html"
 #| "\">Lithuanian</a> translation of the GPL"
@@ -218,8 +258,8 @@ msgid ""
 "<code>[gl]</code> <a href=\"http://www.mancomun.org/GPL2_GL/gpl2_gl.txt\"> "
 "Galician</a> translation of the GPL"
 msgstr ""
-"<code>[lt]</code> Traduction en <a href=\"http://www.autopenhosting.org/gnu/"
-"gnu_gpl.html\">lituanien</a> de la GPL"
+"<code>[gl]</code> Traduction en <a href=\"http://www.mancomun.org/GPL2_GL/"
+"gpl2_gl.txt\">galicien</a> de la GPL"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -247,7 +287,6 @@ msgstr ""
 
 #.  RT #699497 
 #. type: Content of: <ul><li>
-#, fuzzy
 #| msgid ""
 #| "<code>[fa]</code> <a href=\"http://www.kaveh.org/gnu/gpl-fa.html\">Farsi</"
 #| "a> translation of the GPL"
@@ -255,11 +294,10 @@ msgid ""
 "<code>[ru]</code> <a href=\"http://jxself.org/translations/gpl-2.ru.shtml"
 "\">Russian</a> translation of the GPL"
 msgstr ""
-"<code>[fa]</code> Traduction en <a href=\"http://www.kaveh.org/gnu/gpl-fa."
-"html\">farsi</a> de la GPL"
+"<code>[ru]</code> Traduction en <a href=\"http://jxself.org/translations/"
+"gpl-2.ru.shtml\">russe</a> de la GPL"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 #| msgid ""
 #| "<code>[da]</code> <a href=\"http://www.fundanemt.com/gpl_da.html"
 #| "\">Danish</a> translation of the GPL"
@@ -267,8 +305,8 @@ msgid ""
 "<code>[sr]</code> <a href=\"http://alas.matf.bg.ac.rs/~mr99164/ojl-2.0.html"
 "\">Serbian</a> translation of the GPL"
 msgstr ""
-"<code>[da]</code> Traduction en <a href=\"http://www.fundanemt.com/gpl_da."
-"html\">danois</a> de la GPL"
+"<code>[sr]</code> Traduction en <a href=\"http://alas.matf.bg.ac.rs/~mr99164/"
+"ojl-2.0.html\">serbe</a> de la GPL"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -282,7 +320,6 @@ msgstr ""
 #.  (<a href="http://www.belgeler.org/howto/gpl.html">
 #. 2</a>)
 #. type: Content of: <ul><li>
-#, fuzzy
 #| msgid ""
 #| "<code>[da]</code> <a href=\"http://www.fundanemt.com/gpl_da.html"
 #| "\">Danish</a> translation of the GPL"
@@ -290,8 +327,8 @@ msgid ""
 "<code>[tr]</code> <a href=\"http://www.arayan.com/da/gpl_tr.html\">Turkish</"
 "a> translation of the GPL"
 msgstr ""
-"<code>[da]</code> Traduction en <a href=\"http://www.fundanemt.com/gpl_da."
-"html\">danois</a> de la GPL"
+"<code>[tr]</code> Traduction en <a href=\"http://www.arayan.com/da/gpl_tr."
+"html\">turc</a> de la GPL"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -299,7 +336,7 @@ msgid ""
 "\">Chinese (Traditional)</a> translation of the GPL"
 msgstr ""
 "<code>[zh-tw]</code> Traduction en <a href=\"http://www.linux.org.tw/CLDP/"
-"OLD/doc/GPL.html\">chinois (tradictionnel)</a> de la GPL"
+"OLD/doc/GPL.html\">chinois (traditionnel)</a> de la GPL"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
@@ -312,7 +349,7 @@ msgid ""
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
 "contact</a> the FSF."
 msgstr ""
-"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
 "\">d'autres moyens de contacter</a> la FSF."
 
@@ -322,7 +359,7 @@ msgid ""
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgstr ""
 "Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -349,7 +386,7 @@ msgid ""
 "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
 "NoDerivs 3.0 United States License</a>."
 msgstr ""
-"Cette page peut être utilisée suivant les conditions de la licence <a rel="
+"Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
 "\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
@@ -364,6 +401,9 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
+
+#~ msgid "Translations of this page"
+#~ msgstr "Traductions de cette page"
 
 #, fuzzy
 #~| msgid ""
