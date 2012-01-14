@@ -12,11 +12,11 @@ msgstr ""
 "PO-Revision-Date: 2012-01-13 14:17+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Outdated-Since: 2011-09-20 12:29-0300\n"
-"Language: fr\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -194,9 +194,6 @@ msgstr ""
 # | {+href=\"/philosophy/gov-promote.html\">How Should Governments Promote+}
 # | Free Software{+?+}</a>
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<a href=\"/philosophy/fs-motives.html\">Motives For Writing Free "
-#| "Software</a>"
 msgid ""
 "<a href=\"/philosophy/gov-promote.html\">How Should Governments Promote Free "
 "Software?</a>"
@@ -456,8 +453,6 @@ msgstr ""
 # | {+href=\"/philosophy/selling-exceptions.html\">On Selling Exceptions to
 # | the GNU GPL</a>+}
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<a href=\"/philosophy/selling.html\">Selling Free Software</a> is OK!"
 msgid ""
 "<a href=\"/philosophy/selling-exceptions.html\">On Selling Exceptions to the "
 "GNU GPL</a>"
@@ -542,9 +537,6 @@ msgstr "Copyright"
 # | {+href=\"/philosophy/public-domain-manifesto.html\">Why I Will Not Sign+}
 # | the [-Information Society</a>-] {+Public Domain Manifesto</a>+}
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<a href=\"/philosophy/wsis.html\">World Summit on the Information "
-#| "Society</a>"
 msgid ""
 "<a href=\"/philosophy/public-domain-manifesto.html\">Why I Will Not Sign the "
 "Public Domain Manifesto</a>"
@@ -667,10 +659,6 @@ msgstr "Gestion numérique des restrictions"
 # | this-] {+href=\"/philosophy/the-root-of-this-problem.html\">The+} problem
 # | is software controlled by its developer</a>, by Richard&nbsp;M. Stallman.
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<a href=\"http://www.bostonreview.net/BR33.2/stallman.php\">The root of "
-#| "this problem is software controlled by its developer</a>, by Richard&nbsp;"
-#| "M. Stallman."
 msgid ""
 "<a href=\"/philosophy/the-root-of-this-problem.html\">The problem is "
 "software controlled by its developer</a>, by Richard&nbsp;M. Stallman."
@@ -731,9 +719,9 @@ msgid ""
 "<a href=\"/philosophy/right-to-read.html\">The Right to Read: A Dystopian "
 "Short Story</a> by <a href=\"http://www.stallman.org/\"> Richard Stallman</a>"
 msgstr ""
-"<a href=\"/philosophy/right-to-read.fr.html\">Le droit de lire : une courte "
-"histoire dystopienne</a> par <a href=\"http://www.stallman.org/\">Richard "
-"Stallman</a>"
+"<a href=\"/philosophy/right-to-read.fr.html\">Le droit de lire&nbsp;: une "
+"courte histoire dystopienne</a> par <a href=\"http://www.stallman.org/"
+"\">Richard Stallman</a>"
 
 #. type: Content of: <h4>
 msgid ""
@@ -824,12 +812,6 @@ msgstr ""
 # | Millennium Copyright Act (DMCA) does not prohibit them from publishing
 # | their research.
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "In <a href=\"http://www.eff.org/IP/DMCA/"
-#| "Felten_v_RIAA/20010606_eff_felten_pr.html\"> Felten v. RIAA</a>, "
-#| "scientists are asking a court to rule that the Digital Millennium "
-#| "Copyright Act (DMCA) does not prohibit them from publishing their "
-#| "research."
 msgid ""
 "In <a href=\"https://www.eff.org/press/releases/princeton-scientists-sue-"
 "over-squelched-research\"> Felten v. RIAA</a>, scientists are asking a court "
@@ -846,18 +828,14 @@ msgstr ""
 # | &ldquo;Intellectual [-Property:-] {+Property&rdquo;:+} MPAA (Motion
 # | Picture Association of America) DVD [-Cases&rdquo;-] {+Cases+} Archive</a>
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<a href=\"http://www.eff.org/IP/Video/MPAA_DVD_cases/\">EFF &ldquo;"
-#| "Intellectual Property: MPAA (Motion Picture Association of America) DVD "
-#| "Cases&rdquo; Archive</a>"
 msgid ""
 "<a href=\"https://www.eff.org/search/site/dvd cases/\">EFF &ldquo;"
 "Intellectual Property&rdquo;: MPAA (Motion Picture Association of America) "
 "DVD Cases Archive</a>"
 msgstr ""
 "<a href=\"https://www.eff.org/search/site/dvd cases/\">L'archive de l'EFF "
-"«&nbsp;Intellectual Property : MPAA (Motion Picture Association of America) "
-"DVD Cases&nbsp;»</a> [EN]"
+"«&nbsp;Intellectual Property&nbsp;: MPAA (Motion Picture Association of "
+"America) DVD Cases&nbsp;»</a> [EN]"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -962,9 +940,6 @@ msgstr ""
 # | Inclusion A Good Thing? How Can We Make Sure It Is?</a> {+by <a
 # | href=\"http://www.stallman.org\">Richard Stallman</a>+}
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<a href=\"/philosophy/digital-inclusion-in-freedom.html\">Is Digital "
-#| "Inclusion A Good Thing? How Can We Make Sure It Is?</a>"
 msgid ""
 "<a href=\"/philosophy/digital-inclusion-in-freedom.html\">Is Digital "
 "Inclusion A Good Thing? How Can We Make Sure It Is?</a> by <a href=\"http://"
@@ -1231,7 +1206,7 @@ msgid ""
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
 "contact</a> the FSF."
 msgstr ""
-"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
 "\">d'autres moyens de contacter</a> la FSF."
 
@@ -1241,7 +1216,7 @@ msgid ""
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgstr ""
 "Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -1254,13 +1229,7 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# | Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
-# | 2005, 2006, 2007, 2008, [-2009-] {+2009, 2010+} Free Software Foundation,
-# | Inc.
 #. type: Content of: <div><p>
-#| msgid ""
-#| "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, "
-#| "2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc."
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc."
@@ -1274,7 +1243,7 @@ msgid ""
 "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
 "NoDerivs 3.0 United States License</a>."
 msgstr ""
-"Cette page peut être utilisée suivant les conditions de la licence <a rel="
+"Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
 "\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
@@ -1289,24 +1258,3 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-#~ msgid ""
-#~ "<a href=\"/philosophy/motivation.html\">Studies Find Reward Often No "
-#~ "Motivator</a>"
-#~ msgstr ""
-#~ "<a href=\"/philosophy/motivation.fr.html\">Des études montrent que la "
-#~ "rémunération n'est souvent pas une motivation</a>"
-
-#~ msgid "Translations of this page"
-#~ msgstr "Traductions de cette page"
-
-#~ msgid ""
-#~ "<a href=\"http://www.infoworld.com/articles/op/"
-#~ "xml/00/11/27/001127opfoster.xml\"> A world with UCITA may allow fine "
-#~ "print to outweigh the right thing</a> by Ed Foster <a href=\"mailto:"
-#~ "gripe@infoworld.com\"> &lt;gripe@infoworld.com&gt;</a>"
-#~ msgstr ""
-#~ "<a href=\"http://www.infoworld.com/articles/op/"
-#~ "xml/00/11/27/001127opfoster.xml\">A world with UCITA may allow fine print "
-#~ "to outweigh the right thing</a> par Ed Foster <a href=\"mailto:gripe&#64;"
-#~ "infoworld.com\">&lt;gripe&#64;infoworld.com&gt;</a>"

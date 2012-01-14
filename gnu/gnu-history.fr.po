@@ -1,5 +1,7 @@
 # French translation of http://www.gnu.org/gnu/gnu-history.html
-# Copyright (C) 2008 Free Software Foundation, Inc.
+# Copyright (C) 1996-1999, 2001-2003, 2005, 2007, 2009, 2012
+# Free Software Foundation, Inc.
+#
 # This file is distributed under the same license as the gnu-history.html package.
 # Jérôme Dominguez.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
@@ -46,11 +48,11 @@ msgstr ""
 "Le système d'exploitation GNU est un système complet de logiciels libres qui "
 "a une compatibilité ascendante avec Unix.  «&nbsp;GNU&nbsp;» signifie «&nbsp;"
 "GNU's Not Unix&nbsp;». <a href=\"http://www.stallman.org/\">Richard "
-"Stallman</a> a fait <a href=\"/gnu/initial-announcement.fr.html\">l'annonce "
+"Stallman</a> a fait <a href=\"/gnu/initial-announcement.html\">l'annonce "
 "initiale</a> du projet GNU en septembre 1983. Une version plus longue "
 "appelée <a href=\"/gnu/manifesto.html\">Manifeste GNU</a> a été publiée en "
 "septembre 1985. Il a été traduit dans différentes <a href=\"/gnu/manifesto."
-"fr.html#translations\">langues</a>."
+"html#translations\">langues</a>."
 
 #. type: Content of: <p>
 msgid ""
@@ -65,17 +67,6 @@ msgstr ""
 "prononcer (ou à <a href=\"http://www.poppyfields.net/poppy/songs/gnu.html"
 "\">chanter</a>)."
 
-# | The word &ldquo;free&rdquo; in &ldquo;free software&rdquo; pertains to <a
-# | href=\"/philosophy/free-sw.html\">freedom</a>, not price.  You may or may
-# | not pay a price to get GNU software.  Either way, once you have the
-# | software you have [-three-] {+four+} specific freedoms in using it. 
-# | [-First,-]  {+The freedom to run the program as you wish;+} the freedom to
-# | copy the program and give it away to your friends and co-workers;
-# | [-second,-] the freedom to change the program as you wish, by having full
-# | access to source code; [-third,-] the freedom to distribute an improved
-# | version and thus help build the community.  (If you redistribute GNU
-# | software, you may charge a fee for the physical act of transferring a
-# | copy, or you may give away copies.)
 #. type: Content of: <p>
 msgid ""
 "The word &ldquo;free&rdquo; in &ldquo;free software&rdquo; pertains to <a "
@@ -90,7 +81,7 @@ msgid ""
 "or you may give away copies.)"
 msgstr ""
 "Le mot « libre » dans « logiciel libre » fait référence à la <a href=\"/"
-"philosophy/free-sw.fr.html\">liberté</a>, et non au prix. Vous pouvez avoir "
+"philosophy/free-sw.html\">liberté</a>, et non au prix. Vous pouvez avoir "
 "payé des copies d'un logiciel GNU, ou les avoir obtenues sans frais. Mais "
 "quoi qu'il en soit, une fois que vous avez le logiciel, vous possédez quatre "
 "libertés spécifiques. La liberté d'exécuter le programme comme vous le "
@@ -125,9 +116,9 @@ msgid ""
 msgstr ""
 "En 1971, quand Richard Stallman débuta sa carrière au MIT, il travaillait "
 "dans un groupe qui utilisait exclusivement des <a href=\"/philosophy/free-sw."
-"fr.html\">logiciels libres</a>. Même les sociétés informatiques "
-"distribuaient des logiciels libres. Les programmeurs étaient libres de "
-"coopérer entre eux, et ils le faisaient souvent."
+"html\">logiciels libres</a>. Même les sociétés informatiques distribuaient "
+"des logiciels libres. Les programmeurs étaient libres de coopérer entre eux, "
+"et ils le faisaient souvent."
 
 #. type: Content of: <p>
 msgid ""
@@ -137,10 +128,10 @@ msgid ""
 "necessary."
 msgstr ""
 "Au début des années 80, presque tous les logiciels étaient des logiciels <a "
-"href=\"/philosophy/categories.fr.html#ProprietarySoftware\">propriétaires</"
-"a><a href=\"#TransNote1\"><sup>1</sup></a>, ce qui signifie que les "
-"propriétaires de logiciels interdisaient et empêchaient la coopération entre "
-"utilisateurs. Ceci rendit nécessaire le projet GNU."
+"href=\"/philosophy/categories.html#ProprietarySoftware\">propriétaires</a><a "
+"href=\"#TransNote1\"><sup>1</sup></a>, ce qui signifie que les propriétaires "
+"de logiciels interdisaient et empêchaient la coopération entre utilisateurs. "
+"Ceci rendit nécessaire le projet GNU."
 
 #. type: Content of: <p>
 msgid ""
@@ -166,13 +157,6 @@ msgstr ""
 "portable, et parce que la compatibilité rendait plus facile le passage de "
 "Unix à GNU, pour les utilisateurs d'Unix."
 
-# | A Unix-like operating system [-is much more than a kernel; it also-]
-# | includes {+a kernel,+} compilers, editors, text formatters, mail software,
-# | {+graphical interfaces, libraries, games+} and many other things.  Thus,
-# | writing a whole operating system is a very large job.  We started in
-# | January 1984.  [-It took many years.-]  The <a href=\"http://fsf.org/\">{+
-# | +}Free Software Foundation</a> was founded in October 1985, initially to
-# | raise funds to help develop GNU.
 #. type: Content of: <p>
 msgid ""
 "A Unix-like operating system includes a kernel, compilers, editors, text "
@@ -191,18 +175,6 @@ msgstr ""
 "octobre 1985, initialement dans le but de lever des fonds pour aider au "
 "développement de GNU."
 
-# | By 1990 we had either found or written all the major components except
-# | one&mdash;the kernel.  Then Linux, a Unix-like kernel, was developed by
-# | Linus Torvalds in 1991 and made free software in 1992.  Combining Linux
-# | with the almost-complete GNU system resulted in a complete operating
-# | system: the GNU/Linux system.  Estimates are that tens of millions of
-# | people now use GNU/Linux systems, typically via <a
-# | [-href=\"/distros\">distributions</a> such as Slackware, Debian, Red Hat,
-# | and others.-] {+href=\"/distros\">GNU/Linux distributions</a>.  The
-# | principal version of Linux now contains non-free firmware
-# | &ldquo;blobs&rdquo;; free software activists now maintain a modified free
-# | version of Linux, called <a
-# | href=\"http://directory.fsf.org/project/linux\"> Linux-libre</a>.+}
 #. type: Content of: <p>
 msgid ""
 "By 1990 we had either found or written all the major components except "
@@ -223,10 +195,10 @@ msgstr ""
 "résultat un système d'exploitation complet : le système GNU/Linux. On estime "
 "que des dizaines de millions de personnes utilisent actuellement des "
 "systèmes GNU/Linux, typiquement par le biais de <a href=\"/distros"
-"\">distributions</a>. La version principale de Linux contient actuellement "
-"des <em>blobs</em> de microcode non libre ; les activistes du logiciel libre "
-"maintiennent donc une version libre de Linux appelée <a href=\"http://"
-"directory.fsf.org/project/linux\"> Linux-libre</a>."
+"\">distributions GNU/Linux</a>. La version principale de Linux contient "
+"actuellement des <em>blobs</em> de microcode non libre ; les activistes du "
+"logiciel libre maintiennent donc une version libre de Linux appelée <a href="
+"\"http://directory.fsf.org/project/linux\"> Linux-libre</a>."
 
 #. type: Content of: <p>
 msgid ""
@@ -263,12 +235,6 @@ msgstr ""
 "grand nombre de <a href=\"http://directory.fsf.org/wiki/Category/Game\">jeux "
 "libres</a> [EN] sont déjà disponibles."
 
-# | How far can free software go? There are no limits, except when <a
-# | href=\"/philosophy/fighting-software-patents.html\">laws such as the
-# | patent system prohibit free [-software</a> entirely.-] {+software</a>.+} 
-# | The ultimate goal is to provide free software to do all of the jobs
-# | computer users want to do&mdash;and thus make proprietary software a thing
-# | of the past.
 #. type: Content of: <p>
 msgid ""
 "How far can free software go? There are no limits, except when <a href=\"/"
@@ -278,7 +244,7 @@ msgid ""
 "proprietary software a thing of the past."
 msgstr ""
 "Jusqu'où le logiciel libre peut-il aller&nbsp;? Il n'y a pas de limite, "
-"excepté quand <a href=\"/philosophy/fighting-software-patents.fr.html\">des "
+"excepté quand <a href=\"/philosophy/fighting-software-patents.html\">des "
 "lois comme le système des brevets interdisent le logiciel libre</a>. Le but "
 "ultime est de fournir des logiciels libres pour effectuer toutes les tâches "
 "informatiques - et de cette manière faire du logiciel propriétaire un "
@@ -289,8 +255,9 @@ msgstr ""
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
 "<b>Note de traduction</b><ol>\n"
-"<li id=\"TransNote1\">[Révision 2012] Actuellement, on traduit souvent "
-"<em>proprietary</em> par « privateur ».</li></ol>"
+"<li id=\"TransNote1\">Nous traduisons maintenant <em>proprietary</em> par "
+"« privateur », ces logiciels nous privant de certaines des libertés énoncées."
+"</li></ol>"
 
 #. type: Content of: <div><p>
 msgid ""
@@ -298,7 +265,7 @@ msgid ""
 "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
 "contact</a> the FSF."
 msgstr ""
-"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
 "\">d'autres moyens de contacter</a> la FSF."
 
@@ -308,7 +275,7 @@ msgid ""
 "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgstr ""
 "Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 
 #. type: Content of: <div><p>
@@ -321,8 +288,6 @@ msgstr ""
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
-# | Copyright &copy; 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2005, 2007,
-# | [-2009-] {+2009, 2012+} Free Software Foundation, Inc.
 #. type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2001, 2002, 2003, 2005, 2007, 2009, "
@@ -337,7 +302,7 @@ msgid ""
 "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
 "NoDerivs 3.0 United States License</a>."
 msgstr ""
-"Cette page peut être utilisée suivant les conditions de la licence <a rel="
+"Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
 "\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
@@ -352,14 +317,3 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-#~ msgid ""
-#~ "(The principal version of Linux now contains non-free firmware &ldquo;"
-#~ "blobs&rdquo;.  Free software activists now maintain a modified <a href="
-#~ "\"http://directory.fsf.org/project/linux\">free version</a> of Linux.)"
-#~ msgstr ""
-#~ "(La version principale de Linux contient actuellement des «&nbsp;"
-#~ "blobs&nbsp;» (NdT&nbsp;: grands objets binaires) non-libres de firmware. "
-#~ "Des activistes du logiciel libre maintiennent maintenant une <a href="
-#~ "\"http://directory.fsf.org/project/linux\">version libre</a> modifiée de "
-#~ "Linux.)"

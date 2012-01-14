@@ -12,11 +12,11 @@ msgstr ""
 "PO-Revision-Date: 2012-01-13 23:58+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Outdated-Since: 2011-09-20 12:28-0300\n"
-"Language: fr\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -41,10 +41,10 @@ msgid ""
 msgstr ""
 "Cette page contient les réponses aux questions les plus courantes sur la GNU "
 "General Public License (GPL). La foire aux questions pour la dernière "
-"version de la GPL se trouve <a href=\"/licenses/gpl-faq.fr.html\">ici</a>. "
-"Pour en apprendre plus sur les autres licences de la Fondation pour le "
-"logiciel libre, veuillez consulter <a href=\"/licenses/licenses.fr.html"
-"\">notre page des licences</a>."
+"version de la GPL se trouve <a href=\"/licenses/gpl-faq.html\">ici</a>. Pour "
+"en apprendre plus sur les autres licences de la Fondation pour le logiciel "
+"libre, veuillez consulter <a href=\"/licenses/licenses.html\">notre page des "
+"licences</a>."
 
 #. type: Content of: <p>
 msgid ""
@@ -372,14 +372,7 @@ msgstr ""
 "préambule de la GPL, ou les instructions sur la façon de l'utiliser dans vos "
 "propres programmes, pour économiser de l'espace&nbsp;?</a>"
 
-# | [-<b><a href=\"#TOCWhatIsCompatible\" name=\"WhatIsCompatible\">What-]{+<a
-# | href=\"#WhatIsCompatible\" name=\"TOCWhatIsCompatible\">What+} does it
-# | mean to say that two licenses are [-&ldquo;compatible&rdquo;?</a></b>-]
-# | {+&ldquo;compatible&rdquo;?</a>+}
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<b><a href=\"#TOCWhatIsCompatible\" name=\"WhatIsCompatible\">What does "
-#| "it mean to say that two licenses are &ldquo;compatible&rdquo;?</a></b>"
 msgid ""
 "<a href=\"#WhatIsCompatible\" name=\"TOCWhatIsCompatible\">What does it mean "
 "to say that two licenses are &ldquo;compatible&rdquo;?</a>"
@@ -512,16 +505,7 @@ msgstr ""
 "version ultérieure&nbsp;» <i>(Version 2 of the GPL or any later version)</"
 "i>&nbsp;?</a>"
 
-# | <a href=\"#GPLOutput\" name=\"TOCGPLOutput\">Is there some way that I can
-# | GPL the output people get from use of my program? For example, if my
-# | program is used to develop hardware designs, can I require [-these-]
-# | {+that+} these designs must be free?</a>
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<a href=\"#GPLOutput\" name=\"TOCGPLOutput\">Is there some way that I can "
-#| "GPL the output people get from use of my program? For example, if my "
-#| "program is used to develop hardware designs, can I require these these "
-#| "designs must be free?</a>"
 msgid ""
 "<a href=\"#GPLOutput\" name=\"TOCGPLOutput\">Is there some way that I can "
 "GPL the output people get from use of my program? For example, if my program "
@@ -1121,8 +1105,8 @@ msgid ""
 "freedoms</a> is a free software license."
 msgstr ""
 "Absolument pas - il y a beaucoup d'autres licences de logiciels libres. En "
-"voici une <a href=\"/licenses/license-list.fr.html\">liste incomplète</a>. "
-"Toute licence qui offre à l'utilisateur <a href=\"/philosophy/free-sw.fr.html"
+"voici une <a href=\"/licenses/license-list.html\">liste incomplète</a>. "
+"Toute licence qui offre à l'utilisateur <a href=\"/philosophy/free-sw.html"
 "\">certaines libertés spécifiques</a> est une licence de logiciel libre."
 
 #. type: Content of: <dl><dt>
@@ -1142,11 +1126,11 @@ msgid ""
 "a <a href=\"/licenses/why-not-lgpl.html\"> more permissive license</a>."
 msgstr ""
 "En utilisant la GNU GPL vous exigerez que toutes les <a href=\"/philosophy/"
-"pragmatic.fr.html\">versions améliorées diffusées soient du logiciel libre</"
-"a>. Ceci signifie que vous pouvez éviter le risque d'avoir à entrer en "
+"pragmatic.html\">versions améliorées diffusées soient du logiciel libre</a>. "
+"Ceci signifie que vous pouvez éviter le risque d'avoir à entrer en "
 "compétition avec une version modifiée propriétaire de votre propre travail. "
 "Cependant, dans certaines situations il peut être préférable d'utiliser une "
-"<a href=\"/licenses/why-not-lgpl.fr.html\">licence plus permissive</a>."
+"<a href=\"/licenses/why-not-lgpl.html\">licence plus permissive</a>."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -1169,7 +1153,7 @@ msgstr ""
 "un petit nombre de programmes (et portions de programmes) GNU qui utilisent "
 "des licences moins restrictives, telles que la GPL amoindrie <i>(Lesser GPL)"
 "</i>. Quand nous l'utilisons, c'est pour des raisons <a href=\"/licenses/why-"
-"not-lgpl.fr.html\">stratégiques</a>."
+"not-lgpl.html\">stratégiques</a>."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -1212,23 +1196,7 @@ msgstr ""
 "devrais-je faire si je découvre une violation potentielle de la GPL&nbsp;?</"
 "a></b>"
 
-# | You should <a href=\"/licenses/gpl-violation.html\">report [-it.</a>-]
-# | {+it</a>.+}  First, check the facts as best you can.  Then tell the
-# | publisher or copyright holder of the specific GPL-covered program.  If
-# | that is the Free Software Foundation, write to <a
-# | href=\"mailto:license-violation@gnu.org\">&lt;license-violation@gnu.org&gt;</a>.
-# |  Otherwise, the program's maintainer may be the copyright holder, or else
-# | could tell you how to contact the copyright holder, so report it to the
-# | maintainer.
 #. type: Content of: <dl><dd>
-#| msgid ""
-#| "You should <a href=\"/licenses/gpl-violation.html\">report it.</a> First, "
-#| "check the facts as best you can.  Then tell the publisher or copyright "
-#| "holder of the specific GPL-covered program.  If that is the Free Software "
-#| "Foundation, write to <a href=\"mailto:license-violation@gnu.org\">&lt;"
-#| "license-violation@gnu.org&gt;</a>.  Otherwise, the program's maintainer "
-#| "may be the copyright holder, or else could tell you how to contact the "
-#| "copyright holder, so report it to the maintainer."
 msgid ""
 "You should <a href=\"/licenses/gpl-violation.html\">report it</a>.  First, "
 "check the facts as best you can.  Then tell the publisher or copyright "
@@ -1542,7 +1510,7 @@ msgid ""
 "source code that must accompany binary-only release.)"
 msgstr ""
 "Oui, la GPL autorise cela pour tout le monde. Le <a href=\"/philosophy/"
-"selling.fr.html\">droit de vendre des copies</a> est une partie de la "
+"selling.html\">droit de vendre des copies</a> est une partie de la "
 "définition du logiciel libre."
 
 #. type: Content of: <dl><dt>
@@ -1588,8 +1556,8 @@ msgstr ""
 "Non. D'ailleurs, une telle exigence rendrait le programme non libre. Si l'on "
 "doit payer pour recevoir une copie d'un programme, ou si l'on doit le "
 "signaler à quelqu'un en particulier, alors le programme n'est pas libre. "
-"Voir la <a href=\"/philosophy/free-sw.fr.html\">définition du logiciel "
-"libre</a>."
+"Voir la <a href=\"/philosophy/free-sw.html\">définition du logiciel libre</"
+"a>."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -1645,15 +1613,7 @@ msgstr ""
 "version. Elle ne vous donne pas le droit de distribuer votre travail avec "
 "plus de restrictions."
 
-# | If someone asks you to sign an NDA for receiving GPL-covered [-copyright-]
-# | {+software copyrighted by the+} FSF, please inform [-the FSF-] {+us+}
-# | immediately by writing to [-license-violation@gnu.org.-] {+<a
-# | href=\"mailto:license-violation@fsf.org\">license-violation@fsf.org</a>.+}
 #. type: Content of: <dl><dd><p>
-#| msgid ""
-#| "If someone asks you to sign an NDA for receiving GPL-covered copyright "
-#| "FSF, please inform the FSF immediately by writing to license-"
-#| "violation@gnu.org."
 msgid ""
 "If someone asks you to sign an NDA for receiving GPL-covered software "
 "copyrighted by the FSF, please inform us immediately by writing to <a href="
@@ -2303,8 +2263,8 @@ msgstr ""
 msgid ""
 "See the page of <a href=\"/licenses/gpl-howto.html\"> GPL instructions</a>."
 msgstr ""
-"Voir la page des <a href=\"/licenses/gpl-howto.fr.html\">instructions pour "
-"la GPL</a>."
+"Voir la page des <a href=\"/licenses/gpl-howto.html\">instructions pour la "
+"GPL</a>."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -2513,7 +2473,7 @@ msgstr ""
 "américain, dans le cadre de leur travail, il est dans le domaine public, ce "
 "qui veut dire qu'il n'y a pas de copyright. Puisque la GNU GPL est basée sur "
 "le copyright, un tel programme ne peut être publié en l'utilisant (il peut "
-"être un <a href=\"/philosophy/free-sw.fr.html\">logiciel libre</a> "
+"être un <a href=\"/philosophy/free-sw.html\">logiciel libre</a> "
 "cependant&nbsp;; un programme du domaine public est libre)."
 
 #. type: Content of: <dl><dd><p>
@@ -2660,7 +2620,7 @@ msgstr ""
 "Mais vous pouvez donner des permissions supplémentaires pour l'utilisation "
 "de votre code. Vous pouvez, si vous le voulez, distribuer votre programme "
 "sous une licence plus permissive que la GPL, mais qui est compatible avec "
-"elle. La <a href=\"/philosophy/license-list.fr.html\">liste des licences</a> "
+"elle. La <a href=\"/philosophy/license-list.html\">liste des licences</a> "
 "donne une liste partielle des licences compatibles avec la GPL."
 
 #. type: Content of: <dl><dt>
@@ -2800,7 +2760,7 @@ msgid ""
 msgstr ""
 "Cela ne signifie pas que c'est une bonne idée d'écrire un programme qui ne "
 "fonctionne que sur Windows. En faisant ceci, cela donne un logiciel libre "
-"mais «&nbsp;<a href=\"/philosophy/java-trap.fr.html\">pris au piège</"
+"mais «&nbsp;<a href=\"/philosophy/java-trap.html\">pris au piège</"
 "a>&nbsp;» - en ce cas précis, pris au piège de Windows au lieu de Java, mais "
 "l'effet est le même. (Note historique : en décembre 2006, Sun est en train "
 "de <a href=\"http://www.fsf.org/news/fsf-welcomes-gpl-java.html\">republier "
@@ -2847,14 +2807,7 @@ msgstr ""
 "La licence BSD révisée ne contient plus cette clause sur la publicité, ce "
 "qui élimine le problème."
 
-# | <b><a href=\"#TOCGPLAndPlugins\" name=\"GPLAndPlugins\">If a program
-# | released under the GPL uses plug-ins, what are the requirements for the
-# | licenses of a plug-in[-.-]{+?+}</a></b>
 #. type: Content of: <dl><dt>
-#| msgid ""
-#| "<b><a href=\"#TOCGPLAndPlugins\" name=\"GPLAndPlugins\">If a program "
-#| "released under the GPL uses plug-ins, what are the requirements for the "
-#| "licenses of a plug-in.</a></b>"
 msgid ""
 "<b><a href=\"#TOCGPLAndPlugins\" name=\"GPLAndPlugins\">If a program "
 "released under the GPL uses plug-ins, what are the requirements for the "
@@ -3245,11 +3198,11 @@ msgid ""
 "public domain."
 msgstr ""
 "Nos avocats nous ont avisés que pour être dans la <a href=\"/licenses/why-"
-"assign.fr.html\">meilleure position pour faire appliquer la GPL</a> au "
-"tribunal contre des contrevenants, il valait mieux conserver un statut de "
-"copyright le plus simple possible. C'est ce que nous faisons en demandant à "
-"chaque contributeur, soit de transférer le copyright de sa contribution à la "
-"FSF, soit d'abandonner ce copyright, le plaçant ainsi dans le domaine public."
+"assign.html\">meilleure position pour faire appliquer la GPL</a> au tribunal "
+"contre des contrevenants, il valait mieux conserver un statut de copyright "
+"le plus simple possible. C'est ce que nous faisons en demandant à chaque "
+"contributeur, soit de transférer le copyright de sa contribution à la FSF, "
+"soit d'abandonner ce copyright, le plaçant ainsi dans le domaine public."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -3413,8 +3366,8 @@ msgid ""
 "<a href=\"/licenses/lgpl-java.html\">See this article for details.</a> It "
 "works as designed, intended, and expected."
 msgstr ""
-"<a href=\"/licenses/lgpl-java.fr.html\">Voir cet article pour les détails</"
-"a>. Cela fonctionne comme c'est conçu, voulu et attendu."
+"<a href=\"/licenses/lgpl-java.html\">Voir cet article pour les détails</a>. "
+"Cela fonctionne comme c'est conçu, voulu et attendu."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -3725,8 +3678,8 @@ msgid ""
 "users."
 msgstr ""
 "Non. Tout le propos de la GPL est que toutes les versions modifiées doivent "
-"être des <a href=\"/philosophy/free-sw.fr.html\">logiciels libres</a>, ce "
-"qui signifie, en particulier, que le code source de la version modifiée est "
+"être des <a href=\"/philosophy/free-sw.html\">logiciels libres</a>, ce qui "
+"signifie, en particulier, que le code source de la version modifiée est "
 "disponible pour les utilisateurs."
 
 #. type: Content of: <dl><dt>
@@ -3862,11 +3815,11 @@ msgid ""
 "we think that qualifies as &ldquo;from the same place&rdquo;."
 msgstr ""
 "La GPL prévoit que vous devez offrir un accès au code source «&nbsp;à partir "
-"du même endroit&nbsp;» <i>(from the same place)</i> ; ce qui signifie à côté "
-"des fichiers binaires. Si toutefois vous vous arrangez avec un autre site "
-"pour rendre disponible le code source nécessaire, et que vous mettez un lien "
-"ou une référence croisée au code source à côté des fichiers binaires, nous "
-"pensons que cela équivaut à «&nbsp;à partir du même endroit&nbsp;»."
+"du même endroit&nbsp;» <i>(from the same place)</i>&nbsp;; ce qui signifie à "
+"côté des fichiers binaires. Si toutefois vous vous arrangez avec un autre "
+"site pour rendre disponible le code source nécessaire, et que vous mettez un "
+"lien ou une référence croisée au code source à côté des fichiers binaires, "
+"nous pensons que cela équivaut à «&nbsp;à partir du même endroit&nbsp;»."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -4257,7 +4210,7 @@ msgid ""
 "how we judge the question."
 msgstr ""
 "Nous décidons donc de quelle licence utiliser pour chaque bibliothèque au "
-"cas par cas. Il existe une <a href=\"/licenses/why-not-lgpl.fr.html\">longue "
+"cas par cas. Il existe une <a href=\"/licenses/why-not-lgpl.html\">longue "
 "explication</a> sur la façon dont nous procédons pour nous décider."
 
 #. type: Content of: <dl><dt>
@@ -4541,10 +4494,9 @@ msgid ""
 msgstr ""
 "<b><a href=\"#TOCWMS\" name=\"WMS\">J'écris un système de maintenance de "
 "site web</a> (aussi appelé «&nbsp;<a href=\"http://www.gnu.org/philosophy/"
-"words-to-avoid.fr.html\">système de gestion de contenu</a>&nbsp;» <em>"
-"(content management system)</em> ou une application qui génère des pages web "
-"à partir de modèles. Quelle licence dois-je utiliser pour ces modèles&nbsp;?"
-"</b>"
+"words-to-avoid.html\">système de gestion de contenu</a>&nbsp;» <em>(content "
+"management system)</em> ou une application qui génère des pages web à partir "
+"de modèles. Quelle licence dois-je utiliser pour ces modèles&nbsp;?</b>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -5200,8 +5152,8 @@ msgstr ""
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
 "<b>Notes de traduction</b><ol>\n"
-"<li id=\"TransNote1\">[Révision 2012] Actuellement, on traduit souvent "
-"<em>proprietary</em> par « privateur ».<br/><br/></li>\n"
+"<li id=\"TransNote1\">Nous traduisons maintenant <em>proprietary</em> par "
+"« privateur ».<br/><br/></li>\n"
 "<li id=\"TransNote2\">La notion de <i>fair use</i> (litt. «&nbsp;utilisation "
 "raisonnable&nbsp;») est déterminée précisément dans la législation des États-"
 "Unis d'Amérique. Nous l'avons donc laissée telle quelle dans la traduction. "
@@ -5294,16 +5246,16 @@ msgid ""
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"contact.fr.html\">d'autres moyens de contacter</a> la FSF."
+"\">d'autres moyens de contacter</a> la FSF."
 
 #. type: Content of: <div><p>
 msgid ""
 "Please send broken links and other corrections or suggestions to <a href="
 "\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
 msgstr ""
-"Veuillez envoyer (en anglais) les liens morts ou d'autres suggestions sur "
-"cette page web à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
+"suggestions à <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</"
+"em></a>."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -5311,7 +5263,7 @@ msgid ""
 "\">Translations README</a> for information on coordinating and submitting "
 "translations of this article."
 msgstr ""
-"Veuillez consulter le <a href=\"/server/standards/README.translations.fr.html"
+"Veuillez consulter le <a href=\"/server/standards/README.translations.html"
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
 
@@ -5330,7 +5282,7 @@ msgid ""
 "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
 "NoDerivs 3.0 United States License</a>."
 msgstr ""
-"Cette page peut-être utilisée suivant les conditions de la licence <a rel="
+"Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
 "\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
@@ -5345,13 +5297,3 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-#~ msgid "Translations of this page"
-#~ msgstr "Traductions de cette page"
-
-#~ msgid ""
-#~ "<a href=\"#WhatIsCompatible\" name=\"TOCWhatIsCompatible\">What does it "
-#~ "mean to say that two licenses are compatible?</a>"
-#~ msgstr ""
-#~ "<a href=\"#WhatIsCompatible\" name=\"TOCWhatIsCompatible\">Que signifie "
-#~ "le fait que deux licences sont «&nbsp;compatibles&nbsp;»&nbsp;?</a>"
