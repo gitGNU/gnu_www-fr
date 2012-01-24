@@ -1,29 +1,33 @@
 # French translation of http://www.gnu.org/fry/happy-birthday-to-gnu-translation.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the happy-birthday-to-gnu-translation.html package.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: happy-birthday-to-gnu-translation.html\n"
 "POT-Creation-Date: 2011-09-20 12:26-0300\n"
-"PO-Revision-Date: 2012-01-23 23:27+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-24 15:15+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "Stephen Fry &mdash; The GNU Operating System"
-msgstr "Stephen Fry &mdash; The GNU Operating System"
+msgstr "Stephen Fry - The GNU Operating System"
 
 #. type: Attribute 'content' of: <meta>
 msgid ""
 "GNU, FSF, Free Software Foundation, Linux, Emacs, GCC, Unix, Free Software, "
 "Operating System, GNU Kernel, HURD, GNU HURD, Hurd"
 msgstr ""
+"GNU, FSF, Free Software Foundation, Fondation pour le logiciel libre, Linux, "
+"Emacs, GCC, Unix, logiciel libre, système d'exploitation, noyau GNU, HURD, "
+"GNU HURD, Hurd"
 
 #. type: Attribute 'content' of: <meta>
 msgid ""
@@ -31,66 +35,68 @@ msgid ""
 "computer users can have the freedom to share and improve the software they "
 "use."
 msgstr ""
+"Depuis 1983, développement de GNU, système d'exploitation libre de type "
+"Unix, afin que les usagers de l'informatique aient la liberté de partager et "
+"d'améliorer les logiciels qu'ils utilisent."
 
 #. type: Attribute 'title' of: <link>
-#, fuzzy
 msgid "What's New"
 msgstr "Quoi de neuf&nbsp;?"
 
 #. type: Attribute 'title' of: <link>
-#, fuzzy
 msgid "New Free Software"
 msgstr "Nouveaux logiciels libres"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid ""
 "Help translate &ldquo;<a href=\"/fry/\">Happy Birthday to GNU</a>&rdquo;"
 msgstr ""
-"Aidez à traduire «&nbsp;<a href=\"/fry/\">Joyeux anniversaire GNU</a>&nbsp;»"
+"Aidez à traduire «&nbsp;<a href=\"/fry/\">Happy Birthday to GNU</"
+"a>&nbsp;» (Joyeux anniversaire GNU)"
 
 #. type: Content of: <h3>
-#, fuzzy
 msgid "We currently have translations in&hellip;"
 msgstr "Actuellement, nous avons des traductions en&hellip;"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-arabic.srt\">Arabic</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-arabic.srt\">arabe</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-belarus.srt\">Belarusian</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-belarus.srt\">biélorusse</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"happy-birthday-to-gnu-brazilian-portuguese.srt\">Brazilian "
 "Portuguese</a>"
 msgstr ""
+"<a href=\"happy-birthday-to-gnu-brazilian-portuguese.srt\">portugais "
+"brésilien</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-bulgarian.srt\">Bulgarian</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-bulgarian.srt\">bulgare</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-catalan.srt\">Catalan</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-catalan.srt\">catalan</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-chinese.srt\">Chinese</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-chinese.srt\">chinois</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-zh_CN.srt\">Chinese (Simplified)</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-zh_CN.srt\">chinois (simplifié)</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-danish.srt\">Danish</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-danish.srt\">danois</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-dutch.srt\">Dutch</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-dutch.srt\">néerlandais</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -98,14 +104,17 @@ msgid ""
 "birthday-to-gnu-english-transcription.html\">an English transcription</a> is "
 "also available)"
 msgstr ""
+"<a href=\"happy-birthday-to-gnu-english.srt\">anglais</a> (<a href=\"happy-"
+"birthday-to-gnu-english-transcription.html\">une transcription en anglais</"
+"a> est aussi disponible)"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-esperanto.srt\">Esperanto</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-esperanto.srt\">esperanto</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-finnish.srt\">Finnish</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-finnish.srt\">finnois</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -113,18 +122,21 @@ msgid ""
 "birthday-to-gnu-french-transcription.html\">a French transcription</a> is "
 "also available)"
 msgstr ""
+"<a href=\"happy-birthday-to-gnu-french.srt\">français</a> (<a href=\"happy-"
+"birthday-to-gnu-french-transcription.html\">une transcription en français</"
+"a> est aussi disponible)"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-galego.srt\">Galego</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-galego.srt\">galego</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-german.srt\">German</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-german.srt\">allemand</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-greek.srt\">Greek</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-greek.srt\">grec</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -133,99 +145,108 @@ msgid ""
 "left</a> and <a href=\"happy-birthday-to-gnu-hebrew-no-rtl.srt\">left-to-"
 "right</a> is also provided)"
 msgstr ""
+"<a href=\"happy-birthday-to-gnu-hebrew.srt\">hébreu</a> (deux versions "
+"alternatives, <a href=\"happy-birthday-to-gnu-hebrew-rtl.srt\">l'une écrite "
+"de la droite vers la gauche</a> et <a href=\"happy-birthday-to-gnu-hebrew-no-"
+"rtl.srt\">l'autre de la gauche vers la droite</a> sont disponibles)"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-hungarian.srt\">Hungarian</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-hungarian.srt\">hongrois</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-icelandic.srt\">Icelandic</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-icelandic.srt\">islandais</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-indonesian.srt\">Indonesian</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-indonesian.srt\">indonésien</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-italian.srt\">Italian</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-italian.srt\">italien</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-japanese.srt\">Japanese</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-japanese.srt\">japonais</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-kannada.srt\">Kannada</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-kannada.srt\">kannada</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-korean.srt\">Korean</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-korean.srt\">coréen</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-malayalam.srt\">Malayalam</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-malayalam.srt\">malayalam</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-nepali.srt\">Nepali</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-nepali.srt\">népalais</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-nb.srt\">Norwegian</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-nb.srt\">norvégien</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-persian.srt\">Persian</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-persian.srt\">persan</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-polish-utf-8.srt\">Polish</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-polish-utf-8.srt\">polonais</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"happy-birthday-to-gnu-portugese.srt\">Portuguese</a> (also in <a "
 "href=\"happy-birthday-to-gnu-pt.UTF8.srt\">UTF8 encoding</a>)."
 msgstr ""
+"<a href=\"happy-birthday-to-gnu-portugese.srt\">portuguais</a> (également en "
+"<a href=\"happy-birthday-to-gnu-pt.UTF8.srt\">codage UTF8</a>)."
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu.ro.srt\">Romanian</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu.ro.srt\">roumain</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-russian.srt\">Russian</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-russian.srt\">russe</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
 "Serbian <a href=\"happy-birthday-to-gnu-serbian-cyrillic.srt\">(Cyrillic)</"
 "a> <a href=\"happy-birthday-to-gnu-serbian-latin.srt\">(Latin)</a>"
 msgstr ""
+"serbe <a href=\"happy-birthday-to-gnu-serbian-cyrillic.srt\">(cyrillique)</"
+"a> <a href=\"happy-birthday-to-gnu-serbian-latin.srt\">(latin)</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-slovak.srt\">Slovak</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-slovak.srt\">slovaque</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-spanish.srt\">Spanish</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-spanish.srt\">espagnol</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"happy-birthday-to-gnu-spanish-latinamerican-yaco.srt\">Spanish "
 "(Latin America)</a>"
 msgstr ""
+"<a href=\"happy-birthday-to-gnu-spanish-latinamerican-yaco.srt\">espagnol "
+"(Amérique latine)</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu-swedish.srt\">Swedish</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu-swedish.srt\">suédois</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"happy-birthday-to-gnu.tr.srt\">Turkish</a>"
-msgstr ""
+msgstr "<a href=\"happy-birthday-to-gnu.tr.srt\">turc</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Please give us a few days to get the videos mirrored. Thanks to everyone who "
 "has sent translations so far. If you sent us a translation we already had "
@@ -237,7 +258,6 @@ msgstr ""
 "septembre à 15 heures, nous vous ajouterons aux crédits quand même :-) ."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "If you'd like to help translate the movie, by providing subtitles, it's very "
 "easy to get involved."
@@ -246,23 +266,20 @@ msgstr ""
 "c'est très facile."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "We're using the SubRip format for subtitles."
 msgstr "Nous utilisons le format SubRip pour les sous-titres."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "<a href=\"happy-birthday-to-gnu-english.srt\">Download the original English "
 "transcript</a>, and open them in a text editor, such as <a href=\"/software/"
 "emacs/\">GNU Emacs</a> or gedit."
 msgstr ""
 "<a href=\"happy-birthday-to-gnu-english.srt\">Téléchargez la transcription "
-"originale anglaise</a>, et ouvrez-là dans un éditeur de texte comme <a href="
-"\"/software/emacs/\">GNU Emacs</a> ou gedit."
+"originale en anglais</a>, et ouvrez-la dans un éditeur de texte comme <a "
+"href=\"/software/emacs/\">GNU Emacs</a> ou gedit."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "We've provided an example <a href=\"happy-birthday-to-gnu-french.srt"
 "\">French subtitle file</a>. If you'd prefer a GUI way to do this, then we "
@@ -274,7 +291,6 @@ msgstr ""
 "subtile, et pas subtitle) est très bien."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Translate each line of text as best as you can. Please do not change the "
 "times."
@@ -283,7 +299,6 @@ msgstr ""
 "changer les heures."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Email your completed SRT file to <a href=\"mailto:campaigns@fsf.org\">&lt;"
 "campaigns@fsf.org&gt;</a>."
@@ -294,7 +309,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""

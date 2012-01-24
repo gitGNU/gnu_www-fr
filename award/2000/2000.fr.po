@@ -1,40 +1,37 @@
 # French translation of http://www.gnu.org/award/2000/2000.fr.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the license-logos.html package.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 2000.html\n"
 "POT-Creation-Date: 2011-09-20 12:25-0300\n"
-"PO-Revision-Date: 2012-01-23 22:53+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-24 14:56+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid ""
 "2000 Award For the Advancement of Free Software - GNU Project - Free "
 "Software Foundation (FSF)"
 msgstr ""
-"Prix pour l'avancement du logiciel libre 2000 - Projet GNU - Free Software "
-"Foundation (FSF)"
+"Prix du logiciel libre 2000 - GNU Project - Free Software Foundation (FSF)"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "2000 Free Software Awards"
 msgstr "Prix du logiciel libre 2000"
 
 #. type: Content of: <h3>
-#, fuzzy
 msgid "Description of Award Ceremony"
 msgstr "Description de la cérémonie du prix"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "The 2000 Free Software Foundation Award Ceremony was held at the Museum of "
 "Jewish Art and History in Paris, France on the evening of 1 February 2001.  "
@@ -45,27 +42,24 @@ msgid ""
 "went to benefit the <a href=\"http://www.fsfeurope.org\">Free Software "
 "Foundation Europe</a>."
 msgstr ""
-"La cérémonie du prix de la Free Software Foundation 2000 a eu lieu au musée "
-"d'art et d'histoire du judaïsme à Paris en France le soir du 1er février "
-"2001.  La cérémonie était sponsorisée par Aurora, Idealx et VA Linux "
-"Systems.  L'<a href=\"http://www.april.org/\">Association pour la Promotion "
-"et la Recherche en Informatique Libre (APRIL)</a>, l'association Française "
-"associée à la Free Software Foundation Europe, organisait la cérémonie.  Les "
-"bénéfices de l'événement étaient reversés à la <a href=\"http://www."
-"fsfeurope.org\">Free Software Foundation Europe</a>."
+"La cérémonie du prix de la <i>Free Software Foundation</i> 2000 a eu lieu au "
+"musée d'art et d'histoire du judaïsme à Paris en France le soir du 1er "
+"février 2001. La cérémonie était sponsorisée par Aurora, Idealx et VA Linux "
+"Systems.  L'<a href=\"http://www.april.org/\">Association pour la promotion "
+"et la recherche en informatique libre (APRIL)</a>, association française "
+"associée à la <i>Free Software Foundation Europe</i>, organisait la "
+"cérémonie. Les bénéfices de l'événement ont été reversés à la <a href="
+"\"http://www.fsfeurope.org\">Free Software Foundation Europe</a>."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Richard Stallman presented the award, a one-of-a-kind handmade quilt, to "
 "Brian Paul for his ground-breaking work on the Mesa 3D Graphics Library."
 msgstr ""
-"Richard Stallman a remis le prix, une couverture unique faite à la main à "
-"Brian Paul, pour son travail [[de fond ?]] sur la bibliothèque graphique "
-"Mesa 3D."
+"Richard Stallman a remis le prix, une couverture unique faite à la main, à "
+"Brian Paul, pour son travail fondateur sur la bibliothèque graphique Mesa 3D."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Brian Paul was chosen from three finalists for the award.  The other "
 "finalists were Donald Becker, for his network device drivers for the GNU/"
@@ -76,7 +70,6 @@ msgstr ""
 "système GNU/Linux et Patrick Lenz pour son travail sur freshmeat.net."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "At the ceremony, additional awards were also distributed.  Georg C. F. "
 "Greve, president designate of the FSF Europe, presented Daniel Riek with a "
@@ -87,13 +80,12 @@ msgid ""
 msgstr ""
 "D'autres prix ont été distribués pendant la cérémonie.  Georg C. F. Greve, "
 "le président désigné de la FSF Europe, a remis à Daniel Riek un certificat "
-"de remerciement pour le financement initial de la Free Software Foundation.  "
-"Frédéric Couchet, le président de l'APRIL, a remis à Loïc Dachary un prix "
-"commémorant son soutien sans faille et ses contributions au logiciel libre "
-"pendant les 14 dernières années."
+"de remerciement pour le financement initial de la <i>Free Software "
+"Foundation</i>. Frédéric Couchet, président de l'APRIL, a remis à Loïc "
+"Dachary un prix commémorant son soutien sans faille et ses contributions au "
+"logiciel libre pendant les 14 dernières années."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "<a href=\"/award/2000/2000-pr.txt\">A Full press release for the event, in "
 "English, German and French, is available</a>.  <a href=\"/award/2000/2000-pr."
@@ -102,32 +94,27 @@ msgid ""
 "versions are also available."
 msgstr ""
 "<a href=\"/award/2000/2000-pr.txt\">Un communiqué de presse complet sur "
-"l'événement en Anglais, en Allemand et en Français est disponible</a>.  Des "
-"versions <a href=\"/award/2000/2000-pr.en.txt\">en Anglais uniquement</a>, "
-"<a href=\"/award/2000/2000-pr.fr.txt\">en Français uniquement</a> et <a href="
-"\"/award/2000/2000-pr.de.txt\">en Allemand uniquement</a> sont aussi "
+"l'événement, en anglais, allemand et français, est disponible</a>.  Des "
+"versions <a href=\"/award/2000/2000-pr.en.txt\">en anglais uniquement</a>, "
+"<a href=\"/award/2000/2000-pr.fr.txt\">en français uniquement</a> et <a href="
+"\"/award/2000/2000-pr.de.txt\">en allemand uniquement</a> sont aussi "
 "disponibles."
 
 #. type: Content of: <h3>
-#, fuzzy
 msgid "Movie of the Ceremony"
 msgstr "Film de la cérémonie"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "An MPEG-2 movie of the event is available at <a href=\"http://audio-video."
 "gnu.org/video/.original_files/fsfaward2000.vob\"> <code>http://audio-video."
 "gnu.org/</code></a>.  Beware: it is a very big file (1.1 GB)."
 msgstr ""
-"Un film MPEG2 de la cérémonie est temporairement disponible sur <a href="
-"\"http://fsfawards.j1b.org/fsfawards.vob\"><code> http://fsfawards.j1b.org/"
-"fsfawards.vob</code></a>.  Nous serions heureux que d'autres sites hébergent "
-"ce fichier.  Si vous avez de telles ressources, veuillez contacter <a href="
-"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"Un film MPEG2 de la cérémonie est disponible sur <a href=\"http://audio-"
+"video.gnu.org/video/.original_files/fsfaward2000.vob\"> <code>http://audio-"
+"video.gnu.org/</code></a>. Attention, c'est un très gros fichier (1,1 Go)."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "The movie was captured and encoded using free software.  Since it's not yet "
 "mature, no streamed view is available, the stream is somewhat buggy and you "
@@ -139,9 +126,17 @@ msgid ""
 "Client, version 0.2.5 or later, a solution developed for MPEG-2 streaming on "
 "a LAN."
 msgstr ""
-"Ce film peut être lu par <a href=\"http://www.videolan.org/packages/unstable/"
-"\">VideoLan, version 0.2.50</a> ou ultérieure.  VideoLan est un décodeur "
-"MPEG2 sous GPL."
+"La prise de vue et l'encodage de ce film ont été faites à l'aide de "
+"logiciels libres. Comme ces derniers ne sont pas encore au point, "
+"l'affichage en streaming n'est pas disponible, le flux est assez bogué et "
+"vous pouvez vous attendre à des bogues logiciels au cours de la lecture. "
+"Avec un peu de chance cela encouragera les développeurs à faire de meilleurs "
+"logiciels libres pour la prise de vue et l'encodage en MPEG-2. <a href="
+"\"mailto:christophe.massiot@idealx.com\">Christophe Massiot</a> a écrit une "
+"description complète du processus de prise de vue. Le film peut être regardé "
+"avec le client <a href=\"http://www.videolan.org/\">VideoLAN</a>, version "
+"0.2.5 ou ultérieure, une solution développée pour le streaming en MPEG-2 sur "
+"un réseau local."
 
 #. type: Content of: <p>
 msgid ""
@@ -152,60 +147,63 @@ msgid ""
 "<a href=\"http://www.videolan.org/\">VideoLAN</a> project members involved "
 "in the operation."
 msgstr ""
+"Il est intéressant de noter que <a href=\"http://www.videolan.org/"
+"\">VideoLAN</a> a été officiellement <a href=\"http://videolan.org/images/"
+"paper.jpeg\">publié sous GPL</a> par l'<a href=\"http://www.ecp.fr/\">École "
+"Centrale de Paris</a> à cette occasion, après un lobbying intense de "
+"l'équipe IDEALX et des membres du projet <a href=\"http://www.videolan.org/"
+"\">VideoLAN</a> impliqués dans l'opération."
 
 #. type: Content of: <h3>
 msgid "Text Transcript of the Ceremony"
-msgstr ""
+msgstr "Retranscription de la cérémonie"
 
 #. type: Content of: <p>
 msgid ""
 "A <a href=\"/award/2000/fsf-award-2000-transcript.txt\">text transcript of "
 "the event is available</a>."
 msgstr ""
+"Une <a href=\"/award/2000/fsf-award-2000-transcript.txt\">retranscription de "
+"l'évènement</a> est disponible."
 
 #. type: Content of: <h3>
-#, fuzzy
 msgid "Still Photos of the Ceremony"
 msgstr "Photos de la cérémonie"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "Olivier Berger took some still photos of the ceremony:"
-msgstr "Olivier Berger a fait quelques photos de la cérémonie:"
+msgstr "Olivier Berger a fait quelques photos de la cérémonie :"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"/award/2000/stallman-paul.jpg\">Brian Paul receiving award from "
 "Richard Stallman (215 KB JPEG)</a>"
 msgstr ""
 "<a href=\"/award/2000/stallman-paul.jpg\">Brian Paul recevant le prix des "
-"mains de Richard Stallman (JPEG de 215 KB)</a>"
+"mains de Richard Stallman (JPEG de 215 Ko)</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"/award/2000/greve-riek.jpg\">Daniel Riek receiving a certificate "
 "from Georg C. F. Greve (164 KB JPEG)</a>"
 msgstr ""
 "<a href=\"/award/2000/greve-riek.jpg\">Daniel Riek recevant un certificat "
-"des mains de Georg C. F. Greve (JPEG de 164 KB)</a>"
+"des mains de Georg C. F. Greve (JPEG de 164 Ko)</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"/award/2000/stallman-dachary.jpg\">Loic Dachary receiving a "
 "commemorative GNU painting from Richard Stallman (Frederic had already left "
 "the stage) (167 KB JPEG)</a>"
 msgstr ""
 "<a href=\"/award/2000/stallman-dachary.jpg\">Loïc Dachary recevant une "
-"peinture de GNU commémorative des mains de Richard Stallman (Frédéric avait "
-"déjà quitté la scène) (JPEG de 167 KB)</a>"
+"peinture de GNU commémorative des mains de Richard Stallman - Frédéric avait "
+"déjà quitté la scène (JPEG de 167 Ko)</a>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
@@ -260,6 +258,8 @@ msgstr ""
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
 msgstr ""
+"Traduction&nbsp;: ?<br />Révision&nbsp;: <a href=\"mailto:trad-gnu&#64;april."
+"org\">&lt;trad-gnu&#64;april.org&gt;</a>"
 
 #.  timestamp start 
 #. type: Content of: <div><p>

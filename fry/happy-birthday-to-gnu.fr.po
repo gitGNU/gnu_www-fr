@@ -1,32 +1,34 @@
 # French translation of http://www.gnu.org/fry/happy-birthday-to-gnu.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the happy-birthday-to-gnu.html package.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: happy-birthday-to-gnu.html\n"
 "POT-Creation-Date: 2011-10-14 20:25-0300\n"
-"PO-Revision-Date: 2012-01-23 23:27+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-24 20:04+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid ""
 "Stephen Fry &mdash; Happy birthday to GNU &mdash; The GNU Operating System"
-msgstr ""
-"Stephen Fry &mdash; Joyeux anniversaire GNU &mdash; Le système "
-"d'exploitation GNU"
+msgstr "Stephen - Joyeux anniversaire GNU - Le système d'exploitation GNU"
 
 #. type: Attribute 'content' of: <meta>
 msgid ""
 "GNU, FSF, Free Software Foundation, Linux, Emacs, GCC, Unix, Free Software, "
 "Operating System, GNU Kernel, HURD, GNU HURD, Hurd"
 msgstr ""
+"GNU, FSF, Free Software Foundation, Fondation pour le logiciel libre, Linux, "
+"Emacs, GCC, Unix, logiciel libre, système d'exploitation, noyau GNU, HURD, "
+"GNU HURD, Hurd"
 
 #. type: Attribute 'content' of: <meta>
 msgid ""
@@ -34,14 +36,15 @@ msgid ""
 "computer users can have the freedom to share and improve the software they "
 "use."
 msgstr ""
+"Depuis 1983, développement de GNU, système d'exploitation libre de type "
+"Unix, afin que les usagers de l'informatique aient la liberté de partager et "
+"d'améliorer les logiciels qu'ils utilisent."
 
 #. type: Attribute 'title' of: <link>
-#, fuzzy
 msgid "What's New"
 msgstr "Quoi de neuf&nbsp;?"
 
 #. type: Attribute 'title' of: <link>
-#, fuzzy
 msgid "New Free Software"
 msgstr "Nouveaux logiciels libres"
 
@@ -57,14 +60,21 @@ msgid ""
 "formHelp{text-align: center; color: #666; font-size: 90%;} table{margin-"
 "bottom: 0.8em !important;} #sjf{width: 600px; margin: 0 auto 1em auto;}"
 msgstr ""
+".inline {text-align: center; line-height: 4em; padding: 0; margin: 0 !"
+"important; margin-bottom: 1em !important;} .inline li{list-style: none; "
+"display: inline; } #download li a{background-color:#1ea410; padding: 1em 3em "
+"1em 3em; -moz-border-radius: 8px; color: white; font-weight: bold; margin: "
+"0.4em; text-decoration: none; width: 23%; text-align: center;} #download a:"
+"hover{background-color: #b1ef0b; color: black;} .title{font-size: 180%;} td p"
+"{padding-left: 1em; padding-right: 1em;} td li, td p{font-size: 0.8em;} ."
+"formHelp{text-align: center; color: #666; font-size: 90%;} table{margin-"
+"bottom: 0.8em !important;} #sjf{width: 600px; margin: 0 auto 1em auto;}"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "Freedom Fry &mdash; &ldquo;Happy birthday to GNU&rdquo;"
-msgstr "Freedom Fry &mdash; «&nbsp;Joyeux anniversaire GNU&nbsp;»"
+msgstr "Freedom Fry - «&nbsp;Joyeux anniversaire GNU&nbsp;»"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Mr. Stephen Fry introduces you to free software, and reminds you of a very "
 "special birthday."
@@ -73,35 +83,30 @@ msgstr ""
 "anniversaire très spécial."
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"happy-birthday-to-gnu-download.html\">Download video</a>"
 msgstr ""
-"<a href=\"happy-birthday-to-gnu-download.fr.html\">Télécharger la vidéo</a>"
+"<a href=\"happy-birthday-to-gnu-download.fr.html\">Téléchargez la vidéo</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"http://www.gnu.org/distros/free-distros.html\">Download GNU</a>"
 msgstr ""
-"<a href=\"http://www.gnewsense.org/static/homepage/\">Télécharger gNewSense</"
+"<a href=\"http://www.gnewsense.org/static/homepage/\">Téléchargez gNewSense</"
 "a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"http://www.fsf.org/news/freedom-fry/\">Press release</a>"
 msgstr ""
 "<a href=\"http://www.fsf.org/news/freedom-fry/\">Communiqué de presse</a>"
 
 #. type: Content of: <h4>
-#, fuzzy
 msgid ""
 "<a href=\"happy-birthday-to-gnu-in-your-language.html\">Over 20 translations "
 "of the film now available</a>"
 msgstr ""
-"<a href=\"happy-birthday-to-gnu-download.fr.html\">Télécharger la vidéo</a>"
+"<a href=\"happy-birthday-to-gnu-download.fr.html\">Téléchargez la vidéo</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "<a href=\"happy-birthday-to-gnu-translation.html\">Help translate the video "
 "into your own language</a> and <a href=\"happy-birthday-to-gnu-credits.html"
@@ -112,7 +117,6 @@ msgstr ""
 "fr.html\">crédits complets</a>."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "<small>Licensed under a <a rel=\"license\" href=\"http://creativecommons.org/"
 "licenses/by-nd/3.0/us/\">Creative Commons Attribution-No Derivative Works "
@@ -127,25 +131,24 @@ msgid ""
 "<a href=\"http://onebigtorrent.org/torrents/3899/Happy-Birthday-to-GNU"
 "\">Help share this movie by BitTorrent</a>."
 msgstr ""
+"<a href=\"http://onebigtorrent.org/torrents/3899/Happy-Birthday-to-GNU"
+"\">Aidez à partager ce film sur BitTorrent</a>."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "<a style=\"font-weight: bold;\" href=\"#signup\"><span style=\" padding: 5px;"
 "\" class=\"highlight\">Sign up for the Free Software Supporter, a monthly "
 "update on GNU and the FSF</span></a>"
 msgstr ""
 "<a style=\"font-weight: bold;\" href=\"#signup\"><span style=\" padding: 5px;"
-"\" class=\"highlight\">Abonnez-vous au Free Software Supporter, une mise à "
-"jour mensuelle sur GNU et la FSF</span></a>"
+"\" class=\"highlight\">Abonnez-vous au <i>Free Software Supporter</i>, une "
+"mise à jour mensuelle sur GNU et la FSF</span></a>"
 
 #. type: Content of: <table><tr><td><h2>
-#, fuzzy
 msgid "Get involved with GNU!"
 msgstr "Contribuez à GNU&nbsp;!"
 
 #. type: Content of: <table><tr><td><p>
-#, fuzzy
 msgid ""
 "We started the GNU Project with a specific overall goal: to create a free "
 "software operating system, the GNU System.  The scope of GNU is far-"
@@ -156,14 +159,13 @@ msgid ""
 msgstr ""
 "Nous avons démarré le Projet GNU avec un but global spécifique&nbsp;: créer "
 "un système d'exploitation libre, le système GNU. La portée de GNU est très "
-"étendue&nbsp;: tout travail qu'un utilisateur d'ordinateur veut faire <a "
-"href=\"http://www.gnu.org/gnu/gnu-history.fr.html\">doit être faisable avec "
-"des logiciels libres</a>, et est par conséquent une partie potentielle de "
-"GNU. Par exemple, tout programme disponible dans une <a href=\"/distros"
-"\">distribution GNU/Linux</a> typique est un candidat."
+"étendue&nbsp;: toute tâche qu'un utilisateur d'ordinateur veuille effectuer "
+"<a href=\"http://www.gnu.org/gnu/gnu-history.fr.html\">doit être faisable "
+"avec des logiciels libres</a>, et par conséquent fait potentiellement partie "
+"de GNU. Par exemple, tout programme disponible dans une <a href=\"/distros"
+"\">distribution GNU/Linux</a> typique est candidat."
 
 #. type: Content of: <table><tr><td><p>
-#, fuzzy
 msgid ""
 "So we welcome new packages in GNU, to further our common cause of free "
 "software.  If you want to join in and may have a suitable package, please "
@@ -172,16 +174,15 @@ msgid ""
 "directory.fsf.org/\">Free Software Directory</a> holds the <a href=\"http://"
 "directory.fsf.org/wiki/GNU/\">list of all current GNU packages</a>."
 msgstr ""
-"Donc, nous accueillons volontiers les nouveaux paquetages dans GNU, pour "
+"Donc, nous accueillons volontiers les nouveaux paquets dans GNU, pour "
 "perpétuer notre cause commune pour les logiciels libres. Si vous voulez nous "
-"rejoindre et que vous avez un paquetage approprié, veuillez remplir ce <a "
-"href=\"/help/evaluation.html\">court formulaire</a> pour commencer, et "
-"consultez les informations de fond ici. Le <a href=\"http://directory.fsf."
-"org/\">Répertoire des logiciels libres</a> contient la <a href=\"http://"
-"directory.fsf.org/GNU/\">liste de tous les paquetages GNU actuels</a>."
+"rejoindre et que vous avez un paquet approprié, veuillez remplir ce <a href="
+"\"/help/evaluation.html\">court formulaire</a> pour commencer, et consultez "
+"les informations de fond ici. Le <a href=\"http://directory.fsf.org/"
+"\">répertoire des logiciels libres</a> contient la <a href=\"http://"
+"directory.fsf.org/GNU/\">liste de tous les paquets GNU actuels</a>."
 
 #. type: Content of: <table><tr><td><p>
-#, fuzzy
 msgid ""
 "Another important way to help GNU is by contributing to the existing GNU "
 "projects. The <a href=\"http://savannah.gnu.org/people/?type_id=1\">GNU Help "
@@ -194,23 +195,21 @@ msgstr ""
 "existants. La liste <a href=\"http://savannah.gnu.org/people/?"
 "type_id=1\">GNU Help Wanted</a> est la liste des tâches générales pour les "
 "logiciels GNU. Vous pourriez aussi envisager de reprendre un des <a href=\"/"
-"server/takeaction.html#unmaint\">paquetages GNU non maintenus</a>.  La page "
+"server/takeaction.html#unmaint\">paquets GNU non maintenus</a>.  La page "
 "générale <a href=\"/help/help.fr.html\">Aider GNU</a> recense aussi beaucoup "
 "de façons non techniques de contribuer."
 
 #. type: Content of: <table><tr><td><p>
-#, fuzzy
 msgid ""
 "If you possess the skills of a webmaster, you might like to consider helping "
 "on this website &mdash; <a href=\"/server/standards/webmaster-quiz.html"
 "\">please take our webmaster quiz</a>."
 msgstr ""
 "Si vous possédez des talents de webmestre, vous pourriez envisager de nous "
-"aider pour ce site Web &mdash; <a href=\"/server/standards/webmaster-quiz."
-"html\">veuillez répondre à notre questionnaire pour webmestre</a>."
+"aider pour ce site web - <a href=\"/server/standards/webmaster-quiz.html"
+"\">veuillez répondre à notre questionnaire pour les webmestres</a>."
 
 #. type: Content of: <table><tr><td><p>
-#, fuzzy
 msgid ""
 "Our server <a href=\"http://savannah.gnu.org/\">savannah.gnu.org</a> is a "
 "central point for development and maintenance of free software, and many <a "
@@ -226,18 +225,16 @@ msgstr ""
 "libres, et beaucoup de <a href=\"https://savannah.nongnu.org/search/?"
 "type_of_search=soft&words=%%%&type=1\">projets GNU sont hébergés sur "
 "savannah</a>. Savannah accueille et soutient aussi des projets de logiciels "
-"libres qui ne sont pas des paquetages officiels GNU, aussi vous pouvez "
+"libres qui ne sont pas des paquets officiels GNU, aussi vous pouvez "
 "l'utiliser pour vos projets de logiciels libres&nbsp;; contrairement à "
 "d'autres sites d'hébergement, <a href=\"http://www.fsf.org/blogs/community/"
 "savannah\">savannah se base fermement sur les idéaux du logiciel libre</a>."
 
 #. type: Content of: <table><tr><td><h3>
-#, fuzzy
 msgid "Support the FSF"
 msgstr "Soutenez la FSF"
 
 #. type: Content of: <table><tr><td><p>
-#, fuzzy
 msgid ""
 "Your <a href=\"https://www.fsf.org/associate/support_freedom?\">charitable "
 "donation</a> to the FSF helps to support, promote, and develop free software:"
@@ -246,52 +243,46 @@ msgstr ""
 "la FSF aide à soutenir, promouvoir et développer des logiciels libres&nbsp;:"
 
 #. type: Content of: <table><tr><td><ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"http://www.gnu.org/\">GNU Project</a> &mdash; Developing a "
 "complete free software operating system"
 msgstr ""
-"Le <a href=\"http://www.gnu.org/home.fr.html\">Projet GNU</a> &mdash; "
+"Le <a href=\"http://www.gnu.org/home.fr.html\">Projet GNU</a> -  "
 "Développement d'un système d'exploitation libre complet"
 
 #. type: Content of: <table><tr><td><ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"http://www.fsf.org/licensing/\">Licensing &amp; Compliance Lab</a> "
 "&mdash; Stewardship and enforcement of the GNU General Public License"
 msgstr ""
 "Le <a href=\"http://www.fsf.org/licensing/\">Licensing &amp; Compliance Lab</"
-"a> &mdash; Intendance et application de la GNU General Public License"
+"a> - Intendance et application de la GNU General Public License"
 
 #. type: Content of: <table><tr><td><ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"http://directory.fsf.org/\">Free Software Directory</a> &mdash; "
 "Cataloging the world of free software"
 msgstr ""
 "Le <a href=\"http://directory.fsf.org/\">Répertoire de logiciels libres</a> "
-"&mdash; Catalogage du monde des logiciels libres"
+"- Un catalogue du monde des logiciels libres"
 
 #. type: Content of: <table><tr><td><ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"http://savannah.gnu.org/\">Savannah Community</a> &mdash; "
 "Supporting free software developers"
 msgstr ""
-"La <a href=\"http://savannah.gnu.org/\">Communauté Savannah</a> &mdash; "
-"Soutien des développeurs de logiciels libres"
+"La <a href=\"http://savannah.gnu.org/\">Communauté Savannah</a> - Soutien "
+"des développeurs de logiciels libres"
 
 #. type: Content of: <table><tr><td><ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"http://www.fsf.org/campaigns/\">Campaigns for Freedom</a> &mdash; "
 "Earning mindshare in support of free software"
 msgstr ""
 "Les <a href=\"http://www.fsf.org/campaigns/\">Campagnes pour la liberté</a> "
-"&mdash; Gagner les esprits au soutien du logiciel libre"
+"- Gagner les esprits au soutien du logiciel libre"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid ""
 "<a href=\"http://www.fsf.org/register_form?referrer=2442\">Join the FSF "
 "today!</a> or <a href=\"https://www.fsf.org/associate/support_freedom/donate"
@@ -302,24 +293,20 @@ msgstr ""
 "support_freedom/donate\">Faites un don</a>"
 
 #. type: Content of: <table><tr><td><h3>
-#, fuzzy
 msgid "Philosophy"
 msgstr "Philosophie"
 
 #. type: Content of: <table><tr><td><p>
-#, fuzzy
 msgid "Learn more about the philosophy behind free software."
 msgstr "En apprendre plus sur la philosophie derrière le logiciel libre."
 
 #. type: Content of: <table><tr><td><ul><li>
-#, fuzzy
 msgid "<a href=\"/philosophy/free-sw.html\">What is free software?</a>"
 msgstr ""
 "<a href=\"/philosophy/free-sw.fr.html\">Qu'est-ce qu'un logiciel libre&nbsp;?"
 "</a>"
 
 #. type: Content of: <table><tr><td><ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"/philosophy/open-source-misses-the-point.html\">Why \"open source"
 "\" misses the point</a>"
@@ -329,17 +316,14 @@ msgstr ""
 "libre</a>."
 
 #. type: Content of: <table><tr><td><p>
-#, fuzzy
 msgid "<strong>Sign up for the <em>Free Software Supporter</em></strong>"
 msgstr "<strong>Abonnez-vous au <em>Free Software Supporter</em></strong>"
 
 #. type: Content of: <table><tr><td><p>
-#, fuzzy
 msgid "A monthly update on GNU and the Free Software Foundation"
 msgstr "Une mise à jour mensuelle sur GNU et la Free Software Foundation"
 
 #. type: Content of: <table><tr><td><form><p>
-#, fuzzy
 msgid ""
 "<input type=\"text\" name=\"email\" size=\"30\" maxlength=\"80\" value="
 "\"you@example.com\" onfocus=\"this.value=''\" />&nbsp;<input type=\"submit\" "
@@ -350,12 +334,10 @@ msgstr ""
 "type=\"submit\" value=\"S'abonner\" />"
 
 #. type: Content of: <table><tr><td><h3>
-#, fuzzy
 msgid "Download"
-msgstr "Download"
+msgstr "Téléchargement"
 
 #. type: Content of: <table><tr><td><ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"http://www.gnewsense.org/\">gNewSense</a>, a GNU/Linux "
 "distribution based on Debian and Ubuntu, with sponsorship from the FSF."
@@ -364,7 +346,6 @@ msgstr ""
 "Linux basée sur Debian et Ubuntu, avec le soutien de la FSF."
 
 #. type: Content of: <table><tr><td><ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"http://www.blagblagblag.org/\">BLAG</a>, BLAG Linux and GNU, a GNU/"
 "Linux distribution based on Fedora."
@@ -373,18 +354,17 @@ msgstr ""
 "distribution GNU/Linux basée sur Fedora."
 
 #. type: Content of: <table><tr><td><p>
-#, fuzzy
 msgid ""
 "<a href=\"/distros\">More GNU distributions</a> and a <a href=\"http://"
 "directory.fsf.org/wiki/GNU/\">complete list of GNU packages</a>"
 msgstr ""
 "<a href=\"/distros\">D'autres distributions GNU</a> et une <a href=\"http://"
-"directory.fsf.org/GNU/\">liste complète des paquetages GNU</a>"
+"directory.fsf.org/GNU/\">liste complète des paquets GNU</a>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
@@ -395,22 +375,25 @@ msgstr ""
 "Foundation</a>, Inc."
 
 #. type: Content of: <div><p>
-#, fuzzy
 msgid ""
 "&ldquo;<a href=\"/fry/happy-birthday-to-gnu.html\">Happy Birthday to GNU</"
 "a>&rdquo; is licensed under a <a rel=\"license\" href=\"http://"
 "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-No "
 "Derivative Works 3.0 United States License</a>."
 msgstr ""
-"<small>Sous licence <a rel=\"license\" href=\"http://creativecommons.org/"
+"<i><a href=\"/fry/happy-birthday-to-gnu.html\">Happy Birthday to GNU</a></i> "
+"est sous licence <a rel=\"license\" href=\"http://creativecommons.org/"
 "licenses/by-nd/3.0/us/\">Creative Commons Attribution-No Derivative Works "
-"3.0 United States License</a>.</small>"
+"3.0 United States License</a>."
 
 #. type: Content of: <div><p>
 msgid ""
 "Please <a href=\"http://www.fsf.org/about/contact.html\">contact us</a> for "
 "further permissions, including derived works."
 msgstr ""
+"Veuillez <a href=\"http://www.fsf.org/about/contact.html\">nous contacter</"
+"a> pour obtenir des permissions supplémentaires, y compris pour des travaux "
+"dérivés."
 
 #. type: Content of: <div><p>
 msgid ""

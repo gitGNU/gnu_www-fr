@@ -1,29 +1,33 @@
 # French translation of http://www.gnu.org/fry/happy-birthday-to-gnu-download.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the happy-birthday-to-gnu-download.html package.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: happy-birthday-to-gnu-download.html\n"
 "POT-Creation-Date: 2011-09-20 12:26-0300\n"
-"PO-Revision-Date: 2012-01-23 23:28+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-24 15:18+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "Stephen Fry &mdash; The GNU Operating System"
-msgstr "Stephen Fry &mdash; Le système d'exploitation GNU"
+msgstr "Stephen Fry - Le système d'exploitation GNU"
 
 #. type: Attribute 'content' of: <meta>
 msgid ""
 "GNU, FSF, Free Software Foundation, Linux, Emacs, GCC, Unix, Free Software, "
 "Operating System, GNU Kernel, HURD, GNU HURD, Hurd"
 msgstr ""
+"GNU, FSF, Free Software Foundation, Fondation pour le logiciel libre, Linux, "
+"Emacs, GCC, Unix, logiciel libre, système d'exploitation, noyau GNU, HURD, "
+"GNU HURD, Hurd"
 
 #. type: Attribute 'content' of: <meta>
 msgid ""
@@ -31,16 +35,17 @@ msgid ""
 "computer users can have the freedom to share and improve the software they "
 "use."
 msgstr ""
+"Depuis 1983, développement de GNU, système d'exploitation libre de type "
+"Unix, afin que les usagers de l'informatique aient la liberté de partager et "
+"d'améliorer les logiciels qu'ils utilisent."
 
 #. type: Attribute 'title' of: <link>
-#, fuzzy
 msgid "What's New"
-msgstr "What's New"
+msgstr "Quoi de neuf&nbsp;?"
 
 #. type: Attribute 'title' of: <link>
-#, fuzzy
 msgid "New Free Software"
-msgstr "New Free Software"
+msgstr "Nouveaux logiciels libres"
 
 #. type: Content of: <style>
 msgid ""
@@ -57,14 +62,24 @@ msgid ""
 "size: 90%;} table{margin-bottom: 0.8em !important;} #sjf{width: 600px; "
 "margin: 0 auto 1em auto;}"
 msgstr ""
+".inline {text-align: center; line-height: 4em; padding: 0; margin: 0 !"
+"important; margin-bottom: 1em !important;} .inline li{list-style: none; "
+"display: inline; } #download li a{background-color:#1ea410; padding: 1em 3em "
+"1em 3em; -moz-border-radius: 8px; color: white; font-weight: bold; margin: "
+"0.4em; text-decoration: none; width: 23%; text-align: center;} #download a:"
+"hover{background-color: #b1ef0b; color: black;} .title{font-size: 180%;} h2"
+"{color: black !important; border: 0 !important; text-align: center;} h3"
+"{color: black !important; border: 0 !important; text-align: center; font-"
+"size: 1.2em !important;} td p{padding-left: 1em; padding-right: 1em;} td li, "
+"td p{font-size: 0.8em;} .formHelp{text-align: center; color: #666; font-"
+"size: 90%;} table{margin-bottom: 0.8em !important;} #sjf{width: 600px; "
+"margin: 0 auto 1em auto;}"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "Download the film"
 msgstr "Télécharger le film"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "You can download <a href=\"/fry/\">the film</a>, as well as alternate "
 "versions (including English and French subtitles, plus audio only versions) "
@@ -75,63 +90,54 @@ msgstr ""
 "que les versions audio seules) à partir des sites miroirs ci-dessous."
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "Other mirrors"
 msgstr "Autres miroirs"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"http://ma.tt/dropbox/2008/09/gnu/\">California</a>"
-msgstr ""
+msgstr "<a href=\"http://ma.tt/dropbox/2008/09/gnu/\">Californie</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"http://stallman.org/fry/\">UK</a>"
-msgstr ""
+msgstr "<a href=\"http://stallman.org/fry/\">Royaume-Uni</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"http://files.tdobson.net/fsf/video/fry/\">California</a>"
-msgstr ""
+msgstr "<a href=\"http://files.tdobson.net/fsf/video/fry/\">Californie</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"http://www.softwareliber.ro/gnu/fry/\">Romania</a>"
-msgstr ""
+msgstr "<a href=\"http://www.softwareliber.ro/gnu/fry/\">Roumanie</a>"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "Images for linking"
 msgstr "Images pour les liens"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/fry/i/altcake.png\">"
 msgstr "<a href=\"/fry/i/altcake.png\">"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/fry/i/fryfreedom.png\">"
 msgstr "<a href=\"/fry/i/fryfreedom.png\">"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/fry/i/fryfry.png\">"
 msgstr "<a href=\"/fry/i/fryfry.png\">"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/fry/i/tinyfry.png\">"
 msgstr "<a href=\"/fry/i/tinyfry.png\">"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "<a href=\"/fry/i/\">More images for linking</a>"
 msgstr "<a href=\"/fry/i/\">D'autres images pour les liens</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "All images are licensed under <a href=\"http://creativecommons.org/licenses/"
 "by-sa/3.0/us/\">Creative Commons Attribution-ShareAlike</a>."
@@ -140,7 +146,6 @@ msgstr ""
 "licenses/by-sa/3.0/us/\">Creative Commons Attribution-ShareAlike</a>."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Thanks to Asheesh Laroia, Tim Dobson, Bill Xu, Jason Hoffman, Steve Pomeroy, "
 "Matt Mullenweg, FooCorp/Bytemark Hosting and Paul Robinson for providing "
@@ -153,7 +158,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
@@ -164,7 +169,6 @@ msgstr ""
 "Foundation</a>, Inc."
 
 #. type: Content of: <div><p>
-#, fuzzy
 #| msgid ""
 #| "This page is licensed under a <a rel=\"license\" href=\"http://"
 #| "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
@@ -184,6 +188,9 @@ msgid ""
 "Please <a href=\"http://www.fsf.org/about/contact.html\">contact us</a> for "
 "further permissions, including derived works."
 msgstr ""
+"Veuillez <a href=\"http://www.fsf.org/about/contact.html\">nous contacter</"
+"a> pour obtenir des permissions supplémentaires, y compris pour des travaux "
+"dérivés."
 
 #. type: Content of: <div><p>
 msgid ""

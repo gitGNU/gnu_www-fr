@@ -2,100 +2,88 @@
 #
 # This file is distributed under the same license as the atypinggnu.html page.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: atypinggnu.html\n"
 "POT-Creation-Date: 2011-09-20 12:27-0300\n"
-"PO-Revision-Date: 2012-01-23 21:04+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-24 16:38+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "A Typing GNU Hacker - Free Software Foundation (FSF)"
 msgstr "Un hacker GNU sur son clavier - Free Software Foundation (FSF)"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "A Typing GNU Hacker"
 msgstr "Un hacker GNU sur son clavier"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/gnu-type-sm.jpg\">"
 msgstr "<a href=\"/graphics/gnu-type-sm.jpg\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[image of a Typing GNU Hacker]"
 msgstr "[Image d'un hacker GNU sur son clavier]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "This GNU hunches over a microcomputer, no doubt running free software! The "
 "GNU is enclosed in an arch, with \"GNU's Not Unix\" written above, and "
 "\"Free Software Foundation\" below it."
 msgstr ""
 "Ce GNU penché sur un ordinateur utilise sans aucun doute des logiciels "
-"libres&nbsp;! Le GNU est sous une arche, avec &laquo;&nbsp;GNU's Not "
-"Unix&nbsp;&raquo; écrit au-dessus et &laquo;&nbsp;Free Software "
-"Foundation&nbsp;&raquo; au-dessous."
+"libres&nbsp;! Le GNU est sous une arche, avec «&nbsp;GNU's Not Unix&nbsp;» "
+"écrit au-dessus et «&nbsp;Free Software Foundation&nbsp;» au-dessous."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "We thank Jamal Hannah for drawing this Typing GNU Hacker."
 msgstr ""
 "Nous remercions Jamal Hannah pour avoir dessiné ce hacker GNU sur son "
 "clavier."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "It was used on the front of an earlier <a href=\"/order/t-shirts.html\">GNU "
 "T-shirt</a> sold by the FSF."
 msgstr ""
-"Il était utilisé sur l'avant des précédents <a href=\"/order/t-shirts.html"
+"Il était utilisé sur le devant des précédents <a href=\"/order/t-shirts.html"
 "\">T-shirts GNU</a> vendus par la FSF."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "It is used on this web site to indicate pages that list people who are "
 "helping or have helped the GNU Project, including these pages:"
 msgstr ""
-"Il est utilisé sur ce site Web pour indiquer les pages qui recesent les "
-"personnes qui aident ou ont aidé le Projet GNU, y compris ces pages&nbsp;:"
+"Il est utilisé sur ce site Web pour indiquer les pages qui recensent les "
+"personnes qui aident ou ont aidé le projet GNU, y compris ces pages&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"/people/people.html\">GNU's Who</a> - the People of the GNU Project"
 msgstr ""
-"<a href=\"/people/people.html\">GNU's Who</a> - Les personnes du Projet GNU"
+"<a href=\"/people/people.html\">GNU's Who</a> - les personnes du pProjet GNU"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"/people/webmeisters.html\">The GNU Webmasters</a>"
 msgstr "<a href=\"/people/webmeisters.html\">Les webmestres de GNU</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "This picture is available in the following formats:"
 msgstr "Ce dessin est disponible dans les formats suivants&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "jpeg <a href=\"/graphics/gnu-type-sm.jpg\">7k</a>, <a href=\"/graphics/gnu-"
 "type.jpg\">19k</a>"
@@ -104,7 +92,6 @@ msgstr ""
 "type.jpg\">19 Ko</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "png <a href=\"/graphics/gnu-type-sm.png\">2k</a>, <a href=\"/graphics/gnu-"
 "type.png\">5k</a>"
@@ -113,7 +100,6 @@ msgstr ""
 "type.png\">5 Ko</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "<a href=\"/graphics/graphics.html\">Other art</a> in the GNU Art Gallery."
 msgstr ""
@@ -123,7 +109,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
@@ -159,6 +145,9 @@ msgid ""
 "The GNU logo can be used verbatim in contexts talking about GNU in a "
 "supportive and accurate way.  For permission, ask webmasters@gnu.org."
 msgstr ""
+"Le logo de GNU peut être utilisé « verbatim » (sans modification) dans des "
+"contextes parlant de GNU d'une manière exacte et positive. Pour en obtenir "
+"la permission, veuillez vous adresser à webmasters@gnu.org."
 
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 2007 Free Software Foundation, Inc.,"

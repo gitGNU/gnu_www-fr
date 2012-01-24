@@ -2,72 +2,64 @@
 #
 # This file is distributed under the same license as the gnupascal.html page.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnupascal.html\n"
 "POT-Creation-Date: 2011-09-20 12:27-0300\n"
-"PO-Revision-Date: 2012-01-23 21:05+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-24 16:41+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "GNU and Blaise Pascal - Free Software Foundation (FSF)"
 msgstr "GNU et Blaise Pascal - Free Software Foundation (FSF)"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "GNU and Blaise Pascal"
 msgstr "GNU et Blaise Pascal"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/Gnu+Pascal.small.jpg\">"
 msgstr "<a href=\"/graphics/Gnu+Pascal.small.jpg\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[image of a Gnu and Blaise Pascal]"
 msgstr "[Image d'un Gnou et de Blaise Pascal]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "A long-haired Blaise Pascal and a long-bearded GNU; both stare thoughtfully "
 "into space."
 msgstr ""
-"Un Blaise Pascal aux cheveux longs et un GNU avec une longue barbe tous deux "
-"fixant le vide pensivement."
+"Un Blaise Pascal aux cheveux longs et un GNU avec une longue barbe, tous "
+"deux fixant le vide pensivement."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "We thank Markus Gerwinski <a href=\"mailto:markus@theo-phys.uni-essen.de"
 "\">&lt;markus@theo-phys.uni-essen.de&gt;</a>, the artist of this <a href="
 "\"http://www.gnu-pascal.de\">GNU Pascal</a> art."
 msgstr ""
-"Nous remercions Markus Gerwinski <a href=\"mailto:markus&#64;theo-phys.uni-"
-"essen.de\">&lt;markus&#64;theo-phys.uni-essen.de&gt;</a>, l'auteur de ce <a "
-"href=\"http://agnes.dida.physik.uni-essen.de/~gnu-pascal\">Pascal GNU</a> "
-"art."
+"Nous remercions Markus Gerwinski <a href=\"mailto:markus@theo-phys.uni-essen."
+"de\">&lt;markus@theo-phys.uni-essen.de&gt;</a>, l'auteur de ce « <a href="
+"\"http://www.gnu-pascal.de\">GNU Pascal</a> art »."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "This picture is available in the following formats:"
 msgstr "Ce dessin est disponible aux formats suivants&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "jpeg <a href=\"/graphics/Gnu+Pascal.small.jpg\">4k</a>, <a href=\"/graphics/"
 "Gnu+Pascal.jpg\">61k</a>"
@@ -76,7 +68,6 @@ msgstr ""
 "graphics/Gnu+Pascal.jpg\">61 Ko</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "png <a href=\"/graphics/Gnu+Pascal.small.png\">4k</a>, <a href=\"/graphics/"
 "Gnu+Pascal.png\">10k</a>"
@@ -85,7 +76,6 @@ msgstr ""
 "Gnu+Pascal.png\">10 Ko</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "<a href=\"/graphics/graphics.html\">Other art</a> in the GNU Art Gallery."
 msgstr ""
@@ -95,7 +85,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
@@ -131,6 +121,9 @@ msgid ""
 "The GNU logo can be used verbatim in contexts talking about GNU in a "
 "supportive and accurate way.  For permission, ask webmasters@gnu.org."
 msgstr ""
+"Le logo de GNU peut être utilisé « verbatim » (sans modification) dans des "
+"contextes parlant de GNU d'une manière exacte et positive. Pour en obtenir "
+"la permission, veuillez vous adresser à webmasters@gnu.org."
 
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 2007 Free Software Foundation, Inc.,"

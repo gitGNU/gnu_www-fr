@@ -1,128 +1,123 @@
 # French translation of http://www.gnu.org/licenses/old-licenses/old-licenses.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the old-licenses.html package.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: old-licenses.html\n"
 "POT-Creation-Date: 2011-09-20 12:28-0300\n"
-"PO-Revision-Date: 2012-01-23 22:54+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-24 18:54+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "Old Licenses - GNU Project - Free Software Foundation (FSF)"
 msgstr "Anciennes licences - GNU Project - Free Software Foundation (FSF)"
 
 #. type: Attribute 'content' of: <meta>
 msgid "GNU, FSF, Free Software Foundation Linux, Copyleft, Licenses"
 msgstr ""
+"GNU, FSF, Free Software Foundation, Fondation pour le logiciel libre,  "
+"Linux, Copyleft, Licences"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "Old Licenses"
 msgstr "Anciennes licences"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "This page contains old versions of the licenses published by the Free "
 "Software Foundation, kept here for reference.  You can find current versions "
 "of the licenses on our <a href=\"/licenses/licenses.html\">licenses page</a>."
 msgstr ""
-"Cette page contient les anciennes versions des licencese publiées par la "
-"Free Software Foundation. Elles sont conservées ici pour référence.  Vous "
-"pouvez trouver les versions actuelles sur la <a href=\"/licenses/licenses.fr."
-"html\">page des licences</a>."
+"Cette page contient les anciennes versions des licences publiées par la "
+"<i>Free Software Foundation</i>. Elles sont conservées ici pour référence.  "
+"Vous pouvez trouver les versions actuelles sur la <a href=\"/licenses/"
+"licenses.html\">page des licences</a>."
 
 #. type: Content of: outside any tag (error?)
-#, fuzzy
 msgid "<a name=\"GPL\"></a>"
 msgstr "<a name=\"GPL\"></a>"
 
 #. type: Content of: <h4>
-#, fuzzy
 msgid "Old versions of the GNU General Public License"
-msgstr "Anciennes versions de la GNU General Public License"
+msgstr "Anciennes versions de la <i>GNU General Public License</i>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, "
 "version 2</a>"
-msgstr "<a href=\"gpl-2.0.html\">GNU General Public License, version 2</a>"
+msgstr ""
+"<a href=\"/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, "
+"version 2</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"/licenses/old-licenses/gpl-1.0.html\">GNU General Public License, "
 "version 1</a>"
-msgstr "<a href=\"gpl-1.0.txt\">GNU General Public License, version 1</a>"
+msgstr ""
+"<a href=\"/licenses/old-licenses/gpl-1.0.html\">GNU General Public License, "
+"version 1</a>"
 
 #. type: Content of: outside any tag (error?)
-#, fuzzy
 msgid "<a name=\"LGPL\"></a>"
 msgstr "<a name=\"LGPL\"></a>"
 
 #. type: Content of: <h4>
-#, fuzzy
 msgid "Old versions of the GNU Lesser General Public License"
-msgstr "Anciennes versions de la GNU Lesser General Public License"
+msgstr "Anciennes versions de la <i>GNU Lesser General Public License</i>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"/licenses/old-licenses/lgpl-2.1.html\">GNU Lesser General Public "
 "License, version 2.1</a>"
 msgstr ""
-"<a href=\"lgpl-2.1.html\">GNU Lesser General Public License, version 2.1</a>"
+"<a href=\"/licenses/old-licenses/lgpl-2.1.html\">GNU Lesser General Public "
+"License, version 2.1</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "This license used to be called the GNU Library General Public License:"
 msgstr ""
-"Cette licence était auparavant appelée GNU Library General Public "
-"License&nbsp;:"
+"Cette licence était auparavant appelée <i>GNU Library General Public "
+"License</i>&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"/licenses/old-licenses/lgpl-2.0.html\">GNU LIbrary General Public "
 "License, version 2.0</a>"
 msgstr ""
-"Version 2 de la GNU Library General Public License aux formats&nbsp;: <a "
-"href=\"/licenses/old-licenses/library.html\">html</a>, <a href=\"/licenses/"
-"old-licenses/library.txt\">texte brut</a> et <a href=\"/licenses/old-"
-"licenses/library.texi\">Texinfo</a>"
+"<a href=\"/licenses/old-licenses/lgpl-2.0.html\">GNU LIbrary General Public "
+"License, version 2.0</a>"
 
 #. type: Content of: outside any tag (error?)
-#, fuzzy
 msgid "<a name=\"FDL\"></a>"
 msgstr "<a name=\"FDL\"></a>"
 
 #. type: Content of: <h4>
-#, fuzzy
 msgid "Old versions of the GNU Free Documentation License"
-msgstr "Anciennes versions de la GNU Free Documentation License"
+msgstr "Anciennes versions de la <i>GNU Free Documentation License</i>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"/licenses/old-licenses/fdl-1.2.html\">GNU Free Documentation "
 "License, version 1.2</a>"
-msgstr "<a href=\"gpl-1.0.txt\">GNU General Public License, version 1</a>"
+msgstr ""
+"<a href=\"/licenses/old-licenses/fdl-1.2.html\">GNU Free Documentation "
+"License, version 1.2</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"/licenses/old-licenses/fdl-1.1.html\">GNU Free Documentation "
 "License, version 1.1</a>"
-msgstr "<a href=\"gpl-1.0.txt\">GNU General Public License, version 1</a>"
+msgstr ""
+"<a href=\"/licenses/old-licenses/fdl-1.1.html\">GNU Free Documentation "
+"License, version 1.1</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -130,11 +125,15 @@ msgid ""
 "Please see the <a href=\"/licenses/licenses.html#LicenseURLs\">license URLs "
 "section</a> of the main licensing page for more information."
 msgstr ""
+"Les anciennes licences sont également disponibles avec les liens sous <tt>/"
+"licenses</tt>. Veuillez regarder la <a href=\"/licenses/licenses."
+"html#LicenseURLs\">section des liens vers les licences</a> de la page "
+"principale des licences pour supplément d'information."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
@@ -147,7 +146,6 @@ msgstr ""
 "\">d'autres moyens de contacter</a> la FSF."
 
 #. type: Content of: <div><p>
-#, fuzzy
 #| msgid ""
 #| "Please send broken links and other corrections or suggestions to <a href="
 #| "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
@@ -157,9 +155,10 @@ msgid ""
 "Webmasters</a> at <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 msgstr ""
-"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"Veuillez indiquer (en anglais) les liens orphelins et autres suggestions sur "
+"cette page web aux <a href=\"/people/webmeisters.html\">webmestres <acronym "
+"title=\"GNU is Not UNIX\">GNU</acronym>, à <a href=\"mailto:webmasters@gnu."
+"org\">&lt;webmasters@gnu.org&gt;</a>."
 
 #. type: Content of: <div><p>
 msgid ""
