@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: fsf-logo.html\n"
-"POT-Creation-Date: 2011-12-02 20:25-0500\n"
+"POT-Creation-Date: 2012-01-23 20:25-0500\n"
 "PO-Revision-Date: 2012-01-24 16:19+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
-msgid "FSF Logo  - GNU Project - Free Software Foundation (FSF)"
+msgid "FSF Logo - GNU Project - Free Software Foundation (FSF)"
 msgstr "Logo FSF - GNU Project - Free Software Foundation (FSF)"
 
 #. type: Content of: <h2>
@@ -38,8 +38,17 @@ msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The red logo is the new official logo of the Free Software Foundation. "
+#| "This great new logo is created by Li Jiang. The use of the older <a href="
+#| "\"/graphics/fsf-logo-tiny.jpg\">black-and-white logo</a> is discontinued. "
+#| "<strong>If you want to use this logo to link to a website operated by the "
+#| "FSF, feel free. If you wish to use it for any other purpose, please "
+#| "contact <a href=\"mailto:campaigns@fsf.org?subject=FSF Logo"
+#| "\">campaigns@fsf.org</a>.</strong>"
 msgid ""
-"The red logo is the new official logo of the Free Software Foundation. This "
+"The red logo is the new official logo of the Free Software Foundation.  This "
 "great new logo is created by Li Jiang. The use of the older <a href=\"/"
 "graphics/fsf-logo-tiny.jpg\">black-and-white logo</a> is discontinued. "
 "<strong>If you want to use this logo to link to a website operated by the "
@@ -93,10 +102,6 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
 #. type: Content of: <div><p>
-#| msgid ""
-#| "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
-#| "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-#| "contact</a> the FSF."
 msgid ""
 "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
 "gnu@gnu.org&gt;</a>. There are also <a href=\"/contact/\">other ways to "

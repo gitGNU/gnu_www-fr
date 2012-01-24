@@ -131,9 +131,6 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-#| msgid ""
-#| "Please send broken links and other corrections or suggestions to <a href="
-#| "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 msgid ""
 "The GNU logo can be used verbatim in contexts talking about GNU in a "
 "supportive and accurate way.  For permission, ask <a href=\"mailto:"
@@ -141,7 +138,8 @@ msgid ""
 msgstr ""
 "Le logo de GNU peut être utilisé « verbatim » (sans modification) dans des "
 "contextes parlant de GNU d'une manière exacte et positive. Pour en obtenir "
-"la permission, veuillez vous adresser à webmasters@gnu.org."
+"la permission, veuillez vous adresser à <a href=\"mailto:webmasters@gnu.org"
+"\">&lt;webmasters@gnu.org&gt;</a>."
 
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 2001, 2005, 2007, 2009 Free Software Foundation, Inc.,"
