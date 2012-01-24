@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2012-01-05 12:25-0500\n"
+"POT-Creation-Date: 2012-01-23 20:25-0500\n"
 "PO-Revision-Date: 2012-01-05 16:01+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -725,6 +725,40 @@ msgid ""
 msgstr ""
 "Il s'agit d'une licence de logiciel libre simple et permissive, sans "
 "copyleft, compatible avec la GNU GPL. Très semblable à la licence X11."
+
+#. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"Vim\" href=\"http://www.gnu.org/licenses/vim-license.txt\"> "
+#| "License of Vim, Version 6.1 or later</a> <span class=\"anchor-reference-id"
+#| "\">(<a href=\"#Vim\">#Vim</a>)</span>"
+msgid ""
+"<a id=\"ecfonts\" href=\"http://dante.ctan.org/tex-archive/fonts/ec/src/"
+"copyrite.txt\">License of the ec fonts for LaTeX</a> <span class=\"anchor-"
+"reference-id\">(<a href=\"#ecfonts\">#ecfonts</a>)</span>"
+msgstr ""
+"<a id=\"Vim\" href=\"http://www.gnu.org/licenses/vim-license.txt\">Licence "
+"de Vim, version&nbsp;6.1 et suivantes</a> [EN] <span class=\"anchor-"
+"reference-id\">(<a href=\"#Vim\">#Vim</a>)</span>"
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"This license covers the European Computer Modern Fonts and Text Companion "
+"Fonts, commonly used with LaTeX.  Depending on how it is used, it may be "
+"free or not.  If the package says that some fonts in the package may not be "
+"modified, then the package is nonfree.  Otherwise the package is free.  The "
+"original fonts have no restrictions on modification, so they are free."
+msgstr ""
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"Much like <a href=\"#LPPL-1.2\">the LaTeX Project Public License 1.2</a>, "
+"this license requires modified versions of the work to use a name that's "
+"different from the name of any prior version.  This is acceptable for work "
+"meant to be used with LaTeX, since TeX allows you to create filename "
+"mappings for your programs, but it's very annoying and could be overly "
+"burdensome in other contexts."
+msgstr ""
 
 #.  without decimal, leave for compatibility 
 #. type: Content of: <dl><dt>
