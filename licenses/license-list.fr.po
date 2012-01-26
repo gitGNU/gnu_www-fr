@@ -10,14 +10,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
 "POT-Creation-Date: 2012-01-23 20:25-0500\n"
-"PO-Revision-Date: 2012-01-05 16:01+0100\n"
+"PO-Revision-Date: 2012-01-26 09:31+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-01-03 12:25-0500\n"
+"Outdated-Since: 2012-01-23 20:25-0500\n"
+"Language: fr\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -726,8 +726,13 @@ msgstr ""
 "Il s'agit d'une licence de logiciel libre simple et permissive, sans "
 "copyleft, compatible avec la GNU GPL. Très semblable à la licence X11."
 
+# | <a [-id=\"Vim\" href=\"http://www.gnu.org/licenses/vim-license.txt\">
+# | License-] {+id=\"ecfonts\"
+# | href=\"http://dante.ctan.org/tex-archive/fonts/ec/src/copyrite.txt\">License+}
+# | of [-Vim, Version 6.1 or later</a>-] {+the ec fonts for LaTeX</a>+} <span
+# | class=\"anchor-reference-id\">(<a [-href=\"#Vim\">#Vim</a>)</span>-]
+# | {+href=\"#ecfonts\">#ecfonts</a>)</span>+}
 #. type: Content of: <dl><dt>
-#, fuzzy
 #| msgid ""
 #| "<a id=\"Vim\" href=\"http://www.gnu.org/licenses/vim-license.txt\"> "
 #| "License of Vim, Version 6.1 or later</a> <span class=\"anchor-reference-id"
@@ -737,9 +742,9 @@ msgid ""
 "copyrite.txt\">License of the ec fonts for LaTeX</a> <span class=\"anchor-"
 "reference-id\">(<a href=\"#ecfonts\">#ecfonts</a>)</span>"
 msgstr ""
-"<a id=\"Vim\" href=\"http://www.gnu.org/licenses/vim-license.txt\">Licence "
-"de Vim, version&nbsp;6.1 et suivantes</a> [EN] <span class=\"anchor-"
-"reference-id\">(<a href=\"#Vim\">#Vim</a>)</span>"
+"<a id=\"ecfonts\" href=\"http://dante.ctan.org/tex-archive/fonts/ec/src/"
+"copyrite.txt\">License des polices ec pour LaTeX</a> <span class=\"anchor-"
+"reference-id\">(<a href=\"#ecfonts\">#ecfonts</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -749,6 +754,13 @@ msgid ""
 "modified, then the package is nonfree.  Otherwise the package is free.  The "
 "original fonts have no restrictions on modification, so they are free."
 msgstr ""
+"Cette licence couvre les <i>European Computer Modern Fonts</i> et les "
+"<i>Text Companion Fonts</i>, utilisées couramment dans LaTeX. selon la "
+"manière dont elles sont utilisées, elles peuvent être libres, ou non. Si le "
+"paquet dit que certaines polices du paquet ne peuvent pas être modifiées, "
+"alors il n'est pas libre. Dans le cas contraire, le paquet est libre. Les "
+"polices originales n'ont pas de restrictions sur les modifications, donc "
+"elles sont libres."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -759,6 +771,12 @@ msgid ""
 "mappings for your programs, but it's very annoying and could be overly "
 "burdensome in other contexts."
 msgstr ""
+"À l'instar de la <a href=\"#LPPL-1.2\">LaTeX Project Public License 1.2</a>, "
+"cette licence exige que les version modifiées aient un nom différent du nom "
+"de chacune des versions antérieures. C'est acceptable pour un  travail "
+"destiné à être utilisé avec LaTeX, puisque LaTeX permet le « remappage » des "
+"noms de fichiers pour vos programmes, mais c'est très ennuyeux et peut même "
+"être très lourd à gérer dans d'autres contextes."
 
 #.  without decimal, leave for compatibility 
 #. type: Content of: <dl><dt>
