@@ -4,19 +4,21 @@
 # Karl Pradène.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
 # Denis Barbier <bouzim AT gmail.com>, 2011
-# Thérèse Godefroy <godef.th AT free.fr>, 2011.
+# Thérèse Godefroy <godef.th AT free.fr>, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: free-sw.html\n"
-"POT-Creation-Date: 2011-11-29 12:25-0500\n"
-"PO-Revision-Date: 2011-12-30 19:56+0100\n"
+"POT-Creation-Date: 2012-01-25 12:25-0500\n"
+"PO-Revision-Date: 2012-01-26 10:48+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-01-25 12:25-0500\n"
+"Language: fr\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
 msgid "What is free software? - GNU Project - Free Software Foundation (FSF)"
@@ -73,15 +75,23 @@ msgstr ""
 "consulter la section <a href=\"#History\">Historique</a> ci-dessous pour "
 "plus d'informations."
 
+# | &ldquo;Free software&rdquo; is a matter of liberty, not price.  To
+# | understand the concept, you should think of &ldquo;free&rdquo; as in
+# | &ldquo;free speech,&rdquo; not as in &ldquo;free [-beer.&rdquo;-]
+# | {+beer&rdquo;.+}
 #. type: Content of: <p>
+#| msgid ""
+#| "&ldquo;Free software&rdquo; is a matter of liberty, not price.  To "
+#| "understand the concept, you should think of &ldquo;free&rdquo; as in "
+#| "&ldquo;free speech,&rdquo; not as in &ldquo;free beer.&rdquo;"
 msgid ""
 "&ldquo;Free software&rdquo; is a matter of liberty, not price.  To "
 "understand the concept, you should think of &ldquo;free&rdquo; as in &ldquo;"
-"free speech,&rdquo; not as in &ldquo;free beer.&rdquo;"
+"free speech,&rdquo; not as in &ldquo;free beer&rdquo;."
 msgstr ""
-"L'expression «&nbsp;logiciel libre&nbsp;» fait référence à la liberté et non "
-"pas au prix. Pour comprendre ce concept, vous devez penser à la «&nbsp;"
-"liberté d'expression&nbsp;», pas à «&nbsp;l'entrée libre&nbsp;»."
+"«&nbsp;Logiciel libre&nbsp;» fait référence à la liberté, pas au prix. Pour "
+"comprendre ce concept, vous devez penser à la «&nbsp;liberté "
+"d'expression&nbsp;», pas à «&nbsp;entrée libre&nbsp;»."
 
 #. type: Content of: <p>
 msgid ""
@@ -226,11 +236,11 @@ msgstr ""
 "exécuter les versions modifiées de quelqu'un d'autre, mais pour refuser "
 "d'exécuter les vôtres - une pratique connue sous le nom de «&nbsp;"
 "tivoïsation&nbsp;», de «&nbsp;verrouillage&nbsp;» ou (dans la terminologie "
-"pernicieuse de ses partisans) de <em>secure boot</em><a href="
-"\"#TransNote1\"><sup>1</sup></a> - la liberté&nbsp;1 devient une fiction "
-"théorique plutôt qu'une liberté pratique. Ceci n'est pas suffisant. En "
-"d'autres termes, ces binaires ne sont pas libres, même si le code source à "
-"partir duquel ils ont été compilés l'est."
+"pernicieuse de ses partisans) de <em>secure boot</em><a id=\"TransNote1-rev"
+"\" href=\"#TransNote1\"><sup>1</sup></a> - la liberté&nbsp;1 devient une "
+"fiction théorique plutôt qu'une liberté pratique. Ceci n'est pas suffisant. "
+"En d'autres termes, ces binaires ne sont pas libres, même si le code source "
+"à partir duquel ils ont été compilés l'est."
 
 #. type: Content of: <p>
 msgid ""
@@ -244,8 +254,9 @@ msgstr ""
 "modules ou des sous-programmes libres disponibles. Si la licence du "
 "programme indique que vous ne pouvez pas le fusionner dans un module "
 "existant, par exemple si elle impose que vous soyez titulaire du copyright<a "
-"href=\"#TransNote2\"><sup>2</sup></a> sur tout code que vous ajoutez, alors "
-"la licence est trop restrictive pour être qualifiée de libre."
+"id=\"TransNote2-rev\" href=\"#TransNote2\"><sup>2</sup></a> sur tout code "
+"que vous ajoutez, alors la licence est trop restrictive pour être qualifiée "
+"de libre."
 
 #. type: Content of: <p>
 msgid ""
@@ -258,10 +269,10 @@ msgstr ""
 "La liberté&nbsp;3 inclut la liberté de distribuer vos versions modifiées en "
 "tant que logiciels libres. Une licence libre peut également permettre de les "
 "distribuer sous d'autres formes&nbsp;; en d'autres termes, elle n'a pas à "
-"être un <a href=\"/copyleft/copyleft.html\">copyleft</a><a href="
-"\"#TransNote3\"><sup>3</sup></a>. Cependant, une licence qui impose que les "
-"versions modifiées soient non libres ne peut pas être qualifiée de licence "
-"libre."
+"être un <a href=\"/copyleft/copyleft.html\">copyleft</a><a id=\"TransNote3-"
+"rev\" href=\"#TransNote3\"><sup>3</sup></a>. Cependant, une licence qui "
+"impose que les versions modifiées soient non libres ne peut pas être "
+"qualifiée de licence libre."
 
 #. type: Content of: <p>
 msgid ""
@@ -294,9 +305,27 @@ msgstr ""
 "fondamentales au public. Cette règle n'entre pas en conflit avec les "
 "libertés fondamentales&nbsp;; en fait, elle les protège."
 
+# | &ldquo;Free software&rdquo; does not mean [-&ldquo;noncommercial.&rdquo;-]
+# | {+&ldquo;noncommercial&rdquo;.+}  A free program must be available for
+# | commercial use, commercial development, and commercial distribution. 
+# | Commercial development of free software is no longer unusual; such free
+# | commercial software is very important.  You may have paid money to get
+# | copies of free software, or you may have obtained copies at no charge. 
+# | But regardless of how you got your copies, you always have the freedom to
+# | copy and change the software, even to <a
+# | href=\"/philosophy/selling.html\">sell copies</a>.
 #. type: Content of: <p>
+#| msgid ""
+#| "&ldquo;Free software&rdquo; does not mean &ldquo;noncommercial.&rdquo; A "
+#| "free program must be available for commercial use, commercial "
+#| "development, and commercial distribution.  Commercial development of free "
+#| "software is no longer unusual; such free commercial software is very "
+#| "important.  You may have paid money to get copies of free software, or "
+#| "you may have obtained copies at no charge.  But regardless of how you got "
+#| "your copies, you always have the freedom to copy and change the software, "
+#| "even to <a href=\"/philosophy/selling.html\">sell copies</a>."
 msgid ""
-"&ldquo;Free software&rdquo; does not mean &ldquo;noncommercial.&rdquo; A "
+"&ldquo;Free software&rdquo; does not mean &ldquo;noncommercial&rdquo;.  A "
 "free program must be available for commercial use, commercial development, "
 "and commercial distribution.  Commercial development of free software is no "
 "longer unusual; such free commercial software is very important.  You may "
@@ -579,10 +608,24 @@ msgstr ""
 msgid "Open Source?"
 msgstr "Open Source&nbsp;?"
 
+# | Another group has started using the term &ldquo;open source&rdquo; to mean
+# | something close (but not identical) to &ldquo;free [-software.&rdquo;-]
+# | {+software&rdquo;.+}  We prefer the term &ldquo;free software&rdquo;
+# | because, once you have heard that it refers to freedom rather than price,
+# | it calls to mind freedom.  The word &ldquo;open&rdquo; <a
+# | href=\"/philosophy/open-source-misses-the-point.html\"> never refers to
+# | freedom</a>.
 #. type: Content of: <p>
+#| msgid ""
+#| "Another group has started using the term &ldquo;open source&rdquo; to "
+#| "mean something close (but not identical) to &ldquo;free software.&rdquo; "
+#| "We prefer the term &ldquo;free software&rdquo; because, once you have "
+#| "heard that it refers to freedom rather than price, it calls to mind "
+#| "freedom.  The word &ldquo;open&rdquo; <a href=\"/philosophy/open-source-"
+#| "misses-the-point.html\"> never refers to freedom</a>."
 msgid ""
 "Another group has started using the term &ldquo;open source&rdquo; to mean "
-"something close (but not identical) to &ldquo;free software.&rdquo; We "
+"something close (but not identical) to &ldquo;free software&rdquo;.  We "
 "prefer the term &ldquo;free software&rdquo; because, once you have heard "
 "that it refers to freedom rather than price, it calls to mind freedom.  The "
 "word &ldquo;open&rdquo; <a href=\"/philosophy/open-source-misses-the-point."
@@ -845,11 +888,14 @@ msgstr ""
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
 "<b>Notes de traduction</b><ol>\n"
-"<li id=\"TransNote1\">Traduction&nbsp;: informatique de confiance.</li>\n"
+"<li id=\"TransNote1\">Informatique de confiance. <a href=\"#TransNote1-rev"
+"\">&#8593;</a></li>\n"
 "<li id=\"TransNote2\">L'équivalent français du copyright est le droit "
 "d'auteur, mais comme comme il y a des différences significatives entre les "
-"deux, nous ne traduisons pas <em>copyright</em> dans cet article.</li>\n"
-"<li id=\"TransNote3\">Traduction&nbsp;: gauche d'auteur.</li>\n"
+"deux, nous ne traduisons pas <em>copyright</em> dans cet article. <a href="
+"\"#TransNote2-rev\">&#8593;</a></li>\n"
+"<li id=\"TransNote3\">Traduction possible&nbsp;: gauche d'auteur. <a href="
+"\"#TransNote1-rev\">&#8593;</a></li>\n"
 "</ol>"
 
 #. type: Content of: <div><p>
