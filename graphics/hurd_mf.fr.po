@@ -6,14 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hurd_mf.html\n"
-"POT-Creation-Date: 2012-01-26 12:27-0500\n"
-"PO-Revision-Date: 2012-01-29 16:12+0100\n"
+"POT-Creation-Date: 2012-01-29 14:27+0100\n"
+"PO-Revision-Date: 2012-01-29 23:27+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-01-29 14:27+0100\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -58,7 +59,7 @@ msgstr ""
 "metafont-for-beginners.html\">Metafont</a>&nbsp;:"
 
 #. type: Content of: <pre>
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "% Stephen McCamant <a href=\"mailto:alias@mcs.com\">&lt;alias@mcs.com&gt;</a> 1997\n"
 "% Freely redistributable\n"
@@ -389,7 +390,6 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-#| msgid "Copyright &copy; 2008 Free Software Foundation, Inc."
 msgid "Copyright (C) 1996, 1997, 1998 Free Software Foundation, Inc."
 msgstr "Copyright (C) 1996, 1997, 1998 Free Software Foundation, Inc."
 
