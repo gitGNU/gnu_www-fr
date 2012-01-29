@@ -1,46 +1,42 @@
 # French translation of http://www.gnu.org/graphics/groff-head.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the groff-head.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: groff-head.html\n"
 "POT-Creation-Date: 2012-01-26 12:26-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 12:38+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "GNU head with printing press - GNU Project - Free Software Foundation"
 msgstr "Tête de GNU avec une presse - GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "GNU head with printing press"
 msgstr "Tête de GNU avec une presse"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/groff-head.html\">"
 msgstr "<a href=\"/graphics/groff-head.fr.html\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[image of the Head of a GNU with a printing press]"
-msgstr "[Image d'une tête de GNU avec une presse]"
+msgstr "[Image d'une tête de GNU avec une presse à imprimer]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "The <a href=\"/graphics/agnuhead.html\">GNU Head</a> image, with printing "
 "press.  This image is a modification by <a href=\"/people/people.html#sinuhe"
@@ -48,26 +44,23 @@ msgid ""
 "by Imogen Mulley (born 1991)."
 msgstr ""
 "L'image de la <a href=\"/graphics/agnuhead.fr.html\">tête de GNU</a>, avec "
-"une presse. Cette image est une modification par <a href=\"/people/people."
-"html#sinuhe\">sinuhe</a> de l'<a href=\"/graphics/groff1.png\">image</a> de "
-"Imogen Mulley (né en 1991)."
+"une presse à imprimer. Cette image est une modification par <a href=\"/"
+"people/people.html#sinuhe\">sinuhe</a> de l'<a href=\"/graphics/groff1.png"
+"\">image</a> de Imogen Mulley (né en 1991)."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "This image is the logo used on the <a href=\"/software/groff/\">GNU Troff</"
 "a> web page."
 msgstr ""
-"Cette image est le logo utilisé par la page Web <a href=\"/software/groff/"
+"Cette image est le logo utilisé par la page web <a href=\"/software/groff/"
 "\">GNU Troff</a>."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "Currently, only a single image is available:"
 msgstr "Actuellement, une seule image est disponible&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "PNG <a href=\"/graphics/groff-head.png\">14K</a>"
 msgstr "PNG <a href=\"/graphics/groff-head.png\">14 Ko</a>"
 
@@ -81,7 +74,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""

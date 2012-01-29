@@ -1,115 +1,99 @@
 # French translation of http://www.gnu.org/graphics/3dbabygnutux.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the 3dbabygnutux.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 3dbabygnutux.html\n"
 "POT-Creation-Date: 2012-01-26 12:25-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 14:38+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "3D Baby GNU and Tux - GNU Project - Free Software Foundation"
-msgstr "Bébés GNU et Tux en 3D - GNU Project - Free Software Foundation"
+msgstr "Bébé GNU et bébé Tux en 3D - GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "3D baby GNU and baby Tux and posters by Nicolas Rougier"
-msgstr "Bébés GNU et Tux en 3D et posters par Nicolas Rougier"
+msgstr "Bébé GNU et bébé Tux en 3D et posters, de Nicolas Rougier"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/babies/BabyGnuTux-Big.png\">"
 msgstr "<a href=\"/graphics/babies/BabyGnuTux-Big.png\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[3D baby GNU and baby Tux]"
-msgstr "[Bébés GNU et Tux en 3D]"
+msgstr "[Bébé GNU et bébé Tux en 3D]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Nicolas Rougier has contributed all of these nice graphics, a sample of "
 "which is shown above."
 msgstr ""
-"Nicolas Rougier a réalisé tous ces jolis dessins dont certains sont "
-"présentés ci-dessous."
+"Nicolas Rougier a réalisé tous ces jolis dessins dont un échantillon est "
+"présenté ci-dessus."
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/BabyGnu.png\">Baby GNU</a>"
 msgstr "<a href=\"babies/BabyGnu.png\">Bébé GNU</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/BabyGnuAlpha.png\">Baby GNU - alpha</a>"
 msgstr "<a href=\"babies/BabyGnuAlpha.png\">Bébé GNU - alpha</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/BabyGnuBlack.png\">Baby GNU - black</a>"
 msgstr "<a href=\"babies/BabyGnuBlack.png\">Bébé GNU - noir</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/BabyTux.png\">Baby Tux</a>"
 msgstr "<a href=\"babies/BabyTux.png\">Bébé Tux</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/BabyTuxAlpha.png\">Baby Tux - alpha</a>"
 msgstr "<a href=\"babies/BabyTuxAlpha.png\">Bébé Tux - alpha</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/BabyTuxBlack.png\">Baby Tux - black</a>"
 msgstr "<a href=\"babies/BabyTuxBlack.png\">Bébé Tux - noir</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/BabyTuxSit.png\">Baby Tux sitting</a>"
 msgstr "<a href=\"babies/BabyTuxSit.png\">Bébé Tux assis</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/BabyTuxSitAlpha.png\">Baby Tux sitting - alpha</a>"
 msgstr "<a href=\"babies/BabyTuxSitAlpha.png\">Bébé Tux assis - alpha</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/BabyTuxSitBlack.png\">Baby Tux sitting - black</a>"
 msgstr "<a href=\"babies/BabyTuxSitBlack.png\">Bébé Tux assis - noir</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/BabyGnuTux-Big.png\">Baby GNU and Tux - big</a>"
-msgstr "<a href=\"babies/BabyGnuTux-Big.png\">Bébés GNU et Tux - grand</a>"
+msgstr "<a href=\"babies/BabyGnuTux-Big.png\">Bébé GNU et bébé Tux - grand</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/BabyGnuTux-Med.png\">Baby GNU and Tux - medium</a>"
-msgstr "<a href=\"babies/BabyGnuTux-Med.png\">Bébés GNU et Tux - moyen</a>"
+msgstr "<a href=\"babies/BabyGnuTux-Med.png\">Bébé GNU et bébé Tux - moyen</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/BabyGnuTux-Small.png\">Baby GNU and Tux - small</a>"
-msgstr "<a href=\"babies/BabyGnuTux-Small.png\">Bébés GNU et Tux - petit</a>"
+msgstr ""
+"<a href=\"babies/BabyGnuTux-Small.png\">Bébé GNU et bébé Tux - petit</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Nicolas also contributed this GNU/Linux poster in various versions and "
 "formats:"
@@ -118,39 +102,34 @@ msgstr ""
 "versions&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"babies/GnuTuxSoftRevolution-v1.jpg\">GNU/Linux poster v1 - jpg</a>"
 msgstr ""
-"<a href=\"babies/GnuTuxSoftRevolution-v1.jpg\">Poster GNU/Linux v1 - jpg</a>"
+"<a href=\"babies/GnuTuxSoftRevolution-v1.jpg\">Poster GNU/Linux v1 - jpg</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"babies/GnuTuxSoftRevolution-v2.png\">GNU/Linux poster v2 - png</a>"
 msgstr ""
-"<a href=\"babies/GnuTuxSoftRevolution-v2.png\">Poster GNU/Linux v2 - png</a>"
+"<a href=\"babies/GnuTuxSoftRevolution-v2.png\">Poster GNU/Linux v2 - png</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"babies/GnuTuxSoftRevolution-v2-Big.jpg\">GNU/Linux poster v2 - big "
 "jpg</a>"
 msgstr ""
-"<a href=\"babies/GnuTuxSoftRevolution-v2-Big.jpg\">Poster GNU/Linux v2 - "
+"<a href=\"babies/GnuTuxSoftRevolution-v2-Big.jpg\">Poster GNU/Linux v2 - "
 "grand - jpg</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "<a href=\"babies/GnuTuxSoftRevolution-v2-Big.pdf\">GNU/Linux poster v2 - big "
 "pdf</a>"
 msgstr ""
-"<a href=\"babies/GnuTuxSoftRevolution-v2-Big.pdf\">GNU/Linux poster v2 - "
+"<a href=\"babies/GnuTuxSoftRevolution-v2-Big.pdf\">Poster GNU/Linux v2 - "
 "grand - pdf</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"babies/GnuLinuxPoster.odp\">GNU/Linux poster - source</a>"
 msgstr "<a href=\"babies/GnuLinuxPoster.odp\">Poster GNU/Linux - source</a>"
 
@@ -166,7 +145,6 @@ msgid "The images linked to from this page are:"
 msgstr "Les images liées dans cette page sont sous&nbsp;:"
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid "Copyright &copy; 2005 Richard Stallman"
 msgid "Copyright &copy; 2005 Nicolas Rougier"
 msgstr "Copyright &copy; 2005 Richard Stallman"
@@ -179,9 +157,14 @@ msgid ""
 "without further conditions. For other requests, please ask <a href=\"mailto:"
 "licensing@fsf.org\">licensing@fsf.org</a> for permission first."
 msgstr ""
+"Si vous voulez utiliser ces images pour mettre un lien vers un site web de "
+"la <i>Free Software Foundation</i> ou du projet GNU, ou si vous les utilisez "
+"dans des contextes parlant de GNU de manière positive et exacte, vous êtes "
+"libre de le faire sans condition supplémentaire. Pour les autres "
+"utilisations veuillez au préalable vous adresser à <a href=\"mailto:"
+"licensing@fsf.org\">licensing@fsf.org</a> pour en obtenir la permission."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "Permission is granted to copy, distribute and/or modify this image under "
 #| "the terms either:"
@@ -189,11 +172,10 @@ msgid ""
 "Alternatively, permission is granted to copy, distribute and/or modify this "
 "image under the terms of:"
 msgstr ""
-"La permission est donn&eacute;e de copier, distribuer et/ou modifier ces "
-"images sous les termes suivants&nbsp;:"
+"Alternativement, la permission est donnée de copier, distribuer et/ou "
+"modifier ces images sous les termes suivants&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 #| msgid ""
 #| "the <a href=\"/copyleft/gpl.html\">GNU General Public License</a> as "
 #| "published by the Free Software Foundation; either version 2 of the "
@@ -204,8 +186,8 @@ msgid ""
 "or (at your option) any later version."
 msgstr ""
 "la <a href=\"/copyleft/gpl.html\">GNU General Public License</a> telle que "
-"publi&eacute;e par la Free Software Foundation&nbsp;; en version 2 de la "
-"licence, ou (&agrave; votre convenance) toute version ult&eacute;rieure, ou"
+"publiée par la <i>Free Software Foundation</i>&nbsp;; en version 2 de la "
+"licence, ou (à votre convenance) toute version ultérieure."
 
 #. type: Content of: <p>
 msgid ""
@@ -220,7 +202,6 @@ msgstr ""
 "\">GNU General Public License</a> pour plus de détails."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "You can find a copy of the <a href=\"/copyleft/gpl.html\">GNU General "
 #| "Public License</a> via the preceding link.  If you have trouble "
@@ -233,15 +214,14 @@ msgid ""
 "Boston, MA 02110-1301 USA."
 msgstr ""
 "Vous pouvez trouver une copie de la <a href=\"/copyleft/gpl.html\">GNU "
-"General Public License</a> via le lien pr&eacute;c&eacute;dent. Vi vous "
-"rencontrez des probl&egrave;mes pour la t&eacute;l&eacute;charger, &eacute;"
-"crivez &agrave; la Free Software Foundation, Inc., 59 Temple Place, Fifth "
-"Floor, Boston, MA 02110-1301, USA."
+"General Public License</a> en suivant le lien précédent. Si vous rencontrez "
+"des problèmes pour la télécharger, écrivez à : Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""

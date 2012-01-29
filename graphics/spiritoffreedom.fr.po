@@ -1,46 +1,42 @@
 # French translation of http://www.gnu.org/graphics/spiritoffreedom.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the spiritoffreedom.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: spiritoffreedom.html\n"
 "POT-Creation-Date: 2012-01-26 12:27-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 12:18+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "The Spirit of Freedom - GNU Project - Free Software Foundation"
 msgstr "L'esprit de la liberté - GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "The Spirit of Freedom by Den&#237;s Fern&#225;ndez Cabrera"
 msgstr "L'esprit de la liberté par Den&#237;s Fern&#225;ndez Cabrera"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/o_espirito_da_liberdade.fondo.tiny.png\">"
 msgstr "<a href=\"/graphics/o_espirito_da_liberdade.fondo.tiny.png\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[The Spirit of Freedom]"
 msgstr "[L'esprit de la liberté]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Den&#237;s Fern&#225;ndez Cabrera made a nice piece of artwork.  The drawing "
 "shows us Tux with GNU horns and tail. This magic duo will take you to higher "
@@ -51,12 +47,10 @@ msgstr ""
 "emmènera encore plus haut, en survolant tel un esprit le vil et vaste monde."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "This color picture is available in the following formats:"
 msgstr "Ce dessin en couleur est disponible aux formats suivants&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "PNG <a href=\"/graphics/o_espirito_da_liberdade.fondo.tiny.png\">10k (a very "
 "tiny and low quality picture.)</a>, <a href=\"/graphics/"
@@ -71,7 +65,6 @@ msgstr ""
 "\">125 Ko (une grande image de bonne qualité)</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "SVG <a href=\"/graphics/o_espirito_da_liberdade.svg.gz\">118k (a gzip'ed "
 "file in SVG vector format.) </a>"
@@ -91,13 +84,11 @@ msgid "The images linked to from this page are:"
 msgstr "Les images liées dans cette page sont sous&nbsp;:"
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid "Copyright &copy; 2004 Free Software Foundation, Inc."
 msgid "Copyright (C) 2004, Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2004 Free Software Foundation, Inc."
+msgstr "Copyright (C) 2004, Free Software Foundation, Inc."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "the <a href=\"/copyleft/gpl.html\">GNU General Public License</a> as "
 #| "published by the Free Software Foundation; either version 2 of the "
@@ -109,8 +100,8 @@ msgid ""
 "License, or (at your option) any later version."
 msgstr ""
 "la <a href=\"/copyleft/gpl.html\">GNU General Public License</a> telle que "
-"publi&eacute;e par la Free Software Foundation&nbsp;; en version 2 de la "
-"licence, ou (&agrave; votre convenance) toute version ult&eacute;rieure, ou"
+"publiée par la <i>Free Software Foundation</i>&nbsp;; en version 2 de la "
+"licence, ou (à votre convenance) toute version ultérieure, ou"
 
 #. type: Content of: <p>
 msgid ""
@@ -125,7 +116,6 @@ msgstr ""
 "\">GNU General Public License</a> pour plus de détails."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "You can find a copy of the <a href=\"/copyleft/gpl.html\">GNU General "
 #| "Public License</a> via the preceding link.  If you have trouble "
@@ -138,15 +128,14 @@ msgid ""
 "Boston, MA 02110-1301 USA."
 msgstr ""
 "Vous pouvez trouver une copie de la <a href=\"/copyleft/gpl.html\">GNU "
-"General Public License</a> via le lien pr&eacute;c&eacute;dent. Vi vous "
-"rencontrez des probl&egrave;mes pour la t&eacute;l&eacute;charger, &eacute;"
-"crivez &agrave; la Free Software Foundation, Inc., 59 Temple Place, Fifth "
-"Floor, Boston, MA 02110-1301, USA."
+"General Public License</a> en suivant le lien précédent. Si vous rencontrez "
+"des problèmes pour la télécharger, écrivez à : Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA, 02110-1301, USA. "
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
@@ -178,10 +167,9 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-#, fuzzy
 #| msgid "Copyright &copy; 2004 Free Software Foundation, Inc."
 msgid "Copyright (C) 2004 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2004 Free Software Foundation, Inc."
+msgstr "Copyright (C) 2004 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""

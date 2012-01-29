@@ -1,58 +1,53 @@
 # French translation of http://www.gnu.org/graphics/kafa.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the kafa.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kafa.html\n"
 "POT-Creation-Date: 2012-01-26 12:27-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 16:20+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "Abstract GNU Art - GNU Project - Free Software Foundation"
-msgstr "Art abstrait GNU - GNU Project - Free Software Foundation"
+msgstr "Art GNU abstrait- GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "Abstract GNU Art"
-msgstr "Art abstrait GNU"
+msgstr "Art GNU abstrait"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/kafa_gnu.jpg\">"
 msgstr "<a href=\"/graphics/kafa_gnu.jpg\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[Abstract art of the GNU]"
-msgstr "[Art abstrait GNU]"
+msgstr "[Art GNU abstrait]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "A first for the Free Software Foundation, we now have abstract art of our "
 "mascot courtesy of <a href=\"http://www.plecxus.com/\">Kursad Karatas</a>. "
 "He provides an explanation of this work -"
 msgstr ""
-"Une première pour la Free Software Foundation, nous avons maintenant de "
-"l'art abstrait de notre mascotte par courtoisie de <a href=\"http://www."
-"plecxus.com/gallery/\">Kursad Karatas</a>.  Il fournit une explication de "
-"son travail."
+"Une première pour la <i>Free Software Foundation</i>, nous avons maintenant "
+"une illustration abstraite de notre mascotte, aimablement donnée par <a href="
+"\"http://www.plecxus.com/gallery/\">Kursad Karatas</a>. Il explique cette "
+"œuvre."
 
 #. type: Content of: <blockquote><p>
-#, fuzzy
 msgid ""
 "<i>I just wanted to express \"wisdom\", the wisdom of knowledge, wisdom of "
 "love, wisdom of fertility, wisdom of humanity, wisdom of brotherhood. This "
@@ -61,16 +56,15 @@ msgid ""
 "art page), and I wanted to express an alternative reality, or alternative "
 "understanding of GNU.</i>"
 msgstr ""
-"<i>Je voulais juste exprimer la &laquo;&nbsp;sagesse&nbsp;&raquo;, la "
-"sagesse de la connaissance, la sagesse de l'amour, la sagesse de la "
-"fertilité, la sagesse de l'humanité, la sagesse de la fraternité.  C'est ce "
-"dont nous avons besoin et ce dont je pense que la société moderne manque "
-"actuellement.  Il y a beaucoup de grands artistes qui ont créé de grandes "
-"&oelig;uvres pour GNU (comme indiqué sur la page Art), et je voulais "
-"exprimer une réalité alternative ou une compréhension alternative de GNU.</i>"
+"<i>Je voulais juste exprimer la «&nbsp;sagesse&nbsp;», la sagesse de la "
+"connaissance, la sagesse de l'amour, la sagesse de la fertilité, la sagesse "
+"de l'humanité, la sagesse de la fraternité.  C'est ce dont nous avons besoin "
+"et ce dont je pense que la société moderne manque actuellement.  Il y a "
+"beaucoup de grands artistes qui ont créé de grandes œuvres pour GNU (comme "
+"indiqué sur la page Art), et je voulais exprimer une réalité alternative ou "
+"une compréhension alternative de GNU.</i>"
 
 #. type: Content of: <blockquote><p>
-#, fuzzy
 msgid ""
 "<i>I wanted to make a piece for GNU because I believe that information is "
 "universal, that no one person can own it. The sharing of information is a "
@@ -80,16 +74,15 @@ msgid ""
 "victory, because I know that one day information and thought will be free "
 "and we all will be victorious.</i>"
 msgstr ""
-"<i>Je voulais faire une &oelig;uvre pour GNU car je crois que l'information "
-"est universelle, que personne ne peut se l'approprier. Le partage de "
+"<i>Je voulais faire une œuvre pour GNU car je crois que l'information est "
+"universelle, que personne ne peut se l'approprier. Le partage de "
 "l'information est un résultat direct du langage, et le langage appartient à "
-"tous. Pas à une personne, pas à une société, pas à un état, pas à une "
+"tous. Pas à une personne, pas à une société, pas à un État, pas à une "
 "colonie, mais à toute l'humanité. Comme vous pouvez le voir, le GNU fait le "
 "signe de la victoire avec ses doigts, car je sais qu'un jour l'information "
 "et la pensée seront libres et nous serons tous victorieux.</i>"
 
 #. type: Content of: <blockquote><p>
-#, fuzzy
 msgid ""
 "<i>The cherries and apple symbolizes wisdom, the beard symbolizes a special "
 "kind of wisdom that comes from a journey of knowledge and beauty that no "
@@ -99,11 +92,10 @@ msgstr ""
 "<i>Les cerises et la pomme symbolisent la sagesse, la barbe symbolise un "
 "certain type de sagesse qui provient d'un voyage de la connaissance et de la "
 "beauté que personne d'autre ne peut prendre, et les yeux du GNU expriment "
-"une profonde dévotion. Le fond bleu est simplement la liberté comme pour les "
-"&laquo;&nbsp;oiseaux&nbsp;&raquo;.</i>"
+"une profonde dévotion. Le fond bleu est simplement la liberté, comme pour "
+"les «&nbsp;oiseaux&nbsp;».</i>"
 
 #. type: Content of: <blockquote><p>
-#, fuzzy
 msgid ""
 "<i>This may not be the greatest work since I just focused on being honest "
 "while creating it. I tried to show and define the mind set of someone who "
@@ -111,20 +103,18 @@ msgid ""
 "world. Well, that is what I tried, that does not necessarily mean I have "
 "achieved it. It is up to viewers to decide for themselves. :)</i>"
 msgstr ""
-"<i>Cela peut ne pas être la plus grande &oelig;uvre puisque je me suis "
-"concentré sur mon honnêteté en la créant. J'ai essayé de montrer et de "
-"définir l'état d'esprit de quelqu'un qui cherche la liberté de soi et de "
-"pensée, et qui essaie d'être en harmonie avec le monde.  Bien, c'est ce que "
-"j'ai essayé de montrer, cela ne signifie pas nécessairement que j'y sois "
-"parvenu.  C'est aux spectateurs d'en décider. :)</i>"
+"<i>Ce n'est peut-être pas une œuvre de premier ordre, puisque je me suis "
+"seulement efforcé d'être honnête en la créant. J'ai essayé de montrer et de "
+"définir l'état d'esprit de quelqu'un qui cherche la liberté de son être et "
+"de sa pensée, et qui essaie d'être en harmonie avec le monde. Bon, c'est ce "
+"que j'ai essayé de montrer, cela ne signifie pas nécessairement que j'y sois "
+"parvenu. C'est au public d'en décider. :)</i>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "This picture is available in the following formats:"
 msgstr "Ce dessin est disponible dans les formats suivants&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "jpeg: <a href=\"/graphics/kafa_gnu.tiny.jpg\">4k</a>, <a href=\"/graphics/"
 "kafa_gnu.jpg\">65k</a>, <a href=\"/graphics/kafa_gnu.large.jpg\">166k</a>"
@@ -143,7 +133,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""

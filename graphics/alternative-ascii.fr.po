@@ -1,37 +1,35 @@
 # French translation of http://www.gnu.org/graphics/alternative-ascii.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the alternative-ascii.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: alternative-ascii.html\n"
 "POT-Creation-Date: 2012-01-26 12:25-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 11:52+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "An alternative ASCII Gnu - GNU Project - Free Software Foundation"
-msgstr ""
-"Une alternative en ASCII de Gnu - GNU Project - Free Software Foundation"
+msgstr "Un autre GNU en ASCII - GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "An Alternative ASCII GNU"
-msgstr "Une alternative en ASCII de Gnu"
+msgstr "Un autre GNU en ASCII"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "Vijay Kumar Bagavath Singh (GLUG-t/India)"
 msgstr "Vijay Kumar Bagavath Singh (GLUG-t/India)"
 
 #. type: Content of: <pre>
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "    _-`````-,           ,- '- .\n"
 "  .'   .- - |          | - -.  `.\n"
@@ -72,12 +70,10 @@ msgstr ""
 "                  `;\n"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "This image is:"
 msgstr "Cette image est sous&nbsp;:"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "Copyright (C) 2003, Vijay Kumar"
 msgstr "Copyright &copy; 2003, Vijay Kumar"
 
@@ -96,11 +92,10 @@ msgid ""
 "or (at your option) any later version, or"
 msgstr ""
 "la <a href=\"/copyleft/gpl.html\">GNU General Public License</a> telle que "
-"publiée par la Free Software Foundation&nbsp;; soit la version 2 de la "
-"licence, soit (à votre convenance) toute version postérieure, ou"
+"publiée par la <i>Free Software Foundation</i>&nbsp;; soit la version 2 de "
+"la licence, soit (à votre convenance) toute version postérieure, ou"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "the <a href=\"/copyleft/fdl.html\">GNU Free Documentation License</a>, "
 "Version 1.1 or any later version published by the Free Software Foundation; "
@@ -108,12 +103,11 @@ msgid ""
 "Cover Texts."
 msgstr ""
 "la <a href=\"/copyleft/fdl.html\">GNU Free Documentation License</a>, "
-"version 1.2 ou toute version ultérieure publiée par la Free Software "
-"Foundation&nbsp;; avec les sections sans invariant, sans texte de couverture "
-"ni texte de quatrième de couverture."
+"version 1.2 ou toute version ultérieure publiée par la <i>Free Software "
+"Foundation</i>&nbsp;; avec les sections sans invariant, sans texte de "
+"couverture ni texte de quatrième de couverture."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "This image is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
@@ -126,7 +120,6 @@ msgstr ""
 "\">GNU General Public License</a> pour plus de détails."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "You can find a copy of the <a href=\"/copyleft/gpl.html\">GNU General Public "
 "License</a> and the <a href=\"/copyleft/fdl.html\">GNU Free Documentation "
@@ -134,10 +127,12 @@ msgid ""
 "write to the Free Software Foundation, Inc., 59 Temple Place, Fifth Floor, "
 "Boston, MA 02110-1301 USA."
 msgstr ""
-"Vous pouvez trouver une copie de la <a href=\"/copyleft/gpl.html\">GNU "
-"General Public License</a> via le lien précédent. Vi vous rencontrez des "
-"problèmes pour la télécharger, écrivez à la Free Software Foundation, Inc., "
-"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+"Vous pouvez trouver des copies de la <a href=\"/copyleft/gpl.html\">GNU "
+"General Public License</a> et de la <a href=\"/copyleft/fdl.html\">GNU Free "
+"Documentation License</a> en suivant les liens précédents. Si vous "
+"rencontrez des problèmes pour les télécharger, écrivez à : Free Software "
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA."
 
 #. type: Content of: <p>
 msgid ""
@@ -149,7 +144,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""

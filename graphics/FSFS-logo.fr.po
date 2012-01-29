@@ -1,46 +1,42 @@
 # French translation of http://www.gnu.org/graphics/FSFS-logo.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the FSFS-logo.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: FSFS-logo.html\n"
 "POT-Creation-Date: 2012-01-26 12:26-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 10:45+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid ""
 "Free Software, Free Society Title Logo - GNU Project - Free Software "
 "Foundation"
 msgstr ""
-"Logo titre du livre &laquo;&nbsp;Free Software, Free Society&nbsp;&raquo; - "
-"GNU Project - Free Software Foundation"
+"Logo titre du livre «&nbsp;Free Software, Free Society&nbsp;» - GNU Project "
+"- Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "The book cover logo for Free Software, Free Society"
-msgstr "Logo de couverture du livre <b>Free Software, Free Society</b>"
+msgstr "Logo titre du livre «&nbsp;Free Software, Free Society&nbsp;»"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/FSFS-title2.jpg\">"
 msgstr "<a href=\"/graphics/FSFS-title2.jpg\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[The book cover logo for 'Free Software, Free Society']"
-msgstr ""
-"[Logo titre du livre &laquo;&nbsp;Free Software, Free Society&nbsp;&raquo;]"
+msgstr "[Logo titre du livre «&nbsp;Free Software, Free Society&nbsp;»]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
@@ -54,7 +50,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
@@ -86,10 +82,9 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-#, fuzzy
 #| msgid "Copyright &copy; 2003 Free Software Foundation, Inc."
 msgid "Copyright &copy; 2002, 2003 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2003 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2002, 2003 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""

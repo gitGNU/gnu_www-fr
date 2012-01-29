@@ -1,70 +1,62 @@
 # French translation of http://www.gnu.org/graphics/3dgnuhead.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the 3dgnuhead.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 3dgnuhead.html\n"
 "POT-Creation-Date: 2012-01-26 12:25-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 11:47+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "3D GNU head - GNU Project - Free Software Foundation"
 msgstr "Tête de GNU en 3D - GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "3D GNU Head by Dale Mellor"
 msgstr "Tête de GNU en 3D de Dale Mellor"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/3dgnuhead256.jpg\">"
 msgstr "<a href=\"/graphics/3dgnuhead256.jpg\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[3D GNU Head]"
 msgstr "[Tête de GNU en 3D]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Dale Mellor has contributed these nice graphic, the 3D GNU head is available "
 "in the following sizes:"
 msgstr ""
-"Dale Mellor a contribué avec ces beaux dessins. La tête de GNU en 3D est "
-"disponible dans les tailles suivantes&nbsp;:"
+"Dale Mellor a apporté sa contribution avec ces beaux dessins. La tête de GNU "
+"en 3D est disponible dans les tailles suivantes&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"3dgnuhead48.jpg\">48px</a>"
 msgstr "<a href=\"3dgnuhead48.jpg\">48px</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"3dgnuhead256.jpg\">256px</a>"
 msgstr "<a href=\"3dgnuhead256.jpg\">256px</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"3dgnuhead480.jpg\">480px</a>"
 msgstr "<a href=\"3dgnuhead480.jpg\">480px</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "<a href=\"3dgnuhead1055.jpg\">1055px</a>"
 msgstr "<a href=\"3dgnuhead1055.jpg\">1055px</a>"
 
@@ -98,8 +90,8 @@ msgid ""
 "or (at your option) any later version, or"
 msgstr ""
 "la <a href=\"/copyleft/gpl.html\">GNU General Public License</a> telle que "
-"publiée par la Free Software Foundation&nbsp;; soit la version 2 de la "
-"licence, soit (à votre convenance) toute version postérieure, ou"
+"publiée par la <i>Free Software Foundation</i>&nbsp;; soit la version 2 de "
+"la licence, soit (à votre convenance) toute version postérieure, ou"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -109,9 +101,9 @@ msgid ""
 "Cover Texts."
 msgstr ""
 "la <a href=\"/copyleft/fdl.html\">GNU Free Documentation License</a>, "
-"version 1.2 ou toute version ultérieure publiée par la Free Software "
-"Foundation&nbsp;; sans section invariante, sans texte de couverture ni de "
-"quatrième de couverture."
+"version 1.2 ou toute version ultérieure publiée par la <i>Free Software "
+"Foundation</i>&nbsp;; sans section invariante, sans texte de couverture ni "
+"de quatrième de couverture."
 
 #. type: Content of: <p>
 msgid ""
@@ -133,14 +125,14 @@ msgid ""
 "Floor, Boston, MA 02110-1301, USA."
 msgstr ""
 "Vous pouvez trouver une copie de la <a href=\"/copyleft/gpl.html\">GNU "
-"General Public License</a> via le lien précédent. Vi vous rencontrez des "
-"problèmes pour la télécharger, écrivez à la Free Software Foundation, Inc., "
-"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+"General Public License</a> en suivant le lien précédent. Si vous rencontrez "
+"des problèmes pour la télécharger, écrivez à : Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""

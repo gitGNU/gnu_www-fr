@@ -1,64 +1,58 @@
 # French translation of http://www.gnu.org/graphics/slickgnu.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the slickgnu.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: slickgnu.html\n"
 "POT-Creation-Date: 2012-01-26 12:27-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 12:15+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "Slick GNU - GNU Project - Free Software Foundation"
 msgstr "Un logo GNU affiné - GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "A slick GNU logo by Brian Bush"
 msgstr "Un logo GNU affiné par Brian Bush"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/slickgnu.tiny.png\">"
 msgstr "<a href=\"/graphics/slickgnu.tiny.png\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[The Spirit of Freedom]"
 msgstr "[L'esprit de la liberté]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "As most of us do, Brian loves the official GNU logo. But he thought it would "
 "be nice to create a more polished and slick logo.  It symbolizes the free "
 "and natural aspects of Free Software as well as the professional, stable and "
 "robust aspects of GNU software."
 msgstr ""
-"Comme la plupart d'entre nous, Brian aime le logo GNU officiel. Mais il a "
-"pensé qu'il serait bien de créer un logo plus recherché et affiné.  Il "
-"symbolise l'aspect libre et naturel des logiciels libres, tout comme "
-"l'aspect professionnel, stable et robuste des logiciels GNU."
+"Comme la plupart d'entre nous, Brian aime bien le logo GNU officiel. Mais il "
+"a pensé qu'il serait sympa de créer un logo plus recherché et affiné. Il "
+"symbolise le côté libre et naturel des logiciels libres, tout comme le côté "
+"professionnel, stable et robuste des logiciels GNU."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "This picture is available in the following formats:"
 msgstr "Ce dessin est disponible dans les formats suivants&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "PNG <a href=\"/graphics/slickgnu.tiny.png\">2.6k (a small picture.)</a>, <a "
 "href=\"/graphics/slickgnu.png\">5.8k (a big and good quality picture.)</a>"
@@ -68,7 +62,6 @@ msgstr ""
 "</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "SVG <a href=\"/graphics/slickgnu.svg\">17k (a vector image of the logo.)</a>"
 msgstr ""
@@ -87,13 +80,11 @@ msgid "The images linked to from this page are:"
 msgstr "Les images liées dans cette page sont sous&nbsp;:"
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid "Copyright &copy; 2005 Free Software Foundation, Inc."
 msgid "Copyright (C) 2005, Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2005 Free Software Foundation, Inc."
+msgstr "Copyright (C) 2005, Free Software Foundation, Inc."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "Permission is granted to copy, distribute and/or modify this image under "
 #| "the terms either:"
@@ -101,11 +92,10 @@ msgid ""
 "Permission is granted to copy, distribute and/or modify this image under the "
 "terms of:"
 msgstr ""
-"La permission est donn&eacute;e de copier, distribuer et/ou modifier ces "
-"images sous les termes suivants&nbsp;:"
+"La permission est donnée de copier, distribuer et/ou modifier ces images "
+"sous les termes suivants&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 #| msgid ""
 #| "the <a href=\"/copyleft/gpl.html\">GNU General Public License</a> as "
 #| "published by the Free Software Foundation; either version 2 of the "
@@ -116,8 +106,8 @@ msgid ""
 "or (at your option) any later version."
 msgstr ""
 "la <a href=\"/copyleft/gpl.html\">GNU General Public License</a> telle que "
-"publi&eacute;e par la Free Software Foundation&nbsp;; en version 2 de la "
-"licence, ou (&agrave; votre convenance) toute version ult&eacute;rieure, ou"
+"publiée par la <i>Free Software Foundation</i>&nbsp;; en version 2 de la "
+"licence, ou (à votre convenance) toute version ultérieure, ou"
 
 #. type: Content of: <p>
 msgid ""
@@ -132,7 +122,6 @@ msgstr ""
 "\">GNU General Public License</a> pour plus de détails."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "You can find a copy of the <a href=\"/copyleft/gpl.html\">GNU General "
 #| "Public License</a> via the preceding link.  If you have trouble "
@@ -145,15 +134,14 @@ msgid ""
 "Boston, MA 02110-1301 USA."
 msgstr ""
 "Vous pouvez trouver une copie de la <a href=\"/copyleft/gpl.html\">GNU "
-"General Public License</a> via le lien pr&eacute;c&eacute;dent. Vi vous "
-"rencontrez des probl&egrave;mes pour la t&eacute;l&eacute;charger, &eacute;"
-"crivez &agrave; la Free Software Foundation, Inc., 59 Temple Place, Fifth "
-"Floor, Boston, MA 02110-1301, USA."
+"General Public License</a> en suivant le lien précédent. Si vous rencontrez "
+"des problèmes pour la télécharger, écrivez à : Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA, 02110-1301, USA."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""

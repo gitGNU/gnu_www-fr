@@ -1,88 +1,77 @@
 # French translation of http://www.gnu.org/graphics/hitflip-gnu.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hitflip-gnu.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hitflip-gnu.html\n"
 "POT-Creation-Date: 2012-01-26 12:26-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 16:07+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "Hitflip images - GNU Project - Free Software Foundation"
-msgstr "Images Hitflip - GNU Project - Free Software Foundation"
+msgstr "Images de Hitflip - GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "GNU coin and herd"
 msgstr "Pièce GNU et troupeau de gnous"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "by the <a href=\"http://www.hitflip.de/special/gnu\">Hitflip team</a>."
 msgstr ""
 "par l'<a href=\"http://www.hitflip.de/special/gnu\">équipe Hitflip</a>."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Besides the contributions below, the Hitflip team also provided the <a href="
 "\"/graphics/package-logos.html\">GNU IceCat logos</a>.  We thank them for "
 "all their efforts."
 msgstr ""
 "En plus des contributions ci-dessous, l'équipe Hitflip a aussi fourni <a "
-"href=\"/graphics/package-logos.fr.html\">les logos GNU IceCat</a>. Nous les "
-"remercions pour tous leurs efforts."
+"href=\"/graphics/package-logos.fr.html\">les logos de GNU IceCat</a>. Nous "
+"les remercions pour tous leur travail."
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"hitflip-gnu1.jpg\">"
 msgstr "<a href=\"hitflip-gnu1.jpg\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "Hitflip 1 small"
 msgstr "Hitflip 1 - petit"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a> <a href=\"hitflip-gnu1.jpg\">(large)</a>."
 msgstr "</a> <a href=\"hitflip-gnu1.jpg\">(grand)</a>."
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"hitflip-gnu2.jpg\">"
 msgstr "<a href=\"hitflip-gnu2.jpg\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "Hitflip 2 small"
 msgstr "Hitflip 2 - petit"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a> <a href=\"hitflip-gnu2.jpg\">(large)</a>."
 msgstr "</a> <a href=\"hitflip-gnu2.jpg\">(grand)</a>."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "These images are:"
-msgstr "Ces images sont sous&nbsp;:"
+msgstr "Ces images sont sous"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "Copyright (C) 2007 Hitflip"
-msgstr "Copyright &copy; 2007 Hitflip"
+msgstr "Copyright (C) 2007 Hitflip"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Permission is granted to copy, distribute and/or modify this image under the "
 "terms of either:"
@@ -97,11 +86,10 @@ msgid ""
 "or (at your option) any later version, or"
 msgstr ""
 "la <a href=\"/copyleft/gpl.html\">GNU General Public License</a> telle que "
-"publiée par la Free Software Foundation&nbsp;; soit la version 2 de la "
-"licence, soit (à votre convenance) toute version postérieure, ou"
+"publiée par la <i>Free Software Foundation</i>&nbsp;; soit la version 2 de "
+"la licence, soit (à votre convenance) toute version postérieure, ou"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 #| msgid ""
 #| "the <a href=\"/copyleft/fdl.html\"> GNU Free Documentation License</a>, "
 #| "Version 1.1 or any later version published by the Free Software "
@@ -114,14 +102,15 @@ msgid ""
 "Texts, or"
 msgstr ""
 "la <a href=\"/copyleft/fdl.html\">GNU Free Documentation License</a>, "
-"version 1.1 ou toute version ult&eacute;rieure publi&eacute;e par la Free "
-"Software Foundation&nbsp;; avec les sections sans invariant, sans texte de "
-"couverture ni texte de quatri&egrave;me de couverture."
+"version 1.1 ou toute version ultérieure publiée par la <i>Free Software "
+"Foundation</i>&nbsp;, sans section invariante, sans texte de couverture ni "
+"texte de quatrième de couverture, ou bien"
 
 #. type: Content of: <ul><li>
 msgid ""
 "the <a href=\"http://artlibre.org/licence/lalgb.html\">Free Art License</a>."
 msgstr ""
+"la <a href=\"http://artlibre.org/licence/lal.html\">licence art libre</a>."
 
 #. type: Content of: <p>
 msgid ""
@@ -133,7 +122,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""

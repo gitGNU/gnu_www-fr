@@ -1,64 +1,56 @@
 # French translation of http://www.gnu.org/graphics/hurd_mf.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the hurd_mf.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hurd_mf.html\n"
 "POT-Creation-Date: 2012-01-26 12:27-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 16:12+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "Hurd Logos in Metafont - GNU Project - Free Software Foundation"
-msgstr "Logos Hurd en Metafont - GNU Project - Free Software Foundation"
+msgstr "Logos de Hurd en Metafont - GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "Hurd Logos in Metafont"
-msgstr "Logos Hurd en Metafont"
+msgstr "Logos de Hurd en Metafont"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "As separate files: <a href=\"/graphics/hurd_sm_mf.jpg\">hurd_sm_mf.jpg (jpeg "
 "10k)</a>, <a href=\"/graphics/hurd_mf.jpg\">hurd_mf.jpg (jpeg 20k)</a>, <a "
 "href=\"/graphics/hurd.mf\">hurd.mf</a> (Metafont source code)."
 msgstr ""
 "En fichiers séparés&nbsp;: <a href=\"/graphics/hurd_sm_mf.jpg\">hurd_sm_mf."
-"jpg (jpeg 10 Ko)</a>, <a href=\"/graphics/hurd_mf.jpg\">hurd_mf.jpg (jpeg 20 "
-"Ko)</a>, <a href=\"/graphics/hurd.mf\">hurd.mf</a> (code source <a href="
-"\"http://www.difi.unipi.it/metafont-for-beginners/metafont-for-beginners.html"
-"\">Metafont</a>)."
+"jpg (jpeg 10k)</a>, <a href=\"/graphics/hurd_mf.jpg\">hurd_mf.jpg (jpeg 20k)"
+"</a>, <a href=\"/graphics/hurd.mf\">hurd.mf</a> (code source Metafont)."
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/hurd_mf.jpg\">"
 msgstr "<a href=\"/graphics/hurd_mf.jpg\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[small image of a Hurd Metafont Logo]"
-msgstr "[Petite image d'un logo Hurd en Metafont]"
+msgstr "[Petit logo de Hurd en Metafont]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[large image of a Hurd Metafont Logo]"
-msgstr "[Grande image d'un logo Hurd en Metafont]"
+msgstr "[Grand logo de Hurd en Metafont]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "<a href=\"http://en.wikipedia.org/wiki/Metafont\">Metafont</a> source code:"
 msgstr ""
@@ -365,7 +357,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
@@ -397,10 +389,9 @@ msgstr ""
 "la soumission de traductions de cet article."
 
 #. type: Content of: <div><p>
-#, fuzzy
 #| msgid "Copyright &copy; 2008 Free Software Foundation, Inc."
 msgid "Copyright (C) 1996, 1997, 1998 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2008 Free Software Foundation, Inc."
+msgstr "Copyright (C) 1996, 1997, 1998 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""

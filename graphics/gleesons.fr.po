@@ -1,82 +1,73 @@
 # French translation of http://www.gnu.org/graphics/gleesons.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gleesons.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gleesons.html\n"
 "POT-Creation-Date: 2012-01-26 12:26-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 15:33+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "Gleeson's GNU Art - GNU Project - Free Software Foundation"
-msgstr "Images GNU de Gleeson - GNU Project - Free Software Foundation"
+msgstr "Art GNU de Gleeson - GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "Gleeson's GNU Art"
-msgstr "Images GNU de Gleeson"
+msgstr "Art GNU de Gleeson"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/gleeson_head.jpg\">"
 msgstr "<a href=\"/graphics/gleeson_head.jpg\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[colorful rounded image of the Head of a GNU]"
 msgstr "[Image colorée d'une tête de GNU]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "This art is similar to the <a href=\"/graphics/agnuhead.html\">GNU Head</a> "
 "but is in colour and is offered in a few variations, perhaps for use to link "
 "to the GNU project?"
 msgstr ""
 "Ce dessin est similaire à la <a href=\"/graphics/agnuhead.fr.html\">tête de "
-"GNU</a> mais en couleur et propose quelques variations, peut-être pour les "
-"utiliser pour faire des liens vers le Projet GNU&nbsp;?"
+"GNU</a>, mais en couleur. Quelques variations en sont proposées, peut-être "
+"utilisables pour mettre en lien le projet GNU&nbsp;?"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "We thank Brendon Gleeson for these images."
 msgstr "Nous remercions Brendon Gleeson pour ces images."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "This artwork available in the following versions:"
 msgstr "Ces dessins sont disponibles dans les versions suivantes&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "jpeg <a href=\"/graphics/gleeson_head.jpg\">simple head (6k)</a>"
 msgstr ""
 "<a href=\"/graphics/gleeson_head.jpg\">Tête simple (6 Ko)</a> au format jpeg"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "This version is used to help identify the pages on this server that deal "
 "with <a href=\"/fun/humor.html\">GNU Humor</a>."
 msgstr ""
-"Cette version est utilisée pour aider à identifier les pages sur ce serveur "
+"Cette version est utilisée pour aider à identifier les pages de ce serveur "
 "qui traitent de <a href=\"/fun/humor.html\">l'humour GNU</a>."
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "jpeg <a href=\"/graphics/gnu_not_unix.jpg\">gnu saying ``Gnu's Not "
 "Unix'' (16k)</a>"
@@ -85,7 +76,6 @@ msgstr ""
 "Unix&nbsp;&raquo; (16 Ko)</a> au format jpeg"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "jpeg <a href=\"/graphics/gleeson_logo.jpg\">GNU - Free Software Foundation "
 "(12k)</a>"
@@ -103,7 +93,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""

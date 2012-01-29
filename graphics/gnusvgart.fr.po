@@ -1,56 +1,50 @@
 # French translation of http://www.gnu.org/graphics/gnusvgart.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnusvgart.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnusvgart.html\n"
 "POT-Creation-Date: 2012-01-26 12:26-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 12:32+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "GNU Art in svg format - GNU Project - Free Software Foundation"
-msgstr ""
-"Illustrations GNU au format SVG - GNU Project - Free Software Foundation"
+msgstr "Art GNU au format SVG - GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "GNU Art in svg format"
-msgstr "Illustrations GNU au format SVG"
+msgstr "Art GNU au format SVG"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/meditate-tiny.jpg\">"
 msgstr "<a href=\"/graphics/meditate-tiny.jpg\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[Levitating, Meditating, Flute-playing Gnu]"
 msgstr "[Gnou en lévitation, en méditation et jouant de la flute]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "A variety of images converted into the SVG format used by vectorial drawing "
 "applications like Sodipodi or Inkscape."
 msgstr ""
-"Diverses images converties au format SVG utilisé par les applications de "
+"Diverses images converties au format SVG, utilisé par les applications de "
 "dessin vectoriel comme Sodipodi ou Inkscape."
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "svg <a href=\"/graphics/empowered-by-gnu.svg\">32K - Empowered by GNU Logo</"
 "a>"
@@ -59,27 +53,24 @@ msgstr ""
 "by GNU&nbsp;»</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "We thank Victor Siame <a href=\"mailto:vcopovi@wanadoo.fr\">&lt;"
 "vcopovi@wanadoo.fr&gt;</a> for designing these SVG logos. They are released "
 "under the <a href=\"http://artlibre.org/licence.php/lalgb.html\">Free Art "
 "License</a>."
 msgstr ""
-"Nous remercions Victor Siame <a href=\"mailto:vcopovi&#64;wanadoo.fr\">&lt;"
-"vcopovi&#64;wanadoo.fr&gt;</a> pour avoir réalisé ces logos au format SVG. "
-"Ils sont publiés sous licence <a href=\"http://artlibre.org/licence.php/"
-"lalgb.html\">Free Art License</a>."
+"Nous remercions Victor Siame <a href=\"mailto:vcopovi@wanadoo.fr\">&lt;"
+"vcopovi@wanadoo.fr&gt;</a> pour avoir réalisé ces logos au format SVG. Ils "
+"sont publiés sous <a href=\"http://artlibre.org/licence.php/lal.html"
+"\">licence art libre</a>."
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "svg <a href=\"/graphics/philosophical-gnu.svg\">38.9K - Philosophical GNU</a>"
 msgstr ""
 "svg <a href=\"/graphics/philosophical-gnu.svg\">38,9 Ko - GNU philosophe</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "svg <a href=\"/graphics/bwcartoon-m.svg\">79.4K - The Dynamic Duo: The Gnu "
 "and the Penguin in flight</a>"
@@ -88,7 +79,6 @@ msgstr ""
 "Le gnou et le pingoin en vol</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "svg <a href=\"/graphics/official gnu.svg\">131.5K - Official GNU Head</a>"
 msgstr ""
@@ -96,27 +86,23 @@ msgstr ""
 "officielle</a>"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "svg <a href=\"/graphics/gnu2.svg\">11.5K - A Gnu wearing a jacket</a>"
 msgstr ""
-"svg <a href=\"/graphics/gnu2.svg\">11,5 Ko - Un Gnou portant une chemise</a>"
+"svg <a href=\"/graphics/gnu2.svg\">11,5 Ko - Un Gnou portant une veste</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "The following logo was designed by Sven H <a href=\"mailto:fforw@gmx.de"
 "\">&lt;fforw@gmx.de&gt;</a>."
 msgstr ""
-"Le logo suivant a été conçu par Sven H <a href=\"mailto:fforw&#64;gmx.de"
-"\">&lt;fforw&#64;gmx.de&gt;</a>."
+"Le logo suivant a été conçu par Sven H <a href=\"mailto:fforw@gmx.de\">&lt;"
+"fforw@gmx.de&gt;</a>."
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "svg <a href=\"/graphics/nu-gnu.svg\">15k - The GNU Head</a>"
 msgstr "svg <a href=\"/graphics/nu-gnu.svg\">15 Ko - La tête de GNU</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "The following art was designed by <a href=\"http://aurium.cjb.net/\">Aurelio "
 "A. Heckert</a> <a href=\"mailto:aurium@gmail.com\">&lt;aurium@gmail.com&gt;</"
@@ -124,28 +110,26 @@ msgid ""
 "html\">Free Art License</a>."
 msgstr ""
 "L'illustration suivante a été conçue par <a href=\"http://aurium.cjb.net/"
-"\">Aurelio A. Heckert</a> <a href=\"mailto:aurium&#64;gmail.com\">&lt;"
-"aurium&#64;gmail.com&gt;</a> et est publié sous licence <a href=\"http://"
-"artlibre.org/licence.php/lalgb.html\">Free Art License</a>."
+"\">Aurelio A. Heckert</a> <a href=\"mailto:aurium@gmail.com\">&lt;"
+"aurium@gmail.com&gt;</a> et est publiée sous <a href=\"http://artlibre.org/"
+"licence.php/lal.html\">licence art libre</a>."
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid "svg <a href=\"/graphics/heckert_gnu.svg\">22k - Bold GNU Head</a>"
-msgstr "svg <a href=\"/graphics/heckert_gnu.svg\">22 Ko - Tête de GNU</a>"
+msgstr ""
+"svg <a href=\"/graphics/heckert_gnu.svg\">22 Ko - Tête de GNU en gras</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "We thank <a href=\"http://dittberner.info/\">Jan Dittberner</a> and his wife "
 "for this art, released under the <a href=\"http://artlibre.org/licence.php/"
 "lalgb.html\">Free Art License</a>:"
 msgstr ""
-"Nous remercions <a href=\"http://dittberner.info/\">Jan Dittberner</a> et sa "
-"femme pour cette illustration, publiée sous <a href=\"http://artlibre.org/"
-"licence.php/lalgb.html\">Free Art License</a>:"
+"Nous remercions <a href=\"http://dittberner.info/\">Jan Dittberner</a> et "
+"son épouse pour cette illustration, publiée sous <a href=\"http://artlibre."
+"org/licence.php/lal.html\">licence art libre</a>:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "svg <a href=\"/graphics/dittberner_gnu.svg\">59k - GNU on a transparent "
 "background</a>"
@@ -163,7 +147,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
@@ -204,10 +188,9 @@ msgstr ""
 "la permission, veuillez vous adresser à webmasters@gnu.org."
 
 #. type: Content of: <div><p>
-#, fuzzy
 #| msgid "Copyright &copy; 2007 Free Software Foundation, Inc."
 msgid "Copyright &copy; 1996, 1997, 1998, 2007 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2007 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 1996, 1997, 1998, 2007 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""

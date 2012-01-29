@@ -1,31 +1,31 @@
 # French translation of http://www.gnu.org/graphics/gnu-ascii2.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnu-ascii2.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-ascii2.html\n"
 "POT-Creation-Date: 2012-01-26 12:26-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 11:10+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "Another ASCII Gnu - GNU Project - Free Software Foundation"
-msgstr "Un autre petit GNU enASCII - GNU Project - Free Software Foundation"
+msgstr "Un autre petit GNU en ASCII - GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "Another ASCII Gnu"
 msgstr "Un autre petit GNU en ASCII"
 
 #. type: Content of: <pre>
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "  ,= ,-_-. =.\n"
 " ((_/)o o(\\_))\n"
@@ -38,24 +38,21 @@ msgstr ""
 "      \\_/\n"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "This is an ASCII drawing of a gnu's head.  It fits into four lines of text, "
 "the maximum length of email and usenet signatures."
 msgstr ""
 "C'est un dessin en ASCII d'une tête de gnou. Il tient sur quatre lignes, ce "
-"qui est la longueur maximale pour les signatures de courriels et Usenet."
+"qui est la longueur maximale pour les signatures de courriel et Usenet."
 
 #.  Martin Dickopp (firefly-mail@gmx.net) contributed this 
 #.  webmasters@gnu.org, saved in RT #177546 
 #. type: Content of: <p>
-#, fuzzy
 msgid "The ASCII image above is: Copyright (C) 2004, Martin Dickopp"
 msgstr ""
 "L'image ci-dessus est sous &nbsp;: Copyright &copy; 2004, Martin Dickopp"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "Permission is given to copy or distribute (or both) the above ASCII image, "
 "with or without modifications."
@@ -73,7 +70,7 @@ msgstr ""
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""

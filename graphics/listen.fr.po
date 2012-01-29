@@ -1,46 +1,42 @@
 # French translation of http://www.gnu.org/graphics/listen.html
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the listen.html page.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: listen.html\n"
 "POT-Creation-Date: 2012-01-26 12:27-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-01-29 16:26+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
-#, fuzzy
 msgid "Listening Gnu - GNU Project - Free Software Foundation"
 msgstr "Gnou avec écouteurs - GNU Project - Free Software Foundation"
 
 #. type: Content of: <h2>
-#, fuzzy
 msgid "Listening Gnu by the Nevrax Design Team"
-msgstr "Gnou avec écouteurs par Nevrax Design Team"
+msgstr "Gnou avec écouteurs, par la <i>Nevrax Design Team</i>"
 
 #. type: Content of: <p><a>
-#, fuzzy
 msgid "<a href=\"/graphics/listen-tiny.jpg\">"
 msgstr "<a href=\"/graphics/listen-tiny.jpg\">"
 
 #. type: Attribute 'alt' of: <p><a><img>
-#, fuzzy
 msgid "[Listening Gnu]"
 msgstr "[Gnou avec écouteurs]"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "</a>"
 msgstr "</a>"
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "This color drawing depicts a gnu lounging comfortably in a golden robe.  He "
 "wears large headphones.  His eyes are closed, and he has a look of "
@@ -50,30 +46,27 @@ msgid ""
 "plugged into his portable unit."
 msgstr ""
 "Ce dessin en couleur représente un gnou confortablement allongé dans une "
-"robe dorée. Il porte de grands écouteurs. Ses yeux sont fermés et il a un "
-"air de contentement sur son visage.  Il apprécie visiblement ce qu'il "
-"écoute. Il tient dans ses sabots un lecteur de CD portable et quelques CD "
-"jonchent le sol devant lui. Il y a également deux haut-parleurs sur le sol "
-"qui sont aussi branchés sur son baladeur."
+"robe de chambre dorée. Il porte de grands écouteurs. Ses yeux sont fermés et "
+"il a un air de contentement sur son visage.  Il apprécie visiblement ce "
+"qu'il écoute. Il tient dans ses sabots un lecteur de CD portable et quelques "
+"CD jonchent le sol devant lui. Il y a également deux haut-parleurs sur le "
+"sol qui sont aussi branchés sur son baladeur."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid ""
 "We thank the artists of the Nevrax Design Team, for drawing this beautiful "
 "picture, and their employer, Nevrax Limited, for giving him time to work on "
 "it."
 msgstr ""
-"Nous remercions les artistes de la Nevrax Design Team, pour avoir dessiné ce "
-"très beau dessin, et leur employeur, Nevrax Limited, pour leur avoir donné "
-"le temps de travailler dessus."
+"Nous remercions les artistes de la <i>Nevrax Design Team</i>, pour ce très "
+"beau dessin, et leur employeur, <i>Nevrax Limited</i>, pour leur avoir donné "
+"du temps pour y travailler."
 
 #. type: Content of: <p>
-#, fuzzy
 msgid "This color picture is available in the following formats:"
 msgstr "Ce dessin en couleur est disponible aux formats suivants&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 msgid ""
 "JPEG <a href=\"/graphics/listen-tiny.jpg\">6.3k (around 10% of full size and "
 "reasonable quality)</a>, <a href=\"/graphics/listen-eighth.jpg\">32k (an "
@@ -101,10 +94,9 @@ msgid "The images linked to from this page are:"
 msgstr "Les images liées dans cette page sont sous&nbsp;:"
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid "Copyright &copy; 2001 Free Software Foundation, Inc."
 msgid "Copyright (C) 2001, Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2001 Free Software Foundation, Inc."
+msgstr "Copyright (C) 2001, Free Software Foundation, Inc."
 
 #. type: Content of: <p>
 msgid ""
@@ -115,7 +107,6 @@ msgstr ""
 "sous les termes de l'une des deux licences&nbsp;:"
 
 #. type: Content of: <ul><li>
-#, fuzzy
 #| msgid ""
 #| "the <a href=\"/copyleft/gpl.html\">GNU General Public License</a> as "
 #| "published by the Free Software Foundation; either version 2 of the "
@@ -126,8 +117,8 @@ msgid ""
 "or (at your option) any later version, or"
 msgstr ""
 "la <a href=\"/copyleft/gpl.html\">GNU General Public License</a> telle que "
-"publi&eacute;e par la Free Software Foundation&nbsp;; en version 2 de la "
-"licence, ou (&agrave; votre convenance) toute version ult&eacute;rieure, ou"
+"publiée par la <i>Free Software Foundation</i>&nbsp;; en version 2 de la "
+"licence, ou (à votre convenance) toute version ultérieure, ou"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -137,9 +128,9 @@ msgid ""
 "Cover Texts."
 msgstr ""
 "la <a href=\"/copyleft/fdl.html\">GNU Free Documentation License</a>, "
-"version 1.1 ou toute version ultérieure publiée par la Free Software "
-"Foundation&nbsp;; sans section invariante, sans texte de couverture ni de "
-"quatrième de couverture."
+"version 1.1 ou toute version ultérieure publiée par la <i>Free Software "
+"Foundation</i>&nbsp;; sans section invariante, sans texte de couverture ni "
+"de quatrième de couverture."
 
 #. type: Content of: <p>
 msgid ""
@@ -154,7 +145,6 @@ msgstr ""
 "\">GNU General Public License</a> pour plus de détails."
 
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "You can find a copy of the <a href=\"/copyleft/gpl.html\">GNU General "
 #| "Public License</a> via the preceding link.  If you have trouble "
@@ -168,15 +158,14 @@ msgid ""
 "Floor, Boston, MA 02110-1301, USA."
 msgstr ""
 "Vous pouvez trouver une copie de la <a href=\"/copyleft/gpl.html\">GNU "
-"General Public License</a> via le lien pr&eacute;c&eacute;dent. Vi vous "
-"rencontrez des probl&egrave;mes pour la t&eacute;l&eacute;charger, &eacute;"
-"crivez &agrave; la Free Software Foundation, Inc., 51 Franklin Street, Fifth "
-"Floor, Boston, MA 02110-1301, USA."
+"General Public License</a> en suivant le lien précédent. Si vous rencontrez "
+"des problèmes pour la télécharger, écrivez à : Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr ""
+msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
