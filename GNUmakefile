@@ -42,7 +42,7 @@ TEAM := fr
 wwwdir := ../www/
 
 # Adjust these variables if you don't have the programs in your PATH.
-MSGMERGE := msgmerge
+MSGMERGE := msgmerge --backup=none
 MSGFMT := msgfmt
 MSGCAT := msgcat
 CVS := cvs
