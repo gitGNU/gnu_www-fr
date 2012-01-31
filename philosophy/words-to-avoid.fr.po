@@ -10,16 +10,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: words-to-avoid.html\n"
 "POT-Creation-Date: 2012-01-31 04:25-0500\n"
-"PO-Revision-Date: 2012-01-14 18:18+0100\n"
+"PO-Revision-Date: 2012-01-31 14:44+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-01-31 04:25-0500\n"
+"Language: fr\n"
 "Plural-Forms:  \n"
 "X-Generator: Virtaal 0.7.1\n"
-"Outdated-Since: 2011-08-04 04:25-0300\n"
 
 #. type: Content of: <title>
 msgid ""
@@ -54,8 +54,41 @@ msgstr ""
 "Veuillez aussi consulter <a href=\"/philosophy/categories.html\">Catégories "
 "de logiciels libres</a>."
 
+# | <a href=\"/philosophy/philosophy.html\">Other Texts to Read</a> |
+# | &ldquo;<a href=\"#BSD-style\">BSD-style</a>&rdquo; | &ldquo;<a
+# | href=\"#Closed\">Closed</a>&rdquo; | &ldquo;<a
+# | href=\"#CloudComputing\">Cloud Computing</a>&rdquo; | &ldquo;<a
+# | href=\"#Commercial\">Commercial</a>&rdquo; | &ldquo;<a
+# | href=\"#Compensation\">Compensation</a>&rdquo; | &ldquo;<a
+# | href=\"#Consume\">Consume</a>&rdquo; | &ldquo;<a
+# | href=\"#Consumer\">Consumer</a>&rdquo; | &ldquo;<a
+# | href=\"#Content\">Content</a>&rdquo; | &ldquo;<a
+# | href=\"#Creator\">Creator</a>&rdquo; | &ldquo;<a
+# | href=\"#DigitalGoods\">Digital Goods</a>&rdquo; | &ldquo;<a
+# | href=\"#DigitalRightsManagement\">Digital Rights Management</a>&rdquo; |
+# | &ldquo;<a href=\"#Ecosystem\">Ecosystem</a>&rdquo; | &ldquo;<a
+# | href=\"#ForFree\">For free</a>&rdquo; | &ldquo;<a
+# | href=\"#FreelyAvailable\">Freely available</a>&rdquo; | &ldquo;<a
+# | href=\"#Freeware\">Freeware</a>&rdquo; | &ldquo;<a
+# | href=\"#GiveAwaySoftware\">Give away software</a>&rdquo; | &ldquo;<a
+# | href=\"#Hacker\">Hacker</a>&rdquo; | &ldquo;<a
+# | href=\"#IntellectualProperty\">Intellectual property</a>&rdquo; |
+# | &ldquo;<a href=\"#LAMP\">LAMP system</a>&rdquo; | &ldquo;<a
+# | href=\"#Linux\">Linux system</a>&rdquo; | &ldquo;<a
+# | href=\"#Market\">Market</a>&rdquo; | &ldquo;<a
+# | {+href=\"#Monetize\">Monetize</a>&rdquo; | &ldquo;<a+}
+# | href=\"#MP3Player\">MP3 player</a>&rdquo; | &ldquo;<a
+# | href=\"#Open\">Open</a>&rdquo; | &ldquo;<a href=\"#PC\">PC</a>&rdquo; |
+# | &ldquo;<a href=\"#Photoshop\">Photoshop</a>&rdquo; | &ldquo;<a
+# | href=\"#Piracy\">Piracy</a>&rdquo; | &ldquo;<a
+# | href=\"#PowerPoint\">PowerPoint</a>&rdquo; | &ldquo;<a
+# | href=\"#Protection\">Protection</a>&rdquo; | &ldquo;<a
+# | href=\"#RAND\">RAND</a>&rdquo; | &ldquo;<a href=\"#SellSoftware\">Sell
+# | software</a>&rdquo; | &ldquo;<a href=\"#SoftwareIndustry\">Software
+# | Industry</a>&rdquo; | &ldquo;<a href=\"#Theft\">Theft</a>&rdquo; |
+# | &ldquo;<a href=\"#TrustedComputing\">Trusted Computing</a>&rdquo; |
+# | &ldquo;<a href=\"#Vendor\">Vendor</a>&rdquo;
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "<a href=\"/philosophy/philosophy.html\">Other Texts to Read</a> | &ldquo;"
 #| "<a href=\"#BSD-style\">BSD-style</a>&rdquo; | &ldquo;<a href=\"#Closed"
@@ -138,11 +171,12 @@ msgstr ""
 "« <a href=\"#LAMP\">Système LAMP</a> » | \n"
 "« <a href=\"#Linux\">Système Linux</a> » | \n"
 "« <a href=\"#Market\">Marché</a> » | \n"
+"« <a href=\"#Monetize\">Monétiser</a> » | \n"
 "« <a href=\"#MP3Player\">Lecteur MP3</a> » | \n"
 "« <a href=\"#Open\">Ouvert</a> » | \n"
 "« <a href=\"#PC\">PC</a> » | \n"
 "« <a href=\"#Photoshop\">Photoshop</a> » | \n"
-"« <a href=\"#Piracy\">Piraterie</a> » | \n"
+"« <a href=\"#Piracy\">Piraterie et piratage</a> » | \n"
 "« <a href=\"#PowerPoint\">PowerPoint</a> » | \n"
 "« <a href=\"#Protection\">Protection</a> » | \n"
 "« <a href=\"#RAND\">RAND (raisonnable et non discriminatoire)</a> » | \n"
@@ -204,7 +238,7 @@ msgstr ""
 "conséquent, nous évitons de décrire un logiciel non libre comme «&nbsp;"
 "fermé&nbsp;». Nous le qualifions de «&nbsp;non libre&nbsp;» ou «&nbsp;<a "
 "href=\"/philosophy/categories.html#ProprietarySoftware\">privateur</"
-"a>&nbsp;»<a href=\"#TransNote1\"><sup>1</sup></a>."
+"a>&nbsp;».<a id=\"TransNote1-rev\" href=\"#TransNote1\"><sup>1</sup></a>"
 
 #. type: Content of: <h4>
 msgid "&ldquo;Cloud Computing&rdquo;"
@@ -371,8 +405,8 @@ msgid ""
 "but most of the time it means a subsidy for the same publishing companies "
 "that are pushing unjust laws on us."
 msgstr ""
-"Le terme «&nbsp;compensation pour les ayant-droits&nbsp;» ajoute une "
-"arnaque&nbsp; vous êtes censés imaginer qu'il s'agit de payer les auteurs, "
+"Le terme «&nbsp;compensation pour les ayants droit&nbsp;» ajoute une "
+"arnaque&nbsp;: vous êtes censés imaginer qu'il s'agit de payer les auteurs, "
 "et ça peut être le cas parfois, mais la plupart du temps cela induit des "
 "subsides pour les mêmes sociétés d'édition qui nous assomment de lois "
 "injustes."
@@ -381,8 +415,10 @@ msgstr ""
 msgid "&ldquo;Consume&rdquo;"
 msgstr "«&nbsp;Consommer&nbsp;»"
 
+# | It is erroneous to speak of \"consuming\" digital information, music,
+# | software, [-etc.-] {+etc., since using them does not consume them.+}  See
+# | the following entry,
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "It is erroneous to speak of \"consuming\" digital information, music, "
 #| "software, etc.  See the following entry,"
@@ -392,7 +428,8 @@ msgid ""
 "entry,"
 msgstr ""
 "Il est erroné de parler de  «&nbsp;consommer&nbsp;» l'information numérique, "
-"la musique, les logiciels etc. Voir les rubriques suivantes."
+"la musique, les logiciels, etc., puisqu'ils ne sont pas "
+"« consommés » (détruits) lorsqu'on les utilise. Voir les rubriques suivantes."
 
 #. type: Content of: <h4>
 msgid "&ldquo;Consumer&rdquo;"
@@ -409,8 +446,10 @@ msgstr ""
 "Écouter un enregistrement numérique ou exécuter un programme ne le consomme "
 "pas."
 
+# | The terms &ldquo;producer&rdquo; and &ldquo;consumer&rdquo; come from
+# | economic theory, and bring with them its narrow perspective and misguided
+# | assumptions.  [-They-]  {+These+} tend to warp your thinking.
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "The terms &ldquo;producer&rdquo; and &ldquo;consumer&rdquo; come from "
 #| "economic theory, and bring with them its narrow perspective and misguided "
@@ -422,10 +461,12 @@ msgid ""
 msgstr ""
 "Les termes de «&nbsp;producteur&nbsp;» et «&nbsp;consommateur&nbsp;» sont "
 "issus de la théorie économique, et portent en eux son point de vue restreint "
-"et ses conceptions malavisées. Ils ont tendance à fausser votre raisonnement."
+"et ses hypothèses infondées. Ils ont tendance à fausser votre raisonnement."
 
+# | In addition, describing the users of software as &ldquo;consumers&rdquo;
+# | presumes a narrow role for them: it regards them as [-cattle-] {+sheep+}
+# | that passively graze on what others make available to them.
 #. type: Content of: <p>
-#, fuzzy
 #| msgid ""
 #| "In addition, describing the users of software as &ldquo;consumers&rdquo; "
 #| "presumes a narrow role for them: it regards them as cattle that passively "
@@ -437,7 +478,7 @@ msgid ""
 msgstr ""
 "De plus, en décrivant les utilisateurs de logiciels comme des «&nbsp;"
 "consommateurs&nbsp;», cela présuppose qu'ils ont un rôle accessoire. Ce "
-"terme les assimile à du bétail qui broute passivement ce que d'autres "
+"terme les assimile à des moutons qui broutent passivement ce que d'autres "
 "mettent à leur disposition."
 
 #. type: Content of: <p>
@@ -570,11 +611,11 @@ msgstr ""
 "Le terme «&nbsp;créateur&nbsp;», appliqué aux auteurs, les compare "
 "implicitement à un dieu (le «&nbsp;créateur&nbsp;»). Le terme est utilisé "
 "par les éditeurs pour élever le statut moral des auteurs au-dessus de celui "
-"des gens ordinaires, pour justifier des pouvoirs de copyright<a href="
-"\"#TransNote2\"><sup>2</sup></a> accrus que les éditeurs exercent au nom des "
-"auteurs. Nous recommandons de dire «&nbsp;auteur&nbsp;» à la place. "
-"Cependant, dans beaucoup de cas, «&nbsp;détenteurs de copyright&nbsp;» est "
-"ce que vous voulez réellement dire."
+"des gens ordinaires, pour justifier des pouvoirs de copyright<a id="
+"\"TransNote2-rev\" href=\"#TransNote2\"><sup>2</sup></a> accrus que les "
+"éditeurs exercent au nom des auteurs. Nous recommandons de dire «&nbsp;"
+"auteur&nbsp;» à la place. Cependant, dans beaucoup de cas, «&nbsp;détenteurs "
+"de copyright&nbsp;» est ce que vous voulez réellement dire."
 
 #. type: Content of: <h4>
 msgid "&ldquo;Digital Goods&rdquo;"
@@ -706,8 +747,8 @@ msgid ""
 "software.&rdquo;"
 msgstr ""
 "Pour éviter toute confusion, vous pouvez dire que le programme est "
-"disponible «&nbsp;en tant que logiciel libre&nbsp;»<a href="
-"\"#TransNote3\"><sup>3</sup></a>. "
+"disponible «&nbsp;en tant que logiciel libre&nbsp;».<a id=\"TransNote3-rev\" "
+"href=\"#TransNote3\"><sup>3</sup></a>"
 
 #. type: Content of: <h4>
 msgid "&ldquo;Freely available&rdquo;"
@@ -967,11 +1008,11 @@ msgstr ""
 "liberté à une campagne commerciale nie l'importance de la liberté et "
 "légitime le logiciel privateur."
 
+# | [-&ldquo;Content&rdquo;-]{+&ldquo;Monetize&rdquo;+}
 #. type: Content of: <h4>
-#, fuzzy
 #| msgid "&ldquo;Content&rdquo;"
 msgid "&ldquo;Monetize&rdquo;"
-msgstr "«&nbsp;Contenu&nbsp;»"
+msgstr "«&nbsp;Monétiser&nbsp;»"
 
 #. type: Content of: <p>
 msgid ""
@@ -980,15 +1021,23 @@ msgid ""
 "means there is nothing left except money, so nobody but you has gained "
 "anything, and you contribute nothing to the world."
 msgstr ""
+"Le sens premier de « monétiser » est « convertir en argent ». Si vous "
+"fabriquez quelque chose et qu'ensuite vous convertissez cette chose en "
+"argent, cela veut dire qu'à la fin il ne reste rien d'autre que de l'argent. "
+"Alors personne d'autre que vous n'a gagné quoi que ce soit, et vous n'avez "
+"apporté aucune contribution au monde. "
 
 #. type: Content of: <p>
 msgid ""
 "By contrast, a productive and ethical business does not convert all of its "
 "product into money.  Part of it is a contribution to the rest of the world."
 msgstr ""
+"En revanche, une entreprise productive et éthique ne convertit pas toute sa "
+"production en argent. Une partie de cette production est une contribution au "
+"reste du monde."
 
+# | &ldquo;MP3 [-p-]{+P+}layer&rdquo;
 #. type: Content of: <h4>
-#, fuzzy
 #| msgid "&ldquo;MP3 player&rdquo;"
 msgid "&ldquo;MP3 Player&rdquo;"
 msgstr "«&nbsp;Lecteur MP3&nbsp;»"
@@ -1080,7 +1129,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "&ldquo;Piracy&rdquo;"
-msgstr "«&nbsp;Piratage&nbsp;»"
+msgstr "«&nbsp;Piraterie » et « piratage&nbsp;»"
 
 #. type: Content of: <p>
 msgid ""
@@ -1092,13 +1141,13 @@ msgid ""
 "pressuring to make these prohibitions more complete.)"
 msgstr ""
 "Les éditeurs assimilent souvent la copie qu'ils n'approuvent pas à de la "
-"« piraterie ». De cette façon, ils laissent entendre que la copie illégale "
-"est l'équivalent moral de l'attaque de bateaux en haute mer, et du rapt ou "
-"du meurtre de leurs passagers. Sur la base d'une telle propagande, ils ont "
-"mis en place sur une grande partie de la planète des lois interdisant la "
-"copie dans la plupart des circonstances (ou quelquefois dans toutes). Ils "
-"continuent à faire pression pour rendre cette prohibition encore plus "
-"complète."
+"« piraterie » ou à du « piratage ». De cette façon, ils laissent entendre "
+"que la copie illégale est l'équivalent moral de l'attaque de bateaux en "
+"haute mer, et du rapt ou du meurtre de leurs passagers. Sur la base d'une "
+"telle propagande, ils ont mis en place sur une grande partie de la planète "
+"des lois interdisant la copie dans la plupart des circonstances (ou "
+"quelquefois dans toutes). Ils continuent à faire pression pour rendre cette "
+"prohibition encore plus complète."
 
 #. type: Content of: <p>
 msgid ""
@@ -1112,11 +1161,11 @@ msgid ""
 msgstr ""
 "Si vous ne croyez pas que la copie non approuvée par l'éditeur est aussi "
 "grave que l'enlèvement ou le meurtre, vous préférerez sans doute ne pas "
-"utiliser le mot «&nbsp;piraterie&nbsp;» pour la décrire. Des termes neutres "
-"comme «&nbsp;copie non autorisée&nbsp;» (ou «&nbsp;copie prohibée&nbsp;» au "
-"cas où c'est illégal) peuvent le remplacer. Quelques-uns d'entre nous "
-"préfèrent même utiliser un terme positif comme «&nbsp;partage d'informations "
-"avec son voisin&nbsp;»."
+"utiliser les mots «&nbsp;piraterie&nbsp;» ni « piratage » pour la décrire. "
+"Des termes neutres comme «&nbsp;copie non autorisée&nbsp;» (ou «&nbsp;copie "
+"prohibée&nbsp;» au cas où c'est illégal) peuvent le remplacer. Quelques-uns "
+"d'entre nous préfèrent même utiliser un terme positif comme «&nbsp;partage "
+"d'informations avec son voisin&nbsp;»."
 
 #. type: Content of: <h4>
 msgid "&ldquo;PowerPoint&rdquo;"
@@ -1439,15 +1488,16 @@ msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
 "<b>Notes de traduction</b><ol>\n"
 "<li id=\"TransNote1\">Autre traduction de <em>proprietary</em> : "
-"propriétaire.</li>\n"
+"propriétaire. <a href=\"#TransNote1-rev\">&#8593;</a></li>\n"
 "<li id=\"TransNote2\">Le copyright américain est l'équivalent du droit "
 "d'auteur français, mais il y a des différences significatives du point de "
-"vue juridique, c'est pourquoi nous ne traduisons pas ce terme.</li>\n"
+"vue juridique, c'est pourquoi nous ne traduisons pas ce terme. <a href="
+"\"#TransNote2-rev\">&#8593;</a></li>\n"
 "<li id=\"TransNote3\">Il y a peu de chance qu'on fasse la confusion en "
 "français, car « entrée libre » est à peu près le seul cas où l'on peut "
 "donner à « libre » le sens de « gratuit », mais en anglais les deux "
 "significations de <em>free</em> (libre et gratuit) ont à peu près la même "
-"fréquence.</li></ol>"
+"fréquence. <a href=\"#TransNote3-rev\">&#8593;</a></li></ol>"
 
 #. type: Content of: <div><p>
 msgid ""
