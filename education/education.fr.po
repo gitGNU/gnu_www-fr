@@ -12,11 +12,11 @@ msgstr ""
 "PO-Revision-Date: 2012-01-29 23:33+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Outdated-Since: 2012-01-29 12:25-0500\n"
-"Language: fr\n"
 "X-Poedit-Language: French\n"
 "X-Poedit-Country: France\n"
 "Plural-Forms:  \n"
@@ -59,9 +59,6 @@ msgstr "<a href=\"/education/edu-team.html\">L'équipe éducation</a>"
 # | Contact+} <a
 # | href=\"mailto:education@gnu.org\">&lt;education@gnu.org&gt;</a>[-.-]
 #. type: Content of: <div>
-#| msgid ""
-#| "Please send broken links and other corrections or suggestions to <a href="
-#| "\"mailto:education@gnu.org\">&lt;education@gnu.org&gt;</a>."
 msgid ""
 "We are looking for developers of free educational games, or information "
 "about free games that can be used for educational purposes. Contact <a href="
@@ -253,7 +250,6 @@ msgstr ""
 
 # | Copyright &copy; [-2011-] {+2011, 2012+} Free Software Foundation, Inc.
 #. type: Content of: <div><p>
-#| msgid "Copyright &copy; 2011 Free Software Foundation, Inc."
 msgid "Copyright &copy; 2011, 2012 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2011, 2012 Free Software Foundation, Inc."
 
