@@ -2,19 +2,20 @@
 # Copyright (C) 2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the javascript-trap.html package.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2009.
-# Thérèse Godefroy <godef.th AT free.fr>, 2011.
+# Thérèse Godefroy <godef.th AT free.fr>, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: javascript-trap.html\n"
-"POT-Creation-Date: 2011-12-25 12:25-0500\n"
-"PO-Revision-Date: 2011-12-30 15:47+0100\n"
+"POT-Creation-Date: 2012-01-31 20:25-0500\n"
+"PO-Revision-Date: 2012-02-02 09:16+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-01-31 20:25-0500\n"
+"Language: fr\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <h2>
@@ -397,9 +398,13 @@ msgstr ""
 "de notre proposition de critère, et à David Parunakian pour avoir porté ce "
 "problème à mon attention.</strong>"
 
+# | [-Appendix:-]{+Appendix A:+} a convention for releasing free JavaScript
+# | programs
 #. type: Content of: <h3>
-msgid "Appendix: a convention for releasing free JavaScript programs"
-msgstr "Annexe : une convention pour publier des programmes JavaScript libres"
+#| msgid "Appendix: a convention for releasing free JavaScript programs"
+msgid "Appendix A: a convention for releasing free JavaScript programs"
+msgstr ""
+"Annexe A : une convention pour publier des programmes JavaScript libres"
 
 #. type: Content of: <p>
 msgid "For references to corresponding source code, we recommend"
@@ -510,6 +515,39 @@ msgstr ""
 msgid "I thank Jaffar Rumith for bringing this issue to my attention."
 msgstr ""
 "Je remercie Jaffar Rumith pour avoir porté ce problème à mon attention."
+
+# | [-Appendix: a convention for releasing-]{+Appendix B: Publishing+} free
+# | JavaScript programs {+as a webmaster+}
+#. type: Content of: <h3>
+#| msgid "Appendix: a convention for releasing free JavaScript programs"
+msgid "Appendix B: Publishing free JavaScript programs as a webmaster"
+msgstr ""
+"Annexe B : une convention pour publier des programmes JavaScript libres"
+
+#. type: Content of: <p>
+msgid ""
+"If you're a webmaster that wants to deploy free software JavaScript on your "
+"site, clearly and consistently publishing information about those files' "
+"licenses and source code can help your visitors make sure that they're "
+"running free software, and help you comply with important license "
+"conditions.  Our <a href=\"/licenses/javascript-labels.html\">JavaScript "
+"License Web Labels</a> describe one method you can use to publish this "
+"information.  To learn more about how JavaScript License Web Labels help "
+"webmasters and their visitors, see our accompanying <a href=\"/licenses/"
+"javascript-labels-rationale.html\">rationale document</a>."
+msgstr ""
+"Si vous êtes webmestre et voulez employer du JavaScript libre sur votre "
+"site, publier systématiquement et clairement l'information sur les licences "
+"de ces fichiers et de leur code source peut aider vos visiteurs à s'assurer "
+"qu'ils font tourner des programmes libres. Cela vous aidera aussi à "
+"respecter des clauses importantes des licences. Notre article <a href=\"/"
+"licenses/javascript-labels.html\">JavaScript License Web Labels</a> "
+"(étiquettes web de licences pour JavaScript) décrit une méthode qui peut "
+"vous servir à publier cette information. Pour en apprendre plus sur la "
+"manière dont les étiquettes web de licence pour JavaScript aident les "
+"webmestres et leurs visiteurs, reportez-vous au <a href=\"/licenses/"
+"javascript-labels-rationale.html\">document d'explication</a> qui "
+"l'accompagne."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
