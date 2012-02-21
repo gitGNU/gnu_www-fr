@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: body-include-2.html\n"
-"POT-Creation-Date: 2012-02-21 15:00-0500\n"
+"POT-Creation-Date: 2012-02-21 17:00-0500\n"
 "PO-Revision-Date: 2011-12-22 00:19+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -105,6 +105,18 @@ msgstr ""
 "<a href=\"https://www.fsf.org/associate/support_freedom?"
 "referrer=4052\">Rejoignez&nbsp;la&nbsp;FSF&nbsp;!</a>"
 
+#. type: Content of: <div><p><a>
+msgid "<a href=\"http://libreplanet.org/wiki/LibrePlanet2012\">"
+msgstr "<a href=\"http://libreplanet.org/wiki/LibrePlanet2012\">"
+
+#. type: Attribute 'alt' of: <div><p><a><img>
+msgid "LibrePlanet 2012 -- March 24/25th 2012"
+msgstr "LibrePlanet 2012 -- 24 &amp; 25 mars 2012"
+
+#. type: Content of: <div><p>
+msgid "</a>"
+msgstr "</a>"
+
 #~ msgid ""
 #~ "<a href=\"https://my.fsf.org/associate/support_freedom?referrer=10189\">"
 #~ msgstr ""
@@ -114,6 +126,3 @@ msgstr ""
 #~ msgstr ""
 #~ "Aidez-nous à récolter 300&nbsp;000&nbsp;$ pour le logiciel libre d'ici le "
 #~ "30 janvier"
-
-#~ msgid "</a>"
-#~ msgstr "</a>"
