@@ -145,7 +145,7 @@ else
 	$(info Repositories were not updated, you might want "make VCS=yes".)
 endif
 
-# Synchronize (update) the PO files from the master POTs.
+# Synchronize the PO files from the master POTs.
 .PHONY: sync
 sync: update
 	@for file in $(translations); do \
@@ -157,34 +157,6 @@ sync: update
 	    $(ECHO) $(call update-po,$$file,$$potdir/$$potfile); \
 	  fi; \
 	done
-ifeq ($(VCS),yes)
-ifeq ($(REPO),CVS)
-	$(CVS) commit -m $(log)
-else ifeq ($(REPO),SVN)
-	$(SVN) commit -m $(log)
-else ifeq ($(REPO),Bzr)
-# The behavior of `bzr commit' is not very script-friendly: it will
-# exit with an error if there are no changes to commit.
-	if $(BZR) status --versioned --short | grep --quiet '^ M'; then \
-	  $(BZR) commit $(QUIET) -m $(log) && $(BZR) push $(QUIET); \
-	else \
-	  true; \
-	fi
-else ifeq ($(REPO),Git)
-# Git (`git commit', to be precise) will exit with an error if there
-# are only untracked files present (a common situation).  Sadly, there
-# doesn't seem to be a decent workaround, so exit status is ignored.
-	-$(GIT) commit --all $(QUIET) -m $(log)
-	$(GIT) push $(QUIET)
-else ifeq ($(REPO),Hg)
-	$(HG) commit $(QUIET) -m $(log) && $(HG) push $(QUIET)
-else ifeq ($(REPO),Arch)
-# Arch is so dumb that it will do a bogus commit (adding another
-# absolutely useless revision) even if there are no changes.
-# Fortunately, the exit status of `tla changes' is sane.
-	$(TLA) changes >/dev/null || $(TLA) commit -s $(log)
-endif
-endif
 
 # Helper target to check which articles have to be updated.
 .PHONY: report
