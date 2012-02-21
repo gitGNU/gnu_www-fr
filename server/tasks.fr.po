@@ -14,7 +14,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-02-07 04:25-0500\n"
 "Language: fr\n"
 "Plural-Forms:  \n"
 
@@ -22,8 +21,7 @@ msgstr ""
 msgid ""
 "Tasks to do for www.gnu.org - GNU Project - Free Software Foundation (FSF)"
 msgstr ""
-"Tâches à faire pour www.gnu.org - Projet GNU - Free Software Foundation "
-"(FSF)"
+"Tâches à faire pour www.gnu.org - Projet GNU - Free Software Foundation (FSF)"
 
 #. type: Content of: <h2>
 msgid "Tasks to do for www.gnu.org"
@@ -111,14 +109,7 @@ msgstr ""
 "vous êtes volontaire, veuillez envoyer un courriel à <a href=\"mailto:"
 "gvc@gnu.org\">&lt;gvc@gnu.org&gt;</a>."
 
-# | Rewrite the various philosophy pages [-and bulletins-] in <a
-# | href=\"/software/texinfo/texinfo.html\">Texinfo</a> and convert to HTML
-# | using texi2html.  They could then be easily included in:
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "Rewrite the various philosophy pages and bulletins in <a href=\"/software/"
-#| "texinfo/texinfo.html\">Texinfo</a> and convert to HTML using texi2html.  "
-#| "They could then be easily included in:"
 msgid ""
 "Rewrite the various philosophy pages in <a href=\"/software/texinfo/texinfo."
 "html\">Texinfo</a> and convert to HTML using texi2html.  They could then be "

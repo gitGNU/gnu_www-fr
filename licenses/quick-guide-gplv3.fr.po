@@ -12,11 +12,10 @@ msgstr ""
 "PO-Revision-Date: 2012-01-26 09:01+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-01-24 12:25-0500\n"
+"Language: fr\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -151,12 +150,6 @@ msgstr ""
 "fait cet équipement. Quand un équipement vous empêche de faire cela, nous "
 "appelons cela la tivoïsation."
 
-# | Laws prohibiting free software: Legislation like the Digital Millennium
-# | Copyright Act and the European Union Copyright Directive make it a crime
-# | to write or share software that can break DRM (Digital Restrictions
-# | [-Mismanagement;-] {+Management;+} see <a
-# | href=\"#neutralizing-laws-that-prohibit-free-software-but-not-forbidding-drm\">below</a>).
-# |  These laws should not interfere with the rights the GPL grants you.
 #. type: Content of: <div><ul><li>
 msgid ""
 "Laws prohibiting free software: Legislation like the Digital Millennium "
@@ -219,12 +212,6 @@ msgid ""
 msgstr ""
 "Neutraliser les lois prohibant les logiciels libres, sans interdire les DRM"
 
-# | You're probably familiar with the Digital Restrictions [-Mismanagement-]
-# | {+Management+} (DRM) on DVDs and other media.  You're probably also
-# | familiar with the laws that make it illegal to write your own tools to
-# | bypass those restrictions, like the Digital Millennium Copyright Act and
-# | the European Union Copyright Directive.  Nobody should be able to stop you
-# | from writing any code that you want, and GPLv3 protects this right for you.
 #. type: Content of: <div><p>
 msgid ""
 "You're probably familiar with the Digital Restrictions Management (DRM) on "

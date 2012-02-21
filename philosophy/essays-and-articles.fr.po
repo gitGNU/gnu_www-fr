@@ -12,11 +12,10 @@ msgstr ""
 "PO-Revision-Date: 2012-01-13 14:17+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2011-09-20 12:29-0300\n"
+"Language: fr\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -189,9 +188,6 @@ msgstr ""
 "<a href=\"/philosophy/fs-motives.html\">Raisons d'écrire des logiciels "
 "libres</a>"
 
-# | <a [-href=\"/philosophy/fs-motives.html\">Motives For Writing-]
-# | {+href=\"/philosophy/gov-promote.html\">How Should Governments Promote+}
-# | Free Software{+?+}</a>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/gov-promote.html\">How Should Governments Promote Free "
@@ -446,9 +442,6 @@ msgstr ""
 "<a href=\"/philosophy/enforcing-gpl.html\" id=\"EnforcingGPL\">Faire "
 "respecter la GNU GPL</a>"
 
-# | <a [-href=\"/philosophy/selling.html\">Selling Free Software</a> is OK!-]
-# | {+href=\"/philosophy/selling-exceptions.html\">On Selling Exceptions to
-# | the GNU GPL</a>+}
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/selling-exceptions.html\">On Selling Exceptions to the "
@@ -530,9 +523,6 @@ msgstr "Législation"
 msgid "Copyright"
 msgstr "Copyright"
 
-# | <a [-href=\"/philosophy/wsis.html\">World Summit on-]
-# | {+href=\"/philosophy/public-domain-manifesto.html\">Why I Will Not Sign+}
-# | the [-Information Society</a>-] {+Public Domain Manifesto</a>+}
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/public-domain-manifesto.html\">Why I Will Not Sign the "
@@ -652,9 +642,6 @@ msgstr ""
 msgid "Digital Restrictions Management"
 msgstr "Gestion numérique des restrictions"
 
-# | <a [-href=\"http://www.bostonreview.net/BR33.2/stallman.php\">The root of
-# | this-] {+href=\"/philosophy/the-root-of-this-problem.html\">The+} problem
-# | is software controlled by its developer</a>, by Richard&nbsp;M. Stallman.
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/the-root-of-this-problem.html\">The problem is "
@@ -800,12 +787,6 @@ msgstr ""
 "Comment protéger le <a href=\"/philosophy/protecting.html\">droit d'écrire "
 "des logiciels</a> (indépendamment du fait qu'ils soient libres ou non)"
 
-# | In <a
-# | [-href=\"http://www.eff.org/IP/DMCA/Felten_v_RIAA/20010606_eff_felten_pr.html\">-]
-# | {+href=\"https://www.eff.org/press/releases/princeton-scientists-sue-over-squelched-research\">+}
-# | Felten v. RIAA</a>, scientists are asking a court to rule that the Digital
-# | Millennium Copyright Act (DMCA) does not prohibit them from publishing
-# | their research.
 #. type: Content of: <ul><li>
 msgid ""
 "In <a href=\"https://www.eff.org/press/releases/princeton-scientists-sue-"
@@ -818,10 +799,6 @@ msgstr ""
 "demandent à une cour de juger que le <em>Digital Millennium Copyright Act</"
 "em> (DMCA) ne les empêche pas de publier leur recherche."
 
-# | <a [-href=\"http://www.eff.org/IP/Video/MPAA_DVD_cases/\">EFF-]
-# | {+href=\"https://www.eff.org/search/site/dvd cases/\">EFF+}
-# | &ldquo;Intellectual [-Property:-] {+Property&rdquo;:+} MPAA (Motion
-# | Picture Association of America) DVD [-Cases&rdquo;-] {+Cases+} Archive</a>
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"https://www.eff.org/search/site/dvd cases/\">EFF &ldquo;"
@@ -931,9 +908,6 @@ msgstr ""
 "numérique : un clown donne et un autre clown reprend) par <a href=\"http://"
 "www.stallman.org\">Richard Stallman</a>"
 
-# | <a href=\"/philosophy/digital-inclusion-in-freedom.html\">Is Digital
-# | Inclusion A Good Thing? How Can We Make Sure It Is?</a> {+by <a
-# | href=\"http://www.stallman.org\">Richard Stallman</a>+}
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/digital-inclusion-in-freedom.html\">Is Digital "

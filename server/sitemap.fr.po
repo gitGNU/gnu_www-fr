@@ -15,7 +15,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-02-03 04:27-0500\n"
 "Language: fr\n"
 "Plural-Forms:  \n"
 
@@ -2173,14 +2172,7 @@ msgid "<a href=\"/licenses/hessla.html\">hessla.html - HESSLA</a>"
 msgstr ""
 "<a href=\"/licenses/hessla.html\">hessla.html - Les problèmes de HESSLA</a>"
 
-# | <a [-href=\"/philosophy/javascript-trap.html\">javascript-trap.html-]
-# | {+href=\"/licenses/javascript-labels-rationale.html\">javascript-labels-rationale.html+}
-# | - [-The-] JavaScript [-Trap</a>-] {+License Web Labels: Background and
-# | rationale</a>+}
 #. type: Content of: <div><div><ul><li>
-#| msgid ""
-#| "<a href=\"/philosophy/javascript-trap.html\">javascript-trap.html - The "
-#| "JavaScript Trap</a>"
 msgid ""
 "<a href=\"/licenses/javascript-labels-rationale.html\">javascript-labels-"
 "rationale.html - JavaScript License Web Labels: Background and rationale</a>"
@@ -2188,13 +2180,7 @@ msgstr ""
 "<a href=\"/licenses/javascript-labels-rationale.html\">javascript-labels-"
 "rationale.html - JavaScript License Web Labels: Background and rationale</a>"
 
-# | <a [-href=\"/philosophy/javascript-trap.html\">javascript-trap.html-]
-# | {+href=\"/licenses/javascript-labels.html\">javascript-labels.html+} -
-# | [-The-] JavaScript [-Trap</a>-] {+License Web Labels</a>+}
 #. type: Content of: <div><div><ul><li>
-#| msgid ""
-#| "<a href=\"/philosophy/javascript-trap.html\">javascript-trap.html - The "
-#| "JavaScript Trap</a>"
 msgid ""
 "<a href=\"/licenses/javascript-labels.html\">javascript-labels.html - "
 "JavaScript License Web Labels</a>"
