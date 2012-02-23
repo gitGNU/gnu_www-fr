@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2012-01-23 20:25-0500\n"
-"PO-Revision-Date: 2012-01-26 09:31+0100\n"
+"POT-Creation-Date: 2012-02-23 22:47+0100\n"
+"PO-Revision-Date: 2012-02-23 22:46+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -2334,22 +2334,28 @@ msgstr ""
 "Public License (MPL) version 1.1</a> [EN] <span class=\"anchor-reference-id"
 "\">(<a href=\"#MPL\">#MPL</a>)</span>"
 
+# | This is a free software license which is not a strong copyleft; unlike the
+# | <a href=\"#X11License\">X11 license</a>, it has some complex restrictions
+# | that make it incompatible with the <a href=\"/licenses/gpl.html\">GNU
+# | GPL</a>.  That is, a module covered by the GPL and a module covered by the
+# | MPL cannot legally be linked together.  We urge you not to use the MPL
+# | {+1.1+} for this reason.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license which is not a strong copyleft; unlike the "
 "<a href=\"#X11License\">X11 license</a>, it has some complex restrictions "
 "that make it incompatible with the <a href=\"/licenses/gpl.html\">GNU GPL</"
 "a>.  That is, a module covered by the GPL and a module covered by the MPL "
-"cannot legally be linked together.  We urge you not to use the MPL for this "
-"reason."
+"cannot legally be linked together.  We urge you not to use the MPL 1.1 for "
+"this reason."
 msgstr ""
 "Il s'agit d'une licence de logiciel libre, pas très stricte en tant que "
 "copyleft&nbsp;; contrairement à la <a href=\"#X11License\">licence X11</a> "
 "elle présente des restrictions complexes qui la rendent incompatibles avec "
 "la <a href=\"/licenses/gpl.html\">GNU GPL</a>. En effet, on ne peut pas, "
 "légalement, lier un module couvert par la GPL et un module couvert par la "
-"MPL. À cause de cela, nous vous demandons instamment de ne pas utiliser la "
-"Mozilla Public License."
+"MPL. C'est pourquoi nous vous demandons instamment de ne pas utiliser la MPL "
+"1.1."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2361,9 +2367,18 @@ msgid ""
 msgstr ""
 "Cependant, la licence MPL&nbsp;1.1 permet (section 13) à un programme ou à "
 "des portions du programme d'offrir le choix d'une licence alternative. Si "
-"une portion du programme offre la GPL de GNU (ou toute autre licence "
-"compatible avec la GPL) comme choix possible, alors la licence de cette "
-"portion du programme est compatible avec la GPL."
+"une portion du programme offre la GNU GPL (ou toute autre licence compatible "
+"avec la GPL) comme choix possible, alors la licence de cette portion du "
+"programme est compatible avec la GPL."
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"MPL version 2.0 has a number of improvements, including GPL-compatibility by "
+"default.  <a href=\"#MPL-2.0\">See that entry</a> for details."
+msgstr ""
+"La version 2.0 de la MPL a de nombreuses améliorations, y compris la "
+"compatibilité par défaut avec la GPL. <a href=\"#MPL-2.0\">Reportez-vous à "
+"cette rubrique</a> pour plus de détails."
 
 #. type: Content of: <dl><dt>
 msgid ""
