@@ -96,7 +96,7 @@ cat compendium.$(TEAM) |\
    $(MSGCAT) --use-first --less-than=2 -o $(1) $(1) compendium.$(TEAM) - ; \
    $(MSGMERGE) $(MSGMERGEVERBOSE) -C compendium.$(TEAM) --quiet \
 	--update --previous $(1) $(2); \
-sed -i -e '1,/^msgid "[^"]/{/^"Language:/{h;d};/^"Content-Transfer-Encoding:/G;/^"Outdated-Since: /d}' $(1)
+sed -i -e '1,/^msgid "[^"]/{/^"Outdated-Since: /d}' $(1)
 endef
 
 else
@@ -104,7 +104,7 @@ else
 define update-po
 $(MSGMERGE) $(MSGMERGEVERBOSE) --quiet \
 	--update --previous $(1) $(2); \
-sed -i -e '1,/^msgid "[^"]/{/^"Language:/{h;d};/^"Content-Transfer-Encoding:/G;/^"Outdated-Since: /d}' $(1)
+sed -i -e '1,/^msgid "[^"]/{/^"Outdated-Since: /d}' $(1)
 endef
 
 endif
