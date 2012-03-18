@@ -175,9 +175,7 @@ report:
 format:
 	@echo Formatting .po files with msgcat:
 	@for file in $(translations); do \
-	  if [ `LC_ALL=C <$$file wc --max-line-length` -gt 80 ]; then \
 	    $(MSGCAT) -o $$file $$file && echo "  $${file#./}"; \
-	  fi; \
 	done
 
 # Helper target to copy all (supposedly) modified files to the `www'
