@@ -31,9 +31,6 @@ msgstr ""
 msgid "Free GNU/Linux distributions"
 msgstr "Distributions GNU/linux libres"
 
-# | <em><span class=\"highlight\">The FSF is not responsible for [-the content
-# | of-] other web sites, or how up-to-date their [-content-] {+information+}
-# | is.</span></em>
 #. type: Content of: <p>
 #| msgid ""
 #| "<em><span class=\"highlight\">The FSF is not responsible for the content "
@@ -46,21 +43,6 @@ msgstr ""
 "autres sites web ni de l'actualisation de l'information qui s'y trouve.</"
 "span></em>"
 
-# | [-Following-]{+Below+} are the <a
-# | href=\"/gnu/linux-and-gnu.html\">GNU/Linux</a> distributions we know [-of
-# | which-] {+follow the <a
-# | href=\"/distros/free-system-distribution-guidelines.html\">Guidelines for
-# | Free System Distributions</a>.  They+} have a firm policy commitment to
-# | only include and only propose free software.  They reject non-free
-# | applications, non-free programming platforms, non-free drivers, or
-# | non-free firmware &ldquo;blobs&rdquo;.  If by mistake they do include any,
-# | they remove it.  If you have found such non-free software or documentation
-# | in one of these distributions, you can <a
-# | href=\"/help/gnu-bucks.html\">report the issue and earn GNU [-Bucks</a> in
-# | the process. To learn more about what makes for a free GNU/Linux
-# | distribution, see our <a
-# | href=\"/distros/free-system-distribution-guidelines.html\">Guidelines for
-# | Free System Distributions</a>.-] {+Bucks</a>.+}
 #. type: Content of: <p>
 #| msgid ""
 #| "Following are the <a href=\"/gnu/linux-and-gnu.html\">GNU/Linux</a> "
@@ -97,9 +79,6 @@ msgstr ""
 "distributions, vous pouvez <a href=\"/help/gnu-bucks.html\">le signaler et "
 "ainsi gagner des <em>GNU bucks</em></a>."
 
-# | [-Some-]{+Other+} distributions are making efforts to move toward a
-# | completely free system.  We thank them for their ongoing work to achieve
-# | that goal, and hope to list them here some day.
 #. type: Content of: <p>
 #| msgid ""
 #| "Some distributions are making efforts to move toward a completely free "
@@ -273,14 +252,6 @@ msgstr "Venenux"
 msgid "Venenux, a GNU/Linux distribution built around the KDE desktop."
 msgstr "Venenux, une distribution libre construite autour d'un bureau KDE."
 
-# | In addition to their own sites, many of these [-distros-]
-# | {+distributions+} are available from <a
-# | href=\"http://mirror.fsf.org{+/+}\">mirror.fsf.org</a>.  Feel free to
-# | download or mirror the [-distros-] {+distributions+} from there,
-# | preferably using rsync.  [-(Free distro maintainers: please contact-] 
-# | {+Free distribution maintainers can request a mirror for their project by
-# | mailing the+} <a href=\"mailto:sysadmin@fsf.org\">FSF [-sysadmin</a> to
-# | have your distro mirrored there.)-] {+sysadmins</a>.+}
 #. type: Content of: <p>
 #| msgid ""
 #| "In addition to their own sites, many of these distros are available from "
@@ -312,9 +283,6 @@ msgstr ""
 "qui vendent du matériel avec des distributions GNU/Linux libres pré-"
 "installées</a>."
 
-# | <a href=\"/software/software.html\">Individual GNU packages</a> (most of
-# | which are included in the free [-distros-] {+distributions+} here)  are
-# | described separately.
 #. type: Content of: <p>
 #| msgid ""
 #| "<a href=\"/software/software.html\">Individual GNU packages</a> (most of "

@@ -351,10 +351,6 @@ msgstr ""
 "sous une licence libre appropriée. De plus, elle doit faire attention à ne "
 "pas recommander de logiciels non libres."
 
-# | In general, something that helps people who already use nonfree software
-# | to use the free software better with it is acceptable, but something that
-# | encourages users of the free software to install nonfree software is
-# | [-harmful.-] {+not.+}
 #. type: Content of: <p>
 #| msgid ""
 #| "In general, something that helps people who already use nonfree software "
@@ -397,9 +393,6 @@ msgstr ""
 "utilisateurs comment installer un programme non libre sur le système, ou "
 "mentionnant les avantages que cela pourrait apporter."
 
-# | For a borderline case, a clear and serious exhortation not to use the
-# | nonfree program would [-clearly make-] {+move+} it [-acceptable.-] {+to
-# | the acceptable side of the line.+}
 #. type: Content of: <p>
 #| msgid ""
 #| "For a borderline case, a clear and serious exhortation not to use the "
@@ -442,14 +435,6 @@ msgstr ""
 msgid "Commitment to Correct Mistakes"
 msgstr "Engagement à corriger les erreurs"
 
-# | Most distribution development teams don't have the resources to
-# | [-perfectly-] {+exhaustively+} check [-and make sure-] that their
-# | distribution meet all these criteria.  Neither do we.  So we expect
-# | developers to occasionally make mistakes that let some nonfree software
-# | slip through, and we don't reject a distribution just for that.  [-What is
-# | crucial-]  {+Our requirement+} is for the distribution developers to have
-# | a firm commitment to promptly correct any mistakes that are reported to
-# | them.
 #. type: Content of: <p>
 #| msgid ""
 #| "Most distribution development teams don't have the resources to perfectly "
