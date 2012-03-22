@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
 "POT-Creation-Date: 2012-03-16 22:39+0100\n"
-"PO-Revision-Date: 2012-03-16 23:19+0100\n"
+"PO-Revision-Date: 2012-03-22 15:37+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -52,6 +52,61 @@ msgstr ""
 msgid "Site map of www.gnu.org"
 msgstr "Plan du site www.gnu.org"
 
+# | [top-level directories: <a
+# | [-href=\"#directory-accessibility\">accessibility</a> <a
+# | href=\"#directory-award\">award</a> <a
+# | href=\"#directory-bulletins\">bulletins</a>-]
+# | {+href=\"#directory-thankgnus\">thankgnus</a>+} <a
+# | [-href=\"#directory-contact\">contact</a>-]
+# | {+href=\"#directory-philosophy\">philosophy</a>+} <a
+# | [-href=\"#directory-copyleft\">copyleft</a>-]
+# | {+href=\"#directory-software\">software</a>+} <a
+# | href=\"#directory-distros\">distros</a> <a
+# | [-href=\"#directory-doc\">doc</a>-]
+# | {+href=\"#directory-events\">events</a>+} <a
+# | [-href=\"#directory-education\">education</a>-]
+# | {+href=\"#directory-bulletins\">bulletins</a>+} <a
+# | [-href=\"#directory-encyclopedia\">encyclopedia</a>-]
+# | {+href=\"#directory-accessibility\">accessibility</a>+} <a
+# | [-href=\"#directory-events\">events</a>-]
+# | {+href=\"#directory-prep\">prep</a>+} <a
+# | [-href=\"#directory-fun\">fun</a>-]
+# | {+href=\"#directory-licenses\">licenses</a>+} <a
+# | [-href=\"#directory-gnu\">gnu</a>-]
+# | {+href=\"#directory-server\">server</a>+} <a
+# | [-href=\"#directory-graphics\">graphics</a>-]
+# | {+href=\"#directory-testimonials\">testimonials</a>+} <a
+# | [-href=\"#directory-help\">help</a>-]
+# | {+href=\"#directory-people\">people</a>+} <a
+# | [-href=\"#directory-licenses\">licenses</a>-]
+# | {+href=\"#directory-gnu\">gnu</a> <a
+# | href=\"#directory-encyclopedia\">encyclopedia</a>+} <a
+# | href=\"#directory-links\">links</a> <a
+# | [-href=\"#directory-manual\">manual</a>-]
+# | {+href=\"#directory-award\">award</a>+} <a
+# | [-href=\"#directory-music\">music</a>-]
+# | {+href=\"#directory-help\">help</a>+} <a
+# | [-href=\"#directory-people\">people</a>-]
+# | {+href=\"#directory-copyleft\">copyleft</a>+} <a
+# | [-href=\"#directory-philosophy\">philosophy</a>-]
+# | {+href=\"#directory-usenet\">usenet</a>+} <a
+# | [-href=\"#directory-prep\">prep</a>-]
+# | {+href=\"#directory-graphics\">graphics</a>+} <a
+# | [-href=\"#directory-press\">press</a>-]
+# | {+href=\"#directory-manual\">manual</a>+} <a
+# | [-href=\"#directory-pronunciation\">pronunciation</a>-]
+# | {+href=\"#directory-fun\">fun</a>+} <a
+# | [-href=\"#directory-server\">server</a>-]
+# | {+href=\"#directory-contact\">contact</a>+} <a
+# | [-href=\"#directory-software\">software</a>-]
+# | {+href=\"#directory-press\">press</a>+} <a
+# | [-href=\"#directory-testimonials\">testimonials</a>-]
+# | {+href=\"#directory-music\">music</a>+} <a
+# | [-href=\"#directory-thankgnus\">thankgnus</a>-]
+# | {+href=\"#directory-doc\">doc</a> <a
+# | href=\"#directory-education\">education</a>+} <a
+# | [-href=\"#directory-usenet\">usenet</a>]-]
+# | {+href=\"#directory-pronunciation\">pronunciation</a>]+}
 #. type: Content of: <div><div>
 msgid ""
 "[top-level directories: <a href=\"#directory-thankgnus\">thankgnus</a> <a "
@@ -1771,6 +1826,9 @@ msgstr ""
 "<a href=\"/graphics/philosophicalgnu.html\">philosophicalgnu.html - Un GNU "
 "philosophe</a>"
 
+# | <a [-href=\"/graphics/philosophicalgnu.html\">philosophicalgnu.html-]
+# | {+href=\"/graphics/philosoputer.html\">philosoputer.html+} - [-A
+# | Philosophical GNU</a>-] {+Philosoputer</a>+}
 #. type: Content of: <div><div><ul><li>
 msgid ""
 "<a href=\"/graphics/philosoputer.html\">philosoputer.html - Philosoputer</a>"
@@ -3085,7 +3143,7 @@ msgid ""
 "The Microsoft Antitrust Trial and Free Software</a>"
 msgstr ""
 "<a href=\"/philosophy/microsoft-antitrust.html\">microsoft-antitrust.html - "
-"Le procès antitrust contre Microsoft, implications pour le logiciel libre</a>"
+"Le procès antitrust contre Microsoft, propositions de la FSF</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -3352,6 +3410,9 @@ msgstr ""
 "<a href=\"/philosophy/right-to-read.html\">right-to-read.html - Le droit de "
 "lire</a>"
 
+# | <a [-href=\"/philosophy/rms-on-radio-nz.html\">rms-on-radio-nz.html-]
+# | {+href=\"/philosophy/rms-aj.html\">rms-aj.html+} - RMS on [-Radio New
+# | Zealand</a>-] {+the Alex Jones Show</a>+}
 #. type: Content of: <div><div><ul><li>
 msgid ""
 "<a href=\"/philosophy/rms-aj.html\">rms-aj.html - RMS on the Alex Jones "
@@ -4159,6 +4220,10 @@ msgid ""
 msgstr ""
 "<a href=\"/server/mirror.html\">mirror.html - Using and Running Mirrors</a>"
 
+# | <a
+# | [-href=\"/server/standards/translations/\">server/standards/translations</a>-]
+# | {+href=\"/server/select-skip-translations.html\">select-skip-translations.h
+# | tml</a>+}
 #. type: Content of: <div><div><ul><li>
 msgid ""
 "<a href=\"/server/select-skip-translations.html\">select-skip-translations."
@@ -4166,6 +4231,8 @@ msgid ""
 msgstr ""
 "<a href=\"/server/standards/translations/\">select-skip-translations.html</a>"
 
+# | <a [-href=\"/server/takeaction.html\">takeaction.html - Take Action</a>-]
+# | {+href=\"/server/skip-translations.html\">skip-translations.html</a>+}
 #. type: Content of: <div><div><ul><li>
 msgid "<a href=\"/server/skip-translations.html\">skip-translations.html</a>"
 msgstr "<a href=\"/server/skip-translations.html\">skip-translations.html</a>"
@@ -4181,6 +4248,8 @@ msgstr ""
 "<a href=\"/server/tasks.html\">tasks.html - Tâches à faire pour www.gnu.org</"
 "a>"
 
+# | <a [-href=\"/server/takeaction.html\">takeaction.html - Take Action</a>-]
+# | {+href=\"/server/top-addendum.html\">top-addendum.html</a>+}
 #. type: Content of: <div><div><ul><li>
 msgid "<a href=\"/server/top-addendum.html\">top-addendum.html</a>"
 msgstr "<a href=\"/server/top-addendum.html\">top-addendum.html</a>"
