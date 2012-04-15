@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: historical-apsl.html\n"
-"POT-Creation-Date: 2012-04-07 14:42+0300\n"
+"POT-Creation-Date: 2012-04-06 12:27-0300\n"
 "PO-Revision-Date: 2012-04-07 14:46+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -18,8 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
 
-# | Problems with older versions of the Apple License (APSL)  - GNU Project -
-# | Free Software Foundation [-(FSF)-]
 #. type: Content of: <title>
 msgid ""
 "Problems with older versions of the Apple License (APSL)  - GNU Project - "
@@ -28,8 +26,6 @@ msgstr ""
 "Les problèmes des anciennes versions de la licence Apple (APSL) - Projet GNU "
 "- Free Software Foundation"
 
-# | The Problems with older versions of the Apple Public Source License
-# | {+(APSL)+}
 #. type: Content of: <h2>
 msgid ""
 "The Problems with older versions of the Apple Public Source License (APSL)"
@@ -286,11 +282,6 @@ msgstr ""
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# | Please send general FSF &amp; GNU inquiries to <a
-# | href=\"mailto:gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>.  There are also <a
-# | href=\"/contact/\">other ways to contact</a> the FSF.  {+Broken links and
-# | other corrections or suggestions can be sent to <a
-# | href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>.+}
 #. type: Content of: <div><p>
 msgid ""
 "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
@@ -329,7 +320,6 @@ msgstr ""
 "\">README des traductions</a> pour toute information sur la coordination et "
 "la soumission de traductions de cet article."
 
-# | Copyright &copy; 1999, 2001, 2007 Free Software Foundation, Inc.[-,-]
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 1999, 2001, 2007 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 1999, 2001, 2007 Free Software Foundation, Inc."
@@ -355,32 +345,6 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-#~ msgid ""
-#~ "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-#~ "\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-#~ "ways to contact</a> the FSF."
-#~ msgstr ""
-#~ "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
-#~ "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-#~ "\">d'autres moyens de contacter</a> la FSF."
-
-#~ msgid ""
-#~ "Please send broken links and other corrections (or suggestions) to <a "
-#~ "href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
-#~ msgstr ""
-#~ "Veuillez indiquer (en anglais) les liens orphelins et autres corrections "
-#~ "(ou suggestions) à <a href=\"mailto:webmasters@gnu.org"
-#~ "\"><em>webmasters@gnu.org</em></a>."
-
-#~ msgid ""
-#~ "Please see the <a href=\"/server/standards/README.translations.html"
-#~ "\">Translations README</a> for information on coordinating and submitting "
-#~ "translations of this article."
-#~ msgstr ""
-#~ "Veuillez consulter le <a href=\"/server/standards/README.translations.html"
-#~ "\">README des traductions</a> pour des informations sur la coordination "
-#~ "et la soumission de traductions de cet article."
 
 #~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
 #~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
