@@ -8,15 +8,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: words-to-avoid.html\n"
-"POT-Creation-Date: 2012-03-14 04:26-0300\n"
-"PO-Revision-Date: 2012-03-15 20:40+0100\n"
+"POT-Creation-Date: 2012-04-20 04:27-0300\n"
+"PO-Revision-Date: 2012-04-20 15:03+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  \n"
+"Outdated-Since: 2012-04-19 20:27-0300\n"
+"Plural-Forms: \n"
 "X-Generator: Virtaal 0.7.1\n"
 
 #. type: Content of: <title>
@@ -1108,19 +1109,32 @@ msgstr ""
 msgid "&ldquo;Photoshop&rdquo;"
 msgstr "«&nbsp;Photoshop&nbsp;»"
 
+# | Please avoid using the term &ldquo;photoshop&rdquo; as a verb, meaning any
+# | kind of photo manipulation or image editing in general.  Photoshop is just
+# | the name of one particular image editing program, which should be avoided
+# | since it is proprietary.  There are plenty of free [-alternatives,-]
+# | {+programs for editing images,+} such as {+the+} <a
+# | href=\"/software/gimp\">GIMP</a>.
 #. type: Content of: <p>
+#| msgid ""
+#| "Please avoid using the term &ldquo;photoshop&rdquo; as a verb, meaning "
+#| "any kind of photo manipulation or image editing in general.  Photoshop is "
+#| "just the name of one particular image editing program, which should be "
+#| "avoided since it is proprietary.  There are plenty of free alternatives, "
+#| "such as <a href=\"/software/gimp\">GIMP</a>."
 msgid ""
 "Please avoid using the term &ldquo;photoshop&rdquo; as a verb, meaning any "
 "kind of photo manipulation or image editing in general.  Photoshop is just "
 "the name of one particular image editing program, which should be avoided "
-"since it is proprietary.  There are plenty of free alternatives, such as <a "
-"href=\"/software/gimp\">GIMP</a>."
+"since it is proprietary.  There are plenty of free programs for editing "
+"images, such as the <a href=\"/software/gimp\">GIMP</a>."
 msgstr ""
 "Veuillez éviter d'utiliser le verbe « photoshoper », dérivé de «&nbsp;"
 "Photoshop&nbsp;», en voulant parler de manipulation d'image ou d'édition "
 "d'image en général. Photoshop n'est que le nom d'un éditeur d'image "
-"privateur particulier, et il existe beaucoup d'alternatives libres, comme <a "
-"href=\"/software/gimp\">GIMP</a>."
+"particulier, qui doit être évité parce qu'il est privateur. Il existe "
+"beaucoup de programmes libres pour l'édition d'images, comme <a href=\"/"
+"software/gimp\">GIMP</a>."
 
 #. type: Content of: <h4>
 msgid "&ldquo;Piracy&rdquo;"
@@ -1166,13 +1180,25 @@ msgstr ""
 msgid "&ldquo;PowerPoint&rdquo;"
 msgstr "«&nbsp;PowerPoint&nbsp;»"
 
+# | Please avoid using the term &ldquo;PowerPoint&rdquo; to mean any kind of
+# | slide presentation.  &ldquo;PowerPoint&rdquo; is just the name of one
+# | particular proprietary program to make presentations, and there are plenty
+# | of free [-alternatives,-] {+program for presentations,+} such as TeX's
+# | <tt>beamer</tt> class and OpenOffice.org's Impress.
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Please avoid using the term &ldquo;PowerPoint&rdquo; to mean any kind of "
+#| "slide presentation.  &ldquo;PowerPoint&rdquo; is just the name of one "
+#| "particular proprietary program to make presentations, and there are "
+#| "plenty of free alternatives, such as TeX's <tt>beamer</tt> class and "
+#| "OpenOffice.org's Impress."
 msgid ""
 "Please avoid using the term &ldquo;PowerPoint&rdquo; to mean any kind of "
 "slide presentation.  &ldquo;PowerPoint&rdquo; is just the name of one "
 "particular proprietary program to make presentations, and there are plenty "
-"of free alternatives, such as TeX's <tt>beamer</tt> class and OpenOffice."
-"org's Impress."
+"of free program for presentations, such as TeX's <tt>beamer</tt> class and "
+"OpenOffice.org's Impress."
 msgstr ""
 "Veuillez éviter d'utiliser le terme «&nbsp;PowerPoint&nbsp;» pour parler de "
 "toute présentation par diapositives. «&nbsp;PowerPoint&nbsp;» n'est que le "
