@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stallman-kth\n"
 "POT-Creation-Date: 2011-09-20 12:30-0300\n"
-"PO-Revision-Date: 2012-05-01 10:12+0200\n"
+"PO-Revision-Date: 2012-05-01 17:57+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -1822,7 +1822,7 @@ msgstr ""
 "compilateur et d'y apporter des modifications, mais j'ai compris que je "
 "devais le réécrire entièrement pour obtenir la rapidité que je voulais, "
 "aussi je l'ai fait pour pouvoir utiliser des représentations de structure de "
-"liste pour toutes ces expressions. Des choses comme ceci&nbsp;:"
+"liste pour toutes ces expressions ; des choses comme ceci&nbsp;:"
 
 #. type: Content of: <pre>
 #, no-wrap
@@ -1935,8 +1935,8 @@ msgid ""
 "There's got room for a lot of hair, and I've not finished implementing all "
 "the hair needed to make really fully efficient."
 msgstr ""
-"Il y a encore de la marge pour pas mal de pièges, et je n'ai pas fini de "
-"mettre en œuvre tout ce qui est nécessaire pour le rendre vraiment "
+"Il y a encore de la marge pour pas mal de prises de tête, et je n'ai pas "
+"fini de mettre en œuvre tout ce qui est nécessaire pour le rendre vraiment "
 "pleinement efficace."
 
 #. type: Content of: <p>
@@ -2283,8 +2283,8 @@ msgid ""
 msgstr ""
 "Et cette idée peut être rapprochée de l'utilisation de l'astérisque comme "
 "joker <cite>[star matching]</cite> : un nom qui ne finit pas par un point "
-"équivaut à tous les noms sans leur numéro de version. Ainsi, si un certain "
-"répertoire a des fichiers comme ceci&nbsp;:"
+"équivaut à tous les noms sans leur numéro de version. Supposons qu'un "
+"certain répertoire ait des fichiers comme ceci&nbsp;:"
 
 #. type: Content of: <pre>
 #, no-wrap
