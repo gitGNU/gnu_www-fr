@@ -58,8 +58,6 @@ msgstr ""
 "<a href=\"#GPLIncompatibleLicenses\">Licences de logiciels libres "
 "incompatibles avec la GPL</a>"
 
-# | <a [-href=\"#NonFreeSoftwareLicenses\">Non-Free-]
-# | {+href=\"#NonFreeSoftwareLicenses\">Nonfree+} Software Licenses</a>
 #. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"#NonFreeSoftwareLicenses\">Nonfree Software Licenses</a>"
 msgstr ""
@@ -75,8 +73,6 @@ msgstr ""
 "<a href=\"#FreeDocumentationLicenses\">Licences libres pour la "
 "documentation</a>"
 
-# | <a href=\"#NonFreeDocumentationLicenses\"> [-Non-Free-] {+Nonfree+}
-# | Documentation Licenses</a>
 #. type: Content of: <ul><li><ul><li>
 msgid ""
 "<a href=\"#NonFreeDocumentationLicenses\"> Nonfree Documentation Licenses</a>"
@@ -327,10 +323,6 @@ msgstr ""
 "\"anchor-reference-id\"> (<a href=\"#LGPL\">#LGPL</a>)  (<a href=\"#LGPL"
 "\">#LGPLv3</a>)</span>"
 
-# | This is the latest version of the LGPL: a free software license, but not a
-# | strong copyleft license, because it permits linking with non[---]free
-# | modules.  It is compatible with GPLv3.  We recommend it for <a
-# | href=\"/licenses/why-not-lgpl.html\">special circumstances only</a>.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is the latest version of the LGPL: a free software license, but not a "
@@ -369,13 +361,6 @@ msgstr ""
 "General Public License (LGPL) version&nbsp;2.1</a> [EN] <span class=\"anchor-"
 "reference-id\"> (<a href=\"#LGPLv2.1\">#LGPLv2.1</a>)</span>"
 
-# | This is the previous version of the LGPL: a free software license, but not
-# | a strong copyleft license, because it permits linking with non[---]free
-# | modules.  It is compatible with GPLv2 and GPLv3.  We generally recommend
-# | <a href=\"#LGPL\">the latest version of the LGPL</a>, <a
-# | href=\"/licenses/why-not-lgpl.html\">for special circumstances only</a>. 
-# | To learn more about how LGPLv2.1 is compatible with other GNU licenses,
-# | please <a href=\"/licenses/gpl-faq.html#AllCompatibility\">see our FAQ</a>.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is the previous version of the LGPL: a free software license, but not a "
@@ -660,17 +645,6 @@ msgstr ""
 "La licence CeCILL est une licence de logiciel libre, explicitement "
 "compatible avec la GNU GPL."
 
-# | The text of the CeCILL uses a couple of biased terms that ought to be
-# | avoided: [-&ldquo;intellectual property&rdquo; (see-] <a
-# | [-href=\"/philosophy/not-ipr.xhtml\">this article</a>)-]
-# | {+href=\"/philosophy/not-ipr.html\">&ldquo;intellectual
-# | property&rdquo;</a>+} and [-&ldquo;protection&rdquo; (see-] <a
-# | [-href=\"/philosophy/words-to-avoid.html\">this article</a>);-]
-# | {+href=\"/philosophy/words-to-avoid.html#Protection\">
-# | &ldquo;protection&rdquo;</a>;+} this decision was unfortunate, because
-# | reading the license tends to spread the presuppositions of those terms. 
-# | However, this does not cause any particular problem for the programs
-# | released under the CeCILL.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The text of the CeCILL uses a couple of biased terms that ought to be "
@@ -1880,11 +1854,6 @@ msgstr ""
 "figure au paragraphe «&nbsp;UCB/LBL&nbsp;». Cette licence est parfois "
 "appelée «&nbsp;Licence BSD à quatre clauses&nbsp;»)."
 
-# | This is a simple, permissive non-copyleft free software license with a
-# | serious flaw: the &ldquo;obnoxious BSD advertising clause&rdquo;.  The
-# | flaw is not fatal; that is, it does not render the software non[---]free. 
-# | But it does cause <a href=\"/philosophy/bsd.html\">practical problems</a>,
-# | including incompatibility with the GNU GPL.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a simple, permissive non-copyleft free software license with a "
@@ -2004,9 +1973,6 @@ msgstr ""
 "html#condor\"> Condor Public License</a> [EN] <span class=\"anchor-reference-"
 "id\"> (<a href=\"#Condor\">#Condor</a>)</span>"
 
-# | Recent versions of Condor (from 6.9.5 on) are released under the <a
-# | href=\"#[-A-]{+a+}pache2\">Apache License 2.0</a>.  Only older versions of
-# | Condor use this license.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Recent versions of Condor (from 6.9.5 on) are released under the <a href="
@@ -2220,12 +2186,6 @@ msgstr ""
 "l'extrême limite de l'acceptable&nbsp;: le fait que tout fichier modifié "
 "doive être renommé."
 
-# | The reason this requirement is acceptable for LaTeX is that TeX has a
-# | facility to allow you to map file names, to specify &ldquo;use file bar
-# | when file foo is requested&rdquo;.  With this facility, the requirement is
-# | merely annoying; without the facility, the same requirement would be a
-# | serious obstacle, and we would have to conclude it makes the program
-# | non[---]free.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The reason this requirement is acceptable for LaTeX is that TeX has a "
@@ -2262,10 +2222,6 @@ msgstr ""
 "transplanté dans un contexte très différent ne le rend pas pour autant non "
 "libre dans le contexte d'origine."
 
-# | The LPPL says that some files, in certain versions of LaTeX, may have
-# | additional restrictions, which could render them non[---]free.  For this
-# | reason, it may take some careful checking to produce a version of LaTeX
-# | that is free software.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The LPPL says that some files, in certain versions of LaTeX, may have "
@@ -2581,12 +2537,6 @@ msgstr ""
 "license</a> [EN] <span class=\"anchor-reference-id\"> (<a href=\"#OpenSSL"
 "\">#OpenSSL</a>)</span>"
 
-# | The license of OpenSSL is a conjunction of two licenses, one of them being
-# | the license of SSLeay.  You must follow both.  The combination results in
-# | a copyleft free software license that is incompatible with the GNU GPL. 
-# | It also has an advertising clause like the [-original-] {+<a
-# | href=\"#OriginalBSD\">original+} BSD [-license-] {+license</a>+} and the
-# | [-Apache license.-] {+<a href=\"#apache1\">Apache&nbsp;1 license</a>.+}
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The license of OpenSSL is a conjunction of two licenses, one of them being "
@@ -2958,10 +2908,6 @@ msgstr ""
 "<a href=\"#Zope20\">La version&nbsp;2 de la licence publique Zope</a> est "
 "compatible avec la GPL."
 
-# | <a id=\"NonFreeSoftwareLicense\"></a> <a id=\"NonFreeSoftwareLicenses\">
-# | [-Non-Free-] {+Nonfree+} Software Licenses</a> <span
-# | class=\"anchor-reference-id\"> (<a
-# | href=\"#NonFreeSoftwareLicenses\">#NonFreeSoftwareLicenses</a>)</span>
 #. type: Content of: <h3>
 msgid ""
 "<a id=\"NonFreeSoftwareLicense\"></a> <a id=\"NonFreeSoftwareLicenses\"> "
@@ -2972,10 +2918,6 @@ msgstr ""
 "Licences de logiciels non libres</a> <span class=\"anchor-reference-id\"> "
 "(<a href=\"#NonFreeSoftwareLicenses\">#NonFreeSoftwareLicenses</a>)</span>"
 
-# | <strong>The following licenses <em>do not qualify</em> as <a
-# | href=\"/philosophy/free-sw.html\">free software</a> licenses.  A
-# | non[---]free license is automatically incompatible with the <a
-# | href=\"#GNUGPL\">GNU GPL</a>.</strong>
 #. type: Content of: <p>
 msgid ""
 "<strong>The following licenses <em>do not qualify</em> as <a href=\"/"
@@ -2987,8 +2929,6 @@ msgstr ""
 "libres</a>. Ces licences sont donc par essence incompatibles avec la <a href="
 "\"#GNUGPL\">GNU GPL</a>.</strong>"
 
-# | Of course, we urge you to avoid using non[---]free software licenses, and
-# | to avoid non[---]free software in general.
 #. type: Content of: <p>
 msgid ""
 "Of course, we urge you to avoid using nonfree software licenses, and to "
@@ -2998,10 +2938,6 @@ msgstr ""
 "logiciels non libres et aussi, plus généralement, l'usage de logiciels non "
 "libres."
 
-# | There is no way we could list all the known non[---]free software licenses
-# | here; after all, every proprietary software company has its own.  We focus
-# | here on licenses that are often mistaken for free software licenses but
-# | are, in fact, <strong>not</strong> free software licenses.
 #. type: Content of: <p>
 msgid ""
 "There is no way we could list all the known nonfree software licenses here; "
@@ -3015,13 +2951,6 @@ msgstr ""
 "avec des licences libres alors qu'en réalité elles n'en sont <strong>pas</"
 "strong>."
 
-# | We have provided links to these licenses when we can do so without
-# | violating our general policy: that we do not make links to sites that
-# | promote, encourage or facilitate the use of non[---]free software
-# | packages.  The last thing we want to do is give any non[---]free program
-# | some gratis publicity that might encourage more people to use it.  For the
-# | same reason, we have avoided naming the programs for which a license is
-# | used, unless we think that for specific reasons it won't backfire.
 #. type: Content of: <p>
 msgid ""
 "We have provided links to these licenses when we can do so without violating "
@@ -3072,12 +3001,6 @@ msgstr ""
 "version&nbsp;1.x</a> [EN] <span class=\"anchor-reference-id\">(<a href="
 "\"#apsl1\">#apsl1</a>)</span>"
 
-# | Versions 1.0, 1.1 and 1.2 are <a
-# | href=\"/philosophy/historical-apsl.html\">not free software [-licenses
-# | (follow the link for more explanation)</a>.-] {+licenses</a>.+}  Please
-# | don't use these licenses, and we urge you to avoid any software that has
-# | been released under them.  <a href=\"#apsl2\">Version 2.0 of the APSL</a>
-# | is a free software license.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Versions 1.0, 1.1 and 1.2 are <a href=\"/philosophy/historical-apsl.html"
@@ -3119,8 +3042,6 @@ msgstr ""
 "<a id=\"ATTPublicLicense\">AT&amp;T Public License</a><span class=\"anchor-"
 "reference-id\"> (<a href=\"#ATTPublicLicense\">#ATTPublicLicense</a>)</span>"
 
-# | The AT&amp;T Public License is a non[---]free license.  It has several
-# | serious problems:
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The AT&amp;T Public License is a nonfree license.  It has several serious "
@@ -3189,11 +3110,6 @@ msgstr ""
 "un droit très large de licence à rebours en faveur d'AT&amp;T, qui va bien "
 "au-delà de l'usage de votre code, et même de votre code modifié&nbsp;;"
 
-# | It asserts one needs a license from AT&amp;T to make a link to their web
-# | site.  This is not an immediate practical problem, since the license says
-# | it gives permission to make such a link.  (Anyway, people shouldn't make
-# | links to sites about non[---]free software.)  But such a claim should not
-# | be made or propagated.
 #. type: Content of: <dl><dd><ol><li>
 msgid ""
 "It asserts one needs a license from AT&amp;T to make a link to their web "
@@ -3253,8 +3169,6 @@ msgstr ""
 "De plus, certains autres termes de la licence pourraient révéler d'autres "
 "problèmes, nous ne sommes pas sûrs de leur sens."
 
-# | Today <a href=\"#eCos20\">eCos is available</a> under the GNU GPL with
-# | additional permission for linking with non[---]free programs.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Today <a href=\"#eCos20\">eCos is available</a> under the GNU GPL with "
@@ -3275,9 +3189,6 @@ msgstr ""
 "l'administration publique</a> [EN] <span class=\"anchor-reference-id\"> (<a "
 "href=\"#GPL-PA\">#GPL-PA</a>)</span>"
 
-# | The GPL-PA (whose original name in Portuguese is &ldquo;Licen&ccedil;a
-# | P&uacute;blica Geral para Administra&ccedil;&atilde;o
-# | P&uacute;blica&rdquo;) is non[---]free for several reasons:
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The GPL-PA (whose original name in Portuguese is &ldquo;Licen&ccedil;a "
@@ -3403,8 +3314,6 @@ msgstr ""
 "copyright\"> Licence de Lha</a> [EN] <span class=\"anchor-reference-id\">(<a "
 "href=\"#Lha\">#Lha</a>)</span>"
 
-# | The lha license must be considered non[---]free because it is so vague
-# | that you cannot be sure what permissions you have.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The lha license must be considered nonfree because it is so vague that you "
@@ -3572,11 +3481,6 @@ msgstr ""
 "Reciprocal Public License</a> [EN] <span class=\"anchor-reference-id\">(<a "
 "href=\"#RPL\">#RPL</a>)</span>"
 
-# | The Reciprocal Public License is a non[---]free license because of three
-# | problems.  1.&nbsp;It puts limits on prices charged for an initial copy. 
-# | 2.&nbsp;It requires notification of the original developer for publication
-# | of a modified version.  3.&nbsp;It requires publication of any modified
-# | version that an organization uses, even privately.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The Reciprocal Public License is a nonfree license because of three "
@@ -3621,8 +3525,6 @@ msgstr ""
 "Simple Machines License</a> [EN] <span class=\"anchor-reference-id\">(<a "
 "href=\"#SML\">#SML</a>)</span>"
 
-# | Despite the name, this is a software license, and it's non[---]free for
-# | several reasons:
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Despite the name, this is a software license, and it's nonfree for several "
@@ -3753,11 +3655,6 @@ msgstr ""
 "couvert par la licence, et la définition de «déployer» inclut toutes sortes "
 "d'usages privés. "
 
-# | <a id=\"SystemC-3.0\"
-# | href=\"http://www.systemc.org/about/org_docs/license/\"> SystemC
-# | [-&quot;Open Source&quot;-] {+&ldquo;Open Source&rdquo;+} License, Version
-# | 3.0</a> <span class=\"anchor-reference-id\"> (<a
-# | href=\"#SystemC-3.0\">#SystemC-3.0</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"SystemC-3.0\" href=\"http://www.systemc.org/about/org_docs/license/"
@@ -3768,12 +3665,6 @@ msgstr ""
 "\"> SystemC « Open Source » License, version&nbsp;3.0</a> [EN] <span class="
 "\"anchor-reference-id\"> (<a href=\"#SystemC-3.0\">#SystemC-3.0</a>)</span>"
 
-# | This license requires all recipients to proactively help the licensor
-# | enforce its trademarks.  This is an unreasonable condition to place on
-# | users' rights, so the license is non[---]free.  It also has other
-# | practical problems: some of the requirements are vague, and it uses the
-# | term <a href=\"/philosophy/not-ipr.[-x-]html\">&ldquo;intellectual
-# | property&rdquo;</a>.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license requires all recipients to proactively help the licensor "
@@ -3809,12 +3700,6 @@ msgstr ""
 "\"anchor-reference-id\"> (<a href=\"#UtahPublicLicense\">#UtahPublicLicense</"
 "a>)</span>"
 
-# | The University of Utah Public License is a non[---]free license because it
-# | does not allow commercial redistribution.  It also purports to restrict
-# | commercially running the software and even commercially giving
-# | consultation about it.  Those restrictions are probably not legally
-# | enforceable under US copyright law, but they might be in some countries;
-# | even asserting them is outrageous.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "The University of Utah Public License is a nonfree license because it does "
@@ -3869,10 +3754,6 @@ msgstr ""
 "<a id=\"YaST\"> Licence YaST</a> <span class=\"anchor-reference-id\">(<a "
 "href=\"#YaST\">#YaST</a>)</span>"
 
-# | This is not a free software license.  The license prohibits distribution
-# | for a fee, and that makes it impossible for the software to be included in
-# | the many CD-ROM free software collections that are sold by companies and
-# | by [-organizations such as the FSF.-] {+organizations.+}
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is not a free software license.  The license prohibits distribution for "
@@ -3893,8 +3774,6 @@ msgstr ""
 "Le paragraphe 2a pose peut-être encore un autre problème mais il y manque un "
 "mot apparemment, du coup nous ne savons pas bien quel est le sens visé."
 
-# | (The YaST software itself no longer uses this non[---]free YaST license;
-# | happily, it is now free software, released under the GNU GPL.)
 #. type: Content of: <dl><dd><p>
 msgid ""
 "(The YaST software itself no longer uses this nonfree YaST license; happily, "
@@ -3961,11 +3840,6 @@ msgstr ""
 "version&nbsp;1.0</a> [EN] <span class=\"anchor-reference-id\">(<a href="
 "\"#ACDL\">#ACDL</a>)</span>"
 
-# | This is a [-Free Documentation-] {+free documentation+} license that is
-# | incompatible with the GNU FDL.  It is incompatible because
-# | Section&nbsp;(2c) says &ldquo;You add no other terms or conditions to
-# | those of this License&rdquo;, and the GNU FDL has additional terms not
-# | accounted for in the Common Documentation License.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free documentation license that is incompatible with the GNU FDL.  "
@@ -4009,12 +3883,6 @@ msgstr ""
 "class=\"anchor-reference-id\"> (<a href=\"#OpenPublicationL"
 "\">#OpenPublicationL</a>)</span>"
 
-# | This license <strong>can</strong> be used as a free documentation license.
-# |  It is a copyleft free documentation license <strong>provided</strong> the
-# | copyright holder does not exercise any of the &ldquo;LICENSE
-# | OPTIONS&rdquo; listed in Section VI of the license.  But if either of the
-# | options is invoked, the license becomes non[---]free.  In any case, it is
-# | incompatible with the GNU FDL.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license <strong>can</strong> be used as a free documentation license.  "
@@ -4032,12 +3900,6 @@ msgstr ""
 "devient non libre. En tout état de cause, elle est incompatible avec la GNU "
 "FDL."
 
-# | This creates a practical pitfall in using or recommending this license: if
-# | you recommend &ldquo;Use the Open Publication License, Version 1.0 but
-# | don't enable the options&rdquo;, it would be easy for the second half of
-# | that recommendation to get forgotten; someone might use the license with
-# | the options, making a manual non[---]free, and yet think he or she is
-# | following your advice.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This creates a practical pitfall in using or recommending this license: if "
@@ -4054,10 +3916,6 @@ msgstr ""
 "interlocuteur va utiliser la licence avec ses options, publiera un manuel "
 "non libre, et pensera qu'il ou elle a suivi votre conseil."
 
-# | Likewise, if you use this license without either of the options to make
-# | your manual free, someone else might decide to imitate you, then change
-# | his or her mind about the options thinking that that is just a detail; the
-# | result would be that his or her manual is non[---]free.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Likewise, if you use this license without either of the options to make your "
@@ -4099,10 +3957,6 @@ msgstr ""
 "que l'abréviation pour être sûr que les gens comprennent bien ce que vous "
 "dites."
 
-# | <a id=\"NonFreeDocumentationLicenses\"> [-Non-Free-] {+Nonfree+}
-# | Documentation Licenses</a> <span class=\"anchor-reference-id\"> (<a
-# | href=\"#NonFreeDocumentationLicenses\">#NonFreeDocumentationLicenses</a>) 
-# | </span>
 #. type: Content of: <h3>
 msgid ""
 "<a id=\"NonFreeDocumentationLicenses\"> Nonfree Documentation Licenses</a> "

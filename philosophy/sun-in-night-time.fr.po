@@ -77,11 +77,6 @@ msgstr ""
 "similaires mais légèrement plus permissifs du logiciel open source. Son code "
 "est uniquement disponible avec accord de non-divulgation."
 
-# | So what did Sun actually do? It allowed more convenient redistribution of
-# | the binaries of its Java platform.  With this change, GNU/Linux distros
-# | can include the non[---]free Sun Java platform, just as some now include
-# | the non[---]free nVidia driver.  But they do so only at the cost of being
-# | non[---]free.
 #. type: Content of: <p>
 msgid ""
 "So what did Sun actually do? It allowed more convenient redistribution of "
@@ -95,13 +90,6 @@ msgstr ""
 "tout comme certaines fournissent actuellement le pilote non libre de nVidia. "
 "Mais elles ne le font qu'au prix d'être non libres."
 
-# | The Sun license has one restriction that may ironically reduce the
-# | tendency for users to accept non[---]free software without thinking twice:
-# | it insists that the operating system distributor get the user's explicit
-# | agreement to the license before letting the user install the code. This
-# | means the system cannot silently install Sun's Java platform without
-# | warning users they have non[---]free software, as some GNU/Linux systems
-# | silently install the nVidia driver.
 #. type: Content of: <p>
 msgid ""
 "The Sun license has one restriction that may ironically reduce the tendency "
