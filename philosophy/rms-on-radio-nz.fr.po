@@ -2,12 +2,13 @@
 # Copyright (C) 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnu.org page.
 # Céline Libéral, Lamessen et Mathieu Adoutte pour FramaLang <adoutte AT gmail.com>, 2012.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: rms-on-radio-nz.html\n"
 "POT-Creation-Date: 2011-09-20 12:30-0300\n"
-"PO-Revision-Date: 2012-05-04 22:35+0200\n"
+"PO-Revision-Date: 2012-05-05 08:49+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -26,11 +27,11 @@ msgstr "RMS sur Radio NZ - octobre 2009"
 
 #. type: Content of: <p>
 msgid "Saturday 3 October 2009 / approx. 9.05 am NZST"
-msgstr "Samedi 3 octobre 2009 / environ 9h05 (heure de Nouvelle Zélande)"
+msgstr "Samedi 3 octobre 2009 / environ 9h05 (heure de Nouvelle-Zélande)"
 
 #. type: Content of: <p>
 msgid "Radio New Zealand National / Saturdays with Kim Hill"
-msgstr "Radio New Zealand National / Les samedis de Kim Hill"
+msgstr "<cite>Radio New Zealand National</cite> / Les samedis de Kim Hill"
 
 #. type: Content of: <p>
 msgid "Interview between Kim Hill (presenter) and Richard M Stallman"
@@ -42,7 +43,7 @@ msgid ""
 "co.nz&gt;</a> with permission from Radio New Zealand."
 msgstr ""
 "Transcription de Jim Cheetham <a href=\"mailto:jim@inode.co.nz\">&lt;"
-"jim@inode.co.nz&gt;</a> avec l'autorisation de Radio New Zealand"
+"jim@inode.co.nz&gt;</a> avec l'autorisation de <cite>Radio New Zealand</cite>"
 
 #. type: Content of: <h3>
 msgid "Interesting sections"
@@ -50,103 +51,99 @@ msgstr "Parties intéressantes"
 
 #. type: Content of: <ul><li>
 msgid "[00:00] Introduction"
-msgstr "<a href=\"#a\" id=\"a-rev\">[00:00]</a> Introduction"
+msgstr "<a href=\"#t0000\" id=\"t0000-rev\">[00:00]</a> Introduction"
 
 #. type: Content of: <ul><li>
 msgid "[00:40] Surveillance"
-msgstr "<a href=\"#b\" id=\"b-rev\">[00:40]</a> Surveillance"
+msgstr "<a href=\"#t0040\">[00:40]</a> Surveillance"
 
 #. type: Content of: <ul><li>
 msgid "[00:19] Terrorism and 9/11"
-msgstr "<a href=\"#c\" id=\"c-rev\">[00:19]</a> Terrorisme et 11 septembre"
+msgstr "<a href=\"#t0119\">[01:19]</a> Terrorisme et 11 septembre"
 
 #. type: Content of: <ul><li>
 msgid "[04:30] Barack Obama"
-msgstr "<a href=\"#d\" id=\"d-rev\">[04:30]</a> Barack Obama"
+msgstr "<a href=\"#t0430\">[04:30]</a> Barack Obama"
 
 #. type: Content of: <ul><li>
 msgid "[06:23] Airline Security"
-msgstr "<a href=\"#e\" id=\"e-rev\">[06:23]</a> Sécurité aérienne"
+msgstr "<a href=\"#t0623\">[06:23]</a> Sécurité aérienne"
 
 #. type: Content of: <ul><li>
 msgid "[08:02] Digital Surveillance"
-msgstr "<a href=\"#f\" id=\"f-rev\">[08:02]</a> Surveillance numérique"
+msgstr "<a href=\"#t0802\">[08:02]</a> Surveillance numérique"
 
 #. type: Content of: <ul><li>
 msgid "[10:26] Systematic Surveillance"
-msgstr "<a href=\"#g\" id=\"g-rev\">[10:26]</a> Surveillance systématique"
+msgstr "<a href=\"#t1026\">[10:26]</a> Surveillance systématique"
 
 #. type: Content of: <ul><li>
 msgid "[12:20] Taxi surveillance"
-msgstr "<a href=\"#h\" id=\"h-rev\">[12:20]</a> Surveillance dans les taxis"
+msgstr "<a href=\"#t1220\">[12:20]</a> Surveillance dans les taxis"
 
 #. type: Content of: <ul><li>
 msgid "[14:25] Matters of Principle &mdash; cellphones"
 msgstr ""
-"<a href=\"#i\" id=\"i-rev\">[14:25]</a> Question de principe &ndash; les "
-"téléphones portables"
+"<a href=\"#t1425\">[14:25]</a> Question de principe &ndash; les téléphones "
+"portables"
 
 #. type: Content of: <ul><li>
 msgid "[15:33] Free Software and Freedom"
-msgstr "<a href=\"#j\" id=\"j-rev\">[15:33]</a> Logiciel libre et liberté"
+msgstr "<a href=\"#t1533\">[15:33]</a> Logiciel libre et liberté"
 
 #. type: Content of: <ul><li>
 msgid "[17:24] Free Trade treaties"
-msgstr "<a href=\"#k\" id=\"k-rev\">[17:24]</a> Traités de libre échange"
+msgstr "<a href=\"#t1724\">[17:24]</a> Traités de libre échange"
 
 #. type: Content of: <ul><li>
 msgid "[20:08] Cars, microwaves and planes"
-msgstr ""
-"<a href=\"#l\" id=\"l-rev\">[20:08]</a> Voitures, micro-ondes et avions"
+msgstr "<a href=\"#t2008\">[20:08]</a> Voitures, micro-ondes et avions"
 
 #. type: Content of: <ul><li>
 msgid "[21:05] Copying books"
-msgstr "<a href=\"#m\" id=\"m-rev\">[21:05]</a> Copier les livres"
+msgstr "<a href=\"#t2105\">[21:05]</a> Copier les livres"
 
 #. type: Content of: <ul><li>
 msgid "[25:31] E-books &amp; supporting artists"
 msgstr ""
-"<a href=\"#n\" id=\"n-rev\">[25:31]</a> Livres électroniques et soutien des "
-"artistes"
+"<a href=\"#t2531\">[25:31]</a> Livres électroniques et soutien des artistes"
 
 #. type: Content of: <ul><li>
 msgid "[28:42] Micropayments"
-msgstr "<a href=\"#o\" id=\"o-rev\">[28:42]</a> Micropaiements"
+msgstr "<a href=\"#t2842\">[28:42]</a> Micropaiements"
 
 #. type: Content of: <ul><li>
 msgid "[30:47] A simplistic political philosophy?"
-msgstr ""
-"<a href=\"#p\" id=\"p-rev\">[30:47]</a> Une philosophie politique simpliste ?"
+msgstr "<a href=\"#t3047\">[30:47]</a> Une philosophie politique simpliste ?"
 
 #. type: Content of: <ul><li>
 msgid "[32:51] Income"
-msgstr "<a href=\"#q\" id=\"q-rev\">[32:51]</a> Revenus"
+msgstr "<a href=\"#t3251\">[32:51]</a> Revenus"
 
 #. type: Content of: <ul><li>
 msgid "[33:48] Digital handcuffs &mdash; Amazon Kindle"
 msgstr ""
-"<a href=\"#r\" id=\"r-rev\">[33:48]</a> Menottes numériques &ndash; le "
-"Kindle d'Amazon"
+"<a href=\"#t3348\">[33:48]</a> Menottes numériques &ndash; le Kindle d'Amazon"
 
 #. type: Content of: <ul><li>
 msgid "[36:13] Buying books"
-msgstr "<a href=\"#s\" id=\"s-rev\">[36:13]</a> Acheter des livres"
+msgstr "<a href=\"#t3613\">[36:13]</a> Acheter des livres"
 
 #. type: Content of: <ul><li>
 msgid "[37:16] Social networking"
-msgstr "<a href=\"#t\" id=\"t-rev\">[37:16]</a> Réseaux sociaux"
+msgstr "<a href=\"#t3716\">[37:16]</a> Réseaux sociaux"
 
 #. type: Content of: <ul><li>
 msgid ""
 "[38:08] The <acronym title=\"Anti-Counterfeiting Trade Agreement\">ACTA</"
 "acronym>"
 msgstr ""
-"<a href=\"#u\" id=\"u-rev\">[38:08]</a> <acronym title=\"Anti-Counterfeiting "
-"Trade Agreement\">ACTA</acronym>"
+"<a href=\"#t3808\">[38:08]</a> <acronym title=\"Anti-Counterfeiting Trade "
+"Agreement\">ACTA</acronym>"
 
 #. type: Content of: <dl><dt>
 msgid "[00:00]"
-msgstr "<a id=\"a\" href=\"#a-rev\">[00:00]</a>"
+msgstr "<a id=\"t0000\" href=\"#t0000-rev\">[00:00]</a>"
 
 #. type: Content of: <dl><dt>
 msgid "KH"
@@ -173,12 +170,12 @@ msgstr ""
 "été le premier système d'exploitation libre capable de faire fonctionner un "
 "PC. Richard Stallman explique que « c'est une question de liberté », une "
 "cause qui dépasse le logiciel ; et nous pourrions parler des autres causes "
-"qu'il a identifiées, la surveillance et la censure, parce qu'il nous vient "
-"de nous rejoindre. Bonjour !"
+"qu'il a identifiées, la surveillance et la censure, parce qu'il vient de "
+"nous rejoindre. Bonjour !"
 
 #. type: Content of: <dl><dt>
 msgid "[00:40]"
-msgstr "<a id=\"b\" href=\"#b-rev\">[00:40]</a>"
+msgstr "<a id=\"t0040\" href=\"#t0000-rev\">[00:40]</a>"
 
 #. type: Content of: <dl><dt>
 msgid "RMS"
@@ -196,15 +193,15 @@ msgid ""
 msgstr ""
 "Parlons un peu de surveillance et de censure. J'ai été regarder sur votre "
 "site personnel et vous semblez particulièrement remonté contre le relevé des "
-"empreintes digitales pour les passagers aériens."
+"empreintes digitales des passagers aériens."
 
 #. type: Content of: <dl><dd>
 msgid ""
 "Yes, I urge people to refuse to go to the US where they would be mistreated "
 "that way."
 msgstr ""
-"Oui, j'invite les gens à refuser de se rendre aux Etats-Unis, qui infligent "
-"ce genre de mauvais traitement."
+"Oui, j'invite les gens à refuser de se rendre aux Etats-Unis, où ils "
+"s'exposeraient à ce genre de mauvais traitement."
 
 #. type: Content of: <dl><dd>
 msgid "Why is that mistreatment, do you think?"
@@ -224,7 +221,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[01:19]"
-msgstr "<a id=\"c\" href=\"#c-rev\">[01:19]</a>"
+msgstr "<a id=\"t0119\" href=\"#t0000-rev\">[01:19]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -246,7 +243,7 @@ msgstr ""
 "cache derrière les attaques du 11 septembre aux États-Unis. Nous ne savons "
 "pas s'il s'agissait d'une bande de musulmans fanatiques, ou d'une bande de "
 "chrétiens fanatiques et de la Maison-Blanche. Nous savons juste que Bush a "
-"falsifié et saboté l'enquête, quand il n'a pu empêcher l'évènement."
+"falsifié et saboté l'enquête, quand il n'a pu empêcher ça."
 
 #. type: Content of: <dl><dd>
 msgid "So, are you an advocate of the conspiracy theories surrounding 9/11?"
@@ -258,9 +255,9 @@ msgid ""
 "I can't say &hellip; first of all I think it's unfair &mdash; we know that "
 "the attack was a conspiracy.  All the theories are conspiracies."
 msgstr ""
-"Je ne peux pas dire&hellip; Avant tout, je pense que la question n'est pas "
-"bien posée. Nous savons que l'attaque était une conspiration. Toutes les "
-"théories sont des théories du complot."
+"Je ne peux pas dire&hellip; D'abord, je pense que la question est de parti-"
+"pris. Nous savons que l'attaque était une conspiration. Toutes les théories "
+"sont des théories du complot."
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -342,7 +339,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[04:30]"
-msgstr "<a id=\"d\" href=\"#d-rev\">[04:30]</a>"
+msgstr "<a id=\"t0430\" href=\"#t0000-rev\">[04:30]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -442,7 +439,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[06:23]"
-msgstr "<a id=\"e\" href=\"#e-rev\">[06:23]</a>"
+msgstr "<a id=\"t0623\" href=\"#t0000-rev\">[06:23]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -468,7 +465,7 @@ msgid ""
 "they spend money reinforcing the cabin doors because hijackers are a minor "
 "issue&rdquo;."
 msgstr ""
-"Vraiment ? J'aurai pensé que vous diriez : « Pourquoi dépenser de l'argent "
+"Vraiment ? J'aurais pensé que vous diriez : « Pourquoi dépenser de l'argent "
 "pour renforcer les portes de la cabine alors que les pirates de l'air sont "
 "un problème mineur ? »"
 
@@ -479,8 +476,8 @@ msgstr "Je n'ai rien contre le fait de dépenser un peu d'argent."
 #. type: Content of: <dl><dd>
 msgid "You're saying that that issue isn't an infringement of human rights."
 msgstr ""
-"Ce que vous dites, c'est que cette question ne constitue pas une atteinte "
-"aux droits de l'homme."
+"Ce que vous dites, c'est que cette mesure ne constitue pas une atteinte aux "
+"droits de l'homme."
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -515,7 +512,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[08:02]"
-msgstr "<a id=\"f\" href=\"#f-rev\">[08:02]</a>"
+msgstr "<a id=\"t0802\" href=\"#t0000-rev\">[08:02]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -523,7 +520,7 @@ msgid ""
 "that it might be quite a handy thing, CCTV &hellip;"
 msgstr ""
 "Si vous n'êtes pas d'accord avec la surveillance, y a-t-il la moindre chance "
-"que vous trouviez une utilité à la vidéo-surveillance ?"
+"que vous trouviez une utilité à la vidéosurveillance ?"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -617,7 +614,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[10:26]"
-msgstr "<a id=\"g\" href=\"#g-rev\">[10:26]</a>"
+msgstr "<a id=\"t1026\" href=\"#t0000-rev\">[10:26]</a>"
 
 #. type: Content of: <dl><dd>
 msgid "What makes systematic surveillance more sinister to you?"
@@ -682,7 +679,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[12:20]"
-msgstr "<a id=\"h\" href=\"#h-rev\">[12:20]</a>"
+msgstr "<a id=\"t1220\" href=\"#t0000-rev\">[12:20]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -748,13 +745,13 @@ msgstr ""
 "police, qui peut les regarder quand elle veut. Ce que je fais contre ça, "
 "entre autres, c'est de ne rien acheter avec une carte de crédit, sauf si "
 "c'est une chose pour laquelle on exige de toute façon de savoir qui je suis. "
-"Je n'utilise pas de carte de crédit, ni d'autre moyen de paiement numérique, "
+"Je n'utilise pas de carte de crédit ni d'autre moyen de paiement numérique, "
 "j'utilise du liquide. De cette façon, Big Brother ne peut pas faire de base "
 "de donnée de tous les endroits où j'ai été, ou de tout ce que j'ai acheté."
 
 #. type: Content of: <dl><dt>
 msgid "[14:25]"
-msgstr "<a id=\"i\" href=\"#i-rev\">[14:25]</a>"
+msgstr "<a id=\"t1425\" href=\"#t0000-rev\">[14:25]</a>"
 
 #. type: Content of: <dl><dd>
 msgid "As a matter of principle, rather than &hellip;"
@@ -766,7 +763,7 @@ msgstr "C'est une question de principe. Ce n'est pas parce que c'est pratique."
 
 #. type: Content of: <dl><dd>
 msgid "You don't do quite a lot of things actually."
-msgstr "Il y a un tas de choses que vous ne faites pas, en fait."
+msgstr "Il y a un tas de choses que vous ne faites pas, en réalité."
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -809,18 +806,18 @@ msgid ""
 "call me, but I'm not going to do it that way."
 msgstr ""
 "En fait il y en a un, mais qui n'est plus fabriqué, il ne marchait pas très "
-"bien, c'est le Mark One. Donc c'est une deuxième question, qui ne se posait "
-"pas lorsque les portables sont apparus : on n'y installait pas de "
-"programmes, il s'agissait juste d'appareils statiques. Mais ils ont toujours "
-"eu le défaut de dire en permanence où vous vous trouvez. Je ne veux pas "
-"participer à ce genre de système, et je pense que les gens ne devraient pas "
-"le faire. J'aimerais bien avoir un portable, je ne fais pas partie de ces "
-"gens qui disent « je n'aime pas que les gens puissent m'appeler ». J'aime "
-"bien que les gens m'appellent, mais pas à ce prix."
+"bien, c'est le Mark One. Donc c'est une autre question, qui ne se posait pas "
+"lorsque les portables sont apparus : on n'y installait pas de programmes, il "
+"s'agissait juste d'appareils statiques. Mais ils ont toujours eu le défaut "
+"de dire en permanence où vous vous trouvez. Je ne veux pas participer à ce "
+"genre de système, et je pense que les gens ne devraient pas le faire. "
+"J'aimerais bien avoir un portable, je ne fais pas partie de ces gens qui "
+"disent « je n'aime pas que les gens puissent m'appeler ». J'aime bien que "
+"les gens m'appellent, mais pas à ce prix."
 
 #. type: Content of: <dl><dt>
 msgid "[15:33]"
-msgstr "<a id=\"j\" href=\"#j-rev\">[15:33]</a>"
+msgstr "<a id=\"t1533\" href=\"#t0000-rev\">[15:33]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -896,7 +893,7 @@ msgstr "À quoi faites-vous référence ?"
 
 #. type: Content of: <dl><dt>
 msgid "[17:24]"
-msgstr "<a id=\"k\" href=\"#k-rev\">[17:24]</a>"
+msgstr "<a id=\"t1724\" href=\"#t0000-rev\">[17:24]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -984,7 +981,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[20:08]"
-msgstr "<a id=\"l\" href=\"#l-rev\">[20:08]</a>"
+msgstr "<a id=\"t2008\" href=\"#t0000-rev\">[20:08]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1053,7 +1050,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[21:05]"
-msgstr "<a id=\"m\" href=\"#m-rev\">[21:05]</a>"
+msgstr "<a id=\"t2105\" href=\"#t0000-rev\">[21:05]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1264,7 +1261,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[25:31]"
-msgstr "<a id=\"n\" href=\"#n-rev\">[25:31]</a>"
+msgstr "<a id=\"t2531\" href=\"#t0000-rev\">[25:31]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1302,12 +1299,12 @@ msgstr ""
 "liberté de partage. Mais j'ai d'autres propositions pour soutenir les "
 "artistes. N'oubliez pas que le système actuel soutient essentiellement les "
 "grandes entreprises, et donc ne fonctionne pas bien de ce point de vue. "
-"Quelques auteurs deviennent très riche ; ceux-là ont toute l'attention des "
-"majors, pendant que les autres sont traités comme des moins que rien. J'ai "
-"deux propositions (et une troisième qui est une combinaison des deux "
-"autres). La première est de soutenir les artistes avec l'argent public, soit "
-"en puisant dans le budget général, soit en créant une taxe spécifique sur "
-"les connexions à Internet. Comparé à d'autres postes du budget, cela ne "
+"Quelques auteurs deviennent très riches ; à ceux-là, les majors montrent "
+"beaucoup d'égards tandis qu'ils traitent les autres comme des moins que "
+"rien. J'ai deux propositions (et une troisième qui est une combinaison des "
+"deux autres). La première est de soutenir les artistes avec l'argent public, "
+"soit en puisant dans le budget général, soit en créant une taxe spécifique "
+"sur la connexion à Internet. Comparé à d'autres postes du budget, cela ne "
 "représenterait pas une somme astronomique, et cette somme serait répartie "
 "entre les artistes en fonction de leur popularité. Cette répartition ne "
 "serait pas forcément linéaire, sinon cela ne servirait qu'à rendre les "
@@ -1360,7 +1357,7 @@ msgstr ""
 "décider de l'attribution de ces fonds. Donc il y a une possibilité qui "
 "consiste à se baser sur des sondages. Après tout, le système actuel repose "
 "bien sur la popularité, dans une certaine mesure. On prend la racine "
-"cubique, donc si A est mille fois plus populaire que B, il obtient dix fois "
+"cubique, donc si A est mille fois plus populaire que B, il reçoit dix fois "
 "plus d'argent. C'est la même logique qu'un impôt progressif sur le revenu. "
 "De cette façon, oui, si vous avez énormément de succès vous allez gagner "
 "plus, mais pas énormément plus, ainsi la majeure partie des fonds servira à "
@@ -1384,7 +1381,7 @@ msgstr "Oui, ou d'une taxe spéciale. Les deux sont possibles."
 
 #. type: Content of: <dl><dt>
 msgid "[28:42]"
-msgstr "<a id=\"o\" href=\"#o-rev\">[28:42]</a>"
+msgstr "<a id=\"t2842\" href=\"#t0000-rev\">[28:42]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1478,7 +1475,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[30:47]"
-msgstr "<a id=\"p\" href=\"#p-rev\">[30:47]</a>"
+msgstr "<a id=\"t3047\" href=\"#t0000-rev\">[30:47]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1553,7 +1550,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[32:51]"
-msgstr "<a id=\"q\" href=\"#q-rev\">[32:51]</a>"
+msgstr "<a id=\"t3251\" href=\"#t0000-rev\">[32:51]</a>"
 
 #. type: Content of: <dl><dd>
 msgid "How do you make your income, if you don't mind me asking?"
@@ -1596,12 +1593,12 @@ msgstr ""
 "temps j'accepte de faire une intervention dans un congrès dont l'inscription "
 "est payante, mais je demande souvent qu'on laisse les gens assister à mon "
 "intervention. En règle générale, j'essaie de faire que l'entrée soit "
-"gratuite car je veux qu'un maximum de personnes puisse venir, car après tout "
-"je défend une cause, et j'essaie de le faire au mieux."
+"gratuite car je veux qu'un maximum de personnes puisse venir, parce qu'après "
+"tout je défend une cause, et j'essaie de le faire au mieux."
 
 #. type: Content of: <dl><dt>
 msgid "[33:48]"
-msgstr "<a id=\"r\" href=\"#r-rev\">[33:48]</a>"
+msgstr "<a id=\"t3348\" href=\"#t0000-rev\">[33:48]</a>"
 
 #. type: Content of: <dl><dd>
 msgid "Do you think that you're winning?"
@@ -1689,7 +1686,7 @@ msgstr "Où achetez-vous vos livres ?"
 
 #. type: Content of: <dl><dt>
 msgid "[36:13]"
-msgstr "<a id=\"s\" href=\"#s-rev\">[36:13]</a>"
+msgstr "<a id=\"t3613\" href=\"#t0000-rev\">[36:13]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1759,7 +1756,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[37:16]"
-msgstr "<a id=\"t\" href=\"#t-rev\">[37:16]</a>"
+msgstr "<a id=\"t3716\" href=\"#t0000-rev\">[37:16]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -1799,7 +1796,7 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid "[38:08]"
-msgstr "<a id=\"u\" href=\"#u-rev\">[38:08]</a>"
+msgstr "<a id=\"t3808\" href=\"#t0000-rev\">[38:08]</a>"
 
 #. type: Content of: <dl><dd>
 msgid ""
