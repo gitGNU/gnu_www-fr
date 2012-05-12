@@ -8,14 +8,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
-"POT-Creation-Date: 2012-05-11 13:56+0300\n"
-"PO-Revision-Date: 2012-05-11 11:01+0200\n"
+"POT-Creation-Date: 2012-05-10 04:25-0300\n"
+"PO-Revision-Date: 2012-05-12 19:51+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-05-10 04:25-0300\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -1556,11 +1557,15 @@ msgstr ""
 # | {+href=\"/graphics/freedom.html\">freedom.html+} - [-The Spirit of
 # | Freedom</a>-] {+What Freedom Means</a>+}
 #. type: Content of: <div><div><ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"/graphics/spiritoffreedom.html\">spiritoffreedom.html - The "
+#| "Spirit of Freedom</a>"
 msgid ""
 "<a href=\"/graphics/freedom.html\">freedom.html - What Freedom Means</a>"
 msgstr ""
-"<a href=\"/graphics/freedom.html\">freedom.html - Ce que signifie "
-"« liberté »</a>"
+"<a href=\"/graphics/spiritoffreedom.html\">spiritoffreedom.html - L'esprit "
+"de la liberté</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -2257,8 +2262,8 @@ msgid ""
 "<a href=\"/licenses/why-affero-gpl.html\">why-affero-gpl.html - Why the GNU "
 "Affero GPL</a>"
 msgstr ""
-"<a href=\"/licenses/why-affero-gpl.html\">why-affero-gpl.html - Pourquoi la "
-"GPL Affero ?</a>"
+"<a href=\"/licenses/why-affero-gpl.html\">why-affero-gpl.html - Why the GNU "
+"Affero GPL</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -2306,7 +2311,7 @@ msgid ""
 "translations.html - Unofficial GNU FDL v1.1 Translations</a>"
 msgstr ""
 "<a href=\"/licenses/old-licenses/fdl-1.1-translations.html\">fdl-1.1-"
-"translations.html - Unofficial GNU FDL v1.1 Translations</a>"
+"translations.html - Unofficial GNU FDL v1.1 Translations</a>"
 
 #. type: Content of: <div><div><div><ul><li>
 msgid ""
@@ -2314,7 +2319,7 @@ msgid ""
 "Documentation License v1.1</a>"
 msgstr ""
 "<a href=\"/licenses/old-licenses/fdl-1.1.html\">fdl-1.1.html - GNU Free "
-"Documentation License  v1.1</a>"
+"Documentation License v1.1</a>"
 
 #. type: Content of: <div><div><div><ul><li>
 msgid ""
@@ -2322,7 +2327,7 @@ msgid ""
 "standalone.html - GNU Free Documentation License v1.2</a>"
 msgstr ""
 "<a href=\"/licenses/old-licenses/fdl-1.2-standalone.html\">fdl-1.2-"
-"standalone.html - GNU Free Documentation License v1.2</a>"
+"standalone.html - GNU Free Documentation License v1.2</a>"
 
 #. type: Content of: <div><div><div><ul><li>
 msgid ""
@@ -2330,7 +2335,7 @@ msgid ""
 "translations.html - Unofficial GNU FDL v1.2 Translations</a>"
 msgstr ""
 "<a href=\"/licenses/old-licenses/fdl-1.2-translations.html\">fdl-1.2-"
-"translations.html - Unofficial GNU FDL v1.2 Translations</a>"
+"translations.html - Unofficial GNU FDL v1.2 Translations</a>"
 
 #. type: Content of: <div><div><div><ul><li>
 msgid ""
@@ -2338,7 +2343,7 @@ msgid ""
 "Documentation License v1.2</a>"
 msgstr ""
 "<a href=\"/licenses/old-licenses/fdl-1.2.html\">fdl-1.2.html - GNU Free "
-"Documentation License v1.2</a>"
+"Documentation License v1.2</a>"
 
 #. type: Content of: <div><div><div><ul><li>
 msgid ""
@@ -2623,7 +2628,7 @@ msgid ""
 "Boldrin and Levine, &ldquo;The case against intellectual property&rdquo;</a>"
 msgstr ""
 "<a href=\"/philosophy/boldrin-levine.html\">boldrin-levine.html - "
-"Critique&nbsp;: Boldrin et Levine, «&nbsp;Le procès contre la propriété "
+"Critique&nbsp;: Boldrin et Levine, «&nbsp;L'affaire contre la propriété "
 "intellectuelle&nbsp;»</a>"
 
 #. type: Content of: <div><div><ul><li>
@@ -2706,7 +2711,7 @@ msgid ""
 "mistake.html - Correcting My Mistake about French Law</a>"
 msgstr ""
 "<a href=\"/philosophy/correcting-france-mistake.html\">correcting-france-"
-"mistake.html - Erratum sur une loi française</a>"
+"mistake.html - Correcting My Mistake about French Law</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -2755,14 +2760,17 @@ msgstr ""
 # | - [-Android and Users' Freedom</a>-] {+E-books must increase our freedom,
 # | not decrease it</a>+}
 #. type: Content of: <div><div><ul><li>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"/philosophy/android-and-users-freedom.html\">android-and-users-"
+#| "freedom.html - Android and Users' Freedom</a>"
 msgid ""
 "<a href=\"/philosophy/ebooks-must-increase-freedom.html\">ebooks-must-"
 "increase-freedom.html - E-books must increase our freedom, not decrease it</"
 "a>"
 msgstr ""
-"<a href=\"/philosophy/ebooks-must-increase-freedom.html\">ebooks-must-"
-"increase-freedom.html - E-books must increase our freedom, not decrease it</"
-"a>"
+"<a href=\"/philosophy/android-and-users-freedom.html\">android-and-users-"
+"freedom.html - Android et la liberté des utilisateurs</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -2778,7 +2786,7 @@ msgid ""
 "Amicus Curiae, Eldred v. Ashcroft</a>"
 msgstr ""
 "<a href=\"/philosophy/eldred-amicus.html\">eldred-amicus.html - Mémoire "
-"d'<cite>Amicus Curiae</cite> de la FSF, Eldred v. Ashcroft</a>"
+"d'Amicus Curiae de la FSF, Eldred v. Ashcroft</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -2812,7 +2820,7 @@ msgid ""
 "patents.html - Fighting Software Patents - Singly and Together</a>"
 msgstr ""
 "<a href=\"/philosophy/fighting-software-patents.html\">fighting-software-"
-"patents.html - Combattre les brevets logiciels, individuellement et "
+"patents.html - Combattre les brevets logiciels - Individuellement et "
 "collectivement</a>"
 
 #. type: Content of: <div><div><ul><li>
@@ -2844,8 +2852,9 @@ msgid ""
 "freedom.html - Why &ldquo;Free Software&rdquo; is better than &ldquo;Open "
 "Source&rdquo;</a>"
 msgstr ""
-"<a href=\"/philosophy/free-software-for-freedom.html\">Pourquoi l'expression "
-"«&nbsp;logiciel libre&nbsp;» est meilleure qu'«&nbsp;open source&nbsp;»</a>"
+"<a href=\"/philosophy/free-software-for-freedom.html\">free-software-for-"
+"freedom.html - Pourquoi «&nbsp;logiciel libre&nbsp;» est-il meilleur "
+"qu'«&nbsp;open source&nbsp;»</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -2975,7 +2984,7 @@ msgid ""
 "GNU GPL and the American Way</a>"
 msgstr ""
 "<a href=\"/philosophy/gpl-american-way.html\">gpl-american-way.html - La GNU "
-"GPL comme incarnation du rêve américain</a>"
+"GPL et l'American Way</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -2996,7 +3005,7 @@ msgstr ""
 #. type: Content of: <div><div><ul><li>
 msgid "<a href=\"/philosophy/hague.html\">hague.html - Harm from the Hague</a>"
 msgstr ""
-"<a href=\"/philosophy/hague.html\">hague.html - Le danger de La Haye</a>"
+"<a href=\"/philosophy/hague.html\">hague.html - Le danger de la Haye</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -3386,8 +3395,7 @@ msgid ""
 "html - Reevaluating Copyright: The Public Must Prevail</a>"
 msgstr ""
 "<a href=\"/philosophy/reevaluating-copyright.html\">reevaluating-copyright."
-"html - Dans une réévaluation du copyright, on doit donner la priorité au "
-"public</a>"
+"html - Dans une réévaluation du copyright, le public doit prévaloir</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -3695,8 +3703,8 @@ msgid ""
 "<a href=\"/philosophy/wassenaar.html\">wassenaar.html - The Wassenaar "
 "Arrangement</a>"
 msgstr ""
-"<a href=\"/philosophy/wassenaar.html\">wassenaar.html - L'accord Wassenaar</"
-"a>"
+"<a href=\"/philosophy/wassenaar.html\">wassenaar.html - L'arrangement de "
+"Wassenaar</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -3769,7 +3777,7 @@ msgstr ""
 
 #. type: Content of: <div><div><ul><li>
 msgid "<a href=\"/philosophy/x.html\">x.html - The X Window System Trap</a>"
-msgstr "<a href=\"/philosophy/x.html\">x.html - Le piège X Window System</a>"
+msgstr "<a href=\"/philosophy/x.html\">x.html - Le piège X Window System</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
