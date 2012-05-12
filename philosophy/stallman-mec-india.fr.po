@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stallman-mec-india.html\n"
 "POT-Creation-Date: 2012-05-09 12:25-0300\n"
-"PO-Revision-Date: 2012-05-12 09:39+0200\n"
+"PO-Revision-Date: 2012-05-12 13:10+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -49,7 +49,7 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "Summary"
-msgstr "Sommaire"
+msgstr "<a id=\"sommaire\">Sommaire</a>"
 
 #. type: Content of: <div><p>
 msgid "<a href=\"#intro\">Introduction of the speaker</a>"
@@ -160,7 +160,7 @@ msgstr "<a href=\"#questions2\">Questions sur le logiciel libre</a>"
 
 #. type: Content of: <div><h3>
 msgid "Introduction of the speaker"
-msgstr "Présentation du conférencier"
+msgstr "<a href=\"#sommaire\">&#8593;</a> Présentation du conférencier"
 
 #. type: Content of: <div><p>
 msgid ""
@@ -261,7 +261,7 @@ msgstr ""
 
 #. type: Content of: <div><h3>
 msgid "Stallman's speech"
-msgstr "Conférence de Stallman"
+msgstr "<a href=\"#sommaire\">&#8593;</a> Conférence de Stallman"
 
 #. type: Content of: <div><p>
 msgid ""
@@ -288,8 +288,8 @@ msgid ""
 "There are two things wrong with the phrase &ldquo;intellectual property."
 "&rdquo;"
 msgstr ""
-"Il y a deux choses qui ne vont pas dans l'expression « propriété "
-"intellectuelle »."
+"<a href=\"#sommaire\">&#8593;</a> Il y a deux choses qui ne vont pas dans "
+"l'expression « propriété intellectuelle »."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -368,7 +368,9 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "Copyrights and patents have nothing to do with each other."
-msgstr "Les copyrights et les brevets n'ont rien à faire ensemble."
+msgstr ""
+"<a href=\"#sommaire\">&#8593;</a> Les copyrights et les brevets n'ont rien à "
+"faire ensemble."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -473,7 +475,8 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "How the patent system works."
-msgstr "Comment marche le système des brevets."
+msgstr ""
+"<a href=\"#sommaire\">&#8593;</a> Comment marche le système des brevets."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -722,7 +725,8 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "You have to work with a lawyer."
-msgstr "Vous devez travailler avec un juriste."
+msgstr ""
+"<a href=\"#sommaire\">&#8593;</a> Vous devez travailler avec un avocat."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -737,7 +741,7 @@ msgstr ""
 "devez essayer de déterminer précisément ce que ces brevets interdisent. "
 "C'est très difficile parce que les brevets sont rédigés dans un langage "
 "juridique tortueux qui est très difficile à comprendre pour un ingénieur. Il "
-"va vous falloir y travailler avec un juriste."
+"va vous falloir y travailler avec un avocat."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -846,7 +850,7 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "Avoid the patent."
-msgstr "Contourner le brevet."
+msgstr "<a href=\"#sommaire\">&#8593;</a> Contourner le brevet."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -1046,7 +1050,7 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "License the patent."
-msgstr "Obtenir une licence d'exploitation."
+msgstr "<a href=\"#sommaire\">&#8593;</a> Obtenir une licence d'exploitation."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -1136,8 +1140,8 @@ msgid ""
 msgstr ""
 "Ainsi, cette personne était confrontée à ce brevet, et son titulaire ne lui "
 "a même pas offert une chance d'obtenir une licence. «&nbsp;Ferme "
-"boutique&nbsp;!&nbsp;» C'est ce que le titulaire du brevet a dit, et c'est "
-"ce qu'elle a fait en fin de compte. Elle n'avait pas les moyens de se battre."
+"boutique&nbsp;!&nbsp;» C'est ce qu'a dit le titulaire du brevet, et c'est ce "
+"qu'elle a fait en fin de compte. Elle n'avait pas les moyens de se battre."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -1298,7 +1302,7 @@ msgid ""
 msgstr ""
 "Mais admettons que cela soit arrivé, et admettons qu'il ait obtenu son "
 "brevet, et qu'il dise&nbsp;: «&nbsp;IBM, tu ne peux pas me faire concurrence "
-"parce que j'ai obtenu ce brevet.&nbsp;» Mais voici ce que dit IBM&nbsp;: "
+"parce que j'ai obtenu ce brevet.&nbsp;» Mais voici ce que répond IBM&nbsp;: "
 "«&nbsp;Bon, super, voyons un peu ton produit. Hum, je possède ce brevet-ci, "
 "ce brevet-là, et encore celui-là, et celui-là, et celui-là, que ton produit "
 "est en train de violer. Pourquoi pas un accord de licences croisées&nbsp;?"
@@ -1391,9 +1395,9 @@ msgstr ""
 "d'ennuis que de profits. En tout cas, c'est la raison pour laquelle les "
 "grosses multinationales sont en faveur des brevets logiciels, et qu'elles "
 "font du lobbying auprès des gouvernements tout autour de la planète pour "
-"qu'ils adoptent les brevets logiciels, en disant des choses naïves comme : "
-"«&nbsp;C'est une nouvelle sorte de monopole pour les développeurs de "
-"logiciels, et ce doit être bon pour eux, n'est-ce pas&nbsp;?&nbsp;»"
+"qu'ils les adoptent, en disant des choses naïves comme : «&nbsp;C'est une "
+"nouvelle sorte de monopole pour les développeurs de logiciels, et ce doit "
+"être bon pour eux, n'est-ce pas&nbsp;?&nbsp;»"
 
 #. type: Content of: <div><p>
 msgid ""
@@ -1409,7 +1413,7 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "Challenge the validity of the patent."
-msgstr "Contester la validité du brevet."
+msgstr "<a href=\"#sommaire\">&#8593;</a> Contester la validité du brevet."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -1498,7 +1502,9 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "Nobody can reinvent the entire field of software."
-msgstr "Personne ne peut réinventer complètement le domaine du logiciel."
+msgstr ""
+"<a href=\"#sommaire\">&#8593;</a> Personne ne peut réinventer complètement "
+"le domaine du logiciel."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -1633,7 +1639,9 @@ msgstr ""
 #. type: Content of: <div><h4>
 msgid ""
 "The relationship between patents and products varies between the fields."
-msgstr "La relation entre brevets et produits varie suivant les spécialités."
+msgstr ""
+"<a href=\"#sommaire\">&#8593;</a> La relation entre brevets et produits "
+"varie suivant les spécialités."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -1915,7 +1923,9 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "Program development is hampered by software patents."
-msgstr "Le développement de programmes est freiné par les brevets logiciels"
+msgstr ""
+"<a href=\"#sommaire\">&#8593;</a> Le développement de programmes est freiné "
+"par les brevets logiciels"
 
 #. type: Content of: <div><p>
 msgid ""
@@ -2056,7 +2066,9 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "What can a country do to avoid this problem?"
-msgstr "Que peut faire un pays pour éviter ce problème ?"
+msgstr ""
+"<a href=\"#sommaire\">&#8593;</a> Que peut faire un pays pour éviter ce "
+"problème ?"
 
 #. type: Content of: <div><p>
 msgid ""
@@ -2187,7 +2199,8 @@ msgid ""
 "Preventing India from having software patents will be up to the citizens of "
 "India."
 msgstr ""
-"C'est aux citoyens de l'Inde de préserver leur pays des brevets logiciels."
+"<a href=\"#sommaire\">&#8593;</a> C'est aux citoyens de l'Inde de préserver "
+"leur pays des brevets logiciels."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -2243,7 +2256,7 @@ msgid ""
 msgstr ""
 "Donc, au moins, vous n'avez pas à vous inquiéter des problèmes causés par "
 "l'Organisation mondiale du commerce, malgré les problèmes énormes qu'elle "
-"cause dans d'autres sphères de la vie"
+"cause dans d'autres sphères de la vie."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -2423,7 +2436,9 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "Businesses should demand opposition to software patents."
-msgstr "Les entreprises doivent exiger l'opposition aux brevets logiciels."
+msgstr ""
+"<a href=\"#sommaire\">&#8593;</a> Les entreprises doivent exiger "
+"l'opposition aux brevets logiciels."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -2489,7 +2504,9 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "It's important for countries to work together against this."
-msgstr "C'est important que les pays se concertent pour agir contre cela."
+msgstr ""
+"<a href=\"#sommaire\">&#8593;</a> C'est important que les pays se concertent "
+"pour agir contre cela."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -2592,7 +2609,7 @@ msgstr ""
 
 #. type: Content of: <div><h3>
 msgid "Questions from the audience"
-msgstr "Questions de l'auditoire"
+msgstr "<a href=\"#sommaire\">&#8593;</a> Questions de l'auditoire"
 
 #. type: Content of: <div><p>
 msgid "Now I'll answer questions."
@@ -2623,7 +2640,7 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "Questions about software patents"
-msgstr "Questions sur les brevets logiciels"
+msgstr "<a href=\"#sommaire\">&#8593;</a> Questions sur les brevets logiciels"
 
 #. type: Content of: <div><dl><dt>
 msgid ""
@@ -3896,7 +3913,7 @@ msgstr ""
 
 #. type: Content of: <div><h4>
 msgid "Questions about free software"
-msgstr "Questions sur le logiciel libre"
+msgstr "<a href=\"#sommaire\">&#8593;</a> Questions sur le logiciel libre"
 
 #. type: Content of: <div><dl><dt>
 msgid ""
