@@ -16,7 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-05-11 20:25-0300\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -193,7 +192,6 @@ msgstr ""
 # | <a [-href=\"http://trisquel.info/en\">-]
 # | {+href=\"http://trisquel.info/\">+}
 #. type: Content of: <table><tr><td><a>
-#| msgid "<a href=\"http://trisquel.info/en\">"
 msgid "<a href=\"http://trisquel.info/\">"
 msgstr "<a href=\"http://trisquel.info/\">"
 
@@ -204,9 +202,6 @@ msgstr "Trisquel"
 # | Trisquel, a GNU/Linux distribution {+based on Ubuntu that's+} oriented
 # | toward small enterprises, domestic users and educational centers.
 #. type: Content of: <table><tr><td>
-#| msgid ""
-#| "Trisquel, a GNU/Linux distribution oriented toward small enterprises, "
-#| "domestic users and educational centers."
 msgid ""
 "Trisquel, a GNU/Linux distribution based on Ubuntu that's oriented toward "
 "small enterprises, domestic users and educational centers."
