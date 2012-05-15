@@ -7,15 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: links.html\n"
-"POT-Creation-Date: 2012-02-05 20:25-0500\n"
-"PO-Revision-Date: 2012-05-07 15:24+0200\n"
+"POT-Creation-Date: 2012-05-14 20:25-0300\n"
+"PO-Revision-Date: 2012-05-15 12:39+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
+"Outdated-Since: 2012-05-14 20:25-0300\n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
 msgid ""
@@ -299,9 +300,16 @@ msgstr ""
 "non lucratif pour aider les pays en voie de développement avec des outils "
 "logiciels libres concernant la santé et l'éducation."
 
+# | <a href=\"http://www.belgeler.org/\">Belgeler.org</a> - A very
+# | [-compherensive-] {+comprehensive+} Turkish Translation project including
+# | philosophical writings about Free Software
 #. type: Content of: <ul><li>
+#| msgid ""
+#| "<a href=\"http://www.belgeler.org/\">Belgeler.org</a> - A very "
+#| "compherensive Turkish Translation project including philosophical "
+#| "writings about Free Software"
 msgid ""
-"<a href=\"http://www.belgeler.org/\">Belgeler.org</a> - A very compherensive "
+"<a href=\"http://www.belgeler.org/\">Belgeler.org</a> - A very comprehensive "
 "Turkish Translation project including philosophical writings about Free "
 "Software"
 msgstr ""
