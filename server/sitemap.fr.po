@@ -8,14 +8,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
-"POT-Creation-Date: 2012-05-11 13:56+0300\n"
-"PO-Revision-Date: 2012-05-14 11:56+0200\n"
+"POT-Creation-Date: 2012-05-17 04:25+0300\n"
+"PO-Revision-Date: 2012-05-18 10:47+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-05-17 04:25-0300\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -2413,9 +2414,12 @@ msgstr ""
 "General Public License v2.0</a>"
 
 #. type: Content of: <div><div><div><ul><li>
+#| msgid ""
+#| "<a href=\"/licenses/old-licenses/lgpl-2.1-standalone.html\">lgpl-2.1-"
+#| "standalone.html - GNU Lesser General Public License v2.0</a>"
 msgid ""
 "<a href=\"/licenses/old-licenses/lgpl-2.1-standalone.html\">lgpl-2.1-"
-"standalone.html - GNU Lesser General Public License v2.0</a>"
+"standalone.html - GNU Lesser General Public License v2.1</a>"
 msgstr ""
 "<a href=\"/licenses/old-licenses/lgpl-2.1-standalone.html\">lgpl-2.1-"
 "standalone.html - GNU Lesser General Public License v2.0</a>"
@@ -3256,6 +3260,17 @@ msgid ""
 msgstr ""
 "<a href=\"/philosophy/no-word-attachments.html\">no-word-attachments.html - "
 "Finissons-en avec les pièces jointes Word</a>"
+
+# | <a [-href=\"/philosophy/free-sw.html\">free-sw.html-]
+# | {+href=\"/philosophy/nonfree-games.html\">nonfree-games.html+} - [-What is
+# | free software?</a>-] {+Nonfree DRM'd Games on GNU/Linux: Good or Bad?</a>+}
+#. type: Content of: <div><div><ul><li>
+msgid ""
+"<a href=\"/philosophy/nonfree-games.html\">nonfree-games.html - Nonfree "
+"DRM'd Games on GNU/Linux: Good or Bad?</a>"
+msgstr ""
+"<a href=\"/philosophy/nonfree-games.html\">nonfree-games.html - Nonfree "
+"DRM'd Games on GNU/Linux: Good or Bad?</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""

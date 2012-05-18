@@ -8,14 +8,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: essays-and-articles.html\n"
-"POT-Creation-Date: 2012-05-08 20:26-0300\n"
-"PO-Revision-Date: 2012-05-14 22:15+0200\n"
+"POT-Creation-Date: 2012-05-15 20:25-0300\n"
+"PO-Revision-Date: 2012-05-18 10:17+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-05-15 20:25-0300\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -49,8 +50,8 @@ msgid ""
 msgstr ""
 "<a id=\"TOCFreedomOrganizations\">Nous</a> <a id=\"FreedomOrganizations"
 "\">répertorions</a> également les <a href=\"/links/links."
-"html#FreedomOrganizations\">organisations qui œuvrent pour la liberté du "
-"développement informatique et des communications électroniques</a>."
+"html#FreedomOrganizations\">organisations qui œuvrent pour la liberté dans "
+"le développement informatique et les communications électroniques</a>."
 
 #. type: Content of: <h3>
 msgid "About Free Software"
@@ -698,9 +699,6 @@ msgstr ""
 "l'origine dans <em>Technology Review</em> en 2000, par <a href=\"http://www."
 "stallman.org\">Richard Stallman</a>"
 
-# | <a [-href=\"/philosophy/fs-motives.html\">Motives For Writing Free
-# | Software</a>-] {+href=\"/philosophy/ebooks-must-increase-freedom.html\">
-# | Ebooks must increase our freedom, not decrease it</a>+}
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"/philosophy/ebooks-must-increase-freedom.html\"> Ebooks must "
@@ -946,6 +944,22 @@ msgstr ""
 #. type: Content of: <h4>
 msgid "Cultural and Social Issues"
 msgstr "Problèmes culturels et de société"
+
+# | <a [-href=\"/philosophy/computing-progress.html\">Computing
+# | &ldquo;progress&rdquo;: good and bad</a>,-]
+# | {+href=\"/philosophy/nonfree-games.html\">Nonfree DRM'd Games on
+# | GNU/Linux: Good or Bad?</a>+} by Richard [-M. Stallman.-] {+Stallman+}
+#. type: Content of: <ul><li>
+#| msgid ""
+#| "<a href=\"/philosophy/computing-progress.html\">Computing &ldquo;"
+#| "progress&rdquo;: good and bad</a>, by Richard M. Stallman."
+msgid ""
+"<a href=\"/philosophy/nonfree-games.html\">Nonfree DRM'd Games on GNU/Linux: "
+"Good or Bad?</a> by Richard Stallman"
+msgstr ""
+"<a href=\"/philosophy/nonfree-games.html\">Nonfree DRM'd Games on GNU/Linux: "
+"Good or Bad?</a> (Des jeux avec DRM sur GNU/Linux : c'est bien bien ou c'est "
+"mal ?) par Richard Stallman"
 
 #. type: Content of: <ul><li>
 msgid ""
