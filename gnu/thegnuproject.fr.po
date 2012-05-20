@@ -1654,16 +1654,7 @@ msgstr ""
 msgid "Linux and GNU/Linux"
 msgstr "Linux et GNU/Linux"
 
-# | The GNU Hurd is not suitable for production use, and we don't know if it
-# | ever will be.  The capability-based design has problems that result
-# | directly from the flexibility of the design, and it is not clear
-# | {+whether+} solutions exist.
 #. type: Content of: <p>
-#| msgid ""
-#| "The GNU Hurd is not suitable for production use, and we don't know if it "
-#| "ever will be.  The capability-based design has problems that result "
-#| "directly from the flexibility of the design, and it is not clear "
-#| "solutions exist."
 msgid ""
 "The GNU Hurd is not suitable for production use, and we don't know if it "
 "ever will be.  The capability-based design has problems that result directly "

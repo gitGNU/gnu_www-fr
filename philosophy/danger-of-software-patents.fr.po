@@ -452,17 +452,6 @@ msgstr ""
 "monde de proposer d'autres algorithmes que nous pourrions utiliser pour "
 "compresser des fichiers."
 
-# | And somebody wrote and said, [-\"I-] {+&ldquo;I+} developed another data
-# | compression algorithm that works better, I've written a program, I'd like
-# | to give it to [-you.\"-] {+you.&rdquo;+} So we got ready to release it,
-# | and a week before it was ready to be released, I read in the <cite>New
-# | York Times</cite> weekly patent column, which I rarely saw&mdash;it's a
-# | couple of times a year I might see it&mdash;but just by luck I saw that
-# | someone had gotten a patent for &ldquo;inventing a new method of
-# | compressing data.&rdquo; And so I said we had better look at this, and
-# | sure enough it covered the program we were about to release.  But it could
-# | have been worse: the patent could have been issued a year later, or two
-# | years later, or three years later, or five years later.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "And somebody wrote and said, &ldquo;I developed another data compression "
@@ -823,15 +812,6 @@ msgstr ""
 "largement aux besoins des utilisateurs. C'est ainsi que nous nous sommes "
 "faufilés entre les deux brevets."
 
-# | Now there is [-gif-] {+GIF+} format, for images.  That uses the LZW
-# | algorithm also.  It didn't take long for people to define another image
-# | format, called [-png,-] {+PNG,+} which stands for [-&ldquo;Png's-]
-# | {+&ldquo;PNG's+} Not [-Gif&rdquo;.-] {+GIF&rdquo;.+}  I think it uses the
-# | gzip algorithm.  And we started saying to people, &ldquo;Don't use [-gif-]
-# | {+GIF+} format, it's dangerous.  Switch to [-png.&rdquo;-] {+PNG.&rdquo;+}
-# | And the users said, &ldquo;Well, maybe some day, but the browsers don't
-# | implement it yet,&rdquo; and the browser developers said, &ldquo;We may
-# | implement it someday, but there's not much demand from users.&rdquo;
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Now there is GIF format, for images.  That uses the LZW algorithm also.  It "
@@ -854,15 +834,6 @@ msgstr ""
 "jour, mais pour l'instant il n'y a pas de demande forte de la part des "
 "utilisateurs. »"
 
-# | Well, it's pretty obvious what's going [-on&mdash;gif-] {+on&mdash;GIF+}
-# | was a de facto standard.  In effect, asking people to switch to a
-# | different format, instead of their de facto standard, is like asking
-# | everyone in New Zealand to speak Hungarian.  People will say, &ldquo;Well,
-# | yeah, I'll learn to speak it after everyone else does.&rdquo; And so we
-# | never succeeded in asking people to stop using [-gif,-] {+GIF,+} even
-# | though one of those patent holders was going around to operators of web
-# | sites, threatening to sue them unless they could prove that all of the
-# | [-gifs-] {+GIFs+} on the site were made with authorized, licensed software.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Well, it's pretty obvious what's going on&mdash;GIF was a de facto "
@@ -885,14 +856,6 @@ msgstr ""
 "peuvent prouver que tous les GIF du site ont été réalisés avec un programme "
 "sous licence."
 
-# | So [-gif-] {+GIF+} was a dangerous trap for a large part of our community.
-# |  We thought we had an alternative to [-gif-] {+GIF+} format, namely
-# | [-jpeg,-] {+JPEG,+} but then somebody said, [-\"I-] {+&ldquo;I+} was just
-# | looking through my portfolio of [-patents\"&mdash;I-]
-# | {+patents&rdquo;&mdash;I+} think it was somebody that just bought patents
-# | and used them to threaten people&mdash;and he said, [-\"and-]
-# | {+&ldquo;and+} I found that one of them covers [-jpeg format.\"-] {+JPEG
-# | format.&rdquo;+}
 #. type: Content of: <dl><dd><p>
 msgid ""
 "So GIF was a dangerous trap for a large part of our community.  We thought "
@@ -909,10 +872,6 @@ msgstr ""
 "menaces &ndash; nous a dit : « En regardant mon portefeuille de brevets, "
 "j'en ai trouvé un qui couvre le format JPEG. »"
 
-# | Well, [-jpeg-] {+JPEG+} was not a de facto standard, it's an official
-# | standard, issued by a standards committee; and the committee had a lawyer
-# | too.  Their lawyer said he didn't think that this patent actually covered
-# | [-jpeg-] {+JPEG+} format.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Well, JPEG was not a de facto standard, it's an official standard, issued by "
@@ -939,14 +898,6 @@ msgstr ""
 "amiable, et ce règlement est probablement secret, ce qui signifie que nous "
 "ne saurons jamais qui avait raison."
 
-# | These are fairly lightweight cases: one patent on [-jpeg,-] {+JPEG,+} two
-# | patents on the LZW algorithm used in [-gif.-] {+GIF.+}  Now you might
-# | wonder how come there are two patents on the same algorithm? It's not
-# | supposed to happen, but it did.  And the reason is that the patent
-# | examiners can't possibly take the time to study every pair of things they
-# | might need to study and compare, because they're not allowed to take that
-# | much time.  And because algorithms are just mathematics, there's no way
-# | you can narrow down which applications and patents you need to compare.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "These are fairly lightweight cases: one patent on JPEG, two patents on the "
@@ -1005,13 +956,6 @@ msgstr ""
 "avons déjà vu ce phénomène se produire à plusieurs reprises. Je pense vous "
 "avoir expliqué pourquoi."
 
-# | But one or two patents is a lightweight case.  What about [-mpeg2,-]
-# | {+MPEG2,+} the video format? I saw a list of over 70 patents covering
-# | that, and the negotiations to arrange a way for somebody to license all
-# | those patents took longer than developing the standard itself.  The
-# | [-jpeg-] {+JPEG+} committee wanted to develop a follow-on standard, and
-# | they gave up.  They said there were too many patents; there was no way to
-# | do it.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "But one or two patents is a lightweight case.  What about MPEG2, the video "
@@ -1213,12 +1157,6 @@ msgstr ""
 "dû fermer boutique. Mais la plupart des détenteurs de brevets vous "
 "proposeront une licence, qui est susceptible de vous coûter très cher."
 
-# | But there are some software developers that find it particularly easy to
-# | get licenses, most of the time.  Those are the megacorporations.  In any
-# | field the megacorporations generally own about half the patents, and they
-# | cross-license each other, and they can make anybody else cross-license if
-# | he's really producing anything.  The result is that they end up painlessly
-# | with licen[-c-]{+s+}es for almost all the patents.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "But there are some software developers that find it particularly easy to get "
@@ -1927,14 +1865,6 @@ msgstr ""
 "pas meilleurs qu'eux, c'est juste que notre discipline est fondamentalement "
 "plus simple que la leur, car nous travaillons avec les mathématiques."
 
-# | A program is made out of mathematical components, which have a definition,
-# | whereas physical objects don't have a definition.  The matter does what it
-# | does, so through the perversity of matter, your design may not work the
-# | way it [-\"should\"-] {+&ldquo;should&rdquo;+} have worked.  And that's
-# | just tough.  You can't say that the matter has a bug in it, and the
-# | physical universe should get fixed.  [Whereas] we [programmers] can make a
-# | castle that rests on a mathematically thin line, and it stays up because
-# | nothing weighs anything.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "A program is made out of mathematical components, which have a definition, "
@@ -2434,13 +2364,6 @@ msgstr ""
 "l'avoir écrit soi-même. Mais les brevets ne concernent en rien le texte "
 "d'une œuvre. Ils n'ont aucun lien avec le plagiat."
 
-# | If you write a work and this work embodies some ideas, which it always
-# | does, there's no reason to think that the patents covering those ideas
-# | would belong to you.  They're more likely to belong to lots of others, and
-# | half of them to the megacorporations, and they can then all sue you.  So
-# | you don't even have to worry [about plagiar{+i+}sm]; long before you get
-# | to the point where somebody else might copy it, you're going to be getting
-# | the shaft.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you write a work and this work embodies some ideas, which it always does, "
@@ -2479,15 +2402,6 @@ msgstr ""
 "idées, et que certaines d'entre elles sont brevetées par d'autres, ces "
 "derniers peuvent vous poursuivre."
 
-# | You don't have to be afraid, with copyright, that when you write code
-# | yourself, that somebody else already has a copyright on it and can sue
-# | you, because copyright only restricts copying.  In fact, even if you write
-# | something which is identical to what somebody else wrote, if you can prove
-# | you didn't copy it, that's a defense under copyright law, because
-# | copyright law is only concerned with copying.  But copyright law is only
-# | concerned with the details of authorship of a work [i.e., not th{+e+}
-# | ideas it embodies], so it has nothing in common with patent law in terms
-# | of what it deals with, and the effects are totally different.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "You don't have to be afraid, with copyright, that when you write code "
@@ -2651,13 +2565,6 @@ msgstr ""
 "Donc, en terme de développement économique, la Nouvelle-Zélande serait mieux "
 "protégée en n'ayant pas de droit des brevets."
 
-# | Yes.  You see, each country has its own patent system, and they work
-# | independently, except that countries have signed up to a treaty that says,
-# | [-\"If-] {+&ldquo;If+} you have got a patent in that country, you can
-# | basically bring your application over here, and we'll judge it based on
-# | the year you applied for it over [-there\".-] {+there.&rdquo;+} But other
-# | than that, each country has its own criteria for what can be patented and
-# | has its own set of patents.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Yes.  You see, each country has its own patent system, and they work "
@@ -3072,8 +2979,6 @@ msgstr ""
 "Gratis.<a id=\"TransNote1-rev\" href=\"#TransNote1\"><sup>1</sup></a> Et "
 "ceux-là sont à vendre."
 
-# | [-s-]{+S+}o you're welcome to come down.  It's been a great [-debate -
-# | thank-] {+debate&mdash;thank+} you Richard.
 #. type: Content of: <dl><dd>
 msgid ""
 "So you're welcome to come down.  It's been a great debate&mdash;thank you "
