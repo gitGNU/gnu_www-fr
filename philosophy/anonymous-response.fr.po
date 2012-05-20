@@ -1,15 +1,15 @@
-# French translation of http://www.gnu.org/philosophy/papadopoulos-response.html
+# French translation of http://www.gnu.org/philosophy/anonymous-response.html
 # Copyright (C) 2008 Free Software Foundation, Inc.
-# This file is distributed under the same license as the papadopoulos-response.html package.
+# This file is distributed under the same license as the anonymous-response.html package.
 # Christophe Chisogne.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
 # Thérèse Godefroy <godef.th AT free.fr>, 2011, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: papadopoulos-response.html\n"
-"POT-Creation-Date: 2011-09-20 12:30-0300\n"
-"PO-Revision-Date: 2012-05-17 21:20+0200\n"
+"Project-Id-Version: anonymous-response.html\n"
+"POT-Creation-Date: 2012-05-20 11:55+0300\n"
+"PO-Revision-Date: 2012-05-20 11:42+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -42,10 +42,6 @@ msgstr ""
 "arrêter cette pratique."
 
 #. type: Content of: <p>
-msgid "From: Alexandros Papadopoulos"
-msgstr "par Alexandros Papadopoulos"
-
-#. type: Content of: <p>
 msgid ""
 "I'm sorry, but I was unable to read the Microsoft Word document you sent me. "
 "Microsoft has been steadily changing the .doc format over the releases of "
@@ -57,12 +53,12 @@ msgid ""
 "the document."
 msgstr ""
 "Je suis désolé, mais j'ai été incapable de lire le document Microsoft Word "
-"que vous m'avez envoyé. Microsoft a constamment changé le format .doc au "
-"long des versions de Microsoft Word (sous Windows 4.0, 95, 97, 2000, et "
-"maintenant XP). Microsoft a également refusé intentionnellement de donner "
+"que vous m'avez envoyé. Microsoft a constamment changé le format .doc au fil "
+"des versions de Microsoft Word ([sous Windows] 4.0, 95, 97, 2000, et "
+"maintenant XP). Microsoft a également refusé intentionnellement de donner "
 "les spécifications du format .doc à la communauté, faisant de Microsoft Word "
 "la seule application pouvant lire ce format de manière fiable. L'application "
-"Microsoft Word Viewer existe, mais elle ne tourne que sur le système "
+"Microsoft Word Viewer existe, mais elle ne tourne que sous les systèmes "
 "d'exploitation Microsoft Windows et ne permet pas d'éditer le document."
 
 #. type: Content of: <p>
@@ -108,15 +104,16 @@ msgid ""
 msgstr ""
 "[0] L'information que je suis censé lire ou traiter soit convertie dans un "
 "format ouvert, format que les gens n'utilisant pas Microsoft Windows ou "
-"Microsoft Office sont capables de manipuler."
+"Microsoft Office soient capables de manipuler."
 
 #. type: Content of: <p>
 msgid ""
 "[1] I purchase and install Microsoft Windows, Microsoft Word, and by "
 "deduction all other Microsoft applications necessary to do my work."
 msgstr ""
-"[1] J'achète et installe Microsoft Windows, Microsoft Word, et par déduction "
-"toutes les autres applications Microsoft nécessaires à mon travail."
+"[1] J'achète et installe Microsoft Windows, Microsoft Word, et par "
+"conséquent toutes les autres applications Microsoft nécessaires à mon "
+"travail."
 
 #. type: Content of: <p>
 msgid ""
@@ -137,7 +134,7 @@ msgid ""
 "can't use the document you sent me, and I tried to explain why the implicit "
 "assumption that I would be able to read it, was mistaken."
 msgstr ""
-"PS&nbsp;: J'espère que vous comprenez que je n'ai rien contre vous "
+"PS&nbsp;: Vous comprenez, j'espère, que je n'ai rien contre vous "
 "personnellement. Je ne peux tout simplement pas utiliser le document que "
 "vous m'avez envoyé, et j'ai essayé de vous expliquer que l'hypothèse "
 "implicite selon laquelle j'aurais pu le lire était erronée."
@@ -159,7 +156,7 @@ msgstr ""
 "et tous les changements que je n'avais pas sauvegardés ont été perdus. Au "
 "final, environ deux heures de mon travail ont été perdues parce que les "
 "développeurs d'OpenOffice.org n'ont pas été capables de surmonter les "
-"barrières que Microsoft a mis en place et d'afficher correctement le "
+"barrières que Microsoft a mises en place et d'afficher correctement le "
 "document. Je crois qu'ils sont les derniers à blâmer pour cet échec."
 
 #. type: Content of: <p>
@@ -212,6 +209,21 @@ msgstr ""
 "Veuillez consulter le <a href=\"/server/standards/README.translations.html"
 "\">README des traductions</a> pour des informations sur la coordination et "
 "la soumission de traductions de cet article."
+
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 2003 Anonymous contributor"
+msgstr "Copyright &copy; 2003 Anonymous contributor"
+
+# || No change detected.  The change might only be in amounts of spaces.
+#. type: Content of: <div><p>
+msgid ""
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
+msgstr ""
+"Cette page peut être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
+"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
