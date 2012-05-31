@@ -8,15 +8,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: free-system-distribution-guidelines.html\n"
-"POT-Creation-Date: 2012-05-18 20:25-0300\n"
-"PO-Revision-Date: 2012-04-17 12:14+0200\n"
+"POT-Creation-Date: 2012-05-31 12:35+0300\n"
+"PO-Revision-Date: 2012-05-31 12:34+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
+"Plural-Forms:  \n"
 
 #. type: Content of: <title>
 msgid ""
@@ -118,24 +118,36 @@ msgstr ""
 "termes de la (des) licence(s) libre(s) disponible(s) quand ils le "
 "distribuent et/ou le modifient."
 
+# | A free system distribution must not steer users towards obtaining any
+# | nonfree information for practical use, or encourage them to do so. 
+# | [-There-]  {+The system+} should [-be-] {+have+} no repositories [-or
+# | ports-] for nonfree [-software.-] {+software and no specific recipes for
+# | installation of particular nonfree programs.+} Nor should the distribution
+# | refer to third-party repositories that are not committed to only including
+# | free software; even if they only have free software today, that may not be
+# | true tomorrow.  Programs in the system should not suggest installing
+# | nonfree plugins, documentation, and so on.
 #. type: Content of: <p>
 msgid ""
 "A free system distribution must not steer users towards obtaining any "
-"nonfree information for practical use, or encourage them to do so.  There "
-"should be no repositories or ports for nonfree software.  Nor should the "
+"nonfree information for practical use, or encourage them to do so.  The "
+"system should have no repositories for nonfree software and no specific "
+"recipes for installation of particular nonfree programs. Nor should the "
 "distribution refer to third-party repositories that are not committed to "
 "only including free software; even if they only have free software today, "
 "that may not be true tomorrow.  Programs in the system should not suggest "
 "installing nonfree plugins, documentation, and so on."
 msgstr ""
 "Une distribution système libre ne doit pas aider les utilisateurs à obtenir "
-"des informations de mise en œuvre non libres, ni les y encourager. Il ne "
-"doit pas y avoir de dépôts ni de portages pour des logiciels non libres. La "
-"distribution ne doit pas non plus faire référence à des dépôts tiers qui ne "
-"s'engagent pas à ne fournir que des logiciels libres&nbsp;; même s'ils ne "
-"contiennent aujourd'hui que des logiciels libres, cela peut changer demain. "
-"Les programmes du système ne doivent pas suggérer d'installer des greffons "
-"non libres, de la documentation non libre, etc."
+"des informations de mise en œuvre non libres, ni les y encourager. Le "
+"système ne doit pas avoir de dépôt pour des logiciels non libres ni de "
+"recettes spécifiques pour l'installation de programmes non libres "
+"particuliers. La distribution ne doit pas non plus faire référence à des "
+"dépôts tiers qui ne s'engagent pas à fournir uniquement des logiciels "
+"libres&nbsp;; même s'ils ne contiennent aujourd'hui que des logiciels "
+"libres, cela peut changer demain. Les programmes du système ne doivent pas "
+"suggérer d'installer des greffons non libres, de la documentation non libre, "
+"etc."
 
 #. type: Content of: <p>
 msgid ""
