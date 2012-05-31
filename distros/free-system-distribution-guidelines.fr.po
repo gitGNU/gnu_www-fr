@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: free-system-distribution-guidelines.html\n"
-"POT-Creation-Date: 2012-05-31 12:35+0300\n"
+"POT-Creation-Date: 2012-05-31 04:25-0300\n"
 "PO-Revision-Date: 2012-05-31 12:34+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -118,15 +118,6 @@ msgstr ""
 "termes de la (des) licence(s) libre(s) disponible(s) quand ils le "
 "distribuent et/ou le modifient."
 
-# | A free system distribution must not steer users towards obtaining any
-# | nonfree information for practical use, or encourage them to do so. 
-# | [-There-]  {+The system+} should [-be-] {+have+} no repositories [-or
-# | ports-] for nonfree [-software.-] {+software and no specific recipes for
-# | installation of particular nonfree programs.+} Nor should the distribution
-# | refer to third-party repositories that are not committed to only including
-# | free software; even if they only have free software today, that may not be
-# | true tomorrow.  Programs in the system should not suggest installing
-# | nonfree plugins, documentation, and so on.
 #. type: Content of: <p>
 msgid ""
 "A free system distribution must not steer users towards obtaining any "
