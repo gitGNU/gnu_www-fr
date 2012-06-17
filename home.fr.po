@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.html\n"
-"POT-Creation-Date: 2012-06-11 15:00-0300\n"
-"PO-Revision-Date: 2012-06-15 22:02+0200\n"
+"POT-Creation-Date: 2012-06-16 21:00-0300\n"
+"PO-Revision-Date: 2012-06-17 11:21+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -40,7 +40,7 @@ msgid ""
 msgstr ""
 "Depuis 1983, nous développons le système d'exploitation libre GNU, de type "
 "Unix, pour que les utilisateurs de l'informatique aient la liberté de "
-"partager et d'améliorer les logiciels qu'ils utilisent."
+"partager et d'améliorer les logiciels dont ils se servent."
 
 #. type: Attribute 'title' of: <link>
 msgid "Planet GNU"
@@ -386,8 +386,9 @@ msgstr ""
 # | href=\"/software/polyxmass/\">polyxmass</a>, <a
 # | href=\"/software/quickthreads/\">quickthreads</a>, <a
 # | href=\"/software/snakecharmer/\">snakecharmer</a>, <a
-# | href=\"/software/thales/\">thales</a>, <a
-# | href=\"/software/trueprint/\">trueprint</a> are all <a
+# | [-href=\"/software/thales/\">thales</a>, <a
+# | href=\"/software/trueprint/\">trueprint</a>-]
+# | {+href=\"/software/thales/\">thales</a>+} are all <a
 # | href=\"/server/takeaction.html#unmaint\">looking for maintainers</a>.  We
 # | also need <a href=\"/server/takeaction.html#python_configure\">GNU
 # | configure for Python packages</a>.
@@ -419,10 +420,10 @@ msgid ""
 "\">orgadoc</a>, <a href=\"/software/pgccfd/\">pgccfd</a>, <a href=\"/"
 "software/polyxmass/\">polyxmass</a>, <a href=\"/software/quickthreads/"
 "\">quickthreads</a>, <a href=\"/software/snakecharmer/\">snakecharmer</a>, "
-"<a href=\"/software/thales/\">thales</a>, <a href=\"/software/trueprint/"
-"\">trueprint</a> are all <a href=\"/server/takeaction.html#unmaint\">looking "
-"for maintainers</a>.  We also need <a href=\"/server/takeaction."
-"html#python_configure\">GNU configure for Python packages</a>."
+"<a href=\"/software/thales/\">thales</a> are all <a href=\"/server/"
+"takeaction.html#unmaint\">looking for maintainers</a>.  We also need <a href="
+"\"/server/takeaction.html#python_configure\">GNU configure for Python "
+"packages</a>."
 msgstr ""
 "<strong>Pouvez-vous adopter un <a href=\"/server/takeaction.html#unmaint"
 "\">paquet GNU non maintenu</a>&nbsp;?</strong> \n"
@@ -434,8 +435,7 @@ msgstr ""
 "a>, <a href=\"/software/orgadoc/\">orgadoc</a>, <a href=\"/software/pgccfd/"
 "\">pgccfd</a>, <a href=\"/software/polyxmass/\">polyxmass</a>, <a href=\"/"
 "software/quickthreads/\">quickthreads</a>, <a href=\"/software/snakecharmer/"
-"\">snakecharmer</a>, <a href=\"/software/thales/\">thales</a>, <a href=\"/"
-"software/trueprint/\">trueprint</a> \n"
+"\">snakecharmer</a>, <a href=\"/software/thales/\">thales</a> \n"
 "sont tous <a href=\"/server/takeaction.html#unmaint\">à la recherche d'un "
 "repreneur</a>. Nous avons aussi besoin de <a href=\"/server/takeaction."
 "html#python_configure\">GNU configure pour les paquets Python</a>."
