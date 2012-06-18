@@ -17,8 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  \n"
 
-# | A Response Letter to the Word Attachments {+- GNU Project - Free Software
-# | Foundation+}
 #. type: Content of: <title>
 msgid ""
 "A Response Letter to the Word Attachments - GNU Project - Free Software "
@@ -89,12 +87,6 @@ msgstr ""
 "quelqu'un les visionne avec une version de Word différente ; certaines "
 "personnes pourraient même ne pas être capables de les lire du tout."
 
-# | Receiving Word attachments is not good for you because they can carry
-# | viruses: see <a
-# | [-href=\"http://www.viruslist.com/en/virusesdescribed?chapter=153313603\">
-# | http://www.viruslist.com/en/virusesdescribed?chapter=153313603</a>.-]
-# | {+href=\"http://en.wikipedia.org/wiki/Macro_virus_(computing)\">
-# | http://en.wikipedia.org/wiki/Macro_virus_(computing)</a>.+}
 #. type: Content of: <p>
 msgid ""
 "Receiving Word attachments is not good for you because they can carry "
@@ -291,18 +283,6 @@ msgstr ""
 "identique.  Au lieu de « Document HTML », choisissez « Texte seul » ou "
 "« Document texte » (ou RTF ou Rich text Format) dans le type de document."
 
-# | Your computer may also have a program to convert to the PDF (or Adobe
-# | Acrobat) format, which was designed to make sure that when someone else
-# | views your document, it looks exactly the same on their computer as it did
-# | on yours.  Select File => Print.  Scroll through available printers and
-# | select the pdf converter.  Click on the Print button and enter a name for
-# | the pdf file when requested, then attach that file to your email.  There
-# | are some cheap or even free programs to make PDF files: use the search
-# | function at <a
-# | [-href=\"http://www.download.com/\">http://www.download.com/</a> or <a
-# | href=\"http://www.tucows.com/\">http://www.tucows.com/</a>-]
-# | {+href=\"http://directory.fsf.org/\">http://directory.fsf.org/</a>+} to
-# | find them.
 #. type: Content of: <p>
 msgid ""
 "Your computer may also have a program to convert to the PDF (or Adobe "
@@ -354,7 +334,6 @@ msgstr ""
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-# || No change detected.  The change might only be in amounts of spaces.
 #. type: Content of: <div><p>
 msgid ""
 "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
