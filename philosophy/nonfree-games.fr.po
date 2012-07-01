@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nonfree-games.html\n"
-"POT-Creation-Date: 2012-06-10 07:25-0300\n"
-"PO-Revision-Date: 2012-06-05 08:46+0200\n"
+"POT-Creation-Date: 2012-07-01 07:03+0300\n"
+"PO-Revision-Date: 2012-07-01 07:05+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -111,21 +111,34 @@ msgstr ""
 "des distributions GNU/Linux</a> vont déjà à l'encontre de l'objectif de "
 "liberté. Ajouter ces jeux à une distribution augmenterait cet effet."
 
+# | If you want to promote freedom, please take care not to talk about the
+# | availability of these games on GNU/Linux as support for our cause. 
+# | Instead you could tell people about the <a
+# | href=\"http://lpc.opengameart.org/\"> Liberated Pixel Cup</a> free game
+# | [-contest-] {+contest, <a href=\"http://forum.freegamedev.net/index.php\">
+# | the Free Game Dev Forum</a>,+} and the [-<a
+# | href=\"http://libreplanet.org/wiki/Group:LibrePlanet_Gaming_Collective\">-]
+# | LibrePlanet Gaming [-Collective</a>-] {+Collective's <a
+# | href=\"http://libreplanet.org/wiki/Group:LibrePlanet_Gaming_Collective\">+}
+# | free gaming [-night.-] {+night.</a>+}
 #. type: Content of: <p>
 msgid ""
 "If you want to promote freedom, please take care not to talk about the "
 "availability of these games on GNU/Linux as support for our cause.  Instead "
 "you could tell people about the <a href=\"http://lpc.opengameart.org/\"> "
-"Liberated Pixel Cup</a> free game contest and the <a href=\"http://"
-"libreplanet.org/wiki/Group:LibrePlanet_Gaming_Collective\"> LibrePlanet "
-"Gaming Collective</a> free gaming night."
+"Liberated Pixel Cup</a> free game contest, <a href=\"http://forum."
+"freegamedev.net/index.php\"> the Free Game Dev Forum</a>, and the "
+"LibrePlanet Gaming Collective's <a href=\"http://libreplanet.org/wiki/Group:"
+"LibrePlanet_Gaming_Collective\"> free gaming night.</a>"
 msgstr ""
 "Si vous voulez promouvoir la liberté, veuillez faites attention à ne pas "
 "parler de la disponibilité de ces jeux sur GNU/Linux, afin de soutenir notre "
 "cause. À la place, vous pourriez parler aux gens du concours de jeux libres "
 "<a href=\"http://lpc.opengameart.org/\"> Liberated Pixel Cup</a> (Coupe du "
-"pixel libéré) et de la nuit du jeu du <a href=\"http://libreplanet.org/wiki/"
-"Group:LibrePlanet_Gaming_Collective\"> LibrePlanet Gaming Collective</a> "
+"pixel libéré), du <a href=\"http://forum.freegamedev.net/index.php\"> Free "
+"Game Dev Forum</a> (Forum des développeurs de jeux libres), et de la nuit du "
+"jeu du <a href=\"http://libreplanet.org/wiki/Group:"
+"LibrePlanet_Gaming_Collective\"> LibrePlanet Gaming Collective</a> "
 "(Collectif du jeu de LibrePlanet)."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
@@ -141,9 +154,9 @@ msgid ""
 "can be sent to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
 "org&gt;</a>."
 msgstr ""
-"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
-"gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF. Pour signaler les liens "
+"Veuillez envoyer les requêtes générales concernant la FSF et GNU à <a href="
+"\"mailto:gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/"
+"contact/\">d'autres moyens de contacter</a> la FSF. Pour signaler les liens "
 "orphelins et les erreurs, ou faire toute autre suggestion sur le texte "
 "original, adressez-vous à <a href=\"mailto:webmasters@gnu.org\">&lt;"
 "webmasters@gnu.org&gt;</a>."
