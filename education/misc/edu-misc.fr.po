@@ -7,10 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edu-misc.html\n"
 "POT-Creation-Date: 2012-06-10 04:25-0300\n"
-"PO-Revision-Date: 2012-06-30 17:52+0200\n"
+"PO-Revision-Date: 2012-07-03 14:31+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -52,9 +51,17 @@ msgstr "<a href=\"/education/edu-team.html\">L'équipe éducation</a>"
 
 #. type: Content of: <p>
 msgid ""
+"<a href=\"/education/education.html\">Education</a> &rarr; <a href=\"/"
+"education/misc/\">Misc</a> &rarr; Education Miscellaneous Materials"
+msgstr ""
+"<a href=\"/education/education.html\">Education</a> &rarr; <a href=\"/"
+"education/misc/\">Divers</a> &rarr; Documents divers sur l'éducation"
+
+#. type: Content of: <p>
+msgid ""
 "In these pages we keep various kinds of materials that we use in our "
-"Education pages such as pictures, transcriptions and translations of videos, "
-"and similar."
+"Education pages such as pictures, transcriptions and subtitles of videos in "
+"various languages, and similar."
 msgstr ""
 "Ces pages contiennent divers documents qui vont avec les pages de la section "
 "« Éducation » : images, transcriptions et traductions de vidéos, et autres "
@@ -78,7 +85,7 @@ msgid ""
 "KB</a>, <a href=\"/education/misc/ambedkar.jpg\">400 KB</a>"
 msgstr ""
 "RMS avec un jeune Indien, jpeg <a href=\"/education/misc/ambedkar-sm.jpg"
-"\">97 KB</a>, <a href=\"/education/misc/ambedkar.jpg\">400 KB</a>"
+"\">97 ko</a>, <a href=\"/education/misc/ambedkar.jpg\">400 ko</a>"
 
 #. type: Content of: <p>
 msgid "Vocational Higher Secondary School Irimpanam (VHSS Irimpanam)"
@@ -90,9 +97,9 @@ msgid ""
 "school-sm.jpg\">65 KB</a>, <a href=\"/education/misc/irimpanam-school.jpg"
 "\">245 KB</a>"
 msgstr ""
-"Élèves à une exposition sur le logiciel libre, <a href=\"/education/misc/"
-"irimpanam-school-sm.jpg\">65 KB</a>, <a href=\"/education/misc/irimpanam-"
-"school.jpg\">245 KB</a>"
+"Élèves à une exposition sur le logiciel libre, jpeg <a href=\"/education/"
+"misc/irimpanam-school-sm.jpg\">65 ko</a>, <a href=\"/education/misc/"
+"irimpanam-school.jpg\">245 ko</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -100,11 +107,11 @@ msgid ""
 "jpg\">46 KB</a>, <a href=\"/education/misc/tuxpaint.jpg\">193 KB</a>"
 msgstr ""
 "Interface de Tux Paint en malayalam, jpeg <a href=\"/education/misc/tuxpaint-"
-"sm.jpg\">46 KB</a>, <a href=\"/education/misc/tuxpaint.jpg\">193 KB</a>"
+"sm.jpg\">46 ko</a>, <a href=\"/education/misc/tuxpaint.jpg\">193 ko</a>"
 
 #. type: Content of: <h4>
 msgid "Software"
-msgstr "Logiciel"
+msgstr "Logiciels"
 
 #. type: Content of: <p>
 msgid "Tux Paint"
@@ -112,21 +119,82 @@ msgstr "Tux Paint"
 
 #. type: Content of: <ul><li>
 msgid ""
-"Tux Paint interface, jpeg, <a href=\"/education/misc/tuxpaint-start-sm.jpg"
-"\">38 KB</a>, <a href=\"/education/misc/tuxpaint-start.jpg\">100 KB</a>"
+"Tux Paint interface English, png, <a href=\"/education/misc/tuxpaint-start-"
+"sm.png\">30 KB</a>, <a href=\"/education/misc/tuxpaint-start.png\">83 KB</a>"
 msgstr ""
-"Interface de Tux Paint, <a href=\"/education/misc/tuxpaint-start-sm.jpg\">38 "
-"KB</a>, <a href=\"/education/misc/tuxpaint-start.jpg\">100 KB</a>"
+"Interface de Tux Paint en anglais, png, <a href=\"/education/misc/tuxpaint-"
+"start-sm.png\">30 ko</a>, <a href=\"/education/misc/tuxpaint-start.png"
+"\">83 ko</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
-"Tux Paint interface Italian, jpeg, <a href=\"/education/misc/tuxpaint-start-"
-"sm.it.jpg\">70 KB</a>, <a href=\"/education/misc/tuxpaint-start.it.jpg\">100 "
+"Tux Paint interface German, png, <a href=\"/education/misc/tuxpaint-start-sm."
+"de.png\">45 KB</a>, <a href=\"/education/misc/tuxpaint-start.de.png\">86 KB</"
+"a>"
+msgstr ""
+"Interface de Tux Paint en allemand, png, <a href=\"/education/misc/tuxpaint-"
+"start-sm.de.png\">45 ko</a>, <a href=\"/education/misc/tuxpaint-start.de.png"
+"\">86 ko</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"Tux Paint interface Greek, png, <a href=\"/education/misc/tuxpaint-start-sm."
+"el.png\">32 KB</a>, <a href=\"/education/misc/tuxpaint-start.el.png\">84 KB</"
+"a>"
+msgstr ""
+"Interface de Tux Paint en grec, png, <a href=\"/education/misc/tuxpaint-"
+"start-sm.el.png\">32 ko</a>, <a href=\"/education/misc/tuxpaint-start.el.png"
+"\">84 ko</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"Tux Paint interface French, png, <a href=\"/education/misc/tuxpaint-start-sm."
+"fr.png\">31 KB</a>, <a href=\"/education/misc/tuxpaint-start.fr.png\">86 KB</"
+"a>"
+msgstr ""
+"Interface de Tux Paint en français, png, <a href=\"/education/misc/tuxpaint-"
+"start-sm.fr.png\">31 ko</a>, <a href=\"/education/misc/tuxpaint-start.fr.png"
+"\">86 ko</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"Tux Paint interface Italian, png, <a href=\"/education/misc/tuxpaint-start-"
+"sm.it.png\">30 KB</a>, <a href=\"/education/misc/tuxpaint-start.it.png\">83 "
 "KB</a>"
 msgstr ""
-"Interface de Tux Paint en italien, jpeg, <a href=\"/education/misc/tuxpaint-"
-"start-sm.it.jpg\">70 KB</a>, <a href=\"/education/misc/tuxpaint-start.it.jpg"
-"\">100 KB</a>"
+"Interface de Tux Paint en italien, png, <a href=\"/education/misc/tuxpaint-"
+"start-sm.it.png\">30 ko</a>, <a href=\"/education/misc/tuxpaint-start.it.png"
+"\">83 ko</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"Tux Paint interface Japanese, png, <a href=\"/education/misc/tuxpaint-start-"
+"sm.ja.png\">30 KB</a>, <a href=\"/education/misc/tuxpaint-start.ja.png\">85 "
+"KB</a>"
+msgstr ""
+"Interface de Tux Paint en japonais, png, <a href=\"/education/misc/tuxpaint-"
+"start-sm.ja.png\">30 ko</a>, <a href=\"/education/misc/tuxpaint-start.ja.png"
+"\">85 ko</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"Tux Paint interface Portuguese (Brazilian), png, <a href=\"/education/misc/"
+"tuxpaint-start-sm.pt-br.png\">31 KB</a>, <a href=\"/education/misc/tuxpaint-"
+"start.pt-br.png\">86 KB</a>"
+msgstr ""
+"Interface de Tux Paint en portugais (brésilien), png, <a href=\"/education/"
+"misc/tuxpaint-start-sm.pt-br.png\">31 ko</a>, <a href=\"/education/misc/"
+"tuxpaint-start.pt-br.png\">86 ko</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"Tux Paint interface Spanish, png, <a href=\"/education/misc/tuxpaint-start-"
+"sm.es.png\">31 KB</a>, <a href=\"/education/misc/tuxpaint-start.es.png\">86 "
+"KB</a>"
+msgstr ""
+"Interface de Tux Paint en espagnol, png, <a href=\"/education/misc/tuxpaint-"
+"start-sm.es.png\">31 ko</a>, <a href=\"/education/misc/tuxpaint-start.es.png"
+"\">86 ko</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -135,8 +203,8 @@ msgid ""
 "stamps.jpg\">298 KB</a>"
 msgstr ""
 "Interface de Tux Paint en malayalam avec des tampons, jpeg, <a href=\"/"
-"education/misc/tuxpaint-stamps-sm.jpg\">65 KB</a>, <a href=\"/education/misc/"
-"tuxpaint-stamps.jpg\">298 KB</a>"
+"education/misc/tuxpaint-stamps-sm.jpg\">65 ko</a>, <a href=\"/education/misc/"
+"tuxpaint-stamps.jpg\">298 ko</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -144,16 +212,16 @@ msgid ""
 "jpg\">9 KB</a>, <a href=\"/education/misc/appooppanthaady.jpg\">22 KB</a>"
 msgstr ""
 "Fleur <cite>Appooppanthaady</cite>, jpeg, <a href=\"/education/misc/"
-"appooppanthaady-sm.jpg\">9 KB</a>, <a href=\"/education/misc/appooppanthaady."
-"jpg\">22 KB</a>"
+"appooppanthaady-sm.jpg\">9 ko</a>, <a href=\"/education/misc/appooppanthaady."
+"jpg\">22 ko</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
 "Anthoorium flower, jpeg, <a href=\"/education/misc/anthoorium-sm.jpg\">7 KB</"
 "a>, <a href=\"/education/misc/anthoorium.jpg\">25 KB</a>"
 msgstr ""
-"Fleur <cite>Anthoorium</cite>, <a href=\"/education/misc/anthoorium-sm.jpg"
-"\">7 KB</a>, <a href=\"/education/misc/anthoorium.jpg\">25 KB</a>"
+"Fleur <cite>Anthoorium</cite>, jpeg, <a href=\"/education/misc/anthoorium-sm."
+"jpg\">7 ko</a>, <a href=\"/education/misc/anthoorium.jpg\">25 ko</a>"
 
 #. type: Content of: <p>
 msgid "GCompris"
@@ -164,116 +232,192 @@ msgid ""
 "GCompris interface, jpeg <a href=\"/education/misc/gcompris-sm.jpg\">44 KB</"
 "a>, <a href=\"/education/misc/gcompris.jpg\">198 KB</a>"
 msgstr ""
-"Interface de GCompris, jpeg <a href=\"/education/misc/gcompris-sm.jpg\">44 "
-"KB</a>, <a href=\"/education/misc/gcompris.jpg\">198 KB</a>"
+"Interface de GCompris, jpeg <a href=\"/education/misc/gcompris-sm.jpg"
+"\">44 ko</a>, <a href=\"/education/misc/gcompris.jpg\">198 ko</a>"
 
 #. type: Content of: <h3>
 msgid "Videos"
 msgstr "Vidéos"
 
 #. type: Content of: <p>
-msgid "Richard Stallman on Education:"
-msgstr "Richard Stallman et l'éducation :"
+msgid "&rarr; Richard Stallman's video on Education:"
+msgstr "&rarr; Vidéo de Richard Stallman sur l'éducation :"
 
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://audio-video.gnu.org/video/rms-education-es.ogv\"> Original "
-"in Spanish</a>, 20.7 MB."
+"version in Spanish without subtitles</a>, 20.7 MB."
 msgstr ""
-"<a href=\"http://audio-video.gnu.org/video/rms-education-es.ogv\">original "
-"en espagnol</a>, 20.7 MB."
+"<a href=\"http://audio-video.gnu.org/video/rms-education-es.ogv\"> Version "
+"originale en espagnol, non sous-titrée</a>, 20.7 Mo."
+
+#. type: Content of: <p>
+msgid ""
+"&nbsp; Other versions with embedded subtitles in the following languages:"
+msgstr "&nbsp; Autres versions sous-titrées dans les langues suivantes :"
 
 #. type: Content of: <ul><li>
 msgid ""
-"With <a href=\"http://audio-video.gnu.org/video/rms-education-es-sub-en.ogv"
-"\"> English Subtitles</a>, 19 MB."
+"English: <a href=\"http://audio-video.gnu.org/video/rms-education-es-high-"
+"sub.en.ogv\">47 MB</a> | <a href=\"http://audio-video.gnu.org/video/rms-"
+"education-es-low-sub.en.ogv\">17 MB</a>"
 msgstr ""
-"Avec des <a href=\"http://audio-video.gnu.org/video/rms-education-es-sub-en."
-"ogv\">sous-titres en anglais</a>, 19 MB."
-
-#. type: Content of: <ul><li>
-msgid "How GIMP Changed Mani's Life - We Use GNU/Linux:"
-msgstr "Comment GIMP a changé la vie de Mani - Nous utilisons GNU/Linux :"
+"anglais : <a href=\"http://audio-video.gnu.org/video/rms-education-es-high-"
+"sub.en.ogv\">47 Mo</a> | <a href=\"http://audio-video.gnu.org/video/rms-"
+"education-es-low-sub.en.ogv\">17 Mo</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
-"<a href=\"http://audio-video.gnu.org/video/we_use_gnu-linux_low.ogv\"> Low "
-"resolution</a>, 15 MB."
+"French: <a href=\"http://audio-video.gnu.org/video/rms-education-es-high-sub."
+"fr.ogv\">56 MB</a> | <a href=\"http://audio-video.gnu.org/video/rms-"
+"education-es-low-sub.fr.ogv\">14 MB</a>"
 msgstr ""
-"<a href=\"http://audio-video.gnu.org/video/we_use_gnu-linux_low.ogv\">Basse "
-"résolution</a>, 15 MB."
+"français : <a href=\"http://audio-video.gnu.org/video/rms-education-es-high-"
+"sub.fr.ogv\">56 Mo</a> | <a href=\"http://audio-video.gnu.org/video/rms-"
+"education-es-low-sub.fr.ogv\">14 Mo</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"Italian: <a href=\"http://audio-video.gnu.org/video/rms-education-es-high-"
+"sub.it.ogv\">47 MB</a> | <a href=\"http://audio-video.gnu.org/video/rms-"
+"education-es-low-sub.it.ogv\">11 MB</a>"
+msgstr ""
+"italien: <a href=\"http://audio-video.gnu.org/video/rms-education-es-high-"
+"sub.it.ogv\">47 Mo</a> | <a href=\"http://audio-video.gnu.org/video/rms-"
+"education-es-low-sub.it.ogv\">11 Mo</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"Portuguese (Brazilian): <a href=\"http://audio-video.gnu.org/video/rms-"
+"education-es-high-sub.pt-br.ogv\">46 MB</a> | <a href=\"http://audio-video."
+"gnu.org/video/rms-education-es-low-sub.pt-br.ogv\">14 MB</a>"
+msgstr ""
+"portugais (brésilien) : <a href=\"http://audio-video.gnu.org/video/rms-"
+"education-es-high-sub.pt-br.ogv\">46 Mo</a> | <a href=\"http://audio-video."
+"gnu.org/video/rms-education-es-low-sub.pt-br.ogv\">14 Mo</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"Spanish: <a href=\"http://audio-video.gnu.org/video/rms-education-es-high-"
+"sub.es.ogv\">55 MB</a> | <a href=\"http://audio-video.gnu.org/video/rms-"
+"education-es-low-sub.es.ogv\">17 MB</a>"
+msgstr ""
+"espagnol : <a href=\"http://audio-video.gnu.org/video/rms-education-es-high-"
+"sub.es.ogv\">55 Mo</a> | <a href=\"http://audio-video.gnu.org/video/rms-"
+"education-es-low-sub.es.ogv\">17 Mo</a>"
+
+#. type: Content of: <p>
+msgid ""
+"&rarr; Video &ldquo;How GIMP Changed Mani's Life - We Use GNU/Linux&rdquo;:"
+msgstr ""
+"&rarr; Vidéo « Comment GIMP a changé la vie de Mani - nous utilisons GNU/"
+"Linux » :"
 
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://audio-video.gnu.org/video/we_use_gnu-linux_high.ogv\"> High "
 "resolution</a>, 146 MB."
 msgstr ""
-"<a href=\"http://audio-video.gnu.org/video/we_use_gnu-linux_high.ogv\">Haute "
-"résolution</a>, 146 MB."
-
-#. type: Content of: <h3>
-msgid "Video Transcriptions, Descriptions and Translations"
-msgstr "Transcriptions, descriptions et traductions de vidéos"
+"<a href=\"http://audio-video.gnu.org/video/we_use_gnu-linux_high.ogv\">haute "
+"résolution</a>, 146 Mo"
 
 #. type: Content of: <ul><li>
-msgid "Richard Stallman's video on education:"
-msgstr "Vidéo de Richard Stallman sur l'éducation :"
+msgid ""
+"<a href=\"http://audio-video.gnu.org/video/we_use_gnu-linux_low.ogv\"> Low "
+"resolution</a>, 15 MB."
+msgstr ""
+"<a href=\"http://audio-video.gnu.org/video/we_use_gnu-linux_low.ogv\">basse "
+"résolution</a>, 15 Mo"
+
+#. type: Content of: <p>
+msgid "&rarr; Video &ldquo;Freedom in Practice at Irimpanam School&rdquo;:"
+msgstr "&rarr; Vidéo « La liberté en pratique à l'école d'Irimpanam » :"
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://audio-video.gnu.org/video/irimpanam-high-sub.en.ogv\"> "
+"Original version in Malayalam with English subtitles</a>, 40 MB."
+msgstr ""
+"<a href=\"http://audio-video.gnu.org/video/irimpanam-high-sub.en.ogv\"> "
+"Version originale en malayalam sous-titrée en anglais</a>, 40 Mo."
+
+#. type: Content of: <h3>
+msgid "Video Transcriptions and Descriptions"
+msgstr "Transcriptions et descriptions de vidéos"
+
+#. type: Content of: <ul><li>
+msgid "Transcriptions of Richard Stallman's video on education:"
+msgstr "Transcriptions de la vidéo de Richard Stallman sur l'éducation :"
 
 #.  Add languages in alphabetical order 
 #. type: Content of: outside any tag (error?)
 msgid ""
-"<a href=\"/education/misc/rms-education-es-translation-to-pt-br.txt"
-"\">Brazilian Portuguese</a> | <a href=\"/education/misc/rms-education-es-"
-"translation-to-en.txt\">English</a> | <a href=\"/education/misc/rms-"
-"education-es-transcription.fr.txt\">French</a> | <a href=\"/education/misc/"
-"rms-education-es-transcription.de.txt\">German</a> | <a href=\"/education/"
-"misc/rms-education-es-transcription.it.txt\">Italian</a> | <a href=\"/"
-"education/misc/rms-education-es-transcription.txt\">Spanish</a> |"
+"<a href=\"/education/misc/rms-education-es-translation-to-en.txt\">English</"
+"a> | <a href=\"/education/misc/rms-education-es-transcription.fr.txt"
+"\">French</a> | <a href=\"/education/misc/rms-education-es-transcription.de."
+"txt\">German</a> | <a href=\"/education/misc/rms-education-es-transcription."
+"it.txt\">Italian</a> | <a href=\"/education/misc/rms-education-es-"
+"translation-to-pt-br.txt\">Portuguese (Brazilian)</a> | <a href=\"/education/"
+"misc/rms-education-es-transcription.txt\">Spanish</a> |"
 msgstr ""
-"<a href=\"/education/misc/rms-education-es-translation-to-pt-br.txt"
-"\">portugais brésilien</a> | <a href=\"/education/misc/rms-education-es-"
-"translation-to-en.txt\">anglais</a> | <a href=\"/education/misc/rms-"
-"education-es-transcription.fr.txt\">français</a> | <a href=\"/education/misc/"
-"rms-education-es-transcription.de.txt\">allemand</a> | <a href=\"/education/"
-"misc/rms-education-es-transcription.it.txt\">italien</a> | <a href=\"/"
+"<a href=\"/education/misc/rms-education-es-translation-to-en.txt\">anglais</"
+"a> | <a href=\"/education/misc/rms-education-es-transcription.fr.txt"
+"\">français</a> | <a href=\"/education/misc/rms-education-es-transcription."
+"de.txt\">allemand</a> | <a href=\"/education/misc/rms-education-es-"
+"transcription.it.txt\">italien</a> | <a href=\"/education/misc/rms-education-"
+"es-translation-to-pt-br.txt\">portugais (brésilien)</a> | <a href=\"/"
 "education/misc/rms-education-es-transcription.txt\">espagnol</a> |"
 
+#. type: Content of: <ul><li>
+msgid ""
+"Descriptions of the video &ldquo;How GIMP Changed Mani's Life - We Use GNU/"
+"Linux&rdquo;:"
+msgstr ""
+"Descriptions de la vidéo « Comment GIMP a changé la vie de Mani - nous "
+"utilisons GNU/Linux » :"
+
 #.  Add languages in alphabetical order 
 #. type: Content of: outside any tag (error?)
 msgid ""
-"<a href=\"/education/misc/we_use_gnu-linux_description.en.txt\">English</a> |"
+"<a href=\"/education/misc/we_use_gnu-linux_description.en.txt\">English</a> "
+"| <a href=\"/education/misc/we_use_gnu-linux_description.fr.txt\">French</a> "
+"|"
 msgstr ""
 "<a href=\"/education/misc/we_use_gnu-linux_description.en.txt\">anglais</a> "
 "| <a href=\"/education/misc/we_use_gnu-linux_description.fr.txt\">français</"
-"a> | "
+"a> |"
 
 #. type: Content of: <h3>
 msgid "Video Subtitles in SubRip Format"
-msgstr "Sous-titres de vidéos au format SubRip"
+msgstr "Sous-titres des vidéos au format SubRip"
+
+#. type: Content of: <ul><li>
+msgid "Subtitles for Richard Stallman's video on education:"
+msgstr "Sous-titres de la vidéo de Richard Stallman sur l'éducation :"
 
 #.  Add languages in alphabetical order 
 #. type: Content of: outside any tag (error?)
 msgid ""
-"<a href=\"/education/misc/rms-education-es-sub.pt-br.srt\">Brazilian "
-"Portuguese</a> | <a href=\"/education/misc/rms-education-es-sub.en.srt"
-"\">English</a> | <a href=\"/education/misc/rms-education-es-sub.pt.srt"
-"\">European Portuguese</a> | <a href=\"/education/misc/rms-education-es-sub."
-"de.srt\">German</a> | <a href=\"/education/misc/rms-education-es-sub.it.srt"
-"\">Italian</a> | <a href=\"/education/misc/rms-education-es-sub.es.srt"
-"\">Spanish</a> |"
+"<a href=\"/education/misc/rms-education-es-sub.en.srt\">English</a> | <a "
+"href=\"/education/misc/rms-education-es-sub.fr.srt\">French</a> | <a href=\"/"
+"education/misc/rms-education-es-sub.de.srt\">German</a> | <a href=\"/"
+"education/misc/rms-education-es-sub.it.srt\">Italian</a> | <a href=\"/"
+"education/misc/rms-education-es-sub.pt-br.srt\">Portuguese (Brazilian)</a> | "
+"<a href=\"/education/misc/rms-education-es-sub.es.srt\">Spanish</a> |"
 msgstr ""
-"<a href=\"/education/misc/rms-education-es-sub.pt-br.srt\">portugais "
-"brésilien</a> | <a href=\"/education/misc/rms-education-es-sub.en.srt"
-"\">anglais</a> | <a href=\"/education/misc/rms-education-es-sub.pt.srt"
-"\">portugais européen</a> | <a href=\"/education/misc/rms-education-es-sub."
-"de.srt\">allemand</a> | <a href=\"/education/misc/rms-education-es-sub.it.srt"
-"\">italien</a> | <a href=\"/education/misc/rms-education-es-sub.es.srt"
-"\">espagnol</a> | <a href=\"/education/misc/rms-education-es-sub.fr.srt"
-"\">français</a> |"
+"<a href=\"/education/misc/rms-education-es-sub.en.srt\">anglais</a> | <a "
+"href=\"/education/misc/rms-education-es-sub.fr.srt\">français</a> | <a href="
+"\"/education/misc/rms-education-es-sub.de.srt\">allemand</a> | <a href=\"/"
+"education/misc/rms-education-es-sub.it.srt\">italien</a> | <a href=\"/"
+"education/misc/rms-education-es-sub.pt-br.srt\">portugais (brésilien)</a> | "
+"<a href=\"/education/misc/rms-education-es-sub.es.srt\">espagnol</a> |"
 
 #. type: Content of: <ul><li>
-msgid "Freedom in Practice at Irimpanam School"
-msgstr "La liberté en pratique à l'école d'Irimpanam"
+msgid ""
+"Subtitles for the video &ldquo;Freedom in Practice at Irimpanam "
+"School&rdquo;:"
+msgstr ""
+"Sous-titres de la vidéo « La liberté en pratique à l'école d'Irimpanam » :"
 
 #.  Add languages in alphabetical order 
 #. type: Content of: outside any tag (error?)
@@ -290,7 +434,7 @@ msgid ""
 "education/misc/appooppanthady.ogg\">35 KB</a>"
 msgstr ""
 "Prononciation en malayalam : fleur <cite>Appooppanthaady</cite>, ogg,  <a "
-"href=\"/education/misc/appooppanthady.ogg\">35 KB</a>"
+"href=\"/education/misc/appooppanthady.ogg\">35 ko</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -298,15 +442,15 @@ msgid ""
 "misc/anthoorium.ogg\">42 KB</a>"
 msgstr ""
 "Prononciation en malayalam : fleur <cite>Anthoorium</cite>, ogg, <a href=\"/"
-"education/misc/anthoorium.ogg\">42 KB</a>."
+"education/misc/anthoorium.ogg\">42 ko</a>."
 
 #. type: Content of: <ul><li>
 msgid ""
 "Pronunciation in Malayalam: Adeenia flower, ogg, <a href=\"/education/misc/"
 "adeenia.ogg\">30 KB</a>"
 msgstr ""
-"Prononciation en malayalam : fleur <cite>Adeenia</cite>, ogg, <a href=\"/"
-"education/misc/adeenia.ogg\">30 KB</a>."
+"Prononciation en malayalam : fleur <cite>Adeenia</cite>, <a href=\"/"
+"education/misc/adeenia.ogg\">30 ko</a>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
@@ -319,9 +463,9 @@ msgid ""
 "\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
 "to contact</a> the FSF."
 msgstr ""
-"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
-"gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF."
+"Veuillez envoyer les requêtes générales concernant la FSF et GNU à <a href="
+"\"mailto:gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/"
+"contact/\">d'autres moyens de contacter</a> la FSF."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -345,7 +489,7 @@ msgstr ""
 "translators@gnu.org&gt;</a>.</p>\n"
 "<p>Pour tout renseignement sur la coordination et la soumission des "
 "traductions de nos pages web, reportez-vous au <a href=\"/server/standards/"
-"README.translations.html\">guide de traduction</a>."
+"README.translations.html\">guide de traduction</a>. "
 
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 2011, 2012 Free Software Foundation, Inc."
@@ -369,4 +513,4 @@ msgstr " "
 #.  timestamp start 
 #. type: Content of: <div><p>
 msgid "Updated:"
-msgstr "Dernière mise à jour&nbsp;:"
+msgstr "Updated:"
