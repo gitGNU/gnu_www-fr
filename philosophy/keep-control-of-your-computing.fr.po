@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: keep-control-of-your-computing.html\n"
-"POT-Creation-Date: 2012-07-14 23:23+0300\n"
+"POT-Creation-Date: 2012-07-14 04:25-0300\n"
 "PO-Revision-Date: 2012-07-14 23:22+0200\n"
 "Last-Translator: Olm <olivier AT olsc.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -101,14 +101,6 @@ msgstr ""
 "Mais même en l'absence de tels abus, il n'était pas correct pour les "
 "utilisateurs d'être contrôlés par leur logiciel."
 
-# | That's why I launched the free software movement in 1983. We decided to
-# | develop an operating system and applications that would be entirely free
-# | (libre, freie), so that the users would have control over them.  I gave
-# | this system the name GNU. (You have probably heard people call it
-# | [-\"Linux\",-] {+&ldquo;Linux&rdquo;,+} but that's an error.) People who
-# | switch to this system, and insist on using only free software, are in a
-# | position to control their computing. We have liberated only a small part
-# | of cyberspace, as yet, but that is a foothold for freedom.
 #. type: Content of: <p>
 msgid ""
 "That's why I launched the free software movement in 1983. We decided to "
@@ -148,12 +140,6 @@ msgstr ""
 "enregistrait de manière permanente que tel utilisateur avait visité "
 "certaines pages."
 
-# | Java[-s-]{+S+}cript created a further problem. Initially used for harmless
-# | things such as unusual-looking menus, its capabilities have been extended
-# | to the point where it can do nontrivial computing. Services such as Google
-# | Docs install large Java[-s-]{+S+}cript programs into the user's browser.
-# | Even though they run in your computer, you have no control over what they
-# | do there.
 #. type: Content of: <p>
 msgid ""
 "JavaScript created a further problem. Initially used for harmless things "
@@ -184,14 +170,6 @@ msgstr ""
 "données. Elles paient Facebook (pas vous) pour lancer des publicités "
 "utilisant votre visage."
 
-# | The timesharing companies of the 1980s had usually treated their users'
-# | data with respect, even though they could occasionally abuse them, because
-# | their users were paying clients and could go elsewhere.  Facebook's users
-# | do not pay, so they are not its clients. They are its merchandise, to be
-# | sold to other businesses. If the company is in the US, or is a subsidiary
-# | of a US company, the FBI can collect this data at whim without even a
-# | court order under an un-American US law, named in purest blackwhiting the
-# | [-\"Patriot Act\".-] {+&ldquo;Patriot Act&rdquo;.+}
 #. type: Content of: <p>
 msgid ""
 "The timesharing companies of the 1980s had usually treated their users' data "
@@ -225,12 +203,6 @@ msgstr ""
 "traitements sur les serveurs, et que les serveurs prennent le contrôle "
 "complet de ce traitement."
 
-# | There is a systematic marketing campaign to drive users to entrusting
-# | their computing and their data to companies they have absolutely no reason
-# | to trust. Its buzzword is [-\"cloud computing\",-] {+&ldquo;cloud
-# | computing&rdquo;,+} a term used for so many different computing structures
-# | that its only real meaning is, [-\"Do-] {+&ldquo;Do+} it without thinking
-# | about what you're [-doing\".-] {+doing&rdquo;.+}
 #. type: Content of: <p>
 msgid ""
 "There is a systematic marketing campaign to drive users to entrusting their "
@@ -247,14 +219,6 @@ msgstr ""
 "l'information différentes que sa seule signification véritable est : "
 "« Faites-le sans réfléchir à ce que vous faites »."
 
-# | There is even a product, Google ChromeOS, designed so that it can only
-# | store data remotely, and the user must do her computing remotely. 
-# | Ironically, it is free software, a version of GNU/Linux. Users will have
-# | access to the source code, and could change it so as to support local
-# | computing and local data [-storage &mdash; if-] {+storage&mdash;if+} the
-# | machine has enough memory to store it, and if it permits users to install
-# | their own versions of the software. If Android phones are any guide, most
-# | ChromeOS devices will be designed to prevent users from doing that.
 #. type: Content of: <p>
 msgid ""
 "There is even a product, Google ChromeOS, designed so that it can only store "
@@ -296,7 +260,6 @@ msgstr ""
 "<em>proprietary</em> : propriétaire. <a href=\"#TransNote1-rev\">&#8593;</"
 "a></li></ol>"
 
-# || No change detected.  The change might only be in amounts of spaces.
 #. type: Content of: <div><p>
 msgid ""
 "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
@@ -362,20 +325,3 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour&nbsp;:"
-
-#~ msgid ""
-#~ "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu."
-#~ "org\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/"
-#~ "\">other ways to contact</a> the FSF."
-#~ msgstr ""
-#~ "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
-#~ "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-#~ "\">d'autres moyens de contacter</a> la FSF."
-
-#~ msgid ""
-#~ "Please send broken links and other corrections or suggestions to <a href="
-#~ "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
-#~ msgstr ""
-#~ "Veuillez indiquer (en anglais) les liens orphelins et autres corrections "
-#~ "ou suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-#~ "org&gt;</a>."
