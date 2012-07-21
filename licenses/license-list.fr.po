@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2012-07-13 12:26-0300\n"
-"PO-Revision-Date: 2012-07-14 22:51+0200\n"
+"POT-Creation-Date: 2012-07-21 20:39+0300\n"
+"PO-Revision-Date: 2012-07-21 20:38+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -789,15 +789,19 @@ msgstr ""
 "GPL. Cette licence a les mêmes <a href=\"/philosophy/why-not-lgpl.html"
 "\">points faibles</a> que la LGPL."
 
+# | <a id=\"ECL2.0\" [-href=\"http://www.opensource.org/licenses/ecl2.php\">-]
+# | {+href=\"http://www.fedora-commons.org/documentation/3.0b2/license/license.html\">+}
+# | Educational Community License 2.0</a> <span class=\"anchor-reference-id\">
+# | (<a href=\"#ECL2.0\">#ECL2.0</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"ECL2.0\" href=\"http://www.opensource.org/licenses/ecl2.php\"> "
-"Educational Community License 2.0</a> <span class=\"anchor-reference-id\"> "
-"(<a href=\"#ECL2.0\">#ECL2.0</a>)</span>"
+"<a id=\"ECL2.0\" href=\"http://www.fedora-commons.org/documentation/3.0b2/"
+"license/license.html\"> Educational Community License 2.0</a> <span class="
+"\"anchor-reference-id\"> (<a href=\"#ECL2.0\">#ECL2.0</a>)</span>"
 msgstr ""
-"<a id=\"ECL2.0\" href=\"http://www.opensource.org/licenses/ecl2.php\"> "
-"Educational Community License 2.0</a> [EN] <span class=\"anchor-reference-id"
-"\"> (<a href=\"#ECL2.0\">#ECL2.0</a>)</span>"
+"<a id=\"ECL2.0\" href=\"http://www.fedora-commons.org/documentation/3.0b2/"
+"license/license.html\"> Educational Community License 2.0</a> [EN] <span "
+"class=\"anchor-reference-id\"> (<a href=\"#ECL2.0\">#ECL2.0</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -836,15 +840,20 @@ msgstr ""
 "\"http://www.eiffel-nice.org/license/forum.txt\">versions précédentes</a> de "
 "la licence Eiffel ne sont pas compatibles avec la GPL."
 
+# | <a id=\"EUDataGrid\"
+# | [-href=\"http://www.opensource.org/licenses/eudatagrid.php\">-]
+# | {+href=\"http://eu-datagrid.web.cern.ch/eu-datagrid/license.html\">+} EU
+# | DataGrid Software License</a> <span class=\"anchor-reference-id\"> (<a
+# | href=\"#EUDataGrid\">#EUDataGrid</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"EUDataGrid\" href=\"http://www.opensource.org/licenses/eudatagrid.php"
-"\"> EU DataGrid Software License</a> <span class=\"anchor-reference-id\"> "
-"(<a href=\"#EUDataGrid\">#EUDataGrid</a>)</span>"
+"<a id=\"EUDataGrid\" href=\"http://eu-datagrid.web.cern.ch/eu-datagrid/"
+"license.html\"> EU DataGrid Software License</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#EUDataGrid\">#EUDataGrid</a>)</span>"
 msgstr ""
-"<a id=\"EUDataGrid\" href=\"http://www.opensource.org/licenses/eudatagrid.php"
-"\"> EU DataGrid Software License</a> [EN] <span class=\"anchor-reference-id"
-"\"> (<a href=\"#EUDataGrid\">#EUDataGrid</a>)</span>"
+"<a id=\"EUDataGrid\" href=\"http://eu-datagrid.web.cern.ch/eu-datagrid/"
+"license.html\"> EU DataGrid Software License</a> [EN] <span class=\"anchor-"
+"reference-id\"> (<a href=\"#EUDataGrid\">#EUDataGrid</a>)</span>"
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -976,15 +985,20 @@ msgstr ""
 "signifient toutes que les sources ont été «&nbsp;rendues disponibles "
 "publiquement&nbsp;», selon ses propres termes."
 
+# | <a id=\"intel\"
+# | [-href=\"http://www.opensource.org/licenses/intel-open-source-license.html\">-]
+# | {+href=\"https://fedoraproject.org/wiki/Licensing/Intel_ACPI_Software_License_Agreement\">+}
+# | Intel Open Source License</a> <span class=\"anchor-reference-id\">(<a
+# | href=\"#intel\">#intel</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"intel\" href=\"http://www.opensource.org/licenses/intel-open-source-"
-"license.html\"> Intel Open Source License</a> <span class=\"anchor-reference-"
-"id\">(<a href=\"#intel\">#intel</a>)</span>"
+"<a id=\"intel\" href=\"https://fedoraproject.org/wiki/Licensing/"
+"Intel_ACPI_Software_License_Agreement\"> Intel Open Source License</a> <span "
+"class=\"anchor-reference-id\">(<a href=\"#intel\">#intel</a>)</span>"
 msgstr ""
-"<a id=\"intel\" href=\"http://www.opensource.org/licenses/intel-open-source-"
-"license.html\"> Intel Open Source License</a> [EN] <span class=\"anchor-"
-"reference-id\">(<a href=\"#intel\">#intel</a>)</span>"
+"<a id=\"intel\" href=\"https://fedoraproject.org/wiki/Licensing/"
+"Intel_ACPI_Software_License_Agreement\"> Intel Open Source License</a> [EN] "
+"<span class=\"anchor-reference-id\">(<a href=\"#intel\">#intel</a>)</span>"
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -1139,15 +1153,20 @@ msgstr ""
 "qu'un logiciel disponible uniquement sous les versions précédentes de la MPL "
 "reste incompatible avec la GPL et l'AGPL."
 
+# | <a id=\"NCSA\"
+# | [-href=\"http://www.opensource.org/licenses/UoI-NCSA.php\">-]
+# | {+href=\"http://otm.illinois.edu/uiuc_openSource\">+} NCSA/University of
+# | Illinois Open Source License</a> <span class=\"anchor-reference-id\">(<a
+# | href=\"#NCSA\">#NCSA</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"NCSA\" href=\"http://www.opensource.org/licenses/UoI-NCSA.php\"> "
-"NCSA/University of Illinois Open Source License</a> <span class=\"anchor-"
+"<a id=\"NCSA\" href=\"http://otm.illinois.edu/uiuc_openSource\"> NCSA/"
+"University of Illinois Open Source License</a> <span class=\"anchor-"
 "reference-id\">(<a href=\"#NCSA\">#NCSA</a>)</span>"
 msgstr ""
-"<a id=\"NCSA\" href=\"http://www.opensource.org/licenses/UoI-NCSA.php\"> "
-"NCSA/University of Illinois Open Source License</a> [EN] <span class="
-"\"anchor-reference-id\">(<a href=\"#NCSA\">#NCSA</a>)</span>"
+"<a id=\"NCSA\" href=\"http://otm.illinois.edu/uiuc_openSource\"> NCSA/"
+"University of Illinois Open Source License</a> [EN] <span class=\"anchor-"
+"reference-id\">(<a href=\"#NCSA\">#NCSA</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -1915,15 +1934,20 @@ msgstr ""
 "Et aussi, malheureusement, il y a l'usage dans la CDDL du terme « <a href=\"/"
 "philosophy/not-ipr.html\">propriété intellectuelle</a> »."
 
+# | <a id=\"CPAL\" [-href=\"http://opensource.org/licenses/cpal_1.0\">-]
+# | {+href=\"https://www.socialtext.net/open/cpal_license_in_wikitext\">+}
+# | Common Public Attribution License 1.0 (CPAL)</a> <span
+# | class=\"anchor-reference-id\"> (<a href=\"#CPAL\">#CPAL</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"CPAL\" href=\"http://opensource.org/licenses/cpal_1.0\"> Common "
-"Public Attribution License 1.0 (CPAL)</a> <span class=\"anchor-reference-id"
-"\"> (<a href=\"#CPAL\">#CPAL</a>)</span>"
+"<a id=\"CPAL\" href=\"https://www.socialtext.net/open/"
+"cpal_license_in_wikitext\"> Common Public Attribution License 1.0 (CPAL)</a> "
+"<span class=\"anchor-reference-id\"> (<a href=\"#CPAL\">#CPAL</a>)</span>"
 msgstr ""
-"<a id=\"CPAL\" href=\"http://opensource.org/licenses/cpal_1.0\"> Common "
-"Public Attribution License 1.0 (CPAL)</a> [EN] <span class=\"anchor-"
-"reference-id\"> (<a href=\"#CPAL\">#CPAL</a>)</span>"
+"<a id=\"CPAL\" href=\"https://www.socialtext.net/open/"
+"cpal_license_in_wikitext\"> Common Public Attribution License 1.0 (CPAL)</a> "
+"[EN] <span class=\"anchor-reference-id\"> (<a href=\"#CPAL\">#CPAL</a>)</"
+"span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2082,15 +2106,19 @@ msgstr ""
 "sous cette licence, puis l'ajouter au programme. Cette addition justifie "
 "d'émettre une nouvelle licence en GPLv3+. "
 
+# | <a id=\"IBMPL\" [-href=\"http://www.opensource.org/licenses/ibmpl.php\">-]
+# | {+href=\"http://www.ibm.com/developerworks/opensource/library/os-i18n2/os-ipl.html\">+}
+# | IBM Public License, Version 1.0</a> <span
+# | class=\"anchor-reference-id\">(<a href=\"#IBMPL\">#IBMPL</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"IBMPL\" href=\"http://www.opensource.org/licenses/ibmpl.php\"> IBM "
-"Public License, Version 1.0</a> <span class=\"anchor-reference-id\">(<a href="
-"\"#IBMPL\">#IBMPL</a>)</span>"
+"<a id=\"IBMPL\" href=\"http://www.ibm.com/developerworks/opensource/library/"
+"os-i18n2/os-ipl.html\"> IBM Public License, Version 1.0</a> <span class="
+"\"anchor-reference-id\">(<a href=\"#IBMPL\">#IBMPL</a>)</span>"
 msgstr ""
-"<a id=\"IBMPL\" href=\"http://www.opensource.org/licenses/ibmpl.php\"> IBM "
-"Public License, version&nbsp;1.0</a> [EN] <span class=\"anchor-reference-id"
-"\">(<a href=\"#IBMPL\">#IBMPL</a>)</span>"
+"<a id=\"IBMPL\" href=\"http://www.ibm.com/developerworks/opensource/library/"
+"os-i18n2/os-ipl.html\"> IBM Public License, version&nbsp;1.0</a> [EN] <span "
+"class=\"anchor-reference-id\">(<a href=\"#IBMPL\">#IBMPL</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2422,15 +2450,19 @@ msgstr ""
 "droit d'utiliser <em>leur</em> code en contrepartie. Nous vous supplions de "
 "ne pas utiliser la NPL."
 
+# | <a id=\"Nokia\" [-href=\"http://opensource.org/licenses/nokia.html\">-]
+# | {+href=\"http://sw.nokia.com/tools/LICENSE.txt\">+} Nokia Open Source
+# | License</a> <span class=\"anchor-reference-id\">(<a
+# | href=\"#Nokia\">#Nokia</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"Nokia\" href=\"http://opensource.org/licenses/nokia.html\"> Nokia "
-"Open Source License</a> <span class=\"anchor-reference-id\">(<a href=\"#Nokia"
+"<a id=\"Nokia\" href=\"http://sw.nokia.com/tools/LICENSE.txt\"> Nokia Open "
+"Source License</a> <span class=\"anchor-reference-id\">(<a href=\"#Nokia"
 "\">#Nokia</a>)</span>"
 msgstr ""
-"<a id=\"Nokia\" href=\"http://opensource.org/licenses/nokia.html\"> Nokia "
-"Open Source License</a> [EN] <span class=\"anchor-reference-id\">(<a href="
-"\"#Nokia\">#Nokia</a>)</span>"
+"<a id=\"Nokia\" href=\"http://sw.nokia.com/tools/LICENSE.txt\"> Nokia Open "
+"Source License</a> [EN] <span class=\"anchor-reference-id\">(<a href=\"#Nokia"
+"\">#Nokia</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2712,13 +2744,17 @@ msgstr ""
 "cet avis aux fichiers sources, à la suite du texte expliquant que le "
 "programme est couvert par la GNU GPL."
 
+# | <a id=\"RPSL\" [-href=\"http://www.opensource.org/licenses/real.php\">-]
+# | {+href=\"https://helixcommunity.org/content/rpsl\">+} RealNetworks Public
+# | Source License (RPSL), Version 1.0</a> <span
+# | class=\"anchor-reference-id\">(<a href=\"#RPSL\">#RPSL</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"RPSL\" href=\"http://www.opensource.org/licenses/real.php\"> "
+"<a id=\"RPSL\" href=\"https://helixcommunity.org/content/rpsl\"> "
 "RealNetworks Public Source License (RPSL), Version 1.0</a> <span class="
 "\"anchor-reference-id\">(<a href=\"#RPSL\">#RPSL</a>)</span>"
 msgstr ""
-"<a id=\"RPSL\" href=\"http://www.opensource.org/licenses/real.php\"> "
+"<a id=\"RPSL\" href=\"https://helixcommunity.org/content/rpsl\"> "
 "RealNetworks Public Source License (RPSL),  version&nbsp;1.0</a> [EN] <span "
 "class=\"anchor-reference-id\">(<a href=\"#RPSL\">#RPSL</a>)</span>"
 
@@ -3350,14 +3386,18 @@ msgstr ""
 "Microsoft a d'autres licences qu'elle décrit comme <em>Shared Source</em>, "
 "parmi lesquelles certaines ont diverses restrictions."
 
+# | <a id=\"NASA\" [-href=\"http://www.opensource.org/licenses/nasa1.3\">-]
+# | {+href=\"http://ti.arc.nasa.gov/opensource/nosa/\">+} NASA Open Source
+# | Agreement</a> <span class=\"anchor-reference-id\">(<a
+# | href=\"#NASA\">#NASA</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"NASA\" href=\"http://www.opensource.org/licenses/nasa1.3\"> NASA "
-"Open Source Agreement</a> <span class=\"anchor-reference-id\">(<a href="
-"\"#NASA\">#NASA</a>)</span>"
+"<a id=\"NASA\" href=\"http://ti.arc.nasa.gov/opensource/nosa/\"> NASA Open "
+"Source Agreement</a> <span class=\"anchor-reference-id\">(<a href=\"#NASA"
+"\">#NASA</a>)</span>"
 msgstr ""
-"<a id=\"NASA\" href=\"http://www.opensource.org/licenses/nasa1.3\"> NASA "
-"Open Source Agreement</a> [EN] <span class=\"anchor-reference-id\">(<a href="
+"<a id=\"NASA\" href=\"http://ti.arc.nasa.gov/opensource/nosa/\"> NASA Open "
+"Source Agreement</a> [EN] <span class=\"anchor-reference-id\">(<a href="
 "\"#NASA\">#NASA</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
@@ -3471,15 +3511,19 @@ msgstr ""
 "toujours la date du 20 septembre 2000). Cependant, un autre changement de "
 "licence en 2003 fait de Plan 9 un logiciel libre."
 
+# | <a id=\"RPL\" [-href=\"http://www.opensource.org/licenses/rpl.php\">-]
+# | {+href=\"http://web.archive.org/web/20080828191234/http://www.technicalpursuit.com/licenses/RPL_1.3.html\">+}
+# | Reciprocal Public License</a> <span class=\"anchor-reference-id\">(<a
+# | href=\"#RPL\">#RPL</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"RPL\" href=\"http://www.opensource.org/licenses/rpl.php\"> "
-"Reciprocal Public License</a> <span class=\"anchor-reference-id\">(<a href="
-"\"#RPL\">#RPL</a>)</span>"
+"<a id=\"RPL\" href=\"http://web.archive.org/web/20080828191234/http://www."
+"technicalpursuit.com/licenses/RPL_1.3.html\"> Reciprocal Public License</a> "
+"<span class=\"anchor-reference-id\">(<a href=\"#RPL\">#RPL</a>)</span>"
 msgstr ""
-"<a id=\"RPL\" href=\"http://www.opensource.org/licenses/rpl.php\"> "
-"Reciprocal Public License</a> [EN] <span class=\"anchor-reference-id\">(<a "
-"href=\"#RPL\">#RPL</a>)</span>"
+"<a id=\"RPL\" href=\"http://web.archive.org/web/20080828191234/http://www."
+"technicalpursuit.com/licenses/RPL_1.3.html\"> Reciprocal Public License</a> "
+"[EN] <span class=\"anchor-reference-id\">(<a href=\"#RPL\">#RPL</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -3633,16 +3677,22 @@ msgstr ""
 "Ce n'est pas une licence de logiciel libre. Elle interdit la redistribution "
 "ainsi que l'usage commercial du logiciel, et elle peut être révoquée."
 
+# | <a id=\"Sybase\"></a> <a id=\"Watcom\"
+# | [-href=\"http://www.opensource.org/licenses/Watcom-1.0\">-]
+# | {+href=\"http://www.openwatcom.org/index.php/Open_Watcom_Public_License\">+}
+# | Sybase Open Watcom Public License version 1.0</a> <span
+# | class=\"anchor-reference-id\"> (<a href=\"#Watcom\">#Watcom</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"Sybase\"></a> <a id=\"Watcom\" href=\"http://www.opensource.org/"
-"licenses/Watcom-1.0\"> Sybase Open Watcom Public License version 1.0</a> "
-"<span class=\"anchor-reference-id\"> (<a href=\"#Watcom\">#Watcom</a>)</span>"
+"<a id=\"Sybase\"></a> <a id=\"Watcom\" href=\"http://www.openwatcom.org/"
+"index.php/Open_Watcom_Public_License\"> Sybase Open Watcom Public License "
+"version 1.0</a> <span class=\"anchor-reference-id\"> (<a href=\"#Watcom"
+"\">#Watcom</a>)</span>"
 msgstr ""
-"<a id=\"Sybase\"></a> <a id=\"Watcom\" href=\"http://www.opensource.org/"
-"licenses/Watcom-1.0\"> Sybase Open Watcom Public License version 1.0</a> "
-"[EN] <span class=\"anchor-reference-id\"> (<a href=\"#Watcom\">#Watcom</a>)</"
-"span>"
+"<a id=\"Sybase\"></a> <a id=\"Watcom\" href=\"http://www.openwatcom.org/"
+"index.php/Open_Watcom_Public_License\"> Sybase Open Watcom Public License "
+"version 1.0</a> [EN] <span class=\"anchor-reference-id\"> (<a href=\"#Watcom"
+"\">#Watcom</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
