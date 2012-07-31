@@ -6,15 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-recommendations.html\n"
-"POT-Creation-Date: 2012-07-28 11:41+0300\n"
-"PO-Revision-Date: 2012-07-28 11:32+0200\n"
+"POT-Creation-Date: 2012-07-28 04:29-0300\n"
+"PO-Revision-Date: 2012-07-31 14:08+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-07-28 04:29-0300\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -293,14 +292,13 @@ msgstr ""
 msgid "Documentation"
 msgstr "Documentation"
 
-#. type: Content of: <p>
 # | We recommend the <a href=\"/licenses/fdl.html\">GNU Free Documentation
 # | License ({+G+}FDL)</a> for {+tutorials, reference manuals and other large
 # | works of+} documentation.  It's a strong copyleft license for educational
 # | works, initially written for software manuals, and includes terms which
 # | specifically address common issues that arise when those works are
 # | distributed or modified.
-#, fuzzy
+#. type: Content of: <p>
 #| msgid ""
 #| "We recommend the <a href=\"/licenses/fdl.html\">GNU Free Documentation "
 #| "License (FDL)</a> for documentation.  It's a strong copyleft license for "
@@ -316,11 +314,13 @@ msgid ""
 "distributed or modified."
 msgstr ""
 "Pour la documentation, nous recommandons la <a href=\"/licenses/fdl.html"
-"\">licence de documentation libre GNU (<acronym title=\"Free Documentation "
-"License\">FDL</acronym>)</a>. C'est une licence à copyleft fort pour les "
-"ouvrages éducatifs, écrite à l'origine pour les manuels des logiciels ; elle "
-"contient des clauses qui répondent spécifiquement aux problèmes courants qui "
-"surviennent quand ces ouvrages sont distribués ou modifiés."
+"\">licence de documentation libre GNU (<acronym title=\"GNU Free "
+"Documentation License\">GFDL</acronym>)</a>. pour les manuels, les textes de "
+"référence et autres gros ouvrages de documentation. C'est une licence à "
+"copyleft fort pour les ouvrages éducatifs, écrite à l'origine pour les "
+"manuels des logiciels ; elle contient des clauses qui répondent "
+"spécifiquement aux problèmes courants qui surviennent quand ces ouvrages "
+"sont distribués ou modifiés."
 
 #. type: Content of: <p>
 msgid ""
@@ -329,12 +329,19 @@ msgid ""
 "hardly fit in a reference card.  CC-BY is fine, since the issue of patents "
 "does not arise for documentation."
 msgstr ""
+"Pour les textes courts de documentation, de moindre importance (les cartes "
+"aide-mémoire par exemple), il vaut mieux utiliser une licence permissive "
+"faible puisqu'une copie de la GFDL aurait du mal à tenir sur une carte aide-"
+"mémoire. CC-BY est un bon choix car la question des brevets ne se pose pas "
+"pour la documentation."
 
 #. type: Content of: <p>
 msgid ""
 "For man pages, we recommend the GFDL if the page is long, and a lax "
 "permissive license if it is short."
 msgstr ""
+"Pour les pages de manuels, nous recommandons la GFDL si la page est longue "
+"et une licence permissive faible si elle est courte."
 
 #. type: Content of: <p>
 msgid ""
@@ -362,7 +369,6 @@ msgstr ""
 msgid "Other data for programs"
 msgstr "Autres données des programmes"
 
-#. type: Content of: <p>
 # | This section discusses all other works for practical use that you might
 # | include with software.  To give you some examples, this includes icons and
 # | other functional or useful graphics, fonts, and geographic data.  [-These
@@ -370,7 +376,7 @@ msgstr "Autres données des programmes"
 # | (rather than functional or educational) purpose, or statements of opinion
 # | or judgment.-]  {+You can also follow them for art, though we wouldn't
 # | criticize if you don't.+}
-#, fuzzy
+#. type: Content of: <p>
 #| msgid ""
 #| "This section discusses all other works for practical use that you might "
 #| "include with software.  To give you some examples, this includes icons "
@@ -387,9 +393,9 @@ msgstr ""
 "Cette section se rapporte à toutes les autres œuvres d'utilité pratique que "
 "vous pouvez inclure dans le logiciel. Pour vous donner quelques exemples, "
 "cela comprend les icônes et autres graphismes fonctionnels ou utiles, les "
-"polices et les données géographiques. Ces recommandations ne s'appliquent "
-"pas aux œuvres artistiques qui ont un but esthétique (plutôt que fonctionnel "
-"ou éducatif), ni à l'expression d'opinions ou de jugements."
+"polices et les données géographiques. Vous pouvez aussi suivre ces "
+"recommandations pour les œuvres artistiques, mais si vous ne le faites pas "
+"nous ne vous critiquerons pas."
 
 #. type: Content of: <p>
 msgid ""
