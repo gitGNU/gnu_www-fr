@@ -222,11 +222,6 @@ msgstr ""
 "que des machines qui utilisent ces versions d'Android respectent la liberté "
 "de l'utilisateur ? Non, et ceci pour plusieurs raisons."
 
-# | First of all, most of them contain nonfree Google applications for talking
-# | to services such as YouTube and Google Maps. These are officially not part
-# | of Android, but that doesn't make the product ok.  [-There are also
-# | nonfree libraries; whether they are part of Android is a moot point. What
-# | matters is that various functionalities need them.-]
 #. type: Content of: <p>
 msgid ""
 "First of all, most of them contain nonfree Google applications for talking "
@@ -264,13 +259,6 @@ msgstr ""
 "fonctionnalités en dépendent, on les trouve dans toute véritable "
 "installation d'Android."
 
-# | Even the [-executables-] {+programs+} that are officially part of Android
-# | may not correspond to the source code Google releases. Manufacturers may
-# | change this code, and often they don't release the source code for their
-# | versions. The GNU GPL requires them to distribute the code for their
-# | versions of Linux, [-if-] {+assuming+} they comply. The rest of the code,
-# | under the lax Apache license, does not require them to release the source
-# | version that they really use.
 #. type: Content of: <p>
 msgid ""
 "Even the programs that are officially part of Android may not correspond to "
