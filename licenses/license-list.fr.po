@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2012-08-16 20:25-0300\n"
-"PO-Revision-Date: 2012-08-17 08:42+0200\n"
+"POT-Creation-Date: 2012-08-21 07:15+0300\n"
+"PO-Revision-Date: 2012-08-21 07:14+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -461,11 +461,11 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"apache2\" href=\"http://www.apache.org/licenses/LICENSE-2.0\"> "
+"<a id=\"apache2\" href=\"http://directory.fsf.org/wiki/License:Apache2.0\"> "
 "Apache License, Version 2.0</a> <span class=\"anchor-reference-id\">(<a href="
 "\"#apache2\">#apache2</a>)</span>"
 msgstr ""
-"<a id=\"apache2\" href=\"http://www.apache.org/licenses/LICENSE-2.0\"> "
+"<a id=\"apache2\" href=\"http://directory.fsf.org/wiki/License:Apache2.0\"> "
 "Licence Apache, version 2.0</a> <span class=\"anchor-reference-id\">(<a href="
 "\"#apache2\">#apache2</a>)</span>"
 
@@ -494,12 +494,12 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"ArtisticLicense2\" href=\"http://www.perlfoundation.org/"
-"artistic_license_2_0\"> Artistic License 2.0</a> <span class=\"anchor-"
+"<a id=\"ArtisticLicense2\" href=\"http://directory.fsf.org/wiki/License:"
+"ArtisticLicense2.0\"> Artistic License 2.0</a> <span class=\"anchor-"
 "reference-id\"> (<a href=\"#ArtisticLicense2\">#ArtisticLicense2</a>)</span>"
 msgstr ""
-"<a id=\"ArtisticLicense2\" href=\"http://www.perlfoundation.org/"
-"artistic_license_2_0\"> Licence Artistic 2.0</a> <span class=\"anchor-"
+"<a id=\"ArtisticLicense2\" href=\"http://directory.fsf.org/wiki/License:"
+"ArtisticLicense2.0\"> Licence Artistic 2.0</a> <span class=\"anchor-"
 "reference-id\">(<a href=\"#ArtisticLicense2\">#ArtisticLicense2</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
@@ -513,17 +513,15 @@ msgstr ""
 #.  misspelled id, leave for compatibility 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"BerkleyDB\"></a> <a id=\"BerkeleyDB\" href=\"http://www.oracle.com/"
-"technetwork/database/berkeleydb/downloads/oslicense-093458.html\"> Berkeley "
-"Database License</a> (a.k.a. the Sleepycat Software Product License)  <span "
-"class=\"anchor-reference-id\"> (<a href=\"#BerkeleyDB\">#BerkeleyDB</a>)</"
-"span>"
+"<a id=\"BerkleyDB\"></a> <a id=\"BerkeleyDB\" href=\"http://directory.fsf."
+"org/wiki/License:Sleepycatl\"> Berkeley Database License</a> (a.k.a. the "
+"Sleepycat Software Product License)  <span class=\"anchor-reference-id\"> "
+"(<a href=\"#BerkeleyDB\">#BerkeleyDB</a>)</span>"
 msgstr ""
-"<a id=\"BerkleyDB\"></a> <a id=\"BerkeleyDB\" href=\"http://www.oracle.com/"
-"technetwork/database/berkeleydb/downloads/oslicense-093458.html\"> Berkeley "
-"Database License</a> (aussi appelée <em>Sleepycat Software Product License</"
-"em>) <span class=\"anchor-reference-id\">(<a href=\"#BerkeleyDB"
-"\">#BerkeleyDB</a>)</span>"
+"<a id=\"BerkleyDB\"></a> <a id=\"BerkeleyDB\" href=\"http://directory.fsf."
+"org/wiki/License:Sleepycatl\"> Berkeley Database License</a> (aussi appelée "
+"<em>Sleepycat Software Product License</em>) <span class=\"anchor-reference-"
+"id\">(<a href=\"#BerkeleyDB\">#BerkeleyDB</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid "This is a free software license, compatible with the GNU GPL."
@@ -531,11 +529,11 @@ msgstr "Il s'agit d'une licence de logiciel libre compatible avec la GNU GPL."
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"boost\" href=\"http://www.boost.org/LICENSE_1_0.txt\"> Boost "
+"<a id=\"boost\" href=\"http://directory.fsf.org/wiki/License:Boost\"> Boost "
 "Software License</a> <span class=\"anchor-reference-id\">(<a href=\"#boost"
 "\">#boost</a>)</span>"
 msgstr ""
-"<a id=\"boost\" href=\"http://www.boost.org/LICENSE_1_0.txt\"> Boost "
+"<a id=\"boost\" href=\"http://directory.fsf.org/wiki/License:Boost\"> Boost "
 "Software License</a> <span class=\"anchor-reference-id\">(<a href=\"#boost"
 "\">#boost</a>)</span>"
 
@@ -549,21 +547,13 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"ModifiedBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2."
-"html#5\"> Modified BSD license</a> <span class=\"anchor-reference-id\"> (<a "
-"href=\"#ModifiedBSD\">#ModifiedBSD</a>)</span>"
+"<a id=\"ModifiedBSD\" href=\"http://directory.fsf.org/wiki/License:"
+"BSD_3Clause\"> Modified BSD license</a> <span class=\"anchor-reference-id\"> "
+"(<a href=\"#ModifiedBSD\">#ModifiedBSD</a>)</span>"
 msgstr ""
-"<a id=\"ModifiedBSD\" href=\"http://www.xfree86.org/3.3.6/COPYRIGHT2."
-"html#5\"> Licence BSD modifiée</a> <span class=\"anchor-reference-id\">(<a "
-"href=\"#ModifiedBSD\">#ModifiedBSD</a>)</span>"
-
-#. type: Content of: <dl><dd><p>
-msgid ""
-"(Note: on the preceding link, the modified BSD license is listed in the "
-"<em>General</em> section.)"
-msgstr ""
-"(Note : le lien précédent pointe sur la section <em>General</em> qui reprend "
-"le texte de la licence BSD modifiée.)"
+"<a id=\"ModifiedBSD\" href=\"http://directory.fsf.org/wiki/License:"
+"BSD_3Clause\"> Licence BSD modifiée</a> <span class=\"anchor-reference-id\">"
+"(<a href=\"#ModifiedBSD\">#ModifiedBSD</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -607,14 +597,13 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"CC0\" href=\"http://creativecommons.org/publicdomain/zero/1.0/"
-"legalcode\"> CC0</a> <span class=\"anchor-reference-id\">(<a href="
-"\"#CC0\">#CC0</a>)</span>"
+"<a id=\"CC0\" href=\"http://directory.fsf.org/wiki/License:CC0\"> CC0</a> "
+"<span class=\"anchor-reference-id\">(<a href=\"#CC0\">#CC0</a>)</span>"
 msgstr ""
-"<a id=\"CC0\" href=\"http://creativecommons.org/publicdomain/zero/1.0/"
-"legalcode\"> CC0</a> <span class=\"anchor-reference-id\">[<a href=\"http://"
-"creativecommons.org/publicdomain/zero/1.0/deed.fr\">résumé en français</a>] "
-"(<a href=\"#CC0\">#CC0</a>)</span>"
+"<a id=\"CC0\" href=\"http://directory.fsf.org/wiki/License:CC0\"> CC0</a> "
+"<span class=\"anchor-reference-id\">[<a href=\"http://creativecommons.org/"
+"publicdomain/zero/1.0/deed.fr\">résumé en français</a>] (<a href="
+"\"#CC0\">#CC0</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -722,13 +711,13 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"CryptixGeneralLicense\" href=\"http://www.cryptix.org/LICENSE.TXT\"> "
-"Cryptix General License</a> <span class=\"anchor-reference-id\"> (<a href="
-"\"#CryptixGeneralLicense\">#CryptixGeneralLicense</a>)</span>"
+"<a id=\"CryptixGeneralLicense\" href=\"http://directory.fsf.org/wiki/License:"
+"CryptixGL\"> Cryptix General License</a> <span class=\"anchor-reference-id"
+"\"> (<a href=\"#CryptixGeneralLicense\">#CryptixGeneralLicense</a>)</span>"
 msgstr ""
-"<a id=\"CryptixGeneralLicense\" href=\"http://www.cryptix.org/LICENSE.TXT\"> "
-"Cryptix General License</a> <span class=\"anchor-reference-id\">(<a href="
-"\"#CryptixGeneralLicense\">#CryptixGeneralLicense</a>)</span>"
+"<a id=\"CryptixGeneralLicense\" href=\"http://directory.fsf.org/wiki/License:"
+"CryptixGL\"> Cryptix General License</a> <span class=\"anchor-reference-id\">"
+"(<a href=\"#CryptixGeneralLicense\">#CryptixGeneralLicense</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -740,13 +729,13 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"ecfonts\" href=\"http://dante.ctan.org/tex-archive/fonts/ec/src/"
-"copyrite.txt\">License of the ec fonts for LaTeX</a> <span class=\"anchor-"
-"reference-id\">(<a href=\"#ecfonts\">#ecfonts</a>)</span>"
+"<a id=\"ecfonts\" href=\"http://directory.fsf.org/wiki/License:LaTeX_ecfonts"
+"\">License of the ec fonts for LaTeX</a> <span class=\"anchor-reference-id\">"
+"(<a href=\"#ecfonts\">#ecfonts</a>)</span>"
 msgstr ""
-"<a id=\"ecfonts\" href=\"http://dante.ctan.org/tex-archive/fonts/ec/src/"
-"copyrite.txt\">Licence des polices ec pour LaTeX</a> <span class=\"anchor-"
-"reference-id\">(<a href=\"#ecfonts\">#ecfonts</a>)</span>"
+"<a id=\"ecfonts\" href=\"http://directory.fsf.org/wiki/License:LaTeX_ecfonts"
+"\">Licence des polices ec pour LaTeX</a> <span class=\"anchor-reference-id\">"
+"(<a href=\"#ecfonts\">#ecfonts</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -783,13 +772,13 @@ msgstr ""
 #.  without decimal, leave for compatibility 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"eCos20\"></a> <a id=\"eCos2.0\" href=\"/licenses/ecos-license.html"
-"\"> eCos license version 2.0</a> <span class=\"anchor-reference-id\"> (<a "
-"href=\"#eCos20\">#eCos2.0</a>)</span>"
+"<a id=\"eCos20\"></a> <a id=\"eCos2.0\" href=\"http://directory.fsf.org/wiki/"
+"License:ECos2.0\"> eCos license version 2.0</a> <span class=\"anchor-"
+"reference-id\"> (<a href=\"#eCos20\">#eCos2.0</a>)</span>"
 msgstr ""
-"<a id=\"eCos20\"></a> <a id=\"eCos2.0\" href=\"/licenses/ecos-license.html"
-"\"> eCos license version 2.0</a> <span class=\"anchor-reference-id\">(<a "
-"href=\"#eCos20\">#eCos2.0</a>)</span>"
+"<a id=\"eCos20\"></a> <a id=\"eCos2.0\" href=\"http://directory.fsf.org/wiki/"
+"License:ECos2.0\"> eCos license version 2.0</a> <span class=\"anchor-"
+"reference-id\">(<a href=\"#eCos20\">#eCos2.0</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -806,13 +795,13 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"ECL2.0\" href=\"http://www.fedora-commons.org/documentation/3.0b2/"
-"license/license.html\"> Educational Community License 2.0</a> <span class="
-"\"anchor-reference-id\"> (<a href=\"#ECL2.0\">#ECL2.0</a>)</span>"
+"<a id=\"ECL2.0\" href=\"http://directory.fsf.org/wiki/License:ECL2.0\"> "
+"Educational Community License 2.0</a> <span class=\"anchor-reference-id\"> "
+"(<a href=\"#ECL2.0\">#ECL2.0</a>)</span>"
 msgstr ""
-"<a id=\"ECL2.0\" href=\"http://www.fedora-commons.org/documentation/3.0b2/"
-"license/license.html\"> Educational Community License 2.0</a> <span class="
-"\"anchor-reference-id\">(<a href=\"#ECL2.0\">#ECL2.0</a>)</span>"
+"<a id=\"ECL2.0\" href=\"http://directory.fsf.org/wiki/License:ECL2.0\"> "
+"Educational Community License 2.0</a> <span class=\"anchor-reference-id\">"
+"(<a href=\"#ECL2.0\">#ECL2.0</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -833,13 +822,13 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"Eiffel\" href=\"/licenses/eiffel-forum-license-2.html\"> Eiffel "
-"Forum License, version 2</a> <span class=\"anchor-reference-id\"> (<a href="
-"\"#Eiffel\">#Eiffel</a>)</span>"
+"<a id=\"Eiffel\" href=\"http://directory.fsf.org/wiki/License:EFLv2\"> "
+"Eiffel Forum License, version 2</a> <span class=\"anchor-reference-id\"> (<a "
+"href=\"#Eiffel\">#Eiffel</a>)</span>"
 msgstr ""
-"<a id=\"Eiffel\" href=\"/licenses/eiffel-forum-license-2.html\"> Eiffel "
-"Forum License, version 2</a> <span class=\"anchor-reference-id\">(<a href="
-"\"#Eiffel\">#Eiffel</a>)</span>"
+"<a id=\"Eiffel\" href=\"http://directory.fsf.org/wiki/License:EFLv2\"> "
+"Eiffel Forum License, version 2</a> <span class=\"anchor-reference-id\">(<a "
+"href=\"#Eiffel\">#Eiffel</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -853,23 +842,23 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"EUDataGrid\" href=\"http://eu-datagrid.web.cern.ch/eu-datagrid/"
-"license.html\"> EU DataGrid Software License</a> <span class=\"anchor-"
-"reference-id\"> (<a href=\"#EUDataGrid\">#EUDataGrid</a>)</span>"
+"<a id=\"EUDataGrid\" href=\"http://directory.fsf.org/wiki/License:EUDataGrid"
+"\"> EU DataGrid Software License</a> <span class=\"anchor-reference-id\"> "
+"(<a href=\"#EUDataGrid\">#EUDataGrid</a>)</span>"
 msgstr ""
-"<a id=\"EUDataGrid\" href=\"http://eu-datagrid.web.cern.ch/eu-datagrid/"
-"license.html\"> EU DataGrid Software License</a> <span class=\"anchor-"
-"reference-id\">(<a href=\"#EUDataGrid\">#EUDataGrid</a>)</span>"
+"<a id=\"EUDataGrid\" href=\"http://directory.fsf.org/wiki/License:EUDataGrid"
+"\"> EU DataGrid Software License</a> <span class=\"anchor-reference-id\">(<a "
+"href=\"#EUDataGrid\">#EUDataGrid</a>)</span>"
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"Expat\" href=\"http://www.jclark.com/xml/copying.txt\"> Expat "
+"<a id=\"Expat\" href=\"http://directory.fsf.org/wiki/License:Expat\"> Expat "
 "License</a> <span class=\"anchor-reference-id\">(<a href=\"#Expat\">#Expat</"
 "a>)</span>"
 msgstr ""
-"<a id=\"Expat\" href=\"http://www.jclark.com/xml/copying.txt\"> Licence "
-"Expat</a> <span class=\"anchor-reference-id\">(<a href=\"#Expat\">#Expat</a>)"
-"</span>"
+"<a id=\"Expat\" href=\"http://directory.fsf.org/wiki/License:Expat\"> "
+"Licence Expat</a> <span class=\"anchor-reference-id\">(<a href=\"#Expat"
+"\">#Expat</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -891,12 +880,12 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"FreeBSD\" href=\"http://www.freebsd.org/copyright/freebsd-license."
-"html\"> FreeBSD license</a> <span class=\"anchor-reference-id\"> (<a href="
+"<a id=\"FreeBSD\" href=\"http://directory.fsf.org/wiki?title=License:FreeBSD"
+"\"> FreeBSD license</a> <span class=\"anchor-reference-id\"> (<a href="
 "\"#FreeBSD\">#FreeBSD</a>)</span>"
 msgstr ""
-"<a id=\"FreeBSD\" href=\"http://www.freebsd.org/copyright/freebsd-license."
-"html\"> Licence FreeBSD</a> <span class=\"anchor-reference-id\">(<a href="
+"<a id=\"FreeBSD\" href=\"http://directory.fsf.org/wiki?title=License:FreeBSD"
+"\"> Licence FreeBSD</a> <span class=\"anchor-reference-id\">(<a href="
 "\"#FreeBSD\">#FreeBSD</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
@@ -921,12 +910,12 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"freetype\" href=\"http://freetype.fis.uniroma2.it/FTL.TXT\"> "
+"<a id=\"freetype\" href=\"http://directory.fsf.org/wiki/License:FreeType\"> "
 "Freetype Project License</a> <span class=\"anchor-reference-id\"> (<a href="
 "\"#freetype\">#freetype</a>)</span>"
 msgstr ""
-"<a id=\"freetype\" href=\"http://freetype.fis.uniroma2.it/FTL.TXT\"> Licence "
-"du projet Freetype</a> <span class=\"anchor-reference-id\">(<a href="
+"<a id=\"freetype\" href=\"http://directory.fsf.org/wiki/License:FreeType\"> "
+"Licence du projet Freetype</a> <span class=\"anchor-reference-id\">(<a href="
 "\"#freetype\">#freetype</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
@@ -3815,9 +3804,9 @@ msgid ""
 "organizations."
 msgstr ""
 "Ce n'est pas une licence de logiciel libre. En effet, elle interdit toute "
-"distribution contre rétribution, ce qui empêche de l'inclure dans aucun des "
-"nombreux ensembles de logiciels libres vendus sous forme de CD-ROM par des "
-"sociétés commerciales ou par des organisations telles que la FSF."
+"distribution payante, ce qui empêche de l'inclure dans aucun des nombreux "
+"ensembles de logiciels libres vendus sous forme de CD-ROM par des sociétés "
+"commerciales ou par des organisations telles que la FSF."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -3833,7 +3822,7 @@ msgid ""
 "it is now free software, released under the GNU GPL.)"
 msgstr ""
 "(Le logiciel YaST lui-même n'utilise plus cette licence non libre YaST ; "
-"c'est maintenant un logiciel libre, publié sous la licence GNU GPL)."
+"c'est maintenant un logiciel libre, publié sous la licence GNU GPL.)"
 
 #. type: Content of: <h2>
 msgid "<a id=\"DocumentationLicenses\">Licenses For Documentation</a>"
@@ -4523,6 +4512,13 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid ""
+#~ "(Note: on the preceding link, the modified BSD license is listed in the "
+#~ "<em>General</em> section.)"
+#~ msgstr ""
+#~ "(Note : le lien précédent pointe sur la section <em>General</em> qui "
+#~ "reprend le texte de la licence BSD modifiée.)"
 
 #~ msgid ""
 #~ "If you want a simple, permissive non-copyleft free software license, the "
