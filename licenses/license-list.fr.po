@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2012-09-13 09:46+0300\n"
-"PO-Revision-Date: 2012-09-13 10:40+0200\n"
+"POT-Creation-Date: 2012-09-13 20:25-0300\n"
+"PO-Revision-Date: 2012-09-14 10:24+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -213,17 +213,27 @@ msgstr ""
 "pour les développeurs. Nous ferons de notre mieux pour vous aider à trouver "
 "une licence libre existante qui réponde à vos besoins."
 
+# | If you are wondering what license a particular software package is using,
+# | please visit the <a [-href=\"directory.fsf.org\">Free-]
+# | {+href=\"http://directory.fsf.org\">Free+} Software Directory</a>.  The
+# | Free Software Directory catalogues over 6000 free software packages and
+# | their licensing information.
 #. type: Content of: <p>
+#| msgid ""
+#| "If you are wondering what license a particular software package is using, "
+#| "please visit the <a href=\"directory.fsf.org\">Free Software Directory</"
+#| "a>. The Free Software Directory catalogues over 6000 free software "
+#| "packages and their licensing information."
 msgid ""
 "If you are wondering what license a particular software package is using, "
-"please visit the <a href=\"directory.fsf.org\">Free Software Directory</a>. "
-"The Free Software Directory catalogues over 6000 free software packages and "
-"their licensing information."
+"please visit the <a href=\"http://directory.fsf.org\">Free Software "
+"Directory</a>.  The Free Software Directory catalogues over 6000 free "
+"software packages and their licensing information."
 msgstr ""
 "Si vous vous demandez quelle licence utilise tel ou tel paquet, veuillez "
-"consulter le <a href=\"directory.fsf.org\">répertoire du logiciel libre</a> "
-"de la FSF. Ce répertoire recense plus de 6000 paquets de logiciel libre, "
-"avec les renseignements sur leur licence."
+"consulter le <a href=\"http://directory.fsf.org\">répertoire du logiciel "
+"libre</a> de la FSF. Ce répertoire recense plus de 6000 paquets de logiciel "
+"libre, avec les renseignements sur leur licence."
 
 #. type: Content of: <h2>
 msgid "<a id=\"SoftwareLicenses\">Software Licenses</a>"
@@ -4244,19 +4254,36 @@ msgstr ""
 "libre</a> <span class=\"anchor-reference-id\">[fr] (<a href=\"#FreeArt"
 "\">#FreeArt</a>)</span>"
 
+# | This is a free and copyleft license meant for artistic works. It permits
+# | commercial distribution, [-but-] {+as any free license must.  It is a
+# | copyleft license because+} any larger work [-including-] {+that includes
+# | part of+} the [-copylefted-] work {+you received+} must be [-free.-]
+# | {+released, as a whole, either under the same license or under a similar
+# | license that meets stated criteria.+}  Please don't use it for software or
+# | documentation, since it is incompatible with the GNU GPL and with the GNU
+# | FDL.
 #. type: Content of: <dl><dd><p>
+#| msgid ""
+#| "This is a free and copyleft license meant for artistic works.  It permits "
+#| "commercial distribution, but any larger work including the copylefted "
+#| "work must be free.  Please don't use it for software or documentation, "
+#| "since it is incompatible with the GNU GPL and with the GNU FDL."
 msgid ""
-"This is a free and copyleft license meant for artistic works.  It permits "
-"commercial distribution, but any larger work including the copylefted work "
-"must be free.  Please don't use it for software or documentation, since it "
-"is incompatible with the GNU GPL and with the GNU FDL."
+"This is a free and copyleft license meant for artistic works. It permits "
+"commercial distribution, as any free license must.  It is a copyleft license "
+"because any larger work that includes part of the work you received must be "
+"released, as a whole, either under the same license or under a similar "
+"license that meets stated criteria.  Please don't use it for software or "
+"documentation, since it is incompatible with the GNU GPL and with the GNU "
+"FDL."
 msgstr ""
 "C'est une licence libre avec copyleft faite pour les œuvres artistiques. "
-"Elle autorise la distribution commerciale, en précisant que « toute "
-"intégration d'[une] œuvre [soumise à la LAL] à un ensemble non soumis à la "
-"LAL doit assurer l'exercice des libertés conférées par cette licence ». "
-"Veuillez ne pas l'utiliser pour des logiciels ou de la documentation, car "
-"elle est incompatible avec la GNU GPL et la GNU FDL."
+"Elle autorise la distribution commerciale comme doit le faire toute licence "
+"libre. C'est une licence à copyleft parce que toute œuvre qui intègre une "
+"portion de l'œuvre que vous avez reçue doit être publiée, dans sa globalité, "
+"soit sous la même licence, soit sous une licence similaire qui remplit le "
+"critère énoncé ci-dessus. Veuillez ne pas l'utiliser pour des logiciels ou "
+"de la documentation, car elle est incompatible avec la GNU GPL et la GNU FDL."
 
 #. type: Content of: <h3>
 msgid ""
