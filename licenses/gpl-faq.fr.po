@@ -8,14 +8,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-faq.html\n"
-"POT-Creation-Date: 2012-08-29 20:25-0300\n"
-"PO-Revision-Date: 2012-09-18 09:36+0200\n"
+"POT-Creation-Date: 2012-09-20 12:26-0300\n"
+"PO-Revision-Date: 2012-09-20 23:40+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-09-20 12:26-0300\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -654,8 +655,8 @@ msgid ""
 "private signing keys?</a>"
 msgstr ""
 "<a href=\"#GiveUpKeys\">J'utilise une clé de chiffrement publique pour "
-"signer mon code pour assurer son authenticité. Est-il vrai que la GPLv3 "
-"m'oblige à publier mes clés de signature privées ?</a>"
+"signer mon code de manière à assurer son authenticité. Est-il vrai que la "
+"GPLv3 m'oblige à publier mes clés de signature privées ?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -5943,24 +5944,49 @@ msgstr ""
 "Puis-je utiliser la GPL pour mettre sous licence du matériel ? <span class="
 "\"anchor-reference-id\">(<a href=\"#GPLHardware\" >#GPLHardware</a>)</span>"
 
+# | Any material that can be copyrighted can be licensed under the GPL.  GPLv3
+# | can also be used to license materials covered by other copyright-like
+# | laws, such as semiconductor masks.  So, as an example, you can release a
+# | drawing of a [-hardware design under the GPL.  However, if someone used
+# | that information to create-] physical [-hardware, they would have no
+# | license obligations when distributing-] {+object+} or [-selling that
+# | device: it falls outside the scope of copyright and thus-] {+circuit
+# | under+} the [-GPL itself.-] {+GPL.+}
 #. type: Content of: <dl><dd><p>
+#| msgid ""
+#| "Any material that can be copyrighted can be licensed under the GPL.  "
+#| "GPLv3 can also be used to license materials covered by other copyright-"
+#| "like laws, such as semiconductor masks.  So, as an example, you can "
+#| "release a drawing of a hardware design under the GPL.  However, if "
+#| "someone used that information to create physical hardware, they would "
+#| "have no license obligations when distributing or selling that device: it "
+#| "falls outside the scope of copyright and thus the GPL itself."
 msgid ""
 "Any material that can be copyrighted can be licensed under the GPL.  GPLv3 "
 "can also be used to license materials covered by other copyright-like laws, "
 "such as semiconductor masks.  So, as an example, you can release a drawing "
-"of a hardware design under the GPL.  However, if someone used that "
-"information to create physical hardware, they would have no license "
-"obligations when distributing or selling that device: it falls outside the "
-"scope of copyright and thus the GPL itself."
+"of a physical object or circuit under the GPL."
 msgstr ""
 "Tout matériel qui peut être mis sous copyright peut être mis sous licence "
 "GPL. La GPLv3 peut aussi être utilisée pour licencier du matériel régi par "
 "d'autres lois similaires à la loi sur le copyright, comme les masques de "
-"semi-conducteurs. Par exemple, vous pouvez publier les schémas d'une "
-"conception matérielle sous la GPL. Cependant, si quelqu'un utilise cette "
-"information pour créer un appareil, il n'aura aucune obligation de licence "
-"pour la distribution ou la vente de cet appareil : cela tombe en dehors de "
-"la portée du copyright, et par conséquent de la GPL elle-même."
+"semi-conducteurs. Par exemple, vous pouvez publier le schéma d'un objet "
+"physique ou d'un circuit sous la GPL."
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"In many situations, copyright does not cover making physical hardware from a "
+"drawing.  In these situations, your license for the drawing simply can't "
+"exert any control over making or selling physical hardware, regardless of "
+"the license you use.  When copyright does cover making hardware, for "
+"instance with IC masks, the GPL handles that case in a useful way."
+msgstr ""
+"Souvent, le copyright ne couvre pas la fabrication de matériel à partir d'un "
+"schéma. Dans ces conditions, la licence que vous avez placée sur le schéma "
+"ne peut pas exercer le moindre contrôle sur la fabrication ou la vente du "
+"matériel, quelle que soit la licence. Quand par contre le copyright couvre "
+"la fabrication du matériel, par exemple dans le cas des masques de circuits "
+"intégrés, la GPL s'applique de manière utile."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -5968,9 +5994,9 @@ msgid ""
 "it true that GPLv3 forces me to release my private signing keys? <span class="
 "\"anchor-reference-id\">(<a href=\"#GiveUpKeys\" >#GiveUpKeys</a>)</span>"
 msgstr ""
-"J'utilise une clé de chiffrement publique pour signer mon code pour assurer "
-"son authenticité. Est-il vrai que la GPLv3 m'oblige à publier mes clés de "
-"signature privées ? <span class=\"anchor-reference-id\">(<a href="
+"J'utilise une clé de chiffrement publique pour signer mon code de manière à "
+"assurer son authenticité. Est-il vrai que la GPLv3 m'oblige à publier mes "
+"clés de signature privées ? <span class=\"anchor-reference-id\">(<a href="
 "\"#GiveUpKeys\" >#GiveUpKeys</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
