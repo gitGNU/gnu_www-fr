@@ -8,8 +8,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-faq.html\n"
-"POT-Creation-Date: 2012-09-20 12:26-0300\n"
-"PO-Revision-Date: 2012-09-20 23:40+0200\n"
+"POT-Creation-Date: 2012-09-21 12:25-0300\n"
+"PO-Revision-Date: 2012-09-21 21:43+0200\n"
+"PO-Revision-Date: 2012-09-15 12:29+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -4974,19 +4975,32 @@ msgstr ""
 "to do so, delete this exception statement from your version.<a href="
 "\"#TransNote9\" id=\"TransNote9-rev\"><sup>i</sup></a>"
 
+# | I am writing a website maintenance system (called a &ldquo;<a
+# | [-href=\"/philosophy/words-to-avoid.html\">content-]
+# | {+href=\"/philosophy/words-to-avoid.html#Content\">content+} management
+# | system</a>&rdquo; by some), or some other application which generates web
+# | pages from templates.  What license should I use for those templates?
+# | <span class=\"anchor-reference-id\">(<a href=\"#WMS\" >#WMS</a>)</span>
 #. type: Content of: <dl><dt>
+#| msgid ""
+#| "I am writing a website maintenance system (called a &ldquo;<a href=\"/"
+#| "philosophy/words-to-avoid.html\">content management system</a>&rdquo; by "
+#| "some), or some other application which generates web pages from "
+#| "templates.  What license should I use for those templates? <span class="
+#| "\"anchor-reference-id\">(<a href=\"#WMS\" >#WMS</a>)</span>"
 msgid ""
 "I am writing a website maintenance system (called a &ldquo;<a href=\"/"
-"philosophy/words-to-avoid.html\">content management system</a>&rdquo; by "
-"some), or some other application which generates web pages from templates.  "
-"What license should I use for those templates? <span class=\"anchor-"
-"reference-id\">(<a href=\"#WMS\" >#WMS</a>)</span>"
+"philosophy/words-to-avoid.html#Content\">content management system</"
+"a>&rdquo; by some), or some other application which generates web pages from "
+"templates.  What license should I use for those templates? <span class="
+"\"anchor-reference-id\">(<a href=\"#WMS\" >#WMS</a>)</span>"
 msgstr ""
 "J'écris un système de maintenance de site web, aussi appelé « <a href=\"/"
-"philosophy/words-to-avoid.html\">système de gestion de contenu</a> » <cite>"
-"[content management system]</cite> ou une application qui génère des pages "
-"web à partir de modèles. Quelle licence dois-je utiliser pour ces modèles ? "
-"<span class=\"anchor-reference-id\">(<a href=\"#WMS\" >#WMS</a>)</span>"
+"philosophy/words-to-avoid.html#Content\">système de gestion de contenu</a> » "
+"<cite>[content management system]</cite> ou une application qui génère des "
+"pages web à partir de modèles. Quelle licence dois-je utiliser pour ces "
+"modèles ? <span class=\"anchor-reference-id\">(<a href=\"#WMS\" >#WMS</a>)</"
+"span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
