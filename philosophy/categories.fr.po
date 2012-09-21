@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: categories.html\n"
-"POT-Creation-Date: 2012-09-20 22:03+0300\n"
-"PO-Revision-Date: 2012-09-20 23:39+0200\n"
+"POT-Creation-Date: 2012-09-20 20:25-0300\n"
+"PO-Revision-Date: 2012-09-21 08:23+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -809,9 +809,19 @@ msgstr ""
 "représentant répond : « GNU Ada <em>est</em> un compilateur commercial ; il "
 "se trouve que c'est un logiciel libre. »"
 
+# | For the GNU Project, the [-emphasis is-] {+priorities are+} in the other
+# | order: the important thing is that GNU Ada is free software; [-whether-]
+# | {+that+} it is commercial is just a detail. However, the additional
+# | development of GNU Ada that results from its being commercial is
+# | definitely beneficial.
 #. type: Content of: <p>
+#| msgid ""
+#| "For the GNU Project, the emphasis is in the other order: the important "
+#| "thing is that GNU Ada is free software; whether it is commercial is just "
+#| "a detail. However, the additional development of GNU Ada that results "
+#| "from its being commercial is definitely beneficial."
 msgid ""
-"For the GNU Project, the proprities are in the other order: the important "
+"For the GNU Project, the priorities are in the other order: the important "
 "thing is that GNU Ada is free software; that it is commercial is just a "
 "detail. However, the additional development of GNU Ada that results from its "
 "being commercial is definitely beneficial."
