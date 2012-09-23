@@ -9,7 +9,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gpl-faq.html\n"
 "POT-Creation-Date: 2012-09-21 12:25-0300\n"
-"PO-Revision-Date: 2012-09-21 21:43+0200\n"
 "PO-Revision-Date: 2012-09-15 12:29+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -17,7 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-09-20 12:26-0300\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -4975,19 +4973,7 @@ msgstr ""
 "to do so, delete this exception statement from your version.<a href="
 "\"#TransNote9\" id=\"TransNote9-rev\"><sup>i</sup></a>"
 
-# | I am writing a website maintenance system (called a &ldquo;<a
-# | [-href=\"/philosophy/words-to-avoid.html\">content-]
-# | {+href=\"/philosophy/words-to-avoid.html#Content\">content+} management
-# | system</a>&rdquo; by some), or some other application which generates web
-# | pages from templates.  What license should I use for those templates?
-# | <span class=\"anchor-reference-id\">(<a href=\"#WMS\" >#WMS</a>)</span>
 #. type: Content of: <dl><dt>
-#| msgid ""
-#| "I am writing a website maintenance system (called a &ldquo;<a href=\"/"
-#| "philosophy/words-to-avoid.html\">content management system</a>&rdquo; by "
-#| "some), or some other application which generates web pages from "
-#| "templates.  What license should I use for those templates? <span class="
-#| "\"anchor-reference-id\">(<a href=\"#WMS\" >#WMS</a>)</span>"
 msgid ""
 "I am writing a website maintenance system (called a &ldquo;<a href=\"/"
 "philosophy/words-to-avoid.html#Content\">content management system</"
@@ -5958,23 +5944,7 @@ msgstr ""
 "Puis-je utiliser la GPL pour mettre sous licence du matériel ? <span class="
 "\"anchor-reference-id\">(<a href=\"#GPLHardware\" >#GPLHardware</a>)</span>"
 
-# | Any material that can be copyrighted can be licensed under the GPL.  GPLv3
-# | can also be used to license materials covered by other copyright-like
-# | laws, such as semiconductor masks.  So, as an example, you can release a
-# | drawing of a [-hardware design under the GPL.  However, if someone used
-# | that information to create-] physical [-hardware, they would have no
-# | license obligations when distributing-] {+object+} or [-selling that
-# | device: it falls outside the scope of copyright and thus-] {+circuit
-# | under+} the [-GPL itself.-] {+GPL.+}
 #. type: Content of: <dl><dd><p>
-#| msgid ""
-#| "Any material that can be copyrighted can be licensed under the GPL.  "
-#| "GPLv3 can also be used to license materials covered by other copyright-"
-#| "like laws, such as semiconductor masks.  So, as an example, you can "
-#| "release a drawing of a hardware design under the GPL.  However, if "
-#| "someone used that information to create physical hardware, they would "
-#| "have no license obligations when distributing or selling that device: it "
-#| "falls outside the scope of copyright and thus the GPL itself."
 msgid ""
 "Any material that can be copyrighted can be licensed under the GPL.  GPLv3 "
 "can also be used to license materials covered by other copyright-like laws, "
