@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nit-india.html\n"
-"POT-Creation-Date: 2012-10-01 20:25-0300\n"
+"POT-Creation-Date: 2012-10-02 15:03+0300\n"
 "PO-Revision-Date: 2012-10-02 21:33+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-09-30 17:23+0300\n"
 "Plural-Forms: \n"
 
 #. type: Content of: <title>
@@ -944,7 +945,34 @@ msgstr ""
 "pauvres, parce que les copies autorisées de logiciel peuvent coûter plus "
 "cher que l'ordinateur."
 
+# | Now the computer can cost this much and the authorized copies of software
+# | can cost this much.{+ +}Well, there are lots of people in India who might
+# | be able to afford the computer, but couldn't possibly afford the software,
+# | because they can just barely afford a computer. So free software can make
+# | a big difference in terms of who in India can get a computer and run it.
+# | We don't see this yet, because a lot of people in India are using
+# | unauthorized copies. I don't think it is wrong to use unauthorized copies,
+# | but we can see the developers of non-free software are trying to make this
+# | impossible. They have two different ways, one is the terror campaign you
+# | know threatening to rape people in prison, and the other one is technical
+# | changes that can prevent the unauthorized copies from running, making
+# | people register in order for the software to run, you can see this in
+# | Windows XP, and there are more such measures coming.
 #. type: Content of: <p>
+#| msgid ""
+#| "Now the computer can cost this much and the authorized copies of software "
+#| "can cost this much.Well, there are lots of people in India who might be "
+#| "able to afford the computer, but couldn't possibly afford the software, "
+#| "because they can just barely afford a computer. So free software can make "
+#| "a big difference in terms of who in India can get a computer and run it. "
+#| "We don't see this yet, because a lot of people in India are using "
+#| "unauthorized copies. I don't think it is wrong to use unauthorized "
+#| "copies, but we can see the developers of non-free software are trying to "
+#| "make this impossible. They have two different ways, one is the terror "
+#| "campaign you know threatening to rape people in prison, and the other one "
+#| "is technical changes that can prevent the unauthorized copies from "
+#| "running, making people register in order for the software to run, you can "
+#| "see this in Windows XP, and there are more such measures coming."
 msgid ""
 "Now the computer can cost this much and the authorized copies of software "
 "can cost this much. Well, there are lots of people in India who might be "
@@ -1211,8 +1239,37 @@ msgstr ""
 "maintenir la population dans le « droit chemin » de la domination des "
 "développeurs de logiciel non libre."
 
+# | But there are two even deeper reasons, why schools in India should insist
+# | on free software. One reason is for the sake of education. As people reach
+# | their teenage years, some of them are going to be fascinated by computers.
+# | They are going want to learn everything about what is going on inside that
+# | computer. They are going to want to learn how does this program work. If
+# | they are using non-free software, the teacher has to tell them,
+# | &ldquo;Sorry, you can't learn that, I can't learn that. It's a secret.
+# | Nobody is allowed to learn that.&rdquo; [-Non-free software prohibits
+# | education. But with free software, the teacher can say, &ldquo;Go ahead.
+# | Here's the source code for this program. Read it. You can learn. And then,
+# | now that you have read the source code, try making a change, try making a
+# | small change in this program. And then try making another. Try changing
+# | that program. Try changing that program.&rdquo; And this way the students
+# | who are fascinated by computers will learn to write good software.-]
 #. type: Content of: <p>
-#, fuzzy
+#| msgid ""
+#| "But there are two even deeper reasons, why schools in India should insist "
+#| "on free software. One reason is for the sake of education. As people "
+#| "reach their teenage years, some of them are going to be fascinated by "
+#| "computers. They are going want to learn everything about what is going on "
+#| "inside that computer. They are going to want to learn how does this "
+#| "program work. If they are using non-free software, the teacher has to "
+#| "tell them, &ldquo;Sorry, you can't learn that, I can't learn that. It's a "
+#| "secret. Nobody is allowed to learn that.&rdquo; Non-free software "
+#| "prohibits education. But with free software, the teacher can say, &ldquo;"
+#| "Go ahead. Here's the source code for this program. Read it. You can "
+#| "learn. And then, now that you have read the source code, try making a "
+#| "change, try making a small change in this program. And then try making "
+#| "another. Try changing that program. Try changing that program.&rdquo; And "
+#| "this way the students who are fascinated by computers will learn to write "
+#| "good software."
 msgid ""
 "But there are two even deeper reasons, why schools in India should insist on "
 "free software. One reason is for the sake of education. As people reach "
@@ -1221,13 +1278,64 @@ msgid ""
 "computer. They are going to want to learn how does this program work. If "
 "they are using non-free software, the teacher has to tell them, &ldquo;"
 "Sorry, you can't learn that, I can't learn that. It's a secret. Nobody is "
-"allowed to learn that.&rdquo; Non-free software prohibits education. But "
-"with free software, the teacher can say, &ldquo;Go ahead. Here's the source "
-"code for this program. Read it. You can learn. And then, now that you have "
-"read the source code, try making a change, try making a small change in this "
-"program. And then try making another. Try changing that program. Try "
-"changing that program.&rdquo; And this way the students who are fascinated "
-"by computers will learn to write good software."
+"allowed to learn that.&rdquo;"
+msgstr ""
+"Mais il y a deux raisons encore plus fondamentales pour lesquelles les "
+"écoles d'Inde devraient exiger du logiciel libre. La première raison, c'est "
+"la pédagogie. Quand les enfants atteindront l'adolescence, certains vont "
+"être fascinés par les ordinateurs. Ils vont vouloir tout apprendre sur ce "
+"qui se passe à l'intérieur. Ils vont vouloir apprendre comment le programme "
+"marche. S'ils utilisent du logiciel non libre, le professeur devra leur "
+"dire : « Désolé, vous ne pouvez pas apprendre ça, je ne peux pas l'apprendre "
+"non plus. C'est un secret. Personne n'a le droit d'apprendre ça. » Le "
+"logiciel non libre interdit l'éducation. Mais avec le logiciel libre, le "
+"professeur peut dire : « Allez-y. Voici le code source de ce programme. "
+"Lisez-le. Vous pouvez apprendre. Alors, maintenant que vous avez lu le code "
+"source, essayez de faire un changement, essayez de faire un petit changement "
+"dans ce programme. Puis essayez d'en faire d'autres. Essayez de modifier ce "
+"programme. » Et de cette façon, les élèves qui sont fascinés par les "
+"ordinateurs apprendront à écrire de bons logiciels."
+
+# | [-But there are two even deeper reasons, why schools in India should
+# | insist on free software. One reason is for the sake of education. As
+# | people reach their teenage years, some of them are going to be fascinated
+# | by computers. They are going want to learn everything about what is going
+# | on inside that computer. They are going to want to learn how does this
+# | program work. If they are using non-free software, the teacher has to tell
+# | them, &ldquo;Sorry, you can't learn that, I can't learn that. It's a
+# | secret. Nobody is allowed to learn that.&rdquo;-]Non-free software
+# | prohibits education. But with free software, the teacher can say,
+# | &ldquo;Go ahead. Here's the source code for this program. Read it. You can
+# | learn. And then, now that you have read the source code, try making a
+# | change, try making a small change in this program. And then try making
+# | another. Try changing that program. Try changing that program.&rdquo; And
+# | this way the students who are fascinated by computers will learn to write
+# | good software.
+#. type: Content of: <p>
+#| msgid ""
+#| "But there are two even deeper reasons, why schools in India should insist "
+#| "on free software. One reason is for the sake of education. As people "
+#| "reach their teenage years, some of them are going to be fascinated by "
+#| "computers. They are going want to learn everything about what is going on "
+#| "inside that computer. They are going to want to learn how does this "
+#| "program work. If they are using non-free software, the teacher has to "
+#| "tell them, &ldquo;Sorry, you can't learn that, I can't learn that. It's a "
+#| "secret. Nobody is allowed to learn that.&rdquo; Non-free software "
+#| "prohibits education. But with free software, the teacher can say, &ldquo;"
+#| "Go ahead. Here's the source code for this program. Read it. You can "
+#| "learn. And then, now that you have read the source code, try making a "
+#| "change, try making a small change in this program. And then try making "
+#| "another. Try changing that program. Try changing that program.&rdquo; And "
+#| "this way the students who are fascinated by computers will learn to write "
+#| "good software."
+msgid ""
+"Non-free software prohibits education. But with free software, the teacher "
+"can say, &ldquo;Go ahead. Here's the source code for this program. Read it. "
+"You can learn. And then, now that you have read the source code, try making "
+"a change, try making a small change in this program. And then try making "
+"another. Try changing that program. Try changing that program.&rdquo; And "
+"this way the students who are fascinated by computers will learn to write "
+"good software."
 msgstr ""
 "Mais il y a deux raisons encore plus fondamentales pour lesquelles les "
 "écoles d'Inde devraient exiger du logiciel libre. La première raison, c'est "
@@ -1526,8 +1634,43 @@ msgstr ""
 "d'exploitation GNU + Linux a maintenant des dizaines de millions "
 "d'utilisateurs."
 
+# | Unfortunately, most of them don't know that it's basically the GNU system.
+# | They think the whole system is Linux. That's the result of a confusion.
+# | The people who combined the Linux and the GNU system, they didn't realize
+# | that they were using Linux to fill this gap. They thought that they were
+# | starting with Linux, and adding all the other components that were needed
+# | to make a complete system. Well, all the other components were pretty much
+# | the GNU system. But they did not recognize that. They thought they were
+# | starting with Linux and turning it into a complete system. So, they
+# | started speaking of this entire system as Linux. Even though it was
+# | actually more GNU. [-The result is the confusion that you will see today.
+# | Many people when they talk about the GNU system call it Linux. In fact, if
+# | you see someone talking about Linux, then unless he is talking about an
+# | embedded system, he almost certainly means the GNU system with Linux
+# | added. But sometimes he is talking about embedded systems, and there maybe
+# | he really means Linux. Because in embedded systems, sometimes people use
+# | Linux by itself, without the rest of the operating system. You don't need
+# | a whole operating system in an embedded computer.-]
 #. type: Content of: <p>
-#, fuzzy
+#| msgid ""
+#| "Unfortunately, most of them don't know that it's basically the GNU "
+#| "system. They think the whole system is Linux. That's the result of a "
+#| "confusion. The people who combined the Linux and the GNU system, they "
+#| "didn't realize that they were using Linux to fill this gap. They thought "
+#| "that they were starting with Linux, and adding all the other components "
+#| "that were needed to make a complete system. Well, all the other "
+#| "components were pretty much the GNU system. But they did not recognize "
+#| "that. They thought they were starting with Linux and turning it into a "
+#| "complete system. So, they started speaking of this entire system as "
+#| "Linux. Even though it was actually more GNU. The result is the confusion "
+#| "that you will see today. Many people when they talk about the GNU system "
+#| "call it Linux. In fact, if you see someone talking about Linux, then "
+#| "unless he is talking about an embedded system, he almost certainly means "
+#| "the GNU system with Linux added. But sometimes he is talking about "
+#| "embedded systems, and there maybe he really means Linux. Because in "
+#| "embedded systems, sometimes people use Linux by itself, without the rest "
+#| "of the operating system. You don't need a whole operating system in an "
+#| "embedded computer."
 msgid ""
 "Unfortunately, most of them don't know that it's basically the GNU system. "
 "They think the whole system is Linux. That's the result of a confusion. The "
@@ -1537,15 +1680,7 @@ msgid ""
 "complete system. Well, all the other components were pretty much the GNU "
 "system. But they did not recognize that. They thought they were starting "
 "with Linux and turning it into a complete system. So, they started speaking "
-"of this entire system as Linux. Even though it was actually more GNU. The "
-"result is the confusion that you will see today. Many people when they talk "
-"about the GNU system call it Linux. In fact, if you see someone talking "
-"about Linux, then unless he is talking about an embedded system, he almost "
-"certainly means the GNU system with Linux added. But sometimes he is talking "
-"about embedded systems, and there maybe he really means Linux. Because in "
-"embedded systems, sometimes people use Linux by itself, without the rest of "
-"the operating system. You don't need a whole operating system in an embedded "
-"computer."
+"of this entire system as Linux. Even though it was actually more GNU."
 msgstr ""
 "Malheureusement la plupart d'entre eux ne savent pas qu'à la base c'est le "
 "système GNU. Ils pensent que le système entier est Linux. C'est le résultat "
@@ -1559,8 +1694,97 @@ msgstr ""
 "système entier en l'appelant Linux, alors qu'en réalité c'était plus GNU "
 "qu'autre chose."
 
+# | [-Unfortunately, most of them don't know that it's basically the GNU
+# | system. They think the whole system is Linux. That's the result of a
+# | confusion. The people who combined the Linux and the GNU system, they
+# | didn't realize that they were using Linux to fill this gap. They thought
+# | that they were starting with Linux, and adding all the other components
+# | that were needed to make a complete system. Well, all the other components
+# | were pretty much the GNU system. But they did not recognize that. They
+# | thought they were starting with Linux and turning it into a complete
+# | system. So, they started speaking of this entire system as Linux. Even
+# | though it was actually more GNU.-]The result is the confusion that you
+# | will see today. Many people when they talk about the GNU system call it
+# | Linux. In fact, if you see someone talking about Linux, then unless he is
+# | talking about an embedded system, he almost certainly means the GNU system
+# | with Linux added. But sometimes he is talking about embedded systems, and
+# | there maybe he really means Linux. Because in embedded systems, sometimes
+# | people use Linux by itself, without the rest of the operating system. You
+# | don't need a whole operating system in an embedded computer.
 #. type: Content of: <p>
-#, fuzzy
+#| msgid ""
+#| "Unfortunately, most of them don't know that it's basically the GNU "
+#| "system. They think the whole system is Linux. That's the result of a "
+#| "confusion. The people who combined the Linux and the GNU system, they "
+#| "didn't realize that they were using Linux to fill this gap. They thought "
+#| "that they were starting with Linux, and adding all the other components "
+#| "that were needed to make a complete system. Well, all the other "
+#| "components were pretty much the GNU system. But they did not recognize "
+#| "that. They thought they were starting with Linux and turning it into a "
+#| "complete system. So, they started speaking of this entire system as "
+#| "Linux. Even though it was actually more GNU. The result is the confusion "
+#| "that you will see today. Many people when they talk about the GNU system "
+#| "call it Linux. In fact, if you see someone talking about Linux, then "
+#| "unless he is talking about an embedded system, he almost certainly means "
+#| "the GNU system with Linux added. But sometimes he is talking about "
+#| "embedded systems, and there maybe he really means Linux. Because in "
+#| "embedded systems, sometimes people use Linux by itself, without the rest "
+#| "of the operating system. You don't need a whole operating system in an "
+#| "embedded computer."
+msgid ""
+"The result is the confusion that you will see today. Many people when they "
+"talk about the GNU system call it Linux. In fact, if you see someone talking "
+"about Linux, then unless he is talking about an embedded system, he almost "
+"certainly means the GNU system with Linux added. But sometimes he is talking "
+"about embedded systems, and there maybe he really means Linux. Because in "
+"embedded systems, sometimes people use Linux by itself, without the rest of "
+"the operating system. You don't need a whole operating system in an embedded "
+"computer."
+msgstr ""
+"Le résultat, c'est la confusion que vous voyez aujourd'hui. Beaucoup de "
+"gens, quand ils parlent du système GNU, l'appellent Linux. De fait, si vous "
+"entendez quelqu'un parler de Linux, à moins qu'il ne parle d'un système "
+"embarqué, il est à peu près sûr qu'il désigne le système GNU avec Linux en "
+"plus. Mais parfois il parle d'un système embarqué, et là peut-être qu'il "
+"désigne effectivement Linux, puisque dans ces systèmes parfois les gens "
+"utilisent Linux tout seul, sans le reste du système d'exploitation. Vous "
+"n'avez pas besoin d'un système d'exploitation complet dans un ordinateur "
+"embarqué."
+
+# | So there is a lot of confusion. People say Linux, and sometimes they mean
+# | an entire operating system that you could run on a desktop or a server,
+# | and sometimes they mean just this kernel, which is enough for a embedded
+# | machine and that's all. So, if you want to avoid confusing people, you
+# | need to distinguish them, use different names for different things. When
+# | you are talking about the kernel, please call it &lsquo;Linux&rsquo;. That
+# | was written by a person, who chose the name Linux. And we ought to use the
+# | name he chose. [-When you are talking of the operating system, that's
+# | mostly GNU. And when I started developing it, I chose the name GNU. So
+# | please call this combination GNU plus Linux. All I am asking for, is a
+# | equal mention, for the principle developers of the system, the GNU
+# | project. We wrote the largest part of the system, and we had the vision
+# | for doing this whole job. Please give us equal mention. We need it. We
+# | need it, so that we can spread the philosophy. Teach people the ethical
+# | reasons. The social and political issues that are stake here. Why software
+# | should be free.-]
+#. type: Content of: <p>
+#| msgid ""
+#| "So there is a lot of confusion. People say Linux, and sometimes they mean "
+#| "an entire operating system that you could run on a desktop or a server, "
+#| "and sometimes they mean just this kernel, which is enough for a embedded "
+#| "machine and that's all. So, if you want to avoid confusing people, you "
+#| "need to distinguish them, use different names for different things. When "
+#| "you are talking about the kernel, please call it &lsquo;Linux&rsquo;. "
+#| "That was written by a person, who chose the name Linux. And we ought to "
+#| "use the name he chose. When you are talking of the operating system, "
+#| "that's mostly GNU. And when I started developing it, I chose the name "
+#| "GNU. So please call this combination GNU plus Linux. All I am asking for, "
+#| "is a equal mention, for the principle developers of the system, the GNU "
+#| "project. We wrote the largest part of the system, and we had the vision "
+#| "for doing this whole job. Please give us equal mention. We need it. We "
+#| "need it, so that we can spread the philosophy. Teach people the ethical "
+#| "reasons. The social and political issues that are stake here. Why "
+#| "software should be free."
 msgid ""
 "So there is a lot of confusion. People say Linux, and sometimes they mean an "
 "entire operating system that you could run on a desktop or a server, and "
@@ -1569,14 +1793,59 @@ msgid ""
 "distinguish them, use different names for different things. When you are "
 "talking about the kernel, please call it &lsquo;Linux&rsquo;. That was "
 "written by a person, who chose the name Linux. And we ought to use the name "
-"he chose. When you are talking of the operating system, that's mostly GNU. "
-"And when I started developing it, I chose the name GNU. So please call this "
-"combination GNU plus Linux. All I am asking for, is a equal mention, for the "
-"principle developers of the system, the GNU project. We wrote the largest "
-"part of the system, and we had the vision for doing this whole job. Please "
-"give us equal mention. We need it. We need it, so that we can spread the "
-"philosophy. Teach people the ethical reasons. The social and political "
-"issues that are stake here. Why software should be free."
+"he chose."
+msgstr ""
+"Donc il y a beaucoup de confusion. Quand les gens disent Linux, ils "
+"désignent parfois un système d'exploitation complet que vous pourriez faire "
+"tourner sur un ordinateur de bureau ou sur un serveur, et parfois le noyau "
+"seul, qui suffit à un simple ordinateur embarqué. Donc, si vous voulez "
+"éviter de jeter la confusion dans la tête des gens, vous devez  distinguer "
+"les deux, utiliser différents noms pour différentes choses. Quand vous "
+"parlez du noyau, s'il vous plaît appelez-le « Linux »."
+
+# | [-So there is a lot of confusion. People say Linux, and sometimes they
+# | mean an entire operating system that you could run on a desktop or a
+# | server, and sometimes they mean just this kernel, which is enough for a
+# | embedded machine and that's all. So, if you want to avoid confusing
+# | people, you need to distinguish them, use different names for different
+# | things. When you are talking about the kernel, please call it
+# | &lsquo;Linux&rsquo;. That was written by a person, who chose the name
+# | Linux. And we ought to use the name he chose.-]When you are talking of the
+# | operating system, that's mostly GNU. And when I started developing it, I
+# | chose the name GNU. So please call this combination GNU plus Linux. All I
+# | am asking for, is a equal mention, for the principle developers of the
+# | system, the GNU project. We wrote the largest part of the system, and we
+# | had the vision for doing this whole job. Please give us equal mention. We
+# | need it. We need it, so that we can spread the philosophy. Teach people
+# | the ethical reasons. The social and political issues that are stake here.
+# | Why software should be free.
+#. type: Content of: <p>
+#| msgid ""
+#| "So there is a lot of confusion. People say Linux, and sometimes they mean "
+#| "an entire operating system that you could run on a desktop or a server, "
+#| "and sometimes they mean just this kernel, which is enough for a embedded "
+#| "machine and that's all. So, if you want to avoid confusing people, you "
+#| "need to distinguish them, use different names for different things. When "
+#| "you are talking about the kernel, please call it &lsquo;Linux&rsquo;. "
+#| "That was written by a person, who chose the name Linux. And we ought to "
+#| "use the name he chose. When you are talking of the operating system, "
+#| "that's mostly GNU. And when I started developing it, I chose the name "
+#| "GNU. So please call this combination GNU plus Linux. All I am asking for, "
+#| "is a equal mention, for the principle developers of the system, the GNU "
+#| "project. We wrote the largest part of the system, and we had the vision "
+#| "for doing this whole job. Please give us equal mention. We need it. We "
+#| "need it, so that we can spread the philosophy. Teach people the ethical "
+#| "reasons. The social and political issues that are stake here. Why "
+#| "software should be free."
+msgid ""
+"When you are talking of the operating system, that's mostly GNU. And when I "
+"started developing it, I chose the name GNU. So please call this combination "
+"GNU plus Linux. All I am asking for, is a equal mention, for the principle "
+"developers of the system, the GNU project. We wrote the largest part of the "
+"system, and we had the vision for doing this whole job. Please give us equal "
+"mention. We need it. We need it, so that we can spread the philosophy. Teach "
+"people the ethical reasons. The social and political issues that are stake "
+"here. Why software should be free."
 msgstr ""
 "Quand vous parlez du système d'exploitation, c'est surtout GNU. Et quand "
 "j'ai commencé à le développer, je l'ai nommé GNU. Je vous serais donc "
@@ -1659,8 +1928,42 @@ msgstr ""
 "logiciel, et l'objet physique, c'est le matériel. L'objet physique ne peut "
 "pas être simplement copié, il doit être fabriqué dans une usine."
 
+# | But sometimes, there is a different issue that does make sense for
+# | hardware. And that is the design spec, visible. You know, can the public
+# | get copies of design, to find out what the hardware does. Well, this is
+# | necessary in certain cases, so that you can check for malicious features.
+# | This is a fairly new issue. In the past, you know, if you go to disk
+# | controller, you know, it's a card, you are going to put it in your
+# | computer, you didn't have to worry very much. Is there a danger that there
+# | will be malicious feature on this disk controller. Because there wasn't
+# | really much danger. [-There wasn't much scope for putting in malicious
+# | feature into people's disk controllers. Because, how would they send a
+# | command to your disk controller. It just wasn't really feasible, to do
+# | those things. But, as these controllers get to be more&hellip; as the
+# | hardware gets more and more powerful hardware can be put in a smaller
+# | place, it becomes feasible, that somebody could put back doors, into your
+# | disk controller, into your CPU, into your network card. Now, how do you
+# | know that your network card isn't setup to receive some secret message,
+# | which is going to tell it to start spying on you somehow.-]
 #. type: Content of: <p>
-#, fuzzy
+#| msgid ""
+#| "But sometimes, there is a different issue that does make sense for "
+#| "hardware. And that is the design spec, visible. You know, can the public "
+#| "get copies of design, to find out what the hardware does. Well, this is "
+#| "necessary in certain cases, so that you can check for malicious features. "
+#| "This is a fairly new issue. In the past, you know, if you go to disk "
+#| "controller, you know, it's a card, you are going to put it in your "
+#| "computer, you didn't have to worry very much. Is there a danger that "
+#| "there will be malicious feature on this disk controller. Because there "
+#| "wasn't really much danger. There wasn't much scope for putting in "
+#| "malicious feature into people's disk controllers. Because, how would they "
+#| "send a command to your disk controller. It just wasn't really feasible, "
+#| "to do those things. But, as these controllers get to be more&hellip; as "
+#| "the hardware gets more and more powerful hardware can be put in a smaller "
+#| "place, it becomes feasible, that somebody could put back doors, into your "
+#| "disk controller, into your CPU, into your network card. Now, how do you "
+#| "know that your network card isn't setup to receive some secret message, "
+#| "which is going to tell it to start spying on you somehow."
 msgid ""
 "But sometimes, there is a different issue that does make sense for hardware. "
 "And that is the design spec, visible. You know, can the public get copies of "
@@ -1669,8 +1972,57 @@ msgid ""
 "fairly new issue. In the past, you know, if you go to disk controller, you "
 "know, it's a card, you are going to put it in your computer, you didn't have "
 "to worry very much. Is there a danger that there will be malicious feature "
-"on this disk controller. Because there wasn't really much danger. There "
-"wasn't much scope for putting in malicious feature into people's disk "
+"on this disk controller. Because there wasn't really much danger."
+msgstr ""
+"Mais parfois, il y a une question différente qui est pertinente pour le "
+"matériel : est-ce que les spécifications sont disponibles ? Vous savez, est-"
+"ce que le public peut obtenir des copies des plans pour découvrir ce que "
+"fait le matériel ? Eh bien, c'est nécessaire dans certains cas pour que vous "
+"puissiez rechercher les dispositifs malveillants. C'est un problème assez "
+"nouveau. Dans le passé, au niveau du contrôleur de disque – vous savez c'est "
+"une carte, vous la placez dans votre ordinateur – vous n'aviez pas à vous en "
+"inquiéter plus que ça. Y a-t-il un danger que ce contrôleur de disque soit "
+"muni d'un dispositif malveillant ? Parce qu'il n'y avait pas vraiment de "
+"danger."
+
+# | [-But sometimes, there is a different issue that does make sense for
+# | hardware. And that is the design spec, visible. You know, can the public
+# | get copies of design, to find out what the hardware does. Well, this is
+# | necessary in certain cases, so that you can check for malicious features.
+# | This is a fairly new issue. In the past, you know, if you go to disk
+# | controller, you know, it's a card, you are going to put it in your
+# | computer, you didn't have to worry very much. Is there a danger that there
+# | will be malicious feature on this disk controller. Because there wasn't
+# | really much danger.-]There wasn't much scope for putting in malicious
+# | feature into people's disk controllers. Because, how would they send a
+# | command to your disk controller. It just wasn't really feasible, to do
+# | those things. But, as these controllers get to be more&hellip; as the
+# | hardware gets more and more powerful hardware can be put in a smaller
+# | place, it becomes feasible, that somebody could put back doors, into your
+# | disk controller, into your CPU, into your network card. Now, how do you
+# | know that your network card isn't setup to receive some secret message,
+# | which is going to tell it to start spying on you somehow.
+#. type: Content of: <p>
+#| msgid ""
+#| "But sometimes, there is a different issue that does make sense for "
+#| "hardware. And that is the design spec, visible. You know, can the public "
+#| "get copies of design, to find out what the hardware does. Well, this is "
+#| "necessary in certain cases, so that you can check for malicious features. "
+#| "This is a fairly new issue. In the past, you know, if you go to disk "
+#| "controller, you know, it's a card, you are going to put it in your "
+#| "computer, you didn't have to worry very much. Is there a danger that "
+#| "there will be malicious feature on this disk controller. Because there "
+#| "wasn't really much danger. There wasn't much scope for putting in "
+#| "malicious feature into people's disk controllers. Because, how would they "
+#| "send a command to your disk controller. It just wasn't really feasible, "
+#| "to do those things. But, as these controllers get to be more&hellip; as "
+#| "the hardware gets more and more powerful hardware can be put in a smaller "
+#| "place, it becomes feasible, that somebody could put back doors, into your "
+#| "disk controller, into your CPU, into your network card. Now, how do you "
+#| "know that your network card isn't setup to receive some secret message, "
+#| "which is going to tell it to start spying on you somehow."
+msgid ""
+"There wasn't much scope for putting in malicious feature into people's disk "
 "controllers. Because, how would they send a command to your disk controller. "
 "It just wasn't really feasible, to do those things. But, as these "
 "controllers get to be more&hellip; as the hardware gets more and more "
@@ -1840,8 +2192,41 @@ msgstr ""
 "Je suis en train de regarder une image de moi en miroir, alors il m'est "
 "difficile de savoir où mettre les mains."
 
+# | Each one refers to a categorical software and each one refers to a
+# | philosophical movement. So there is the free software&hellip; the free
+# | software is a category of licenses. And there is the free software
+# | movement and it's philosophy. Likewise open source is a category of
+# | licenses and a philosophy. For we can compare the free software movement
+# | and the open source movement&hellip; sorry, we can compare free software
+# | as a category of software with open source as a category of software. And
+# | we can compare the free software movement philosophy with the open source
+# | philosophy. And what you find is as categories of software they are very
+# | close together. [-Open source is a category of licenses just as free
+# | software is a category of licenses. And these two categories are defined
+# | with very different language. But so far practically speaking they are
+# | pretty similar. There are some licenses that qualify as open source but do
+# | not qualify as free software. How ever they are not used very much. So, if
+# | you know that of certain program is open source and that's all you know,
+# | you can't be sure it's free software but it probably is free software.-]
 #. type: Content of: <p>
-#, fuzzy
+#| msgid ""
+#| "Each one refers to a categorical software and each one refers to a "
+#| "philosophical movement. So there is the free software&hellip; the free "
+#| "software is a category of licenses. And there is the free software "
+#| "movement and it's philosophy. Likewise open source is a category of "
+#| "licenses and a philosophy. For we can compare the free software movement "
+#| "and the open source movement&hellip; sorry, we can compare free software "
+#| "as a category of software with open source as a category of software. And "
+#| "we can compare the free software movement philosophy with the open source "
+#| "philosophy. And what you find is as categories of software they are very "
+#| "close together. Open source is a category of licenses just as free "
+#| "software is a category of licenses. And these two categories are defined "
+#| "with very different language. But so far practically speaking they are "
+#| "pretty similar. There are some licenses that qualify as open source but "
+#| "do not qualify as free software. How ever they are not used very much. "
+#| "So, if you know that of certain program is open source and that's all you "
+#| "know, you can't be sure it's free software but it probably is free "
+#| "software."
 msgid ""
 "Each one refers to a categorical software and each one refers to a "
 "philosophical movement. So there is the free software&hellip; the free "
@@ -1851,14 +2236,7 @@ msgid ""
 "source movement&hellip; sorry, we can compare free software as a category of "
 "software with open source as a category of software. And we can compare the "
 "free software movement philosophy with the open source philosophy. And what "
-"you find is as categories of software they are very close together. Open "
-"source is a category of licenses just as free software is a category of "
-"licenses. And these two categories are defined with very different language. "
-"But so far practically speaking they are pretty similar. There are some "
-"licenses that qualify as open source but do not qualify as free software. "
-"How ever they are not used very much. So, if you know that of certain "
-"program is open source and that's all you know, you can't be sure it's free "
-"software but it probably is free software."
+"you find is as categories of software they are very close together."
 msgstr ""
 "Chacun se rapporte à une catégorie de logiciel et chacun se rapporte à un "
 "mouvement philosophique. Donc il y a le logiciel libre – le logiciel libre "
@@ -1870,6 +2248,25 @@ msgstr ""
 "nous pouvons comparer la philosophie du mouvement du logiciel libre à la "
 "philosophie open source. Et ce qu'on constate, c'est qu'en tant que "
 "catégories de logiciel ils sont très proches."
+
+#. type: Content of: <p>
+msgid ""
+"Open source is a category of licenses just as free software is a category of "
+"licenses. And these two categories are defined with very different language. "
+"But so far practically speaking they are pretty similar. There are some "
+"licenses that qualify as open source but do not qualify as free software. "
+"How ever they are not used very much. So, if you know that of certain "
+"program is open source and that's all you know, you can't be sure it's free "
+"software but it probably is free software."
+msgstr ""
+"L'open source est une catégorie de licences tout comme le logiciel libre. "
+"Ces deux catégories sont définies par un langage très différent, mais "
+"jusqu'ici, sur le plan pratique, elles sont assez semblables. Il y a "
+"quelques licences qui respectent les critères de l'open source mais pas ceux "
+"du logiciel libre. Elles ne sont cependant pas souvent utilisées. Alors, si "
+"vous savez qu'un programme est open source et que vous ne savez rien "
+"d'autre, vous ne pouvez pas être sûr que ce soit un logiciel libre mais c'en "
+"est probablement un."
 
 #. type: Content of: <p>
 msgid ""
@@ -2541,8 +2938,38 @@ msgstr ""
 "« Il y a beaucoup de distributions incompatibles GNU/Linux. Est-ce un "
 "désavantage pour le mouvement du logiciel libre ? »"
 
+# | Well, we shouldn't over estimate the extent to which they're incompatible.
+# | At the source level they are almost all&hellip; they are mostly
+# | compatible, unless you are doing very obscure things. You don't need to
+# | worry about the variations when you are writing source code. They will
+# | have different binary and different packaging but that's not a very big
+# | difficulty. So, I say, no It's not a major drawback. Of course you know,
+# | having different versions of the system can be good if users&hellip;
+# | different users want them. [-Now let's contrast this with the kind of
+# | incompatibility that we have, that we find in the non-free world. You'll
+# | find that Microsoft makes gross incompatibilities in each version of its
+# | systems. They makes&hellip; they deliberately make formats incompatible
+# | with everything else and protocols incompatible with everything else. They
+# | try many different ways to prevent other people from inter operating with
+# | them. And each version of a Microsoft package is likely to be incompatible
+# | with the previous version.-]
 #. type: Content of: <p>
-#, fuzzy
+#| msgid ""
+#| "Well, we shouldn't over estimate the extent to which they're "
+#| "incompatible. At the source level they are almost all&hellip; they are "
+#| "mostly compatible, unless you are doing very obscure things. You don't "
+#| "need to worry about the variations when you are writing source code. They "
+#| "will have different binary and different packaging but that's not a very "
+#| "big difficulty. So, I say, no It's not a major drawback. Of course you "
+#| "know, having different versions of the system can be good if "
+#| "users&hellip; different users want them. Now let's contrast this with the "
+#| "kind of incompatibility that we have, that we find in the non-free world. "
+#| "You'll find that Microsoft makes gross incompatibilities in each version "
+#| "of its systems. They makes&hellip; they deliberately make formats "
+#| "incompatible with everything else and protocols incompatible with "
+#| "everything else. They try many different ways to prevent other people "
+#| "from inter operating with them. And each version of a Microsoft package "
+#| "is likely to be incompatible with the previous version."
 msgid ""
 "Well, we shouldn't over estimate the extent to which they're incompatible. "
 "At the source level they are almost all&hellip; they are mostly compatible, "
@@ -2550,14 +2977,7 @@ msgid ""
 "variations when you are writing source code. They will have different binary "
 "and different packaging but that's not a very big difficulty. So, I say, no "
 "It's not a major drawback. Of course you know, having different versions of "
-"the system can be good if users&hellip; different users want them. Now let's "
-"contrast this with the kind of incompatibility that we have, that we find in "
-"the non-free world. You'll find that Microsoft makes gross incompatibilities "
-"in each version of its systems. They makes&hellip; they deliberately make "
-"formats incompatible with everything else and protocols incompatible with "
-"everything else. They try many different ways to prevent other people from "
-"inter operating with them. And each version of a Microsoft package is likely "
-"to be incompatible with the previous version."
+"the system can be good if users&hellip; different users want them."
 msgstr ""
 "<b>[RMS]</b> : Bon, nous ne devrions pas surévaluer les conséquences de leur "
 "incompatibilité. Au niveau du code source ils sont presque tous&hellip; ils "
@@ -2569,8 +2989,88 @@ msgstr ""
 "vous savez, avoir différentes versions d'un système peut être bon si "
 "différents utilisateurs les veulent."
 
+# | [-Well, we shouldn't over estimate the extent to which they're
+# | incompatible. At the source level they are almost all&hellip; they are
+# | mostly compatible, unless you are doing very obscure things. You don't
+# | need to worry about the variations when you are writing source code. They
+# | will have different binary and different packaging but that's not a very
+# | big difficulty. So, I say, no It's not a major drawback. Of course you
+# | know, having different versions of the system can be good if users&hellip;
+# | different users want them.-]Now let's contrast this with the kind of
+# | incompatibility that we have, that we find in the non-free world. You'll
+# | find that Microsoft makes gross incompatibilities in each version of its
+# | systems. They makes&hellip; they deliberately make formats incompatible
+# | with everything else and protocols incompatible with everything else. They
+# | try many different ways to prevent other people from inter operating with
+# | them. And each version of a Microsoft package is likely to be incompatible
+# | with the previous version.
 #. type: Content of: <p>
-#, fuzzy
+#| msgid ""
+#| "Well, we shouldn't over estimate the extent to which they're "
+#| "incompatible. At the source level they are almost all&hellip; they are "
+#| "mostly compatible, unless you are doing very obscure things. You don't "
+#| "need to worry about the variations when you are writing source code. They "
+#| "will have different binary and different packaging but that's not a very "
+#| "big difficulty. So, I say, no It's not a major drawback. Of course you "
+#| "know, having different versions of the system can be good if "
+#| "users&hellip; different users want them. Now let's contrast this with the "
+#| "kind of incompatibility that we have, that we find in the non-free world. "
+#| "You'll find that Microsoft makes gross incompatibilities in each version "
+#| "of its systems. They makes&hellip; they deliberately make formats "
+#| "incompatible with everything else and protocols incompatible with "
+#| "everything else. They try many different ways to prevent other people "
+#| "from inter operating with them. And each version of a Microsoft package "
+#| "is likely to be incompatible with the previous version."
+msgid ""
+"Now let's contrast this with the kind of incompatibility that we have, that "
+"we find in the non-free world. You'll find that Microsoft makes gross "
+"incompatibilities in each version of its systems. They makes&hellip; they "
+"deliberately make formats incompatible with everything else and protocols "
+"incompatible with everything else. They try many different ways to prevent "
+"other people from inter operating with them. And each version of a Microsoft "
+"package is likely to be incompatible with the previous version."
+msgstr ""
+"Maintenant voyez le contraste entre ça et le genre d'incompatibilité que "
+"nous avons, que nous trouvons dans le monde non libre. Vous constaterez que "
+"Microsoft fabrique des incompatibilités monstrueuses dans chaque version de "
+"ses systèmes. Ils fabriquent délibérément des formats incompatibles avec "
+"tous les autres, et des protocoles incompatibles avec tous les autres. Ils "
+"essayent toutes sortes de manières d'empêcher les autres d'interopérer avec "
+"eux. Et chaque version d'un logiciel de Microsoft est susceptible d'être "
+"incompatible avec la version précédente."
+
+# | They impose incompatibility because they have power and they think they
+# | can get away with it. Whereas in free software world we developers don't
+# | have power. If I make a decision that you don't like, you are not stuck
+# | with it. Because you have the source code, you can change it, you can
+# | change any of my decisions. Whether I make this decision&hellip; you know,
+# | if hypothetically I choose to impose incompatibility on you, you could
+# | change it, you could take my program and modify it to compatible with
+# | whatever. Where is&hellip; you know, &hellip;even if I made a decision
+# | that you just don't like for some other reason, you can still change it.
+# | [-You can change any of my decisions regardless of why I made the
+# | decision, regardless of why you don't like it; you can change it. So I
+# | don't have any power over you when I develop free software. You, the users
+# | are in control of your software. So it will you generally do what you want
+# | more or less. But the developers of non-free software, they do have power
+# | over you. And so you are stuck with their decisions.-]
+#. type: Content of: <p>
+#| msgid ""
+#| "They impose incompatibility because they have power and they think they "
+#| "can get away with it. Whereas in free software world we developers don't "
+#| "have power. If I make a decision that you don't like, you are not stuck "
+#| "with it. Because you have the source code, you can change it, you can "
+#| "change any of my decisions. Whether I make this decision&hellip; you "
+#| "know, if hypothetically I choose to impose incompatibility on you, you "
+#| "could change it, you could take my program and modify it to compatible "
+#| "with whatever. Where is&hellip; you know, &hellip;even if I made a "
+#| "decision that you just don't like for some other reason, you can still "
+#| "change it. You can change any of my decisions regardless of why I made "
+#| "the decision, regardless of why you don't like it; you can change it. So "
+#| "I don't have any power over you when I develop free software. You, the "
+#| "users are in control of your software. So it will you generally do what "
+#| "you want more or less. But the developers of non-free software, they do "
+#| "have power over you. And so you are stuck with their decisions."
 msgid ""
 "They impose incompatibility because they have power and they think they can "
 "get away with it. Whereas in free software world we developers don't have "
@@ -2580,13 +3080,7 @@ msgid ""
 "hypothetically I choose to impose incompatibility on you, you could change "
 "it, you could take my program and modify it to compatible with whatever. "
 "Where is&hellip; you know, &hellip;even if I made a decision that you just "
-"don't like for some other reason, you can still change it. You can change "
-"any of my decisions regardless of why I made the decision, regardless of why "
-"you don't like it; you can change it. So I don't have any power over you "
-"when I develop free software. You, the users are in control of your "
-"software. So it will you generally do what you want more or less. But the "
-"developers of non-free software, they do have power over you. And so you are "
-"stuck with their decisions."
+"don't like for some other reason, you can still change it."
 msgstr ""
 "Ils imposent l'incompatibilité parce qu'ils sont puissants et qu'ils pensent "
 "pouvoir s'en tirer avec ça. Au contraire, dans le monde du logiciel libre, "
@@ -2598,6 +3092,23 @@ msgstr ""
 "prendre et le modifier, pour le rendre compatible avec tout ce que vous "
 "voulez. Même si je prenais une décision que vous n'aimez pas pour une autre "
 "raison, vous pourriez toujours le modifier."
+
+#. type: Content of: <p>
+msgid ""
+"You can change any of my decisions regardless of why I made the decision, "
+"regardless of why you don't like it; you can change it. So I don't have any "
+"power over you when I develop free software. You, the users are in control "
+"of your software. So it will you generally do what you want more or less. "
+"But the developers of non-free software, they do have power over you. And so "
+"you are stuck with their decisions."
+msgstr ""
+"Quelle que soit la raison pour laquelle j'aurais pris la décision, quelle "
+"que soit la raison pour laquelle vous ne l'aimez pas ; vous pouvez le "
+"changer. Je n'ai donc aucun pouvoir sur vous quand je développe du logiciel "
+"libre. Vous, les utilisateurs, vous êtes aux commandes de votre logiciel. "
+"Ainsi il fera généralement plus ou moins ce que vous voulez. Mais les "
+"développeurs de logiciels non libres, eux, ont du pouvoir sur vous, et vous "
+"êtes coincés par leurs décisions."
 
 #. type: Content of: <p>
 msgid ""
@@ -2996,232 +3507,6 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
-
-#~| msgid ""
-#~| "But there are two even deeper reasons, why schools in India should "
-#~| "insist on free software. One reason is for the sake of education. As "
-#~| "people reach their teenage years, some of them are going to be "
-#~| "fascinated by computers. They are going want to learn everything about "
-#~| "what is going on inside that computer. They are going to want to learn "
-#~| "how does this program work. If they are using non-free software, the "
-#~| "teacher has to tell them, &ldquo;Sorry, you can't learn that, I can't "
-#~| "learn that. It's a secret. Nobody is allowed to learn that.&rdquo; Non-"
-#~| "free software prohibits education. But with free software, the teacher "
-#~| "can say, &ldquo;Go ahead. Here's the source code for this program. Read "
-#~| "it. You can learn. And then, now that you have read the source code, try "
-#~| "making a change, try making a small change in this program. And then try "
-#~| "making another. Try changing that program. Try changing that program."
-#~| "&rdquo; And this way the students who are fascinated by computers will "
-#~| "learn to write good software."
-#~ msgid ""
-#~ "Non-free software prohibits education. But with free software, the "
-#~ "teacher can say, &ldquo;Go ahead. Here's the source code for this "
-#~ "program. Read it. You can learn. And then, now that you have read the "
-#~ "source code, try making a change, try making a small change in this "
-#~ "program. And then try making another. Try changing that program. Try "
-#~ "changing that program.&rdquo; And this way the students who are "
-#~ "fascinated by computers will learn to write good software."
-#~ msgstr ""
-#~ "Mais il y a deux raisons encore plus fondamentales pour lesquelles les "
-#~ "écoles d'Inde devraient exiger du logiciel libre. La première raison, "
-#~ "c'est la pédagogie. Quand les enfants atteindront l'adolescence, certains "
-#~ "vont être fascinés par les ordinateurs. Ils vont vouloir tout apprendre "
-#~ "sur ce qui se passe à l'intérieur. Ils vont vouloir apprendre comment le "
-#~ "programme marche. S'ils utilisent du logiciel non libre, le professeur "
-#~ "devra leur dire : « Désolé, vous ne pouvez pas apprendre ça, je ne peux "
-#~ "pas l'apprendre non plus. C'est un secret. Personne n'a le droit "
-#~ "d'apprendre ça. » Le logiciel non libre interdit l'éducation. Mais avec "
-#~ "le logiciel libre, le professeur peut dire : « Allez-y. Voici le code "
-#~ "source de ce programme. Lisez-le. Vous pouvez apprendre. Alors, "
-#~ "maintenant que vous avez lu le code source, essayez de faire un "
-#~ "changement, essayez de faire un petit changement dans ce programme. Puis "
-#~ "essayez d'en faire d'autres. Essayez de modifier ce programme. » Et de "
-#~ "cette façon, les élèves qui sont fascinés par les ordinateurs apprendront "
-#~ "à écrire de bons logiciels."
-
-#~| msgid ""
-#~| "Unfortunately, most of them don't know that it's basically the GNU "
-#~| "system. They think the whole system is Linux. That's the result of a "
-#~| "confusion. The people who combined the Linux and the GNU system, they "
-#~| "didn't realize that they were using Linux to fill this gap. They thought "
-#~| "that they were starting with Linux, and adding all the other components "
-#~| "that were needed to make a complete system. Well, all the other "
-#~| "components were pretty much the GNU system. But they did not recognize "
-#~| "that. They thought they were starting with Linux and turning it into a "
-#~| "complete system. So, they started speaking of this entire system as "
-#~| "Linux. Even though it was actually more GNU. The result is the confusion "
-#~| "that you will see today. Many people when they talk about the GNU system "
-#~| "call it Linux. In fact, if you see someone talking about Linux, then "
-#~| "unless he is talking about an embedded system, he almost certainly means "
-#~| "the GNU system with Linux added. But sometimes he is talking about "
-#~| "embedded systems, and there maybe he really means Linux. Because in "
-#~| "embedded systems, sometimes people use Linux by itself, without the rest "
-#~| "of the operating system. You don't need a whole operating system in an "
-#~| "embedded computer."
-#~ msgid ""
-#~ "The result is the confusion that you will see today. Many people when "
-#~ "they talk about the GNU system call it Linux. In fact, if you see someone "
-#~ "talking about Linux, then unless he is talking about an embedded system, "
-#~ "he almost certainly means the GNU system with Linux added. But sometimes "
-#~ "he is talking about embedded systems, and there maybe he really means "
-#~ "Linux. Because in embedded systems, sometimes people use Linux by itself, "
-#~ "without the rest of the operating system. You don't need a whole "
-#~ "operating system in an embedded computer."
-#~ msgstr ""
-#~ "Le résultat, c'est la confusion que vous voyez aujourd'hui. Beaucoup de "
-#~ "gens, quand ils parlent du système GNU, l'appellent Linux. De fait, si "
-#~ "vous entendez quelqu'un parler de Linux, à moins qu'il ne parle d'un "
-#~ "système embarqué, il est à peu près sûr qu'il désigne le système GNU avec "
-#~ "Linux en plus. Mais parfois il parle d'un système embarqué, et là peut-"
-#~ "être qu'il désigne effectivement Linux, puisque dans ces systèmes parfois "
-#~ "les gens utilisent Linux tout seul, sans le reste du système "
-#~ "d'exploitation. Vous n'avez pas besoin d'un système d'exploitation "
-#~ "complet dans un ordinateur embarqué."
-
-#~| msgid ""
-#~| "So there is a lot of confusion. People say Linux, and sometimes they "
-#~| "mean an entire operating system that you could run on a desktop or a "
-#~| "server, and sometimes they mean just this kernel, which is enough for a "
-#~| "embedded machine and that's all. So, if you want to avoid confusing "
-#~| "people, you need to distinguish them, use different names for different "
-#~| "things. When you are talking about the kernel, please call it &lsquo;"
-#~| "Linux&rsquo;. That was written by a person, who chose the name Linux. "
-#~| "And we ought to use the name he chose. When you are talking of the "
-#~| "operating system, that's mostly GNU. And when I started developing it, I "
-#~| "chose the name GNU. So please call this combination GNU plus Linux. All "
-#~| "I am asking for, is a equal mention, for the principle developers of the "
-#~| "system, the GNU project. We wrote the largest part of the system, and we "
-#~| "had the vision for doing this whole job. Please give us equal mention. "
-#~| "We need it. We need it, so that we can spread the philosophy. Teach "
-#~| "people the ethical reasons. The social and political issues that are "
-#~| "stake here. Why software should be free."
-#~ msgid ""
-#~ "So there is a lot of confusion. People say Linux, and sometimes they mean "
-#~ "an entire operating system that you could run on a desktop or a server, "
-#~ "and sometimes they mean just this kernel, which is enough for a embedded "
-#~ "machine and that's all. So, if you want to avoid confusing people, you "
-#~ "need to distinguish them, use different names for different things. When "
-#~ "you are talking about the kernel, please call it &lsquo;Linux&rsquo;. "
-#~ "That was written by a person, who chose the name Linux. And we ought to "
-#~ "use the name he chose."
-#~ msgstr ""
-#~ "Donc il y a beaucoup de confusion. Quand les gens disent Linux, ils "
-#~ "désignent parfois un système d'exploitation complet que vous pourriez "
-#~ "faire tourner sur un ordinateur de bureau ou sur un serveur, et parfois "
-#~ "le noyau seul, qui suffit à un simple ordinateur embarqué. Donc, si vous "
-#~ "voulez éviter de jeter la confusion dans la tête des gens, vous devez  "
-#~ "distinguer les deux, utiliser différents noms pour différentes choses. "
-#~ "Quand vous parlez du noyau, s'il vous plaît appelez-le « Linux »."
-
-#~| msgid ""
-#~| "But sometimes, there is a different issue that does make sense for "
-#~| "hardware. And that is the design spec, visible. You know, can the public "
-#~| "get copies of design, to find out what the hardware does. Well, this is "
-#~| "necessary in certain cases, so that you can check for malicious "
-#~| "features. This is a fairly new issue. In the past, you know, if you go "
-#~| "to disk controller, you know, it's a card, you are going to put it in "
-#~| "your computer, you didn't have to worry very much. Is there a danger "
-#~| "that there will be malicious feature on this disk controller. Because "
-#~| "there wasn't really much danger. There wasn't much scope for putting in "
-#~| "malicious feature into people's disk controllers. Because, how would "
-#~| "they send a command to your disk controller. It just wasn't really "
-#~| "feasible, to do those things. But, as these controllers get to be "
-#~| "more&hellip; as the hardware gets more and more powerful hardware can be "
-#~| "put in a smaller place, it becomes feasible, that somebody could put "
-#~| "back doors, into your disk controller, into your CPU, into your network "
-#~| "card. Now, how do you know that your network card isn't setup to receive "
-#~| "some secret message, which is going to tell it to start spying on you "
-#~| "somehow."
-#~ msgid ""
-#~ "But sometimes, there is a different issue that does make sense for "
-#~ "hardware. And that is the design spec, visible. You know, can the public "
-#~ "get copies of design, to find out what the hardware does. Well, this is "
-#~ "necessary in certain cases, so that you can check for malicious features. "
-#~ "This is a fairly new issue. In the past, you know, if you go to disk "
-#~ "controller, you know, it's a card, you are going to put it in your "
-#~ "computer, you didn't have to worry very much. Is there a danger that "
-#~ "there will be malicious feature on this disk controller. Because there "
-#~ "wasn't really much danger."
-#~ msgstr ""
-#~ "Mais parfois, il y a une question différente qui est pertinente pour le "
-#~ "matériel : est-ce que les spécifications sont disponibles ? Vous savez, "
-#~ "est-ce que le public peut obtenir des copies des plans pour découvrir ce "
-#~ "que fait le matériel ? Eh bien, c'est nécessaire dans certains cas pour "
-#~ "que vous puissiez rechercher les dispositifs malveillants. C'est un "
-#~ "problème assez nouveau. Dans le passé, au niveau du contrôleur de disque –"
-#~ " vous savez c'est une carte, vous la placez dans votre ordinateur – vous "
-#~ "n'aviez pas à vous en inquiéter plus que ça. Y a-t-il un danger que ce "
-#~ "contrôleur de disque soit muni d'un dispositif malveillant ? Parce qu'il "
-#~ "n'y avait pas vraiment de danger."
-
-#~ msgid ""
-#~ "Open source is a category of licenses just as free software is a category "
-#~ "of licenses. And these two categories are defined with very different "
-#~ "language. But so far practically speaking they are pretty similar. There "
-#~ "are some licenses that qualify as open source but do not qualify as free "
-#~ "software. How ever they are not used very much. So, if you know that of "
-#~ "certain program is open source and that's all you know, you can't be sure "
-#~ "it's free software but it probably is free software."
-#~ msgstr ""
-#~ "L'open source est une catégorie de licences tout comme le logiciel libre. "
-#~ "Ces deux catégories sont définies par un langage très différent, mais "
-#~ "jusqu'ici, sur le plan pratique, elles sont assez semblables. Il y a "
-#~ "quelques licences qui respectent les critères de l'open source mais pas "
-#~ "ceux du logiciel libre. Elles ne sont cependant pas souvent utilisées. "
-#~ "Alors, si vous savez qu'un programme est open source et que vous ne savez "
-#~ "rien d'autre, vous ne pouvez pas être sûr que ce soit un logiciel libre "
-#~ "mais c'en est probablement un."
-
-#~| msgid ""
-#~| "Well, we shouldn't over estimate the extent to which they're "
-#~| "incompatible. At the source level they are almost all&hellip; they are "
-#~| "mostly compatible, unless you are doing very obscure things. You don't "
-#~| "need to worry about the variations when you are writing source code. "
-#~| "They will have different binary and different packaging but that's not a "
-#~| "very big difficulty. So, I say, no It's not a major drawback. Of course "
-#~| "you know, having different versions of the system can be good if "
-#~| "users&hellip; different users want them. Now let's contrast this with "
-#~| "the kind of incompatibility that we have, that we find in the non-free "
-#~| "world. You'll find that Microsoft makes gross incompatibilities in each "
-#~| "version of its systems. They makes&hellip; they deliberately make "
-#~| "formats incompatible with everything else and protocols incompatible "
-#~| "with everything else. They try many different ways to prevent other "
-#~| "people from inter operating with them. And each version of a Microsoft "
-#~| "package is likely to be incompatible with the previous version."
-#~ msgid ""
-#~ "Now let's contrast this with the kind of incompatibility that we have, "
-#~ "that we find in the non-free world. You'll find that Microsoft makes "
-#~ "gross incompatibilities in each version of its systems. They "
-#~ "makes&hellip; they deliberately make formats incompatible with everything "
-#~ "else and protocols incompatible with everything else. They try many "
-#~ "different ways to prevent other people from inter operating with them. "
-#~ "And each version of a Microsoft package is likely to be incompatible with "
-#~ "the previous version."
-#~ msgstr ""
-#~ "Maintenant voyez le contraste entre ça et le genre d'incompatibilité que "
-#~ "nous avons, que nous trouvons dans le monde non libre. Vous constaterez "
-#~ "que Microsoft fabrique des incompatibilités monstrueuses dans chaque "
-#~ "version de ses systèmes. Ils fabriquent délibérément des formats "
-#~ "incompatibles avec tous les autres, et des protocoles incompatibles avec "
-#~ "tous les autres. Ils essayent toutes sortes de manières d'empêcher les "
-#~ "autres d'interopérer avec eux. Et chaque version d'un logiciel de "
-#~ "Microsoft est susceptible d'être incompatible avec la version précédente."
-
-#~ msgid ""
-#~ "You can change any of my decisions regardless of why I made the decision, "
-#~ "regardless of why you don't like it; you can change it. So I don't have "
-#~ "any power over you when I develop free software. You, the users are in "
-#~ "control of your software. So it will you generally do what you want more "
-#~ "or less. But the developers of non-free software, they do have power over "
-#~ "you. And so you are stuck with their decisions."
-#~ msgstr ""
-#~ "Quelle que soit la raison pour laquelle j'aurais pris la décision, quelle "
-#~ "que soit la raison pour laquelle vous ne l'aimez pas ; vous pouvez le "
-#~ "changer. Je n'ai donc aucun pouvoir sur vous quand je développe du "
-#~ "logiciel libre. Vous, les utilisateurs, vous êtes aux commandes de votre "
-#~ "logiciel. Ainsi il fera généralement plus ou moins ce que vous voulez. "
-#~ "Mais les développeurs de logiciels non libres, eux, ont du pouvoir sur "
-#~ "vous, et vous êtes coincés par leurs décisions."
 
 #~ msgid ""
 #~ "Now, none of these is a question of price. Free software does not mean "
