@@ -8,14 +8,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: education.html\n"
-"POT-Creation-Date: 2012-06-10 04:25-0300\n"
-"PO-Revision-Date: 2012-07-25 20:56+0200\n"
+"POT-Creation-Date: 2012-10-03 12:25-0300\n"
+"PO-Revision-Date: 2012-10-04 09:16+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-10-03 12:25-0300\n"
 "X-Poedit-Language: French\n"
 "X-Poedit-Country: France\n"
 "Plural-Forms:  \n"
@@ -130,38 +131,62 @@ msgstr ""
 "leadership/#rms\">Richard Stallman</a> explique brièvement et précisément "
 "les grands principes du logiciel libre et leurs rapports à l'éducation."
 
+# | Transcriptions of this video are available in <a
+# | href=\"/education/misc/rms-education-es-translation-to-en.txt\">English</a>,
+# | <a
+# | href=\"/education/misc/rms-education-es-transcription.txt\">Spanish</a>,
+# | and <a [-href=\"/education/misc/edu-misc.html#transcriptions\">other-]
+# | {+href=\"/education/misc/edu-misc.html#transcription-rms-education\">
+# | other+} languages</a>.
 #.  TRANSLATORS: please add the link to your language here in the first 
 #.      place, followed by a comma. 
 #. type: Content of: <div><div><p>
+#| msgid ""
+#| "Transcriptions of this video are available in <a href=\"/education/misc/"
+#| "rms-education-es-translation-to-en.txt\">English</a>, <a href=\"/"
+#| "education/misc/rms-education-es-transcription.txt\">Spanish</a>, and <a "
+#| "href=\"/education/misc/edu-misc.html#transcriptions\">other languages</a>."
 msgid ""
 "Transcriptions of this video are available in <a href=\"/education/misc/rms-"
 "education-es-translation-to-en.txt\">English</a>, <a href=\"/education/misc/"
 "rms-education-es-transcription.txt\">Spanish</a>, and <a href=\"/education/"
-"misc/edu-misc.html#transcriptions\">other languages</a>."
+"misc/edu-misc.html#transcription-rms-education\"> other languages</a>."
 msgstr ""
 "Des transcriptions de cette vidéo sont disponibles en \n"
 "<a href=\"/education/misc/rms-education-es-transcription.fr.txt\">français</"
 "a>,\n"
 "<a href=\"/education/misc/rms-education-es-translation-to-en.txt\">anglais</"
-"a>, <a href=\"/education/misc/rms-education-es-transcription.txt\">espagnol</"
-"a> et <a href=\"/education/misc/edu-misc.html#transcriptions\">quelques "
-"autres langues</a>."
+"a>, \n"
+"<a href=\"/education/misc/rms-education-es-transcription.txt\">espagnol</a> "
+"et <a href=\"/education/misc/edu-misc.html#transcription-rms-education"
+"\">quelques autres langues</a>."
 
+# | SubRip subtitle files are also available for download in <a
+# | href=\"/education/misc/rms-education-es-sub.en.srt\">English</a>, <a
+# | href=\"/education/misc/rms-education-es-sub.es.srt\">Spanish</a>, and <a
+# | [-href=\"/education/misc/edu-misc.html#subtitles\">other-]
+# | {+href=\"/education/misc/edu-misc.html#subtitles-rms-education\">other+}
+# | languages</a>.
 #.  TRANSLATORS: please add the link to your language here in the first 
 #.      place, followed by a comma. 
 #. type: Content of: <div><div><p>
+#| msgid ""
+#| "SubRip subtitle files are also available for download in <a href=\"/"
+#| "education/misc/rms-education-es-sub.en.srt\">English</a>, <a href=\"/"
+#| "education/misc/rms-education-es-sub.es.srt\">Spanish</a>, and <a href=\"/"
+#| "education/misc/edu-misc.html#subtitles\">other languages</a>."
 msgid ""
 "SubRip subtitle files are also available for download in <a href=\"/"
 "education/misc/rms-education-es-sub.en.srt\">English</a>, <a href=\"/"
 "education/misc/rms-education-es-sub.es.srt\">Spanish</a>, and <a href=\"/"
-"education/misc/edu-misc.html#subtitles\">other languages</a>."
+"education/misc/edu-misc.html#subtitles-rms-education\">other languages</a>."
 msgstr ""
 "Des fichiers de sous-titres SubRip sont aussi disponibles en \n"
 "<a href=\"/education/misc/rms-education-es-sub.fr.srt\">français</a>, \n"
 "<a href=\"/education/misc/rms-education-es-sub.en.srt\">anglais</a>, \n"
 "<a href=\"/education/misc/rms-education-es-sub.es.srt\">espagnol</a> et \n"
-"<a href=\"/education/misc/edu-misc.html#subtitles\">quelques autres langues</"
-"a>."
+"<a href=\"/education/misc/edu-misc.html#subtitles-rms-education\">quelques "
+"autres langues</a>."
 
 #.  TRANSLATORS: Please replace the link to the video with subtitles in
 #.      English with a link to the video with subtitles in your language, 
