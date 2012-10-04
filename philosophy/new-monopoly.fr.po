@@ -8,14 +8,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: new-monopoly.html\n"
-"POT-Creation-Date: 2012-06-10 04:29-0300\n"
-"PO-Revision-Date: 2012-09-20 09:27+0200\n"
+"POT-Creation-Date: 2012-10-03 12:25-0300\n"
+"PO-Revision-Date: 2012-10-04 09:22+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-10-03 12:25-0300\n"
 
 #. type: Content of: <title>
 msgid ""
@@ -421,8 +422,43 @@ msgstr ""
 "d'envoyer également vos lettres par courrier électronique à <a href=\"mailto:"
 "database-letters@gnu.org\">&lt;database-letters@gnu.org&gt;</a>."
 
+# | Dear Representative So-and-so\n\n\nCongress is considering laws to
+# | establish a new kind of monopoly on\nelectronic data bases.  I am against
+# | the whole idea of this, because\nit would restrict the freedom of computer
+# | users.  Private interests\nshould not be allowed control over
+# | dissemination of facts that are\npublic knowledge.  As a measure to
+# | promote business, this is\npremature; the Internet is changing very fast,
+# | and passing any law\nabout this issue in 1999 would be
+# | [-foolish.\n\n\nMultiple alternatives are being considered for this bill;
+# | HR 354 is\nespecially drastic and dangerous, while HR 1858 is less so.  If
+# | you\nhave a chance to vote on the choice between them, please choose
+# | HR\n1858.  But when the data base monopoly bill ultimately comes up for
+# | a\nvote, I ask you to vote against it, regardless of the
+# | details.\n\n\nSincerely,\nJane Q. Public\n-] {+foolish.\n\n+}
 #. type: Content of: <pre>
 #, no-wrap
+#| msgid ""
+#| "Dear Representative So-and-so\n"
+#| "\n"
+#| "\n"
+#| "Congress is considering laws to establish a new kind of monopoly on\n"
+#| "electronic data bases.  I am against the whole idea of this, because\n"
+#| "it would restrict the freedom of computer users.  Private interests\n"
+#| "should not be allowed control over dissemination of facts that are\n"
+#| "public knowledge.  As a measure to promote business, this is\n"
+#| "premature; the Internet is changing very fast, and passing any law\n"
+#| "about this issue in 1999 would be foolish.\n"
+#| "\n"
+#| "\n"
+#| "Multiple alternatives are being considered for this bill; HR 354 is\n"
+#| "especially drastic and dangerous, while HR 1858 is less so.  If you\n"
+#| "have a chance to vote on the choice between them, please choose HR\n"
+#| "1858.  But when the data base monopoly bill ultimately comes up for a\n"
+#| "vote, I ask you to vote against it, regardless of the details.\n"
+#| "\n"
+#| "\n"
+#| "Sincerely,\n"
+#| "Jane Q. Public\n"
 msgid ""
 "Dear Representative So-and-so\n"
 "\n"
@@ -435,16 +471,6 @@ msgid ""
 "premature; the Internet is changing very fast, and passing any law\n"
 "about this issue in 1999 would be foolish.\n"
 "\n"
-"\n"
-"Multiple alternatives are being considered for this bill; HR 354 is\n"
-"especially drastic and dangerous, while HR 1858 is less so.  If you\n"
-"have a chance to vote on the choice between them, please choose HR\n"
-"1858.  But when the data base monopoly bill ultimately comes up for a\n"
-"vote, I ask you to vote against it, regardless of the details.\n"
-"\n"
-"\n"
-"Sincerely,\n"
-"Jane Q. Public\n"
 msgstr ""
 "Cher Représentant Untel,\n"
 "\n"
@@ -457,6 +483,55 @@ msgstr ""
 "Internet change très rapidement, et passer une loi à ce sujet en 1999,\n"
 "quelle qu'elle soit, serait dangereux.\n"
 "\n"
+
+# | [-Dear Representative So-and-so\n\n\nCongress is considering laws to
+# | establish a new kind of monopoly on\nelectronic data bases.  I am against
+# | the whole idea of this, because\nit would restrict the freedom of computer
+# | users.  Private interests\nshould not be allowed control over
+# | dissemination of facts that are\npublic knowledge.  As a measure to
+# | promote business, this is\npremature; the Internet is changing very fast,
+# | and passing any law\nabout this issue in 1999 would be
+# | foolish.\n\n\nMultiple-]{+Multiple+} alternatives are being considered for
+# | this bill; HR 354 is\nespecially drastic and dangerous, while HR 1858 is
+# | less so.  If you\nhave a chance to vote on the choice between them, please
+# | choose HR\n1858.  But when the data base monopoly bill ultimately comes up
+# | for a\nvote, I ask you to vote against it, regardless of the
+# | details.\n\n\nSincerely,\nJane Q. Public\n
+#. type: Content of: <pre>
+#, no-wrap
+#| msgid ""
+#| "Dear Representative So-and-so\n"
+#| "\n"
+#| "\n"
+#| "Congress is considering laws to establish a new kind of monopoly on\n"
+#| "electronic data bases.  I am against the whole idea of this, because\n"
+#| "it would restrict the freedom of computer users.  Private interests\n"
+#| "should not be allowed control over dissemination of facts that are\n"
+#| "public knowledge.  As a measure to promote business, this is\n"
+#| "premature; the Internet is changing very fast, and passing any law\n"
+#| "about this issue in 1999 would be foolish.\n"
+#| "\n"
+#| "\n"
+#| "Multiple alternatives are being considered for this bill; HR 354 is\n"
+#| "especially drastic and dangerous, while HR 1858 is less so.  If you\n"
+#| "have a chance to vote on the choice between them, please choose HR\n"
+#| "1858.  But when the data base monopoly bill ultimately comes up for a\n"
+#| "vote, I ask you to vote against it, regardless of the details.\n"
+#| "\n"
+#| "\n"
+#| "Sincerely,\n"
+#| "Jane Q. Public\n"
+msgid ""
+"Multiple alternatives are being considered for this bill; HR 354 is\n"
+"especially drastic and dangerous, while HR 1858 is less so.  If you\n"
+"have a chance to vote on the choice between them, please choose HR\n"
+"1858.  But when the data base monopoly bill ultimately comes up for a\n"
+"vote, I ask you to vote against it, regardless of the details.\n"
+"\n"
+"\n"
+"Sincerely,\n"
+"Jane Q. Public\n"
+msgstr ""
 "Deux propositions de loi sont envisagées ; HR 354 est particulièrement\n"
 "drastique et dangereuse, alors que HR 1858 l'est moins. Si vous avez\n"
 "l'occasion de choisir entre les deux par votre vote, je vous prie de\n"

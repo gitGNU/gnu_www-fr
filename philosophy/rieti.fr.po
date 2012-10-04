@@ -7,14 +7,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rieti.html\n"
-"POT-Creation-Date: 2012-06-10 04:29-0300\n"
-"PO-Revision-Date: 2012-09-28 16:47+0200\n"
+"POT-Creation-Date: 2012-10-03 12:25-0300\n"
+"PO-Revision-Date: 2012-10-04 09:28+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-10-03 12:25-0300\n"
 "Plural-Forms: \n"
 
 #. type: Content of: <title>
@@ -196,7 +197,38 @@ msgstr ""
 "faire au logiciel ce que vous voulez qu'il fasse. Si vous n'avez pas la "
 "liberté 1, vous êtes bloqués ; vous êtes prisonnier de votre logiciel."
 
+# | But not everybody is a programmer. If we had just freedom one, then
+# | programmers could change the software to do what they want. But if each
+# | programmer had to make his changes personally, we would not really have
+# | much control. We would be limited to what each of us, individually, could
+# | do. Non-programmers would get no benefit at all. That is why freedom three
+# | and two are crucial, because freedoms two and three allow a group of users
+# | to work together and make the software do what they jointly want. So you
+# | are not limited to changing it individually, personally. [-You and 50
+# | other people who want the same thing, you can get together. If two or
+# | three of you are programmers, they can make the changes, and then they can
+# | distribute it to all the rest of you. You could all put money in and pay a
+# | programmer to make the changes you want. Your company could pay a
+# | programmer to make the changes your company wants. Then if you publish the
+# | improved version, everybody can use it. Thus, all of society gets control
+# | over what its software does.-]
 #. type: Content of: <p>
+#| msgid ""
+#| "But not everybody is a programmer. If we had just freedom one, then "
+#| "programmers could change the software to do what they want. But if each "
+#| "programmer had to make his changes personally, we would not really have "
+#| "much control. We would be limited to what each of us, individually, could "
+#| "do. Non-programmers would get no benefit at all. That is why freedom "
+#| "three and two are crucial, because freedoms two and three allow a group "
+#| "of users to work together and make the software do what they jointly "
+#| "want. So you are not limited to changing it individually, personally. You "
+#| "and 50 other people who want the same thing, you can get together. If two "
+#| "or three of you are programmers, they can make the changes, and then they "
+#| "can distribute it to all the rest of you. You could all put money in and "
+#| "pay a programmer to make the changes you want. Your company could pay a "
+#| "programmer to make the changes your company wants. Then if you publish "
+#| "the improved version, everybody can use it. Thus, all of society gets "
+#| "control over what its software does."
 msgid ""
 "But not everybody is a programmer. If we had just freedom one, then "
 "programmers could change the software to do what they want. But if each "
@@ -205,14 +237,7 @@ msgid ""
 "programmers would get no benefit at all. That is why freedom three and two "
 "are crucial, because freedoms two and three allow a group of users to work "
 "together and make the software do what they jointly want. So you are not "
-"limited to changing it individually, personally. You and 50 other people who "
-"want the same thing, you can get together. If two or three of you are "
-"programmers, they can make the changes, and then they can distribute it to "
-"all the rest of you. You could all put money in and pay a programmer to make "
-"the changes you want. Your company could pay a programmer to make the "
-"changes your company wants. Then if you publish the improved version, "
-"everybody can use it. Thus, all of society gets control over what its "
-"software does."
+"limited to changing it individually, personally."
 msgstr ""
 "Mais tout le monde n'est pas programmeur. Si nous avions seulement la "
 "liberté 1, alors les programmeurs pourraient modifier le logiciel pour faire "
@@ -223,15 +248,58 @@ msgstr ""
 "cruciales, parce qu'elles permettent à un groupe d'utilisateurs de "
 "travailler ensemble et de faire faire au logiciel ce que, conjointement, ils "
 "veulent qu'il fasse. Ainsi, vos possibilités ne se limitent pas à le changer "
-"vous-même, individuellement. Vous et cinquante autres personnes qui voulez "
-"la même chose, vous pouvez l'obtenir ensemble. Si deux ou trois d'entre vous "
-"sont des programmeurs, ils peuvent faire les modifications, et ils peuvent "
-"les distribuer à tous les autres. Vous pouvez tous donner de l'argent et "
-"payer un programmeur pour faire les changements que vous voulez. Votre "
-"entreprise peut payer un programmeur pour faire les changements qu'elle "
-"souhaite. Ensuite, si vous publiez la version améliorée, tout le monde "
-"pourra l'utiliser. Par conséquent, l'ensemble de la société a le contrôle "
-"sur ce que fait son logiciel."
+"vous-même, individuellement."
+
+# | [-But not everybody is a programmer. If we had just freedom one, then
+# | programmers could change the software to do what they want. But if each
+# | programmer had to make his changes personally, we would not really have
+# | much control. We would be limited to what each of us, individually, could
+# | do. Non-programmers would get no benefit at all. That is why freedom three
+# | and two are crucial, because freedoms two and three allow a group of users
+# | to work together and make the software do what they jointly want. So you
+# | are not limited to changing it individually, personally.-]You and 50 other
+# | people who want the same thing, you can get together. If two or three of
+# | you are programmers, they can make the changes, and then they can
+# | distribute it to all the rest of you. You could all put money in and pay a
+# | programmer to make the changes you want. Your company could pay a
+# | programmer to make the changes your company wants. Then if you publish the
+# | improved version, everybody can use it. Thus, all of society gets control
+# | over what its software does.
+#. type: Content of: <p>
+#| msgid ""
+#| "But not everybody is a programmer. If we had just freedom one, then "
+#| "programmers could change the software to do what they want. But if each "
+#| "programmer had to make his changes personally, we would not really have "
+#| "much control. We would be limited to what each of us, individually, could "
+#| "do. Non-programmers would get no benefit at all. That is why freedom "
+#| "three and two are crucial, because freedoms two and three allow a group "
+#| "of users to work together and make the software do what they jointly "
+#| "want. So you are not limited to changing it individually, personally. You "
+#| "and 50 other people who want the same thing, you can get together. If two "
+#| "or three of you are programmers, they can make the changes, and then they "
+#| "can distribute it to all the rest of you. You could all put money in and "
+#| "pay a programmer to make the changes you want. Your company could pay a "
+#| "programmer to make the changes your company wants. Then if you publish "
+#| "the improved version, everybody can use it. Thus, all of society gets "
+#| "control over what its software does."
+msgid ""
+"You and 50 other people who want the same thing, you can get together. If "
+"two or three of you are programmers, they can make the changes, and then "
+"they can distribute it to all the rest of you. You could all put money in "
+"and pay a programmer to make the changes you want. Your company could pay a "
+"programmer to make the changes your company wants. Then if you publish the "
+"improved version, everybody can use it. Thus, all of society gets control "
+"over what its software does."
+msgstr ""
+"Vous et cinquante autres personnes qui voulez la même chose, vous pouvez "
+"l'obtenir ensemble. Si deux ou trois d'entre vous sont des programmeurs, ils "
+"peuvent faire les modifications, et ils peuvent les distribuer à tous les "
+"autres. Vous pouvez tous donner de l'argent et payer un programmeur pour "
+"faire les changements que vous voulez. Votre entreprise peut payer un "
+"programmeur pour faire les changements qu'elle souhaite. Ensuite, si vous "
+"publiez la version améliorée, tout le monde pourra l'utiliser. Par "
+"conséquent, l'ensemble de la société a le contrôle sur ce que fait son "
+"logiciel."
 
 #. type: Content of: <p>
 msgid ""
@@ -276,7 +344,38 @@ msgstr ""
 "résulte que le logiciel libre tend à faire ce que veulent les utilisateurs, "
 "plutôt que ce que les veulent développeurs."
 
+# | People often ask, &ldquo;If everybody is free to change the software, what
+# | does that do for compatibility?&rdquo; Well the fact is, users like
+# | compatibility. It is not the only thing they like. Sometimes, certain
+# | users want an incompatible change because it has other benefits, and if so
+# | they can do it. But most users want compatibility. The result is most free
+# | software developers try very hard to be compatible. Guess what would
+# | happen if I made an incompatible difference in my program and the users
+# | did not like it. [-Some user would change the program and make it
+# | compatible, and then most users would prefer his version. So his version
+# | would become popular and mine would be forgotten. Now, I do not want that
+# | to happen, of course. I want people to like and use my version, so I am
+# | going to recognize this in advance and I am going to make my version
+# | compatible from the beginning because I want people to like it. So in our
+# | community, the developers cannot resist what the users want. We have to go
+# | along or the users will go where they want and leave us behind.-]
 #. type: Content of: <p>
+#| msgid ""
+#| "People often ask, &ldquo;If everybody is free to change the software, "
+#| "what does that do for compatibility?&rdquo; Well the fact is, users like "
+#| "compatibility. It is not the only thing they like. Sometimes, certain "
+#| "users want an incompatible change because it has other benefits, and if "
+#| "so they can do it. But most users want compatibility. The result is most "
+#| "free software developers try very hard to be compatible. Guess what would "
+#| "happen if I made an incompatible difference in my program and the users "
+#| "did not like it. Some user would change the program and make it "
+#| "compatible, and then most users would prefer his version. So his version "
+#| "would become popular and mine would be forgotten. Now, I do not want that "
+#| "to happen, of course. I want people to like and use my version, so I am "
+#| "going to recognize this in advance and I am going to make my version "
+#| "compatible from the beginning because I want people to like it. So in our "
+#| "community, the developers cannot resist what the users want. We have to "
+#| "go along or the users will go where they want and leave us behind."
 msgid ""
 "People often ask, &ldquo;If everybody is free to change the software, what "
 "does that do for compatibility?&rdquo; Well the fact is, users like "
@@ -285,14 +384,7 @@ msgid ""
 "can do it. But most users want compatibility. The result is most free "
 "software developers try very hard to be compatible. Guess what would happen "
 "if I made an incompatible difference in my program and the users did not "
-"like it. Some user would change the program and make it compatible, and then "
-"most users would prefer his version. So his version would become popular and "
-"mine would be forgotten. Now, I do not want that to happen, of course. I "
-"want people to like and use my version, so I am going to recognize this in "
-"advance and I am going to make my version compatible from the beginning "
-"because I want people to like it. So in our community, the developers cannot "
-"resist what the users want. We have to go along or the users will go where "
-"they want and leave us behind."
+"like it."
 msgstr ""
 "Les gens demandent souvent : « Si tout le monde est libre de modifier le "
 "logiciel, qu'advient-il de la compatibilité ? » En fait, les utilisateurs "
@@ -302,9 +394,52 @@ msgstr ""
 "la plupart des utilisateurs veulent la compatibilité. Il en résulte que la "
 "plupart des développeurs de logiciel libre essaient de toutes leurs forces "
 "d'être compatibles. Imaginez ce qui arriverait si je créais une modification "
-"incompatible dans mon programme et que les utilisateurs ne l'aiment pas. Un "
-"utilisateur modifierait le programme et le rendrait compatible, et alors la "
-"plupart des utilisateurs préféreraient sa version. Donc sa version "
+"incompatible dans mon programme et que les utilisateurs ne l'aiment pas."
+
+# | [-People often ask, &ldquo;If everybody is free to change the software,
+# | what does that do for compatibility?&rdquo; Well the fact is, users like
+# | compatibility. It is not the only thing they like. Sometimes, certain
+# | users want an incompatible change because it has other benefits, and if so
+# | they can do it. But most users want compatibility. The result is most free
+# | software developers try very hard to be compatible. Guess what would
+# | happen if I made an incompatible difference in my program and the users
+# | did not like it.-]Some user would change the program and make it
+# | compatible, and then most users would prefer his version. So his version
+# | would become popular and mine would be forgotten. Now, I do not want that
+# | to happen, of course. I want people to like and use my version, so I am
+# | going to recognize this in advance and I am going to make my version
+# | compatible from the beginning because I want people to like it. So in our
+# | community, the developers cannot resist what the users want. We have to go
+# | along or the users will go where they want and leave us behind.
+#. type: Content of: <p>
+#| msgid ""
+#| "People often ask, &ldquo;If everybody is free to change the software, "
+#| "what does that do for compatibility?&rdquo; Well the fact is, users like "
+#| "compatibility. It is not the only thing they like. Sometimes, certain "
+#| "users want an incompatible change because it has other benefits, and if "
+#| "so they can do it. But most users want compatibility. The result is most "
+#| "free software developers try very hard to be compatible. Guess what would "
+#| "happen if I made an incompatible difference in my program and the users "
+#| "did not like it. Some user would change the program and make it "
+#| "compatible, and then most users would prefer his version. So his version "
+#| "would become popular and mine would be forgotten. Now, I do not want that "
+#| "to happen, of course. I want people to like and use my version, so I am "
+#| "going to recognize this in advance and I am going to make my version "
+#| "compatible from the beginning because I want people to like it. So in our "
+#| "community, the developers cannot resist what the users want. We have to "
+#| "go along or the users will go where they want and leave us behind."
+msgid ""
+"Some user would change the program and make it compatible, and then most "
+"users would prefer his version. So his version would become popular and mine "
+"would be forgotten. Now, I do not want that to happen, of course. I want "
+"people to like and use my version, so I am going to recognize this in "
+"advance and I am going to make my version compatible from the beginning "
+"because I want people to like it. So in our community, the developers cannot "
+"resist what the users want. We have to go along or the users will go where "
+"they want and leave us behind."
+msgstr ""
+"Un utilisateur modifierait le programme et le rendrait compatible, et alors "
+"la plupart des utilisateurs préféreraient sa version. Donc sa version "
 "deviendrait populaire et la mienne serait oubliée. Je ne veux pas que cela "
 "arrive, bien sûr. Je veux que les gens apprécient et utilisent ma version, "
 "alors je vais prendre les devants ; je rendrai ma version compatible dès le "
@@ -700,7 +835,44 @@ msgstr ""
 "d'occasion dont quelqu'un d'autre s'est débarrassé. C'est également une "
 "autre manière de faire des économies. C'est évident, mais c'est superficiel."
 
+# | A more important reason for schools to use free software is for the sake
+# | of learning. You see, in the teenage years, some students are going to
+# | want to learn everything there is to know about the inside of the computer
+# | system. These are the people who can become good programmers. If you want
+# | to develop a strong programming capacity, people prepared not just to work
+# | as part of a big team in a rather mechanical way, but people who will take
+# | the initiative, do big things, develop powerful, exciting programs, then
+# | you need to encourage the impulse to do that, whenever a kid has that
+# | impulse. So it is important to provide facilities and a social milieu that
+# | encourages this kind of learning to develop. [-The way to do this is the
+# | schools should run free software, and whenever a kid starts wondering,
+# | &ldquo;How does this actually work?&rdquo; the teacher can say,
+# | &ldquo;This is done by the Fubar program. You can find the source code of
+# | the Fubar program there. Go read it and figure it out, see for yourself
+# | how this works.&rdquo; Then if a kid says, &ldquo;You know, I have got an
+# | idea for how this could be better,&rdquo; the teacher could say,
+# | &ldquo;Why not give it a try? Try writing it. Make the change in the Fubar
+# | program to change this one feature.&rdquo;-]
 #. type: Content of: <p>
+#| msgid ""
+#| "A more important reason for schools to use free software is for the sake "
+#| "of learning. You see, in the teenage years, some students are going to "
+#| "want to learn everything there is to know about the inside of the "
+#| "computer system. These are the people who can become good programmers. If "
+#| "you want to develop a strong programming capacity, people prepared not "
+#| "just to work as part of a big team in a rather mechanical way, but people "
+#| "who will take the initiative, do big things, develop powerful, exciting "
+#| "programs, then you need to encourage the impulse to do that, whenever a "
+#| "kid has that impulse. So it is important to provide facilities and a "
+#| "social milieu that encourages this kind of learning to develop. The way "
+#| "to do this is the schools should run free software, and whenever a kid "
+#| "starts wondering, &ldquo;How does this actually work?&rdquo; the teacher "
+#| "can say, &ldquo;This is done by the Fubar program. You can find the "
+#| "source code of the Fubar program there. Go read it and figure it out, see "
+#| "for yourself how this works.&rdquo; Then if a kid says, &ldquo;You know, "
+#| "I have got an idea for how this could be better,&rdquo; the teacher could "
+#| "say, &ldquo;Why not give it a try? Try writing it. Make the change in the "
+#| "Fubar program to change this one feature.&rdquo;"
 msgid ""
 "A more important reason for schools to use free software is for the sake of "
 "learning. You see, in the teenage years, some students are going to want to "
@@ -711,14 +883,7 @@ msgid ""
 "initiative, do big things, develop powerful, exciting programs, then you "
 "need to encourage the impulse to do that, whenever a kid has that impulse. "
 "So it is important to provide facilities and a social milieu that encourages "
-"this kind of learning to develop. The way to do this is the schools should "
-"run free software, and whenever a kid starts wondering, &ldquo;How does this "
-"actually work?&rdquo; the teacher can say, &ldquo;This is done by the Fubar "
-"program. You can find the source code of the Fubar program there. Go read it "
-"and figure it out, see for yourself how this works.&rdquo; Then if a kid "
-"says, &ldquo;You know, I have got an idea for how this could be better,"
-"&rdquo; the teacher could say, &ldquo;Why not give it a try? Try writing it. "
-"Make the change in the Fubar program to change this one feature.&rdquo;"
+"this kind of learning to develop."
 msgstr ""
 "Une raison plus importante pour les écoles d'utiliser du logiciel libre est "
 "que c'est dans l'intérêt de l'enseignement. Vous voyez, pendant leurs années "
@@ -731,14 +896,64 @@ msgstr ""
 "programmes puissants et passionnants, alors vous avez besoin d'encourager "
 "cet élan chaque fois qu'un enfant le possède. Donc il est important de "
 "fournir des installations et un environnement social qui favorise ce type "
-"d'enseignement. Le moyen d'y arriver, c'est que les écoles utilisent du "
-"logiciel libre ; quand un élève commence à poser la question « Comment est-"
-"ce que cela fonctionne en fait ? » le professeur peut dire « C'est fait par "
-"le programme Fubar. Tu peux trouver le code source du programme Fubar ici. "
-"Lis-le et vois par toi-même comment il fonctionne. » Puis, si un élève dit "
-"« Vous savez, j'ai une idée pour l'améliorer » le professeur peut dire «  "
-"Pourquoi ne pas essayer ? Essaie de l'écrire. Fais le changement dans le "
-"programme Fubar pour modifier cette fonctionnalité. »"
+"d'enseignement."
+
+# | [-A more important reason for schools to use free software is for the sake
+# | of learning. You see, in the teenage years, some students are going to
+# | want to learn everything there is to know about the inside of the computer
+# | system. These are the people who can become good programmers. If you want
+# | to develop a strong programming capacity, people prepared not just to work
+# | as part of a big team in a rather mechanical way, but people who will take
+# | the initiative, do big things, develop powerful, exciting programs, then
+# | you need to encourage the impulse to do that, whenever a kid has that
+# | impulse. So it is important to provide facilities and a social milieu that
+# | encourages this kind of learning to develop.-]The way to do this is the
+# | schools should run free software, and whenever a kid starts wondering,
+# | &ldquo;How does this actually work?&rdquo; the teacher can say,
+# | &ldquo;This is done by the Fubar program. You can find the source code of
+# | the Fubar program there. Go read it and figure it out, see for yourself
+# | how this works.&rdquo; Then if a kid says, &ldquo;You know, I have got an
+# | idea for how this could be better,&rdquo; the teacher could say,
+# | &ldquo;Why not give it a try? Try writing it. Make the change in the Fubar
+# | program to change this one feature.&rdquo;
+#. type: Content of: <p>
+#| msgid ""
+#| "A more important reason for schools to use free software is for the sake "
+#| "of learning. You see, in the teenage years, some students are going to "
+#| "want to learn everything there is to know about the inside of the "
+#| "computer system. These are the people who can become good programmers. If "
+#| "you want to develop a strong programming capacity, people prepared not "
+#| "just to work as part of a big team in a rather mechanical way, but people "
+#| "who will take the initiative, do big things, develop powerful, exciting "
+#| "programs, then you need to encourage the impulse to do that, whenever a "
+#| "kid has that impulse. So it is important to provide facilities and a "
+#| "social milieu that encourages this kind of learning to develop. The way "
+#| "to do this is the schools should run free software, and whenever a kid "
+#| "starts wondering, &ldquo;How does this actually work?&rdquo; the teacher "
+#| "can say, &ldquo;This is done by the Fubar program. You can find the "
+#| "source code of the Fubar program there. Go read it and figure it out, see "
+#| "for yourself how this works.&rdquo; Then if a kid says, &ldquo;You know, "
+#| "I have got an idea for how this could be better,&rdquo; the teacher could "
+#| "say, &ldquo;Why not give it a try? Try writing it. Make the change in the "
+#| "Fubar program to change this one feature.&rdquo;"
+msgid ""
+"The way to do this is the schools should run free software, and whenever a "
+"kid starts wondering, &ldquo;How does this actually work?&rdquo; the teacher "
+"can say, &ldquo;This is done by the Fubar program. You can find the source "
+"code of the Fubar program there. Go read it and figure it out, see for "
+"yourself how this works.&rdquo; Then if a kid says, &ldquo;You know, I have "
+"got an idea for how this could be better,&rdquo; the teacher could say, "
+"&ldquo;Why not give it a try? Try writing it. Make the change in the Fubar "
+"program to change this one feature.&rdquo;"
+msgstr ""
+"Le moyen d'y arriver, c'est que les écoles utilisent du logiciel libre ; "
+"quand un élève commence à poser la question « Comment est-ce que cela "
+"fonctionne en fait ? » le professeur peut dire « C'est fait par le programme "
+"Fubar. Tu peux trouver le code source du programme Fubar ici. Lis-le et vois "
+"par toi-même comment il fonctionne. » Puis, si un élève dit « Vous savez, "
+"j'ai une idée pour l'améliorer » le professeur peut dire «  Pourquoi ne pas "
+"essayer ? Essaie de l'écrire. Fais le changement dans le programme Fubar "
+"pour modifier cette fonctionnalité. »"
 
 #. type: Content of: <p>
 msgid ""
@@ -763,7 +978,39 @@ msgstr ""
 "ce stade, vous ne pouvez pas écrire de gros programmes par vous-même, mais "
 "vous pouvez écrire une petite amélioration dans un gros programme."
 
+# | That is how I learned to be a good programmer. I had a special opportunity
+# | at the Massachusetts Institute of Technology. There was a lab where they
+# | had written their own operating system, and then they used it. I went
+# | there and they said, &ldquo;We would like to hire you.&rdquo; They hired
+# | me to improve the programs in this operating system. It was my second year
+# | of college. At the time, I could not have written an operating system
+# | myself. I could not have written those programs from zero, but I could
+# | read them and add a feature and then add another feature and another and
+# | another. [-Every week I would add another feature to some program. By
+# | doing this many, many times, I developed my skill. In the 1970s, the only
+# | way you could get that opportunity was to be in a very special place. But
+# | today, we can give that opportunity to everyone. All you need is a PC
+# | running the GNU/Linux system with the source code, and you have this
+# | opportunity. So you can easily encourage Japanese teenagers, those of them
+# | who are fascinated by computers, to become good programmers.-]
 #. type: Content of: <p>
+#| msgid ""
+#| "That is how I learned to be a good programmer. I had a special "
+#| "opportunity at the Massachusetts Institute of Technology. There was a lab "
+#| "where they had written their own operating system, and then they used it. "
+#| "I went there and they said, &ldquo;We would like to hire you.&rdquo; They "
+#| "hired me to improve the programs in this operating system. It was my "
+#| "second year of college. At the time, I could not have written an "
+#| "operating system myself. I could not have written those programs from "
+#| "zero, but I could read them and add a feature and then add another "
+#| "feature and another and another. Every week I would add another feature "
+#| "to some program. By doing this many, many times, I developed my skill. In "
+#| "the 1970s, the only way you could get that opportunity was to be in a "
+#| "very special place. But today, we can give that opportunity to everyone. "
+#| "All you need is a PC running the GNU/Linux system with the source code, "
+#| "and you have this opportunity. So you can easily encourage Japanese "
+#| "teenagers, those of them who are fascinated by computers, to become good "
+#| "programmers."
 msgid ""
 "That is how I learned to be a good programmer. I had a special opportunity "
 "at the Massachusetts Institute of Technology. There was a lab where they had "
@@ -772,14 +1019,7 @@ msgid ""
 "the programs in this operating system. It was my second year of college. At "
 "the time, I could not have written an operating system myself. I could not "
 "have written those programs from zero, but I could read them and add a "
-"feature and then add another feature and another and another. Every week I "
-"would add another feature to some program. By doing this many, many times, I "
-"developed my skill. In the 1970s, the only way you could get that "
-"opportunity was to be in a very special place. But today, we can give that "
-"opportunity to everyone. All you need is a PC running the GNU/Linux system "
-"with the source code, and you have this opportunity. So you can easily "
-"encourage Japanese teenagers, those of them who are fascinated by computers, "
-"to become good programmers."
+"feature and then add another feature and another and another."
 msgstr ""
 "C'est ainsi que j'ai appris à être un bon programmeur. J'avais une "
 "opportunité particulière à l'Institut de technologie du Massachusetts (MIT). "
@@ -790,14 +1030,58 @@ msgstr ""
 "l'époque, je n'aurais pas pu écrire tout un système d'exploitation moi-même. "
 "Je n'aurais pas pu écrire ces programmes à partir de zéro, mais je pouvais "
 "les lire et leur ajouter une fonctionnalité, puis une autre, et une autre, "
-"et encore une autre. Chaque semaine, j'ajoutais une fonctionnalité nouvelle "
-"à un programme. En faisant cela de nombreuses fois, j'ai développé mes "
-"compétences. Dans les années 70, on n'avait cette d'opportunité que dans un "
-"endroit très particulier. Mais aujourd'hui, on peut donner cette opportunité "
-"à chacun. Tout ce dont on a besoin, c'est d'un PC exécutant le système GNU/"
-"Linux avec le code source. Ainsi vous pouvez facilement encourager les "
-"adolescents japonais, ceux d'entre eux qui sont fascinés par les "
-"ordinateurs, à devenir de bons programmeurs."
+"et encore une autre."
+
+# | [-That is how I learned to be a good programmer. I had a special
+# | opportunity at the Massachusetts Institute of Technology. There was a lab
+# | where they had written their own operating system, and then they used it.
+# | I went there and they said, &ldquo;We would like to hire you.&rdquo; They
+# | hired me to improve the programs in this operating system. It was my
+# | second year of college. At the time, I could not have written an operating
+# | system myself. I could not have written those programs from zero, but I
+# | could read them and add a feature and then add another feature and another
+# | and another.-]Every week I would add another feature to some program. By
+# | doing this many, many times, I developed my skill. In the 1970s, the only
+# | way you could get that opportunity was to be in a very special place. But
+# | today, we can give that opportunity to everyone. All you need is a PC
+# | running the GNU/Linux system with the source code, and you have this
+# | opportunity. So you can easily encourage Japanese teenagers, those of them
+# | who are fascinated by computers, to become good programmers.
+#. type: Content of: <p>
+#| msgid ""
+#| "That is how I learned to be a good programmer. I had a special "
+#| "opportunity at the Massachusetts Institute of Technology. There was a lab "
+#| "where they had written their own operating system, and then they used it. "
+#| "I went there and they said, &ldquo;We would like to hire you.&rdquo; They "
+#| "hired me to improve the programs in this operating system. It was my "
+#| "second year of college. At the time, I could not have written an "
+#| "operating system myself. I could not have written those programs from "
+#| "zero, but I could read them and add a feature and then add another "
+#| "feature and another and another. Every week I would add another feature "
+#| "to some program. By doing this many, many times, I developed my skill. In "
+#| "the 1970s, the only way you could get that opportunity was to be in a "
+#| "very special place. But today, we can give that opportunity to everyone. "
+#| "All you need is a PC running the GNU/Linux system with the source code, "
+#| "and you have this opportunity. So you can easily encourage Japanese "
+#| "teenagers, those of them who are fascinated by computers, to become good "
+#| "programmers."
+msgid ""
+"Every week I would add another feature to some program. By doing this many, "
+"many times, I developed my skill. In the 1970s, the only way you could get "
+"that opportunity was to be in a very special place. But today, we can give "
+"that opportunity to everyone. All you need is a PC running the GNU/Linux "
+"system with the source code, and you have this opportunity. So you can "
+"easily encourage Japanese teenagers, those of them who are fascinated by "
+"computers, to become good programmers."
+msgstr ""
+"Chaque semaine, j'ajoutais une fonctionnalité nouvelle à un programme. En "
+"faisant cela de nombreuses fois, j'ai développé mes compétences. Dans les "
+"années 70, on n'avait cette d'opportunité que dans un endroit très "
+"particulier. Mais aujourd'hui, on peut donner cette opportunité à chacun. "
+"Tout ce dont on a besoin, c'est d'un PC exécutant le système GNU/Linux avec "
+"le code source. Ainsi vous pouvez facilement encourager les adolescents "
+"japonais, ceux d'entre eux qui sont fascinés par les ordinateurs, à devenir "
+"de bons programmeurs."
 
 #. type: Content of: <p>
 msgid ""
@@ -870,16 +1154,7 @@ msgid ""
 "said, &ldquo;This is an educational institution, and we are here for people "
 "to learn about computer science. So we will have a rule: any time software "
 "is installed on a system, the source code must be on display so people can "
-"read it and learn how this software works.&rdquo; One of the employees wrote "
-"a utility program and he started selling it as non-free software. He was not "
-"just selling copies the way I was doing; he was restricting the users. But "
-"he offered the school a copy at no charge, and the people in charge of the "
-"computer facility said, &ldquo;No, we will not install this here because our "
-"rule is the source code must be on display. If you will not let us put the "
-"source code of this program on display, we just will not run your program."
-"&rdquo; This inspired me because it was a willingness to renounce a "
-"practical convenience for the sake of something more important which is the "
-"mission of the school: education."
+"read it and learn how this software works.&rdquo;"
 msgstr ""
 "Quand j'étais en première année d'université, il m'a été donné de voir un "
 "exemple moral qui m'a impressionné. J'utilisais les ordinateurs d'une salle "
@@ -887,13 +1162,58 @@ msgstr ""
 "établissement d'enseignement et nous sommes là pour que les gens apprennent "
 "l'informatique. Aussi, nous avons une règle : chaque fois qu'un logiciel est "
 "installé sur un système, le code source doit être affiché de sorte que les "
-"gens puissent le lire et apprendre comment le logiciel fonctionne. » Un des "
-"employés a écrit un programme et commença à le vendre comme logiciel non "
-"libre. Il ne vendait pas ces copies comme je le faisais ; il restreignait "
-"les utilisateurs. Mais il offrit à l'école une copie gratuite, et les "
-"personnes en charge de la salle informatique dirent alors : « Non, nous "
-"n'installerons pas ceci ici car notre règle est que le code source doit être "
-"affiché. Si vous ne nous laissez pas afficher le code source de ce "
+"gens puissent le lire et apprendre comment le logiciel fonctionne. »"
+
+# | [-When I was in my first year of college, I got to see a moral example
+# | that impressed me. I was using a computer facility, and at this facility
+# | they said, &ldquo;This is an educational institution, and we are here for
+# | people to learn about computer science. So we will have a rule: any time
+# | software is installed on a system, the source code must be on display so
+# | people can read it and learn how this software works.&rdquo;-]One of the
+# | employees wrote a utility program and he started selling it as non-free
+# | software. He was not just selling copies the way I was doing; he was
+# | restricting the users. But he offered the school a copy at no charge, and
+# | the people in charge of the computer facility said, &ldquo;No, we will not
+# | install this here because our rule is the source code must be on display.
+# | If you will not let us put the source code of this program on display, we
+# | just will not run your program.&rdquo; This inspired me because it was a
+# | willingness to renounce a practical convenience for the sake of something
+# | more important which is the mission of the school: education.
+#. type: Content of: <p>
+#| msgid ""
+#| "When I was in my first year of college, I got to see a moral example that "
+#| "impressed me. I was using a computer facility, and at this facility they "
+#| "said, &ldquo;This is an educational institution, and we are here for "
+#| "people to learn about computer science. So we will have a rule: any time "
+#| "software is installed on a system, the source code must be on display so "
+#| "people can read it and learn how this software works.&rdquo; One of the "
+#| "employees wrote a utility program and he started selling it as non-free "
+#| "software. He was not just selling copies the way I was doing; he was "
+#| "restricting the users. But he offered the school a copy at no charge, and "
+#| "the people in charge of the computer facility said, &ldquo;No, we will "
+#| "not install this here because our rule is the source code must be on "
+#| "display. If you will not let us put the source code of this program on "
+#| "display, we just will not run your program.&rdquo; This inspired me "
+#| "because it was a willingness to renounce a practical convenience for the "
+#| "sake of something more important which is the mission of the school: "
+#| "education."
+msgid ""
+"One of the employees wrote a utility program and he started selling it as "
+"non-free software. He was not just selling copies the way I was doing; he "
+"was restricting the users. But he offered the school a copy at no charge, "
+"and the people in charge of the computer facility said, &ldquo;No, we will "
+"not install this here because our rule is the source code must be on "
+"display. If you will not let us put the source code of this program on "
+"display, we just will not run your program.&rdquo; This inspired me because "
+"it was a willingness to renounce a practical convenience for the sake of "
+"something more important which is the mission of the school: education."
+msgstr ""
+"Un des employés a écrit un programme et commença à le vendre comme logiciel "
+"non libre. Il ne vendait pas ces copies comme je le faisais ; il "
+"restreignait les utilisateurs. Mais il offrit à l'école une copie gratuite, "
+"et les personnes en charge de la salle informatique dirent alors : « Non, "
+"nous n'installerons pas ceci ici car notre règle est que le code source doit "
+"être affiché. Si vous ne nous laissez pas afficher le code source de ce "
 "programme, nous n'utiliserons pas votre programme. » Cela m'a inspiré parce "
 "que c'était une volonté de renoncer à la commodité pour le bien de quelque "
 "chose de plus important qui est la mission d'une école : l'éducation."
