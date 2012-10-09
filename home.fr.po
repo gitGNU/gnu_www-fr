@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.html\n"
-"POT-Creation-Date: 2012-09-21 11:01-0300\n"
-"PO-Revision-Date: 2012-09-21 22:19+0200\n"
+"POT-Creation-Date: 2012-10-08 15:02-0300\n"
+"PO-Revision-Date: 2012-10-09 10:14+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -368,7 +368,35 @@ msgstr ""
 "automatique, pilotes PowerVR, et aussi : équivalents libres pour Skype, pour "
 "les bibliothèques OpenDWG, et pour Oracle Forms."
 
+# | <strong>Can you take over an <a
+# | href=\"/server/takeaction.html#unmaint\">unmaintained GNU
+# | package</a>?</strong> <a
+# | href=\"/software/dotgnu-forum/\">dotgnu-forum</a>, <a
+# | href=\"/software/dr-geo/\">dr-geo</a>, <a
+# | href=\"/software/gnatsweb/\">gnatsweb</a>, <a
+# | href=\"/software/halifax/\">halifax</a>, <a
+# | href=\"/software/metahtml/\">metahtml</a>, <a
+# | href=\"/software/orgadoc/\">orgadoc</a>, <a
+# | href=\"/software/pgccfd/\">pgccfd</a>, <a
+# | href=\"/software/polyxmass/\">polyxmass</a>, <a
+# | href=\"/software/quickthreads/\">quickthreads</a>, <a
+# | href=\"/software/rottlog/\">rottlog</a>, <a
+# | href=\"/software/snakecharmer/\">snakecharmer</a>, [-<a
+# | href=\"/software/thales/\">thales</a>-] are all <a
+# | href=\"/server/takeaction.html#unmaint\">looking for maintainers</a>.
 #. type: Content of: <div><p>
+#| msgid ""
+#| "<strong>Can you take over an <a href=\"/server/takeaction.html#unmaint"
+#| "\">unmaintained GNU package</a>?</strong> <a href=\"/software/dotgnu-"
+#| "forum/\">dotgnu-forum</a>, <a href=\"/software/dr-geo/\">dr-geo</a>, <a "
+#| "href=\"/software/gnatsweb/\">gnatsweb</a>, <a href=\"/software/halifax/"
+#| "\">halifax</a>, <a href=\"/software/metahtml/\">metahtml</a>, <a href=\"/"
+#| "software/orgadoc/\">orgadoc</a>, <a href=\"/software/pgccfd/\">pgccfd</"
+#| "a>, <a href=\"/software/polyxmass/\">polyxmass</a>, <a href=\"/software/"
+#| "quickthreads/\">quickthreads</a>, <a href=\"/software/rottlog/\">rottlog</"
+#| "a>, <a href=\"/software/snakecharmer/\">snakecharmer</a>, <a href=\"/"
+#| "software/thales/\">thales</a> are all <a href=\"/server/takeaction."
+#| "html#unmaint\">looking for maintainers</a>."
 msgid ""
 "<strong>Can you take over an <a href=\"/server/takeaction.html#unmaint"
 "\">unmaintained GNU package</a>?</strong> <a href=\"/software/dotgnu-forum/"
@@ -378,9 +406,8 @@ msgid ""
 "orgadoc/\">orgadoc</a>, <a href=\"/software/pgccfd/\">pgccfd</a>, <a href=\"/"
 "software/polyxmass/\">polyxmass</a>, <a href=\"/software/quickthreads/"
 "\">quickthreads</a>, <a href=\"/software/rottlog/\">rottlog</a>, <a href=\"/"
-"software/snakecharmer/\">snakecharmer</a>, <a href=\"/software/thales/"
-"\">thales</a> are all <a href=\"/server/takeaction.html#unmaint\">looking "
-"for maintainers</a>."
+"software/snakecharmer/\">snakecharmer</a>, are all <a href=\"/server/"
+"takeaction.html#unmaint\">looking for maintainers</a>."
 msgstr ""
 "<strong>Pouvez-vous adopter un <a href=\"/server/takeaction.html#unmaint"
 "\">paquet GNU non maintenu</a> ?</strong> \n"
@@ -390,8 +417,7 @@ msgstr ""
 "a>, <a href=\"/software/orgadoc/\">orgadoc</a>, <a href=\"/software/pgccfd/"
 "\">pgccfd</a>, <a href=\"/software/polyxmass/\">polyxmass</a>, <a href=\"/"
 "software/quickthreads/\">quickthreads</a>, <a href=\"/software/rottlog/"
-"\">rottlog</a>, <a href=\"/software/snakecharmer/\">snakecharmer</a>, <a "
-"href=\"/software/thales/\">thales</a> \n"
+"\">rottlog</a>, <a href=\"/software/snakecharmer/\">snakecharmer</a> \n"
 "sont tous <a href=\"/server/takeaction.html#unmaint\">à la recherche d'un "
 "repreneur</a>."
 
