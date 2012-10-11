@@ -16,17 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# | [-<span class=\"netscape4\"><a-]{+<a+} href=\"#content\">Skip to
-# | content</a> | {+<span class=\"netscape4\">+} <a href=\"#navigation\">Skip
-# | to navigation</a> [-| <a href=\"#searcher\">Skip to search</a>| </span><a
-# | href=\"#translations\">Translations of this page</a> |-] {+|</span>+} <a
-# | href=\"/accessibility/\">Accessibility</a>
 #. type: Content of: <div>
-#| msgid ""
-#| "<span class=\"netscape4\"><a href=\"#content\">Skip to content</a> | <a "
-#| "href=\"#navigation\">Skip to navigation</a> | <a href=\"#searcher\">Skip "
-#| "to search</a>| </span><a href=\"#translations\">Translations of this "
-#| "page</a> | <a href=\"/accessibility/\">Accessibility</a>"
 msgid ""
 "<a href=\"#content\">Skip to content</a> | <span class=\"netscape4\"> <a "
 "href=\"#navigation\">Skip to navigation</a> |</span> <a href=\"/"
