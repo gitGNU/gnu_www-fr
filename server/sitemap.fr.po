@@ -8,14 +8,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
-"POT-Creation-Date: 2012-10-04 04:25-0300\n"
-"PO-Revision-Date: 2012-10-04 10:36+0200\n"
+"POT-Creation-Date: 2012-10-11 21:39+0300\n"
+"PO-Revision-Date: 2012-10-11 22:02+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-10-11 04:25-0300\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -476,6 +477,14 @@ msgstr ""
 "<a href=\"/distros/free-system-distribution-guidelines.html\">free-system-"
 "distribution-guidelines.html - Recommandations pour les distributions "
 "systèmes libres</a>"
+
+#. type: Content of: <div><div><ul><li>
+msgid ""
+"<a href=\"/distros/optionally-free-not-enough.html\">optionally-free-not-"
+"enough.html - Optionally Free Is Not Enough</a>"
+msgstr ""
+"<a href=\"/distros/optionally-free-not-enough.html\">optionally-free-not-"
+"enough.html - La liberté en option, ce n'est pas assez</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -3392,8 +3401,8 @@ msgid ""
 "them</a>"
 msgstr ""
 "<a href=\"/philosophy/programs-must-not-limit-freedom.html\">programs-must-"
-"not-limit-freedom.html - Why programs must not limit the freedom to run "
-"them</a>"
+"not-limit-freedom.html - Pourquoi la liberté d'exécuter un programme doit "
+"être totale</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -4348,6 +4357,22 @@ msgid ""
 "<a href=\"/server/standards/translations/\">server/standards/translations</a>"
 msgstr ""
 "<a href=\"/server/standards/translations/\">server/standards/translations</a>"
+
+# | <a
+# | [-href=\"/server/standards/translations/priorities.html\">priorities.html-]
+# | {+href=\"/server/standards/translations/po-how-to.html\">po-how-to.html+}
+# | - [-Web Translation Priorities</a>-] {+How to Translate Using PO
+# | Files</a>+}
+#. type: Content of: <div><div><div><div><ul><li>
+#| msgid ""
+#| "<a href=\"/server/standards/translations/priorities.html\">priorities."
+#| "html - Web Translation Priorities</a>"
+msgid ""
+"<a href=\"/server/standards/translations/po-how-to.html\">po-how-to.html - "
+"How to Translate Using PO Files</a>"
+msgstr ""
+"<a href=\"/server/standards/translations/po-how-to.html\">po-how-to.html - "
+"How to Translate Using PO Files</a>"
 
 #. type: Content of: <div><div><div><div><ul><li>
 msgid ""
