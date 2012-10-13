@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: README.translations.html\n"
-"POT-Creation-Date: 2012-10-08 04:27-0300\n"
-"PO-Revision-Date: 2012-10-09 18:22+0200\n"
+"POT-Creation-Date: 2012-10-13 04:25-0300\n"
+"PO-Revision-Date: 2012-10-13 11:16+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -689,6 +689,24 @@ msgstr ""
 "Les fichiers .po peuvent être éditées par n'importe quel éditeur de "
 "fichiers .po."
 
+#. type: Content of: <ul><li><p>
+msgid ""
+"Note: Some team members or occasional contributors may find it difficult or "
+"inconvenient to translate using PO files. However, contributions submitted "
+"as plain text format should not be rejected.  To encourage the use of PO "
+"files, coordinators can provide those contributors with a simple guide aimed "
+"at people with little computer skills.  <a href=\"/server/standards/"
+"translations/po-how-to.html\">Here is an example</a>."
+msgstr ""
+"Remarque : certains membres de l'équipe ou certains contributeurs "
+"occasionnels peuvent trouver difficile ou peu pratique d'utiliser les "
+"fichiers PO pour traduire. Cependant, les contributions soumises en format "
+"texte brut ne doivent pas être rejetées. Pour encourager l'utilisation des "
+"fichiers PO, les coordinateurs peuvent donner à ces contributeurs un guide "
+"très simple destiné aux personnes qui n'ont qu'une expertise réduite en "
+"informatique. <a href=\"/server/standards/translations/po-how-to.html\">En "
+"voici un exemple</a>."
+
 #. type: Content of: <p>
 msgid ""
 "We have also implemented notification tools to keep translators informed of "
@@ -708,7 +726,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "Coordinators Manuals"
-msgstr "Manuel des coordinateurs"
+msgstr "Manuels des coordinateurs"
 
 #. type: Content of: <p>
 msgid ""
