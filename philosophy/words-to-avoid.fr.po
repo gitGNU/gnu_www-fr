@@ -8,14 +8,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: words-to-avoid.html\n"
-"POT-Creation-Date: 2012-09-25 12:25-0300\n"
-"PO-Revision-Date: 2012-10-02 22:00+0200\n"
+"POT-Creation-Date: 2012-10-18 12:25-0300\n"
+"PO-Revision-Date: 2012-10-19 13:06+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-10-18 12:25-0300\n"
 "Plural-Forms:  \n"
 "X-Generator: Virtaal 0.7.1\n"
 
@@ -386,23 +387,36 @@ msgstr "« Consommer »"
 
 #. type: Content of: <p>
 msgid ""
-"It is erroneous to speak of \"consuming\" digital information, music, "
-"software, etc., since using them does not consume them.  See the following "
-"entry,"
+"\"Consume\" refers to what we do with food: we ingest it, and use it in a "
+"way that uses it up.  By analogy, we emply the same word to describe using "
+"other things in a way that uses them up.  However, it is erroneous to speak "
+"of \"consuming\" digital information, music, software, etc., since using "
+"them does not consume them.  See also the following entry."
 msgstr ""
-"Il est erroné de parler de  « consommer » l'information numérique, la "
-"musique, les logiciels, etc., puisqu'ils ne sont pas "
-"« consommés » (détruits) lorsqu'on les utilise. Voir les rubriques suivantes."
+"« Consommer » se réfère à ce que nous faisons avec la nourriture : nous "
+"l'ingérons, puis nous l'utilisons d'une manière qui l'épuise. Par analogie, "
+"nous employons le même mot pour décrire l'utilisation d'autres ressources "
+"d'une manière qui les épuise. Cependant, parler de « consommer » "
+"l'information numérique, la musique, le logiciel, etc., est une erreur "
+"puisque nous ne les consommons pas quand nous les utilisons. Consultez "
+"également la rubrique suivante."
 
 #. type: Content of: <h4>
 msgid "&ldquo;Consumer&rdquo;"
 msgstr "« Consommateur »"
 
+# | The term &ldquo;consumer,&rdquo; when used to refer to [-computer users,-]
+# | {+the users of computing,+} is loaded with assumptions we should reject. 
+# | Playing a digital recording, or running a program, does not consume it.
 #. type: Content of: <p>
+#| msgid ""
+#| "The term &ldquo;consumer,&rdquo; when used to refer to computer users, is "
+#| "loaded with assumptions we should reject.  Playing a digital recording, "
+#| "or running a program, does not consume it."
 msgid ""
-"The term &ldquo;consumer,&rdquo; when used to refer to computer users, is "
-"loaded with assumptions we should reject.  Playing a digital recording, or "
-"running a program, does not consume it."
+"The term &ldquo;consumer,&rdquo; when used to refer to the users of "
+"computing, is loaded with assumptions we should reject.  Playing a digital "
+"recording, or running a program, does not consume it."
 msgstr ""
 "Le terme « consommateur », quand il est utilisé pour parler des utilisateurs "
 "de l'informatique, est connoté d'hypothèses que nous devons rejeter. Écouter "
@@ -429,28 +443,47 @@ msgstr ""
 "les assimile à des moutons qui broutent passivement ce que d'autres mettent "
 "à leur disposition."
 
+# | This kind of thinking leads to travesties [-like-] {+such as+} the CBDTPA
+# | {+(+}&ldquo;Consumer Broadband and Digital Television Promotion
+# | Act&rdquo;{+)+}  which [-would-] {+proposed to+} require copying
+# | restriction facilities in every digital device.  If all the users do is
+# | &ldquo;consume,&rdquo; then why should they mind?
 #. type: Content of: <p>
+#| msgid ""
+#| "This kind of thinking leads to travesties like the CBDTPA &ldquo;Consumer "
+#| "Broadband and Digital Television Promotion Act&rdquo; which would require "
+#| "copying restriction facilities in every digital device.  If all the users "
+#| "do is &ldquo;consume,&rdquo; then why should they mind?"
 msgid ""
-"This kind of thinking leads to travesties like the CBDTPA &ldquo;Consumer "
-"Broadband and Digital Television Promotion Act&rdquo; which would require "
-"copying restriction facilities in every digital device.  If all the users do "
-"is &ldquo;consume,&rdquo; then why should they mind?"
+"This kind of thinking leads to travesties such as the CBDTPA (&ldquo;"
+"Consumer Broadband and Digital Television Promotion Act&rdquo;)  which "
+"proposed to require copying restriction facilities in every digital device.  "
+"If all the users do is &ldquo;consume,&rdquo; then why should they mind?"
 msgstr ""
 "Cette façon de penser mène à des parodies de lois comme la <abbr title="
 "\"Consumer Broadband and Digital Television Promotion Act\">CBDTPA</abbr>, "
 "« Loi pour la promotion de la télévision numérique à large bande pour le "
-"consommateur », qui nécessiterait des systèmes de restriction de copie pour "
-"tout appareil numérique. Si tout ce que font les utilisateurs est "
-"« consommer », alors, pourquoi cela les dérangeraient-il ?"
+"consommateur », qui a proposé d'exiger de chaque appareil numérique qu'il "
+"ait un système de restriction de copie. Si tout ce que font les utilisateurs "
+"est « consommer », alors, pourquoi cela les dérangeraient-il ?"
 
+# | The shallow economic conception of users as &ldquo;consumers&rdquo; tends
+# | to go hand in hand with the idea that published works are mere
+# | [-&ldquo;content.&rdquo;-] {+<a
+# | href=\"#content\">&ldquo;content.&rdquo;</a>+}
 #. type: Content of: <p>
+#| msgid ""
+#| "The shallow economic conception of users as &ldquo;consumers&rdquo; tends "
+#| "to go hand in hand with the idea that published works are mere &ldquo;"
+#| "content.&rdquo;"
 msgid ""
 "The shallow economic conception of users as &ldquo;consumers&rdquo; tends to "
-"go hand in hand with the idea that published works are mere &ldquo;content."
-"&rdquo;"
+"go hand in hand with the idea that published works are mere <a href="
+"\"#content\">&ldquo;content.&rdquo;</a>"
 msgstr ""
 "La vision économique obtuse des utilisateurs en tant que « consommateurs » "
-"va de pair avec l'idée que les œuvres publiées sont des « contenus »."
+"va de pair avec l'idée que les œuvres publiées sont de simples <a href="
+"\"#content\">« contenus »</a>. "
 
 #. type: Content of: <p>
 msgid ""
@@ -544,7 +577,24 @@ msgstr ""
 msgid "&ldquo;Creator&rdquo;"
 msgstr "« Créateur »"
 
+# | The term &ldquo;creator&rdquo; as applied to authors implicitly compares
+# | them to a deity (&ldquo;the creator&rdquo;).  The term is used by
+# | publishers to elevate authors' moral standing above that of ordinary
+# | people in order to justify giving them increased copyright power, which
+# | the publishers can then exercise in their name.  We recommend saying
+# | &ldquo;author&rdquo; instead.  However, in many cases &ldquo;copyright
+# | holder&rdquo; is what you really mean.  {+These two terms are not
+# | equivalent: often the copyright holder is not the author.+}
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The term &ldquo;creator&rdquo; as applied to authors implicitly compares "
+#| "them to a deity (&ldquo;the creator&rdquo;).  The term is used by "
+#| "publishers to elevate authors' moral standing above that of ordinary "
+#| "people in order to justify giving them increased copyright power, which "
+#| "the publishers can then exercise in their name.  We recommend saying "
+#| "&ldquo;author&rdquo; instead.  However, in many cases &ldquo;copyright "
+#| "holder&rdquo; is what you really mean."
 msgid ""
 "The term &ldquo;creator&rdquo; as applied to authors implicitly compares "
 "them to a deity (&ldquo;the creator&rdquo;).  The term is used by publishers "
@@ -552,7 +602,8 @@ msgid ""
 "justify giving them increased copyright power, which the publishers can then "
 "exercise in their name.  We recommend saying &ldquo;author&rdquo; instead.  "
 "However, in many cases &ldquo;copyright holder&rdquo; is what you really "
-"mean."
+"mean.  These two terms are not equivalent: often the copyright holder is not "
+"the author."
 msgstr ""
 "Le terme « créateur », appliqué aux auteurs, les compare implicitement à un "
 "dieu (le « créateur »). Le terme est utilisé par les éditeurs pour élever le "
@@ -567,13 +618,29 @@ msgstr ""
 msgid "&ldquo;Digital Goods&rdquo;"
 msgstr "« Biens numériques »"
 
+# | The term &ldquo;digital goods,&rdquo; as applied to copies of works of
+# | authorship, identifies them with physical goods&mdash;which cannot be
+# | copied, and which therefore have to be manufactured {+in quantity+} and
+# | sold.  This metaphor encourages people to judge issues about software or
+# | other digital works based on their views and intuitions about physical
+# | goods.  {+It also frames issues in terms of economics, whose shallow and
+# | limited values don't include freedom and community.+}
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The term &ldquo;digital goods,&rdquo; as applied to copies of works of "
+#| "authorship, identifies them with physical goods&mdash;which cannot be "
+#| "copied, and which therefore have to be manufactured and sold.  This "
+#| "metaphor encourages people to judge issues about software or other "
+#| "digital works based on their views and intuitions about physical goods."
 msgid ""
 "The term &ldquo;digital goods,&rdquo; as applied to copies of works of "
 "authorship, identifies them with physical goods&mdash;which cannot be "
-"copied, and which therefore have to be manufactured and sold.  This metaphor "
-"encourages people to judge issues about software or other digital works "
-"based on their views and intuitions about physical goods."
+"copied, and which therefore have to be manufactured in quantity and sold.  "
+"This metaphor encourages people to judge issues about software or other "
+"digital works based on their views and intuitions about physical goods.  It "
+"also frames issues in terms of economics, whose shallow and limited values "
+"don't include freedom and community."
 msgstr ""
 "L'expression « biens numériques » telle qu'elle est appliquée aux copies "
 "d'œuvres de l'esprit, les force à rentrer dans le schéma de pensée des biens "
@@ -608,10 +675,19 @@ msgstr ""
 "trouvez utiles ou gênants, mais de toute façon ils ne vous oppriment pas "
 "parce que vous pouvez les ouvrir et les fermer."
 
+# | DRM is like a lock placed on you by someone else, who refuses to give you
+# | the [-key &mdash; in-] {+key&mdash;in+} other words, like handcuffs. 
+# | Therefore, we call them &ldquo;digital handcuffs&rdquo;, not
+# | &ldquo;digital locks&rdquo;.
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "DRM is like a lock placed on you by someone else, who refuses to give you "
+#| "the key &mdash; in other words, like handcuffs.  Therefore, we call them "
+#| "&ldquo;digital handcuffs&rdquo;, not &ldquo;digital locks&rdquo;."
 msgid ""
 "DRM is like a lock placed on you by someone else, who refuses to give you "
-"the key &mdash; in other words, like handcuffs.  Therefore, we call them "
+"the key&mdash;in other words, like handcuffs.  Therefore, we call them "
 "&ldquo;digital handcuffs&rdquo;, not &ldquo;digital locks&rdquo;."
 msgstr ""
 "Un dispositif de DRM est comme un verrou placé sur vous par une autre "
@@ -619,14 +695,32 @@ msgstr ""
 "Par conséquent nous les appelons « menottes numériques » et non  « verrous "
 "numériques »."
 
+# | A number of {+opposition+} campaigns have chosen the unwise term
+# | &ldquo;digital locks&rdquo;; [-therefore,-] to [-correct-] {+get things
+# | back on+} the [-mistake,-] {+right track,+} we must firmly [-reject the-]
+# | {+decline to follow them in using that+} term.  We [-sometimes-] {+can+}
+# | support a campaign that [-criticizes-] {+opposes+} &ldquo;digital
+# | locks&rdquo;[-,-] if we agree [-with-] {+on+} the substance; [-but-]
+# | {+however,+} when we [-do, we-] state our [-rejection of that term, and-]
+# | {+support, we+} conspicuously [-say-] {+replace the term with+}
+# | &ldquo;digital handcuffs&rdquo; [-so as to set a better example.-] {+and
+# | say why.+}
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "A number of campaigns have chosen the unwise term &ldquo;digital "
+#| "locks&rdquo;; therefore, to correct the mistake, we must firmly reject "
+#| "the term.  We sometimes support a campaign that criticizes &ldquo;digital "
+#| "locks&rdquo;, if we agree with the substance; but when we do, we state "
+#| "our rejection of that term, and conspicuously say &ldquo;digital "
+#| "handcuffs&rdquo; so as to set a better example."
 msgid ""
-"A number of campaigns have chosen the unwise term &ldquo;digital "
-"locks&rdquo;; therefore, to correct the mistake, we must firmly reject the "
-"term.  We sometimes support a campaign that criticizes &ldquo;digital "
-"locks&rdquo;, if we agree with the substance; but when we do, we state our "
-"rejection of that term, and conspicuously say &ldquo;digital "
-"handcuffs&rdquo; so as to set a better example."
+"A number of opposition campaigns have chosen the unwise term &ldquo;digital "
+"locks&rdquo;; to get things back on the right track, we must firmly decline "
+"to follow them in using that term.  We can support a campaign that opposes "
+"&ldquo;digital locks&rdquo; if we agree on the substance; however, when we "
+"state our support, we conspicuously replace the term with &ldquo;digital "
+"handcuffs&rdquo; and say why."
 msgstr ""
 "Plusieurs campagnes de communication ont choisi la terminologie peu "
 "judicieuse de « verrous numériques » ; donc, pour corriger cette erreur nous "
@@ -670,9 +764,17 @@ msgstr ""
 msgid "&ldquo;Ecosystem&rdquo;"
 msgstr "« Écosystème »"
 
+# | It is [-a mistake-] {+inadvisable+} to describe the free software
+# | community, or any human community, as an &ldquo;ecosystem,&rdquo; because
+# | that word implies the absence of ethical judgment.
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "It is a mistake to describe the free software community, or any human "
+#| "community, as an &ldquo;ecosystem,&rdquo; because that word implies the "
+#| "absence of ethical judgment."
 msgid ""
-"It is a mistake to describe the free software community, or any human "
+"It is inadvisable to describe the free software community, or any human "
 "community, as an &ldquo;ecosystem,&rdquo; because that word implies the "
 "absence of ethical judgment."
 msgstr ""
@@ -680,15 +782,35 @@ msgstr ""
 "communauté humaine, comme un « écosystème », parce que ce mot implique une "
 "absence de jugement éthique."
 
+# | The term &ldquo;ecosystem&rdquo; implicitly suggests an attitude of
+# | nonjudgmental observation: don't ask how what <em>should</em> happen, just
+# | study and [-explain-] {+understand+} what <em>does</em> happen.  In an
+# | ecosystem, some organisms consume other organisms.  [-We-]  {+In ecology,
+# | we+} do not ask whether it is [-fair-] {+right+} for an owl to eat a mouse
+# | or for a mouse to eat a [-plant,-] {+seed,+} we only observe that they do
+# | so.  Species' populations grow or shrink according to the conditions; this
+# | is neither right nor wrong, merely an ecological [-phenomenon.-]
+# | {+phenomenon, even if it goes so far as the extinction of a species.+}
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "The term &ldquo;ecosystem&rdquo; implicitly suggests an attitude of "
+#| "nonjudgmental observation: don't ask how what <em>should</em> happen, "
+#| "just study and explain what <em>does</em> happen.  In an ecosystem, some "
+#| "organisms consume other organisms.  We do not ask whether it is fair for "
+#| "an owl to eat a mouse or for a mouse to eat a plant, we only observe that "
+#| "they do so.  Species' populations grow or shrink according to the "
+#| "conditions; this is neither right nor wrong, merely an ecological "
+#| "phenomenon."
 msgid ""
 "The term &ldquo;ecosystem&rdquo; implicitly suggests an attitude of "
 "nonjudgmental observation: don't ask how what <em>should</em> happen, just "
-"study and explain what <em>does</em> happen.  In an ecosystem, some "
-"organisms consume other organisms.  We do not ask whether it is fair for an "
-"owl to eat a mouse or for a mouse to eat a plant, we only observe that they "
-"do so.  Species' populations grow or shrink according to the conditions; "
-"this is neither right nor wrong, merely an ecological phenomenon."
+"study and understand what <em>does</em> happen.  In an ecosystem, some "
+"organisms consume other organisms.  In ecology, we do not ask whether it is "
+"right for an owl to eat a mouse or for a mouse to eat a seed, we only "
+"observe that they do so.  Species' populations grow or shrink according to "
+"the conditions; this is neither right nor wrong, merely an ecological "
+"phenomenon, even if it goes so far as the extinction of a species."
 msgstr ""
 "Le terme « écosystème » suggère une attitude uniquement observatrice, sans "
 "volonté de juger : ne pas se demander pas comment les choses <em>devraient</"
@@ -699,13 +821,26 @@ msgstr ""
 "populations des différentes espèces croissent ou décroissent selon leur "
 "environnement ; ce n'est ni bien ni mal, juste un phénomène écologique."
 
+# | By contrast, beings that adopt an ethical stance towards their
+# | surroundings can decide to preserve things that, [-on-] {+without+} their
+# | [-own,-] {+intervention,+} might vanish&mdash;such as civil society,
+# | democracy, human rights, peace, public health, {+a stable climate,+} clean
+# | air and water, endangered species, traditional arts&hellip;and computer
+# | users' freedom.
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "By contrast, beings that adopt an ethical stance towards their "
+#| "surroundings can decide to preserve things that, on their own, might "
+#| "vanish&mdash;such as civil society, democracy, human rights, peace, "
+#| "public health, clean air and water, endangered species, traditional "
+#| "arts&hellip;and computer users' freedom."
 msgid ""
 "By contrast, beings that adopt an ethical stance towards their surroundings "
-"can decide to preserve things that, on their own, might vanish&mdash;such as "
-"civil society, democracy, human rights, peace, public health, clean air and "
-"water, endangered species, traditional arts&hellip;and computer users' "
-"freedom."
+"can decide to preserve things that, without their intervention, might "
+"vanish&mdash;such as civil society, democracy, human rights, peace, public "
+"health, a stable climate, clean air and water, endangered species, "
+"traditional arts&hellip;and computer users' freedom."
 msgstr ""
 "En revanche, les êtres qui adoptent une attitude active envers leur "
 "environnement peuvent décider de préserver des choses qui, livrées à elles-"
@@ -1381,24 +1516,48 @@ msgstr ""
 msgid "&ldquo;Theft&rdquo;"
 msgstr "« Vol »"
 
+# | Copyright apologists often use words like &ldquo;stolen&rdquo; and
+# | &ldquo;theft&rdquo; [-as a metaphor for-] {+to refer to+} copyright
+# | infringement.  [-At the same time,-]  {+This is spin, but+} they [-ask
+# | us-] {+would like you+} to [-treat the legal system as an authority on
+# | ethics: if copying is forbidden,-] {+take+} it [-must be wrong.-] {+for
+# | objective truth.+}
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "Copyright apologists often use words like &ldquo;stolen&rdquo; and &ldquo;"
+#| "theft&rdquo; as a metaphor for copyright infringement.  At the same time, "
+#| "they ask us to treat the legal system as an authority on ethics: if "
+#| "copying is forbidden, it must be wrong."
 msgid ""
 "Copyright apologists often use words like &ldquo;stolen&rdquo; and &ldquo;"
-"theft&rdquo; as a metaphor for copyright infringement.  At the same time, "
-"they ask us to treat the legal system as an authority on ethics: if copying "
-"is forbidden, it must be wrong."
+"theft&rdquo; to refer to copyright infringement.  This is spin, but they "
+"would like you to take it for objective truth."
 msgstr ""
 "Les partisans du copyright utilisent souvent des mots comme « dérobé » et "
 "« vol » comme métaphore pour désigner les infractions au copyright. En même "
 "temps, ils nous demandent de considérer la loi comme une référence au niveau "
 "de l'éthique : si la copie est interdite, c'est qu'elle doit être mauvaise."
 
+# | [-So it is pertinent to mention that-]{+Under+} the {+US+} legal
+# | [-system&mdash;at least in the US&mdash;rejects the idea that-]
+# | {+system,+} copyright infringement is [-&ldquo;theft.&rdquo; Copyright-]
+# | {+not theft.  Laws about theft are not applicable to copyright
+# | infringement.  The copyright+} apologists are making an appeal to
+# | [-authority&hellip;and-] {+authority&mdash;and+} misrepresenting what
+# | authority says.
 #. type: Content of: <p>
+#, fuzzy
+#| msgid ""
+#| "So it is pertinent to mention that the legal system&mdash;at least in the "
+#| "US&mdash;rejects the idea that copyright infringement is &ldquo;theft."
+#| "&rdquo; Copyright apologists are making an appeal to authority&hellip;and "
+#| "misrepresenting what authority says."
 msgid ""
-"So it is pertinent to mention that the legal system&mdash;at least in the "
-"US&mdash;rejects the idea that copyright infringement is &ldquo;theft."
-"&rdquo; Copyright apologists are making an appeal to authority&hellip;and "
-"misrepresenting what authority says."
+"Under the US legal system, copyright infringement is not theft.  Laws about "
+"theft are not applicable to copyright infringement.  The copyright "
+"apologists are making an appeal to authority&mdash;and misrepresenting what "
+"authority says."
 msgstr ""
 "Alors il est intéressant de signaler que la loi (du moins aux États-Unis) ne "
 "considère pas les infractions au copyright comme du « vol ». Les défenseurs "
@@ -1407,23 +1566,12 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"The idea that laws decide what is right or wrong is mistaken in general.  "
-"Laws are, at their best, an attempt to achieve justice; to say that laws "
-"define justice or ethical conduct is turning things upside down."
+"Unauthorized copying is forbidden by copyright law in many circumstances "
+"(not all!), but being forbidden doesn't make it wrong.  In general, laws "
+"don't define right and wrong.  Laws, at their best, attempt to implement "
+"justice.  If the laws (the implementation) don't fit our ideas of right and "
+"wrong (the spec), the laws are what should change."
 msgstr ""
-"L'idée que les lois décident de ce qui est juste et de ce qui est mal est en "
-"général erronée. Les lois sont, au mieux, une tentative d'accomplir la "
-"justice ; dire que les lois définissent la justice ou une conduite éthique "
-"est prendre le problème à l'envers."
-
-#. type: Content of: <p>
-msgid ""
-"Meanwhile, when the name of a legal offense is used as a metaphor for "
-"something else, that particular law is not relevant at all."
-msgstr ""
-"En tout cas, quand le nom d'un délit est utilisé comme métaphore pour "
-"désigner quelque chose d'autre, cette loi particulière n'est pas pertinente "
-"du tout."
 
 #. type: Content of: <h4>
 msgid "&ldquo;Trusted Computing&rdquo;"
@@ -1570,3 +1718,31 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid ""
+#~ "It is erroneous to speak of \"consuming\" digital information, music, "
+#~ "software, etc., since using them does not consume them.  See the "
+#~ "following entry,"
+#~ msgstr ""
+#~ "Il est erroné de parler de  « consommer » l'information numérique, la "
+#~ "musique, les logiciels, etc., puisqu'ils ne sont pas "
+#~ "« consommés » (détruits) lorsqu'on les utilise. Voir les rubriques "
+#~ "suivantes."
+
+#~ msgid ""
+#~ "The idea that laws decide what is right or wrong is mistaken in general.  "
+#~ "Laws are, at their best, an attempt to achieve justice; to say that laws "
+#~ "define justice or ethical conduct is turning things upside down."
+#~ msgstr ""
+#~ "L'idée que les lois décident de ce qui est juste et de ce qui est mal est "
+#~ "en général erronée. Les lois sont, au mieux, une tentative d'accomplir la "
+#~ "justice ; dire que les lois définissent la justice ou une conduite "
+#~ "éthique est prendre le problème à l'envers."
+
+#~ msgid ""
+#~ "Meanwhile, when the name of a legal offense is used as a metaphor for "
+#~ "something else, that particular law is not relevant at all."
+#~ msgstr ""
+#~ "En tout cas, quand le nom d'un délit est utilisé comme métaphore pour "
+#~ "désigner quelque chose d'autre, cette loi particulière n'est pas "
+#~ "pertinente du tout."
