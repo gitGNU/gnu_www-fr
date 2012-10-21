@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ucita.html\n"
-"POT-Creation-Date: 2012-06-10 04:29-0300\n"
-"PO-Revision-Date: 2012-09-28 16:42+0200\n"
+"POT-Creation-Date: 2012-10-21 16:12+0300\n"
+"PO-Revision-Date: 2012-10-21 16:20+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -254,20 +254,29 @@ msgstr ""
 "\"#Note3\">(3)</a>, mais la Californie et l'Oklahoma sont pour bientôt. Il y "
 "aura probablement une bataille dans chaque État, tôt ou tard."
 
+# | For more information about UCITA, see <a
+# | [-href=\"http://www.badsoftware.com\">http://www.badsoftware.com</a>. 
+# | InfoWorld magazine is also helping to fight against UCITA; see-]
+# | {+href=\"http://www.badsoftware.com\">http://www.badsoftware.com</a> or
+# | read the UCITA page on Wikipedia:+} <a
+# | [-href=\"http://archive.infoworld.com/cgi-bin/displayStory.pl?/features/990531ucita_home.htm\">
+# | http://archive.infoworld.com/cgi-bin/displayStory.pl?/features/990531ucita_home.htm</a>-]
+# | {+href=\"http://en.wikipedia.org/wiki/Uniform_Computer_Information_Transactions_Act\">
+# | http://en.wikipedia.org/wiki/Uniform_Computer_Information_Transactions_Act<
+# | /a>.+}
 #. type: Content of: <p>
 msgid ""
 "For more information about UCITA, see <a href=\"http://www.badsoftware.com"
-"\">http://www.badsoftware.com</a>.  InfoWorld magazine is also helping to "
-"fight against UCITA; see <a href=\"http://archive.infoworld.com/cgi-bin/"
-"displayStory.pl?/features/990531ucita_home.htm\"> http://archive.infoworld."
-"com/cgi-bin/displayStory.pl?/features/990531ucita_home.htm</a>"
+"\">http://www.badsoftware.com</a> or read the UCITA page on Wikipedia: <a "
+"href=\"http://en.wikipedia.org/wiki/"
+"Uniform_Computer_Information_Transactions_Act\"> http://en.wikipedia.org/"
+"wiki/Uniform_Computer_Information_Transactions_Act</a>."
 msgstr ""
-"Pour plus d'informations sur l'UCITA, consultez <a href=\"http://www."
-"badsoftware.com\">http://www.badsoftware.com</a>. Le magazine "
-"<cite>InfoWorld</cite> participe à la bataille contre l'UCITA ; consultez <a "
-"href=\"http://archive.infoworld.com/cgi-bin/displayStory.pl?/"
-"features/990531ucita_home.htm\">http://archive.infoworld.com/cgi-bin/"
-"displayStory.pl?/features/990531ucita_home.htm</a>"
+"Pour plus d'informations sur l'UCITA, consultez <a href=\"http://badsoftware."
+"com/?page_id=9\">http://www.badsoftware.com</a> ou lisez la page de "
+"Wikipedia qui s'y rapporte : <a href=\"http://en.wikipedia.org/wiki/"
+"Uniform_Computer_Information_Transactions_Act\">http://en.wikipedia.org/wiki/"
+"Uniform_Computer_Information_Transactions_Act</a>."
 
 #. type: Content of: <h4>
 msgid "Notes"
@@ -366,33 +375,43 @@ msgstr ""
 "l'informatique, veuillez lui faire suivre ce message et lui demander son "
 "soutien."
 
+# | If you support the anti UCITA campaign, <em>please make prominent links to
+# | this page, <a [-href=\"http://www.4cite.org\">http://www.4cite.org</a> and
+# | to <a
+# | href=\"http://archive.infoworld.com/cgi-bin/displayStory.pl?/features/990531ucita_home.htm\">
+# | http://archive.infoworld.com/cgi-bin/displayStory.pl?/features/990531ucita_home.htm</a>!-]
+# | {+href=\"http://web.archive.org/web/20001009121702/http://www.4cite.org/\">http://www.4cite.org[Archived
+# | Page]</a>.+}  </em>
+#.  Link broken as of 21 October 2012
+#.   and
+#.   to <a href="http://archive.infoworld.com/cgi-bin/displayStory.pl?/features/990531ucita_home.htm">
+#.    http://archive.infoworld.com/cgi-bin/displayStory.pl?/features/990531ucita_home.htm</a>!
+#.   
 #. type: Content of: <p>
 msgid ""
 "If you support the anti UCITA campaign, <em>please make prominent links to "
-"this page, <a href=\"http://www.4cite.org\">http://www.4cite.org</a> and to "
-"<a href=\"http://archive.infoworld.com/cgi-bin/displayStory.pl?/"
-"features/990531ucita_home.htm\"> http://archive.infoworld.com/cgi-bin/"
-"displayStory.pl?/features/990531ucita_home.htm</a>! </em>"
+"this page, <a href=\"http://web.archive.org/web/20001009121702/http://"
+"www.4cite.org/\">http://www.4cite.org[Archived Page]</a>.  </em>"
 msgstr ""
 "Si vous soutenez la campagne contre l'UCITA, <em>merci de créer des liens "
-"clairement affichés vers cette page : <a href=\"http://www.4cite.org"
-"\">http://www.4cite.org</a>, et vers celle-ci, <a href=\"http://archive."
-"infoworld.com/cgi-bin/displayStory.pl?/features/990531ucita_home.htm"
-"\">http://archive.infoworld.com/cgi-bin/displayStory.pl?/"
-"features/990531ucita_home.htm</a> !</em>"
+"clairement affichés vers cette page : <a href=\"http://web.archive.org/"
+"web/20001009121702/http://www.4cite.org/\">http://www.4cite.org [page "
+"archivée]</a>.</em>"
 
 #. type: Content of: <h4>
 msgid "Links to other articles"
 msgstr "Liens vers d'autres articles"
 
+# | <a [-href=\"http://www.ieeeusa.org/policy/POSITIONS/ucita.html\">IEEE-]
+# | {+href=\"http://origin.www.ieee.org/organizations/pubs/newsletters/npss/june2000/position.htm\">IEEE+}
+# | supports the movement to oppose UCITA</a>
 #. type: Content of: <ul><li>
 msgid ""
-"<a href=\"http://www.ieeeusa.org/policy/POSITIONS/ucita.html\">IEEE supports "
-"the movement to oppose UCITA</a>"
+"<a href=\"http://origin.www.ieee.org/organizations/pubs/newsletters/npss/"
+"june2000/position.htm\">IEEE supports the movement to oppose UCITA</a>"
 msgstr ""
-"<a href=\"http://www.ieeeusa.org/policy/POSITIONS/ucita.html\">L'IEEE "
-"soutient le mouvement contre l'UCITA</a> <a id=\"TransNote5-rev\" href="
-"\"#TransNote5\"><sup>e</sup></a>"
+"<a href=\"http://origin.www.ieee.org/organizations/pubs/newsletters/npss/"
+"june2000/position.htm\">L'IEEE soutient le mouvement contre l'UCITA</a>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
@@ -415,15 +434,6 @@ msgstr ""
 "ouvert » et met l'accent sur la disponibilité du code source pour les "
 "utilisateurs. A contrario, <cite>free software</cite>, « logiciel libre », "
 "insiste sur l'aspect libre de ce type de logiciels. <a href=\"#TransNote4-rev"
-"\">&#8593;</a></li>\n"
-"<li id=\"TransNote5\">Les trois derniers liens ne fonctionnent plus. On peut "
-"consulter à la place :<br/>\n"
-"http://web.archive.org/web/20000519221033/http://www.4cite.org/ (page "
-"d'accueil de www.4cite.org en 2000) ;<br/>\n"
-"http://en.wikipedia.org/wiki/Uniform_Computer_Information_Transactions_Act ;"
-"<br/>\n"
-"http://origin.www.ieee.org/organizations/pubs/newsletters/npss/june2000/"
-"position.htm (position anti-UCITA de l'IEEE). <a href=\"#TransNote5-rev"
 "\">&#8593;</a></li>\n"
 "</ol>"
 
