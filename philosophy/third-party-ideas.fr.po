@@ -7,15 +7,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: third-party-ideas.html\n"
-"POT-Creation-Date: 2012-10-11 04:25-0300\n"
-"PO-Revision-Date: 2012-10-12 12:20+0200\n"
+"POT-Creation-Date: 2012-10-23 12:25-0300\n"
+"PO-Revision-Date: 2012-10-23 18:38+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-10-23 12:25-0300\n"
 "Plural-Forms:  \n"
+"X-Generator: Gtranslator 2.91.5\n"
 
 #. type: Content of: <title>
 msgid ""
@@ -198,17 +200,37 @@ msgstr ""
 "fait une réponse conjointe à la lettre ouverte du PDG de SCO, Darl McBride, "
 "à la communauté open source."
 
+# | <a
+# | [-href=\"http://www.hardwarecentral.com/hardwarecentral/editorials/4788/1,\">Hardware
+# | Central</a>.-]
+# | {+href=\"http://web.archive.org/web/20060313152550/http://www.hardwarecentral.com/hardwarecentral/editorials/4788/1/\">Hardware
+# | Central[Archived Page]</a>.+}  We disagree with one aspect of this
+# | article's conclusion: It's not legitimate for Microsoft to help Disney and
+# | the RIAA impose Digital Restrictions Management on you, any more than it
+# | is legitimate for Disney and the RIAA to try it.  The full power of
+# | computing should be available to you, not just to the owners of
+# | information.
 #. type: Content of: <ul><li>
+#| msgid ""
+#| "<a href=\"http://www.hardwarecentral.com/hardwarecentral/"
+#| "editorials/4788/1,\">Hardware Central</a>.  We disagree with one aspect "
+#| "of this article's conclusion: It's not legitimate for Microsoft to help "
+#| "Disney and the RIAA impose Digital Restrictions Management on you, any "
+#| "more than it is legitimate for Disney and the RIAA to try it.  The full "
+#| "power of computing should be available to you, not just to the owners of "
+#| "information."
 msgid ""
-"<a href=\"http://www.hardwarecentral.com/hardwarecentral/editorials/4788/1,"
-"\">Hardware Central</a>.  We disagree with one aspect of this article's "
+"<a href=\"http://web.archive.org/web/20060313152550/http://www."
+"hardwarecentral.com/hardwarecentral/editorials/4788/1/\">Hardware Central"
+"[Archived Page]</a>.  We disagree with one aspect of this article's "
 "conclusion: It's not legitimate for Microsoft to help Disney and the RIAA "
 "impose Digital Restrictions Management on you, any more than it is "
 "legitimate for Disney and the RIAA to try it.  The full power of computing "
 "should be available to you, not just to the owners of information."
 msgstr ""
-"<a href=\"http://www.hardwarecentral.com/hardwarecentral/editorials/4788/1,"
-"\">Hardware Central</a>. Nous ne sommes pas d'accord avec un aspect de la "
+"<a href=\"http://web.archive.org/web/20060313152550/http://www."
+"hardwarecentral.com/hardwarecentral/editorials/4788/1/\">Hardware Central "
+"[page archivée]</a>. Nous ne sommes pas d'accord avec un aspect de la "
 "conclusion de cet article : il n'est pas légitime pour Microsoft d'aider "
 "Disney et la RIAA à de vous imposer la gestion numérique des restrictions "
 "(<acronym title=\"Digital Restrictions Management\">DRM</acronym>), pas plus "
@@ -364,20 +386,35 @@ msgstr ""
 "Thomas Macaulay</a> avait des idées sur le copyright en 1841 qui sont "
 "toujours valables aujourd'hui."
 
+# | <a [-href=\"http://www.openrevolt.org/\">openrevolt.org</a>-]
+# | {+href=\"http://web.archive.org/web/20050214010807/http://www.openrevolt.org/\">openrevolt.org
+# | [Archived Page]</a>+} is a site devoted to providing information about the
+# | European Copyright Directive and similar legislation.  It concentrates on
+# | the two principal problems of the EUCD, which make it easier for copyright
+# | holders to censor webpages on ISPs and give legal protection to
+# | copy-protection measures.
 #. type: Content of: <ul><li>
+#| msgid ""
+#| "<a href=\"http://www.openrevolt.org/\">openrevolt.org</a> is a site "
+#| "devoted to providing information about the European Copyright Directive "
+#| "and similar legislation.  It concentrates on the two principal problems "
+#| "of the EUCD, which make it easier for copyright holders to censor "
+#| "webpages on ISPs and give legal protection to copy-protection measures."
 msgid ""
-"<a href=\"http://www.openrevolt.org/\">openrevolt.org</a> is a site devoted "
-"to providing information about the European Copyright Directive and similar "
-"legislation.  It concentrates on the two principal problems of the EUCD, "
-"which make it easier for copyright holders to censor webpages on ISPs and "
-"give legal protection to copy-protection measures."
+"<a href=\"http://web.archive.org/web/20050214010807/http://www.openrevolt."
+"org/\">openrevolt.org [Archived Page]</a> is a site devoted to providing "
+"information about the European Copyright Directive and similar legislation.  "
+"It concentrates on the two principal problems of the EUCD, which make it "
+"easier for copyright holders to censor webpages on ISPs and give legal "
+"protection to copy-protection measures."
 msgstr ""
-"<a href=\"http://www.openrevolt.org/\">openrevolt.org</a> est un site "
-"destiné à fournir de l'information à propos de la directive européenne sur "
-"le droit d'auteur et lois similaires. Elle se concentre sur les deux "
-"problèmes principaux de l'EUCD : elle rend plus facile la censure des pages "
-"web chez les FAI pour les détenteurs de copyright et elle donne une "
-"protection juridique aux mesures de protection contre la copie."
+"<a href=\"http://web.archive.org/web/20050214010807/http://www.openrevolt."
+"org/\">openrevolt.org [page archivée]</a> est un site d'information à propos "
+"de la directive européenne sur le droit d'auteur et lois similaires. Elle se "
+"concentre sur les deux problèmes principaux de l'EUCD : elle rend plus "
+"facile la censure des pages web chez les FAI pour les détenteurs de "
+"copyright et elle donne une protection juridique aux mesures de protection "
+"contre la copie."
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -407,12 +444,18 @@ msgstr ""
 "un commentaire sur l'inculpation criminelle de Jon Johansen pour avoir aidé "
 "à écrire DeCSS."
 
+# | <a [-href=\"http://james-boyle.com/papers.pdf\">The-]
+# | {+href=\"http://law.duke.edu/pd/papers/boyle.pdf\">The+} Second Enclosure
+# | Movement and the Construction of the Public Domain.</a>, by James Boyle.
 #. type: Content of: <ul><li>
+#| msgid ""
+#| "<a href=\"http://james-boyle.com/papers.pdf\">The Second Enclosure "
+#| "Movement and the Construction of the Public Domain.</a>, by James Boyle."
 msgid ""
-"<a href=\"http://james-boyle.com/papers.pdf\">The Second Enclosure Movement "
-"and the Construction of the Public Domain.</a>, by James Boyle."
+"<a href=\"http://law.duke.edu/pd/papers/boyle.pdf\">The Second Enclosure "
+"Movement and the Construction of the Public Domain.</a>, by James Boyle."
 msgstr ""
-"<a href=\"http://james-boyle.com/papers.pdf\"><em>The Second Enclosure "
+"<a href=\"http://law.duke.edu/pd/papers/boyle.pdf\"><em>The Second Enclosure "
 "Movement and the Construction of the Public Domain.</em></a> (le mouvement "
 "de la deuxième enceinte et la construction du domaine public), par James "
 "Boyle."
@@ -816,14 +859,23 @@ msgstr ""
 "Schemes</cite></a> (Une évaluation éthique comparative des combinaisons de "
 "licences de logiciel libre) par Samir Chopra et Scott Dexter."
 
+# | The <a [-href=\"http://simplemachines.it/simone.html\">SIM.ONE-]
+# | {+href=\"http://simplemachines.it/index.php/sim-one-project\">SIM.ONE+}
+# | hardware project</a> has created free (as in freedom)  computer design
+# | specifications.
 #. type: Content of: <ul><li>
+#| msgid ""
+#| "The <a href=\"http://simplemachines.it/simone.html\">SIM.ONE hardware "
+#| "project</a> has created free (as in freedom)  computer design "
+#| "specifications."
 msgid ""
-"The <a href=\"http://simplemachines.it/simone.html\">SIM.ONE hardware "
-"project</a> has created free (as in freedom)  computer design specifications."
+"The <a href=\"http://simplemachines.it/index.php/sim-one-project\">SIM.ONE "
+"hardware project</a> has created free (as in freedom)  computer design "
+"specifications."
 msgstr ""
-"Le <a href=\"http://simplemachines.it/simone.html\">projet de matériel SIM."
-"ONE</a> a créé des spécifications pour la conception d'ordinateur libres "
-"(libre comme dans liberté)."
+"Le <a href=\"http://simplemachines.it/index.php/sim-one-project\">projet de "
+"matériel SIM.ONE</a> a créé des spécifications pour la conception "
+"d'ordinateur libres (libres comme dans liberté)."
 
 #. type: Content of: <ul><li>
 msgid ""
