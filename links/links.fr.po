@@ -15,7 +15,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-10-25 20:25-0300\n"
 "Plural-Forms:  \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
@@ -325,13 +324,7 @@ msgstr ""
 "<a href=\"http://eupat.ffii.org/patente/\">La galerie des horreurs "
 "européenne des brevets logiciels</a>."
 
-# | <a [-href=\"http://swpat.ffii.org/\">FFII:-]
-# | {+href=\"http://eupat.ffii.org/\">FFII:+} Protecting Information
-# | Innovation against the Abuse of the Patent System</a>
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<a href=\"http://swpat.ffii.org/\">FFII: Protecting Information "
-#| "Innovation against the Abuse of the Patent System</a>"
 msgid ""
 "<a href=\"http://eupat.ffii.org/\">FFII: Protecting Information Innovation "
 "against the Abuse of the Patent System</a>"
@@ -339,13 +332,7 @@ msgstr ""
 "<a href=\"http://eupat.ffii.org/\">FFII : protection de l'innovation de "
 "l'information contre les abus du système des brevets</a>."
 
-# | <a [-href=\"http://www.publiclibraryofscience.org\">Public-]
-# | {+href=\"http://www.plos.org/\">Public+} Library of Science</a> organizes
-# | support for online public libraries of science.
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<a href=\"http://www.publiclibraryofscience.org\">Public Library of "
-#| "Science</a> organizes support for online public libraries of science."
 msgid ""
 "<a href=\"http://www.plos.org/\">Public Library of Science</a> organizes "
 "support for online public libraries of science."
@@ -399,10 +386,7 @@ msgstr ""
 "<a href=\"http://www.ffii.org\">Fondation pour une infrastructure "
 "informationnelle libre (FFII)</a>"
 
-# | <a [-href=\"http://www.opencode.org/\">OpenCode</a>-]
-# | {+href=\"http://h2oproject.law.harvard.edu/\">OpenCode (H2O)</a>+}
 #. type: Content of: <ul><li>
-#| msgid "<a href=\"http://www.opencode.org/\">OpenCode</a>"
 msgid "<a href=\"http://h2oproject.law.harvard.edu/\">OpenCode (H2O)</a>"
 msgstr "<a href=\"http://h2oproject.law.harvard.edu/\">OpenCode (H2O)</a>"
 
@@ -437,14 +421,7 @@ msgstr ""
 "les brevets logiciels</a> - voir également <a href=\"http://www.debian.org/"
 "users/org/cipsga\">http://www.debian.org/users/org/cipsga</a>)."
 
-# | [-pFFP-]{+<a
-# | href=\"http://web.archive.org/web/20070110042254/http://www.plugincinema.com/plugin/plugin_cinema/pffp.htm\">pFFP
-# | [Archived Page]</a>+} - The plugincinema Free Film Project promotes the
-# | use of free software to make and distribute films.
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "pFFP - The plugincinema Free Film Project promotes the use of free "
-#| "software to make and distribute films."
 msgid ""
 "<a href=\"http://web.archive.org/web/20070110042254/http://www.plugincinema."
 "com/plugin/plugin_cinema/pffp.htm\">pFFP [Archived Page]</a> - The "

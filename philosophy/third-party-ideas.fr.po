@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: third-party-ideas.html\n"
-"POT-Creation-Date: 2012-10-23 12:25-0300\n"
+"POT-Creation-Date: 2012-10-25 04:25-0300\n"
 "PO-Revision-Date: 2012-10-26 22:48+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -15,7 +15,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-10-23 12:25-0300\n"
 "Plural-Forms:  \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
@@ -200,28 +199,11 @@ msgstr ""
 "fait une réponse conjointe à la lettre ouverte du PDG de SCO, Darl McBride, "
 "à la communauté open source."
 
-# | <a
-# | [-href=\"http://www.hardwarecentral.com/hardwarecentral/editorials/4788/1,\">Hardware
-# | Central</a>.-]
-# | {+href=\"http://web.archive.org/web/20060313152550/http://www.hardwarecentral.com/hardwarecentral/editorials/4788/1/\">Hardware
-# | Central[Archived Page]</a>.+}  We disagree with one aspect of this
-# | article's conclusion: It's not legitimate for Microsoft to help Disney and
-# | the RIAA impose Digital Restrictions Management on you, any more than it
-# | is legitimate for Disney and the RIAA to try it.  The full power of
-# | computing should be available to you, not just to the owners of
-# | information.
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<a href=\"http://www.hardwarecentral.com/hardwarecentral/"
-#| "editorials/4788/1,\">Hardware Central</a>.  We disagree with one aspect "
-#| "of this article's conclusion: It's not legitimate for Microsoft to help "
-#| "Disney and the RIAA impose Digital Restrictions Management on you, any "
-#| "more than it is legitimate for Disney and the RIAA to try it.  The full "
-#| "power of computing should be available to you, not just to the owners of "
-#| "information."
+#, fuzzy
 msgid ""
 "<a href=\"http://web.archive.org/web/20060313152550/http://www."
-"hardwarecentral.com/hardwarecentral/editorials/4788/1/\">Hardware Central"
+"hardwarecentral.com/hardwarecentral/editorials/4788/1/\">Hardware Central "
 "[Archived Page]</a>.  We disagree with one aspect of this article's "
 "conclusion: It's not legitimate for Microsoft to help Disney and the RIAA "
 "impose Digital Restrictions Management on you, any more than it is "
@@ -386,20 +368,7 @@ msgstr ""
 "Thomas Macaulay</a> avait des idées sur le copyright en 1841 qui sont "
 "toujours valables aujourd'hui."
 
-# | <a [-href=\"http://www.openrevolt.org/\">openrevolt.org</a>-]
-# | {+href=\"http://web.archive.org/web/20050214010807/http://www.openrevolt.org/\">openrevolt.org
-# | [Archived Page]</a>+} is a site devoted to providing information about the
-# | European Copyright Directive and similar legislation.  It concentrates on
-# | the two principal problems of the EUCD, which make it easier for copyright
-# | holders to censor webpages on ISPs and give legal protection to
-# | copy-protection measures.
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<a href=\"http://www.openrevolt.org/\">openrevolt.org</a> is a site "
-#| "devoted to providing information about the European Copyright Directive "
-#| "and similar legislation.  It concentrates on the two principal problems "
-#| "of the EUCD, which make it easier for copyright holders to censor "
-#| "webpages on ISPs and give legal protection to copy-protection measures."
 msgid ""
 "<a href=\"http://web.archive.org/web/20050214010807/http://www.openrevolt."
 "org/\">openrevolt.org [Archived Page]</a> is a site devoted to providing "
@@ -444,13 +413,7 @@ msgstr ""
 "un commentaire sur l'inculpation criminelle de Jon Johansen pour avoir aidé "
 "à écrire DeCSS."
 
-# | <a [-href=\"http://james-boyle.com/papers.pdf\">The-]
-# | {+href=\"http://law.duke.edu/pd/papers/boyle.pdf\">The+} Second Enclosure
-# | Movement and the Construction of the Public Domain.</a>, by James Boyle.
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "<a href=\"http://james-boyle.com/papers.pdf\">The Second Enclosure "
-#| "Movement and the Construction of the Public Domain.</a>, by James Boyle."
 msgid ""
 "<a href=\"http://law.duke.edu/pd/papers/boyle.pdf\">The Second Enclosure "
 "Movement and the Construction of the Public Domain.</a>, by James Boyle."
@@ -488,12 +451,13 @@ msgstr ""
 "raisonnable » élimine le conflit entre la loi sur le copyright et le Premier "
 "amendement."
 
-#. <a href="http://www.perens.com/Articles/StandTogether.html">
-#. </a>
 #. type: Content of: <ul><li>
+#, fuzzy
 msgid ""
-"Richard Stallman co-signed a joint statement responding to comments by Craig "
-"Mundie of Microsoft."
+"Richard Stallman co-signed <a href=\"http://web.archive.org/"
+"web/20030803114409/http://perens.com/Articles/StandTogether.html\">a joint "
+"statement responding to comments by Craig Mundie of Microsoft [Archived Page]"
+"</a>."
 msgstr ""
 "Richard Stallman a cosigné une déclaration conjointe en réponse aux "
 "commentaires de Craig Mundie de Microsoft."
@@ -518,6 +482,36 @@ msgid ""
 msgstr ""
 "<a href=\"/philosophy/stophr3028.html\">Stoppez H.R. 3028</a>, la loi de "
 "1999 sur la prévention du cyberpiratage des marques déposées."
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://web.archive.org/web/20010410172314/http://www-personal.si."
+"umich.edu/~beejoo/gnuproject.html\">\"The GNU Project FTP Site: A Digital "
+"Collection Supporting a Social Movement\" [Archived Page]</a>"
+msgstr ""
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://web.archive.org/web/20000815064842/http://oppression."
+"nerdherd.org/Stories/1998/9810/ucla/ucla.html\">UCLA discriminates against "
+"students using GNU/Linux.  One part of their justification is supporting the "
+"power of software owners. [Archived Page]</a>"
+msgstr ""
+
+#. type: Content of: <ul><li>
+#, fuzzy
+msgid ""
+"<a href=\"http://web.archive.org/web/19991012082619/http://simson.net/"
+"clips/98.Globe.05-07.Read_them_and_weep.htm\">Read Them And Weep [Archived "
+"Page]</a>, by Simson Garfinkel, talks about the pending bills that would "
+"give information owners sweeping new powers, and restrict the activities of "
+"users."
+msgstr ""
+"<a href=\"http://simson.net/clips/98.Globe.05-07.Read_them_and_weep.htm"
+"\">Lisez-les et pleurez</a>, par Simson Garfinkel, discussions à propos de "
+"projets de loi qui donneraient aux propriétaires de l'information de "
+"nouveaux pouvoirs extraordinaires, et restreindraient les activités des "
+"utilisateurs."
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -627,6 +621,13 @@ msgid ""
 msgstr ""
 "<a href=\"http://old.law.columbia.edu/my_pubs/anarchism.html\">L'anarchisme "
 "triomphant : Le logiciel libre et la mort du copyright</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://www-rohan.sdsu.edu/~digger/596/werry_comm.pdf\">Imagined "
+"Electronic Community: Representations of Virtual Community in Contemporary "
+"Business Discourse</a> by Chris Werry."
+msgstr ""
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -859,15 +860,7 @@ msgstr ""
 "Schemes</cite></a> (Une évaluation éthique comparative des combinaisons de "
 "licences de logiciel libre) par Samir Chopra et Scott Dexter."
 
-# | The <a [-href=\"http://simplemachines.it/simone.html\">SIM.ONE-]
-# | {+href=\"http://simplemachines.it/index.php/sim-one-project\">SIM.ONE+}
-# | hardware project</a> has created free (as in freedom)  computer design
-# | specifications.
 #. type: Content of: <ul><li>
-#| msgid ""
-#| "The <a href=\"http://simplemachines.it/simone.html\">SIM.ONE hardware "
-#| "project</a> has created free (as in freedom)  computer design "
-#| "specifications."
 msgid ""
 "The <a href=\"http://simplemachines.it/index.php/sim-one-project\">SIM.ONE "
 "hardware project</a> has created free (as in freedom)  computer design "
@@ -1001,18 +994,6 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
-
-#~ msgid ""
-#~ "<a href=\"http://simson.net/clips/98.Globe.05-07.Read_them_and_weep.htm"
-#~ "\">Read Them And Weep</a>, by Simson Garfinkel, talks about the pending "
-#~ "bills that would give information owners sweeping new powers, and "
-#~ "restrict the activities of users."
-#~ msgstr ""
-#~ "<a href=\"http://simson.net/clips/98.Globe.05-07.Read_them_and_weep.htm"
-#~ "\">Lisez-les et pleurez</a>, par Simson Garfinkel, discussions à propos "
-#~ "de projets de loi qui donneraient aux propriétaires de l'information de "
-#~ "nouveaux pouvoirs extraordinaires, et restreindraient les activités des "
-#~ "utilisateurs."
 
 #, fuzzy
 #~| msgid ""
