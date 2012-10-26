@@ -9,15 +9,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2012-09-27 04:25-0300\n"
-"PO-Revision-Date: 2012-09-28 17:22+0200\n"
+"POT-Creation-Date: 2012-10-25 20:25-0300\n"
+"PO-Revision-Date: 2012-10-26 22:57+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-10-25 20:25-0300\n"
 "Plural-Forms:  \n"
+"X-Generator: Gtranslator 2.91.5\n"
 
 #. type: Content of: <title>
 msgid ""
@@ -521,6 +523,32 @@ msgid ""
 msgstr ""
 "C'est une licence de logiciel libre, compatible avec la GPL grâce à l'option "
 "de changement de licence du paragraphe 4(c)(ii)."
+
+#. type: Content of: <dl><dt>
+msgid ""
+"<a href= \"http://gianluca.dellavedova.org/2011/01/03/clarified-artistic-"
+"license/\"> Clarified Artistic License</a>"
+msgstr ""
+"<a href= \"http://gianluca.dellavedova.org/2011/01/03/clarified-artistic-"
+"license/\"> Clarified Artistic License</a>"
+
+# | This {+license+} is a free software license, [-but incompatible-]
+# | {+compatible+} with the [-GPL, for-] {+GPL.  It is the minimal set of
+# | changes needed to correct+} the [-same reasons as-] {+vagueness of+} the
+# | <a [-href=\"#josl\">Jabber Open Source License</a>.-]
+# | {+href=\"#ArtisticLicense\">Artistic License 1.0</a>.+}
+#. type: Content of: <dl><dd><p>
+#| msgid ""
+#| "This is a free software license, but incompatible with the GPL, for the "
+#| "same reasons as the <a href=\"#josl\">Jabber Open Source License</a>."
+msgid ""
+"This license is a free software license, compatible with the GPL.  It is the "
+"minimal set of changes needed to correct the vagueness of the <a href="
+"\"#ArtisticLicense\">Artistic License 1.0</a>."
+msgstr ""
+"C'est une licence de logiciel libre compatible avec la GPL. Elle corrige "
+"l'imprécision de la licence <a href=\"#ArtisticLicense\">Artistic 1.0</a> "
+"par un minimum de modifications."
 
 #.  misspelled id, leave for compatibility 
 #. type: Content of: <dl><dt>
@@ -4235,9 +4263,18 @@ msgstr ""
 "de ne pas l'employer pour des logiciels ni pour de la documentation. Elle "
 "convient pour les autres sortes de données."
 
+# | <a id=\"FreeArt\" [-href=\"http://artlibre.org/licence/lalgb.html\">-]
+# | {+href=\"http://artlibre.org/licence/lal/en\">+} Free Art License</a>
+# | <span class=\"anchor-reference-id\"> (<a
+# | href=\"#FreeArt\">#FreeArt</a>)</span>
 #. type: Content of: <dl><dt>
+#, fuzzy
+#| msgid ""
+#| "<a id=\"FreeArt\" href=\"http://artlibre.org/licence/lalgb.html\"> Free "
+#| "Art License</a> <span class=\"anchor-reference-id\"> (<a href=\"#FreeArt"
+#| "\">#FreeArt</a>)</span>"
 msgid ""
-"<a id=\"FreeArt\" href=\"http://artlibre.org/licence/lalgb.html\"> Free Art "
+"<a id=\"FreeArt\" href=\"http://artlibre.org/licence/lal/en\"> Free Art "
 "License</a> <span class=\"anchor-reference-id\"> (<a href=\"#FreeArt"
 "\">#FreeArt</a>)</span>"
 msgstr ""

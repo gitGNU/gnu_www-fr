@@ -8,15 +8,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nonsoftware-copyleft.html\n"
-"POT-Creation-Date: 2012-06-10 04:29-0300\n"
-"PO-Revision-Date: 2012-09-28 16:46+0200\n"
+"POT-Creation-Date: 2012-10-24 12:25-0300\n"
+"PO-Revision-Date: 2012-10-26 22:52+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-10-24 12:25-0300\n"
 "Plural-Forms:  \n"
+"X-Generator: Gtranslator 2.91.5\n"
 
 #. type: Content of: <title>
 msgid ""
@@ -392,14 +394,22 @@ msgstr ""
 "de même que le groupe <a href=\"http://www.twisted-helices.com/th/\">Twisted "
 "Helices</a> [en]."
 
+# | Some of my own non-software copylefted works include texts (literature,
+# | reviews, <a [-href=\"http://dsl.org/comp/\">technical</a>)-]
+# | {+href=\"http://dsl.org/cookbook/cookbook_toc.html\">technical</a>)+}  and
+# | music.
 #. type: Content of: <p>
+#| msgid ""
+#| "Some of my own non-software copylefted works include texts (literature, "
+#| "reviews, <a href=\"http://dsl.org/comp/\">technical</a>)  and music."
 msgid ""
 "Some of my own non-software copylefted works include texts (literature, "
-"reviews, <a href=\"http://dsl.org/comp/\">technical</a>)  and music."
+"reviews, <a href=\"http://dsl.org/cookbook/cookbook_toc.html\">technical</"
+"a>)  and music."
 msgstr ""
 "Quelques-unes de mes propres œuvres non logicielles copyleftées incluent des "
 "écrits (textes littéraires, exposés de synthèse, <a href=\"http://dsl.org/"
-"comp/\">articles techniques</a> [en]) et de la musique."
+"cookbook/cookbook_toc.html\">articles techniques</a> [en]) et de la musique."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>

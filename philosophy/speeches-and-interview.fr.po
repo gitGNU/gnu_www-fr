@@ -7,15 +7,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: speeches-and-interview.html\n"
-"POT-Creation-Date: 2012-06-18 04:26-0300\n"
-"PO-Revision-Date: 2012-07-17 13:24+0200\n"
+"POT-Creation-Date: 2012-10-24 12:25-0300\n"
+"PO-Revision-Date: 2012-10-26 22:52+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-10-24 12:25-0300\n"
 "Plural-Forms:  \n"
+"X-Generator: Gtranslator 2.91.5\n"
 
 #. type: Content of: <title>
 msgid ""
@@ -188,14 +190,21 @@ msgstr ""
 "par <a href=\"http://www.stallman.org\"> Richard Stallman</a> à Kolkata "
 "(anciennement Calcutta) en août 2006."
 
+# | <a [-href=\"http://questionsplease.org/Questions_please_1.ogg\">Jonathan-]
+# | {+href=\"http://archive.org/details/QuestionsPleaseOnFreeSoftware\">Jonathan+}
+# | Roberts interviews Richard Stallman and others</a> on free software.
 #. type: Content of: <ul><li>
+#| msgid ""
+#| "<a href=\"http://questionsplease.org/Questions_please_1.ogg\">Jonathan "
+#| "Roberts interviews Richard Stallman and others</a> on free software."
 msgid ""
-"<a href=\"http://questionsplease.org/Questions_please_1.ogg\">Jonathan "
-"Roberts interviews Richard Stallman and others</a> on free software."
+"<a href=\"http://archive.org/details/QuestionsPleaseOnFreeSoftware"
+"\">Jonathan Roberts interviews Richard Stallman and others</a> on free "
+"software."
 msgstr ""
-"<a href=\"http://questionsplease.org/Questions_please_1.ogg\">Jonathan "
-"Roberts s'entretient avec Richard Stallman et d'autres</a> sur les logiciels "
-"libres."
+"<a href=\"http://archive.org/details/QuestionsPleaseOnFreeSoftware"
+"\">Jonathan Roberts s'entretient avec Richard Stallman et d'autres</a> sur "
+"les logiciels libres."
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -283,16 +292,27 @@ msgstr ""
 "\">Richard M. Stallman</a> au <cite>National Institute of Technology</cite>, "
 "Trichy, Inde, le 17 février 2004."
 
+# | <a href=\"http://www.stallman.org\">Richard Stallman</a>'s <a
+# | [-href=\"http://www.neteco.com/50117-richard-gnu-stallman-president-de-la-free-software-foundation.html\">-]
+# | {+href=\"http://web.archive.org/web/20050310003435/http://www.neteconomie.com/perl/navig.pl/neteconomie/infos/article/20041208104640\">+}
+# | interview with [-NetEconomie.com</a>-] {+NetEconomie.com [Archived
+# | Page]</a>+} (In French) 10 December 2004
 #. type: Content of: <ul><li>
+#| msgid ""
+#| "<a href=\"http://www.stallman.org\">Richard Stallman</a>'s <a href="
+#| "\"http://www.neteco.com/50117-richard-gnu-stallman-president-de-la-free-"
+#| "software-foundation.html\"> interview with NetEconomie.com</a> (In "
+#| "French) 10 December 2004"
 msgid ""
 "<a href=\"http://www.stallman.org\">Richard Stallman</a>'s <a href=\"http://"
-"www.neteco.com/50117-richard-gnu-stallman-president-de-la-free-software-"
-"foundation.html\"> interview with NetEconomie.com</a> (In French) 10 "
-"December 2004"
+"web.archive.org/web/20050310003435/http://www.neteconomie.com/perl/navig.pl/"
+"neteconomie/infos/article/20041208104640\"> interview with NetEconomie.com "
+"[Archived Page]</a> (In French) 10 December 2004"
 msgstr ""
-"Entretien de <a href=\"http://www.stallman.org\">Richard Stallman</a><a href="
-"\"http://www.neteco.com/50117-richard-gnu-stallman-president-de-la-free-"
-"software-foundation.html\"> avec NetEconomie.com</a> le 10 décembre 2004."
+"Entretien de <a href=\"http://www.stallman.org\">Richard Stallman</a> <a "
+"href=\"http://web.archive.org/web/20050310003435/http://www.neteconomie.com/"
+"perl/navig.pl/neteconomie/infos/article/20041208104640\">avec NetEconomie."
+"com [page archivée]</a> (en français) le 10 décembre 2004."
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -338,15 +358,28 @@ msgstr ""
 "mouvements sociaux, ainsi que sur les différences entre leurs valeurs et "
 "celles de la campagne pour l'« open source »."
 
+# | <a [-href=\"http://laurel.datsi.fi.upm.es/~fsanchez/rms/\"-]
+# | {+href=\"http://web.archive.org/web/20040603002019/http://laurel.datsi.fi.upm.es/~fsanchez/rms/\"+}
+# | > Web page with interviews/audio/video from speeches in Madrid (May
+# | [-2004)</a>-] {+2004) [Archived Page]</a>+} given by <a
+# | href=\"http://www.stallman.org\">Richard M. Stallman</a> (site is in
+# | Spanish)
 #. type: Content of: <ul><li>
+#| msgid ""
+#| "<a href=\"http://laurel.datsi.fi.upm.es/~fsanchez/rms/\" > Web page with "
+#| "interviews/audio/video from speeches in Madrid (May 2004)</a> given by <a "
+#| "href=\"http://www.stallman.org\">Richard M. Stallman</a> (site is in "
+#| "Spanish)"
 msgid ""
-"<a href=\"http://laurel.datsi.fi.upm.es/~fsanchez/rms/\" > Web page with "
-"interviews/audio/video from speeches in Madrid (May 2004)</a> given by <a "
-"href=\"http://www.stallman.org\">Richard M. Stallman</a> (site is in Spanish)"
+"<a href=\"http://web.archive.org/web/20040603002019/http://laurel.datsi.fi."
+"upm.es/~fsanchez/rms/\" > Web page with interviews/audio/video from speeches "
+"in Madrid (May 2004) [Archived Page]</a> given by <a href=\"http://www."
+"stallman.org\">Richard M. Stallman</a> (site is in Spanish)"
 msgstr ""
-"<a href=\"http://laurel.datsi.fi.upm.es/~fsanchez/rms/\">Page Web avec des "
-"entretiens audio et vidéo de discours donnés à Madrid (en mai 2004)</a> par "
-"<a href=\"http://www.stallman.org\">Richard M. Stallman</a> (le site est en "
+"<a href=\"http://web.archive.org/web/20040603002019/http://laurel.datsi.fi."
+"upm.es/~fsanchez/rms/\">Page Web avec des entretiens audio et vidéo de "
+"discours donnés à Madrid en mai 2004 [page archivée]</a> par <a href="
+"\"http://www.stallman.org\">Richard M. Stallman</a> (le site est en "
 "espagnol)."
 
 #. type: Content of: <ul><li>
