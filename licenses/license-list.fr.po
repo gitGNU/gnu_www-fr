@@ -4318,7 +4318,6 @@ msgstr ""
 "</span>"
 
 #. type: Content of: <dl><dd><p>
-#, fuzzy
 msgid ""
 "The GNU GPL <strong>can</strong> be used for fonts.  However, note that it "
 "does not permit embedding the font in a document unless that document is "
@@ -4331,7 +4330,9 @@ msgstr ""
 "notez qu'elle ne permet pas d'intégrer la police dans un document à moins "
 "que celui-ci ne soit aussi sous GPL. Si vous voulez permettre cela, utilisez "
 "l'<a href=\"/licenses/gpl-faq.html#FontException\">exception pour les "
-"polices</a>."
+"polices</a>. Veuillez aussi consulter ce <a href=\"http://www.fsf.org/blogs/"
+"licensing/20050425novalis\">billet explicatif au sujet de l'exception à la "
+"GPL pour les polices</a>."
 
 #. type: Content of: <dl><dt>
 msgid ""
