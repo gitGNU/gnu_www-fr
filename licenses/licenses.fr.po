@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: licenses.html\n"
-"POT-Creation-Date: 2012-08-30 20:25-0300\n"
-"PO-Revision-Date: 2012-10-28 17:30+0100\n"
+"POT-Creation-Date: 2012-10-29 12:25-0300\n"
+"PO-Revision-Date: 2012-10-30 09:56+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -132,6 +132,13 @@ msgstr ""
 
 #. type: Content of: <ul><li>
 msgid ""
+"<a href=\"/licenses/license-list.html\">List of Free Software Licenses</a>"
+msgstr ""
+"<a href=\"/licenses/license-list.html\">Liste des licences de logiciel "
+"libre</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
 "<a href=\"/philosophy/university.html\">Releasing Free Software if you work "
 "at a university</a>"
 msgstr ""
@@ -197,10 +204,10 @@ msgid ""
 msgstr ""
 "Le texte de la GNU GPL est disponible aux formats <a href=\"/licenses/gpl."
 "html\">HTML</a>, <a href=\"/licenses/gpl.txt\">texte</a>, <a href=\"/"
-"licenses/gpl.odt\">ODF</a>, <a href=\"/licenses/gpl.texi\">Texinfo</a> et <a "
-"href=\"/licenses/gpl.tex\">LaTeX</a>. Ces documents (en anglais) ne sont pas "
-"formatés pour être publiés isolément, et sont destinés à être inclus dans un "
-"autre document."
+"licenses/gpl.odt\">ODF</a>, <a href=\"/licenses/gpl.dbk\">Docbook</a>, <a "
+"href=\"/licenses/gpl.texi\">Texinfo</a> et <a href=\"/licenses/gpl.tex"
+"\">LaTeX</a>. Ces documents (en anglais) ne sont pas formatés pour être "
+"publiés isolément, et sont destinés à être inclus dans un autre document."
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/licenses/quick-guide-gplv3.html\">A Quick Guide to GPLv3</a>"
@@ -287,10 +294,10 @@ msgid ""
 "intended to be included in another document."
 msgstr ""
 "Le texte de la GNU AGPL est disponible aux formats : <a href=\"/licenses/"
-"agpl.html\">HTML</a>, <a href=\"/licenses/agpl.txt\">texte brut</a>,<a href="
-"\"/licenses/agpl.dbk\">Docbook</a>, <a href=\"/licenses/agpl.texi\">Texinfo</"
-"a> et <a href=\"/licenses/agpl.tex\">LaTeX</a>. Ces documents (en anglais) "
-"ne sont pas formatés pour être publiés séparément et sont destinés à être "
+"agpl.html\">HTML</a>, <a href=\"/licenses/agpl.txt\">texte</a>, <a href=\"/"
+"licenses/agpl.dbk\">Docbook</a>, <a href=\"/licenses/agpl.texi\">Texinfo</a> "
+"et <a href=\"/licenses/agpl.tex\">LaTeX</a>. Ces documents (en anglais) ne "
+"sont pas formatés pour être publiés séparément et sont destinés à être "
 "inclus dans un autre document."
 
 #. type: Content of: <ul><li>
@@ -559,13 +566,6 @@ msgstr ""
 #. type: Content of: <h3>
 msgid "List of Free Software Licenses"
 msgstr "Liste des licences de logiciel libre"
-
-#. type: Content of: <ul><li>
-msgid ""
-"<a href=\"/licenses/license-list.html\">List of Free Software Licenses</a>"
-msgstr ""
-"<a href=\"/licenses/license-list.html\">Liste des licences de logiciel "
-"libre</a>"
 
 #. type: Content of: <ul><li><p>
 msgid ""
