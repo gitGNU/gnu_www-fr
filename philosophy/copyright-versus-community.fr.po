@@ -8,14 +8,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: copyright-versus-community\n"
-"POT-Creation-Date: 2012-06-10 04:28-0300\n"
-"PO-Revision-Date: 2012-10-26 22:53+0200\n"
+"POT-Creation-Date: 2012-10-29 12:25-0300\n"
+"PO-Revision-Date: 2012-10-30 10:00+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-10-29 12:25-0300\n"
 "Plural-Forms:  \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
@@ -910,7 +911,7 @@ msgstr ""
 "malveillant. Ils disent que ceci a pour but de « fermer le trou "
 "analogique ». Je vais vous montrer deux trous analogiques (Stallman enlève "
 "ses lunettes) : en voici un, et en voici un autre, qu'ils voudraient faire "
-"sauter définitivement.<a href=\"#footnote1\">[1]</a>"
+"sauter définitivement.<a id=\"footnote1-rev\" href=\"#footnote1\">[1]</a>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2105,22 +2106,37 @@ msgstr ""
 "mauvais moyen de le faire, mais cela reste bien de le faire par d'autres "
 "moyens qui respectent notre liberté."
 
+# | Demand that they change the two evil parts of the New Zealand Copyright
+# | Act.  They shouldn't replace the three strikes [-punishment,-]
+# | {+punishment<a href=\"#footnote1\">[2]</a>,+} because sharing is good, and
+# | they've got to get rid of the censorship for the software to break DRM. 
+# | Beware of ACTA&mdash;they're trying to negotiate a treaty between various
+# | countries, for all of these countries to attack their citizens, and we
+# | don't know how because they won't tell us.
 #. type: Content of: <dl><dd><p>
+#| msgid ""
+#| "Demand that they change the two evil parts of the New Zealand Copyright "
+#| "Act.  They shouldn't replace the three strikes punishment, because "
+#| "sharing is good, and they've got to get rid of the censorship for the "
+#| "software to break DRM.  Beware of ACTA&mdash;they're trying to negotiate "
+#| "a treaty between various countries, for all of these countries to attack "
+#| "their citizens, and we don't know how because they won't tell us."
 msgid ""
 "Demand that they change the two evil parts of the New Zealand Copyright "
-"Act.  They shouldn't replace the three strikes punishment, because sharing "
-"is good, and they've got to get rid of the censorship for the software to "
-"break DRM.  Beware of ACTA&mdash;they're trying to negotiate a treaty "
-"between various countries, for all of these countries to attack their "
-"citizens, and we don't know how because they won't tell us."
+"Act.  They shouldn't replace the three strikes punishment<a href="
+"\"#footnote1\">[2]</a>, because sharing is good, and they've got to get rid "
+"of the censorship for the software to break DRM.  Beware of ACTA&mdash;"
+"they're trying to negotiate a treaty between various countries, for all of "
+"these countries to attack their citizens, and we don't know how because they "
+"won't tell us."
 msgstr ""
-"Exigez qu'ils changent les deux parties malfaisantes de la loi néozélandaise "
-"sur le copyright. Ils ne doivent pas réactiver la réponse graduée, parce que "
-"le partage est bon, et ils doivent se débarrasser de la censure des "
-"logiciels qui cassent les DRM. Méfiez-vous de l'ACTA ; ils sont en train de "
-"négocier un traité entre différents pays, pour que tous ces pays attaquent "
-"leurs citoyens. Nous ne savons pas comment parce qu'ils ne nous le diront "
-"pas."
+"Exigez qu'ils changent les deux parties malfaisantes de la loi néo-"
+"zélandaise sur le copyright. Ils ne doivent pas réactiver la réponse "
+"graduée<a id=\"footnote2-rev\" href=\"#footnote2\">[2]</a>, parce que le "
+"partage est bon, et ils doivent se débarrasser de la censure des logiciels "
+"qui cassent les DRM. Méfiez-vous de l'ACTA ; ils sont en train de négocier "
+"un traité entre différents pays, pour que tous ces pays attaquent leurs "
+"citoyens. Nous ne savons pas comment parce qu'ils ne nous le diront pas."
 
 #. type: Content of: <p>
 msgid ""
@@ -2132,7 +2148,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "Footnotes"
-msgstr "Note"
+msgstr "Notes"
 
 #. type: Content of: <ol><li>
 msgid ""
@@ -2147,7 +2163,34 @@ msgid ""
 "pcmag.com/article2/0,2817,2369280,00.asp</a>"
 msgstr ""
 "<a href=\"http://www.pcmag.com/article2/0,2817,2369280,00.asp\">http://www."
-"pcmag.com/article2/0,2817,2369280,00.asp</a>"
+"pcmag.com/article2/0,2817,2369280,00.asp</a> <a href=\"#footnote1-rev"
+"\">&#8593;</a>"
+
+#. type: Content of: <ol><li>
+msgid ""
+"New Zealand had enacted a system of punishment without trial for Internet "
+"users accused of copying; then, facing popular protest, the government did "
+"not implement it, and announced a plan to implement a modified unjust "
+"punishment system.  The point here was that they should not proceed to "
+"implement a replacement &mdash; rather, they should have no such system.  "
+"However, the words I used don't say this clearly."
+msgstr ""
+"La Nouvelle-Zélande a mis dans la loi un système de punition sans procès "
+"pour les utilisateurs d'Internet accusés de copier ; puis devant les "
+"protestations du public, le gouvernement ne l'a pas mis en œuvre et a "
+"annoncé son intention de le remplacer par un système de punition modifié, "
+"mais toujours injuste. Ce qui compte ici, c'est qu'ils ne faut pas procéder "
+"à un remplacement mais plutôt éviter d'avoir ce genre de système. Toutefois, "
+"la formulation que j'ai employée ne l'exprime pas clairement."
+
+#. type: Content of: <ol><li>
+msgid ""
+"The New Zealand government subsequently implemented the punishment scheme "
+"more or less as originally planned."
+msgstr ""
+"Plus tard, le gouvernement néo-zélandais a mis en place ce système de "
+"punition plus ou moins comme prévu à l'origine. <a href=\"#footnote2-rev"
+"\">&#8593;</a>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
