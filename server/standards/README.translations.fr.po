@@ -9,14 +9,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: README.translations.html\n"
-"POT-Creation-Date: 2012-10-29 12:25-0300\n"
-"PO-Revision-Date: 2012-11-01 20:49+0100\n"
+"POT-Creation-Date: 2012-11-05 04:25-0500\n"
+"PO-Revision-Date: 2012-11-07 12:01+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2012-11-05 04:25-0500\n"
 "Plural-Forms:  \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
@@ -986,12 +987,23 @@ msgstr ""
 "Yutaka</a>)"
 
 #. type: Content of: <ul><li>
+# | [-<code>de</code>-]{+<code>ko</code>+} - <a
+# | [-href=\"https://savannah.gnu.org/projects/www-de\">German</a>-]
+# | {+href=\"https://savannah.gnu.org/projects/www-ko\">Korean</a>+} (<a
+# | [-href=\"https://savannah.gnu.org/users/joeko\">Joerg Kohne</a>)-]
+# | {+href=\"https://savannah.gnu.org/users/blueguy\">Jongmin Yoon</a>)+}
+#| msgid ""
+#| "<code>de</code> - <a href=\"https://savannah.gnu.org/projects/www-de"
+#| "\">German</a> (<a href=\"https://savannah.gnu.org/users/joeko\">Joerg "
+#| "Kohne</a>)"
 msgid ""
 "<code>ko</code> - <a href=\"https://savannah.gnu.org/projects/www-ko"
-"\">Korean</a> (New coordinator needed)"
+"\">Korean</a> (<a href=\"https://savannah.gnu.org/users/blueguy\">Jongmin "
+"Yoon</a>)"
 msgstr ""
-"<code>ko</code> – <a href=\"https://savannah.gnu.org/projects/www-ko"
-"\">Coréen</a> (nouveau coordinateur demandé)"
+"<code>de</code> – <a href=\"https://savannah.gnu.org/projects/www-ko"
+"\">Coréen</a> (<a href=\"https://savannah.gnu.org/users/joeko\">Jongmin "
+"Yoon</a>)"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -1076,7 +1088,7 @@ msgid ""
 "Kharitonov</a>)"
 msgstr ""
 "<code>ru</code> – <a href=\"https://savannah.nongnu.org/projects/www-ru"
-"\">Russe</a> (<a href=\"https://savannah.gnu.org/users/jimcrow\">Anatoly A.  "
+"\">Russe</a> (<a href=\"https://savannah.gnu.org/users/jimcrow\">Anatoly A. "
 "Kazantsev</a>, <a href=\"https://savannah.gnu.org/users/ineiev\">Pavel "
 "Kharitonov</a>)"
 
@@ -1272,6 +1284,13 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid ""
+#~ "<code>ko</code> - <a href=\"https://savannah.gnu.org/projects/www-ko"
+#~ "\">Korean</a> (New coordinator needed)"
+#~ msgstr ""
+#~ "<code>ko</code> – <a href=\"https://savannah.gnu.org/projects/www-ko"
+#~ "\">Coréen</a> (nouveau coordinateur demandé)"
 
 #~ msgid ""
 #~ "<code>ko</code> - <a href=\"https://savannah.gnu.org/projects/www-ko"
