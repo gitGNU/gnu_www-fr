@@ -1283,10 +1283,6 @@ msgstr ""
 "la programmation en Perl. Nous vous prions de ne pas l'utiliser en dehors de "
 "Perl ; utilisez plutôt la GNU GPL."
 
-# | <a [-id=\"PublicDomain\">Public-] {+id=\"PublicDomain\"
-# | href=\"http://directory.fsf.org/wiki/License:PublicDomain\"> Public+}
-# | Domain</a> <span class=\"anchor-reference-id\"> (<a
-# | href=\"#PublicDomain\">#PublicDomain</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"PublicDomain\" href=\"http://directory.fsf.org/wiki/License:"
@@ -1778,10 +1774,6 @@ msgstr ""
 "html#WhatIsCompatible\"><em>incompatibles</em></a> avec la <a href=\"#GNUGPL"
 "\">GNU GPL</a> :</strong>"
 
-# | <a id=\"AGPLv1.0\" [-href=\"http://www.affero.org/oagpl.html\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:AGPLv1\">+} Affero General
-# | Public License version 1</a> <span class=\"anchor-reference-id\"> (<a
-# | href=\"#AGPLv1.0\">#AGPLv1.0</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"AGPLv1.0\" href=\"http://directory.fsf.org/wiki/License:AGPLv1\"> "
@@ -1815,11 +1807,6 @@ msgstr ""
 "générale GNU Affero, version 3</a> ; veuillez utiliser cette dernière à la "
 "place de la version 1."
 
-# | <a id=\"AcademicFreeLicense\"
-# | [-href=\"http://opensource.org/licenses/academic.php\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:AFLv3\">+} Academic Free
-# | License, all versions through 3.0</a> <span class=\"anchor-reference-id\">
-# | (<a href=\"#AcademicFreeLicense\">#AcademicFreeLicense</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"AcademicFreeLicense\" href=\"http://directory.fsf.org/wiki/License:"
@@ -1844,14 +1831,6 @@ msgstr ""
 "contractuelles similaires à l'<a href=\"#OSLRant\">Open Software License</"
 "a>, et doivent être évitées pour les mêmes raisons."
 
-# | <a [-id=\"apache2\"
-# | href=\"http://directory.fsf.org/wiki/License:Apache2.0\">-]
-# | {+id=\"apache1.1\"
-# | href=\"http://directory.fsf.org/wiki/License:Apache1.1\">+} Apache
-# | License, Version [-2.0</a>-] {+1.1</a>+} <span
-# | [-class=\"anchor-reference-id\">(<a
-# | href=\"#apache2\">#apache2</a>)</span>-] {+class=\"anchor-reference-id\">
-# | (<a href=\"#apache1.1\">#apache1.1</a>)</span>+}
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"apache1.1\" href=\"http://directory.fsf.org/wiki/License:"
@@ -1872,14 +1851,6 @@ msgstr ""
 "exigences qui la rendent incompatible avec la GNU GPL, comme l'interdiction "
 "absolue d'utiliser des noms en rapport avec Apache."
 
-# | <a [-id=\"apache2\"
-# | href=\"http://directory.fsf.org/wiki/License:Apache2.0\">-]
-# | {+id=\"apache1\"
-# | href=\"http://directory.fsf.org/wiki/License:Apache1.0\">+} Apache
-# | License, Version [-2-]{+1+}.0</a> <span
-# | [-class=\"anchor-reference-id\">(<a
-# | href=\"#apache2\">#apache2</a>)</span>-] {+class=\"anchor-reference-id\">
-# | (<a href=\"#apache1\">#apache1</a>)</span>+}
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"apache1\" href=\"http://directory.fsf.org/wiki/License:Apache1.0\"> "
@@ -1902,10 +1873,6 @@ msgstr ""
 "philosophy/bsd.html\">problèmes pratiques</a> semblables à ceux de la "
 "licence BSD d'origine, y compris l'incompatibilité avec la GNU GPL."
 
-# | <a id=\"apsl2\" [-href=\"http://www.opensource.apple.com/apsl\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:APSLv2.0\">+} Apple Public
-# | Source License (APSL), version 2</a> <span
-# | class=\"anchor-reference-id\">(<a href=\"#apsl2\">#apsl2</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"apsl2\" href=\"http://directory.fsf.org/wiki/License:APSLv2.0\"> "
@@ -1929,11 +1896,6 @@ msgstr ""
 "d'améliorer les logiciels publiés sous cette licence. Des explications "
 "supplémentaires sont disponibles <a href=\"/philosophy/apsl.html\">ici</a>."
 
-# | <a id=\"bittorrent\"
-# | [-href=\"http://en.wikisource.org/wiki/BitTorrent_Open_Source_License\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:BitTorrentOSL1.1\">+}
-# | BitTorrent Open Source License</a> <span class=\"anchor-reference-id\">
-# | (<a href=\"#bittorrent\">#bittorrent</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"bittorrent\" href=\"http://directory.fsf.org/wiki/License:"
@@ -1953,13 +1915,6 @@ msgstr ""
 "pour les mêmes raisons que la <a href=\"#josl\">Jabber Open Source License</"
 "a>."
 
-# | <a [-id=\"ModifiedBSD\"
-# | href=\"http://directory.fsf.org/wiki/License:BSD_3Clause\"> Modified-]
-# | {+id=\"OriginalBSD\"
-# | href=\"http://directory.fsf.org/wiki/License:BSD_4Clause\"> Original+} BSD
-# | license</a> <span class=\"anchor-reference-id\"> (<a
-# | [-href=\"#ModifiedBSD\">#ModifiedBSD</a>)</span>-]
-# | {+href=\"#OriginalBSD\">#OriginalBSD</a>)</span>+}
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"OriginalBSD\" href=\"http://directory.fsf.org/wiki/License:"
@@ -2020,11 +1975,6 @@ msgstr ""
 "Cependant il n'y a aucune raison de ne pas utiliser les programmes publiés "
 "sous la licence BSD d'origine."
 
-# | <a id=\"CDDL\"
-# | [-href=\"http://www.opensolaris.org/os/licensing/cddllicense.txt\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:CDDLv1.0\">+} Common
-# | Development and Distribution License (CDDL), version 1.0</a> <span
-# | class=\"anchor-reference-id\"> (<a href=\"#CDDL\">#CDDL</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"CDDL\" href=\"http://directory.fsf.org/wiki/License:CDDLv1.0\"> "
@@ -2083,11 +2033,6 @@ msgstr ""
 "publier le code source du programme si vous autorisez d'autres personnes à "
 "l'utiliser."
 
-# | <a id=\"CommonPublicLicense10\"
-# | [-href=\"http://www.eclipse.org/legal/cpl-v10.html\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:CPLv1.0\">+} Common Public
-# | License Version 1.0</a> <span class=\"anchor-reference-id\"> (<a
-# | href=\"#CommonPublicLicense10\">#CommonPublicLicense10</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"CommonPublicLicense10\" href=\"http://directory.fsf.org/wiki/License:"
@@ -2109,12 +2054,6 @@ msgstr ""
 "faible et son assortiment de clauses juridiques la rendent incompatible avec "
 "la GNU GPL."
 
-# | <a [-id=\"ISC\" href=\"http://directory.fsf.org/wiki/License:ISC\"> ISC-]
-# | {+id=\"Condor\"
-# | href=\"http://directory.fsf.org/wiki?title=License:Condor1.1\"> Condor
-# | Public+} License</a> <span [-class=\"anchor-reference-id\">(<a
-# | href=\"#ISC\">#ISC</a>)</span>-] {+class=\"anchor-reference-id\"> (<a
-# | href=\"#Condor\">#Condor</a>)</span>+}
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Condor\" href=\"http://directory.fsf.org/wiki?title=License:"
@@ -4005,12 +3944,6 @@ msgstr ""
 "condition à cette licence », et que la FDL comporte des conditions non "
 "prévues par l'ACDL."
 
-# | <a [-id=\"FreeBSD\"-] {+id=\"FreeBSDDL\"+}
-# | href=\"http://directory.fsf.org/wiki?title=License:FreeBSD\"> FreeBSD
-# | [-license</a>-] {+Documentation License</a>+} <span
-# | class=\"anchor-reference-id\"> (<a
-# | [-href=\"#FreeBSD\">#FreeBSD</a>)</span>-]
-# | {+href=\"#FreeBSDDL\">#FreeBSDDL</a>)</span>+}
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"FreeBSDDL\" href=\"http://directory.fsf.org/wiki?title=License:"
