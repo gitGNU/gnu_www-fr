@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2012-11-21 09:49+0100\n"
+"POT-Creation-Date: 2012-11-20 18:25-0500\n"
 "PO-Revision-Date: 2012-11-22 15:15+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -2086,13 +2086,6 @@ msgstr ""
 "l'utilisation de noms en rapport avec Condor et une clause de conformité aux "
 "lois d'exportation américaines."
 
-# | <a [-id=\"MPL-2.0\"
-# | href=\"http://directory.fsf.org/wiki/License:MPLv2.0\">Mozilla-]
-# | {+id=\"EPL\" href=\"http://directory.fsf.org/wiki/License:EPLv1.0\">
-# | Eclipse+} Public License [-(MPL) version 2.0</a>-] {+Version 1.0</a>+}
-# | <span class=\"anchor-reference-id\">(<a
-# | [-href=\"#MPL-2.0\">#MPL-2.0</a>)</span>-]
-# | {+href=\"#EPL\">#EPL</a>)</span>+}
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"EPL\" href=\"http://directory.fsf.org/wiki/License:EPLv1.0\"> "
@@ -2119,10 +2112,6 @@ msgstr ""
 "logiciels, lorsqu'elles sont engagées spécifiquement contre des "
 "contributeurs du programme soumis à l'EPL."
 
-# | <a id=\"EUPL\" [-href=\"http://www.osor.eu/eupl\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:EUPLv1.1\">+} European
-# | Union Public License (EUPL) version 1.1</a> <span
-# | class=\"anchor-reference-id\">(<a href=\"#EUPL\">#EUPL</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"EUPL\" href=\"http://directory.fsf.org/wiki/License:EUPLv1.1\"> "
@@ -2188,13 +2177,6 @@ msgstr ""
 "sous cette licence, puis l'ajouter au programme. Cette addition justifie "
 "d'émettre une nouvelle licence en GPLv3+. "
 
-# | <a [-id=\"MPL-2.0\"
-# | href=\"http://directory.fsf.org/wiki/License:MPLv2.0\">Mozilla-]
-# | {+id=\"IBMPL\" href=\"http://directory.fsf.org/wiki/License:IBMPLv1.0\">
-# | IBM+} Public [-License (MPL) version 2.0</a>-] {+License, Version
-# | 1.0</a>+} <span class=\"anchor-reference-id\">(<a
-# | [-href=\"#MPL-2.0\">#MPL-2.0</a>)</span>-]
-# | {+href=\"#IBMPL\">#IBMPL</a>)</span>+}
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"IBMPL\" href=\"http://directory.fsf.org/wiki/License:IBMPLv1.0\"> "
@@ -2213,13 +2195,6 @@ msgstr ""
 "C'est une licence de logiciel libre mais malheureusement son assortiment de "
 "clauses juridiques la rend incompatible avec la GNU GPL."
 
-# | <a [-id=\"apsl2\" href=\"http://directory.fsf.org/wiki/License:APSLv2.0\">
-# | Apple Public-] {+id=\"josl\"
-# | href=\"http://directory.fsf.org/wiki/License:JabberOSLv1.0\"> Jabber
-# | Open+} Source [-License (APSL), version 2</a>-] {+License, Version
-# | 1.0</a>+} <span [-class=\"anchor-reference-id\">(<a
-# | href=\"#apsl2\">#apsl2</a>)</span>-] {+class=\"anchor-reference-id\"> (<a
-# | href=\"#josl\">#josl</a>)</span>+}
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"josl\" href=\"http://directory.fsf.org/wiki/License:JabberOSLv1.0\"> "
@@ -2244,11 +2219,6 @@ msgstr ""
 "pas partie de ladite catégorie, il est impossible de redistribuer sous GPL "
 "du code soumis à cette licence. D'où l'incompatibilité."
 
-# | <a id=\"LPPL-1.3a\"
-# | [-href=\"http://www.latex-project.org/lppl/lppl-1-3a.txt\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:LPPLv1.3a\">+} LaTeX
-# | Project Public License 1.3a</a> <span class=\"anchor-reference-id\"> (<a
-# | href=\"#LPPL-1.3a\">#LPPL-1.3a</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"LPPL-1.3a\" href=\"http://directory.fsf.org/wiki/License:LPPLv1.3a"
@@ -2273,11 +2243,6 @@ msgstr ""
 "GPL car certaines versions modifiées doivent contenir une copie de la "
 "version non modifiée ou un pointeur vers cette dernière."
 
-# | <a id=\"LPPL-1.2\"
-# | [-href=\"http://www.latex-project.org/lppl/lppl-1-2.txt\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:LPPLv1.2\">+} LaTeX Project
-# | Public License 1.2</a> <span class=\"anchor-reference-id\"> (<a
-# | href=\"#LPPL-1.2\">#LPPL-1.2</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"LPPL-1.2\" href=\"http://directory.fsf.org/wiki/License:LPPLv1.2\"> "
@@ -2382,12 +2347,6 @@ msgstr ""
 "Note : les commentaires ci-dessus portent sur la version 1.2 de la LPPL "
 "datée du 3 septembre 1999."
 
-# | <a id=\"lucent102\"
-# | [-href=\"http://plan9.bell-labs.com/plan9dist/license.html\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:LucentPLv1.02\">+} Lucent
-# | Public License Version 1.02 (Plan 9 license)</a> <span
-# | class=\"anchor-reference-id\"> (<a
-# | href=\"#lucent102\">#lucent102</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"lucent102\" href=\"http://directory.fsf.org/wiki/License:"
@@ -2412,11 +2371,6 @@ msgstr ""
 "cette licence pour les nouveaux logiciels que vous écrivez, mais il n'y a "
 "pas de problème à utiliser et améliorer Plan 9 sous cette licence."
 
-# | <a id=\"ms-pl\"
-# | [-href=\"https://www.microsoft.com/en-us/openness/licenses.aspx\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:MsPL\">+} Microsoft Public
-# | License (Ms-PL)</a> <span class=\"anchor-reference-id\">(<a
-# | href=\"#ms-pl\">#ms-pl</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"ms-pl\" href=\"http://directory.fsf.org/wiki/License:MsPL\"> "
@@ -2437,11 +2391,6 @@ msgstr ""
 "mais qui est incompatible avec la GNU GPL. C'est pourquoi nous vous "
 "demandons instamment de ne pas utiliser la Ms-PL."
 
-# | <a id=\"ms-rl\"
-# | [-href=\"http://www.microsoft.com/opensource/licenses.mspx#Ms-RL\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:MsRL\">+} Microsoft
-# | Reciprocal License (Ms-RL)</a> <span class=\"anchor-reference-id\">(<a
-# | href=\"#ms-rl\">#ms-rl</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"ms-rl\" href=\"http://directory.fsf.org/wiki/License:MsRL\"> "
@@ -2465,13 +2414,6 @@ msgstr ""
 "GNU GPL. C'est pourquoi nous vous demandons instamment de ne pas utiliser "
 "la Ms-RL."
 
-# | <a [-id=\"MPL-2.0\"
-# | href=\"http://directory.fsf.org/wiki/License:MPLv2.0\">Mozilla-]
-# | {+id=\"MPL\" href=\"http://directory.fsf.org/wiki/License:MPLv1.1\">
-# | Mozilla+} Public License (MPL) version [-2.0</a>-] {+1.1</a>+} <span
-# | class=\"anchor-reference-id\">(<a
-# | [-href=\"#MPL-2.0\">#MPL-2.0</a>)</span>-]
-# | {+href=\"#MPL\">#MPL</a>)</span>+}
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"MPL\" href=\"http://directory.fsf.org/wiki/License:MPLv1.1\"> "
@@ -2522,11 +2464,6 @@ msgstr ""
 "compatibilité par défaut avec la GPL. <a href=\"#MPL-2.0\">Reportez-vous à "
 "cette rubrique</a> pour plus de détails."
 
-# | <a id=\"NOSL\"
-# | [-href=\"http://bits.netizen.com.au/licenses/NOSL/nosl.txt\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:NOSLv1.0\">+} Netizen Open
-# | Source License (NOSL), Version 1.0</a> <span
-# | class=\"anchor-reference-id\">(<a href=\"#NOSL\">#NOSL</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"NOSL\" href=\"http://directory.fsf.org/wiki/License:NOSLv1.0\"> "
@@ -2552,10 +2489,6 @@ msgstr ""
 "couvert par la NOSL. C'est pourquoi nous vous demandons instamment de ne pas "
 "utiliser la NOSL."
 
-# | <a id=\"NPL\" [-href=\"http://www.mozilla.org/MPL/NPL-1.1.html\">-]
-# | {+href=\"http://directory.fsf.org/wiki?title=License:NPLv1.1\">+} Netscape
-# | Public License (NPL)</a>, versions 1.0 and 1.1 <span
-# | class=\"anchor-reference-id\">(<a href=\"#NPL\">#NPL</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"NPL\" href=\"http://directory.fsf.org/wiki?title=License:NPLv1.1\"> "
@@ -2583,10 +2516,6 @@ msgstr ""
 "droit d'utiliser <em>leur</em> code en contrepartie. Nous vous supplions de "
 "ne pas utiliser la NPL."
 
-# | <a id=\"Nokia\" [-href=\"http://sw.nokia.com/tools/LICENSE.txt\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:NokOSv1.0a\">+} Nokia Open
-# | Source License</a> <span class=\"anchor-reference-id\">(<a
-# | href=\"#Nokia\">#Nokia</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Nokia\" href=\"http://directory.fsf.org/wiki/License:NokOSv1.0a\"> "
@@ -2605,14 +2534,6 @@ msgstr ""
 "Dans l'esprit de la Mozilla Public License version 1 : une licence de "
 "logiciel libre incompatible avec la GNU GPL."
 
-# | <a [-id=\"newOpenLDAP\"
-# | href=\"http://directory.fsf.org/wiki/License:OpenLDAPv2.7\">-]
-# | {+id=\"oldOpenLDAP\"
-# | href=\"http://directory.fsf.org/wiki/License:OpenLDAPv2.3\"> Old+}
-# | OpenLDAP License, Version 2.[-7-]{+3+}</a> <span
-# | class=\"anchor-reference-id\"> (<a
-# | [-href=\"#newOpenLDAP\">#newOpenLDAP</a>)</span>-]
-# | {+href=\"#oldOpenLDAP\">#oldOpenLDAP</a>)</span>+}
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"oldOpenLDAP\" href=\"http://directory.fsf.org/wiki/License:"
@@ -2645,10 +2566,6 @@ msgstr ""
 "les logiciels que vous écrivez. Toutefois, il n'y aucune raison de ne pas "
 "exécuter les logiciels publiés sous cette licence."
 
-# | <a id=\"OSL\" [-href=\"http://www.opensource.org/licenses/osl-3.0.php\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:OSLv3.0\">+} Open Software
-# | License, all versions through 3.0</a> <span
-# | class=\"anchor-reference-id\">(<a href=\"#OSL\">#OSL</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"OSL\" href=\"http://directory.fsf.org/wiki/License:OSLv3.0\"> Open "
@@ -2702,12 +2619,6 @@ msgstr ""
 "que vous écrivez. Cependant, il n'y a aucune raison de ne pas exécuter les "
 "programmes qui ont été publiés sous cette licence."
 
-# | <a [-id=\"ISC\" href=\"http://directory.fsf.org/wiki/License:ISC\"> ISC
-# | License</a>-] {+id=\"OpenSSL\"
-# | href=\"http://directory.fsf.org/wiki/License:OpenSSL\"> OpenSSL
-# | license</a>+} <span [-class=\"anchor-reference-id\">(<a
-# | href=\"#ISC\">#ISC</a>)</span>-] {+class=\"anchor-reference-id\"> (<a
-# | href=\"#OpenSSL\">#OpenSSL</a>)</span>+}
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"OpenSSL\" href=\"http://directory.fsf.org/wiki/License:OpenSSL\"> "
@@ -2743,10 +2654,6 @@ msgstr ""
 "vous écrivez. Cependant, il n'y a aucune raison de ne pas utiliser OpenSSL "
 "et les applications qui fonctionnent avec OpenSSL."
 
-# | <a id=\"Phorum\" [-href=\"http://phorum.org/license.txt\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:Phorum2.0\">+} Phorum
-# | License, Version 2.0</a> <span class=\"anchor-reference-id\"> (<a
-# | href=\"#Phorum\">#Phorum</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Phorum\" href=\"http://directory.fsf.org/wiki/License:Phorum2.0\"> "
@@ -2766,10 +2673,6 @@ msgstr ""
 "C'est une licence de logiciel libre, mais elle est incompatible avec la <a "
 "href=\"/licenses/gpl.html\">GPL</a> à cause de l'article 5."
 
-# | <a id=\"PHP-3.01\" [-href=\"http://www.php.net/license/3_01.txt\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:PHPv3.01\">+} PHP License,
-# | Version 3.01</a> <span class=\"anchor-reference-id\"> (<a
-# | href=\"#PHP-3.01\">#PHP-3.01</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"PHP-3.01\" href=\"http://directory.fsf.org/wiki/License:PHPv3.01\"> "
@@ -2798,11 +2701,6 @@ msgstr ""
 "Nous vous recommandons de réserver strictement l'usage de cette licence aux "
 "ajouts à PHP."
 
-# | <a id=\"PythonOld\"
-# | [-href=\"http://www.handle.net/python_licenses/python1.6_9-5-00.html\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:Python1.6b1\">+} License of
-# | Python 1.6b1 through 2.0 and 2.1</a> <span class=\"anchor-reference-id\">
-# | (<a href=\"#PythonOld\">#PythonOld</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"PythonOld\" href=\"http://directory.fsf.org/wiki/License:"
@@ -2823,13 +2721,6 @@ msgstr ""
 "L'incompatibilité principale est le fait que cette licence de Python est "
 "soumise aux lois de l'État de Virginie (USA), ce que la GPL ne permet pas."
 
-# | <a [-id=\"MPL-2.0\"
-# | href=\"http://directory.fsf.org/wiki/License:MPLv2.0\">Mozilla-]
-# | {+id=\"QPL\" href=\"http://directory.fsf.org/wiki/License:QPLv1.0\"> Q+}
-# | Public License [-(MPL) version 2.0</a>-] {+(QPL), Version 1.0</a>+} <span
-# | class=\"anchor-reference-id\">(<a
-# | [-href=\"#MPL-2.0\">#MPL-2.0</a>)</span>-]
-# | {+href=\"#QPL\">#QPL</a>)</span>+}
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"QPL\" href=\"http://directory.fsf.org/wiki/License:QPLv1.0\"> Q "
@@ -2914,10 +2805,6 @@ msgstr ""
 "fichiers sources, à la suite du texte expliquant que le programme est "
 "couvert par la GNU GPL."
 
-# | <a id=\"RPSL\" [-href=\"https://helixcommunity.org/content/rpsl\">-]
-# | {+href=\"http://directory.fsf.org/wiki/License:RPSLv1.0\">+} RealNetworks
-# | Public Source License (RPSL), Version 1.0</a> <span
-# | class=\"anchor-reference-id\">(<a href=\"#RPSL\">#RPSL</a>)</span>
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"RPSL\" href=\"http://directory.fsf.org/wiki/License:RPSLv1.0\"> "
@@ -4301,17 +4188,6 @@ msgstr ""
 "l'utiliser pour des logiciels ou de la documentation, car elle est "
 "incompatible avec la GNU GPL et la GNU FDL."
 
-# | <span class=\"anchor-reference-id\">(<a
-# | [-href=\"#\">#which-cc</a>)</span>-]
-# | {+href=\"#which-cc\">#which-cc</a>)</span>+} Creative Commons publishes
-# | many licenses which are very different.  Therefore, to say that a work
-# | &ldquo;uses a Creative Commons license&rdquo; is to leave the principal
-# | questions about the work's licensing unanswered.  When you see such a
-# | statement in a work, please ask the author to change the work to state
-# | clearly and visibly <em>which</em>of the Creative Commons license it uses.
-# |  And if someone proposes to &ldquo;use a Creative Commons license&rdquo;
-# | for a certain work, it is vital to ask &ldquo;Which Creative Commons
-# | license?&rdquo; before proceeding any further.
 #. type: Content of: <dl><dd><p>
 msgid ""
 "<span class=\"anchor-reference-id\">(<a href=\"#which-cc\">#which-cc</a>)</"
