@@ -27,23 +27,6 @@ msgstr ""
 msgid "JavaScript License Web Labels"
 msgstr "Étiquettes web de licence pour JavaScript"
 
-# | If you are a webmaster [-who wants to deploy-] {+deploying minified+}
-# | JavaScript on [-your own-] {+a+} site, [-we suggest following the-]
-# | {+here's a+} method [-below to label those files with license-] {+for
-# | stating their licenses+} and source code [-information.-] {+locations
-# | without altering those files.+}  It's especially [-useful-] {+helpful+} in
-# | cases where the JavaScript is under [-a-] {+one of the+} GNU license{+s+},
-# | but does not include the [-permission-] {+exception proposed+} in <a
-# | href=\"/philosophy/javascript-trap.html#AppendixA\">{+ +}Appendix A of
-# | &ldquo;The JavaScript Trap.&rdquo;</a> [-Followed correctly, this-]
-# | {+This+} method presents the information prominently enough to comply with
-# | the relevant conditions in the GNU software licenses, and it's specific
-# | enough that software can confirm the correctness of the information on a
-# | site.  For more [-background, please read our-] {+explanation of why we
-# | designed this format, see the+} <a
-# | [-href=\"/licenses/javascript-labels-rationale.html\">rationale
-# | document</a>.-] {+href=\"/licenses/javascript-labels-rationale.html\">
-# | rationale</a>.+}
 #. type: Content of: <p>
 msgid ""
 "If you are a webmaster deploying minified JavaScript on a site, here's a "
@@ -99,14 +82,6 @@ msgstr ""
 msgid "Writing the labels page"
 msgstr "Rédaction de la page d'étiquettes"
 
-# | Add a page for JavaScript [-License Web Labels-] {+license web labels+} to
-# | your site.  You can use whatever path or filename is most convenient for
-# | you; others will find it through links.  The page must include one table
-# | marked with the attribute <code>id=&quot;jslicense-labels1&quot;</code>. 
-# | This name lets automated tools find the table easily, and tells them what
-# | format to expect.  Each row of this table will contain three cells,
-# | providing information about a standalone JavaScript file used on the site,
-# | its license, and how visitors can obtain its source code.
 #. type: Content of: <p>
 msgid ""
 "Add a page for JavaScript license web labels to your site.  You can use "
