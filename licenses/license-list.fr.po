@@ -17,7 +17,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-11-29 16:56-0500\n"
 "Plural-Forms:  \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
@@ -4291,17 +4290,7 @@ msgstr ""
 "critère énoncé ci-dessus. Veuillez ne pas l'utiliser pour des logiciels ou "
 "de la documentation, car elle est incompatible avec la GNU GPL et la GNU FDL."
 
-# | <a [-id=\"OpenSSL\"
-# | href=\"http://directory.fsf.org/wiki/License:OpenSSL\"> OpenSSL-]
-# | {+id=\"ODbl\" href=\"http://directory.fsf.org/wiki/License:ODbl\"> Open
-# | Database+} license</a> <span class=\"anchor-reference-id\"> (<a
-# | [-href=\"#OpenSSL\">#OpenSSL</a>)</span>-]
-# | {+href=\"#ODbl\">#ODbl</a>)</span>+}
 #. type: Content of: <dl><dt>
-#| msgid ""
-#| "<a id=\"OpenSSL\" href=\"http://directory.fsf.org/wiki/License:OpenSSL\"> "
-#| "OpenSSL license</a> <span class=\"anchor-reference-id\"> (<a href="
-#| "\"#OpenSSL\">#OpenSSL</a>)</span>"
 msgid ""
 "<a id=\"ODbl\" href=\"http://directory.fsf.org/wiki/License:ODbl\"> Open "
 "Database license</a> <span class=\"anchor-reference-id\"> (<a href=\"#ODbl"
@@ -4311,10 +4300,7 @@ msgstr ""
 "Database license</a> <span class=\"anchor-reference-id\"> (<a href=\"#ODbl"
 "\">#ODbl</a>)</span>"
 
-# | This is a free [-software license, compatible-] {+and copyleft license
-# | meant for databases. It is incompatible+} with the GNU GPL.
 #. type: Content of: <dl><dd><p>
-#| msgid "This is a free software license, compatible with the GNU GPL."
 msgid ""
 "This is a free and copyleft license meant for databases. It is incompatible "
 "with the GNU GPL."
