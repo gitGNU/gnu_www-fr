@@ -1,5 +1,5 @@
 # This is -*-makefile-gmake-*-, because we adore GNU make.
-# Copyright (C) 2008, 2009, 2010 Free Software Foundation, Inc.
+# Copyright (C) 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
 
 # This file is part of GNUnited Nations.
 
@@ -35,16 +35,22 @@
 SHELL = /bin/bash
 
 # Set this variable to your language code.
-TEAM := fr
+ifndef TEAM
+TEAM := $(shell find . -name \*.po | head -n 1 | sed 's/\.po$$//; s/.*\.//')
+endif
 
 # The relative or absolute path to the working copy of the master
 # "www" repository; must end with a trailing slash.
 wwwdir := ../www/
 
+www_gnun_dir := $(wwwdir)server/gnun/
+
 # Adjust these variables if you don't have the programs in your PATH.
-MSGMERGE := msgmerge --backup=none
+MSGMERGE := msgmerge
+MSGMERGEFLAGS := --previous --backup=none
 MSGFMT := msgfmt
 MSGCAT := msgcat
+MSGATTRIB := msgattrib
 CVS := cvs
 SVN := svn
 BZR := bzr
@@ -52,14 +58,62 @@ GIT := git
 HG  := hg
 # Baz can be used alternatively; its commands are compatible.
 TLA := tla
+# Default period of notifications.
+NOTIFICATION_PERIOD := 7
+# URL specifications; used in notifications to generate URLs of items.
+# Root URL for "www" files.
+WWW_URL := http://www.gnu.org/
+# Prefix and postfix of URLs of team's files.
+TEAM_URL_PREFIX := http://git.savannah.gnu.org/gitweb/
+TEAM_URL_POSTFIX := ?p=www-fr.git;a=tree
+# The program to generate differences of two versions of a PO file.
+# Those files will be sent with notifications as attachments.
+ifndef DIFF_PO
+DIFF_PO := $(shell which gnun-diff-po)
+# Detect a UTF-8 locale (msgexec doesn't like processing UTF-8-encoded POs
+# in an incompatible locale).
+ifneq (,$(DIFF_PO))
+DIFF_PO_LANG := $(shell \
+  locale \
+  | if locale | egrep -q "^LC_ALL=."; then \
+      grep "^LC_ALL"; \
+    else \
+      cat; \
+    fi \
+  | egrep -q -i "=.*utf-?8" \
+  || locale -a | sed 's/^/LC_ALL=/' | egrep -m 1 "en_US\.utf-?8" \
+  || locale -a | sed 's/^/LC_ALL=/' | egrep -m 1 "\.utf-?8" || true;)
+DIFF_PO := $(DIFF_PO_LANG) $(DIFF_PO)
+endif
+endif
+# The program to add differences against previous msgids
+# to fuzzy translations (and remove those differences from up-to-date
+# translations).
+ifndef ADD_FUZZY_DIFF
+ADD_FUZZY_DIFF := $(shell which gnun-add-fuzzy-diff)
+endif
+# The program to send notifications.
+ifndef GNUN_MAIL
+ifneq (,$(DIFF_PO))
+# Use mutt since mail doesn't accept attachments.
+GNUN_MAIL := mutt
+else # eq (,$(DIFF_PO))
+GNUN_MAIL := mail
+endif # neq (,$(DIFF_PO))
+endif # ndef GNUN_MAIL
+# Invoke with NOTIFY=yes to actually enable notifications
+ifneq (yes,$(NOTIFY))
+GNUN_MAIL := { echo $(GNUN_MAIL)
+MAIL_TAIL := cat; };
+else
+MAIL_TAIL :=
+endif
 
-translations := $(shell find -name '*.$(TEAM).po' | sort)
+translations := $(shell find . -name '*.$(TEAM).po' | sort)
 log := "Automatic merge from the master repository."
 # Warning message for the `publish' rule.
 pubwmsg := "Warning (%s): %s\n  does not exist; (either obsolete or \`cvs\
 update\' in $(wwwdir) needed).\n"
-
-_have-compendium := $(shell test -f compendium.$(TEAM) && echo yes)
 
 # Determine the VCS.
 REPO := $(shell (test -d CVS && echo CVS) || (test -d .svn && echo SVN) \
@@ -74,39 +128,12 @@ ifdef VERBOSE
 $(info Repository: $(REPO))
 $(info translations = $(translations))
 MSGMERGEVERBOSE := --verbose
-ECHO := echo $$file: ;
 CVSQUIET :=
 # Applicable for Bzr, Git and Hg.
 QUIET := --verbose
 else
 CVSQUIET := -q
 QUIET := --quiet
-endif
-
-# The command to update a PO file from the POT.
-# $(1) = PO file
-# $(2) = POT file
-ifeq ($(_have-compendium),yes)
-
-#  When there is a compendium, use msgcat to remove msgids which are
-#  found in compendium (to make sure that translation comes from there),
-#  and then call msgmerge
-define update-po
-cat compendium.$(TEAM) |\
-   $(MSGCAT) --use-first --less-than=2 -o $(1) $(1) compendium.$(TEAM) - ; \
-   $(MSGMERGE) $(MSGMERGEVERBOSE) -C compendium.$(TEAM) --quiet \
-	--update --previous $(1) $(2); \
-sed -i -e '1,/^msgid "[^"]/{/^"Outdated-Since: /d}' $(1)
-endef
-
-else
-
-define update-po
-$(MSGMERGE) $(MSGMERGEVERBOSE) --quiet \
-	--update --previous $(1) $(2); \
-sed -i -e '1,/^msgid "[^"]/{/^"Outdated-Since: /d}' $(1)
-endef
-
 endif
 
 # The command to update the CVS repositories.
@@ -120,7 +147,7 @@ $(SVN) $(CVSQUIET) update
 endef
 
 .PHONY: all
-all: update sync
+all: sync format notify
 
 # Update the master and the team repositories.
 .PHONY: update
@@ -147,38 +174,239 @@ else
 	$(info Repositories were not updated, you might want "make VCS=yes".)
 endif
 
-# Synchronize the PO files from the master POTs.
+# Synchronize (update) the PO files from the master POTs.
+# The revision of the PO file from ${wwwdir} is used as a possible
+# source for missing translations, which covers the case when the
+# coordinator updates the translation directly in `www' repository.
 .PHONY: sync
+# Actual synchoronizations are defined as dependencies
+# to enable parallel processing.
 sync: update
-	@for file in $(translations); do \
-	  potdir=$(wwwdir)`dirname $$file`/po; \
-	  potfile=`basename $${file/.$(TEAM).po/.pot}`; \
-	  if [ ! -f $$potdir/$$potfile ]; then \
-	    echo "Warning: $(notdir $$file) has no equivalent .pot in www."; \
+ifeq ($(VCS),yes)
+ifeq ($(REPO),CVS)
+	$(CVS) commit -m $(log)
+else ifeq ($(REPO),SVN)
+	$(SVN) commit -m $(log)
+else ifeq ($(REPO),Bzr)
+# The behavior of `bzr commit' is not very script-friendly: it will
+# exit with an error if there are no changes to commit.
+	if $(BZR) status --versioned --short | grep --quiet '^ M'; then \
+	  $(BZR) commit $(QUIET) -m $(log) && $(BZR) push $(QUIET); \
+	else \
+	  true; \
+	fi
+else ifeq ($(REPO),Git)
+# Git (`git commit', to be precise) will exit with an error if there
+# are only untracked files present (a common situation).  Sadly, there
+# doesn't seem to be a decent workaround, so exit status is ignored.
+	-$(GIT) commit --all $(QUIET) -m $(log)
+	$(GIT) push $(QUIET)
+else ifeq ($(REPO),Hg)
+	$(HG) commit $(QUIET) -m $(log) && $(HG) push $(QUIET)
+else ifeq ($(REPO),Arch)
+# Arch is so dumb that it will do a bogus commit (adding another
+# absolutely useless revision) even if there are no changes.
+# Fortunately, the exit status of `tla changes' is sane.
+	$(TLA) changes >/dev/null || $(TLA) commit -s $(log)
+endif
+endif
+
+define cmp-POs
+diff -q -I "^$$" -I "^#" -I '^"POT-Creation-Date:' \
+  -I '^"PO-Revision-Date:' -I '^"Outdated-Since:' &>/dev/null
+endef
+
+define sync-file
+.PNONY: sync-$(1)
+sync-$(1):
+	@file=$(1); if [ ! -f $(wwwdir)`dirname $1`/po/`basename \
+	    $$$${file/.$(TEAM).po/.pot}` ]; then \
+	    echo "Warning: $$$${file#./} has no equivalent .pot in www."; \
 	  else \
-	    $(ECHO) $(call update-po,$$file,$$potdir/$$potfile); \
-	  fi; \
-	done
+	    www_po=$(wwwdir)`dirname $1`/po/`basename $1`; \
+	    if test -f $$$${www_po}; then \
+	      $$(cmp-POs) $1 $$$${www_po} \
+	        && echo "$$$${file#./}: Already in sync." \
+	        || { \
+		     echo -n "$$$${file#./}: Merging"; \
+		     $(MSGATTRIB) --no-fuzzy -o $(1)-tmp.www.po $$$$www_po  2>&1; \
+		     $(MSGATTRIB) --fuzzy -o $(1)-tmp.po $1 2>&1; \
+		     test -s $(1)-tmp.po && test -s $(1)-tmp.www.po && \
+		     $(MSGCAT) --use-first --more-than=1 \
+			$(1)-tmp.www.po $(1)-tmp.po 2>&1 \
+		     | $(MSGCAT) --use-first --less-than=2 -o $(1) - $(1); \
+		     $(MSGMERGE) $(MSGMERGEFLAGS) $(MSGMERGEVERBOSE) -C $$$${www_po} \
+		       --update $1 $$$${www_po%.$(TEAM).po}.pot 2>&1; \
+		     $(RM) $(1)-tmp.www.po $(1)-tmp.po; \
+		   } \
+	    else \
+	      echo -n "$$$${file#./}: Merging new translation"; \
+	      $(MSGMERGE) $(MSGMERGEFLAGS) $(MSGMERGEVERBOSE) \
+	         --update $1 $$$${www_po%.$(TEAM).po}.pot 2>&1; \
+	    fi; \
+	    $(if $(ADD_FUZZY_DIFF), $(ADD_FUZZY_DIFF) -i $1;) \
+	    echo "   " `$(MSGFMT) -o /dev/null --statistics $1 2>&1`; \
+	  fi
+sync: sync-$(1)
+endef
+$(foreach file, $(patsubst ./%, %, $(translations)), \
+                  $(eval $(call sync-file,$(file))))
+
+# Import translated file lists from www.
+-include $(www_gnun_dir)gnun.mk
+# Assign priorities to translations for report.
+-include $(www_gnun_dir)priorities.mk
+
+define sorted-files
+priority-articles-$(1) := \
+  $(filter $(foreach article,${priority-articles},\
+             ./${article}.${TEAM}.po), $(2))
+important-articles-$(1) := \
+  $(filter $(foreach article,${important-articles},\
+             ./${article}.${TEAM}.po), $(2))
+important-dir-$(1) := \
+$$(filter-out $${priority-articles-$(1)} $${important-articles-$(1)}, \
+  $$(filter $$(addsuffix /%, $(addprefix ./,${important-directories})), $(2)))
+other-$(1) := \
+  $$(filter-out $${priority-articles-$(1)} $${important-articles-$(1)} \
+    $${important-dir-$(1)}, $(2))
+endef
+
+$(eval $(call sorted-files,pos,${translations}))
+
+# Figure out what translatable articles live in www.
+ifeq (,$(ALL_DIRS))
+pots := $(shell find $(wwwdir) -name \*.pot ! -path \*/server/gnun/\*)
+else # ! eq (,$(ALL_DIRS))
+template-pots := $(addsuffix .pot, \
+		   $(foreach template,$(extra-templates), \
+		     $(dir $(addprefix $(wwwdir), \
+		             $(template)))po/$(notdir $(template)))) \
+                 $(addsuffix .pot.opt, \
+		   $(foreach template,$(optional-templates), \
+		     $(dir $(addprefix $(wwwdir), \
+		             $(template)))po/$(notdir $(template))))
+no-grace-items := $(no-grace-articles)
+no-grace-pot := $(no-grace-items:%=%.pot)
+articles := $(foreach dir,$(ALL_DIRS),$(addprefix $(dir)/po/,$(value $(dir))))
+articles-pot := $(addprefix $(wwwdir),$(articles:%=%.pot))
+root-articles := $(foreach root-article,$(ROOT), \
+		   $(addprefix $(wwwdir)po/,$(root-article)))
+root-articles-pot := $(root-articles:%=%.pot)
+pots := $(articles-pot) $(root-articles-pot)
+endif # ! eq (,$(ALL_DIRS))
+
+# Team's translations that lack PO file.
+html-only := $(shell echo $(pots) | sed 's/ /\n/g' \
+  | while read pot; do \
+      po=$${pot%pot}$(TEAM).po; \
+      team_po=`echo $$po | sed 's,/po/,/,; s,^$(wwwdir),./,'`; \
+      html=$${pot%pot}$(TEAM).html; html=$${html/\/po\//\/}; \
+      if ! test -f $$po && ! test -f $$team_po && test -f $$html; then \
+        echo $${team_po}; \
+      fi; \
+    done)
+$(eval $(call sorted-files,html,${html-only}))
+
+# Team's translations that lack PO file.
+www-only := $(shell echo $(pots) | sed 's/ /\n/g' \
+  | while read pot; do \
+      po=$${pot%pot}$(TEAM).po; \
+      team_po=`echo $$po | sed 's,/po/,/,; s,^$(wwwdir),./,'`; \
+      html=$${pot%pot}$(TEAM).html; html=$${html/\/po\//\/}; \
+      if test -f $$po && ! test -f $$team_po; then \
+        echo $${team_po}; \
+      fi; \
+    done)
+$(eval $(call sorted-files,www,${www-only}))
+
+# Function to report a group of PO files.
+define report-pos
+@$(if $(strip $($(1)-pos)$($(1)-html)$($(1)-www)), \
+  $(if $(2), echo "  "$(strip $(2)); echo;) \
+  $(if $($(1)-pos), \
+    for file in $($(1)-pos); do \
+      statistics=`LC_ALL=C $(MSGFMT) --statistics -o /dev/null $$file 2>&1 \
+                  | egrep '(fuzzy|untranslated)'`; \
+      if test -n "$$statistics"; then \
+        echo "$${file#./}:" $$statistics; \
+      fi; \
+      www_po=$(wwwdir)`dirname $$file`/po/`basename $$file`; \
+      if ! test -f $${www_po%.$(TEAM).po}.pot; then \
+        echo "$${file#./}: no POT in \`www'."; \
+	continue; \
+      fi; \
+      if test -f $$www_po; then \
+	if $(cmp-POs) $$www_po $$file; then \
+	  $(RM) $$file-diff.html; \
+	else \
+          www_statistics=`LC_ALL=C $(MSGFMT) --statistics -o /dev/null \
+					$$www_po 2>&1 \
+			  | egrep '(fuzzy|untranslated)'`; \
+          case "@$$www_statistics@$$statistics@" in \
+	    @?*@@ $(paren) \
+	       echo \
+	"$${file#./}: the team version seems ready to post."; \
+	       ;; \
+	    * $(paren) \
+	       echo \
+	"$${file#./}: www and team revisions are not consistent."; \
+	       ;; \
+          esac; \
+	  $(if $(DIFF_PO), $(DIFF_PO) \
+  --title "$${file#./}: www vs. www-$(TEAM) repository" \
+  $$www_po $$file > $$file-diff.html;) \
+	fi; \
+      else \
+        if test ".$$statistics" = .;then \
+	  echo \
+	    "$${file#./}: new translation seems ready to post."; \
+	fi; \
+      fi; \
+    done;) \
+  $(if $($(1)-www), \
+    for file in $($(1)-www); do \
+      echo "$${file#./}: present in \`www'$(comma) absent in \`www-$(TEAM)'."; \
+    done;) \
+  $(if $($(1)-html), \
+    for file in $($(1)-html); do \
+      echo \
+        "$${file#./}: HTML-only translation$(comma) needs conversion to PO."; \
+    done;) \
+  $(if $(2), echo;))
+endef
 
 # Helper target to check which articles have to be updated.
 .PHONY: report
 report:
-	@for file in $(translations) ; do \
-	  LC_ALL=C $(MSGFMT) --statistics -o /dev/null $$file 2>&1 \
-	    | egrep '(fuzzy|untranslated)' \
-	      && echo "$${file#./} needs updating." || true ; \
-	done
+ifeq (,${priority-articles}${important-articles}${important-directories})
+	$(call report-pos,other)
+else #!eq (,${priority-articles}${important-articles}${important-directories})
+	$(call report-pos,priority-articles,Priority Articles)
+	$(call report-pos,important-articles,Important Articles)
+	$(call report-pos,important-dir,\
+          Other Articles from Important Directories)
+	$(call report-pos,other,Other Translations)
+endif #!eq (,${priority-articles}${important-articles}${important-directories})
+
+report.txt: $(translations) $(wildcard priorities.mk)
+	$(MAKE) report | grep -v '^make\[' > $@
 
 # Helper target to rewrap all PO files; avoids spurious diffs when
 # they get remerged by the official build.
+# Formatting is defined per-file as dependencies of the main target
+# to enable parallel processing.
 .PHONY: format
-format:
-	@echo Formatting .po files with msgcat:
-	@for file in $(translations); do \
-	  if [ `LC_ALL=C <$$file wc --max-line-length` -gt 80 ]; then \
-	    $(MSGCAT) -o $$file $$file && echo "  $${file#./}"; \
-	  fi; \
-	done
+define format-file
+.PNONY: format-$(1)
+format-$(1):
+	@file=$(1); $(MSGCAT) -o $$$$file-tmp $$$$file; \
+	  cmp -s $$$$file-tmp $$$$file || cp $$$$file-tmp $$$$file; \
+	  $(RM) $$$$file-tmp; echo "  $$$${file#./} formatted."
+format: format-$(1)
+endef
+$(foreach file, $(patsubst ./%, %, $(translations)), \
+                  $(eval $(call format-file,$(file))))
 
 # Helper target to copy all (supposedly) modified files to the `www'
 # master repository.  A warning is printed if the corresponding
@@ -187,31 +415,224 @@ format:
 # renamed or deleted).
 .PHONY: publish
 publish: format
-	@echo Copying edited .po files back to $(wwwdir):
-	@for file in $(translations); do \
-	  wwwfdir=$(wwwdir)`dirname $$file`/po; \
-	  wwwfpot=$${wwwfdir}/`basename $${file/.$(TEAM).po/.pot}`; \
-	  wwwfile=$${wwwfdir}/`basename $$file`; \
-	  if [ ! -d $$wwwfdir ]; then \
-	    printf $(pubwmsg) "$${file#./}" "directory $$wwwfdir"; \
+	@echo All edited .po files have been copied back to $(wwwdir)
+define publish-file
+.PNONY: publish-$(1)
+publish-$(1):
+	@file=$(1); wwwfdir=$(wwwdir)`dirname $$$$file`/po; \
+	  wwwfpot=$$$${wwwfdir}/`basename $$$${file/.$(TEAM).po/.pot}`; \
+	  wwwfile=$$$${wwwfdir}/`basename $$$$file`; \
+	  if [ ! -d $$$$wwwfdir ]; then \
+	    printf $(pubwmsg) "$$$${file#./}" \
+"skipped (no $$$$wwwfdir directory)"; \
 	    continue; \
 	  fi; \
-	  if [ ! -f $$wwwfpot ]; then \
-	    printf $(pubwmsg) "$${file#./}" "template $$wwwfpot"; \
+	  if [ ! -f $$$$wwwfpot ]; then \
+	    printf $(pubwmsg) "$$$${file#./}" \
+"template $$$$wwwfpot skipped (no such file)"; \
 	    continue; \
 	  fi; \
-	  if [ $$file -nt $$wwwfile ]; then \
-	    cp $$file $$wwwfile && echo "  $${file#./}"; \
+	  if [ $$$$file -nt $$$$wwwfile ]; then \
+	    cp $$$$file $$$$wwwfile && echo "  $$$${file#./} published."; \
+	  fi
+publish: publish-$(1)
+endef
+$(foreach file, $(patsubst ./%, %, $(translations)), \
+                  $(eval $(call publish-file,$(file))))
+
+# Email aliases are defined through the file named `email-aliases'.
+# Lines beginning with `#' are ignored.
+# Every line should contain two or more colon-separated
+# fields.  The first field is the identifier, the second
+# field is space-separated list of email addresses,
+# the third field is notification period in days
+# ($(NOTIFICATION_PERIOD) by default): a notification
+# is sent either when it changes, or when the period is over.
+# The fourth field is comma-separated list of flags
+# (`no-diffs' to disable sending PO differences in attachments,
+#  `www' to report translations to be published).
+# The lines without a colon are ignored.
+HAVE-EMAIL-ALIASES := $(shell test -s email-aliases && echo yes)
+
+# Per-translator notification rules are defined in the `nottab' file.
+# The lines beginning with `#' are ignored.
+# Every line should contain exactly two colon-separated fields:
+# the first is an extended regular expression, the second is
+# space-separated list of email aliases to notify about the files
+# whose names match the expression.  The lines without a colon
+# are ignored.
+HAVE-NOTTAB := $(shell test -s nottab && echo yes)
+
+.PHONY: notify
+# The variables to use closing parentheses and commas in arguments
+# of make functions.
+paren := )
+comma := ,
+# The function to find options for the translator $(1);
+# they are assigned to the shell variables `email', `period', `flags'.
+define parse-email-aliases
+$(if $(HAVE-EMAIL-ALIASES), \
+  record=`grep -v '^#' email-aliases | grep '^$(subst .,\\.,$1):' \
+  | head -n 1 | sed "s/^[^:]\+://"`; \
+  email=$$$${record%%:*}; flags=; period=; \
+  if test "x$$$$email" != "x$$$$record"; then \
+    period=$$$${record#*:}; \
+    case "x$$$$period" in \
+	*:* $(paren) flags=$$$${period#*:}; period=$$$${period%%:*}; ;; \
+    esac; \
+  fi, echo "Note: no email alias for \`$1' found.")
+endef
+ifneq (,$(HAVE-NOTTAB))
+# Extract identifiers of all translators.
+translators := $(shell \
+  sed '/^\#/d;/:/!d;s/^[^:]*://;s/:.*//;s/[[:space:]]\+/\n/g' nottab | sort -u)
+define notify-translator
+.PRECIOUS: $(1).note
+.INTERMEDIATE: $(1).note.tmp
+# The empty lines and lines beginning with a space are passed
+# from report.txt to $(1).note.tmp unchanged.  Other lines begin
+# with filenames (up to the first `:'); they come to $(1).note.tmp
+# when and only when the filename matches one of regexps requested
+# for that translator via nottab.
+$(1).note.tmp: report.txt nottab $(wildcard email-aliases)
+	@regex="`egrep -v '^#' nottab \
+		 | egrep  ':(.+ )?$(subst .,\\.,$1)( |$$$$)' \
+		 | while read line; do \
+		     line=$$$${line//./\.}; \
+		     echo -n "|($$$${line%%:*})"; \
+		   done`"; \
+	if test "x$$$$regex" = x; then \
+	  regex=':(actually this must be impossible)'; \
+	else \
+	  regex="($$$${regex#|})"; \
+	fi; \
+	sed "s/^/@/" report.txt \
+	| while read line; do \
+	    line="$$$${line#@}"; \
+	    if echo "$$$$line" | egrep -q "^( |$$$$)"; then \
+	      echo "$$$$line"; continue; \
+	    fi; \
+	    file="$$$${line%%:*}"; \
+	    if echo $$$$file | egrep -q "$$$$regex"; then \
+	      echo "$$$$line"; \
+	    fi; \
+	  done > $(1).note.tmp
+	@$(parse-email-aliases); \
+case ",$$$$flags," in \
+  *,www,* ) ;; \
+  * ) \
+    sed --in-place -e '/:.* seems ready to post\.$$$$/d' $(1).note.tmp \
+    ;; \
+esac
+
+# Final notification file for the translator prepended with
+# the timestamp of the latest notification.
+$(1).note: $(1).note.tmp
+	@if test -s $(1).note && sed "1d" < $(1).note \
+	   | cmp -s - $(1).note.tmp &>/dev/null; then \
+	  touch $(1).note; \
+	else \
+	  cp $(1).note.tmp $(1).note; \
+	fi
+
+.PHONY: inform-$(1)
+# Extract the list of emails and period for the translator
+# from email-aliases.  Send the notification to the list of emails
+# when $(1).note is updated (that is, the timestamp is absent)
+# or when the period has passed.  When sending, update
+# the timestamp in $(1).note.
+# URLs of the PO files to the report are added for convenience because
+# the notification is emailed.
+inform-$(1): $(1).note
+ifneq (,$(HAVE-EMAIL-ALIASES))
+	@$(parse-email-aliases); \
+  case "x$$$$period" in \
+    x ) period=$(NOTIFICATION_PERIOD); ;; \
+  esac; \
+  test "x$$$$email" != x \
+    || { echo "Note: no email for \`$1' found in email-aliases."; exit 0; }; \
+  period=$$$$(($$$$period*24*3600)); notify=yes; \
+  timestamp=`head -n1 $(1).note | grep '^#'`; \
+  if test "x$$$$timestamp" != x; then \
+    if test $$$$((`date +%s` - $$$${timestamp#?})) -lt $$$$period; then \
+      notify=no; \
+    fi; \
+  fi; \
+  grep -q : $(1).note &>/dev/null || notify=no; \
+  if test $$$$notify = yes; then \
+    echo "Sending notification for \`$1' ($$$$email)..."; \
+    case ",$$$$flags," in \
+      *,no-diffs,* ) \
+	echo "Note: attachments for \`$1' are disabled."; \
+	attachments=; \
+	;; \
+      * ) \
+	attachments=$(if $(DIFF_PO),`egrep \
+'(revisions are not consistent|team version seems ready to post)\.$$$$'\
+   $(1).note \
+| sed 's/:.*//;s/$$$$/-diff.html/' \
+| while read f; do if test -s $$$$f; then echo $$$$f; fi; done;`); \
+	;; \
+    esac; \
+    if test "x$$$$attachments" != x; then \
+      attachments="-a $$$$attachments --"; \
+    fi; \
+    grep -v '^#' $(1).note | sed "s/^/@/" \
+      | while read line; do \
+	  line="$$$${line#@}"; \
+	  echo -n "$$$$line"; \
+	  if echo "$$$$line" | grep -q "^[^ ]" ; then \
+	    file=$$$${line%%:*}; name=$$$${file##*/}; dir=$$$${file%/*}/; \
+	    if test ".$$$$dir" = ".$$$$file/"; then dir=""; fi; \
+	    head="  ("; \
+	    if test -f $$$$file; then \
+	      echo; \
+	      echo -n "$$$${head}$(TEAM_URL_PREFIX)$$$$file$(TEAM_URL_POSTFIX)"; \
+	      head="   "; \
+	    fi; \
+	    if test -f $(wwwdir)$$$${dir}po/$$$$name; then \
+	      echo; \
+	      echo -n "$$$${head}$(WWW_URL)$$$${dir}po/$$$$name"; \
+	      head="   "; \
+	    fi; \
+	    if echo "$$$$line" | grep -qF "HTML-only translation"; then \
+	      echo; \
+	      echo -n "$$$${head}$(WWW_URL)$$$$dir$$$${name%po}html"; \
+	      head="   "; \
+	    fi; \
+	    pot=$$$${name%.$(TEAM).po}.pot; \
+	    if test -f $(wwwdir)$$$${dir}po/$$$$pot; then \
+	      echo; \
+	      echo -n "$$$${head}$(WWW_URL)$$$${dir}po/$$$$pot"; \
+	    elif test -f $(wwwdir)$$$${dir}po/$$$$pot.opt; then \
+	      echo; \
+	      echo -n "$$$${head}$(WWW_URL)$$$${dir}po/$$$$pot.opt"; \
+	    fi; \
+	    echo ')'; \
 	  fi; \
-	done
+	  echo; \
+	  done \
+      | $(GNUN_MAIL) -s "Automatic Notification for \`"$1"'" \
+			$$$$attachments $$$$email; $(MAIL_TAIL) \
+    sed --in-place '1{/^#/d;}' $(1).note; \
+    sed --in-place "1i#`date +%s`" $(1).note; \
+  else \
+    echo "Skipping notification for \`$1'..."; \
+  fi
+endif #ifneq (,$(HAVE-EMAIL-ALIASES))
+notify: inform-$(1)
+endef
+$(foreach translator, $(translators), \
+	  $(eval $(call notify-translator,$(translator))))
+else # eq (,$(HAVE-NOTTAB))
+notify: ; @echo Nobody to notify.
+endif # eq (,$(HAVE-NOTTAB))
 
 # Helper target to delete common auto-generated files.
 .PHONY: clean
 clean:
-	@echo -n Deleting unnecessary auto-generated files...
+	@echo Deleting auto-generated files...
 	@for file in $(translations); do \
-	  $(RM) $$file~; \
-	  $(RM) $${file/.po/.mo}; \
-	  $(RM) $$file.bak; \
+	  $(RM) $$file~ $${file/.po/.mo} $$file.bak $$file-diff.html; \
 	done
-	@echo " done."
+	@$(RM) report.txt *.note *.note.tmp
