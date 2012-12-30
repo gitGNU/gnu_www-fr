@@ -15,16 +15,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-12-27 10:25-0500\n"
 "Plural-Forms:  \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
-# | [-Educational-]Frequently Asked Questions {+About Free Software and
-# | Education+} - GNU Project - Free Software Foundation
 #. type: Content of: <title>
-#| msgid ""
-#| "Educational Frequently Asked Questions - GNU Project - Free Software "
-#| "Foundation"
 msgid ""
 "Frequently Asked Questions About Free Software and Education - GNU Project - "
 "Free Software Foundation"
@@ -32,15 +26,9 @@ msgstr ""
 "Foire aux questions sur le logiciel libre dans l'éducation - Projet GNU - "
 "Free Software Foundation"
 
-# | [-Educational-]Frequently Asked Questions [-- GNU Project --] {+About+}
-# | Free Software [-Foundation-] {+and Education+}
 #. type: Content of: <div><h2>
-#| msgid ""
-#| "Educational Frequently Asked Questions - GNU Project - Free Software "
-#| "Foundation"
 msgid "Frequently Asked Questions About Free Software and Education"
-msgstr ""
-"Foire aux questions sur le logiciel libre dans l'éducation"
+msgstr "Foire aux questions sur le logiciel libre dans l'éducation"
 
 #. type: Content of: <div><ul><li>
 msgid "<a href=\"/education/edu-contents.html\">Education Contents</a>"
@@ -70,21 +58,7 @@ msgstr "<a href=\"/education/edu-team.html\">L'équipe éducation</a>"
 msgid "<a href=\"/education/education.html\">Education</a> &rarr; FAQ"
 msgstr "<a href=\"/education/education.html\">Éducation</a> &rarr; FAQ"
 
-# | Many Free Software advocates encounter difficulties when talking to the
-# | administrators of educational institutions about the advantages of using
-# | and teaching Free Software. Often school administrators have never heard
-# | of Free Software or have heard only about [-Open Source,-] {+&ldquo;open
-# | source&rdquo;,+} so they raise many doubts. Here we put together some of
-# | the most common questions and the best possible answers to eliminate
-# | uncertainties.
 #. type: Content of: <p>
-#| msgid ""
-#| "Many Free Software advocates encounter difficulties when talking to the "
-#| "administrators of educational institutions about the advantages of using "
-#| "and teaching Free Software. Often school administrators have never heard "
-#| "of Free Software or have heard only about Open Source, so they raise many "
-#| "doubts. Here we put together some of the most common questions and the "
-#| "best possible answers to eliminate uncertainties."
 msgid ""
 "Many Free Software advocates encounter difficulties when talking to the "
 "administrators of educational institutions about the advantages of using and "
@@ -101,14 +75,7 @@ msgstr ""
 "rassemblons quelques-unes des questions les plus communes, ainsi que les "
 "réponses les mieux à même de balayer leurs hésitations."
 
-# | As a teacher, I've been trying hard to explain to the school's
-# | administrators the advantages that [-Open Source-] {+open source+}
-# | software can bring to our school, but they don't seem to be interested.
 #. type: Content of: <dl><dt>
-#| msgid ""
-#| "As a teacher, I've been trying hard to explain to the school's "
-#| "administrators the advantages that Open Source software can bring to our "
-#| "school, but they don't seem to be interested."
 msgid ""
 "As a teacher, I've been trying hard to explain to the school's "
 "administrators the advantages that open source software can bring to our "
@@ -118,21 +85,7 @@ msgstr ""
 "que les logiciels open source peuvent apporter à notre école, mais ils ne "
 "semblent pas intéressés."
 
-# | [-Open Source-]{+&ldquo;Open source&rdquo;+} refers only to the technical
-# | advantages of software. Schools may not be interested in that aspect since
-# | most probably technical requirements are already satisfied by the
-# | proprietary software in use. You need to talk to them in terms of Free
-# | Libre Software, not [-Open Source,-] {+&ldquo;open source&rdquo;,+} so
-# | that you can explain to them the philosophical and ethical reasons why
-# | educational institutions should reject proprietary software.
 #. type: Content of: <dl><dd><p>
-#| msgid ""
-#| "Open Source refers only to the technical advantages of software.  Schools "
-#| "may not be interested in that aspect since most probably technical "
-#| "requirements are already satisfied by the proprietary software in use. "
-#| "You need to talk to them in terms of Free Libre Software, not Open "
-#| "Source, so that you can explain to them the philosophical and ethical "
-#| "reasons why educational institutions should reject proprietary software."
 msgid ""
 "&ldquo;Open source&rdquo; refers only to the technical advantages of "
 "software. Schools may not be interested in that aspect since most probably "
@@ -151,14 +104,7 @@ msgstr ""
 "pouvoir leur expliquer les raisons philosophiques et éthiques pour "
 "lesquelles il faut que l'éducation rejette les logiciels privateurs."
 
-# | See the {+reasons+} <a [-href=\"/education/edu-why.html\">Reasons
-# | Why</a>-] {+href=\"/education/edu-why.html\">why+} educational
-# | institutions should use and teach exclusively Free [-Software.-]
-# | {+Software.</a>+}
 #. type: Content of: <dl><dd><p>
-#| msgid ""
-#| "See the <a href=\"/education/edu-why.html\">Reasons Why</a> educational "
-#| "institutions should use and teach exclusively Free Software."
 msgid ""
 "See the reasons <a href=\"/education/edu-why.html\">why educational "
 "institutions should use and teach exclusively Free Software.</a>"
@@ -214,18 +160,7 @@ msgstr ""
 "conformer au programme établi par le ministère de l'éducation, qui exige "
 "l'enseignement de plateformes et programmes privateurs."
 
-# | If you are literally forced to teach nonfree software, you should tell
-# | [-the-] {+your+} students that you consider this software unethical, that
-# | you are doing this only because you are being forced, and that you will do
-# | as little of it as possible so that you can move on to freedom-respecting
-# | software.
 #. type: Content of: <dl><dd><p>
-#| msgid ""
-#| "If you are literally forced to teach nonfree software, you should tell "
-#| "the students that you consider this software unethical, that you are "
-#| "doing this only because you are being forced, and that you will do as "
-#| "little of it as possible so that you can move on to freedom-respecting "
-#| "software."
 msgid ""
 "If you are literally forced to teach nonfree software, you should tell your "
 "students that you consider this software unethical, that you are doing this "
@@ -238,26 +173,7 @@ msgstr ""
 "vous en ferez le minimum afin de pouvoir passer à des logiciels respectant "
 "la liberté."
 
-# | We must not forget that schools have a great influence on society, so
-# | making our students aware of the advantages of Free Software is a way of
-# | putting pressure on decision makers. You can start by telling your
-# | students about Free Software and its ethical values, as they might never
-# | have heard of it. With your endorsement and support, this may lead to the
-# | formation of a [-Free-] {+<a
-# | href=\"http://libreplanet.org/wiki/Group_list\">Free+} Software [-Group-]
-# | {+Group</a>+} in your school. Then the group can make its voice heard by
-# | writing letters to the Ministry, holding events to promote Free Software,
-# | and other similar activities.
 #. type: Content of: <dl><dd><p>
-#| msgid ""
-#| "We must not forget that schools have a great influence on society, so "
-#| "making our students aware of the advantages of Free Software is a way of "
-#| "putting pressure on decision makers. You can start by telling your "
-#| "students about Free Software and its ethical values, as they might never "
-#| "have heard of it. With your endorsement and support, this may lead to the "
-#| "formation of a Free Software Group in your school. Then the group can "
-#| "make its voice heard by writing letters to the Ministry, holding events "
-#| "to promote Free Software, and other similar activities."
 msgid ""
 "We must not forget that schools have a great influence on society, so making "
 "our students aware of the advantages of Free Software is a way of putting "
@@ -280,16 +196,7 @@ msgstr ""
 "une lettre au ministère, en organisant des événements pour promouvoir le "
 "logiciel libre, et par d'autres activités similaires."
 
-# | When computer users will start demanding their rights, Governments will
-# | have to issue their laws accordingly. That is why political and social
-# | awareness [-are-] {+is a+} fundamental aspect[-s-] which cannot be left
-# | aside when talking about Free Software.
 #. type: Content of: <dl><dd><p>
-#| msgid ""
-#| "When computer users will start demanding their rights, Governments will "
-#| "have to issue their laws accordingly. That is why political and social "
-#| "awareness are fundamental aspects which cannot be left aside when talking "
-#| "about Free Software."
 msgid ""
 "When computer users will start demanding their rights, Governments will have "
 "to issue their laws accordingly. That is why political and social awareness "
