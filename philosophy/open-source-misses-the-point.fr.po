@@ -4,13 +4,13 @@
 # Mathieu Stumpf, 2008.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
 # Denis Barbier <bouzim AT gmail.com>, 2011.
-# Thérèse Godefroy <godef.th AT free.fr>, 2012.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: open-source-misses-the-point.html\n"
-"POT-Creation-Date: 2012-12-30 10:25-0500\n"
-"PO-Revision-Date: 2012-12-31 15:27+0100\n"
+"POT-Creation-Date: 2013-01-01 06:57-0500\n"
+"PO-Revision-Date: 2013-01-01 15:17+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -56,22 +56,30 @@ msgstr ""
 "free beer&rsquo;]</cite>.<a id=\"TransNote1-rev\" href="
 "\"#TransNote1\"><sup>1</sup></a>"
 
+# || No change detected.  The change might only be in amounts of spaces.
 #. type: Content of: <p>
+#| msgid ""
+#| "These freedoms are vitally important.  They are essential, not just for "
+#| "the individual users' sake, but for society as a whole because they "
+#| "promote social solidarity&mdash;that is, sharing and cooperation.  They "
+#| "become even more important as our culture and life activities are "
+#| "increasingly digitized.  In a world of digital sounds, images, and words, "
+#| "free software becomes increasingly essential for freedom in general."
 msgid ""
 "These freedoms are vitally important.  They are essential, not just for the "
 "individual users' sake, but for society as a whole because they promote "
 "social solidarity&mdash;that is, sharing and cooperation.  They become even "
 "more important as our culture and life activities are increasingly "
-"digitized.  In a world of digital sounds, images, and words, free software "
+"digitized. In a world of digital sounds, images, and words, free software "
 "becomes increasingly essential for freedom in general."
 msgstr ""
 "Ces libertés sont d'une importance vitale. Elles sont essentielles, pas "
-"juste pour les enjeux individuels des utilisateurs, mais parce qu'elles "
+"uniquement pour les enjeux individuels des utilisateurs, mais parce qu'elles "
 "promeuvent la solidarité sociale, que sont le partage et la coopération. "
-"Elles deviennent encore plus importantes à mesure que, de plus en plus, "
-"notre culture et nos activités quotidiennes sont numérisés. Dans un monde de "
-"sons, d'images et de mots numériques, le logiciel libre devient de plus en "
-"plus nécessaire pour la liberté en général."
+"Elles prennent encore plus d'importance à mesure que notre culture et nos "
+"activités quotidiennes se numérisent. Dans un monde de sons, d'images et de "
+"mots numériques, le logiciel libre devient de plus en plus nécessaire pour "
+"la liberté en général."
 
 #. type: Content of: <p>
 msgid ""
@@ -95,14 +103,24 @@ msgstr ""
 "\"TransNote2-rev\" href=\"#TransNote2\"><sup>2</sup></a> et attribués à une "
 "philosophie différente dans laquelle ces libertés sont à peine mentionnées."
 
+# || No change detected.  The change might only be in amounts of spaces.
 #. type: Content of: <p>
+#| msgid ""
+#| "The free software movement has campaigned for computer users' freedom "
+#| "since 1983.  In 1984 we launched the development of the free operating "
+#| "system GNU, so that we could avoid the nonfree operating systems that "
+#| "deny freedom to their users.  During the 1980s, we developed most of the "
+#| "essential components of the system and designed the <a href=\"/licenses/"
+#| "gpl.html\">GNU General Public License</a> (GNU GPL) to release them "
+#| "under&mdash;a license designed specifically to protect freedom for all "
+#| "users of a program."
 msgid ""
 "The free software movement has campaigned for computer users' freedom since "
 "1983.  In 1984 we launched the development of the free operating system GNU, "
 "so that we could avoid the nonfree operating systems that deny freedom to "
 "their users.  During the 1980s, we developed most of the essential "
 "components of the system and designed the <a href=\"/licenses/gpl.html\">GNU "
-"General Public License</a> (GNU GPL) to release them under&mdash;a license "
+"General Public License</a> (GNU GPL)  to release them under&mdash;a license "
 "designed specifically to protect freedom for all users of a program."
 msgstr ""
 "Le mouvement du logiciel libre fait campagne pour la liberté des "
@@ -303,7 +321,18 @@ msgid ""
 "Source&rdquo;"
 msgstr "Malentendus courants sur le « logiciel libre » et l'« open source »"
 
+# || No change detected.  The change might only be in amounts of spaces.
 #. type: Content of: <p>
+#| msgid ""
+#| "The term &ldquo;free software&rdquo; is prone to misinterpretation: an "
+#| "unintended meaning, &ldquo;software you can get for zero price,&rdquo; "
+#| "fits the term just as well as the intended meaning, &ldquo;software which "
+#| "gives the user certain freedoms.&rdquo; We address this problem by "
+#| "publishing the definition of free software, and by saying &ldquo;Think of "
+#| "&lsquo;free speech,&rsquo; not &lsquo;free beer.&rsquo;&rdquo; This is "
+#| "not a perfect solution; it cannot completely eliminate the problem.  An "
+#| "unambiguous and correct term would be better, if it didn't present other "
+#| "problems."
 msgid ""
 "The term &ldquo;free software&rdquo; is prone to misinterpretation: an "
 "unintended meaning, &ldquo;software you can get for zero price,&rdquo; fits "
@@ -311,7 +340,7 @@ msgid ""
 "the user certain freedoms.&rdquo; We address this problem by publishing the "
 "definition of free software, and by saying &ldquo;Think of &lsquo;free "
 "speech,&rsquo; not &lsquo;free beer.&rsquo;&rdquo; This is not a perfect "
-"solution; it cannot completely eliminate the problem.  An unambiguous and "
+"solution; it cannot completely eliminate the problem. An unambiguous and "
 "correct term would be better, if it didn't present other problems."
 msgstr ""
 "Le terme de <cite>free software</cite> souffre d'un problème de mauvaise "
@@ -377,7 +406,7 @@ msgstr ""
 "« logiciel open source »</a> (publiée par l'<cite>Open Source Initiative</"
 "cite>, et trop longue pour être citée ici) dérive indirectement de nos "
 "critères pour le logiciel libre. Ce n'est pas la même ; elle est un peu plus "
-"laxiste à certains égards. Néanmoins, leur définition est en accord avec la "
+"laxiste à certains égards. Néanmoins, cette définition est en accord avec la "
 "nôtre dans la plupart des cas."
 
 #. type: Content of: <p>
@@ -514,13 +543,13 @@ msgid ""
 "software licenses.  There are <a href=\"/licenses/license-list.html\"> many "
 "free software licenses</a> aside from the GNU GPL."
 msgstr ""
-"Un autre malentendu de l'open source est l'idée que cela signifie « ne pas "
-"utiliser la GNU GPL ». Cela tend à accompagner le malentendu de « logiciel "
-"libre » égale « logiciel couvert par la GPL ». Ce sont deux erreurs, puisque "
-"la GNU GPL répond aux critères de l'open source, et que la plupart des "
-"licences open source répondent aux critères du logiciel libre. Il y <a href="
-"\"/licenses/license-list.html\">de nombreuses licences de logiciel libre</a> "
-"à part la GNU GPL."
+"Autre malentendu de l'open source : l'idée que cela signifie « ne pas "
+"utiliser la GNU GPL » ; cette idée va souvent de pair avec la confusion "
+"entre « logiciel libre » et « logiciel sous GPL ». Ce sont deux erreurs, "
+"puisque la GNU GPL répond aux critères de l'open source et que la plupart "
+"des licences open source répondent aux critères du logiciel libre. Il y a <a "
+"href=\"/licenses/license-list.html\">de nombreuses licences de logiciel "
+"libre</a>, à part la GNU GPL."
 
 #. type: Content of: <p>
 msgid ""
@@ -883,23 +912,38 @@ msgstr ""
 "LWD010523vcontrol4\">Live and let license</a><a id=\"TransNote4-rev\" href="
 "\"#TransNote4\"><sup>4</sup></a> qui donne sa perspective sur cette question."
 
+# | Lakhani and Wolf's <a
+# | href=\"http://ocw.mit.edu/courses/sloan-school-of-management/15-352-managing-innovation-emerging-trends-spring-2005/readings/lakhaniwolf.pdf\">{+
+# | +}paper on the motivation of free software developers</a> says that a
+# | considerable fraction are motivated by the view that software should be
+# | free. This is despite the fact that they surveyed the developers on
+# | SourceForge, a site that does not support the view that this is an ethical
+# | issue.
 #. type: Content of: <p>
+#| msgid ""
+#| "Lakhani and Wolf's <a href=\"http://ocw.mit.edu/courses/sloan-school-of-"
+#| "management/15-352-managing-innovation-emerging-trends-spring-2005/"
+#| "readings/lakhaniwolf.pdf\">paper on the motivation of free software "
+#| "developers</a> says that a considerable fraction are motivated by the "
+#| "view that software should be free.  This is despite the fact that they "
+#| "surveyed the developers on SourceForge, a site that does not support the "
+#| "view that this is an ethical issue."
 msgid ""
 "Lakhani and Wolf's <a href=\"http://ocw.mit.edu/courses/sloan-school-of-"
 "management/15-352-managing-innovation-emerging-trends-spring-2005/readings/"
-"lakhaniwolf.pdf\">paper on the motivation of free software developers</a> "
+"lakhaniwolf.pdf\"> paper on the motivation of free software developers</a> "
 "says that a considerable fraction are motivated by the view that software "
-"should be free.  This is despite the fact that they surveyed the developers "
+"should be free. This is despite the fact that they surveyed the developers "
 "on SourceForge, a site that does not support the view that this is an "
 "ethical issue."
 msgstr ""
-"L'<a href=\"http://ocw.mit.edu/courses/sloan-school-of-management/15-352-"
-"managing-innovation-emerging-trends-spring-2005/readings/lakhaniwolf.pdf"
-"\">article sur la motivation des développeurs de logiciel libre</a> de "
-"Lakhani et Wolf dit qu'une fraction considérable d'entre eux est motivée par "
-"la notion que le logiciel doit être libre. Cela malgré le fait qu'ils ont "
-"fait leur enquête parmi les développeurs de SourceForge, un site qui ne "
-"soutient pas le point de vue selon lequel il s'agit d'une question d'éthique."
+"L'article de Lakhani et Wolf sur <a href=\"http://ocw.mit.edu/courses/sloan-"
+"school-of-management/15-352-managing-innovation-emerging-trends-spring-2005/"
+"readings/lakhaniwolf.pdf\">la motivation des développeurs de logiciel libre</"
+"a> dit qu'une fraction considérable d'entre eux est motivée par la notion "
+"que le logiciel doit être libre. Ceci malgré que l'enquête ait été faite "
+"parmi les développeurs de SourceForge, un site qui ne soutient pas le point "
+"de vue selon lequel il s'agit d'une question d'éthique."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
@@ -922,28 +966,63 @@ msgstr ""
 "« Vivre et laisser vivre ». Ce titre est quelquefois traduit par « Croissez "
 "et faites des licences ». <a href=\"#TransNote4-rev\">&#8593;</a></li></ol>"
 
+# || No change detected.  The change might only be in amounts of spaces.
 #. type: Content of: <div><p>
+#| msgid ""
+#| "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu."
+#| "org\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/"
+#| "\">other ways to contact</a> the FSF.  Broken links and other corrections "
+#| "or suggestions can be sent to <a href=\"mailto:webmasters@gnu.org\">&lt;"
+#| "webmasters@gnu.org&gt;</a>."
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
-"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF."
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF.  Broken links and other corrections or suggestions "
+"can be sent to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF."
+"\">d'autres moyens de contacter</a> la FSF. Les liens orphelins et autres "
+"corrections ou suggestions peuvent être signalés à <a href=\"mailto:"
+"webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
+# || No change detected.  The change might only be in amounts of spaces.
+#.  TRANSLATORS: Ignore the original text in this paragraph,
+#.         replace it with the translation of these two:
+#.         We work hard and do our best to provide accurate, good quality
+#.         translations.  However, we are not exempt from imperfection.
+#.         Please send your comments and general suggestions in this regard
+#.         to <a href="mailto:web-translators@gnu.org">
+#.         &lt;web-translators@gnu.org&gt;</a>.</p>
+#.         <p>For information on coordinating and submitting translations of
+#.         our web pages, see <a
+#.         href="/server/standards/README.translations.html">Translations
+#.         README</a>. 
 #. type: Content of: <div><p>
+#| msgid ""
+#| "Please see the <a href=\"/server/standards/README.translations.html"
+#| "\">Translations README</a> for information on coordinating and submitting "
+#| "translations of this article."
 msgid ""
-"Please send broken links and other corrections or suggestions to <a href="
-"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+"Please see the <a href=\"/server/standards/README.translations.html"
+"\">Translations README</a> for information on coordinating and submitting "
+"translations of this article."
 msgstr ""
-"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
+"Nous faisons le maximum pour proposer des traductions fidèles et de bonne "
+"qualité, mais nous ne sommes pas parfaits. Merci d'adresser vos commentaires "
+"sur cette page, ainsi que vos suggestions d'ordre général sur les "
+"traductions, à <a href=\"mailto:web-translators@gnu.org\"> &lt;web-"
+"translators@gnu.org&gt;</a>.</p>\n"
+"<p>Pour tout renseignement sur la coordination et la soumission des "
+"traductions de nos pages web, reportez-vous au <a href=\"/server/standards/"
+"README.translations.html\">guide de traduction</a>."
 
+# | Copyright &copy; 2007, [-2010-] {+2010, 2012+} Richard Stallman
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2007, 2010 Richard Stallman"
-msgstr "Copyright &copy; 2007, 2010 Richard Stallman"
+#| msgid "Copyright &copy; 2007, 2010 Richard Stallman"
+msgid "Copyright &copy; 2007, 2010, 2012 Richard Stallman"
+msgstr "Copyright &copy; 2007, 2010, 2012 Richard Stallman"
 
 #. type: Content of: <div><p>
 msgid ""
@@ -966,3 +1045,20 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid ""
+#~ "Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
+#~ "gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
+#~ "contact</a> the FSF."
+#~ msgstr ""
+#~ "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+#~ "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
+#~ "\">d'autres moyens de contacter</a> la FSF."
+
+#~ msgid ""
+#~ "Please send broken links and other corrections or suggestions to <a href="
+#~ "\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+#~ msgstr ""
+#~ "Veuillez indiquer (en anglais) les liens orphelins et autres corrections "
+#~ "ou suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+#~ "org&gt;</a>."
