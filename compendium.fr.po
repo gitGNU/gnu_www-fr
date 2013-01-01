@@ -1,23 +1,21 @@
 # French translation of http://www.gnu.org/provide.html
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the provide.html page.
-# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2012.
+# Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: provide.html\n"
 "POT-Creation-Date: 2010-11-22 12:25-0500\n"
-"PO-Revision-Date: 2012-03-20 18:22+0100\n"
-"Last-Translator: Cédric Corazza <cedric.corazza AT wanadoo.fr>\n"
+"PO-Revision-Date: 2013-01-01 17:26+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#. type: Content of: <div><p>
-msgid "</a>"
-msgstr "</a>"
+"X-Generator: Gtranslator 2.91.5\n"
 
 #. type: Content of: <div><p>
 msgid ""
@@ -44,9 +42,14 @@ msgid ""
 "\">Translations README</a> for information on coordinating and submitting "
 "translations of this article."
 msgstr ""
-"Veuillez consulter le <a href=\"/server/standards/README.translations.html"
-"\">README des traductions</a> pour des informations sur la coordination et "
-"la soumission de traductions de cet article."
+"Nous faisons le maximum pour proposer des traductions fidèles et de bonne "
+"qualité, mais nous ne sommes pas parfaits. Merci d'adresser vos commentaires "
+"sur cette page, ainsi que vos suggestions d'ordre général sur les "
+"traductions, à <a href=\"mailto:web-translators@gnu.org\"> &lt;web-"
+"translators@gnu.org&gt;</a>.</p>\n"
+"<p>Pour tout renseignement sur la coordination et la soumission des "
+"traductions de nos pages web, reportez-vous au <a href=\"/server/standards/"
+"README.translations.html\">guide de traduction</a>."
 
 #.  timestamp start 
 #. type: Content of: <div><p>
@@ -86,6 +89,10 @@ msgstr ""
 "suggestions à <a href=\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</"
 "em></a>."
 
+#. type: Content of: <ul><li>
+msgid "Paul Eggert"
+msgstr "Paul Eggert"
+
 #. type: Content of: <div><address>
 msgid "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
 msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA"
@@ -99,6 +106,28 @@ msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
 "\">d'autres moyens de contacter</a> la FSF."
+
+#. type: Content of: <table><tr><td>
+msgid "</a>"
+msgstr "</a>"
+
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 2011, 2012 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2011, 2012 Free Software Foundation, Inc."
+
+#. type: Content of: <div><p>
+msgid ""
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF.  Broken links and other corrections or suggestions "
+"can be sent to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. Les liens orphelins et autres "
+"corrections ou suggestions peuvent être signalés à <a href=\"mailto:"
+"webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
 #. type: Content of: <div><ul><li>
 msgid "<a href=\"/education/edu-contents.html\">Education Contents</a>"
@@ -221,3 +250,23 @@ msgstr "Ce dessin est disponible aux formats suivants :"
 #. type: Content of: <div><p>
 msgid "Copyright notice above."
 msgstr "Voir ci-dessus la notice de copyright."
+
+#. type: Content of: <p>
+msgid "Krishna Kunchithapadam"
+msgstr ""
+
+#. type: Content of: <p>
+msgid "Terence O'Gorman"
+msgstr ""
+
+#
+#
+#
+#~ msgid ""
+#~ "For information on coordinating and submitting translations of this "
+#~ "article, see <a href=\"/server/standards/README.translations.html"
+#~ "\">Translations README</a>."
+#~ msgstr ""
+#~ "Veuillez consulter le <a href=\"/server/standards/README.translations.html"
+#~ "\">README des traductions</a> pour toute information sur la coordination "
+#~ "et la soumission de traductions de cet article."
