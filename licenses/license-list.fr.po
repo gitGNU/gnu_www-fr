@@ -17,7 +17,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-12-31 15:27-0500\n"
 "Plural-Forms:  \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
@@ -4310,20 +4309,7 @@ msgstr ""
 "Database license</a> <span class=\"anchor-reference-id\"> (<a href=\"#ODbl"
 "\">#ODbl</a>)</span>"
 
-# | This is a free and copyleft license meant for [-general-] data.  {+It is
-# | incompatible with the GNU GPL.+} Please don't use it for software or
-# | documentation, since it is incompatible with the GNU GPL and with the GNU
-# | [-FDL;-] {+FDL. It makes inconvenient requirements about signing contracts
-# | which try to create an effect like copyleft for data that is not
-# | copyrightable, so we don't recommend using it;+} however, [-it-] {+there+}
-# | is [-fine-] {+no reason+} to [-use for other kinds of data.-] {+avoid
-# | using data released this way.+}
 #. type: Content of: <dl><dd><p>
-#| msgid ""
-#| "This is a free and copyleft license meant for general data.  Please don't "
-#| "use it for software or documentation, since it is incompatible with the "
-#| "GNU GPL and with the GNU FDL; however, it is fine to use for other kinds "
-#| "of data."
 msgid ""
 "This is a free and copyleft license meant for data.  It is incompatible with "
 "the GNU GPL. Please don't use it for software or documentation, since it is "

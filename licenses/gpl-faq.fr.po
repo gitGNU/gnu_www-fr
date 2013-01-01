@@ -16,7 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2012-12-31 23:55-0500\n"
 "Plural-Forms:  \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
@@ -3454,17 +3453,7 @@ msgid "You always have the legal alternative of not using our code."
 msgstr ""
 "Vous disposez toujours de l'alternative légale de ne pas utiliser notre code."
 
-# | [-What should I do if I discover-]{+Does distributing+} a [-possible
-# | violation of-] {+nonfree driver meant to link with the kernel Linux
-# | violate+} the GPL? <span class=\"anchor-reference-id\">(<a
-# | [-href=\"#ReportingViolation\" >#ReportingViolation</a>)</span>-]
-# | {+href=\"#NonfreeDriverKernelLinux\">#NonfreeDriverKernelLinux</a>)</span>+
-# | }
 #. type: Content of: <dl><dt>
-#| msgid ""
-#| "What should I do if I discover a possible violation of the GPL? <span "
-#| "class=\"anchor-reference-id\">(<a href=\"#ReportingViolation\" "
-#| ">#ReportingViolation</a>)</span>"
 msgid ""
 "Does distributing a nonfree driver meant to link with the kernel Linux "
 "violate the GPL? <span class=\"anchor-reference-id\">(<a href="
