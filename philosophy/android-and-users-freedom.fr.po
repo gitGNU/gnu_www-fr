@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: android-and-users-freedom.html\n"
-"POT-Creation-Date: 2013-01-03 12:26-0500\n"
-"PO-Revision-Date: 2013-01-04 13:50+0100\n"
+"POT-Creation-Date: 2013-01-03 15:55-0500\n"
+"PO-Revision-Date: 2013-01-04 18:22+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -399,6 +399,43 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
+"Unfortunately, in this case it would be a malicious circuit.  Malicious "
+"features are unacceptable no matter how they are implemented."
+msgstr ""
+"Malheureusement, dans ce cas ce serait un circuit malveillant. Les fonctions "
+"malveillantes sont inacceptables, quelle que soit la manière dont elles sont "
+"implémentées."
+
+#. type: Content of: <p>
+# | On most Android phones, this firmware has so much control that it could
+# | turn the product into a listening device. On some, it controls the
+# | microphone. On some, it can take full control of the main computer,
+# | through shared memory, and can thus override or replace whatever free
+# | software you have installed. With some models it is possible to exercise
+# | remote control of this firmware, and thus of the phone's computer, through
+# | the phone radio network. The point of free software is that we have
+# | control of our computing, and this doesn't qualify. While any computing
+# | system might [-HAVE-] {+<em>have</em>+} bugs, these devices [-might BE-]
+# | {+can <em>be</em>+} bugs. (Craig Murray, in <a
+# | href=\"http://www.guardian.co.uk/books/2006/aug/12/politics\">Murder in
+# | Samarkand</a>, relates his involvement in an intelligence operation that
+# | remotely converted an unsuspecting target's non-Android portable phone
+# | into a listening device.)
+#| msgid ""
+#| "On most Android phones, this firmware has so much control that it could "
+#| "turn the product into a listening device. On some, it controls the "
+#| "microphone. On some, it can take full control of the main computer, "
+#| "through shared memory, and can thus override or replace whatever free "
+#| "software you have installed. With some models it is possible to exercise "
+#| "remote control of this firmware, and thus of the phone's computer, "
+#| "through the phone radio network. The point of free software is that we "
+#| "have control of our computing, and this doesn't qualify. While any "
+#| "computing system might HAVE bugs, these devices might BE bugs. (Craig "
+#| "Murray, in <a href=\"http://www.guardian.co.uk/books/2006/aug/12/politics"
+#| "\">Murder in Samarkand</a>, relates his involvement in an intelligence "
+#| "operation that remotely converted an unsuspecting target's non-Android "
+#| "portable phone into a listening device.)"
+msgid ""
 "On most Android phones, this firmware has so much control that it could turn "
 "the product into a listening device. On some, it controls the microphone. On "
 "some, it can take full control of the main computer, through shared memory, "
@@ -406,11 +443,11 @@ msgid ""
 "With some models it is possible to exercise remote control of this firmware, "
 "and thus of the phone's computer, through the phone radio network. The point "
 "of free software is that we have control of our computing, and this doesn't "
-"qualify. While any computing system might HAVE bugs, these devices might BE "
-"bugs. (Craig Murray, in <a href=\"http://www.guardian.co.uk/books/2006/"
-"aug/12/politics\">Murder in Samarkand</a>, relates his involvement in an "
-"intelligence operation that remotely converted an unsuspecting target's non-"
-"Android portable phone into a listening device.)"
+"qualify. While any computing system might <em>have</em> bugs, these devices "
+"can <em>be</em> bugs. (Craig Murray, in <a href=\"http://www.guardian.co.uk/"
+"books/2006/aug/12/politics\">Murder in Samarkand</a>, relates his "
+"involvement in an intelligence operation that remotely converted an "
+"unsuspecting target's non-Android portable phone into a listening device.)"
 msgstr ""
 "Sur la plupart des téléphones Android, ce micrologiciel a tellement de "
 "contrôle qu'il pourrait transformer le produit en un appareil d'écoute. Sur "
@@ -421,8 +458,8 @@ msgstr ""
 "le téléphone tout entier, à travers le logiciel permettant l'accès au "
 "réseau. Le principe du logiciel libre, c'est d'avoir le contrôle sur la "
 "machine, et cet appareil en l'occurrence ne remplit pas cette mission. Bien "
-"que n'importe quel système informatique puisse AVOIR des bogues, ces "
-"appareils peuvent ÊTRE des bogues (Craig Murray, dans <a href=\"http://www."
+"que n'importe quel système informatique puisse <em>avoir</em> des bogues, ces "
+"appareils peuvent <em>être</em> des bogues (Craig Murray, dans <a href=\"http://www."
 "guardian.co.uk/books/2006/aug/12/politics\">Meurtre à Samarcande</a> [en], "
 "fait le récit de son rôle dans une opération de renseignement qui convertit "
 "le téléphone portable non Android d'une cible qui se doute de rien, en un "
