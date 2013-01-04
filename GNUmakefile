@@ -112,8 +112,8 @@ endif
 translations := $(shell find . -name '*.$(TEAM).po' | sort)
 log := "Automatic merge from the master repository."
 # Warning message for the `publish' rule.
-pubwmsg := "Warning (%s): %s\n  does not exist; (either obsolete or \`cvs\
-update\' in $(wwwdir) needed).\n"
+pubwmsg := "Warning (%s): \`%s\' does not exist\
+\n    (either obsolete or \`cvsupdate\' in $(wwwdir) needed).\n"
 
 # Determine the VCS.
 REPO := $(shell (test -d CVS && echo CVS) || (test -d .svn && echo SVN) \
@@ -211,21 +211,29 @@ else ifeq ($(REPO),Arch)
 endif
 endif
 
+# The command to compare PO files; comments and dates are generally
+# considered insignificant.  The msgfmt output is compared
+# in order to take into account the case when they only differ
+# by the `fuzzy' flags (present in one file, cleared in the other).
 define cmp-POs
 diff -q -I "^$$" -I "^#" -I '^"POT-Creation-Date:' \
-  -I '^"PO-Revision-Date:' -I '^"Outdated-Since:' &>/dev/null
+  -I '^"PO-Revision-Date:' -I '^"Outdated-Since:' &>/dev/null $1 $2 \
+  && test "x`$(MSGFMT) -o /dev/null --statistics $1 2>&1`" \
+     = "x`$(MSGFMT) -o /dev/null --statistics $2 2>&1`"
 endef
 
 define sync-file
 .PNONY: sync-$(1)
 sync-$(1):
-	@file=$(1); if [ ! -f $(wwwdir)`dirname $1`/po/`basename \
-	    $$$${file/.$(TEAM).po/.pot}` ]; then \
+	@file=$(1); \
+	  pot=$(wwwdir)`dirname $1`/po/`basename $$$${file%.$(TEAM).po}.pot`; \
+	  test -f $$$$pot || pot=$$$$pot.opt; \
+	  if test ! -f $$$$pot; then \
 	    echo "Warning: $$$${file#./} has no equivalent .pot in www."; \
 	  else \
 	    www_po=$(wwwdir)`dirname $1`/po/`basename $1`; \
 	    if test -f $$$${www_po}; then \
-	      $$(cmp-POs) $1 $$$${www_po} \
+	      $$(call cmp-POs,$1,$$$${www_po}) \
 	        && echo "$$$${file#./}: Already in sync." \
 	        || { \
 		     echo -n "$$$${file#./}: Merging"; \
@@ -236,13 +244,13 @@ sync-$(1):
 			$(1)-tmp.www.po $(1)-tmp.po 2>&1 \
 		     | $(MSGCAT) --use-first --less-than=2 -o $(1) - $(1); \
 		     $(MSGMERGE) $(MSGMERGEFLAGS) $(MSGMERGEVERBOSE) -C $$$${www_po} \
-		       --update $1 $$$${www_po%.$(TEAM).po}.pot 2>&1; \
+		       --update $1 $$$$pot 2>&1; \
 		     $(RM) $(1)-tmp.www.po $(1)-tmp.po; \
 		   } \
 	    else \
 	      echo -n "$$$${file#./}: Merging new translation"; \
 	      $(MSGMERGE) $(MSGMERGEFLAGS) $(MSGMERGEVERBOSE) \
-	         --update $1 $$$${www_po%.$(TEAM).po}.pot 2>&1; \
+	         --update $1 $$$$pot 2>&1; \
 	    fi; \
 	    $(if $(ADD_FUZZY_DIFF), $(ADD_FUZZY_DIFF) $1 > $1.tmp \
 		 && cmp -s $1 $1.tmp || cp $1.tmp $1; $(RM) $1.tmp;) \
@@ -294,15 +302,15 @@ articles-pot := $(addprefix $(wwwdir),$(articles:%=%.pot))
 root-articles := $(foreach root-article,$(ROOT), \
 		   $(addprefix $(wwwdir)po/,$(root-article)))
 root-articles-pot := $(root-articles:%=%.pot)
-pots := $(articles-pot) $(root-articles-pot)
+pots := $(articles-pot) $(root-articles-pot) $(template-pots)
 endif # ! eq (,$(ALL_DIRS))
 
 # Team's translations that lack PO file.
 html-only := $(shell echo $(pots) | sed 's/ /\n/g' \
   | while read pot; do \
-      po=$${pot%pot}$(TEAM).po; \
+      po=$${pot%.opt}; po=$${po%pot}$(TEAM).po; \
       team_po=`echo $$po | sed 's,/po/,/,; s,^$(wwwdir),./,'`; \
-      html=$${pot%pot}$(TEAM).html; html=$${html/\/po\//\/}; \
+      html=$${po%po}html; html=$${html/\/po\//\/}; \
       if ! test -f $$po && ! test -f $$team_po && test -f $$html; then \
         echo $${team_po}; \
       fi; \
@@ -312,9 +320,9 @@ $(eval $(call sorted-files,html,${html-only}))
 # Team's translations that lack PO file.
 www-only := $(shell echo $(pots) | sed 's/ /\n/g' \
   | while read pot; do \
-      po=$${pot%pot}$(TEAM).po; \
+      po=$${pot%.opt}; po=$${po%pot}$(TEAM).po; \
       team_po=`echo $$po | sed 's,/po/,/,; s,^$(wwwdir),./,'`; \
-      html=$${pot%pot}$(TEAM).html; html=$${html/\/po\//\/}; \
+      html=$${po%po}html; html=$${html/\/po\//\/}; \
       if test -f $$po && ! test -f $$team_po; then \
         echo $${team_po}; \
       fi; \
@@ -333,12 +341,13 @@ define report-pos
         echo "$${file#./}:" $$statistics; \
       fi; \
       www_po=$(wwwdir)`dirname $$file`/po/`basename $$file`; \
-      if ! test -f $${www_po%.$(TEAM).po}.pot; then \
+      pot=$${www_po%.$(TEAM).po}.pot; test -f $$pot || pot=$$pot.opt; \
+      if ! test -f $$pot; then \
         echo "$${file#./}: no POT in \`www'."; \
 	continue; \
       fi; \
       if test -f $$www_po; then \
-	if $(cmp-POs) $$www_po $$file; then \
+	if $(call cmp-POs,$$www_po,$$file); then \
 	  $(RM) $$file-diff.html; \
 	else \
           www_statistics=`LC_ALL=C $(MSGFMT) --statistics -o /dev/null \
@@ -347,11 +356,11 @@ define report-pos
           case "@$$www_statistics@$$statistics@" in \
 	    @?*@@ $(paren) \
 	       echo \
-	"$${file#./}: the team version seems ready to post."; \
+"$${file#./}: the team version seems ready to post."; \
 	       ;; \
 	    * $(paren) \
 	       echo \
-	"$${file#./}: www and team revisions are not consistent."; \
+"$${file#./}: \`www' and \`www-$(TEAM)' revisions are not consistent."; \
 	       ;; \
           esac; \
 	  $(if $(DIFF_PO), $(DIFF_PO) \
@@ -421,17 +430,16 @@ define publish-file
 .PNONY: publish-$(1)
 publish-$(1):
 	@file=$(1); wwwfdir=$(wwwdir)`dirname $$$$file`/po; \
-	  wwwfpot=$$$${wwwfdir}/`basename $$$${file/.$(TEAM).po/.pot}`; \
+	  pot=$$$${wwwfdir}/`basename $$$${file/.$(TEAM).po/.pot}.opt`; \
+	  test -f $$$$pot || pot=$$$${pot%.opt}; \
 	  wwwfile=$$$${wwwfdir}/`basename $$$$file`; \
 	  if [ ! -d $$$$wwwfdir ]; then \
-	    printf $(pubwmsg) "$$$${file#./}" \
-"skipped (no $$$$wwwfdir directory)"; \
-	    continue; \
+	    printf $(pubwmsg) "$$$${file#./}" "$$$$wwwfdir/"; \
+	    exit 0; \
 	  fi; \
-	  if [ ! -f $$$$wwwfpot ]; then \
-	    printf $(pubwmsg) "$$$${file#./}" \
-"template $$$$wwwfpot skipped (no such file)"; \
-	    continue; \
+	  if [ ! -f $$$$pot ]; then \
+	    printf $(pubwmsg) "$$$${file#./}" "$$$$pot"; \
+	    exit 0; \
 	  fi; \
 	  if [ $$$$file -nt $$$$wwwfile ]; then \
 	    cp $$$$file $$$$wwwfile && echo "  $$$${file#./} published."; \
@@ -542,8 +550,9 @@ $(1).note: $(1).note.tmp
 # when $(1).note is updated (that is, the timestamp is absent)
 # or when the period has passed.  When sending, update
 # the timestamp in $(1).note.
-# URLs of the PO files to the report are added for convenience because
-# the notification is emailed.
+# The URLs of are added to the report for convenience because
+# the notification is emailed (they would be pointless if it were
+# displayed locally, therefore the files were readily available).
 inform-$(1): $(1).note
 ifneq (,$(HAVE-EMAIL-ALIASES))
 	@$(parse-email-aliases); \
@@ -553,13 +562,22 @@ ifneq (,$(HAVE-EMAIL-ALIASES))
   test "x$$$$email" != x \
     || { echo "Note: no email for \`$1' found in email-aliases."; exit 0; }; \
   period=$$$$(($$$$period*24*3600)); notify=yes; \
-  timestamp=`head -n1 $(1).note | grep '^#'`; \
-  if test "x$$$$timestamp" != x; then \
-    if test $$$$((`date +%s` - $$$${timestamp#?})) -lt $$$$period; then \
-      notify=no; \
-    fi; \
-  fi; \
-  grep -q : $(1).note &>/dev/null || notify=no; \
+  case ",$$$$flags," in \
+    *,force,* ) ;; \
+    * ) \
+      grep -q : $(1).note &>/dev/null || notify=no; \
+      ;; \
+  esac; \
+  case $$$$notify in \
+    yes ) \
+      timestamp=`head -n1 $(1).note | grep '^#'`; \
+      if test "x$$$$timestamp" != x; then \
+        if test $$$$((`date +%s` - $$$${timestamp#?})) -lt $$$$period; then \
+          notify=no; \
+        fi; \
+      fi; \
+      ;; \
+  esac; \
   if test $$$$notify = yes; then \
     echo "Sending notification for \`$1' ($$$$email)..."; \
     case ",$$$$flags," in \
