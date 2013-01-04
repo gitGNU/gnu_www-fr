@@ -2,19 +2,20 @@
 # Copyright (C) 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the android-and-users-freedom.html page.
 # Sylvain LE MENN <sylvain.lemenn@gmail.com>, 2011.
-# Thérèse Godefroy <godef.th AT free.fr>, 2011, 2012.
+# Thérèse Godefroy <godef.th AT free.fr>, 2011, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: android-and-users-freedom.html\n"
-"POT-Creation-Date: 2012-12-29 17:27-0500\n"
-"PO-Revision-Date: 2012-12-29 23:37+0100\n"
+"POT-Creation-Date: 2013-01-03 12:26-0500\n"
+"PO-Revision-Date: 2013-01-04 13:50+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Outdated-Since: 2013-01-03 11:55-0500\n"
 "Plural-Forms:  \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
@@ -234,20 +235,33 @@ msgstr ""
 "Maps. Celles-ci ne font pas officiellement partie d'Android, mais cela n'en "
 "fait pas un bon produit pour autant."
 
+# | Most Android devices come with the nonfree [-Android Market software.-]
+# | {+Google Play software (formerly &ldquo;Android Market&rdquo;).+}  This
+# | software invites users with a Google account to install nonfree apps.  It
+# | also has a back door with which Google can forcibly install or deinstall
+# | apps.  This is officially not part of Android, but that doesn't make it
+# | any less bad.
 #. type: Content of: <p>
+#| msgid ""
+#| "Most Android devices come with the nonfree Android Market software.  This "
+#| "software invites users with a Google account to install nonfree apps.  It "
+#| "also has a back door with which Google can forcibly install or deinstall "
+#| "apps.  This is officially not part of Android, but that doesn't make it "
+#| "any less bad."
 msgid ""
-"Most Android devices come with the nonfree Android Market software.  This "
-"software invites users with a Google account to install nonfree apps.  It "
-"also has a back door with which Google can forcibly install or deinstall "
-"apps.  This is officially not part of Android, but that doesn't make it any "
-"less bad."
+"Most Android devices come with the nonfree Google Play software (formerly "
+"&ldquo;Android Market&rdquo;).  This software invites users with a Google "
+"account to install nonfree apps.  It also has a back door with which Google "
+"can forcibly install or deinstall apps.  This is officially not part of "
+"Android, but that doesn't make it any less bad."
 msgstr ""
 "La plupart des appareils Android comportent le logiciel non libre "
-"<cite>Android Market</cite>. Ce dernier invite les utilisateurs qui ont un "
-"compte chez Google à installer des applications non libres. De plus, il a "
-"une porte dérobée <cite>[backdoor]</cite> par laquelle Google peut, "
-"d'autorité, installer ou désinstaller des applications. Cela ne fait pas "
-"officiellement partie d'Android mais ce n'en est pas moins mauvais."
+"<cite>Google Play</cite> (ex-<cite>Android Market</cite>). Ce dernier invite "
+"les utilisateurs qui ont un compte chez Google à installer des applications "
+"non libres. De plus, il a une porte dérobée <cite>[backdoor]</cite> par "
+"laquelle Google peut, d'autorité, installer ou désinstaller des "
+"applications. Cela ne fait pas officiellement partie d'Android mais ce n'en "
+"est pas moins mauvais."
 
 #. type: Content of: <p>
 msgid ""
@@ -299,20 +313,35 @@ msgstr ""
 "remplacé beaucoup de bibliothèques, et peut fonctionner sans les "
 "applications non libres. Mais il y a d'autres problèmes."
 
+# | Some device models are {+&ldquo;tyrants&rdquo;: they are+} designed [-to
+# | stop-] {+so+} users [-from installing-] {+cannot install+} and [-using-]
+# | {+run their own+} modified [-software.-] {+software, only the versions
+# | approved by some company.+} In that situation, the executables are not
+# | free even if they were made from sources that are free and available to
+# | you. However, some Android devices can be &ldquo;rooted&rdquo; so users
+# | can install different software.
 #. type: Content of: <p>
+#| msgid ""
+#| "Some device models are designed to stop users from installing and using "
+#| "modified software. In that situation, the executables are not free even "
+#| "if they were made from sources that are free and available to you. "
+#| "However, some Android devices can be &ldquo;rooted&rdquo; so users can "
+#| "install different software."
 msgid ""
-"Some device models are designed to stop users from installing and using "
-"modified software. In that situation, the executables are not free even if "
-"they were made from sources that are free and available to you. However, "
-"some Android devices can be &ldquo;rooted&rdquo; so users can install "
-"different software."
+"Some device models are &ldquo;tyrants&rdquo;: they are designed so users "
+"cannot install and run their own modified software, only the versions "
+"approved by some company. In that situation, the executables are not free "
+"even if they were made from sources that are free and available to you. "
+"However, some Android devices can be &ldquo;rooted&rdquo; so users can "
+"install different software."
 msgstr ""
-"Certains modèles sont conçus pour empêcher leur propriétaire d'installer des "
-"logiciels et d'utiliser des logiciels modifiés. Dans ces conditions, les "
-"exécutables ne sont pas libres, même s'ils sont faits à partir d'une source "
-"libre dont chacun peut disposer. Cependant, certains appareils Android "
-"peuvent être <cite>rootés</cite>, ce qui permet aux utilisateurs d'y "
-"installer d'autres logiciels."
+"Certains modèles sont des « tyrans » conçus pour que leur propriétaire ne "
+"puisse pas installer et utiliser ses propres logiciels modifiés, mais "
+"seulement les versions approuvées par une société particulière. Dans ces "
+"conditions les exécutables ne sont pas libres, même s'ils sont faits à "
+"partir d'une source libre dont chacun peut disposer. Cependant, certains "
+"appareils Android peuvent être <cite>rootés</cite>, ce qui permet aux "
+"utilisateurs d'y installer des logiciels différents."
 
 #. type: Content of: <p>
 msgid ""
@@ -326,25 +355,38 @@ msgstr ""
 "id=\"TransNote1-rev\" href=\"#TransNote1\"><sup>1</sup></a> également. Ils "
 "gèrent l'accès au réseau téléphonique hertzien, le wifi, le bluetooth, le "
 "GPS, l'accélération 3D, l'appareil photo, les hauts-parleurs, et dans "
-"certains cas aussi le microphone. Sur certains modèles quelques-uns de ces "
-"pilotes sont libres, et pour d'autres on peut s'en passer, mais le "
-"microphone et l'accès au réseau sont plutôt indispensables."
+"certains cas aussi le microphone. Sur certains modèles, quelques-uns de ces "
+"pilotes sont libres et d'autres ne sont pas indispensables, mais on ne peut "
+"pas se passer du microphone et de l'accès au réseau."
 
+# | The phone network firmware comes preinstalled. If all it did was sit there
+# | and [-run,-] {+talk to the phone network when you wish,+} we could regard
+# | it as equivalent to a circuit. When we insist that the software in a
+# | computing device must be free, we can overlook preinstalled firmware that
+# | will never be upgraded, because it makes no difference to the user that
+# | it's a program rather than a circuit.
 #. type: Content of: <p>
+#| msgid ""
+#| "The phone network firmware comes preinstalled. If all it did was sit "
+#| "there and run, we could regard it as equivalent to a circuit. When we "
+#| "insist that the software in a computing device must be free, we can "
+#| "overlook preinstalled firmware that will never be upgraded, because it "
+#| "makes no difference to the user that it's a program rather than a circuit."
 msgid ""
 "The phone network firmware comes preinstalled. If all it did was sit there "
-"and run, we could regard it as equivalent to a circuit. When we insist that "
-"the software in a computing device must be free, we can overlook "
-"preinstalled firmware that will never be upgraded, because it makes no "
-"difference to the user that it's a program rather than a circuit."
+"and talk to the phone network when you wish, we could regard it as "
+"equivalent to a circuit. When we insist that the software in a computing "
+"device must be free, we can overlook preinstalled firmware that will never "
+"be upgraded, because it makes no difference to the user that it's a program "
+"rather than a circuit."
 msgstr ""
 "Le micrologiciel qui gère l'accès au réseau est préinstallé. Si tout ce que "
-"le programme se contentait de faire était de tourner dans son coin, on "
-"pourrait le considérer comme un simple circuit. Quand on insiste sur le fait "
-"qu'un logiciel dans un ordinateur doit être libre, on peut passer sur un "
-"micrologiciel préinstallé qui ne sera jamais mis à jour, car cela ne fait "
-"pas de différence pour l'utilisateur que ce soit un programme plutôt qu'un "
-"circuit."
+"le programme se contentait de faire était de communiquer avec le réseau "
+"quand vous le souhaitez, on pourrait le considérer comme un simple circuit. "
+"Quand nous insistons sur le fait que les logiciels de tout système "
+"informatique doivent être libres, nous pouvons passer sur un micrologiciel "
+"préinstallé qui ne sera jamais mis à jour, car cela ne fait pas de "
+"différence pour l'utilisateur que ce soit un programme plutôt qu'un circuit."
 
 #. type: Content of: <p>
 msgid ""
