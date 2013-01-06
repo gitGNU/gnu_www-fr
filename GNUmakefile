@@ -109,7 +109,11 @@ else
 MAIL_TAIL :=
 endif
 
-translations := $(shell find . -name '*.$(TEAM).po' | sort)
+translations := $(shell find . -name '*.$(TEAM).po' \
+                             ! -path ./server/gnun/\* | sort)
+# Master compendium (if present)
+master := $(wildcard $(wwwdir)server/gnun/compendia/master.$(TEAM).po)
+
 log := "Automatic merge from the master repository."
 # Warning message for the `publish' rule.
 pubwmsg := "Warning (%s): \`%s\' does not exist\
@@ -222,6 +226,32 @@ diff -q -I "^$$" -I "^#" -I '^"POT-Creation-Date:' \
      = "x`$(MSGFMT) -o /dev/null --statistics $2 2>&1`"
 endef
 
+# Merge a file.
+# When the master compendium is present, its translations override
+# the translations from the PO file.
+# $(1) is the PO file to merge; $$$$pot is its POT.
+define merge-file
+$(if $(master), \
+  po0=$1; \
+  $(MSGCAT) --more-than=1 --use-first $1 $(master) > $1-tmp0.po; \
+  if test -s $1-tmp0.po; then \
+    $(MSGCAT) --less-than=2 --use-first $1 $1-tmp0.po > $1-tmp1.po; \
+  fi; \
+  if test -s $1-tmp1.po; then  po0=$1-tmp1.po; fi; \
+  $(MSGMERGE) --previous $(MSGMERGEVERBOSE) -C $(master) \
+    -o $1 $$$$po0 $$$$pot 2>&1; \
+  $(RM) $1-tmp0.po $1-tmp1.po \
+, \
+  $(MSGMERGE) $(MSGMERGEFLAGS) $(MSGMERGEVERBOSE) \
+    --update $1 $$$$pot 2>&1 \
+)
+endef
+
+# Output statistics for PO file $1.
+define echo-statistics
+  echo "   " `$(MSGFMT) -o /dev/null --statistics $1 2>&1`
+endef
+
 define sync-file
 .PNONY: sync-$(1)
 sync-$(1):
@@ -239,27 +269,43 @@ sync-$(1):
 		     echo -n "$$$${file#./}: Merging"; \
 		     $(MSGATTRIB) --no-fuzzy -o $(1)-tmp.www.po $$$$www_po  2>&1; \
 		     $(MSGATTRIB) --fuzzy -o $(1)-tmp.po $1 2>&1; \
-		     test -s $(1)-tmp.po && test -s $(1)-tmp.www.po && \
-		     $(MSGCAT) --use-first --more-than=1 \
-			$(1)-tmp.www.po $(1)-tmp.po 2>&1 \
-		     | $(MSGCAT) --use-first --less-than=2 -o $(1) - $(1); \
-		     $(MSGMERGE) $(MSGMERGEFLAGS) $(MSGMERGEVERBOSE) -C $$$${www_po} \
-		       --update $1 $$$$pot 2>&1; \
+		     if test -s $(1)-tmp.po && test -s $(1)-tmp.www.po; then \
+		       $(MSGCAT) --use-first --more-than=1 \
+			  $(1)-tmp.www.po $(1)-tmp.po 2>&1 \
+		       | $(MSGCAT) --use-first --less-than=2 -o $(1) - $(1); \
+		     fi; \
+		     $(merge-file); \
 		     $(RM) $(1)-tmp.www.po $(1)-tmp.po; \
 		   } \
 	    else \
 	      echo -n "$$$${file#./}: Merging new translation"; \
-	      $(MSGMERGE) $(MSGMERGEFLAGS) $(MSGMERGEVERBOSE) \
-	         --update $1 $$$$pot 2>&1; \
+	      $(merge-file); \
 	    fi; \
 	    $(if $(ADD_FUZZY_DIFF), $(ADD_FUZZY_DIFF) $1 > $1.tmp \
 		 && cmp -s $1 $1.tmp || cp $1.tmp $1; $(RM) $1.tmp;) \
-	    echo "   " `$(MSGFMT) -o /dev/null --statistics $1 2>&1`; \
+	    $$(call echo-statistics,$1); \
 	  fi
 sync: sync-$(1)
 endef
 $(foreach file, $(patsubst ./%, %, $(translations)), \
                   $(eval $(call sync-file,$(file))))
+
+# Sync master compendium when present.
+ifneq (,$(master))
+team-master := $(wildcard server/gnun/compendia/master.$(TEAM).po)
+ifneq (,$(team-master))
+.PHONY: sync-master
+sync-master:
+	@if $(call cmp-POs,$(master),$(team-master)); then \
+	  echo "$(team-master): Already in sync."; \
+	else \
+	  echo "$(team-master): Copying from \`www'."; \
+	  cp $(master) $(team-master); \
+	fi
+	@$(call echo-statistics,$(team-master))
+sync: sync-master
+endif
+endif
 
 # Import translated file lists from www.
 -include $(www_gnun_dir)gnun.mk
