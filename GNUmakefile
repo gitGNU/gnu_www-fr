@@ -215,6 +215,25 @@ else ifeq ($(REPO),Arch)
 endif
 endif
 
+sync-master :=
+# Sync master compendium when present.
+ifneq (,$(master))
+team-master := $(wildcard server/gnun/compendia/master.$(TEAM).po)
+ifneq (,$(team-master))
+.PHONY: sync-master
+sync-master:
+	@if $(call cmp-POs,$(master),$(team-master)); then \
+	  echo "$(team-master): Already in sync."; \
+	else \
+	  echo "$(team-master): Copying from \`www'."; \
+	  cp $(master) $(team-master); \
+	fi
+	@$(call echo-statistics,$(team-master))
+sync: sync-master
+sync-master := sync-master
+endif
+endif
+
 # The command to compare PO files; comments and dates are generally
 # considered insignificant.  The msgfmt output is compared
 # in order to take into account the case when they only differ
@@ -254,7 +273,7 @@ endef
 
 define sync-file
 .PNONY: sync-$(1)
-sync-$(1):
+sync-$(1): $(sync-master)
 	@file=$(1); \
 	  pot=$(wwwdir)`dirname $1`/po/`basename $$$${file%.$(TEAM).po}.pot`; \
 	  test -f $$$$pot || pot=$$$$pot.opt; \
@@ -263,6 +282,7 @@ sync-$(1):
 	  else \
 	    www_po=$(wwwdir)`dirname $1`/po/`basename $1`; \
 	    if test -f $$$${www_po}; then \
+	      $$(if $(master), test $$$$file -nt $(master) && ) \
 	      $$(call cmp-POs,$1,$$$${www_po}) \
 	        && echo "$$$${file#./}: Already in sync." \
 	        || { \
@@ -289,23 +309,6 @@ sync: sync-$(1)
 endef
 $(foreach file, $(patsubst ./%, %, $(translations)), \
                   $(eval $(call sync-file,$(file))))
-
-# Sync master compendium when present.
-ifneq (,$(master))
-team-master := $(wildcard server/gnun/compendia/master.$(TEAM).po)
-ifneq (,$(team-master))
-.PHONY: sync-master
-sync-master:
-	@if $(call cmp-POs,$(master),$(team-master)); then \
-	  echo "$(team-master): Already in sync."; \
-	else \
-	  echo "$(team-master): Copying from \`www'."; \
-	  cp $(master) $(team-master); \
-	fi
-	@$(call echo-statistics,$(team-master))
-sync: sync-master
-endif
-endif
 
 # Import translated file lists from www.
 -include $(www_gnun_dir)gnun.mk
