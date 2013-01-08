@@ -422,23 +422,7 @@ msgstr ""
 "doit pas être malveillant. Il n'y a pas d'obstacle à construire un téléphone "
 "Android qui ait ces caractéristiques, mais nous n'en connaissons aucun."
 
-# | Android is not a self-hosting system; development for Android needs to be
-# | done on some other system.  The tools in Google's &ldquo;software
-# | development kit&rdquo; (SDK) are {+appear to be+} free, but [-the-] {+it
-# | is hard work to check this.  The+} definition files for certain Google
-# | APIs are [-nonfree, and maybe some other parts as well.-] {+nonfree.+} 
-# | Installing the SDK requires signing a proprietary software license, which
-# | you should refuse to sign.  {+<a
-# | href=\"http://redmine.replicant.us/projects/replicant/wiki/ReplicantSDK\">
-# | Replicant's SDK </a> is a free replacement.+}
 #. type: Content of: <p>
-#| msgid ""
-#| "Android is not a self-hosting system; development for Android needs to be "
-#| "done on some other system.  The tools in Google's &ldquo;software "
-#| "development kit&rdquo; (SDK) are free, but the definition files for "
-#| "certain Google APIs are nonfree, and maybe some other parts as well.  "
-#| "Installing the SDK requires signing a proprietary software license, which "
-#| "you should refuse to sign."
 msgid ""
 "Android is not a self-hosting system; development for Android needs to be "
 "done on some other system.  The tools in Google's &ldquo;software "
@@ -476,16 +460,7 @@ msgstr ""
 "savoir plus sur les raisons qui rendent l'abolition des brevets logiciels "
 "nécessaire)."
 
-# | However, the patent attacks and Google's responses are not directly
-# | relevant to the topic of this article: how Android products {+partly+}
-# | approach an ethically system of distribution{+,+} and how they fall short.
-# | This issue merits the attention of the press too.
 #. type: Content of: <p>
-#| msgid ""
-#| "However, the patent attacks and Google's responses are not directly "
-#| "relevant to the topic of this article: how Android products approach an "
-#| "ethically system of distribution and how they fall short. This issue "
-#| "merits the attention of the press too."
 msgid ""
 "However, the patent attacks and Google's responses are not directly relevant "
 "to the topic of this article: how Android products partly approach an "
