@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: planetfeeds.html\n"
-"POT-Creation-Date: 2013-01-04 12:25-0500\n"
+"POT-Creation-Date: 2013-01-09 11:56-0500\n"
 "PO-Revision-Date: 2012-07-16 11:31+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,54 +19,49 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"<a href='http://www.fsf.org/blogs/gnu-press/gnu-press-releases-new-edition-"
-"of-the-emacs-manual'>GNU Press releases new edition of the Emacs manual!</"
-"a>: GNU Emacs manuals are back. Your purchase now will help us reach our "
-"Winter fundraising goal of $350k by January 31st... <a href='http://www.fsf."
-"org/blogs/gnu-press/gnu-press-releases-new-edition-of-the-emacs-"
-"manual'>more</a>"
+"<a href='http://www.gnu.org/software/hurd/news/2012-q1-q2.html'>A Quarter Of "
+"The Hurd</a>: Two quarters of the Hurd, Q1 and Q2 of 2012: Google Summer of "
+"Code, Barrier of Entry, Core, Porting... <a href='http://www.gnu.org/"
+"software/hurd/news/2012-q1-q2.html'>more</a>"
 msgstr ""
 
 #. type: Content of: <p>
-# | <a
-# | [-href='http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-june-2012'>GNU-]
-# | {+href='http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-december-2012'>GNU+}
-# | Spotlight with Karl Berry [-(June-] {+(December+} 2012)</a>: {+There were
-# | 23 new GNU releases this month!+} New GNU releases {+this month+} as of
-# | [-June 26, 2012: autogen-5.16.1, gnuhealth-1.6.2, libmicrohttpd-0.9.20,
-# | automake-1.12.1, gnunet-0.9.3, librejs-4.7.1, bison-2.5.1, gnut...-]
-# | {+December 24 include...+} <a
-# | [-href='http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-june-2012'>more</a>-]
-# | {+href='http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-de
-# | cember-2012'>more</a>+}
+msgid ""
+"<a href='http://www.fsf.org/events/20130204-dublin'>The Free Software "
+"Movement&</a>: A speech by Richard Stallman in Dublin, Ireland at The Edmund "
+"Burke Theatre, located in the basement of the Arts Building, Trinity "
+"College, Dublin... <a href='http://www.fsf.org/events/20130204-dublin'>more</"
+"a>"
+msgstr ""
+
+#. type: Content of: <p>
+msgid ""
+"<a href='http://wingolog.org/archives/2013/01/07/an-opinionated-guide-to-"
+"scheme-implementations'>An Opinionated Guide To Scheme Implementations</a>: "
+"Hark, the beloved programing language! But hark, also: for Scheme is a "
+"language of many implementations. If Scheme were a countryside, it would ... "
+"<a href='http://wingolog.org/archives/2013/01/07/an-opinionated-guide-to-"
+"scheme-implementations'>more</a>"
+msgstr ""
+
 #, fuzzy
-#| msgid ""
-#| "<a href='http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-"
-#| "june-2012'>GNU Spotlight with Karl Berry (June 2012)</a>: New GNU "
-#| "releases as of June 26, 2012: autogen-5.16.1, gnuhealth-1.6.2, "
-#| "libmicrohttpd-0.9.20, automake-1.12.1, gnunet-0.9.3, librejs-4.7.1, "
-#| "bison-2.5.1, gnut... <a href='http://www.fsf.org/blogs/community/gnu-"
-#| "spotlight-with-karl-berry-june-2012'>more</a>"
-msgid ""
-"<a href='http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-"
-"december-2012'>GNU Spotlight with Karl Berry (December 2012)</a>: There were "
-"23 new GNU releases this month! New GNU releases this month as of December "
-"24 include... <a href='http://www.fsf.org/blogs/community/gnu-spotlight-with-"
-"karl-berry-december-2012'>more</a>"
-msgstr ""
-"<a href='http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-"
-"june-2012'>Coup de projecteur de Karl Berry sur GNU (juin 2012)</a>: "
-"Nouvelles versions publiées le 26 juin 2012 :  autogen-5.16.1, "
-"gnuhealth-1.6.2, libmicrohttpd-0.9.20, automake-1.12.1, gnunet-0.9.3, "
-"librejs-4.7.1, bison-2.5.1, gnut&hellip; <a href='http://www.fsf.org/blogs/"
-"community/gnu-spotlight-with-karl-berry-june-2012'>suite</a>"
-
-#. type: Content of: <p>
-msgid ""
-"<a href='http://www.fsf.org/blogs/community/dont-miss-our-daily-highlights-"
-"on-fsf.org'>Don't miss our daily highlights on fsf.org!</a>: When you visit "
-"<a href=\"http://www.fsf.org\">fsf.org</a> now through the end of January, "
-"you'll notice something different about our home page. It's our new \"daily "
-"highli... <a href='http://www.fsf.org/blogs/community/dont-miss-our-daily-"
-"highlights-on-fsf.org'>more</a>"
-msgstr ""
+#~| msgid ""
+#~| "<a href='http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-"
+#~| "berry-june-2012'>GNU Spotlight with Karl Berry (June 2012)</a>: New GNU "
+#~| "releases as of June 26, 2012: autogen-5.16.1, gnuhealth-1.6.2, "
+#~| "libmicrohttpd-0.9.20, automake-1.12.1, gnunet-0.9.3, librejs-4.7.1, "
+#~| "bison-2.5.1, gnut... <a href='http://www.fsf.org/blogs/community/gnu-"
+#~| "spotlight-with-karl-berry-june-2012'>more</a>"
+#~ msgid ""
+#~ "<a href='http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-"
+#~ "december-2012'>GNU Spotlight with Karl Berry (December 2012)</a>: There "
+#~ "were 23 new GNU releases this month! New GNU releases this month as of "
+#~ "December 24 include... <a href='http://www.fsf.org/blogs/community/gnu-"
+#~ "spotlight-with-karl-berry-december-2012'>more</a>"
+#~ msgstr ""
+#~ "<a href='http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-"
+#~ "june-2012'>Coup de projecteur de Karl Berry sur GNU (juin 2012)</a>: "
+#~ "Nouvelles versions publiées le 26 juin 2012 :  autogen-5.16.1, "
+#~ "gnuhealth-1.6.2, libmicrohttpd-0.9.20, automake-1.12.1, gnunet-0.9.3, "
+#~ "librejs-4.7.1, bison-2.5.1, gnut&hellip; <a href='http://www.fsf.org/"
+#~ "blogs/community/gnu-spotlight-with-karl-berry-june-2012'>suite</a>"
