@@ -248,7 +248,22 @@ endef
 # Merge a file.
 # When the master compendium is present, its translations override
 # the translations from the PO file.
-# $(1) is the PO file to merge; $$$$pot is its POT.
+#
+#     Input files
+#
+# $1: the PO file to merge.
+# $$$$pot: Its POT.
+# $$$$comp (when non-empty): an additional argument with PO file
+# from `www' used as compendium, in order to copy new translations
+# from `www' to `www-$(TEAM)'.
+#
+#     Intermediate files
+#
+# $1-tmp0.po: the set of msgids common to master.$(TEAM).po and $1.
+# $1-tmp1.po: $1 without the set defined in $1-tmp0.po (when the latter
+# is not empty).
+# $$$$po0: the PO file to acutally merge ($1-tmp1.po when it exists,
+# otherwise $1).
 define merge-file
 $(if $(master), \
   po0=$1; \
@@ -257,11 +272,11 @@ $(if $(master), \
     $(MSGCAT) --less-than=2 --use-first $1 $1-tmp0.po > $1-tmp1.po; \
   fi; \
   if test -s $1-tmp1.po; then  po0=$1-tmp1.po; fi; \
-  $(MSGMERGE) --previous $(MSGMERGEVERBOSE) -C $(master) \
+  $(MSGMERGE) --previous $(MSGMERGEVERBOSE) -C $(master) $$$$comp \
     -o $1 $$$$po0 $$$$pot 2>&1; \
   $(RM) $1-tmp0.po $1-tmp1.po \
 , \
-  $(MSGMERGE) $(MSGMERGEFLAGS) $(MSGMERGEVERBOSE) \
+  $(MSGMERGE) $(MSGMERGEFLAGS) $(MSGMERGEVERBOSE) $$$$comp \
     --update $1 $$$$pot 2>&1 \
 )
 endef
@@ -271,6 +286,11 @@ define echo-statistics
   echo "   " `$(MSGFMT) -o /dev/null --statistics $1 2>&1`
 endef
 
+# Synchronize (merge) a file.
+# The translations from $(master) override the translations from PO files
+# ($(master) update triggers remerging all files);
+# new translations from `www' propagate to `www-$(TEAM)'; current translations
+# from `www' replace fuzzy translations in `www-$(TEAM)'.
 define sync-file
 .PNONY: sync-$(1)
 sync-$(1): $(sync-master)
@@ -280,8 +300,9 @@ sync-$(1): $(sync-master)
 	  if test ! -f $$$$pot; then \
 	    echo "Warning: $$$${file#./} has no equivalent .pot in www."; \
 	  else \
-	    www_po=$(wwwdir)`dirname $1`/po/`basename $1`; \
+	    www_po=$(wwwdir)`dirname $1`/po/`basename $1`; comp=; \
 	    if test -f $$$${www_po}; then \
+	      comp="-C $$$$www_po"; \
 	      $$(if $(master), test $$$$file -nt $(master) && ) \
 	      $$(call cmp-POs,$1,$$$${www_po}) \
 	        && echo "$$$${file#./}: Already in sync." \
@@ -645,7 +666,12 @@ ifneq (,$(HAVE-EMAIL-ALIASES))
     if test "x$$$$attachments" != x; then \
       attachments="-a $$$$attachments --"; \
     fi; \
-    grep -v '^#' $(1).note | sed "s/^/@/" \
+    grep -v '^#' $(1).note \
+      $(if, Join subsequent lines reporting against the same file) \
+      $(if, to avoid writing unnecessarily duplicated URLs.) \
+      | sed " /:/ { :c; N; s/^\([^:]*:\)\(.*\)\n\1/\1\2@/; t c; h; \
+                     s/\n[^\n]*$$$$//; p; g; s/[^\n]*\n//; /:/ b c }" \
+      | sed "s/^/@/" \
       | while read line; do \
 	  line="$$$${line#@}"; \
 	  echo -n "$$$$line"; \
@@ -680,6 +706,8 @@ ifneq (,$(HAVE-EMAIL-ALIASES))
 	  fi; \
 	  echo; \
 	  done \
+      $(if, "Unjoin" the lines reporting against the same file.) \
+      | sed "/:.*@/{:cycle; s/^\([^:]*:\)\(.*\)@/\1\2\n\1/; t cycle;}" \
       | $(GNUN_MAIL) -s "Automatic Notification for \`"$1"'" \
 			$$$$attachments $$$$email; $(MAIL_TAIL) \
     sed --in-place '1{/^#/d;}' $(1).note; \
