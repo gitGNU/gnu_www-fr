@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.html\n"
-"POT-Creation-Date: 2013-01-04 19:28-0500\n"
-"PO-Revision-Date: 2013-01-05 12:49+0100\n"
+"POT-Creation-Date: 2013-01-11 18:25-0500\n"
+"PO-Revision-Date: 2013-01-13 09:06+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -157,10 +157,13 @@ msgid "RSS Feed"
 msgstr "Flux RSS"
 
 #. type: Content of: <div><div><div><p>
-msgid "For more news, see <a href=\"http://planet.gnu.org/\">Planet GNU</a>."
+msgid ""
+"For more news, see <a href=\"http://planet.gnu.org/\">Planet GNU</a> and the "
+"list of <a href=\"/software/recent-releases.html\">recent GNU releases</a>."
 msgstr ""
-"Vous trouverez d'autres actualités sur <a href=\"http://planet.gnu.org/"
-"\">Planet GNU</a>."
+"Tenez-vous au courant avec <a href=\"http://planet.gnu.org/\">Planet GNU</a> "
+"et la <a href=\"/software/recent-releases.html\">liste des publications "
+"récentes de GNU</a>."
 
 #. type: Content of: <div><div><div><h4>
 msgid "GNU Guile"
