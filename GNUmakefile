@@ -376,9 +376,10 @@ pots := $(articles-pot) $(root-articles-pot) $(template-pots)
 endif # ! eq (,$(ALL_DIRS))
 
 # Team's translations that lack PO file.
+# Note: optional templates can't have HTML translations, so grep -v '\.opt$$'.
 html-only := $(shell echo $(pots) | sed 's/ /\n/g' \
-  | while read pot; do \
-      po=$${pot%.opt}; po=$${po%pot}$(TEAM).po; \
+  | grep -v '\.opt$$' | while read pot; do \
+      po=$${po%pot}$(TEAM).po; \
       team_po=`echo $$po | sed 's,/po/,/,; s,^$(wwwdir),./,'`; \
       html=$${po%po}html; html=$${html/\/po\//\/}; \
       if ! test -f $$po && ! test -f $$team_po && test -f $$html; then \
