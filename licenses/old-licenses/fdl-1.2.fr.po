@@ -1,14 +1,13 @@
 # French translation of http://www.gnu.org/licenses/old-licenses/fdl-1.2.html
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the original article.
-# THérèse Godefroy <godef.th@free.fr>, 2013.
 # Thérèse Godefroy <godef.th AT free.fr>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: fdl-1.2.html\n"
 "POT-Creation-Date: 2012-06-10 04:27-0300\n"
-"PO-Revision-Date: 2013-01-14 23:43+0100\n"
+"PO-Revision-Date: 2013-01-29 22:33+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -83,7 +82,7 @@ msgid ""
 "<a href=\"/licenses/old-licenses/fdl-1.2-translations.html\">Translations of "
 "GFDLv1.2</a>"
 msgstr ""
-"<a href=\"/licenses/old-licenses/fdl-1.1-translations.html\">Traductions de "
+"<a href=\"/licenses/old-licenses/fdl-1.2-translations.html\">Traductions de "
 "la GFDLv1.2</a>"
 
 #. type: Content of: <ul><li>
@@ -115,8 +114,8 @@ msgid ""
 "diff files showing the changes between versions 1.1 and 1.2 of the GNU Free "
 "Documentation License are available:"
 msgstr ""
-"Des fichiers diff montrant les différences entre les versions 1.1 et 1.2 de "
-"la licence de documentation libre GNU sont disponibles :"
+"Il existe des fichiers diff montrant les différences entre les versions 1.1 "
+"et 1.2 de la GFDL :"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/licenses/fdl-1.2-diff.txt\">Plain context diff</a>"
@@ -142,16 +141,16 @@ msgid ""
 "<a name=\"TOC1\" href=\"#SEC1\">Current version of the GNU Free "
 "Documentation License</a>"
 msgstr ""
-"<a id=\"TOC1\" href=\"#SEC1\">Présente version de la licence de "
-"documentation libre GNU</a>"
+"<a name=\"TOC1\" href=\"#SEC1\">Current version of the GNU Free "
+"Documentation License</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
 "<a name=\"TOC4\" href=\"#SEC4\">How to use this License for your documents</"
 "a>"
 msgstr ""
-"<a id=\"TOC4\" href=\"#SEC4\">Comment utiliser cette licence pour vos "
-"documents</a>"
+"<a name=\"TOC4\" href=\"#SEC4\">How to use this License for your documents</"
+"a>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
