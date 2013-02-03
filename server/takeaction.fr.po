@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: takeaction.html\n"
 "POT-Creation-Date: 2013-02-02 18:28-0500\n"
-"PO-Revision-Date: 2013-02-02 18:05+0100\n"
+"PO-Revision-Date: 2013-02-03 10:07+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -180,28 +180,6 @@ msgid "These GNU packages are looking for a maintainer:"
 msgstr "Ces paquets GNU sont à la recherche d'un repreneur : "
 
 #. type: Content of: <p>
-# | <a href=\"/software/dr-geo/\">dr-geo</a>, <a
-# | href=\"/software/gleem/\">gleem</a>, <a
-# | href=\"/software/gnatsweb/\">gnatsweb</a>, <a
-# | [-href=\"/software/grep/\">grep</a>, <a-]
-# | href=\"/software/halifax/\">halifax</a>, <a
-# | href=\"/software/jwhois/\">jwhois</a>, <a
-# | href=\"/software/metahtml/\">metahtml</a>, <a
-# | href=\"/software/orgadoc/\">orgadoc</a>, <a
-# | href=\"/software/pgccfd/\">pgccfd</a>, <a
-# | href=\"/software/polyxmass/\">polyxmass</a>, <a
-# | href=\"/software/rottlog/\">rottlog</a>, <a
-# | href=\"/software/snakecharmer/\">snakecharmer</a>
-#, fuzzy
-#| msgid ""
-#| "<a href=\"/software/dr-geo/\">dr-geo</a>, <a href=\"/software/gleem/"
-#| "\">gleem</a>, <a href=\"/software/gnatsweb/\">gnatsweb</a>, <a href=\"/"
-#| "software/grep/\">grep</a>, <a href=\"/software/halifax/\">halifax</a>, <a "
-#| "href=\"/software/jwhois/\">jwhois</a>, <a href=\"/software/metahtml/"
-#| "\">metahtml</a>, <a href=\"/software/orgadoc/\">orgadoc</a>, <a href=\"/"
-#| "software/pgccfd/\">pgccfd</a>, <a href=\"/software/polyxmass/"
-#| "\">polyxmass</a>, <a href=\"/software/rottlog/\">rottlog</a>, <a href=\"/"
-#| "software/snakecharmer/\">snakecharmer</a>"
 msgid ""
 "<a href=\"/software/dr-geo/\">dr-geo</a>, <a href=\"/software/gleem/"
 "\">gleem</a>, <a href=\"/software/gnatsweb/\">gnatsweb</a>, <a href=\"/"
@@ -213,12 +191,11 @@ msgid ""
 msgstr ""
 "<a href=\"/software/dr-geo/\">dr-geo</a>, <a href=\"/software/gleem/"
 "\">gleem</a>, <a href=\"/software/gnatsweb/\">gnatsweb</a>, <a href=\"/"
-"software/grep/\">grep</a>, <a href=\"/software/halifax/\">halifax</a>, <a "
-"href=\"/software/jwhois/\">jwhois</a>, <a href=\"/software/metahtml/"
-"\">metahtml</a>, <a href=\"/software/orgadoc/\">orgadoc</a>, <a href=\"/"
-"software/pgccfd/\">pgccfd</a>, <a href=\"/software/polyxmass/\">polyxmass</"
-"a>, <a href=\"/software/rottlog/\">rottlog</a> et <a href=\"/software/"
-"snakecharmer/\">snakecharmer</a>"
+"software/halifax/\">halifax</a>, <a href=\"/software/jwhois/\">jwhois</a>, "
+"<a href=\"/software/metahtml/\">metahtml</a>, <a href=\"/software/orgadoc/"
+"\">orgadoc</a>, <a href=\"/software/pgccfd/\">pgccfd</a>, <a href=\"/"
+"software/polyxmass/\">polyxmass</a>, <a href=\"/software/rottlog/\">rottlog</"
+"a> et <a href=\"/software/snakecharmer/\">snakecharmer</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -403,22 +380,3 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
-
-#~ msgid ""
-#~ "<a href=\"/software/dr-geo/\">dr-geo</a>, <a href=\"/software/gleem/"
-#~ "\">gleem</a>, <a href=\"/software/gnatsweb/\">gnatsweb</a>, <a href=\"/"
-#~ "software/grep/\">grep</a>, <a href=\"/software/halifax/\">halifax</a>, <a "
-#~ "href=\"/software/jwhois/\">jwhois</a>, <a href=\"/software/metahtml/"
-#~ "\">metahtml</a>, <a href=\"/software/orgadoc/\">orgadoc</a>, <a href=\"/"
-#~ "software/pgccfd/\">pgccfd</a>, <a href=\"/software/polyxmass/"
-#~ "\">polyxmass</a>, <a href=\"/software/rottlog/\">rottlog</a>, <a href=\"/"
-#~ "software/snakecharmer/\">snakecharmer</a>"
-#~ msgstr ""
-#~ "<a href=\"/software/dr-geo/\">dr-geo</a>, <a href=\"/software/gleem/"
-#~ "\">gleem</a>, <a href=\"/software/gnatsweb/\">gnatsweb</a>, <a href=\"/"
-#~ "software/grep/\">grep</a>, <a href=\"/software/halifax/\">halifax</a>, <a "
-#~ "href=\"/software/jwhois/\">jwhois</a>, <a href=\"/software/metahtml/"
-#~ "\">metahtml</a>, <a href=\"/software/orgadoc/\">orgadoc</a>, <a href=\"/"
-#~ "software/pgccfd/\">pgccfd</a>, <a href=\"/software/polyxmass/"
-#~ "\">polyxmass</a>, <a href=\"/software/rottlog/\">rottlog</a> et <a href="
-#~ "\"/software/snakecharmer/\">snakecharmer</a>"
