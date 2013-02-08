@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2013-01-22 16:25-0500\n"
+"POT-Creation-Date: 2013-02-07 23:25-0500\n"
 "PO-Revision-Date: 2013-01-22 22:37+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -62,7 +62,8 @@ msgstr ""
 
 #. type: Content of: <ul><li><ul><li>
 msgid "<a href=\"#NonFreeSoftwareLicenses\">Nonfree Software Licenses</a>"
-msgstr "<a href=\"#NonFreeSoftwareLicenses\">Licences de logiciel non libre</a>"
+msgstr ""
+"<a href=\"#NonFreeSoftwareLicenses\">Licences de logiciel non libre</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"#DocumentationLicenses\">Licenses For Documentation</a>"
@@ -697,8 +698,8 @@ msgid ""
 msgstr ""
 "Le texte de la licence CeCILL utilise des mots partiaux qui doivent être "
 "évités : « <a href=\"/philosophy/not-ipr.xhtml\">propriété intellectuelle</"
-"a> » et « <a href=\"/philosophy/words-to-avoid.html#Protection\">protection</a> » ; "
-"cette décision a été malheureuse, car la lecture de la licence tend à "
+"a> » et « <a href=\"/philosophy/words-to-avoid.html#Protection\">protection</"
+"a> » ; cette décision a été malheureuse, car la lecture de la licence tend à "
 "répandre les présupposés associés à ces termes. Cependant, cela ne pose pas "
 "de problème particulier pour les programmes sous licence CeCILL."
 
@@ -1755,6 +1756,33 @@ msgid ""
 msgstr ""
 "La ZPL est une licence de logiciel libre permissive (voire laxiste) sans "
 "copyleft. Elle est compatible avec la GPL."
+
+#. type: Content of: <dl><dt>
+# | <a [-id=\"YaST\"> YaST License</a>-] {+id=\"Wx\"></a>WxWidgets License+}
+# | <span class=\"anchor-reference-id\">(<a
+# | [-href=\"#YaST\">#YaST</a>)</span>-] {+href=\"#Wx\">#Wx</a>)</span>+}
+#, fuzzy
+#| msgid ""
+#| "<a id=\"YaST\"> YaST License</a> <span class=\"anchor-reference-id\">(<a "
+#| "href=\"#YaST\">#YaST</a>)</span>"
+msgid ""
+"<a id=\"Wx\"></a>WxWidgets License <span class=\"anchor-reference-id\">(<a "
+"href=\"#Wx\">#Wx</a>)</span>"
+msgstr ""
+"<a id=\"YaST\"> Licence de <acronym title=\"Yet another Setup Tool\">YaST</"
+"acronym></a> <span class=\"anchor-reference-id\">(<a href=\"#YaST\">#YaST</"
+"a>)</span>"
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"The WxWidgets license is a GPL-compatible free software license. It consists "
+"of the <a href=\"/licenses/old-licenses/lgpl-2.0.html\">LGPL 2.0</a> or any "
+"later version, plus an additional permission allowing binary distributions "
+"that use the library to be licensed under terms of the distributor's choice "
+"(including proprietary). Like the LGPL it is a weak copyleft license, so we "
+"recommend it <a href=\"/licenses/why-not-lgpl.html\"> only in special "
+"circumstances</a>."
+msgstr ""
 
 #. type: Content of: <h3>
 msgid ""
@@ -3069,6 +3097,44 @@ msgstr ""
 "nous estimons pouvoir le faire sans risque."
 
 #. type: Content of: <dl><dt>
+# | <a [-id=\"PerlLicense\">License of Perl 5 and below</a>-]
+# | {+id=\"NoLicense\">No license</a>+} <span class=\"anchor-reference-id\">
+# | (<a [-href=\"#PerlLicense\">#PerlLicense</a>)</span>-]
+# | {+href=\"#NoLicense\">#NoLicense</a>)</span>+}
+#, fuzzy
+#| msgid ""
+#| "<a id=\"PerlLicense\">License of Perl 5 and below</a> <span class="
+#| "\"anchor-reference-id\"> (<a href=\"#PerlLicense\">#PerlLicense</a>)</"
+#| "span>"
+msgid ""
+"<a id=\"NoLicense\">No license</a> <span class=\"anchor-reference-id\"> (<a "
+"href=\"#NoLicense\">#NoLicense</a>)</span>"
+msgstr ""
+"<a id=\"PerlLicense\">License de Perl 5 and versions antérieures</a> <span "
+"class=\"anchor-reference-id\">(<a href=\"#PerlLicense\">#PerlLicense</a>)</"
+"span>"
+
+#. type: Content of: <dl><dd><p>
+msgid "Code with no license is nonfree."
+msgstr ""
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"Copyright law makes all copyrightable works nonfree by default.  This "
+"includes programs.  Therefore, in order for a program to be free, its "
+"copyright holders must grant users the <a href=\"/philosophy/free-sw.html\"> "
+"four essential freedoms</a>.  The document where they do so is called a "
+"<em>free software license</em>.  This is the function of free software "
+"licenses."
+msgstr ""
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"Thus, if source code does not carry a license to give users the four "
+"essential freedoms, it is not free software."
+msgstr ""
+
+#. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"Aladdin\">Aladdin Free Public License</a> <span class=\"anchor-"
 "reference-id\"> (<a href=\"#Aladdin\">#Aladdin</a>)</span>"
@@ -3563,8 +3629,8 @@ msgid ""
 msgstr ""
 "En septembre 2002, nous avons remarqué que la licence de Plan 9 avait été "
 "modifiée dans un sens encore plus restrictif (alors que le texte porte "
-"toujours la date du 20 septembre 2000). Cependant, <a href=\"#lucent102\">un autre changement de "
-"licence en 2003 fait de Plan 9 un logiciel libre</a>."
+"toujours la date du 20 septembre 2000). Cependant, <a href=\"#lucent102\">un "
+"autre changement de licence en 2003 fait de Plan 9 un logiciel libre</a>."
 
 #. type: Content of: <dl><dt>
 msgid ""
