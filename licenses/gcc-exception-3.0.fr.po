@@ -1,13 +1,13 @@
 # French translation of http://www.gnu.org/licenses/gcc-exception-3.0.html
 # Copyright (C) 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the original article.
-# Thérèse Godefroy <godef.th AT free.fr>, 2012, 2013.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gcc-exception-3.0.html\n"
-"POT-Creation-Date: 2012-06-10 04:27-0300\n"
-"PO-Revision-Date: 2013-01-29 14:42+0100\n"
+"POT-Creation-Date: 2013-02-07 00:25-0500\n"
+"PO-Revision-Date: 2013-02-07 07:45+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -19,14 +19,15 @@ msgstr ""
 
 #. type: Content of: <title>
 msgid ""
-"GCC Runtime Library Exception - GNU Project - Free Software Foundation (FSF)"
+"GCC Runtime Library Exception 3.0 - GNU Project - Free Software Foundation "
+"(FSF)"
 msgstr ""
-"Exception de la bibliothèque d'exécution de GCC (GCC-RLE v3.0) - Projet GNU "
-"- Free Software Foundation (FSF)"
+"Exception de la bibliothèque d'exécution de GCC, v3.0 - Projet GNU - Free "
+"Software Foundation (FSF)"
 
 #. type: Content of: <h2>
-msgid "GCC Runtime Library Exception"
-msgstr "Exception de la bibliothèque d'exécution de GCC (GCC-RLE v3.0)"
+msgid "GCC Runtime Library Exception 3.0"
+msgstr "Exception de la bibliothèque d'exécution de GCC, version 3.0"
 
 #. type: Content of: <p>
 msgid ""
@@ -34,7 +35,8 @@ msgid ""
 "rle-3.0\"> Translations of GCC RLE 3.0</a>"
 msgstr ""
 "<a href=\"/licenses/old-licenses/gcc-exception-translations.html#gcc-"
-"rle-3.0\"> Traductions de la GCC RLE 3.0</a>"
+"rle-3.0\"> Traductions de la GCC <abbr title=\"Runtime Library Exception"
+"\">RLE</abbr> 3.0</a>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
@@ -100,3 +102,13 @@ msgstr " "
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid ""
+#~ "GCC Runtime Library Exception - GNU Project - Free Software Foundation "
+#~ "(FSF)"
+#~ msgstr ""
+#~ "Exception de la bibliothèque d'exécution de GCC, v3.0 - Projet GNU - Free "
+#~ "Software Foundation (FSF)"
+
+#~ msgid "GCC Runtime Library Exception"
+#~ msgstr "Exception de la bibliothèque d'exécution de GCC (version 3.0)"

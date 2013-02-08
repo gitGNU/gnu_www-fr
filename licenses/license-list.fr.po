@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
 "POT-Creation-Date: 2013-02-07 23:25-0500\n"
-"PO-Revision-Date: 2013-01-22 22:37+0100\n"
+"PO-Revision-Date: 2013-02-08 16:37+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -1758,20 +1758,12 @@ msgstr ""
 "copyleft. Elle est compatible avec la GPL."
 
 #. type: Content of: <dl><dt>
-# | <a [-id=\"YaST\"> YaST License</a>-] {+id=\"Wx\"></a>WxWidgets License+}
-# | <span class=\"anchor-reference-id\">(<a
-# | [-href=\"#YaST\">#YaST</a>)</span>-] {+href=\"#Wx\">#Wx</a>)</span>+}
-#, fuzzy
-#| msgid ""
-#| "<a id=\"YaST\"> YaST License</a> <span class=\"anchor-reference-id\">(<a "
-#| "href=\"#YaST\">#YaST</a>)</span>"
 msgid ""
 "<a id=\"Wx\"></a>WxWidgets License <span class=\"anchor-reference-id\">(<a "
 "href=\"#Wx\">#Wx</a>)</span>"
 msgstr ""
-"<a id=\"YaST\"> Licence de <acronym title=\"Yet another Setup Tool\">YaST</"
-"acronym></a> <span class=\"anchor-reference-id\">(<a href=\"#YaST\">#YaST</"
-"a>)</span>"
+"<a id=\"Wx\"></a>Licence de WxWidgets <span class=\"anchor-reference-id\">"
+"(<a href=\"#Wx\">#Wx</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -1783,6 +1775,14 @@ msgid ""
 "recommend it <a href=\"/licenses/why-not-lgpl.html\"> only in special "
 "circumstances</a>."
 msgstr ""
+"La licence de WxWidgets est une licence de logiciel libre compatible avec la "
+"GPL. Elle est constituée de la <a href=\"/licenses/old-licenses/lgpl-2.0.html"
+"\">LGPL 2.0</a> ou toute version ultérieure, et d'une autorisation "
+"supplémentaire qui permet au distributeur de binaires utilisant cette "
+"bibliothèque de les placer sous la licence de son choix, même privatrice. "
+"Comme la LGPL, c'est une licence à copyleft faible, aussi nous ne la "
+"recommandons <a href=\"/licenses/why-not-lgpl.html\">que dans des "
+"circonstances particulières</a>."
 
 #. type: Content of: <h3>
 msgid ""
@@ -3097,26 +3097,16 @@ msgstr ""
 "nous estimons pouvoir le faire sans risque."
 
 #. type: Content of: <dl><dt>
-# | <a [-id=\"PerlLicense\">License of Perl 5 and below</a>-]
-# | {+id=\"NoLicense\">No license</a>+} <span class=\"anchor-reference-id\">
-# | (<a [-href=\"#PerlLicense\">#PerlLicense</a>)</span>-]
-# | {+href=\"#NoLicense\">#NoLicense</a>)</span>+}
-#, fuzzy
-#| msgid ""
-#| "<a id=\"PerlLicense\">License of Perl 5 and below</a> <span class="
-#| "\"anchor-reference-id\"> (<a href=\"#PerlLicense\">#PerlLicense</a>)</"
-#| "span>"
 msgid ""
 "<a id=\"NoLicense\">No license</a> <span class=\"anchor-reference-id\"> (<a "
 "href=\"#NoLicense\">#NoLicense</a>)</span>"
 msgstr ""
-"<a id=\"PerlLicense\">License de Perl 5 and versions antérieures</a> <span "
-"class=\"anchor-reference-id\">(<a href=\"#PerlLicense\">#PerlLicense</a>)</"
-"span>"
+"<a id=\"NoLicense\">Aucune license</a> <span class=\"anchor-reference-id\"> "
+"(<a href=\"#NoLicense\">#NoLicense</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid "Code with no license is nonfree."
-msgstr ""
+msgstr "Du code sans licence est non libre."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -3127,12 +3117,21 @@ msgid ""
 "<em>free software license</em>.  This is the function of free software "
 "licenses."
 msgstr ""
+"Le droit du copyright rend non libres toutes les œuvres susceptibles d'être "
+"placées sous copyright, et cela inclut les programmes. Par conséquent, pour "
+"qu'un programme soit libre, les personnes qui en détiennent le copyright "
+"doivent octroyer aux utilisateurs les <a href=\"/philosophy/free-sw.html"
+"\">quatre libertés essentielles</a>. Le document dans lequel elles le font "
+"est appelé <em>licence de logiciel libre</em>. C'est la fonction des "
+"licences de logiciel libre."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Thus, if source code does not carry a license to give users the four "
 "essential freedoms, it is not free software."
 msgstr ""
+"Donc, si le code source ne comporte pas de licence donnant aux utilisateurs "
+"les quatre libertés, ce n'est pas du logiciel libre"
 
 #. type: Content of: <dl><dt>
 msgid ""

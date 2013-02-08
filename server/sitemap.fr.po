@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
-"POT-Creation-Date: 2013-02-01 15:55-0500\n"
-"PO-Revision-Date: 2013-02-01 23:11+0100\n"
+"POT-Creation-Date: 2013-02-08 12:56-0500\n"
+"PO-Revision-Date: 2013-02-09 10:50+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -520,7 +520,7 @@ msgstr "<a href=\"/distros/screenshot.html\">screenshot.html</a>"
 
 #. type: Content of: <div><dl><dd><dl><dd>
 msgid "Screenshot of a Free Distro"
-msgstr "<a href=\"/distros/free-distros.html\">Téléchargez GNU maintenant</a>"
+msgstr "Capture d'écran d'une distribution libre"
 
 #. type: Content of: <div><dl><dt>
 msgid "<a class=\"topmost-title\" href=\"/doc/doc.html\">doc</a>"
@@ -2321,14 +2321,6 @@ msgid "A guide to helping the GNU operating system"
 msgstr "Un guide pour aider le projet GNU"
 
 #. type: Content of: <div><dl><dd><dl><dt>
-msgid "<a href=\"/help/directory.html\">directory.html</a>"
-msgstr "<a href=\"/help/directory.html\">directory.html</a>"
-
-#. type: Content of: <div><dl><dd><dl><dd>
-msgid "Helping with the Free Software Directory"
-msgstr "Aider à maintenir le répertoire du logiciel libre"
-
-#. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/help/evaluation.html\">evaluation.html</a>"
 msgstr "<a href=\"/help/evaluation.html\">evaluation.html</a>"
 
@@ -2473,7 +2465,7 @@ msgstr "<a href=\"/licenses/fdl-1.3-faq.html\">fdl-1.3-faq.html</a>"
 
 #. type: Content of: <div><dl><dd><dl><dd>
 msgid "GFDL v1.3 FAQ"
-msgstr "FAQ sur la GFDL v1.3"
+msgstr "FAQ sur la GNU FDL v1.3"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid ""
@@ -2489,7 +2481,7 @@ msgstr "GNU Free Documentation License v1.3"
 msgid "<a href=\"/licenses/fdl-1.3.html\">fdl-1.3.html</a>"
 msgstr "<a href=\"/licenses/fdl-1.3.html\">fdl-1.3.html</a>"
 
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
+#. type: Content of: <div><dl><dd><dl><dd>
 msgid "GNU Free Documentation License"
 msgstr "Licence GNU de documentation libre"
 
@@ -2499,7 +2491,7 @@ msgstr "<a href=\"/licenses/fdl-howto-opt.html\">fdl-howto-opt.html</a>"
 
 #. type: Content of: <div><dl><dd><dl><dd>
 msgid "How to Use the Optional Features of the GFDL"
-msgstr "Comment utiliser les dispositifs optionnels de la GFDL"
+msgstr "Comment utiliser les dispositifs optionnels de la GNU FDL"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/licenses/fdl-howto.html\">fdl-howto.html</a>"
@@ -2515,8 +2507,8 @@ msgstr ""
 "<a href=\"/licenses/gcc-exception-3.0.html\">gcc-exception-3.0.html</a>"
 
 #. type: Content of: <div><dl><dd><dl><dd>
-msgid "GCC Runtime Library Exception"
-msgstr "Exception de la bibliothèque d'exécution de GCC (GCC-RLE v3.0)"
+msgid "GCC Runtime Library Exception 3.0"
+msgstr "Exception de la bibliothèque d'exécution de GCC, version 3.0"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid ""
@@ -2535,6 +2527,10 @@ msgstr ""
 msgid "<a href=\"/licenses/gcc-exception-3.1.html\">gcc-exception-3.1.html</a>"
 msgstr ""
 "<a href=\"/licenses/gcc-exception-3.1.html\">gcc-exception-3.1.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "GCC Runtime Library Exception"
+msgstr "Exception de la bibliothèque d'exécution de GCC"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid ""
@@ -2568,7 +2564,7 @@ msgstr "<a href=\"/licenses/gpl-howto.html\">gpl-howto.html</a>"
 
 #. type: Content of: <div><dl><dd><dl><dd>
 msgid "How to use GNU licenses for your own software"
-msgstr "Comment utiliser les licences GNU pour vos logiciels ?"
+msgstr "Comment utiliser les licences GNU pour vos logiciels"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/licenses/gpl-violation.html\">gpl-violation.html</a>"
@@ -2731,7 +2727,9 @@ msgstr "<a href=\"/licenses/why-gfdl.html\">why-gfdl.html</a>"
 
 #. type: Content of: <div><dl><dd><dl><dd>
 msgid "Why publishers should use the GNU FDL"
-msgstr "Pourquoi les maisons d'édition doivent utiliser la GFDL"
+msgstr ""
+"Pourquoi les maisons d'édition doivent utiliser la licence GNU de "
+"documentation libre"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/licenses/why-not-lgpl.html\">why-not-lgpl.html</a>"
@@ -2814,6 +2812,10 @@ msgstr "Traductions non officielles de la GNU FDL v1.2"
 #. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
 msgid "<a href=\"/licenses/old-licenses/fdl-1.2.html\">fdl-1.2.html</a>"
 msgstr "<a href=\"/licenses/old-licenses/fdl-1.2.html\">fdl-1.2.html</a>"
+
+#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
+msgid "GNU Free Documentation License 1.2"
+msgstr "Licence GNU de documentation libre, version 1.2"
 
 #. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
 msgid ""
@@ -3271,8 +3273,8 @@ msgstr ""
 "versus-community-2000.html</a>"
 
 #. type: Content of: <div><dl><dd><dl><dd>
-msgid "Copyright versus Community in the Age of Computer Networks"
-msgstr "Copyright contre communauté à l'âge des réseaux informatiques"
+msgid "Copyright versus Community in the Age of Computer Networks (2000)"
+msgstr "Copyright contre communauté à l'âge des réseaux informatiques (2000)"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid ""
@@ -3281,6 +3283,10 @@ msgid ""
 msgstr ""
 "<a href=\"/philosophy/copyright-versus-community.html\">copyright-versus-"
 "community.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Copyright versus Community in the Age of Computer Networks"
+msgstr "Copyright contre communauté à l'âge des réseaux informatiques"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid ""
@@ -3507,8 +3513,8 @@ msgstr ""
 "old.html</a>"
 
 #. type: Content of: <div><dl><dd><dl><dd>
-msgid "Freedom&mdash;or Copyright?"
-msgstr "La liberté ou le copyright ?"
+msgid "Freedom&mdash;or Copyright? (Old Version)"
+msgstr "La liberté&hellip; ou le copyright ? (ancienne version)"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid ""
@@ -3517,6 +3523,10 @@ msgid ""
 msgstr ""
 "<a href=\"/philosophy/freedom-or-copyright.html\">freedom-or-copyright.html</"
 "a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Freedom&mdash;or Copyright?"
+msgstr "La liberté&hellip; ou le copyright ?"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/philosophy/freedom-or-power.html\">freedom-or-power.html</a>"
@@ -3847,8 +3857,8 @@ msgid "<a href=\"/philosophy/microsoft-old.html\">microsoft-old.html</a>"
 msgstr "<a href=\"/philosophy/microsoft-old.html\">microsoft-old.html</a>"
 
 #. type: Content of: <div><dl><dd><dl><dd>
-msgid "Is Microsoft the Great Satan?"
-msgstr "Microsoft est-il le Grand Satan ?"
+msgid "Is Microsoft the Great Satan? (Old Version)"
+msgstr "Microsoft est-il le Grand Satan ? (ancienne version)"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid ""
@@ -3863,6 +3873,10 @@ msgstr "À propos du verdict Microsoft"
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/philosophy/microsoft.html\">microsoft.html</a>"
 msgstr "<a href=\"/philosophy/microsoft.html\">microsoft.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Is Microsoft the Great Satan?"
+msgstr "Microsoft est-il le Grand Satan ?"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid ""
@@ -4124,11 +4138,11 @@ msgstr "Protégeons l'anonymat postal"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid ""
-"<a href=\"/philosophy/programs-must-not-limit-freedom.html\">programs-must-"
-"not-limit-freedom.html</a>"
+"<a href=\"/philosophy/programs-must-not-limit-freedom-to-run.html\">programs-"
+"must-not-limit-freedom-to-run.html</a>"
 msgstr ""
-"<a href=\"/philosophy/programs-must-not-limit-freedom.html\">programs-must-"
-"not-limit-freedom.html</a>"
+"<a href=\"/philosophy/programs-must-not-limit-freedom-to-run.html\">programs-"
+"must-not-limit-freedom.html</a>"
 
 #. type: Content of: <div><dl><dd><dl><dd>
 msgid "Why programs must not limit the freedom to run them"
@@ -4144,7 +4158,7 @@ msgstr ""
 
 #. type: Content of: <div><dl><dd><dl><dd>
 msgid "Proprietary Sabotage"
-msgstr "Proprietary Sabotage"
+msgstr "Sabotage privateur"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid ""
@@ -4403,6 +4417,10 @@ msgid ""
 msgstr ""
 "<a href=\"/philosophy/stallman-mec-india.html\">stallman-mec-india.html</a>"
 
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "The Danger of Software Patents (2001)"
+msgstr "Le danger des brevets logiciels (2001)"
+
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/philosophy/stallmans-law.html\">stallmans-law.html</a>"
 msgstr "<a href=\"/philosophy/stallmans-law.html\">stallmans-law.html</a>"
@@ -4537,7 +4555,7 @@ msgstr "<a href=\"/philosophy/using-gfdl.html\">using-gfdl.html</a>"
 
 #. type: Content of: <div><dl><dd><dl><dd>
 msgid "Using GNU FDL"
-msgstr "Utiliser la GNU FDL (GFDL)"
+msgstr "Utiliser la licence GNU de documentation libre"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/philosophy/vaccination.html\">vaccination.html</a>"
@@ -5737,3 +5755,16 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid "<a href=\"/help/directory.html\">directory.html</a>"
+#~ msgstr "<a href=\"/help/directory.html\">directory.html</a>"
+
+#~ msgid "Helping with the Free Software Directory"
+#~ msgstr "Aider à maintenir le répertoire du logiciel libre"
+
+#~ msgid ""
+#~ "<a href=\"/philosophy/programs-must-not-limit-freedom.html\">programs-"
+#~ "must-not-limit-freedom.html</a>"
+#~ msgstr ""
+#~ "<a href=\"/philosophy/programs-must-not-limit-freedom.html\">programs-"
+#~ "must-not-limit-freedom.html</a>"
