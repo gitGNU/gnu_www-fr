@@ -2,12 +2,13 @@
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the original package.
 # Framalang, 2013.
+# Thérèse Godefroy <godef.th AT free.fr>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: funding-art-vs-funding-software.html\n"
 "POT-Creation-Date: 2013-02-01 15:02+0100\n"
-"PO-Revision-Date: 2013-02-01 15:02+0100\n"
+"PO-Revision-Date: 2013-02-08 22:29+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -73,10 +74,11 @@ msgstr ""
 "tâches concrètes doivent être libres. Les gens qui les utilisent méritent de "
 "contrôler les tâches qu’ils effectuent, ce qui nécessite de contrôler les "
 "œuvres-outils qu'ils utilisent, et par conséquent de posséder les quatre "
-"libertés (voir http://www.gnu.org/philosophy/free-sw.fr.html ). Ces œuvres "
-"comprennent les ressources pédagogiques, les ouvrages de référence, les "
-"recettes, les polices de caractères et, bien sûr, les logiciels ; toutes "
-"doivent être libres."
+"libertés (voir <a href=\"http://www.gnu.org/philosophy/free-sw.html\">http://"
+"www.gnu.org/philosophy/free-sw.fr.html</a>). Ces œuvres comprennent les "
+"ressources pédagogiques, les ouvrages de référence, les recettes, les "
+"polices de caractères et, bien sûr, les logiciels ; toutes doivent être "
+"libres."
 
 #. type: Content of: <p>
 msgid ""
@@ -279,10 +281,11 @@ msgid ""
 "Other free software organizations do this too."
 msgstr ""
 "La <cite>Free Software Foundation</cite> sollicite les dons de deux "
-"manières. Nous sollicitons des dons non affectés pour financer le travail de "
-"la fondation, et nous appelons aussi à faire des dons affectés à certains "
-"projets spécifiques. D'autres organisations appartenant au monde du logicel "
-"libre le font aussi."
+"manières. Nous sollicitons des <a href=\"https://my.fsf.org/donate/\">dons "
+"non affectés pour financer le travail de la fondation</a>, et nous appelons "
+"aussi à faire des <a href=\"https://my.fsf.org/donate/directed-donations"
+"\">dons affectés à certains projets spécifiques</a>. D'autres organisations "
+"appartenant au monde du logicel libre le font aussi."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
