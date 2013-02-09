@@ -4,20 +4,20 @@
 # Vincent Veyron et Olivier Berger, 2001.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
 # Pierrick L'Ébraly, 2012.
-# Thérèse Godefroy <godef.th AT free.fr>, 2012.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-2.0-faq.html\n"
 "POT-Creation-Date: 2012-06-10 04:27-0300\n"
-"PO-Revision-Date: 2012-11-18 09:53+0100\n"
+"PO-Revision-Date: 2013-02-09 12:55+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  \n"
+"Plural-Forms: \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
 #. type: Content of: <title>
@@ -2616,7 +2616,7 @@ msgstr ""
 "Mais vous pouvez donner des permissions supplémentaires pour l'utilisation "
 "de votre code. Vous pouvez, si vous le voulez, publier votre programme sous "
 "une licence plus permissive que la GPL (voire laxiste), mais qui soit "
-"compatible avec elle. Sur la page <a href=\"/philosophy/license-list.html"
+"compatible avec elle. Sur la page <a href=\"/licenses/license-list.html"
 "\">liste des licences</a>, vous trouverez un inventaire partiel des licences "
 "compatibles avec la GPL."
 
@@ -3689,7 +3689,7 @@ msgid ""
 "downloaded just the binary from the net.  If I distribute copies, do I have "
 "to get the source and distribute that too?</a></b>"
 msgstr ""
-"<b><a href=\"#UnchangedJustBinary\" name=\"TOCUnchangedJustBinary\">J'ai "
+"<b><a href=\"#TOCUnchangedJustBinary\" name=\"UnchangedJustBinary\">J'ai "
 "téléchargé uniquement le programme binaire à partir d'Internet. Si je "
 "distribue des copies, dois-je me procurer le code source et le redistribuer "
 "aussi ?</a></b>"
@@ -3770,7 +3770,7 @@ msgid ""
 "If you distribute binaries via FTP, <a href=\"#AnonFTPAndSendSource\">you "
 "should distribute source via FTP.</a>"
 msgstr ""
-"Si vous distribuez les binaires par FTP, <a href=\"#AnonFTPAndSendSource"
+"Si vous distribuez les binaires par FTP, <a href=\"#AnonFTPAndSendSources"
 "\">vous devez distribuer les sources par FTP.</a>"
 
 #. type: Content of: <dl><dt>
@@ -4577,7 +4577,7 @@ msgid ""
 "<b><a href=\"#TOCNonFreeTools\" name=\"NonFreeTools\">Can I release a "
 "program under the GPL which I developed using non-free tools?</a></b>"
 msgstr ""
-"<b><a href=\"#NonFreeTools\" name=\"TOCNonFreeTools\">Puis-je publier sous "
+"<b><a href=\"#TOCNonFreeTools\" name=\"NonFreeTools\">Puis-je publier sous "
 "GPL un programme que j'ai développé en utilisant des outils non libres ?</"
 "a></b>"
 
@@ -4605,9 +4605,7 @@ msgstr ""
 "publier le code source sous licence GPL, mais si les bibliothèques ne "
 "correspondent pas à l'exception « bibliothèque système », vous devrez lui "
 "adjoindre un avis explicite donnant la permission de lier votre programme "
-"avec elles. <a href=\"#GPLIncompatibleLibs\">Notre FAQ sur l'utilisation des "
-"bibliothèques incompatibles avec la GPL</a> fournit plus d'informations sur "
-"la manière de le faire."
+"avec elles. La FSF peut vous donner des conseils sur la manière de procéder."
 
 #. type: Content of: <dl><dt>
 msgid ""
