@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-2.0-faq.html\n"
-"POT-Creation-Date: 2012-06-10 04:27-0300\n"
-"PO-Revision-Date: 2013-02-09 12:55+0100\n"
+"POT-Creation-Date: 2013-02-09 12:25-0500\n"
+"PO-Revision-Date: 2013-02-09 20:01+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -23,10 +23,10 @@ msgstr ""
 #. type: Content of: <title>
 msgid ""
 "Frequently Asked Questions about the GNU GPL v2.0 - GNU Project - Free "
-"Software Foundation (FSF)"
+"Software Foundation"
 msgstr ""
 "Foire aux questions sur la GNU GPL v2.0 - Projet GNU - Free Software "
-"Foundation (FSF)"
+"Foundation"
 
 #. type: Content of: <h2>
 msgid "Frequently Asked Questions about version 2 of the GNU GPL"
@@ -5263,23 +5263,29 @@ msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF."
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF.  Broken links and other corrections or suggestions "
+"can be sent to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF."
+"\">d'autres moyens de contacter</a> la FSF. Les liens orphelins et autres "
+"corrections ou suggestions peuvent être signalés à <a href=\"mailto:"
+"webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-#. type: Content of: <div><p>
-msgid ""
-"Please send broken links and other corrections or suggestions to <a href="
-"\"mailto:webmasters@gnu.org\"><em>webmasters@gnu.org</em></a>."
-msgstr ""
-"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
-
+#.  TRANSLATORS: Ignore the original text in this paragraph,
+#.         replace it with the translation of these two:
+#.         We work hard and do our best to provide accurate, good quality
+#.         translations.  However, we are not exempt from imperfection.
+#.         Please send your comments and general suggestions in this regard
+#.         to <a href="mailto:web-translators@gnu.org">
+#.         &lt;web-translators@gnu.org&gt;</a>.</p>
+#.         <p>For information on coordinating and submitting translations of
+#.         our web pages, see <a
+#.         href="/server/standards/README.translations.html">Translations
+#.         README</a>. 
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -5296,13 +5302,8 @@ msgstr ""
 "README.translations.html\">guide de traduction</a>."
 
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2001, 2006, 2007, 2008 Free Software Foundation, Inc.,"
-msgstr ""
-"Copyright &copy; 2001, 2006, 2007, 2008 Free Software Foundation, Inc.,"
-
-#. type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+msgid "Copyright &copy; 2001, 2006, 2007, 2008 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2001, 2006, 2007, 2008 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -5326,3 +5327,18 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid ""
+#~ "Frequently Asked Questions about the GNU GPL v2.0 - GNU Project - Free "
+#~ "Software Foundation (FSF)"
+#~ msgstr ""
+#~ "Foire aux questions sur la GNU GPL v2.0 - Projet GNU - Free Software "
+#~ "Foundation (FSF)"
+
+#~ msgid ""
+#~ "Copyright &copy; 2001, 2006, 2007, 2008 Free Software Foundation, Inc.,"
+#~ msgstr ""
+#~ "Copyright &copy; 2001, 2006, 2007, 2008 Free Software Foundation, Inc.,"
+
+#~ msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+#~ msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
