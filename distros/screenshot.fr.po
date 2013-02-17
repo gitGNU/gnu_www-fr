@@ -2,12 +2,13 @@
 # Copyright (C) 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the original article.
 # Aurélien Rivière <aurelien.riv AT gmail.com>, 2012.
+# Thérèse Godefroy <godef.th AT free.fr>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: screenshot.html\n"
-"POT-Creation-Date: 2013-01-28 00:25-0500\n"
-"PO-Revision-Date: 2013-01-28 09:50+0100\n"
+"POT-Creation-Date: 2013-02-16 08:07-0500\n"
+"PO-Revision-Date: 2013-02-16 20:16+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -27,21 +28,9 @@ msgstr ""
 msgid "Screenshot of a Free Distro"
 msgstr "Capture d'écran d'une distribution libre"
 
-#. type: Content of: <p><a>
-msgid "<a href=\"/distros/free-distros.html\">"
-msgstr "<a href=\"/distros/free-distros.html\">"
-
-#. type: Attribute 'alt' of: <p><a><img>
-msgid ""
-"Screenshot of the GNU/Linux operating system running OpenOffice.org, a free "
-"software office suite comparable to Microsoft Office or Apple iWork"
-msgstr ""
-"Capture d'écran du système d'exploitation GNU/Linux avec OpenOffice.org, une "
-"suite bureautique libre comparable à Microsoft Office ou Apple iWork"
-
-#. type: Content of: <p>
-msgid "</a>"
-msgstr "</a>"
+#. type: Attribute 'alt' of: <p><img>
+msgid "[ Desktop with text processor and spreadsheet windows ]"
+msgstr "[ Bureau avec fenêtres de traitement de texte et de tableur ]"
 
 #. type: Content of: <p>
 msgid ""
