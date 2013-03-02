@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: links.html\n"
-"POT-Creation-Date: 2012-10-25 20:25-0300\n"
-"PO-Revision-Date: 2013-02-19 07:57+0100\n"
+"POT-Creation-Date: 2013-03-02 00:55-0500\n"
+"PO-Revision-Date: 2013-03-02 10:55+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -399,14 +399,16 @@ msgid "<a href=\"http://translation.sourceforge.net\">Translation Project</a>"
 msgstr ""
 "<a href=\"http://translation.sourceforge.net\">Projet de traduction</a>"
 
+#.  unavailable <a href="http://www.ofset.org" name="OFSET">
+#.  
 #. type: Content of: <ul><li>
 msgid ""
-"<a href=\"http://www.ofset.org\" name=\"OFSET\">OFSET</a> - The Organization "
-"for Free Software in Education and Teaching."
+"<a name=\"OFSET\">OFSET</a> - The Organization for Free Software in "
+"Education and Teaching."
 msgstr ""
-"<a href=\"http://www.ofset.org\" name=\"OFSET\"><abbr title=\"Organization "
-"for Free Software in Education and Teaching\">OFSET</abbr></a>, organisation "
-"pour la promotion du logiciel libre dans l'éducation et l'enseignement."
+"<a name=\"OFSET\"><abbr title=\"Organization for Free Software in Education "
+"and Teaching\">OFSET</abbr></a>, organisation pour la promotion du logiciel "
+"libre dans l'éducation et l'enseignement."
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -877,6 +879,15 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid ""
+#~ "<a href=\"http://www.ofset.org\" name=\"OFSET\">OFSET</a> - The "
+#~ "Organization for Free Software in Education and Teaching."
+#~ msgstr ""
+#~ "<a href=\"http://www.ofset.org\" name=\"OFSET\"><abbr title="
+#~ "\"Organization for Free Software in Education and Teaching\">OFSET</"
+#~ "abbr></a>, organisation pour la promotion du logiciel libre dans "
+#~ "l'éducation et l'enseignement."
 
 #~ msgid "<a href=\"http://www.cipsga.org.br/\">CIPSGA</a>"
 #~ msgstr "<a href=\"http://www.cipsga.org.br/\">CIPSGA</a>"
