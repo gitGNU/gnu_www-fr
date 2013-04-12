@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-faq.html\n"
-"POT-Creation-Date: 2013-03-25 23:55-0300\n"
-"PO-Revision-Date: 2013-03-26 09:55+0100\n"
+"POT-Creation-Date: 2013-04-09 02:57-0300\n"
+"PO-Revision-Date: 2013-04-11 16:21+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -23,10 +23,10 @@ msgstr ""
 #. type: Content of: <title>
 msgid ""
 "Frequently Asked Questions about the GNU Licenses - GNU Project - Free "
-"Software Foundation (FSF)"
+"Software Foundation"
 msgstr ""
 "Foire aux questions sur les licences GNU - Projet GNU - Free Software "
-"Foundation (FSF)"
+"Foundation"
 
 #. type: Content of: <h2>
 msgid "Frequently Asked Questions about the GNU Licenses"
@@ -769,6 +769,16 @@ msgstr ""
 "<a href=\"#HowCanIMakeSureEachDownloadGetsSource\">Comment puis-je m'assurer "
 "que tout utilisateur qui télécharge les binaires obtient également le code "
 "source ?</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"#MustSourceBuildToMatchExactHashOfBinary\">Does the GPL require me "
+"to provide source code that can be built to match the exact hash of the "
+"binary I am distributing?</a>"
+msgstr ""
+"<a href=\"#MustSourceBuildToMatchExactHashOfBinary\">La GPL exige-t-elle que "
+"je fournisse un code source à partir duquel on puisse construire un binaire "
+"de hash identique à celui que je distribue ?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -4530,6 +4540,39 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
+"Does the GPL require me to provide source code that can be built to match "
+"the exact hash of the binary I am distributing? <span class=\"anchor-"
+"reference-id\">(<a href=\"#MustSourceBuildToMatchExactHashOfBinary\" "
+">#MustSourceBuildToMatchExactHashOfBinary</a>)</span>"
+msgstr ""
+"La GPL exige-t-elle que je fournisse un code source à partir duquel on "
+"puisse construire un binaire de hash identique à celui que je distribue ? "
+"<span class=\"anchor-reference-id\">(<a href="
+"\"#MustSourceBuildToMatchExactHashOfBinary\" "
+">#MustSourceBuildToMatchExactHashOfBinary</a>)</span>"
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"Complete corresponding source means the source that the binaries were made "
+"from, but that does not imply your tools must be able to make a binary that "
+"is an exact hash of the binary you are distributing. In some cases it could "
+"be (nearly) impossible to build a binary from source with an exact hash of "
+"the binary being distributed &mdash; consider the following examples: a "
+"system might put timestamps in binaries; or the program might have been "
+"built against a different (even unreleased) compiler version."
+msgstr ""
+"« Source Correspondante complète » désigne la source à partir de laquelle "
+"les binaires ont été produits, mais cela n'implique pas que vos outils "
+"doivent être capables de fabriquer un binaire ayant un hash identique à "
+"celui du binaire que vous distribuez. Dans certains cas, il pourrait être (à "
+"peu près) impossible de compiler un binaire ayant exactement le même hash "
+"que le binaire distribué. Considérez les exemples suivants : un système "
+"pourrait mettre des estampilles temporelles <cite>[timestamps]</cite> dans "
+"les binaires ; ou bien le programme pourrait avoir été construit par une "
+"version différente (voire non publiée) du compilateur."
+
+#. type: Content of: <dl><dt>
+msgid ""
 "A company is running a modified version of a GPL'ed program on a web site.  "
 "Does the GPL say they must release their modified sources? <span class="
 "\"anchor-reference-id\">(<a href=\"#UnreleasedMods\" >#UnreleasedMods</a>)</"
@@ -7536,23 +7579,29 @@ msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
-"\"><em>gnu@gnu.org</em></a>.  There are also <a href=\"/contact/\">other "
-"ways to contact</a> the FSF."
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF.  Broken links and other corrections or suggestions "
+"can be sent to <a href=\"mailto:licensing@gnu.org\">&lt;licensing@gnu.org&gt;"
+"</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF."
+"\">d'autres moyens de contacter</a> la FSF. Les liens orphelins et autres "
+"corrections ou suggestions peuvent être signalés à <a href=\"mailto:"
+"webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-#. type: Content of: <div><p>
-msgid ""
-"Please send broken links and other corrections or suggestions to <a href="
-"\"mailto:licensing@gnu.org\"><em>licensing@gnu.org</em></a>."
-msgstr ""
-"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:licensing@gnu.org\">&lt;licensing@gnu.org&gt;"
-"</a>."
-
+#.  TRANSLATORS: Ignore the original text in this paragraph,
+#.         replace it with the translation of these two:
+#.         We work hard and do our best to provide accurate, good quality
+#.         translations.  However, we are not exempt from imperfection.
+#.         Please send your comments and general suggestions in this regard
+#.         to <a href="mailto:web-translators@gnu.org">
+#.         &lt;web-translators@gnu.org&gt;</a>.</p>
+#.         <p>For information on coordinating and submitting translations of
+#.         our web pages, see <a
+#.         href="/server/standards/README.translations.html">Translations
+#.         README</a>. 
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -7569,8 +7618,8 @@ msgstr ""
 "README.translations.html\">guide de traduction</a>."
 
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2011 Free Software Foundation, Inc.,"
-msgstr "Copyright &copy; 2011 Free Software Foundation, Inc.,"
+msgid "Copyright &copy; 2013 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2013 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
