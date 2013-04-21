@@ -4,13 +4,13 @@
 # FIRST AUTHOR: ? 2000.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
 # Denis Barbier <bouzim@gmail.com>, 2012.
-# Thérèse Godefroy <godef.th AT free.fr>, 2012.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linux-and-gnu.html\n"
-"POT-Creation-Date: 2013-02-11 02:01-0500\n"
-"PO-Revision-Date: 2013-02-11 09:09+0100\n"
+"POT-Creation-Date: 2013-04-19 22:25+0000\n"
+"PO-Revision-Date: 2013-04-20 08:22+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -278,15 +278,15 @@ msgid ""
 "Torvalds freed Linux in 1992, it fit into the last major gap in the GNU "
 "system.  People could then <a href=\"http://ftp.funet.fi/pub/linux/"
 "historical/kernel/old-versions/RELNOTES-0.01\"> combine Linux with the GNU "
-"system</a> to make a complete free system: a Linux-based version of the GNU "
-"system; the GNU/Linux system, for short."
+"system</a> to make a complete free system &mdash; a version of the GNU "
+"system which also contained Linux.  The GNU/Linux system, in other words."
 msgstr ""
 "Heureusement, nous n'avons pas eu à attendre Hurd, grâce à Linux. Quand "
 "Linus Torvalds a libéré Linux en 1992, il a bouché le dernier trou du "
 "système GNU. Les gens purent alors <a href=\"http://ftp.funet.fi/pub/linux/"
 "historical/kernel/old-versions/RELNOTES-0.01\">adjoindre Linux au système "
-"GNU</a> pour obtenir un système libre complet : un système GNU basé sur "
-"Linux ; le système GNU/Linux, en plus court."
+"GNU</a> pour obtenir un système libre complet : une version du système GNU "
+"qui contenait aussi Linux ; autrement dit, le système GNU/Linux."
 
 #. type: Content of: <p>
 msgid ""
