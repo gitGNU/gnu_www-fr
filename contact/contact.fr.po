@@ -10,13 +10,13 @@
 #  Please ensure links are consistent with Apache's MultiView.
 #  Change include statements to be consistent with the relevant
 #  language, where necessary.
-# Thérèse Godefroy <godef.th AT free.fr>, 2012.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: contact.html\n"
-"POT-Creation-Date: 2012-06-10 04:25-0300\n"
-"PO-Revision-Date: 2012-08-10 10:46+0200\n"
+"POT-Creation-Date: 2013-05-07 18:25+0000\n"
+"PO-Revision-Date: 2013-05-11 22:42+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -254,13 +254,14 @@ msgstr "Pour les questions concernant l'hébergement Savannah"
 #. type: Content of: <p>
 msgid ""
 "To ask questions about <a href=\"http://savannah.gnu.org\">savannah</a>, our "
-"hosting server available for both GNU and non-GNU projects, please see the "
-"<a href=\"http://savannah.gnu.org/contact.php\">savannah contact page</a>."
+"hosting server available for both GNU and non-GNU free software projects, "
+"please see the <a href=\"http://savannah.gnu.org/contact.php\">savannah "
+"contact page</a>."
 msgstr ""
 "Pour poser des questions concernant <a href=\"http://savannah.gnu.org"
-"\">savannah</a>, notre serveur d'hébergement disponible pour les projets GNU "
-"et non-GNU, rendez-vous sur la <a href=\"http://savannah.gnu.org/contact.php"
-"\">page de contact de savannah</a>."
+"\">savannah</a>, notre serveur d'hébergement pour les projets de logiciel "
+"libre, GNU ou non, rendez-vous sur la <a href=\"http://savannah.gnu.org/"
+"contact.php\">page de contact de savannah</a>."
 
 #. type: Content of: <h4>
 msgid "For licensing violations"
@@ -341,13 +342,12 @@ msgstr "Pour mettre à jour la redirection de votre adresse de courriel GNU"
 
 #. type: Content of: <p>
 msgid ""
-"If you currently have an email forward from the gnu.org domain, and need it "
-"updated, contact <a href= \"mailto:alias-file@gnu.org\">&lt;alias-file@gnu."
-"org&gt;</a>."
+"If you have an email forward from the gnu.org domain, and need it updated, "
+"contact <a href= \"mailto:sysadmin@gnu.org\">&lt;sysadmin@gnu.org&gt;</a>."
 msgstr ""
 "Si vous avez une redirection d'adresse électronique depuis le domaine gnu."
-"org et que vous devez la mettre à jour, contactez <a href=\"mailto:alias-"
-"file@gnu.org\">&lt;alias-file@gnu.org&gt;</a>."
+"org et que vous devez la mettre à jour, contactez <a href= \"mailto:"
+"sysadmin@gnu.org\">&lt;sysadmin@gnu.org&gt;</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
@@ -389,8 +389,8 @@ msgstr ""
 "README.translations.html\">guide de traduction</a>."
 
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2010 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2010 Free Software Foundation, Inc."
+msgid "Copyright &copy; 2013 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2013 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
