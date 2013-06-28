@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: links.html\n"
-"POT-Creation-Date: 2013-06-03 14:37+0000\n"
-"PO-Revision-Date: 2013-06-07 21:28+0200\n"
+"POT-Creation-Date: 2013-06-28 11:27+0000\n"
+"PO-Revision-Date: 2013-06-30 19:40+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -21,11 +21,10 @@ msgstr ""
 
 #. type: Content of: <title>
 msgid ""
-"Links to Other Free Software Sites - GNU Project - Free Software Foundation "
-"(FSF)"
+"Links to Other Free Software Sites - GNU Project - Free Software Foundation"
 msgstr ""
 "Liens vers d'autres sites en rapport avec le logiciel libre - Projet GNU - "
-"Free Software Foundation (FSF)"
+"Free Software Foundation"
 
 #. type: Content of: <h2>
 msgid "Links to Other Free Software Sites"
@@ -717,13 +716,13 @@ msgstr ""
 "Australie, EFA) est une organisation nationale à but non lucratif "
 "représentant les internautes concernés par les droits et libertés en ligne."
 
+#.  <a href="http://www.libertadinformacion.org/">
+#.  
+#.  </a>
+#.  
 #. type: Content of: <ul><li>
-msgid ""
-"<a href=\"http://www.libertadinformacion.org/\">Asociaci&oacute;n por la "
-"Libertad de la Informaci&oacute;n</a>"
-msgstr ""
-"<a href=\"http://www.libertadinformacion.org/\">Asociaci&oacute;n por la "
-"Libertad de la Informaci&oacute;n</a>"
+msgid "Asociaci&oacute;n por la Libertad de la Informaci&oacute;n"
+msgstr "Asociaci&oacute;n por la Libertad de la Informaci&oacute;n"
 
 #. type: Content of: <ul><li><p>
 msgid "An association fighting for freedom of information in Spain."
@@ -822,23 +821,29 @@ msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
-"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF."
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF.  Broken links and other corrections or suggestions "
+"can be sent to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF."
+"\">d'autres moyens de contacter</a> la FSF. Les liens orphelins et autres "
+"corrections ou suggestions peuvent être signalés à <a href=\"mailto:"
+"webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-#. type: Content of: <div><p>
-msgid ""
-"Please send broken links and other corrections or suggestions to <a href="
-"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
-msgstr ""
-"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
-
+#.  TRANSLATORS: Ignore the original text in this paragraph,
+#.         replace it with the translation of these two:
+#.         We work hard and do our best to provide accurate, good quality
+#.         translations.  However, we are not exempt from imperfection.
+#.         Please send your comments and general suggestions in this regard
+#.         to <a href="mailto:web-translators@gnu.org">
+#.         &lt;web-translators@gnu.org&gt;</a>.</p>
+#.         <p>For information on coordinating and submitting translations of
+#.         our web pages, see <a
+#.         href="/server/standards/README.translations.html">Translations
+#.         README</a>. 
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -855,8 +860,8 @@ msgstr ""
 "README.translations.html\">guide de traduction</a>."
 
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2011 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2011 Free Software Foundation, Inc."
+msgid "Copyright &copy; 2013 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2013 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -880,6 +885,13 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid ""
+#~ "<a href=\"http://www.libertadinformacion.org/\">Asociaci&oacute;n por la "
+#~ "Libertad de la Informaci&oacute;n</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.libertadinformacion.org/\">Asociaci&oacute;n por la "
+#~ "Libertad de la Informaci&oacute;n</a>"
 
 #~ msgid ""
 #~ "<a href=\"http://www.belgeler.org/\">Belgeler.org</a> - A very "
