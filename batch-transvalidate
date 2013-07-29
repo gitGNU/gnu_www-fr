@@ -1,0 +1,369 @@
+#!/bin/bash
+
+# Batch transvalidation of PO files
+
+
+# Definition
+
+# To “transvalidate” is to transform a PO file into HTML and validate the
+# result. The word is not in the dictionary... So what?  :-)
+
+# Principle
+
+# PO transvalidation by the standard method (using the www GNUmakefile)
+# often regenerates the POT and plays havoc with later synchronizations of
+# www with the CVS repository. To avoid that, the POs are updated/modified
+# in www-lang and the translated page is built in the same directory with
+# po4a (without POT regeneration), then the translated page is validated
+# with gnun-validate-html.
+
+# The script is interactive. The input can be either a single PO or a list
+# that the script creates by detecting the modified POs.
+
+# Prerequisites
+
+#    - www and www-lang have a common top directory.
+#    - www is synchronized with its CVS repository and hasn't been
+#      “polluted” by previous PO regenerations by the standard method.
+#    - if www-lang is a git repository, the changes must be either unstaged,
+#      or staged for commit.
+
+# What the script does
+
+# 1. It helps prepare the list of POs to transvalidate:
+#    - it checks for remaining fuzzy or untranslated strings in www-lang and
+#      stops if it finds any, to let the user choose what to do next;
+#    - it lists the files that have been modified locally in www-lang,
+#      by using either “cvs -nq diff” + a filter, or “git diff --name-only
+#      --staged”, or else GNUN's report + a filter; the list can be amended
+#      by hand; alternatively, a single PO can be specified on the command
+#      line.
+# 2. For each item in the list:
+#    - a simplified header is added to the master document, as well as
+#      the missing tags, then the SSI directives are inactivated to
+#      avoid problems with the includes (it did happen at least once);
+#    - to make proofreading of the HTML easier, the “GNUN-split” tags of the
+#      template are replaced with <br />\n/*split*/\n<br />;
+#    - the translated page is regenerated with po4a-translate;
+#    - the page is validated with gnun-validate-html;
+#    - the PO header is updated, the comments removed, and the PO
+#      reformatted.
+
+# The options and current parameters are displayed by:
+#      batch-transvalidate -h
+
+############################################################################
+
+# Copyright (C) 2013 Free Software Foundation, Inc.
+
+# This file is part of GNUnited Nations.
+
+# GNUnited Nations is free software: you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+
+# GNUnited Nations is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with GNUnited Nations.  If not, see <http://www.gnu.org/licenses/>.
+
+############################################################################
+
+params=$#
+dir=$HOME/GNU
+editor=/usr/bin/editor
+# FIXME: It works on Debian. What about other distributions?
+# editor=$EDITOR didn't work out of the box on Wheezy.
+lang=xx
+po=
+translator="FULL NAME <EMAIL@ADDRESS>"
+
+function version () {
+cat <<EOF
+batch-transvalidate (GNUnited Nations) 0.7
+Copyright (C) 2013 Free Software Foundation, Inc.
+You may redistribute copies of GNUnited Nations
+under the terms of the GNU General Public License.
+For more information about these matters, see the file named COPYING.
+EOF
+}
+
+function usage () {
+cat <<EOF
+
+Usage: batch-transvalidate OPTIONS [OPTIONS]
+
+Options and current settings:
+
+  -d, --dir=/DIREC/TORY            [$dir]
+      Specify the absolute path to the common top directory of www
+      and www-$lang (required if different from $dir)
+
+  -e, --editor=ANOTHER_EDITOR      [$editor]
+      Specify the command-line editor (optional)
+
+  -l, --lang=CODE                  [$lang]
+      Specify the language code (required)
+
+  -p  --po=PATH/TO/ARTICLE.$lang.po   [$po]
+      Do not use a list, specify the path to the PO, relative to
+      www-$lang (optional)
+
+  -t, --translator="TRANSLATOR"    [$translator]
+      Specify the name and email address of the translator (required)
+
+  -V, --version                    Display version info and exit
+
+  -h, --help                       Display this help and exit
+
+The parameters can be set by defining an alias in .bashrc, such as:
+      alias bt='batch-transvalidate -d /media/Trad/GNU -e vim -l fr
+               -t "Toto Tartempion <toto AT tartempion.net>"'
+
+Report bugs to bug-gnun@gnu.org
+GNUnited Nations home page: <http://www.gnu.org/software/gnun/>
+General help using GNU software: <http://www.gnu.org/gethelp/>
+EOF
+}
+
+set -o pipefail
+
+# Parse the command line.
+while [ ${params} -ge 1 ]; do
+  case "$1" in
+     -h | --help )
+    usage
+    exit 0
+    ;;
+     -V | --version )
+    version
+    exit 0
+    ;;
+     -d | --dir )
+    shift
+    params=$((${params}-1))
+    dir="$1"
+    ;;
+     --dir=* )
+    dir="${1#--dir=}"
+    ;;
+     -e | --editor )
+    shift
+    params=$((${params}-1))
+    editor="$1"
+    ;;
+     --editor=* )
+    editor="${1#--editor=}"
+    ;;
+     -l | --lang )
+    shift
+    params=$((${params}-1))
+    lang="$1"
+    ;;
+     --lang=* )
+    lang="${1#--lang=}"
+    ;;
+     -p | --po )
+    shift
+    params=$((${params}-1))
+    po="$1"
+    ;;
+     --po=* )
+    po="${1#--po=}"
+    ;;
+     -t | --translator )
+    shift
+    params=$((${params}-1))
+    translator="$1"
+    ;;
+     --translator=* )
+    translator="${1#--translator=}"
+    ;;
+     * )
+    break
+    ;;
+  esac
+  params=$((${params}-1))
+  shift
+done
+
+if [ ${params} -ne 0 ]; then
+  echo 1>&2 "$0: Unrecognized option \"$1\".  See --help for details."
+  exit 1
+fi
+
+if [ ! -d "${dir}" ]; then
+  echo 1>&2 "Error: Directory \"$dir\" doesn't exist."
+  exit 1
+fi
+
+if [ ! -d $dir"/www-"$lang ]; then
+  echo 1>&2 "Error: Directory \"$dir/www-$lang\" doesn't exist."
+  exit 1
+fi
+
+function check_fuzz () {
+  rm -f /tmp/fuzz-report
+  for f in $(find * -name \*.po); do
+     # Check for fuzzy strings.
+     if [[ "$(grep '#, fuzzy' $f)" != "" ]]; then
+       echo "$f is still fuzzy" >> /tmp/fuzz-report
+     fi
+     # Check for untranslated strings.
+     if [[ $(sed -n '/msgstr ""[[:space:]]*$/ {N;/\n[[:space:]]*$/p}' \
+     $f) != "" ]]; then
+       echo "$f is not completely translated" >> /tmp/fuzz-report
+     fi
+  done
+  if [ -f /tmp/fuzz-report ]; then
+    echo "*** One or more files are not up-to-date:"
+    cat /tmp/fuzz-report
+    echo "    You are on hold,
+    press [Enter] to resume, or any other key to quit."
+    read -s -n1 choice
+    case "$choice" in
+      "")
+        ;;
+      *)
+        echo "Bye"
+        exit
+        ;;
+    esac
+  fi
+}
+
+function create_valid_list () {
+# creates a list of transvalidation candidates and displays it for edition.
+# FIXME: The best method depends on the team's workflow.
+  check_fuzz
+  if [ -d CVS ]; then
+    cvs -nq diff |
+    grep "RCS file:" |
+    sed -e 's;^RCS file: /webcvs/www/www-'"$lang"'/;;' \
+        -e 's;,v$;;' > ../valid-list
+  elif [ -d .git ]; then
+    git add .
+    git diff --name-only --staged > ../valid-list
+  else
+    if [ ! -f ../gnun-report.txt ]; then
+      echo -e "*** Synchronize www-$lang with www and save gnun's report."
+      make sync && make report > ../gnun-report.txt
+    fi
+    sed -e '/\.'"$lang"'\.po/!d' \
+        -e 's/:[^:]*//' ../gnun-report.txt > ../valid-list
+  fi
+  $editor ../valid-list
+}
+
+function inactivate_ssi () {
+# adds a minimal HTML header and the missing tags, then inactivates the SSI
+# directives.
+  read -r firstline < $1
+  if [[ $firstline =~ "server/header.html" ]]; then
+    cat - $1 > $2 << EOF
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="$lang" lang="$lang">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+EOF
+  elif [[ $firstline =~ "server/html5-header.html" ]]; then
+    cat - $1 > $2 << EOF
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="$lang" lang="$lang">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+EOF
+  else
+    echo "*** $1 has no header-include."
+  fi
+  sed -i -e '/server\/banner\.html"/c</head><body><div><div>' \
+         -e 's/<!--#/<!-- /g' $2
+}
+
+function add_split_tags () {
+# is adapted from function “add-gnun-tags” of the www GNUmakefile.
+  sed -i -e '/<span[[:space:]]*$$/{:egin;N; />[^\n]*$$/! begin};' \
+         -e 's,<span[[:space:]]\+class="gnun-split"></span>,\
+<br />\n/*split*/\n<br />,' $1
+}
+
+function update_po_header () {
+# updates the revision date and the last translator.
+  sed -i \
+  -e 's,\(Revision-Date: \).*,\1'"$(date +"%F %R%z")"'\\n",' \
+  -e 's,\(Last-Translator: \).*,\1'"$translator"'\\n",' $1
+}
+
+function delete_comments () {
+# removes useless comments (outdated messages that contain links outside
+# gnu.org and fsf.org are kept).
+  sed -e '/Outdated-Since/d' -e '/# |/d' -e '/#|/d' $1 |
+  awk 'BEGIN {
+  FS = " ";
+  RS = ORS = "\n\n";
+  }
+  {
+    if (!/#~/) {
+      print;
+    } else {
+      FS = "href";
+      for (n=2; n<=NF; n++) {
+        if ($n !~ \
+        /\\"http:\/\/("\n#~ ")?(www\.)?("\n#~ ")?(gnu|fsf)\.("\n#~ ")?org/ \
+        && $n ~ /\\"http:\/\//) {
+          print;
+          next;
+        }
+      }
+    }
+  }' |
+  sed -e :a -e '/^\n*$/{$d;N;ba}' > /tmp/p && mv /tmp/p $1
+}
+
+function transvalidate () {
+# transforms a PO into HTML and validates the result.
+  echo $po
+  # Strip the extension and the language code from the filename.
+  article=$(echo ${po/.$lang.po/})
+  inactivate_ssi ../www/$article.html /tmp/m
+  add_split_tags /tmp/m
+  # The po4a-translate “k” option, “Minimal threshold for translation
+  # percentage to keep (ie, write) the resulting file”, is set at 50 to
+  # allow proofreading of a partial translation or detection of faulty
+  # strings (the default is 80).
+  po4a-translate -f xhtml -M utf-8 -m /tmp/m -p $po \
+              -k 50 -L utf-8 -l $article.$lang-local.html
+  gnun-validate-html --root="." $article.$lang-local.html
+  update_po_header $po
+  delete_comments $po
+  msgcat -w 79 -o $po $po
+}
+
+## Main
+cd $dir/www-$lang
+if [ -z "$po" ]; then
+  create_valid_list
+  if [ -s ../valid-list ]; then
+    for po in $(cat ../valid-list); do
+      if [ -f "$po" ]; then
+        transvalidate
+      else
+        echo "*** Sorry, there is no file named \"$po\" in www-$lang."
+      fi
+    done
+  else
+    echo "*** Sorry, I can't find any PO to work on."
+    echo "    If you use git, please make sure that
+    none of your changes has been committed."
+  fi
+elif [ -f "$po" ]; then
+  transvalidate
+else
+  echo "*** Sorry, there is no file named \"$po\" in www-$lang."
+fi
+exit
