@@ -329,7 +329,7 @@ function transvalidate () {
 # transforms a PO into HTML and validates the result.
   echo $po
   # Strip the extension and the language code from the filename.
-  article=$(echo ${po/.$lang.po/})
+  article=$(echo ${po/."$lang".po/})
   inactivate_ssi ../www/$article.html /tmp/m
   add_split_tags /tmp/m
   # The po4a-translate “k” option, “Minimal threshold for translation
