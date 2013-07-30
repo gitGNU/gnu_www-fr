@@ -99,6 +99,9 @@ Usage: batch-transvalidate OPTIONS [OPTIONS]
 
 Options and current settings:
 
+  -b  --branch=GIT_BRANCH          [$branch]
+      Specify the git working branch (required if using git)
+
   -d, --dir=/DIREC/TORY            [$dir]
       Specify the absolute path to the common top directory of www
       and www-$lang (required if different from $dir)
@@ -142,6 +145,14 @@ while [ ${params} -ge 1 ]; do
      -V | --version )
     version
     exit 0
+    ;;
+     -b | --branch )
+    shift
+    params=$((${params}-1))
+    branch="$1"
+    ;;
+     --branch=* )
+    branch="${1#--branch=}"
     ;;
      -d | --dir )
     shift
@@ -246,6 +257,8 @@ function create_valid_list () {
     sed -e 's;^RCS file: /webcvs/www/www-'"$lang"'/;;' \
         -e 's;,v$;;' > ../valid-list
   elif [ -d .git ]; then
+    git stash
+    git checkout $branch
     git add .
     git diff --name-only --staged > ../valid-list
   else
