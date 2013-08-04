@@ -73,15 +73,6 @@
 
 ############################################################################
 
-params=$#
-dir=$HOME/GNU
-editor=/usr/bin/editor
-# FIXME: It works on Debian. What about other distributions?
-# editor=$EDITOR didn't work out of the box on Wheezy.
-lang=xx
-po=
-translator="FULL NAME <EMAIL@ADDRESS>"
-
 function version () {
 cat <<EOF
 batch-transvalidate (GNUnited Nations) 0.7
@@ -92,6 +83,30 @@ For more information about these matters, see the file named COPYING.
 EOF
 }
 
+set -e
+set -o pipefail
+
+params=$#
+po=
+
+# Set the permanent parameters from the profile if present, or at least
+# set the default top directory and guess the editor.
+if [ -f $HOME/.config/gnun/profile ]; then
+  source $HOME/.config/gnun/profile
+else
+  branch=
+  dir=$HOME/GNU
+  if [ -f /usr/bin/editor ]; then
+    editor=/usr/bin/editor
+  elif [ -f $EDITOR ]; then
+    editor=$EDITOR
+  else
+    editor=vi
+  fi
+  lang=
+  translator=
+fi
+
 function usage () {
 cat <<EOF
 
@@ -99,41 +114,39 @@ Usage: batch-transvalidate OPTIONS [OPTIONS]
 
 Options and current settings:
 
-  -b  --branch=GIT_BRANCH          [$branch]
-      Specify the git working branch (required if using git)
+  -b  --branch=GIT_BRANCH               [$branch]
+      Specify the git working branch (optional)
 
-  -d, --dir=/DIREC/TORY            [$dir]
+  -d, --dir=/DIREC/TORY                 [$dir]
       Specify the absolute path to the common top directory of www
-      and www-$lang (required if different from $dir)
+      and www-$lang (required)
 
-  -e, --editor=ANOTHER_EDITOR      [$editor]
+  -e, --editor=ANOTHER_EDITOR           [$editor]
       Specify the command-line editor (optional)
 
-  -l, --lang=CODE                  [$lang]
+  -l, --lang=CODE                       [$lang]
       Specify the language code (required)
 
-  -p  --po=PATH/TO/ARTICLE.$lang.po   [$po]
+  -p  --po=PATH/TO/ARTICLE.$lang.po        [$po]
       Do not use a list, specify the path to the PO, relative to
       www-$lang (optional)
 
-  -t, --translator="TRANSLATOR"    [$translator]
-      Specify the name and email address of the translator (required)
+  -t, --translator="FULL NAME <EMAIL>"  [$translator]
+      Specify the name and email address of the translator (optional)
 
-  -V, --version                    Display version info and exit
+  -V, --version                         Display version info and exit
 
-  -h, --help                       Display this help and exit
+  -h, --help                            Display this help and exit
 
-The parameters can be set by defining an alias in .bashrc, such as:
-      alias bt='batch-transvalidate -d /media/Trad/GNU -e vim -l fr
-               -t "Toto Tartempion <toto AT tartempion.net>"'
+The parameters can be specified in a configuration file:
+      $HOME/.config/gnun/profile
+One line per parameter, with syntax: param="VALUE"
 
 Report bugs to bug-gnun@gnu.org
 GNUnited Nations home page: <http://www.gnu.org/software/gnun/>
 General help using GNU software: <http://www.gnu.org/gethelp/>
 EOF
 }
-
-set -o pipefail
 
 # Parse the command line.
 while [ ${params} -ge 1 ]; do
@@ -203,18 +216,35 @@ while [ ${params} -ge 1 ]; do
 done
 
 if [ ${params} -ne 0 ]; then
-  echo 1>&2 "$0: Unrecognized option \"$1\".  See --help for details."
+  echo 1>&2 "*** Unrecognized option “$1”.  See --help for details."
   exit 1
 fi
 
 if [ ! -d "${dir}" ]; then
-  echo 1>&2 "Error: Directory \"$dir\" doesn't exist."
+  echo 1>&2 "*** Error: Directory “$dir” doesn't exist."
   exit 1
 fi
 
-if [ ! -d $dir"/www-"$lang ]; then
-  echo 1>&2 "Error: Directory \"$dir/www-$lang\" doesn't exist."
-  exit 1
+# Try to guess the working directory if the language isn't set correctly.
+if [ ! -d "$dir/www-$lang" ]; then
+  echo -e "*** Directory “$dir/www-$lang” doesn't exist but this one
+    might be your working directory:"
+  cd $dir && ls | grep -m 1 "www-"
+  echo "*** If this is correct, press [Enter]
+    If this is not correct, type your language code, then [Enter]."
+  read choice
+  case "$choice" in
+    "")
+      lang=$(ls | grep "www-" | sed 's,www-,,') 
+      ;;
+    *)
+      lang="$choice"
+      if [ ! -d "www-$lang" ]; then
+        echo 1>&2 "*** Error: “$dir/www-$lang” doesn't exist" 
+        exit 1
+      fi
+      ;;
+  esac
 fi
 
 function check_fuzz () {
@@ -233,7 +263,7 @@ function check_fuzz () {
   if [ -f /tmp/fuzz-report ]; then
     echo "*** One or more files are not up-to-date:"
     cat /tmp/fuzz-report
-    echo "    You are on hold,
+    echo -e "\n*** You are on hold,
     press [Enter] to resume, or any other key to quit."
     read -s -n1 choice
     case "$choice" in
@@ -256,9 +286,12 @@ function create_valid_list () {
     grep "RCS file:" |
     sed -e 's;^RCS file: /webcvs/www/www-'"$lang"'/;;' \
         -e 's;,v$;;' > ../valid-list
-  elif [ -d .git ]; then
-    git stash
-    git checkout $branch
+  elif [ -d .git ] && [ -n "$branch" ]; then
+    current_branch=$(git status | grep "On branch" | sed 's,# On branch ,,')
+    if [ "$current_branch" != "$branch" ]; then
+      git stash
+      git checkout $branch
+    fi
     git add .
     git diff --name-only --staged > ../valid-list
   else
@@ -307,9 +340,10 @@ function add_split_tags () {
 
 function update_po_header () {
 # updates the revision date and the last translator.
-  sed -i \
-  -e 's,\(Revision-Date: \).*,\1'"$(date +"%F %R%z")"'\\n",' \
-  -e 's,\(Last-Translator: \).*,\1'"$translator"'\\n",' $1
+  sed -i 's,\(Revision-Date: \).*,\1'"$(date +"%F %R%z")"'\\n",' $1
+  if [ -n "$translator" ]; then
+    sed -i 's,\(Last-Translator: \).*,\1'"$translator"'\\n",' $1
+  fi
 }
 
 function delete_comments () {
@@ -342,7 +376,7 @@ function transvalidate () {
 # transforms a PO into HTML and validates the result.
   echo $po
   # Strip the extension and the language code from the filename.
-  article=$(echo ${po/."$lang".po/})
+  article=$(echo ${po%."$lang".po})
   inactivate_ssi ../www/$article.html /tmp/m
   add_split_tags /tmp/m
   # The po4a-translate “k” option, “Minimal threshold for translation
@@ -366,7 +400,7 @@ if [ -z "$po" ]; then
       if [ -f "$po" ]; then
         transvalidate
       else
-        echo "*** Sorry, there is no file named \"$po\" in www-$lang."
+        echo "*** Sorry, there is no file named “$po” in www-$lang."
       fi
     done
   else
@@ -377,6 +411,6 @@ if [ -z "$po" ]; then
 elif [ -f "$po" ]; then
   transvalidate
 else
-  echo "*** Sorry, there is no file named \"$po\" in www-$lang."
+  echo "*** Sorry, there is no file named “$po” in www-$lang."
 fi
 exit
