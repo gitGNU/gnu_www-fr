@@ -87,24 +87,15 @@ set -e
 set -o pipefail
 
 params=$#
+branch=
+dir=$HOME/GNU
+lang=
 po=
+translator=
 
-# Set the permanent parameters from the profile if present, or at least
-# set the default top directory and guess the editor.
+# Set the permanent parameters from the profile, if present.
 if [ -f $HOME/.config/gnun/profile ]; then
   source $HOME/.config/gnun/profile
-else
-  branch=
-  dir=$HOME/GNU
-  if [ -f /usr/bin/editor ]; then
-    editor=/usr/bin/editor
-  elif [ -f $EDITOR ]; then
-    editor=$EDITOR
-  else
-    editor=vi
-  fi
-  lang=
-  translator=
 fi
 
 function usage () {
@@ -225,26 +216,48 @@ if [ ! -d "${dir}" ]; then
   exit 1
 fi
 
-# Try to guess the working directory if the language isn't set correctly.
-if [ ! -d "$dir/www-$lang" ]; then
-  echo -e "*** Directory “$dir/www-$lang” doesn't exist but this one
-    might be your working directory:"
-  cd $dir && ls | grep -m 1 "www-"
-  echo "*** If this is correct, press [Enter]
-    If this is not correct, type your language code, then [Enter]."
-  read choice
-  case "$choice" in
-    "")
-      lang=$(ls | grep "www-" | sed 's,www-,,') 
-      ;;
-    *)
-      lang="$choice"
-      if [ ! -d "www-$lang" ]; then
-        echo 1>&2 "*** Error: “$dir/www-$lang” doesn't exist" 
-        exit 1
-      fi
-      ;;
-  esac
+if [ ! -d "${dir}/www" ]; then
+  echo 1>&2 "*** Error: The www directory was not found. Please move it
+    to $dir or install it there and start again."
+  exit 1
+fi
+
+# If “lang” and “editor” aren't set yet, try to guess them.
+if [ -f /usr/bin/editor ]; then
+  editor=/usr/bin/editor
+elif [ -f $EDITOR ]; then
+  editor=$EDITOR
+else
+  editor=vi
+fi
+
+if [ ! -d $dir/www-$lang ]; then
+  echo "*** Trying to guess your language code and working directory..."
+guessed_wdir=$(cd $dir && ls | grep "www-")
+  if [ -n "$guessed_wdir" ]; then
+    echo -e "*** One of these might be your working directory:\n
+$guessed_wdir\n
+*** If the first (or only) possibility is correct, press [Enter]
+    If it is not correct, type your language code, then [Enter]."
+    read choice
+    case "$choice" in
+      "")
+        wdir=$(ls | grep -m 1 "www-")
+        lang=${wdir#www-}
+        ;;
+      *)
+        lang="$choice"
+        if [ ! -d "www-$lang" ]; then
+          echo 1>&2 "*** Error: “$dir/www-$lang” doesn't exist."
+          exit 1
+        fi
+        ;;
+    esac
+  else
+    echo "*** Error: Your working directory was not found. Please move it
+    to $dir or install it there and start again." 1>&2
+    exit 1
+  fi
 fi
 
 function check_fuzz () {
@@ -404,9 +417,9 @@ if [ -z "$po" ]; then
       fi
     done
   else
-    echo "*** Sorry, I can't find any PO to work on."
-    echo "    If you use git, please make sure that
-    none of your changes has been committed."
+    echo "*** Sorry, I can't find any PO to work on.
+    If you use git, please make sure that none of
+    your changes has been committed or stashed."
   fi
 elif [ -f "$po" ]; then
   transvalidate
