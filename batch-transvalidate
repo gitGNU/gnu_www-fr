@@ -122,7 +122,7 @@ Options and current settings:
       Do not use a list, specify the path to the PO, relative to
       www-$lang (optional)
 
-  -t, --translator="FULL NAME <EMAIL>"  [$translator]
+  -t, --translator='Full Name <email>'  [$translator]
       Specify the name and email address of the translator (optional)
 
   -V, --version                         Display version info and exit
@@ -231,10 +231,11 @@ else
   editor=vi
 fi
 
-if [ ! -d $dir/www-$lang ]; then
+cd $dir
+if [ ! -d www-$lang ]; then
   echo "*** Trying to guess your language code and working directory..."
-guessed_wdir=$(cd $dir && ls | grep "www-")
-  if [ -n "$guessed_wdir" ]; then
+guessed_wdir=$(ls | grep "www-")
+  if [ "$guessed_wdir" ]; then
     echo -e "*** One of these might be your working directory:\n
 $guessed_wdir\n
 *** If the first (or only) possibility is correct, press [Enter]
@@ -258,6 +259,22 @@ $guessed_wdir\n
     to $dir or install it there and start again." 1>&2
     exit 1
   fi
+fi
+
+# Create profile if it doesn't exist.
+cd $HOME/.config
+if [ "$lang" ] && [ ! -f gnun/profile ]; then
+  mkdir -p gnun
+  echo -e "branch=$branch\ndir=$HOME/GNU\neditor=$editor\nlang=$lang
+# Suggested format: translator='Full Name <email AT address>'
+translator=$translator" > gnun/profile
+  echo -e "*** A user profile has been created with the known parameters.
+    Do you want edit it now?
+          “Yes” = [Enter]    “No” = any other key\n"
+    read -s -n1 OK
+    if [ -z "$OK" ]; then
+      editor $HOME/.config/gnun/profile
+    fi
 fi
 
 function check_fuzz () {
