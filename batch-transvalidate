@@ -261,7 +261,7 @@ $guessed_wdir\n
   fi
 fi
 
-# Create profile if it doesn't exist.
+# Create a profile if there is none.
 cd $HOME/.config
 if [ "$lang" ] && [ ! -f gnun/profile ]; then
   mkdir -p gnun
@@ -316,10 +316,16 @@ function create_valid_list () {
     grep "RCS file:" |
     sed -e 's;^RCS file: /webcvs/www/www-'"$lang"'/;;' \
         -e 's;,v$;;' > ../valid-list
-  elif [ -d .git ] && [ -n "$branch" ]; then
-    current_branch=$(git status | grep "On branch" | sed 's,# On branch ,,')
-    if [ "$current_branch" != "$branch" ]; then
-      git stash
+  elif [ -d .git ] && [ "$branch" ]; then
+    curr_branch=$(git rev-parse --abbrev-ref HEAD)
+# https://makandracards.com/makandra/12107-git-show-current-branch-name-only
+    if [ "$curr_branch" != "$branch" ]; then
+      git add .
+      staged=$(git diff --name-only --staged)
+      if [ "$staged" ]; then
+        git stash
+        echo -e "\n*** Changes to branch “$curr_branch” have been stashed."
+      fi
       git checkout $branch
     fi
     git add .
@@ -426,21 +432,35 @@ cd $dir/www-$lang
 if [ -z "$po" ]; then
   create_valid_list
   if [ -s ../valid-list ]; then
-    for po in $(cat ../valid-list); do
+    for po in $(< ../valid-list); do
       if [ -f "$po" ]; then
         transvalidate
       else
-        echo "*** Sorry, there is no file named “$po” in www-$lang."
+        echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
       fi
     done
   else
-    echo "*** Sorry, I can't find any PO to work on.
+    echo -e "\n*** Sorry, I can't find any PO to work on.
     If you use git, please make sure that none of
     your changes has been committed or stashed."
   fi
 elif [ -f "$po" ]; then
   transvalidate
 else
-  echo "*** Sorry, there is no file named “$po” in www-$lang."
+  echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
+fi
+if [ "$curr_branch" != "$branch" ]; then
+  git add .
+  if [ "$(git diff --name-only --staged)" ]; then
+    git commit -m "$(date +"%F %T")"
+    echo -e "\n*** Changes to the POs have been commited."
+  fi
+  echo -e "\n*** Go back to the original branch."
+  git checkout $curr_branch
+  if [ "$staged" ]; then
+    echo -e "\n*** Retrieve the stashed changes."
+    git stash pop
+    git add .
+  fi
 fi
 exit
