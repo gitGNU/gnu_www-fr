@@ -405,7 +405,19 @@ function delete_comments () {
       }
     }
   }' |
-  sed -e :a -e '/^\n*$/{$d;N;ba}' > /tmp/p && mv /tmp/p $1
+  sed ':egin /^\n*$/ {$d; N; begin}' > /tmp/p && mv /tmp/p $1
+}
+
+function create_addendum () {
+# creates po4a addenda for translator's notes and translator's credits.
+  echo "PO4A-HEADER:mode=after;position="server/$2.html";beginboundary=^
+<div>" > /tmp/add-$3
+  sed -e '/*GNUN-SLOT: TRANSLATOR.S '"$3"'*/,/#. type: Content of:/!d' \
+      -e '/GNUN-SLOT/d' -e '/^#/d' -e 's/^msgstr "//' \
+      -e ':egin /"$/ {N; s,"\n",,; begin}' \
+      -e 's,\\",",g' -e 's,\\n,\n,g' $1  >> /tmp/add-$3
+  sed -i 's,"$,,' /tmp/add-$3
+  echo '</div>' >> /tmp/add-$3
 }
 
 function transvalidate () {
@@ -415,12 +427,14 @@ function transvalidate () {
   article=$(echo ${po%."$lang".po})
   inactivate_ssi ../www/$article.html /tmp/m
   add_split_tags /tmp/m
+  create_addendum $po footer NOTES
+  create_addendum $po bottom-notes CREDITS
   # The po4a-translate “k” option, “Minimal threshold for translation
   # percentage to keep (ie, write) the resulting file”, is set at 50 to
   # allow proofreading of a partial translation or detection of faulty
   # strings (the default is 80).
-  po4a-translate -f xhtml -M utf-8 -m /tmp/m -p $po \
-              -k 50 -L utf-8 -l $article.$lang-local.html
+  po4a-translate -f xhtml -M utf-8 -m /tmp/m -p $po -k 50 -L utf-8 \
+  -l $article.$lang-local.html -a /tmp/add-NOTES -a /tmp/add-CREDITS
   gnun-validate-html --root="." $article.$lang-local.html
   update_po_header $po
   delete_comments $po
@@ -453,7 +467,7 @@ if [ "$curr_branch" != "$branch" ]; then
   git add .
   if [ "$(git diff --name-only --staged)" ]; then
     git commit -m "$(date +"%F %T")"
-    echo -e "\n*** Changes to the POs have been commited."
+    echo -e "\n*** Changes to branch $branch have been committed."
   fi
   echo -e "\n*** Go back to the original branch."
   git checkout $curr_branch
