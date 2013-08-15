@@ -428,13 +428,13 @@ function transvalidate () {
   inactivate_ssi ../www/$article.html /tmp/m
   add_split_tags /tmp/m
   create_addendum $po footer NOTES
-  create_addendum $po bottom-notes CREDITS
+  create_addendum $po footer CREDITS
   # The po4a-translate “k” option, “Minimal threshold for translation
   # percentage to keep (ie, write) the resulting file”, is set at 50 to
   # allow proofreading of a partial translation or detection of faulty
   # strings (the default is 80).
   po4a-translate -f xhtml -M utf-8 -m /tmp/m -p $po -k 50 -L utf-8 \
-  -l $article.$lang-local.html -a /tmp/add-NOTES -a /tmp/add-CREDITS
+  -l $article.$lang-local.html -a /tmp/add-CREDITS -a /tmp/add-NOTES
   gnun-validate-html --root="." $article.$lang-local.html
   update_po_header $po
   delete_comments $po
