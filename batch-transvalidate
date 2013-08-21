@@ -232,7 +232,7 @@ else
 fi
 
 cd $dir
-if [ ! -d www-$lang ]; then
+if [ ! -d "www-$lang" ]; then
   echo "*** Trying to guess your language code and working directory..."
 guessed_wdir=$(ls | grep "www-")
   if [ "$guessed_wdir" ]; then
@@ -317,14 +317,17 @@ function create_valid_list () {
     sed -e 's;^RCS file: /webcvs/www/www-'"$lang"'/;;' \
         -e 's;,v$;;' > ../valid-list
   elif [ -d .git ] && [ "$branch" ]; then
+    # What follows is for fuzzy heads who launch a script from the dashboard
+    # without checking which branch they are on.
     curr_branch=$(git rev-parse --abbrev-ref HEAD)
 # https://makandracards.com/makandra/12107-git-show-current-branch-name-only
     if [ "$curr_branch" != "$branch" ]; then
       git add .
       staged=$(git diff --name-only --staged)
       if [ "$staged" ]; then
-        git stash
-        echo -e "\n*** Changes to branch “$curr_branch” have been stashed."
+        git commit -m "$(date +"%F %T")"
+        echo -e "\n*** Changes to branch “$curr_branch” have been committed.
+    You may want to amend the commit whenever you come back."
       fi
       git checkout $branch
     fi
@@ -421,7 +424,8 @@ function create_addendum () {
 
 function transvalidate () {
 # transforms a PO into HTML and validates the result.
-  echo $po
+  interm_exit_code=0
+  echo -e "\n=== $po"
   # Strip the extension and the language code from the filename.
   article=$(echo ${po%."$lang".po})
   inactivate_ssi ../www/$article.html /tmp/m
@@ -432,19 +436,28 @@ function transvalidate () {
   # percentage to keep (ie, write) the resulting file”, is set at 50 to
   # allow proofreading of a partial translation or detection of faulty
   # strings (the default is 80).
+  rm -f $article.$lang-local.html
   po4a-translate -f xhtml -M utf-8 -m /tmp/m -p $po -k 50 -L utf-8 \
   -l $article.$lang-local.html -a /tmp/add-CREDITS -a /tmp/add-NOTES
+  [ "$?" = "0" ] || interm_exit_code=$?
   gnun-validate-html --root="." $article.$lang-local.html
-  update_po_header $po
-  delete_comments $po
-  msgcat -w 79 -o $po $po
+  [ "$?" = "0" ] || interm_exit_code=$?
+  msgcat -w 79 -o $po $po; [ "$?" = "0" ] || interm_exit_code=$?
+  if [ "$interm_exit_code" = "0" ]; then
+    delete_comments $po
+    update_po_header $po
+  else
+    final_exit_code=$interm_exit_code
+  fi
 }
 
 ## Main
 cd $dir/www-$lang
+final_exit_code=0
 if [ -z "$po" ]; then
   create_valid_list
   if [ -s ../valid-list ]; then
+    set +e
     for po in $(< ../valid-list); do
       if [ -f "$po" ]; then
         transvalidate
@@ -452,28 +465,28 @@ if [ -z "$po" ]; then
         echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
       fi
     done
+    set -e
   else
     echo -e "\n*** Sorry, I can't find any PO to work on.
     If you use git, please make sure that none of
     your changes has been committed or stashed."
   fi
 elif [ -f "$po" ]; then
+  set +e
   transvalidate
+  set -e
 else
   echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
 fi
-if [ "$curr_branch" != "$branch" ]; then
+if [ "$final_exit_code" = "0" ]; then
   git add .
   if [ "$(git diff --name-only --staged)" ]; then
-    git commit -m "$(date +"%F %T")"
-    echo -e "\n*** Changes to branch $branch have been committed."
+    git commit -m "$(date +"%d-%m-%y %T")"
+    echo -e "\n*** Changes to branch $branch have been committed.
+    You may want to amend the commit and reword the message."
   fi
-  echo -e "\n*** Go back to the original branch."
-  git checkout $curr_branch
-  if [ "$staged" ]; then
-    echo -e "\n*** Retrieve the stashed changes."
-    git stash pop
-    git add .
-  fi
+else
+    echo -e "\n*** One (or more) of your POs needs fixing.
+    Your changes stay in the staging area for the time being."
 fi
-exit
+exit $final_exit_code
