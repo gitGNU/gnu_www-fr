@@ -225,7 +225,7 @@ fi
 # If “lang” and “editor” aren't set yet, try to guess them.
 if [ -f /usr/bin/editor ]; then
   editor=/usr/bin/editor
-elif [ -f $EDITOR ]; then
+elif [ -n "$EDITOR" ] && [ -f $EDITOR ]; then
   editor=$EDITOR
 else
   editor=vi
@@ -235,7 +235,7 @@ cd $dir
 if [ ! -d "www-$lang" ]; then
   echo "*** Trying to guess your language code and working directory..."
 guessed_wdir=$(ls | grep "www-")
-  if [ "$guessed_wdir" ]; then
+  if [ -n "$guessed_wdir" ]; then
     echo -e "*** One of these might be your working directory:\n
 $guessed_wdir\n
 *** If the first (or only) possibility is correct, press [Enter]
@@ -263,7 +263,7 @@ fi
 
 # Create a profile if there is none.
 cd $HOME/.config
-if [ "$lang" ] && [ ! -f gnun/profile ]; then
+if [ -n "$lang" ] && [ ! -f gnun/profile ]; then
   mkdir -p gnun
   echo -e "branch=$branch\ndir=$HOME/GNU\neditor=$editor\nlang=$lang
 # Suggested format: translator='Full Name <email AT address>'
@@ -315,7 +315,7 @@ function create_valid_list () {
     grep "RCS file:" |
     sed -e 's;^RCS file: /webcvs/www/www-'"$lang"'/;;' \
         -e 's;,v$;;' > ../valid-list
-  elif [ -d .git ] && [ "$branch" ]; then
+  elif [ -d .git ] && [ -n "$branch" ]; then
     # What follows is for fuzzy heads who launch a script from the dashboard
     # without checking which branch they are on.
     curr_branch=$(git rev-parse --abbrev-ref HEAD)
@@ -323,7 +323,7 @@ function create_valid_list () {
     if [ "$curr_branch" != "$branch" ]; then
       git add .
       staged=$(git diff --name-only --staged )
-      if [ "$staged" ]; then
+      if [ -n "$staged" ]; then
         git commit -m "$(date +"%F %T")"
         echo -e "\n*** Changes to branch “$curr_branch” have been committed.
     You may want to amend the commit whenever you come back."
@@ -462,7 +462,7 @@ if [ -z "$po" ]; then
   if [ -s ../valid-list ]; then
     set +e
     for po in $(< ../valid-list); do
-      if [ -f "$po" ]; then
+      if [ -n "$po" ] && [ -f "$po" ]; then
         transvalidate
       else
         echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
@@ -483,7 +483,7 @@ else
 fi
 if [ "$final_exit_code" = "0" ]; then
   git add .
-  if [ "$(git diff --name-only --staged)" ]; then
+  if [ -n "$(git diff --name-only --staged)" ]; then
     git commit -m "$(date +"%d-%m-%y %T")"
     echo -e "\n*** Changes to branch $branch have been committed.
     You may want to amend the commit and reword the message."
