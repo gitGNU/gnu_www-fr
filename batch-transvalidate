@@ -441,11 +441,11 @@ function transvalidate () {
   # strings (the default is 80).
   rm -f $article.$lang-local.html
   po4a-translate -f xhtml -M utf-8 -m /tmp/m -p $po -k 50 -L utf-8 \
-  -l $article.$lang-local.html -a /tmp/add-CREDITS -a /tmp/add-NOTES
-  [ "$?" = "0" ] || interm_exit_code=$?
-  gnun-validate-html --root="." $article.$lang-local.html
-  [ "$?" = "0" ] || interm_exit_code=$?
-  msgcat -w 79 -o $po $po; [ "$?" = "0" ] || interm_exit_code=$?
+  -l $article.$lang-local.html -a /tmp/add-CREDITS -a /tmp/add-NOTES \
+  || interm_exit_code=$?
+  gnun-validate-html --root="." $article.$lang-local.html \
+  || interm_exit_code=$?
+  msgcat -w 79 -o $po $po || interm_exit_code=$?
   if [ "$interm_exit_code" = "0" ]; then
     delete_comments $po
     update_po_header $po
@@ -460,7 +460,6 @@ final_exit_code=0
 if [ -z "$po" ]; then
   create_valid_list
   if [ -s ../valid-list ]; then
-    set +e
     while read po; do
       if [ -n "$po" ] && [ -f "$po" ]; then
         transvalidate
@@ -468,16 +467,13 @@ if [ -z "$po" ]; then
         echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
       fi
     done < ../valid-list
-    set -e
   else
     echo -e "\n*** Sorry, I can't find any PO to work on.
     If you use git, please make sure that none of
     your changes has been committed or stashed."
   fi
 elif [ -f "$po" ]; then
-  set +e
   transvalidate
-  set -e
 else
   echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
 fi
