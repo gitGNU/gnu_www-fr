@@ -278,20 +278,20 @@ translator=$translator" > gnun/profile
 fi
 
 function check_fuzz () {
-  rm -f /tmp/fuzz-report
+  rm -f fuzz-report
   for f in $(find * -name \*.po); do
      # Check for fuzzy strings.
      if grep -q '^#, fuzzy' $f; then
-       echo "$f is still fuzzy" >> /tmp/fuzz-report
+       echo "$f is still fuzzy" >> fuzz-report
      fi
      # Check for untranslated strings.
      if sed -n '/^msgstr ""[[:space:]]*$/ {N;/\n[[:space:]]*$/p}' $f | grep -q msgstr; then
-       echo "$f is not completely translated" >> /tmp/fuzz-report
+       echo "$f is not completely translated" >> fuzz-report
      fi
   done
-  if [ -f /tmp/fuzz-report ]; then
+  if [ -f fuzz-report ]; then
     echo "*** One or more files are not up-to-date:"
-    cat /tmp/fuzz-report
+    cat fuzz-report
     echo -e "\n*** You are on hold,
     press [Enter] to resume, or any other key to quit."
     read -s -n1 choice
@@ -411,18 +411,18 @@ function delete_comments () {
       }
     }
   }' |
-  sed ':egin /^\n*$/ {$d; N; begin}' > /tmp/p && mv /tmp/p $1
+  sed ':egin /^\n*$/ {$d; N; begin}' > p && mv p $1
 }
 
 function create_addendum () {
 # creates po4a addenda for translator's notes and translator's credits.
-  echo "PO4A-HEADER:mode=after;position=$3;beginboundary=^" > /tmp/add-$2
+  echo "PO4A-HEADER:mode=after;position=$3;beginboundary=^" > add-$2
   sed -e '/*GNUN-SLOT: TRANSLATOR.S '"$2"'*/,/#. type: Content of:/!d' \
       -e '/GNUN-SLOT/d' -e '/^#/d' -e 's/^msgstr "//' \
       -e ':egin /"$/ {N; s,"\n",,; begin}' \
-      -e 's,\\",",g' -e 's,\\n,\n,g' $1  >> /tmp/add-$2
-  sed -i 's,"$,,' /tmp/add-$2
-  echo '<br /><br />' >> /tmp/add-$2
+      -e 's,\\",",g' -e 's,\\n,\n,g' $1  >> add-$2
+  sed -i 's,"$,,' add-$2
+  echo '<br /><br />' >> add-$2
 }
 
 function transvalidate () {
@@ -431,8 +431,8 @@ function transvalidate () {
   echo -e "\n=== $po"
   # Strip the extension and the language code from the filename.
   article=$(echo ${po%."$lang".po})
-  inactivate_ssi ../www/$article.html /tmp/m
-  add_split_tags /tmp/m
+  inactivate_ssi ../www/$article.html /m
+  add_split_tags m
   create_addendum $po NOTES 'footer.html"'
   create_addendum $po CREDITS 'timestamp start'
   # The po4a-translate “k” option, “Minimal threshold for translation
@@ -440,8 +440,8 @@ function transvalidate () {
   # allow proofreading of a partial translation or detection of faulty
   # strings (the default is 80).
   rm -f $article.$lang-local.html
-  po4a-translate -f xhtml -M utf-8 -m /tmp/m -p $po -k 50 -L utf-8 \
-  -l $article.$lang-local.html -a /tmp/add-CREDITS -a /tmp/add-NOTES \
+  po4a-translate -f xhtml -M utf-8 -m m -p $po -k 50 -L utf-8 \
+  -l $article.$lang-local.html -a add-CREDITS -a add-NOTES \
   || interm_exit_code=$?
   gnun-validate-html --root="." $article.$lang-local.html \
   || interm_exit_code=$?
@@ -488,4 +488,8 @@ else
     echo -e "\n*** One (or more) of your POs needs fixing.
     Your changes stay in the staging area for the time being."
 fi
+
+# Clean up.
+rm -f fuzz-report p m add-CREDITS add-NOTES
+
 exit $final_exit_code
