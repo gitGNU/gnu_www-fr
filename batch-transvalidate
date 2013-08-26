@@ -335,7 +335,7 @@ function create_valid_list () {
   else
     if [ ! -f ../gnun-report.txt ]; then
       echo -e "*** Synchronize www-$lang with www and save gnun's report."
-make sync && make report > ../gnun-report.txt
+      make sync && make report > ../gnun-report.txt
     fi
     sed -e "/\\.$lang\\.po/!d" \
         -e 's/:[^:]*//' ../gnun-report.txt > ../valid-list
