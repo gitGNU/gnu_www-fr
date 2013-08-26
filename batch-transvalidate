@@ -89,7 +89,9 @@ set -o pipefail
 params=$#
 branch=
 dir=$HOME/GNU
+editor=
 lang=
+message=
 po=
 translator=
 
@@ -112,11 +114,15 @@ Options and current settings:
       Specify the absolute path to the common top directory of www
       and www-$lang (required)
 
-  -e, --editor=ANOTHER_EDITOR           [$editor]
+  -e, --editor=PREFERRED_EDITOR           [$editor]
       Specify the command-line editor (optional)
 
   -l, --lang=CODE                       [$lang]
       Specify the language code (required)
+
+  -m, --message="COMMIT MESSAGE"        [$message]
+      Specify a commit message, such as "Update", "Proofreading by...",
+      "New translation by...", etc. (optional)
 
   -p  --po=PATH/TO/ARTICLE.$lang.po        [$po]
       Do not use a list, specify the path to the PO, relative to
@@ -181,6 +187,19 @@ while [ ${params} -ge 1 ]; do
     ;;
      --lang=* )
     lang="${1#--lang=}"
+    ;;
+     -m | --message )
+    shift
+    params=$((${params}-1))
+    message="$1"
+    ;;
+     --message=* )
+    message="${1#--message=}"
+    ;;
+     -p | --po )
+    shift
+    params=$((${params}-1))
+    po="$1"
     ;;
      -p | --po )
     shift
@@ -268,9 +287,28 @@ fi
 cd $HOME/.config
 if [ -n "$lang" ] && [ ! -f gnun/profile ]; then
   mkdir -p gnun
-  echo -e "branch=$branch\ndir=$HOME/GNU\neditor=$editor\nlang=$lang
-# Suggested format: translator='Full Name <email AT address>'
-translator=$translator" > gnun/profile
+cat > gnun/profile <<EOF
+# Configuration file for batch-transvalidate
+
+# Parameter values should be quoted if they contain spaces (double-quoted
+# if they contain a variable), and there should be no space before, and no
+# space after, the “=” sign.
+
+lang=$lang
+dir=$HOME/GNU
+branch=$branch
+editor=$editor
+
+translator=
+# Leave blank if you don't want to update the 'Last-Translator' field in
+# the PO header. Otherwise, "translator" should be the same as in your PO
+# editor, e.g.: translator="Full Name <email AT address>"
+
+# Default commit messages:
+message1=
+message2=
+message3=
+EOF
   echo -e "*** A user profile has been created with the known parameters.
     Do you want edit it now?
           “Yes” = [Enter]    “No” = any other key\n"
@@ -439,6 +477,7 @@ function transvalidate () {
   add_split_tags m
   create_addendum $po NOTES 'footer.html"'
   create_addendum $po CREDITS 'timestamp start'
+
   # The po4a-translate “k” option, “Minimal threshold for translation
   # percentage to keep (ie, write) the resulting file”, is set at 50 to
   # allow proofreading of a partial translation or detection of faulty
@@ -450,6 +489,7 @@ function transvalidate () {
   gnun-validate-html --root="." $article.$lang-local.html \
   || interm_exit_code=$?
   msgcat -w 79 -o $po $po || interm_exit_code=$?
+
   if [ "$interm_exit_code" = "0" ]; then
     delete_comments $po
     update_po_header $po
@@ -458,9 +498,34 @@ function transvalidate () {
   fi
 }
 
+function select_message () {
+# lets the user select a commit message among 3 defaults.
+  echo "*** Please select a commit message:
+        [1] $message1
+        [2] $message2
+        [3] $message3"
+  read -s -n1 choice
+  case "$choice" in
+    1)
+      message=$message1
+    ;;
+    2)
+      message=$message2
+    ;;
+    3)
+      message=$message3
+    ;;
+    *)
+      message=
+    ;;
+  esac
+}
+
 ## Main
+
 cd $dir/www-$lang
 final_exit_code=0
+
 if [ -z "$po" ]; then
   create_valid_list
   if [ -s ../valid-list ]; then
@@ -476,20 +541,29 @@ if [ -z "$po" ]; then
     If you use git, please make sure that none of
     your changes has been committed or stashed."
   fi
+
 elif [ -f "$po" ]; then
   transvalidate
+
 else
   echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
 fi
-if [ "$final_exit_code" = "0" ]; then
+
+# [Git only] If valid, the POs are committed to the local repo.
+if [ "$final_exit_code" = "0" ] && [ -d .git ]; then
   git add .
-  if [ -n "$(git diff --name-only --staged)" ]; then
-    git commit -m "$(date +"%d-%m-%y %T")"
-    echo -e "\n*** Changes to branch $branch have been committed.
-    You may want to amend the commit and reword the message."
+  if [ "$(git diff --name-only --staged)" ]; then
+    [ -z "$message" ] && select_message
+    echo "$message"
+    git commit -m "$message"
+    if (( $? == 0 )); then
+      echo -e "\n*** Changes to branch $branch have been committed."
+    else       # Addition to the Git error message:
+      echo -e "\n*** ... but the POs are OK."
+    fi
   fi
 else
-    echo -e "\n*** One (or more) of your POs needs fixing.
+    echo -e "\n*** One (or more) of the POs need fixing.
     Your changes stay in the staging area for the time being."
 fi
 
