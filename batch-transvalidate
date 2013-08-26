@@ -507,11 +507,12 @@ function transvalidate () {
 }
 
 function select_message () {
-# lets the user select a commit message among 3 defaults.
+# lets the user select a message from the configuration file.
   echo "*** Please select a commit message:
         [1] $message1
         [2] $message2
-        [3] $message3"
+        [3] $message3
+      [other key] none"
   read -s -n1 choice
   case "$choice" in
     1)
