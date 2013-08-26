@@ -322,7 +322,7 @@ function create_valid_list () {
 # https://makandracards.com/makandra/12107-git-show-current-branch-name-only
     if [ "$curr_branch" != "$branch" ]; then
       git add .
-      staged=$(git diff --name-only --staged)
+      staged=$(git diff --name-only --staged )
       if [ "$staged" ]; then
         git commit -m "$(date +"%F %T")"
         echo -e "\n*** Changes to branch “$curr_branch” have been committed.
