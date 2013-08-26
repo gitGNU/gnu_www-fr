@@ -295,7 +295,8 @@ fi
 cd $HOME/.config
 if [ -n "$lang" ] && [ ! -f gnun/profile ]; then
   mkdir -p gnun
-cat > gnun/profile <<EOF
+
+  cat > gnun/profile <<EOF
 # Configuration file for batch-transvalidate
 
 # Parameter values should be quoted if they contain spaces (double-quoted
@@ -317,26 +318,28 @@ message1=
 message2=
 message3=
 EOF
+
   echo -e "*** A user profile has been created with the known parameters.
-    Do you want edit it now?
+    Would you like to edit it now?
           “Yes” = [Enter]    “No” = any other key\n"
-    read -s -n1 OK
-    if [ -z "$OK" ]; then
-      editor $HOME/.config/gnun/profile
-    fi
+  read -s -n1 OK
+  if [ -z "$OK" ]; then
+    editor $HOME/.config/gnun/profile
+  fi
 fi
 
 function check_fuzz () {
   rm -f ../fuzz-report
   for f in $(find * -name \*.po); do
-     # Check for fuzzy strings.
-     if grep -q '^#, fuzzy' $f; then
-       echo "$f is still fuzzy" >> ../fuzz-report
-     fi
-     # Check for untranslated strings.
-     if sed -n '/^msgstr ""[[:space:]]*$/ {N;/\n[[:space:]]*$/p}' $f | grep -q msgstr; then
-       echo "$f is not completely translated" >> ../fuzz-report
-     fi
+    # Check for fuzzy strings.
+    if grep -q '^#, fuzzy' $f; then
+      echo "$f is still fuzzy" >> ../fuzz-report
+    fi
+    # Check for untranslated strings.
+    if sed -n '/^msgstr ""[[:space:]]*$/ {N;/\n[[:space:]]*$/p}' $f \
+    | grep -q msgstr; then
+      echo "$f is not completely translated" >> ../fuzz-report
+    fi
   done
   if [ -f ../fuzz-report ]; then
     echo "*** One or more files are not up-to-date:"
@@ -359,11 +362,13 @@ function create_valid_list () {
 # creates a list of transvalidation candidates and displays it for edition.
 # FIXME: The best method depends on the team's workflow.
   check_fuzz
+
   if [ -d CVS ]; then
     cvs -nq diff |
     grep "RCS file:" |
     sed -e "s;^RCS file: /webcvs/www/www-$lang/;;" \
         -e 's;,v$;;' > ../valid-list
+
   elif [ -d .git ] && [ -n "$branch" ]; then
     # What follows is for fuzzy heads who launch a script from the dashboard
     # without checking which branch they are on.
@@ -381,6 +386,7 @@ function create_valid_list () {
     fi
     git add .
     git diff --name-only --staged > ../valid-list
+
   else
     if [ ! -f ../gnun-report.txt ]; then
       echo -e "*** Synchronize www-$lang with www and save gnun's report."
@@ -569,13 +575,13 @@ if [ "$final_exit_code" = "0" ] && [ -d .git ]; then
       git commit -m "$message" || git_exit_code=$?
     fi
     if [ -n "$git_exit_code" ]; then  # Addition to the Git error message:
-      echo -e "\n*** ... but the POs seem OK."
+      echo "*** ... but the POs seem OK."
     else
       echo -e "\n*** Changes to branch $branch have been committed."
     fi
   fi
 else
-    echo -e "\n*** One (or more) of the POs need fixing.
+  echo -e "\n*** One (or more) of the POs need fixing.
     Your changes stay in the staging area for the time being."
 fi
 
