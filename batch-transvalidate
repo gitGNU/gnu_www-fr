@@ -382,7 +382,8 @@ function add_split_tags () {
 
 function update_po_header () {
 # updates the revision date and the last translator.
-  sed -i -e "s,\\(Revision-Date: \\).*,\\1$(date +'%F %R%z')\\\\n\"," $1
+  date=$(date +'%F %R%z')
+  sed -i -e "s,\\(Revision-Date: \\).*,\\1$date\\\\n\"," $1
   if [ -n "$translator" ]; then
     sed -i -e "s,\\(Last-Translator: \\).*,\\1$translator\\\\n\"," $1
   fi
