@@ -281,12 +281,11 @@ function check_fuzz () {
   rm -f /tmp/fuzz-report
   for f in $(find * -name \*.po); do
      # Check for fuzzy strings.
-     if [[ "$(grep '#, fuzzy' $f)" != "" ]]; then
+     if grep -q '^#, fuzzy' $f; then
        echo "$f is still fuzzy" >> /tmp/fuzz-report
      fi
      # Check for untranslated strings.
-     if [[ $(sed -n '/msgstr ""[[:space:]]*$/ {N;/\n[[:space:]]*$/p}' \
-     $f) != "" ]]; then
+     if sed -n '/msgstr ""[[:space:]]*$/ {N;/\n[[:space:]]*$/p}' $f | grep -q msgstr; then
        echo "$f is not completely translated" >> /tmp/fuzz-report
      fi
   done
@@ -348,7 +347,8 @@ function inactivate_ssi () {
 # adds a minimal HTML header and the missing tags, then inactivates the SSI
 # directives.
   read -r firstline < $1
-  if [[ $firstline =~ "server/header.html" ]]; then
+  case $firstline in
+    *server/header.html*)
     cat - $1 > $2 << EOF
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -356,16 +356,19 @@ function inactivate_ssi () {
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 EOF
-  elif [[ $firstline =~ "server/html5-header.html" ]]; then
+    ;;
+    *server/html5-header.html*)
     cat - $1 > $2 << EOF
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="$lang" lang="$lang">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 EOF
-  else
+    ;;
+    *)
     echo "*** $1 has no header-include."
-  fi
+    ;;
+  esac
   sed -i -e '/server\/banner\.html"/c</head><body><div><div>' \
          -e 's/<!--#/<!-- /g' $2
 }
