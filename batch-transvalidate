@@ -228,7 +228,7 @@ if [ -f /usr/bin/editor ]; then
 elif [ -n "$EDITOR" ] && [ -f $EDITOR ]; then
   editor=$EDITOR
 else
-  editor=vi
+  editor=emacs
 fi
 
 cd $dir
