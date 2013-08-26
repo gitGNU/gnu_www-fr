@@ -461,13 +461,13 @@ if [ -z "$po" ]; then
   create_valid_list
   if [ -s ../valid-list ]; then
     set +e
-    for po in $(< ../valid-list); do
+    while read po; do
       if [ -n "$po" ] && [ -f "$po" ]; then
         transvalidate
       else
         echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
       fi
-    done
+    done < ../valid-list
     set -e
   else
     echo -e "\n*** Sorry, I can't find any PO to work on.
