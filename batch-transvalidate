@@ -10,12 +10,15 @@
 
 # Principle
 
-# PO transvalidation by the standard method (using the www GNUmakefile)
-# often regenerates the POT and plays havoc with later synchronizations of
-# www with the CVS repository. To avoid that, the POs are updated/modified
-# in www-lang and the translated page is built in the same directory with
-# po4a (without POT regeneration), then the translated page is validated
-# with gnun-validate-html.
+# This script aims to make life easier for the average translator who works
+# with PO files and would like to generate HTML pages for proofreading and
+# validation, without going through the standard GNUmakefile process.
+# Indeed, PO transvalidation by the standard method often regenerates the
+# POT and plays havoc with later synchronizations of www with the CVS
+# repository. To bypass the GNUmakefile, the POs are updated/modified in
+# www-lang and the translated page is built in the same directory with po4a
+# (without POT regeneration), then the translated page is validated with
+# gnun-validate-html and reformatted.
 
 # The script is interactive. The input can be either a single PO or a list
 # that the script creates by detecting the modified POs.
@@ -24,30 +27,35 @@
 
 #    - www and www-lang have a common top directory.
 #    - www is synchronized with its CVS repository and hasn't been
-#      “polluted” by previous PO regenerations by the standard method.
-#    - if www-lang is a git repository, the changes must be either unstaged,
+#      “polluted” by previous transvalidations by the standard method.
+#    - if www-lang is a Git repository, the changes must be either unstaged,
 #      or staged for commit.
 
 # What the script does
 
-# 1. It helps prepare the list of POs to transvalidate:
+# 1. It helps the user create a configuration file (this could be done with
+#    Debconf some day).
+# 2. It helps prepare the list of POs to transvalidate:
 #    - it checks for remaining fuzzy or untranslated strings in www-lang and
 #      stops if it finds any, to let the user choose what to do next;
 #    - it lists the files that have been modified locally in www-lang,
 #      by using either “cvs -nq diff” + a filter, or “git diff --name-only
 #      --staged”, or else GNUN's report + a filter; the list can be amended
-#      by hand; alternatively, a single PO can be specified on the command
+#      by hand; alternatively, a single PO can be specified in the command
 #      line.
-# 2. For each item in the list:
+# 3. For each item in the list:
 #    - a simplified header is added to the master document, as well as
 #      the missing tags, then the SSI directives are inactivated to
 #      avoid problems with the includes (it did happen at least once);
 #    - to make proofreading of the HTML easier, the “GNUN-split” tags of the
 #      template are replaced with <br />\n/*split*/\n<br />;
-#    - the translated page is regenerated with po4a-translate;
+#    - the translated page is generated with po4a-translate;
 #    - the page is validated with gnun-validate-html;
-#    - the PO header is updated, the comments removed, and the PO
-#      reformatted.
+#    - it is reformatted with msgcat;
+#    - the PO header is updated and the comments removed.
+# 4. When www-lang is under Git control, the batch of POs is committed
+#    locally if all of them are valid. This could also be done with CVS,
+#    but then it would be more difficult to revert the commit.
 
 # The options and current parameters are displayed by:
 #      batch-transvalidate -h
@@ -108,13 +116,13 @@ Usage: batch-transvalidate OPTIONS [OPTIONS]
 Options and current settings:
 
   -b  --branch=GIT_BRANCH               [$branch]
-      Specify the git working branch (optional)
+      Specify the Git working branch (optional)
 
   -d, --dir=/DIREC/TORY                 [$dir]
       Specify the absolute path to the common top directory of www
       and www-$lang (required)
 
-  -e, --editor=PREFERRED_EDITOR           [$editor]
+  -e, --editor=PREFERRED_EDITOR         [$editor]
       Specify the command-line editor (optional)
 
   -l, --lang=CODE                       [$lang]
@@ -538,7 +546,7 @@ if [ -z "$po" ]; then
     done < ../valid-list
   else
     echo -e "\n*** Sorry, I can't find any PO to work on.
-    If you use git, please make sure that none of
+    If you use Git, please make sure that none of
     your changes has been committed or stashed."
   fi
 
