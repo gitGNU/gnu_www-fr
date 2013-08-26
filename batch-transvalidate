@@ -435,7 +435,7 @@ function transvalidate () {
   echo -e "\n=== $po"
   # Strip the extension and the language code from the filename.
   article=$(echo ${po%."$lang".po})
-  inactivate_ssi ../www/$article.html /m
+  inactivate_ssi ../www/$article.html m
   add_split_tags m
   create_addendum $po NOTES 'footer.html"'
   create_addendum $po CREDITS 'timestamp start'
