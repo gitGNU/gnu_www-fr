@@ -285,7 +285,7 @@ function check_fuzz () {
        echo "$f is still fuzzy" >> /tmp/fuzz-report
      fi
      # Check for untranslated strings.
-     if sed -n '/msgstr ""[[:space:]]*$/ {N;/\n[[:space:]]*$/p}' $f | grep -q msgstr; then
+     if sed -n '/^msgstr ""[[:space:]]*$/ {N;/\n[[:space:]]*$/p}' $f | grep -q msgstr; then
        echo "$f is not completely translated" >> /tmp/fuzz-report
      fi
   done
@@ -313,7 +313,7 @@ function create_valid_list () {
   if [ -d CVS ]; then
     cvs -nq diff |
     grep "RCS file:" |
-    sed -e 's;^RCS file: /webcvs/www/www-'"$lang"'/;;' \
+    sed -e "s;^RCS file: /webcvs/www/www-$lang/;;" \
         -e 's;,v$;;' > ../valid-list
   elif [ -d .git ] && [ -n "$branch" ]; then
     # What follows is for fuzzy heads who launch a script from the dashboard
@@ -335,9 +335,9 @@ function create_valid_list () {
   else
     if [ ! -f ../gnun-report.txt ]; then
       echo -e "*** Synchronize www-$lang with www and save gnun's report."
-      make sync && make report > ../gnun-report.txt
+make sync && make report > ../gnun-report.txt
     fi
-    sed -e '/\.'"$lang"'\.po/!d' \
+    sed -e "/\\.$lang\\.po/!d" \
         -e 's/:[^:]*//' ../gnun-report.txt > ../valid-list
   fi
   $editor ../valid-list
@@ -382,16 +382,16 @@ function add_split_tags () {
 
 function update_po_header () {
 # updates the revision date and the last translator.
-  sed -i 's,\(Revision-Date: \).*,\1'"$(date +"%F %R%z")"'\\n",' $1
+  sed -i -e "s,\\(Revision-Date: \\).*,\\1$(date +'%F %R%z')\\\\n\"," $1
   if [ -n "$translator" ]; then
-    sed -i 's,\(Last-Translator: \).*,\1'"$translator"'\\n",' $1
+    sed -i -e "s,\\(Last-Translator: \\).*,\\1$translator\\\\n\"," $1
   fi
 }
 
 function delete_comments () {
 # removes useless comments (outdated messages that contain links outside
 # gnu.org and fsf.org are kept).
-  sed -e '/Outdated-Since/d' -e '/# |/d' -e '/#|/d' $1 |
+  sed -e '/^"Outdated-Since/d' -e '/^# |/d' -e '/^#|/d' $1 |
   awk 'BEGIN {
   FS = " ";
   RS = ORS = "\n\n";
