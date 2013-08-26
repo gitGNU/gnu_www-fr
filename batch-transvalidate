@@ -372,10 +372,14 @@ function create_valid_list () {
   elif [ -d .git ] && [ -n "$branch" ]; then
     # What follows is for fuzzy heads who launch a script from the dashboard
     # without checking which branch they are on.
+
     curr_branch=$(git rev-parse --abbrev-ref HEAD)
 # https://makandracards.com/makandra/12107-git-show-current-branch-name-only
+
     if [ "$curr_branch" != "$branch" ]; then
-      git add .
+      # Commit the staged changes, otherwise git will refuse to switch
+      # to another branch. But don't add anything because what is unstaged
+      # may be what we want to transvalidate. O_o
       staged=$(git diff --name-only --staged )
       if [ -n "$staged" ]; then
         git commit -m "$(date +"%F %T")"
@@ -384,6 +388,7 @@ function create_valid_list () {
       fi
       git checkout $branch
     fi
+
     git add .
     git diff --name-only --staged > ../valid-list
 
