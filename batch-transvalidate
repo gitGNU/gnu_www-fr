@@ -508,13 +508,10 @@ function transvalidate () {
   gnun-validate-html --root="." $article.$lang-local.html \
   || interm_exit_code=$?
   msgcat -w 79 -o $po $po || interm_exit_code=$?
+  [ "$interm_exit_code" = "0" ] || final_exit_code=$interm_exit_code
 
-  if [ "$interm_exit_code" = "0" ]; then
-    delete_comments $po
-    update_po_header $po
-  else
-    final_exit_code=$interm_exit_code
-  fi
+  delete_comments $po
+  update_po_header $po
 }
 
 function select_message () {
@@ -569,29 +566,34 @@ else
   echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
 fi
 
-# [Git only] If valid, the POs are committed to the local repo.
-if [ "$final_exit_code" = "0" ] && [ -d .git ]; then
-  git add .
-  if [ "$(git diff --name-only --staged)" ]; then
-    [ -z "$message" ] && select_message
-    if [ -z "$message" ]; then
-      git commit || git_exit_code=$?
-    else
-      git commit -m "$message" || git_exit_code=$?
+if [ "$final_exit_code" = "0" ]; then
+
+  # [Git only] Commit the POs to the local repo.
+  if [ -d .git ]; then
+    git add .
+    if [ "$(git diff --name-only --staged)" ]; then
+      [ -z "$message" ] && select_message
+      if [ -z "$message" ]; then
+        git commit || git_exit_code=$?
+      else
+        git commit -m "$message" || git_exit_code=$?
+      fi
+      if [ -n "$git_exit_code" ]; then  # Addition to the Git error message:
+        echo "*** ... but the POs seem OK."
+      else
+        echo -e "\n*** Changes to branch $branch have been committed."
+      fi
     fi
-    if [ -n "$git_exit_code" ]; then  # Addition to the Git error message:
-      echo "*** ... but the POs seem OK."
-    else
-      echo -e "\n*** Changes to branch $branch have been committed."
-    fi
+  else
+    echo -e "\n*** One or more of the POs need fixing.
+      Your changes stay in the staging area for the time being."
   fi
-else
-  echo -e "\n*** One (or more) of the POs need fixing.
-    Your changes stay in the staging area for the time being."
+
+  # Remove GNUN's report because it has become obsolete.
+  rm -f ../gnun-report.txt
 fi
 
 # Clean up.
-
 cd ../ && rm -f fuzz-report p m add-CREDITS add-NOTES
 
 exit $final_exit_code
