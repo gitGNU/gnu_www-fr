@@ -245,7 +245,7 @@ fi
 
 if [ ! -d "${dir}/www" ]; then
   echo 1>&2 "*** Error: The www directory was not found. Please move it
-    to $dir or install it there and start again."
+    to $dir or install it there and try again."
   exit 1
 fi
 
@@ -263,10 +263,10 @@ fi
 
 cd $dir
 if [ ! -d "www-$lang" ]; then
-  echo "*** Trying to guess your language code and working directory..."
+  echo "*** Trying to guess your language code and team directory..."
 guessed_wdir=$(ls | grep "www-")
   if [ -n "$guessed_wdir" ]; then
-    echo -e "*** One of these might be your working directory:\n
+    echo -e "*** One of these might be your team directory:\n
 $guessed_wdir\n
 *** If the first (or only) possibility is correct, press [Enter]
     If it is not correct, type your language code, then [Enter]."
@@ -285,8 +285,8 @@ $guessed_wdir\n
         ;;
     esac
   else
-    echo "*** Error: Your working directory was not found. Please move it
-    to $dir or install it there and start again." 1>&2
+    echo "*** Error: Your team directory was not found. Please move it
+    to $dir or install it there and try again." 1>&2
     exit 1
   fi
 fi
@@ -299,21 +299,34 @@ if [ -n "$lang" ] && [ ! -f gnun/profile ]; then
   cat > gnun/profile <<EOF
 # Configuration file for batch-transvalidate
 
-# Parameter values should be quoted if they contain spaces (double-quoted
-# if they contain a variable), and there should be no space before, and no
-# space after, the “=” sign.
+# Parameter values should be quoted if they contain spaces (with double-
+# quotes if they contain a variable), and there should be no space before
+# the “=” sign, and none after.
 
+# The language code of your translation team:
 lang=$lang
+
+# The directory in which www and www-lang are (will be) installed:
 dir=$HOME/GNU
+
+# [For Git users only] Your working branch (e.g. branch='master' if
+# you didn't create a personal branch):
 branch=$branch
+
+# Replace the system default with your pet command-line editor (emacs, vim,
+# whatever):
 editor=$editor
 
+# Leave the 'translator' value blank if you don't want to update the
+# 'Last-Translator' field in the PO header. Otherwise, it should be the same
+# as in your PO editor (e.g. translator='Full Name <email AT address>'):
 translator=
-# Leave blank if you don't want to update the 'Last-Translator' field in
-# the PO header. Otherwise, "translator" should be the same as in your PO
-# editor, e.g.: translator="Full Name <email AT address>"
 
-# Default commit messages:
+# Default commit messages; suggestions:
+# message1="Update \$(date +"%-m/%-d/%y")" [if you'd like the date to be
+#                                           included in the message]
+# message2='Proofreading by so-and-so'
+# message3='New translation by so-and-so'
 message1=
 message2=
 message3=
