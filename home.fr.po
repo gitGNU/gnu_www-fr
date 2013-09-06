@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.html\n"
-"POT-Creation-Date: 2013-09-02 11:55+0000\n"
-"PO-Revision-Date: 2013-09-02 19:40+0200\n"
+"POT-Creation-Date: 2013-09-06 08:29+0000\n"
+"PO-Revision-Date: 2013-09-06 20:32+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -66,6 +66,37 @@ msgstr ""
 "utilisateurs."
 
 #. type: Content of: <div><div><h2>
+msgid "Celebrate with us"
+msgstr "Faites la fête avec nous"
+
+#. type: Content of: <div><div><p><a>
+msgid "<a href=\"/gnu30/gnu30.html\">"
+msgstr "<a href=\"/gnu30/gnu30.html\">"
+
+#. type: Attribute 'alt' of: <div><div><p><a><img>
+msgid "[ GNU 30th Anniversary Banner ]"
+msgstr "[ Bannière du 30e anniversaire de GNU ]"
+
+#. type: Content of: <div><div><div><h4>
+msgid "</a>"
+msgstr "</a>"
+
+#. type: Content of: <div><div><p>
+msgid ""
+"Thirty years ago this month, the <a href=\"/gnu/initial-announcement.html"
+"\">GNU system announcement</a> sparked a conversation that has grown into "
+"the global free software movement. Now <a href=\"/gnu30/gnu30.html\">we "
+"invite you to join the GNU community</a> in celebrating this important "
+"occasion, and creating a future where GNU is stronger than ever."
+msgstr ""
+"Il y a trente ans ce mois-ci, l'<a href=\"/gnu/initial-announcement.html"
+"\">annonce du système GNU</a> a suscité une conversation qui s'est "
+"développée en un mouvement mondial, le mouvement du logiciel libre. "
+"Aujourd'hui, <a href=\"/gnu30/gnu30.html\">nous vous invitons à rejoindre "
+"la communauté GNU</a> pour célébrer cet anniversaire important et créer un "
+"avenir où GNU soit plus fort que jamais."
+
+#. type: Content of: <div><div><h2>
 msgid "What is GNU?"
 msgstr "Qu'est-ce que GNU ?"
 
@@ -81,18 +112,6 @@ msgstr ""
 "Vous pouvez installer des <a href=\"/distros/free-distros.html\">versions de "
 "GNU</a> (plus précisément, des systèmes GNU/Linux) qui sont entièrement "
 "libres."
-
-#. type: Content of: <div><div><p><a>
-msgid "<a href=\"/distros/screenshot.html\">"
-msgstr "<a href=\"/distros/screenshot.html\">"
-
-#. type: Attribute 'alt' of: <div><div><p><a><img>
-msgid "Screenshot of GNU"
-msgstr "Capture d'écran de GNU"
-
-#. type: Content of: <div><div><div><h4>
-msgid "</a>"
-msgstr "</a>"
 
 #. type: Content of: <div><div><p>
 msgid ""
