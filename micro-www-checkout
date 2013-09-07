@@ -146,10 +146,11 @@ if [ -z "$lang" ]; then
 fi
 
 # Create temporary files.
-TMP1=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # rsync output
-TMP2=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # selected POs
-TMP3=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # checkout list (unverified)
-TMP4=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # checkout list (verified)
+TMP1=$(mktemp -t ckout.XXXXXX) || exit 1  # rsync output
+TMP2=$(mktemp -t ckout.XXXXXX) || exit 1  # selected POs
+TMP3=$(mktemp -t ckout.XXXXXX) || exit 1  # checkout list (unverified)
+TMP4=$(mktemp -t ckout.XXXXXX) || exit 1  # checkout list (verified)
+trap 'rm -f "$TMP1" "$TMP2" "$TMP3" "$TMP4"' EXIT
 
 cd $dir
 if [ -d "www" ]; then
@@ -207,8 +208,5 @@ if [ -s $TMP4 ]; then
 else
   echo "*** There is no file in the checkout list."
 fi
-
-# Clean up.
-rm -f /tmp/ckout.*
 
 exit

@@ -149,11 +149,12 @@ if [ -z "$lang" ]; then
 fi
 
 # Create temporary files.
-TMP1=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # rsync output
-TMP2=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # selected POs
-TMP3=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # checkout list (unverified)
-TMP4=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # translated includes
-TMP5=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # checkout list (verified)
+TMP1=$(mktemp -t ckout.XXXXXX) || exit 1  # rsync output
+TMP2=$(mktemp -t ckout.XXXXXX) || exit 1  # selected POs
+TMP3=$(mktemp -t ckout.XXXXXX) || exit 1  # checkout list (unverified)
+TMP4=$(mktemp -t ckout.XXXXXX) || exit 1  # translated includes
+TMP5=$(mktemp -t ckout.XXXXXX) || exit 1  # checkout list (verified)
+trap 'rm -f "$TMP1" "$TMP2" "$TMP3" "$TMP4" "$TMP5"' EXIT
 
 cd $dir
 if [ -d "www" ]; then
@@ -192,13 +193,13 @@ sed -i -e '/^www/!d' \
 # Select the POs for the specified language.
 sed -n "/\\.$lang\\.po/p" $TMP1 >> $TMP2
 
-# Add the corresponding POTs, translists and original HTMLs, except those at
+# Add the corresponding POTs, translists and original HTMLs, except HTMLs at
 # the root of server/ because they will be added later on.
 sed "s:po/\\([^/]*\\)\\.$lang\\.po$:\\1.html:" $TMP2 |
-sed '/\/server\/[^/]*$/d' >> $TMP3                # HTMLs, except in server/
-sed "s:\\.$lang\\.po:\\.pot:" $TMP2 >> $TMP3           # POTs
-sed "s:\\.$lang\.po:\\.translist:" $TMP2 >> $TMP3     # translists
-cat $TMP2 >> $TMP3                               # POs
+sed '/\/server\/[^/]*$/d' >> $TMP3                  # HTMLs, except in server/
+sed "s:\\.$lang\\.po:\\.pot:" $TMP2 >> $TMP3        # POTs
+sed "s:\\.$lang\.po:\\.translist:" $TMP2 >> $TMP3   # translists
+cat $TMP2 >> $TMP3                                  # POs
 
 # Add the files in /server/gnun.
 grep "/server/gnun/" $TMP1 >> $TMP3
@@ -236,7 +237,7 @@ else
   exit 1
 fi
 
-# Edit the “*-LINGUAS" lines of gnun.mk to leave only the specified
+# Edit the “*-LINGUAS” lines of gnun.mk to leave only the specified
 # language, otherwise, GNUN will complain that generic.lang.html is missing.
 sed -i -e '/LINGUAS.*\\$/ {N; s,\n,,}' \
        -e "s,LINGUAS := .*$,LINGUAS := $lang," www/server/gnun/gnun.mk
@@ -257,11 +258,8 @@ if [ -n "$(which gnun-report)" ]; then
 else
   echo "*** The www directory is installed but can't be used to generate
     HTMLs, because GNUmakefile and config.mk are missing. You
-    should install GNUN and add links to those files (normally found in
+    should install GNUN and add links to those files (often found in
     /usr/local/share/gnun or /usr/share/gnun) into $dir/www/server/gnun/."
 fi
-
-# Clean up.
-rm -f /tmp/ckout.*
 
 exit
