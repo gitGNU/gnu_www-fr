@@ -1,0 +1,214 @@
+#!/bin/bash
+
+# Language-selective checkout from the www repository
+# for use with batch-transvalidate
+
+
+# This script checks out the files required by batch-transvalidate to
+# generate HTML pages from POs for a specific language. It is intended for
+# translators who would like to install GNUN locally. Transvalidation with
+# Make and the site GNUmakefile requires some additional files. A “mini-
+# www” checkout will download those.
+
+# Method:
+# 1. A list of the potentially useful files is obtained from a dry run of
+#    rsync on the CVS repository, exluding irrelevant directories and
+#    keeping only files with the proper extensions.
+# 2. The rsync list is further processed, to build a checkout list
+#    containing the language-specific POs, and the corresponding POTs and
+#    original HTMLs.
+# 3. gnun.mk and priorities.mk are added because the “sync” and “report”
+#    targets of GNUmakefile.team use them (batch-transvalidate doesn't).
+# 4. The listed files are downloaded by cvs (anonymous checkout).
+
+# The options and current parameters are displayed by:
+#      micro-www-checkout -h
+
+############################################################################
+
+# Copyright (C) 2013 Free Software Foundation, Inc.
+
+# This file is part of GNUnited Nations.
+
+# GNUnited Nations is free software: you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+
+# GNUnited Nations is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with GNUnited Nations.  If not, see <http://www.gnu.org/licenses/>.
+
+############################################################################
+
+function version () {
+cat <<EOF
+micro-www-checkout (GNUnited Nations) 0.7
+Copyright (C) 2013 Free Software Foundation, Inc.
+You may redistribute copies of GNUnited Nations
+under the terms of the GNU General Public License.
+For more information about these matters, see the file named COPYING.
+EOF
+}
+
+params=$#
+dir=$HOME/GNU
+lang=
+
+set -e
+set -o pipefail
+
+# Set the parameters from the profile, if present.
+if [ -f $HOME/.config/gnun/profile ]; then
+  source $HOME/.config/gnun/profile
+fi
+
+function usage () {
+cat <<EOF
+
+Usage: micro-www-checkout OPTIONS
+
+Options and current settings:
+
+  -d, --dir=/DIREC/TORY                 [$dir]
+      Specify the absolute path to the top directory of www (required)
+
+  -l, --lang=CODE                       [$lang]
+      Specify the language code (required)
+
+  -V, --version                         Display version info and exit
+
+  -h, --help                            Display this help and exit
+
+The parameters can be specified in a configuration file:
+      $HOME/.config/gnun/profile
+One line per parameter, with syntax: param="VALUE"
+
+Report bugs to bug-gnun@gnu.org
+GNUnited Nations home page: <http://www.gnu.org/software/gnun/>
+General help using GNU software: <http://www.gnu.org/gethelp/>
+EOF
+}
+
+# Parse the command line.
+while [ ${params} -ge 1 ]; do
+  case "$1" in
+     -h | --help )
+    usage
+    exit 0
+    ;;
+     -V | --version )
+    version
+    exit 0
+    ;;
+     -d | --dir )
+    shift
+    params=$((${params}-1))
+    dir="$1"
+    ;;
+     --dir=* )
+    dir="${1#--dir=}"
+    ;;
+     -l | --lang )
+    shift
+    params=$((${params}-1))
+    lang="$1"
+    ;;
+     --lang=* )
+    lang="${1#--lang=}"
+    ;;
+     * )
+    break
+    ;;
+  esac
+  params=$((${params}-1))
+  shift
+done
+
+if [ ${params} -ne 0 ]; then
+  echo 1>&2 "*** Unrecognized option “$1”.  See --help for details."
+  exit 1
+fi
+
+if [ ! -d "${dir}" ]; then
+  echo 1>&2 "*** Error: Directory “$dir” doesn't exist."
+  exit 1
+fi
+
+if [ -z "$lang" ]; then
+  echo  1>&2 "*** Error: No language code was specified. Please enter it in
+    the command line or in $HOME/.config/gnun/profile."
+  exit 1
+fi
+
+# Create temporary files.
+TMP1=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # rsync output
+TMP2=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # selected POs
+TMP3=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # checkout list (unverified)
+TMP4=$(mktemp /tmp/ckout.XXXXXX) || exit 1  # checkout list (verified)
+
+cd $dir
+if [ -d "www" ]; then
+  mv www www.bak
+fi
+
+# List the files in the www repository with a dry run of rsync, excluding
+# some irrelevant directories and files. The destination directory is
+# specified to avoid listing the file attributes, but it is not created.
+rsync -anv --exclude "Attic" \
+           --exclude "server/source/" \
+           --exclude "server/staging/" \
+           --include "software/po/" \
+           --exclude "software/*/" \
+           --exclude "www/www*/" \
+           --exclude "server/gnun/" \
+           --include "*.$lang.po,v" \
+           --include "*.html,v" \
+           --include "*.pot,v" \
+           --include "*.pot.opt,v" \
+           --include "*/" \
+           --exclude "*" \
+           --prune-empty-dirs \
+  rsync://cvs.sv.gnu.org/web/www/www www-cvs/ >> $TMP1
+
+# Weed out the rsync messages and the directories, and remove the “,v”
+# extension.
+sed -i -e '/^www/!d' \
+       -e '/\/$/d' \
+       -e 's:,v$::' \
+       -e 's:pot\.opt$:pot:' $TMP1
+
+# Select the POs for the specified language.
+sed -n "/\\.$lang\\.po/p" $TMP1 >> $TMP2
+
+# Add the corresponding POTs and original HTMLs.
+sed "s:po/\\([^/]*\\)\\.$lang\\.po$:\\1.html:" $TMP2 >> $TMP3  # HTMLs
+sed "s:\\.$lang\\.po:\\.pot:" $TMP2 >> $TMP3                   # POTs
+cat $TMP2 >> $TMP3                                             # POs
+
+# Check that all the listed files exist (some POs don't have corresponding
+# POTs and/or HTMLs).
+while read f; do
+  grep "$f" $TMP1 >> $TMP4 || true
+done < $TMP3
+
+# Add the makefiles required by some targets of GNUmakefile.team.
+echo "www/server/gnun/gnun.mk" >> $TMP4
+echo "www/server/gnun/priorities.mk" >> $TMP4
+
+# Checkout the listed files.
+if [ -s $TMP4 ]; then
+   cvs -z3 -d:pserver:anonymous@cvs.savannah.gnu.org:/webcvs/www \
+       co $(< $TMP4)
+else
+  echo "*** There is no file in the checkout list."
+fi
+
+# Clean up.
+rm -f /tmp/ckout.*
+
+exit
