@@ -499,6 +499,12 @@ function create_addendum () {
   echo '<br /><br />' >> ../add-$2
 }
 
+function make_links_absolute () {
+# replaces relative links to gnu.org articles with absolute links, otherwise
+# they are not clickable.
+  sed -i 's,href="/,href="http://www.gnu.org/,g' $1
+}
+
 function transvalidate () {
 # transforms a PO into HTML and validates the result.
   interm_exit_code=0
@@ -518,11 +524,12 @@ function transvalidate () {
   po4a-translate -f xhtml -M utf-8 -m ../m -p $po -k 50 -L utf-8 \
   -l $article.$lang-local.html -a ../add-CREDITS -a ../add-NOTES \
   || interm_exit_code=$?
-  gnun-validate-html --root="." $article.$lang-local.html \
+  gnun-validate-html --root=. $article.$lang-local.html \
   || interm_exit_code=$?
   msgcat -w 79 -o $po $po || interm_exit_code=$?
   [ "$interm_exit_code" = "0" ] || final_exit_code=$interm_exit_code
 
+  make_links_absolute $article.$lang-local.html
   delete_comments $po
   update_po_header $po
 }
@@ -566,7 +573,7 @@ if [ -z "$po" ]; then
         echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
       fi
     done < ../valid-list
-
+    echo "final exit code = $final_exit_code"
     # [Git only] Commit the POs to the local repo.
     if [ -d .git ] && [ "$final_exit_code" = "0" ]; then
       git add .
