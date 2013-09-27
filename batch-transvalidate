@@ -5,7 +5,7 @@
 
 # Definition
 
-# To “transvalidate” is to transform a PO file into HTML and validate the
+# To "transvalidate" is to transform a PO file into HTML and validate the
 # result. The word is not in the dictionary... So what?  :-)
 
 # Principle
@@ -27,7 +27,7 @@
 
 #    - www and www-lang have a common top directory.
 #    - www is synchronized with its CVS repository and hasn't been
-#      “polluted” by previous transvalidations by the standard method.
+#      "polluted" by previous transvalidations by the standard method.
 #    - if www-lang is a Git repository, the changes must be either unstaged,
 #      or staged for commit.
 
@@ -39,15 +39,15 @@
 #    - it checks for remaining fuzzy or untranslated strings in www-lang and
 #      stops if it finds any, to let the user choose what to do next;
 #    - it lists the files that have been modified locally in www-lang,
-#      by using either “cvs -nq diff” + a filter, or “git diff --name-only
-#      --staged”, or else GNUN's report + a filter; the list can be amended
+#      by using either "cvs -nq diff" + a filter, or "git diff --name-only
+#      --staged", or else GNUN's report + a filter; the list can be amended
 #      by hand; alternatively, a single PO can be specified in the command
 #      line.
 # 3. For each item in the list:
 #    - a simplified header is added to the master document, as well as
 #      the missing tags, then the SSI directives are inactivated to
 #      avoid problems with the includes (it did happen at least once);
-#    - to make proofreading of the HTML easier, the “GNUN-split” tags of the
+#    - to make proofreading of the HTML easier, the "GNUN-split" tags of the
 #      template are replaced with <br />\n/*split*/\n<br />;
 #    - the translated page is generated with po4a-translate;
 #    - the page is validated with gnun-validate-html;
@@ -234,12 +234,12 @@ while [ ${params} -ge 1 ]; do
 done
 
 if [ ${params} -ne 0 ]; then
-  echo 1>&2 "*** Unrecognized option “$1”.  See --help for details."
+  echo 1>&2 "*** Unrecognized option \"$1\".  See --help for details."
   exit 1
 fi
 
 if [ ! -d "${dir}" ]; then
-  echo 1>&2 "*** Error: Directory “$dir” doesn't exist."
+  echo 1>&2 "*** Error: Directory \"$dir\" doesn't exist."
   exit 1
 fi
 
@@ -249,7 +249,7 @@ if [ ! -d "${dir}/www" ]; then
   exit 1
 fi
 
-# If “lang” and “editor” aren't set yet, try to guess them.
+# If "lang" and "editor" aren't set yet, try to guess them.
 if [ -f /usr/bin/editor ]; then
   editor=/usr/bin/editor
 elif [ -n "$EDITOR" ] && [ -f $EDITOR ]; then
@@ -279,7 +279,7 @@ $guessed_wdir\n
       *)
         lang="$choice"
         if [ ! -d "www-$lang" ]; then
-          echo 1>&2 "*** Error: “$dir/www-$lang” doesn't exist."
+          echo 1>&2 "*** Error: \"$dir/www-$lang\" doesn't exist."
           exit 1
         fi
         ;;
@@ -301,7 +301,7 @@ if [ -n "$lang" ] && [ ! -f gnun/profile ]; then
 
 # Parameter values should be quoted if they contain spaces (with double-
 # quotes if they contain a variable), and there should be no space before
-# the “=” sign, and none after.
+# the = sign, and none after.
 
 # The language code of your translation team:
 lang=$lang
@@ -334,7 +334,7 @@ EOF
 
   echo -e "*** A user profile has been created with the known parameters.
     Would you like to edit it now?
-          “Yes” = [Enter]    “No” = any other key\n"
+          \"Yes\" = [Enter]    \"No\" = any other key\n"
   read -s -n1 OK
   if [ -z "$OK" ]; then
     editor $HOME/.config/gnun/profile
@@ -396,7 +396,7 @@ function create_valid_list () {
       staged=$(git diff --name-only --staged )
       if [ -n "$staged" ]; then
         git commit -m "$(date +"%F %T")"
-        echo -e "\n*** Changes to branch “$curr_branch” have been committed.
+        echo -e "\n*** Changes to branch \"$curr_branch\" have been committed.
     You may want to amend the commit whenever you come back."
       fi
       git checkout $branch
@@ -447,7 +447,7 @@ EOF
 }
 
 function add_split_tags () {
-# is adapted from function “add-gnun-tags” of the www GNUmakefile.
+# is adapted from function "add-gnun-tags" of the www GNUmakefile.
   sed -i -e '/<span[[:space:]]*$$/{:egin;N; />[^\n]*$$/! begin};' \
          -e 's,<span[[:space:]]\+class="gnun-split"></span>,\
 <br />\n/*split*/\n<br />,' $1
@@ -516,8 +516,8 @@ function transvalidate () {
   create_addendum $po NOTES 'footer.html"'
   create_addendum $po CREDITS 'timestamp start'
 
-  # The po4a-translate “k” option, “Minimal threshold for translation
-  # percentage to keep (ie, write) the resulting file”, is set at 50 to
+  # The po4a-translate "k" option, "Minimal threshold for translation
+  # percentage to keep (ie, write) the resulting file", is set at 50 to
   # allow proofreading of a partial translation or detection of faulty
   # strings (the default is 80).
   rm -f $article.$lang-local.html
@@ -570,7 +570,7 @@ if [ -z "$po" ]; then
       if [ -n "$po" ] && [ -f "$po" ]; then
         transvalidate
       else
-        echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
+        echo -e "\n*** Sorry, there is no file named \"$po\" in www-$lang."
       fi
     done < ../valid-list
     echo "final exit code = $final_exit_code"
@@ -605,7 +605,7 @@ elif [ -f "$po" ]; then
   transvalidate
 
 else
-  echo -e "\n*** Sorry, there is no file named “$po” in www-$lang."
+  echo -e "\n*** Sorry, there is no file named \"$po\" in www-$lang."
 fi
 
 if [ "$final_exit_code" = "0" ]; then
