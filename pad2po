@@ -1,0 +1,153 @@
+#!/bin/bash
+
+# PAD to PO converter
+
+
+# Overview:
+# This script converts a translated pad, created with html-to-pad or
+# pot-to-pad, into a gnu.org PO file; it fills out the PO header with generic
+# data (charset, encoding, language, team address).
+
+# Requirements:
+# The working directory should contain NAME.pot and the exported pad
+# (EnFr-NAME.txt).
+
+# How-to:
+# - Export the translated pad to the working directory (default:
+#   $HOME/Bureau/pad) as plain text.
+# - Launch the script or run it from a terminal.
+# - Add the translator's notes by hand, if any.
+# - Finish up in the PO editor.
+# - To convert the same EnFr-NAME.txt again, the corresponding PO file needs
+#   to be removed from the working directory.
+
+# Copyright (C) 2013 Whoever.
+# You may redistribute this script and/or modify it under the terms of the
+# Creative Commons CC0 license
+# (http://creativecommons.org/publicdomain/zero/1.0/legalcode).
+
+set -e
+mkdir -p $HOME/Bureau/pad && cd $HOME/Bureau/pad
+
+echo "
+ ## pad2po : Conversion d'un pad en fichier PO ##
+"
+
+# Create temporary files.
+TMP1=$(mktemp -t pad2po.XXXXXX) || exit 1 # List of translated pads, pruned
+TMP2=$(mktemp -t pad2po.XXXXXX) || exit 1 # List of POs / tr. strings / header
+TMP3=$(mktemp -t pad2po.XXXXXX) || exit 1 # POT content -> PO content
+TMP4=$(mktemp -t pad2po.XXXXXX) || exit 1 # Pad content / processed tr. strings
+trap 'rm -f "$TMP1" "$TMP2" "$TMP3" "$TMP4"' EXIT
+
+# List the translated pads in the working directory.
+  ls EnFr-*.txt > $TMP1 2>/dev/null || true
+
+if [ ! -s $TMP1 ]; then
+  echo "*** Il n'y a pas de pad dans le dossier de travail. Bye."
+  exit 1
+fi
+
+# List the POs.
+ls *.fr.po > $TMP2 2>/dev/null || true
+
+# Remove .txt files from the list if they are already converted to PO.
+if [ -s $TMP2 ]; then
+  while read po; do
+    name=${po%.fr.po}
+    sed -i "/$name/d" $TMP1
+  done < $TMP2
+fi
+
+if [ ! -s $TMP1 ]; then
+  echo "*** Il n'y a pas de nouveau pad dans le dossier de travail. Bye."
+  exit 1
+
+else
+  while read new_txt; do
+    name1=${new_txt%.txt}
+    name=${name1:5}
+
+    # Remove the pot header and footer.
+    sed '1,/"Content-Transfer-Encoding:/d' $name.pot > $TMP3
+    sed -i '/^#. TRANSLATORS: Use space (SPC)/,$d' $TMP3
+    # Make sure all the « msgstr "" » in the pot are empty.
+    sed -i '/^msgstr ""$/ {N; s,^msgstr ""\n",msgstr ",}' $TMP3
+
+    # Select the pad contents. The pad may have been created by pot2pad (the
+    # string label starts with "#.") or html2pad (the label starts with
+    # "#[0-9]").
+    grep -A2 "^#\(\.\|[0-9]\)" EnFr-$name.txt > $TMP2  || true
+    # Print the translated strings: one line out of 4, starting at line 3.
+    # Why 4? That's because grep -A2 adds a separator line.
+    sed -n '3~4'p $TMP2 > $TMP4
+
+    if grep "[[:print:]]" $TMP4 > /dev/null ; then
+
+      # Escape the "&".
+      sed -i 's,&,\\\\&,' $TMP4
+
+      # Start a counter for the strings.
+      n=0
+
+      # Replace pot msgstr's with pad msgstr's.
+      while read translation; do
+        let n=n+1
+        sed_exit_code=0
+
+        if [ -z "$translation" ]; then
+          echo "*** La chaîne $n n'a pas été traduite."
+        fi
+
+        # Check for possible fuzzy strings (containing *...* or |).
+        if [[ "$translation" = *§*§* ]]; then
+           echo "*** Il reste probablement une incertitude
+    délimitée par \"§\" dans la chaîne $n."
+        fi
+        if [[ "$translation" =~ '|' ]]; then
+          echo "*** Il reste un choix à faire dans la chaîne $n
+    (options séparées par \"|\")."
+        fi
+
+        # Replace pot msgstr's with translated strings, identified by a number.
+        sed -i "0, /^msgstr \"\"/ s||$n $translation|" $TMP3 \
+        2>/dev/null || sed_exit_code=$?
+
+        # Sed gives an error when it sees a vertical bar in the text. In this
+        # case, replace with the string number only.
+        if (( "$sed_exit_code" == 1 )); then
+          sed -i "0, /^msgstr \"\"/ s||$n |" $TMP3
+          echo "*** La chaîne $n n'a pas pu être insérée."
+        fi
+      done < $TMP4
+
+      # Replace the numbers with "msgstr", escape the internal double quotes in
+      # msgstr's and add double-quote delimiters.
+      sed -i -e 's,^[0-9]\+ ,msgstr ,' \
+             -e '/^msgstr/ s,",\\",g' \
+             -e 's,^msgstr \(.*\)$,msgstr "\1",' $TMP3
+
+      # Isolate the pot header.
+      sed '/^#. type: Content of:/,$d' $name.pot |
+      sed '$d' > $TMP2
+      # Fill it out with generic data.
+      sed -i -e 's,charset=CHARSET,charset=utf-8,' \
+             -e 's,Encoding: ENCODING,Encoding: 8bit,' \
+             -e 's,LANGUAGE <LL@li.org>,French <trad-gnu@april.org>,' \
+             -e 's,^# LANGUAGE translation,# French translation,' $TMP2
+
+      # Isolate the pot footer
+      sed '1,/#. TRANSLATORS: Use space (SPC)/d' $name.pot > $TMP4
+
+      # Add the header and footer to the new po.
+      cat $TMP2 $TMP3 $TMP4 > $name.fr.po
+      echo "=== $name.fr.po a été créé."
+
+    else
+      echo "*** Le pad ne semble pas avoir été traduit du tout."
+    fi
+
+  done < $TMP1
+fi
+
+exit

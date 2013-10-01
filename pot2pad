@@ -1,0 +1,99 @@
+#!/bin/bash
+
+# PAD to PO converter
+
+
+# Overview:
+# This script removes some of the features of a POT file to make it suitable
+# for the translation pad.
+
+# Requirements:
+# - The working directory should contain the POT file (NAME.pot) and
+#   (optionally) pad-header-fr.
+# - The name of the pad should start with "EnFr-" (assuming translation from
+#   English to French).
+
+# How-to:
+# - Launch the script or run it from a terminal.
+# - To convert the same NAME.pot again, the corresponding .pad file needs
+#   to be removed from the working directory.
+
+# Copyright (C) 2013 Whoever.
+# You may redistribute this script and/or modify it under the terms of the
+# Creative Commons CC0 license
+# (http://creativecommons.org/publicdomain/zero/1.0/legalcode).
+
+set -e
+mkdir -p $HOME/Bureau/pad && cd $HOME/Bureau/pad
+
+echo "
+ ## pot2pad : Préparation d'un fichier POT pour le pad de traduction ##
+"
+
+# Check for the presence of the pad header.
+if [ ! -f pad-header-fr ]; then
+  echo "*** Il n'y a pas d'en-tête pad dans le dossier de travail.
+    Voulez-vous créer un pad sans en-tête ?
+    \"Oui\" = [Entrée]   \"Non\" = autre touche"
+  read -s -n1 OK
+  if [ -n "$OK" ]; then
+    echo "*** Bye"
+    exit 1
+  fi
+fi
+
+# Create temporary files.
+TMP1=$(mktemp -t pot2pad.XXXXXX) || exit 1 # POT list, pruned
+TMP2=$(mktemp -t pot2pad.XXXXXX) || exit 1 # List of untranslated pads
+TMP3=$(mktemp -t pot2pad.XXXXXX) || exit 1 # POT content -> pad content
+trap 'rm -f "$TMP1" "$TMP2" "$TMP3" "$TMP4"' EXIT
+
+# List the POTs in the working directory.
+  ls *.pot > $TMP1 2>/dev/null || true
+
+if [ ! -s $TMP1 ]; then
+  echo "*** Il n'y a pas de pot dans le dossier de travail. Bye."
+  exit 1
+fi
+
+
+# List the pads.
+ls *.pad > $TMP2 2>/dev/null || true
+
+
+# Remove POT files from the list if they are already converted to pad.
+if [ -s $TMP2 ]; then
+  while read pad; do
+    name1=${pad%.pad}
+    name=${name1:5}
+    sed -i "/$name/d" $TMP1
+  done < $TMP2
+fi
+
+if [ ! -s $TMP1 ]; then
+  echo "*** Il n'y a pas de nouveau pot dans le dossier de travail. Bye."
+  exit 1
+
+else
+  while read new_pot; do
+    name=${new_pot%.pot}
+
+    # Select POT contents (starting at <h2>).
+    sed '1,/"Content-Transfer-Encoding:/d' $name.pot > $TMP3
+    sed -i '/#. TRANSLATORS: Use space (SPC)/,$d' $TMP3
+    # Unformat it.
+    sed -i ':egin /^msgid/ {N; s,"\n",,; begin}' $TMP3
+    sed -i -e 's,^msg\(id\|str\) ",,' \
+           -e 's,"$,,' $TMP3
+    # Add the information for translators, if any.
+    if [ -f pad-header-fr ] && [ -n pad-header-fr ]; then
+      cat pad-header-fr $TMP3 > EnFr-$name.pad
+      echo "=== EnFr-$name.pad a été créé."
+    else
+      mv $TMP3 $name.pad
+      echo "=== EnFr-$name.pad a été créé sans en-tête."
+    fi
+  done < $TMP1
+fi
+
+exit

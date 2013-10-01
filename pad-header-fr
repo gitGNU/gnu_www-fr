@@ -1,0 +1,21 @@
+Traduction en français de http://www.gnu.org/
+
+==================
+
+- Merci de vous identifier (par nom ou pseudo) sur le pad ; n'hésitez pas à changer votre pseudo par défaut qui est "unnamed" en cliquant sur l'icône en haut à droite. 
+- Choisissez une couleur qui n'est pas utilisée par quelqu'un d'autre, et reprenez de préférence une couleur similaire à votre prochaine visite.
+- En cas de besoin il y a une fenêtre de chat pour discuter, en bas à droite.
+
+- Délimitez les parties qui demandent à être revues, de préférence avec « § », et séparez les options possibles par des barres verticales « | ».
+- Faites une note si une partie du texte n'a pas pu être traduite ou s'il y a un bogue dans l'original.
+- Utilisez la typographie française ; par exemple, les guillemets &ldquo; &rdquo; ( “text” ) sont remplacés par des doubles chevrons séparés du texte par des espaces insécables ( « texte » ).
+- Pour les liens : regardez s'il existe une version en français et mettez-la à la place du lien original.
+
+Pour faciliter le transfert de la traduction vers le POT, voici quelques précautions à prendre :
+- Ne pas toucher à l'identifiant de la chaîne, du genre « #3~<p> » ou « #. type: Content of: <p> ».
+- Pas de ligne vide entre l'original et la traduction. L'ensemble identifiant-original-traduction forme un tout.
+- Pas de mélange entre les commentaires et la traduction. On peut ajouter autant de lignes que nécessaire entre les ensembles, ou juste sous l'en-tête.
+- Pas de retour à la ligne au milieu d'un paragraphe. Ce qui suit ne serait pas transférée au document final.
+Merci.
+
+==================
