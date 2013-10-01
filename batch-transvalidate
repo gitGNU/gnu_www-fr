@@ -18,13 +18,19 @@
 # repository. To bypass the GNUmakefile, the POs are updated/modified in
 # www-lang and the translated page is built in the same directory with po4a
 # (without POT regeneration), then the translated page is validated with
-# gnun-validate-html and reformatted.
+# xmllint (+ html5.dtd from GNUN package, if needed) and reformatted.
 
 # The script is interactive. The input can be either a single PO or a list
 # that the script creates by detecting the modified POs.
 
+# Dependencies in Debian
+
+# po4a (implies gettext, Perl, etc.), msgcat, libxml2-utils (xmllint),
+# w3c-dtd-xhtml, GNUN's html5.dtd (GNUN doesn't have to be installed).
+
 # Prerequisites
 
+#    - html5.dtd is in the same directory as the script.
 #    - www and www-lang have a common top directory.
 #    - www is synchronized with its CVS repository and hasn't been
 #      "polluted" by previous transvalidations by the standard method.
@@ -94,6 +100,7 @@ EOF
 set -e
 set -o pipefail
 
+DTD=$PWD
 params=$#
 branch=
 dir=$HOME/GNU
@@ -102,6 +109,7 @@ lang=
 message=
 po=
 translator=
+
 
 # Set the permanent parameters from the profile, if present.
 if [ -f $HOME/.config/gnun/profile ]; then
@@ -417,11 +425,12 @@ function create_valid_list () {
 }
 
 function inactivate_ssi () {
-# adds a minimal HTML header and the missing tags, then inactivates the SSI
-# directives.
+# adds a minimal HTML header and the missing tags, defines the xmllint options,
+# depending whether the document is using HTML5 or not, then inactivates the
+# SSI directives.
   read -r firstline < $1
   case $firstline in
-    *server/header.html*)
+    *header.html* )
     cat - $1 > $2 << EOF
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -429,14 +438,15 @@ function inactivate_ssi () {
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 EOF
-    ;;
-    *server/html5-header.html*)
-    cat - $1 > $2 << EOF
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="$lang" lang="$lang">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-EOF
+      # This is adapted from gnun-validate-html.
+      case $firstline in
+        *html5*)
+          VALIDATE="--dtdvalid $DTD/html5.dtd"
+      ;;
+        *)
+          VALIDATE=--valid
+      ;;
+      esac
     ;;
     *)
     echo "*** $1 has no header-include."
@@ -510,7 +520,7 @@ function transvalidate () {
   interm_exit_code=0
   echo -e "\n=== $po"
   # Strip the extension and the language code from the filename.
-  article=$(echo ${po%."$lang".po})
+  article=$(echo ${po%.$lang.po})
   inactivate_ssi ../www/$article.html ../m
   add_split_tags ../m
   create_addendum $po NOTES 'footer.html"'
@@ -524,7 +534,7 @@ function transvalidate () {
   po4a-translate -f xhtml -M utf-8 -m ../m -p $po -k 50 -L utf-8 \
   -l $article.$lang-local.html -a ../add-CREDITS -a ../add-NOTES \
   || interm_exit_code=$?
-  gnun-validate-html --root=. $article.$lang-local.html \
+  xmllint $VALIDATE --nonet --noout $article.$lang-local.html \
   || interm_exit_code=$?
   msgcat -w 79 -o $po $po || interm_exit_code=$?
   [ "$interm_exit_code" = "0" ] || final_exit_code=$interm_exit_code
