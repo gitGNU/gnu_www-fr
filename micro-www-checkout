@@ -10,6 +10,8 @@
 # Make and the site GNUmakefile requires some additional files. A "mini-
 # www" checkout will download those.
 
+# Depends on cvs and rsync.
+
 # Method:
 # 1. A list of the potentially useful files is obtained from a dry run of
 #    rsync on the CVS repository, exluding irrelevant directories and

@@ -1,13 +1,15 @@
 #!/bin/bash
 
 # Language-selective checkout from the www repository
-# for use with the Make and the site GNUmakefile
+# for use with Make and the site GNUmakefile
 
 
 # This script checks out the files required by Make (+ the site GNUmakefile)
 # to generate HTML pages from POs for a specific language. It is intended
 # for translators who would like to install GNUN locally. To use
 # batch-transvalidate instead, a "micro-www" checkout would be sufficient.
+
+# Depends on cvs and rsync.
 
 # Method:
 # 1. A list of the potentially useful files is obtained from a dry run of
