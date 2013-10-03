@@ -23,15 +23,16 @@
 # The script is interactive. The input can be either a single PO or a list
 # that the script creates by detecting the modified POs.
 
-# Dependencies in Debian
+# Depends on
 
-# po4a (implies gettext, Perl, etc.), msgcat, libxml2-utils (xmllint),
-# w3c-dtd-xhtml, GNUN's html5.dtd (GNUN doesn't have to be installed).
+# po4a (which depends on gettext, perl, etc.), xmllint (Debian package
+# libxml2-utils), DTD XHTML 1.0 from W3C (Debian package w3c-dtd-xhtml), GNUN's
+# html5.dtd (GNUN doesn't have to be installed).
 
 # Prerequisites
 
 #    - html5.dtd is in the same directory as the script.
-#    - www and www-lang have a common top directory.
+#    - www and www-lang have a common root.
 #    - www is synchronized with its CVS repository and hasn't been
 #      "polluted" by previous transvalidations by the standard method.
 #    - if www-lang is a Git repository, the changes must be either unstaged,
@@ -39,8 +40,7 @@
 
 # What the script does
 
-# 1. It helps the user create a configuration file (this could be done with
-#    Debconf some day).
+# 1. It helps the user create a configuration file.
 # 2. It helps prepare the list of POs to transvalidate:
 #    - it checks for remaining fuzzy or untranslated strings in www-lang and
 #      stops if it finds any, to let the user choose what to do next;
@@ -56,7 +56,7 @@
 #    - to make proofreading of the HTML easier, the "GNUN-split" tags of the
 #      template are replaced with <br />\n/*split*/\n<br />;
 #    - the translated page is generated with po4a-translate;
-#    - the page is validated with gnun-validate-html;
+#    - the page is validated with xmllint;
 #    - it is reformatted with msgcat;
 #    - the PO header is updated and the comments removed.
 # 4. When www-lang is under Git control, the batch of POs is committed
@@ -127,8 +127,8 @@ Options and current settings:
       Specify the Git working branch (optional)
 
   -d, --dir=/DIREC/TORY                 [$dir]
-      Specify the absolute path to the common top directory of www
-      and www-$lang (required)
+      Specify the absolute path to the common root of www and www-$lang
+      (required)
 
   -e, --editor=PREFERRED_EDITOR         [$editor]
       Specify the command-line editor (optional)
@@ -314,15 +314,15 @@ if [ -n "$lang" ] && [ ! -f gnun/profile ]; then
 # The language code of your translation team:
 lang=$lang
 
-# The directory in which www and www-lang are (will be) installed:
+# The common root of www and www-lang:
 dir=$HOME/GNU
 
-# [For Git users only] Your working branch (e.g. branch='master' if
-# you didn't create a personal branch):
+# [For Git users only] Your working branch (e.g. branch='master' if you
+# didn't create a personal branch):
 branch=$branch
 
-# Replace the system default with your pet command-line editor (emacs, vim,
-# whatever):
+# Replace the system default with your pet command-line editor (the simpler,
+# the better):
 editor=$editor
 
 # Leave the 'translator' value blank if you don't want to update the
@@ -333,11 +333,9 @@ translator=
 # Default commit messages; suggestions:
 # message1="Update \$(date +"%-m/%-d/%y")" [if you'd like the date to be
 #                                           included in the message]
-# message2='Proofreading by so-and-so'
-# message3='New translation by so-and-so'
+# message2='Minor fix'
 message1=
 message2=
-message3=
 EOF
 
   echo -e "*** A user profile has been created with the known parameters.
@@ -383,6 +381,7 @@ function create_valid_list () {
 # creates a list of transvalidation candidates and displays it for edition.
 # FIXME: The best method depends on the team's workflow.
   check_fuzz
+  rm -f ../fuzz-report
 
   if [ -d CVS ]; then
     cvs -nq diff |
@@ -516,7 +515,7 @@ function make_links_absolute () {
 }
 
 function transvalidate () {
-# transforms a PO into HTML and validates the result.
+# converts a PO to HTML and validates the result.
   interm_exit_code=0
   echo -e "\n=== $po"
   # Strip the extension and the language code from the filename.
@@ -542,6 +541,8 @@ function transvalidate () {
   make_links_absolute $article.$lang-local.html
   delete_comments $po
   update_po_header $po
+  # Clean up.
+  rm -f ../p ../m ../add-CREDITS ../add-NOTES
 }
 
 function select_message () {
@@ -549,8 +550,7 @@ function select_message () {
   echo "*** Please select a commit message:
         [1] $message1
         [2] $message2
-        [3] $message3
-      [other key] none"
+        [other key] no commit"
   read -s -n1 choice
   case "$choice" in
     1)
@@ -559,10 +559,7 @@ function select_message () {
     2)
       message=$message2
     ;;
-    3)
-      message=$message3
-    ;;
-    *)
+   *)
       message=
     ;;
   esac
@@ -583,20 +580,16 @@ if [ -z "$po" ]; then
         echo -e "\n*** Sorry, there is no file named \"$po\" in www-$lang."
       fi
     done < ../valid-list
-    echo "final exit code = $final_exit_code"
+
     # [Git only] Commit the POs to the local repo.
     if [ -d .git ] && [ "$final_exit_code" = "0" ]; then
       git add .
       if [ "$(git diff --name-only --staged)" ]; then
         [ -z "$message" ] && select_message
         if [ -z "$message" ]; then
-          git commit || git_exit_code=$?
+          echo -e "\n*** The POs are ready to commit."
         else
-          git commit -m "$message" || git_exit_code=$?
-        fi
-        if [ -n "$git_exit_code" ]; then  # Addition to the Git error message:
-          echo "*** ... but the POs seem OK."
-        else
+          git commit -m "$message"
           echo -e "\n*** Changes to branch $branch have been committed."
         fi
       fi
@@ -622,8 +615,5 @@ if [ "$final_exit_code" = "0" ]; then
   # Remove GNUN's report because it has become obsolete.
   rm -f ../gnun-report.txt
 fi
-
-# Clean up.
-cd ../ && rm -f fuzz-report p m add-CREDITS add-NOTES
 
 exit $final_exit_code
