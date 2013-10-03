@@ -7,7 +7,7 @@
 # This script checks out the files required by Make (+ the site GNUmakefile)
 # to generate HTML pages from POs for a specific language. It is intended
 # for translators who would like to install GNUN locally. To use
-# batch-transvalidate instead, a “micro-www” checkout would be sufficient.
+# batch-transvalidate instead, a "micro-www" checkout would be sufficient.
 
 # Method:
 # 1. A list of the potentially useful files is obtained from a dry run of
@@ -19,7 +19,7 @@
 # 3. The files required by Make to generate translated pages are added to
 #    the checkout list.
 # 4. The listed files are downloaded by cvs (anonymous checkout).
-# 5. The “LINGUAS” lines of gnun.mk are edited to remove all language codes
+# 5. The "LINGUAS" lines of gnun.mk are edited to remove all language codes
 #    except the specified one.
 # 6. Links to GNUmakefile and config.mk are added into www/server/gnun/ if
 #    GNUN is installed.
@@ -133,12 +133,12 @@ while [ ${params} -ge 1 ]; do
 done
 
 if [ ${params} -ne 0 ]; then
-  echo 1>&2 "*** Unrecognized option “$1”.  See --help for details."
+  echo 1>&2 "*** Unrecognized option \"$1\".  See --help for details."
   exit 1
 fi
 
 if [ ! -d "${dir}" ]; then
-  echo 1>&2 "*** Error: Directory “$dir” doesn't exist."
+  echo 1>&2 "*** Error: Directory \"$dir\" doesn't exist."
   exit 1
 fi
 
@@ -184,7 +184,7 @@ rsync -anv --exclude "Attic" \
            --prune-empty-dirs \
   rsync://cvs.sv.gnu.org/web/www/www www-cvs/ >> $TMP1
 
-# Weed out the rsync messages and the directories, and remove the “,v”
+# Weed out the rsync messages and the directories, and remove the ",v"
 # extension.
 sed -i -e '/^www/!d' \
        -e '/\/$/d' \
@@ -237,7 +237,7 @@ else
   exit 1
 fi
 
-# Edit the “*-LINGUAS” lines of gnun.mk to leave only the specified
+# Edit the "*-LINGUAS" lines of gnun.mk to leave only the specified
 # language, otherwise, GNUN will complain that generic.lang.html is missing.
 sed -i -e '/LINGUAS.*\\$/ {N; s,\n,,}' \
        -e "s,LINGUAS := .*$,LINGUAS := $lang," www/server/gnun/gnun.mk

@@ -7,8 +7,8 @@
 # This script checks out the files required by batch-transvalidate to
 # generate HTML pages from POs for a specific language. It is intended for
 # translators who would like to install GNUN locally. Transvalidation with
-# Make and the site GNUmakefile requires some additional files. A “mini-
-# www” checkout will download those.
+# Make and the site GNUmakefile requires some additional files. A "mini-
+# www" checkout will download those.
 
 # Method:
 # 1. A list of the potentially useful files is obtained from a dry run of
@@ -17,7 +17,7 @@
 # 2. The rsync list is further processed, to build a checkout list
 #    containing the language-specific POs, and the corresponding POTs and
 #    original HTMLs.
-# 3. gnun.mk and priorities.mk are added because the “sync” and “report”
+# 3. gnun.mk and priorities.mk are added because the "sync" and "report"
 #    targets of GNUmakefile.team use them (batch-transvalidate doesn't).
 # 4. The listed files are downloaded by cvs (anonymous checkout).
 
@@ -130,12 +130,12 @@ while [ ${params} -ge 1 ]; do
 done
 
 if [ ${params} -ne 0 ]; then
-  echo 1>&2 "*** Unrecognized option “$1”.  See --help for details."
+  echo 1>&2 "*** Unrecognized option \"$1\".  See --help for details."
   exit 1
 fi
 
 if [ ! -d "${dir}" ]; then
-  echo 1>&2 "*** Error: Directory “$dir” doesn't exist."
+  echo 1>&2 "*** Error: Directory \"$dir\" doesn't exist."
   exit 1
 fi
 
@@ -176,7 +176,7 @@ rsync -anv --exclude "Attic" \
            --prune-empty-dirs \
   rsync://cvs.sv.gnu.org/web/www/www www-cvs/ >> $TMP1
 
-# Weed out the rsync messages and the directories, and remove the “,v”
+# Weed out the rsync messages and the directories, and remove the ",v"
 # extension.
 sed -i -e '/^www/!d' \
        -e '/\/$/d' \
