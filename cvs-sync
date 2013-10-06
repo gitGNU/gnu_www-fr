@@ -1,0 +1,104 @@
+#!/bin/bash
+
+# SYNCHRONIZATION OF www AND www-fr WITH THE CVS REPOSITORY
+
+
+# Overview:
+# This script synchronizes the local www directory with the CVS repository,
+# then the local www-fr with www. It reports the status of the POs and checks
+# whether there is any new translation. If there is, it checks out the
+# corresponding PO, POT and original HTML so that they can be updated later on,
+# then gives another status report.
+
+# Depends on cvs, git, make and the team's GNUmakefile (in www-fr).
+
+# Requirements:
+# - The git branch must be specified in the batch-transvalidate configuration
+#   file or, failing that, at the beginning of the script.
+# - www and www-fr must have a common root, $HOME/GNU/ by default. Another root
+#   may be specified in the configuration file or, failing that, at the
+#   beginning of the script.
+
+# How-to:
+# Simply launch the script or run it from a terminal without argument.
+
+# Copyright (C) 2013 Whoever.
+# You may redistribute this script and/or modify it under the terms of the
+# Creative Commons CC0 license
+# (http://creativecommons.org/publicdomain/zero/1.0/legalcode).
+
+set -e
+
+# Parameters
+branch=
+dir=$HOME/GNU
+if [ -f $HOME/.config/gnun/profile ]; then
+  source $HOME/.config/gnun/profile
+fi
+
+if cd $dir/www 2> /dev/null; then
+  # Update the local www directory.
+  cvs update
+else
+  echo "*** Erreur: le répertoire www n'existe pas. Arrêt."
+  exit 1
+fi
+
+if cd ../www-fr 2> /dev/null; then
+  # Find out whether the current git branch is the correct one.
+  curr_branch=$(git rev-parse --abbrev-ref HEAD)
+  if [ "$curr_branch" != "$branch" ]; then
+    # If not, commit the staged changes, otherwise git will refuse to switch
+    # to another branch. But don't add anything because what is unstaged
+    # may not belong to $curr_branch. O_o
+    staged=$(git diff --name-only --staged )
+    if [ -n "$staged" ]; then
+      git commit -m "$(date +"%F %T")"
+      echo -e "\n*** Les modifications de la branche \"$curr_branch\" ont été
+    commitées. Ce commit devra probablement être amendé."
+    fi
+    # Then switch.
+    git checkout $branch
+  fi
+
+  # Synchronize www-fr with www and ask GNUN to report the status of the POs.
+  make sync && make report > ../gnun-report.txt
+
+else
+  echo "*** Erreur: le répertoire www-fr n'existe pas. Arrêt."
+  exit 1
+fi
+
+# Create temporary files
+TMP1=$(mktemp -t sync.XXXXXX) || exit 1  # New PO, extracted from GNUN's report
+TMP2=$(mktemp -t sync.XXXXXX) || exit 1  # Checkout list
+trap 'rm -f "$TMP1" "$TMP2"' EXIT
+
+# Check for new translations listed in GNUN's report.
+cd ../
+if grep "new translation seems ready" gnun-report.txt > $TMP1; then
+  # If there is any, make a list of the files that need to be checked out:
+  # .html, .pot and .fr.po.
+  sed -i 's,:.*,,' $TMP1
+  sed -e 's,\(.*\)\.fr\.po$,\1.html,' $TMP1 >> $TMP2
+  sed -e 's,\([^/]*\)$,po/\1,' $TMP1 >> $TMP2
+  sed -e 's,\([^/]*\)\.fr\.po$,po/\1.pot,' $TMP1 >> $TMP2
+  cd www
+  # If any of those files is already in the www directory, remove it because
+  # it is not tracked and cvs would complain that it is in the way.
+  rm -f $(< $TMP2)
+
+  # Checkout the files.
+  cvs update $(< $TMP2) || true
+
+  # Ask GNUN for a new status report.
+  cd ../www-fr
+  make sync && make report > ../gnun-report.txt
+  cd ../
+fi
+
+# Display the report.
+echo ''
+cat gnun-report.txt
+
+exit 0
