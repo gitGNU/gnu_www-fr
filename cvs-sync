@@ -76,9 +76,10 @@ trap 'rm -f "$TMP1" "$TMP2"' EXIT
 
 # Check for new translations listed in GNUN's report.
 cd ../
-if grep "new translation seems ready" gnun-report.txt > $TMP1; then
+if grep 'new translation seems ready\|no POT in `www' gnun-report.txt > $TMP1; then
   # If there is any, make a list of the files that need to be checked out:
   # .html, .pot and .fr.po.
+  # FIXME: This will not work if the POT has the extension .pot.opt.
   sed -i 's,:.*,,' $TMP1
   sed -e 's,\(.*\)\.fr\.po$,\1.html,' $TMP1 >> $TMP2
   sed -e 's,\([^/]*\)$,po/\1,' $TMP1 >> $TMP2
