@@ -3,7 +3,8 @@
 # SYNCHRONIZATION OF www AND www-fr WITH THE CVS REPOSITORY
 
 
-# Overview:
+# Overview
+
 # This script synchronizes the local www directory with the CVS repository,
 # then the local www-fr with www. It reports the status of the POs and checks
 # whether there is any new translation. If there is, it checks out the
@@ -12,15 +13,18 @@
 
 # Depends on cvs, git, make and the team's GNUmakefile (in www-fr).
 
-# Requirements:
+# Requirements
+
 # - The git branch must be specified in the batch-transvalidate configuration
 #   file or, failing that, at the beginning of the script.
 # - www and www-fr must have a common root, $HOME/GNU/ by default. Another root
 #   may be specified in the configuration file or, failing that, at the
 #   beginning of the script.
 
-# How-to:
+# How-to
+
 # Simply launch the script or run it from a terminal without argument.
+
 
 # Copyright (C) 2013 Whoever.
 # You may redistribute this script and/or modify it under the terms of the
@@ -36,15 +40,19 @@ if [ -f $HOME/.config/gnun/profile ]; then
   source $HOME/.config/gnun/profile
 fi
 
-if cd $dir/www 2> /dev/null; then
-  # Update the local www directory.
-  cvs update
-else
+if ! cd $dir/www 2> /dev/null; then
   echo "*** Erreur: le répertoire www n'existe pas. Arrêt."
   exit 1
+else
+  # Update the local www directory.
+  cvs update
 fi
 
-if cd ../www-fr 2> /dev/null; then
+if ! cd ../www-fr 2> /dev/null; then
+  echo "*** Erreur: le répertoire www-fr n'existe pas. Arrêt."
+  exit 1
+else
+
   # Find out whether the current git branch is the correct one.
   curr_branch=$(git rev-parse --abbrev-ref HEAD)
   if [ "$curr_branch" != "$branch" ]; then
@@ -61,45 +69,38 @@ if cd ../www-fr 2> /dev/null; then
     git checkout $branch
   fi
 
-  # Synchronize www-fr with www and ask GNUN to report the status of the POs.
-  make sync && make report > ../gnun-report.txt
+  # Create temporary files
+  TMP0=$(mktemp -t sync.XXXXXX) || exit 1  # Sync output
+  TMP1=$(mktemp -t sync.XXXXXX) || exit 1  # New POs, extracted from sync output
+  TMP2=$(mktemp -t sync.XXXXXX) || exit 1  # Checkout list
+  trap 'rm -f "$TMP1" "$TMP2"' EXIT
 
-else
-  echo "*** Erreur: le répertoire www-fr n'existe pas. Arrêt."
-  exit 1
+  # Synchronize www-fr with www.
+  make sync > $TMP0
+
+  # Check for new translations in the sync output.
+  if grep 'new translation\|no equivalent .pot' $TMP0 > $TMP1; then
+    # If there is any, make a list of the files that need to be checked out:
+    # .html, .pot and .fr.po.
+    # FIXME: This will not work if the POT has the extension .pot.opt.
+    sed -i 's,^\([^ ]* \|\)\([^ ]*\)\.fr\.po.*$,\2,' $TMP1
+    sed -e 's,$,.html,' $TMP1 > $TMP2
+    sed -e 's,\([^/]*\)$,po/\1.fr.po,' $TMP1 >> $TMP2
+    sed -e 's,\([^/]*\)$,po/\1.pot,' $TMP1 >> $TMP2
+
+    # If any of those files is already in the www directory, remove it because
+    # it is not tracked and cvs would complain that it is in the way.
+    cd ../www
+    rm -f $(< $TMP2)
+    # Checkout the files
+    cvs update $(< $TMP2) || true
+    # and sync a second time.
+    cd ../www-fr && make sync > /dev/null
+  fi
+
+  # Get a status report and save it.
+  make report > ../gnun-report.txt
+  echo ''
+  cat ../gnun-report.txt
 fi
-
-# Create temporary files
-TMP1=$(mktemp -t sync.XXXXXX) || exit 1  # New PO, extracted from GNUN's report
-TMP2=$(mktemp -t sync.XXXXXX) || exit 1  # Checkout list
-trap 'rm -f "$TMP1" "$TMP2"' EXIT
-
-# Check for new translations listed in GNUN's report.
-cd ../
-if grep 'new translation seems ready\|no POT in `www' gnun-report.txt > $TMP1; then
-  # If there is any, make a list of the files that need to be checked out:
-  # .html, .pot and .fr.po.
-  # FIXME: This will not work if the POT has the extension .pot.opt.
-  sed -i 's,:.*,,' $TMP1
-  sed -e 's,\(.*\)\.fr\.po$,\1.html,' $TMP1 >> $TMP2
-  sed -e 's,\([^/]*\)$,po/\1,' $TMP1 >> $TMP2
-  sed -e 's,\([^/]*\)\.fr\.po$,po/\1.pot,' $TMP1 >> $TMP2
-  cd www
-  # If any of those files is already in the www directory, remove it because
-  # it is not tracked and cvs would complain that it is in the way.
-  rm -f $(< $TMP2)
-
-  # Checkout the files.
-  cvs update $(< $TMP2) || true
-
-  # Ask GNUN for a new status report.
-  cd ../www-fr
-  make sync && make report > ../gnun-report.txt
-  cd ../
-fi
-
-# Display the report.
-echo ''
-cat gnun-report.txt
-
 exit 0
