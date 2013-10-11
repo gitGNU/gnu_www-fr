@@ -175,7 +175,7 @@ else ifeq ($(REPO),Arch)
 	$(TLA) update
 endif
 else
-	$(info Repositories were not updated, you might want "make VCS=yes".)
+	$(echo "")
 endif
 
 # Synchronize (update) the PO files from the master POTs.
@@ -305,7 +305,6 @@ sync-$(1): $(sync-master)
 	      comp="-C $$$$www_po"; \
 	      $$(if $(master), test $$$$file -nt $(master) && ) \
 	      $$(call cmp-POs,$1,$$$${www_po}) \
-	        && echo "$$$${file#./}: Already in sync." \
 	        || { \
 		     echo -n "$$$${file#./}: Merging"; \
 		     $(MSGATTRIB) --no-fuzzy -o $(1)-tmp.www.po $$$$www_po  2>&1; \
@@ -324,7 +323,6 @@ sync-$(1): $(sync-master)
 	    fi; \
 	    $(if $(ADD_FUZZY_DIFF), $(ADD_FUZZY_DIFF) $1 > $1.tmp \
 		 && cmp -s $1 $1.tmp || cp $1.tmp $1; $(RM) $1.tmp;) \
-	    $$(call echo-statistics,$1); \
 	  fi
 sync: sync-$(1)
 endef
