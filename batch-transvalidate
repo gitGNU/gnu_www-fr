@@ -8,7 +8,7 @@
 # To "transvalidate" is to transform a PO file into HTML and validate the
 # result. The word is not in the dictionary... So what?  :-)
 
-# Principle
+# Overview
 
 # This script aims to make life easier for the average translator who works
 # with PO files and would like to generate HTML pages for proofreading and
@@ -52,9 +52,11 @@
 # 3. For each item in the list:
 #    - a simplified header is added to the master document, as well as
 #      the missing tags, then the SSI directives are inactivated to
-#      avoid problems with the includes (it did happen at least once);
+#      avoid problems with the includes (it did happen at least once); the
+#      includes are turned into makeshift web pages to allow validation;
 #    - to make proofreading of the HTML easier, the "GNUN-split" tags of the
 #      template are replaced with <br />\n/*split*/\n<br />;
+#    - the relative links to gnu.org articles are replaced with absolute links;
 #    - the translated page is generated with po4a-translate;
 #    - the page is validated with xmllint;
 #    - it is reformatted with msgcat;
@@ -138,7 +140,7 @@ Options and current settings:
 
   -m, --message="COMMIT MESSAGE"        [$message]
       Specify a commit message, such as "Update", "Proofreading by...",
-      "New translation by...", etc. (optional)
+      "New translation by...", etc. (optional, only applies to Git)
 
   -p  --po=PATH/TO/ARTICLE.$lang.po        [$po]
       Do not use a list, specify the path to the PO, relative to
@@ -260,12 +262,9 @@ fi
 # If "lang" and "editor" aren't set yet, try to guess them.
 if [ -f /usr/bin/editor ]; then
   editor=/usr/bin/editor
-elif [ -n "$EDITOR" ] && [ -f $EDITOR ]; then
+elif [ -n "$EDITOR" ] && [ -f "$EDITOR" ]; then
   editor=$EDITOR
 else
-  # It would have been nicer to write "emacs" here but this is just too
-  # unrealistic. Most standard distributions don't include emacs, but they
-  # will have vi.
   editor=vi
 fi
 
@@ -298,6 +297,7 @@ $guessed_wdir\n
     exit 1
   fi
 fi
+
 
 # Create a profile if there is none.
 cd $HOME/.config
@@ -343,11 +343,13 @@ EOF
           \"Yes\" = [Enter]    \"No\" = any other key\n"
   read -s -n1 OK
   if [ -z "$OK" ]; then
-    editor $HOME/.config/gnun/profile
+    $editor $HOME/.config/gnun/profile
   fi
 fi
 
+
 function check_fuzz () {
+
   rm -f ../fuzz-report
   for f in $(find * -name \*.po); do
     # Check for fuzzy strings.
@@ -360,11 +362,11 @@ function check_fuzz () {
       echo "$f is not completely translated" >> ../fuzz-report
     fi
   done
-  if [ -f ../fuzz-report ]; then
+  if [ -s ../fuzz-report ]; then
     echo "*** One or more files are not up-to-date:"
     cat ../fuzz-report
-    echo -e "\n*** You are on hold,
-    press [Enter] to resume, or any other key to quit."
+    echo -e "\n*** The fuzz-report has been saved to $dir.
+    You are on hold, press [Enter] to resume or any other key to quit."
     read -s -n1 choice
     case "$choice" in
       "")
@@ -375,27 +377,28 @@ function check_fuzz () {
         ;;
     esac
   fi
+  rm -f ../fuzz-report
 }
 
 function create_valid_list () {
 # creates a list of transvalidation candidates and displays it for edition.
 # FIXME: The best method depends on the team's workflow.
-  check_fuzz
-  rm -f ../fuzz-report
 
+  check_fuzz
+
+  # If www-lang is a CVS directory, use cvs diff.
   if [ -d CVS ]; then
     cvs -nq diff |
     grep "RCS file:" |
     sed -e "s;^RCS file: /webcvs/www/www-$lang/;;" \
-        -e 's;,v$;;' > ../valid-list
+        -e 's;,v$;;' > $valid_list
 
+  # If www-lang is a Git repository, use git diff.
   elif [ -d .git ] && [ -n "$branch" ]; then
     # What follows is for fuzzy heads who launch a script from the dashboard
     # without checking which branch they are on.
-
+    # http://makandracards.com/makandra/12107-git-show-current-branch-name-only
     curr_branch=$(git rev-parse --abbrev-ref HEAD)
-# https://makandracards.com/makandra/12107-git-show-current-branch-name-only
-
     if [ "$curr_branch" != "$branch" ]; then
       # Commit the staged changes, otherwise git will refuse to switch
       # to another branch. But don't add anything because what is unstaged
@@ -408,25 +411,44 @@ function create_valid_list () {
       fi
       git checkout $branch
     fi
-
     git add .
-    git diff --name-only --staged > ../valid-list
+    git diff --name-only --staged > $valid_list
 
+  # Or else, use GNUN's report.
   else
     if [ ! -f ../gnun-report.txt ]; then
       echo -e "*** Synchronize www-$lang with www and save gnun's report."
       make sync && make report > ../gnun-report.txt
     fi
     sed -e "/\\.$lang\\.po/!d" \
-        -e 's/:[^:]*//' ../gnun-report.txt > ../valid-list
+        -e 's/:[^:]*//' ../gnun-report.txt > $valid_list
   fi
-  $editor ../valid-list
+
+  # Look at the list and edit it as needed.
+  echo -e "\n*** Validation list:"
+  cat $valid_list
+  echo -e "\n    [Enter]     : \"Continue\"
+    [e]         : \"Edit\"
+    [other key] : \"Quit\""
+  read -s -n1 choice
+  case "$choice" in
+    "")
+      ;;
+    "e")
+      $editor $valid_list
+      ;;
+    *)
+      echo "Bye"
+      exit
+      ;;
+  esac
 }
 
-function inactivate_ssi () {
+function fix_html () {
 # adds a minimal HTML header and the missing tags, defines the xmllint options,
 # depending whether the document is using HTML5 or not, then inactivates the
 # SSI directives.
+
   cat - $1 > $2 << EOF
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -434,6 +456,7 @@ function inactivate_ssi () {
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 EOF
+
   read -r firstline < $1
   # This is adapted from gnun-validate-html.
   case $firstline in
@@ -449,7 +472,7 @@ EOF
   if grep "server/banner.html" $2 > /dev/null; then
     sed -i -e '/server\/banner\.html"/c</head><body><div><div>' \
            -e 's/<!--#/<!-- /g' $2
-  # If this is an include, add missing tags.
+  # If this is an include or something similar, add missing tags.
   else
     sed -i -e 's,\(charset=utf-8" \/>\)$,\1<title></title></head><body>,' \
            -e '$a</body></html>' $2
@@ -475,6 +498,8 @@ function update_po_header () {
 function delete_comments () {
 # removes useless comments (outdated messages that contain links outside
 # gnu.org and fsf.org are kept).
+
+
   sed -e '/^"Outdated-Since/d' -e '/^# |/d' -e '/^#|/d' $1 |
   awk 'BEGIN {
   FS = " ";
@@ -495,71 +520,98 @@ function delete_comments () {
       }
     }
   }' |
-  sed ':egin /^\n*$/ {$d; N; begin}' > ../p && mv ../p $1
+  sed ':egin /^\n*$/ {$d; N; begin}' > $clean_po && mv $clean_po $1
 }
 
 function create_addendum () {
 # creates po4a addenda for translator's notes and translator's credits.
-  echo "PO4A-HEADER:mode=after;position=$3;beginboundary=^" > ../add-$2
+  echo "PO4A-HEADER:mode=after;position=$3;beginboundary=^" > $4
   sed -e '/*GNUN-SLOT: TRANSLATOR.S '"$2"'*/,/#. type: Content of:/!d' \
       -e '/GNUN-SLOT/d' -e '/^#/d' -e 's/^msgstr "//' \
       -e ':egin /"$/ {N; s,"\n",,; begin}' \
-      -e 's,\\",",g' -e 's,\\n,\n,g' $1  >> ../add-$2
-  sed -i 's,"$,,' ../add-$2
-  echo '<br /><br />' >> ../add-$2
+      -e 's,\\",",g' -e 's,\\n,\n,g' $1  >> $4
+  sed -i 's,"$,,' $4
+  echo '<br /><br />' >> $4
 }
 
 function make_links_absolute () {
 # replaces relative links to gnu.org articles with absolute links, otherwise
-# they are not clickable.
+# they are inactive.
   sed -i 's,href="/,href="http://www.gnu.org/,g' $1
 }
 
 function transvalidate () {
 # converts a PO to HTML and validates the result.
-  interm_exit_code=0
-  echo -e "\n=== $po"
-  # Strip the extension and the language code from the filename.
-  article=$(echo ${po%.$lang.po})
-  inactivate_ssi ../www/$article.html ../m
-  add_split_tags ../m
 
-  rm -f $article.$lang-local.html
-  if grep "*GNUN-SLOT" $po > /dev/null; then
-  # If this is a normal article:
-    create_addendum $po NOTES 'footer.html"'
-    create_addendum $po CREDITS 'timestamp start'
-    # The po4a-translate "k" option, "Minimal threshold for translation
-    # percentage to keep (ie, write) the resulting file", is set at 30 to
-    # allow proofreading of a partial translation or detection of faulty
-    # strings (the default is 80).
-    po4a-translate -f xhtml -M utf-8 -m ../m -p $po -k 30 -L utf-8 \
-    -l $article.$lang-local.html -a ../add-CREDITS -a ../add-NOTES \
-    || interm_exit_code=$?
+ ## Prepare the po4a "master".
+
+  if [ -f "$po" ]; then
+    echo -e "\n=== $po"
+    # Strip the extension and the language code from the filename.
+    article=$(echo ${po%.$lang.po})
   else
-  # If this is an include:
-    po4a-translate -f xhtml -M utf-8 -m ../m -p $po -k 30 -L utf-8 \
-    -l $article.$lang-local.html || interm_exit_code=$?
+    echo -e "\n*** $po doesn't exist in the www-$lang directory."
+    return 1
   fi
 
-  xmllint $VALIDATE --nonet --noout $article.$lang-local.html \
-  || interm_exit_code=$?
-  msgcat -w 79 -o $po $po || interm_exit_code=$?
-  [ "$interm_exit_code" = "0" ] || final_exit_code=$interm_exit_code
+  cd ../www
+  if [ ! -s "$article.html" ]; then
+    cvs update $article.html
+  fi
 
-  make_links_absolute $article.$lang-local.html
-  delete_comments $po
-  update_po_header $po
-  # Clean up.
-  rm -f ../p ../m ../add-CREDITS ../add-NOTES
+  if [ ! -s "$article.html" ]; then
+    echo "*** $article.$lang.po has no corresponding original."
+    cd ../www-$lang
+    return 1
+
+  else
+    interm_exit_code=0
+
+    fix_html $article.html $master
+    add_split_tags $master
+
+ ## Generate the translated page.
+
+    cd ../www-$lang
+    rm -f $article.$lang-local.html
+    if grep "*GNUN-SLOT" $po > /dev/null; then
+    # If this is a normal article:
+      create_addendum $po NOTES 'footer.html"' $add_notes
+      create_addendum $po CREDITS 'timestamp start' $add_credits
+      # The po4a-translate "k" option, "Minimal threshold for translation
+      # percentage to keep (ie, write) the resulting file", is set at 30 to
+      # allow proofreading of a partial translation or detection of faulty
+      # strings (the default is 80).
+      po4a-translate -f xhtml -M utf-8 -m $master -p $po -k 30 -L utf-8 \
+      -l $article.$lang-local.html -a $add_credits -a $add_notes \
+      || interm_exit_code=$?
+    else
+      po4a-translate -f xhtml -M utf-8 -m $master -p $po -k 30 -L utf-8 \
+      -l $article.$lang-local.html || interm_exit_code=$?
+    fi
+
+ ## Validate the HTML and reformat/validate the PO.
+
+    xmllint $VALIDATE --nonet --noout $article.$lang-local.html \
+    || interm_exit_code=$?
+    msgcat -w 79 -o $po $po || interm_exit_code=$?
+
+ ## Tweak the translated page and the PO.
+
+    make_links_absolute $article.$lang-local.html
+    delete_comments $po
+    update_po_header $po
+
+    return $interm_exit_code
+  fi
 }
 
 function select_message () {
 # lets the user select a message from the configuration file.
-  echo "*** Please select a commit message:
-        [1] $message1
-        [2] $message2
-        [other key] no commit"
+  echo -e "    Please select a commit message:
+    [1]         : \"$message1\"
+    [2]         : \"$message2\"
+    [other key] :  no commit"
   read -s -n1 choice
   case "$choice" in
     1)
@@ -568,7 +620,7 @@ function select_message () {
     2)
       message=$message2
     ;;
-   *)
+    *)
       message=
     ;;
   esac
@@ -576,53 +628,55 @@ function select_message () {
 
 ## Main
 
+valid_list=$(mktemp -t tval.XXXXXX) || exit 1
+master=$(mktemp -t tval.XXXXXX) || exit 1
+add_notes=$(mktemp -t tval.XXXXXX) || exit 1
+add_credits=$(mktemp -t tval.XXXXXX) || exit 1
+clean_po=$(mktemp -t tval.XXXXXX) || exit 1
+trap "rm -f $valid_list $master $add_notes $add_credits $clean_po" EXIT
+
+echo "
+ ## batch-transvalidate: generation of HTML pages from POs and validation ##"
+
 cd $dir/www-$lang
 final_exit_code=0
 
-if [ -z "$po" ]; then
-  create_valid_list
-  if [ -s ../valid-list ]; then
-    while read po; do
-      if [ -n "$po" ] && [ -f "$po" ]; then
-        transvalidate
-      else
-        echo -e "\n*** Sorry, there is no file named \"$po\" in www-$lang."
-      fi
-    done < ../valid-list
+if [ -n "$po" ]; then
+  transvalidate || final_exit_code=$?
 
-    # [Git only] Commit the POs to the local repo.
-    if [ -d .git ] && [ "$final_exit_code" = "0" ]; then
-      git add .
-      if [ "$(git diff --name-only --staged)" ]; then
-        [ -z "$message" ] && select_message
-        if [ -z "$message" ]; then
-          echo -e "\n*** The POs are ready to commit."
-        else
-          git commit -m "$message"
-          echo -e "\n*** Changes to branch $branch have been committed."
+else
+  create_valid_list
+  if [ ! -s "$valid_list" ]; then
+    echo -e "\n*** Sorry, I can't find any PO to work on.
+    If you use Git, please make sure that none of
+    your changes has been committed or stashed.\n"
+    exit 1
+  else
+    while read po; do
+      transvalidate || final_exit_code=$?
+    done < $valid_list
+
+    if [ "$final_exit_code" = "0" ]; then
+      echo -e "\n*** The POs are OK."
+      # Remove GNUN's report because it has become obsolete.
+      rm -f ../gnun-report.txt
+      # [Git only] Commit the POs to the local repo.
+      if [ -d .git ]; then
+        git add .
+        if [ "$(git diff --name-only --staged)" ]; then
+          [ -z "$message" ] && select_message
+          if [ -z "$message" ]; then
+            echo -e "    The POs are ready to commit."
+          else
+            git commit -m "$message"
+            echo -e "    Changes to branch $branch have been committed."
+          fi
         fi
       fi
     else
-      echo -e "\n*** One or more of the POs need fixing.
-    Your changes stay in the staging area for the time being."
+      echo -e "\n*** There is a problem with at least one PO."
     fi
-
-  else
-    echo -e "\n*** Sorry, I can't find any PO to work on.
-    If you use Git, please make sure that none of
-    your changes has been committed or stashed."
   fi
-
-elif [ -f "$po" ]; then
-  transvalidate
-
-else
-  echo -e "\n*** Sorry, there is no file named \"$po\" in www-$lang."
-fi
-
-if [ "$final_exit_code" = "0" ]; then
-  # Remove GNUN's report because it has become obsolete.
-  rm -f ../gnun-report.txt
 fi
 
 exit $final_exit_code
