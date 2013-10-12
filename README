@@ -1,0 +1,84 @@
+Inventaire des scripts de www-fr
+
+batch-transvalidate
+ convertit les POs en page HTML, et vérifie que leur format est correct et que
+ le HTML est conforme aux standards du W3C. Ce script utilise un autre fichier
+ de la branche scripts : html5.dtd, qui provient du paquet GNUN.
+
+cvs-sync
+ synchronise le répertoire www avec le dépôt CVS et le répertoire www-fr avec
+ www, et éventuellement ajoute à www les fichiers nécessaires à la mise à jour
+ des nouvelles traductions.
+
+mini-www-checkout
+ installe un répertoire www réduit, ne contenant que les fichiers nécessaires
+ à la régénération par GNUN de pages traduites en français.
+
+micro-www-checkout
+ installe un répertoire www encore plus réduit, ne contenant que les fichiers
+ nécessaires à la régénération par batch-transvalidate de pages traduites en
+ français.
+
+pot2pad et pad2po
+ facilitent le passage du format PO au pad de traduction et inversement.
+ pot2pad utilise un autre fichier de la branche scripts, pad-header-fr.
+
+
+Utilisation
+
+On peut lancer les scripts directement à partir de la branche « scripts », à
+ condition de l'avoir clonée séparément des branches qui contiennent des
+ fichiers PO (voir http://wiki.april.org/w/Outils_de_traduction_-_2e_partie).
+ En général ils n'ont pas besoin d'argument. Plus de détails en début de
+ script.
+
+Il est également possible de créer des lanceurs (fichiers .desktop), par
+ exemple en éditant le menu des applications de Gnome, KDE, XFCE... après
+ l'avoir éventuellement déverrouillé.
+
+
+Exemple de lanceur pour Gnome et XFCE:
+ ~/.local/share/applications/transvalidation.desktop
+ Noter la ligne « Path », nécessaire si l'on veut que batch-transvalidate
+ trouve le fichier html5.dtd. Elle a été ajoutée à la main, avec bien entendu
+ le changement correspondant de la ligne « Exec ».
+
+-------------------------------------------------------------------------------
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Path=/home/<utilisateur>/www-fr-scripts
+Exec=./batch-transvalidate
+Name[fr_FR]=batch-transvalidate
+Comment[fr_FR]=Transvalidation des PO
+Icon[fr_FR]=/home/<utilisateur>/www-fr-scripts/gnu-alternative1.png
+# (Adaptation de la Tête de GNU alternative
+# http://www.gnu.org/graphics/gnu-alternative.html)
+Name=batch-transvalidate
+Comment=Transvalidation des PO
+Icon=/home/<utilisateur>/www-fr-scripts/gnu-alternative1.png
+-------------------------------------------------------------------------------
+
+Pour que gnome-terminal reste ouvert après arrêt du script :
+ Édition du profil « Par défaut » > Titre et commande
+ > Quand la commande se termine: Conserver le terminal ouvert
+
+
+Exemples d'utilisation de batch-transvalidate
+
+Mises à jour dans le répertoire www-fr
+ Au départ, les changements ne sont pas commités, juste éventuellement indexés.
+ On utilise le lanceur.
+ La liste des PO modifiés s'affiche, on la vérifie et au besoin on la modifie
+ (la liste est créée à partir de « git diff » si la branche Git est indiquée
+ dans le fichier de config, ou à partir de « make report » sinon).
+ Après validation, on choisit le message de commit adéquat.
+ Il ne reste plus qu'à pousser le commit.
+
+Génération d'une page traduite pour relecture (philosophy/uruguay.fr.po)
+ On utilise le terminal :
+     $ ~/www-fr-scripts/batch-transvalidate -p philosophy/uruguay.fr.po
+
