@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the original article.
 # Laurent Bertaud, 2003.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
-# Thérèse Godefroy <godef.th AT free.fr>, 2012.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: why-copyleft.html\n"
-"POT-Creation-Date: 2012-06-10 04:29-0300\n"
-"PO-Revision-Date: 2012-09-04 22:28+0200\n"
+"POT-Creation-Date: 2013-10-14 05:25+0000\n"
+"PO-Revision-Date: 2013-10-14 12:30+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. type: Content of: <title>
-msgid "Why Copyleft? - GNU Project - Free Software Foundation (FSF)"
-msgstr "Pourquoi le copyleft ? - Projet GNU - Free Software Foundation (FSF)"
+msgid "Why Copyleft? - GNU Project - Free Software Foundation"
+msgstr "Pourquoi le copyleft ? - Projet GNU - Free Software Foundation"
 
 #. type: Content of: <h2>
 msgid "Why Copyleft?"
@@ -70,19 +70,19 @@ msgstr ""
 msgid ""
 "Humility is abnegating your own self interest, but you and the one who uses "
 "your code are not the only ones affected by your choice of which free "
-"software license to use for your code.  Someone who uses your code in a non-"
-"free program is trying to deny freedom to others, and if you let him do it, "
-"you're failing to defend their freedom.  When it comes to defending the "
+"software license to use for your code.  Someone who uses your code in a "
+"nonfree program is trying to deny freedom to others, and if you let him do "
+"it, you're failing to defend their freedom.  When it comes to defending the "
 "freedom of others, to lie down and do nothing is an act of weakness, not "
 "humility."
 msgstr ""
 "L'humilité consiste à faire abstraction de votre propre intérêt, mais vous "
 "et celui qui utilise votre code n'êtes pas les seuls à être affectés par le "
-"choix de la licence libre à utiliser pour votre code. Quiconque utilise "
-"votre code dans un programme non libre essaie de nier la liberté d'autrui, "
-"et si vous laissez faire, vous manquez à votre devoir de la défendre. Quand "
-"il s'agit de défendre la liberté d'autrui, ne pas résister et laisser faire "
-"est un acte de faiblesse et non d'humilité."
+"choix de la licence libre à utiliser pour ce code. Quiconque l'utilise dans "
+"un programme non libre essaie de nier la liberté d'autrui, et si vous "
+"laissez faire, vous manquez à votre devoir de la défendre. Quand il s'agit "
+"de défendre la liberté d'autrui, ne pas résister et laisser faire est un "
+"acte de faiblesse et non d'humilité."
 
 #. type: Content of: <p>
 msgid ""
@@ -106,23 +106,29 @@ msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
-"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF."
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF.  Broken links and other corrections or suggestions "
+"can be sent to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF."
+"\">d'autres moyens de contacter</a> la FSF. Les liens orphelins et autres "
+"corrections ou suggestions peuvent être signalés à <a href=\"mailto:"
+"webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-#. type: Content of: <div><p>
-msgid ""
-"Please send broken links and other corrections or suggestions to <a href="
-"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
-msgstr ""
-"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
-
+#.  TRANSLATORS: Ignore the original text in this paragraph,
+#.         replace it with the translation of these two:
+#.         We work hard and do our best to provide accurate, good quality
+#.         translations.  However, we are not exempt from imperfection.
+#.         Please send your comments and general suggestions in this regard
+#.         to <a href="mailto:web-translators@gnu.org">
+#.         &lt;web-translators@gnu.org&gt;</a>.</p>
+#.         <p>For information on coordinating and submitting translations of
+#.         our web pages, see <a
+#.         href="/server/standards/README.translations.html">Translations
+#.         README</a>. 
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -139,12 +145,8 @@ msgstr ""
 "README.translations.html\">guide de traduction</a>."
 
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2003, 2007, 2008 Free Software Foundation, Inc.,"
-msgstr "Copyright &copy; 2003, 2007, 2008 Free Software Foundation, Inc.,"
-
-#. type: Content of: <div><address>
-msgid "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
-msgstr "51 Franklin St, Fifth Floor, Boston, MA 02110, USA"
+msgid "Copyright &copy; 2003, 2007, 2008, 2013 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2003, 2007, 2008, 2013 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""

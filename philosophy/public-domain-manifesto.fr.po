@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: public-domain-manifesto.html\n"
-"POT-Creation-Date: 2012-06-10 04:29-0300\n"
-"PO-Revision-Date: 2012-09-18 09:35+0200\n"
+"POT-Creation-Date: 2013-10-14 05:25+0000\n"
+"PO-Revision-Date: 2013-10-14 10:08+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -15,17 +15,22 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# type: Content of: <h2>
+#. type: Content of: <title>
+msgid ""
+"Why I Will Not Sign the Public Domain Manifesto - GNU Project - Free "
+"Software Foundation"
+msgstr ""
+"Pourquoi je ne signerai pas le manifeste pour le domaine public - Projet GNU "
+"- Free Software Foundation"
+
 #. type: Content of: <h2>
 msgid "Why I Will Not Sign the Public Domain Manifesto"
 msgstr "Pourquoi je ne signerai pas le manifeste pour le domaine public"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid "by <a href=\"http://www.stallman.org/\">Richard M. Stallman</a>"
 msgstr "par <a href=\"http://www.stallman.org/\">Richard M. Stallman</a>"
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The Public Domain Manifesto (<a href=\"http://www.publicdomainmanifesto.org/"
@@ -41,7 +46,6 @@ msgstr ""
 "copyright, aussi j'aurais souhaité pouvoir le soutenir. Cependant il n'est "
 "pas, de loin, à la hauteur de ce qui serait nécessaire."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Some flaws are at the level of implicit assumptions.  The manifesto "
@@ -58,7 +62,6 @@ msgstr ""
 "copyright</a> ». Ces termes ont été choisis pour amener les gens à "
 "sympathiser avec l'industrie du copyright et avec ses exigences de pouvoir."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The manifesto and its signatories use the term &ldquo;intellectual "
@@ -85,7 +88,6 @@ msgstr ""
 "lois, nous devons éviter de créer un précédent où elle sont mises en vrac "
 "dans le même panier."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "General Principle 2 repeats the common error that copyright should balance "
@@ -103,7 +105,6 @@ msgstr ""
 "misinterpreting-copyright.html\">http://www.gnu.org/philosophy/"
 "misinterpreting-copyright.html</a> explique cette erreur et comment l'éviter."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "It would be difficult to stand aside from a campaign for the right goals "
@@ -119,7 +120,6 @@ msgstr ""
 "individuellement, ferait avancer les choses, bien que la formulation de "
 "certaines d'entre elles me dissuade d'y apposer ma signature."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "Rather the problem is that it fails to ask for the most important points.  I "
@@ -134,7 +134,6 @@ msgstr ""
 "manifeste », à moins que de pouvoir ajouter, de manière aussi visible : "
 "« mais il néglige de mentionner les points les plus cruciaux »."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "General Principle 5 opposes contracts that restrict use of copies of public "
@@ -156,7 +155,6 @@ msgstr ""
 "public. Concrètement, il légitime la plupart des dispositifs de DRM utilisés "
 "en pratique, en les soustrayant à la critique."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "I've saved the biggest omission for last.  General Recommendation 9 calls "
@@ -174,7 +172,6 @@ msgstr ""
 "sharing-riaa-lawsuits\">guerre contre le partage</a> que l'industrie du "
 "divertissement est actuellement en train de mener."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The demands and recommendations of the Public Domain Manifesto would be a "
@@ -190,7 +187,6 @@ msgstr ""
 "objectif, il nous distraira de ce que nous avons vraiment besoin de "
 "combattre."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "The Public Domain Manifesto tries to defend our freedom within the walled "
@@ -201,7 +197,6 @@ msgstr ""
 "avons à l'intérieur de la prison dorée du domaine public, mais abandonne "
 "l'autre, la liberté hors des murs. Ce n'est pas suffisant."
 
-# type: Content of: <p>
 #. type: Content of: <p>
 msgid ""
 "I ask the authors of the Public Domain Manifesto, and the public, to please "
@@ -218,7 +213,6 @@ msgstr ""
 "dans notre combat contre la gestion numérique des restrictions, où qu'elle "
 "se manifeste."
 
-# type: Content of: <div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
@@ -226,23 +220,29 @@ msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
-"Please send FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org\">&lt;"
-"gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways to "
-"contact</a> the FSF."
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF.  Broken links and other corrections or suggestions "
+"can be sent to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
 msgstr ""
 "Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
 "gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
-"\">d'autres moyens de contacter</a> la FSF."
+"\">d'autres moyens de contacter</a> la FSF. Les liens orphelins et autres "
+"corrections ou suggestions peuvent être signalés à <a href=\"mailto:"
+"webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
-#. type: Content of: <div><p>
-msgid ""
-"Please send broken links and other corrections or suggestions to <a href="
-"\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
-msgstr ""
-"Veuillez indiquer (en anglais) les liens orphelins et autres corrections ou "
-"suggestions à <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
-"org&gt;</a>."
-
+#.  TRANSLATORS: Ignore the original text in this paragraph,
+#.         replace it with the translation of these two:
+#.         We work hard and do our best to provide accurate, good quality
+#.         translations.  However, we are not exempt from imperfection.
+#.         Please send your comments and general suggestions in this regard
+#.         to <a href="mailto:web-translators@gnu.org">
+#.         &lt;web-translators@gnu.org&gt;</a>.</p>
+#.         <p>For information on coordinating and submitting translations of
+#.         our web pages, see <a
+#.         href="/server/standards/README.translations.html">Translations
+#.         README</a>. 
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
@@ -262,20 +262,17 @@ msgstr ""
 msgid "Copyright &copy; 2010 Richard Stallman"
 msgstr "Copyright &copy; 2010 Richard Stallman"
 
-# type: Content of: <div><p>
 #. type: Content of: <div><p>
 msgid ""
-"This work is licensed under the Creative Commons Attribution-No Derivative "
-"Works 3.0 United States License. To view a copy of this license, visit <a "
-"href=\"http://creativecommons.org/licenses/by-nd/3.0/us/\">http://"
-"creativecommons.org/licenses/by-nd/3.0/us/</a> or send a letter to Creative "
-"Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA."
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+"NoDerivs 3.0 United States License</a>."
 msgstr ""
 "Cette page peut être utilisée suivant les conditions de la licence <a rel="
-"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/"
-"\">Creative Commons Attribution-NoDerivs 3.0 United States</a>."
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr"
+"\">Creative Commons attribution de paternité, pas de modification, 3.0 États-"
+"Unis (CC BY-ND 3.0 US)</a>."
 
-# type: Content of: <div><div>
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
 msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
