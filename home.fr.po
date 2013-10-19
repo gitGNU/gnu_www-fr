@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.html\n"
-"POT-Creation-Date: 2013-10-15 04:55+0000\n"
-"PO-Revision-Date: 2013-10-15 10:29+0200\n"
+"POT-Creation-Date: 2013-10-19 21:55+0000\n"
+"PO-Revision-Date: 2013-10-20 07:02+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -58,37 +58,6 @@ msgstr ""
 "utilisateurs."
 
 #. type: Content of: <div><div><h2>
-msgid "Celebrate with us"
-msgstr "Faites la fête avec nous"
-
-#. type: Content of: <div><div><p><a>
-msgid "<a href=\"/gnu30/gnu30.html\">"
-msgstr "<a href=\"/gnu30/gnu30.html\">"
-
-#. type: Attribute 'alt' of: <div><div><p><a><img>
-msgid "[ GNU 30th Anniversary Banner ]"
-msgstr "[ Bannière du 30e anniversaire de GNU ]"
-
-#. type: Content of: <div><div><div><h4>
-msgid "</a>"
-msgstr "</a>"
-
-#. type: Content of: <div><div><p>
-msgid ""
-"Thirty years ago this month, the <a href=\"/gnu/initial-announcement.html"
-"\">GNU system announcement</a> sparked a conversation that has grown into "
-"the global free software movement. Now <a href=\"/gnu30/gnu30.html\">we "
-"invite you to join the GNU community</a> in celebrating this important "
-"occasion, and creating a future where GNU is stronger than ever."
-msgstr ""
-"Il y a trente ans ce mois-ci, l'<a href=\"/gnu/initial-announcement.html"
-"\">annonce du système GNU</a> a suscité une conversation qui s'est "
-"développée en un mouvement mondial, le mouvement du logiciel libre. "
-"Aujourd'hui, <a href=\"/gnu30/gnu30.html\">nous vous invitons à rejoindre la "
-"communauté GNU</a> pour célébrer cet anniversaire important et créer un "
-"avenir où GNU soit plus fort que jamais."
-
-#. type: Content of: <div><div><h2>
 msgid "What is GNU?"
 msgstr "Qu'est-ce que GNU ?"
 
@@ -105,13 +74,25 @@ msgstr ""
 "GNU</a> (plus précisément, des systèmes GNU/Linux) qui sont entièrement "
 "libres."
 
+#. type: Content of: <div><div><p><a>
+msgid "<a href=\"/distros/screenshot.html\">"
+msgstr "<a href=\"/distros/screenshot.html\">"
+
+#. type: Attribute 'alt' of: <div><div><p><a><img>
+msgid "Screenshot of GNU"
+msgstr "Copie d'écran de GNU"
+
+#. type: Content of: <div><div><div><h4>
+msgid "</a>"
+msgstr "</a>"
+
 #. type: Content of: <div><div><p>
 msgid ""
 "The <a href=\"/gnu/gnu.html\">GNU Project</a> was launched in 1984 to "
 "develop the GNU system.  The name &ldquo;GNU&rdquo; is a recursive acronym "
 "for &ldquo;GNU's Not Unix!&rdquo;.  <a href=\"/pronunciation/pronunciation."
-"html\"> \"GNU\" is pronounced <em>g'noo</em></a>, as one syllable, like "
-"saying \"grew\" but replacing the <em>r</em> with <em>n</em>."
+"html\">&ldquo;GNU&rdquo; is pronounced <em>g'noo</em></a>, as one syllable, "
+"like saying \"grew\" but replacing the <em>r</em> with <em>n</em>."
 msgstr ""
 "Le <a href=\"/gnu/gnu.html\">projet GNU</a> a été lancé en 1984 pour "
 "développer le système GNU. Le nom « GNU » est un acronyme récursif pour "
@@ -135,9 +116,9 @@ msgid ""
 "<a href=\"/software/hurd/hurd.html\">The Hurd, GNU's own kernel</a>, is some "
 "way from being ready for daily use.  Thus, GNU is typically used today with "
 "a kernel called Linux.  This combination is the <a href=\"/gnu/linux-and-gnu."
-"html\"> <strong>GNU/Linux operating system</strong></a>.  GNU/Linux is used "
-"by millions, though many <a href=\"/gnu/gnu-linux-faq.html\"> call it \"Linux"
-"\" by mistake</a>."
+"html\"><strong>GNU/Linux operating system</strong></a>.  GNU/Linux is used "
+"by millions, though many <a href=\"/gnu/gnu-linux-faq.html\">call it &ldquo;"
+"Linux&rdquo; by mistake</a>."
 msgstr ""
 "<a href=\"/software/hurd/hurd.html\"><cite>The Hurd</cite>, le noyau propre "
 "à GNU</a> [en], n'est pas encore prêt pour un usage courant. Aussi, GNU est-"
@@ -425,16 +406,6 @@ msgstr ""
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr"
 "\">Creative Commons attribution de paternité, pas de modification, 3.0 États-"
 "Unis (CC BY-ND 3.0 US)</a>."
-
-#. type: Content of: <div><p>
-msgid ""
-"The GNU 30th banner is licensed under the terms of the CC BY-SA 2.0; for "
-"additional formats and the complete terms for redistribution please visit <a "
-"href=\"https://www.gnu.org/gnu30/\">https://www.gnu.org/gnu30/</a>."
-msgstr ""
-"La bannière « GNU a 30 ans » est sous licence CC BY-SA 2.0 ; vous trouverez "
-"d'autres formats et les conditions exactes de redistribution sur <a href="
-"\"https://www.gnu.org/gnu30/\">https://www.gnu.org/gnu30/</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
