@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
 "POT-Creation-Date: 2013-10-20 22:27+0000\n"
-"PO-Revision-Date: 2013-10-23 10:44+0200\n"
+"PO-Revision-Date: 2013-10-23 20:19+0200\n"
 "Last-Translator: Pierrick L'Ébraly <plebraly AT gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -289,9 +289,9 @@ msgstr ""
 "Autogen a pour but de faciliter la maintenance des programmes qui "
 "contiennent de grandes quantités de texte répétitif. Il automatise la "
 "construction de ces parties du code, ce qui simplifie la tâche de mise à "
-"jour. Il comprend également un paquet de modules appelé AutoOpts, plus "
-"spécialement conçu pour la maintenance de la documentation des options des "
-"programmes.  <small>(<a href=\"/manual/manual.html#autogen\">doc</a>)</small>"
+"jour. Il comprend également un module appelé AutoOpts, plus spécialement "
+"conçu pour la maintenance de la documentation des options des programmes.  "
+"<small>(<a href=\"/manual/manual.html#autogen\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/automake/\">Automake</a>"
@@ -314,7 +314,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/avl/\">Avl</a>"
-msgstr ""
+msgstr "<a href=\"/software/avl/\">Avl</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -323,10 +323,16 @@ msgid ""
 "costly operations such as searching, inserting or deleting items from a data "
 "structure.  <small>(<a href=\"/manual/manual.html#avl\">doc</a>)</small>"
 msgstr ""
+"La bibliothèque avl (libavl) rassemble un nombre important d'arbres binaires "
+"de recherche et d'opérations sur les arbres équilibrés pour le langage C. "
+"Ces arbres permettent une performance au pire en O(log n) pour des "
+"opérations qui, sinon, seraient coûteuses, comme la recherche, l'insertion "
+"ou la suppression d'éléments d'une structure de données. <small>(<a href=\"/"
+"manual/manual.html#avl\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ballandpaddle/\">Ball and Paddle</a>"
-msgstr ""
+msgstr "<a href=\"/software/ballandpaddle/\">Ball and Paddle</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -337,10 +343,17 @@ msgid ""
 "Guile.  <small>(<a href=\"/manual/manual.html#ballandpaddle\">doc</a>)</"
 "small>"
 msgstr ""
+"<cite>Ball and Paddle</cite> (Raquette et balle) est un jeu d'arcade "
+"classique dans lequel vous utilisez une raquette en bas de votre écran, pour "
+"faire rebondir une balle contre des briques dans le haut de l'écran, "
+"éliminant les briques à mesure que vous les touchez. Dans cette variante, "
+"les événements et les attributs de tous les objets (les briques, les balles, "
+"etc.) peuvent être décrits par des scripts en GNU Guile.  <small>(<a href=\"/"
+"manual/manual.html#ballandpaddle\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/barcode/\">Barcode</a>"
-msgstr ""
+msgstr "<a href=\"/software/barcode/\">Barcode</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -350,10 +363,15 @@ msgid ""
 "PostScript formats.  <small>(<a href=\"/manual/manual.html#barcode\">doc</a>)"
 "</small>"
 msgstr ""
+"GNU Barcode est un outil souple, qui permet d'imprimer des codes barres à "
+"partir de chaînes de caractères. Il gère plusieurs méthodes d'encodage et "
+"gammes de tailles. Les codes barres produits peuvent être aux formats "
+"PostScript ou Encapsulated PostScript.  <small>(<a href=\"/manual/manual."
+"html#barcode\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bash/\">Bash</a>"
-msgstr ""
+msgstr "<a href=\"/software/bash/\">Bash</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -365,10 +383,18 @@ msgid ""
 "without modification.  <small>(<a href=\"/manual/manual.html#bash\">doc</a>)"
 "</small>"
 msgstr ""
+"Bash est l'interpréteur de ligne de commande (<cite>shell</cite>) de GNU. Il "
+"est compatible avec le shell Bourne, mais intègre aussi des fonctionnalités "
+"intéressantes des shells Korn et C, et des améliorations qui lui sont "
+"propres. Il permet l'édition en ligne de commande, un historique illimité "
+"des commandes appelées, des fonctions et alias shell, et le contrôle des "
+"processus tout en permettant à la majorité des scripts sh d'être exécutés "
+"sans modification.  <small>(<a href=\"/manual/manual.html#bash\">doc</a>)</"
+"small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bayonne/\">Bayonne</a>"
-msgstr ""
+msgstr "<a href=\"/software/bayonne/\">Bayonne</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -377,10 +403,14 @@ msgid ""
 "solutions, with a focus on SIP.  <small>(<a href=\"/manual/manual."
 "html#bayonne\">doc</a>)</small>"
 msgstr ""
+"Bayonne est le serveur téléphonique du projet <cite>GNU Telephony</cite>. Il "
+"offre un environnement de développement évolutif et permet le déploiement de "
+"solutions de voix sur IP, en se focalisant sur le protocole SIP.  <small>(<a "
+"href=\"/manual/manual.html#bayonne\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bazaar/\">Bazaar</a>"
-msgstr ""
+msgstr "<a href=\"/software/bazaar/\">Bazaar</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -389,10 +419,14 @@ msgid ""
 "the classic centralized workflow.  <small>(<a href=\"/manual/manual."
 "html#bazaar\">doc</a>)</small>"
 msgstr ""
+"GNU Bazaar est un système de gestion des versions qui permet d'enregistrer "
+"un historique des modifications des fichiers d'un projet. Il permet à la "
+"fois une gestion centralisée ou distribuée du flux de travail.  <small>(<a "
+"href=\"/manual/manual.html#bazaar\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bc/\">Bc</a>"
-msgstr ""
+msgstr "<a href=\"/software/bc/\">bc</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -402,20 +436,27 @@ msgid ""
 "<tt>dc</tt>, a reverse-polish calculator.  <small>(<a href=\"/manual/manual."
 "html#bc\">doc</a>)</small>"
 msgstr ""
+"bc est un langage de calcul arithmétique multiprécision. Il comporte un "
+"environnement interactif pour l'évaluation d'expression mathématiques. Il "
+"est similaire syntaxiquement au C, ce qui rend un usage basique aisé. Il "
+"contient aussi <tt>dc</tt>, un calculateur en notation polonaise inversée.  "
+"<small>(<a href=\"/manual/manual.html#bc\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bfd/\">BFD</a>"
-msgstr ""
+msgstr "<a href=\"/software/bfd/\">BFD</a>"
 
 #. type: Content of: <p>
 msgid ""
 "See <a href=\"#binutils\">binutils</a>.  <small>(<a href=\"/manual/manual."
 "html#bfd\">doc</a>)</small>"
 msgstr ""
+"cf <a href=\"#binutils\">binutils</a>.  <small>(<a href=\"/manual/manual."
+"html#bfd\">documentation</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/binutils/\">Binutils</a>"
-msgstr ""
+msgstr "<a href=\"/software/binutils/\">Binutils</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -426,10 +467,18 @@ msgid ""
 "<tt>bfd</tt> library for working with executable and object formats is also "
 "included.  <small>(<a href=\"/manual/manual.html#binutils\">doc</a>)</small>"
 msgstr ""
+"Les GNU Binutils sont des outils pour la manipulation de fichier binaires. "
+"<tt>Ld</tt>, un éditeur de liens, et <tt>as</tt>, un assembleur, sont parmi "
+"les plus notables. D'autres outils permettent, entre autre, d'afficher les "
+"résultats du profilage d'un binaire, de lister les chaînes d'un fichier "
+"binaire, et de travailler sur des archives. La bibliothèque <tt>bfd</tt>, "
+"qui permet de travailler avec des exécutables et les formats objet, en fait "
+"aussi partie. <small>(<a href=\"/manual/manual.html#binutils\">doc</a>)</"
+"small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bison/\">Bison</a>"
-msgstr ""
+msgstr "<a href=\"/software/bison/\">Bison</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -439,10 +488,16 @@ msgid ""
 "simple tools through complex programming languages.  <small>(<a href=\"/"
 "manual/manual.html#bison\">doc</a>)</small>"
 msgstr ""
+"GNU Bison est un générateur générique d'analyseurs syntaxiques <cite>[parser]"
+"</cite>. Il peut construire un analyseur LR déterministe ou général à partir "
+"d'une grammaire explicitée, sans contexte. Il est assez souple pour avoir de "
+"nombreuses applications, permettant de construire des analyseurs syntaxiques "
+"pour de petits outils comme pour des langages complexes.  <small>(<a href=\"/"
+"manual/manual.html#bison\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bool/\">Bool</a>"
-msgstr ""
+msgstr "<a href=\"/software/bool/\">Bool</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -455,10 +510,19 @@ msgid ""
 "robust support for parsing HTML files.  <small>(<a href=\"/manual/manual."
 "html#bool\">doc</a>)</small>"
 msgstr ""
+"GNU Bool est un outil qui permet de faire des recherches dans des fichiers, "
+"avec des opérateurs booléens. Par exemple, on peut chercher <tt>bonjour AND "
+"monde</tt>, ce qui renverrait un fichier contenant la phrase <tt>Bonjour, "
+"tout le monde !</tt>. Il supporte les opérateurs AND et OR, ainsi que "
+"l'opérateur NEAR qui permet de chercher les occurrences adjacentes de deux "
+"mots. Il a une gestion fine du contexte, étant capable de prendre en compte "
+"les changements de ligne et de paragraphe. Il est aussi capable d'analyser "
+"avec fiabilité des fichiers HTML.  <small>(<a href=\"/manual/manual.html#bool"
+"\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bpel2owfn/\">BPEL2oWFN</a>"
-msgstr ""
+msgstr "<a href=\"/software/bpel2owfn/\">BPEL2oWFN</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -471,10 +535,19 @@ msgid ""
 "available.  <small>(<a href=\"/manual/manual.html#bpel2owfn\">doc</a>)</"
 "small>"
 msgstr ""
+"GNU BPEL2oWFN transforme un service web écrit dans le langage <abbr title="
+"\"Web Service Business Process Execution Language\">WS-BPEL</abbr> en un "
+"<abbr title=\"open Workflow Net\">oWFN</abbr>. Il peut aussi convertir une "
+"chorégraphie BPEL4Chor pour en faire un modèle Petri Net. Les propriétés des "
+"fichiers Petri Nets peuvent être analysé avec efficacité, grâce à "
+"l'utilisation de l'analyse statique pour rendre les modèles compacts. Le "
+"contrôle, l'analyse des flux de données, ainsi que des vérifications de base "
+"concernant les blocages et d'autres propriétés similaires sont disponibles.  "
+"<small>(<a href=\"/manual/manual.html#bpel2owfn\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/c-graph/\">C-graph</a>"
-msgstr ""
+msgstr "<a href=\"/software/c-graph/\">C-graph</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -485,10 +558,16 @@ msgid ""
 "dialogs to guide them.  <small>(<a href=\"/manual/manual.html#c-graph\">doc</"
 "a>)</small>"
 msgstr ""
+"GNU C-Graph est un outil pour illustrer la théorie des produits de "
+"convolution. De ce fait, il peut être utile aux étudiants de la théorie du "
+"signal et des systèmes pour visualiser le processus de convolution. Plutôt "
+"que d'obliger les étudiants à écrire du code, le programme leur offre une "
+"interface intuitive, avec des infobulles interactives pour les guider.  "
+"<small>(<a href=\"/manual/manual.html#c-graph\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ccaudio/\">ccAudio</a>"
-msgstr ""
+msgstr "<a href=\"/software/ccaudio/\">ccAudio</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -499,10 +578,18 @@ msgid ""
 "RIFF encoded audio data.  <small>(<a href=\"/manual/manual.html#ccaudio"
 "\">doc</a>)</small>"
 msgstr ""
+"GNU ccAudio2 est une classe C++ portable pour travailler sur des données "
+"audio depuis un disque. Les classes sont à la fois boutistes et sensibles au "
+"contenu ; plutôt que de traiter le son comme des données binaires, la "
+"bibliothèque le traite comme une séquence d'échantillons. Il est aussi "
+"capable de prendre en charge les métadonnées. ccAudio2 gère les formats sun "
+"audio, les fichiers bruts </cite>[raw]</cite>, et les données encodées au "
+"format RIFF.  <small>(<a href=\"/manual/manual.html#ccaudio\">doc</a>)</"
+"small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ccide/\">Ccide</a>"
-msgstr ""
+msgstr "<a href=\"/software/ccide/\">Ccide</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -512,6 +599,12 @@ msgid ""
 "format, which is then expanded into portable C code.  <small>(<a href=\"/"
 "manual/manual.html#ccide\">doc</a>)</small>"
 msgstr ""
+"GNU Ccide est un générateur de code d'arbres de décision pour le langage C. "
+"Il permet d'éviter d'avoir recours à des enchaînements d'appels <cite>if-"
+"else</cite> imbriqués, pathogènes et difficile à gérer. À la place, les "
+"arbres de décision sont tapés dans un format intuitif et digeste, qui est "
+"ensuite traduit en code C générique.  <small>(<a href=\"/manual/manual."
+"html#ccide\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ccrtp/\">ccRTP</a>"
