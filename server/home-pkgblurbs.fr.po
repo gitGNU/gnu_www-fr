@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
 "POT-Creation-Date: 2013-10-20 22:27+0000\n"
-"PO-Revision-Date: 2013-10-23 20:19+0200\n"
+"PO-Revision-Date: 2013-10-26 10:41+0200\n"
 "Last-Translator: Pierrick L'Ébraly <plebraly AT gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "MIME-Version: 1.0\n"
@@ -46,14 +46,14 @@ msgid ""
 "cases, such as pretty-printing <tt>--help</tt> output.  <small>(<a href=\"/"
 "manual/manual.html#a2ps\">doc</a>)</small>"
 msgstr ""
-"GNU a2ps est capable de convertir presque tout au format PostScript, prêt "
-"pour l'impression. Il le fait grâce à sa capacité à déléguer les fichiers à "
-"d'autres programmes qui les prennent en charge, comme Groff ou Gzip. Il "
-"prend en charge autant d'étapes que nécessaire afin de produire des fichiers "
-"joliment imprimés. Il a même quelques fonctionnalités supplémentaires pour "
-"des cas particuliers, comme l'« impression élégante » de la page d'aide par "
-"<tt>--help</tt>.  <small>(<a href=\"/manual/manual.html#a2ps"
-"\">documentation</a>)</small>"
+"GNU a2ps est capable de convertir presque tout au format PostScript, prêt à "
+"imprimer. Il le fait grâce à sa capacité à faire traiter les fichiers par "
+"d'autres programmes, comme Groff ou Gzip. Il prend en charge autant d'étapes "
+"que nécessaire pour effectuer l'« impression élégante » <cite>[pretty-"
+"printing]</cite> d'un fichier. Il a même quelques fonctionnalités "
+"supplémentaires pour des cas particuliers, comme l'impression élégante du "
+"résultat de la commande <tt>--help</tt>.  <small>(<a href=\"/manual/manual."
+"html#a2ps\">documentation</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/acct/\">Acct</a>"
@@ -69,8 +69,7 @@ msgstr ""
 "GNU acct est un moyen pour les administrateurs système de détecter des "
 "profils d'utilisation de leur système. Il donne des informations, entre "
 "autres, sur les connexions, les programmes exécutés et l'utilisation des "
-"ressources système.  <small>(<a href=\"/manual/manual.html#acct\">doc</a>)</"
-"small>"
+"ressources.  <small>(<a href=\"/manual/manual.html#acct\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/acm/\">Acm</a>"
@@ -170,9 +169,8 @@ msgstr ""
 "conducteurs. Son but est d'aider les ingénieurs à concevoir et simuler des "
 "appareils à semi-conducteurs submicrométriques et mésoscopiques, en "
 "s'appuyant sur la méthode de Monte-Carlo. Il est capable de prendre en "
-"charge de nombreux matériaux et structures, qui sont décrites dans de "
-"simples scripts.  <small>(<a href=\"/manual/manual.html#archimedes\">doc</a>)"
-"</small>"
+"charge de nombreux matériaux et structures, qui sont décrits dans de simples "
+"scripts.  <small>(<a href=\"/manual/manual.html#archimedes\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/aris/\">Aris</a>"
@@ -232,9 +230,9 @@ msgstr ""
 "raccourcis claviers ou des menus. Il offre aussi une interface vers des "
 "programmes externes, permettant de compiler vos documents dans Emacs ou d'en "
 "afficher un  aperçu. AUCTeX permet aussi de placer au milieu de votre "
-"document source des aperçus de définitions TeX complexes, comme des formules "
-"mathématiques. <small>(<a href=\"/manual/manual.html#auctex\">doc</a>)</"
-"small>"
+"document source des aperçus de définitions TeX complexes, formules "
+"mathématiques par exemple. <small>(<a href=\"/manual/manual.html#auctex"
+"\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/autoconf/\">Autoconf</a>"
@@ -383,11 +381,11 @@ msgid ""
 "without modification.  <small>(<a href=\"/manual/manual.html#bash\">doc</a>)"
 "</small>"
 msgstr ""
-"Bash est l'interpréteur de ligne de commande (<cite>shell</cite>) de GNU. Il "
+"Bash est l'interpréteur de ligne de commande <cite>[shell]</cite> de GNU. Il "
 "est compatible avec le shell Bourne, mais intègre aussi des fonctionnalités "
 "intéressantes des shells Korn et C, et des améliorations qui lui sont "
 "propres. Il permet l'édition en ligne de commande, un historique illimité "
-"des commandes appelées, des fonctions et alias shell, et le contrôle des "
+"des commandes appelées, des fonctions et alias shell et le contrôle des "
 "processus tout en permettant à la majorité des scripts sh d'être exécutés "
 "sans modification.  <small>(<a href=\"/manual/manual.html#bash\">doc</a>)</"
 "small>"
@@ -403,10 +401,10 @@ msgid ""
 "solutions, with a focus on SIP.  <small>(<a href=\"/manual/manual."
 "html#bayonne\">doc</a>)</small>"
 msgstr ""
-"Bayonne est le serveur téléphonique du projet <cite>GNU Telephony</cite>. Il "
-"offre un environnement de développement évolutif et permet le déploiement de "
-"solutions de voix sur IP, en se focalisant sur le protocole SIP.  <small>(<a "
-"href=\"/manual/manual.html#bayonne\">doc</a>)</small>"
+"Bayonne est le serveur de téléphonie du projet <cite>GNU Telephony</cite>. "
+"Il offre un environnement de développement évolutif et permet le déploiement "
+"de solutions de voix sur IP, en se focalisant sur le protocole SIP.  <small>"
+"(<a href=\"/manual/manual.html#bayonne\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bazaar/\">Bazaar</a>"
@@ -420,9 +418,10 @@ msgid ""
 "html#bazaar\">doc</a>)</small>"
 msgstr ""
 "GNU Bazaar est un système de gestion des versions qui permet d'enregistrer "
-"un historique des modifications des fichiers d'un projet. Il permet à la "
-"fois une gestion centralisée ou distribuée du flux de travail.  <small>(<a "
-"href=\"/manual/manual.html#bazaar\">doc</a>)</small>"
+"un historique des modifications des fichiers d'un projet. Le flux de travail "
+"peut être géré de manière distribuée aussi bien que de la manière "
+"centralisée classique.  <small>(<a href=\"/manual/manual.html#bazaar\">doc</"
+"a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bc/\">Bc</a>"
@@ -437,8 +436,8 @@ msgid ""
 "html#bc\">doc</a>)</small>"
 msgstr ""
 "bc est un langage de calcul arithmétique multiprécision. Il comporte un "
-"environnement interactif pour l'évaluation d'expression mathématiques. Il "
-"est similaire syntaxiquement au C, ce qui rend un usage basique aisé. Il "
+"environnement interactif pour l'évaluation d'expressions mathématiques. Sa "
+"syntaxe ressemble à celle du C, ce qui rend un usage basique aisé. Il "
 "contient aussi <tt>dc</tt>, un calculateur en notation polonaise inversée.  "
 "<small>(<a href=\"/manual/manual.html#bc\">doc</a>)</small>"
 
@@ -452,7 +451,7 @@ msgid ""
 "html#bfd\">doc</a>)</small>"
 msgstr ""
 "cf <a href=\"#binutils\">binutils</a>.  <small>(<a href=\"/manual/manual."
-"html#bfd\">documentation</a>)</small>"
+"html#bfd\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/binutils/\">Binutils</a>"
@@ -489,11 +488,11 @@ msgid ""
 "manual/manual.html#bison\">doc</a>)</small>"
 msgstr ""
 "GNU Bison est un générateur générique d'analyseurs syntaxiques <cite>[parser]"
-"</cite>. Il peut construire un analyseur LR déterministe ou général à partir "
-"d'une grammaire explicitée, sans contexte. Il est assez souple pour avoir de "
-"nombreuses applications, permettant de construire des analyseurs syntaxiques "
-"pour de petits outils comme pour des langages complexes.  <small>(<a href=\"/"
-"manual/manual.html#bison\">doc</a>)</small>"
+"</cite>. Il peut construire un analyseur LR déterministe ou généraliste à "
+"partir d'une grammaire explicitée, sans contexte. Il est assez souple pour "
+"avoir de nombreuses applications, permettant de construire des analyseurs "
+"syntaxiques pour de petits outils comme pour des langages complexes.  <small>"
+"(<a href=\"/manual/manual.html#bison\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bool/\">Bool</a>"
@@ -513,7 +512,7 @@ msgstr ""
 "GNU Bool est un outil qui permet de faire des recherches dans des fichiers, "
 "avec des opérateurs booléens. Par exemple, on peut chercher <tt>bonjour AND "
 "monde</tt>, ce qui renverrait un fichier contenant la phrase <tt>Bonjour, "
-"tout le monde !</tt>. Il supporte les opérateurs AND et OR, ainsi que "
+"tout le monde !</tt>. Il prend en charge les opérateurs AND et OR, ainsi que "
 "l'opérateur NEAR qui permet de chercher les occurrences adjacentes de deux "
 "mots. Il a une gestion fine du contexte, étant capable de prendre en compte "
 "les changements de ligne et de paragraphe. Il est aussi capable d'analyser "
@@ -535,15 +534,15 @@ msgid ""
 "available.  <small>(<a href=\"/manual/manual.html#bpel2owfn\">doc</a>)</"
 "small>"
 msgstr ""
-"GNU BPEL2oWFN transforme un service web écrit dans le langage <abbr title="
-"\"Web Service Business Process Execution Language\">WS-BPEL</abbr> en un "
-"<abbr title=\"open Workflow Net\">oWFN</abbr>. Il peut aussi convertir une "
-"chorégraphie BPEL4Chor pour en faire un modèle Petri Net. Les propriétés des "
-"fichiers Petri Nets peuvent être analysé avec efficacité, grâce à "
-"l'utilisation de l'analyse statique pour rendre les modèles compacts. Le "
-"contrôle, l'analyse des flux de données, ainsi que des vérifications de base "
-"concernant les blocages et d'autres propriétés similaires sont disponibles.  "
-"<small>(<a href=\"/manual/manual.html#bpel2owfn\">doc</a>)</small>"
+"GNU BPEL2oWFN traduit un service web écrit dans le langage <abbr title=\"Web "
+"Service Business Process Execution Language\">WS-BPEL</abbr> en <abbr title="
+"\"open Workflow Net\">oWFN</abbr>. Il peut aussi convertir une chorégraphie "
+"BPEL4Chor pour en faire un modèle Petri Net. Les propriétés des fichiers "
+"Petri Nets peuvent être analysées avec efficacité, grâce à l'utilisation de "
+"l'analyse statique pour rendre les modèles compacts. Cela inclut l'analyse "
+"du contrôle et du flux des données, ainsi que les vérifications de base "
+"concernant les blocages et autres propriétés similaires.  <small>(<a href=\"/"
+"manual/manual.html#bpel2owfn\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/c-graph/\">C-graph</a>"
@@ -560,7 +559,7 @@ msgid ""
 msgstr ""
 "GNU C-Graph est un outil pour illustrer la théorie des produits de "
 "convolution. De ce fait, il peut être utile aux étudiants de la théorie du "
-"signal et des systèmes pour visualiser le processus de convolution. Plutôt "
+"signal et des systèmes, pour visualiser le processus de convolution. Plutôt "
 "que d'obliger les étudiants à écrire du code, le programme leur offre une "
 "interface intuitive, avec des infobulles interactives pour les guider.  "
 "<small>(<a href=\"/manual/manual.html#c-graph\">doc</a>)</small>"
@@ -579,13 +578,13 @@ msgid ""
 "\">doc</a>)</small>"
 msgstr ""
 "GNU ccAudio2 est une classe C++ portable pour travailler sur des données "
-"audio depuis un disque. Les classes sont à la fois boutistes et sensibles au "
-"contenu ; plutôt que de traiter le son comme des données binaires, la "
-"bibliothèque le traite comme une séquence d'échantillons. Il est aussi "
-"capable de prendre en charge les métadonnées. ccAudio2 gère les formats sun "
-"audio, les fichiers bruts </cite>[raw]</cite>, et les données encodées au "
-"format RIFF.  <small>(<a href=\"/manual/manual.html#ccaudio\">doc</a>)</"
-"small>"
+"audio enregistrées sur disque. Les classes sont à la fois boutistes et "
+"sensibles au contenu ; plutôt que de traiter le son comme une données "
+"binaire, la bibliothèque le traite comme une séquence d'échantillons. Elle "
+"est aussi capable de prendre en charge les métadonnées. ccAudio2 gère les "
+"formats sun audio et <abbr title=\"Resource Interchange File Format\">RIFF</"
+"abbr>, ainsi que le son numérisé brut <cite>[raw]</cite>.  <small>(<a href="
+"\"/manual/manual.html#ccaudio\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ccide/\">Ccide</a>"
@@ -608,7 +607,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ccrtp/\">ccRTP</a>"
-msgstr ""
+msgstr "<a href=\"/software/ccrtp/\">ccRTP</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -618,10 +617,18 @@ msgid ""
 "framework for the framework, rather than just being a packet-manipulation "
 "library.  <small>(<a href=\"/manual/manual.html#ccrtp\">doc</a>)</small>"
 msgstr ""
+"GNU ccRTP est une implémentation de <abbr title=\"Real Time Protocol\">RTP</"
+"abbr>, le protocole de transport temps réel de l'<abbr title=\"Internet "
+"Engineering Task Force\">IETF</abbr>. Il convient aux applications clientes "
+"aussi bien qu'aux serveurs de haute capacité. Il est de conception flexible, "
+"ce qui lui permet de fonctionner comme infrastructure <cite>[framework]</"
+"cite> pour l'infrastructure RTP, plutôt que comme simple bibliothèque de "
+"manipulation de paquets.  <small>(<a href=\"/manual/manual.html#ccrtp\">doc</"
+"a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ccscript/\">ccScript</a>"
-msgstr ""
+msgstr "<a href=\"/software/ccscript/\">ccScript</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -630,10 +637,15 @@ msgid ""
 "driven systems.  <small>(<a href=\"/manual/manual.html#ccscript\">doc</a>)</"
 "small>"
 msgstr ""
+"GNU ccScript3 est une bibliothèque qui s'utilise avec un langage de script "
+"ou un langage assembleur, ou même le remplace. Elle apporte un système "
+"d'exécution en machine virtuelle pour programmer des systèmes temps réel ou "
+"dépendants de changements d'état.  <small>(<a href=\"/manual/manual."
+"html#ccscript\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/cflow/\">Cflow</a>"
-msgstr ""
+msgstr "<a href=\"/software/cflow/\">Cflow</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -643,10 +655,15 @@ msgid ""
 "major mode for Emacs for examining the flowcharts that it produces.  <small>"
 "(<a href=\"/manual/manual.html#cflow\">doc</a>)</small>"
 msgstr ""
+"GNU cflow analyse les fichiers sources du code C et produit un graphique des "
+"flux de contrôle du programme. Il est capable de produire plusieurs styles "
+"de graphiques, aux formats POSIX ou GNU étendu. cflow contient aussi un mode "
+"majeur pour Emacs permettant d'examiner les graphiques qu'il produit.  "
+"<small>(<a href=\"/manual/manual.html#cflow\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/cgicc/\">Cgicc</a>"
-msgstr ""
+msgstr "<a href=\"/software/cgicc/\">Cgicc</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -656,10 +673,18 @@ msgid ""
 "types, and on-the-fly HTML generation.  <small>(<a href=\"/manual/manual."
 "html#cgicc\">doc</a>)</small>"
 msgstr ""
+"GNU cgicc est une bibliothèque C++ conforme à la norme <abbr title="
+"\"American National Standards Institute\">ANSI</abbr>, servant à écrire des "
+"applications <abbr title=\"Common Gateway Interface\">CGI</abbr> (interface "
+"de passerelle commune). Elle a la particularité de prendre en charge "
+"FastCGI. La bibliothèque gère plusieurs fonctionnalités, entre autres la "
+"prise en charge de données GET et POST, la manipulation de plusieurs types "
+"de données, et la génération à la volée de code HTML.  <small>(<a href=\"/"
+"manual/manual.html#cgicc\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/chess/\">Chess</a>"
-msgstr ""
+msgstr "<a href=\"/software/chess/\">Chess</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -668,20 +693,26 @@ msgid ""
 "external visual interface such as GNU XBoard.  <small>(<a href=\"/manual/"
 "manual.html#chess\">doc</a>)</small>"
 msgstr ""
+"GNU Chess est un moteur d'échecs. Il permet de se battre contre un "
+"ordinateur dans une partie d'échecs, soit via la console par défaut, soit "
+"via une interface graphique tierce comme GNU XBoard.  <small>(<a href=\"/"
+"manual/manual.html#chess\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/cim/\">Cim</a>"
-msgstr ""
+msgstr "<a href=\"/software/cim/\">Cim</a>"
 
 #. type: Content of: <p>
 msgid ""
 "Cim is the GNU compiler for Simula, the first object-oriented programming "
 "language.  <small>(<a href=\"/manual/manual.html#cim\">doc</a>)</small>"
 msgstr ""
+"Cim est le compilateur GNU pour Simula, le premier langage de programmation "
+"orienté objet. <small>(<a href=\"/manual/manual.html#cim\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/classpath/\">Classpath</a>"
-msgstr ""
+msgstr "<a href=\"/software/classpath/\">Classpath</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -690,10 +721,16 @@ msgid ""
 "specifications and provides a wide array of functionality.  <small>(<a href="
 "\"/manual/manual.html#classpath\">doc</a>)</small>"
 msgstr ""
+"GNU Classpath fournit des bibliothèques essentielles pour les machines "
+"virtuelles et les compilateurs Java. Il est compatible avec une partie "
+"importante des spécifications d l'<abbr title=\"Application Programming "
+"Interface>API</abbr> de ce langage et offre un large éventail de "
+"fonctionnalités.  <small>(<a href=\"/manual/manual.html#classpath\">doc</a>)"
+"</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/clisp/\">CLISP</a>"
-msgstr ""
+msgstr "<a href=\"/software/clisp/\">CLISP</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -702,10 +739,15 @@ msgid ""
 "interpreter, a compiler, a debugger, and much more.  <small>(<a href=\"/"
 "manual/manual.html#clisp\">doc</a>)</small>"
 msgstr ""
+"GNU CLISP est une implémentation du langage Common Lisp, standard <abbr "
+"title=\"American National Standards Institute\">ANSI</abbr>. Le Common Lisp "
+"est un langage de programmation fonctionnel de haut niveau, orienté objet. "
+"CLISP contient un interpréteur, un compilateur, un débogueur, et plus "
+"encore.  <small>(<a href=\"/manual/manual.html#clisp\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/combine/\">Combine</a>"
-msgstr ""
+msgstr "<a href=\"/software/combine/\">Combine</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -716,10 +758,17 @@ msgid ""
 "features, such as date parsing and directory traversal.  <small>(<a href=\"/"
 "manual/manual.html#combine\">doc</a>)</small>"
 msgstr ""
+"GNU combine fusionne les fichiers basés sur une même clef dans une table de "
+"hashage. Il peut apparaître similaire à l'utilitaire standard <tt>join</tt>, "
+"bien qu'il soit beaucoup plus puissant. Contrairement à <tt>join</tt>, "
+"<tt>combine</tt> peut fusionner tous les fichiers correspondant à la clef "
+"recherchée, quel que soit leur nombre. Il dispose aussi d'autres "
+"fonctionnalités avancées, comme l'analyse des dates et la traversée des "
+"répertoires. <small>(<a href=\"/manual/manual.html#combine\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/commoncpp/\">(u)Common C++</a>"
-msgstr ""
+msgstr "<a href=\"/software/commoncpp/\">(u)Common C++</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -730,10 +779,16 @@ msgid ""
 "smaller reimplementation.  <small>(<a href=\"/manual/manual.html#commoncpp"
 "\">doc</a>)</small>"
 msgstr ""
+"GNU Common C++ est un ensemble de classes portable, optimisé pour les "
+"applications multi-processus, qui gère la synchronisation concurrente, la "
+"communication entre les processus via des sockets, et plusieurs méthodes "
+"pour la gestion des données, comme la sérialisation et l'analyse du XML. Il "
+"contient la bibliothèque uCommon C++, une implémentation plus réduite. "
+"<small>(<a href=\"/manual/manual.html#commoncpp\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/complexity/\">Complexity</a>"
-msgstr ""
+msgstr "<a href=\"/software/complexity/\">Complexity</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -743,10 +798,16 @@ msgid ""
 "that seemed comprehensible at the time of writing.  <small>(<a href=\"/"
 "manual/manual.html#complexity\">doc</a>)</small>"
 msgstr ""
+"GNU complexity fournit des outils pour trouver les endroits d'un code qui "
+"sont intriqués, ou difficiles à comprendre pour une autre raison. Cela peut "
+"vous aider à appréhender ou réviser un code inconnu, ou à vous remettre en "
+"tête du code qui semblait compréhensible au moment où vous l'avez écrit, "
+"mais ne l'est plus vraiment.  <small>(<a href=\"/manual/manual."
+"html#complexity\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/config/\">Config</a>"
-msgstr ""
+msgstr "<a href=\"/software/config/\">Config</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -755,6 +816,11 @@ msgid ""
 "of configuration in nearly all GNU packages (and many others).  <small>(<a "
 "href=\"/manual/manual.html#config\">doc</a>)</small>"
 msgstr ""
+"Le script <tt>config.guess</tt> essaye de deviner les trois caractéristiques "
+"canoniques du système hôte <cite>[triple]</cite>, et <tt>config.sub</tt> les "
+"vérifie et donne le résultat sous forme canonique. Ils sont utilisés dans le "
+"cadre de la configuration de presque tous les paquets GNU, et de beaucoup "
+"d'autres. <small>(<a href=\"/manual/manual.html#config\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/coreutils/\">Coreutils</a>"
@@ -798,7 +864,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/cssc/\">CSSC</a>"
-msgstr ""
+msgstr "<a href=\"/software/cssc/\">CSSC</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -807,6 +873,9 @@ msgid ""
 "and migrated on modern systems.  <small>(<a href=\"/manual/manual.html#cssc"
 "\">doc</a>)</small>"
 msgstr ""
+"GNU CSSC fournit une alternative à SCCS, l'ancien système de gestion du code "
+"source d'Unix. Cela permet d'avoir accès à du code géré par l'ancien système "
+"et de le faire migrer sur les systèmes modernes ."
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/dap/\">Dap</a>"
@@ -1044,9 +1113,8 @@ msgstr ""
 "entre autres, le courriel, le chat IRC ou XMPP, les tableurs, l'édition sur "
 "serveur distant, et beaucoup plus encore. Emacs est très bien documenté, sur "
 "tous ses aspects, de la simple édition de texte à l'écriture de programmes "
-"Lisp complexes. Il gère complètement la presque totalité des langages "
-"humains en Unicode.  <small>(<a href=\"/manual/manual.html#emacs\">doc</a>)</"
-"small>"
+"Lisp complexes. Il gère en Unicode étendu la presque totalité des langages "
+"humains.  <small>(<a href=\"/manual/manual.html#emacs\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/emacs-muse/\">Emacs-muse</a>"
@@ -1725,7 +1793,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnujump/\">GNUjump</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnujump/\">GNUjump</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1735,6 +1803,12 @@ msgid ""
 "falling, themeable graphics and sounds, and replays.  <small>(<a href=\"/"
 "manual/manual.html#gnujump\">doc</a>)</small>"
 msgstr ""
+"GNUjump est un jeu simple et pourtant addictif dans lequel vous devez sauter "
+"d'une plateforme à une autre pour éviter de tomber, tandis que les "
+"plateformes descendent de plus en plus vite à mesure que vous montez. "
+"Caractéristiques : multijoueur, FPS illimité, chute régulière du sol, thèmes "
+"graphiques et sonores personnalisables, et mode ralenti <cite>[replay]</"
+"cite>.  <small>(<a href=\"/manual/manual.html#gnujump\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnulib/\">GNUlib</a>"
@@ -1897,7 +1971,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnuschool/\">GNUschool</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnuschool/\">GNUschool</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1907,6 +1981,12 @@ msgid ""
 "to monitor student attendance and edit student information.  <small>(<a href="
 "\"/manual/manual.html#gnuschool\">doc</a>)</small>"
 msgstr ""
+"GNUschool est une application web pour les élèves, les professeurs et le "
+"personnel administratif des établissements scolaires. Elle peut être "
+"utilisée par les professeurs pour créer, corriger et noter des tests que les "
+"élèves peuvent passer en ligne, et par les administrateurs pour contrôler la "
+"présence des élèves et mettre à jour leurs fiches.  <small>(<a href=\"/"
+"manual/manual.html#gnuschool\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnushogi/\">GNUshogi</a>"
@@ -1950,7 +2030,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnustep/\">GNUstep</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnustep/\">GNUstep</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1959,9 +2039,11 @@ msgid ""
 "APIs but is platform-independent.  <small>(<a href=\"/manual/manual."
 "html#gnustep\">doc</a>)</small>"
 msgstr ""
-"GNUstep est un environnement de développement totalement fonctionnel orienté "
-"objet qui inclut de nombreuses applications pour l'utilisateur. Il est "
-"compatible avec les <abbr title="
+"GNUstep est un environnement de développement totalement fonctionnel, "
+"orienté objet, qui inclut de nombreuses applications pour l'utilisateur. Il "
+"est compatible avec les <abbr title=\"Application Programming Interface"
+"\">API</abbr> Cocoa mais est indépendant de la plateforme.  <small>(<a href="
+"\"/manual/manual.html#gnustep\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnutls/\">GnuTLS</a>"
@@ -2400,7 +2482,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/health/\">Health</a>"
-msgstr ""
+msgstr "<a href=\"/software/health/\">Health</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2412,6 +2494,13 @@ msgid ""
 "around the world.  <small>(<a href=\"/manual/manual.html#health\">doc</a>)</"
 "small>"
 msgstr ""
+"GNU Health est un ensemble de logiciels libres destiné aux services "
+"médicaux, qui comprend la gestion des dossiers médicaux personnels "
+"numériques, un système d'information pour les hôpitaux et un système "
+"d'information médicale. Il a des interfaces en anglais et en espagnol. Il "
+"est implémenté et enseigné à l'Université des Nations unies et par plusieurs "
+"hôpitaux et organes de santé publique à travers le monde.  <small>(<a href="
+"\"/manual/manual.html#health\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/hello/\">Hello</a>"
@@ -2673,7 +2762,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/libcdio/\">Libcdio</a>"
-msgstr ""
+msgstr "<a href=\"/software/libcdio/\">Libcdio</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2685,6 +2774,16 @@ msgid ""
 "library providing jitter-free and error-free audio extraction from CDs.  "
 "<small>(<a href=\"/manual/manual.html#libcdio\">doc</a>)</small>"
 msgstr ""
+"La bibliothèque GNU d'entrée et de contrôle des disques compact (<abbr title="
+"\"Compact Disc Input and Control Library\">libcdio</abbr>) est destinée à "
+"accéder aux CD-ROM et aux fichiers images de CD. Elle permet au développeur "
+"d'ajouter l'accès au CD à une application sans avoir à se préoccuper des "
+"propriétés du CD-ROM qui dépendent du système d'exploitation ou du "
+"périphérique,  ni des spécificités des différents formats d'images CD. Elle "
+"comprend pycdio, une interface Python vers libcdio, et libcdio-paranoia, une "
+"bibliothèque qui permet l'extraction audio d'un CD sans fluctuation du "
+"signal (gigue) ni erreur.  <small>(<a href=\"/manual/manual.html#libcdio"
+"\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/libextractor/\">Libextractor</a>"
@@ -2857,7 +2956,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/lilypond/\">Lilypond</a>"
-msgstr ""
+msgstr "<a href=\"/software/lilypond/\">Lilypond</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2867,6 +2966,11 @@ msgid ""
 "with Guile.  <small>(<a href=\"/manual/manual.html#lilypond\">doc</a>)</"
 "small>"
 msgstr ""
+"GNU LilyPond est un logiciel d'écriture musicale qui produit des partitions "
+"de grande qualité. La musique est envoyée sous la forme d'un fichier texte "
+"contenant des séquences de contrôle, qui sont interprétées par LilyPond pour "
+"produire le document fini. Des extensions peuvent être créées avec Guile.  "
+"<small>(<a href=\"/manual/manual.html#lilypond\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/linux-libre/\">Linux-libre</a>"
@@ -2954,7 +3058,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/mailman/\">Mailman</a>"
-msgstr ""
+msgstr "<a href=\"/software/mailman/\">Mailman</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2965,6 +3069,13 @@ msgid ""
 "filtering, digest delivery, and more.  <small>(<a href=\"/manual/manual."
 "html#mailman\">doc</a>)</small>"
 msgstr ""
+"GNU Mailman est un logiciel destiné à la gestion de la  discussion par "
+"courriel et des listes de diffusion. Les utilisateurs comme les "
+"administrateurs agissent en temps normal à travers une interface web, mais "
+"peuvent aussi le faire par courriel ou ligne de commande. Le système propose "
+"par défaut l'archivage, le renvoi automatique, le filtrage des contenus, "
+"l'envoi de messages de type <cite>digest</cite>, et plus encore.  <small>(<a "
+"href=\"/manual/manual.html#mailman\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/mailutils/\">Mailutils</a>"
@@ -3324,7 +3435,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/orgadoc/\">OrgaDoc</a>"
-msgstr ""
+msgstr "<a href=\"/software/orgadoc/\">OrgaDoc</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -3333,6 +3444,11 @@ msgid ""
 "HTTP server is required.  This package is looking for a maintainer.  <small>"
 "(<a href=\"/manual/manual.html#orgadoc\">doc</a>)</small>"
 msgstr ""
+"GNU Orgadoc est un système qui sert à garder facilement en phase un ensemble "
+"de documents enregistrés sur plusieurs ordinateurs. Les documents sont "
+"synchronisés par rsync ou unison ; ni base de donnée ni serveur HTTP ne sont "
+"nécessaires. Ce paquet est à la recherche d'un mainteneur.  <small>(<a href="
+"\"/manual/manual.html#orgadoc\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/osip/\">oSIP</a>"
@@ -3498,7 +3614,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/psychosynth/\">Psychosynth</a>"
-msgstr ""
+msgstr "<a href=\"/software/psychosynth/\">Psychosynth</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -3508,6 +3624,11 @@ msgid ""
 "line interface.  <small>(<a href=\"/manual/manual.html#psychosynth\">doc</a>)"
 "</small>"
 msgstr ""
+"GNU Psychosynth est un synthé logiciel interactif et modulaire. Il émule une "
+"surface tridimensionnelle sur laquelle des modules sont placés et manipulés, "
+"créant et modifiant ainsi de la musique. Psychosynth est constitué d'une "
+"bibliothèque C++, d'une interface 3D et d'une autre en ligne de commande.  "
+"<small>(<a href=\"/manual/manual.html#psychosynth\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/pth/\">Pth</a>"
@@ -3688,7 +3809,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/scm/\">SCM</a>"
-msgstr ""
+msgstr "<a href=\"/software/scm/\">SCM</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -3697,6 +3818,11 @@ msgid ""
 "can be dynamically or statically linked with a SCM executable.  <small>(<a "
 "href=\"/manual/manual.html#scm\">doc</a>)</small>"
 msgstr ""
+"GNU SCM est une implémentation du langage Scheme. Cette implémentation "
+"contient Hobbit, un compilateur qui transforme le Scheme en code C : il peut "
+"générer des fichiers C dont les binaires peuvent être liées de manière "
+"statique ou dynamique avec un exécutable SCM. <small>(<a href=\"/manual/"
+"manual.html#scm\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/screen/\">Screen</a>"
@@ -3822,7 +3948,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/smalltalk/\">Smalltalk</a>"
-msgstr ""
+msgstr "<a href=\"/software/smalltalk/\">Smalltalk</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -3831,6 +3957,12 @@ msgid ""
 "classes such as ones for networking and GUI programming.  <small>(<a href=\"/"
 "manual/manual.html#smalltalk\">doc</a>)</small>"
 msgstr ""
+"GNU Smalltalk est une implémentation libre du langage Smalltalk. Il "
+"implémente le standard <abbr title=\"American National Standards Institute"
+"\">ANSI</abbr> de ce langage, et fournit aussi quelques classes "
+"supplémentaires, par exemple pour la prise en charge du réseau ou encore la "
+"programmation d'interfaces graphiques.  <small>(<a href=\"/manual/manual."
+"html#smalltalk\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/solfege/\">Solfege</a>"
@@ -3914,7 +4046,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/stow/\">Stow</a>"
-msgstr ""
+msgstr "<a href=\"/software/stow/\">Stow</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -3925,6 +4057,14 @@ msgid ""
 "files in a common directory such as /usr/local.  <small>(<a href=\"/manual/"
 "manual.html#stow\">doc</a>)</small>"
 msgstr ""
+"GNU Stow est un gestionnaire de liens symboliques. Il crée des liens "
+"symboliques vers des répertoires de données et les fait apparaître comme "
+"étant fusionnés avec le répertoire où se trouve le lien. Ce programme est "
+"par exemple utilisé pour gérer des paquets logiciels installées à partir de "
+"leurs sources, en permettant à l'utilisateur de les installer à part, dans "
+"des répertoires dédiés, puis de créer des liens symboliques vers les "
+"fichiers dans un répertoire commun, comme par exemple /usr/local.  <small>"
+"(<a href=\"/manual/manual.html#stow\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/stump/\">Stump</a>"
@@ -4062,7 +4202,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/texmacs/\">Texmacs</a>"
-msgstr ""
+msgstr "<a href=\"/software/texmacs/\">Texmacs</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4073,10 +4213,17 @@ msgid ""
 "Octave.  TeXmacs is completely extensible via Guile.  <small>(<a href=\"/"
 "manual/manual.html#texmacs\">doc</a>)</small>"
 msgstr ""
+"GNU TeXmacs est une plateforme d'édition de texte spécialisée pour les "
+"scientifiques. Elle est idéale pour l'édition de documents structurés, avec "
+"plusieurs types de contenus différents. Elle gère avec robustesse les "
+"formules mathématiques et les graphes. Elle peut aussi servir d'interface "
+"vers des programmes mathématiques externes comme R ou Octave. TeXmacs est "
+"complètement modulable à l'aide de Guile.  <small>(<a href=\"/manual/manual."
+"html#texmacs\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/thales/\">Thales</a>"
-msgstr ""
+msgstr "<a href=\"/software/thales/\">Thales</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4085,6 +4232,11 @@ msgid ""
 "about users, channels and server.  <small>(<a href=\"/manual/manual."
 "html#thales\">doc</a>)</small>"
 msgstr ""
+"GNU Thales est une passerelle de communication entre IRC et les bases de "
+"données. Il reçoit des messages IRC, et est capable de les convertir en "
+"requêtes SQL pour mettre à jour une base de donnée. Il peut rassembler des "
+"données concernant un utilisateur, un canal ou un serveur.  <small>(<a href="
+"\"/manual/manual.html#thales\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/time/\">Time</a>"
