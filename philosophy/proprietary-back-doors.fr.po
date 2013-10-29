@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-back-doors.html\n"
-"POT-Creation-Date: 2013-08-12 04:25+0000\n"
-"PO-Revision-Date: 2013-08-24 09:30+0200\n"
+"POT-Creation-Date: 2013-10-27 13:25+0000\n"
+"PO-Revision-Date: 2013-10-28 09:23+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -26,11 +26,10 @@ msgid "Proprietary Back Doors"
 msgstr "Portes dérobées privatrices"
 
 #. type: Content of: <p>
-msgid ""
-"Here are examples of proprietary software that has documented back doors."
+msgid "Here are examples of demonstrated back doors in proprietary software."
 msgstr ""
-"Voici des exemples de logiciels privateurs qui possèdent des portes dérobées "
-"<cite>[backdoors]</cite> documentées."
+"Voici des exemples de portes dérobées documentées dans des logiciels "
+"privateurs."
 
 #. type: Content of: <ul><li><p>
 msgid ""
@@ -42,6 +41,14 @@ msgstr ""
 "\"http://www.informationweek.com/news/showArticle.jhtml?"
 "articleID=201806263\">d'imposer un changement aux utilisateurs, quel qu'il "
 "soit</a>."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"More information on when <a href=\"http://slated.org/"
+"windows_by_stealth_the_updates_you_dont_want\"> this was used</a>."
+msgstr ""
+"Plus d'information sur le moment où <a href=\"http://slated.org/"
+"windows_by_stealth_the_updates_you_dont_want\">elle a été utilisée</a>. "
 
 #. type: Content of: <ul><li><p>
 msgid ""
@@ -84,10 +91,38 @@ msgstr ""
 "de logiciels modifiés, il serait possible d'installer une modification qui "
 "lui donnerait cet accès."
 
-#. type: Content of: <p>
-msgid "Here is a suspicion that can't be proved, but is worth thinking about."
+#. type: Content of: <ul><li><p>
+msgid ""
+"<a href=\"http://www.itworld.com/data-protection/378427/backdoor-found-d-"
+"link-router-firmware-code\">Some Dlink routers</a> have a back door for "
+"changing settings."
 msgstr ""
-"Voici une hypothèse qui ne peut pas être prouvée, mais qui mérite réflexion."
+"<a href=\"http://www.itworld.com/data-protection/378427/backdoor-found-d-"
+"link-router-firmware-code\">Certains routeurs D-Link</a> ont des portes "
+"dérobées pour changer les réglages."
+
+#. type: Content of: <p>
+msgid "Here is a big problem whose details are still secret."
+msgstr "Voici un gros problème dont les détails sont encore secrets."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"<a href=\"http://mashable.com/2013/09/11/fbi-microsoft-bitlocker-backdoor/"
+"\"> The FBI asks lots of companies to put back doors in proprietary "
+"programs.  </a> We don't know of specific cases where this was done, but "
+"every proprietary program for encryption is a possibility."
+msgstr ""
+"<a href=\"http://mashable.com/2013/09/11/fbi-microsoft-bitlocker-backdoor/"
+"\">Le FBI demande à de nombreuses entreprises de mettre des portes dérobées "
+"dans des programmes privateurs.</a> Nous ne connaissons pas de cas précis, "
+"mais chacun des programmes privateurs de chiffrement est un candidat "
+"possible."
+
+#. type: Content of: <p>
+msgid "Here is a suspicion that we can't prove, but is worth thinking about."
+msgstr ""
+"Voici une hypothèse que nous ne pouvons pas prouver, mais qui mérite "
+"réflexion."
 
 #. type: Content of: <ul><li><p>
 msgid ""
