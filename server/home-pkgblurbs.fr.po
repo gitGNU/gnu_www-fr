@@ -7,9 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
 "POT-Creation-Date: 2013-10-20 22:27+0000\n"
-"PO-Revision-Date: 2013-10-27 15:17+0100\n"
+"PO-Revision-Date: 2013-10-31 16:57+0100\n"
 "Last-Translator: Pierrick L'Ébraly <plebraly AT gmail.com>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1414,7 +1415,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gdb/\">GDB</a>"
-msgstr ""
+msgstr "<a href=\"/software/gdb/\">GDB</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1425,6 +1426,14 @@ msgid ""
 "written in C, C++, Ada, Objective-C, Pascal and more.  <small>(<a href=\"/"
 "manual/manual.html#gdb\">doc</a>)</small>"
 msgstr ""
+"GDB est le débogueur de GNU. Avec son aide, vous pouvez surveiller ce que "
+"fait un programme pendant l'exécution, ou ce qu'il était en train de faire "
+"juste avant un plantage. Il vous permet de spécifier les conditions "
+"d'exécution, de définir des paliers et de changer la manière dont le "
+"programme s'exécute pour essayer de corriger des bogues. On peut s'en servir "
+"pour déboguer des programmes écrits en langages C, C++, Ada, Objective-C, "
+"Pascal et d'autres encore.  <small>(<a href=\"/manual/manual.html#gdb\">doc</"
+"a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gdbm/\">Gdbm</a>"
@@ -1453,7 +1462,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gengetopt/\">Gengetopt</a>"
-msgstr ""
+msgstr "<a href=\"/software/gengetopt/\">Gengetopt</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1466,6 +1475,15 @@ msgid ""
 "and <tt>--version</tt> is generated automatically.  <small>(<a href=\"/"
 "manual/manual.html#gengetopt\">doc</a>)</small>"
 msgstr ""
+"GNU Gengetopt génère une fonction en C/C++ pour parser les options de ligne "
+"de commande à l'aide de la fonction getopt_long qu'on trouve dans GNU libc, "
+"ce qui diminue la monotonie de cette tâche pour les gros programmes qui "
+"acceptent beaucoup d'options. Les options parsées par la fonction résultante "
+"peuvent être en format court (par exemple <tt>-h</tt>) ou long (<tt>--help</"
+"tt>), selon les spécifications GNU de codage. De plus, la sortie des options "
+"standards <tt>--help</tt> et <tt>--version</tt> est générée "
+"automatiquement.  <small>(<a href=\"/manual/manual.html#gengetopt\">doc</a>)"
+"</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gettext/\">Gettext</a>"
@@ -1840,7 +1858,7 @@ msgstr ""
 "d'une plateforme à une autre pour éviter de tomber, tandis que les "
 "plateformes descendent de plus en plus vite à mesure que vous montez. "
 "Caractéristiques : multijoueur, FPS illimité, chute régulière du sol, thèmes "
-"graphiques et sonores personnalisables, et mode ralenti <cite>[replay]</"
+"graphiques et sonores personnalisables, et mode différé <cite>[replay]</"
 "cite>.  <small>(<a href=\"/manual/manual.html#gnujump\">doc</a>)</small>"
 
 #. type: Content of: <h4>
@@ -2701,7 +2719,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/java-getopt/\">Java-getopt</a>"
-msgstr ""
+msgstr "<a href=\"/software/java-getopt/\">Java-getopt</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2710,6 +2728,10 @@ msgid ""
 "manner, which is completely compatible with the C version.  <small>(<a href="
 "\"/manual/manual.html#java-getopt\">doc</a>)</small>"
 msgstr ""
+"java-getopts est une implémentation en Java de la fonction getopt de glibc. "
+"Elle parse les arguments de ligne de commande, qu'ils soient longs ou "
+"courts, d'une manière flexible qui est totalement compatible avec la version "
+"en C.  <small>(<a href=\"/manual/manual.html#java-getopt\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/jel/\">Jel</a>"
@@ -2807,16 +2829,16 @@ msgid ""
 "library providing jitter-free and error-free audio extraction from CDs.  "
 "<small>(<a href=\"/manual/manual.html#libcdio\">doc</a>)</small>"
 msgstr ""
-"La bibliothèque GNU d'entrée et de contrôle des disques compact (<abbr title="
-"\"Compact Disc Input and Control Library\">libcdio</abbr>) est destinée à "
-"accéder aux CD-ROM et aux fichiers images de CD. Elle permet au développeur "
-"d'ajouter l'accès au CD à une application sans avoir à se préoccuper des "
-"propriétés du CD-ROM qui dépendent du système d'exploitation ou du "
-"périphérique,  ni des spécificités des différents formats d'images CD. Elle "
-"comprend pycdio, une interface Python vers libcdio, et libcdio-paranoia, une "
-"bibliothèque qui permet l'extraction audio d'un CD sans fluctuation du "
-"signal (gigue) ni erreur.  <small>(<a href=\"/manual/manual.html#libcdio"
-"\">doc</a>)</small>"
+"La bibliothèque GNU pour la gestion du CD, en particulier de ses entrées/"
+"sorties (<abbr title=\"Compact Disc Input and Control Library\">libcdio</"
+"abbr>), est destinée à accéder aux CD-ROM et aux fichiers images de CD. Elle "
+"permet au développeur d'ajouter l'accès au CD à une application sans avoir à "
+"se préoccuper des propriétés du CD-ROM qui dépendent du système "
+"d'exploitation ou du périphérique, ni des spécificités des différents "
+"formats d'images CD. Elle comprend pycdio, une interface Python vers "
+"libcdio, et libcdio-paranoia, une bibliothèque qui permet l'extraction audio "
+"d'un CD sans fluctuation du signal (gigue) ni erreur.  <small>(<a href=\"/"
+"manual/manual.html#libcdio\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/libextractor/\">Libextractor</a>"
@@ -3681,7 +3703,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/pyconfigure/\">Pyconfigure</a>"
-msgstr ""
+msgstr "<a href=\"/software/pyconfigure/\">Pyconfigure</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -3693,6 +3715,14 @@ msgid ""
 "procedure based on the capabilities of the target computer.  <small>(<a href="
 "\"/manual/manual.html#pyconfigure\">doc</a>)</small>"
 msgstr ""
+"GNU pyconfigure fournit des fichiers modèles facilitant l'écriture de "
+"scripts configure et de Makefiles conformes aux standards, pour les paquets "
+"basés sur Python. Il est conçu pour fonctionner à côté de scripts "
+"d'installation préexistants en Python, ce qui facilite l'intégration dans "
+"les projets existants. Des macros Autoconf puissantes et flexibles sont "
+"disponibles, ce qui permet d'adapter aisément la procédure d'installation "
+"aux possibilités de l'ordinateur cible.  <small>(<a href=\"/manual/manual."
+"html#pyconfigure\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/qexo/\">Qexo</a>"
@@ -4265,11 +4295,11 @@ msgid ""
 "about users, channels and server.  <small>(<a href=\"/manual/manual."
 "html#thales\">doc</a>)</small>"
 msgstr ""
-"GNU Thales est une passerelle de communication entre IRC et les bases de "
-"données. Il reçoit des messages IRC, et est capable de les convertir en "
-"requêtes SQL pour mettre à jour une base de donnée. Il peut rassembler des "
-"données concernant un utilisateur, un canal ou un serveur.  <small>(<a href="
-"\"/manual/manual.html#thales\">doc</a>)</small>"
+"GNU Thales est une passerelle de communication entre l'IRC et les bases de "
+"données. Ce programme reçoit des messages IRC, et est capable de les "
+"convertir en requêtes SQL pour mettre à jour une base de donnée. Il peut "
+"rassembler des données concernant un utilisateur, un canal ou un serveur.  "
+"<small>(<a href=\"/manual/manual.html#thales\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/time/\">Time</a>"
@@ -4346,7 +4376,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/unrtf/\">UnRTF</a>"
-msgstr ""
+msgstr "<a href=\"/software/unrtf/\">UnRTF</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4355,6 +4385,10 @@ msgid ""
 "superscripts and subscripts, and more.  <small>(<a href=\"/manual/manual."
 "html#unrtf\">doc</a>)</small>"
 msgstr ""
+"GNU unrtf convertit les documents texte du format RTF vers les formats HTML, "
+"LaTeX et troff. Il gère les changements de caractéristiques de police, le "
+"texte souligné et barré, les indices et exposants, et plus encore.  <small>"
+"(<a href=\"/manual/manual.html#unrtf\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/userv/\">Userv</a>"
@@ -4430,7 +4464,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/wb/\">WB</a>"
-msgstr ""
+msgstr "<a href=\"/software/wb/\">WB</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4439,10 +4473,16 @@ msgid ""
 "trees, which are optimized for using the minimum number of disk operations.  "
 "<small>(<a href=\"/manual/manual.html#wb\">doc</a>)</small>"
 msgstr ""
+"GNU WB est un programme de gestion de base de données stockées sur disque, à "
+"base de tableau associatif trié, pour les langages C, Scheme, Java et C#. "
+"Plutôt qu'une implémentation par table de hashage, WB utilise des arbres "
+"équilibrés (arbres B) qui sont optimisés pour minimiser le nombre "
+"d'opérations sur disque.  <small>(<a href=\"/manual/manual.html#wb\">doc</a>)"
+"</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/wdiff/\">Wdiff</a>"
-msgstr ""
+msgstr "<a href=\"/software/wdiff/\">Wdiff</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4450,10 +4490,14 @@ msgid ""
 "to compare files on a word-by-word basis, where a word is anything between "
 "whitespace.  <small>(<a href=\"/manual/manual.html#wdiff\">doc</a>)</small>"
 msgstr ""
+"GNU Wdiff est une surcouche au programme diff du paquet Diffutils, qui "
+"permet la comparaison de fichiers basée sur les mots, ces derniers étant "
+"tout ce qui est délimité par des espaces.  <small>(<a href=\"/manual/manual."
+"html#wdiff\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/websocket4j/\">Websocket4j</a>"
-msgstr ""
+msgstr "<a href=\"/software/websocket4j/\">Websocket4j</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4462,20 +4506,27 @@ msgid ""
 "The library includes both server- and client-side functionality.  <small>(<a "
 "href=\"/manual/manual.html#websocket4j\">doc</a>)</small>"
 msgstr ""
+"GNU Websocket4j est une bibliothèque Java implémentant le protocole "
+"WebSocket. Elle permet de construire des applications web qui interagissent "
+"avec des applications Java. La bibliothèque comprend les fonctions "
+"nécessaires côté client comme côté serveur.  <small>(<a href=\"/manual/"
+"manual.html#websocket4j\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/webstump/\">WebSTUMP</a>"
-msgstr ""
+msgstr "<a href=\"/software/webstump/\">WebSTUMP</a>"
 
 #. type: Content of: <p>
 msgid ""
 "See <a href=\"#stump\">stump</a>.  <small>(<a href=\"/manual/manual."
 "html#webstump\">doc</a>)</small>"
 msgstr ""
+"Voir <a href=\"#stump\">stump</a>.  <small>(<a href=\"/manual/manual."
+"html#webstump\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/wget/\">Wget</a>"
-msgstr ""
+msgstr "<a href=\"/software/wget/\">Wget</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4485,10 +4536,16 @@ msgid ""
 "downloaded documents to relative links.  <small>(<a href=\"/manual/manual."
 "html#wget\">doc</a>)</small>"
 msgstr ""
+"GNU Wget est un outil non interactif pour la récupération de fichiers par "
+"les protocoles HTTP, HTTPS et FTP. Il est capable de reprendre des "
+"téléchargements interrompus, admet les jokers dans les noms de fichiers, "
+"gère les serveurs proxy et les cookies, et peut convertir les liens absolus "
+"présents dans les documents téléchargés en liens relatifs.  <small>(<a href="
+"\"/manual/manual.html#wget\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/which/\">Which</a>"
-msgstr ""
+msgstr "<a href=\"/software/which/\">Which</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4496,10 +4553,13 @@ msgid ""
 "of options.  It is an alternative to the shell <tt>type</tt> built-in "
 "command.  <small>(<a href=\"/manual/manual.html#which\">doc</a>)</small>"
 msgstr ""
+"Le programme which localise les exécutables dans le PATH, avec de nombreuses "
+"options. C'est une alternative à la commande shell <tt>type</tt>.  <small>"
+"(<a href=\"/manual/manual.html#which\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/xaos/\">XaoS</a>"
-msgstr ""
+msgstr "<a href=\"/software/xaos/\">XaoS</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4509,10 +4569,16 @@ msgid ""
 "generate many different fractal types such as the Mandelbrot set.  <small>"
 "(<a href=\"/manual/manual.html#xaos\">doc</a>)</small>"
 msgstr ""
+"GNU XaoS est un programme graphique qui génère des fractales et vous permet "
+"de zoomer sur elles en avant et en arrière indéfiniment, de manière fluide "
+"et continue. Il comprend aussi des didacticiels qui aident à expliquer "
+"comment sont construites les fractales. Il peut générer un grand nombre de "
+"fractales différentes, comme par exemple l'ensemble de Mandelbrot.  <small>"
+"(<a href=\"/manual/manual.html#xaos\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/xboard/\">XBoard</a>"
-msgstr ""
+msgstr "<a href=\"/software/xboard/\">XBoard</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4523,10 +4589,17 @@ msgid ""
 "Portable Game Notation.  <small>(<a href=\"/manual/manual.html#xboard\">doc</"
 "a>)</small>"
 msgstr ""
+"GNU XBoard est un échiquier graphique pour toutes les variétés d'échecs, y "
+"compris les échecs internationaux, le xiangqi (échecs chinois), le shogi "
+"(échecs japonais) et le Makruk. Plusieurs variantes moins connues sont "
+"également gérées. Il comporte une interface graphique complètement "
+"interactive et peut importer et sauvegarder les jeux en <cite>Portable Game "
+"Notation</cite>.  <small>(<a href=\"/manual/manual.html#xboard\">doc</a>)</"
+"small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/xlogmaster/\">Xlogmaster</a>"
-msgstr ""
+msgstr "<a href=\"/software/xlogmaster/\">Xlogmaster</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4536,10 +4609,16 @@ msgid ""
 "to automate taking actions upon user-defined events.  <small>(<a href=\"/"
 "manual/manual.html#xlogmaster\">doc</a>)</small>"
 msgstr ""
+"GNU Xlogmaster est un programme à interface graphique qui permet de "
+"surveiller commodément les logs du système. Les logs peuvent être affichés "
+"avec des filtres pour colorer ou cacher des lignes. Ce programme peut aussi "
+"servir à automatiser la réponse du système à des événements définis par "
+"l'utilisateur .  <small>(<a href=\"/manual/manual.html#xlogmaster\">doc</a>)"
+"</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/xnee/\">Xnee</a>"
-msgstr ""
+msgstr "<a href=\"/software/xnee/\">Xnee</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4548,10 +4627,14 @@ msgid ""
 "demonstration purposes.  <small>(<a href=\"/manual/manual.html#xnee\">doc</"
 "a>)</small>"
 msgstr ""
+"GNU Xnee est un programme qui enregistre, rejoue et diffuse les actions de "
+"l'utilisateur dans X11. On peut l'employer pour automatiser les interactions "
+"avec l'utilisateur à des fins de test ou de démonstration.  <small>(<a href="
+"\"/manual/manual.html#xnee\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/xorriso/\">Xorriso</a>"
-msgstr ""
+msgstr "<a href=\"/software/xorriso/\">Xorriso</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4562,10 +4645,18 @@ msgid ""
 "xorriso can then be used to copy files directly into or out of ISO files.  "
 "<small>(<a href=\"/manual/manual.html#xorriso\">doc</a>)</small>"
 msgstr ""
+"GNU Xorriso est un outil pour copier des fichiers vers ou depuis des "
+"arborescences ISO 9660 RockRidge (système de fichiers des disques compacts) "
+"et permet leur manipulation dans le cadre d'une session. Il contient un "
+"outil de formatage et un graveur de CD, DVD et disques Blu-ray. Il peut "
+"traiter des images ISO préexistantes ou en créer de nouvelles. xorriso peut "
+"même s'utiliser pour copier des fichiers directement vers ou depuis des "
+"fichiers ISO.  <small>(<a href=\"/manual/manual.html#xorriso\">doc</a>)</"
+"small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/zile/\">Zile</a>"
-msgstr ""
+msgstr "<a href=\"/software/zile/\">Zile</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4573,3 +4664,6 @@ msgid ""
 "Emacs configuration, but it carries a much lighter feature set.  <small>(<a "
 "href=\"/manual/manual.html#zile\">doc</a>)</small>"
 msgstr ""
+"GNU Zile est un clone léger d'Emacs. Il s'utilise comme la configuration par "
+"défaut d'Emacs mais possède un moindre choix de fonctionnalités.  <small>(<a "
+"href=\"/manual/manual.html#zile\">doc</a>)</small>"
