@@ -9,15 +9,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
-"POT-Creation-Date: 2013-10-20 22:27+0000\n"
-"PO-Revision-Date: 2013-11-04 22:10+0100\n"
+"POT-Creation-Date: 2013-11-07 00:27+0000\n"
+"PO-Revision-Date: 2013-11-08 22:28+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Outdated-Since: 2013-10-20 22:27+0000\n"
 "X-Generator: Gtranslator 2.91.5\n"
 
 #. type: Content of: <h4>
@@ -38,10 +37,12 @@ msgstr ""
 "pour concevoir des animations contenant du texte mis en forme par TeX.  "
 "<small>(<a href=\"/manual/manual.html#pkg_3dldf\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/a2ps/\">a2ps</a>"
 msgstr "<a href=\"/software/a2ps/\">a2ps</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU a2ps converts almost anything to a PostScript file, ready for printing. "
@@ -92,10 +93,12 @@ msgstr ""
 "avions de chasse bien équipés comme le F-16C Falcon ou le MiG-29 Fulcrum.  "
 "<small>(<a href=\"/manual/manual.html#acm\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/adns/\">Adns</a>"
 msgstr "<a href=\"/software/adns/\">Adns</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU adns is a C library that provides easy-to-use DNS resolution "
@@ -122,10 +125,12 @@ msgstr ""
 "maintenir active une connexion.   <small>(<a href=\"/manual/manual.html#alive"
 "\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/anubis/\">Anubis</a>"
 msgstr "<a href=\"/software/anubis/\">Anubis</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "Anubis is a daemon that sits between the Mail User Agent (MUA) and the Mail "
@@ -144,8 +149,8 @@ msgstr ""
 "html#anubis\">doc</a>)</small>"
 
 #. type: Content of: <h4>
-msgid "<a href=\"/software/apl/\">Apl</a>"
-msgstr "<a href=\"/software/apl/\">Apl</a>"
+msgid "<a href=\"/software/apl/\">APL</a>"
+msgstr "<a href=\"/software/apl/\">APL</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -315,10 +320,12 @@ msgstr ""
 "pour le développeur.  <small>(<a href=\"/manual/manual.html#automake\">doc</"
 "a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/avl/\">Avl</a>"
 msgstr "<a href=\"/software/avl/\">Avl</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "libavl provides a large collection of binary search tree and balanced tree "
@@ -333,10 +340,12 @@ msgstr ""
 "ou la suppression d'éléments d'une structure de données. <small>(<a href=\"/"
 "manual/manual.html#avl\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ballandpaddle/\">Ball and Paddle</a>"
 msgstr "<a href=\"/software/ballandpaddle/\">Ball and Paddle</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "Ball and Paddle is a classic arcade game in which you use a paddle at the "
@@ -428,10 +437,12 @@ msgstr ""
 "centralisée classique.  <small>(<a href=\"/manual/manual.html#bazaar\">doc</"
 "a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bc/\">Bc</a>"
 msgstr "<a href=\"/software/bc/\">bc</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "bc is an arbitrary precision numeric processing language.  It includes an "
@@ -499,10 +510,12 @@ msgstr ""
 "syntaxiques pour de petits outils comme pour des langages complexes.  <small>"
 "(<a href=\"/manual/manual.html#bison\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bool/\">Bool</a>"
 msgstr "<a href=\"/software/bool/\">Bool</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Bool is a utility to perform text searches on files using Boolean "
@@ -590,6 +603,19 @@ msgstr ""
 "formats sun audio et <abbr title=\"Resource Interchange File Format\">RIFF</"
 "abbr>, ainsi que le son numérisé brut <cite>[raw]</cite>.  <small>(<a href="
 "\"/manual/manual.html#ccaudio\">doc</a>)</small>"
+
+#. type: Content of: <h4>
+msgid "<a href=\"/software/ccd2cue/\">Ccd2cue</a>"
+msgstr "<a href=\"/software/ccd2cue/\">Ccd2cue</a>"
+
+#. type: Content of: <p>
+msgid ""
+"GNU ccd2cue is a preprocessor for CD burning software that allows the "
+"conversion of the proprietary CCD format to the CUE format, which is well-"
+"supported by free software.  These files are commonly distributed with CD "
+"images and are used to describe how tracks are laid out on the image.  "
+"<small>(<a href=\"/manual/manual.html#ccd2cue\">doc</a>)</small>"
+msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ccide/\">Ccide</a>"
@@ -703,10 +729,12 @@ msgstr ""
 "via une interface graphique tierce comme GNU XBoard.  <small>(<a href=\"/"
 "manual/manual.html#chess\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/cim/\">Cim</a>"
 msgstr "<a href=\"/software/cim/\">Cim</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "Cim is the GNU compiler for Simula, the first object-oriented programming "
@@ -798,18 +826,18 @@ msgstr "<a href=\"/software/complexity/\">Complexity</a>"
 
 #. type: Content of: <p>
 msgid ""
-"GNU complexity provides tools for finding regions of code that are "
-"convoluted or otherwise difficult to understand.  This may help in learning "
-"or reviewing unfamiliar code or in reminding yourself about code you wrote "
-"that seemed comprehensible at the time of writing.  <small>(<a href=\"/"
-"manual/manual.html#complexity\">doc</a>)</small>"
-msgstr ""
-"GNU complexity fournit des outils pour trouver les endroits d'un code qui "
-"sont intriqués, ou difficiles à comprendre pour une autre raison. Cela peut "
-"vous aider à appréhender ou réviser un code inconnu, ou à vous remettre en "
-"tête du code qui semblait compréhensible au moment où vous l'avez écrit, "
-"mais ne l'est plus vraiment.  <small>(<a href=\"/manual/manual."
+"GNU complexity provides tools for finding procedures that are convoluted, "
+"overly long or otherwise difficult to understand.  This may help in learning "
+"or reviewing unfamiliar code or perhaps highlighting your own code that "
+"seemed comprehensible when you wrote it.  <small>(<a href=\"/manual/manual."
 "html#complexity\">doc</a>)</small>"
+msgstr ""
+"GNU complexity fournit des outils pour trouver les procédures qui sont "
+"intriqués, trop longues ou difficiles à comprendre pour une autre raison. "
+"Cela peut vous aider à appréhender ou réviser un code inconnu, ou peut-être "
+"à mettre en évidence la structure de votre propre code, qui semblait "
+"compréhensible au moment où vous l'avez écrit.  <small>(<a href=\"/manual/"
+"manual.html#complexity\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/config/\">Config</a>"
@@ -864,7 +892,7 @@ msgstr ""
 "fait, de nombreux format sont gérés, y compris des formats historiques qui "
 "ne sont plus d'usage courant. Le programme se charge de déterminer le format "
 "de l'archive et de le prendre en charge de manière appropriée. De plus, "
-"l'emplacement de l'archive n'est pas déterminante : il peut s'agir d'un "
+"l'emplacement de l'archive n'est pas déterminante : il peut s'agir d'un "
 "autre fichier sur le disque dur, d'une cassette, ou de données issues d'un "
 "« tube » <cite>[pipe]</cite>.  <small>(<a href=\"/manual/manual.html#cpio"
 "\">doc</a>)</small>"
@@ -1119,10 +1147,12 @@ msgstr ""
 "gestion des dépendances dans une interface pratique et est basé sur GNU "
 "Guile. <small>(<a  href=\"/manual/manual.html#dmd\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/dominion/\">Dominion</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Dominion is a multi-player world simulation game.  In it, each player "
@@ -1146,7 +1176,7 @@ msgid ""
 "extensions over the standard utility.  <small>(<a href=\"/manual/manual."
 "html#ed\">doc</a>)</small>"
 msgstr ""
-"Ed est un éditeur de texte opérant sur des lignes : plutôt que d'offrir une "
+"Ed est un éditeur de texte opérant sur des lignes : plutôt que d'offrir une "
 "vue d'ensemble d'un document, ed édite les lignes une à une. Il peut être "
 "exécuté de façon interactive ou par des scripts Shell. Sa méthode d'entrée "
 "des commande facilite l'exécution automatisée de tâches complexes. GNU ed "
@@ -1231,10 +1261,12 @@ msgstr ""
 "Lisp complexes. Il gère en Unicode étendu la presque totalité des langages "
 "humains.  <small>(<a href=\"/manual/manual.html#emacs\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/emacs-muse/\">Emacs-muse</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "Muse is an authoring and publishing environment for GNU Emacs.  It supports "
@@ -1245,10 +1277,12 @@ msgid ""
 "manual/manual.html#emacs-muse\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/emms/\">EMMS</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "EMMS is the Emacs Multimedia System.  It is a small front-end which can "
@@ -1309,10 +1343,12 @@ msgstr ""
 "générer des instructions SQL dans un grand nombre de dialectes.  <small>(<a "
 "href=\"/manual/manual.html#ferret\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/findutils/\">Findutils</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "Findutils supplies the basic file directory searching utilities of <tt>find</"
@@ -1323,10 +1359,12 @@ msgid ""
 "small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/fontutils/\">Fontutils</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Fontutils is a collection of programs for handling fonts. Bitmaps can be "
@@ -1337,22 +1375,22 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <h4>
-msgid "<a href=\"/software/freedink/\">Freedink</a>"
-msgstr "<a href=\"/software/freedink/\">Freedink</a>"
+msgid "<a href=\"/software/freedink/\">FreeDink</a>"
+msgstr "<a href=\"/software/freedink/\">FreeDink</a>"
 
 #. type: Content of: <p>
 msgid ""
 "GNU FreeDink is a free and portable re-implementation of the engine for the "
 "role-playing game Dink Smallwood.  It supports not only the original game "
-"data files but it also supports user-produced game mods.  To that extent, it "
-"also includes a front-end for managing all your game modifications <small>"
-"(<a href=\"/manual/manual.html#freedink\">doc</a>)</small>"
+"data files but it also supports user-produced game mods or <tt>D-Mods</tt>.  "
+"To that extent, it also includes a front-end for managing all of your D-"
+"Mods.  <small>(<a href=\"/manual/manual.html#freedink\">doc</a>)</small>"
 msgstr ""
 "GNU FreeDink est une nouvelle implémentation, libre et portable, du moteur "
 "du jeu de rôle Dink Smallwood. Il prend non seulement en charge les fichiers "
-"de données du jeu d'origine mais également les greffons <cite>[mods]</cite> "
-"produits par les utilisateurs. À cet effet, il inclut une interface pour la "
-"gestion de toutes vos modifications de jeu. <small>(<a href=\"/manual/manual."
+"de données du jeu d'origine mais également les greffons produits par les "
+"utilisateurs, ou <tt>D-Mods</tt>. À cet effet, il inclut une interface pour "
+"la gestion de tous vos <tt>D-mods</tt>. <small>(<a href=\"/manual/manual."
 "html#freedink\">doc</a>)</small>"
 
 #. type: Content of: <h4>
@@ -1400,10 +1438,12 @@ msgstr ""
 "et la liaison IP sur port série.  <small>(<a href=\"/manual/manual."
 "html#freeipmi\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/freetalk/\">Freetalk</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Freetalk is a command-line Jabber/XMPP chat client.  It notably uses the "
@@ -1413,10 +1453,12 @@ msgid ""
 "manual.html#freetalk\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/fribidi/\">FriBiDi</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU FriBidi is an implementation of the Unicode Bidirectional Algorithm.  "
@@ -1440,8 +1482,8 @@ msgstr ""
 "GNU Gama sert à l'ajustement des réseaux géodésiques. Il est utile pour des "
 "mesures où le <abbr title=\"Global Positioning System\">GPS</abbr> n'est pas "
 "disponible, comme par exemple en souterrain. Il permet d'ajuster les "
-"coordonnées cartésiennes locales et prend en charge partiellement les "
-"ajustements dans les systèmes globaux de coordonnées.  <small>(<a href=\"/"
+"coordonnées cartésiennes locales et prend partiellement en charge les "
+"ajustements dans les systèmes de référence mondiaux.  <small>(<a href=\"/"
 "manual/manual.html#gama\">doc</a>)</small>"
 
 #. type: Content of: <h4>
@@ -1460,12 +1502,12 @@ msgid ""
 msgstr ""
 "GNU garpd diffuse des requêtes et réponses <abbr title=\"Address Resolution "
 "Protocol\">ARP</abbr> (protocole de résolution d'adresses) gratuites pour "
-"une liste de couples adresse <abbr title=\"Media Access Control\">MAC</abbr> "
-"&lt;-&gt; adresse IP, sur des interfaces données et à intervalle régulier. "
-"Les paquets des requêtes ARP gratuites sont ceux dont les adresses IP source "
-"et destination sont celles de la machine qui effectue la requête. Les "
-"réponses ARP gratuites sont celles qui ne correspondent à aucune requête.  "
-"<small>(<a href=\"/manual/manual.html#garpd\">doc</a>)</small>"
+"une liste d'adresses <abbr title=\"Media Access Control\">MAC</abbr> "
+"appariées à des adresses IP, sur des interfaces données et à intervalle "
+"régulier. Les paquets des requêtes ARP gratuites sont ceux dont les adresses "
+"IP source et destination sont celles de la machine qui effectue la requête. "
+"Les réponses ARP gratuites sont celles qui ne correspondent à aucune "
+"requête.  <small>(<a href=\"/manual/manual.html#garpd\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gawk/\">Gawk</a>"
@@ -1500,7 +1542,7 @@ msgid ""
 "and supports alternative calendar <small>(<a href=\"/manual/manual.html#gcal"
 "\">doc</a>)</small>"
 msgstr ""
-"Gcal est un programme de calcul et d'impression de calendriers en ligne de "
+"Gcal est un programme de calcul et d'affichage de calendriers en ligne de "
 "commande. Les calendriers peuvent être affichés en vue mensuelle, "
 "trimestrielle ou annuelle. De plus, on peut créer des listes perpétuelles de "
 "vacances pour de nombreux pays et les compléter par des listes de dates "
@@ -1520,7 +1562,7 @@ msgid ""
 "Go.  It also includes runtime support libraries for these languages.  <small>"
 "(<a href=\"/manual/manual.html#gcc\">doc</a>)</small>"
 msgstr ""
-"GCC est la « Collection de compilateurs de GNU ». Il fournit des interfaces "
+"GCC est la « Collection de compilateurs de GNU ». Il fournit des interfaces "
 "de compilation pour divers langages, au rang desquels C, C++, Objective-C, "
 "Fortran, Java, Ada et Go. Il inclut également les bibliothèques d'exécution "
 "de ces langages. <small>(<a href=\"/manual/manual.html#gcc\">doc</a>)</small>"
@@ -1541,7 +1583,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gcl/\">GNU Common Lisp</a>"
-msgstr ""
+msgstr "<a href=\"/software/gcl/\">GNU Common Lisp</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1552,10 +1594,16 @@ msgid ""
 "Tk widget system.  <small>(<a href=\"/manual/manual.html#gcl\">doc</a>)</"
 "small>"
 msgstr ""
+"GCL est une implementation du langage Common Lisp. Il offre la possibilité "
+"de compiler en code objet natif et d'importer des modules de code objet "
+"natif directement dans son noyau Lisp. Il a également une stratégie de "
+"ramasse-miettes innovante <cite>(stratified garbage collection)</cite> et un "
+"débogueur de code source, ainsi qu'une interface avec le système de widgets "
+"Tk. <small>(<a href=\"/manual/manual.html#gcl\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gcompris/\">GCompris</a>"
-msgstr ""
+msgstr "<a href=\"/software/gcompris/\">GCompris</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1566,6 +1614,12 @@ msgid ""
 "chess and sudoku.  <small>(<a href=\"/manual/manual.html#gcompris\">doc</a>)"
 "</small>"
 msgstr ""
+"GCompris est une suite éducative pour les enfants. Elle propose des "
+"activités variées aux jeunes enfants de 2 à 10 ans. La suite comprend des "
+"activités de découverte et d'acquisition de compétences dans l'utilisation "
+"de l'ordinateur, l'algèbre, les sciences, la lecture et plus encore. Elle "
+"propose aussi quelques jeux comme les échecs et le sudoku.  <small>(<a href="
+"\"/manual/manual.html#gcompris\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gdb/\">GDB</a>"
@@ -1580,14 +1634,13 @@ msgid ""
 "written in C, C++, Ada, Objective-C, Pascal and more.  <small>(<a href=\"/"
 "manual/manual.html#gdb\">doc</a>)</small>"
 msgstr ""
-"GDB est le débogueur de GNU. Avec son aide, vous pouvez surveiller ce que "
-"fait un programme pendant l'exécution, ou ce qu'il était en train de faire "
-"juste avant un plantage. Il vous permet de spécifier les conditions "
-"d'exécution, de définir des paliers et de changer la manière dont le "
-"programme s'exécute pour essayer de corriger des bogues. On peut s'en servir "
-"pour déboguer des programmes écrits en langages C, C++, Ada, Objective-C, "
-"Pascal et d'autres encore.  <small>(<a href=\"/manual/manual.html#gdb\">doc</"
-"a>)</small>"
+"GDB est le débogueur de GNU. Avec son aide, on peut surveiller ce que fait "
+"un programme pendant l'exécution, ou ce qu'il était en train de faire juste "
+"avant un plantage. Il permet de spécifier les conditions d'exécution, de "
+"définir des paliers et de changer la manière dont le programme s'exécute "
+"pour essayer de corriger des bogues. On peut s'en servir pour déboguer des "
+"programmes écrits en langages C, C++, Ada, Objective-C, Pascal et d'autres "
+"encore.  <small>(<a href=\"/manual/manual.html#gdb\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gdbm/\">Gdbm</a>"
@@ -1602,13 +1655,13 @@ msgid ""
 msgstr ""
 "GDBM est une bibliothèque de gestion de base de données utilisant le "
 "hachage. Elle est utilisée pour stocker des couples clé/valeur dans un "
-"fichier à la manière de la bibliothèque Unix dbm, et possède des interfaces "
+"fichier, à la manière de la bibliothèque Unix dbm, et possède des interfaces "
 "avec le format de fichier traditionnel. <small>(<a href=\"/manual/manual."
 "html#gdbm\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gengen/\">Gengen</a>"
-msgstr ""
+msgstr "<a href=\"/software/gengen/\">Gengen</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1618,6 +1671,12 @@ msgid ""
 "from the template.  Gengen can be used to generate C and C++ code.  <small>"
 "(<a href=\"/manual/manual.html#gengen\">doc</a>)</small>"
 msgstr ""
+"GNU Gengen est un générateur de générateurs de texte [qui facilitent "
+"l'écriture de code répétitif]. Le générateur est tout d'abord décrit dans un "
+"fichier modèle à partir duquel un générateur de texte est créé. Ce dernier "
+"peut alors être utilisé  pour substituer les paramètres du modèle par du "
+"texte variable. Gengen permet de produire du code C ou C++. <small>(<a href="
+"\"/manual/manual.html#gengen\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gengetopt/\">Gengetopt</a>"
@@ -1646,7 +1705,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gettext/\">Gettext</a>"
-msgstr ""
+msgstr "<a href=\"/software/gettext/\">Gettext</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1657,11 +1716,20 @@ msgid ""
 "Nearly all GNU packages use Gettext.  <small>(<a href=\"/manual/manual."
 "html#gettext\">doc</a>)</small>"
 msgstr ""
+"GNU Gettext est un ensemble de programmes destinés à la traduction en "
+"plusieurs langues du texte affiché à l'utilisateur par les programmes. Il "
+"permet aux traducteurs de créer des catalogues de messages, et possède un "
+"mode Emacs pour les manipuler, ainsi qu'une bibliothèque d'exécution pour "
+"importer les messages traduits à partir des catalogues. Presque tous les "
+"paquets GNU utilisent Gettext.  <small>(<a href=\"/manual/manual.html#gettext"
+"\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gforth/\">Gforth</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "Gforth is a fast and portable implementation of the ANSI Forth language.  It "
@@ -1672,7 +1740,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ggradebook/\">Ggradebook</a>"
-msgstr ""
+msgstr "<a href=\"/software/ggradebook/\">Ggradebook</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1681,10 +1749,14 @@ msgid ""
 "European numeric scales.  <small>(<a href=\"/manual/manual.html#ggradebook"
 "\">doc</a>)</small>"
 msgstr ""
+"GNU Gradebook est une application destinée aux enseignants, pour le suivi "
+"des notes d'élèves. Il gère plusieurs styles de notes, en particulier les "
+"échelles numériques américaine (A, B, C, D, F) et européennes.  <small>(<a "
+"href=\"/manual/manual.html#ggradebook\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ghostscript/\">GNU Ghostscript</a>"
-msgstr ""
+msgstr "<a href=\"/software/ghostscript/\">GNU Ghostscript</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1694,10 +1766,15 @@ msgid ""
 "output file formats and printers.  <small>(<a href=\"/manual/manual."
 "html#ghostscript\">doc</a>)</small>"
 msgstr ""
+"Ghostscript est un interpréteur pour le langage PostScript et le format de "
+"fichiers PDF. Il possède également une bibliothèque C qui implémente les "
+"fonctionnalités graphiques du langage PostScript. Le résultat peut être "
+"exporté vers un grand nombre de formats de fichiers et d'imprimantes.  "
+"<small>(<a href=\"/manual/manual.html#ghostscript\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gift/\">GIFT</a>"
-msgstr ""
+msgstr "<a href=\"/software/gift/\">GIFT</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1707,10 +1784,17 @@ msgid ""
 "trees is included.  <small>(<a href=\"/manual/manual.html#gift\">doc</a>)</"
 "small>"
 msgstr ""
+"L'outil GNU de recherche d'images (<abbr title=\"GNU Image Finding Tool"
+"\">GIFT</abbr>) est un système de recherche d'images par le contenu ou <abbr "
+"title=\"Content Based Image Retrieval System\">CIBR</abbr>. Il utilise le "
+"contenu des images pour effectuer une requête sur une collection, vous "
+"permettant de rechercher par l'exemple. Un outil d'indexation "
+"d'arborescences complètes est également inclus. <small>(<a href=\"/manual/"
+"manual.html#gift\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gimp/\">GIMP</a>"
-msgstr ""
+msgstr "<a href=\"/software/gimp/\">GIMP</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1720,10 +1804,15 @@ msgid ""
 "that is extensible via a plugin system.  <small>(<a href=\"/manual/manual."
 "html#gimp\">doc</a>)</small>"
 msgstr ""
+"GIMP est un programme de manipulation d'image servant à la retouche photo, "
+"la composition et la création. Il prend en charge tous les formats d'image "
+"courants ainsi que d'autres, plus spécialisés. Son interface, extensible via "
+"un système de greffons, est extrêmement personnalisable. <small>(<a href=\"/"
+"manual/manual.html#gimp\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gleem/\">Gleem</a>"
-msgstr ""
+msgstr "<a href=\"/software/gleem/\">Gleem</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1733,10 +1822,16 @@ msgid ""
 "translation and rotation.  This package is looking for a maintainer.  <small>"
 "(<a href=\"/manual/manual.html#gleem\">doc</a>)</small>"
 msgstr ""
+"GNU gleem est une bibliothèque pour Java et C++ fournissant un ensemble de "
+"widgets 3D qui permettent à l'utilisateur d'interagir directement avec une "
+"scène 3D. Ces widgets sont utilisés pour effectuer des translations le long "
+"d'une droite ou dans un plan, ainsi que des translations et rotations "
+"tridimensionnelles. Ce paquet est en attente d'un mainteneur. <small>(<a "
+"href=\"/manual/manual.html#gleem\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/glib/\">GLib</a>"
-msgstr ""
+msgstr "<a href=\"/software/glib/\">GLib</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1748,7 +1843,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/global/\">Global</a>"
-msgstr ""
+msgstr "<a href=\"/software/global/\">Global</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1758,10 +1853,15 @@ msgid ""
 "large, deeply nested project.  <small>(<a href=\"/manual/manual.html#global"
 "\">doc</a>)</small>"
 msgstr ""
+"GLOBAL est un système de marquage de code source fonctionnant de façon "
+"identique au sein d'un large panel d'environnements de travail, tels que des "
+"éditeurs de texte, terminaux et navigateurs web variés. Les balises ainsi "
+"créées permettent de se déplacer rapidemment au sein d'un gros projet très "
+"hiérarchisé. <small>(<a href=\"/manual/manual.html#global\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/glpk/\">GLPK</a>"
-msgstr ""
+msgstr "<a href=\"/software/glpk/\">GLPK</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1772,11 +1872,22 @@ msgid ""
 "MIP solver is included in the package.  <small>(<a href=\"/manual/manual."
 "html#glpk\">doc</a>)</small>"
 msgstr ""
+"GLPK est une bibliothèque C servant à résoudre des problèmes d'optimisation "
+"linéaire <abbr title=\"Linear Programming\">LP</abbr> et d'optimisation "
+"linéaire mixte <abbr title=\"Mixed Integer Programming\">MIP</abbr> à grande "
+"échelle, ainsi que d'autres du même type. Elle prend en charge le langage de "
+"modélisation de GNU MathProg, sous-ensemble du langage <abbr title=\"A "
+"Mathematical Programming Language\">AMPL</abbr>, et fournit un traducteur "
+"pour celui-ci. En plus de la bibliothèque C, un résolveur LP/MIP indépendant "
+"est inclus dans ce paquet. <small>(<a href=\"/manual/manual.html#glpk\">doc</"
+"a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gmediaserver/\">Gmediaserver</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GMediaServer is a UPnP-compatible media server.  It serves audio and video "
@@ -1787,7 +1898,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gmp/\">GMP</a>"
-msgstr ""
+msgstr "<a href=\"/software/gmp/\">GMP</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1798,10 +1909,17 @@ msgid ""
 "cryptography and computational algebra.  <small>(<a href=\"/manual/manual."
 "html#gmp\">doc</a>)</small>"
 msgstr ""
+"GMP est une bibliothèque d'arithmétique multiprécision opérant sur les "
+"entiers relatifs, les nombres rationnels et les nombres à virgule flottante. "
+"La précision n'est limitée que par la quantité de mémoire disponible. La "
+"bibliothèque est hautement optimisée, avec une attention particulière portée "
+"à la vitesse d'exécution. Elle est conçue pour être utilisée, par exemple, "
+"en cryptographie ou en algorithmique. <small>(<a href=\"/manual/manual."
+"html#gmp\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnash/\">Gnash</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnash/\">Gnash</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1810,10 +1928,15 @@ msgid ""
 "or video backends, ensuring good performance.  <small>(<a href=\"/manual/"
 "manual.html#gnash\">doc</a>)</small>"
 msgstr ""
+"Gnash est un lecteur libre de vidéos au format Flash. Il prend en charge la "
+"version 7 de SWF et certaines des versions 8 et 9. Il est possible de "
+"configurer Gnash pour qu'il utilise différentes interfaces vidéo et audio "
+"afin d'assurer de bonnes performances. <small>(<a href=\"/manual/manual."
+"html#gnash\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnat/\">GNAT</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnat/\">GNAT</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1836,10 +1959,18 @@ msgid ""
 "also flexible enough to support user-made utilities.  <small>(<a href=\"/"
 "manual/manual.html#gnats\">doc</a>)</small>"
 msgstr ""
+"GNATS est un ensemble d'outils permettant de suivre les bogues et autres "
+"problèmes logiciels signalés par les utilisateurs. Ce système est "
+"complètement ouvert quant aux moyens utilisés pour interroger, éditer et "
+"maintenir ses bases de données, et possède des interfaces allant de la ligne "
+"de commande à Emacs ; toutefois les interactions se font principalement par "
+"son interface web. Il a en outre assez de flexibilité pour prendre en compte "
+"des utilitaires créés par l'utilisateur.  <small>(<a href=\"/manual/manual."
+"html#gnats\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnatsweb/\">Gnatsweb</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnatsweb/\">Gnatsweb</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1862,6 +1993,11 @@ msgid ""
 "documents and diagrams, playing media, scanning, and much more.  <small>(<a "
 "href=\"/manual/manual.html#gnome\">doc</a>)</small>"
 msgstr ""
+"GNOME est le bureau graphique de GNU. Il inclut une grande variété "
+"d'applications pour naviguer sur le web, éditer du texte et des images, "
+"créer des documents et des diagrammes, lire des fichiers multimédia, "
+"numériser et plus encore.  <small>(<a href=\"/manual/manual.html#gnome"
+"\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnu-c-manual/\">GNU C reference manual</a>"
@@ -1875,6 +2011,11 @@ msgid ""
 "language.  Library functions are not included.  <small>(<a href=\"/manual/"
 "manual.html#gnu-c-manual\">doc</a>)</small>"
 msgstr ""
+"C'est un manuel de référence pour le langage C de programmation, tel qu'il "
+"est implémenté par le compilateur C de GNU (gcc). Il n'est pas destiné à "
+"servir de didacticiel pour ce langage, mais plutôt à souligner tous ses "
+"éléments de structure. Les fonctions de bibliothèque ne sont pas abordées.  "
+"<small>(<a href=\"/manual/manual.html#gnu-c-manual\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnubatch/\">GNUbatch</a>"
@@ -1888,6 +2029,12 @@ msgid ""
 "Full access-control of the jobs is supported.  <small>(<a href=\"/manual/"
 "manual.html#gnubatch\">doc</a>)</small>"
 msgstr ""
+"GNUbatch est un planificateur de tâches évolué. Il exécute des tâches "
+"informatiques à des dates et heures données ou définies par les "
+"interdépendances. Les tâches peuvent être effectuées sur un nombre "
+"quelconque de processeurs en réseau. Le programme permet un contrôle total "
+"de l'accès à ces tâches.  <small>(<a href=\"/manual/manual.html#gnubatch"
+"\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnubg/\">Backgammon</a>"
@@ -1902,11 +2049,19 @@ msgid ""
 "representation of the playing board.  <small>(<a href=\"/manual/manual."
 "html#gnubg\">doc</a>)</small>"
 msgstr ""
+"L'application GNU backgammon peut servir à jouer à ce jeu (similaire au tric-"
+"trac), à l'analyser et à l'enseigner. Elle a un moteur d'évaluation évolué, "
+"basé sur des réseaux neuronaux artificiels, qui convient aussi bien aux "
+"débutants qu'aux joueurs avancés. Outre son interface en ligne de commande, "
+"elle se distingue par un représentation 3D attrayante du tablier.  <small>"
+"(<a href=\"/manual/manual.html#gnubatch\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnubiff/\">GNUbiff</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNUbiff is a program that checks for mail and notifies you when new messages "
@@ -1929,11 +2084,19 @@ msgid ""
 "scriptable with Guile.  <small>(<a href=\"/manual/manual.html#gnubik\">doc</"
 "a>)</small>"
 msgstr ""
+"GNUbik est un jeu de réflexion dans lequel vous devez manipuler un cube afin "
+"que chacune de ses faces soit d'une couleur uniforme. Le jeu est "
+"personnalisable puisque vous pouvez définir la taille du cube (3x3 par "
+"défaut) ou modifier les couleurs. Vous pourrez même remplacer les couleurs "
+"des faces par des photos. Ce jeu est extensible par script avec Guile. "
+"<small>(<a href=\"/manual/manual.html#gnubik\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnucap/\">GNUcap</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNUcap is a circuit analysis package.  It offers a general purpose circuit "
@@ -1955,10 +2118,19 @@ msgid ""
 "financial calculations or scheduled transactions.  <small>(<a href=\"/manual/"
 "manual.html#gnucash\">doc</a>)</small>"
 msgstr ""
+"GnuCash est un programme de comptabilité pour professionnels et "
+"particuliers. Il peut servir au suivi de comptes bancaires, d'actions ou de "
+"recettes et dépenses, et est basé sur la méthode de comptabilité en partie "
+"double. Il gère l'importation de données aux formats <abbr title=\" Quicken "
+"Interchange Format\">QIF</abbr>, <abbr title=\"Open Financial Exchange"
+"\">OFX</abbr> et <abbr title=\"Home Banking Computer Interface\">HBCI</abbr> "
+"ainsi que les correspondances entre transactions. Il automatise également "
+"différentes tâches telles que les calculs financiers et les transactions "
+"planifiées. <small>(<a href=\"/manual/manual.html#gnucash\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnucomm/\">GNUCOMM</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnucomm/\">GNUCOMM</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1970,7 +2142,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnue/\">GNU Enterprise</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnue/\">GNU Enterprise</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1979,11 +2151,20 @@ msgid ""
 "interface, navigator and menu system, and data reporting system.  <small>(<a "
 "href=\"/manual/manual.html#gnue\">doc</a>)</small>"
 msgstr ""
+"GNU Enterprise est destiné à gérer le planning d'une entreprise. Il inclut "
+"un logiciel serveur, la bibliothèque commune de développement, un <abbr "
+"title=\"Environnement de Développement Intégré\">EDI</abbr> pour la "
+"conception des formulaires de données, une interface pour formulaire, un "
+"système de navigation et de menu ainsi qu'un système de <cite>reporting</"
+"cite> (compte-rendu). <small>(<a href=\"/manual/manual.html#gnue\">doc</a>)</"
+"small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnugo/\">GNUgo</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Go is a program that plays the game of Go, in which players place stones "
@@ -1995,10 +2176,12 @@ msgid ""
 "<small>(<a href=\"/manual/manual.html#gnugo\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnuit/\">GNU Interactive Tools</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "The GNU Interactive Tools are a set of lightweight, interactive command-line "
@@ -2031,7 +2214,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnulib/\">GNUlib</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnulib/\">GNUlib</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2045,10 +2228,20 @@ msgid ""
 "licensing and maintenance-related files, for convenience.  <small>(<a href="
 "\"/manual/manual.html#gnulib\">doc</a>)</small>"
 msgstr ""
+"Gnulib est un point central de l'infrastructure commune requise par les "
+"paquets GNU. Il fournit des fonctionnalités très variées telles que la "
+"portabilité sur de nombreux systèmes,  la manipulation de chaînes Unicode, "
+"les calculs cryptographiques, et bien plus. Le code est conçu pour être "
+"partagé en tant que fichiers source plutôt que sous la forme d'une "
+"bibliothèque indépendante qui serait distribuée, compilée et installée. Le "
+"script <tt>gnulib-tool</tt>, qui en fait partie, aide à l'utilisation du "
+"code Gnulib au sein d'autres paquets. Par commodité, Gnulib inclut également "
+"des copies des fichiers de licence et de maintenance. <small>(<a href=\"/"
+"manual/manual.html#gnulib\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnumach/\">Mach</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnumach/\">Mach</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2068,6 +2261,10 @@ msgid ""
 "practices.  Several interface languages are supported.  <small>(<a href=\"/"
 "manual/manual.html#gnumed\">doc</a>)</small>"
 msgstr ""
+"GNUmed est un logiciel de tenue de dossiers médicaux électroniques qui "
+"permet aux cabinets médicaux de se passer de papier. Son interface est "
+"disponible en plusieurs langues. <small>(<a href=\"/manual/manual.html#gnumed"
+"\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnumeric/\">GNUmeric</a>"
@@ -2082,6 +2279,12 @@ msgid ""
 "engineering.  <small>(<a href=\"/manual/manual.html#gnumeric\">doc</a>)</"
 "small>"
 msgstr ""
+"GNUmeric est un tableur GNU fonctionnant sous GNOME. Il est compatible avec "
+"d'autres applications du même type. Au delà des traditionnelles "
+"fonctionnalités d'un tableur, il possède un vaste panel de fonctions, entre "
+"autres pour la résolution d'équations linéaires et non linéaires, l'analyse "
+"statistique et l'ingénierie des télécommunications. <small>(<a href=\"/"
+"manual/manual.html#gnumeric\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnump3d/\">GNUmp3d</a>"
@@ -2095,10 +2298,15 @@ msgid ""
 "player that supports streaming over HTTP.  <small>(<a href=\"/manual/manual."
 "html#gnump3d\">doc</a>)</small>"
 msgstr ""
+"GNUMP3d est un serveur de streaming pour les fichiers audio aux formats MP3 "
+"et OGG vorbis, les vidéos et autres formats multimédia. Il est léger, "
+"indépendant et possède une interface HTML simple et personnalisable. Il "
+"permet de lire des fichiers audio avec n'importe quel lecteur de flux HTTP. "
+"<small>(<a href=\"/manual/manual.html#gnump3d\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnun/\">GNUnited Nations</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnun/\">GNUnited Nations</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2108,10 +2316,16 @@ msgid ""
 "In effect, this helps to keep all translations of a page to be kept up-to-"
 "date.  <small>(<a href=\"/manual/manual.html#gnun\">doc</a>)</small>"
 msgstr ""
+"GNUnited Nations est un système de compilation pour les traductions du site "
+"www.gnu.org. Il fonctionne à l'aide de fichiers « patrons » qui permettent "
+"de fusionner des modifications dans chacune des traductions d'une page, et "
+"de générer la page HTML qui correspond. La mise à jour de toutes les "
+"traductions d'une page s'en trouve facilitée.  <small>(<a href=\"/manual/"
+"manual.html#gnun\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnunet/\">GNUnet</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnunet/\">GNUnet</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2124,10 +2338,19 @@ msgid ""
 "user interface to the GNUnet service.  <small>(<a href=\"/manual/manual."
 "html#gnunet\">doc</a>)</small>"
 msgstr ""
+"GNUnet est une infrastructure de réseau pair à pair sécurisée. Elle "
+"fonctionne de manière décentralisée et ne repose pas sur la notion de "
+"service de confiance. Un service de partage de fichiers sécurisé et "
+"résistant à la censure y est implémenté. Les communications sont chiffrées "
+"et l'anonymat est obtenu en rendant les messages provenant d'un pair "
+"impossibles à distinguer de ceux pour lesquels ce pair sert de routeur. Ce "
+"paquet comprend gnunet-gtk, qui apporte une interface graphique GTK+ au "
+"service GNUnet.  <small>(<a href=\"/manual/manual.html#gnunet\">doc</a>)</"
+"small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnupg/\">GnuPG</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnupg/\">GnuPG</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2138,11 +2361,21 @@ msgid ""
 "certificates and CMS data), <small>(<a href=\"/manual/manual.html#gnupg"
 "\">doc</a>)</small>"
 msgstr ""
+"<cite>The GNU Privacy Guard</cite> (GPG), le « gardien de la vie privée », "
+"est une implémentation complète de la norme OpenOpen<abbr title=\"Pretty "
+"Good Privacy\">PGP</abbr>. Il est utilisé pour chiffrer et signer des "
+"données et des communications. Il gère les clés de manière très complète et "
+"offre la possibilité d'accéder à leurs composants publics ; libgpg-error "
+"(valeurs d'erreurs communes à tous les composants GPG) et libskba "
+"(opérations sur les certificats X.509 et les certificats CMS) lui sont "
+"associés.  <small>(<a href=\"/manual/manual.html#gnupg\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnupod/\">GNUpod</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNUpod is a collection of scripts for using iPods with GNU/Linux and other "
@@ -2162,10 +2395,14 @@ msgid ""
 "Java programs.  <small>(<a href=\"/manual/manual.html#gnuprologjava\">doc</"
 "a>)</small>"
 msgstr ""
+"GNUProlog pour Java est une implémentation de la norme ISO Prolog en tant "
+"que bibliothèque Java (gnu.prolog). Elle vous permet d'utiliser Prolog à "
+"partir de programmes en Java.  <small>(<a href=\"/manual/manual."
+"html#gnuprologjava\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnuradio/\">Radio</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnuradio/\">Radio</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2176,11 +2413,21 @@ msgid ""
 "support for performance-critical processing tasks.  <small>(<a href=\"/"
 "manual/manual.html#gnuradio\">doc</a>)</small>"
 msgstr ""
+"GNU Radio est une boîte à outils servant à implémenter des radios "
+"logicielles. Ses blocs de traitement du signal peuvent être combinés avec du "
+"matériel de réception bon marché pour créer des radios définies par le "
+"logiciel. Sans ce matériel, il peut être utilisé pour la simulation. Les "
+"applications radios sont écrites principalement en Python, avec du C++ pour "
+"les tâches de traitement de signal les plus critiques du point de vue "
+"performance.  <small>(<a href=\"/manual/manual.html#gnuradio\">doc</a>)</"
+"small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnurobots/\">Robots</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Robots is a game in which you program a robot to explore a world full of "
@@ -2211,7 +2458,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnushogi/\">GNUshogi</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnushogi/\">GNUshogi</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2220,11 +2467,17 @@ msgid ""
 "chess, this variant is far more complicated.  <small>(<a href=\"/manual/"
 "manual.html#gnushogi\">doc</a>)</small>"
 msgstr ""
+"GNU Shogi est un programme qui joue au Shogi (échecs japonais). Il inclut "
+"également une interface graphique pour le jeu. Bien qu'ayant des similarités "
+"avec les échecs habituels, ce jeu est beaucoup plus compliqué.  <small>(<a "
+"href=\"/manual/manual.html#gnushogi\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnusound/\">GNUsound</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNUsound is a multitrack sound editor for GNOME 1 and 2.  It can read and "
@@ -2237,7 +2490,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnuspool/\">GNUspool</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnuspool/\">GNUspool</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2248,6 +2501,14 @@ msgid ""
 "on any other host.  Several user different interfaces are available.  <small>"
 "(<a href=\"/manual/manual.html#gnuspool\">doc</a>)</small>"
 msgstr ""
+"GNUspool est un système de queue d'impression <cite>[spooling]</cite> "
+"évolué. Outre la fonctionnalité habituelle de système d'impression, il a des "
+"capacités de post-traitement, de gestion des types de formulaires, "
+"d'alignement des pages et autres. Il fonctionne en réseau de manière "
+"transparente en partageant les travaux de n'importe quel hôte avec les "
+"imprimantes de n'importe quel autre. Il dispose de plusieurs interfaces "
+"utilisateur.  <small>(<a href=\"/manual/manual.html#gnuspool\">doc</a>)</"
+"small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnustep/\">GNUstep</a>"
@@ -2277,6 +2538,15 @@ msgid ""
 "well as to parse and write X.5009, PKCS 12, OpenPGP and other required "
 "structures.  <small>(<a href=\"/manual/manual.html#gnutls\">doc</a>)</small>"
 msgstr ""
+"GnuTLS est une bibliothèque de communication sécurisée implémentant les "
+"protocoles <abbr title=\"Secure Sockets Layer\">SSL</abbr>, <abbr title="
+"\"Transport Layer Security\">TLS</abbr> et <abbr title=\"Datagram Transport "
+"Layer Security\">DTLS</abbr>. Elle est fournie sous la forme d'une "
+"bibliothèque C, qui sert à gérer les protocoles ainsi qu'à analyser et "
+"écrire les structures requises : X.5009, <abbr title=\"public-key "
+"cryptography standards\">PKCS</abbr> 12, Open<abbr title=\"Pretty Good "
+"Privacy\">PGP</abbr> et autres.  <small>(<a href=\"/manual/manual.html#gnutls"
+"\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnutrition/\">GNUtrition</a>"
@@ -2293,7 +2563,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnuzilla/\">GNUzilla</a>"
-msgstr ""
+msgstr "<a href=\"/software/gnuzilla/\">GNUzilla</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2318,7 +2588,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gorm/\">Gorm</a>"
-msgstr ""
+msgstr "<a href=\"/software/gorm/\">Gorm</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2328,10 +2598,12 @@ msgstr ""
 "Voir <a href=\"#gnustep\">gnustep</a>.  <small>(<a href=\"/manual/manual."
 "html#gorm\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gpaint/\">Gpaint</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Paint is a simple, easy-to-use paint program for the GNOME environment.  "
@@ -2340,10 +2612,12 @@ msgid ""
 "manual.html#gpaint\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gperf/\">Gperf</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "gperf is a perfect hash function generator.  For a given list of strings, it "
@@ -2379,10 +2653,12 @@ msgid ""
 "</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/greg/\">Greg</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Greg is a framework for testing programs and libraries.  It provides a "
@@ -2520,10 +2796,12 @@ msgid ""
 "html#gss\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gtick/\">GTick</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GTick is a metronome application.  It supports different meters, such as "
@@ -2535,7 +2813,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gtk+/\">GTK+</a>"
-msgstr ""
+msgstr "<a href=\"/software/gtk+/\">GTK+</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -2573,10 +2851,12 @@ msgid ""
 "manual/manual.html#guile\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/guile-dbi/\">Guile-dbi</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "guile-dbi is a library for Guile that provides a convenient interface to SQL "
@@ -2606,6 +2886,9 @@ msgid ""
 "guile-ncurses provides Guile language bindings for the ncurses library.  "
 "<small>(<a href=\"/manual/manual.html#guile-ncurses\">doc</a>)</small>"
 msgstr ""
+"guile-ncurses fournit à la bibliothèque ncurses des modules de liaison au "
+"langage Guile.  <small>(<a href=\"/manual/manual.html#guile-ncurses\">doc</"
+"a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/guile-sdl/\">Guile-sdl</a>"
@@ -2753,10 +3036,12 @@ msgid ""
 "small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/hp2xx/\">Hp2xx</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU hp2xx converts vector graphics specified in the HP-GL plotter language "
@@ -2765,10 +3050,12 @@ msgid ""
 "<small>(<a href=\"/manual/manual.html#hp2xx\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/httptunnel/\">Httptunnel</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU httptunnel creates a bidirectional data path tunneled in HTTP requests.  "
@@ -2870,10 +3157,12 @@ msgid ""
 "<small>(<a href=\"/manual/manual.html#inetutils\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/intlfonts/\">Intlfonts</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU intlfonts contains free X11 fonts in the BDF and TrueType formats. They "
@@ -3078,9 +3367,8 @@ msgid ""
 "interpreter is flexible, supporting any number of variables of arbitrary "
 "names, decimal and symbolic constants, basic unary and binary operators, and "
 "elementary mathematical functions. It can also compute symbolic derivatives "
-"and output expressions to strings.  This package is looking for a "
-"maintainer.  <small>(<a href=\"/manual/manual.html#libmatheval\">doc</a>)</"
-"small>"
+"and output expressions to strings.  <small>(<a href=\"/manual/manual."
+"html#libmatheval\">doc</a>)</small>"
 msgstr ""
 
 #. type: Content of: <h4>
@@ -3143,10 +3431,10 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"GNU Libtool helps in the creation of shared libraries.  By presenting a "
-"consistent, portable interface, it hides the complexity of building usable "
-"shared libraries across many systems.  <small>(<a href=\"/manual/manual."
-"html#libtool\">doc</a>)</small>"
+"GNU Libtool helps in the creation and use of shared libraries, by presenting "
+"a single consistent, portable interface that hides the usual complexity of "
+"working with shared libraries across platforms.  <small>(<a href=\"/manual/"
+"manual.html#libtool\">doc</a>)</small>"
 msgstr ""
 
 #. type: Content of: <h4>
@@ -3160,10 +3448,12 @@ msgid ""
 "<small>(<a href=\"/manual/manual.html#libunistring\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/libxmi/\">Libxmi</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU libxmi is a library for rasterizing 2D vector graphics for C and C++. It "
@@ -3229,7 +3519,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/lispintro/\">Lispintro</a>"
-msgstr ""
+msgstr "<a href=\"/software/lispintro/\">Lispintro</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -3239,10 +3529,12 @@ msgstr ""
 "Voir <a href=\"#emacs\">emacs</a>.  <small>(<a href=\"/manual/manual."
 "html#lispintro\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/lrzsz/\">Lrzsz</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU lrzsz is a communication package supporting the XMODEM, YMODEM and "
@@ -3270,10 +3562,11 @@ msgstr ""
 #. type: Content of: <p>
 msgid ""
 "GNU M4 is an implementation of the M4 macro language, which features some "
-"extensions over other implementations.  It is used as a macro processor, "
-"which means it processes text, expanding macros as it encounters them.  It "
-"also has some built-in functions, for example to run shell commands or to do "
-"arithmetic.  <small>(<a href=\"/manual/manual.html#m4\">doc</a>)</small>"
+"extensions over other implementations, some of which are required by GNU "
+"Autoconf.  It is used as a macro processor, which means it processes text, "
+"expanding macros as it encounters them.  It also has some built-in "
+"functions, for example to run shell commands or to do arithmetic.  <small>"
+"(<a href=\"/manual/manual.html#m4\">doc</a>)</small>"
 msgstr ""
 
 #. type: Content of: <h4>
@@ -3365,10 +3658,12 @@ msgid ""
 "</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/mc/\">Midnight Commander</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Midnight Commander is a command-line file manager laid out in a common "
@@ -3431,10 +3726,12 @@ msgid ""
 "html#mediagoblin\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/melting/\">Melting</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU MELTING computes the enthalpy, entropy and melting temperature of helix-"
@@ -3470,7 +3767,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/mig/\">Mig</a>"
-msgstr ""
+msgstr "<a href=\"/software/mig/\">Mig</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -3697,10 +3994,12 @@ msgid ""
 "</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/panorama/\">Panorama</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Panorama is a framework for producing 3D graphics.  It can perform "
@@ -3745,10 +4044,12 @@ msgid ""
 "differences.  <small>(<a href=\"/manual/manual.html#patch\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/paxutils/\">Paxutils</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU paxutils is a suite of archive utilities.  It contains versions of the "
@@ -3771,10 +4072,10 @@ msgstr ""
 "GNU PCB est un outil interactif pour éditer des schémas de circuits "
 "imprimés. Il implémente la commande <cite>ratsnest</cite>, peut importer des "
 "schémas fonctionnels ou des listes d'interconnexions, et vérifie que les "
-"règles de conception <cite>[design rules]</cite> sont respectées. Il "
-"comprend aussi un autorouteur et un optimiseur de tracé ; enfin, il peut "
-"produire des images réalistes ou destinées à l'examen de conception.  <small>"
-"(<a href=\"/manual/manual.html#pcb\">doc</a>)</small>"
+"règles de conception sont respectées. Il comprend aussi un autorouteur et un "
+"optimiseur de tracé ; enfin, il peut produire des images réalistes ou "
+"destinées à l'examen de conception.  <small>(<a href=\"/manual/manual."
+"html#pcb\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/pem/\">Pem</a>"
@@ -3789,10 +4090,12 @@ msgid ""
 "manual.html#pem\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/pexec/\">Pexec</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU pexec is a program for executing commands or shell scripts in parallel "
@@ -3801,10 +4104,12 @@ msgid ""
 "<small>(<a href=\"/manual/manual.html#pexec\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/pies/\">Pies</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU pies is a program that supervises the invocation and execution of other "
@@ -3814,10 +4119,12 @@ msgid ""
 "\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/plotutils/\">Plotutils</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Plotutils is a package for plotting and working with 2D graphics.  It "
@@ -3828,10 +4135,12 @@ msgid ""
 "</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/proxyknife/\">Proxyknife</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU proxyknife is a tool to validate free proxies from behind a firewall.  "
@@ -3880,10 +4189,12 @@ msgstr ""
 "bibliothèque C++, d'une interface 3D et d'une autre en ligne de commande.  "
 "<small>(<a href=\"/manual/manual.html#psychosynth\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/pth/\">Pth</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Pth is a portable library providing non-preemptive, priority-based "
@@ -3914,14 +4225,14 @@ msgstr ""
 "scripts configure et de Makefiles conformes aux standards, pour les paquets "
 "basés sur Python. Il est conçu pour fonctionner à côté de scripts "
 "d'installation préexistants en Python, ce qui facilite l'intégration dans "
-"les projets existants. Des macros Autoconf puissantes et flexibles sont "
-"disponibles, ce qui permet d'adapter aisément la procédure d'installation "
-"aux possibilités de l'ordinateur cible.  <small>(<a href=\"/manual/manual."
-"html#pyconfigure\">doc</a>)</small>"
+"les projets existants. Des macros Autoconf puissantes et polyvalentes "
+"permettent d'adapter aisément la procédure d'installation aux possibilités "
+"de l'ordinateur cible.  <small>(<a href=\"/manual/manual.html#pyconfigure"
+"\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/qexo/\">Qexo</a>"
-msgstr ""
+msgstr "<a href=\"/software/qexo/\">Qexo</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -3946,10 +4257,12 @@ msgid ""
 "html#r\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/radius/\">Radius</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "Radius is a server for remote user authentication and accounting. It is "
@@ -4001,10 +4314,12 @@ msgid ""
 "\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/reftex/\">Reftex</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU RefTex is a package for implementing labels, references, citations and "
@@ -4084,10 +4399,12 @@ msgstr ""
 "statique ou dynamique avec un exécutable SCM. <small>(<a href=\"/manual/"
 "manual.html#scm\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/screen/\">Screen</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Screen is a terminal window manager that multiplexes a single terminal "
@@ -4134,12 +4451,11 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"GNU sharutils is a package for manipulating shell archives. Shell archives "
-"are collections of files that can be unpacked using only the shell; an "
-"archive is a self-extracting shell script. The tools in the Sharutils "
-"package make working with shell archives more robust, offering compression, "
-"file-splitting and simple checksums.  <small>(<a href=\"/manual/manual."
-"html#sharutils\">doc</a>)</small>"
+"GNU sharutils is a package for creating and manipulating shell archives that "
+"can be readily emailed.  A shell archive is a file that can be processed by "
+"a Bourne-type shell to unpack the original collection of files.  This "
+"package is mostly for compatibility and historical interest.  <small>(<a "
+"href=\"/manual/manual.html#sharutils\">doc</a>)</small>"
 msgstr ""
 
 #. type: Content of: <h4>
@@ -4154,10 +4470,12 @@ msgid ""
 "<small>(<a href=\"/manual/manual.html#shishi\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/shmm/\">Shmm</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU SHMM is a shared memory manager.  It can read or write to shared "
@@ -4166,10 +4484,12 @@ msgid ""
 "manual/manual.html#shmm\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/shtool/\">Shtool</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU shtool is a multipurpose shell tool.  It can perform the functions of "
@@ -4238,10 +4558,12 @@ msgid ""
 "\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/spacechart/\">SpaceChart</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU SpaceChart lets you view how the stars are distributed in three-"
@@ -4251,10 +4573,12 @@ msgid ""
 "html#spacechart\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/speex/\">Speex</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Speex is a patent-free audio compression codec specially designed for "
@@ -4276,10 +4600,12 @@ msgid ""
 "manual/manual.html#spell\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/sqltutor/\">Sqltutor</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Sqltutor is a web-based, interactive SQL tutorial.  It features multiple "
@@ -4326,10 +4652,12 @@ msgstr ""
 "fichiers dans un répertoire commun, comme par exemple /usr/local.  <small>"
 "(<a href=\"/manual/manual.html#stow\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/stump/\">Stump</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU STUMP is a robomoderator program for USENET newsgroups and mailing "
@@ -4366,10 +4694,12 @@ msgid ""
 "mechanisms.  <small>(<a href=\"/manual/manual.html#swbis\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/talkfilters/\">Talkfilters</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "The GNU Talk Filters are programs that convert English text into stereotyped "
@@ -4392,10 +4722,12 @@ msgid ""
 "(<a href=\"/manual/manual.html#tar\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/termcap/\">Termcap</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU termcap is a library and a database that are used to enable the use of "
@@ -4406,10 +4738,12 @@ msgid ""
 "href=\"/manual/manual.html#termcap\">doc</a>)</small>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/termutils/\">Termutils</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "The GNU Termutils package contains two programs, <tt>tput</tt> and <tt>tabs</"
@@ -4498,10 +4832,12 @@ msgstr ""
 "rassembler des données concernant un utilisateur, un canal ou un serveur.  "
 "<small>(<a href=\"/manual/manual.html#thales\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/time/\">Time</a>"
 msgstr ""
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "Time is a command that displays information about the resources that a "
@@ -4524,7 +4860,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/trans-coord/\">Trans-coord</a>"
-msgstr ""
+msgstr "<a href=\"/software/trans-coord/\">Trans-coord</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -4558,8 +4894,8 @@ msgid ""
 "glyphs to the font.  <small>(<a href=\"/manual/manual.html#unifont\">doc</a>)"
 "</small>"
 msgstr ""
-"GNU Unifont est une police bitmap qui couvre pratiquement tout le champ "
-"multilingual de base (<abbr title=\"Basic Multilingual Plane\">BMP</abbr>)"
+"GNU Unifont est une police bitmap qui couvre pratiquement toute la couche "
+"multilingue de base (<abbr title=\"Basic Multilingual Plane\">BMP</abbr>)"
 "d'Unicode. Ce paquet comprend aussi des utilitaires qui facilitent l'ajout "
 "de nouveaux glyphes à la police.  <small>(<a href=\"/manual/manual."
 "html#unifont\">doc</a>)</small>"
@@ -4579,10 +4915,10 @@ msgid ""
 msgstr ""
 "GNU Units convertit des quantités d'une unité de mesure dans une autre. Il "
 "peut gérer les changement d'échelle par l'usage adaptatif des préfixes "
-"standards (micro-, kilo-, etc.), ainsi que les conversions non "
-"proportionnelles (Celsius-Fahrenheit par exemple) ou même non linéaires. Son "
-"interpréteur est assez puissant pour servir de calculateur scientifique "
-"efficace.  <small>(<a href=\"/manual/manual.html#units\">doc</a>)</small>"
+"standards (micro-, kilo-, etc.), ainsi que les conversions « non "
+"linéaires » (Celsius-Fahrenheit par exemple). Son interpréteur est assez "
+"puissant pour servir de calculateur scientifique efficace.  <small>(<a href="
+"\"/manual/manual.html#units\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/unrtf/\">UnRTF</a>"
@@ -4600,10 +4936,12 @@ msgstr ""
 "texte souligné et barré, les indices et exposants, et plus encore.  <small>"
 "(<a href=\"/manual/manual.html#unrtf\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/userv/\">Userv</a>"
 msgstr "<a href=\"/software/userv/\">Userv</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Userv is a utility that allows one program to invoke another even when "
@@ -4690,10 +5028,12 @@ msgstr ""
 "informatiques distribuée comme de la documentation.  <small>(<a href=\"/"
 "manual/manual.html#vera\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/vmgen/\">Vmgen</a>"
 msgstr "<a href=\"/software/vmgen/\">Vmgen</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "See <a href=\"#gforth\">gforth</a>.  <small>(<a href=\"/manual/manual."
@@ -4752,10 +5092,12 @@ msgstr ""
 "nécessaires côté client comme côté serveur.  <small>(<a href=\"/manual/"
 "manual.html#websocket4j\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/webstump/\">WebSTUMP</a>"
 msgstr "<a href=\"/software/webstump/\">WebSTUMP</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "See <a href=\"#stump\">stump</a>.  <small>(<a href=\"/manual/manual."
@@ -4783,10 +5125,12 @@ msgstr ""
 "présents dans les documents téléchargés en liens relatifs.  <small>(<a href="
 "\"/manual/manual.html#wget\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/which/\">Which</a>"
 msgstr "<a href=\"/software/which/\">Which</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "The which program finds the location of executables in PATH, with a variety "
@@ -4797,10 +5141,12 @@ msgstr ""
 "options. C'est une alternative à la commande shell <tt>type</tt>.  <small>"
 "(<a href=\"/manual/manual.html#which\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/xaos/\">XaoS</a>"
 msgstr "<a href=\"/software/xaos/\">XaoS</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU XaoS is a graphical program that generates fractal patterns and allows "
@@ -4837,10 +5183,12 @@ msgstr ""
 "Notation</cite>.  <small>(<a href=\"/manual/manual.html#xboard\">doc</a>)</"
 "small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/xlogmaster/\">Xlogmaster</a>"
 msgstr "<a href=\"/software/xlogmaster/\">Xlogmaster</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Xlogmaster is a program with a graphical user interface that lets you "
