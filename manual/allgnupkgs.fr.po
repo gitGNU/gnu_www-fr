@@ -2,13 +2,15 @@
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the original article.
 # Marc de Maillard <mdemaillard AT gmail.com>, 2013.
+# Jonathan Deleuze, 2013.
+# Sébastien Poher, 2013 <sogalpunx AT volted.net>, 2013.
 # Thérèse Godefroy <godef.th AT free.fr>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: allgnupkgs.html\n"
 "POT-Creation-Date: 2013-11-07 00:27+0000\n"
-"PO-Revision-Date: 2013-11-15 19:27+0100\n"
+"PO-Revision-Date: 2013-11-17 16:18+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -41,24 +43,24 @@ msgid ""
 "\"#Video\">Video</a> - <a href=\"#Web\">Web&nbsp;authoring</a> -"
 msgstr ""
 "<a href=\"#Archiving\">Archivage</a> - <a href=\"#Audio\">Audio</a> - <a "
-"href=\"#Business\">Activités économiques</a> - <a href=\"#Database"
+"href=\"#Business\">Entreprise et productivité</a> - <a href=\"#Database"
 "\">Base de données</a> - <a href=\"#Dictionaries\">Dictionnaires</a> - <a "
-"href=\"#Translation\">Traduction de documentation</a> - <a href=\"#Editors"
+"href=\"#Translation\">Traduction de la documentation</a> - <a href=\"#Editors"
 "\">Édition de texte</a> - <a href=\"#Education\">Éducation</a> - <a href="
-"\"#Email\">Courriel</a> - <a href=\"#Fonts\">Polices</a> - <a href=\"#gnuorg"
-"\">Organisation de GNU</a> - <a href=\"#Games\">Jeux</a> - <a href="
-"\"#Graphics\">Graphisme</a> - <a href=\"#Health\">Santé</a> - <a href="
-"\"#Interface\">Interface utilisateur</a> - <a href=\"#Internet"
-"\">Applications Internet</a> - <a href=\"#Live\">Communication en direct</a> "
-"- <a href=\"#Localization\">Localisation</a> - <a href=\"#Mathematics"
-"\">Mathématiques</a> - <a href=\"#Music\">Musique</a> - <a href=\"#Printing"
-"\">Impression</a> - <a href=\"#Science\">Sciences</a> - <a href=\"#Security"
-"\">Sécurité</a> - <a href=\"#Software\">Développement logiciel</a> - <a href="
-"\"#Libraries\">Bibliothèques logicielles</a> - <a href=\"#Spreadsheets"
-"\">Tableurs</a> - <a href=\"#Sysadmin\">Administration système</a> - <a href="
-"\"#Telephony\">Téléphonie</a> - <a href=\"#Text\">Création et "
-"manipulation de texte</a> - <a href=\"#Version\">Gestion de versions</a> - "
-"<a href=\"#Video\">Vidéo</a> - <a href=\"#Web\">Création web</a> -"
+"\"#Email\">Courriel</a> - <a href=\"#Fonts\">Polices de caractères</a> - <a "
+"href=\"#gnuorg\">Organisation de GNU</a> - <a href=\"#Games\">Jeux</a> - <a "
+"href=\"#Graphics\">Graphisme</a> - <a href=\"#Health\">Santé</a> - <a href="
+"\"#Interface\">Interface</a> - <a href=\"#Internet\">Applications Internet</"
+"a> - <a href=\"#Live\">Communication en temps réel</a> - <a href="
+"\"#Localization\">Localisation</a> - <a href=\"#Mathematics\">Mathématiques</"
+"a> - <a href=\"#Music\">Musique</a> - <a href=\"#Printing\">Impression</a> - "
+"<a href=\"#Science\">Sciences</a> - <a href=\"#Security\">Sécurité</a> - <a "
+"href=\"#Software\">Développement logiciel</a> - <a href=\"#Libraries"
+"\">Bibliothèques logicielles</a> - <a href=\"#Spreadsheets\">Tableurs</a> - "
+"<a href=\"#Sysadmin\">Administration système</a> - <a href=\"#Telephony"
+"\">Téléphonie</a> - <a href=\"#Text\">Création et manipulation de texte</a> "
+"- <a href=\"#Version\">Gestion de versions</a> - <a href=\"#Video\">Vidéo</"
+"a> - <a href=\"#Web\">Création web</a> -"
 
 #. type: Content of: <table><tr><td>
 msgid "<big><b>Archiving</b></big>"
@@ -189,7 +191,7 @@ msgid ""
 "Social music explorations.  [<a href=\"/software/gnufm/\">gnufm&nbsp;home</"
 "a>]"
 msgstr ""
-"Découverte musicale en réseau social [<a href=\"/software/gnufm/\">gnufm –"
+"Découverte musicale en réseau social. [<a href=\"/software/gnufm/\">gnufm –"
 " accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -293,8 +295,8 @@ msgid ""
 "<a href=\"http://directory.fsf.org/category/prod/\"><big><b>Business and "
 "productivity</b></big></a>"
 msgstr ""
-"<a href=\"http://directory.fsf.org/category/prod/\"><big><b>Activités "
-"économiques </b></big></a>"
+"<a href=\"http://directory.fsf.org/category/prod/\"><big><b>Entreprise et "
+"productivité</b></big></a>"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/barcode/\">Barcode</a>"
@@ -532,7 +534,7 @@ msgid ""
 "translation</b></big></a>"
 msgstr ""
 "<a href=\"http://directory.fsf.org/category/dtrans/\"><big><b>Traduction de "
-"documentation</b></big></a>"
+"la documentation</b></big></a>"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/gnujdoc/\">GNUjdoc</a>"
@@ -564,8 +566,8 @@ msgid ""
 "Build system for www.gnu.org translations.  [<a href=\"/software/gnun/"
 "\">gnun&nbsp;home</a>]"
 msgstr ""
-"Système de production <cite>[build system]</cite> des traductions de www.gnu."
-"org. [<a href=\"/software/gnun/\">gnun – accueil</a>]"
+"Système de production des traductions de www.gnu.org. [<a href=\"/software/"
+"gnun/\">gnun – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/trans-coord/manual/\">Trans-coord</a>"
@@ -911,8 +913,8 @@ msgid ""
 "<a href=\"http://directory.fsf.org/category/fonts/\"><big><b>Fonts</b></"
 "big></a>"
 msgstr ""
-"<a href=\"http://directory.fsf.org/category/fonts/\"><big><b>Polices</b></"
-"big></a>"
+"<a href=\"http://directory.fsf.org/category/fonts/\"><big><b>Polices de "
+"caractères</b></big></a>"
 
 #. type: Content of: <table><tr><td>
 msgid ""
@@ -952,8 +954,8 @@ msgid ""
 "intlfonts/\">intlfonts&nbsp;home</a>]"
 msgstr ""
 "Polices TrueType et <abbr title=\"Bitmap Distribution Format\">BDF</abbr> "
-"couvrant de nombreux alphabets. [<a href=\"/software/intlfonts/\">intlfonts –"
-" accueil</a>]"
+"comprenant de nombreux alphabets. [<a href=\"/software/intlfonts/"
+"\">intlfonts – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/unifont/\">Unifont</a>"
@@ -964,9 +966,9 @@ msgid ""
 "Large bitmap font covering Unicode's Basic Multilingual Plane.  [<a href=\"/"
 "software/unifont/\">unifont&nbsp;home</a>]"
 msgstr ""
-"Grande police bitmap couvrant la « couche multilingue de base » (<abbr title="
-"\"Basic Multilingual Plane\">BMP</abbr>) d'Unicode.  [<a href=\"/software/"
-"unifont/\">unifont – accueil</a>]"
+"Police bitmap étendue couvrant la « couche multilingue de base » (<abbr "
+"title=\"Basic Multilingual Plane\">BMP</abbr>) d'Unicode.  [<a href=\"/"
+"software/unifont/\">unifont – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "<big><b>GNU organization</b></big>"
@@ -987,8 +989,8 @@ msgid ""
 "GNU coding standards and maintainer information.  [<a href=\"/software/"
 "gnustandards/\">gnustandards&nbsp;home</a>]"
 msgstr ""
-"Normes de codages de GNU et information pour les mainteneurs. [<a href=\"/"
-"software/gnustandards/\">gnustandards – accueil</a>]"
+"Normes de codages de GNU et informations pour les responsables de paquets. "
+"[<a href=\"/software/gnustandards/\">gnustandards – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid ""
@@ -1007,7 +1009,7 @@ msgid ""
 "Multiplayer aerial combat simulation.  [<a href=\"/software/acm/\">acm&nbsp;"
 "home</a>]"
 msgstr ""
-"Simulation de combat aérien multijoueur [<a href=\"/software/acm/\">acm –"
+"Simulation de combat aérien multijoueur. [<a href=\"/software/acm/\">acm –"
 " accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -1043,8 +1045,8 @@ msgid ""
 "Multi-player world simulation and role-playing game.  [<a href=\"/software/"
 "dominion/\">dominion&nbsp;home</a>]"
 msgstr ""
-"Simulation multijoueur de la situation mondiale et jeu de rôle. [<a href=\"/"
-"software/dominion/\">dominion – accueil</a>]"
+"Simulation de la politique internationale et jeu de rôle multijoueur. [<a "
+"href=\"/software/dominion/\">dominion – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"http://www.freedink.org/doc/\">FreeDink</a>"
@@ -1055,7 +1057,7 @@ msgid ""
 "Twisted adventures of young pig farmer Dink Smallwood.  [<a href=\"/software/"
 "freedink/\">freedink&nbsp;home</a>]"
 msgstr ""
-"Les aventures tordues du jeune éleveur de porcs Dink Smallwood [<a href=\"/"
+"Les aventures tordues du jeune éleveur de porcs Dink Smallwood. [<a href=\"/"
 "software/freedink/\">freedink – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -1065,7 +1067,7 @@ msgstr "* <a href=\"/software/gnubg/manual/\">Backgammon</a>"
 #. type: Content of: <table><tr><td>
 msgid "Backgammon game.  [<a href=\"/software/gnubg/\">gnubg&nbsp;home</a>]"
 msgstr ""
-"Jeu de backgammon [NdT : ressemble au trictrac]. [<a href=\"/software/gnubg/"
+"Jeu de backgammon [ressemble au tric-trac]. [<a href=\"/software/gnubg/"
 "\">gnubg – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -1085,7 +1087,7 @@ msgstr "* <a href=\"/software/gnugo/gnugo_toc.html\">GNUgo</a>"
 #. type: Content of: <table><tr><td>
 msgid ""
 "Play the game of Go.  [<a href=\"/software/gnugo/\">gnugo&nbsp;home</a>]"
-msgstr "Jeu de Go. [<a href=\"/software/gnugo/\">gnugo – accueil</a>]"
+msgstr "Joue au jeu de Go. [<a href=\"/software/gnugo/\">gnugo – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/gnujump/\">GNUjump</a>"
@@ -1276,8 +1278,8 @@ msgid ""
 "GNOME application to create scientific and engineering plots.  [<a href=\"/"
 "software/gsegrafix/\">gsegrafix&nbsp;home</a>]"
 msgstr ""
-"Application GNOME pour créer des graphes en sciences et ingénierie. [<a href="
-"\"/software/gsegrafix/\">gsegrafix – accueil</a>]"
+"Application GNOME pour créer des graphiques en sciences et ingénierie. [<a "
+"href=\"/software/gsegrafix/\">gsegrafix – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/guile-figl/\">Guile-figl</a>"
@@ -1325,7 +1327,7 @@ msgid ""
 "Plotting utilities and library.  [<a href=\"/software/plotutils/"
 "\">plotutils&nbsp;home</a>]"
 msgstr ""
-"Utilitaires et bibliothèque pour le traçage de courbes. [<a href=\"/software/"
+"Utilitaires et bibliothèque pour tracer des courbes. [<a href=\"/software/"
 "plotutils/\">plotutils – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -1340,7 +1342,7 @@ msgstr ""
 msgid ""
 "Real-time fractal zoomer.  [<a href=\"/software/xaos/\">xaos&nbsp;home</a>]"
 msgstr ""
-"Zoomer sur des fractales en temps réel. [<a href=\"/software/xaos/\">xaos –"
+"Zoomez sur des fractales en temps réel. [<a href=\"/software/xaos/\">xaos –"
 " accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -1362,7 +1364,7 @@ msgid ""
 "Paperless medical practice.  [<a href=\"/software/gnumed/\">gnumed&nbsp;"
 "home</a>]"
 msgstr ""
-"Pratique médicale sans papier. [<a href=\"/software/gnumed/\">gnumed –"
+"Cabinet médical sans papier. [<a href=\"/software/gnumed/\">gnumed –"
 " accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -1394,8 +1396,8 @@ msgid ""
 "<a href=\"http://directory.fsf.org/category/iface/\"><big><b>Interface</b></"
 "big></a>"
 msgstr ""
-"<a href=\"http://directory.fsf.org/category/iface/\"><big><b>Interface "
-"utilisateur</b></big></a>"
+"<a href=\"http://directory.fsf.org/category/iface/\"><big><b>Interface</b></"
+"big></a>"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"http://library.gnome.org\">GNOME</a>"
@@ -1734,7 +1736,7 @@ msgid ""
 "Multi-threaded web server.  [<a href=\"/software/myserver/\">myserver&nbsp;"
 "home</a>]"
 msgstr ""
-"Serveur web multiprogrammé. <cite>[multi-threaded]</cite>. [<a href=\"/"
+"Serveur web multiprogrammé <cite>[multi-threaded]</cite>. [<a href=\"/"
 "software/myserver/\">myserver – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -1769,8 +1771,8 @@ msgid ""
 "Customizable multithread proxy hunter.  [<a href=\"/software/proxyknife/"
 "\">proxyknife&nbsp;home</a>]"
 msgstr ""
-"Chasseur de proxy à plusieurs fils d'exécution, personnalisable. [<a href=\"/"
-"software/proxyknife/\">proxyknife – accueil</a>]"
+"Chasseur de proxy multiprogrammé, personnalisable. [<a href=\"/software/"
+"proxyknife/\">proxyknife – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/shishi/#status\">Shishi</a>"
@@ -1781,7 +1783,7 @@ msgid ""
 "Implementation of the Kerberos 5 network security system.  [<a href=\"/"
 "software/shishi/\">shishi&nbsp;home</a>]"
 msgstr ""
-"Implémentation du système de sécurité réseau Kerberos 5. [<a href=\"/"
+"Implémentation du système de sécurité réseau Kerberos 5. [<a href=\"/"
 "software/shishi/\">shishi – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -1850,7 +1852,7 @@ msgid ""
 "<a href=\"http://directory.fsf.org/category/lc/\"><big><b>Live "
 "communications</b></big></a>"
 msgstr ""
-"<a href=\"http://directory.fsf.org/category/lc/\"><big><b>Communication "
+"<a href=\"http://directory.fsf.org/category/lc/\"><big><b>Communication en "
 "temps réel</b></big></a>"
 
 #. type: Content of: <table><tr><td>
@@ -2357,8 +2359,8 @@ msgid ""
 "Design printed circuit board layouts.  [<a href=\"/software/pcb/\">pcb&nbsp;"
 "home</a>]"
 msgstr ""
-"Conception de diagrammes de circuits imprimés. [<a href=\"/software/pcb/"
-"\">pcb – accueil</a>]"
+"Conception de schémas de circuits imprimés. [<a href=\"/software/pcb/\">pcb –"
+" accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/polyxmass/\">Polyxmass</a>"
@@ -2584,8 +2586,8 @@ msgid ""
 "Automated program generator.  [<a href=\"/software/autogen/\">autogen&nbsp;"
 "home</a>]"
 msgstr ""
-"Génère automatiquement [NdT : certaines parties répétitives] d'un programme. "
-"[<a href=\"/software/autogen/\">autogen – accueil</a>]"
+"Génère automatiquement [certaines parties répétitives] d'un programme. [<a "
+"href=\"/software/autogen/\">autogen – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/automake/manual/\">Automake</a>"
@@ -2703,7 +2705,9 @@ msgstr "* <a href=\"/software/cobol/\">Cobol</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "COBOL for GCC.  [<a href=\"/software/cobol/\">cobol&nbsp;home</a>]"
-msgstr "COBOL pour GCC. [<a href=\"/software/cobol/\">cobol – accueil</a>]"
+msgstr ""
+"<abbr title=\"COmmon Business-Oriented Language\">COBOL</abbr> pour GCC. [<a "
+"href=\"/software/cobol/\">cobol – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/complexity/manual/\">Complexity</a>"
@@ -2726,7 +2730,7 @@ msgid ""
 "Ubiquitious config.guess and config.sub scripts.  [<a href=\"/software/"
 "config/\">config&nbsp;home</a>]"
 msgstr ""
-"Scripts config.guess et config.sub génériques. [<a href=\"/software/"
+"Scripts config.guess et config.sub polyvalents. [<a href=\"/software/"
 "complexity/\">complexity – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -2750,7 +2754,7 @@ msgid ""
 "Indent C preprocessor directives to reflect nesting and more.  [<a href=\"/"
 "software/cppi/\">cppi&nbsp;home</a>]"
 msgstr ""
-"Indentation des directives de préprocesseur C pour visualiser leur "
+"Indentation des directives de préprocesseur C pour visualiser leur "
 "imbrication, etc. [<a href=\"/software/cppi/\">cppi – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -2778,8 +2782,8 @@ msgid ""
 "GNU software testing framework.  [<a href=\"/software/dejagnu/"
 "\">dejagnu&nbsp;home</a>]"
 msgstr ""
-"Ensemble de méthodes <cite>[framework]</cite> pour tester les logiciels GNU. "
-"[<a href=\"/software/dejagnu/\">dejagnu – accueil</a>]"
+"Ensemble de méthodes pour tester les logiciels GNU. [<a href=\"/software/"
+"dejagnu/\">dejagnu – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/djgpp/\">DJGPP</a>"
@@ -2937,8 +2941,8 @@ msgid ""
 "Create parsers for command line options.  [<a href=\"/software/gengetopt/"
 "\">gengetopt&nbsp;home</a>]"
 msgstr ""
-"Crée des parseurs pour les options de ligne de commande. [<a href=\"/"
-"software/gengetopt/\">gengetopt – accueil</a>]"
+"Crée des analyseurs <cite>[parsers]</cite> pour les options de ligne de "
+"commande. [<a href=\"/software/gengetopt/\">gengetopt – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid ""
@@ -3027,7 +3031,7 @@ msgid ""
 "Reference manual for the C programming language.  [<a href=\"/software/gnu-c-"
 "manual/\">gnu-c-manual&nbsp;home</a>]"
 msgstr ""
-"Manuel de référence pour la programmation en langage C. [<a href=\"/software/"
+"Manuel de référence pour la programmation en langage C. [<a href=\"/software/"
 "gnu-c-manual/\">gnu-c-manual – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -3123,7 +3127,7 @@ msgid ""
 "Perfect hash function generator.  [<a href=\"/software/gperf/\">gperf&nbsp;"
 "home</a>]"
 msgstr ""
-"Génération de fonctions de hachage parfaites. [<a href=\"/software/gperf/"
+"Génération de fonctions de hachage « parfaites ». [<a href=\"/software/gperf/"
 "\">gperf – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -3206,8 +3210,8 @@ msgid ""
 "Guile interface for GTK+ programming for GNOME.  [<a href=\"/software/guile-"
 "gnome/\">guile-gnome&nbsp;home</a>]"
 msgstr ""
-"Interface Guile pour la programmation GTK+ pour GNOME. [<a href=\"/software/"
-"guile-gnome/\">guile-gnome – accueil</a>]"
+"Interface avec Guile pour la programmation GTK+ de GNOME. [<a href=\"/"
+"software/guile-gnome/\">guile-gnome – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/guile-rpc/manual/\">Guile-rpc</a>"
@@ -3387,7 +3391,7 @@ msgid ""
 "Mach 3.0 interface generator for the Hurd.  [<a href=\"/software/mig/"
 "\">mig&nbsp;home</a>]"
 msgstr ""
-"Générateur d'interface Mach 3.0 pour <cite>The Hurd</cite>. [<a href=\"/"
+"Générateur d'interface avec Mach 3.0 pour <cite>The Hurd</cite>. [<a href=\"/"
 "software/mig/\">mig – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -3794,9 +3798,8 @@ msgid ""
 "Platform management, including sensor and power monitoring.  [<a href=\"/"
 "software/freeipmi/\">freeipmi&nbsp;home</a>]"
 msgstr ""
-"Gestion d'une plateforme, y compris la surveillance des capteurs <cite>"
-"[sensors]</cite> et de l'énergie. [<a href=\"/software/freeipmi/\">freeipmi –"
-" accueil</a>]"
+"Gestion d'une plateforme, y compris la surveillance des capteurs et de "
+"l'énergie. [<a href=\"/software/freeipmi/\">freeipmi – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/gleem/doc/\">Gleem</a>"
@@ -4062,7 +4065,7 @@ msgid ""
 "Generic shared library support tools.  [<a href=\"/software/libtool/"
 "\">libtool&nbsp;home</a>]"
 msgstr ""
-"Outils génériques pour la gestion des bibliothèques partagées.[<a href=\"/"
+"Outils génériques pour la gestion des bibliothèques partagées. [<a href=\"/"
 "software/libtool/\">libtool – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -4086,7 +4089,7 @@ msgid ""
 "Library for rasterizing 2-d vector graphics.  [<a href=\"/software/libxmi/"
 "\">libxmi&nbsp;home</a>]"
 msgstr ""
-"Bibliothèque pour la rastérisation d'images vectorielles 2-D. [<a href=\"/"
+"Bibliothèque pour la rastérisation d'images vectorielles 2D. [<a href=\"/"
 "software/libxmi/\">libxmi – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -4138,7 +4141,7 @@ msgid ""
 "C library for arbitrary precision floating-point arithmetic.  [<a href=\"/"
 "software/mpfr/\">mpfr&nbsp;home</a>]"
 msgstr ""
-"Bibliothèque C pour l'arithmétique multiprécision à virgule flottantee. [<a "
+"Bibliothèque C pour l'arithmétique multiprécision à virgule flottante. [<a "
 "href=\"/software/mpfr/\">mpfr – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -4186,7 +4189,7 @@ msgstr "* <a href=\"/software/pth/pth-manual.html\">Pth</a>"
 msgid ""
 "Portable thread library.  [<a href=\"/software/pth/\">pth&nbsp;home</a>]"
 msgstr ""
-"Bibliothèque portable pour les fils d'exécution <cite>[thread]</cite>. [<a "
+"Bibliothèque portable pour les fils d'exécution <cite>[threads]</cite>. [<a "
 "href=\"/software/pth/\">pth – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -4236,7 +4239,7 @@ msgid ""
 "Disk-based associative array B-tree database library.  [<a href=\"/software/"
 "wb/\">wb&nbsp;home</a>]"
 msgstr ""
-"Bibliothèque de gestion de base de données sur disque, basée sur un arbre B "
+"Bibliothèque de gestion de base de données sur disque, basée sur un arbre B "
 "à tableau associatif. [<a href=\"/software/wb/\">wb – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -4317,8 +4320,7 @@ msgstr "* <a href=\"/software/dmd/\">Dmd</a>"
 msgid ""
 "Daemon managing daemons.  [<a href=\"/software/dmd/\">dmd&nbsp;home</a>]"
 msgstr ""
-"Service de gestion de services. [<a href=\"/software/dmd/\">dmd – accueil</"
-"a>]"
+"Démon gérant les démons. [<a href=\"/software/dmd/\">dmd – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/fdisk/\">Fdisk</a>"
@@ -4364,8 +4366,8 @@ msgid ""
 "Install latest official GNU releases from original source.  [<a href=\"/"
 "software/gsrc/\">gsrc&nbsp;home</a>]"
 msgstr ""
-"Installe les dernières versions officielles des logiciels GNU à partir de la "
-"source originale. [<a href=\"/software/gsrc/\">gsrc – accueil</a>]"
+"Installe les dernières versions officielles des logiciels GNU à partir des "
+"sources originales. [<a href=\"/software/gsrc/\">gsrc – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/guix/\">Guix</a>"
@@ -4561,8 +4563,9 @@ msgid ""
 "Implementation of RTP (real-time transport protocol).  [<a href=\"/software/"
 "ccrtp/\">ccrtp&nbsp;home</a>]"
 msgstr ""
-"Implémentation du protocole de transport temps réel <abbr title=\"Real Time "
-"Protocole\">(RTP)</abbr>. [<a href=\"/software/ccrtp/\">ccrtp – accueil</a>]"
+"Implémentation du protocole de transport en temps réel <abbr title=\"Real "
+"Time Protocole\">(RTP)</abbr>. [<a href=\"/software/ccrtp/\">ccrtp –"
+" accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/ccscript/\">ccScript</a>"
@@ -4594,7 +4597,9 @@ msgstr "* <a href=\"/software/halifax/\">HaliFAX</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "Fax support.  [<a href=\"/software/halifax/\">halifax&nbsp;home</a>]"
-msgstr "Gestion du fax. [<a href=\"/software/halifax/\">halifax – accueil</a>]"
+msgstr ""
+"Prise en charge du fax. [<a href=\"/software/halifax/\">halifax – accueil</"
+"a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/sipwitch/\">Sipwitch</a>"
@@ -4671,7 +4676,7 @@ msgid ""
 "Identifies wordy and commonly misused phrases.  [<a href=\"/software/diction/"
 "\">diction&nbsp;home</a>]"
 msgstr ""
-"Identification d'expressions verbeuses et souvent mal utilisées. [<a href=\"/"
+"Identifie des expressions verbeuses et souvent mal utilisées. [<a href=\"/"
 "software/diction/\">diction – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -4817,7 +4822,7 @@ msgid ""
 "software/ocrad/\">ocrad&nbsp;home</a>]"
 msgstr ""
 "Reconnaissance optique de caractères basée sur l'extraction de "
-"caractéristiques [<a href=\"/software/ocrad/\">ocrad – accueil</a>]"
+"caractéristiques. [<a href=\"/software/ocrad/\">ocrad – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/orgadoc/orgadoc.html\">OrgaDoc</a>"
@@ -4850,8 +4855,8 @@ msgstr "* <a href=\"/software/sed/manual/\">Sed</a>"
 #. type: Content of: <table><tr><td>
 msgid "Stream editor.  [<a href=\"/software/sed/\">sed&nbsp;home</a>]"
 msgstr ""
-"Éditeur de flux [NdT : de données textuelles]. [<a href=\"/software/sed/"
-"\">sed – accueil</a>]"
+"Éditeur de flux [de données textuelles]. [<a href=\"/software/sed/\">sed –"
+" accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/spell/\">Spell</a>"
@@ -4977,7 +4982,7 @@ msgid ""
 "File-based version control like SCCS.  [<a href=\"/software/cssc/"
 "\">cssc&nbsp;home</a>]"
 msgstr ""
-"Gestion de versions opérant au niveau du fichier, similaire à SCCS [<a href="
+"Gestion de versions opérant au niveau du fichier, similaire à SCCS. [<a href="
 "\"/software/cssc/\">cssc – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -5001,8 +5006,9 @@ msgid ""
 "Version-control-agnostic ChangeLog diff and commit tool.  [<a href=\"/"
 "software/vc-dwim/\">vc-dwim&nbsp;home</a>]"
 msgstr ""
-"Outil de commit et de génération de changelog par diff, indépendant de la "
-"gestion de versions. [<a href=\"/software/vc-dwim/\">vc-dwim – accueil</a>]"
+"Outil de commit et de génération de changelog par diff, indépendant du "
+"système de gestion de versions. [<a href=\"/software/vc-dwim/\">vc-dwim –"
+" accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid ""
@@ -5065,7 +5071,7 @@ msgid ""
 "Saves comic strips from the web.  [<a href=\"/software/grabcomics/"
 "\">grabcomics&nbsp;home</a>]"
 msgstr ""
-"Sauvegarde des bandes dessinées du web. [<a href=\"/software/grabcomics/"
+"Sauvegarde les bandes dessinées du web. [<a href=\"/software/grabcomics/"
 "\">grabcomics – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
