@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ICT-for-prosperity.html\n"
-"POT-Creation-Date: 2013-02-18 02:55-0500\n"
-"PO-Revision-Date: 2013-11-16 15:20+0100\n"
+"POT-Creation-Date: 2013-11-20 11:26+0000\n"
+"PO-Revision-Date: 2013-11-21 18:16+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -35,12 +35,8 @@ msgstr ""
 "prospérité mondiale"
 
 #. type: Content of: <p>
-msgid ""
-"by <a href=\"http://www.rattlesnake.com/\"><strong>Robert J. Chassell</"
-"strong></a>"
-msgstr ""
-"par <strong><a href=\"http://www.rattlesnake.com/\">Robert J.Chassell</a></"
-"strong>"
+msgid "by <strong>Robert J. Chassell</strong>"
+msgstr "by <strong>Robert J. Chassell</strong>"
 
 #.  <br />
 #. <a href="http://www.globalknowledge.org.my/"> broken link, 1apr11 
@@ -1245,3 +1241,10 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid ""
+#~ "by <a href=\"http://www.rattlesnake.com/\"><strong>Robert J. Chassell</"
+#~ "strong></a>"
+#~ msgstr ""
+#~ "par <strong><a href=\"http://www.rattlesnake.com/\">Robert J.Chassell</"
+#~ "a></strong>"

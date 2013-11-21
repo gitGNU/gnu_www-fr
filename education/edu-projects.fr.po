@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: edu-projects.html\n"
-"POT-Creation-Date: 2013-04-13 06:27+0000\n"
-"PO-Revision-Date: 2013-04-16 21:54+0200\n"
+"POT-Creation-Date: 2013-11-20 12:22+0000\n"
+"PO-Revision-Date: 2013-11-21 18:16+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -96,9 +96,11 @@ msgstr ""
 "Elle a pour objectif de mettre en place un cadre juridique prohibant la "
 "discrimination contre le logiciel libre et ses utilisateurs. »"
 
+#.  <a href="http://guri.hipatia.net/">
+#. GURI</a> 
 #. type: Content of: <dl><dt>
-msgid "<a href=\"http://guri.hipatia.net/\">GURI</a>"
-msgstr "<a href=\"http://guri.hipatia.net/\">GURI</a>"
+msgid "GURI"
+msgstr "GURI"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -154,9 +156,11 @@ msgstr ""
 "des formations destinés à promouvoir une prise de conscience des principes "
 "éthiques du logiciel libre."
 
+#.  <a href="http://hipatia.net/">
+#. Hipatia</a> 
 #. type: Content of: <dl><dt>
-msgid "<a href=\"http://hipatia.net/\">Hipatia</a>"
-msgstr "<a href=\"http://hipatia.net/\">Hipatia</a>"
+msgid "Hipatia"
+msgstr "Hipatia"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -278,6 +282,17 @@ msgstr ""
 "corrections ou suggestions peuvent être signalés à <a href=\"mailto:"
 "webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
 
+#.  TRANSLATORS: Ignore the original text in this paragraph,
+#.         replace it with the translation of these two:
+#.         We work hard and do our best to provide accurate, good quality
+#.         translations.  However, we are not exempt from imperfection.
+#.         Please send your comments and general suggestions in this regard
+#.         to <a href="mailto:web-translators@gnu.org">
+#.         &lt;web-translators@gnu.org&gt;</a>.</p>
+#.         <p>For information on coordinating and submitting translations of
+#.         our web pages, see <a
+#.         href="/server/standards/README.translations.html">Translations
+#.         README</a>. 
 #. type: Content of: <div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
