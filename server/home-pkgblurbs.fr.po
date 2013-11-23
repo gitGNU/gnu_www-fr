@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
 "POT-Creation-Date: 2013-11-19 01:26+0000\n"
-"PO-Revision-Date: 2013-11-19 13:26+0100\n"
+"PO-Revision-Date: 2013-11-24 18:07+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -1665,7 +1665,7 @@ msgstr ""
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gcompris/\">GCompris</a>"
-msgstr "<a href=\"/software/gcompris/\">GCompris</a>"
+msgstr "<a href=\"http://gcompris.net/\">GCompris</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -1681,7 +1681,7 @@ msgstr ""
 "de découverte et d'acquisition de compétences dans l'utilisation de "
 "l'ordinateur, l'algèbre, les sciences, la lecture et plus encore. Elle "
 "propose aussi quelques jeux comme les échecs et le sudoku.  <small>(<a href="
-"\"/manual/manual.html#gcompris\">doc</a>)</small>"
+"\"http://gcompris.net/wiki/Manuel\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gdb/\">GDB</a>"
@@ -1841,8 +1841,8 @@ msgstr ""
 "Ghostscript est un interpréteur pour le langage PostScript et le format de "
 "fichiers PDF. Il possède également une bibliothèque C qui implémente les "
 "fonctionnalités graphiques du langage PostScript. Le résultat peut être "
-"exporté vers un grand nombre de formats de fichiers et d'imprimantes.  "
-"<small>(<a href=\"/manual/manual.html#ghostscript\">doc</a>)</small>"
+"exporté vers un grand nombre d'imprimantes et de formats de fichier.  <small>"
+"(<a href=\"/manual/manual.html#ghostscript\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gift/\">GIFT</a>"
