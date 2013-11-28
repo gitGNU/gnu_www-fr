@@ -182,8 +182,7 @@ rsync -anv --exclude "Attic" \
 # extension.
 sed -i -e '/^www/!d' \
        -e '/\/$/d' \
-       -e 's:,v$::' \
-       -e 's:pot\.opt$:pot:' $TMP1
+       -e 's:,v$::' $TMP1
 
 # Select the POs for the specified language.
 sed -n "/\\.$lang\\.po/p" $TMP1 >> $TMP2
@@ -194,7 +193,8 @@ sed "s:\\.$lang\\.po:\\.pot:" $TMP2 >> $TMP3                   # POTs
 cat $TMP2 >> $TMP3                                             # POs
 
 # Check that all the listed files exist (some POs don't have corresponding
-# POTs and/or HTMLs).
+# POTs and/or HTMLs). The "*.pot.opt" of the original list $TMP1 are grepped
+# by the "*.pot" pattern.
 while read f; do
   grep "$f" $TMP1 >> $TMP4 || true
 done < $TMP3

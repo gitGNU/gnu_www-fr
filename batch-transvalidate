@@ -579,14 +579,14 @@ function transvalidate () {
       create_addendum $po NOTES 'footer.html"' $add_notes
       create_addendum $po CREDITS 'timestamp start' $add_credits
       # The po4a-translate "k" option, "Minimal threshold for translation
-      # percentage to keep (ie, write) the resulting file", is set at 30 to
+      # percentage to keep (ie, write) the resulting file", is set at 0 to
       # allow proofreading of a partial translation or detection of faulty
       # strings (the default is 80).
       po4a-translate -f xhtml -M utf-8 -m $master -p $po -k 30 -L utf-8 \
       -l $article.$lang-local.html -a $add_credits -a $add_notes \
       || interm_exit_code=$?
     else
-      po4a-translate -f xhtml -M utf-8 -m $master -p $po -k 30 -L utf-8 \
+      po4a-translate -f xhtml -M utf-8 -m $master -p $po -k 0 -L utf-8 \
       -l $article.$lang-local.html || interm_exit_code=$?
     fi
 
