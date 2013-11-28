@@ -27,7 +27,7 @@
 # (http://creativecommons.org/publicdomain/zero/1.0/legalcode).
 
 set -e
-mkdir -p $HOME/Bureau/pad && cd $HOME/Bureau/pad
+mkdir -p $HOME/pad && cd $HOME/pad
 
 echo "
  ## pad2po : Conversion d'un pad en fichier PO ##

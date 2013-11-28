@@ -24,7 +24,7 @@
 # (http://creativecommons.org/publicdomain/zero/1.0/legalcode).
 
 set -e
-mkdir -p $HOME/Bureau/pad && cd $HOME/Bureau/pad
+mkdir -p $HOME/pad && cd $HOME/pad
 
 echo "
  ## pot2pad : Préparation d'un fichier POT pour le pad de traduction ##
@@ -49,9 +49,9 @@ TMP3=$(mktemp -t pot2pad.XXXXXX) || exit 1 # POT content -> pad content
 trap 'rm -f "$TMP1" "$TMP2" "$TMP3" "$TMP4"' EXIT
 
 # List the POTs in the working directory.
-  ls *.pot > $TMP1 2>/dev/null || true
+  ls *.pot > TMP1 2>/dev/null || true
 
-if [ ! -s $TMP1 ]; then
+if [ ! -s TMP1 ]; then
   echo "*** Il n'y a pas de pot dans le dossier de travail. Bye."
   exit 1
 fi
@@ -70,7 +70,7 @@ if [ -s $TMP2 ]; then
   done < $TMP2
 fi
 
-if [ ! -s $TMP1 ]; then
+if [ ! -s TMP1 ]; then
   echo "*** Il n'y a pas de nouveau pot dans le dossier de travail. Bye."
   exit 1
 
@@ -93,7 +93,7 @@ else
       mv $TMP3 $name.pad
       echo "=== EnFr-$name.pad a été créé sans en-tête."
     fi
-  done < $TMP1
+  done < TMP1
 fi
 
 exit
