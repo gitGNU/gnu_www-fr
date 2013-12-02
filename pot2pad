@@ -1,99 +1,176 @@
 #!/bin/bash
 
-# PAD to PO converter
+# NAME
+#    pot2pad - POT to PAD converter
 
+# SYNOPSIS
+#    pot2pad [/path/to/NAME.pot]
 
-# Overview:
-# This script removes some of the features of a POT file to make it suitable
-# for the translation pad.
+# DESCRIPTION
+#    This script removes some of the features of a POT file to make it
+#    suitable for the translation pad. It is somewhat interactive and can
+#    be launched from the application and contextual menus of GNOME or KDE.
 
-# Requirements:
-# - The working directory should contain the POT file (NAME.pot) and
-#   (optionally) pad-header-fr.
-# - The name of the pad should start with "EnFr-" (assuming translation from
-#   English to French).
+# REQUIREMENTS
+#    * The working directory (wdir) is $HOME/pad. This can be changed by
+#      modifying one line in the script.
+#    * If a pad header is used, it must be in the working directory. Its
+#      name should be "pad-header-gnu".
 
-# How-to:
-# - Launch the script or run it from a terminal.
-# - To convert the same NAME.pot again, the corresponding .pad file needs
-#   to be removed from the working directory.
+# OPTIONS
+#    None yet.
+
+# OUTPUT, WARNINGS and ERRORS
+#    NAME.pad is created in the working directory. This is a plain text
+#    file which can be copied directly to the pad page.
+#    The exit code is 1 if the input file does not have the .pot extension
+#    or is empty, 0 otherwise.
+
+# HOW-TO for GNOME and KDE
+#    The POT file to be converted can be anywhere in the filetree, but
+#    preferably at the proper place in the www directory.
+
+#    1. [optional] Edit pad-header-gnu or remove it.
+
+#    2. Launch the script from the contextual menu of the file to be pro‐
+#       cessed (Nautilus or Konqueror; application POT2PAD). NAME.pad is
+#       created in the working directory.
+
+#       Note on file associations:
+
+#       In Konqueror, you may edit the preferred applications for opening
+#       POT files from the menubar: Edit > Edit File Type...
+
+#       In Nautilus, this is done from the contextual menu. If the
+#       launcher is not listed, you will have to edit
+#       ~/.local/share/applications/mimeapps.list. For instance:
+#          [Added Associations]
+#          [...]
+#          text/pot=pot2pad.desktop
+#          [...]
+
+#    2a. Alternatively, use the POT2PAD launcher from the application menu
+#       (the default category is "Other" in GNOME, "Lost and Found" in KDE).
+#       At the prompt,
+#       - drag and drop the file into the GNOME Terminal,
+#       - or drag and drop the file into the Konsole, then choose "Paste
+#         as text".
+
+#    3. Copy NAME.pad to the pad page.
+
+# AUTHOR
+#    Therese <godef.th@free.fr>
 
 # Copyright (C) 2013 Whoever.
 # You may redistribute this script and/or modify it under the terms of the
 # Creative Commons CC0 license
 # (http://creativecommons.org/publicdomain/zero/1.0/legalcode).
 
+
+wdir=$HOME/pad
+
 set -e
-mkdir -p $HOME/pad && cd $HOME/pad
+mkdir -p $wdir
 
-echo "
- ## pot2pad : Préparation d'un fichier POT pour le pad de traduction ##
-"
-
-# Check for the presence of the pad header.
-if [ ! -f pad-header-fr ]; then
-  echo "*** Il n'y a pas d'en-tête pad dans le dossier de travail.
-    Voulez-vous créer un pad sans en-tête ?
-    \"Oui\" = [Entrée]   \"Non\" = autre touche"
-  read -s -n1 OK
-  if [ -n "$OK" ]; then
-    echo "*** Bye"
-    exit 1
-  fi
-fi
-
-# Create temporary files.
-TMP1=$(mktemp -t pot2pad.XXXXXX) || exit 1 # POT list, pruned
-TMP2=$(mktemp -t pot2pad.XXXXXX) || exit 1 # List of untranslated pads
-TMP3=$(mktemp -t pot2pad.XXXXXX) || exit 1 # POT content -> pad content
-trap 'rm -f "$TMP1" "$TMP2" "$TMP3" "$TMP4"' EXIT
-
-# List the POTs in the working directory.
-  ls *.pot > TMP1 2>/dev/null || true
-
-if [ ! -s TMP1 ]; then
-  echo "*** Il n'y a pas de pot dans le dossier de travail. Bye."
-  exit 1
+if [ -f /usr/bin/kwrite ]; then
+  editor=kwrite
+elif [ -f /usr/bin/gedit ]; then
+  editor=gedit
+else
+  editor=vi
 fi
 
 
-# List the pads.
-ls *.pad > $TMP2 2>/dev/null || true
+echo -e "\n ## Préparation d'une page HTML pour le pad de traduction ##\n"
 
+## File input
 
-# Remove POT files from the list if they are already converted to pad.
-if [ -s $TMP2 ]; then
-  while read pad; do
-    name1=${pad%.pad}
-    name=${name1:5}
-    sed -i "/$name/d" $TMP1
-  done < $TMP2
+  # 1. via the Nautilus script (new_pot is already set)
+
+  # 2. via the application launcher of the contextual menu or the command line,
+input=$1
+if [ -z "$new_pot" ]; then
+  new_pot=$input
+fi
+if [ -n "$new_pot" ]; then
+  echo "*** Fichier HTML à convertir : $new_pot"
+else
+
+  # 3. via the application menu (drag-and-drop the file or enter it directly).
+  echo "*** Quel est le fichier HTML à convertir ?"
+  read new_pot
 fi
 
-if [ ! -s TMP1 ]; then
-  echo "*** Il n'y a pas de nouveau pot dans le dossier de travail. Bye."
-  exit 1
+# Clean up the input to get the full path, and extract the name of the
+# document.
+path=${new_pot//\'/}
+file=${path##*/}
+name=${file%.pot}
+
+# Get the URL of the original page (assuming the POT is in the www directory).
+# Pure laziness: that saves writing it on top of the pad. If there is no
+# /www/ in the path, the URL will be wrong. No big deal.
+pot_url="http://www.gnu.org/${path/*\/www\//}"
+url1=${pot_url/\/po\//\/}
+url=${url1%.pot}
+
+# Check for non-zero content and .pot extension.
+if [ "$name" != "$file" -a -n "$path" ]; then
+
+  # Create temporary files (same numbers as in html2pad).
+  TMP3=$(mktemp -t pot2pad.XXXXXX) || exit 1 # POT content -> pad content
+  TMP4=$(mktemp -t pot2pad.XXXXXX) || exit 1 # Interm. in link processing
+  TMP5=$(mktemp -t pot2pad.XXXXXX) || exit 1 # Interm. in link processing
+  trap 'rm -f "$TMP3" "$TMP4" "$TMP5"' EXIT
+
+## Convert the POT
+
+  # Select contents (starting at <h2>).
+  sed '1,/"Content-Transfer-Encoding:/d' ${path} > $TMP3
+  sed -i '/#. TRANSLATORS: Use space (SPC)/,$d' $TMP3
+
+  # Unformat.
+  sed -i ':egin /^msgid/ {N; s,"\n",,; begin}' $TMP3
+  sed -i -e 's,^msg\(id\|str\) ",,' \
+         -e 's,"$,,' $TMP3
+
+  # Label the links.
+  awk 'BEGIN {RS=ORS="</a>"}
+      {gsub ( /href=/, "href={"NR"}<lnk no."NR">", $0 ); print}
+      END {RS=ORS="\n"}' $TMP3 > $TMP4
+  # Remove an extra </a> that was added by awk.
+  sed -i 's,^</a>$,,' $TMP4
+
+  # Delete the links from the text.
+  sed -e 's,<lnk no.[0-9]\+>[^>]*>,>,g' $TMP4 > $TMP3
+
+  # Extract the links and add them after the text.
+  sed -e 's,\(<lnk no.[0-9]\+>[^>]*\)>,\1\n,g' $TMP4 > $TMP5
+  sed -i 's,<lnk,\n<lnk,g' $TMP5
+  sed -n '/^<lnk/p'  $TMP5 >> $TMP3
+
+  # Remove the escaped double quotes.
+  sed -i 's,\\",,g' $TMP3
+
+  # Split after the link labels and add 2 blank lines after each link.
+  sed -i 's,^\(<lnk no.[0-9]\+>\),\n\n\1\n,' $TMP3
+
+  # Optionally add a header.
+  echo "Nom du pad : FrEn-$name" > $wdir/FrEn-$name.pad
+  echo "Traduction en français de $url" >> $wdir/FrEn-$name.pad
+  cat $wdir/pad-header-gnu $TMP3 >> $wdir/FrEn-$name.pad
+
+  # Add a blank line at the end (in case there are links).
+  echo "" >> $wdir/FrEn-$name.pad
+
+  # Display the pad.
+  $editor $wdir/FrEn-$name.pad
 
 else
-  while read new_pot; do
-    name=${new_pot%.pot}
-
-    # Select POT contents (starting at <h2>).
-    sed '1,/"Content-Transfer-Encoding:/d' $name.pot > $TMP3
-    sed -i '/#. TRANSLATORS: Use space (SPC)/,$d' $TMP3
-    # Unformat it.
-    sed -i ':egin /^msgid/ {N; s,"\n",,; begin}' $TMP3
-    sed -i -e 's,^msg\(id\|str\) ",,' \
-           -e 's,"$,,' $TMP3
-    # Add the information for translators, if any.
-    if [ -f pad-header-fr ] && [ -n pad-header-fr ]; then
-      cat pad-header-fr $TMP3 > EnFr-$name.pad
-      echo "=== EnFr-$name.pad a été créé."
-    else
-      mv $TMP3 $name.pad
-      echo "=== EnFr-$name.pad a été créé sans en-tête."
-    fi
-  done < TMP1
+  echo "*** Ce n'est pas un fichier POT."
+  echo "    Valider pour fermer le terminal."
+  read
+  exit 1
 fi
 
-exit
+exit 0
