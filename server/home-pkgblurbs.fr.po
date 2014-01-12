@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
-"POT-Creation-Date: 2014-01-06 17:56+0000\n"
-"PO-Revision-Date: 2014-01-10 09:39+0100\n"
+"POT-Creation-Date: 2014-01-10 22:56+0000\n"
+"PO-Revision-Date: 2014-01-12 11:39+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -4519,6 +4519,20 @@ msgstr ""
 "manual/manual.html#mpfr\">doc</a>)"
 
 #. type: Content of: <h4>
+msgid "<a href=\"/software/mpria/\">Mpria</a>"
+msgstr "<a href=\"/software/mpria/\">Mpria</a>"
+
+#. type: Content of: <p>
+msgid ""
+"GNU MPRIA is a C library for performing rational arithmetic computations "
+"with arbitrarily high precision.  It builds on the GMP library.  <small>(<a "
+"href=\"/manual/manual.html#mpria\">doc</a>)</small>"
+msgstr ""
+"GNU MPRIA est une bibliothèque C pour effectuer des calculs arithmétiques "
+"multiprécision sur les nombres rationnels. Elle est basée sur la "
+"bibliothèque GMP.  (<a href=\"/manual/manual.html#mpria\">doc</a>)"
+
+#. type: Content of: <h4>
 msgid "<a href=\"/software/mtools/\">Mtools</a>"
 msgstr "<a href=\"/software/mtools/\">Mtools</a>"
 
@@ -5186,12 +5200,16 @@ msgstr "<a href=\"/software/rpge/\">Rpge</a>"
 
 #. type: Content of: <p>
 msgid ""
-"GNU RPGE is a game engine for two-dimensional graphical role-playing games, "
-"with support for a tile grid, sprite rendering, etc.  <small>(<a href=\"/"
+"The GNU Role Playing Game Engine provides an engine for creating two-"
+"dimensional, graphical role-playing games, providing, for example, a sprite-"
+"tiling grid, sprite rendering, and event handling.  <small>(<a href=\"/"
 "manual/manual.html#rpge\">doc</a>)</small>"
 msgstr ""
-"GNU RPGE est un moteur de jeu de rôle en deux dimensions qui gère le damier, "
-"le rendu des sprites, etc.  (<a href=\"/manual/manual.html#mpc\">doc</a>)"
+"Le moteur de jeu de rôle de GNU <abbr title=\"Role Playing Game Engine"
+"\">Rpge</abbr> permet de créer des jeux de rôle en deux dimensions et "
+"propose, par exemple, une grille de pavage des éléments graphiques animés, "
+"le rendu de ces éléments et la gestion des événements.  (<a href=\"/manual/"
+"manual.html#rpge\">doc</a>)"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/rush/\">Rush</a>"
