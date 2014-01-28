@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: help-hardware.html\n"
 "POT-Creation-Date: 2013-07-29 10:55+0000\n"
-"PO-Revision-Date: 2014-01-27 22:42+0100\n"
+"PO-Revision-Date: 2014-01-29 12:25+0100\n"
 "Last-Translator: Romain GUERZEDER <romain.guerzeder@wanadoo.fr>\n"
 "Language-Team: français <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -54,16 +54,14 @@ msgstr "Des ordinateurs portables de moins de 3 ans."
 
 #. type: Content of: <ul><li>
 msgid "10/100 or gigabit managed ethernet switches."
-msgstr ""
-"Des commutateurs éthernet administrables <cite>[managed ethernet switches]</"
-"cite> de 10/100 ou 1 gigabit."
+msgstr "Des commutateurs administrables en 10/100 ou gigabit Ethernet."
 
 #. type: Content of: <ul><li>
 msgid ""
 "Three-year-old or newer Postscript printers, and printers that work with <a "
 "href=\"/software/ghostscript/\">GNU Ghostscript</a>."
 msgstr ""
-"Des imprimantes Postscript de moins de 3 ans, et des imprimantes qui "
+"Des imprimantes Postscript de moins de 3 ans, et des imprimantes qui "
 "fonctionnent avec <a href=\"/software/ghostscript/\">GNU Ghostscript</a>."
 
 #. type: Content of: <ul><li>
@@ -73,7 +71,7 @@ msgstr "Des alimentations sans coupure avec de bonnes batteries."
 #. type: Content of: <ul><li>
 msgid "A T1 router and CSU/DSU."
 msgstr ""
-"Un routeur T1 et un <abbr title=\"Channel Service Unit/Data Service Unit"
+"Un routeur T1 avec <abbr title=\"Channel Service Unit/Data Service Unit"
 "\">CSU/DSU</abbr>."
 
 #. type: Content of: <p>
@@ -93,8 +91,8 @@ msgid ""
 "Additional internet connectivity for our Boston office (it must support the "
 "BGP4 protocol)."
 msgstr ""
-"De la connectivité Internet supplémentaire pour notre bureau de Boston "
-"(prise en charge du protocole BGP4 requise)."
+"De la capacité supplémentaire de connexion Internet pour notre bureau de "
+"Boston (prise en charge du protocole BGP4 requise)."
 
 #. type: Content of: <p>
 msgid "You can also help the GNU Project in <a href=\"/help/\">other ways</a>."
