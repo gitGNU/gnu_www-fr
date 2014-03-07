@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
-"POT-Creation-Date: 2014-02-09 18:57+0000\n"
-"PO-Revision-Date: 2014-02-10 10:50+0100\n"
+"POT-Creation-Date: 2014-03-07 03:57+0000\n"
+"PO-Revision-Date: 2014-03-07 12:35+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -19,6 +19,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Gtranslator 2.91.5\n"
 "Plural-Forms: \n"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for 3dldf"
+msgstr "logo de 3dldf"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/3dldf/\">3DLDF</a>"
@@ -280,6 +284,10 @@ msgstr ""
 "dernier. Ces macros sont des logiciels libres, contributions de la "
 "communauté.  (<a href=\"/manual/manual.html#autoconf-archive\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for autogen"
+msgstr "logo d'autogen"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/autogen/\">Autogen</a>"
 msgstr "<a href=\"/software/autogen/\">Autogen</a>"
@@ -418,6 +426,10 @@ msgstr ""
 "\"Session Initiation Protocol\">SIP</abbr>.  (<a href=\"/manual/manual."
 "html#bayonne\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for bazaar"
+msgstr "logo de bazaar"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bazaar/\">Bazaar</a>"
 msgstr "<a href=\"/software/bazaar/\">Bazaar</a>"
@@ -533,6 +545,10 @@ msgstr ""
 "avec fiabilité des fichiers HTML.  (<a href=\"/manual/manual.html#bool"
 "\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for bpel2owfn"
+msgstr "logo de bpel2owfn"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bpel2owfn/\">BPEL2oWFN</a>"
 msgstr "<a href=\"/software/bpel2owfn/\">BPEL2oWFN</a>"
@@ -557,6 +573,10 @@ msgstr ""
 "du contrôle et du flux des données, ainsi que les vérifications de base "
 "concernant les blocages et autres propriétés similaires.  (<a href=\"/manual/"
 "manual.html#bpel2owfn\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for c-graph"
+msgstr "logo de c-graph"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/c-graph/\">C-graph</a>"
@@ -692,6 +712,10 @@ msgstr ""
 "majeur pour Emacs permettant d'examiner les graphiques qu'il produit.  (<a "
 "href=\"/manual/manual.html#cflow\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for cgicc"
+msgstr "logo de cgicc"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/cgicc/\">Cgicc</a>"
 msgstr "<a href=\"/software/cgicc/\">Cgicc</a>"
@@ -759,6 +783,10 @@ msgstr ""
 "importante des spécifications d l'<abbr title=\"Application Programming "
 "Interface\">API</abbr> de ce langage et offre un large éventail de "
 "fonctionnalités.  (<a href=\"/manual/manual.html#classpath\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for clisp"
+msgstr "logo de clisp"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/clisp/\">CLISP</a>"
@@ -976,6 +1004,10 @@ msgid ""
 msgstr ""
 "Voir <a href=\"#bc\">bc</a>.  (<a href=\"/manual/manual.html#dc\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for ddd"
+msgstr "logo de ddd"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ddd/\">DDD</a>"
 msgstr "<a href=\"/software/ddd/\">DDD</a>"
@@ -1014,6 +1046,10 @@ msgstr ""
 "récupérer les données plus efficacement en lisant simplement les blocs "
 "requis.  (<a href=\"/manual/manual.html#ddrescue\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for dejagnu"
+msgstr "logo de dejagnu"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/dejagnu/\">DejaGnu</a>"
 msgstr "<a href=\"/software/dejagnu/\">DejaGnu</a>"
@@ -1029,6 +1065,10 @@ msgstr ""
 "en fait d'interface à tous les tests écrits pour un programme. Ainsi, chaque "
 "programme peut avoir plusieurs séries de tests, qui sont ensuite gérés "
 "globalement.  (<a href=\"/manual/manual.html#dejagnu\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for denemo"
+msgstr "logo de denemo"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/denemo/\">Denemo</a>"
@@ -1051,6 +1091,10 @@ msgstr ""
 "notation musicale de qualité publiable qui est produite de manière continue "
 "en arrière-plan pendant que vous travaillez.  (<a href=\"/manual/manual."
 "html#denemo\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for dia"
+msgstr "logo de dia"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/dia/\">Dia</a>"
@@ -1249,6 +1293,10 @@ msgstr ""
 "construction des classes EDMA, ainsi qu'un navigateur graphique de classes, "
 "<tt>gecb</tt>. (<a href=\"/manual/manual.html#edma\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for electric"
+msgstr "logo d'electric"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/electric/\">Electric</a>"
 msgstr "<a href=\"/software/electric/\">Electric</a>"
@@ -1319,12 +1367,14 @@ msgstr ""
 "projets comprenant plusieurs documents, et les fusionne en respectant le "
 "format de sortie.  (<a href=\"/manual/manual.html#emacs-muse\">doc</a>)"
 
-#.  TRANSLATORS: stale 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for emms"
+msgstr "logo d'emms"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/emms/\">EMMS</a>"
 msgstr "<a href=\"/software/emms/\">EMMS</a>"
 
-#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "EMMS is the Emacs Multimedia System.  It is a small front-end which can "
@@ -1372,6 +1422,10 @@ msgstr ""
 "disque, fdisk. Fdisk permet de créer et manipuler les tables de partition et "
 "gère un grand nombre de formats différents. (<a href=\"/manual/manual."
 "html#fdisk\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for ferret"
+msgstr "logo de ferret"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ferret/\">Ferret</a>"
@@ -1496,6 +1550,10 @@ msgstr ""
 "OpenType. Ces polices ont une vaste palette de caractères pour de nombreux "
 "systèmes d'écriture, et une excellente couverture de la notation "
 "mathématique.  (<a href=\"/manual/manual.html#freefont\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for freeipmi"
+msgstr "logo de freeipmi"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/freeipmi/\">FreeIPMI</a>"
@@ -1642,6 +1700,10 @@ msgstr ""
 "d'autres formats de calendriers : julien, grégorien, islamique, chinois et "
 "autres.  (<a href=\"/manual/manual.html#gcal\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gcc"
+msgstr "logo de gcc"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gcc/\">GCC</a>"
 msgstr "<a href=\"/software/gcc/\">GCC</a>"
@@ -1711,6 +1773,10 @@ msgstr ""
 "l'ordinateur, l'algèbre, les sciences, la lecture et plus encore. Elle "
 "propose aussi quelques jeux comme les échecs et le sudoku.  (<a href="
 "\"http://gcompris.net/wiki/Manuel\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gdb"
+msgstr "logo de gdb"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gdb/\">GDB</a>"
@@ -1819,7 +1885,10 @@ msgstr ""
 "paquets GNU utilisent Gettext.  (<a href=\"/manual/manual.html#gettext"
 "\">doc</a>)"
 
-#.  TRANSLATORS: stale 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gforth"
+msgstr "logo de gforth"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gforth/\">Gforth</a>"
 msgstr "<a href=\"/software/gforth/\">Gforth</a>"
@@ -1854,6 +1923,10 @@ msgstr ""
 "échelles numériques américaine (A, B, C, D, F) et européennes.  (<a href=\"/"
 "manual/manual.html#ggradebook\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for ghostscript"
+msgstr "logo de ghostscript"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/ghostscript/\">GNU Ghostscript</a>"
 msgstr "<a href=\"/software/ghostscript/\">GNU Ghostscript</a>"
@@ -1871,6 +1944,10 @@ msgstr ""
 "fonctionnalités graphiques du langage PostScript. Le résultat peut être "
 "exporté vers un grand nombre d'imprimantes et de formats de fichier.  (<a "
 "href=\"/manual/manual.html#ghostscript\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gift"
+msgstr "logo de gift"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gift/\">GIFT</a>"
@@ -1891,6 +1968,10 @@ msgstr ""
 "permettant de rechercher par l'exemple. Un outil d'indexation "
 "d'arborescences complètes est également inclus. (<a href=\"/manual/manual."
 "html#gift\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gimp"
+msgstr "logo de gimp"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gimp/\">GIMP</a>"
@@ -1940,6 +2021,10 @@ msgid ""
 msgstr ""
 "Voir <a href=\"#gnome\">gnome</a>.  (<a href=\"/manual/manual.html#glib"
 "\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for global"
+msgstr "logo de global"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/global/\">Global</a>"
@@ -2001,6 +2086,10 @@ msgstr ""
 "ligne de commande qui tourne en arrière-plan.  (<a href=\"/manual/manual."
 "html#gmediaserver\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gmp"
+msgstr "logo de gmp"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gmp/\">GMP</a>"
 msgstr "<a href=\"/software/gmp/\">GMP</a>"
@@ -2021,6 +2110,10 @@ msgstr ""
 "à la vitesse d'exécution. Elle est conçue pour être utilisée, par exemple, "
 "en cryptographie ou en algorithmique. (<a href=\"/manual/manual.html#gmp"
 "\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gnash"
+msgstr "logo de gnash"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnash/\">Gnash</a>"
@@ -2050,6 +2143,10 @@ msgid ""
 msgstr ""
 "Voir <a href=\"#gcc\">gcc</a>.  (<a href=\"/manual/manual.html#gnat\">doc</"
 "a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gnats"
+msgstr "logo de gnats"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnats/\">GNATS</a>"
@@ -2085,6 +2182,10 @@ msgid ""
 msgstr ""
 "Voir <a href=\"#gnats\">gnats</a>. Ce paquet est à la recherche d'un "
 "mainteneur.  (<a href=\"/manual/manual.html#gnatsweb\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gnome"
+msgstr "logo de gnome"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnome/\">GNOME</a>"
@@ -2177,7 +2278,10 @@ msgstr ""
 "elle se distingue par un représentation 3D attrayante du tablier.  (<a href="
 "\"/manual/manual.html#gnubatch\">doc</a>)"
 
-#.  TRANSLATORS: stale 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gnubiff"
+msgstr "logo de gnubiff"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnubiff/\">GNUbiff</a>"
 msgstr "<a href=\"/software/gnubiff/\">GNUbiff</a>"
@@ -2239,6 +2343,10 @@ msgstr ""
 "en mode mixte [analogue et numérique].  (<a href=\"/manual/manual.html#gnucap"
 "\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gnucash"
+msgstr "logo de gnucash"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnucash/\">GnuCash</a>"
 msgstr "<a href=\"/software/gnucash/\">GnuCash</a>"
@@ -2292,7 +2400,10 @@ msgstr ""
 "système de navigation et de menu ainsi qu'un système de <cite>reporting</"
 "cite> (compte-rendu). (<a href=\"/manual/manual.html#gnue\">doc</a>)"
 
-#.  TRANSLATORS: stale 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gnugo"
+msgstr "logo de gnugo"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnugo/\">GNUgo</a>"
 msgstr "<a href=\"/software/gnugo/\">GNUgo</a>"
@@ -2341,6 +2452,10 @@ msgstr ""
 "pour décompresser n'importe quel type d'archive. On peut améliorer tous ces "
 "outils et leur faire effectuer de nouvelles commandes au moyen de leurs "
 "fichiers de configuration.  (<a href=\"/manual/manual.html#gnuit\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gnujump"
+msgstr "logo de gnujump"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnujump/\">GNUjump</a>"
@@ -2435,6 +2550,10 @@ msgstr ""
 "statistique et l'ingénierie des télécommunications. (<a href=\"/manual/"
 "manual.html#gnumeric\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gnump3d"
+msgstr "logo de gnump3d"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnump3d/\">GNUmp3d</a>"
 msgstr "<a href=\"/software/gnump3d/\">GNUmp3d</a>"
@@ -2500,6 +2619,10 @@ msgstr ""
 "infrastructure décentralisée de clé publique respectant la vie privée.  (<a "
 "href=\"/manual/manual.html#gnunet\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gnupg"
+msgstr "logo de gnupg"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnupg/\">GnuPG</a>"
 msgstr "<a href=\"/software/gnupg/\">GnuPG</a>"
@@ -2559,6 +2682,10 @@ msgstr ""
 "que bibliothèque Java (gnu.prolog). Elle vous permet d'utiliser Prolog à "
 "partir de programmes en Java.  (<a href=\"/manual/manual.html#gnuprologjava"
 "\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gnuradio"
+msgstr "logo de gnuradio"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnuradio/\">Radio</a>"
@@ -2681,6 +2808,10 @@ msgstr ""
 "imprimantes de n'importe quel autre. Il dispose de plusieurs interfaces "
 "utilisateur.  (<a href=\"/manual/manual.html#gnuspool\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gnustep"
+msgstr "logo de gnustep"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnustep/\">GNUstep</a>"
 msgstr "<a href=\"/software/gnustep/\">GNUstep</a>"
@@ -2697,6 +2828,10 @@ msgstr ""
 "compatible avec les <abbr title=\"Application Programming Interface\">API</"
 "abbr> Cocoa mais est indépendant de la plateforme.  (<a href=\"/manual/"
 "manual.html#gnustep\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gnutls"
+msgstr "logo de gnutls"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gnutls/\">GnuTLS</a>"
@@ -2769,6 +2904,10 @@ msgstr ""
 "les positionnant dans l'espace tridimensionnel, et aussi de visualiser la "
 "propagation de la lumière à travers le système.  (<a href=\"/manual/manual."
 "html#goptical\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gorm"
+msgstr "logo de gorm"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gorm/\">Gorm</a>"
@@ -2906,6 +3045,10 @@ msgstr ""
 "pour la recherche récursive dans les répertoires.  (<a href=\"/manual/manual."
 "html#grep\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gretl"
+msgstr "logo de gretl"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gretl/\">Gretl</a>"
 msgstr "<a href=\"/software/gretl/\">Gretl</a>"
@@ -2931,6 +3074,10 @@ msgstr ""
 "script puissant. Il peut produire des modèles sous forme de fichiers LaTeX. "
 "On peut aussi le lier à GNU R et GNU Octave pour une analyse plus poussées "
 "des données.  (<a href=\"/manual/manual.html#gretl\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for groff"
+msgstr "logo de groff"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/groff/\">Groff</a>"
@@ -3078,7 +3225,10 @@ msgstr ""
 "connaître les mécanismes sous-jacents implémentant la sécurité.  (<a href=\"/"
 "manual/manual.html#gss\">doc</a>)"
 
-#.  TRANSLATORS: stale 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for gtick"
+msgstr "logo de gtick"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gtick/\">GTick</a>"
 msgstr "<a href=\"/software/gtick/\">GTick</a>"
@@ -3130,6 +3280,10 @@ msgstr ""
 "didacticiels sont essentiellement en anglais, bien que certains existent "
 "également en d'autres langues.  (<a href=\"/manual/manual.html#gtypist"
 "\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for guile"
+msgstr "logo de guile"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/guile/\">Guile</a>"
@@ -3214,6 +3368,10 @@ msgstr ""
 "un accès facile aux données provenant de périphériques graphiques ou audio, "
 "ou saisies par l'utilisateur (claviers, joysticks, souris, etc.)  (<a href="
 "\"/manual/manual.html#guile-sdl\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for guix"
+msgstr "logo de guix"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/guix/\">Guix</a>"
@@ -3412,7 +3570,10 @@ msgstr ""
 "ceux qui sont destinés à l'importation dans les documents TeX.  (<a href=\"/"
 "manual/manual.html#hp2xx\">doc</a>)"
 
-#.  TRANSLATORS: stale 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for httptunnel"
+msgstr "logo de httptunnel"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/httptunnel/\">Httptunnel</a>"
 msgstr "<a href=\"/software/httptunnel/\">Httptunnel</a>"
@@ -3430,6 +3591,10 @@ msgstr ""
 "pare-feu d'envoyer et recevoir des données qui autrement seraient bloquées, "
 "par exemple pour se connecter en telnet ou ssh.  (<a href=\"/manual/manual."
 "html#httptunnel\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for hurd"
+msgstr "logo de hurd"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/hurd/\">Hurd</a>"
@@ -3469,6 +3634,10 @@ msgstr ""
 "Emacs. Il offre la possibilité d'intégrer l'hypertexte aux documents, aux "
 "courriels et aux articles de news. Ceci permet de contrôler avec la souris "
 "l'information affichée.  (<a href=\"/manual/manual.html#hyperbole\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for icecat"
+msgstr "logo d'icecat"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/icecat/\">Icecat</a>"
@@ -3587,6 +3756,10 @@ msgstr ""
 "Chinese, Japanese, Korean, Ethiopic</cite> et autres.  (<a href=\"/manual/"
 "manual.html#intlfonts\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for jacal"
+msgstr "logo de jacal"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/jacal/\">JACAL</a>"
 msgstr "<a href=\"/software/jacal/\">JACAL</a>"
@@ -3658,6 +3831,10 @@ msgstr ""
 "le cas contraire, il peut, de manière optionnelle, rediriger la recherche "
 "vers un autre serveur. Ce paquet est à la recherche d'un mainteneur.  (<a "
 "href=\"/manual/manual.html#jwhois\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for kawa"
+msgstr "logo de kawa"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/kawa/\">Kawa</a>"
@@ -3762,6 +3939,10 @@ msgstr ""
 "comprend pycdio, une interface Python vers libcdio, et libcdio-paranoia, une "
 "bibliothèque qui permet l'extraction audio d'un CD sans fluctuation du "
 "signal (gigue) ni erreur.  (<a href=\"/manual/manual.html#libcdio\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for libextractor"
+msgstr "logo de libextractor"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/libextractor/\">Libextractor</a>"
@@ -3885,6 +4066,10 @@ msgstr ""
 "<cite>digest</cite>, et prend en charge les protocoles SSL3 et TLS.  (<a "
 "href=\"/manual/manual.html#libmicrohttpd\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for librejs"
+msgstr "logo de librejs"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/librejs/\">Librejs</a>"
 msgstr "<a href=\"/software/librejs/\">Librejs</a>"
@@ -3939,6 +4124,10 @@ msgstr ""
 "<cite>[data objects]</cite> codés de manière indépendante de la machine, ce "
 "qui permet de valider formellement les données selon une norme.  (<a href=\"/"
 "manual/manual.html#libtasn1\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for libtool"
+msgstr "logo de libtool"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/libtool/\">Libtool</a>"
@@ -4169,6 +4358,10 @@ msgstr ""
 "autre fournisseur, ou plus généralement parmi les adresses MAC de la même "
 "catégorie de matériel.  (<a href=\"/manual/manual.html#macchanger\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for mailman"
+msgstr "logo de mailman"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/mailman/\">Mailman</a>"
 msgstr "<a href=\"/software/mailman/\">Mailman</a>"
@@ -4294,6 +4487,10 @@ msgstr ""
 "éditeur de texte puissant pour ouvrir les fichiers texte.  (<a href=\"/"
 "manual/manual.html#mc\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for mcron"
+msgstr "logo de mcron"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/mcron/\">Mcron</a>"
 msgstr "<a href=\"/software/mcron/\">Mcron</a>"
@@ -4353,6 +4550,10 @@ msgstr ""
 "virtuelle, une interface graphique, et plus encore.  (<a href=\"/manual/"
 "manual.html#mdk\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for mediagoblin"
+msgstr "logo de mediagoblin"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/mediagoblin/\">Mediagoblin</a>"
 msgstr "<a href=\"/software/mediagoblin/\">Mediagoblin</a>"
@@ -4369,12 +4570,14 @@ msgstr ""
 "centralisés. Elle prend en charge les images, les vidéos et l'audio.  (<a "
 "href=\"/manual/manual.html#mediagoblin\">doc</a>)"
 
-#.  TRANSLATORS: stale 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for melting"
+msgstr "logo de melting"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/melting/\">Melting</a>"
 msgstr "<a href=\"/software/melting/\">Melting</a>"
 
-#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU MELTING computes the enthalpy, entropy and melting temperature of helix-"
@@ -4453,6 +4656,10 @@ msgstr ""
 "caractères ASCII, une liste des codes d'aéroports, et une liste des mots "
 "anglais.  (<a href=\"/manual/manual.html#miscfiles\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for mit-scheme"
+msgstr "logo de mit-scheme"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/mit-scheme/\">MIT/GNU Scheme</a>"
 msgstr "<a href=\"/software/mit-scheme/\">MIT/GNU Scheme</a>"
@@ -4525,6 +4732,10 @@ msgstr ""
 "l'utilisateur, et arrondit correctement le résultat.  (<a href=\"/manual/"
 "manual.html#mpc\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for mpfr"
+msgstr "logo de mpfr"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/mpfr/\">Mpfr</a>"
 msgstr "<a href=\"/software/mpfr/\">Mpfr</a>"
@@ -4572,6 +4783,10 @@ msgstr ""
 "comme par exemple les étiquettes de volumes et les attributs spécifiques des "
 "fichiers.  (<a href=\"/manual/manual.html#mtools\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for myserver"
+msgstr "logo de myserver"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/myserver/\">Myserver</a>"
 msgstr "<a href=\"/software/myserver/\">Myserver</a>"
@@ -4606,6 +4821,10 @@ msgstr ""
 "en C ou générées par des commandes du débogueur. Les fonctionnalités de "
 "vérification et de connexion peuvent être désactivées à la compilation ou à "
 "l'exécution.  (<a href=\"/manual/manual.html#nana\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for nano"
+msgstr "logo de nano"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/nano/\">Nano</a>"
@@ -4679,6 +4898,10 @@ msgstr ""
 "texte en format 8-bit ou UTF-8.  (<a href=\"/manual/manual.html#ocrad\">doc</"
 "a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for octave"
+msgstr "logo d'octave"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/octave/\">Octave</a>"
 msgstr "<a href=\"/software/octave/\">Octave</a>"
@@ -4732,6 +4955,10 @@ msgstr ""
 "serveur HTTP ne sont nécessaires. Ce paquet est à la recherche d'un "
 "mainteneur.  (<a href=\"/manual/manual.html#orgadoc\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for osip"
+msgstr "logo d'osip"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/osip/\">oSIP</a>"
 msgstr "<a href=\"/software/osip/\">oSIP</a>"
@@ -4765,6 +4992,10 @@ msgstr ""
 "d'obtenir des effets variés comme le flou, les sources de lumière "
 "arbitraires, le placage de relief et plusieurs autres effets d'éclairage.  "
 "(<a href=\"/manual/manual.html#panorama\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for parallel"
+msgstr "logo de parallel"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/parallel/\">Parallel</a>"
@@ -4948,6 +5179,10 @@ msgstr ""
 "entièrement personnalisable pour répondre à vos besoins.  (<a href=\"/manual/"
 "manual.html#proxyknife\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for pspp"
+msgstr "logo de pspp"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/pspp/\">PSPP</a>"
 msgstr "<a href=\"/software/pspp/\">PSPP</a>"
@@ -4989,7 +5224,10 @@ msgstr ""
 "bibliothèque C++, d'une interface 3D et d'une autre en ligne de commande.  "
 "(<a href=\"/manual/manual.html#psychosynth\">doc</a>)"
 
-#.  TRANSLATORS: stale 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for pth"
+msgstr "logo de pth"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/pth/\">Pth</a>"
 msgstr "<a href=\"/software/pth/\">Pth</a>"
@@ -5049,6 +5287,10 @@ msgid ""
 msgstr ""
 "Voir <a href=\"#kawa\">kawa</a>.  (<a href=\"/manual/manual.html#qexo\">doc</"
 "a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for r"
+msgstr "logo de r"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/r/\">R</a>"
@@ -5138,6 +5380,10 @@ msgstr ""
 "utilisation confortable pour chacun.  (<a href=\"/manual/manual.html#readline"
 "\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for recutils"
+msgstr "logo de recutils"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/recutils/\">Recutils</a>"
 msgstr "<a href=\"/software/recutils/\">Recutils</a>"
@@ -5178,6 +5424,10 @@ msgstr ""
 "LaTeX : label, ref, cite et index. Il automatise les tâches communes qui "
 "sont normalement requises quand on utilise ces macros.  (<a href=\"/manual/"
 "manual.html#reftex\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for remotecontrol"
+msgstr "logo de remotecontrol"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/remotecontrol/\">Remotecontrol</a>"
@@ -5275,6 +5525,10 @@ msgstr ""
 "navigateur pour afficher les sources et les graphes orientés d'héritage de "
 "classes.  (<a href=\"/manual/manual.html#sather\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for scm"
+msgstr "logo de scm"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/scm/\">SCM</a>"
 msgstr "<a href=\"/software/scm/\">SCM</a>"
@@ -5336,6 +5590,10 @@ msgstr ""
 "flux. L'implémentation GNU propose plusieurs extensions que n'a pas "
 "l'utilitaire standard.  (<a href=\"/manual/manual.html#sed\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for serveez"
+msgstr "logo de serveez"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/serveez/\">Serveez</a>"
 msgstr "<a href=\"/software/serveez/\">Serveez</a>"
@@ -5376,6 +5634,10 @@ msgstr ""
 "extraire la collection de fichiers originale en utilisant un shell de type "
 "Bourne. Ce paquet est surtout là pour assurer la compatibilité et pour son "
 "intérêt historique.  (<a href=\"/manual/manual.html#sharutils\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for shishi"
+msgstr "logo de shishi"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/shishi/\">Shishi</a>"
@@ -5458,6 +5720,10 @@ msgstr ""
 "sécurisé sur l'Internet public.  (<a href=\"/manual/manual.html#sipwitch"
 "\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for slib"
+msgstr "logo de slib"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/slib/\">SLIB</a>"
 msgstr "<a href=\"/software/slib/\">SLIB</a>"
@@ -5474,6 +5740,10 @@ msgstr ""
 "différentes de Scheme et leur donne une infrastructure pour l'utilisation "
 "des paquets fournissant les procédures et la syntaxe Scheme.  (<a href=\"/"
 "manual/manual.html#slib\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for smalltalk"
+msgstr "logo de smalltalk"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/smalltalk/\">Smalltalk</a>"
@@ -5492,6 +5762,10 @@ msgstr ""
 "supplémentaires, par exemple pour la prise en charge du réseau ou encore la "
 "programmation d'interfaces graphiques.  (<a href=\"/manual/manual."
 "html#smalltalk\">doc</a>)"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for solfege"
+msgstr "logo de solfege"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/solfege/\">Solfege</a>"
@@ -5533,7 +5807,10 @@ msgstr ""
 "d'observation, ou de filtrer ce que vous voyez par classe spectrale et "
 "luminosité.  (<a href=\"/manual/manual.html#spacechart\">doc</a>)"
 
-#.  TRANSLATORS: stale 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for speex"
+msgstr "logo de speex"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/speex/\">Speex</a>"
 msgstr "<a href=\"/software/speex/\">Speex</a>"
@@ -5634,7 +5911,10 @@ msgstr ""
 "fichiers dans un répertoire commun, comme par exemple <tt>/usr/local</tt>.  "
 "(<a href=\"/manual/manual.html#stow\">doc</a>)"
 
-#.  TRANSLATORS: stale 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for stump"
+msgstr "logo de stump"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/stump/\">Stump</a>"
 msgstr "<a href=\"/software/stump/\">Stump</a>"
@@ -5931,16 +6211,14 @@ msgstr "<a href=\"/software/trueprint/\">Trueprint</a>"
 msgid ""
 "GNU Trueprint translates C source code files as PostScript files. In "
 "addition to the basic source code output, it can also perform diff-marking, "
-"indentation counting, function and file indices and more.  This package is "
-"looking for a maintainer.  <small>(<a href=\"/manual/manual.html#trueprint"
-"\">doc</a>)</small>"
+"indentation counting, function and file indices and more.  <small>(<a href="
+"\"/manual/manual.html#trueprint\">doc</a>)</small>"
 msgstr ""
 "GNU Trueprint traduit des fichiers de code source C en fichiers PostScript. "
 "Sa fonction ne se limite pas à la simple exportation du code source ; il "
 "peut aussi mettre en évidence les différences, compter les indentations, "
-"indexer les fonctions et les fichiers, et plus encore. Ce paquet est à la "
-"recherche d'un mainteneur.  (<a href=\"/manual/manual.html#trueprint\">doc</"
-"a>)"
+"indexer les fonctions et les fichiers, et plus encore.  (<a href=\"/manual/"
+"manual.html#trueprint\">doc</a>)"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/unifont/\">Unifont</a>"
@@ -6100,6 +6378,10 @@ msgstr ""
 "Voir <a href=\"#gforth\">gforth</a>.  (<a href=\"/manual/manual.html#vmgen"
 "\">doc</a>)"
 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for wb"
+msgstr "logo de wb"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/wb/\">WB</a>"
 msgstr "<a href=\"/software/wb/\">WB</a>"
@@ -6239,7 +6521,10 @@ msgstr ""
 "interactive et peut importer et sauvegarder les jeux en <cite>Portable Game "
 "Notation</cite>.  (<a href=\"/manual/manual.html#xboard\">doc</a>)"
 
-#.  TRANSLATORS: stale 
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for xlogmaster"
+msgstr "logo de xlogmaster"
+
 #. type: Content of: <h4>
 msgid "<a href=\"/software/xlogmaster/\">Xlogmaster</a>"
 msgstr "<a href=\"/software/xlogmaster/\">Xlogmaster</a>"
