@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: takeaction.html\n"
-"POT-Creation-Date: 2014-03-06 21:55+0000\n"
-"PO-Revision-Date: 2014-03-07 12:35+0100\n"
+"POT-Creation-Date: 2014-03-19 22:55+0000\n"
+"PO-Revision-Date: 2014-03-20 15:41+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -184,20 +184,18 @@ msgid ""
 "<a href=\"/software/gleem/\">gleem</a>, <a href=\"/software/gnatsweb/"
 "\">gnatsweb</a>, <a href=\"/software/gnukart/\">gnukart</a>, <a href=\"/"
 "software/groff/\">groff</a>, <a href=\"/software/halifax/\">halifax</a>, <a "
-"href=\"/software/indent/\">indent</a>, <a href=\"/software/jwhois/\">jwhois</"
-"a>, <a href=\"/software/metahtml/\">metahtml</a>, <a href=\"/software/"
-"orgadoc/\">orgadoc</a>, <a href=\"/software/polyxmass/\">polyxmass</a>, <a "
-"href=\"/software/superopt/\">superopt</a>, <a href=\"/software/teximpatient/"
-"\">teximpatient</a>"
+"href=\"/software/jwhois/\">jwhois</a>, <a href=\"/software/metahtml/"
+"\">metahtml</a>, <a href=\"/software/orgadoc/\">orgadoc</a>, <a href=\"/"
+"software/polyxmass/\">polyxmass</a>, <a href=\"/software/superopt/"
+"\">superopt</a>, <a href=\"/software/teximpatient/\">teximpatient</a>"
 msgstr ""
 "<a href=\"/software/gleem/\">gleem</a>, <a href=\"/software/gnatsweb/"
 "\">gnatsweb</a>, <a href=\"/software/gnukart/\">gnukart</a>, <a href=\"/"
 "software/groff/\">groff</a>, <a href=\"/software/halifax/\">halifax</a>, <a "
-"href=\"/software/indent/\">indent</a>, <a href=\"/software/jwhois/\">jwhois</"
-"a>, <a href=\"/software/metahtml/\">metahtml</a>, <a href=\"/software/"
-"orgadoc/\">orgadoc</a>, <a href=\"/software/polyxmass/\">polyxmass</a>, <a "
-"href=\"/software/superopt/\">superopt</a>, <a href=\"/software/teximpatient/"
-"\">teximpatient</a>"
+"href=\"/software/jwhois/\">jwhois</a>, <a href=\"/software/metahtml/"
+"\">metahtml</a>, <a href=\"/software/orgadoc/\">orgadoc</a>, <a href=\"/"
+"software/polyxmass/\">polyxmass</a>, <a href=\"/software/superopt/"
+"\">superopt</a>, <a href=\"/software/teximpatient/\">teximpatient</a>"
 
 #. type: Content of: <p>
 msgid ".  And these packages are looking for co-maintainers:"
@@ -331,7 +329,7 @@ msgstr ""
 "sites non francophones, mais pour ne pas alourdir le texte nous n'avons pas "
 "mis d'indication de langue. <a href=\"#TransNote1-rev\">&#8593;</a></li></ol>"
 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
@@ -356,7 +354,7 @@ msgstr ""
 #.         our web pages, see <a
 #.         href="/server/standards/README.translations.html">Translations
 #.         README</a>. 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "

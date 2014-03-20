@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
-"POT-Creation-Date: 2014-03-07 03:57+0000\n"
-"PO-Revision-Date: 2014-03-07 12:35+0100\n"
+"POT-Creation-Date: 2014-03-19 19:59+0000\n"
+"PO-Revision-Date: 2014-03-20 15:41+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -4782,26 +4782,6 @@ msgstr ""
 "caractéristiques de la <abbr title=\"File Allocation Table\">FAT</abbr>, "
 "comme par exemple les étiquettes de volumes et les attributs spécifiques des "
 "fichiers.  (<a href=\"/manual/manual.html#mtools\">doc</a>)"
-
-#. type: Attribute 'alt' of: <h4><img>
-msgid "logo for myserver"
-msgstr "logo de myserver"
-
-#. type: Content of: <h4>
-msgid "<a href=\"/software/myserver/\">Myserver</a>"
-msgstr "<a href=\"/software/myserver/\">Myserver</a>"
-
-#. type: Content of: <p>
-msgid ""
-"GNU MyServer is a powerful web server that is straightforward to set up.  It "
-"features a multi-threaded architecture, making it useful both in small "
-"networks and in large-scale sites.  <small>(<a href=\"/manual/manual."
-"html#myserver\">doc</a>)</small>"
-msgstr ""
-"GNU MyServer est un serveur web puissant, simple à mettre en place. Il se "
-"distingue par une architecture multiprogrammée <cite>[multi-threaded]</"
-"cite>, ce qui lui permet de s'adapter aux petits réseaux aussi bien qu'aux "
-"sites de grande étendue.  (<a href=\"/manual/manual.html#myserver\">doc</a>)"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/nana/\">Nana</a>"
