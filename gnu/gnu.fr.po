@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu.html\n"
-"POT-Creation-Date: 2013-11-06 20:55+0000\n"
-"PO-Revision-Date: 2013-11-07 17:33+0100\n"
+"POT-Creation-Date: 2014-03-27 04:25+0000\n"
+"PO-Revision-Date: 2014-03-27 09:36+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -26,6 +26,32 @@ msgstr "Le système d'exploitation GNU - Projet GNU - Free Software Foundation"
 #. type: Content of: <h2>
 msgid "The GNU Operating System"
 msgstr "Le système d'exploitation GNU"
+
+#. type: Content of: <div><h4>
+msgid "Download distributions"
+msgstr "Téléchargez des distributions"
+
+#. type: Content of: <div><p><a>
+msgid "<a href=\"/distros/free-distros.html\">"
+msgstr "<a href=\"/distros/free-distros.html\">"
+
+#. type: Attribute 'alt' of: <div><p><a><img>
+msgid "GNU and Linux"
+msgstr "GNU et Linux"
+
+#. type: Content of: <div><p>
+msgid "</a>"
+msgstr "</a>"
+
+#. type: Content of: <div><p>
+msgid ""
+"<span class=\"highlight\">If you're looking for a whole system to install, "
+"see our <a href=\"/distros/free-distros.html\">list of GNU/Linux "
+"distributions which are entirely free software</a>.</span>"
+msgstr ""
+"<span class=\"highlight\">Si vous cherchez à installer un système complet, "
+"consultez notre <a href=\"/distros/free-distros.html\">liste des "
+"distributions GNU/Linux entièrement libres</a>.</span>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/gnu/about-gnu.html\">About the GNU Operating System</a>"
@@ -154,7 +180,7 @@ msgstr ""
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
@@ -179,7 +205,7 @@ msgstr ""
 #.         our web pages, see <a
 #.         href="/server/standards/README.translations.html">Translations
 #.         README</a>. 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
