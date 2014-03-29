@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the original article.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2007, 2008.
 # Denis Barbier <bouzim AT gmail.com>, 2011
-# Thérèse Godefroy <godef.th AT free.fr>, 2012.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu.html\n"
-"POT-Creation-Date: 2014-03-27 04:25+0000\n"
-"PO-Revision-Date: 2014-03-27 09:36+0100\n"
+"POT-Creation-Date: 2014-03-29 07:43+0000\n"
+"PO-Revision-Date: 2014-03-29 11:45+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -23,35 +23,49 @@ msgstr ""
 msgid "The GNU Operating System - GNU project - Free Software Foundation"
 msgstr "Le système d'exploitation GNU - Projet GNU - Free Software Foundation"
 
+#. type: Content of: <style>
+msgid ""
+"#dynamic-duo { float: right; width: 24em; font-style: normal; text-align: "
+"center; padding: .8em; margin: .3em 1em 1em 1em; border: .5em solid "
+"#acc890; } #dynamic-duo p strong { font-size: 1.3em; } #dynamic-duo img "
+"{ width: 100%; } #dynamic-duo p.highlight-para { text-align: left; "
+"padding: .5em .8em .7em .8em; margin: .5em; border-width: 1px; }"
+msgstr ""
+"#dynamic-duo { float: right; width: 24em; font-style: normal; text-align: "
+"center; padding: .8em; margin: .3em 1em 1em 1em; border: .5em solid "
+"#acc890; } #dynamic-duo p strong { font-size: 1.3em; } #dynamic-duo img "
+"{ width: 100%; } #dynamic-duo p.highlight-para { text-align: left; "
+"padding: .5em .8em .7em .8em; margin: .5em; border-width: 1px; }"
+
 #. type: Content of: <h2>
 msgid "The GNU Operating System"
 msgstr "Le système d'exploitation GNU"
 
-#. type: Content of: <div><h4>
-msgid "Download distributions"
-msgstr "Téléchargez des distributions"
+#. type: Content of: <blockquote><p>
+msgid "<strong>Download distributions</strong>"
+msgstr "<strong>Téléchargez des distributions</strong>"
 
-#. type: Content of: <div><p><a>
+#. type: Content of: <blockquote><p><a>
 msgid "<a href=\"/distros/free-distros.html\">"
 msgstr "<a href=\"/distros/free-distros.html\">"
 
-#. type: Attribute 'alt' of: <div><p><a><img>
+#. type: Attribute 'alt' of: <blockquote><p><a><img>
 msgid "GNU and Linux"
 msgstr "GNU et Linux"
 
-#. type: Content of: <div><p>
+#. type: Content of: <blockquote><p>
 msgid "</a>"
 msgstr "</a>"
 
-#. type: Content of: <div><p>
+#. type: Content of: <blockquote><p>
 msgid ""
-"<span class=\"highlight\">If you're looking for a whole system to install, "
-"see our <a href=\"/distros/free-distros.html\">list of GNU/Linux "
-"distributions which are entirely free software</a>.</span>"
+"If you're looking for a whole system to install, see our <a href=\"/distros/"
+"free-distros.html\">list of GNU/Linux distributions which are entirely free "
+"software</a>."
 msgstr ""
-"<span class=\"highlight\">Si vous cherchez à installer un système complet, "
-"consultez notre <a href=\"/distros/free-distros.html\">liste des "
-"distributions GNU/Linux entièrement libres</a>.</span>"
+"Si vous cherchez à installer un système complet, consultez notre <a href=\"/"
+"distros/free-distros.html\">liste des distributions GNU/Linux entièrement "
+"libres</a>."
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/gnu/about-gnu.html\">About the GNU Operating System</a>"
