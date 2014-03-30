@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: software.html\n"
-"POT-Creation-Date: 2014-03-29 07:43+0000\n"
-"PO-Revision-Date: 2014-03-29 12:54+0100\n"
+"POT-Creation-Date: 2014-03-29 18:09+0000\n"
+"PO-Revision-Date: 2014-03-30 20:43+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -52,7 +52,7 @@ msgstr "<a href=\"/distros/free-distros.html\">"
 msgid "GNU and Linux"
 msgstr "GNU et Linux"
 
-#. type: Content of: <div><div>
+#. type: Content of: <blockquote><p>
 msgid "</a>"
 msgstr "</a>"
 
@@ -401,20 +401,8 @@ msgstr ""
 "<a href=\"xbase/\">xbase</a>, <a href=\"xinfo/\">xinfo</a>, <a href=\"xmhtml/"
 "\">xmhtml</a>, <a href=\"zebra/\">zebra</a>."
 
-#. type: Content of: <div><div><a>
-msgid ""
-"<a href=\"http://www.fsf.org/working-together/gang\">meet the free software "
-"gang"
-msgstr ""
-"<a href=\"http://www.fsf.org/working-together/gang\">rencontrez la troupe "
-"des logiciels libres"
-
-#. type: Attribute 'alt' of: <div><div><a><img>
-msgid "[FS gang]"
-msgstr "FS gang"
-
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
-#. type: Content of: <div><div>
+#. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 

@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.html\n"
-"POT-Creation-Date: 2014-03-29 08:27+0000\n"
-"PO-Revision-Date: 2014-03-29 11:45+0100\n"
+"POT-Creation-Date: 2014-03-29 18:09+0000\n"
+"PO-Revision-Date: 2014-03-30 20:43+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -83,7 +83,7 @@ msgstr "<a href=\"/distros/screenshot.html\">"
 msgid "Screenshot of GNU"
 msgstr "Copie d'écran de GNU"
 
-#. type: Content of: <div><div>
+#. type: Content of: <div><div><div><h4>
 msgid "</a>"
 msgstr "</a>"
 
@@ -372,6 +372,11 @@ msgid ".  See the package web pages for more information."
 msgstr ""
 ". Consultez les pages web de ces logiciels pour plus ample information."
 
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
 #. type: Content of: <p>
 msgid ""
 "The <a href=\"http://www.fsf.org/\">FSF</a> also has sister organizations in "
@@ -381,23 +386,6 @@ msgstr ""
 "La <a href=\"http://www.fsf.org/\">FSF</a> a aussi des organisations sœurs "
 "en <a href=\"http://www.fsfe.org\">Europe</a>, en <a href=\"http://www.fsfla."
 "org/\">Amérique latine</a> et en <a href=\"http://fsf.org.in/\">Inde</a>."
-
-#. type: Content of: <div><div><a>
-msgid ""
-"<a href=\"http://www.fsf.org/working-together/gang\">meet the free software "
-"gang"
-msgstr ""
-"<a href=\"http://www.fsf.org/working-together/gang\">rencontrez la troupe "
-"des logiciels libres"
-
-#. type: Attribute 'alt' of: <div><div><a><img>
-msgid "[FS gang]"
-msgstr "[FS gang]]"
-
-#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
-#. type: Content of: <div><div>
-msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
-msgstr " "
 
 #. type: Content of: <div><p>
 msgid ""
