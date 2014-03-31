@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: words-to-avoid.html\n"
-"POT-Creation-Date: 2014-02-02 11:55+0000\n"
-"PO-Revision-Date: 2014-03-05 21:49+0100\n"
+"POT-Creation-Date: 2014-03-31 06:29+0000\n"
+"PO-Revision-Date: 2014-03-31 09:21+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -45,7 +45,7 @@ msgstr ""
 "ou trompeurs ; d'autres présupposent un point de vue avec lequel nous ne "
 "sommes pas d'accord et, nous l'espérons, vous n'êtes pas d'accord non plus."
 
-#. type: Content of: <div>
+#. type: Content of: <div><blockquote><p>
 msgid ""
 "Also note <a href=\"/philosophy/categories.html\">Categories of Free "
 "Software</a> and <a href=\"/philosophy/why-call-it-the-swindle.html\">Why "
@@ -1810,15 +1810,7 @@ msgstr ""
 "sont des vendeurs. Nous recommandons le terme plus général de "
 "« fournisseur »."
 
-#. type: Content of: <div>
-msgid ""
-"Also note <a href=\"/philosophy/categories.html\">Categories of Free and "
-"Nonfree Software</a>."
-msgstr ""
-"Veuillez aussi consulter <a href=\"/philosophy/categories.html\">Catégories "
-"de logiciels libres et non libres</a>."
-
-#. type: Content of: <h4>
+#. type: Content of: <blockquote><p>
 msgid ""
 "This essay is published in <a href=\"http://shop.fsf.org/product/free-"
 "software-free-society/\"><cite>Free Software, Free Society: The Selected "
@@ -1832,7 +1824,7 @@ msgstr ""
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr ""
-"<b>Notes de traduction</b><ol>\n"
+"<div class=\"transnotes\"><hr /><b>Notes de traduction</b><ol>\n"
 "<li id=\"TransNote1\">Autre traduction de <cite>proprietary</cite> : "
 "propriétaire. <a href=\"#TransNote1-rev\">&#8593;</a></li>\n"
 "<li id=\"TransNote2\">« Informatique dans les nuages » ne veut absolument "
@@ -1845,9 +1837,9 @@ msgstr ""
 "\"#TransNote3-rev\">&#8593;</a></li>\n"
 "<li id=\"TransNote4\">Le mot anglais <cite>free</cite> a deux "
 "significations : « libre » et « gratuit ». <a href=\"#TransNote4-rev"
-"\">&#8593;</a></li></ol>"
+"\">&#8593;</a></li></ol></div>"
 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
@@ -1872,7 +1864,7 @@ msgstr ""
 #.         our web pages, see <a
 #.         href="/server/standards/README.translations.html">Translations
 #.         README</a>. 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
