@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: takeaction.html\n"
-"POT-Creation-Date: 2014-04-05 00:03+0000\n"
-"PO-Revision-Date: 2014-04-05 09:19+0200\n"
+"POT-Creation-Date: 2014-04-08 07:03+0000\n"
+"PO-Revision-Date: 2014-04-08 10:04+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -24,12 +24,13 @@ msgid "Take Action - GNU Project - Free Software Foundation"
 msgstr "Agir - Projet GNU - Free Software Foundation"
 
 #. type: Content of: <style>
+#, no-wrap
 msgid ""
-"#content h4 + p { padding-left: 2em; margin-bottom: 0.5em;} #content h4 "
-"{ font-size: 1.1em !important; padding-left: 1em; }"
+"#content h4 + p { padding-left: 2em; margin-bottom: 0.5em;}\n"
+"#content h4 { font-size: 1.1em !important; padding-left: 1em; }\n"
 msgstr ""
-"#content h4 + p { padding-left: 2em; margin-bottom: 0.5em;} #content h4 "
-"{ font-size: 1.1em !important; padding-left: 1em; }"
+"#content h4 + p { padding-left: 2em; margin-bottom: 0.5em;}\n"
+"#content h4 { font-size: 1.1em !important; padding-left: 1em; }\n"
 
 #. type: Content of: <h2>
 msgid "Take Action"
