@@ -2,13 +2,13 @@
 # Copyright (C) 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the original article.
 # Pierrick L'Ébraly <plebraly AT gmail.com>, 2011.
-# Thérèse Godefroy <godef.th AT free.fr>, 2012.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: education.html\n"
-"POT-Creation-Date: 2014-03-29 13:26+0000\n"
-"PO-Revision-Date: 2014-03-29 15:46+0100\n"
+"POT-Creation-Date: 2014-04-08 20:00+0000\n"
+"PO-Revision-Date: 2014-04-09 09:23+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -48,7 +48,15 @@ msgstr "<a href=\"/education/edu-faq.html\">FAQ</a>"
 msgid "<a href=\"/education/edu-team.html\">The Education Team</a>"
 msgstr "<a href=\"/education/edu-team.html\">L'équipe éducation</a>"
 
-#. type: Content of: <div>
+#. type: Content of: <div><h2>
+msgid "Free Software and Education"
+msgstr "Logiciel libre et éducation"
+
+#. type: Content of: <h3>
+msgid "How Does Free Software Relate To Education?"
+msgstr "Quel est le lien entre logiciel libre et éducation ?"
+
+#. type: Content of: <blockquote><p>
 msgid ""
 "We are looking for free educational games, or free games that can be used "
 "for educational purposes. Contact <a href=\"mailto:education@gnu.org\">&lt;"
@@ -58,17 +66,9 @@ msgstr ""
 "être utilisés dans un but éducatif. Veuillez contacter <a href=\"mailto:"
 "education@gnu.org\">&lt;education@gnu.org&gt;</a>"
 
-#. type: Content of: <div><h2>
-msgid "Free Software and Education"
-msgstr "Logiciel libre et éducation"
-
-#. type: Content of: <div><h3>
-msgid "What Does Free Software Have To Do With Education?"
-msgstr "Quel est le lien entre logiciel libre et éducation ?"
-
 #. type: Content of: <p>
 msgid ""
-"Software freedom has an especially important role in education.  Educational "
+"Software freedom plays a fundamental role in education.  Educational "
 "institutions of all levels should use and teach Free Software because it is "
 "the only software that allows them to accomplish their essential missions: "
 "to disseminate human knowledge and to prepare students to be good members of "
@@ -78,16 +78,16 @@ msgid ""
 "institutions. Free Software supports education, proprietary software forbids "
 "education."
 msgstr ""
-"La liberté du logiciel a un rôle particulièrement important dans "
-"l'éducation. Les établissements d'enseignement de tous niveaux doivent "
-"utiliser et enseigner le logiciel libre car seul celui-ci leur permet de "
-"remplir leurs missions essentielles : diffuser le savoir et préparer les "
-"élèves à être de bons membres de leur communauté. Le code source, ainsi que "
-"les méthodes du logiciel libre, font partie des savoirs humains, alors qu'au "
-"contraire le logiciel privateur<a id=\"TransNote1-rev\" href="
-"\"#TransNote1\"><sup>1</sup></a> fait intervenir un savoir secret, fermé qui "
-"est à l'antipode de la mission des institutions éducatives. Le logiciel "
-"libre est une aide à l'éducation, quand le logiciel privateur l'interdit."
+"La liberté du logiciel joue un rôle fondamental dans l'éducation. Les "
+"établissements d'enseignement de tous niveaux doivent utiliser et enseigner "
+"le logiciel libre car seul celui-ci leur permet de remplir leurs missions "
+"essentielles : diffuser le savoir et préparer les élèves à être de bons "
+"membres de leur communauté. Le code source, ainsi que les méthodes du "
+"logiciel libre, font partie des savoirs humains, alors qu'au contraire le "
+"logiciel privateur<a id=\"TransNote1-rev\" href=\"#TransNote1\"><sup>1</"
+"sup></a> fait intervenir un savoir secret, fermé qui est à l'antipode de la "
+"mission des institutions éducatives. Le logiciel libre est une aide à "
+"l'éducation, quand le logiciel privateur l'interdit."
 
 #. type: Content of: <p>
 msgid ""
@@ -120,6 +120,18 @@ msgstr "Les principes"
 
 #. type: Content of: <div><div><p>
 msgid ""
+"The GNU Project was <a href=\" /gnu/initial-announcement.html\">launched</a> "
+"in 1983 by Richard Stallman to develop a Free Libre operating system: the "
+"GNU operating system. As a result, today it is possible for anyone to use a "
+"computer in freedom."
+msgstr ""
+"Le projet GNU a été <a href=\" /gnu/initial-announcement.html\">initié</a> "
+"en 1983 par Richard Stallman dans le but de développer un système libre, le "
+"système d'exploitation GNU. Chacun peut ainsi aujourd'hui utiliser un "
+"ordinateur en restant libre. "
+
+#. type: Content of: <div><div><p>
+msgid ""
 "In this six-minutes video <a href=\"http://www.fsf.org/about/leadership/#rms"
 "\">Richard Stallman</a> explains briefly and to the point the principles of "
 "Free Software and how they connect to education."
@@ -127,6 +139,20 @@ msgstr ""
 "Dans cette vidéo de six minutes, <a href=\"http://www.fsf.org/about/"
 "leadership/#rms\">Richard Stallman</a> explique brièvement et précisément "
 "les grands principes du logiciel libre et leurs rapports à l'éducation."
+
+#.  TRANSLATORS: Please replace the link to the video with subtitles in
+#.      English with a link to the video with subtitles in your language, 
+#.      if it exists. 
+#. type: Content of: <div><div><p>
+msgid ""
+"<a href=\"http://audio-video.gnu.org/video/rms-education-es-high-sub.en.ogv"
+"\"> Download and watch the video</a> at a higher definition in the Ogg "
+"Theora (ogv) free format."
+msgstr ""
+"Téléchargez et regardez la vidéo à plus haute définition, <a href=\"http://"
+"audio-video.gnu.org/video/rms-education-es-high-sub.fr.ogv\">sous-titrée en "
+"français</a> ou <a href=\"http://audio-video.gnu.org/video/rms-education-es."
+"ogv\">non sous-titrée</a>, au format libre Ogg Theora (ogv)."
 
 #.  TRANSLATORS: please add the link to your language here in the first 
 #.      place, followed by a comma. 
@@ -161,32 +187,6 @@ msgstr ""
 "<a href=\"/education/misc/rms-education-es-sub.es.srt\">espagnol</a> et \n"
 "<a href=\"/education/misc/edu-misc.html#subtitles-rms-education\">quelques "
 "autres langues</a>."
-
-#.  TRANSLATORS: Please replace the link to the video with subtitles in
-#.      English with a link to the video with subtitles in your language, 
-#.      if it exists. 
-#. type: Content of: <div><div><p>
-msgid ""
-"<a href=\"http://audio-video.gnu.org/video/rms-education-es-high-sub.en.ogv"
-"\"> Download and watch the video</a> at a higher definition in the Ogg "
-"Theora (ogv) free format."
-msgstr ""
-"Téléchargez et regardez la vidéo à plus haute définition, <a href=\"http://"
-"audio-video.gnu.org/video/rms-education-es-high-sub.fr.ogv\">sous-titrée en "
-"français</a> ou <a href=\"http://audio-video.gnu.org/video/rms-education-es."
-"ogv\">non sous-titrée</a>, au format libre Ogg Theora (ogv)."
-
-#. type: Content of: <div><div><p>
-msgid ""
-"The GNU Project was <a href=\" /gnu/initial-announcement.html\">launched</a> "
-"in 1983 by Richard Stallman to develop a Free Libre operating system: the "
-"GNU operating system. As a result, today it is possible for anyone to use a "
-"computer in freedom."
-msgstr ""
-"Le projet GNU a été <a href=\" /gnu/initial-announcement.html\">initié</a> "
-"en 1983 par Richard Stallman dans le but de développer un système libre, le "
-"système d'exploitation GNU. Chacun peut ainsi aujourd'hui utiliser un "
-"ordinateur en restant libre. "
 
 #. type: Content of: <div><div><h2>
 msgid "In Depth"
@@ -266,8 +266,8 @@ msgstr ""
 "README.translations.html\">guide de traduction</a>."
 
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2011, 2012 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2011, 2012 Free Software Foundation, Inc."
+msgid "Copyright &copy; 2011, 2012, 2014 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2011, 2012, 2014 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
