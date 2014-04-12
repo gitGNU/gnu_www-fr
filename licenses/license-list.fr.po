@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2014-04-11 16:25+0000\n"
-"PO-Revision-Date: 2014-04-11 19:22+0200\n"
+"POT-Creation-Date: 2014-04-12 10:57+0000\n"
+"PO-Revision-Date: 2014-04-12 13:44+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -54,7 +54,6 @@ msgstr ""
 "#legend dl.orange dt:after {\n"
 "   content: \"Licences libres incompatibles avec GPL et FDL\";\n"
 "}\n"
-"."
 
 #. type: Content of: <style>
 #, no-wrap
@@ -143,7 +142,7 @@ msgstr ""
 "<a href=\"#OpinionLicenses\">Licences pour les œuvres présentant un point de "
 "vue (par exemple une opinion ou un témoignage)</a>"
 
-#. type: Content of: <h3>
+#. type: Content of: <div><h3>
 msgid "Introduction"
 msgstr "Introduction"
 
@@ -274,13 +273,13 @@ msgstr ""
 msgid "Software Licenses"
 msgstr "Licences de logiciel"
 
-#. type: Content of: <h4>
+#. type: Content of: <div><h4>
 msgid "<span id=\"FreeLicenses\"></span> GPL-Compatible Free Software Licenses"
 msgstr ""
 "<span id=\"FreeLicenses\"></span> Licences de logiciel libre compatibles "
 "avec la GPL"
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <div>
 msgid ""
 "<span class=\"anchor-reference-id\"> (<a href=\"#GPLCompatibleLicenses"
 "\">#GPLCompatibleLicenses</a>)</span>"
@@ -1884,11 +1883,11 @@ msgstr ""
 "La ZPL est une licence de logiciel libre permissive (voire laxiste) sans "
 "copyleft. Elle est compatible avec la GPL."
 
-#. type: Content of: <h4>
+#. type: Content of: <div><h4>
 msgid "GPL-Incompatible Free Software Licenses"
 msgstr "Licences de logiciel libre incompatibles avec la GPL"
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <div>
 msgid ""
 "<span class=\"anchor-reference-id\"> (<a href=\"#GPLIncompatibleLicenses"
 "\">#GPLIncompatibleLicenses</a>)</span>"
@@ -3152,19 +3151,15 @@ msgstr ""
 "<a href=\"#Zope20\">La version 2 de la licence publique Zope</a> est "
 "compatible avec la GPL."
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <div>
 msgid "<span id=\"NonFreeSoftwareLicense\"></span>"
 msgstr "<span id=\"NonFreeSoftwareLicense\"></span>"
 
-#. type: Content of: <h4>
-msgid ""
-"<a id=\"NonFreeSoftwareLicenses\" class=\"big-subsection\"> Nonfree Software "
-"Licenses</a>"
-msgstr ""
-"<a id=\"NonFreeSoftwareLicenses\" class=\"big-subsection\"> Licences de "
-"logiciel non libre</a>"
+#. type: Content of: <div><h4>
+msgid "Nonfree Software Licenses"
+msgstr "Licences de logiciel non libre"
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <div>
 msgid ""
 "<span class=\"anchor-reference-id\"> (<a href=\"#NonFreeSoftwareLicenses"
 "\">#NonFreeSoftwareLicenses</a>)</span>"
@@ -4149,11 +4144,11 @@ msgstr ""
 msgid "Licenses For Documentation"
 msgstr "Licences pour la documentation"
 
-#. type: Content of: <h4>
+#. type: Content of: <div><h4>
 msgid "Free Documentation Licenses"
 msgstr "Licences libres pour la documentation"
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <div>
 msgid ""
 "<span class=\"anchor-reference-id\"> (<a href=\"#FreeDocumentationLicenses"
 "\">#FreeDocumentationLicenses</a>)  </span>"
@@ -4318,11 +4313,11 @@ msgstr ""
 "l'autre. Cela vaut la peine d'écrire les mots entiers plutôt que "
 "l'abréviation pour être sûr que les gens comprennent bien ce que vous dites."
 
-#. type: Content of: <h4>
+#. type: Content of: <div><h4>
 msgid "Nonfree Documentation Licenses"
 msgstr "Licences non libres pour la documentation"
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <div>
 msgid ""
 "<span class=\"anchor-reference-id\"> (<a href=\"#NonFreeDocumentationLicenses"
 "\">#NonFreeDocumentationLicenses</a>)  </span>"
@@ -4379,13 +4374,13 @@ msgstr ""
 msgid "Licenses for Other Works"
 msgstr "Licences pour les autres types d'œuvres"
 
-#. type: Content of: <h4>
+#. type: Content of: <div><h4>
 msgid "Licenses for Works of Practical Use besides Software and Documentation"
 msgstr ""
 "Licences pour les œuvres à usage pratique autres que les logiciels et la "
 "documentation"
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <div>
 msgid ""
 "<span class=\"anchor-reference-id\"> (<a href=\"#OtherLicenses"
 "\">#OtherLicenses</a>)</span>"
@@ -4597,11 +4592,11 @@ msgstr ""
 "recommandons pas son utilisation. Toutefois il n'y a aucune raison de ne pas "
 "se servir des données publiées de cette façon. "
 
-#. type: Content of: <h4>
+#. type: Content of: <div><h4>
 msgid "Licenses for Fonts"
 msgstr "Licences pour les polices de caractères"
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <div>
 msgid ""
 "<span class=\"anchor-reference-id\"> (<a href=\"#Fonts\">#Fonts</a>)</span>"
 msgstr ""
@@ -4694,13 +4689,13 @@ msgstr ""
 "de ne pas utiliser cette licence pour autre chose que des polices de "
 "caractères."
 
-#. type: Content of: <h4>
+#. type: Content of: <div><h4>
 msgid "Licenses for Works stating a Viewpoint (e.g., Opinion or Testimony)"
 msgstr ""
 "Licences pour les œuvres présentant un point de vue (par exemple une opinion "
 "ou un témoignage)"
 
-#. type: Content of: outside any tag (error?)
+#. type: Content of: <div>
 msgid ""
 "<span class=\"anchor-reference-id\"> (<a href=\"#OpinionLicenses"
 "\">#OpinionLicenses</a>)</span>"
