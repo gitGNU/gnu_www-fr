@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary.html\n"
-"POT-Creation-Date: 2014-03-21 13:25+0000\n"
-"PO-Revision-Date: 2014-03-23 22:31+0100\n"
+"POT-Creation-Date: 2014-04-13 14:25+0000\n"
+"PO-Revision-Date: 2014-04-13 23:35+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -46,7 +46,7 @@ msgstr ""
 #. type: Content of: <p>
 msgid ""
 "Power corrupts, so the proprietary program's developer is tempted to design "
-"the program to mistreat its users &mdash; that is, to make it <em>malware</"
+"the program to mistreat its users &mdash;that is, to make it <em>malware</"
 "em>.  (Malware means software whose functioning mistreats the user.)  Of "
 "course, the developer usually does not do this out of malice, but rather to "
 "put the users at a disadvantage.  That does not make it any less nasty or "
@@ -73,7 +73,7 @@ msgstr ""
 #. type: Content of: <p>
 msgid ""
 "Here are examples of widely used proprietary programs that are known to be "
-"malware.  They are organized by the type of malicious functionality."
+"malware. They are organized by the type of malicious functionality."
 msgstr ""
 "Voici des exemples de programmes privateurs largement utilisés qui sont "
 "connus pour être malveillants. Ils sont classés par type de fonctionnalité "
@@ -122,22 +122,59 @@ msgstr ""
 
 #. type: Content of: <ul><li>
 msgid ""
-"<a href=\"/philosophy/proprietary-jails.html\">Proprietary Jails</a>&mdash;"
-"systems that impose censorship on application programs."
+"<a href=\"/philosophy/proprietary-jails.html\">Jails</a>&mdash;systems that "
+"impose censorship on application programs."
 msgstr ""
-"<a href=\"/philosophy/proprietary-jails.html\">Prisons du logiciel "
-"privateur</a> – systèmes qui imposent une censure aux programmes "
-"d'application."
+"<a href=\"/philosophy/proprietary-jails.html\">Prisons</a> – systèmes qui "
+"imposent une censure aux programmes d'application."
 
 #. type: Content of: <ul><li>
 msgid ""
-"<a href=\"/philosophy/proprietary-tyrants.html\">Proprietary Tyrants</"
-"a>&mdash;systems that reject any operating system not &ldquo;"
-"authorized&rdquo; by the manufacturer."
+"<a href=\"/philosophy/proprietary-tyrants.html\">Tyrants</a>&mdash;systems "
+"that reject any operating system not &ldquo;authorized&rdquo; by the "
+"manufacturer."
 msgstr ""
-"<a href=\"/philosophy/proprietary-tyrants.html\">Tyrans privateurs</a> – "
-"systèmes qui rejettent tout système d'exploitation non « autorisé » par le "
-"fabricant."
+"<a href=\"/philosophy/proprietary-tyrants.html\">Tyrans</a> – systèmes qui "
+"rejettent tout système d'exploitation non « autorisé » par le fabricant."
+
+#. type: Content of: <p>
+msgid ""
+"Proprietary software is often malware. Some of the information above is "
+"organized by systems or companies whose software is malware:"
+msgstr ""
+"Le logiciel privateur est souvent malveillant. Une partie de l'information "
+"ci-dessus est classée selon le système ou la société dont le logiciel est "
+"malveillant :"
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/malware-apple.html\">Apple's software is malware</a>"
+msgstr ""
+"<a href=\"/philosophy/malware-apple.html\">Les logiciels d'Apple sont "
+"malveillants</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/malware-microsoft.html\">Microsoft's software is "
+"malware</a>"
+msgstr ""
+"<a href=\"/philosophy/malware-microsoft.html\">Les logiciels de Microsoft "
+"sont malveillants</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/malware-mobiles.html\">Malware in mobile devices</a>"
+msgstr ""
+"<a href=\"/philosophy/malware-mobiles.html\">Logiciels malveillants dans les "
+"appareils mobiles</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/malware-kindle-swindle.html\">Malware in the Kindle "
+"Swindle</a>"
+msgstr ""
+"<a href=\"/philosophy/malware-kindle-swindle.html\">Logiciel malveillant "
+"dans le Kindle arnaqueur</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -203,8 +240,8 @@ msgstr ""
 "README.translations.html\">guide de traduction</a>."
 
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2013 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2013 Free Software Foundation, Inc."
+msgid "Copyright &copy; 2013, 2014 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2013, 2014 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
