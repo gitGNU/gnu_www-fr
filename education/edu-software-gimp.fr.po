@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: edu-software-gimp.html\n"
-"POT-Creation-Date: 2014-03-29 13:26+0000\n"
-"PO-Revision-Date: 2014-03-29 15:46+0100\n"
+"POT-Creation-Date: 2014-04-14 17:57+0000\n"
+"PO-Revision-Date: 2014-04-15 07:47+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -21,6 +21,21 @@ msgstr ""
 #. type: Content of: <title>
 msgid "GIMP - GNU Project - Free Software Foundation"
 msgstr "GIMP - Projet GNU - Free Software Foundation"
+
+#. type: Content of: <style>
+#, no-wrap
+msgid ""
+"#mani-movie {\n"
+"   display: block;\n"
+"   width: 100%; max-width: 40em;\n"
+"   margin: auto;\n"
+"}\n"
+msgstr ""
+"#mani-movie {\n"
+"   display: block;\n"
+"   width: 100%; max-width: 40em;\n"
+"   margin: auto;\n"
+"}\n"
 
 #. type: Content of: <div><ul><li>
 msgid "<a href=\"/education/edu-contents.html\">Education Contents</a>"

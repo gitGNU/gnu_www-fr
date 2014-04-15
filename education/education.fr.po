@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: education.html\n"
-"POT-Creation-Date: 2014-04-08 20:00+0000\n"
-"PO-Revision-Date: 2014-04-09 09:23+0200\n"
+"POT-Creation-Date: 2014-04-14 19:25+0000\n"
+"PO-Revision-Date: 2014-04-15 07:47+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -23,6 +23,23 @@ msgstr ""
 #. type: Content of: <title>
 msgid "Free Software and Education - GNU Project - Free Software Foundation"
 msgstr "Logiciel libre et éducation - Projet GNU - Free Software Foundation"
+
+#. type: Content of: <style>
+#, no-wrap
+msgid ""
+"#rms-movie { min-width: 60%; max-width: 100%; }\n"
+"#content #indepth {\n"
+"   text-align: left;\n"
+"   padding: 0 .4em .8em 1.2em;\n"
+"   margin: 0 1em 1em 1em;\n"
+"}\n"
+msgstr ""
+"#rms-movie { min-width: 60%; max-width: 100%; }\n"
+"#content #indepth {\n"
+"   text-align: left;\n"
+"   padding: 0 .4em .8em 1.2em;\n"
+"   margin: 0 1em 1em 1em;\n"
+"}\n"
 
 #. type: Content of: <div><ul><li>
 msgid "<a href=\"/education/edu-contents.html\">Education Contents</a>"
@@ -53,18 +70,18 @@ msgid "Free Software and Education"
 msgstr "Logiciel libre et éducation"
 
 #. type: Content of: <h3>
-msgid "How Does Free Software Relate To Education?"
+msgid "How Does Free Software Relate to Education?"
 msgstr "Quel est le lien entre logiciel libre et éducation ?"
 
 #. type: Content of: <blockquote><p>
 msgid ""
-"We are looking for free educational games, or free games that can be used "
-"for educational purposes. Contact <a href=\"mailto:education@gnu.org\">&lt;"
-"education@gnu.org&gt;</a>"
+"We are looking for free educational games, or information about free games "
+"that can be used for educational purposes. Contact <a href=\"mailto:"
+"education@gnu.org\">&lt;education@gnu.org&gt;</a>."
 msgstr ""
-"Nous recherchons des jeux éducatifs libres, ou des jeux libres qui puissent "
-"être utilisés dans un but éducatif. Veuillez contacter <a href=\"mailto:"
-"education@gnu.org\">&lt;education@gnu.org&gt;</a>"
+"Nous recherchons des jeux éducatifs libres, ou des renseignements sur les "
+"jeux libres pouvant être utilisés dans un but éducatif. Veuillez contacter "
+"<a href=\"mailto:education@gnu.org\">&lt;education@gnu.org&gt;</a>"
 
 #. type: Content of: <p>
 msgid ""
@@ -114,11 +131,11 @@ msgstr ""
 "\">définition du logiciel libre</a> et à notre article : <a href=\"/"
 "philosophy/shouldbefree.html\">Pourquoi le logiciel doit être libre</a>."
 
-#. type: Content of: <div><div><h2>
+#. type: Content of: <h3>
 msgid "The Basics"
 msgstr "Les principes"
 
-#. type: Content of: <div><div><p>
+#. type: Content of: <p>
 msgid ""
 "The GNU Project was <a href=\" /gnu/initial-announcement.html\">launched</a> "
 "in 1983 by Richard Stallman to develop a Free Libre operating system: the "
@@ -130,7 +147,7 @@ msgstr ""
 "système d'exploitation GNU. Chacun peut ainsi aujourd'hui utiliser un "
 "ordinateur en restant libre. "
 
-#. type: Content of: <div><div><p>
+#. type: Content of: <p>
 msgid ""
 "In this six-minutes video <a href=\"http://www.fsf.org/about/leadership/#rms"
 "\">Richard Stallman</a> explains briefly and to the point the principles of "
@@ -140,10 +157,39 @@ msgstr ""
 "leadership/#rms\">Richard Stallman</a> explique brièvement et précisément "
 "les grands principes du logiciel libre et leurs rapports à l'éducation."
 
+#. type: Content of: <blockquote><h3>
+msgid "In Depth"
+msgstr "Pour aller plus loin"
+
+#. type: Content of: <blockquote><ul><li>
+msgid ""
+"Learn about the <a href=\"/education/edu-why.html\">Reasons Why</a> "
+"educational institutions should use and teach exclusively Free Software."
+msgstr ""
+"Lisez les <a href=\"/education/edu-why.html\">raisons</a> pour lesquelles "
+"l'éducation doit se servir de logiciel libre et l'enseigner, à l'exclusion "
+"de tout autre."
+
+#. type: Content of: <blockquote><ul><li>
+msgid ""
+"An article by Richard Stallman: <a href=\"/education/edu-schools.html\">Why "
+"Schools Should Exclusively Use Free Software</a>"
+msgstr ""
+"Un article de Richard Stallman : <a href=\"/education/edu-schools.html"
+"\">Pourquoi les écoles doivent utiliser exclusivement du logiciel libre</a>"
+
+#. type: Content of: <blockquote><ul><li>
+msgid ""
+"An article by Dr. V. Sasi Kumar on the <a href=\"/education/edu-system-india."
+"html\">education system in India.</a>"
+msgstr ""
+"Un article du Dr V. Sasi Kumar sur le <a href=\"/education/edu-system-india."
+"html\">système éducatif en Inde.</a>"
+
 #.  TRANSLATORS: Please replace the link to the video with subtitles in
 #.      English with a link to the video with subtitles in your language, 
 #.      if it exists. 
-#. type: Content of: <div><div><p>
+#. type: Content of: <p>
 msgid ""
 "<a href=\"http://audio-video.gnu.org/video/rms-education-es-high-sub.en.ogv"
 "\"> Download and watch the video</a> at a higher definition in the Ogg "
@@ -156,7 +202,7 @@ msgstr ""
 
 #.  TRANSLATORS: please add the link to your language here in the first 
 #.      place, followed by a comma. 
-#. type: Content of: <div><div><p>
+#. type: Content of: <p>
 msgid ""
 "Transcriptions of this video are available in <a href=\"/education/misc/rms-"
 "education-es-translation-to-en.txt\">English</a>, <a href=\"/education/misc/"
@@ -174,7 +220,7 @@ msgstr ""
 
 #.  TRANSLATORS: please add the link to your language here in the first 
 #.      place, followed by a comma. 
-#. type: Content of: <div><div><p>
+#. type: Content of: <p>
 msgid ""
 "SubRip subtitle files are also available for download in <a href=\"/"
 "education/misc/rms-education-es-sub.en.srt\">English</a>, <a href=\"/"
@@ -187,35 +233,6 @@ msgstr ""
 "<a href=\"/education/misc/rms-education-es-sub.es.srt\">espagnol</a> et \n"
 "<a href=\"/education/misc/edu-misc.html#subtitles-rms-education\">quelques "
 "autres langues</a>."
-
-#. type: Content of: <div><div><h2>
-msgid "In Depth"
-msgstr "Pour aller plus loin"
-
-#. type: Content of: <div><div><p>
-msgid ""
-"Learn about the <a href=\"/education/edu-why.html\">Reasons Why</a> "
-"educational institutions should use and teach exclusively Free Software."
-msgstr ""
-"Lisez les <a href=\"/education/edu-why.html\">raisons</a> pour lesquelles "
-"l'éducation doit se servir de logiciel libre et l'enseigner, à l'exclusion "
-"de tout autre."
-
-#. type: Content of: <div><div><p>
-msgid ""
-"An article by Richard Stallman: <a href=\"/education/edu-schools.html\">Why "
-"Schools Should Exclusively Use Free Software</a>"
-msgstr ""
-"Un article de Richard Stallman : <a href=\"/education/edu-schools.html"
-"\">Pourquoi les écoles doivent utiliser exclusivement du logiciel libre</a>"
-
-#. type: Content of: <div><div><p>
-msgid ""
-"An article by Dr. V. Sasi Kumar on the <a href=\"/education/edu-system-india."
-"html\">education system in India.</a>"
-msgstr ""
-"Un article du Dr V. Sasi Kumar sur le <a href=\"/education/edu-system-india."
-"html\">système éducatif en Inde.</a>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>

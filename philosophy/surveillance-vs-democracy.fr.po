@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: surveillance-vs-democracy.html\n"
-"POT-Creation-Date: 2014-01-22 19:25+0000\n"
-"PO-Revision-Date: 2014-01-23 13:00+0100\n"
+"POT-Creation-Date: 2014-04-15 03:55+0000\n"
+"PO-Revision-Date: 2014-04-15 07:47+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -947,20 +947,6 @@ msgstr ""
 "nous faut inverser cette progression. Cela requiert de mettre fin à "
 "l'accumulation en masse de données sur la population."
 
-#. type: Content of: <blockquote><p>
-msgid "Copyright 2013 Richard Stallman"
-msgstr "Copyright 2013 Richard Stallman"
-
-#. type: Content of: <blockquote><p>
-msgid ""
-"Licensed under the <a rel=\"license\" href=\"http://creativecommons.org/"
-"licenses/by-nd/3.0/us/\">Creative Commons Attribution-NoDerivs 3.0 United "
-"States License</a>"
-msgstr ""
-"Licence <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-"
-"nd/3.0/us/deed.fr\">Creative Commons attribution de paternité, pas de "
-"modification, 3.0 États-Unis (CC BY-ND 3.0 US)</a>."
-
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
@@ -984,7 +970,7 @@ msgstr ""
 "<li id=\"TransNote5\"><cite>Perjury</cite> : faux témoignage. <a href="
 "\"#TransNote5-rev\">&#8593;</a></li></ol>"
 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
@@ -1011,7 +997,7 @@ msgstr ""
 #.         our web pages, see <a
 #.         href="/server/standards/README.translations.html">Translations
 #.         README</a>. 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
@@ -1026,20 +1012,19 @@ msgstr ""
 "traductions de nos pages web, reportez-vous au <a href=\"/server/standards/"
 "README.translations.html\">guide de traduction</a>."
 
-#. type: Content of: <div><p>
-msgid "Copyright &copy; 2013 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2013 Free Software Foundation, Inc."
+#. type: Content of: <div><blockquote><p>
+msgid "Copyright 2013 Richard Stallman"
+msgstr "Copyright 2013 Richard Stallman"
 
-#. type: Content of: <div><p>
+#. type: Content of: <div><blockquote><p>
 msgid ""
-"This page is licensed under a <a rel=\"license\" href=\"http://"
-"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
-"NoDerivs 3.0 United States License</a>."
+"Licensed under the <a rel=\"license\" href=\"http://creativecommons.org/"
+"licenses/by-nd/3.0/us/\">Creative Commons Attribution-NoDerivs 3.0 United "
+"States License</a>"
 msgstr ""
-"Cette page peut être utilisée suivant les conditions de la licence <a rel="
-"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr"
-"\">Creative Commons attribution de paternité, pas de modification, 3.0 États-"
-"Unis (CC BY-ND 3.0 US)</a>."
+"Licence <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-"
+"nd/3.0/us/deed.fr\">Creative Commons attribution de paternité, pas de "
+"modification, 3.0 États-Unis (CC BY-ND 3.0 US)</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
