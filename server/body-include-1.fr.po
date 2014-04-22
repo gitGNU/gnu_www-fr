@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: body-include-1.html\n"
-"POT-Creation-Date: 2014-03-29 05:40+0000\n"
-"PO-Revision-Date: 2014-03-29 11:45+0100\n"
+"POT-Creation-Date: 2014-04-22 04:25+0000\n"
+"PO-Revision-Date: 2014-04-22 09:21+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -17,14 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Gtranslator 2.91.5\n"
+"Plural-Forms: \n"
 
 #. type: Content of: <div>
-msgid ""
-"<a href=\"#content\">Skip to main text</a>&nbsp;&nbsp; <a href=\"/"
-"accessibility/\">Accessibility</a>"
-msgstr ""
-"<a href=\"#content\">Lire l'article</a>&nbsp;&nbsp; <a href=\"/accessibility/"
-"\">Accessibilité</a>"
+msgid "<a href=\"#content\">Skip to main text</a>"
+msgstr "<a href=\"#content\">Lire l'article</a>"
 
 #. type: Content of: <div><form><div>
 msgid ""
