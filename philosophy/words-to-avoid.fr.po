@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: words-to-avoid.html\n"
-"POT-Creation-Date: 2014-04-24 15:26+0000\n"
-"PO-Revision-Date: 2014-04-24 18:16+0200\n"
+"POT-Creation-Date: 2014-05-23 06:57+0000\n"
+"PO-Revision-Date: 2014-05-23 21:21+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -221,6 +221,10 @@ msgstr "« <a href=\"#SellSoftware\">vendre des logiciels</a> » |"
 #. type: Content of: <p>
 msgid "&ldquo;<a href=\"#SoftwareIndustry\">Software Industry</a>&rdquo; |"
 msgstr "« <a href=\"#SoftwareIndustry\">industrie du logiciel</a> » |"
+
+#. type: Content of: <p>
+msgid "&ldquo;<a href=\"#SourceModel\">Source model</a>&rdquo; |"
+msgstr "&ldquo;<a href=\"#SourceModel\">Modèle de source</a>&rdquo; |"
 
 #. type: Content of: <p>
 msgid "&ldquo;<a href=\"#Theft\">Theft</a>&rdquo; |"
@@ -1711,6 +1715,33 @@ msgstr ""
 "\">Le Parlement européen, en rejetant les brevets logiciels en 2003, a "
 "approuvé par son vote la définition de l'« industrie » comme « production "
 "automatisée de biens »</a>."
+
+#. type: Content of: <h4>
+msgid "&ldquo;Source model&rdquo;"
+msgstr "« Modèle de code source »"
+
+#. type: Content of: <p>
+msgid ""
+"Wikipedia uses the term &ldquo;source model&rdquo; in a confused and "
+"ambiguous way.  Ostensibly it refers to how a program's source is "
+"distributed, but the text confuses this with the development methodology.  "
+"It distinguishes &ldquo;open source&rdquo; and &rdquo;shared source&rdquo; "
+"as answers, but they overlap &mdash; Microsoft uses that marketing term to "
+"cover a range of practices, some of which are &ldquo;open source&rdquo;.  "
+"Thus, this term seems to convey no coherent information, but it provides an "
+"opportunity to say &ldquo;open source&rdquo; in pages describing free "
+"software programs."
+msgstr ""
+"Wikipedia utilise l'expression « modèle de code source » de manière confuse "
+"et ambiguë. Ostensiblement, il s'agit de la manière dont le code source d'un "
+"programme est distribué, mais le texte confond ceci avec la méthodologie de "
+"développement. Il distingue <cite>open source</cite> (code source ouvert) et "
+"<cite>shared source</cite> (code source partagé), mais ces deux approches se "
+"recouvrent ; Microsoft utilise ce terme de marketing pour couvrir un large "
+"éventail de pratiques, dont certaines sont « open source ». Cette expression "
+"ne semble donc pas véhiculer une information cohérente, mais en revanche "
+"elle donne l'occasion de parler d'« open source » dans des pages qui "
+"décrivent des programmes libres."
 
 #. type: Content of: <h4>
 msgid "&ldquo;Theft&rdquo;"
