@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: free-sw.html\n"
-"POT-Creation-Date: 2014-03-08 20:25+0000\n"
-"PO-Revision-Date: 2014-04-19 13:57+0200\n"
+"POT-Creation-Date: 2014-05-26 10:56+0000\n"
+"PO-Revision-Date: 2014-05-27 12:57+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -212,6 +212,18 @@ msgstr ""
 "programme comme bon vous semble et, si vous le redistribuez à quelqu'un "
 "d'autre, cette personne est libre de l'exécuter comme bon lui semble, mais "
 "vous n'êtes pas autorisé à lui imposer vos conditions."
+
+#. type: Content of: <p>
+msgid ""
+"The freedom to run the program as you wish means that you are not forbidden "
+"or stopped from doing so.  It has nothing to do with what functionality the "
+"program has, or whether it is useful for what you want to do."
+msgstr ""
+"Que vous soyez libre d'exécuter le programme comme vous le souhaitez "
+"signifie que personne ne vous interdit ou ne vous empêche de le faire. Cela "
+"n'a rien à voir avec telle ou telle fonctionnalité que possède, ou non, le "
+"programme, ou avec le fait qu'il soit utile, ou non, pour ce que vous voulez "
+"faire.  "
 
 #. type: Content of: <p>
 msgid ""
@@ -708,6 +720,16 @@ msgstr ""
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?"
+"root=www&amp;r1=1.133&amp;r2=1.134\">Version 1.134</a>: Freedom 0 is not a "
+"matter of the program's functionality."
+msgstr ""
+"<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?"
+"root=www&amp;r1=1.133&amp;r2=1.134\">Version 1.134</a>: La liberté 0 ne fait "
+"pas intervenir la fonctionnalité du programme."
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?"
 "root=www&amp;r1=1.130&amp;r2=1.131\">Version 1.131</a>: A free license may "
 "not require compliance with a nonfree license of another program."
 msgstr ""
@@ -1019,7 +1041,7 @@ msgstr ""
 "\"#TransNote5-rev\" class=\"nounderline\">&#8593;</a></li>\n"
 "</ol>"
 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
@@ -1044,7 +1066,7 @@ msgstr ""
 #.         our web pages, see <a
 #.         href="/server/standards/README.translations.html">Translations
 #.         README</a>. 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
