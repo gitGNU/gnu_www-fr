@@ -2,13 +2,13 @@
 # Copyright (C) 2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the original article.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2009.
-# Thérèse Godefroy <godef.th AT free.fr>, 2012.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: fs-motives.html\n"
-"POT-Creation-Date: 2013-12-02 06:28+0000\n"
-"PO-Revision-Date: 2013-12-02 09:55+0100\n"
+"POT-Creation-Date: 2014-06-12 06:25+0000\n"
+"PO-Revision-Date: 2014-06-12 09:13+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  \n"
+"X-Generator: Gtranslator 2.91.5\n"
 
 #. type: Content of: <title>
 msgid ""
@@ -176,6 +177,19 @@ msgstr ""
 "les encourageant à prendre part à un projet existant de logiciel libre, ou "
 "en organisant un projet de logiciel libre à leur intention."
 
+#. type: Content of: <dl><dt>
+msgid "Community."
+msgstr "La communauté"
+
+#. type: Content of: <dl><dd>
+msgid ""
+"Being part of a community by collaborating with other people in public free "
+"software projects is a motive for many programmers."
+msgstr ""
+"Faire partie d'une communauté, interagir avec d'autres personnes en "
+"collaborant à des projets publics de logiciel libre, constitue une "
+"motivation pour nombre de programmeurs."
+
 #. type: Content of: <p>
 msgid ""
 "Human nature is complex, and it is quite common for a person to have "
@@ -217,7 +231,7 @@ msgstr ""
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
@@ -242,7 +256,7 @@ msgstr ""
 #.         our web pages, see <a
 #.         href="/server/standards/README.translations.html">Translations
 #.         README</a>. 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
