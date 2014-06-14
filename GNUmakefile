@@ -75,14 +75,14 @@ DIFF_PO := $(shell which gnun-diff-po)
 ifneq (,$(DIFF_PO))
 DIFF_PO_LANG := $(shell \
   locale \
-  | if locale | egrep -q "^LC_ALL=."; then \
+  | if locale | egrep "^LC_ALL=." > /dev/null; then \
       grep "^LC_ALL"; \
     else \
       cat; \
     fi \
-  | egrep -q -i "=.*utf-?8" \
-  || locale -a | sed 's/^/LC_ALL=/' | egrep -m 1 "en_US\.utf-?8" \
-  || locale -a | sed 's/^/LC_ALL=/' | egrep -m 1 "\.utf-?8" || true;)
+  | egrep -i "=.*utf-?8" > /dev/null \
+  || locale -a | sed 's/^/LC_ALL=/;/en_US\.utf-?8/!d;q' | egrep "." \
+  || locale -a | sed 's/^/LC_ALL=/;/\.utf-?8/!d;q';)
 DIFF_PO := $(DIFF_PO_LANG) $(DIFF_PO)
 endif
 endif
@@ -175,7 +175,7 @@ else ifeq ($(REPO),Arch)
 	$(TLA) update
 endif
 else
-	$(echo "")
+	$(info Repositories were not updated, you might want "make VCS=yes".)
 endif
 
 # Synchronize (update) the PO files from the master POTs.
@@ -194,7 +194,7 @@ else ifeq ($(REPO),SVN)
 else ifeq ($(REPO),Bzr)
 # The behavior of `bzr commit' is not very script-friendly: it will
 # exit with an error if there are no changes to commit.
-	if $(BZR) status --versioned --short | grep --quiet '^ M'; then \
+	if $(BZR) status --versioned --short | grep '^ M' > /dev/null; then \
 	  $(BZR) commit $(QUIET) -m $(log) && $(BZR) push $(QUIET); \
 	else \
 	  true; \
@@ -234,15 +234,15 @@ sync-master := sync-master
 endif
 endif
 
-# The command to compare PO files; comments and dates are generally
-# considered insignificant.  The msgfmt output is compared
-# in order to take into account the case when they only differ
-# by the `fuzzy' flags (present in one file, cleared in the other).
+# The command to compare PO files; "extracted" comments (including
+# `# type: ...'), old messages, dates are considered insignificant.
 define cmp-POs
-diff -q -I "^$$" -I "^#" -I '^"POT-Creation-Date:' \
-  -I '^"PO-Revision-Date:' -I '^"Outdated-Since:' &>/dev/null $1 $2 \
-  && test "x`$(MSGFMT) -o /dev/null --statistics $1 2>&1`" \
-     = "x`$(MSGFMT) -o /dev/null --statistics $2 2>&1`"
+{ $(MSGATTRIB) --no-obsolete --force-po -w 79 -o $1.tmp.po $1; \
+  $(MSGATTRIB) --no-obsolete --force-po -w 79 $2 \
+  | diff $1.tmp.po - | grep '^[<>] ' | egrep -v \
+'^..($$|#\. |# type: |"(POT-Creation-Date|PO-Revision-Date|(X-)?Outdated-Since):)' \
+   > /dev/null; \
+  status=$$?; rm $1.tmp.po; test $$status != 0; }
 endef
 
 # Merge a file.
@@ -373,29 +373,43 @@ root-articles-pot := $(root-articles:%=%.pot)
 pots := $(articles-pot) $(root-articles-pot) $(template-pots)
 endif # ! eq (,$(ALL_DIRS))
 
+pos := \
+$(wildcard $(patsubst %.pot,%.$(TEAM).po,$(filter %.pot,$(pots)))\
+  $(patsubst %.pot.opt,%.$(TEAM).po,$(filter %.pot.opt,$(pots))))
+team-pos := \
+$(wildcard $(patsubst $(wwwdir)%,%,$(subst /po/,/,$(pos))))
+htmls := \
+$(wildcard $(subst /po/,/,\
+             $(patsubst %.pot.opt,%.$(TEAM).html, $(filter %.pot.opt,$(pots)))\
+             $(patsubst %.pot,%.$(TEAM).html, $(filter %.pot,$(pots)))))
+
 # Team's translations that lack PO file.
-# Note: optional templates can't have HTML translations, so grep -v '\.opt$$'.
-html-only := $(shell echo $(pots) | sed 's/ /\n/g' \
-  | grep -v '\.opt$$' | while read pot; do \
-      po=$${po%pot}$(TEAM).po; \
-      team_po=`echo $$po | sed 's,/po/,/,; s,^$(wwwdir),./,'`; \
-      html=$${po%po}html; html=$${html/\/po\//\/}; \
-      if ! test -f $$po && ! test -f $$team_po && test -f $$html; then \
-        echo $${team_po}; \
-      fi; \
-    done)
+# Note: optional templates can't have HTML translations, so $(filter %.pot...
+html-only := \
+$(strip \
+  $(foreach pot, $(filter %.pot,$(pots)),\
+    $(if $(findstring $(subst /po/,/,$(pot:%.pot=%.$(TEAM).html)),$(htmls)),\
+      $(if $(or $(findstring $(pot:%.pot=%.$(TEAM).po),$(pos)),\
+             $(findstring $(subst /po/,/,$(pot)),\
+               $(addprefix $(wwwdir),$(team-pos)))\
+            ),,\
+        $(patsubst $(wwwdir)%.pot,%.$(TEAM).po,$(subst /po/,/,$(pot)))))\
+   )\
+ )
 $(eval $(call sorted-files,html,${html-only}))
 
 # Team's translations that lack PO file.
-www-only := $(shell echo $(pots) | sed 's/ /\n/g' \
-  | while read pot; do \
-      po=$${pot%.opt}; po=$${po%pot}$(TEAM).po; \
-      team_po=`echo $$po | sed 's,/po/,/,; s,^$(wwwdir),./,'`; \
-      html=$${po%po}html; html=$${html/\/po\//\/}; \
-      if test -f $$po && ! test -f $$team_po; then \
-        echo $${team_po}; \
-      fi; \
-    done)
+www-only := \
+$(strip \
+  $(foreach base, $(patsubst %.pot.opt,%,$(filter %.pot.opt,$(pots)))\
+                  $(patsubst %.pot,%,$(filter %.pot,$(pots))),\
+    $(if $(findstring $(base).$(TEAM).po,$(pos)),\
+      $(if $(findstring $(subst /po/,/,$(base)).$(TEAM).po,\
+             $(addprefix $(wwwdir),$(team-pos))),,\
+        $(patsubst $(wwwdir)%,%.$(TEAM).po,$(subst /po/,/,$(base))))\
+     )\
+   )\
+ )
 $(eval $(call sorted-files,www,${www-only}))
 
 # Function to report a group of PO files.
@@ -587,11 +601,11 @@ $(1).note.tmp: report.txt nottab $(wildcard email-aliases)
 	sed "s/^/@/" report.txt \
 	| while read line; do \
 	    line="$$$${line#@}"; \
-	    if echo "$$$$line" | egrep -q "^( |$$$$)"; then \
+	    if echo "$$$$line" | egrep "^( |$$$$)" > /dev/null; then \
 	      echo "$$$$line"; continue; \
 	    fi; \
 	    file="$$$${line%%:*}"; \
-	    if echo $$$$file | egrep -q "$$$$regex"; then \
+	    if echo $$$$file | egrep "$$$$regex" > /dev/null; then \
 	      echo "$$$$line"; \
 	    fi; \
 	  done > $(1).note.tmp
@@ -634,7 +648,7 @@ ifneq (,$(HAVE-EMAIL-ALIASES))
   case ",$$$$flags," in \
     *,force,* ) ;; \
     * ) \
-      grep -q : $(1).note &>/dev/null || notify=no; \
+      grep : $(1).note &> /dev/null || notify=no; \
       ;; \
   esac; \
   case $$$$notify in \
@@ -674,7 +688,7 @@ ifneq (,$(HAVE-EMAIL-ALIASES))
       | while read line; do \
 	  line="$$$${line#@}"; \
 	  echo -n "$$$$line"; \
-	  if echo "$$$$line" | grep -q "^[^ ]" ; then \
+	  if echo "$$$$line" | grep "^[^ ]" > /dev/null ; then \
 	    file=$$$${line%%:*}; name=$$$${file##*/}; dir=$$$${file%/*}/; \
 	    if test ".$$$$dir" = ".$$$$file/"; then dir=""; fi; \
 	    head="  ("; \
@@ -688,7 +702,7 @@ ifneq (,$(HAVE-EMAIL-ALIASES))
 	      echo -n "$$$${head}$(WWW_URL)$$$${dir}po/$$$$name"; \
 	      head="   "; \
 	    fi; \
-	    if echo "$$$$line" | grep -qF "HTML-only translation"; then \
+	    if echo "$$$$line" | grep -F "HTML-only translation" > /dev/null; then \
 	      echo; \
 	      echo -n "$$$${head}$(WWW_URL)$$$$dir$$$${name%po}html"; \
 	      head="   "; \
