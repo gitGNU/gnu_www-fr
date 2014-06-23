@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: words-to-avoid.html\n"
-"POT-Creation-Date: 2014-06-17 16:57+0000\n"
-"PO-Revision-Date: 2014-06-17 19:44+0200\n"
+"POT-Creation-Date: 2014-06-21 14:55+0000\n"
+"PO-Revision-Date: 2014-06-23 09:51+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -217,6 +217,10 @@ msgstr "« <a href=\"#SaaS\">SaaS</a> » |"
 #. type: Content of: <p>
 msgid "&ldquo;<a href=\"#SellSoftware\">Sell software</a>&rdquo; |"
 msgstr "« <a href=\"#SellSoftware\">vendre des logiciels</a> » |"
+
+#. type: Content of: <p>
+msgid "&ldquo;<a href=\"#SharingEconomy\">Sharing economy</a>&rdquo; |"
+msgstr "&ldquo;<a href=\"#SharingEconomy\">Économie de partage</a>&rdquo; |"
 
 #. type: Content of: <p>
 msgid "&ldquo;<a href=\"#SoftwareIndustry\">Software Industry</a>&rdquo; |"
@@ -1682,6 +1686,34 @@ msgid ""
 msgstr ""
 "Consulter l'article <a href=\"/philosophy/selling.html\">vendre des "
 "logiciels libres</a> pour une discussion plus détaillée sur le sujet."
+
+#. type: Content of: <h4>
+msgid "&ldquo;Sharing economy&rdquo;"
+msgstr "« Économie de partage »"
+
+#. type: Content of: <p>
+msgid ""
+"People often use the term &ldquo;sharing economy&rdquo; to refer to services "
+"such as Uber and Airbnb that arrange business deals between people.  We use "
+"the term &ldquo;sharing&rdquo; to refer to noncommercial cooperation, "
+"including noncommercial redistribution of exact copies of published works.  "
+"Stretching the word &ldquo;sharing&rdquo; undermines its meaning, so we "
+"don't use it in this context."
+msgstr ""
+"Les gens parlent d'« économie de partage » pour désigner des services comme "
+"Uber et Airbnb qui arrangent des transactions entre particuliers. Nous "
+"utilisons le terme « partage » pour désigner une coopération non "
+"commerciale, en particulier la redistribution non commerciale de copies "
+"exactes d'œuvres publiées. Une utilisation plus étendue dénature le sens du "
+"mot, donc nous ne l'appliquons pas au contexte commercial."
+
+#. type: Content of: <p>
+msgid ""
+"A better term for these businesses is &ldquo;interpeer transaction brokers."
+"&rdquo;"
+msgstr ""
+"Pour définir ces entreprises, il y a une expression plus appropriée : "
+"« intermédiaires de transactions entre particuliers ». "
 
 #. type: Content of: <h4>
 msgid "&ldquo;Software Industry&rdquo;"
