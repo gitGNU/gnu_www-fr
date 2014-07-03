@@ -1,13 +1,13 @@
 # French translation of http://www.gnu.org/philosophy/latest-articles.html
 # Copyright (C) 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the original article.
-# Thérèse Godefroy <godef.th AT free.fr>, 2012, 2013.
+# Thérèse Godefroy <godef.th AT free.fr>, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: latest-articles.html\n"
-"POT-Creation-Date: 2013-11-21 04:25+0000\n"
-"PO-Revision-Date: 2013-12-15 22:52+0100\n"
+"POT-Creation-Date: 2014-07-01 13:29+0000\n"
+"PO-Revision-Date: 2014-07-03 07:59+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Latest Articles - GNU Project - Free Software Foundation"
 msgstr "Derniers articles - projet GNU - Free Software Foundation"
 
-#. type: Content of: <div><h2>
+#. type: Content of: <h2>
 msgid "Philosophy of the GNU Project &mdash; Latest Articles"
 msgstr "Philosophie du projet GNU – derniers articles"
 
@@ -32,6 +32,14 @@ msgid ""
 msgstr ""
 "Tout chauds sortis des presses, voici les derniers articles publiés sur le "
 "logiciel libre et le projet GNU."
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"/philosophy/imperfection-isnt-oppression.html\"> Imperfection is "
+"not the same as oppression</a>"
+msgstr ""
+"<a href=\"/philosophy/imperfection-isnt-oppression.html\"> Imperfection ne "
+"veut pas dire oppression</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"/philosophy/floss-and-foss.html\"> FLOSS and FOSS</a>"
@@ -242,7 +250,7 @@ msgstr ""
 msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
 msgstr " "
 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
@@ -267,7 +275,7 @@ msgstr ""
 #.         our web pages, see <a
 #.         href="/server/standards/README.translations.html">Translations
 #.         README</a>. 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
