@@ -7,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ebooks.html\n"
-"POT-Creation-Date: 2013-04-02 20:55-0300\n"
+"POT-Creation-Date: 2014-03-31 06:29+0000\n"
 "PO-Revision-Date: 2014-04-19 13:57+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  \n"
 
@@ -50,7 +50,7 @@ msgstr ""
 "<em>(Ceci est une version légèrement modifiée d'un article publié dans </"
 "em>Technology Review<em> en 2000.)</em>"
 
-#. type: Content of: <div>
+#. type: Content of: <blockquote><p>
 msgid ""
 "<a href=\"http://defectivebydesign.org/ebooks.html\">Join our mailing list "
 "about the dangers of eBooks</a>."
@@ -283,7 +283,7 @@ msgstr ""
 "<li id=\"TransNote2\">Loi sur le copyright du millénaire numérique. <a href="
 "\"#TransNote2-rev\" class=\"nounderline\">&#8593;</a></li></ol>"
 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
 "\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
@@ -308,7 +308,7 @@ msgstr ""
 #.         our web pages, see <a
 #.         href="/server/standards/README.translations.html">Translations
 #.         README</a>. 
-#. type: Content of: <div><p>
+#. type: Content of: <div><div><p>
 msgid ""
 "Please see the <a href=\"/server/standards/README.translations.html"
 "\">Translations README</a> for information on coordinating and submitting "
