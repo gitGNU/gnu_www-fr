@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: outdated.html\n"
-"POT-Creation-Date: 2014-07-14 09:55+0000\n"
+"POT-Creation-Date: 2014-07-22 15:55+0000\n"
 "PO-Revision-Date: 2014-07-14 13:25+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -87,7 +87,7 @@ msgid "<span class=\"outdated-html-dummy-span\">.</span>"
 msgstr "."
 
 #. #endif 
-#. #if expr='${LANGUAGE_SUFFIX} = /^[.](fr|es)$/' 
+#. #if expr='${LANGUAGE_SUFFIX} = /^[.](de|es|fr)$/' 
 #. TRANSLATORS: Please replace web-translators@gnu.org with the email address
 #.              of your translation team. 
 #. type: Content of: outside any tag (error?)
