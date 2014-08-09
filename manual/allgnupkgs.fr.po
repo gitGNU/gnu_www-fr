@@ -9,13 +9,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: allgnupkgs.html\n"
-"POT-Creation-Date: 2014-06-03 23:26+0000\n"
-"PO-Revision-Date: 2014-06-04 08:35+0200\n"
+"POT-Creation-Date: 2014-08-08 22:56+0000\n"
+"PO-Revision-Date: 2014-08-09 09:58+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Gtranslator 2.91.5\n"
 "Plural-Forms: \n"
@@ -1965,6 +1965,18 @@ msgid ""
 msgstr ""
 "Logiciel de statistique avec production de graphiques. [<a href=\"/software/"
 "dap/\">dap – accueil</a>]"
+
+#. type: Content of: <table><tr><td>
+msgid "* <a href=\"/software/datamash/\">Datamash</a>"
+msgstr "* <a href=\"/software/datamash/\">Datamash</a>"
+
+#. type: Content of: <table><tr><td>
+msgid ""
+"Scriptable statistics and data calculation.  [<a href=\"/software/datamash/"
+"\">datamash&nbsp;home</a>]"
+msgstr ""
+"Fonctions statistiques utilisables dans des scripts et calculs sur les "
+"données. [<a href=\"/software/datamash/\">datamash&nbsp;home</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/bc/manual/dc-1.05/\">Dc</a>"
@@ -4000,19 +4012,8 @@ msgid "* <a href=\"/software/libc/manual/\">GNU C Library</a>"
 msgstr "* <a href=\"/software/libc/manual/\">GNU C Library</a>"
 
 #. type: Content of: <table><tr><td>
-msgid "C library."
-msgstr "Bibliothèque C."
-
-#. type: Content of: <table><tr><td>
-msgid ""
-"Available in print: <cite><a href=\"http://shop.fsf.org/product/gnu-c-"
-"library-application-fundamentals/\">GNU C Library Application Fundamentals "
-"(Vol.1)</a></cite>.  [<a href=\"/software/libc/\">libc&nbsp;home</a>]"
-msgstr ""
-"Disponible en version imprimée : <cite><a href=\"http://shop.fsf.org/product/"
-"gnu-c-library-application-fundamentals/\">GNU C Library Application "
-"Fundamentals (Vol.1)</a></cite> (Fondamentaux de l'application des "
-"bibliothèques C de GNU).  [<a href=\"/software/libc/\">libc – accueil</a>]"
+msgid "C library.  [<a href=\"/software/libc/\">libc&nbsp;home</a>]"
+msgstr "Bibliothèque C. [<a href=\"/software/libc/\">libc&nbsp;home</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/libffcall/\">Libffcall</a>"
