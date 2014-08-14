@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: allgnupkgs.html\n"
 "POT-Creation-Date: 2014-08-08 22:56+0000\n"
-"PO-Revision-Date: 2014-08-09 09:58+0200\n"
+"PO-Revision-Date: 2014-08-14 22:59+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -460,7 +460,7 @@ msgid ""
 "\">libdbh&nbsp;home</a>]"
 msgstr ""
 "Bibliothèque évoluée pour les tables de hachage basées sur disque. [<a href="
-"\"/software/slibh/\">slibh – accueil</a>]"
+"\"/software/libdbh/\">libdbh – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/metaexchange/#Documentation\">Metaexchange</a>"
@@ -2099,7 +2099,7 @@ msgid ""
 msgstr ""
 "Synthétiseur polyphonique soustractif à interface <abbr title=\"Musical "
 "Instrument Digital Interface\">MIDI</abbr>, utilisant la bibliothèque "
-"curses. [<a href=\"/software/psychosynth/\">psychosynth – accueil</a>]"
+"curses. [<a href=\"/software/cursynth/\">cursynth – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/denemo/\">Denemo</a>"
@@ -2368,7 +2368,7 @@ msgid ""
 "lims/\">lims&nbsp;home</a>]"
 msgstr ""
 "Système de gestion informatisée pour les laboratoires scientifiques. [<a "
-"href=\"/software/health/\">health – accueil</a>]"
+"href=\"/software/lims/\">lims – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid ""
@@ -2465,7 +2465,7 @@ msgid ""
 "software/gnu-pw-mgr/\">gnu-pw-mgr&nbsp;home</a>]"
 msgstr ""
 "Récupère les identifiants de connexion sans enregistrer les mots de passe. "
-"[<a href=\"/software/gnucap/\">gnuae – accueil</a>]"
+"[<a href=\"/software/gnu-pw-mgr/\">gnu-pw-mgr – accueil</a>]"
 
 #.  again 
 #. type: Content of: <table><tr><td>
@@ -2766,8 +2766,8 @@ msgid ""
 "Ubiquitious config.guess and config.sub scripts.  [<a href=\"/software/"
 "config/\">config&nbsp;home</a>]"
 msgstr ""
-"Scripts config.guess et config.sub polyvalents. [<a href=\"/software/"
-"complexity/\">complexity – accueil</a>]"
+"Scripts config.guess et config.sub polyvalents. [<a href=\"/software/config/"
+"\">config – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/coreutils/manual/\">Coreutils</a>"
@@ -3916,7 +3916,9 @@ msgstr "* <a href=\"/software/goptical/manual/\">Goptical</a>"
 msgid ""
 "C++ optical design and simulation library.  [<a href=\"/software/goptical/"
 "\">goptical&nbsp;home</a>]"
-msgstr "Bibliothèque pour la conception et la simulation en optique."
+msgstr ""
+"Bibliothèque C++ pour la conception et la simulation en optique. [<a href=\"/"
+"software/goptical/\">goptical – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/gsasl/manual/\">Gsasl</a>"
@@ -4189,7 +4191,7 @@ msgid ""
 "mpria/\">mpria&nbsp;home</a>]"
 msgstr ""
 "Bibliothèque C pour l'arithmétique multiprécision des nombres rationnels. "
-"[<a href=\"/software/mpfr/\">mpria – accueil</a>]"
+"[<a href=\"/software/mpria/\">mpria – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/nana/\">Nana</a>"

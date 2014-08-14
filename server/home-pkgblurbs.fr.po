@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
 "POT-Creation-Date: 2014-08-08 22:56+0000\n"
-"PO-Revision-Date: 2014-08-09 09:59+0200\n"
+"PO-Revision-Date: 2014-08-14 23:00+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -1517,7 +1517,8 @@ msgstr ""
 "GNU FisicaLab est une application éducative pour résoudre des problèmes de "
 "physique. Elle a pour but principal de permettre à l'utilisateur de porter "
 "toute son attention aux concepts de physique en laissant de côté les détails "
-"mathématiques."
+"mathématiques.  <small>(<a href=\"/manual/manual.html#fisicalab\">doc</a>)</"
+"small>"
 
 #.  TRANSLATORS: stale 
 #. type: Content of: <h4>
@@ -2313,7 +2314,7 @@ msgstr ""
 "basé sur des réseaux neuronaux artificiels, qui convient aussi bien aux "
 "débutants qu'aux joueurs avancés. Outre son interface en ligne de commande, "
 "elle se distingue par un représentation 3D attrayante du tablier.  <small>"
-"(<a href=\"/manual/manual.html#gnubatch\">doc</a>)</small>"
+"(<a href=\"/manual/manual.html#gnubg\">doc</a>)</small>"
 
 #. type: Attribute 'alt' of: <h4><img>
 msgid "logo for gnubiff"
