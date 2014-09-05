@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: free-distros.html\n"
-"POT-Creation-Date: 2014-08-22 15:56+0000\n"
-"PO-Revision-Date: 2014-08-23 09:37+0200\n"
+"POT-Creation-Date: 2014-09-04 19:59+0000\n"
+"PO-Revision-Date: 2014-09-05 09:42+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -276,6 +276,24 @@ msgstr ""
 "autonome, mais on doit pouvoir la développer et la compiler sur un des "
 "systèmes complets libres cités plus haut, éventuellement à l'aide d'outils "
 "libres distribués avec le système léger lui-même."
+
+#. type: Content of: <table><tr><td><a>
+msgid "<a href=\"http://librecmc.org/\">"
+msgstr "<a href=\"http://librecmc.org/\">"
+
+#. type: Attribute 'alt' of: <table><tr><td><a><img>
+msgid "libreCMC"
+msgstr "lbreCMC"
+
+#. type: Content of: <table><tr><td>
+msgid ""
+"libreCMC is an embedded GNU/Linux distro for devices with very limited "
+"resources. While primarily targeting routers, it offers support for a wide "
+"range of devices and use cases."
+msgstr ""
+"LibreCMC est un système GNU/Linux embarqué pour des appareils à ressources "
+"limitées. Bien que sa cible principale soit les routeurs, il peut s'adapter "
+"à une large gamme d'appareils et d'usages."
 
 #. type: Content of: <table><tr><td><a>
 msgid "<a href=\"http://librewrt.org/\">"
