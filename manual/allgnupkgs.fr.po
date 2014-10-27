@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: allgnupkgs.html\n"
-"POT-Creation-Date: 2014-08-08 22:56+0000\n"
-"PO-Revision-Date: 2014-08-14 22:59+0200\n"
+"POT-Creation-Date: 2014-10-26 23:26+0000\n"
+"PO-Revision-Date: 2014-10-27 12:21+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -3623,9 +3623,9 @@ msgstr ""
 
 #. type: Content of: <table><tr><td>
 msgid ""
-"* <a href=\"http://www.swiss.ai.mit.edu/~jaffer/slib_toc.html\">SLIB</a>"
+"* <a href=\"http://people.csail.mit.edu/jaffer/slib/index.html\">SLIB</a>"
 msgstr ""
-"* <a href=\"http://www.swiss.ai.mit.edu/~jaffer/slib_toc.html\">SLIB</a>"
+"* <a href=\"http://people.csail.mit.edu/jaffer/slib/index.html\">SLIB</a>"
 
 #. type: Content of: <table><tr><td>
 msgid ""
@@ -4362,6 +4362,19 @@ msgstr ""
 "\">ddrescue – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
+msgid "* <a href=\"/software/direvent/\">Direvent</a>"
+msgstr "* <a href=\"/software/direvent/\">Direvent</a>"
+
+#. type: Content of: <table><tr><td>
+msgid ""
+"Daemon to monitor directories for events such as file removal.  [<a href=\"/"
+"software/direvent/\">direvent&nbsp;home</a>]"
+msgstr ""
+"Démon de surveillance des répertoires, sensible à des événements comme la "
+"suppression de fichiers.  [<a href=\"/software/direvent/\">direvent&nbsp;"
+"home</a>]"
+
+#. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/dmd/\">Dmd</a>"
 msgstr "* <a href=\"/software/dmd/\">Dmd</a>"
 
@@ -4770,7 +4783,7 @@ msgstr ""
 
 #. type: Content of: <table><tr><td>
 msgid ""
-"A text scanning and processing language.  [<a href=\"/software/gawk/"
+"Text scanning and processing language.  [<a href=\"/software/gawk/"
 "\">gawk&nbsp;home</a>]"
 msgstr ""
 "Un langage pour scanner et modifier du texte. [<a href=\"/software/gawk/"
@@ -5161,10 +5174,3 @@ msgid ""
 msgstr ""
 "XML simple pour la définition et l'implémentation de langages de balises. "
 "[<a href=\"/software/xmlat/\">xmlat – accueil</a>]"
-
-#~ msgid ""
-#~ "* <a href=\"http://wmi.math.u-szeged.hu/xaos/doku.php?id=documentation:"
-#~ "main\">XaoS</a>"
-#~ msgstr ""
-#~ "* <a href=\"http://wmi.math.u-szeged.hu/xaos/doku.php?id=documentation:"
-#~ "main\">XaoS</a>"
