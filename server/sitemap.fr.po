@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
-"POT-Creation-Date: 2014-09-19 16:59+0000\n"
-"PO-Revision-Date: 2014-09-19 22:21+0200\n"
+"POT-Creation-Date: 2014-10-31 16:56+0000\n"
+"PO-Revision-Date: 2014-10-31 21:07+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -5691,7 +5691,15 @@ msgstr "<a href=\"/software/for-windows.html\">for-windows.html</a>"
 
 #. type: Content of: <div><dl><dd><dl><dd>
 msgid "Free Software for Windows"
-msgstr "Free Software for Windows"
+msgstr "Logiciels libres pour Windows"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid "<a href=\"/software/maintainer-tips.html\">maintainer-tips.html</a>"
+msgstr "<a href=\"/software/maintainer-tips.html\">maintainer-tips.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Tips for new GNU maintainers"
+msgstr "Tips for new GNU maintainers"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/software/README.accounts.html\">README.accounts.html</a>"
@@ -5743,7 +5751,7 @@ msgstr ""
 
 #. type: Content of: <div><dl><dd><span>
 msgid "GNU Testimonials"
-msgstr "Témoignages"
+msgstr "Témoignages sur GNU"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/testimonials/reliable.html\">reliable.html</a>"
