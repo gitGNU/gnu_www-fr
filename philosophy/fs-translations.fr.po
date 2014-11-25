@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fs-translations.html\n"
 "POT-Creation-Date: 2014-11-25 01:25+0000\n"
-"PO-Revision-Date: 2014-11-06 09:43+0100\n"
+"PO-Revision-Date: 2014-11-25 14:03+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -230,11 +230,8 @@ msgid "German"
 msgstr "allemand"
 
 #. type: Content of: <table><tr><td>
-# | Fre{+i+}e Software
-#, fuzzy
-#| msgid "Free Software"
 msgid "Freie Software"
-msgstr "<cite>Free Software</cite>"
+msgstr "Freie Software"
 
 #. type: Content of: <table><tr><td>
 msgid "Gratis-Software / Kostenlose Software"
@@ -1023,6 +1020,3 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
-
-#~ msgid "freie Software"
-#~ msgstr "freie Software"
