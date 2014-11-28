@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: free-distros.html\n"
 "POT-Creation-Date: 2014-11-27 23:55+0000\n"
-"PO-Revision-Date: 2014-11-21 10:04+0100\n"
+"PO-Revision-Date: 2014-11-28 09:47-0400\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -30,35 +30,26 @@ msgstr ""
 msgid "Free GNU/Linux distributions"
 msgstr "Distributions GNU/Linux libres"
 
-#. type: Content of: <blockquote><p>
 # | <em><span class=\"highlight\">The [-FSF-] {+<a
 # | href=\"http://www.fsf.org/\">Free Software Foundation</a>+} is not
 # | responsible for other web sites, or how up-to-date their information
 # | is.</span></em>
-#, fuzzy
-#| msgid ""
-#| "<em><span class=\"highlight\">The FSF is not responsible for other web "
-#| "sites, or how up-to-date their information is.</span></em>"
+#. type: Content of: <blockquote><p>
 msgid ""
 "<em><span class=\"highlight\">The <a href=\"http://www.fsf.org/\">Free "
 "Software Foundation</a> is not responsible for other web sites, or how up-to-"
 "date their information is.</span></em>"
 msgstr ""
-"<em><span class=\"highlight\">La FSF n'est pas responsable du contenu des "
-"autres sites web ni de l'actualisation de l'information qui s'y trouve.</"
-"span></em>"
+"<em><span class=\"highlight\">La <a href=\"http://www.fsf.org/\">Free "
+"Software Foundation</a> n'est pas responsable du contenu des autres sites "
+"web ni de l'actualisation de l'information qui s'y trouve.</span></em>"
 
-#. type: Content of: <p>
 # | This page lists the <a href=\"/gnu/linux-and-gnu.html\">GNU/Linux</a>
 # | distributions that are entirely <a
 # | href=\"/philosophy/free-sw.html\">free</a> as in freedom.  {+All of the
 # | distributions that follow are installable to a computer's hard drive; most
 # | can be run live.+}
-#, fuzzy
-#| msgid ""
-#| "This page lists the <a href=\"/gnu/linux-and-gnu.html\">GNU/Linux</a> "
-#| "distributions that are entirely <a href=\"/philosophy/free-sw.html"
-#| "\">free</a> as in freedom."
+#. type: Content of: <p>
 msgid ""
 "This page lists the <a href=\"/gnu/linux-and-gnu.html\">GNU/Linux</a> "
 "distributions that are entirely <a href=\"/philosophy/free-sw.html\">free</"
@@ -67,7 +58,9 @@ msgid ""
 msgstr ""
 "Cette page répertorie les distributions <a href=\"/gnu/linux-and-gnu.html"
 "\">GNU/Linux</a> qui sont entièrement <a href=\"/philosophy/free-sw.html"
-"\">libres</a> (comme dans liberté)."
+"\">libres</a> (comme dans liberté). Toutes les distributions listées ci-"
+"après sont installables sur le disque dur d'un ordinateur ; la plupart "
+"peuvent fonctionner en mode « live » (sans installation)."
 
 #. type: Content of: <p>
 msgid ""
@@ -102,21 +95,13 @@ msgstr ""
 "non libres et tout autre logiciel non libre, ainsi que les manuels et la "
 "documentation non libres."
 
-#. type: Content of: <p>
 # | If one of these distros ever does include or propose anything nonfree,
 # | that must have happened by mistake, and the developers [-commit-] {+are
 # | committed+} to removing it.  If you find nonfree software or documentation
 # | in one of these distributions, you can <a
 # | href=\"/help/gnu-bucks.html\">report the problem, and earn GNU Bucks</a>,
 # | while we inform the developers so they can fix the problem.
-#, fuzzy
-#| msgid ""
-#| "If one of these distros ever does include or propose anything nonfree, "
-#| "that must have happened by mistake, and the developers commit to removing "
-#| "it.  If you find nonfree software or documentation in one of these "
-#| "distributions, you can <a href=\"/help/gnu-bucks.html\">report the "
-#| "problem, and earn GNU Bucks</a>, while we inform the developers so they "
-#| "can fix the problem."
+#. type: Content of: <p>
 msgid ""
 "If one of these distros ever does include or propose anything nonfree, that "
 "must have happened by mistake, and the developers are committed to removing "
@@ -132,15 +117,10 @@ msgstr ""
 "\">le signaler, et ainsi gagner des <em>GNU bucks</em></a> tandis que nous "
 "informons les développeurs pour qu'ils puissent remédier au problème."
 
-#. type: Content of: <p>
 # | Fixing freedom bugs is an ethical requirement for listing a distro here;
 # | therefore, we list only {+those+} distros that are currently maintained by
 # | people who are ready to fix them.
-#, fuzzy
-#| msgid ""
-#| "Fixing freedom bugs is an ethical requirement for listing a distro here; "
-#| "therefore, we list only distros that are currently maintained by people "
-#| "who are ready to fix them."
+#. type: Content of: <p>
 msgid ""
 "Fixing freedom bugs is an ethical requirement for listing a distro here; "
 "therefore, we list only those distros that are currently maintained by "
