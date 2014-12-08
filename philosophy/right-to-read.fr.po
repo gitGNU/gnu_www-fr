@@ -4,13 +4,14 @@
 # Pierre Sarrazin, 1999.
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008, 2009.
 # Thérèse Godefroy <godef.th AT free.fr>, 2011, 2012.
+# Sébastien Poher <sbphr @T volted.net>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: right-to-read.html\n"
 "POT-Creation-Date: 2014-12-08 13:27+0000\n"
 "PO-Revision-Date: 2014-12-08 12:43-0400\n"
-"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
+"Last-Translator: Sébastien Poher <sbphr @T volted.net>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -315,7 +316,6 @@ msgstr ""
 "rapport au long bras de la SPA. Quand la révolte de Tycho commença en 2062, "
 "le droit universel de lire devint bientôt un de ses objectifs principaux."
 
-# | Author's Note{+s+}
 #. type: Content of: <h3>
 msgid "Author's Notes"
 msgstr "Notes de l'auteur"
@@ -329,16 +329,14 @@ msgid ""
 "today so as to sound even more oppressive. See <a href=\"/philosophy/words-"
 "to-avoid.html#Piracy\">&ldquo;Piracy&rdquo;</a>."
 msgstr ""
-"Cette histoire est un prétendu article historique qui sera écrit dans le "
-"futur par quelqu'un d'autre et décrivant la jeunesse de Dan Halbert au sein "
-"d'une société répressive mise en place par des ennemis utilisant le mot "
-"« pirate » comme de la propagande. La terminologie de cette société y est "
-"donc employée. J'ai tenté d'adopter le point de vue de notre époque afin de "
-"renforcer l'impression de tyrannie. Consultez <a href=\"/philosophy/words-to-"
-"avoid.html#Piracy\">« Piratage »</a>."
+"Cette histoire est un article historique fictif qui sera écrit dans le futur "
+"par quelqu'un d'autre pour décrire la jeunesse de Dan Halbert au sein d'une "
+"société répressive mise en place par des ennemis utilisant le mot « pirate » "
+"dans leur propagande. La terminologie de cette société y est donc employée. "
+"J'ai tenté d'adopter le point de vue de notre époque afin de renforcer "
+"l'impression de tyrannie. Consultez <a href=\"/philosophy/words-to-avoid."
+"html#Piracy\">« Piratage »</a>."
 
-# | [-[This-]{+The following+} note has been updated several times since the
-# | first publication of the story.[-]-]
 #. type: Content of: <ul><li><p>
 msgid ""
 "The following note has been updated several times since the first "
@@ -817,8 +815,6 @@ msgstr ""
 "traductions de nos pages web, reportez-vous au <a href=\"/server/standards/"
 "README.translations.html\">guide de traduction</a>."
 
-# | Copyright &copy; 1996, 2002, 2007, 2009, [-2010-] {+2010, 2014+} Richard
-# | Stallman
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 1996, 2002, 2007, 2009, 2010, 2014 Richard Stallman"
 msgstr "Copyright &copy; 1996, 2002, 2007, 2009, 2010, 2014 Richard Stallman"
