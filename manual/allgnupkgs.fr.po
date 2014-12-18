@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: allgnupkgs.html\n"
-"POT-Creation-Date: 2014-10-26 23:26+0000\n"
-"PO-Revision-Date: 2014-10-27 12:21+0100\n"
+"POT-Creation-Date: 2014-12-17 00:26+0000\n"
+"PO-Revision-Date: 2014-12-18 12:39+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -1256,8 +1256,8 @@ msgstr ""
 " accueil</a>]"
 
 #. type: Content of: <table><tr><td>
-msgid "* <a href=\"http://live.gnome.org/Dia/Documentation\">Dia</a>"
-msgstr "* <a href=\"http://live.gnome.org/Dia/Documentation\">Dia</a>"
+msgid "* <a href=\"http://wiki.gnome.org/Apps/Dia/Documentation\">Dia</a>"
+msgstr "* <a href=\"http://wiki.gnome.org/Apps/Dia/Documentation\">Dia</a>"
 
 #. type: Content of: <table><tr><td>
 msgid ""
@@ -1491,6 +1491,18 @@ msgstr ""
 "software/gxmessage/\">gxmessage – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
+msgid "* <a href=\"/software/inklingreader/\">Inklingreader</a>"
+msgstr "* <a href=\"/software/inklingreader/\">Inklingreader</a>"
+
+#. type: Content of: <table><tr><td>
+msgid ""
+"Wacom Inkling sketch format conversion and manipulation.  [<a href=\"/"
+"software/inklingreader/\">inklingreader&nbsp;home</a>]"
+msgstr ""
+"Conversion et manipulation du format de dessin Wacom Inkling. [<a href=\"/"
+"software/inklingreader/\">inklingreader – accueil</a>]"
+
+#. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/mc/\">Midnight Commander</a>"
 msgstr "* <a href=\"/software/mc/\">Midnight Commander</a>"
 
@@ -1715,11 +1727,10 @@ msgstr "* <a href=\"/software/jwhois/manual/\">Jwhois</a>"
 
 #. type: Content of: <table><tr><td>
 msgid ""
-"An extended whois client in Java.  [<a href=\"/software/jwhois/"
-"\">jwhois&nbsp;home</a>]"
+"An extended whois client.  [<a href=\"/software/jwhois/\">jwhois&nbsp;home</"
+"a>]"
 msgstr ""
-"Un client whois étendu en Java. [<a href=\"/software/jwhois/\">jwhois –"
-" accueil</a>]"
+"Un client whois étendu. [<a href=\"/software/jwhois/\">jwhois – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/librejs/manual/\">Librejs</a>"
@@ -2385,6 +2396,19 @@ msgid ""
 msgstr ""
 "Calculs thermodynamiques sur les doubles brins d'acides nucléiques. [<a href="
 "\"/software/melting/\">melting – accueil</a>]"
+
+#. type: Content of: <table><tr><td>
+msgid "* <a href=\"/software/nano-archimedes/\">Nano-archimedes</a>"
+msgstr "* <a href=\"/software/nano-archimedes/\">Nano-archimedes</a>"
+
+#. type: Content of: <table><tr><td>
+msgid ""
+"Simulation of quantum systems using the Wigner Monte Carlo method.  [<a href="
+"\"/software/nano-archimedes/\">nano-archimedes&nbsp;home</a>]"
+msgstr ""
+"Simulateur de systèmes quantiques utilisant la méthode de Monte Carlo avec "
+"correction de Wigner. <a href=\"/software/archimedes/\">nano-archimedes –"
+" accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/pcb/\">Pcb</a>"
@@ -3448,10 +3472,10 @@ msgstr ""
 
 #. type: Content of: <table><tr><td>
 msgid ""
-"Scheme implementation with integrated editor and debugger.  [<a href=\"/"
+"A Scheme implementation with integrated editor and debugger.  [<a href=\"/"
 "software/mit-scheme/\">mit-scheme&nbsp;home</a>]"
 msgstr ""
-"Implémentation de Scheme avec éditeur et débogueur intégrés. [<a href=\"/"
+"Une implémentation de Scheme avec éditeur et débogueur intégrés. [<a href=\"/"
 "software/mit-scheme/\">mit-scheme – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
@@ -3581,9 +3605,10 @@ msgid "* <a href=\"http://people.csail.mit.edu/jaffer/scm_toc.html\">SCM</a>"
 msgstr "* <a href=\"http://people.csail.mit.edu/jaffer/scm_toc.html\">SCM</a>"
 
 #. type: Content of: <table><tr><td>
-msgid "Scheme implementation.  [<a href=\"/software/scm/\">scm&nbsp;home</a>]"
+msgid ""
+"A scheme implementation.  [<a href=\"/software/scm/\">scm&nbsp;home</a>]"
 msgstr ""
-"Implémentation de Scheme. [<a href=\"/software/scm/\">scm – accueil</a>]"
+"Une implémentation de Scheme. [<a href=\"/software/scm/\">scm – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/screen/manual/\">Screen</a>"
