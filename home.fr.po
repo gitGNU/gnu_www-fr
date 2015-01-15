@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: home.html\n"
 "POT-Creation-Date: 2015-01-15 17:26+0000\n"
-"PO-Revision-Date: 2014-08-14 18:20+0200\n"
+"PO-Revision-Date: 2015-01-15 22:01+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -22,10 +22,8 @@ msgstr ""
 
 #. type: Content of: <title>
 # | The GNU Operating System {+and the Free Software Movement+}
-#, fuzzy
-#| msgid "The GNU Operating System"
 msgid "The GNU Operating System and the Free Software Movement"
-msgstr "Le système d'exploitation GNU"
+msgstr "Le système d'exploitation GNU et le mouvement du logiciel libre"
 
 #. type: Attribute 'content' of: <meta>
 msgid ""
@@ -53,7 +51,7 @@ msgstr "Planet GNU"
 msgid ""
 "GNU is the only operating system developed specifically to give its users "
 "freedom.  What is GNU, and what freedom is at stake?"
-msgstr ""
+msgstr "GNU est le seul système d'exploitation dévelopé spécialement pour donner à ses utilisateurs la liberté. Qu'est-ce que GNU et qu'est-ce qu'emporte la liberté ?"
 
 #. type: Content of: <div><div><h2>
 msgid "What is GNU?"
@@ -67,23 +65,15 @@ msgstr "Qu'est-ce que GNU ?"
 # | {+The development+} of [-GNU</a> (more precisely, GNU/Linux systems) which
 # | are entirely free software.-] {+GNU made it possible to use a computer
 # | without software that would trample your freedom.+}
-#, fuzzy
-#| msgid ""
-#| "GNU is a Unix-like operating system that is <a href=\"/philosophy/free-sw."
-#| "html\">free software</a>&mdash;it respects your freedom.  You can install "
-#| "<a href=\"/distros/free-distros.html\"> versions of GNU</a> (more "
-#| "precisely, GNU/Linux systems) which are entirely free software."
 msgid ""
 "GNU is an operating system that is <a href=\"/philosophy/free-sw.html\">free "
 "software</a>&mdash;that is, it respects users' freedom.  The development of "
 "GNU made it possible to use a computer without software that would trample "
 "your freedom."
 msgstr ""
-"GNU est un système d'exploitation de type Unix, constitué de <a href=\"/"
-"philosophy/free-sw.html\">logiciel libre</a> – il respecte votre liberté. "
-"Vous pouvez installer des <a href=\"/distros/free-distros.html\">versions de "
-"GNU</a> (plus précisément, des systèmes GNU/Linux) qui sont entièrement "
-"libres."
+"GNU est un logiciel de système d'exploitation <a href=\"/philosophy/free-sw.html\">logiciel libre</a> – c'est-à-dire qu'il respecte la liberté des utilisateurs.\n"
+"Le développement de GNU a rendu possible l'utilisation d'un ordinateur sans\n"
+"logiciels baffouant votre liberté."
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -91,6 +81,10 @@ msgid ""
 "GNU</a> (more precisely, GNU/Linux distributions) which are entirely free "
 "software.  <a href=\"#More-GNU\">More about GNU below</a>."
 msgstr ""
+"Nous recommandons des <a href=\\\"/distros/free-distros.html\\\">versions installables de GNU</a> (plus précisément, des distributions GNU/Linux)\n"
+"\n"
+"n'incluant que des logiciels libres.\n"
+"<a href=\\\"#More-GNU\\\">En savoir plus sur GNU ci-dessous</a>."
 
 #. type: Content of: <div><div><p><a>
 msgid "<a href=\"/distros/screenshot.html\">"
@@ -106,10 +100,8 @@ msgstr "</a>"
 
 #. type: Content of: <div><div><h2>
 # | What is {+the+} Free [-Software?-] {+Software Movement?+}
-#, fuzzy
-#| msgid "What is Free Software?"
 msgid "What is the Free Software Movement?"
-msgstr "Qu'est-ce que le logiciel libre ?"
+msgstr "Qu'est-ce que le mouvement du logiciel libre ?"
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -120,6 +112,12 @@ msgid ""
 "rms/20140407-geneva-tedx-talk-free-software-free-society\">the video "
 "explanation</a>."
 msgstr ""
+"Le mouvement du logiciel libre milite pour que les utilisateurs de l'informatique\n"
+"gagnent la liberté garantie par les logiciels libres. Les logiciels libres\n"
+"donnent aux utilisateurs le contrôle de leur informatique. Les logiciels\n"
+"privateurs placent les utilisateurs sous le pouvoir du développeur de ces\n"
+"logiciels. \n"
+"Voir <a href=\\\"https://www.fsf.org/blogs/\" \"rms/20140407-geneva-tedx-talk-free-software-free-society\\\">l'explication en vidéo</a>."
 
 #. type: Content of: <div><div><h2>
 msgid "What is Free Software?"
@@ -130,48 +128,30 @@ msgstr "Qu'est-ce que le logiciel libre ?"
 # | [-users'-] freedom to run, copy, distribute, study, change and improve the
 # | software.</strong> [-More precisely, it refers to four kinds of freedom,
 # | for the users of the software:-]
-#, fuzzy
-#| msgid ""
-#| "<strong>Free software is a matter of the users' freedom to run, copy, "
-#| "distribute, study, change and improve the software.</strong> More "
-#| "precisely, it refers to four kinds of freedom, for the users of the "
-#| "software:"
 msgid ""
 "<strong>Free software means the users have the freedom to run, copy, "
 "distribute, study, change and improve the software.</strong>"
-msgstr ""
-"<strong>Le logiciel libre donne aux utilisateurs la liberté d'exécuter, de "
-"copier, de distribuer, d'étudier, de modifier et d'améliorer les logiciels</"
-"strong>. Plus précisément, cela veut dire que vous, utilisateur, possédez "
-"quatre libertés :"
+msgstr "<strong>Le logiciel libre signifie que les utilisateurs sont libres d'exécuter, de copier, de distribuer, d'étudier, de modifier et d'améliorer les logiciels</strong>."
 
 #. type: Content of: <div><div><p>
 # | [-&ldquo;<a href=\"/philosophy/free-sw.html\">Free
 # | software</a>&rdquo;-]{+Free software+} is a matter of liberty, not price. 
 # | To understand the concept, you should think of &ldquo;free&rdquo; as in
 # | &ldquo;free speech&rdquo;, not as in &ldquo;free beer&rdquo;.
-#, fuzzy
-#| msgid ""
-#| "&ldquo;<a href=\"/philosophy/free-sw.html\">Free software</a>&rdquo; is a "
-#| "matter of liberty, not price.  To understand the concept, you should "
-#| "think of &ldquo;free&rdquo; as in &ldquo;free speech&rdquo;, not as in "
-#| "&ldquo;free beer&rdquo;."
 msgid ""
 "Free software is a matter of liberty, not price.  To understand the concept, "
 "you should think of &ldquo;free&rdquo; as in &ldquo;free speech&rdquo;, not "
 "as in &ldquo;free beer&rdquo;."
-msgstr ""
-"« <a href=\"/philosophy/free-sw.html\">Logiciel libre</a> » se réfère à la "
-"liberté, pas au prix. Pour comprendre ce concept, vous devez penser à "
-"« liberté d'expression », pas à « entrée libre » (NdT : en anglais, le mot "
-"<cite>free</cite> veut dire libre, mais aussi gratuit, d'où la confusion "
-"possible)."
+msgstr "Le logiciel libre est une affaire de liberté, pas de prix. Pour comprendre ce concept, vous devez penser à « liberté d'expression », pas à « entrée libre » (NdT : en anglais, le mot <cite>free</cite> veut dire libre, mais aussi gratuit, d'où la confusion possible)."
 
 #. type: Content of: <div><div><p>
 msgid ""
 "More precisely, free software means users of a program have the <a href=\"/"
 "philosophy/free-sw.html\">four essential freedoms</a>:"
 msgstr ""
+"Plus exactement, les logiciels libres signifient que les utilisateurs d'un programme\n"
+"jouissent des <a href=\\\"/\" \"philosophy/free-sw.html\\\">quatre libertés\n"
+"essentielles</a> :"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
@@ -210,6 +190,9 @@ msgid ""
 "\"/philosophy/free-software-even-more-important.html\">even more important "
 "now</a> than they were in 1983."
 msgstr ""
+"Les développements de l'usage de la technologie et du réseau ont rendu ces\n"
+"libertés <a href=\" \"\\\"/philosophy/free-software-even-more-important.html\\\">encoreplus importantes aujourd'hui</a>\n"
+"qu'elles ne l'étaient en 1983."
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -218,10 +201,14 @@ msgid ""
 "site</a> for more about what we do, and a list of <a href=\"/help\">ways you "
 "can help</a>."
 msgstr ""
+"Actuellement, le mouvement du logiciel libre va bien au-delà du\n"
+"développement du système GNU. Voir <a href=\\\"https://fsf.org\\\">le site Web de laFree Software Foundation</a>\n"
+"pour en savoir plus sur ce que nous faisons et voir une liste des\n"
+"<a href=\\\"/help\\\">façons dont vous pouvez nous aider</a>."
 
 #. type: Content of: <div><div><h2>
 msgid "More about GNU"
-msgstr ""
+msgstr "En savoir plus sur GNU"
 
 #. type: Content of: <div><div><p>
 # | [-A-]{+<a id=\"More-GNU\">GNU</a> is a+} Unix-like operating [-system-]
@@ -232,11 +219,6 @@ msgstr ""
 # | in January 1984, is+} known as [-a kernel.-] {+the GNU Project.  Many of
 # | the programs in GNU are released under the auspices of the GNU Project;
 # | those we call <a href=\"/software/\">GNU packages</a>.+}
-#, fuzzy
-#| msgid ""
-#| "A Unix-like operating system is a <a href=\"/software/\">software "
-#| "collection</a> of applications, libraries, and developer tools, plus a "
-#| "program to allocate resources and talk to the hardware, known as a kernel."
 msgid ""
 "<a id=\"More-GNU\">GNU</a> is a Unix-like operating system.  That means it "
 "is a collection of many programs: applications, libraries, developer tools, "
@@ -244,11 +226,7 @@ msgid ""
 "the GNU Project.  Many of the programs in GNU are released under the "
 "auspices of the GNU Project; those we call <a href=\"/software/\">GNU "
 "packages</a>."
-msgstr ""
-"Un système d'exploitation de type Unix est une <a href=\"/software/"
-"\">collection de logiciels</a> (applications, bibliothèques, outils pour les "
-"développeurs), plus un programme pour allouer les ressources et communiquer "
-"avec le matériel, connu sous le nom de noyau."
+msgstr "<a id=\\\"More-GNU\\\">GNU</a> est un système d'exploitation de type Unix. Cela signifie qu'il s'agit d'un ensemble de nombreux programmes : applications, bibliothèques, outils de développement, même des jeux. Le développement de GNU, entamé en janvier 1984, est connu sous le nom du projet GNU. De nombreux programmes de GNU sont publiés sous es auspices du projet GNU ; ceux qu'on appelle les <a href=\\\"/software/\\\">paquets GNU</a>."
 
 #. type: Content of: <div><div><p>
 # | {+The name &ldquo;GNU&rdquo; is a recursive acronym for &ldquo;GNU's Not
@@ -256,20 +234,16 @@ msgstr ""
 # | href=\"/pronunciation/pronunciation.html\">&ldquo;GNU&rdquo; is pronounced
 # | <em>g'noo</em></a>, as one syllable, like saying &ldquo;grew&rdquo; but
 # | replacing the <em>r</em> with <em>n</em>.
-#, fuzzy
-#| msgid ""
-#| "<a href=\"/pronunciation/pronunciation.html\">&ldquo;GNU&rdquo; is "
-#| "pronounced <em>g'noo</em></a>, as one syllable, like saying &ldquo;"
-#| "grew&rdquo; but replacing the <em>r</em> with <em>n</em>."
 msgid ""
 "The name &ldquo;GNU&rdquo; is a recursive acronym for &ldquo;GNU's Not Unix."
 "&rdquo; <a href=\"/pronunciation/pronunciation.html\">&ldquo;GNU&rdquo; is "
 "pronounced <em>g'noo</em></a>, as one syllable, like saying &ldquo;"
 "grew&rdquo; but replacing the <em>r</em> with <em>n</em>."
 msgstr ""
-"<a href=\"/pronunciation/pronunciation.html\">« GNU » se prononce <em>gnou</"
-"em></a>, avec une syllabe sans voyelle entre le <em>g</em> (dur) et le "
-"<em>n</em>."
+"Le nom &ldquo;GNU&rdquo; est un acronyme récursif pour &ldquo;GNU's Not Unix.\n"
+"&rdquo; <a href=\\\"/pronunciation/pronunciation.html\\\">&ldquo;GNU&rdquo; se\n"
+"prononce <em>g'noo</em></a>, en une syllabe, comme on dirait &ldquo;\n"
+"grew&rdquo; mais en remplaçant le <em>r</em> par un <em>n</em>."
 
 #. type: Content of: <div><div><p>
 # | {+The program in a Unix-like system that allocates machine resources and
@@ -279,12 +253,6 @@ msgstr ""
 # | system</strong></a>.  GNU/Linux is used by millions, though many <a
 # | href=\"/gnu/gnu-linux-faq.html\">call it &ldquo;Linux&rdquo; by
 # | mistake</a>.
-#, fuzzy
-#| msgid ""
-#| "GNU is typically used with a kernel called Linux.  This combination is "
-#| "the <a href=\"/gnu/linux-and-gnu.html\"><strong>GNU/Linux operating "
-#| "system</strong></a>.  GNU/Linux is used by millions, though many <a href="
-#| "\"/gnu/gnu-linux-faq.html\">call it &ldquo;Linux&rdquo; by mistake</a>."
 msgid ""
 "The program in a Unix-like system that allocates machine resources and talk "
 "to the hardware is called the &ldquo;kernel&rdquo;.  GNU is typically used "
@@ -293,36 +261,26 @@ msgid ""
 "is used by millions, though many <a href=\"/gnu/gnu-linux-faq.html\">call it "
 "&ldquo;Linux&rdquo; by mistake</a>."
 msgstr ""
-"GNU est généralement utilisé avec un noyau appelé Linux. Cette combinaison "
-"est le <a href=\"/gnu/linux-and-gnu.html\"> <strong>système d'exploitation "
-"GNU/Linux</strong></a>. GNU/Linux est utilisé par des millions de gens, bien "
-"que beaucoup <a href=\"/gnu/gnu-linux-faq.html\">l'appellent « Linux » par "
-"erreur</a>."
+"Le programme d'un système de type Unix qui affecte les ressources d'une machine\n"
+"et parle au matériel s'appelle le &ldquo;noyau&rdquo;.  GNU est généralement utilisé avec un noyau appelé Linux.  Cette association forme le <a href=\\\"/gnu/linux-and-gnu.html\\\"><strong>système d'exploitation GNU/Linux</strong></a>.  GNU/Linux est\n"
+"utilisé par des millions de gens même si beaucoup <a href=\\\"/gnu/gnu-linux-faq.html\\\">l'appellent &ldquo;Linux&rdquo; par erreur</a>."
 
 #. type: Content of: <div><div><p>
 # | GNU's own kernel, <a href=\"/software/hurd/hurd.html\">The [-Hurd</a>
 # | continues to be developed-] {+Hurd</a>, was started in 1990 (before Linux
 # | was started).  Volunteers continue developing the Hurd+} because it is an
 # | interesting technical project.
-#, fuzzy
-#| msgid ""
-#| "GNU's own kernel, <a href=\"/software/hurd/hurd.html\">The Hurd</a> "
-#| "continues to be developed because it is an interesting technical project."
 msgid ""
 "GNU's own kernel, <a href=\"/software/hurd/hurd.html\">The Hurd</a>, was "
 "started in 1990 (before Linux was started).  Volunteers continue developing "
 "the Hurd because it is an interesting technical project."
-msgstr ""
-"Le noyau propre à GNU, <a href=\"/software/hurd/hurd.html\">The Hurd</a>, "
-"continue à être développé parce que c'est un projet technique intéressant"
+msgstr "Le noyau propre à GNU, <a href=\"/software/hurd/hurd.html\">le Hurd</a>, a été initié en 1990 (avant que ne commence Linux). Des bénévoles continuent à le développer parce que c'est un projet technique intéressant"
 
 #. type: Content of: <div><div><p>
 # | <a [-href=\"/server/takeaction.html\">More action items.</a>-]
 # | {+href=\"/gnu/gnu.html\">More information</a>.+}
-#, fuzzy
-#| msgid "<a href=\"/server/takeaction.html\">More action items.</a>"
 msgid "<a href=\"/gnu/gnu.html\">More information</a>."
-msgstr "<a href=\"/server/takeaction.html\">Toutes les actions</a>"
+msgstr "<a href=\\\"/gnu/gnu.html\\\">Plus d'informations</a>."
 
 #. type: Content of: <div><div><p>
 msgid "<a href=\"/distros/free-distros.html\">Download GNU now</a>"
@@ -527,19 +485,11 @@ msgstr ""
 # | Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004,
 # | 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, [-2014-] {+2014,
 # | 2015+} <a href=\"http://www.fsf.org\">Free Software Foundation</a>, Inc.
-#, fuzzy
-#| msgid ""
-#| "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, "
-#| "2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 <a href="
-#| "\"http://www.fsf.org\">Free Software Foundation</a>, Inc."
 msgid ""
 "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
 "2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015 <a href=\"http://"
 "www.fsf.org\">Free Software Foundation</a>, Inc."
-msgstr ""
-"Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, "
-"2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 <a href=\"http://www."
-"fsf.org\">Free Software Foundation</a>, Inc."
+msgstr "Copyright &copy; 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015 <a href=\"http://www.fsf.org\">Free Software Foundation</a>, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
