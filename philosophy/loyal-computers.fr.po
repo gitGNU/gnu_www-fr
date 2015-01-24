@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: loyal-computers.html\n"
-"POT-Creation-Date: 2015-01-21 12:55+0000\n"
-"PO-Revision-Date: 2015-01-21 23:44+0100\n"
+"POT-Creation-Date: 2015-01-24 01:25+0000\n"
+"PO-Revision-Date: 2015-01-24 11:10+0100\n"
 "Last-Translator: Sébastien Poher <sbphr @T volted.net>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -215,18 +215,6 @@ msgstr ""
 "cours d'exécution."
 
 #. type: Content of: <dl><dt>
-msgid "Documentation"
-msgstr "Documentation"
-
-#. type: Content of: <dl><dd><p>
-msgid ""
-"The computer comes with full documentation of all the interfaces intended "
-"for software to use to control the computer."
-msgstr ""
-"L'ordinateur est fourni avec la documentation complète des interfaces "
-"utilisées par les programmes pour le contrôler."
-
-#. type: Content of: <dl><dt>
 msgid "Completeness"
 msgstr "Exhaustivité"
 
@@ -254,6 +242,22 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
+"For a computer to be fully at your service, it should come with "
+"documentation of all the interfaces intended for software running in the "
+"computer to use to control the computer.  A documentation gap as such "
+"doesn't mean the computer is actively disloyal, but does mean there are some "
+"aspect of it that are not at your service.  Depending on what that aspect "
+"does, this might or might not be a real problem."
+msgstr ""
+"Pour qu'un ordinateur soit entièrement à votre service, il doit être fourni "
+"avec la documentation de toutes les interfaces destinées au contrôle de "
+"la machine par les logiciels qu'elle exécute. Un manque de documentation ne "
+"signifie pas en soi que l'ordinateur soit activement déloyal, mais indique "
+"certainement que par certains côtés il n'est pas à votre service. Selon la "
+"fonction affectée, ce peut être un problème, ou non."
+
+#. type: Content of: <p>
+msgid ""
 "We ask readers to send criticisms and suggestions about this definition to "
 "<a href=\"mailto:computer-principles@gnu.org\"> &lt;computer-principles@gnu."
 "org&gt;</a>."
@@ -261,6 +265,24 @@ msgstr ""
 "Nous demandons aux lecteurs de bien vouloir transmettre leurs remarques et "
 "suggestions concernant cette définition à <a href=\"mailto:computer-"
 "principles@gnu.org\"> &lt;computer-principles@gnu.org&gt;</a>."
+
+#. type: Content of: <h3>
+msgid "History"
+msgstr "Historique"
+
+#. type: Content of: <p>
+msgid "Here is the list of substantive changes in this page."
+msgstr "Voici la liste des modifications significatives de cette page."
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/loyal-"
+"computers.html?root=www&amp;r1=1.3&amp;r2=1.4\">Version 1.4</a>: Full "
+"documentation is not a requirement for loyalty."
+msgstr ""
+"<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/loyal-"
+"computers.html?root=www&amp;r1=1.3&amp;r2=1.4\">Version 1.4</a> : Une "
+"documentation complète n'est pas une condition de loyauté."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
