@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: loyal-computers.html\n"
 "POT-Creation-Date: 2015-01-28 12:57+0000\n"
-"PO-Revision-Date: 2015-01-24 13:45+0100\n"
+"PO-Revision-Date: 2015-01-28 23:54+0100\n"
 "Last-Translator: Sébastien Poher <sbphr @T volted.net>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -66,13 +66,15 @@ msgstr "Notre définition provisoire est constituée des principes suivants :"
 
 #. type: Content of: <dl><dt>
 msgid "Installability"
-msgstr ""
+msgstr "Capacité à s'installer"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
 "Any software that can be replaced by someone else, the user must be "
 "empowered to replace."
 msgstr ""
+"Si un logiciel peut être remplacé par quelqu'un d'autre, l'utilisateur doit "
+"également en avoir le pouvoir."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -80,6 +82,10 @@ msgid ""
 "replace some of the software in it, whoever sells you the computer must tell "
 "you that secret as well."
 msgstr ""
+"En conséquence, si un ordinateur a besoin d'un mot de passe ou d'une "
+"identification de quelque nature pour remplacer un logiciel qu'il contient, "
+"la personne vous vendant l'ordinateur doit également vous donner ces "
+"identifiants."
 
 #. type: Content of: <dl><dt>
 msgid "Neutrality towards software"
@@ -94,21 +100,13 @@ msgstr ""
 "installerez et laissera ce logiciel faire tout ce que son code lui dit de "
 "faire."
 
-#. type: Content of: <dl><dd><p>
 # | A feature to check for signatures on the programs that run is compatible
 # | with this principle provided the signature checking is fully under the
 # | user's control.  When that is so, the feature helps implement the user's
 # | decision{+s+} about which programs to run, rather than thwarting the
 # | user's decisions.  By contrast, signature checking that is not fully under
 # | the user's control violates this principle.
-#, fuzzy
-#| msgid ""
-#| "A feature to check for signatures on the programs that run is compatible "
-#| "with this principle provided the signature checking is fully under the "
-#| "user's control.  When that is so, the feature helps implement the user's "
-#| "decision about which programs to run, rather than thwarting the user's "
-#| "decisions.  By contrast, signature checking that is not fully under the "
-#| "user's control violates this principle."
+#. type: Content of: <dl><dd><p>
 msgid ""
 "A feature to check for signatures on the programs that run is compatible "
 "with this principle provided the signature checking is fully under the "
@@ -305,25 +303,20 @@ msgstr "Historique"
 msgid "Here is the list of substantive changes in this page."
 msgstr "Voici la liste des modifications significatives de cette page."
 
-#. type: Content of: <ul><li>
 # | <a
 # | [-href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/loyal-computers.html?root=www&amp;r1=1.3&amp;r2=1.4\">Version
 # | 1.4</a>: Full documentation is not a requirement for loyalty.-]
 # | {+href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/loyal-computers.html?root=www&amp;r1=1.5&amp;r2=1.6\">Version
 # | 1.6</a>: Add installability requirement.+}
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/loyal-"
-#| "computers.html?root=www&amp;r1=1.3&amp;r2=1.4\">Version 1.4</a>: Full "
-#| "documentation is not a requirement for loyalty."
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/loyal-"
 "computers.html?root=www&amp;r1=1.5&amp;r2=1.6\">Version 1.6</a>: Add "
 "installability requirement."
 msgstr ""
 "<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/loyal-"
-"computers.html?root=www&amp;r1=1.3&amp;r2=1.4\">Version 1.4</a> : Une "
-"documentation complète n'est pas une condition de loyauté."
+"computers.html?root=www&amp;r1=1.5&amp;r2=1.6\">Version 1.6</a> : Ajout des "
+"exigences sur la capacité à s'installer."
 
 #. type: Content of: <ul><li>
 msgid ""
