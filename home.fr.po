@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.html\n"
-"POT-Creation-Date: 2015-01-15 17:26+0000\n"
-"PO-Revision-Date: 2015-01-15 23:09+0100\n"
+"POT-Creation-Date: 2015-02-04 00:55+0000\n"
+"PO-Revision-Date: 2015-02-04 12:09+0100\n"
 "Last-Translator: Jean-Philippe Mengual <mengualjeanphi AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -264,9 +264,13 @@ msgstr ""
 msgid "<a href=\"/gnu/gnu.html\">More information</a>."
 msgstr "<a href=\"/gnu/gnu.html\">Plus d'informations</a>."
 
+#. type: Content of: <div><div><p><a>
+msgid "<a href=\"/distros/free-distros.html\">Ready-to-use"
+msgstr "<a href=\"/distros/free-distros.html\">Variantes du système GNU"
+
 #. type: Content of: <div><div><p>
-msgid "<a href=\"/distros/free-distros.html\">Download GNU now</a>"
-msgstr "<a href=\"/distros/free-distros.html\">Téléchargez GNU</a>"
+msgid "GNU system variants</a>"
+msgstr "prêtes à l'emploi</a>"
 
 #. type: Content of: <div><div><div><h4><a>
 msgid ""
