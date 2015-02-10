@@ -1,106 +1,249 @@
 #!/bin/bash
 
-# SYNCHRONIZATION OF www AND www-fr WITH THE CVS REPOSITORY
+# NAME
+#    cvs-sync - synchronization of the POs and status report
 
+# SYNOPSIS
+#    cvs-sync  -t /TEAM/DIRECTORY
 
-# Overview
+# DEPENDENCIES
+#    * required: cvs, msgmerge (from the gettext package);
+#    * optional: git, gnun-add-fuzzy-diff (from the gnun package).
 
-# This script synchronizes the local www directory with the CVS repository,
-# then the local www-fr with www. It reports the status of the POs and checks
-# whether there is any new translation. If there is, it checks out the
-# corresponding PO, POT and original HTML so that they can be updated later on,
-# then gives another status report.
+# DESCRIPTION
+#    cvs-sync synchronizes the local www directory with the CVS repository on
+#    gnu.org, then the local www-team with www. It reports the status of the
+#    POs that need updating and/or have been modified or lack a counterpart in
+#    www (possibly indicating that they are new translations).
+#    When any POs need updating, they are committed to the Git repo and pushed
+#    to the server; a notification is sent to trad-gnu@april.org.
+#    TODO: the notification is specific to the French team. To make it team-
+#    independent, a few more variables should be defined: commit message, text
+#    of the notification and address of the mailing list.
+#    Requirements:
+#    * www and www-team must have the same parent directory.
+#    * www-team must contain the working copies of the PO files.
+#    * www must contain the unmodified PO files (and the corresponding
+#      originals, needed for transvalidation). The POTs are not needed.
 
-# Depends on cvs, git, make and the team's GNUmakefile (in www-fr).
+# OPTIONS AND CURRENT SETTINGS
+#    Displayed by:   cvs-sync -h
+#
+#    Configuration file:
+#    The command-line parameters can be set once and for all in a configuration
+#    file (also used by transvalid-batch, www-commit, micro-www-checkout, and
+#    check-links), with the syntax:
+#       parameter1="value1"
+#       parameter2="value2"
+#    This configuration overrides the default settings but is superseded by the
+#    command line. The file is $HOME/.config/gnu-profile by default. This can
+#    be changed by editing the script.
 
-# Requirements
-
-# - The git branch must be specified in the batch-transvalidate configuration
-#   file or, failing that, at the beginning of the script.
-# - www and www-fr must have a common root, $HOME/GNU/ by default. Another root
-#   may be specified in the configuration file or, failing that, at the
-#   beginning of the script.
-
-# How-to
-
-# Simply launch the script or run it from a terminal without argument.
-
-
-# Copyright (C) 2013 Whoever.
-# You may redistribute this script and/or modify it under the terms of the
-# Creative Commons CC0 license
-# (http://creativecommons.org/publicdomain/zero/1.0/legalcode).
+#==============================================================================
 
 set -e
+set -o pipefail
 
-# Parameters
-branch=
-dir=$HOME/GNU
-if [ -f $HOME/.config/gnun/profile ]; then
-  source $HOME/.config/gnun/profile
+function version () {
+cat <<EOF
+${0##*\/} version 0.1
+Copyright (C) 2013, 2014 Thérèse Godefroy
+You may redistribute this script and/or modify it under the terms
+of the Creative Commons CC0 license.
+EOF
+}
+
+function close_term () {
+  sleep 10
+  exit $1
+}
+
+echo "${0##*\/} - synchronization and status report"
+
+## Parameters
+
+conf="$HOME/.config/gnu-profile"
+teamdir=""
+branch=""
+test -f $conf && source $conf
+
+function usage () {
+cat <<EOF
+
+Usage: cvs-sync  -t /TEAM/DIRECTORY
+
+  The script assumes the context of www.gnu.org. It synchronizes the
+  local reference directory (www) with the CVS repository, and the
+  working directory (www-team) with www, then reports the status of
+  the POs. www and www-team must have the same parent directory, and
+  the local modifications must be made in www-team.
+
+Options:
+
+  -t /TEAM/DIRECTORY         [$teamdir]
+      Specify the absolute path to www-team (required)
+
+  -V  Display version info and exit.
+  -h  Display this help and exit.
+
+Report bugs to <godef.th@free.fr>
+
+EOF
+}
+
+# Parse the command line.
+OPTIND=1
+while getopts "h?Vb:t:" opt; do
+  case "$opt" in
+    h | \? ) usage; close_term 0 ;;
+    V ) version; close_term 0 ;;
+    t ) teamdir=$OPTARG ;;
+  esac
+done
+shift $((OPTIND-1))
+[ "$1" = "--" ] && shift
+
+# Test for the existence of www and www-team.
+if test ! -d "$teamdir"; then
+  echo -e "\n*** Please specify your working directory (www-team)."; read teamdir
+  teamdir=${teamdir%\'}; teamdir=${teamdir#\'}
 fi
+cd $teamdir \
+|| (echo 1>&2 "!!! Directory $teamdir doesn't exist."; close_term 1)
 
-if ! cd $dir/www 2> /dev/null; then
-  echo "*** Erreur: le répertoire www n'existe pas. Arrêt."
-  exit 1
-else
-  # Update the local www directory.
-  cvs update
-fi
+wwwdir=${teamdir%\/*}/www   # Path to www
+cd $wwwdir 2> /dev/null \
+|| (echo 1>&2 "*** Directory www doesn't exist."; close_term 1)
 
-if ! cd ../www-fr 2> /dev/null; then
-  echo "*** Erreur: le répertoire www-fr n'existe pas. Arrêt."
-  exit 1
-else
+## Update www.
 
-  # Find out whether the current git branch is the correct one.
+cvs update
+cd $teamdir
+
+## For those who use Git...
+
+if test -d ".git"; then
+  # Find out the current branch.
   curr_branch=$(git rev-parse --abbrev-ref HEAD)
-  if [ "$curr_branch" != "$branch" ]; then
-    # If not, commit the staged changes, otherwise git will refuse to switch
-    # to another branch. But don't add anything because what is unstaged
-    # may not belong to $curr_branch. O_o
-    staged=$(git diff --name-only --staged )
-    if [ -n "$staged" ]; then
-      git commit -m "$(date +"%F %T")"
-      echo -e "\n*** Les modifications de la branche \"$curr_branch\" ont été
-    commitées. Ce commit devra probablement être amendé."
-    fi
-    # Then switch.
-    git checkout $branch
+  if [ "$curr_branch" != 'master' ]; then
+    echo -e "\n!!! Please move to branch master."
+    close_term 1
   fi
-
-  # Create temporary files
-  TMP0=$(mktemp -t sync.XXXXXX) || exit 1  # Sync output
-  TMP1=$(mktemp -t sync.XXXXXX) || exit 1  # New POs, extracted from sync output
-  TMP2=$(mktemp -t sync.XXXXXX) || exit 1  # Checkout list
-  trap 'rm -f "$TMP1" "$TMP2"' EXIT
-
-  # Synchronize www-fr with www.
-  make sync > $TMP0
-
-  # Check for new translations in the sync output.
-  if grep 'new translation\|no equivalent .pot' $TMP0 > $TMP1; then
-    # If there is any, make a list of the files that need to be checked out:
-    # .html, .pot and .fr.po.
-    # FIXME: This will not work if the POT has the extension .pot.opt.
-    sed -i 's,^\([^ ]* \|\)\([^ ]*\)\.fr\.po.*$,\2,' $TMP1
-    sed -e 's,$,.html,' $TMP1 > $TMP2
-    sed -e 's,\([^/]*\)$,po/\1.fr.po,' $TMP1 >> $TMP2
-    sed -e 's,\([^/]*\)$,po/\1.pot,' $TMP1 >> $TMP2
-
-    # If any of those files is already in the www directory, remove it because
-    # it is not tracked and cvs would complain that it is in the way.
-    cd ../www
-    rm -f $(< $TMP2)
-    # Checkout the files
-    cvs update $(< $TMP2) || true
-    # and sync a second time.
-    cd ../www-fr && make sync > /dev/null
-  fi
-
-  # Get a status report and save it.
-  make report > ../gnun-report.txt
-  echo ''
-  cat ../gnun-report.txt
 fi
-exit 0
+
+## Sync www-team with www and report outdated and new (or misplaced) POs.
+
+function check_fuzz () {
+  # Check for fuzzy strings.
+  fuzzy=$(grep -c '^#, fuzzy' $1) || true
+  # Check for untranslated strings.
+  untr=$(sed -n '/^msgstr ""[[:space:]]*$/ {N;/\n[[:space:]]*$/p}' $1 \
+       | grep -c msgstr) || true
+  if test "$fuzzy" != "0" -o "$untr" != "0"; then
+    return 3
+  else
+    return 4
+  fi
+}
+
+MSGMERGE=$(which msgmerge) \
+|| (echo "*** msgmerge is not installed."; close_term 1)
+MSGATTRIB=$(which msgattrib) \
+|| (echo "*** msgattrib is not installed."; close_term 1)
+FUZZY_DIFF=$(which gnun-add-fuzzy-diff) \
+|| echo "*** No diff will be added to the fuzzy strings because
+    gnun-add-fuzzy-diff is not installed."
+
+po_list=$(mktemp -t syn.XXXXXX)  || exit 1
+po_www=$(mktemp -t syn.XXXXXX)   || exit 1
+po_team1=$(mktemp -t syn.XXXXXX) || exit 1
+trap 'rm -f "$po_list" "$po_www" "$po_team1"' EXIT
+
+echo ""
+find . -name "*.po" | sort | sed '/server\/gnun\//d' > $po_list
+
+# global_test will take the value of diff_test if the diff isn't empty and
+# never revert back to 0.
+global_test=0
+
+# Make sure the update list doesn't exist.
+rm -f ../update-list
+
+while read po_team; do
+  diff_test=0
+  fuzz_test_www=0
+  fuzz_test_team=0
+
+  section=${po_team%/*}; section=${section#.\/}
+  basename=${po_team##*/}
+  po=$section/$basename
+
+  # Test for the presence of the corresponding PO in www, then eliminate
+  # trivial differences and diff the 2 versions of the PO.
+  if test -s "../www/$section/po/$basename"; then
+    sed 's,charset=UTF-8\\n"$,charset=utf-8\\n",' \
+      $wwwdir/$section/po/$basename > $po_www
+    sed 's,charset=UTF-8\\n"$,charset=utf-8\\n",' $po_team > $po_team1
+    diff -uB $po_www $po_team1 > /dev/null 2>&1 || diff_test=$?
+    test "$diff_test" != "0" -a "$global_test" == "0" && global_test=$diff_test
+
+    case $diff_test in
+      # There is a difference: merge non-obsolete strings and add the wdiff
+      # between old and new msgids.
+      1 ) $MSGATTRIB --no-obsolete $wwwdir/$section/po/$basename > $po_www
+          $MSGMERGE -U -q --previous $po_team $po_www
+          test -n $FUZZY_DIFF && $FUZZY_DIFF -i $po_team
+
+          # Test for fuzz in www and www-team.
+          check_fuzz $po_www  || fuzz_test_www=$?
+          check_fuzz $po_team || fuzz_test_team=$?
+
+          case $fuzz_test_team in
+            3 ) echo "$po : $fuzzy fuzzy and $untr untranslated."
+                echo "$po : $untr message(s) non traduit(s) et $fuzzy fuzzy." \
+                  >> ../update-list
+                git add $po
+          ;;
+            # No fuzz in www-team
+            4 ) case $fuzz_test_www in
+                  # Fuzz in www: the PO has been updated.
+                  3 ) echo "$po seems ready to post." ;;
+                  # No fuzz in www:
+                  4 ) echo "$po : versions in www and www-team differ." ;;
+                  * ) echo "$po : error in the www-team fuzz test." ;;
+                esac
+          ;;
+            * ) echo "$po : error in the www fuzz test."
+          ;;
+          esac
+    ;;
+      # There is no difference: do nothing.
+      0 )
+    ;;
+      * ) echo "$po : error in the diff test."
+    ;;
+    esac
+  # There is no corresponding PO in www:
+  else
+    echo "$po : new translation or misplaced/renamed PO."
+  fi
+done < $po_list
+
+if [ -f ../update-list ]; then
+  echo -e "\n*** Commit the list?
+          \"Yes\" = [Enter]    \"No\" = any other key\n"
+  read -s -n1 OK
+  if test -z "$OK"; then
+    mutt -s "Liste des POs à mettre à jour le $(date +"%-d-%-m-%y")" \
+         -i ../update-list -- trad-gnu@april.org < "."
+    sed -i -e 's,^\./,,' -e 's, .*,,' ../update-list
+    git commit -a -m "POs à mettre à jour $(date +"%-d-%-m-%y")" \
+               $(< ../update-list) || close_term $?
+  else
+    echo "    No commit."
+  fi
+fi
+
+test "$global_test" = 0 && echo -e "\n    Nothing to do."
+
+close_term 0

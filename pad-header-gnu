@@ -1,0 +1,19 @@
+
+==================
+
+Pour faciliter le transfert de la traduction vers le HTML, voici quelques précautions à prendre :
+- Ne pas toucher à l'identifiant de la chaîne, du genre « #3~<p> ».
+- Pas de ligne vide entre l'original et la traduction. L'ensemble identifiant-original-traduction forme un tout (*).
+- Pas de mélange entre les commentaires et la traduction. On peut ajouter autant de lignes que nécessaire entre les ensembles, ou juste sous l'en-tête.
+- Pas de retour à la ligne au milieu d'un paragraphe. La suite ne serait pas transférée au document final.
+
+(*) Un ensemble ressemble à ceci :
+     #1~<p>                  <PAS DE MODIFICATION>
+     On August 14, 2014,...  <PAS DE RETOUR À LA LIGNE>
+     Le 14 août 2014,...     <PAS DE RETOUR À LA LIGNE>
+     <LIGNES VIDES OU COMMENTAIRES>
+
+Merci.
+
+==================
+

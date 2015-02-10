@@ -4,45 +4,43 @@
 #    pad2po - PAD to PO converter
 
 # SYNOPSIS
-#    pad2po [/path/to/NAME.txt]
+#    pad2po /PATH/TO/NAME.txt
 
 # DESCRIPTION
-#    This script converts a translated pad, created with html-to-pad or
-#    pot-to-pad (with link extraction), into a gnu.org PO file and fills out
-#    the PO header with generic data (charset, encoding, language, team
-#    address). It can be launched from the application and contextual menus of
-#    GNOME or KDE.
+#    This script converts a translated pad created with pot2pad (with link
+#    extraction) into a gnu.org PO file, and fills the PO header with
+#    generic data (charset, encoding, language, team address). It can be
+#    launched from the application and contextual menus of GNOME or KDE.
 
 # REQUIREMENTS
-#    * The pad must have been created by pot2pad, or html2pad from
-#      pad-convert-0.21+.
+#    * The pad must have been created by pot2pad.
 #    * The working directory (wdir) is $HOME/pad. This can  be  changed  by
 #      modifying one line in the script.
 #    * NAME.pot must be at the proper place in the www directory.
 #    * No  blank line between an original paragraph and its translation, or
-#      between the string or link label and  the original. But the translation
+#      between the string or link label and the original, but the translation
 #      may be blank.
 #    * No spurious LFs!
-
-# OPTIONS
-#    None yet.
 
 # OUTPUT, WARNINGS and ERRORS
 #    NAME.fr.po and possibly NAME.warn are created in the working directory.
 #    The exit code is 1 if the input file does not have the .txt extension
 #    or is empty, 2 if there are warnings, 0 otherwise.
 
-# HOW-TO
+# HOWTO
 #    1. Export the translated pad as plain text.
-#    2. Launch the script as explained in pot2pad.
+#    2. Launch the script.
 #    3. Add the translator's notes by hand, if any.
-#       TODO: try to insert them automatically.
 #    4. Finish up in the PO editor.
 
 # Copyright (C) 2013 Whoever.
 # You may redistribute this script and/or modify it under the terms of the
 # Creative Commons CC0 license
 # (http://creativecommons.org/publicdomain/zero/1.0/legalcode).
+
+# Report bugs to godef.th@free.fr
+
+#==============================================================================
 
 wdir=$HOME/pad
 
@@ -57,7 +55,7 @@ else
   editor=vi
 fi
 
-echo -e "\n## pad2po : Conversion d'un pad en fichier PO ##\n"
+echo "${0##*\/} - Conversion d'un pad en fichier PO\n"
 
 ## File input
 
@@ -198,7 +196,8 @@ if [ -n "$path" -a "$name" != "$file" ]; then
     # Isolate the pot header.
     sed '/^#. type: Content of:/,$d' $wdir/$name.pot |
     sed '$d' > $TMP2
-    # Fill it out with generic data.
+    # Substitute the generic data.
+    # TODO: make this language-agnostic.
     sed -i -e 's,charset=CHARSET,charset=utf-8,' \
            -e 's,Encoding: ENCODING,Encoding: 8bit,' \
            -e 's,LANGUAGE <LL@li.org>,French <trad-gnu@april.org>,' \
@@ -216,14 +215,14 @@ if [ -n "$path" -a "$name" != "$file" ]; then
     $editor $wdir/$name.fr.po $wdir/$name.warn
 
   else
-    echo "*** Le pad ne semble pas avoir été traduit du tout."
+    echo "!!! Le pad ne semble pas avoir été traduit du tout."
     echo "    Valider pour fermer le terminal."
     read
     exit 2
   fi
 
 else
-  echo "*** Ce n'est pas un fichier TXT, ou bien il est vide."
+  echo "!!! Ce n'est pas un fichier TXT, ou bien il est vide."
   echo "    Valider pour fermer le terminal."
   read
   exit 1

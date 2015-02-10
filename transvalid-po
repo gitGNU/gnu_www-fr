@@ -1,0 +1,323 @@
+#!/bin/bash
+
+# NAME
+#    transvalid-po -- converts a PO file to HTML and validates both
+
+# SYNOPSIS
+#    transvalid-po [-m /PATH/TO/ORIGINAL] /PATH/TO/PO
+#                  (in this order)
+
+# DEPENDENCIES
+#    po4a (which depends on gettext, perl, etc.),
+#    xmllint (Debian package libxml2-utils),
+#    DTD XHTML 1.0 from W3C (Debian package w3c-dtd-xhtml),
+#    html5.dtd from the GNUN package (GNUN doesn't have to be installed).
+
+# DESCRIPTION
+#    transvalid-po generates a translated page from a PO file and the
+#    corresponding original HTML. Two possibilities:
+#    * www and www-team are not installed locally, in which case the full
+#      paths to the PO and the original HTML have to be specified;
+#    * the PO is in www-team and the corresponding HTML in www, in which case
+#      the HTML doesn't needs to be specified. [A reduced version of www
+#      containing the originals and the canonical POs (for use by cvs-sync) can
+#      be checked out using the script "micro-www-checkout".]
+#    The translated page is created in the directory which contains the PO.
+#
+#    Requirement:
+#      html5.dtd is assumed to be in the same directory as the script.
+#      Otherwise, specify its path in the script.
+#
+#    Functions:
+#    * a simplified header and the missing tags are added to the original
+#      HTML; the includes are turned into makeshift web pages to allow
+#      validation (which is not possible with GNUN, except within a
+#      fully-regenerated web page);
+#    * to make proofreading of the HTML easier, both in the web browser and
+#      the text editor, the "GNUN-split" tags of the template [0] are replaced
+#      with <br />\n/*split*/\n<br /> ;
+#    * the relative links to gnu.org articles are replaced with absolute
+#      links;
+#    * the translated page is generated with po4a-translate;
+#    * the page is validated with xmllint;
+#    * the PO is reformatted and validated with msgcat;
+#    * its header is updated and the obsolete comments are removed.
+#
+#    [0] https://www.gnu.org/software/trans-coord/manual/gnun/gnun.html#Splitting-Long-Passages
+
+# OPTIONS
+#    Displayed by:   transvalid-po -h
+
+#==============================================================================
+
+set -e
+set -o pipefail
+
+function version () {
+cat <<EOF
+${0##*\/} version 0.1
+Copyright (C) 2013, 2014 Thérèse Godefroy
+You may redistribute and/or modify this script under
+the terms of the GNU General Public License, v.3+.
+EOF
+}
+
+# html5.dtd is assumed to be in the same directory as the script. Otherwise,
+# specify its path (without trailing slash).
+DTD=${0%\/*}
+
+# Test whether the script is called from transvalid-batch. The -s option
+# singles out the last instance of the script.
+p=$(pidof -x -s transvalid-batch) || true
+if test "$p" == "$PPID"; then
+  batch=1
+fi
+
+function close_or_exit () {
+# turns off interactivity and lets the terminal close normally if the script
+# is called from transvalid-batch.
+if test "$batch" == "1"; then
+  exit $1
+else
+  echo -e '\n*** Close the terminal window or press Return.'; read OK
+  test -z "$OK" && exit $1
+fi
+}
+
+function usage () {
+cat <<EOF
+
+${0##*\/} - converts a PO to HTML and validates both
+
+Usage: transvalid-po [-m /PATH/TO/ORIGINAL] /PATH/TO/PO
+       (in this order))
+
+  The script can be used without option if the context is that of
+  www.gnu.org, meaning that:
+  - the PO file is at the proper place in a local image of the
+    www-team directory;
+  - the corresponding original is at the proper place in a local
+    image of the www directory;
+  - local www-team and www have the same top directory.
+  Otherwise, the original must be given with the -m option or
+  entered at the prompt.
+
+Options:
+  -m /PATH/TO/ORIGINAL  Absolute path to the original HTML
+  -V                    Display version info and exit
+  -h                    Display this help and exit
+
+Report bugs to <godef.th@free.fr>
+EOF
+}
+
+# Parse the command line.
+OPTIND=1
+while getopts "h?Vm:" opt; do
+  case "$opt" in
+     h | \? ) usage; close_or_exit 0 ;;
+     V ) version; close_or_exit 0 ;;
+     m ) original=$OPTARG ;;
+  esac
+done
+shift $((OPTIND-1))
+[ "$1" = "--" ] && shift
+
+
+function check_fuzz () {
+
+  # Check for fuzzy strings.
+  fuzzy=$(grep -c '^#, fuzzy' $1)
+  # Check for untranslated strings.
+  untr=$(sed -n '/^msgstr ""[[:space:]]*$/ {N;/\n[[:space:]]*$/p}' $1 \
+  | grep -c msgstr)
+  if [ "$fuzzy" != "0" ] || [ "$untr" != "0" ]; then
+    echo "!!! $fuzzy fuzzy and $untr untranslated strings."
+    return 3
+  else
+    return 0
+  fi
+}
+
+function fix_html () {
+# adds a minimal HTML header and the missing tags, defines the xmllint options,
+# depending whether the document is using HTML5 or not, then inactivates the
+# SSI directives.
+
+  cat - $1 > $2 << EOF
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="$lang" lang="$lang">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+EOF
+
+  read -r firstline < $1
+  # This is adapted from gnun-validate-html.
+  case $firstline in
+    *html5-header.html*)
+      VALIDATE="--dtdvalid $DTD/html5.dtd"
+    ;;
+    *)
+      VALIDATE=--valid
+    ;;
+  esac
+
+  # If this is a normal page, add missing tags and inactivate SSIs.
+  if grep "server/banner.html" $2 > /dev/null; then
+    sed -i -e '/server\/banner\.html"/c</head><body><div><div>' \
+           -e 's/<!--#/<!-- /g' $2
+  # If this is a template or something similar, add missing tags.
+  else
+    sed -i -e 's,\(charset=utf-8" \/>\)$,\1<title></title></head><body>,' \
+           -e '$a</body></html>' $2
+  fi
+}
+
+function remove_last_update () {
+# removes the "Updated:" date to match the msgid, otherwise po4a won't
+# accept the translation.
+  sed -i '/$Date:/d' $1
+}
+
+function add_split_tags () {
+# is adapted from function "add-gnun-tags" of the www GNUmakefile.
+  sed -i -e '/<span[[:space:]]*$$/{:egin;N; />[^\n]*$$/! begin};' \
+         -e 's,<span[[:space:]]\+class="gnun-split"></span>,\
+<br />\n/*split*/\n<br />,' $1
+}
+
+function update_po_header () {
+# updates the revision date.
+  date=$(date +'%F %R%z')
+  sed -i -e "s,\\(Revision-Date: \\).*,\\1$date\\\\n\"," $1
+}
+
+function delete_comments () {
+# removes Outdated-Since and useless comments (outdated messages that contain
+# links pointing outside gnu.org or fsf.org are kept).
+  sed -e '/^"Outdated-Since/d' -e '/^# |/d' -e '/^#|/d' $1 |
+  awk 'BEGIN {
+  FS = " ";
+  RS = ORS = "\n\n";
+  }
+  {
+    if (!/#~/) {
+      print;
+    } else {
+      FS = "href";
+      for (n=2; n<=NF; n++) {
+        if ($n !~ \
+        /\\"http:\/\/("\n#~ ")?(www\.)?("\n#~ ")?(gnu|fsf)\.("\n#~ ")?org/ \
+        && $n ~ /\\"http:\/\//) {
+          print;
+          next;
+        }
+      }
+    }
+  }' |
+  sed ':egin /^\n*$/ {$d; N; begin}' > $clean_po && mv $clean_po $1
+}
+
+function create_addendum () {
+# creates po4a addenda for translator's notes and translator's credits.
+  echo "PO4A-HEADER:mode=after;position=$3;beginboundary=^" > $4
+  echo >>$4
+  sed -e '/*GNUN-SLOT: TRANSLATOR.S '"$2"'*/,/#. type: Content of:/!d' \
+      -e '/GNUN-SLOT/d' -e '/^#/d' -e 's/^msgstr "//' \
+      -e ':egin /"$/ {N; s,"\n",,; begin}' \
+      -e 's,\\",",g' -e 's,\\n,\n,g' $1  >> $4
+  sed -i 's,"$,,' $4
+  echo '<br /><br />' >> $4
+}
+
+function make_links_absolute () {
+# replaces relative links to gnu.org articles with absolute links, otherwise
+# they are inactive.
+  sed -i 's,href="/,href="http://www.gnu.org/,g' $1
+}
+
+
+### Main
+
+master=$(mktemp -t tvp.XXXXXX)      || close_or_exit 1
+add_notes=$(mktemp -t tvp.XXXXXX)   || close_or_exit 1
+add_credits=$(mktemp -t tvp.XXXXXX) || close_or_exit 1
+clean_po=$(mktemp -t tvp.XXXXXX)    || close_or_exit 1
+trap 'rm -f "$master" "$add_notes" "$add_credits" "$clean_po"' EXIT
+
+## Get the PO file and check it.
+
+po=$1
+echo -e "\n=== ${po#*www-fr\/}"
+if test ! -f "${po}"; then
+  echo "*** Please enter a PO file."; read po
+fi
+po=${po#\'}; po=${po%\'}
+test -s "${po}" -a  ${po%.po} != ${po} \
+|| (echo 1>&2 "*** ${po} doesn't exist,
+    is empty or is not a PO."; close_or_exit 1)
+
+# Get the language code from the name of the PO.
+lang=${po%.po}
+lang=${lang##*.}
+
+exit_code=0
+check_fuzz $po || exit_code=$?
+
+## Get the original HTML.
+
+if test ! -f "${original}"; then
+  # Check whether the context is that of www.gnu.org, with the PO in
+  # www-team and a valid original HTML in www. Otherwise, ask for it.
+  original=${po/\/www-$lang\//\/www\/}
+  original=${original/.$lang.po/.html}
+  if test ! -f "${original}" -a -z "$batch"; then
+    echo "*** Please enter the original file."; read original
+  fi
+  original=${original#\'}; original=${original%\'}
+fi
+
+test -s "${original}" -a  ${original%.html} != ${original} \
+|| (echo  1>&2 "*** ${original} doesn't exist,
+    is empty or is not an HTML."; close_or_exit 1)
+
+## Prepare the po4a "master".
+
+fix_html ${original} $master
+remove_last_update $master
+add_split_tags $master
+
+## Generate the translated page.
+
+translation=${po/.po/-local.html}
+rm -f ${translation}
+if grep "*GNUN-SLOT" ${po} > /dev/null; then
+  # If this is a normal gnu.org article:
+  create_addendum ${po} NOTES 'footer.html"' $add_notes
+  create_addendum ${po} CREDITS '/server/bottom-notes.html' $add_credits
+  # The po4a-translate "k" option, « Minimal threshold for translation
+  # percentage to keep (ie, write) the resulting file » according to the
+  # manual, is set at 30 to allow proofreading of a partial translation
+  # or detection of faulty strings (the default is 80).
+  po4a-translate -f xhtml -M utf-8 -m $master -p ${po} -k 30 -L utf-8 \
+      -l ${translation} -a $add_credits -a $add_notes || exit_code=$?
+else
+  po4a-translate -f xhtml -M utf-8 -m ${master} -p ${po} -k 0 -L utf-8 \
+      -l ${translation} || exit_code=$?
+fi
+
+## Validate the HTML and reformat/validate the PO.
+
+xmllint $VALIDATE --nonet --noout ${translation} \
+|| exit_code=$?
+msgcat -w 79 -o ${po} ${po} || exit_code=$?
+
+## Tweak the translated page and the PO.
+
+make_links_absolute ${translation}
+delete_comments ${po}
+update_po_header ${po}
+test "$exit_code" == "0" && echo "    OK"
+
+close_or_exit $exit_code

@@ -4,7 +4,7 @@
 #    pot2pad - POT to PAD converter
 
 # SYNOPSIS
-#    pot2pad [/path/to/NAME.pot]
+#    pot2pad /PATH/TO/NAME.pot
 
 # DESCRIPTION
 #    This script removes some of the features of a POT file to make it
@@ -17,54 +17,21 @@
 #    * If a pad header is used, it must be in the working directory. Its
 #      name should be "pad-header-gnu".
 
-# OPTIONS
-#    None yet.
-
 # OUTPUT, WARNINGS and ERRORS
 #    NAME.pad is created in the working directory. This is a plain text
-#    file which can be copied directly to the pad page.
-#    The exit code is 1 if the input file does not have the .pot extension
-#    or is empty, 0 otherwise.
-
-# HOW-TO for GNOME and KDE
-#    The POT file to be converted can be anywhere in the filetree, but
-#    preferably at the proper place in the www directory.
-
-#    1. [optional] Edit pad-header-gnu or remove it.
-
-#    2. Launch the script from the contextual menu of the file to be pro‐
-#       cessed (Nautilus or Konqueror; application POT2PAD). NAME.pad is
-#       created in the working directory.
-
-#       Note on file associations:
-
-#       In Konqueror, you may edit the preferred applications for opening
-#       POT files from the menubar: Edit > Edit File Type...
-
-#       In Nautilus, this is done from the contextual menu. If the
-#       launcher is not listed, you will have to edit
-#       ~/.local/share/applications/mimeapps.list. For instance:
-#          [Added Associations]
-#          [...]
-#          text/pot=pot2pad.desktop
-#          [...]
-
-#    2a. Alternatively, use the POT2PAD launcher from the application menu
-#       (the default category is "Other" in GNOME, "Lost and Found" in KDE).
-#       At the prompt,
-#       - drag and drop the file into the GNOME Terminal,
-#       - or drag and drop the file into the Konsole, then choose "Paste
-#         as text".
-
-#    3. Copy NAME.pad to the pad page.
-
-# AUTHOR
-#    Therese <godef.th@free.fr>
+#    file which can be copied directly to the pad page. The first line
+#    specifies the name of the pad.
+#    The exit code is 1 if the input file doesn't have the .pot extension or
+#    is empty, 0 otherwise.
 
 # Copyright (C) 2013 Whoever.
 # You may redistribute this script and/or modify it under the terms of the
 # Creative Commons CC0 license
 # (http://creativecommons.org/publicdomain/zero/1.0/legalcode).
+
+# Report bugs to godef.th@free.fr
+
+#==============================================================================
 
 
 wdir=$HOME/pad
@@ -81,7 +48,7 @@ else
 fi
 
 
-echo -e "\n ## Préparation d'une page HTML pour le pad de traduction ##\n"
+echo "${0##*\/} - Préparation d'une page HTML pour le pad de traduction\n"
 
 ## File input
 
@@ -107,12 +74,8 @@ path=${new_pot//\'/}
 file=${path##*/}
 name=${file%.pot}
 
-# Get the URL of the original page (assuming the POT is in the www directory).
-# Pure laziness: that saves writing it on top of the pad. If there is no
-# /www/ in the path, the URL will be wrong. No big deal.
-pot_url="http://www.gnu.org/${path/*\/www\//}"
-url1=${pot_url/\/po\//\/}
-url=${url1%.pot}
+# Get the URL of the original page from the POT header.
+url=$(grep 'LANGUAGE translation of' $path | sed 's,^# LANGUAGE translation of ,,')
 
 # Check for non-zero content and .pot extension.
 if [ "$name" != "$file" -a -n "$path" ]; then

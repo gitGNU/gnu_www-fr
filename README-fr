@@ -1,0 +1,110 @@
+== Inventaire des scripts de www-fr
+
+ Ces scripts fonctionnent pour la plupart dans le contexte des répertoires
+ www (image de l'arborescence www de gnu.org) et www-team (fichiers POs de
+ l'équipe de traduction, dans une arborescence similaire). Ils peuvent
+ utiliser un même fichier de configuration. Noter que ce système part du
+ principe que toutes les modifications des POs se font dans www-team. Les POs
+ de www servent de référence et ne doivent pas être modifiés, sauf au moment
+ de la synchronisation et avant de commiter dans www.
+
+ * transvalid-po
+   convertit un PO en page HTML en se basant sur la page HTML originale, et
+   vérifie que le format du PO est correct et que le HTML produit est conforme
+   aux standards du W3C. Ce script utilise un autre fichier de la branche
+   scripts, html5.dtd, qui provient du paquet GNUN.
+
+ * transvalid-batch
+   traite une liste de POs modifiés dans www-team avec transvalid-po. La liste
+   est créée en utilisant les outils fournis par le logiciel de contrôle de
+   version (Git ou CVS).
+
+ * micro-www-checkout
+   installe un répertoire www très réduit, ne contenant que les fichiers
+   nécessaires à la régénération par transvalid-batch de pages déjà traduites,
+   c'est-à-dire les POs et les HTMLs originaux. On peut spécifier plusieurs
+   langues. L'installation du ou des répertoires www-team n'est pas
+   obligatoire.
+
+ * cvs-sync
+   synchronise le répertoire www avec le dépôt CVS et le répertoire www-team
+   avec www, puis établit un rapport sur l'état des POs (nombre de chaînes
+   fuzzy et non traduites, POs modifiés dans www-team, etc.) 
+   [Pour www-fr seulement] Si on le souhaite, la liste des fichiers à mettre à
+   jour est envoyée à trad-gnu@april.org et les fichiers en question sont
+   commités dans www-fr (mais doivent être poussés à la main après
+   vérification).
+
+ * www-commit
+   facilite l'envoi des POs modifiés dans www. Les 4 derniers commits de www-fr
+   peuvent être envoyés (ou non).
+
+ * pot2pad et pad2po
+   facilitent le passage du format PO au pad de traduction et inversement.
+   pot2pad utilise un autre fichier de la branche scripts, pad-header-gnu.
+
+ * previewpo.pl
+   crée un HTML générique à partir d'un PO. Pas besoin de l'original.
+
+ * check-links
+   compare les liens de chaque msgstr avec les liens du msgid correspondant
+   dans tous les POs de www-team.
+
+
+== Mode d'emploi
+
+ On peut lancer les scripts directement à partir de la branche scripts, à
+ condition de l'avoir clonée séparément des branches qui contiennent des
+ fichiers PO (voir http://wiki.april.org/w/Outils_de_traduction_-_2e_partie).
+ Beaucoup n'ont pas besoin d'argument. Plus de détails dans les commentaires
+ des scripts.
+
+ Il est également possible de créer des lanceurs (fichiers .desktop), par
+ exemple en éditant le menu des applications de Gnome, KDE, XFCE... après
+ l'avoir éventuellement déverrouillé.
+
+
+Exemple de lanceur : ~/.local/share/applications/transvalid-batch.desktop
+
+ ------------------------------------------------------------
+ #!/usr/bin/env xdg-open
+
+ [Desktop Entry]
+ Version=1.0
+ Type=Application
+ Terminal=true
+ Exec=/home/CHEMIN/VERS/SCRIPTS/transvalid-batch %u  (*)
+ Name=transvalid-batch
+ Name[fr_FR]=transvalid-batch
+ Comment=Transvalidation of a batch of PO files
+ Comment[fr_FR]=Transvalidation d'un lot de fichiers PO
+ Icon=/home/CHEMIN/VERS/SCRIPTS/gnu-alternative1.png
+ Icon[fr_FR]=/home/CHEMIN/VERS/SCRIPTS/gnu-alternative1.png
+ Categories=Translation  (**)
+ ------------------------------------------------------------
+ (*) En ajoutant le répertoire des scripts au PATH (ou en mettant des liens
+ dans un répertoire qui est déjà dans le PATH), on n'a plus besoin d'indiquer
+ le chemin dans le lanceur ; le nom du script suffit. 
+ (**) La catégorie "Translation" existe par défaut dans KDE mais pas dans
+ Gnome 3 (version essayée : 3.4). On peut cependant créer le menu et y placer
+ les lanceurs à la main.
+
+
+Exemples d'utilisation
+
+ * Mises à jour dans le répertoire www-fr.
+   1. Synchroniser les répertoires avec cvs-sync et voir ce qu'il y a à faire
+      (un clic sur le lanceur du tableau de bord).
+   2. Faire les mises à jour (pas de script pour ça malheureusement).
+   3. Valider avec transvalid-batch (lanceur) : en général, il suffit de
+      valider les différentes étapes ; en fin de parcours, les mises à jour
+      sont commitées dans le dépôt Git.
+   4. Envoyer les mises à jour dans le dépôt www avec www-commit (lanceur) :
+      choisir le message de commit, vérifier et valider (ne pas sauter la
+      vérification, l'expérience montre qu'elle est souvent utile).
+
+ * Conversion d'un PO en une page traduite pour relecture.
+   Lancer transvalid-po par le menu contextuel. Si le PO se trouve dans
+   l'arborescence www-team, rien d'autre à faire. Sinon, il faut
+   glisser-déposer le HTML original dans le terminal.
+

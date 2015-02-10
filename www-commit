@@ -1,0 +1,163 @@
+#!/bin/bash
+
+# NAME
+#    www-commit - batch commit to the www repository
+
+# SYNOPSIS
+#    www-commit  -t /TEAM/DIRECTORY
+
+# DEPENDENCIES
+#    required: cvs, git.
+
+# DESCRIPTION
+#    www-commit assumes the context of www.gnu.org, with the team directory
+#    (www-team) under Git. It copies the modified POs from www-team to www, in
+#    batches corresponding to the Git commits, then commits them to the www CVS
+#    repository.
+#
+#    Requirements:
+#    * www and www-team must have the same parent directory.
+#    * www-team must be a Git repository and contain the working copies of the
+#      PO files.
+#    * www must contain the PO files under CVS control
+
+# OPTIONS AND CURRENT SETTINGS
+#    Displayed by:   cvs-sync -h
+#
+#    Configuration file:
+#    The command-line parameters can be set once and for all in a configuration
+#    file (also used by transvalid-batch, cvs-sync, micro-www-checkout and
+#    mini-www-checkout), with the syntax:
+#       parameter1='value1'
+#       parameter2='value2'
+#    This configuration overrides the default settings but is superseded by the
+#    command line. The file is $HOME/.config/gnu-profile by default. This can
+#    be changed by editing the script.
+
+#==============================================================================
+
+set -e
+set -o pipefail
+
+function version () {
+cat <<EOF
+${0##*\/} version 0.1
+Copyright (C) 2013, 2014 Thérèse Godefroy
+You may redistribute this script and/or modify it under the terms
+of the Creative Commons CC0 license.
+EOF
+}
+
+function close_term () {
+  echo -e "\n*** Close the terminal window or press Return."; read OK
+  test -z "$OK" && exit $1
+}
+
+echo "${0##*\/} - batch commit to the www repository"
+
+## Parameters
+
+conf="$HOME/.config/gnu-profile"
+teamdir=""
+test -f $conf && source $conf
+
+function usage () {
+cat <<EOF
+
+Usage: cvs-sync  -t /TEAM/DIRECTORY
+
+  The script assumes the context of www.gnu.org, with the team directory
+  (www-team) under Git. It copies the modified POs from www-team to www,
+  in batches corresponding to the Git commits, then commits them to the
+  www CVS repository. www and www-team must have the same parent directory.
+
+Options:
+
+  -t /TEAM/DIRECTORY         [$teamdir]
+      Specify the absolute path to www-team (required)
+  -V  Display version info and exit.
+  -h  Display this help and exit.
+
+Report bugs to <godef.th@free.fr>
+
+EOF
+}
+
+# Parse the command line.
+OPTIND=1
+while getopts "h?Vt:" opt; do
+  case "$opt" in
+    h | \? ) usage; close_term 0 ;;
+    V ) version; close_term 0 ;;
+    t ) teamdir=$OPTARG ;;
+  esac
+done
+shift $((OPTIND-1))
+[ "$1" = "--" ] && shift
+
+
+conf="$HOME/.config/gnu-profile"
+test -f $conf && source $conf
+
+function select_message () {
+# lets the user select a message from the configuration file.
+  echo -e "\n*** Please select a commit message:
+        [0] I'll write it myself.
+        [1] $message3
+        [2] $message4
+        [autre] no commit"
+  read -s -n1 choice
+  case "$choice" in
+    0) echo "Quel est le message de commit ?"; read message ;;
+    1) message=$message3 ;;
+    2) message=$message4 ;;
+    *) message= ;;
+  esac
+}
+
+cd $teamdir
+
+# Create TMP files
+batch1=$(mktemp -t commit.XXXXXX) || exit 1
+batch2=$(mktemp -t commit.XXXXXX) || exit 1
+batch3=$(mktemp -t commit.XXXXXX) || exit 1
+batch4=$(mktemp -t commit.XXXXXX) || exit 1
+d=$(mktemp -t commit.XXXXXX) || exit 1
+trap 'rm -f "$batch1" "$batch2" "$batch3" "$batch4" "$d"' EXIT
+
+# Get lists of modified POs
+git dn master master^ > $batch1
+git dn master^ master^^ > $batch2
+git dn master^^ master^^^ > $batch3
+git dn master^^^ master^^^^ > $batch4
+
+echo ''
+for s in $batch1 $batch2 $batch3 $batch4; do
+  echo -e "\n=== Batch to be committed:\n"
+  cat $s                                      # source list (in www-fr)
+  sed -e 's,\([^/]*.fr.po\),po/\1,' $s > $d   # destination list (in www)
+  sfiles=($(< $s))                            # source array
+  dfiles=($(< $d))                            # destination array
+
+  select_message
+  if [ -z "$message" ]; then
+      echo "This batch will not be committed."
+  else
+    i=0
+    while [ "$i" -lt ${#sfiles[@]} ]; do
+      cp ${sfiles[$i]} ../www/${dfiles[$i]}   # copy file from www-fr to www
+      let i=i+1
+    done
+    echo "cvs commit -m \"$message\" $(< $d)"
+    echo "OK this commit."
+    read -s -n1 OK
+    if [ -z "$OK" ]; then
+      cd ../www && cvs commit -m "$message" $(< $d)
+      echo "Done."
+      cd ../www-fr
+    else
+      echo "Not committed."
+    fi
+  fi
+done
+exit

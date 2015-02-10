@@ -1,162 +1,176 @@
 #!/bin/bash
 
-# Language-selective checkout from the www repository
-# for use with batch-transvalidate
+# NAME
+#    micro-www-checkout - create a minimized www directory for transvalid-batch
 
+# SYNOPSIS
+#    micro-www-checkout -t /TEAM/DIR [-l 'LANG1 [LANG2]...'] [-u CVS_LOGIN]
+#    or
+#    micro-www-checkout -l 'LANG1 [LANG2]...' [-u CVS_LOGIN]
 
-# This script checks out the files required by batch-transvalidate to
-# generate HTML pages from POs for a specific language. It is intended for
-# translators who would like to install GNUN locally. Transvalidation with
-# Make and the site GNUmakefile requires some additional files. A "mini-
-# www" checkout will download those.
+# DEPENDENCIES
+#    cvs, rsync
 
-# Depends on cvs and rsync.
+# DESCRIPTION
+#    This script checks out the files required by transvalid-po to generate
+#    HTML pages from POs for a specific language and validate them.
+#    Transvalidation with GNUN requires some additional files.
+#
+#    Method:
+#    1. A list of the potentially useful files is obtained from a dry run of
+#       rsync on the CVS repository, exluding irrelevant directories and
+#       keeping only files with .po and .html extensions.
+#    2. The rsync list is further processed, to build a checkout list
+#       containing the language-specific POs and the corresponding original
+#       HTMLs.
+#    3. The listed files are downloaded by cvs (with login if the ID is
+#       provided, otherwise anonymous).
+#
+#    Disadvantage:
+#    Update of the micro-www directory does not download the original HTMLs
+#    which have not been translated to the selected language. Those must be
+#    checked out separately. The corresponding POT files must be downloaded
+#    once to create the PO but they don't need to be tracked if www and
+#    www-team are updated with cvs-sync (they would be required by the sync
+#    target of GNUN).
+#
+# OPTIONS AND CURRENT SETTINGS
+#    Displayed by:   micro-www-checkout -h
+#
+#    Configuration file:
+#    The command-line parameters can be set once and for all in a configuration
+#    file (also used by transvalid-batch, www-commit, cvs-sync, and
+#    check-links), with the syntax:
+#       parameter1="value1"
+#       parameter2="value2"
+#    This configuration overrides the default settings but is superseded by the
+#    command line. The file is $HOME/.config/gnu-profile by default. This can
+#    be changed by editing the script.
+#    The files corresponding to the team specified in the profile will always
+#    be checked out, provided www-team exists locally.
 
-# Method:
-# 1. A list of the potentially useful files is obtained from a dry run of
-#    rsync on the CVS repository, exluding irrelevant directories and
-#    keeping only files with the proper extensions.
-# 2. The rsync list is further processed, to build a checkout list
-#    containing the language-specific POs, and the corresponding POTs and
-#    original HTMLs.
-# 3. gnun.mk and priorities.mk are added because the "sync" and "report"
-#    targets of GNUmakefile.team use them (batch-transvalidate doesn't).
-# 4. The listed files are downloaded by cvs (anonymous checkout).
-
-# The options and current parameters are displayed by:
-#      micro-www-checkout -h
-
-############################################################################
-
-# Copyright (C) 2013 Free Software Foundation, Inc.
-
-# This file is part of GNUnited Nations.
-
-# GNUnited Nations is free software: you can redistribute it and/or
-# modify it under the terms of the GNU General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
-
-# GNUnited Nations is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-
-# You should have received a copy of the GNU General Public License
-# along with GNUnited Nations.  If not, see <http://www.gnu.org/licenses/>.
-
-############################################################################
-
-function version () {
-cat <<EOF
-micro-www-checkout (GNUnited Nations) 0.7
-Copyright (C) 2013 Free Software Foundation, Inc.
-You may redistribute copies of GNUnited Nations
-under the terms of the GNU General Public License.
-For more information about these matters, see the file named COPYING.
-EOF
-}
-
-params=$#
-dir=$HOME/GNU
-lang=
+#==============================================================================
 
 set -e
 set -o pipefail
 
-# Set the parameters from the profile, if present.
-if [ -f $HOME/.config/gnun/profile ]; then
-  source $HOME/.config/gnun/profile
-fi
+function version () {
+cat <<EOF
+${0##*\/} version 0.1
+Copyright (C) 2013, 2014 Thérèse Godefroy
+You may redistribute this script and/or modify it under the terms
+of the Creative Commons CC0 license.
+EOF
+}
+
+function close_term () {
+  echo -e '\n*** Close the terminal window or press Return.'; read OK
+  test -z "$OK" && exit $1
+}
+
+echo "${0##*\/} - create a minimized www directory for transvalid-batch"
+
+## Parameters
+
+conf="$HOME/.config/gnu-profile"
+langs=""
+teamdir=""
+user="anonymous"
+protocole="pserver"
+test -f $conf && source $conf
 
 function usage () {
 cat <<EOF
 
-Usage: micro-www-checkout OPTIONS
+Usage:
+  micro-www-checkout -t /TEAM/DIR [-l 'LANG1 [LANG2]...'] [-u CVS_LOGIN]
+  or  micro-www-checkout -l 'LANG1 [LANG2]...' [-u CVS_LOGIN]
+
+  The script checks out the POs for a list of languages and the
+  corresponding original pages, from the CVS repo of www.gnu.org.
 
 Options and current settings:
 
-  -d, --dir=/DIREC/TORY                 [$dir]
-      Specify the absolute path to the top directory of www (required)
+  -l 'LANG1 LANG2...'        [$langs]
+      Specify one or several space-separated language codes (one
+      code is required if no working directory is specified)
 
-  -l, --lang=CODE                       [$lang]
-      Specify the language code (required)
+  -u CVS_LOGIN               [$user]
+      Specify your login if you have write access to www (optional)
 
-  -V, --version                         Display version info and exit
+  -t /TEAM/DIRECTORY         [$teamdir]
+      Specify the absolute path to the team directory
+      (required if no language code is specified)
 
-  -h, --help                            Display this help and exit
+  -V  Display version info and exit
+  -h  Display this help and exit
 
 The parameters can be specified in a configuration file:
-      $HOME/.config/gnun/profile
-One line per parameter, with syntax: param="VALUE"
+      $conf
+One line per parameter, with syntax: param='VALUE'
 
-Report bugs to bug-gnun@gnu.org
-GNUnited Nations home page: <http://www.gnu.org/software/gnun/>
-General help using GNU software: <http://www.gnu.org/gethelp/>
+Report bugs to <godef.th@free.fr>
+
 EOF
 }
 
 # Parse the command line.
-while [ ${params} -ge 1 ]; do
-  case "$1" in
-     -h | --help )
-    usage
-    exit 0
-    ;;
-     -V | --version )
-    version
-    exit 0
-    ;;
-     -d | --dir )
-    shift
-    params=$((${params}-1))
-    dir="$1"
-    ;;
-     --dir=* )
-    dir="${1#--dir=}"
-    ;;
-     -l | --lang )
-    shift
-    params=$((${params}-1))
-    lang="$1"
-    ;;
-     --lang=* )
-    lang="${1#--lang=}"
-    ;;
-     * )
-    break
-    ;;
+OPTIND=1
+while getopts "h?Vl:t:u:" opt; do
+  case "$opt" in
+    h | \? ) usage; close_term 0 ;;
+    V ) version; close_term 0 ;;
+    l ) langs=$OPTARG ;;
+    t ) teamdir=$OPTARG ;;
+    u ) user=$OPTARG ;;
   esac
-  params=$((${params}-1))
-  shift
 done
+shift $((OPTIND-1))
+[ "$1" = "--" ] && shift
 
-if [ ${params} -ne 0 ]; then
-  echo 1>&2 "*** Unrecognized option \"$1\".  See --help for details."
-  exit 1
+## Get valid language codes
+
+# Several methods:
+# - from the command line or conf file;
+langs=($langs)
+n=${#langs[@]}
+
+# - from the name of the team directory if it exists (move to its parent dir);
+if test "$teamdir" != "$HOME" -a -d "$teamdir"; then
+  cd "$teamdir" && cd ../
+  l=${teamdir#*www-}
+  langs[$n]=$l
+else                  # (or else create the parent dir of www and move there);
+  mkdir -p $HOME/GNU && cd $HOME/GNU
 fi
 
-if [ ! -d "${dir}" ]; then
-  echo 1>&2 "*** Error: Directory \"$dir\" doesn't exist."
-  exit 1
+# - from user input.
+if test -z "$langs"; then
+  echo -e "\n*** Please enter one or several language codes."; read l
+  langs=($l)
 fi
 
-if [ -z "$lang" ]; then
-  echo  1>&2 "*** Error: No language code was specified. Please enter it in
-    the command line or in $HOME/.config/gnun/profile."
-  exit 1
-fi
+# Test the validity of the language codes.
+ref_lang_codes='af ar az bg bn bs ca cs da de el en eo es et fa fi fr gl he \
+hr hu id it ja kn ko mk ml lt nb nl nn pl pt pt-br ro ru sh sk sl sq sr sv ta \
+th tl tr uk uz vi zh-cn zh-tw'
+vlangs=""
+for l in ${langs[@]}; do
+  [[ "$ref_lang_codes" =~ "$l" ]] && vlangs=($vlangs $l)
+done
+test -z "$vlangs" && (echo 1>&2 "!!! No valid language."; close_term 1)
+
+## List the relevant files in www
 
 # Create temporary files.
-TMP1=$(mktemp -t ckout.XXXXXX) || exit 1  # rsync output
-TMP2=$(mktemp -t ckout.XXXXXX) || exit 1  # selected POs
-TMP3=$(mktemp -t ckout.XXXXXX) || exit 1  # checkout list (unverified)
-TMP4=$(mktemp -t ckout.XXXXXX) || exit 1  # checkout list (verified)
+TMP1=$(mktemp -t co.XXXXXX) || close_term 1  # rsync output
+TMP2=$(mktemp -t co.XXXXXX) || close_term 1  # *.lang.po
+TMP3=$(mktemp -t co.XXXXXX) || close_term 1  # *.lang.html / co list: verified
+TMP4=$(mktemp -t co.XXXXXX) || close_term 1  # checkout list: rough / final
 trap 'rm -f "$TMP1" "$TMP2" "$TMP3" "$TMP4"' EXIT
 
-cd $dir
 if [ -d "www" ]; then
-  mv www www.bak
+  mv www www.bak || close_term 1
 fi
 
 # List the files in the www repository with a dry run of rsync, excluding
@@ -169,14 +183,12 @@ rsync -anv --exclude "Attic" \
            --exclude "software/*/" \
            --exclude "www/www*/" \
            --exclude "server/gnun/" \
-           --include "*.$lang.po,v" \
+           --include "*.po,v" \
            --include "*.html,v" \
-           --include "*.pot,v" \
-           --include "*.pot.opt,v" \
            --include "*/" \
            --exclude "*" \
            --prune-empty-dirs \
-  rsync://cvs.sv.gnu.org/web/www/www www-cvs/ >> $TMP1
+  rsync://cvs.sv.gnu.org/web/www/www www-cvs/ > $TMP1
 
 # Weed out the rsync messages and the directories, and remove the ",v"
 # extension.
@@ -184,31 +196,42 @@ sed -i -e '/^www/!d' \
        -e '/\/$/d' \
        -e 's:,v$::' $TMP1
 
-# Select the POs for the specified language.
-sed -n "/\\.$lang\\.po/p" $TMP1 >> $TMP2
+# Select what's needed for each language.
+# NOTE: if some translations are not gnunified, lines (1), (2), (3)  and (5)
+# should be uncommented, and line (4) may be commented out.
 
-# Add the corresponding POTs and original HTMLs.
-sed "s:po/\\([^/]*\\)\\.$lang\\.po$:\\1.html:" $TMP2 >> $TMP3  # HTMLs
-sed "s:\\.$lang\\.po:\\.pot:" $TMP2 >> $TMP3                   # POTs
-cat $TMP2 >> $TMP3                                             # POs
+for lang in ${vlangs[@]}; do
+  echo "language code: $lang"
 
-# Check that all the listed files exist (some POs don't have corresponding
-# POTs and/or HTMLs). The "*.pot.opt" of the original list $TMP1 are grepped
-# by the "*.pot" pattern.
-while read f; do
-  grep "$f" $TMP1 >> $TMP4 || true
-done < $TMP3
+  sed -n "/\\.$lang\\.po/p" $TMP1 > $TMP2                         # *.lang.po
+  cat $TMP2 >> $TMP4
+#  sed -n "/\\.$lang\\.html/p" $TMP1 > $TMP3                       # (1) *.lang.html
+#  cat $TMP3 >> $TMP4                                              # (2)
+#  sed "s:\\.po$:-diff.html:" $TMP3 >> $TMP4                       # (3) *.lang-diff.html
+  sed "s:po/\\([^/]*\\)\\.$lang\\.po$:\\1.html:" $TMP2  >> $TMP4  # (4) from *.lang.po
+#  sed "s:$lang\\.html$:html:" $TMP3 >> $TMP4                      # (5) from *.lang.html
 
-# Add the makefiles required by some targets of GNUmakefile.team.
-echo "www/server/gnun/gnun.mk" >> $TMP4
-echo "www/server/gnun/priorities.mk" >> $TMP4
+  # Check that all the listed files exist (some POs may not have corresponding
+  # HTMLs because they have been renamed or misplaced, or the HTML has been
+  # removed from the repository).
+  while read f; do
+    grep "$f" $TMP1 >> $TMP3 || true
+  done < $TMP4
+done
+
+# List each file only once
+sort $TMP3 | uniq > $TMP4
 
 # Checkout the listed files.
 if [ -s $TMP4 ]; then
-   cvs -z3 -d:pserver:anonymous@cvs.savannah.gnu.org:/webcvs/www \
-       co $(< $TMP4)
+  # Define the protocole.
+  if test -n "$user" -a "$user" != "anonymous"; then
+    protocole="ext"
+  fi
+  cvs -z3 -d:$protocole:$user@cvs.savannah.gnu.org:/webcvs/www co $(< $TMP4)
+
 else
-  echo "*** There is no file in the checkout list."
+  echo  1>&2 "!!! There is no file in the checkout list." && close_term 1
 fi
 
-exit
+close_term 0

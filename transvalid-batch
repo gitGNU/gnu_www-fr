@@ -1,0 +1,277 @@
+#!/bin/bash
+
+# NAME
+#    transvalid-batch - batch transvalidation of PO files from www.gnu.org
+
+# SYNOPSIS
+#    transvalid-batch -t /TEAM/DIRECTORY [OPTIONS]
+
+# DEPENDENCIES
+#    * Required: transvalid-po in the same directory as transvalid-batch,
+#    * Optional: cvs, git.
+
+# DESCRIPTION
+#    transvalid-batch calls transvalid-po for a list of modified PO files,
+#    created either manually or with tools provided by Git or CVS.
+#
+#    Requirements:
+#    * Images of www and www-team exist locally and they have the same parent
+#      directory.
+#    * The POs are updated in www-team; the corresponding originals are in www
+#      (www doesn't need to contain anything else).
+#    * www is synchronized with the CVS repository.
+#    * if www-team is under Git control, the changes must be staged for commit
+#      on branch master.
+#
+#    Functions:
+#    * When used for the first time, the script helps create a configuration
+#      file.
+#    * It lists the files that have been modified locally in www-team;
+#      depending on the workflow, this is done using Git or CVS tools;
+#      the list can be amended by hand.
+#    * Each item of the list is transvalidated.
+#    * If www-team is under Git control, there is an option to commit the
+#      batch of POs if they are all valid.
+
+# OPTIONS AND CURRENT SETTINGS
+#    Displayed by:   transvalid-batch -h
+#
+#    Configuration file:
+#    The command-line parameters can be set once and for all in a configuration
+#    file (also used by cvs-sync, www-commit, micro-www-checkout, and
+#    check-links), with the syntax:
+#       parameter1="value1"
+#       parameter2="value2"
+#    This configuration overrides the default settings but is superseded by the
+#    command line. The file is $HOME/.config/gnu-profile by default. This can
+#    be changed by editing the script.
+
+#==============================================================================
+
+set -e
+set -o pipefail
+
+function version () {
+cat <<EOF
+$0 version 0.1
+Copyright (C) 2013, 2014 Thérèse Godefroy
+You may redistribute and/or modify this script under the
+terms of the GPLv3+ <https://www.gnu.org/licenses/gpl.html>.
+EOF
+}
+
+function close_term () {
+  echo -e '\n*** Close the terminal window or press Return.'; read OK
+  test -z "$OK" && exit $1
+}
+
+echo -e "${0##*\/} - generate HTML from a list of POs and validate"
+
+## Parameters
+
+conf="$HOME/.config/gnu-profile"
+scriptdir=${0%\/*}
+teamdir=""
+editor=""
+message=""
+test -f $conf && source $conf
+
+function usage () {
+cat <<EOF
+
+Usage: ${0##*\/} -t /TEAM/DIRECTORY [OPTIONS]
+
+  The script assumes the context of www.gnu.org. It helps create a list of
+  modified POs. Then, for each item of the list, it calls transvalidate-po
+  to generate the translated page and validate both the HTML and the PO.
+
+Options and current settings:
+
+  -e PREFERRED_EDITOR        [$editor]
+      Specify the command-line editor (optional)
+
+  -m 'COMMIT MESSAGE'        [$message]
+      Specify a commit message (optional, only applies to Git)
+
+  -t /TEAM/DIRECTORY         [$teamdir]
+      Specify the absolute path to the team directory (required)
+
+  -V  Display version info and exit
+  -h  Display this help and exit
+
+  The parameter values can be set in a configuration file:
+       $conf
+  One line per parameter, with syntax: param='VALUE'
+
+Report bugs to <godef.th@free.fr>
+EOF
+}
+
+# Parse the command line.
+OPTIND=1
+while getopts "h?Vb:e:m:t:" opt; do
+  case "$opt" in
+    h | \? ) usage; close_term 0 ;;
+    V ) version; close_term 0 ;;
+    e ) editor=$OPTARG ;;
+    m ) message=$OPTARG ;;
+    t ) teamdir=$OPTARG ;;
+  esac
+done
+shift $((OPTIND-1))
+[ "$1" = "--" ] && shift
+
+# Ask for required values if they are no set.
+if test ! -d "$teamdir"; then
+  echo -e "\n*** Please specify your working directory."; read teamdir
+  teamdir=${teamdir%\'}; teamdir=${teamdir#\'}
+fi
+cd $teamdir \
+|| (echo 1>&2 "!!! Directory $teamdir doesn't exist."; close_term 1)
+
+if test -d .git -a -z "$branch"; then
+  echo -e "\n*** Please enter your Git branch."; read branch
+fi
+
+# If "editor" isn't set yet, try to guess it.
+if [ -f /usr/bin/editor ]; then
+  editor=/usr/bin/editor
+elif [ -n "$EDITOR" ] && [ -f "$EDITOR" ]; then
+  editor=$EDITOR
+else
+  editor=vi
+fi
+
+# Create a profile if there is none.
+if [ ! -f $conf ]; then
+  echo -e "\n*** Would you like to create a configuration file with the known
+    parameters for transvalid-batch, cvs-sync, micro-www-checkout and
+    www-commit?
+          \"Yes\" = [Enter]    \"No\" = any other key\n"
+  read -s -n1 OK
+  if test -z "$OK"; then
+
+    cat > $conf <<EOF
+# Configuration file for the Migou scripts
+
+# Parameter values should be quoted if they contain spaces (with double-
+# quotes if they contain a variable), and there should be no space before
+# the "=" sign, and none after.
+
+# Team directory:
+teamdir=$teamdir
+
+# Replace the system default with your pet command-line editor (but it
+# doesn't need to be fancy):
+editor=$editor
+
+# User name on Savannah, for CVS checkout with write access:
+user=$user
+
+# Default commit messages:
+message1=
+message2=
+EOF
+
+    echo "    The configuration file has been created in $conf.
+    You can edit it later on."
+  fi
+fi
+
+## Functions
+
+function create_valid_list () {
+# creates a list of transvalidation candidates and displays it for edition.
+# FIXME: The best method depends on the team's workflow.
+
+  # If www-team is a CVS directory, use cvs diff.
+  if [ -d CVS ]; then
+    cvs -nq diff |
+    grep "RCS file:" |
+    sed -e "s;^RCS file: /webcvs/www/www-$lang/;;" \
+        -e 's;,v$;;' > $valid_list
+
+  # If www-team is a Git repository, use git diff.
+  elif [ -d .git ]; then
+    # What follows is for fuzzy heads who launch a script from the dashboard
+    # without checking which branch they are on.
+    # http://makandracards.com/makandra/12107-git-show-current-branch-name-only
+    curr_branch=$(git rev-parse --abbrev-ref HEAD)
+    if [ "$curr_branch" == 'master' ]; then
+      git diff --name-only --staged > $valid_list
+    else
+      echo -e "\n!!! Please move to branch master."
+      close_term 1
+    fi
+  else
+    echo 1>&2 "!!! Unable to create a validation list."
+    close_term 1
+  fi
+
+  # Look at the list and edit it as needed.
+  echo -e "\n*** Validation list:"
+  cat $valid_list
+  echo -e "\n    [Enter]     : \"Continue\"
+    [e]         : \"Edit\"
+    [other key] : \"Quit\""
+  read -s -n1 choice
+  case "$choice" in
+    "") ;;
+    "e") $editor $valid_list ;;
+    *) echo -e "\n    Bye"; close_term 0 ;;
+  esac
+}
+
+function select_message () {
+# lets the user select a message from the configuration file.
+  echo -e "    Please select a commit message:
+    [1]         : \"$message1\"
+    [2]         : \"$message2\"
+    [other key] :  no commit"
+  read -s -n1 choice
+  case "$choice" in
+    1) message=$message1 ;;
+    2) message=$message2 ;;
+    *) message= ;;
+  esac
+}
+
+## Main
+
+valid_list=$(mktemp -t tvb.XXXXXX) || close_term '1'
+trap "rm -f $valid_list" EXIT
+
+batch_exit_code=0
+
+create_valid_list
+if [ ! -s "$valid_list" ]; then
+  echo -e  1>&2 "\n!!! There is no PO to work on.
+    If you use Git, please make sure your changes are staged.\n"
+  close_term 1
+else
+  while read po; do
+    transvalid-po $teamdir/$po \
+    || batch_exit_code=$?
+  done < $valid_list
+
+  if [ "$batch_exit_code" = "0" ]; then
+    echo -e "\n*** The POs are OK."
+    # [Git only] Commit the POs to the local repo.
+    if [ -d .git ]; then
+      git add .
+      if [ "$(git diff --name-only --staged)" ]; then
+        [ -z "$message" ] && select_message
+        if [ -z "$message" ]; then
+          echo -e "    The POs are ready to commit."
+        else
+          git commit -m "$message"
+          echo -e "    The changes have been committed."
+        fi
+      fi
+    fi
+  else
+    echo -e "\n!!! There is a problem with at least one PO."
+  fi
+fi
+
+close_term $batch_exit_code
