@@ -167,7 +167,7 @@ find . -name "*.po" | sort | sed '/server\/gnun\//d' > $po_list
 global_test=0
 
 # Make sure the update list doesn't exist.
-rm -f ../update-list
+rm -f ../update-report ../update-list
 
 while read po_team; do
   diff_test=0
@@ -201,7 +201,7 @@ while read po_team; do
           case $fuzz_test_team in
             3 ) echo "$po : $fuzzy fuzzy and $untr untranslated."
                 echo "$po : $untr message(s) non traduit(s) et $fuzzy fuzzy." \
-                  >> ../update-list
+                  >> ../update-report
                 git add $po
           ;;
             # No fuzz in www-team
@@ -229,15 +229,19 @@ while read po_team; do
   fi
 done < $po_list
 
-if [ -f ../update-list ]; then
+if [ -f ../update-report ]; then
+  sed -e 's,^\./,,' -e 's, .*,,' ../update-report > ../update-list
+  # Display the POs in Gedit.
+  gedit $(< ../update-list) &
+  # Decide whether to send the report to trad-gnu and commit the outdated POs,
+  # or update the POs right away.
   echo -e "\n*** Commit the list?
           \"Yes\" = [Enter]    \"No\" = any other key\n"
   read -s -n1 OK
   if test -z "$OK"; then
     mutt -s "Liste des POs à mettre à jour le $(date +"%-d-%-m-%y")" \
-         -i ../update-list -- trad-gnu@april.org < "."
-    sed -i -e 's,^\./,,' -e 's, .*,,' ../update-list
-    git commit -a -m "POs à mettre à jour $(date +"%-d-%-m-%y")" \
+         -i ../update-report -- trad-gnu@april.org < "."
+    git commit -m "POs à mettre à jour $(date +"%-d-%-m-%y")" \
                $(< ../update-list) || close_term $?
   else
     echo "    No commit."
