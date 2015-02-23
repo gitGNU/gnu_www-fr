@@ -162,10 +162,6 @@ trap 'rm -f "$po_list" "$po_www" "$po_team1"' EXIT
 echo ""
 find . -name "*.po" | sort | sed '/server\/gnun\//d' > $po_list
 
-# global_test will take the value of diff_test if the diff isn't empty and
-# never revert back to 0.
-global_test=0
-
 # Make sure the update list doesn't exist.
 rm -f ../update-report ../update-list
 
@@ -185,7 +181,6 @@ while read po_team; do
       $wwwdir/$section/po/$basename > $po_www
     sed 's,charset=UTF-8\\n"$,charset=utf-8\\n",' $po_team > $po_team1
     diff -uB $po_www $po_team1 > /dev/null 2>&1 || diff_test=$?
-    test "$diff_test" != "0" -a "$global_test" == "0" && global_test=$diff_test
 
     case $diff_test in
       # There is a difference: merge non-obsolete strings and add the wdiff
@@ -193,29 +188,6 @@ while read po_team; do
       1 ) $MSGATTRIB --no-obsolete $wwwdir/$section/po/$basename > $po_www
           $MSGMERGE -U -q --previous $po_team $po_www
           test -n $FUZZY_DIFF && $FUZZY_DIFF -i $po_team
-
-          # Test for fuzz in www and www-team.
-          check_fuzz $po_www  || fuzz_test_www=$?
-          check_fuzz $po_team || fuzz_test_team=$?
-
-          case $fuzz_test_team in
-            3 ) echo "$po : $fuzzy fuzzy and $untr untranslated."
-                echo "$po : $untr message(s) non traduit(s) et $fuzzy fuzzy." \
-                  >> ../update-report
-                git add $po
-          ;;
-            # No fuzz in www-team
-            4 ) case $fuzz_test_www in
-                  # Fuzz in www: the PO has been updated.
-                  3 ) echo "$po seems ready to post." ;;
-                  # No fuzz in www:
-                  4 ) echo "$po : versions in www and www-team differ." ;;
-                  * ) echo "$po : error in the www-team fuzz test." ;;
-                esac
-          ;;
-            * ) echo "$po : error in the www fuzz test."
-          ;;
-          esac
     ;;
       # There is no difference: do nothing.
       0 )
@@ -223,6 +195,32 @@ while read po_team; do
       * ) echo "$po : error in the diff test."
     ;;
     esac
+
+    # Test for fuzz in www and www-team.
+    check_fuzz $po_www  || fuzz_test_www=$?
+    check_fuzz $po_team || fuzz_test_team=$?
+
+    case $fuzz_test_team in
+      3 ) echo "$po : $fuzzy fuzzy and $untr untranslated."
+          echo "$po : $untr message(s) non traduit(s) et $fuzzy fuzzy." \
+            >> ../update-report
+          git add $po
+    ;;
+      # No fuzz in www-team
+      4 ) case $fuzz_test_www in
+            # Fuzz in www: the PO has been updated.
+            3 ) echo "$po seems ready to post." ;;
+            # No fuzz in www:
+            4 ) test "$diff_test" != "0" \
+                && echo "$po : versions in www and www-team differ." ;;
+            * ) echo "$po : error in the www fuzz test." ;;
+          esac
+    ;;
+      * ) echo "$po : error in the www-team fuzz test."
+    ;;
+    esac
+
+
   # There is no corresponding PO in www:
   else
     echo "$po : new translation or misplaced/renamed PO."
@@ -247,7 +245,5 @@ if [ -f ../update-report ]; then
     echo "    No commit."
   fi
 fi
-
-test "$global_test" = 0 && echo -e "\n    Nothing to do."
 
 close_term 0
