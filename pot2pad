@@ -60,11 +60,11 @@ if [ -z "$new_pot" ]; then
   new_pot=$input
 fi
 if [ -n "$new_pot" ]; then
-  echo "*** Fichier HTML à convertir : $new_pot"
+  echo "*** Fichier POT à convertir : $new_pot"
 else
 
   # 3. via the application menu (drag-and-drop the file or enter it directly).
-  echo "*** Quel est le fichier HTML à convertir ?"
+  echo "*** Quel est le fichier POT à convertir ?"
   read new_pot
 fi
 
