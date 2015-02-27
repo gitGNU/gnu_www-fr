@@ -105,12 +105,14 @@ function select_message () {
         [0] I'll write it myself.
         [1] $message3
         [2] $message4
+        [3] $message5
         [autre] no commit"
   read -s -n1 choice
   case "$choice" in
     0) echo "Quel est le message de commit ?"; read message ;;
     1) message=$message3 ;;
     2) message=$message4 ;;
+    2) message=$message5 ;;
     *) message= ;;
   esac
 }
@@ -134,7 +136,7 @@ git dn master^^^ master^^^^ > $batch4
 echo ''
 for s in $batch1 $batch2 $batch3 $batch4; do
   echo -e "\n=== Batch to be committed:\n"
-  cat $s                                      # source list (in www-fr)
+  cat $s                                      # source list (in www-team)
   sed -e 's,\([^/]*.fr.po\),po/\1,' $s > $d   # destination list (in www)
   sfiles=($(< $s))                            # source array
   dfiles=($(< $d))                            # destination array
@@ -145,7 +147,7 @@ for s in $batch1 $batch2 $batch3 $batch4; do
   else
     i=0
     while [ "$i" -lt ${#sfiles[@]} ]; do
-      cp ${sfiles[$i]} ../www/${dfiles[$i]}   # copy file from www-fr to www
+      cp ${sfiles[$i]} ../www/${dfiles[$i]}   # copy file from www-team to www
       let i=i+1
     done
     echo "cvs commit -m \"$message\" $(< $d)"
