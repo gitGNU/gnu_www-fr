@@ -4,39 +4,36 @@
 #    pad2po - PAD to PO converter
 
 # SYNOPSIS
-#    pad2po /PATH/TO/NAME.txt
+#    pad2po -l LANG /PATH/TO/from-en_NAME.txt
 
 # DESCRIPTION
-#    This script converts a translated pad created with pot2pad (with link
-#    extraction) into a gnu.org PO file, and fills the PO header with
-#    generic data (charset, encoding, language, team address). It can be
-#    launched from the application and contextual menus of GNOME or KDE.
+#    This script converts a translated pad created with po2pad to a gnu.org PO
+#    file, and fills the PO header with generic data (charset, encoding,
+#    language, team address - this is specific to the French team). It can
+#    be launched from the application and contextual menus of GNOME or KDE if
+#    the language is specified in a configuration file (see cvs-sync).
 
 # REQUIREMENTS
-#    * The pad must have been created by pot2pad.
+#    * The pad must have been created by po2pad.
 #    * The working directory (wdir) is $HOME/pad. This can  be  changed  by
 #      modifying one line in the script.
-#    * NAME.pot must be at the proper place in the www directory.
+#    * NAME.pot must be in wdir (po2pad normally puts it there).
 #    * No  blank line between an original paragraph and its translation, or
-#      between the string or link label and the original, but the translation
+#      between the string or link label and the original; but the translation
 #      may be blank.
-#    * No spurious LFs!
+#    * No LFs inside the paragraphs!
+#    * At least 2 LFs after the last link.
 
 # OUTPUT, WARNINGS and ERRORS
-#    NAME.fr.po and possibly NAME.warn are created in the working directory.
-#    The exit code is 1 if the input file does not have the .txt extension
-#    or is empty, 2 if there are warnings, 0 otherwise.
+#    NAME.(LANG.)po and possibly NAME.warn are created in the working
+#    directory. The exit code is 1 if the input file does not have the .txt
+#    extension or is empty, 2 if there are warnings, 0 otherwise.
 
 # HOWTO
 #    1. Export the translated pad as plain text.
 #    2. Launch the script.
 #    3. Add the translator's notes by hand, if any.
 #    4. Finish up in the PO editor.
-
-# Copyright (C) 2013 Whoever.
-# You may redistribute this script and/or modify it under the terms of the
-# Creative Commons CC0 license
-# (http://creativecommons.org/publicdomain/zero/1.0/legalcode).
 
 # Report bugs to godef.th@free.fr
 
@@ -47,15 +44,65 @@ wdir=$HOME/pad
 set -e
 mkdir -p $wdir
 
+function version () {
+cat <<EOF
+${0##*\/} version 0.11
+Copyright (C) 2013, 2015 Whoever
+You may redistribute this script and/or modify it under the terms
+of the Creative Commons CC0 license.
+EOF
+}
+
+## Parameters
+
+# Specify the editor for displaying the translated PO (the configuration file
+# takes precedence).
 if [ -f /usr/bin/kwrite ]; then
-  editor=kwrite
+  visual=kwrite
 elif [ -f /usr/bin/gedit ]; then
-  editor=gedit
+  visual=gedit
+elif [ -f /usr/bin/emacs ]; then
+  visual=emacs
 else
-  editor=vi
+  visual=vi
 fi
 
-echo "${0##*\/} - Conversion d'un pad en fichier PO\n"
+conf="$HOME/.config/gnu-profile"
+lang=""
+test -f $conf && source $conf
+
+function usage () {
+cat <<EOF
+
+Usage: po2pad -l LANG /PATH/TO/NAME.txt
+  This script converts a translated pad created with po2pad (with link
+  extraction) into a gnu.org PO file, and fills the PO header with
+  generic data
+
+Options:
+  -l  LANG              [$lang]
+      Specify the language code of the translation (required).
+  -V  Display version info and exit.
+  -h  Display this help and exit.
+
+Report bugs to <godef.th@free.fr>
+
+EOF
+}
+
+# Parse the command line.
+OPTIND=1
+while getopts "h?Vl:" opt; do
+  case "$opt" in
+    h | \? ) usage; exit 0 ;;
+    V ) version; exit 0 ;;
+  esac
+done
+shift $((OPTIND-1))
+[ "$1" = "--" ] && shift
+
+
+echo -e "${0##*\/} - Conversion d'un pad en fichier PO\n"
 
 ## File input
 
@@ -79,11 +126,11 @@ fi
 # document.
 path=${new_txt//\'/}
 file=${path##*/}
-name1=${file%.txt}
-name=${name1#FrEn-}
+name=${file%.txt}
 
 # Check for non-zero content and txt extension.
 if [ -n "$path" -a "$name" != "$file" ]; then
+  name=${name#from-en_}
   exit_code=0
 
   # Create temporary files.
@@ -98,14 +145,15 @@ if [ -n "$path" -a "$name" != "$file" ]; then
 
   # Make a working copy of the translated pad.
   cp $path $TMP1
+  # Make "\" and "&" inocuous.
+  sed -i -e 's,\\,!!ESC!!,g' \
+         -e 's,&,!!AMP!!,g' $TMP1
 
   # Put the links aside.
   sed -n '/<lnk no./,$ p' $TMP1 > $TMP5
 
   # If indeed there are links,
   if [ -s $TMP5 ]; then
-    # Escape the & which are found in some links.
-    sed -i 's,&,\\&,g' $TMP5
     # Remove the string number (if created by html2pad).
     sed -i 's,^#[0-9]\+~,,' $TMP5
     # remove the original strings,
@@ -115,7 +163,7 @@ if [ -n "$path" -a "$name" != "$file" ]; then
     # and insert the translated links (if any) where they belong.
     i=1
     while link=$(grep "<lnk no.$i>" $TMP5) ; do
-      sed -i "s|href={$i}|href=\"$link\"|" $TMP1
+      sed -i "s|<a {$i}|<a $link|" $TMP1
       i=$(( i + 1 ))
     done
     # Remove the link numbers and the list of links from the text.
@@ -128,19 +176,15 @@ if [ -n "$path" -a "$name" != "$file" ]; then
 
 ## String replacement
 
-  # Remove the pot header and footer.
-  sed '1,/"Content-Transfer-Encoding:/d' $wdir/$name.pot > $TMP3
-  sed -i '/^#. TRANSLATORS: Use space (SPC)/,$d' $TMP3
-  # Make sure all the « msgstr "" » in the pot are empty.
-  sed -i '/^msgstr ""$/ {N; s,^msgstr ""\n",msgstr ",}' $TMP3
+  cp $wdir/$name.pot $TMP3
 
-  # Select the pad contents. The pad may have been created by pot2pad (the
-  # string label starts with "#.") or html2pad (the label starts with
-  # "#[0-9]").
-  grep -A2 "^#\(\.\|[0-9]\)" $TMP1 > $TMP2  || true
+  # Select the pad contents.
+  grep -A2 "^#\. type: " $TMP1 > $TMP2  || true
   # Print the translated strings: one line out of 4, starting at line 3.
   # Why 4? That's because grep -A2 adds a separator line.
   sed -n '3~4'p $TMP2 > $TMP4
+  # Add 1 blank line to allow for the msgid/msgstr of the PO header.
+  sed -i '1 s,^,\n,' $TMP4
 
   if grep "[[:print:]]" $TMP4 > /dev/null ; then
 
@@ -148,18 +192,14 @@ if [ -n "$path" -a "$name" != "$file" ]; then
     exit_code=0
     rm -f $wdir/$name.warn
 
-    # Escape the "&".
-    sed -i 's,&,\\\\&,' $TMP4
-
     # Start a counter for the strings.
     n=0
 
     # Replace pot msgstr's with pad msgstr's.
     while read translation; do
-      let n=n+1
       sed_exit_code=0
 
-      if [ -z "$translation" ]; then
+      if [[ -z "$translation" && "$n" != 0 ]]; then
         echo "La chaîne $n n'a pas été traduite." >> $wdir/$name.warn \
         && exit_code=2
       fi
@@ -168,7 +208,7 @@ if [ -n "$path" -a "$name" != "$file" ]; then
       if [[ "$translation" = *§*§* ]]; then
          echo "Il reste probablement une incertitude
     délimitée par \"§\" dans la chaîne $n." >> $wdir/$name.warn \
-      && exit_code=2
+         && exit_code=2
       fi
       if [[ "$translation" =~ '|' ]]; then
         echo "Il reste un choix à faire dans la chaîne $n
@@ -186,33 +226,34 @@ if [ -n "$path" -a "$name" != "$file" ]; then
         echo "La chaîne $n n'a pas pu être insérée." >> $wdir/$name.warn \
         && exit_code=2
       fi
+      let n=n+1
+
     done < $TMP4
 
-    # Replace the numbers with "msgstr", escape the internal double quotes in
-    # msgstr's and add double-quote delimiters.
+    # Replace the numbers with "msgstr", restore the "\" and "&", and add
+    # double-quote delimiters.
     sed -i -e 's,^[0-9]\+ ,msgstr ,' \
-           -e '/^msgstr/ s,",\\",g' \
+           -e '/^msgstr/ s,!!ESC!!,\\,g' \
+           -e '/^msgstr/ s,!!AMP!!,\&,g' \
            -e 's,^msgstr \(.*\)$,msgstr "\1",' $TMP3
-    # Isolate the pot header.
-    sed '/^#. type: Content of:/,$d' $wdir/$name.pot |
-    sed '$d' > $TMP2
-    # Substitute the generic data.
-    # TODO: make this language-agnostic.
+
+    # Substitute generic data in the POT header (this doesn't affect the PO if
+    # the header is correct).
     sed -i -e 's,charset=CHARSET,charset=utf-8,' \
            -e 's,Encoding: ENCODING,Encoding: 8bit,' \
+           -e '/^"Language-Team: LANGUAGE/ a"Language: fr\\n"' \
            -e 's,LANGUAGE <LL@li.org>,French <trad-gnu@april.org>,' \
            -e 's,^# LANGUAGE translation,# French translation,' \
            -e "s,# Copyright (C) YEAR,# Copyright (C) $(date +'%Y')," \
-           -e '/^# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.$/d' \
-           -e '/^"Language-Team:/ a"Language: fr\\n"' $TMP2
-    # Isolate the pot footer
-    sed '1,/#. TRANSLATORS: Use space (SPC)/d' $wdir/$name.pot > $TMP4
+           -e '/^# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.$/d' $TMP3
 
-    # Add the header and footer to the new po.
-    cat $TMP2 $TMP3 $TMP4 > $wdir/$name.fr.po
-
-    # Display the warning messages and the translated page.
-    $editor $wdir/$name.fr.po $wdir/$name.warn
+    # Save the PO, and display it along with the warning messages.
+    case "$name" in
+      *.$lang ) mv $TMP3 $wdir/$name.po
+                $visual $wdir/$name.po $wdir/$name.warn ;;
+            * ) mv $TMP3 $wdir/$name.$lang.po
+                $visual $wdir/$name.$lang.po $wdir/$name.warn ;;
+    esac
 
   else
     echo "!!! Le pad ne semble pas avoir été traduit du tout."
