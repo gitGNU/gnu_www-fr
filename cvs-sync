@@ -4,22 +4,19 @@
 #    cvs-sync - synchronization of the POs and status report
 
 # SYNOPSIS
-#    cvs-sync  -t /TEAM/DIRECTORY
+#    cvs-sync [-a TEAM@ADDRESS] -t /TEAM/DIRECTORY
 
 # DEPENDENCIES
 #    * required: cvs, msgmerge (from the gettext package);
-#    * optional: git, gnun-add-fuzzy-diff (from the gnun package).
+#    * optional: git, gnun-add-fuzzy-diff (from the gnun package), mutt.
 
 # DESCRIPTION
 #    cvs-sync synchronizes the local www directory with the CVS repository on
 #    gnu.org, then the local www-team with www. It reports the status of the
 #    POs that need updating and/or have been modified or lack a counterpart in
 #    www (possibly indicating that they are new translations).
-#    When any POs need updating, they are committed to the Git repo and pushed
-#    to the server; a notification is sent to trad-gnu@april.org.
-#    TODO: the notification is specific to the French team. To make it team-
-#    independent, a few more variables should be defined: commit message, text
-#    of the notification and address of the mailing list.
+#    Optionally, the POs that need updating are committed to the Git repo (but
+#    not pushed), and a notification is sent to a specified address.
 #    Requirements:
 #    * www and www-team must have the same parent directory.
 #    * www-team must contain the working copies of the PO files.
@@ -64,13 +61,13 @@ echo "${0##*\/} - synchronization and status report"
 
 conf="$HOME/.config/gnu-profile"
 teamdir=""
-branch=""
+address=""
 test -f $conf && source $conf
 
 function usage () {
 cat <<EOF
 
-Usage: cvs-sync  -t /TEAM/DIRECTORY
+Usage: cvs-sync [-a TEAM@ADDRESS] -t /TEAM/DIRECTORY
 
   The script assumes the context of www.gnu.org. It synchronizes the
   local reference directory (www) with the CVS repository, and the
@@ -80,9 +77,10 @@ Usage: cvs-sync  -t /TEAM/DIRECTORY
 
 Options:
 
-  -t /TEAM/DIRECTORY         [$teamdir]
+  -t  /TEAM/DIRECTORY    [$teamdir]
       Specify the absolute path to www-team (required)
-
+  -a  TEAM@ADDRESS       [$address]
+      Specify the address of the team mailing list (optional)
   -V  Display version info and exit.
   -h  Display this help and exit.
 
@@ -237,8 +235,10 @@ if [ -f ../update-report ]; then
           \"Yes\" = [Enter]    \"No\" = any other key\n"
   read -s -n1 OK
   if test -z "$OK"; then
-    mutt -s "Liste des POs à mettre à jour le $(date +"%-d-%-m-%y")" \
-         -i ../update-report -- trad-gnu@april.org < "."
+    if [[ "$address" == *@* ]]; then
+      mutt -s "Liste des POs à mettre à jour le $(date +"%-d-%-m-%y")" \
+           -i ../update-report -- $address < "."
+    fi
     git commit -m "POs à mettre à jour $(date +"%-d-%-m-%y")" \
                $(< ../update-list) || close_term $?
   else
