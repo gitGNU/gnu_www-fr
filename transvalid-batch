@@ -129,10 +129,6 @@ fi
 cd $teamdir \
 || (echo 1>&2 "!!! Directory $teamdir doesn't exist."; close_term 1)
 
-if test -d .git -a -z "$branch"; then
-  echo -e "\n*** Please enter your Git branch."; read branch
-fi
-
 # If "editor" isn't set yet, try to guess it.
 if [ -f /usr/bin/editor ]; then
   editor=/usr/bin/editor
