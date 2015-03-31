@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# post-receive - synchronize gnun with master
+
+set e
+
+read oldrev newrev ref
+
+if test ${ref##/} = 'master'; then
+  git branch -f gnun $newrev
+fi
+exit 0

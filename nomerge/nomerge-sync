@@ -1,0 +1,85 @@
+#!/bin/bash
+
+# nomerge-sync - in the www repo of gnu.org, synchronize the checked-out
+# branch (gnun) and master with nomerge branches
+
+# Requires inotifywait and a mail server.
+
+# When a nomerge branch is pushed, the pre-receive hook generates a file
+# (.git/cherrypick) which contains all the data needed for cherry-picking the
+# new commits from that branch to gnun. The script monitors the git logs for
+# file modifications. When an event is detected and the cherrypick file is
+# present, gnun is updated, then master is synchronized with gnun.
+
+# When started from an init script (nomerge-control), the script runs in the
+# background.
+
+# Please send comments and bug reports to godef.th@free.fr
+
+
+dir=GNUNs_WORKING_DIRECTORY
+address=MAILING_LIST@gnu.org
+
+set e
+cd $dir
+
+output=$(mktemp -t nms.XXXXXX) || exit 1
+list=$(mktemp -t nms.XXXXXX) || exit 1
+subject=$(mktemp -t nms.XXXXXX) || exit 1
+trap 'rm -f "$output" "list" "subject"' EXIT
+
+inotifywait -m --format '%f' -e modify .git/logs/refs/heads/ --exclude gnun |
+while read c; do
+
+  if test -f .git/cherrypick; then
+    # Get data from the cherrypick file, then remove the file.
+    c=($(< .git/cherrypick))
+    new=${c[0]}
+    old=${c[1]}
+    match=${c[2]}
+    b=${c[3]}
+    m=${c[4]}
+    rm -f .git/cherrypick
+
+    git co gnun 2>/dev/null
+
+    # Cherry-pick from the nomerge branch to gnun. If something goes wrong,
+    # abort and restore the nomerge branch to its pre-push state.
+    if ! git cherry-pick $match..$new > $output 2>&1; then
+      git cherry-pick --abort >> $output 2>&1
+      git branch -f $b $old >> $output 2>&1
+      echo "Reset $b to its pre-push state." >> $output
+
+      # Send the error messages to a mailing list.
+      mutt -s "[$b] Cherry-picking failed." -i $output -- $address < "."
+
+    else
+      # List the modified files.
+      git diff --name-only $b..$match > $list
+
+      # Add it to the body of an email.
+      echo >> $output
+      echo "Modified files:" >> $output
+      cat $list >> $output
+
+      # Add the first 3 entries to the subject line.
+      printf "[$b]" > $subject
+      head -n3 $list |
+        while read f; do
+          printf " $f" >> $subject
+        done
+      nb_files=$(wc -l $list); nb_files=${nb_files%% *}
+      test "$nb_files" -gt 3 && printf " ..." >> subject
+
+      # Send the email.
+      if test -n "$list"; then
+        mutt -s "$(< $subject)" -i $output -- $address < "."
+      fi
+    fi
+
+    # Synchronize master with gnun.
+    git branch -f master gnun
+  fi
+
+done
+exit 0

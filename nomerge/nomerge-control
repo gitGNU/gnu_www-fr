@@ -1,0 +1,70 @@
+#! /bin/bash
+
+### BEGIN INIT INFO
+# Provides:          nomerge-sync
+# Required-Start:    $network exim4
+# Required-Stop:     $network
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Synchronize branches in the git www repository
+# Description:       Monitor git logs in the www repo of gnu.org for
+#                    changes in incomplete branches, and cherry-pick
+#                    those to the complete branches.
+### END INIT INFO
+
+set -e
+
+SCRIPTDIR=/usr/local/bin
+NAME=nomerge-sync
+DESC='Sync of master and gnun with nomerge branches'
+
+test -x $SCRIPTDIR/$NAME || exit 0
+
+case "$1" in
+  start)
+      # Do not start the script if it is already running.
+      if ps -C $NAME > /dev/null; then
+        echo "$NAME is already running."
+        exit 0
+      else
+        $SCRIPTDIR/$NAME &
+        disown $(pidof $NAME)
+      fi
+    ;;
+  stop)
+      # Killing nomerge-sync leaves inotifywait running. Since inotify may have
+      # been called by other programs, we have to get the PID of the instance
+      # which was started by nomerge-sync.
+      # In fact, there are 2 nomerge-sync processes. The first one calls
+      # inotifywait, and the second is a while loop which needs to complete.
+
+      # List all the processes in tree format. Select instances of inotify and
+      # their respective parents, then nomerge-sync instances and their
+      # respective children. Kill the selection.
+      p=($(ps c -AHo pid,command | grep -B1 'inotifywait' |
+        grep -A1 "$NAME" | sed -e '/--/d' -e 's,\([0-9]\+ \).*,\1,'))
+      test -n "$p" && kill $(echo ${p[@]})
+    ;;
+  status)
+      if ps -C $NAME > /dev/null; then
+        echo "$DESC is enabled."
+        exit 0
+      else
+        echo "$DESC is disabled."
+        exit 2
+      fi
+    ;;
+  restart)
+      if ps -C $NAME > /dev/null; then 
+        $0 stop
+      fi
+      echo "Restarting nomerge-sync..."
+      $0 start
+    ;; 
+  *)
+      echo "Usage: $0 {start|stop|status|restart}" >&2
+      exit 1
+    ;;
+esac
+
+exit 0

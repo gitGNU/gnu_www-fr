@@ -1,0 +1,225 @@
+#!/bin/sh
+
+# pre-receive for the remote www repository - validate POs and HTMLs, and
+# avoid cherry-picking conflicts
+
+# Requires msgcat, xmllint, the DTD XHTML 1.0 of the W3C (the DTD path at
+# the beginning of the script may need to be customized), nomerge-sync and
+# nomerge-syncd.
+
+# The setup
+
+# * The remote is not a bare repository; it has a working directory where GNUN
+#   operates, and corresponds to a branch named "gnun". Any changes in the
+#   working directory are immediately pushed (this is GNUN's job).
+
+# * master will never be checked out. It can be used to push pull, fetch, etc.
+#   as usual. The post-receive hook immediately updates gnun with any
+#   modifications to master.
+
+# * It is possible to download from the working directory via rsync, allowing
+#   people who don't want to deal with thousands of files to select just what
+#   they need and create their own repository. Branches from this mini repo
+#   have the suffix "-nomerge" to indicate that they need a special treatment.
+
+# * nomerge branches can have a remote counterpart, but they are not supposed
+#   to be merged with master because this would add unwanted files to the mini
+#   repo. Instead, commits from those branches are immediately cherry-picked to
+#   gnun and master by nomerge-sync.
+
+# * If for some reason cherry-picking doesn't succeed (most likely because of
+#   a conflict in one of the files), it is cancelled and the push is reverted.
+#   Since the inotify script is run from the remote working directory (required
+#   for cherry-picking), it sends its error messages to a mailing list.
+
+# * The mini working directory is synchronized with the remote via rsync, then
+#   the nomerge branch is recreated (this can be done automatically). If a PO
+#   needs updating, the new version is committed and pushed once the mini repo
+#   is synchronized.
+#   This method has a slight disadvantage: when the nomerge branch is
+#   recreated, it only contains the history which is already in the remote
+#   working directory. Since the rsync backup squashes the changes made since
+#   the last successful push, some recent history may be lost. However, this
+#   is not a problem if the files are under version control in the team
+#   directory.
+
+# What the script does
+
+# * If the push is to a nomerge branch, the hook checks that a commit matching
+#   the tip of the complete branch is found in its history (limited to the last
+#   20 commits).
+
+# * For all pushes, it checks the POs for syntax, and looks for HTML errors in
+#   msgstr's and templated pages. The push is rejected if an error is found.
+#   If there are several, they are all reported.
+
+# * Branch deletion and creation are allowed without validation or cherry-
+#   picking.
+
+# Please send comments and bug reports to godef.th@free.fr
+
+
+set -e
+
+# Path to the DTD and entity definitions.
+DTD=/usr/share/xml/entities/xhtml/
+
+read oldrev newrev ref
+
+# Allow creation and deletion of a remote branch. The new branch will pass
+# through without validation because it wouldn't make sense to test all the
+# files every time a branch is created.
+test "$oldrev" = '0000000000000000000000000000000000000000' \
+  -o "$newrev" = '0000000000000000000000000000000000000000' && exit 0
+
+commit_list=$(mktemp -t pr.XXXXXX) || exit 1
+file_list=$(mktemp -t pr.XXXXXX) || exit 1
+new=$(mktemp -t pr.XXXXXX) || exit 1
+val=$(mktemp -t pr.XXXXXX) || exit 1   # Modified for HTML validation
+trap 'rm -f "$commit_list" "$file_list" "$new" "$val"' EXIT
+
+cat $commit_list
+
+# If dealing with a nomerge branch:
+if test "${ref##*-}" = 'nomerge'; then
+
+echo "\nCHERRY-PICKING CONFLICT AVOIDANCE\n"
+
+  # Make sure that nomerge-sync is running. Otherwise, start it.
+  /etc/init.d/nomerge-control status || /etc/init.d/nomerge-control start
+
+  # List the last 20 commits (a list of the commits in the push would be
+  # too restrictive if for some reason the previous push had not been
+  # cherry-picked; the backlog of non-pushed commits can't exceed 19).
+  git log -20 --pretty=format:"%H" $newrev > $commit_list
+
+  # Diff the list of commits against the tip of the complete branch until one
+  # of the diffs is empty, then allow the push if the matching commit is not
+  # the tip of nomerge, store information for the cherry-picking script in
+  # .git/cherrypick, and proceed to validation.
+  rm -f cherrypick
+  i=0
+  while read commit; do
+    if test -z "$(git diff -U0 gnun $commit)"; then
+      echo "${ref##*/}~$i matches the tip of the complete branch."
+      test "$i" -ne 0 && \
+      echo $newrev $oldrev $commit ${ref##*/} $i > cherrypick
+      break
+    fi
+    i=$(($i+1))
+  done < $commit_list
+
+  # If no empty diff is found (no cherrypick file), give a hint of what to
+  # do next and abort.
+  if test $i -eq 19; then
+    echo "\n!!! Potential cherry-picking conflict. Please synchronize
+    your branch, delete its remote counterpart and push it
+    again, then commit your modifications and push them. This
+    might look like:
+
+    rsync -abzv --backup-dir=../rsync-backup --existing \\
+      --exclude \".git/\" --exclude \"*~\" <remote_wdir> <local_wdir>
+    git commit -a -m 'Sync with the master branch.'
+    git branch --delete <remote_repo> <foo-nomerge>
+    git push <remote_repo> <foo-nomerge>
+
+    [ Modify your files, or retrieve the old version
+    which was saved by rsync in directory ../rsync-backup. ]
+
+    git commit -a -m 'Your commit message'
+    git push <remote_repo> <foo-nomerge>\n"
+    exit 1
+  elif  test "$i" -eq 0; then
+    echo "\n*** No need to cherry-pick."
+  else
+    echo "\n*** Cherry-picking allowed."
+  fi
+fi
+
+
+echo "\nVALIDATION\n"
+
+# Define a switch which will be turned off if a validation error is found in
+# any file, and never turned on again.
+exit_code=0
+
+# List files in the pushed commit. 
+git diff-tree --no-commit-id --name-only -r $oldrev $newrev > $file_list
+
+while read f; do
+
+  # Extract the blob for the new version of file f.
+  git show $newrev:$f > $new 2>/dev/null || true
+  echo +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  echo $f
+  echo > $val
+
+  if [ "${f##*.}" = 'po' ]; then
+
+    echo ---------------------------------------------------------------
+    echo "### PO syntax"
+    msgcat $new >/dev/null || exit_code=$?
+
+    # To catch errors in the msgstr's (missing </a> tags, &, etc.), 
+    # transform them into a makeshift templated HTML. Remove the </p> <p>
+    # which is found in the second footer string and elsewhere.
+    sed ':egin /^#. type:/ {N; s,"\n",,; begin}' $new |
+    sed -n '/^#. type:/,$ p' |
+    sed -e '/^#/d' \
+        -e '/^msgid/d' \
+        -e 's,^msgid .*,,' \
+        -e 's,\\n,,g' \
+        -e 's,\\,,g' \
+        -e 's,msgstr ",,' \
+        -e 's,"$,,' \
+        -e 's,</p>[[:space:]]*<p>, ,' |
+    sed -e '$a</div></body></html>' > $val
+    sed -e '1i\
+    <!--#include virtual="/server/header" -->\
+    <title>title</title></head><body><div>' $val > $new
+  fi
+
+  # Validate the real and makeshift templated files.
+  if grep '#include virtual="/server/' $new >/dev/null; then
+
+    # In real templated pages, add missing tags.
+    if [ "${f##*.}" = 'html' ]; then
+      sed -i '/virtual="\/server\/banner/i</head><body><div><div>' $new
+    fi
+
+    # Add a header.
+    cat - $new > $val << EOF
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+EOF
+
+    # For HTML5 pages, use the DTD from GNUN's package (this part is from
+    # gnun-validate-html).
+    if grep '<!--#include virtual="/server/html5-header' $val >/dev/null; then
+      VALIDATE="--dtdvalid html5.dtd"
+    else
+      VALIDATE=--valid
+    fi
+
+    # Run xmllint.
+    echo
+    echo "### HTML errors"
+    xmllint --path $DTD $VALIDATE --nonet --noout $val || exit_code=$?
+
+  fi
+done < $file_list
+echo +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+if test "$exit_code" -eq 0; then
+  echo "\n*** Validation OK.\n"
+else
+  echo "\n!!! At least one of the files you are trying to push doesn't
+    validate. The error messages can help you find the error.
+    You may also want to use the online PO validator at
+    https://chapters.gnu.org/gnun/test.html\n"
+fi
+
+exit $exit_code
