@@ -69,7 +69,7 @@ while read c; do
           printf " $f" >> $subject
         done
       nb_files=$(wc -l $list); nb_files=${nb_files%% *}
-      test "$nb_files" -gt 3 && printf " ..." >> subject
+      test "$nb_files" -gt 3 && printf " ..." >> $subject
 
       # Send the email.
       if test -n "$list"; then

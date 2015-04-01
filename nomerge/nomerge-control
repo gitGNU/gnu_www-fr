@@ -18,15 +18,19 @@ SCRIPTDIR=/usr/local/bin
 NAME=nomerge-sync
 DESC='Sync of master and gnun with nomerge branches'
 
-test -x $SCRIPTDIR/$NAME || exit 0
 
 case "$1" in
   start)
+      if test ! -x $SCRIPTDIR/$NAME; then
+        echo "!!! $NAME cannot be found or is not executable."
+        exit 1
+      fi
+
       # Do not start the script if it is already running.
       if ps -C $NAME > /dev/null; then
         echo "$NAME is already running."
-        exit 0
       else
+        echo "Starting $NAME..."
         $SCRIPTDIR/$NAME &
         disown $(pidof $NAME)
       fi
