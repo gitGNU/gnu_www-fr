@@ -83,10 +83,10 @@ cat $commit_list
 # If dealing with a nomerge branch:
 if test "${ref##*-}" = 'nomerge'; then
 
-echo "\nCHERRY-PICKING CONFLICT AVOIDANCE\n"
+  # Make sure that nomerge-sync is running.
+  /etc/init.d/nomerge-control status || exit 1
 
-  # Make sure that nomerge-sync is running. Otherwise, start it.
-  /etc/init.d/nomerge-control status || /etc/init.d/nomerge-control start
+  echo "\nCHERRY-PICKING CONFLICT AVOIDANCE\n"
 
   # List the last 20 commits (a list of the commits in the push would be
   # too restrictive if for some reason the previous push had not been
