@@ -25,11 +25,12 @@
 # * nomerge branches have a remote counterpart, but they are not supposed to be
 #   merged with master because this would add unwanted files to the micro repo.
 #   Instead, commits from those branches are immediately cherry-picked to gnun
-#   and master by nomerge-sync.
+#   and master by nomerge-sync (this is triggered by changes in the git logs,
+#   detected by inotifywait).
 
 # * If for some reason cherry-picking doesn't succeed (most likely because of
 #   a conflict in one of the files), it is cancelled and the push is reverted.
-#   Since the inotify script is run from the remote working directory (required
+#   Since the inotify script runs in the remote working directory (required
 #   for cherry-picking), it sends its error messages to a mailing list.
 
 # * The micro working directory is synchronized with the remote via rsync, then
