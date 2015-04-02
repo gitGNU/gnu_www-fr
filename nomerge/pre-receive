@@ -4,8 +4,8 @@
 # avoid cherry-picking conflicts
 
 # Requires msgcat, xmllint, the DTD XHTML 1.0 of the W3C (the DTD path at
-# the beginning of the script may need to be customized), nomerge-sync and
-# nomerge-syncd.
+# the beginning of the script may need to be customized), html5.dtd (from the
+# gnun package) in the .git/hooks directory, nomerge-sync and nomerge-control.
 
 # The setup
 
@@ -19,29 +19,28 @@
 
 # * It is possible to download from the working directory via rsync, allowing
 #   people who don't want to deal with thousands of files to select just what
-#   they need and create their own repository. Branches from this mini repo
+#   they need and create their own repository. Branches from this micro repo
 #   have the suffix "-nomerge" to indicate that they need a special treatment.
 
-# * nomerge branches can have a remote counterpart, but they are not supposed
-#   to be merged with master because this would add unwanted files to the mini
-#   repo. Instead, commits from those branches are immediately cherry-picked to
-#   gnun and master by nomerge-sync.
+# * nomerge branches have a remote counterpart, but they are not supposed to be
+#   merged with master because this would add unwanted files to the micro repo.
+#   Instead, commits from those branches are immediately cherry-picked to gnun
+#   and master by nomerge-sync.
 
 # * If for some reason cherry-picking doesn't succeed (most likely because of
 #   a conflict in one of the files), it is cancelled and the push is reverted.
 #   Since the inotify script is run from the remote working directory (required
 #   for cherry-picking), it sends its error messages to a mailing list.
 
-# * The mini working directory is synchronized with the remote via rsync, then
-#   the nomerge branch is recreated (this can be done automatically). If a PO
-#   needs updating, the new version is committed and pushed once the mini repo
+# * The micro working directory is synchronized with the remote via rsync, then
+#   the nomerge branch is re-created (this can be done automatically). If a PO
+#   needs updating, the new version is committed and pushed once the micro repo
 #   is synchronized.
 #   This method has a slight disadvantage: when the nomerge branch is
-#   recreated, it only contains the history which is already in the remote
-#   working directory. Since the rsync backup squashes the changes made since
-#   the last successful push, some recent history may be lost. However, this
-#   is not a problem if the files are under version control in the team
-#   directory.
+#   re-created, it only contains the history which is already in the remote.
+#   Since the rsync backup squashes the changes made since the last successful
+#   push, some recent history may be lost, but this is not a problem if there
+#   is a version-controlled team repo.
 
 # What the script does
 
@@ -50,8 +49,9 @@
 #   20 commits).
 
 # * For all pushes, it checks the POs for syntax, and looks for HTML errors in
-#   msgstr's and templated pages. The push is rejected if an error is found.
-#   If there are several, they are all reported.
+#   msgstr's and templated pages (trying to validate the very old translations
+#   is a loosing proposition). The push is rejected if an error is found. If
+#   there are several, they are all reported.
 
 # * Branch deletion and creation are allowed without validation or cherry-
 #   picking.
