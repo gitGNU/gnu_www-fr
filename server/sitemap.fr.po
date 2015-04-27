@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
-"POT-Creation-Date: 2015-04-03 16:56+0000\n"
-"PO-Revision-Date: 2015-03-17 19:50+0100\n"
+"POT-Creation-Date: 2015-04-27 07:53+0000\n"
+"PO-Revision-Date: 2015-04-27 14:40+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -57,10 +57,10 @@ msgid ""
 "manual\">manual</a> <a href=\"#directory-music\">music</a> <a href="
 "\"#directory-people\">people</a> <a href=\"#directory-philosophy"
 "\">philosophy</a> <a href=\"#directory-prep\">prep</a> <a href=\"#directory-"
-"press\">press</a> <a href=\"#directory-server\">server</a> <a href="
-"\"#directory-software\">software</a> <a href=\"#directory-testimonials"
-"\">testimonials</a> <a href=\"#directory-thankgnus\">thankgnus</a> <a href="
-"\"#directory-usenet\">usenet</a>]"
+"press\">press</a> <a href=\"#directory-proprietary\">proprietary</a> <a href="
+"\"#directory-server\">server</a> <a href=\"#directory-software\">software</"
+"a> <a href=\"#directory-testimonials\">testimonials</a> <a href=\"#directory-"
+"thankgnus\">thankgnus</a> <a href=\"#directory-usenet\">usenet</a>]"
 msgstr ""
 "[répertoires de premier niveau : <a href=\"#directory-accessibility"
 "\">accessibilité</a> <a href=\"#directory-award\">récompenses</a> <a href="
@@ -75,10 +75,11 @@ msgstr ""
 "\">liens</a> <a href=\"#directory-manual\">manuels</a> <a href=\"#directory-"
 "music\">musique</a> <a href=\"#directory-people\">personnes</a> <a href="
 "\"#directory-philosophy\">philosophie</a> <a href=\"#directory-prep\">prep</"
-"a> <a href=\"#directory-press\">presse</a> <a href=\"#directory-server"
-"\">serveur</a> <a href=\"#directory-software\">logiciels</a> <a href="
-"\"#directory-testimonials\">témoignages</a> <a href=\"#directory-thankgnus"
-"\">remerciements</a> <a href=\"#directory-usenet\">usenet</a>]"
+"a> <a href=\"#directory-press\">presse</a> <a href=\"#directory-proprietary"
+"\">logiciel privateur</a> <a href=\"#directory-server\">serveur</a> <a href="
+"\"#directory-software\">logiciels</a> <a href=\"#directory-testimonials"
+"\">témoignages</a> <a href=\"#directory-thankgnus\">remerciements</a> <a "
+"href=\"#directory-usenet\">usenet</a>]"
 
 #. type: Content of: <dl><dt>
 msgid "<a href=\"/keepingup.html\">keepingup.html</a>"
@@ -3546,6 +3547,18 @@ msgstr "Pourquoi le logiciel libre a besoin d'une documentation libre"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid ""
+"<a href=\"/philosophy/free-hardware-designs.html\">free-hardware-designs."
+"html</a>"
+msgstr ""
+"<a href=\"/philosophy/free-hardware-designs.html\">free-hardware-designs."
+"html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Free Hardware and Free Hardware Designs"
+msgstr "Matériel libre et plans libres pour le matériel"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid ""
 "<a href=\"/philosophy/free-open-overlap.html\">free-open-overlap.html</a>"
 msgstr ""
 "<a href=\"/philosophy/free-open-overlap.html\">free-open-overlap.html</a>"
@@ -3776,18 +3789,6 @@ msgid "Harm from the Hague"
 msgstr "Le danger de La Haye"
 
 #. type: Content of: <div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/hardware-software-boundary.html\">hardware-software-"
-"boundary.html</a>"
-msgstr ""
-"<a href=\"/philosophy/hardware-software-boundary.html\">hardware-software-"
-"boundary.html</a>"
-
-#. type: Content of: <div><dl><dd><dl><dd>
-msgid "The Boundary Between Hardware And Software"
-msgstr "The Boundary Between Hardware And Software"
-
-#. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/philosophy/historical-apsl.html\">historical-apsl.html</a>"
 msgstr "<a href=\"/philosophy/historical-apsl.html\">historical-apsl.html</a>"
 
@@ -3893,6 +3894,18 @@ msgid ""
 "<a href=\"/philosophy/kevin-cole-response.html\">kevin-cole-response.html</a>"
 msgstr ""
 "<a href=\"/philosophy/kevin-cole-response.html\">kevin-cole-response.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid "<a href=\"/philosophy/komongistan.html\">komongistan.html</a>"
+msgstr "<a href=\"/philosophy/komongistan.html\">komongistan.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid ""
+"The Curious History of Komongistan (Busting the term &ldquo;intellectual "
+"property&rdquo;)"
+msgstr ""
+"The Curious History of Komongistan (Busting the term &ldquo;intellectual "
+"property&rdquo;)"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/philosophy/kragen-software.html\">kragen-software.html</a>"
@@ -4905,160 +4918,6 @@ msgid "Does Studying Economics Inhibit Cooperation?"
 msgstr "Does Studying Economics Inhibit Cooperation?"
 
 #. type: Content of: <div><dl><dd><div><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/proprietary.html\">philosophy/proprietary</"
-"a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/proprietary.html\">philosophy/proprietary</"
-"a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd>
-msgid "Proprietary Software Is Often Malware"
-msgstr "Le logiciel privateur est souvent malveillant"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/malware-apple.html\">malware-apple.html</a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/malware-apple.html\">malware-apple.html</a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
-msgid "Apple's Operating Systems Are Malware"
-msgstr "Apple's Operating Systems Are Malware"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/malware-kindle-swindle.html\">malware-"
-"kindle-swindle.html</a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/malware-kindle-swindle.html\">malware-"
-"kindle-swindle.html</a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
-msgid "Malware in the Kindle Swindle"
-msgstr "Malware in the Kindle Swindle"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/malware-microsoft.html\">malware-microsoft."
-"html</a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/malware-microsoft.html\">malware-microsoft."
-"html</a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
-msgid "Microsoft's Software is Malware"
-msgstr "Microsoft's Software is Malware"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/malware-mobiles.html\">malware-mobiles."
-"html</a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/malware-mobiles.html\">malware-mobiles."
-"html</a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
-msgid "Malware in Mobile Devices"
-msgstr "Malware in Mobile Devices"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/proprietary-back-doors.html\">proprietary-"
-"back-doors.html</a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/proprietary-back-doors.html\">proprietary-"
-"back-doors.html</a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
-msgid "Proprietary Back Doors"
-msgstr "Portes dérobées du logiciel privateur"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/proprietary-censorship.html\">proprietary-"
-"censorship.html</a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/proprietary-censorship.html\">proprietary-"
-"censorship.html</a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
-msgid "Proprietary Censorship"
-msgstr "Censure par le logiciel privateur"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/proprietary-drm.html\">proprietary-drm."
-"html</a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/proprietary-drm.html\">proprietary-drm."
-"html</a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
-msgid "Proprietary DRM"
-msgstr "DRM du logiciel privateur"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/proprietary-insecurity.html\">proprietary-"
-"insecurity.html</a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/proprietary-insecurity.html\">proprietary-"
-"insecurity.html</a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
-msgid "Proprietary Insecurity"
-msgstr "Insécurité du logiciel privateur"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/proprietary-jails.html\">proprietary-jails."
-"html</a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/proprietary-jails.html\">proprietary-jails."
-"html</a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
-msgid "Proprietary Jails"
-msgstr "Prisons du logiciel privateur"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/proprietary-sabotage.html\">proprietary-"
-"sabotage.html</a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/proprietary-sabotage.html\">proprietary-"
-"sabotage.html</a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
-msgid "Proprietary Sabotage"
-msgstr "Sabotage privateur"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/proprietary-surveillance.html"
-"\">proprietary-surveillance.html</a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/proprietary-surveillance.html"
-"\">proprietary-surveillance.html</a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
-msgid "Proprietary Surveillance"
-msgstr "Surveillance par le logiciel privateur"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dt>
-msgid ""
-"<a href=\"/philosophy/proprietary/proprietary-tyrants.html\">proprietary-"
-"tyrants.html</a>"
-msgstr ""
-"<a href=\"/philosophy/proprietary/proprietary-tyrants.html\">proprietary-"
-"tyrants.html</a>"
-
-#. type: Content of: <div><dl><dd><div><dl><dd><dl><dd>
-msgid "Proprietary Tyrants"
-msgstr "Tyrans privateurs"
-
-#. type: Content of: <div><dl><dd><div><dl><dt>
 msgid "<a href=\"/philosophy/sco/sco.html\">philosophy/sco</a>"
 msgstr "<a href=\"/philosophy/sco/sco.html\">philosophy/sco</a>"
 
@@ -5555,6 +5414,146 @@ msgid ""
 msgstr ""
 "Affidavit of Eben Moglen on Progress Software vs. MySQL AB Preliminary "
 "Injunction Hearing"
+
+#. type: Content of: <div><dl><dt>
+msgid ""
+"<a class=\"topmost-title\" href=\"/proprietary/proprietary.html"
+"\">proprietary</a>"
+msgstr ""
+"<a class=\"topmost-title\" href=\"/proprietary/proprietary.html"
+"\">proprietary</a>"
+
+#. type: Content of: <div><dl><dd><span>
+msgid "Proprietary Software Is Often Malware"
+msgstr "Le logiciel privateur est souvent malveillant"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid "<a href=\"/proprietary/malware-apple.html\">malware-apple.html</a>"
+msgstr "<a href=\"/proprietary/malware-apple.html\">malware-apple.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Apple's Operating Systems Are Malware"
+msgstr "Apple's Operating Systems Are Malware"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid ""
+"<a href=\"/proprietary/malware-kindle-swindle.html\">malware-kindle-swindle."
+"html</a>"
+msgstr ""
+"<a href=\"/proprietary/malware-kindle-swindle.html\">malware-kindle-swindle."
+"html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Malware in the Kindle Swindle"
+msgstr "Malware in the Kindle Swindle"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid ""
+"<a href=\"/proprietary/malware-microsoft.html\">malware-microsoft.html</a>"
+msgstr ""
+"<a href=\"/proprietary/malware-microsoft.html\">malware-microsoft.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Microsoft's Software is Malware"
+msgstr "Microsoft's Software is Malware"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid "<a href=\"/proprietary/malware-mobiles.html\">malware-mobiles.html</a>"
+msgstr "<a href=\"/proprietary/malware-mobiles.html\">malware-mobiles.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Malware in Mobile Devices"
+msgstr "Malware in Mobile Devices"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid ""
+"<a href=\"/proprietary/proprietary-back-doors.html\">proprietary-back-doors."
+"html</a>"
+msgstr ""
+"<a href=\"/proprietary/proprietary-back-doors.html\">proprietary-back-doors."
+"html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Proprietary Back Doors"
+msgstr "Portes dérobées du logiciel privateur"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid ""
+"<a href=\"/proprietary/proprietary-censorship.html\">proprietary-censorship."
+"html</a>"
+msgstr ""
+"<a href=\"/proprietary/proprietary-censorship.html\">proprietary-censorship."
+"html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Proprietary Censorship"
+msgstr "Censure par le logiciel privateur"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid "<a href=\"/proprietary/proprietary-drm.html\">proprietary-drm.html</a>"
+msgstr "<a href=\"/proprietary/proprietary-drm.html\">proprietary-drm.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Proprietary DRM"
+msgstr "DRM du logiciel privateur"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid ""
+"<a href=\"/proprietary/proprietary-insecurity.html\">proprietary-insecurity."
+"html</a>"
+msgstr ""
+"<a href=\"/proprietary/proprietary-insecurity.html\">proprietary-insecurity."
+"html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Proprietary Insecurity"
+msgstr "Insécurité du logiciel privateur"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid ""
+"<a href=\"/proprietary/proprietary-jails.html\">proprietary-jails.html</a>"
+msgstr ""
+"<a href=\"/proprietary/proprietary-jails.html\">proprietary-jails.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Proprietary Jails"
+msgstr "Prisons du logiciel privateur"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid ""
+"<a href=\"/proprietary/proprietary-sabotage.html\">proprietary-sabotage."
+"html</a>"
+msgstr ""
+"<a href=\"/proprietary/proprietary-sabotage.html\">proprietary-sabotage."
+"html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Proprietary Sabotage"
+msgstr "Sabotage privateur"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid ""
+"<a href=\"/proprietary/proprietary-surveillance.html\">proprietary-"
+"surveillance.html</a>"
+msgstr ""
+"<a href=\"/proprietary/proprietary-surveillance.html\">proprietary-"
+"surveillance.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Proprietary Surveillance"
+msgstr "Surveillance par le logiciel privateur"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid ""
+"<a href=\"/proprietary/proprietary-tyrants.html\">proprietary-tyrants.html</"
+"a>"
+msgstr ""
+"<a href=\"/proprietary/proprietary-tyrants.html\">proprietary-tyrants.html</"
+"a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Proprietary Tyrants"
+msgstr "Tyrans privateurs"
 
 #. type: Content of: <div><dl><dt>
 msgid "<a class=\"topmost-title\" href=\"/server/server.html\">server</a>"
