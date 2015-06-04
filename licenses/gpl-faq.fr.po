@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gpl-faq.html\n"
-"POT-Creation-Date: 2015-05-13 14:55+0000\n"
+"POT-Creation-Date: 2015-06-02 12:25+0000\n"
 "PO-Revision-Date: 2015-05-13 17:23+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -1057,9 +1057,17 @@ msgstr ""
 "libre régi par la GPL ou par une autre licence de logiciel libre ?</a>"
 
 #. type: Content of: <ul><li>
+# | <a href=\"#GPLInProprietarySystem\">I'd like to incorporate GPL-covered
+# | software in my proprietary system.  {+I have no permission to use that
+# | software except what the GPL gives me.+}  Can I do this?</a>
+#, fuzzy
+#| msgid ""
+#| "<a href=\"#GPLInProprietarySystem\">I'd like to incorporate GPL-covered "
+#| "software in my proprietary system.  Can I do this?</a>"
 msgid ""
 "<a href=\"#GPLInProprietarySystem\">I'd like to incorporate GPL-covered "
-"software in my proprietary system.  Can I do this?</a>"
+"software in my proprietary system.  I have no permission to use that "
+"software except what the GPL gives me.  Can I do this?</a>"
 msgstr ""
 "<a href=\"#GPLInProprietarySystem\">J'aimerais incorporer un logiciel sous "
 "GPL dans mon système privateur. Est-ce possible ?</a>"
@@ -4275,9 +4283,19 @@ msgstr ""
 "permission de Y avant de distribuer ce code sous une autre licence."
 
 #. type: Content of: <dl><dt>
+# | I'd like to incorporate GPL-covered software in my proprietary system. 
+# | {+I have no permission to use that software except what the GPL gives
+# | me.+}  Can I do this? <span class=\"anchor-reference-id\">(<a
+# | href=\"#GPLInProprietarySystem\" >#GPLInProprietarySystem</a>)</span>
+#, fuzzy
+#| msgid ""
+#| "I'd like to incorporate GPL-covered software in my proprietary system.  "
+#| "Can I do this? <span class=\"anchor-reference-id\">(<a href="
+#| "\"#GPLInProprietarySystem\" >#GPLInProprietarySystem</a>)</span>"
 msgid ""
-"I'd like to incorporate GPL-covered software in my proprietary system.  Can "
-"I do this? <span class=\"anchor-reference-id\">(<a href="
+"I'd like to incorporate GPL-covered software in my proprietary system.  I "
+"have no permission to use that software except what the GPL gives me.  Can I "
+"do this? <span class=\"anchor-reference-id\">(<a href="
 "\"#GPLInProprietarySystem\" >#GPLInProprietarySystem</a>)</span>"
 msgstr ""
 "J'aimerais incorporer un logiciel sous GPL dans mon système privateur. Est-"
@@ -7963,10 +7981,20 @@ msgid "Copyright &copy; 2014, 2015 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2014, 2015 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
+# | This page is licensed under a <a rel=\"license\"
+# | [-href=\"http://creativecommons.org/licenses/by-nd/3.0/us/\">Creative-]
+# | {+href=\"http://creativecommons.org/licenses/by-nd/4.0/\">Creative+}
+# | Commons [-Attribution-NoDerivs 3.0 United States-]
+# | {+Attribution-NoDerivatives 4.0 International+} License</a>.
+#, fuzzy
+#| msgid ""
+#| "This page is licensed under a <a rel=\"license\" href=\"http://"
+#| "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+#| "NoDerivs 3.0 United States License</a>."
 msgid ""
 "This page is licensed under a <a rel=\"license\" href=\"http://"
-"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
-"NoDerivs 3.0 United States License</a>."
+"creativecommons.org/licenses/by-nd/4.0/\">Creative Commons Attribution-"
+"NoDerivatives 4.0 International License</a>."
 msgstr ""
 "Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr"

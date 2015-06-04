@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-back-doors.html\n"
-"POT-Creation-Date: 2015-02-17 23:25+0000\n"
+"POT-Creation-Date: 2015-06-02 17:57+0000\n"
 "PO-Revision-Date: 2015-02-18 11:26+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -85,6 +85,14 @@ msgid ""
 msgstr ""
 "Plus d'information sur le moment où <a href=\"http://slated.org/"
 "windows_by_stealth_the_updates_you_dont_want\"> elle a été utilisée</a>. "
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"In Windows 10, the universal back door is no longer hidden; all &ldquo;"
+"upgrades&rdquo; will be <a href=\"http://www.appy-geek.com/Web/ArticleWeb."
+"aspx?regionid=1&amp;articleid=42633691&amp;source=googleplus\">forcibly and "
+"immediately imposed</a>."
+msgstr ""
 
 #. type: Content of: <ul><li><p>
 msgid ""
@@ -381,10 +389,20 @@ msgid "Copyright &copy; 2014-2015 Free Software Foundation, Inc."
 msgstr "Copyright &copy; 2014-2015 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
+# | This page is licensed under a <a rel=\"license\"
+# | [-href=\"http://creativecommons.org/licenses/by-nd/3.0/us/\">Creative-]
+# | {+href=\"http://creativecommons.org/licenses/by-nd/4.0/\">Creative+}
+# | Commons [-Attribution-NoDerivs 3.0 United States-]
+# | {+Attribution-NoDerivatives 4.0 International+} License</a>.
+#, fuzzy
+#| msgid ""
+#| "This page is licensed under a <a rel=\"license\" href=\"http://"
+#| "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+#| "NoDerivs 3.0 United States License</a>."
 msgid ""
 "This page is licensed under a <a rel=\"license\" href=\"http://"
-"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
-"NoDerivs 3.0 United States License</a>."
+"creativecommons.org/licenses/by-nd/4.0/\">Creative Commons Attribution-"
+"NoDerivatives 4.0 International License</a>."
 msgstr ""
 "Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr"

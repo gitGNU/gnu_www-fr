@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-insecurity.html\n"
-"POT-Creation-Date: 2015-05-31 18:56+0000\n"
+"POT-Creation-Date: 2015-06-03 13:55+0000\n"
 "PO-Revision-Date: 2015-05-31 21:46+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -246,11 +246,27 @@ msgstr ""
 "persistantes que les outils d'analyse normaux ne détecteront pas."
 
 #. type: Content of: <ul><li><p>
+# | <a
+# | href=\"http://phys.org/news/2015-05-app-vulnerability-threatens-millions-users.html\">
+# | Many smartphone apps use insecure authentication methods when storing your
+# | personal data [-in &ldquo;cloud&rdquo; services.</a>-] {+on remote
+# | servers.</a>+} This leaves personal information like email addresses,
+# | passwords, and health information vulnerable. Because many of these apps
+# | are proprietary it makes it hard to impossible to know which apps are at
+# | risk.
+#, fuzzy
+#| msgid ""
+#| "<a href=\"http://phys.org/news/2015-05-app-vulnerability-threatens-"
+#| "millions-users.html\"> Many smartphone apps use insecure authentication "
+#| "methods when storing your personal data in &ldquo;cloud&rdquo; services.</"
+#| "a> This leaves personal information like email addresses, passwords, and "
+#| "health information vulnerable. Because many of these apps are proprietary "
+#| "it makes it hard to impossible to know which apps are at risk."
 msgid ""
 "<a href=\"http://phys.org/news/2015-05-app-vulnerability-threatens-millions-"
 "users.html\"> Many smartphone apps use insecure authentication methods when "
-"storing your personal data in &ldquo;cloud&rdquo; services.</a> This leaves "
-"personal information like email addresses, passwords, and health information "
+"storing your personal data on remote servers.</a> This leaves personal "
+"information like email addresses, passwords, and health information "
 "vulnerable. Because many of these apps are proprietary it makes it hard to "
 "impossible to know which apps are at risk."
 msgstr ""
