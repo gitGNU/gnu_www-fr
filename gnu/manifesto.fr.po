@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: manifesto.html\n"
 "POT-Creation-Date: 2015-06-02 12:55+0000\n"
-"PO-Revision-Date: 2014-04-19 13:56+0200\n"
-"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
+"PO-Revision-Date: 2015-06-07 17:49+0200\n"
+"Last-Translator: Sogal <sogal AT member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,6 @@ msgstr "Le manifeste GNU - Projet GNU - Free Software Foundation"
 msgid "The GNU Manifesto"
 msgstr "Le manifeste GNU"
 
-#. type: Content of: <p>
 # | The GNU Manifesto (which appears below) was written by <a
 # | href=\"http://www.stallman.org/\">Richard Stallman</a> [-at the beginning
 # | of the GNU Project,-] {+in 1985+} to ask for [-participation and support. 
@@ -36,13 +35,7 @@ msgstr "Le manifeste GNU"
 # | 1983.  Through 1987,+} it was updated in minor ways to account for
 # | [-developments, but now-] {+developments; since then,+} it seems best to
 # | leave it [-unchanged as most people have seen it.-] {+unchanged.+}
-#, fuzzy
-#| msgid ""
-#| "The GNU Manifesto (which appears below) was written by <a href=\"http://"
-#| "www.stallman.org/\">Richard Stallman</a> at the beginning of the GNU "
-#| "Project, to ask for participation and support.  For the first few years, "
-#| "it was updated in minor ways to account for developments, but now it "
-#| "seems best to leave it unchanged as most people have seen it."
+#. type: Content of: <p>
 msgid ""
 "The GNU Manifesto (which appears below) was written by <a href=\"http://www."
 "stallman.org/\">Richard Stallman</a> in 1985 to ask for support in "
@@ -51,11 +44,11 @@ msgid ""
 "to account for developments; since then, it seems best to leave it unchanged."
 msgstr ""
 "Le manifeste GNU, reproduit ci-dessous, a été écrit par <a href=\"http://www."
-"stallman.org/\">Richard Stallman</a> au commencement du projet GNU pour "
-"recruter des participants et demander un soutien matériel. Au cours des "
-"premières années, il y a eu quelques petites mises à jour pour tenir compte "
-"de l'évolution du projet, mais il nous semble maintenant plus judicieux de "
-"le laisser dans l'état où la plupart de ses lecteurs l'ont vu."
+"stallman.org/\">Richard Stallman</a> en 1985 pour demander un soutien au "
+"développement du système d'exploitation GNU. Une part du texte provient de "
+"l'annonce originelle de 1983. Courant 1987, il y a eu quelques petites mises "
+"à jour pour tenir compte de l'évolution du projet, mais il nous semble "
+"maintenant plus judicieux de le laisser inchangé."
 
 #. type: Content of: <p>
 msgid ""
@@ -74,6 +67,10 @@ msgid ""
 "how to contribute, see <a href=\"/help/help.html\">http://www.gnu.org/help</"
 "a>."
 msgstr ""
+"Si vous voulez installer le système GNU/Linux, nous vous recommandons "
+"d'utiliser une des <a href=\"distros\">distributions GNU/Linux 100% libres</"
+"a>. Pour savoir comment contribuer, voir <a href=\"help/help.html\">http://"
+"www.gnu.org/help</a>."
 
 #. type: Content of: <p>
 msgid ""
@@ -84,6 +81,13 @@ msgid ""
 "Movement's ethical values.  They use it to promote an <a href=\"/philosophy/"
 "open-source-misses-the-point.html\">amoral approach</a> to the same field."
 msgstr ""
+"Le projet GNU fait partie du mouvement pour le logiciel libre, une campagne "
+"pour <a href=\"/philosophy/free-sw.html\">la liberté des utilisateurs de "
+"logiciels</a>. Associer GNU avec le terme « open-source » est une erreur "
+"dans la mesure où ce terme fut inventé en 1998 par des gens en désaccord "
+"avec les valeurs éthiques du mouvement pour le logiciel libre. Ils "
+"l'utilisent pour promouvoir une <a href=\"philosophy/open-source-misses-the-"
+"point\">approche amorale</a> du même domaine."
 
 #. type: Content of: <h3>
 msgid "What's GNU? Gnu's Not Unix!"
@@ -1097,9 +1101,10 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"People with new ideas could distribute programs as freeware<a href=\"#f7\">"
-"(9)</a>, asking for donations from satisfied users, or selling handholding "
-"services.  I have met people who are already working this way successfully."
+"People with new ideas could distribute programs as freeware<a href="
+"\"#f7\">(9)</a>, asking for donations from satisfied users, or selling "
+"handholding services.  I have met people who are already working this way "
+"successfully."
 msgstr ""
 "Des personnes aux idées novatrices peuvent distribuer des logiciels comme "
 "« graticiels » <cite>[freeware]</cite> <a name=\"f7-rev\" href=\"#f7\">(9)</"
@@ -1436,19 +1441,15 @@ msgstr ""
 "traductions de nos pages web, reportez-vous au <a href=\"/server/standards/"
 "README.translations.html\">guide de traduction</a>."
 
-#. type: Content of: <div><p>
 # | Copyright &copy; 1985, 1993, 2003, 2005, 2007, 2008, 2009, 2010, [-2014-]
 # | {+2014, 2015+} Free Software Foundation, Inc.
-#, fuzzy
-#| msgid ""
-#| "Copyright &copy; 1985, 1993, 2003, 2005, 2007, 2008, 2009, 2010, 2014 "
-#| "Free Software Foundation, Inc."
+#. type: Content of: <div><p>
 msgid ""
 "Copyright &copy; 1985, 1993, 2003, 2005, 2007, 2008, 2009, 2010, 2014, 2015 "
 "Free Software Foundation, Inc."
 msgstr ""
-"Copyright &copy; 1985, 1993, 2003, 2005, 2007, 2008, 2009, 2010, 2014 Free "
-"Software Foundation, Inc."
+"Copyright &copy; 1985, 1993, 2003, 2005, 2007, 2008, 2009, 2010, 2014, 2015 "
+"Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""

@@ -5,14 +5,14 @@
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
 # Denis Barbier <bouzim@gmail.com>, 2011.
 # Thérèse Godefroy <godef.th AT free.fr>, 2012, 2013, 2014.
-# Sébastien Poher <sbphr @T volted.net>, 2014.
+# Sogal <sogal @T member.fsf.org>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-linux-faq.html\n"
 "POT-Creation-Date: 2015-06-03 08:25+0000\n"
-"PO-Revision-Date: 2015-02-07 16:02+0100\n"
-"Last-Translator: Sébastien Poher <sbphr @T volted.net>\n"
+"PO-Revision-Date: 2015-06-06 20:41+0200\n"
+"Last-Translator: Sogal <sogal @T member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -319,17 +319,11 @@ msgstr ""
 # | call it+} &ldquo;Foobar [-Linux&rdquo;; doesn't-] {+Linux&rdquo;, but+}
 # | that [-show it's really Linux?</a>-] {+doesn't say anything about what the
 # | system consists of.  Why shouldn't they call it whatever they like?</a>+}
-#, fuzzy
-#| msgid ""
-#| "<a href=\"#distronames\" id=\"TOCdistronames\">My distro is called &ldquo;"
-#| "Foobar Linux&rdquo;; doesn't that show it's really Linux?</a>"
 msgid ""
 "<a href=\"#distronames0\" id=\"TOCdistronames0\">My distro's developers call "
 "it &ldquo;Foobar Linux&rdquo;, but that doesn't say anything about what the "
 "system consists of.  Why shouldn't they call it whatever they like?</a>"
-msgstr ""
-"<a href=\"#distronames\" id=\"TOCdistronames\">Ma distribution s'appelle "
-"« Foobar Linux » : est-ce que cela ne montre pas que c'est bien Linux ?</a>"
+msgstr "<a href=\"#distronames0\" id=\"TOCdistronames\">Les développeurs de ma distribution l'appellent « Foobar Linux » mais ne disent pas ce qui compose le système. Pourquoi ne pourraient-ils pas l'appeler comme ils le veulent ?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -450,16 +444,10 @@ msgstr ""
 # | people call-] {+href=\"#howmuch\" id=\"TOChowmuch\">How much of+} the
 # | {+GNU+} system [-&ldquo;Linux&rdquo;?</a>-] {+is needed for the system to
 # | be GNU/Linux?</a>+}
-#, fuzzy
-#| msgid ""
-#| "<a href=\"#howerror\" id=\"TOChowerror\">How did it come about that most "
-#| "people call the system &ldquo;Linux&rdquo;?</a>"
 msgid ""
 "<a href=\"#howmuch\" id=\"TOChowmuch\">How much of the GNU system is needed "
 "for the system to be GNU/Linux?</a>"
-msgstr ""
-"<a href=\"#howerror\" id=\"TOChowerror\">D'où vient le fait que la plupart "
-"des gens appellent le système « Linux » ?</a>"
+msgstr "<a href=\"#howmuch\" id=\"TOChowmuch\">A quel point le système GNU est-il nécessaire pour que le système soit GNU/Linux ?"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -1912,34 +1900,26 @@ msgstr ""
 # | class=\"anchor-reference-id\">(<a
 # | [-href=\"#distronames\">#distronames</a>)</span>-]
 # | {+href=\"#distronames0\">#distronames0</a>)</span>+}
-#, fuzzy
-#| msgid ""
-#| "My distro is called &ldquo;Foobar Linux&rdquo;; doesn't that show it's "
-#| "really Linux? <span class=\"anchor-reference-id\">(<a href=\"#distronames"
-#| "\">#distronames</a>)</span>"
 msgid ""
 "My distro's developers call it &ldquo;Foobar Linux&rdquo;, but that doesn't "
 "say anything about what the system consists of.  Why shouldn't they call it "
 "whatever they like? <span class=\"anchor-reference-id\">(<a href="
 "\"#distronames0\">#distronames0</a>)</span>"
-msgstr ""
-"Ma distribution s'appelle « Foobar Linux » : est-ce que cela ne montre pas "
-"que c'est bien Linux ? <span class=\"anchor-reference-id\">(<a href="
-"\"#distronames\">#distronames</a>)</span>"
+msgstr "Les développeurs de ma distribution l'appellent « Foobar Linux » mais ne disent pas ce qui compose le système. Pourquoi ne pourraient-ils pas l'appeler comme ils le veulent ? <span class=\"anchor-reference-id\">(<a href=\"#distronames0\">#distronames0</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
 "Calling a system &ldquo;Foobar Linux&rdquo; implies that it's a flavor of "
 "&ldquo;Linux,&rdquo; and people <a href=\"#distronames\">understand it that "
 "way</a>."
-msgstr ""
+msgstr "Appeler un système « Toto Linux » implique que c'est une version de « Linux » et les gens <a href=\\\"#distronames\\\"> comprenne cela de cette façon."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If they called a GNU/Linux distro &ldquo;Foobar BSD,&rdquo; you would call "
 "that a mistake.  &ldquo;This system is not BSD,&rdquo; you would tell them.  "
 "Well, it's not Linux either."
-msgstr ""
+msgstr "S'ils appelaient une distribution GNU/Linux « Toto BSD », vous appelleriez probablement cela une erreur. Vous leur diriez : « Ce système n'est pas BSD ». Et bien ce n'est pas Linux non plus."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -1981,21 +1961,11 @@ msgstr ""
 # | &ldquo;Foobar GNU/Linux&rdquo;.  This is what you ought to do, [-because
 # | otherwise you'd be propagating-] {+to avoid+} their [-error and
 # | unfairness.-] {+error.+}
-#, fuzzy
-#| msgid ""
-#| "If it's allowed for them to change &ldquo;GNU&rdquo; to &ldquo;Foobar "
-#| "Linux&rdquo;, it's allowed for you to change it back and call it &ldquo;"
-#| "Foobar GNU/Linux&rdquo;.  This is what you ought to do, because otherwise "
-#| "you'd be propagating their error and unfairness."
 msgid ""
 "If it's allowed for them to change &ldquo;GNU&rdquo; to &ldquo;Foobar "
 "Linux&rdquo;, it's allowed for you to change it back and call it &ldquo;"
 "Foobar GNU/Linux&rdquo;.  This is what you ought to do, to avoid their error."
-msgstr ""
-"S'ils se sont autorisés à changer « GNU » en « Foobar Linux », vous pouvez "
-"aussi vous autoriser à le rétablir sous la forme « Foobar GNU/Linux ». C'est "
-"ce que vous devriez faire, car dans le cas contraire vous propageriez leur "
-"erreur et leur manque d'équité."
+msgstr "S'ils se sont autorisés à changer « GNU » en « Foobar Linux », vous pouvez aussi vous autoriser à le rétablir sous la forme « Foobar GNU/Linux ». C'est ce que vous devriez faire pour éviter leur erreur."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -2678,27 +2648,21 @@ msgstr ""
 # | system is needed for the system to be GNU/Linux?+} <span
 # | class=\"anchor-reference-id\">(<a [-href=\"#why\">#why</a>)</span>-]
 # | {+href=\"#howmuch\">#howmuch</a>)</span>+}
-#, fuzzy
-#| msgid ""
-#| "Why do you call it GNU/Linux and not Linux? <span class=\"anchor-"
-#| "reference-id\">(<a href=\"#why\">#why</a>)</span>"
 msgid ""
 "How much of the GNU system is needed for the system to be GNU/Linux? <span "
 "class=\"anchor-reference-id\">(<a href=\"#howmuch\">#howmuch</a>)</span>"
-msgstr ""
-"Pourquoi l'appelez-vous GNU/Linux et pas Linux ? <span class=\"anchor-"
-"reference-id\">(<a href=\"#why\">#why</a>)</span>"
+msgstr "A quel point le système GNU est-il nécessaire pour que le système soit GNU/Linux ?<span class=\"anchor-reference-id\">(<a href=\"#howmuch\">#howmuch</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid "&ldquo;How much&rdquo; is the wrong question."
-msgstr ""
+msgstr "« Combien » est une mauvaise question ?"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
 "If you replace all (or nearly all) of the parts of an airplane, one by one, "
 "with spares, is it still the same plane? That question is a philosophical "
 "conundrum, but the agreed answer is &ldquo;yes.&rdquo;"
-msgstr ""
+msgstr "Si vous remplacez toutes (ou presque) les pièces d'un avion, une par une, avec des pièces de rechange, est-ce toujours le même avion ? Cette question est une énigme philosophique mais la réponse convenue est « oui »."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -2706,7 +2670,7 @@ msgid ""
 "released by the GNU Project.  If you start with GNU/Linux replace nearly all "
 "the components with others, you may end up with a nearly disjoint set of "
 "code, but it will still be the GNU/Linux system."
-msgstr ""
+msgstr "Le système GNU est quelque chose de bien plus grand que simplement quelques composants mis à disposition par le projet GNU. Si vous prenez GNU/Linux et remplacez presque tous les composants par d'autres, vous finirez probablement avec un ensemble hétéroclite de code mais ce sera toujours le système GNU/Linux."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -3359,20 +3323,11 @@ msgstr ""
 # | {+href=\"http://creativecommons.org/licenses/by-nd/4.0/\">Creative+}
 # | Commons [-Attribution-NoDerivs 3.0 United States-]
 # | {+Attribution-NoDerivatives 4.0 International+} License</a>.
-#, fuzzy
-#| msgid ""
-#| "This page is licensed under a <a rel=\"license\" href=\"http://"
-#| "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
-#| "NoDerivs 3.0 United States License</a>."
 msgid ""
 "This page is licensed under a <a rel=\"license\" href=\"http://"
 "creativecommons.org/licenses/by-nd/4.0/\">Creative Commons Attribution-"
 "NoDerivatives 4.0 International License</a>."
-msgstr ""
-"Cette page peut être utilisée suivant les conditions de la licence <a rel="
-"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr"
-"\">Creative Commons attribution de paternité, pas de modification, 3.0 États-"
-"Unis (CC BY-ND 3.0 US)</a>."
+msgstr "Cette page peut être utilisée suivant les conditions de la licence <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nd/4.0/us/deed.fr\">Creative Commons attribution de paternité, pas de modification, 4.0 Internationale (CC BY-ND 4.0)</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>

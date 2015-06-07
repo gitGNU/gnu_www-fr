@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: free-hardware-designs.html\n"
 "POT-Creation-Date: 2015-06-02 02:55+0000\n"
-"PO-Revision-Date: 2015-05-30 23:01+0200\n"
-"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
+"PO-Revision-Date: 2015-06-07 18:00+0200\n"
+"Last-Translator: Sogal <sogal AT member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -124,15 +124,10 @@ msgstr ""
 "modification. Un tel plan doit offrir les quatre libertés, évoquées plus "
 "haut, qui définissent le logiciel libre."
 
-#. type: Content of: <p>
 # | Then we can refer to hardware made from a free design as &ldquo;free
 # | hardware,&rdquo; or &ldquo;free[- -]{+-+}design hardware&rdquo; to avoid
 # | possible misunderstanding.
-#, fuzzy
-#| msgid ""
-#| "Then we can refer to hardware made from a free design as &ldquo;free "
-#| "hardware,&rdquo; or &ldquo;free design hardware&rdquo; to avoid possible "
-#| "misunderstanding."
+#. type: Content of: <p>
 msgid ""
 "Then we can refer to hardware made from a free design as &ldquo;free "
 "hardware,&rdquo; or &ldquo;free-design hardware&rdquo; to avoid possible "
