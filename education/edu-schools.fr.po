@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: schools.html\n"
 "POT-Creation-Date: 2015-06-02 12:55+0000\n"
-"PO-Revision-Date: 2015-06-06 20:04+0200\n"
+"PO-Revision-Date: 2015-06-09 21:51+0200\n"
 "Last-Translator: Sogal <sogal AT member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -70,9 +70,6 @@ msgstr "Pourquoi les écoles doivent utiliser exclusivement du logiciel libre"
 msgid "by <a href=\"http://www.stallman.org/\">Richard Stallman</a>"
 msgstr "par <a href=\"http://www.stallman.org/\">Richard Stallman</a>"
 
-# | Educational [-activities (including schools)-] {+activities, including
-# | schools of all levels from kindergarten to university,+} have a moral duty
-# | to <a href=\"/education/education.html\">teach only free software.</a>
 #. type: Content of: <p>
 msgid ""
 "Educational activities, including schools of all levels from kindergarten to "
@@ -162,13 +159,6 @@ msgstr ""
 "dépendance, ce qui va à l'encontre de la mission sociale de l'école. Les "
 "écoles ne doivent jamais le faire."
 
-# | Why, after all, do some proprietary software developers offer gratis
-# | copies<a href=\"#note1\">(1)</a> of their nonfree programs to schools?
-# | Because they want to <em>use</em> the schools to implant dependence on
-# | their products, like tobacco companies distributing gratis cigarettes to
-# | school children<a href=\"#note2\">(2)</a>.  They will not give gratis
-# | copies to these students once they've graduated, nor to the companies that
-# | they go to work for.  {+Once you're dependent, you're expected to pay.+}
 #. type: Content of: <p>
 msgid ""
 "Why, after all, do some proprietary software developers offer gratis "
@@ -187,7 +177,7 @@ msgstr ""
 "scolaire <a href=\"#note2\">(2)</a>. Ces développeurs ne donneront pas "
 "d'exemplaire gratuit à ces élèves et étudiants une fois qu'ils auront leur "
 "diplôme, ni aux entreprises pour lesquelles ils travailleront. Une fois "
-"rendu dépendant, il vous faut payer."
+"dépendant, il vous faut payer."
 
 #. type: Content of: <p>
 msgid ""
@@ -398,16 +388,10 @@ msgstr ""
 "traductions de nos pages web, reportez-vous au <a href=\"/server/standards/"
 "README.translations.html\">guide de traduction</a>."
 
-# | Copyright &copy; 2003, 2009, [-2014-] {+2014, 2015+} Richard Stallman
 #. type: Content of: <div><p>
 msgid "Copyright &copy; 2003, 2009, 2014, 2015 Richard Stallman"
 msgstr "Copyright &copy; 2003, 2009, 2014, 2015 Richard Stallman"
 
-# | This page is licensed under a <a rel=\"license\"
-# | [-href=\"http://creativecommons.org/licenses/by-nd/3.0/us/\">Creative-]
-# | {+href=\"http://creativecommons.org/licenses/by-nd/4.0/\">Creative+}
-# | Commons [-Attribution-NoDerivs 3.0 United States-]
-# | {+Attribution-NoDerivatives 4.0 International+} License</a>.
 #. type: Content of: <div><p>
 msgid ""
 "This page is licensed under a <a rel=\"license\" href=\"http://"
@@ -416,8 +400,8 @@ msgid ""
 msgstr ""
 "Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/4.0/us/deed.fr"
-"\">Creative Commons attribution de paternité, pas de modification, "
-"4.0 Internationale (CC BY-ND 4.0)</a>."
+"\">Creative Commons attribution, pas de modification, 4.0 internationale "
+"(CC BY-ND 4.0)</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>

@@ -2,12 +2,13 @@
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the original article.
 # Thérèse Godefroy <godef.th AT free.fr>, 2013, 2014.
+# Sogal <sogal AT member.fsf.org>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-insecurity.html\n"
 "POT-Creation-Date: 2015-06-03 13:55+0000\n"
-"PO-Revision-Date: 2015-06-07 18:32+0200\n"
+"PO-Revision-Date: 2015-06-09 21:51+0200\n"
 "Last-Translator: Sogal <sogal AT member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -245,14 +246,6 @@ msgstr ""
 "programme non libre.</a> Ceci rend tout système vulnérable à des attaques "
 "persistantes que les outils d'analyse normaux ne détecteront pas."
 
-# | <a
-# | href=\"http://phys.org/news/2015-05-app-vulnerability-threatens-millions-users.html\">
-# | Many smartphone apps use insecure authentication methods when storing your
-# | personal data [-in &ldquo;cloud&rdquo; services.</a>-] {+on remote
-# | servers.</a>+} This leaves personal information like email addresses,
-# | passwords, and health information vulnerable. Because many of these apps
-# | are proprietary it makes it hard to impossible to know which apps are at
-# | risk.
 #. type: Content of: <ul><li><p>
 msgid ""
 "<a href=\"http://phys.org/news/2015-05-app-vulnerability-threatens-millions-"
@@ -327,7 +320,7 @@ msgid ""
 msgstr ""
 "Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/4.0/deed.fr"
-"\">Creative Commons attribution, pas de modification, 4.0 international "
+"\">Creative Commons attribution, pas de modification, 4.0 internationale "
 "(CC BY-ND 4.0)</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
