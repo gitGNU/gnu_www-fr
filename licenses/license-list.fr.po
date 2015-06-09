@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2015-05-29 19:25+0000\n"
+"POT-Creation-Date: 2015-06-09 15:55+0000\n"
 "PO-Revision-Date: 2015-05-30 22:44+0200\n"
 "Last-Translator: Thérèse godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -994,9 +994,19 @@ msgstr ""
 "\">#HPND</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
+# | This is a {+lax, permissive, and weak+} free software license [-and-]
+# | {+that+} is [-GPL compatible.-] {+compatible with the GPL.+} It is similar
+# | to the license of <a href=\"#Python1.6a2\">Python 1.6a2 and earlier
+# | versions</a>.
+#, fuzzy
+#| msgid ""
+#| "This is a free software license and is GPL compatible. It is similar to "
+#| "the license of <a href=\"#Python1.6a2\">Python 1.6a2 and earlier "
+#| "versions</a>."
 msgid ""
-"This is a free software license and is GPL compatible. It is similar to the "
-"license of <a href=\"#Python1.6a2\">Python 1.6a2 and earlier versions</a>."
+"This is a lax, permissive, and weak free software license that is compatible "
+"with the GPL. It is similar to the license of <a href="
+"\"#Python1.6a2\">Python 1.6a2 and earlier versions</a>."
 msgstr ""
 "C'est une licence de logiciel libre, compatible avec la GPL. Elle est "
 "similaire à la licence de <a href=\"#Python1.6a2\">Python 1.6a2 et versions "
@@ -1712,12 +1722,18 @@ msgstr ""
 "\">#WTFPL</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
+# | This is a lax[-,-] permissive non-copyleft free software license,
+# | compatible with the GNU GPL.
+#, fuzzy
+#| msgid ""
+#| "This is a lax, permissive non-copyleft free software license, compatible "
+#| "with the GNU GPL."
 msgid ""
-"This is lax permissive non-copyleft free software license, compatible with "
+"This is a lax permissive non-copyleft free software license, compatible with "
 "the GNU GPL."
 msgstr ""
 "C'est une licence de logiciel libre permissive (voire laxiste) sans "
-"copyleft, compatible avec la GNU GPL. "
+"copyleft, compatible avec la GNU GPL."
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -5107,7 +5123,7 @@ msgid ""
 msgstr ""
 "Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/4.0/deed.fr"
-"\">Creative Commons attribution, pas de modification, 4.0 international "
+"\">Creative Commons attribution, pas de modification, 4.0 internationale "
 "(CC BY-ND 4.0)</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
@@ -5121,3 +5137,10 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid ""
+#~ "This is lax permissive non-copyleft free software license, compatible "
+#~ "with the GNU GPL."
+#~ msgstr ""
+#~ "C'est une licence de logiciel libre permissive (voire laxiste) sans "
+#~ "copyleft, compatible avec la GNU GPL. "

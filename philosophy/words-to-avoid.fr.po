@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: words-to-avoid.html\n"
-"POT-Creation-Date: 2015-05-28 17:27+0000\n"
-"PO-Revision-Date: 2015-05-30 23:03+0200\n"
+"POT-Creation-Date: 2015-06-06 09:55+0000\n"
+"PO-Revision-Date: 2015-06-06 17:59+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -231,7 +231,7 @@ msgstr "« <a href=\"#SellSoftware\">vendre des logiciels</a> » |"
 
 #. type: Content of: <p>
 msgid "&ldquo;<a href=\"#SharingEconomy\">Sharing economy</a>&rdquo; |"
-msgstr "&ldquo;<a href=\"#SharingEconomy\">Économie de partage</a>&rdquo; |"
+msgstr "&ldquo;<a href=\"#SharingEconomy\">économie de partage</a>&rdquo; |"
 
 #. type: Content of: <p>
 msgid "&ldquo;<a href=\"#Skype\">Skype</a>&rdquo; |"
@@ -243,8 +243,17 @@ msgstr "« <a href=\"#SoftwareIndustry\">industrie du logiciel</a> » |"
 
 #. type: Content of: <p>
 msgid "&ldquo;<a href=\"#SourceModel\">Source model</a>&rdquo; |"
-msgstr "&ldquo;<a href=\"#SourceModel\">Modèle de source</a>&rdquo; |"
+msgstr "&ldquo;<a href=\"#SourceModel\">modèle de source</a>&rdquo; |"
 
+#. #if expr="$LANGUAGE_SUFFIX	= /^.()$/" 
+#.  TRANSLATORS: translate if this word is used often in your
+#.      language to refer to mobile computers; otherwise,
+#.      fill the translation with a space. 
+#. type: Content of: <p>
+msgid "&ldquo;<a href=\"#Terminal\">Terminal</a>&rdquo; |"
+msgstr "« <a href=\"#Terminal\">terminal</a> » |"
+
+#. #endif 
 #. type: Content of: <p>
 msgid "&ldquo;<a href=\"#Theft\">Theft</a>&rdquo; |"
 msgstr "« <a href=\"#Theft\">vol</a> » |"
@@ -257,7 +266,7 @@ msgstr "« <a href=\"#TrustedComputing\">informatique de confiance</a> » |"
 msgid "&ldquo;<a href=\"#Vendor\">Vendor</a>&rdquo;"
 msgstr "« <a href=\"#Vendor\">vendeur</a> »"
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Alternative&rdquo;"
 msgstr "« Alternative »"
 
@@ -293,7 +302,7 @@ msgstr ""
 "assujettissent leurs utilisateurs. Nous ne pensons pas que ce soit une bonne "
 "chose de proposer aux utilisateurs ces « alternatives » au logiciel libre."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;BSD-style&rdquo;"
 msgstr "« Type BSD »"
 
@@ -321,7 +330,7 @@ msgstr ""
 "license-list.html\">la licence spécifique en question</a> et d'éviter le "
 "terme vague « de type BSD »."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Closed&rdquo;"
 msgstr "« Fermé »"
 
@@ -347,7 +356,7 @@ msgstr ""
 "\">privateur</a> ».<a id=\"TransNote1-rev\" href=\"#TransNote1\"><sup>1</"
 "sup></a>"
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Cloud Computing&rdquo;"
 msgstr ""
 "« <cite>Cloud computing</cite> », « informatique dans les nuages » et "
@@ -482,7 +491,7 @@ msgstr ""
 "décidé de l'utiliser quand même, car en tant que développeur de logiciels "
 "privateurs, il n'est pas motivé par les mêmes idéaux que nous."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Commercial&rdquo;"
 msgstr "« Commercial »"
 
@@ -539,7 +548,7 @@ msgstr ""
 "contient une contradiction interne et la rejettent. Faisons attention à ne "
 "pas utiliser le mot « commercial » dans ce sens."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Compensation&rdquo;"
 msgstr "« Compensation »"
 
@@ -571,7 +580,7 @@ msgstr ""
 "cas parfois, mais la plupart du temps cela induit des subsides pour les "
 "mêmes sociétés d'édition qui nous assomment de lois injustes."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Consume&rdquo;"
 msgstr "« Consommer »"
 
@@ -612,7 +621,7 @@ msgstr ""
 msgid "See also the following entry."
 msgstr "Voir également la rubrique suivante."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Consumer&rdquo;"
 msgstr "« Consommateur »"
 
@@ -704,7 +713,7 @@ msgstr ""
 "theguardian.com/commentisfree/2013/aug/11/capitalism-language-raymond-"
 "williams\">déjà été signalé</a>."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Content&rdquo;"
 msgstr "« Contenu »"
 
@@ -787,7 +796,7 @@ msgstr ""
 "à jour des pages sur un site web. Pour cela, nous recommandons le terme "
 "« système de révision pour site web »."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Creative Commons licensed&rdquo;"
 msgstr "« Sous licence Creative Commons »"
 
@@ -820,7 +829,7 @@ msgstr ""
 "vous ne savez pas quelle licence régit une œuvre donnée, renseignez-vous et "
 "alors seulement formulez votre phrase."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Creator&rdquo;"
 msgstr "« Créateur »"
 
@@ -845,7 +854,7 @@ msgstr ""
 "réellement dire. Ces deux termes ne sont pas équivalents. Il arrive souvent "
 "que le détenteur du copyright ne soit pas l'auteur."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Digital Goods&rdquo;"
 msgstr "« Biens numériques »"
 
@@ -868,7 +877,7 @@ msgstr ""
 "ces questions dans le cadre de l'économie, dont les valeurs superficielles "
 "et limitées ne comportent pas les notions de liberté et de communauté."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Digital Locks&rdquo;"
 msgstr "« Verrous (ou serrures) numériques »"
 
@@ -936,7 +945,7 @@ msgstr ""
 "déclarons notre soutien, nous remplaçons ostensiblement cette expression par "
 "« menottes numériques » et nous disons pourquoi."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Digital Rights Management&rdquo;"
 msgstr "« Gestion numérique des droits »"
 
@@ -974,7 +983,7 @@ msgstr ""
 "Merci d'apporter votre soutien à notre <a href=\"http://DefectiveByDesign."
 "org/\">campagne pour abolir les DRM</a> en vous inscrivant sur ce site."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Ecosystem&rdquo;"
 msgstr "« Écosystème »"
 
@@ -1024,7 +1033,7 @@ msgstr ""
 "du climat, la propreté de l'air et de l'eau, les espèces en danger, les arts "
 "traditionnels&hellip; et la liberté des utilisateurs de l'informatique."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;FLOSS&rdquo;"
 msgstr "« FLOSS »"
 
@@ -1043,7 +1052,7 @@ msgstr ""
 "choix. Mais si vous voulez montrez que vous êtes partisan de la liberté, "
 "n'employez pas de terme neutre."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;For free&rdquo;"
 msgstr "« Gratuitement »"
 
@@ -1082,7 +1091,7 @@ msgstr ""
 "Pour éviter toute confusion, vous pouvez dire que le programme est "
 "disponible « en tant que logiciel libre »."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;FOSS&rdquo;"
 msgstr "« FOSS »"
 
@@ -1101,7 +1110,7 @@ msgstr ""
 "recherchez, « FLOSS » est un meilleur choix. Mais si vous voulez montrez que "
 "vous êtes partisan de la liberté, n'employez pas de terme neutre."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Freely available&rdquo;"
 msgstr "« Disponible gratuitement »"
 
@@ -1120,7 +1129,7 @@ msgstr ""
 "accordée aux utilisateurs qui en ont une copie. Ce sont des réponses à des "
 "questions différentes."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Freeware&rdquo;"
 msgstr "« Graticiel » ou « <cite>freeware</cite> »"
 
@@ -1167,7 +1176,7 @@ msgstr ""
 "que le logiciel libre fait exactement ce qu'il dit, ils comprendront "
 "vraiment le message qu'il véhicule."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Give away software&rdquo;"
 msgstr "« Donner des logiciels »"
 
@@ -1185,7 +1194,7 @@ msgstr ""
 "liberté. Une façon d'éviter la confusion est de dire « distribuer en tant "
 "que logiciel libre »."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Google&rdquo;"
 msgstr "&ldquo;Google&rdquo;"
 
@@ -1206,7 +1215,7 @@ msgstr ""
 "com/\">DuckDuckGo</a> déclare ne pas pister ses utilisateurs, bien que nous "
 "ne puissions pas le confirmer."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Hacker&rdquo;"
 msgstr "« Hacker »"
 
@@ -1236,7 +1245,7 @@ msgstr ""
 "Veuillez ne pas répandre cette erreur. Les personnes qui cassent la sécurité "
 "sont des « crackers »."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Intellectual property&rdquo;"
 msgstr "« Propriété intellectuelle »"
 
@@ -1299,7 +1308,7 @@ msgstr ""
 "PublicAwarenessOfCopyright-2002.html\">commence à embarrasser l'Organisation "
 "mondiale de la « propriété intellectuelle »</a>."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;LAMP system&rdquo;"
 msgstr "« Système LAMP »"
 
@@ -1316,7 +1325,7 @@ msgstr ""
 "réalité le système GNU/Linux. Donc, au lieu de « LAMP » ce devrait être "
 "« GLAMP » : « GNU, Linux, Apache, MySQL and PHP »."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Linux system&rdquo;"
 msgstr "« Système Linux »"
 
@@ -1336,7 +1345,7 @@ msgstr ""
 "href=\"/gnu/linux-and-gnu.html\">GNU/Linux</a>, pour en donner crédit au "
 "projet GNU et pour distinguer le système complet du noyau seul."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Market&rdquo;"
 msgstr "« Marché »"
 
@@ -1376,7 +1385,7 @@ msgstr ""
 "la liberté à une campagne commerciale nie l'importance de la liberté et "
 "légitime le logiciel privateur."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Monetize&rdquo;"
 msgstr "« Monétiser »"
 
@@ -1417,7 +1426,7 @@ msgstr ""
 "conditionne tout le reste au profit, il est peu probable qu'elle reste "
 "éthique."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;MP3 Player&rdquo;"
 msgstr "« Lecteur MP3 »"
 
@@ -1442,7 +1451,7 @@ msgstr ""
 "« lecteur audio numérique », ou simplement « lecteur audio » si le contexte "
 "le permet."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Open&rdquo;"
 msgstr "« Ouvert » ou « <cite>open</cite> »"
 
@@ -1466,7 +1475,7 @@ msgstr ""
 "notre travail (cela conduit les gens à penser que nous partageons leurs "
 "vues)."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;PC&rdquo;"
 msgstr "« PC »"
 
@@ -1487,7 +1496,7 @@ msgid ""
 "The term &ldquo;WC&rdquo; has been suggested for a computer running Windows."
 msgstr "Le terme « WC » a été suggéré pour un ordinateur exécutant Windows."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Photoshop&rdquo;"
 msgstr "« Photoshop »"
 
@@ -1506,7 +1515,7 @@ msgstr ""
 "beaucoup de programmes libres pour l'édition d'images, comme <a href=\"/"
 "software/gimp\">GIMP</a>."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Piracy&rdquo;"
 msgstr "« Piratage » et « piraterie »"
 
@@ -1557,7 +1566,7 @@ msgstr ""
 "and-theft-terms-in-hotfile-trial-131129/\">« piratage » and « vol » étaient "
 "diffamatoires.</a>"
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;PowerPoint&rdquo;"
 msgstr "« PowerPoint »"
 
@@ -1577,7 +1586,7 @@ msgstr ""
 "pour les vôtres. Parmi les choix recommandés, il y a la classe <tt>beamer</"
 "tt> de TeX, et « Impress » de LibreOffice."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Protection&rdquo;"
 msgstr "« Protection »"
 
@@ -1642,7 +1651,7 @@ msgstr ""
 "\"Digital Restrictions Management\">DRM</acronym>. Voir la campagne <a href="
 "\"http://DefectiveByDesign.org\"> Defective by Design</a> [en]."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;RAND (Reasonable and Non-Discriminatory)&rdquo;"
 msgstr "« RAND (raisonnable et non discriminatoire) »"
 
@@ -1703,7 +1712,7 @@ msgstr ""
 "[uniform fee only]</cite>, ou « UFO » en abrégé. Il est approprié car la "
 "seule clause de ces licences est une redevance uniforme."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;SaaS&rdquo; or &ldquo;Software as a Service&rdquo;"
 msgstr "« SaaS » ou <cite>Software as a Service</cite>"
 
@@ -1743,7 +1752,7 @@ msgstr ""
 "servicio</cite> parce que le jeu de mots <cite>software como ser vicio</"
 "cite> est trop bon pour qu'on l'abandonne."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Sell software&rdquo;"
 msgstr "« Vendre des logiciels »"
 
@@ -1776,7 +1785,7 @@ msgstr ""
 "Consulter l'article <a href=\"/philosophy/selling.html\">vendre des "
 "logiciels libres</a> pour une discussion plus détaillée sur le sujet."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Sharing economy&rdquo;"
 msgstr "« Économie de partage »"
 
@@ -1805,7 +1814,7 @@ msgstr ""
 "Pour définir des entreprises bomme Uber, il y a une expression plus "
 "appropriée : « économie de service à la pièce ». "
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Skype&rdquo;"
 msgstr "« Skype »"
 
@@ -1829,7 +1838,7 @@ msgstr ""
 "et votre vie privée, essayez l'un des <a href=\"https://libreplanet.org/wiki/"
 "Group:Skype_Replacement\"> nombreux programmes libres remplaçant Skype</a>."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Software Industry&rdquo;"
 msgstr "« Industrie du logiciel »"
 
@@ -1870,7 +1879,7 @@ msgstr ""
 "la définition de l'« industrie » comme « production automatisée de biens "
 "matériels »</a>."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Source model&rdquo;"
 msgstr "« Modèle de code source »"
 
@@ -1897,7 +1906,24 @@ msgstr ""
 "d'information cohérente, mais en revanche elle donne l'occasion de parler "
 "d'« open source » dans des pages qui décrivent des programmes libres."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
+msgid "&ldquo;Terminal&rdquo;"
+msgstr "« Terminal »"
+
+#. type: Content of: <p>
+msgid ""
+"Mobile phones and tablets are computers, and people should be able to do "
+"their computing on them using free software.  To call them &ldquo;"
+"terminals&rdquo; supposes that all they are good for is to connect to "
+"servers, which is a bad way to do your own computing."
+msgstr ""
+"Les téléphones mobiles et les tablettes sont des ordinateurs et les gens "
+"devraient pouvoir faire leur travail informatique dessus à l'aide de "
+"logiciel libre. Les appeler « terminaux » suppose qu'ils ne sont bons qu'à "
+"se connecter à des serveurs, ce qui est une mauvaise manière de faire votre "
+"propre travail."
+
+#. type: Content of: <h3>
 msgid "&ldquo;Theft&rdquo;"
 msgstr "« Vol »"
 
@@ -1951,7 +1977,7 @@ msgstr ""
 "(l'implémentation) ne se conforment pas à nos idées du bien et du mal (les "
 "specs), ce sont les lois qui doivent changer."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Trusted Computing&rdquo;"
 msgstr "« Informatique de confiance »"
 
@@ -1970,7 +1996,7 @@ msgstr ""
 "s'agit « d'informatique de confiance ». De votre point de vue, elle est "
 "« déloyale »."
 
-#. type: Content of: <h4>
+#. type: Content of: <h3>
 msgid "&ldquo;Vendor&rdquo;"
 msgstr "« Vendeur »"
 
