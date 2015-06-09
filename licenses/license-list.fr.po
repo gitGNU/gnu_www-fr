@@ -994,23 +994,14 @@ msgstr ""
 "\">#HPND</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
-# | This is a {+lax, permissive, and weak+} free software license [-and-]
-# | {+that+} is [-GPL compatible.-] {+compatible with the GPL.+} It is similar
-# | to the license of <a href=\"#Python1.6a2\">Python 1.6a2 and earlier
-# | versions</a>.
-#, fuzzy
-#| msgid ""
-#| "This is a free software license and is GPL compatible. It is similar to "
-#| "the license of <a href=\"#Python1.6a2\">Python 1.6a2 and earlier "
-#| "versions</a>."
 msgid ""
 "This is a lax, permissive, and weak free software license that is compatible "
 "with the GPL. It is similar to the license of <a href="
 "\"#Python1.6a2\">Python 1.6a2 and earlier versions</a>."
 msgstr ""
-"C'est une licence de logiciel libre, compatible avec la GPL. Elle est "
-"similaire à la licence de <a href=\"#Python1.6a2\">Python 1.6a2 et versions "
-"antérieures</a>."
+"C'est une licence de logiciel libre faible, permissive, voire laxiste, "
+"compatible avec la GPL. Elle est similaire à la licence de <a href="
+"\"#Python1.6a2\">Python 1.6a2 et versions antérieures</a>."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -1722,12 +1713,6 @@ msgstr ""
 "\">#WTFPL</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
-# | This is a lax[-,-] permissive non-copyleft free software license,
-# | compatible with the GNU GPL.
-#, fuzzy
-#| msgid ""
-#| "This is a lax, permissive non-copyleft free software license, compatible "
-#| "with the GNU GPL."
 msgid ""
 "This is a lax permissive non-copyleft free software license, compatible with "
 "the GNU GPL."
@@ -5137,10 +5122,3 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
-
-#~ msgid ""
-#~ "This is lax permissive non-copyleft free software license, compatible "
-#~ "with the GNU GPL."
-#~ msgstr ""
-#~ "C'est une licence de logiciel libre permissive (voire laxiste) sans "
-#~ "copyleft, compatible avec la GNU GPL. "
