@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-surveillance.html\n"
-"POT-Creation-Date: 2015-05-30 23:55+0000\n"
-"PO-Revision-Date: 2015-05-31 21:46+0200\n"
+"POT-Creation-Date: 2015-06-29 09:55+0000\n"
+"PO-Revision-Date: 2015-07-06 11:48+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -187,6 +187,55 @@ msgstr ""
 
 #. type: Content of: <ul><li><p>
 msgid ""
+"Microsoft uses Windows 10's &ldquo;privacy policy&rdquo; to overtly impose a "
+"&ldquo;right&rdquo; to look at users' files at any time. Windows 10 full "
+"disk encryption <a href=\"https://edri.org/microsofts-new-small-print-how-"
+"your-personal-data-abused/\"> gives Microsoft a key</a>."
+msgstr ""
+"Microsoft utilise les « règles de confidentialité » de Windows 10 pour "
+"imposer ouvertement un « droit » de regard permanent sur les fichiers de "
+"l'utilisateur. Dans Windows 10, le chiffrement complet du disque <a href="
+"\"https://edri.org/microsofts-new-small-print-how-your-personal-data-abused/"
+"\"> donne une clé à Microsoft</a>."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"Thus, Windows is overt malware in regard to surveillance, as in other issues."
+msgstr ""
+"Ainsi, Windows est un logiciel malveillant manifeste en ce qui concerne la "
+"surveillance, comme sur les autres plans."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"We can suppose Microsoft look at users' files for the US government on "
+"demand, though the &ldquo;privacy policy&rdquo; does not explicit say so. "
+"Will it look at users' files for the Chinese government on demand?"
+msgstr ""
+"On peut supposer que Microsoft regarde les fichiers des utilisateurs pour le "
+"gouvernement des États-Unis sur demande, bien que les « règles de "
+"confidentialité » ne le disent pas explicitement. Est-ce qu'elle fera de "
+"même pour le gouvernement chinois ?"
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"The unique &ldquo;advertising ID&rdquo; for each user enables other "
+"companies to track the browsing of each specific user."
+msgstr ""
+"L'« identifiant publicitaire unique » permet aux autres sociétés de suivre "
+"la navigation de chacun des utilisateurs."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"It's as if Microsoft has deliberately chosen to make Windows 10 maximally "
+"evil on every dimeinsion; to make a grab for total power over anyone that "
+"doesn't drop Windows now."
+msgstr ""
+"C'est comme si Microsoft avait choisi délibérément de rendre Windows 10 "
+"malfaisant sur tous les plans ; de s'octroyer un contrôle total sur toute "
+"personne qui n'abandonne pas Windows maintenant."
+
+#. type: Content of: <ul><li><p>
+msgid ""
 "It only gets worse with time.  <a href=\"http://www.techworm.net/2014/10/"
 "microsofts-windows-10-permission-watch-every-move.html\"> Windows 10 "
 "requires users to give permission for total snooping</a>, including their "
@@ -197,14 +246,6 @@ msgstr ""
 "Windows 10 exige des utilisateurs qu'ils acceptent la totale en fait de "
 "fouinage</a>, ce qui inclut leurs fichiers, leurs commandes, ainsi que leurs "
 "entrées texte et audio."
-
-#. type: Content of: <ul><li><p>
-msgid ""
-"<a href=\"http://www.theregister.co.uk/2003/02/28/windows_update_keeps_tabs/"
-"\"> Windows Update snoops on the user.</a>"
-msgstr ""
-"<a href=\"http://www.theregister.co.uk/2003/02/28/windows_update_keeps_tabs/"
-"\"> Windows Update espionne l'utilisateur</a>."
 
 #. type: Content of: <ul><li><p>
 msgid ""
@@ -227,9 +268,11 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"There's a lot more <a href=\"/philosophy/proprietary/malware-microsoft.html"
-"\"> Microsoft malware</a>."
+"Microsoft's snooping on users did not start with Windows 10.  There's a lot "
+"more <a href=\"/philosophy/proprietary/malware-microsoft.html\"> Microsoft "
+"malware</a>."
 msgstr ""
+"Le flicage des utilisateurs par Microsoft n'a pas commencé avec Windows 10. "
 "Il y a bien d'autres <a href=\"/philosophy/proprietary/malware-microsoft.html"
 "\"> logiciels Microsoft malveillants</a>."
 
@@ -1173,3 +1216,10 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid ""
+#~ "<a href=\"http://www.theregister.co.uk/2003/02/28/"
+#~ "windows_update_keeps_tabs/\"> Windows Update snoops on the user.</a>"
+#~ msgstr ""
+#~ "<a href=\"http://www.theregister.co.uk/2003/02/28/"
+#~ "windows_update_keeps_tabs/\"> Windows Update espionne l'utilisateur</a>."
