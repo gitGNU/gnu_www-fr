@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: open-source-misses-the-point.html\n"
-"POT-Creation-Date: 2015-04-22 18:25+0000\n"
+"POT-Creation-Date: 2015-09-01 20:25+0000\n"
 "PO-Revision-Date: 2015-08-14 21:38+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -409,6 +409,15 @@ msgstr ""
 "expression</a> jusqu'à l'appliquer aux bêta tests (laisser quelques "
 "utilisateurs essayer une pré-version et donner un retour confidentiel), ce "
 "que les développeurs de logiciels privateurs pratiquent depuis des décennies."
+
+#. type: Content of: <p>
+msgid ""
+"The term has even been stretched to include designs for equipment that are "
+"<a href=\"http://www.theguardian.com/sustainable-business/2015/aug/27/texas-"
+"teenager-water-purifier-toxic-e-waste-pollution\">published without a "
+"patent</a>.  Patent-free equipment designs can be laudible contributions to "
+"society, but the term &ldquo;source code&rdquo; does not pertain to it."
+msgstr ""
 
 #. type: Content of: <p>
 msgid ""
@@ -962,10 +971,20 @@ msgid "Copyright &copy; 2007, 2010, 2012, 2015 Richard Stallman"
 msgstr "Copyright &copy; 2007, 2010, 2012, 2015 Richard Stallman"
 
 #. type: Content of: <div><p>
+# | This page is licensed under a <a rel=\"license\"
+# | [-href=\"http://creativecommons.org/licenses/by-nd/3.0/us/\">Creative-]
+# | {+href=\"http://creativecommons.org/licenses/by-nd/4.0/\">Creative+}
+# | Commons [-Attribution-NoDerivs 3.0 United States-]
+# | {+Attribution-NoDerivatives 4.0 International+} License</a>.
+#, fuzzy
+#| msgid ""
+#| "This page is licensed under a <a rel=\"license\" href=\"http://"
+#| "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
+#| "NoDerivs 3.0 United States License</a>."
 msgid ""
 "This page is licensed under a <a rel=\"license\" href=\"http://"
-"creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
-"NoDerivs 3.0 United States License</a>."
+"creativecommons.org/licenses/by-nd/4.0/\">Creative Commons Attribution-"
+"NoDerivatives 4.0 International License</a>."
 msgstr ""
 "Cette page peut être utilisée suivant les conditions de la licence <a rel="
 "\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr"
