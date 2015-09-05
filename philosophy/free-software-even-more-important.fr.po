@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the original article.
 # Framalang, 2013.
 # Thérèse Godefroy <godef.th AT free.fr>, 2013, 2014, 2015.
+# Sogal <sogal@member.fsf.org>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: free-software-even-more-important.html\n"
 "POT-Creation-Date: 2015-09-01 20:25+0000\n"
-"PO-Revision-Date: 2015-09-05 12:32+0200\n"
+"PO-Revision-Date: 2015-09-05 15:04+0200\n"
 "Last-Translator: Sogal <sogal@member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -86,12 +87,6 @@ msgstr ""
 "ils donnent au développeur du programme du pouvoir sur les utilisateurs, "
 "pouvoir que personne ne devrait posséder."
 
-# | Those two nonfree programs have something else in common: they are both
-# | <em>malware</em>.  That is, both have functionalities designed to mistreat
-# | the user.  Proprietary software nowadays is often malware because <a
-# | [-href=\"/philosophy/proprietary/proprietary.html\">the-]
-# | {+href=\"/proprietary/proprietary.html\">the+} developers' power corrupts
-# | them</a>.
 #. type: Content of: <p>
 msgid ""
 "Those two nonfree programs have something else in common: they are both "
@@ -286,15 +281,6 @@ msgstr ""
 "exerce par ce biais un pouvoir sur les utilisateurs. Un programme non libre "
 "est un joug, un instrument de pouvoir injuste."
 
-# | In outrageous cases (though this outrage has become quite usual) <a
-# | [-href=\"/philosophy/proprietary/\">proprietary-]
-# | {+href=\"/proprietary/proprietary.html\">proprietary+} programs are
-# | designed to spy on the users, restrict them, censor them, and abuse
-# | them</a>.  For instance, the operating system of Apple iThings does all of
-# | these, and so does Windows on mobile devices with ARM chips.  Windows,
-# | mobile phone firmware, and Google Chrome for Windows include a universal
-# | back door that allows some company to change the program remotely without
-# | asking permission. The Amazon Kindle has a back door that can erase books.
 #. type: Content of: <p>
 msgid ""
 "In outrageous cases (though this outrage has become quite usual) <a href=\"/"
@@ -325,8 +311,8 @@ msgid ""
 "&ldquo;internet of snoopers&rdquo;."
 msgstr ""
 "L'utilisation de logiciels privateurs dans le cadre de « l'internet des "
-"choses » transformerait ce dernier en <a href=\"http://ieet.org/index.php/"
-"IEET/more/rinesi20150806\"> « internet du télémarketing » ainsi qu'en "
+"objets » transformerait ce dernier en <a href=\"http://ieet.org/index.php/"
+"IEET/more/rinesi20150806\"> « internet du télémarketing »</a> ainsi qu'en "
 "« internet des fouineurs »."
 
 #. type: Content of: <p>

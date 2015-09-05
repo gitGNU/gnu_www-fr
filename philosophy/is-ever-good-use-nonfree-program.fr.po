@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: is-ever-good-use-nonfree-program.html\n"
 "POT-Creation-Date: 2015-09-01 20:25+0000\n"
-"PO-Revision-Date: 2015-09-04 17:45+0200\n"
+"PO-Revision-Date: 2015-09-05 15:04+0200\n"
 "Last-Translator: Sogal <sogal AT member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -106,15 +106,6 @@ msgstr ""
 "Bien entendu, s'il n'avait pas été privateur, il n'y aurait pas eu besoin de "
 "le remplacer."
 
-# | The conclusion I reached was that using Unix to put an end to the use of
-# | Unix was [-legitimate.-] {+legitimate for me to suggest to other
-# | developers.+}  I likened it to participating in small ways in some
-# | [-other-] evil activity, such as a criminal gang or a dishonest political
-# | campaign, in order to expose it and shut it down. While participating in
-# | the activity is wrong in itself, shutting it down excuses minor peripheral
-# | participation, comparable to merely using Unix. This argument would not
-# | justify being a ringleader, but I was only considering using Unix, not
-# | going to work for its development team.
 #. type: Content of: <p>
 msgid ""
 "The conclusion I reached was that using Unix to put an end to the use of "
@@ -127,8 +118,8 @@ msgid ""
 "considering using Unix, not going to work for its development team."
 msgstr ""
 "Je suis arrivé à la conclusion qu'utiliser Unix pour mettre fin à "
-"l'utilisation d'Unix était légitime et que je pouvais suggérer cela à "
-"d'autres développeurs. J'y ai vu une sorte de participation minimale à une "
+"l'utilisation d'Unix était une suggestion que je pouvais légitimement faire "
+"à d'autres développeurs. J'y ai vu une sorte de participation minimale à une "
 "entreprise malfaisante, gang criminel ou campagne politique malhonnête par "
 "exemple, dans le but de l'exposer au grand jour et d'y mettre fin. Bien que "
 "participer à une telle activité soit mal en soi, y mettre fin excuse une "
@@ -154,17 +145,6 @@ msgstr ""
 "ce genre de raison, vous devriez vous demander de temps en temps si le "
 "besoin existe toujours."
 
-# | However, there are other nonfree programs we still need to replace, and
-# | the analogous question often arises. Should you run the nonfree driver for
-# | a peripheral to help you develop a free replacement driver? {+(More
-# | precisely, is it ethical for us to suggest that you do so?)+}  Yes, by all
-# | means. Is it ok to run the <a
-# | href=\"http://www.gnu.org/philosophy/javascript-trap.html\">nonfree
-# | JavaScript</a> on a web site in order to file complaint asking the
-# | webmasters to free that JavaScript code, or make the site work without it?
-# | Definitely&mdash;but other than that, you should have <a
-# | href=\"https://www.gnu.org/software/librejs/\">LibreJS</a> block it for
-# | you.
 #. type: Content of: <p>
 msgid ""
 "However, there are other nonfree programs we still need to replace, and the "
@@ -181,7 +161,7 @@ msgstr ""
 "remplacés, et des questions analogues se posent souvent. Faut-il que vous "
 "fassiez tourner le pilote privateur d'un périphérique pour vous aider à "
 "développer un pilote de remplacement ? (Plus précisement, est-il éthique de "
-"notre part de vous inciter à en faire autant ?) Oui, sans hésiter. Est-il "
+"notre part de vous inciter à le faire ?) Oui, sans hésiter. Est-il "
 "acceptable d'exécuter le <a href=\"http://www.gnu.org/philosophy/javascript-"
 "trap.html\">JavaScript non libre</a> d'un site web afin de faire une "
 "réclamation demandant aux webmestres de libérer ce même code JavaScript, ou "
@@ -213,16 +193,6 @@ msgstr ""
 "grâce à laquelle elle essaye de se légitimer, elle se contredit et cela mine "
 "ladite cause."
 
-# | Even using a nonfree program to develop free software in general is better
-# | to [-avoid.-] {+avoid, and not suggest to others.+} For instance, we
-# | should not ask people to run Windows or MacOS in order to make free
-# | applications run on them. As developer of Emacs and GCC, I accepted
-# | changes to make them support nonfree systems such as VMS, Windows and
-# | MacOS. There was no reason to reject that code, {+even though people had
-# | to run nonfree systems to write it,+} but I did not ask people to run
-# | nonfree systems in order to [-develop it.-] {+work on that.+}  These
-# | changes were written by people who were using those systems anyway, and
-# | they also did the packaging of Emacs releases for those systems.
 #. type: Content of: <p>
 msgid ""
 "Even using a nonfree program to develop free software in general is better "
@@ -241,12 +211,12 @@ msgstr ""
 "dans le but de porter des applications libres sur ces plateformes. En tant "
 "que développeur d'Emacs et GCC, j'ai accepté des modifications qui leur "
 "permettent de fonctionner sur des systèmes non libres tels que VMS, Windows "
-"et MacOS. Il n'y avait  aucune raison de rejeter ce code même si d'autres "
-"personnes étaient tenues de faire fonctionner des systèmes privateurs afin "
-"de les écrire, mais je n'avais pas demandé aux gens de faire tourner des "
-"systèmes non libres pour travailler dessus. Ces modifications furent écrites "
-"par des personnes qui utilisaient de toute manière ces systèmes et qui ont "
-"également réalisé l'empaquetage des versions d'Emacs pour ces systèmes."
+"et MacOS. Il n'y avait  aucune raison de rejeter ce code même si un certain "
+"nombre de gens ont dû se servir de systèmes privateurs pour l'écrire, mais "
+"je n'ai pas demandé aux gens de faire tourner des systèmes non libres pour "
+"travailler sur ces projets. Ces modifications furent écrites par des "
+"personnes qui utilisaient de toute manière ces systèmes et qui ont également "
+"réalisé l'empaquetage des versions d'Emacs pour ces systèmes."
 
 #. type: Content of: <p>
 msgid ""
@@ -261,11 +231,6 @@ msgstr ""
 "en une excuse universelle justifiant n'importe quelle activité lucrative "
 "impliquant des logiciels non libres."
 
-# | Occasionally it is necessary to use and even upgrade a nonfree system in
-# | order to [-install-] {+replace it with+} a free [-replacement-] system. 
-# | It's not exactly the same issue, but the same arguments apply: it is
-# | legitimate to [-run-] {+recommend running+} some nonfree software
-# | momentarily in order to [-get rid of-] {+remove+} it.
 #. type: Content of: <p>
 msgid ""
 "Occasionally it is necessary to use and even upgrade a nonfree system in "

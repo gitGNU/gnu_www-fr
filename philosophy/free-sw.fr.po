@@ -6,12 +6,13 @@
 # Cédric Corazza <cedric.corazza AT wanadoo.fr>, 2008.
 # Denis Barbier <bouzim AT gmail.com>, 2011
 # Thérèse Godefroy <godef.th AT free.fr>, 2011, 2012, 2013, 2014, 2015.
+# Sogal <sogal@member.fsf.org>, 2015
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: free-sw.html\n"
 "POT-Creation-Date: 2015-09-01 20:55+0000\n"
-"PO-Revision-Date: 2015-09-05 12:33+0200\n"
+"PO-Revision-Date: 2015-09-05 15:04+0200\n"
 "Last-Translator: Sogal <sogal@member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -174,14 +175,14 @@ msgid ""
 "need to judge whether both A and B are free.  However, if we plan to modify "
 "A so that it doesn't use B, only A needs to be free; we can ignore B."
 msgstr ""
-"Dans chacun des scénarios, ces libertés doivent s'appliquer quelque soit le "
+"Dans chacun des scénarios, ces libertés doivent s'appliquer quel que soit le "
 "code que nous envisageons d'utiliser ou de pousser d'autres personnes à "
 "utiliser. Prenez par exemple un programme A qui lance automatiquement un "
 "programme B afin de gérer certaines situations. Si nous souhaitons "
 "distribuer A tel quel, cela implique que les utilisateurs auront besoin de "
-"B, il nous appartient donc de juger si A et B sont tous deux libres. "
+"B ; il nous appartient donc de juger si A et B sont tous deux libres. "
 "Cependant, si nous projetons de modifier A de telle sorte qu'il n'utilise "
-"pas B, alors seul A doit être libre, nous pouvons ignorer B."
+"pas B, alors seul A doit être libre ; nous pouvons ignorer B."
 
 #. type: Content of: <p>
 msgid ""
@@ -741,12 +742,6 @@ msgstr ""
 "clarifier. Voici une liste de ces modifications de fond, ainsi que les "
 "liens, pour montrer exactement ce qui a changé."
 
-# | <a
-# | [-href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?root=www&amp;r1=1.40&amp;r2=1.41\">Version
-# | 1.41</a>:-]
-# | {+href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?root=www&amp;r1=1.140&amp;r2=1.141\">Version
-# | 1.141</a>:+} Clarify [-wording about contract-based licenses.-] {+which
-# | code needs to be free.+}
 #. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?"
