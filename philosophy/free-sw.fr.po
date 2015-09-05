@@ -11,13 +11,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: free-sw.html\n"
 "POT-Creation-Date: 2015-09-01 20:55+0000\n"
-"PO-Revision-Date: 2015-02-24 22:58+0100\n"
-"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
+"PO-Revision-Date: 2015-09-05 12:33+0200\n"
+"Last-Translator: Sogal <sogal@member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Outdated-Since: 2015-09-01 20:55+0000\n"
 "Plural-Forms: \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
@@ -173,6 +174,14 @@ msgid ""
 "need to judge whether both A and B are free.  However, if we plan to modify "
 "A so that it doesn't use B, only A needs to be free; we can ignore B."
 msgstr ""
+"Dans chacun des scénarios, ces libertés doivent s'appliquer quelque soit le "
+"code que nous envisageons d'utiliser ou de pousser d'autres personnes à "
+"utiliser. Prenez par exemple un programme A qui lance automatiquement un "
+"programme B afin de gérer certaines situations. Si nous souhaitons "
+"distribuer A tel quel, cela implique que les utilisateurs auront besoin de "
+"B, il nous appartient donc de juger si A et B sont tous deux libres. "
+"Cependant, si nous projetons de modifier A de telle sorte qu'il n'utilise "
+"pas B, alors seul A doit être libre, nous pouvons ignorer B."
 
 #. type: Content of: <p>
 msgid ""
@@ -732,26 +741,21 @@ msgstr ""
 "clarifier. Voici une liste de ces modifications de fond, ainsi que les "
 "liens, pour montrer exactement ce qui a changé."
 
-#. type: Content of: <ul><li>
 # | <a
 # | [-href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?root=www&amp;r1=1.40&amp;r2=1.41\">Version
 # | 1.41</a>:-]
 # | {+href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?root=www&amp;r1=1.140&amp;r2=1.141\">Version
 # | 1.141</a>:+} Clarify [-wording about contract-based licenses.-] {+which
 # | code needs to be free.+}
-#, fuzzy
-#| msgid ""
-#| "<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw."
-#| "html?root=www&amp;r1=1.40&amp;r2=1.41\">Version 1.41</a>: Clarify wording "
-#| "about contract-based licenses."
+#. type: Content of: <ul><li>
 msgid ""
 "<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?"
 "root=www&amp;r1=1.140&amp;r2=1.141\">Version 1.141</a>: Clarify which code "
 "needs to be free."
 msgstr ""
 "<a href=\"http://web.cvs.savannah.gnu.org/viewvc/www/philosophy/free-sw.html?"
-"root=www&amp;r1=1.40&amp;r2=1.41\">Version 1.41</a> : précise la formulation "
-"relative aux licences basées sur des contrats."
+"root=www&amp;r1=1.40&amp;r2=1.141\">Version 1.141</a> : précise quel code "
+"doit être libre."
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -1136,25 +1140,15 @@ msgstr ""
 "Software Foundation, Inc."
 
 #. type: Content of: <div><p>
-# | This page is licensed under a <a rel=\"license\"
-# | [-href=\"http://creativecommons.org/licenses/by-nd/3.0/us/\">Creative-]
-# | {+href=\"http://creativecommons.org/licenses/by-nd/4.0/\">Creative+}
-# | Commons [-Attribution-NoDerivs 3.0 United States-]
-# | {+Attribution-NoDerivatives 4.0 International+} License</a>.
-#, fuzzy
-#| msgid ""
-#| "This page is licensed under a <a rel=\"license\" href=\"http://"
-#| "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
-#| "NoDerivs 3.0 United States License</a>."
 msgid ""
 "This page is licensed under a <a rel=\"license\" href=\"http://"
 "creativecommons.org/licenses/by-nd/4.0/\">Creative Commons Attribution-"
 "NoDerivatives 4.0 International License</a>."
 msgstr ""
 "Cette page peut être utilisée suivant les conditions de la licence <a rel="
-"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr"
-"\">Creative Commons attribution de paternité, pas de modification, 3.0 États-"
-"Unis (CC BY-ND 3.0 US)</a>."
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/4.0/deed.fr"
+"\">Creative Commons attribution, pas de modification, 4.0 internationale "
+"(CC BY-ND 4.0)</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>

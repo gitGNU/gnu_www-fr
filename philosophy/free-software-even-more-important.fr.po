@@ -8,13 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: free-software-even-more-important.html\n"
 "POT-Creation-Date: 2015-09-01 20:25+0000\n"
-"PO-Revision-Date: 2015-01-19 10:54+0100\n"
-"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
+"PO-Revision-Date: 2015-09-05 12:32+0200\n"
+"Last-Translator: Sogal <sogal@member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Outdated-Since: 2015-09-01 20:25+0000\n"
 "X-Generator: Gtranslator 2.91.5\n"
 "Plural-Forms: \n"
 
@@ -85,20 +86,13 @@ msgstr ""
 "ils donnent au développeur du programme du pouvoir sur les utilisateurs, "
 "pouvoir que personne ne devrait posséder."
 
-#. type: Content of: <p>
 # | Those two nonfree programs have something else in common: they are both
 # | <em>malware</em>.  That is, both have functionalities designed to mistreat
 # | the user.  Proprietary software nowadays is often malware because <a
 # | [-href=\"/philosophy/proprietary/proprietary.html\">the-]
 # | {+href=\"/proprietary/proprietary.html\">the+} developers' power corrupts
 # | them</a>.
-#, fuzzy
-#| msgid ""
-#| "Those two nonfree programs have something else in common: they are both "
-#| "<em>malware</em>.  That is, both have functionalities designed to "
-#| "mistreat the user.  Proprietary software nowadays is often malware "
-#| "because <a href=\"/philosophy/proprietary/proprietary.html\">the "
-#| "developers' power corrupts them</a>."
+#. type: Content of: <p>
 msgid ""
 "Those two nonfree programs have something else in common: they are both "
 "<em>malware</em>.  That is, both have functionalities designed to mistreat "
@@ -109,8 +103,8 @@ msgstr ""
 "sont tous deux « malveillants », c'est-à-dire qu'ils ont tous deux des "
 "fonctionnalités conçues pour traiter les utilisateurs de manière "
 "inéquitable. De nos jours, le logiciel privateur est souvent malveillant "
-"parce que <a href=\"/philosophy/proprietary/proprietary.html\"> les "
-"développeurs sont corrompus par le pouvoir qu'ils possèdent</a>."
+"parce que <a href=\"/proprietary/proprietary.html\"> les développeurs sont "
+"corrompus par le pouvoir qu'ils possèdent</a>."
 
 #. type: Content of: <p>
 msgid ""
@@ -292,7 +286,6 @@ msgstr ""
 "exerce par ce biais un pouvoir sur les utilisateurs. Un programme non libre "
 "est un joug, un instrument de pouvoir injuste."
 
-#. type: Content of: <p>
 # | In outrageous cases (though this outrage has become quite usual) <a
 # | [-href=\"/philosophy/proprietary/\">proprietary-]
 # | {+href=\"/proprietary/proprietary.html\">proprietary+} programs are
@@ -302,16 +295,7 @@ msgstr ""
 # | mobile phone firmware, and Google Chrome for Windows include a universal
 # | back door that allows some company to change the program remotely without
 # | asking permission. The Amazon Kindle has a back door that can erase books.
-#, fuzzy
-#| msgid ""
-#| "In outrageous cases (though this outrage has become quite usual) <a href="
-#| "\"/philosophy/proprietary/\">proprietary programs are designed to spy on "
-#| "the users, restrict them, censor them, and abuse them</a>.  For instance, "
-#| "the operating system of Apple iThings does all of these, and so does "
-#| "Windows on mobile devices with ARM chips.  Windows, mobile phone "
-#| "firmware, and Google Chrome for Windows include a universal back door "
-#| "that allows some company to change the program remotely without asking "
-#| "permission. The Amazon Kindle has a back door that can erase books."
+#. type: Content of: <p>
 msgid ""
 "In outrageous cases (though this outrage has become quite usual) <a href=\"/"
 "proprietary/proprietary.html\">proprietary programs are designed to spy on "
@@ -323,11 +307,11 @@ msgid ""
 "Kindle has a back door that can erase books."
 msgstr ""
 "Dans des cas proprement scandaleux (devenus aujourd'hui tout à fait "
-"habituels), <a href=\"/philosophy/proprietary/\">les programmes privateurs "
-"sont conçus pour espionner les utilisateurs, leur imposer des restrictions, "
-"les censurer et abuser d'eux</a>. Le système d'exploitation des iTrucs "
-"d'Apple, par exemple, fait tout cela, et Windows également, sur les "
-"appareils mobiles équipés de puces ARM. Windows, le micrologiciel des "
+"habituels), <a href=\"/proprietary/proprietary.html\">les programmes "
+"privateurs sont conçus pour espionner les utilisateurs, leur imposer des "
+"restrictions, les censurer et abuser d'eux</a>. Le système d'exploitation "
+"des iTrucs d'Apple, par exemple, fait tout cela, et Windows également, sur "
+"les appareils mobiles équipés de puces ARM. Windows, le micrologiciel des "
 "téléphones mobiles et Google Chrome pour Windows comportent chacun une porte "
 "dérobée universelle permettant à une certaine entreprise de modifier le "
 "programme à distance sans requérir de permission. Le Kindle d'Amazon a une "
@@ -340,6 +324,10 @@ msgid ""
 "rinesi20150806\">&ldquo;internet of telemarketers&rdquo;</a> as well as the "
 "&ldquo;internet of snoopers&rdquo;."
 msgstr ""
+"L'utilisation de logiciels privateurs dans le cadre de « l'internet des "
+"choses » transformerait ce dernier en <a href=\"http://ieet.org/index.php/"
+"IEET/more/rinesi20150806\"> « internet du télémarketing » ainsi qu'en "
+"« internet des fouineurs »."
 
 #. type: Content of: <p>
 msgid ""
@@ -761,25 +749,15 @@ msgid "Copyright &copy; 2015 Richard Stallman"
 msgstr "Copyright &copy; 2015 Richard Stallman"
 
 #. type: Content of: <div><p>
-# | This page is licensed under a <a rel=\"license\"
-# | [-href=\"http://creativecommons.org/licenses/by-nd/3.0/us/\">Creative-]
-# | {+href=\"http://creativecommons.org/licenses/by-nd/4.0/\">Creative+}
-# | Commons [-Attribution-NoDerivs 3.0 United States-]
-# | {+Attribution-NoDerivatives 4.0 International+} License</a>.
-#, fuzzy
-#| msgid ""
-#| "This page is licensed under a <a rel=\"license\" href=\"http://"
-#| "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
-#| "NoDerivs 3.0 United States License</a>."
 msgid ""
 "This page is licensed under a <a rel=\"license\" href=\"http://"
 "creativecommons.org/licenses/by-nd/4.0/\">Creative Commons Attribution-"
 "NoDerivatives 4.0 International License</a>."
 msgstr ""
 "Cette page peut être utilisée suivant les conditions de la licence <a rel="
-"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr"
-"\">Creative Commons attribution de paternité, pas de modification, 3.0 États-"
-"Unis (CC BY-ND 3.0 US)</a>."
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/4.0/deed.fr"
+"\">Creative Commons attribution, pas de modification, 4.0 internationale "
+"(CC BY-ND 4.0)</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>

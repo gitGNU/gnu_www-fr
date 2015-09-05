@@ -8,13 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: misinterpreting-copyright.html\n"
 "POT-Creation-Date: 2015-09-02 11:25+0000\n"
-"PO-Revision-Date: 2014-04-19 13:57+0200\n"
-"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
+"PO-Revision-Date: 2015-09-05 12:33+0200\n"
+"Last-Translator: Sogal <sogal@member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Outdated-Since: 2015-09-02 11:25+0000\n"
 "Plural-Forms:  \n"
 
 #. type: Content of: <title>
@@ -685,7 +686,6 @@ msgstr ""
 "protection fournit une motivation suffisante pour la création de nouvelles "
 "œuvres d'auteurs."
 
-#. type: Content of: <p>
 # | This bill extended the copyright on already published works written since
 # | the 1920s.  This change was a giveaway to publishers with no possible
 # | benefit to the public, since there is no way to retroactively increase now
@@ -694,14 +694,7 @@ msgstr ""
 # | era.  {+Note the use of the propaganda term, &ldquo;<a
 # | href=\"/philosophy/words-to-avoid.html#Protect\" >protect</a>,&rdquo;
 # | which embodies the second of the three errors.+}
-#, fuzzy
-#| msgid ""
-#| "This bill extended the copyright on already published works written since "
-#| "the 1920s.  This change was a giveaway to publishers with no possible "
-#| "benefit to the public, since there is no way to retroactively increase "
-#| "now the number of books published back then.  Yet it cost the public a "
-#| "freedom that is meaningful today&mdash;the freedom to redistribute books "
-#| "from that era."
+#. type: Content of: <p>
 msgid ""
 "This bill extended the copyright on already published works written since "
 "the 1920s.  This change was a giveaway to publishers with no possible "
@@ -717,7 +710,9 @@ msgstr ""
 "possible pour le public, puisqu'il n'y a aucun moyen d'augmenter "
 "rétroactivement le nombre de livres publiés à l'époque. Néanmoins, cela a "
 "coûté au public une liberté qui est significative aujourd'hui, la liberté de "
-"redistribuer des livres de cette période."
+"redistribuer des livres de cette période. Veuillez noter l'usage du terme de "
+"propagande <a href=\"/philosophy/words-to-avoid.html#Protect\" >protéger</a> "
+"qui inclus la seconde des trois erreurs."
 
 #. type: Content of: <p>
 msgid ""
@@ -795,7 +790,6 @@ msgstr ""
 "pour faire plaisir à vos amis. Auparavant, ce n'était pas du tout illégal "
 "aux États-Unis."
 
-#. type: Content of: <p>
 # | An even worse law, the Digital Millennium Copyright Act (DMCA), was
 # | designed to bring back [-copy protection (which computer-] {+what was then
 # | called &ldquo;copy protection&rdquo; &mdash; now known as <a
@@ -809,17 +803,7 @@ msgstr ""
 # | restrictions whatsoever on the use of a work, and these restrictions take
 # | the force of law provided the work contains some sort of encryption or
 # | license manager to enforce them.
-#, fuzzy
-#| msgid ""
-#| "An even worse law, the Digital Millennium Copyright Act (DMCA), was "
-#| "designed to bring back copy protection (which computer users detest)  by "
-#| "making it a crime to break copy protection, or even publish information "
-#| "about how to break it.  This law ought to be called the &ldquo;Domination "
-#| "by Media Corporations Act&rdquo; because it effectively offers publishers "
-#| "the chance to write their own copyright law.  It says they can impose any "
-#| "restrictions whatsoever on the use of a work, and these restrictions take "
-#| "the force of law provided the work contains some sort of encryption or "
-#| "license manager to enforce them."
+#. type: Content of: <p>
 msgid ""
 "An even worse law, the Digital Millennium Copyright Act (DMCA), was designed "
 "to bring back what was then called &ldquo;copy protection&rdquo; &mdash; now "
@@ -835,16 +819,18 @@ msgid ""
 msgstr ""
 "Pire encore, la loi dite <acronym title=\"Digital Millennium Copyright Act"
 "\">DMCA</acronym><a href=\"#TransNote5\" id=\"TransNote5-rev\"><sup>e</sup></"
-"a> a été conçue pour ranimer la protection contre la copie (ce que détestent "
-"les utilisateurs d'ordinateurs) en rendant illégal de la casser, ou même de "
-"publier toute information sur le moyen de la casser. Cette loi devrait "
-"s'appeler <cite>Domination by Media Corporations Act</cite> (loi sur la "
-"domination par les sociétés de médias) parce qu'elle offre effectivement aux "
-"éditeurs l'occasion d'écrire leur propre loi sur le copyright. Elle dit "
-"qu'ils peuvent imposer toute restriction, quelle qu'elle soit, sur "
-"l'utilisation de l'œuvre, et ces restrictions prennent force de loi pour peu "
-"que l'œuvre contienne un moyen de chiffrement ou un gestionnaire de licence "
-"pour les faire respecter."
+"a> a été conçue pour ranimer ce qui était alors appelé « protection contre "
+"la copie » — désormais connue sous le nom de <a href=\"/proprietary/"
+"proprietary-drm.html\">DRM</a> (gestion numérique des restrictions) — (ce "
+"que détestent déjà les utilisateurs d'ordinateurs) en rendant illégal le "
+"fait de les combattre, ou même de publier toute information sur le moyen de "
+"les combattre. Cette loi devrait s'appeler <cite>Domination by Media "
+"Corporations Act</cite> (loi sur la domination par les sociétés de médias) "
+"parce qu'elle offre effectivement aux éditeurs l'occasion d'écrire leur "
+"propre loi sur le copyright. Elle dit qu'ils peuvent imposer toute "
+"restriction, quelle qu'elle soit, sur l'utilisation de l'œuvre, et ces "
+"restrictions prennent force de loi pour peu que l'œuvre contienne un moyen "
+"de chiffrement ou un gestionnaire de licence pour les faire respecter."
 
 #. type: Content of: <p>
 msgid ""
@@ -1479,34 +1465,22 @@ msgstr ""
 "traductions de nos pages web, reportez-vous au <a href=\"/server/standards/"
 "README.translations.html\">guide de traduction</a>."
 
-#. type: Content of: <div><p>
 # | Copyright &copy; 2002, 2003, [-2007-] {+2007, 2015+} Free Software
 # | Foundation, Inc.
-#, fuzzy
-#| msgid "Copyright &copy; 2002, 2003, 2007 Free Software Foundation, Inc."
+#. type: Content of: <div><p>
 msgid "Copyright &copy; 2002, 2003, 2007, 2015 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2002, 2003, 2007 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2002, 2003, 2007, 2015 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
-# | This page is licensed under a <a rel=\"license\"
-# | [-href=\"http://creativecommons.org/licenses/by-nd/3.0/us/\">Creative-]
-# | {+href=\"http://creativecommons.org/licenses/by-nd/4.0/\">Creative+}
-# | Commons [-Attribution-NoDerivs 3.0 United States-]
-# | {+Attribution-NoDerivatives 4.0 International+} License</a>.
-#, fuzzy
-#| msgid ""
-#| "This page is licensed under a <a rel=\"license\" href=\"http://"
-#| "creativecommons.org/licenses/by-nd/3.0/us/\">Creative Commons Attribution-"
-#| "NoDerivs 3.0 United States License</a>."
 msgid ""
 "This page is licensed under a <a rel=\"license\" href=\"http://"
 "creativecommons.org/licenses/by-nd/4.0/\">Creative Commons Attribution-"
 "NoDerivatives 4.0 International License</a>."
 msgstr ""
 "Cette page peut être utilisée suivant les conditions de la licence <a rel="
-"\"license\" href=\"http://creativecommons.org/licenses/by-nd/3.0/us/deed.fr"
-"\">Creative Commons attribution de paternité, pas de modification, 3.0 États-"
-"Unis (CC BY-ND 3.0 US)</a>."
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/4.0/deed.fr"
+"\">Creative Commons attribution, pas de modification, 4.0 internationale "
+"(CC BY-ND 4.0)</a>."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
 #. type: Content of: <div><div>
