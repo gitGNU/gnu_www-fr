@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-surveillance.html\n"
-"POT-Creation-Date: 2015-10-01 14:05+0000\n"
-"PO-Revision-Date: 2015-10-02 09:08+0200\n"
+"POT-Creation-Date: 2015-10-17 08:55+0000\n"
+"PO-Revision-Date: 2015-10-17 13:55+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -81,6 +81,14 @@ msgstr "<a href=\"#SpywareInGames\">Jeux</a>"
 #. type: Content of: <div><ul><li><ul><li>
 msgid "<a href=\"#SpywareInToys\">Spyware in Toys</a>"
 msgstr "<a href=\"#SpywareInToys\">Jouets</a>"
+
+#. type: Content of: <div><ul><li>
+msgid "<a href=\"#SpywareAtLowLevel\">Spyware at Low Level</a>"
+msgstr "<a href=\"#SpywareAtLowLevel\">Espions de bas-niveau</a>"
+
+#. type: Content of: <div><ul><li><ul><li>
+msgid "<a href=\"#SpywareInBIOS\">Spyware in BIOS</a>"
+msgstr "<a href=\"#SpywareInBIOS\">BIOS</a>"
 
 #. type: Content of: <div><ul><li>
 msgid "<a href=\"#SpywareAtWork\">Spyware at Work</a>"
@@ -884,6 +892,49 @@ msgstr ""
 "Barbie <a href=\"http://www.mirror.co.uk/news/technology-science/technology/"
 "wi-fi-spy-barbie-records-childrens-5177673\"> va fliquer les enfants et les "
 "adultes</a>."
+
+#. type: Content of: <div><h3>
+msgid "Spyware at Low Level"
+msgstr "Espions de bas-niveau"
+
+#. type: Content of: <div>
+msgid ""
+"<span class=\"anchor-reference-id\">(<a href=\"#SpywareAtLowLevel"
+"\">#SpywareAtLowLevel</a>)</span>"
+msgstr ""
+"<span class=\"anchor-reference-id\">(<a href=\"#SpywareAtLowLevel"
+"\">#SpywareAtLowLevel</a>)</span>"
+
+#. type: Content of: <div><h4>
+msgid "Spyware in BIOS"
+msgstr "BIOS"
+
+#. type: Content of: <div>
+msgid ""
+"<span class=\"anchor-reference-id\">(<a href=\"#SpywareInBIOS"
+"\">#SpywareInBIOS</a>)</span>"
+msgstr ""
+"<span class=\"anchor-reference-id\">(<a href=\"#SpywareInBIOS"
+"\">#SpywareInBIOS</a>)</span>"
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"<a href=\"http://www.computerworld.com/article/2984889/windows-pcs/lenovo-"
+"collects-usage-data-on-thinkpad-thinkcentre-and-thinkstation-pcs.html\"> "
+"Lenovo stealthily installed crapware and spyware via BIOS</a> on Windows "
+"installs.  Note that the specific sabotage method Lenovo used did not affect "
+"GNU/Linux; also, a &ldquo;clean&rdquo; Windows install is not really clean "
+"since <a href=\"/proprietary/malware-microsoft.html\">Microsoft puts in its "
+"own malware</a>."
+msgstr ""
+"<a href=\"http://www.computerworld.com/article/2984889/windows-pcs/lenovo-"
+"collects-usage-data-on-thinkpad-thinkcentre-and-thinkstation-pcs.html\">  "
+"Lenovo a installé furtivement des logiciels promotionnels et espions via le "
+"BIOS</a>, sur des installations de Windows. Notez que la méthode "
+"particulière de sabotage utilisée par Lenovo n'a pas affecté GNU/Linux ; par "
+"ailleurs, une installation « propre » de Windows n'est pas vraiment propre "
+"puisque <a href=\"/proprietary/malware-microsoft.html\"> Microsoft y ajoute "
+"ses propres logiciels malveillants</a>."
 
 #. type: Content of: <div><h3>
 msgid "Spyware at Work"
