@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-back-doors.html\n"
-"POT-Creation-Date: 2015-10-17 09:25+0000\n"
-"PO-Revision-Date: 2015-10-17 13:55+0200\n"
+"POT-Creation-Date: 2015-10-19 13:25+0000\n"
+"PO-Revision-Date: 2015-10-19 20:28+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -40,6 +40,17 @@ msgid "Here are examples of demonstrated back doors in proprietary software."
 msgstr ""
 "Voici des exemples de portes dérobées documentées dans des logiciels "
 "privateurs."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"Mac OS X had an <a href=\"https://truesecdev.wordpress.com/2015/04/09/hidden-"
+"backdoor-api-to-root-privileges-in-apple-os-x/\"> intentional local back "
+"door for 4 years</a>."
+msgstr ""
+"Pendant quatre ans, MacOS X a eu <a href=\"https://truesecdev.wordpress."
+"com/2015/04/09/hidden-backdoor-api-to-root-privileges-in-apple-os-x/\"> une "
+"porte dérobée intentionnelle</a> qui pouvait être exploitée par des "
+"attaquants pour obtenir les privilèges du superutilisateur <cite>root</cite>."
 
 #. type: Content of: <ul><li><p>
 msgid ""
