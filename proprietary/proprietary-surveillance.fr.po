@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-surveillance.html\n"
-"POT-Creation-Date: 2015-11-26 00:25+0000\n"
-"PO-Revision-Date: 2015-11-24 20:21+0100\n"
+"POT-Creation-Date: 2015-11-26 16:25+0000\n"
+"PO-Revision-Date: 2015-11-26 18:40+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -121,6 +121,10 @@ msgstr "<a href=\"#SpywareInTVSets\">Téléviseurs</a>"
 #. type: Content of: <div><ul><li>
 msgid "<a href=\"#SpywareOnTheWeb\">Spyware on the Web</a>"
 msgstr "<a href=\"#SpywareOnTheWeb\">Espions sur le web</a>"
+
+#. type: Content of: <div><ul><li><ul><li>
+msgid "<a href=\"#SpywareInChrome\">Spyware in Chrome</a>"
+msgstr "<a href=\"#SpywareInChrome\">Chrome</a>"
 
 #. type: Content of: <div><ul><li><ul><li>
 msgid "<a href=\"#SpywareInFlash\">Spyware in Flash</a>"
@@ -779,6 +783,36 @@ msgstr ""
 
 #. type: Content of: <ul><li><p>
 msgid ""
+"Facebook's app has started <a href=\"http://www.theregister.co.uk/2015/11/10/"
+"facebook_scans_camera_for_your_friends/\"> scanning photos people take</a> "
+"with their mobiles."
+msgstr ""
+"Une appli de Facebook a commencé <a href=\"http://www.theregister.co."
+"uk/2015/11/10/facebook_scans_camera_for_your_friends/\"> à scanner les "
+"photos que les gens prennent</a> avec leurs mobiles."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"The article says &ldquo;camera&rdquo;, but that word is misleading; cameras "
+"do not have a Facebook app installed in them. This applies only to phones "
+"and tablets."
+msgstr ""
+"L'article parle de <cite>camera</cite> (appareil photo), mais ce mot est "
+"trompeur ; aucune appli de Facebook n'est installée dans les appareils "
+"photo. Cela s'applique seulement aux smartphones et aux tablettes. "
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"I suspect the face recognition is done by sending the photos to a Facebook "
+"server. If so, the server could do other things with those photos. It could "
+"save them and send them to Big Brother."
+msgstr ""
+"Je soupçonne que la reconnaissance faciale se fait en envoyant les photos à "
+"un serveur de Facebook. Si c'est le cas, le serveur pourrait faire autre "
+"chose avec. Il pourrait les sauvegarder et les envoyer à Big Brother."
+
+#. type: Content of: <ul><li><p>
+msgid ""
 "Like most &ldquo;music screaming&rdquo; disservices, Spotify is based on "
 "proprietary malware (DRM and snooping). In August 2015 it <a href=\"http://"
 "www.theguardian.com/technology/2015/aug/21/spotify-faces-user-backlash-over-"
@@ -1158,24 +1192,6 @@ msgstr ""
 
 #. type: Content of: <ul><li><p>
 msgid ""
-"Some web and TV advertisements play inaudible sounds to be picked up by "
-"proprietary malware running on other devices in range so as to determine "
-"that they are nearby.  Once your Internet devices are paired with your TV, "
-"advertisers can correlate ads with Web activity, and other <a href=\"http://"
-"arstechnica.com/tech-policy/2015/11/beware-of-ads-that-use-inaudible-sound-"
-"to-link-your-phone-tv-tablet-and-pc/\">cross-device tracking</a>."
-msgstr ""
-"Certaines publicités de la télévision et du web émettent des sons inaudibles "
-"destinés à des logiciels malveillants en service sur d'autres appareils, "
-"avec une portée permettant de savoir qu'ils sont proches. Une fois que vos "
-"appareils connectés sont appariés avec votre télévision, les annonceurs "
-"peuvent corréler les publicités avec l'activité sur le web et autres <a href="
-"\"http://arstechnica.com/tech-policy/2015/11/beware-of-ads-that-use-"
-"inaudible-sound-to-link-your-phone-tv-tablet-and-pc/\"> données de traçage "
-"provenant des divers appareils</a>."
-
-#. type: Content of: <ul><li><p>
-msgid ""
 "<a href=\"http://consumerman.com/Rent-to-own%20giant%20accused%20of%20spying"
 "%20on%20its%20customers.htm\"> Rent-to-own computers were programmed to spy "
 "on their renters</a>."
@@ -1213,7 +1229,7 @@ msgstr ""
 msgid ""
 "Some web and TV advertisements play inaudible sounds to be picked up by "
 "proprietary malware running on other devices in range so as to determine "
-"that they are nearby. Once your Internet devices are paired with your TV, "
+"that they are nearby.  Once your Internet devices are paired with your TV, "
 "advertisers can correlate ads with Web activity, and other <a href=\"http://"
 "arstechnica.com/tech-policy/2015/11/beware-of-ads-that-use-inaudible-sound-"
 "to-link-your-phone-tv-tablet-and-pc/\">cross-device tracking</a>."
@@ -1423,6 +1439,29 @@ msgstr ""
 "<a href=\"http://www.itproportal.com/2014/05/14/microsoft-openly-offered-"
 "cloud-data-fbi-and-nsa/\"> Le SkyDrive de Microsoft permet à la NSA "
 "d'examiner directement les données des utilisateurs</a>."
+
+#. type: Content of: <div><h4>
+msgid "Spyware in Chrome"
+msgstr "Chrome"
+
+#. type: Content of: <div>
+msgid ""
+"<span class=\"anchor-reference-id\">(<a href=\"#SpywareInChrome"
+"\">#SpywareInChrome</a>)</span>"
+msgstr ""
+"<span class=\"anchor-reference-id\">(<a href=\"#SpywareInChrome"
+"\">#SpywareInChrome</a>)</span>"
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"Google Chrome makes it easy for an extension to do <a href=\"http://labs."
+"detectify.com/post/133528218381/chrome-extensions-aka-total-absence-of-"
+"privacy\">total snooping on the user's browsing</a>, and many of them do so."
+msgstr ""
+"Dans Google Chrome, les extensions ont toute facilité pour <a href=\"http://"
+"labs.detectify.com/post/133528218381/chrome-extensions-aka-total-absence-of-"
+"privacy\"> espionner en détail la navigation de l'utilisateur</a>, et "
+"beaucoup ne s'en privent pas. "
 
 #. type: Content of: <div><h4>
 msgid "Spyware in Flash"
