@@ -1,0 +1,151 @@
+# French translation of http://www.gnu.org/proprietary/proprietary-deception.html
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the original article.
+# Thérèse Godefroy <godef.th AT free.fr>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: proprietary-deception.html\n"
+"POT-Creation-Date: 2015-10-18 09:55+0000\n"
+"PO-Revision-Date: 2015-11-30 09:05+0100\n"
+"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
+"Language-Team: fr <trad-gnu@april.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <title>
+msgid "Proprietary Deception - GNU Project - Free Software Foundation"
+msgstr ""
+"Fraude au moyen de logiciel privateur - GNU Project - Free Software "
+"Foundation"
+
+#. type: Content of: <h2>
+msgid "Proprietary Deception"
+msgstr "Fraude au moyen de logiciel privateur"
+
+#. type: Content of: <p>
+msgid ""
+"<a href=\"/philosophy/proprietary.html\">Other examples of proprietary "
+"malware</a>"
+msgstr ""
+"<a href=\"/philosophy/proprietary.html\">Autres exemples de malveillance "
+"dans le logiciel privateur</a>"
+
+#. type: Content of: <p>
+msgid ""
+"This document reports instances where proprietary software is dishonest or "
+"conceals deception or trickery."
+msgstr ""
+"Ce document cite des cas où le logiciel privateur se montre malhonnête, ou "
+"bien cache de la fraude ou de la supercherie."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"Volkswagen programmed its car engine computers to detect the Environmental "
+"Protection Agency's emission tests, and run dirty the rest of the time."
+msgstr ""
+"Volkswagen a programmé les ordinateurs contrôlant les moteurs de ses "
+"véhicules pour qu'ils détectent les essais antipollution de "
+"l'<cite>Environmental Protection Agency</cite> (agence de protection de "
+"l'environnement des États-Unis)&hellip; et polluent le reste du temps."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"<a href=\"https://www.petri.com/volkswagen-used-software-to-cheat-on-"
+"emissions\">https://www.petri.com/volkswagen-used-software-to-cheat-on-"
+"emissions</a>."
+msgstr ""
+"<a href=\"https://www.petri.com/volkswagen-used-software-to-cheat-on-"
+"emissions\">https://www.petri.com/volkswagen-used-software-to-cheat-on-"
+"emissions</a>."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"In real driving, the cars exceeded emissions standards by a factor of up to "
+"35."
+msgstr ""
+"En conditions réelles, les voitures excédaient les normes d'émission d'un "
+"facteur allant jusqu'à 35."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"Using free software would not have stopped Volkswagen from programming it "
+"this way, but would have made it harder to conceal."
+msgstr ""
+"L'utilisation de logiciel libre n'aurait pas empêché Volkswagen de "
+"programmer ainsi ses ordinateurs, mais cela aurait été plus difficile à "
+"cacher."
+
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr " "
+
+#. type: Content of: <div><div><p>
+msgid ""
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF.  Broken links and other corrections or suggestions "
+"can be sent to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requêtes concernant la FSF et GNU à <a href=\"mailto:"
+"gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href=\"/contact/"
+"\">d'autres moyens de contacter</a> la FSF. Les liens orphelins et autres "
+"corrections ou suggestions peuvent être signalés à <a href=\"mailto:"
+"webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+
+#.  TRANSLATORS: Ignore the original text in this paragraph,
+#.         replace it with the translation of these two:
+#.         We work hard and do our best to provide accurate, good quality
+#.         translations.  However, we are not exempt from imperfection.
+#.         Please send your comments and general suggestions in this regard
+#.         to <a href="mailto:web-translators@gnu.org">
+#.         &lt;web-translators@gnu.org&gt;</a>.</p>
+#.         <p>For information on coordinating and submitting translations of
+#.         our web pages, see <a
+#.         href="/server/standards/README.translations.html">Translations
+#.         README</a>. 
+#. type: Content of: <div><div><p>
+msgid ""
+"Please see the <a href=\"/server/standards/README.translations.html"
+"\">Translations README</a> for information on coordinating and submitting "
+"translations of this article."
+msgstr ""
+"Nous faisons le maximum pour proposer des traductions fidèles et de bonne "
+"qualité, mais nous ne sommes pas parfaits. Merci d'adresser vos commentaires "
+"sur cette page, ainsi que vos suggestions d'ordre général sur les "
+"traductions, à <a href=\"mailto:web-translators@gnu.org\"> &lt;web-"
+"translators@gnu.org&gt;</a>.</p>\n"
+"<p>Pour tout renseignement sur la coordination et la soumission des "
+"traductions de nos pages web, reportez-vous au <a href=\"/server/standards/"
+"README.translations.html\">guide de traduction</a>."
+
+#. type: Content of: <div><p>
+msgid "Copyright &copy; 2015 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2015 Free Software Foundation, Inc."
+
+#. type: Content of: <div><p>
+msgid ""
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/4.0/\">Creative Commons Attribution-"
+"NoDerivatives 4.0 International License</a>."
+msgstr ""
+"Cette page peut être utilisée suivant les conditions de la licence <a rel="
+"\"license\" href=\"http://creativecommons.org/licenses/by-nd/4.0/deed.fr"
+"\">Creative Commons attribution, pas de modification, 4.0 internationale "
+"(CC BY-ND 4.0)</a>."
+
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr ""
+"Traduction et révision : <a href=\"mailto:trad-gnu&#64;april.org\">trad-"
+"gnu&#64;april.org</a>"
+
+#.  timestamp start 
+#. type: Content of: <div><p>
+msgid "Updated:"
+msgstr "Dernière mise à jour :"
