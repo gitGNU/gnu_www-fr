@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-back-doors.html\n"
-"POT-Creation-Date: 2015-11-30 15:55+0000\n"
-"PO-Revision-Date: 2015-12-01 20:48+0100\n"
+"POT-Creation-Date: 2015-12-10 15:55+0000\n"
+"PO-Revision-Date: 2015-12-11 10:25+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -40,6 +40,37 @@ msgid "Here are examples of demonstrated back doors in proprietary software."
 msgstr ""
 "Voici des exemples de portes dérobées documentées dans des logiciels "
 "privateurs."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"Microsoft is <a href=\"http://www.computerworld.com/article/3012278/"
+"microsoft-windows/microsoft-sets-stage-for-massive-windows-10-upgrade-"
+"strategy.html\">attacking computers that run Windows 7 and 8</a>, switching "
+"on a flag that says whether to &ldquo;upgrade&rdquo; to Windows 10 when "
+"users have turned it off."
+msgstr ""
+"Microsoft <a href=\"http://www.computerworld.com/article/3012278/microsoft-"
+"windows/microsoft-sets-stage-for-massive-windows-10-upgrade-strategy.html\"> "
+"attaque les ordinateurs sous Windows 7 et 8</a> en modifiant un drapeau "
+"indiquant si la « mise à niveau » vers Windows 10 doit être faite, lorsque "
+"l'utilisateur a coché « non »."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"This, by the way, reaffirms the presence of a universal back door in Windows "
+"7 and 8."
+msgstr ""
+"Au demeurant, cela confirme la présence d'une porte dérobée dans Windows 7 "
+"et 8."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"ARRIS cable modem has a <a href=\"https://w00tsec.blogspot.de/2015/11/arris-"
+"cable-modem-has-backdoor-in.html?m=1\"> backdoor in the backdoor</a>."
+msgstr ""
+"Le modem câble ARRIS a une <a href=\"https://w00tsec.blogspot.de/2015/11/"
+"arris-cable-modem-has-backdoor-in.html?m=1\"> porte dérobée dans sa porte "
+"dérobée</a>."
 
 #. type: Content of: <ul><li><p>
 msgid ""
