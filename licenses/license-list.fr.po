@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2015-12-14 09:56+0000\n"
-"PO-Revision-Date: 2015-12-14 12:17+0100\n"
+"POT-Creation-Date: 2015-12-19 18:25+0000\n"
+"PO-Revision-Date: 2015-12-20 23:09+0100\n"
 "Last-Translator: Thérèse godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -4560,6 +4560,26 @@ msgstr ""
 "version</a> <span class=\"anchor-reference-id\"> (<a href=\"#CC-BY-NC\">#CC-"
 "BY-NC</a>)</span>"
 
+#. type: Content of: <dl><dd><p>
+msgid ""
+"This license does not qualify as free, because there are restrictions on "
+"charging money for copies.  Thus, we recommend you do not use this license "
+"for documentation."
+msgstr ""
+"Cette licence ne peut pas être qualifiée de libre à cause des restrictions "
+"qu'elle pose à la vente de copies. Par conséquent, nous vous déconseillons "
+"de l'utiliser pour la documentation."
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"In addition, it has a drawback for any sort of work: when a modified version "
+"has many authors, in practice getting permission for commercial use from all "
+"of them would become infeasible."
+msgstr ""
+"De plus, elle a un inconvénient quel que soit le type d'œuvre : lorsqu'une "
+"version modifiée a de nombreux auteurs, obtenir de chacun d'entre eux la "
+"permission de l'utiliser commercialement est irréalisable en pratique."
+
 #. type: Content of: <dl><dt>
 msgid ""
 "<a id=\"CC-BY-ND\" href=\"?\">Creative Commons Noderivatives, any version</"
@@ -4573,11 +4593,12 @@ msgstr ""
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This license does not qualify as free, because there are restrictions on "
-"distributing modified versions.  We recommend you do not use this license."
+"distributing modified versions.  We recommend you do not use this license "
+"for documentation."
 msgstr ""
 "Cette licence ne remplit pas les critères du libre parce qu'elle restreint "
 "la distribution de versions modifiées contre paiement. Nous vous "
-"recommandons de ne pas l'utiliser."
+"recommandons de ne pas l'utiliser pour la documentation."
 
 #. type: Content of: <div><h3>
 msgid "Licenses for Other Works"
