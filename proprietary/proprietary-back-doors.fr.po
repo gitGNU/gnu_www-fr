@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-back-doors.html\n"
-"POT-Creation-Date: 2015-12-22 12:08+0000\n"
-"PO-Revision-Date: 2015-12-22 17:36+0100\n"
+"POT-Creation-Date: 2016-01-12 08:28+0000\n"
+"PO-Revision-Date: 2016-01-12 12:33+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -40,6 +40,56 @@ msgid "Here are examples of demonstrated back doors in proprietary software."
 msgstr ""
 "Voici des exemples de portes dérobées documentées dans des logiciels "
 "privateurs."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"<a href=\"https://theintercept.com/2015/12/28/recently-bought-a-windows-"
+"computer-microsoft-probably-has-your-encryption-key/\"> Microsoft has "
+"already backdoored its disk encryption</a>."
+msgstr ""
+"<a href=\"https://theintercept.com/2015/12/28/recently-bought-a-windows-"
+"computer-microsoft-probably-has-your-encryption-key/\"> Microsoft a déjà mis "
+"une porte dérobée dans le chiffrement des disques</a>."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"Modern gratis game cr&hellip;apps <a href=\"http://toucharcade."
+"com/2015/09/16/we-own-you-confessions-of-a-free-to-play-producer/\"> collect "
+"a wide range of data about their users and their users' friends and "
+"associates</a>."
+msgstr ""
+"Les sal&hellip;applis <a href=\"http://toucharcade.com/2015/09/16/we-own-you-"
+"confessions-of-a-free-to-play-producer/\"> rassemblent une grande variété de "
+"données sur leurs utilisateurs, ainsi que sur les amis et associés de leurs "
+"utilisateurs</a>."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"Even nastier, they do it through ad networks that merge the data collected "
+"by various cr&hellip;apps and sites made by different companies."
+msgstr ""
+"Pire, cela se fait au moyen de réseaux publicitaires qui combinent les "
+"données rassemblées par diverses sal&hellip;applis et divers sites créés par "
+"différentes sociétés."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"They use this data to manipulate people to buy things, and hunt for &ldquo;"
+"whales&rdquo; who can be led to spend a lot of money. They also use a back "
+"door to manipulate the game play for specific players."
+msgstr ""
+"Ils utilisent ces données pour inciter les gens à faire des achats et font "
+"la chasse aux « baleines » qu'ils peuvent amener à faire de grosses "
+"dépenses. Ils utilisent aussi une porte dérobée afin de manipuler le "
+"déroulement du jeu pour des joueurs particuliers."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"While the article describes gratis games, games that cost money can use the "
+"same tactics."
+msgstr ""
+"Bien que l'article décrive des jeux gratuits, les jeux payants peuvent "
+"utiliser la même tactique."
 
 #. type: Content of: <ul><li><p>
 msgid ""
@@ -513,8 +563,8 @@ msgstr ""
 "README.translations.html\">guide de traduction</a>."
 
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2014-2015 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2014-2015 Free Software Foundation, Inc."
+msgid "Copyright &copy; 2014-2016 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2014-2016 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
