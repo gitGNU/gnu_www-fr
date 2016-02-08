@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sitemap.html\n"
-"POT-Creation-Date: 2016-01-27 17:56+0000\n"
-"PO-Revision-Date: 2016-01-28 18:28+0100\n"
+"POT-Creation-Date: 2016-02-09 18:26+0000\n"
+"PO-Revision-Date: 2016-02-09 23:14+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -1944,6 +1944,14 @@ msgid "GNU Alternative"
 msgstr "Tête de GNU alternative"
 
 #. type: Content of: <div><dl><dd><dl><dt>
+msgid "<a href=\"/graphics/gnu-and-tux-icon.html\">gnu-and-tux-icon.html</a>"
+msgstr "<a href=\"/graphics/gnu-and-tux-icon.html\">gnu-and-tux-icon.html</a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "Gnu and Tux Icon"
+msgstr "Icône représentant Gnu et Tux"
+
+#. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/graphics/gnu-ascii-liberty.html\">gnu-ascii-liberty.html</a>"
 msgstr ""
 "<a href=\"/graphics/gnu-ascii-liberty.html\">gnu-ascii-liberty.html</a>"
@@ -2175,14 +2183,6 @@ msgid "Levitating, Meditating, Flute-playing Gnu by the Nevrax Design Team"
 msgstr ""
 "Gnou en méditation, en lévitation et jouant de la flûte, par la <cite>Nevrax "
 "Design Team</cite>"
-
-#. type: Content of: <div><dl><dd><dl><dt>
-msgid "<a href=\"/graphics/mlug-cms-icon.html\">mlug-cms-icon.html</a>"
-msgstr "<a href=\"/graphics/mlug-cms-icon.html\">mlug-cms-icon.html</a>"
-
-#. type: Content of: <div><dl><dd><dl><dd>
-msgid "MLUG CMS Icon"
-msgstr "Icône du CMS écrit par le LUG de Moscou"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/graphics/nandakumar-gnu.html\">nandakumar-gnu.html</a>"
@@ -2755,6 +2755,18 @@ msgstr "<a href=\"/licenses/lgpl-java.html\">lgpl-java.html</a>"
 #. type: Content of: <div><dl><dd><dl><dd>
 msgid "The LGPL and Java"
 msgstr "La LGPL et Java"
+
+#. type: Content of: <div><dl><dd><dl><dt>
+msgid ""
+"<a href=\"/licenses/license-compatibility.html\">license-compatibility.html</"
+"a>"
+msgstr ""
+"<a href=\"/licenses/license-compatibility.html\">license-compatibility.html</"
+"a>"
+
+#. type: Content of: <div><dl><dd><dl><dd>
+msgid "License Compatibility and Relicensing"
+msgstr "License Compatibility and Relicensing"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/licenses/license-list.html\">license-list.html</a>"
@@ -4846,8 +4858,8 @@ msgstr "<a href=\"/philosophy/w3c-patent.html\">w3c-patent.html</a>"
 msgid ""
 "FSF's Position on W3 Consortium &ldquo;Royalty-Free&rdquo; Patent Policy"
 msgstr ""
-"Position de la FSF sur la politique de brevets « libres de droits » <cite>"
-"[royalty-free]</cite> du W3 Consortium"
+"Position de la FSF sur la politique de brevets « libres de droits » "
+"<cite>[royalty-free]</cite> du W3 Consortium"
 
 #. type: Content of: <div><dl><dd><dl><dt>
 msgid "<a href=\"/philosophy/wassenaar.html\">wassenaar.html</a>"
