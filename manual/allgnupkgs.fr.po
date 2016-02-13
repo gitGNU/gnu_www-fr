@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: allgnupkgs.html\n"
-"POT-Creation-Date: 2016-01-17 21:56+0000\n"
-"PO-Revision-Date: 2016-01-18 10:05+0100\n"
+"POT-Creation-Date: 2016-02-10 22:40+0000\n"
+"PO-Revision-Date: 2016-02-13 10:22+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -349,6 +349,18 @@ msgstr ""
 "Traduction d'un service web programmé en <abbr title=\"Business Process "
 "Execution Language\">BPEL</abbr> vers l'<cite>Open Workflow Nets</cite>. [<a "
 "href=\"/software/bpel2owfn/\">bpel2owfn – accueil</a>]"
+
+#. type: Content of: <table><tr><td>
+msgid "* <a href=\"/software/foliot/\">Foliot</a>"
+msgstr "* <a href=\"/software/foliot/\">Foliot</a>"
+
+#. type: Content of: <table><tr><td>
+msgid ""
+"An application for tracking time spent on projects.  [<a href=\"/software/"
+"foliot/\">foliot&nbsp;home</a>]"
+msgstr ""
+"Application pour comptabiliser le temps passé sur chaque projet.  [<a href="
+"\"/software/foliot/\">foliot – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/gcal/manual/\">Gcal</a>"
@@ -3976,6 +3988,18 @@ msgid ""
 msgstr ""
 "<a href=\"http://directory.fsf.org/category/libs/\"><big><b>Bibliothèques "
 "logicielles</b></big></a>"
+
+#. type: Content of: <table><tr><td>
+msgid "* <a href=\"/software/8sync/\">8sync</a>"
+msgstr "* <a href=\"/software/8sync/\">8sync</a>"
+
+#. type: Content of: <table><tr><td>
+msgid ""
+"An asynchronous programming library for Guile.  [<a href=\"/software/8sync/"
+"\">8sync&nbsp;home</a>]"
+msgstr ""
+"Une bibliothèque de programmation asynchrone. [<a href=\"/software/8sync/"
+"\">8sync – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
 msgid "* <a href=\"/software/adns/\">Adns</a>"
