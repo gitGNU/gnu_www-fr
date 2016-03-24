@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: words-to-avoid.html\n"
-"POT-Creation-Date: 2016-01-02 13:55+0000\n"
-"PO-Revision-Date: 2016-01-03 19:14+0100\n"
+"POT-Creation-Date: 2016-03-23 17:26+0000\n"
+"PO-Revision-Date: 2016-03-24 09:18+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -58,6 +58,10 @@ msgstr ""
 #. type: Content of: <p>
 msgid "<a href=\"/philosophy/philosophy.html\">Other Texts to Read</a> |"
 msgstr "<a href=\"/philosophy/philosophy.html\">Autres articles</a> |"
+
+#. type: Content of: <p>
+msgid "&ldquo;<a href=\"#Ad-blocker\">Ad-blocker</a>&rdquo; |"
+msgstr "« <a href=\"#Hacker\">bloqueur de pubs</a> » |"
 
 #. type: Content of: <p>
 msgid "&ldquo;<a href=\"#Access\">Access</a>&rdquo; |"
@@ -269,6 +273,25 @@ msgstr "« <a href=\"#TrustedComputing\">informatique de confiance</a> » |"
 #. type: Content of: <p>
 msgid "&ldquo;<a href=\"#Vendor\">Vendor</a>&rdquo;"
 msgstr "« <a href=\"#Vendor\">vendeur</a> »"
+
+#. type: Content of: <h3>
+msgid "&ldquo;Ad-blocker&rdquo;"
+msgstr "« Bloqueur de pubs »"
+
+#. type: Content of: <p>
+msgid ""
+"When the purpose of some program is to block advertisements, &ldquo;ad-"
+"blocker&rdquo; is a good term for it.  However, the GNU browser IceCat "
+"blocks advertisements that track the user as consequence of broader measures "
+"to prevent surveillance by web sites.  This is not an &ldquo;ad-blocker,"
+"&rdquo; this is <em>surveillance protection</em>."
+msgstr ""
+"Quand le but principal d'un certain programme est de bloquer les publicités, "
+"« bloqueur de pubs » est un terme adéquat pour le définir. Cependant, le "
+"navigateur GNU IceCat boque les publicités qui tracent l'utilisateur par "
+"suite de mesures plus générales de prévention de la surveillance par les "
+"sites web. Ce n'est pas un « bloqueur de pubs », c'est de la <em>protection "
+"contre la surveillance</em>."
 
 #. type: Content of: <h3>
 msgid "&ldquo;Access&rdquo;"
