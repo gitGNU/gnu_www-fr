@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: google-engineering-talk.html\n"
 "POT-Creation-Date: 2016-05-04 09:58+0000\n"
-"PO-Revision-Date: 2016-05-04 12:42+0200\n"
+"PO-Revision-Date: 2016-05-04 14:34+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -39,11 +39,11 @@ msgstr "(<cite>Engineering Tech Talk</cite> de Google, 11 juin 2004)"
 
 #. type: Content of: <div><h3>
 msgid "Table of Contents"
-msgstr "<a id=\"tm\">Table des matières</a>"
+msgstr "Table des matières"
 
 #. type: Content of: <div><ul><li>
 msgid "<a href=\"#introduction\">1. Introduction</a>"
-msgstr "<a href=\"#introduction\">1. Introduction</a>"
+msgstr "<a href=\"#introduction\" id=\"tm\">1. Introduction</a>"
 
 #. type: Content of: <div><ul><li>
 msgid "<a href=\"#how-it-started\">2. How it started</a>"
