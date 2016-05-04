@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: help.html\n"
-"POT-Creation-Date: 2016-03-05 17:55+0000\n"
-"PO-Revision-Date: 2016-03-06 10:44+0100\n"
+"POT-Creation-Date: 2016-05-04 10:55+0000\n"
+"PO-Revision-Date: 2016-05-04 13:07+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -31,18 +31,22 @@ msgstr ""
 msgid "Helping the GNU Project and the Free Software Movement"
 msgstr "Comment aider le projet GNU et le mouvement du logiciel libre"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <div><h3>
+msgid "Table of Contents"
+msgstr "Table des matières"
+
+#. type: Content of: <div><ul><li>
 msgid "<a href=\"#develop\">Help develop the GNU operating system</a>"
 msgstr ""
 "<a href=\"#develop\">Aidez à développer le système d'exploitation GNU</a>"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <div><ul><li>
 msgid "<a href=\"#fsf\">Volunteer with the Free Software Foundation</a>"
 msgstr ""
 "<a href=\"#fsf\">Faites du bénévolat à la <cite>Free Software Foundation</"
 "cite></a>"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <div><ul><li>
 msgid ""
 "<a href=\"#awareness\">Spread awareness about GNU and the Free Software "
 "Movement</a>"
@@ -50,22 +54,22 @@ msgstr ""
 "<a href=\"#awareness\">Sensibilisez votre entourage au projet GNU et au "
 "mouvement du logiciel libre</a>"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <div><ul><li>
 msgid "<a href=\"#movement\">Work for the Free Software Movement</a>"
 msgstr ""
 "<a href=\"#movement\">Travaillez pour le mouvement du logiciel libre</a>"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <div><ul><li>
 msgid "<a href=\"#helpgnu\">Help support GNU development and use</a>"
 msgstr ""
 "<a href=\"#helpgnu\">Contribuez à soutenir le développement et l'utilisation "
 "de GNU</a>"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <div><ul><li>
 msgid "<a href=\"#funds\">Help the FSF raise funds</a>"
 msgstr "<a href=\"#funds\">Aidez la FSF à collecter des fonds</a>"
 
-#. type: Content of: <ul><li>
+#. type: Content of: <div><ul><li>
 msgid "<a href=\"#graphics\">Contribute graphic designs</a>"
 msgstr "<a href=\"#graphics\">Offrez vos dessins</a>"
 
