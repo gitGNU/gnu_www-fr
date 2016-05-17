@@ -4,13 +4,13 @@
 # Pierrick L'Ébraly <plebraly AT gmail.com>, 2013.
 # Marc de Maillard <mdemaillard AT gmail.com>, 2013.
 # Sébastien Poher, <sogalpunx AT volted.net>, 2013.
-# Thérèse Godefroy <godef.th AT free.fr>, 2013, 2014, 2015.
+# Thérèse Godefroy <godef.th AT free.fr>, 2013-2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
-"POT-Creation-Date: 2016-04-26 21:58+0000\n"
-"PO-Revision-Date: 2016-04-30 10:52+0200\n"
+"POT-Creation-Date: 2016-05-16 19:27+0000\n"
+"PO-Revision-Date: 2016-05-17 09:30+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -182,10 +182,12 @@ msgstr ""
 "C'est une implémentation de la norme ISO 13751.  <small>(<a href=\"/manual/"
 "manual.html#apl\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/archimedes/\">Archimedes</a>"
 msgstr "<a href=\"/software/archimedes/\">Archimedes</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "Archimedes is a free package for semiconductor device simulations. It is "
@@ -2095,14 +2097,13 @@ msgstr "<a href=\"/software/ggradebook/\">Ggradebook</a>"
 msgid ""
 "GNU Gradebook is an application for teachers for tracking student grades. It "
 "supports several grading styles, including American (A, B, C, D, F) and "
-"European numeric scales.  This package is looking for a maintainer.  <small>"
-"(<a href=\"/manual/manual.html#ggradebook\">doc</a>)</small>"
+"European numeric scales.  <small>(<a href=\"/manual/manual.html#ggradebook"
+"\">doc</a>)</small>"
 msgstr ""
 "GNU Gradebook est une application destinée aux enseignants, pour le suivi "
 "des notes d'élèves. Il gère plusieurs styles de notes, en particulier les "
-"échelles numériques américaine (A, B, C, D, F) et européennes. Ce paquet est "
-"à la recherche d'un mainteneur.  <small>(<a href=\"/manual/manual."
-"html#ggradebook\">doc</a>)</small>"
+"échelles numériques américaine (A, B, C, D, F) et européennes.  <small>(<a "
+"href=\"/manual/manual.html#ggradebook\">doc</a>)</small>"
 
 #. type: Attribute 'alt' of: <h4><img>
 msgid "logo for ghostscript"
