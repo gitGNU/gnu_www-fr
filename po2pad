@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # NAME
-#    po2pad - PO to PAD converter
+#    po2pad - PO to pad converter
 
 # SYNOPSIS
-#    po2pad /PATH/TO/NAME.po*
+#    po2pad [-g GUI_EDITOR] /PATH/TO/NAME.po*
 
 # DESCRIPTION
-#    This script removes some of the features of a PO* file (either POT or
-#    partially translated PO) to make it suitable for the translation pad. It
-#    is somewhat interactive and can be launched from the application and
-#    contextual menus of GNOME or KDE.
+#    This script removes some features of a PO* file (either POT or partially
+#    translated PO) to make it suitable for the translation pad. It is somewhat
+#    interactive and can be launched from the application and contextual menus
+#    of GNOME or KDE.
 
 # REQUIREMENTS
 #    * The working directory (wdir) is $HOME/pad. This can be changed by
@@ -21,7 +21,7 @@
 # OUTPUT, WARNINGS and ERRORS
 #    Two files are created in the working directory:
 #    * NAME.pot, the template for insertion of the translated strings by
-#      pad2po; if created from a partially translated PO, NAME.pot retains
+#      if created from a partially translated PO, NAME.pot retains
 #      the header and comments.
 #    * NAME.pad, a plain text file which can be copied directly to the pad
 #      page. The first line specifies the name of the pad.
@@ -46,39 +46,36 @@ of the Creative Commons CC0 license.
 EOF
 }
 
-## Parameters
-
-# Specify the editor for displaying the translated PO (the configuration file
-# takes precedence).
-if [ -f /usr/bin/kwrite ]; then
-  visual=kwrite
-elif [ -f /usr/bin/gedit ]; then
-  visual=gedit
-elif [ -f /usr/bin/emacs ]; then
-  visual=emacs
-else
-  visual=vi
-fi
-
-conf="$HOME/.config/gnu-profile"
-lang=""
-test -f $conf && source $conf
-
 function usage () {
 cat <<EOF
 
-Usage: po2pad /PATH/TO/NAME.txt
+Usage: po2pad [-g GUI_EDITOR] /PATH/TO/NAME.txt
   This script removes some of the features of a PO* file to make it
   suitable for the translation pad.
 
 Options:
   -V  Display version info and exit.
   -h  Display this help and exit.
+  -g  Specify the GUI editor (optional)
 
 Report bugs to <godef.th@free.fr>
 
 EOF
 }
+
+
+## Parameters
+
+# Choose an editor for displaying the translated PO.
+if [ -f /usr/bin/kwrite ]; then
+  geditor=kwrite
+elif [ -f /usr/bin/gedit ]; then
+  geditor=gedit
+elif [ -f /usr/bin/emacs ]; then
+  geditor=emacs
+else
+  geditor=vi
+fi
 
 # Parse the command line.
 OPTIND=1
@@ -86,6 +83,7 @@ while getopts "h?V" opt; do
   case "$opt" in
     h | \? ) usage; exit 0 ;;
     V ) version; exit 0 ;;
+    g ) geditor=$OPTARG ;;
   esac
 done
 shift $((OPTIND-1))
@@ -93,6 +91,7 @@ shift $((OPTIND-1))
 
 
 echo -e "${0##*\/} - Préparation d'une page HTML pour le pad de traduction\n"
+
 
 ## File input
 
@@ -112,6 +111,9 @@ else
   read new_pot
 fi
 
+
+## Preliminaries
+
 # Clean up the input to get the full path, and extract the name of the
 # document.
 path=${new_pot//\'/}
@@ -119,19 +121,21 @@ file=${path##*/}
 name=${file%.po*}
 
 # Get the URL of the original page from the header.
-url=$(grep ' translation of http://www.gnu.org/' $path | \
+url=$(grep ' translation of https\?://www.gnu.org/' $path | \
       sed 's,^# .* translation of ,,')
+
+# Create temporary files (same numbering as in html2pad).
+TMP1=$(mktemp -t po2pad.XXXXXX) || exit 1 # PO* content -> pad content
+TMP2=$(mktemp -t po2pad.XXXXXX) || exit 1 # Interm. in link processing
+TMP3=$(mktemp -t po2pad.XXXXXX) || exit 1 # Interm. in link processing
+trap 'rm -f "$TMP1" "$TMP2" "$TMP3"' EXIT
 
 # Check for non-zero content and .po* extension.
 if [ "$name" != "$file" -a -n "$path" ]; then
 
-  # Create temporary files (same numbers as in html2pad).
-  TMP1=$(mktemp -t po2pad.XXXXXX) || exit 1 # PO* content -> pad content
-  TMP2=$(mktemp -t po2pad.XXXXXX) || exit 1 # Interm. in link processing
-  TMP3=$(mktemp -t po2pad.XXXXXX) || exit 1 # Interm. in link processing
-  trap 'rm -f "$TMP1" "$TMP2" "$TMP3"' EXIT
 
-## Convert the POT
+## Contents extraction
+
   # Unwrap.
   sed ':egin /^#. type:/ {N; s,"\n",,; begin}' $path > $TMP1
   # Remove the translation to create a POT with the PO header.
@@ -139,11 +143,14 @@ if [ "$name" != "$file" -a -n "$path" ]; then
   # Select contents.
   sed -n -i '/^#\. type: Content of: <title>/,/TRANSLATORS: Use space /p' $TMP1
   sed -i '/TRANSLATORS: Use space (SPC) as msgstr/d' $TMP1
-  # Remove the fuzzy markers and the comments.
+  # Remove the fuzzy markers and the comments (except #. Type: [...])
   sed -i '/^#[^\.] /d' $TMP1
-  # Remove the msg delimiters.
+  # Remove "msgid" and "msgstr".
   sed -i -e 's,^msg\(id\|str\) ",,' \
          -e 's,"$,,' $TMP1
+
+
+## Link extraction
 
   # Label the links.
   awk 'BEGIN {RS=ORS="</a>"}
@@ -163,14 +170,22 @@ if [ "$name" != "$file" -a -n "$path" ]; then
   # Split after the link labels and add 2 blank lines after each link.
   sed -i 's,^\(<lnk no.[0-9]\+>\),\n\n\1\n,' $TMP1
 
+
+## Final steps
+
   # Optionally add a header.
-  echo "Nom du pad : from-en_$name" > $wdir/from-en_$name.pad
-  echo "Traduction en français de $url" >> $wdir/from-en_$name.pad
-  cat $wdir/pad-header-gnu $TMP1 >> $wdir/from-en_$name.pad
-  echo -e "\n\n" >> $wdir/from-en_$name.pad
+  echo "Nom du pad : EnFr-$name" > $wdir/EnFr-$name.pad
+  echo "Traduction en français de $url" >> $wdir/EnFr-$name.pad
+  cat $wdir/pad-header-gnu $TMP1 >> $wdir/EnFr-$name.pad
+
+  # Add 2 trailing blank lines (needed for link insertion by pad2po).
+  echo -e "\n\n" >> $wdir/EnFr-$name.pad
 
   # Display the pad.
-  $visual $wdir/from-en_$name.pad
+  $geditor $wdir/EnFr-$name.pad
+
+
+## Wrong file
 
 else
   echo "!!! Ce n'est pas un fichier PO."
