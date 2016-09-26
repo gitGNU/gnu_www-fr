@@ -21,10 +21,24 @@ sub main(@)
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8; ">
-<title>$PN</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>previewpo.pl</title>
+<style type="text/css" media="screen">
+.a { text-decoration: none; }
+.skiplinks {
+	position:fixed; bottom:0; right:0; padding:.5em;
+	background-color:#eee; border:1px solid #ccc;
+}
+.text { margin:1em; }
+</style>
 </head>
 <body>
+<div class="skiplinks">
+Skip to: 
+EOF
+    my $HTMLMID =<<'EOF';
+</div>
+<div class="text">
 EOF
     my $HTMLEND =<<'EOF';
 </body>
@@ -38,28 +52,29 @@ EOF
     my $trans = 0; # flag to copy translation
     my $count = 0;
     my $trstr = ""; # translated string
+    my $skiplink = "<a href=\"#$PN$count\">$count</a>";
 
     GetOptions('help' => \$help,
-               'license' => \$license,
-               'version' => \$version) or exit 1;
+	       'license' => \$license,
+	       'version' => \$version) or exit 1;
     if ($help) {
-        say "
+	say "
 Usage: $PN <article.lang.po >previewpo.html
 -h
 --help
-        Display usage (this) information and exit successfully.
+	Display usage (this) information and exit successfully.
 -l
 --license
-        Display copyright and license information and exit successfully.
+	Display copyright and license information and exit successfully.
 -v
 --version
-        Display version information and exit successfully.
+	Display version information and exit successfully.
 ";
-        exit 0;
+	exit 0;
     }
     if ($license) {
-        say "
-Copyright © 2014 Donatas Klimašauskas
+	say "
+Copyright © 2014-2015 Donatas Klimašauskas
 
 $PN is free software: you can redistribute it and/or
 modify it under the terms of the GNU General Public License as
@@ -75,37 +90,44 @@ You should have received a copy of the GNU General Public License
 along with $PN.  If not, see
 <https://www.gnu.org/licenses/>.
 ";
-        exit 0;
+	exit 0;
     }
     if ($version) {
-        say "
+	say "
 $PN version $VERSION
 ";
-        exit 0;
+	exit 0;
     }
     while (<>) {
-        if (m/^msgstr/) {
-            if ($start) {
-                $start = 0;
-                next;
-            }
-            $trans = 1;
-            $count++;
-            $trstr .= "<!-- $count -->\n";
-            $_ = $1 if m/"(.+)"$/;
-        } elsif (m/^$/) {
-            $trans = 0;
-            $trstr .= "<br><br>\n";
-        }
-        if ($trans) {
-            s/^[\w\s]*"|"$|\n|\\n|\\(?=")//g;
-            $trstr .= $_;
-        }
+	if (m/^msgstr/) {
+	    if ($start) {
+		$start = 0;
+		next;
+	    }
+	    $trans = 1;
+	    $count++;
+        $skiplink = "<a href=\"#$PN$count\">$count</a>";
+	    $trstr .=<<EOF;
+$skiplink
+<span id="$PN$count"></span><br>
+EOF
+		if ($count%5 == 0) {
+			$HTMLSTART .= $skiplink ." &nbsp;";
+		}
+	    $_ = $1 if m/"(.+)"$/;
+	} elsif (m/^$/) {
+	    $trans = 0;
+	    $trstr .= "<br><br>\n";
+	}
+	if ($trans) {
+	    s/^[\w\s]*"|"$|\n|\\n|\\(?=")//g;
+	    $trstr .= $_;
+	}
     }
     $trstr =~ s/^(<br>){2}\n//;
     $trstr =~ s/<\/([a-z]+)><\g1>/<br>/ig;
     $trstr =~ s/(href=")(?=\/)/$1https:\/\/gnu\.org/ig;
-    print "$HTMLSTART$trstr\n$HTMLEND";
+    print "$HTMLSTART$HTMLMID$trstr\n$HTMLEND";
     return 0;
 }
 
