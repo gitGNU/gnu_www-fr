@@ -12,7 +12,7 @@ installation of GNUN.
  GNUN, which is a set of scripts and makefiles primarily designed to run on a
  gnu.org server, in the www.gnu.org arborescence (the "www" directory, under
  version control by CVS). Some of the functionalities of GNUN are also
- available to the translators if they install both GNUN and an image of www on
+ available to translators if they install both GNUN and an image of www on
  their machine. GNUN even includes a few functions which are specifically
  designed for the translation teams and run from the team's repository of PO
  files (the "www-team" directory, under CVS, Git or SVN version control).
@@ -55,16 +55,18 @@ installation of GNUN.
  * A complete working copy of the CVS www module includes nearly 20,000 files
    for a total size of 500MB. The checkout time occasionally exceeds one hour
    with a decent ADSL connexion, and update has been known to take 45min.
+   [Update Sept. 2016: things have improved quite a bit after the migration to
+   new hardware in May.]
 
- * Generating a translated page from a PO and validating both (this is called
-   "transvalidation") requires _all_ the templates to be present in
-   www/server/, despite the fact that the translated HTML output doesn't
-   normally include them. If a template is missing, the page is generated with
-   the extension "humbly-drafted-by-gnun" but is not validated.
+ * Generating a translated page from a PO and validating both (we call it
+   "transvalidation") requires the includes to be present in www/server/,
+   despite the fact that the translated HTML output normally doesn't show them.
+   If a template is missing, the page is generated with the extension
+   "humbly-drafted-by-gnun" but is not validated.
 
- * When one of the templates is not valid HTML, the error is reported against
-   the generated page, but the normal output doesn't show it, so the translator
-   is left pondering.
+ * When one of the includes is not valid HTML, the error is reported against
+   the complete page (with expanded includes), but the normal output doesn't
+   show it, so the translator is left pondering.
 
  * The links in the HTML output are relative to the server root, and therefore
    cannot be checked directly.
@@ -73,7 +75,7 @@ installation of GNUN.
    transvalidation. The corresponding POT is regenerated, thereby changing the
    POT creation date in both the PO and the POT. As a result, the changes in
    www must be reverted to avoid conflicts during the next synchronization with
-   the www CVS repository. This may take several minutes.
+   the www CVS repository.
 
  * The "format" target reformats _all_ the POs in www-team, even those which
    have not been modified.
@@ -103,8 +105,8 @@ installation of GNUN.
 
  * transvalid-po generates an HTML page from a PO for proofreading, and
    validates both the HTML and the PO; the PO is reformatted in the process.
-   This script does not require the gnu.org context, but may need HTML5-dtd
-   (from the GNUN package).
+   This script works outside the gnu.org context, but requires the proper DTD
+   (provided along with it).
 
  * transvalid-batch lists the modified POs, using tools provided by either Git
    or CVS, then calls transvalid-po for each of them.
@@ -122,6 +124,7 @@ installation of GNUN.
  * preview-po.pl produces a generic HTML page from a PO. The original HTML is
    not required.
 
- * pot2pad and pad2po may be useful for initial translation of a POT file. The
-   former prepares the POT for transfer to a pad for collaborative translation,
-   and the latter generates the PO from the translated pad.
+ * po2pad and pad2po may be useful for initial translation of a POT, or review
+   of a PO. The former prepares the POT or PO for transfer to a pad for
+   collaborative translation, and the latter (re)generates the PO from the
+   translated pad.

@@ -11,8 +11,11 @@
  * transvalid-po
    convertit un PO en page HTML en se basant sur la page HTML originale, et
    vérifie que le format du PO est correct et que le HTML produit est conforme
-   aux standards du W3C. Ce script utilise un autre fichier de la branche
-   scripts, html5.dtd, qui provient du paquet GNUN.
+   aux standards du W3C. Ce script utilise 2 autres fichiers de la branche
+   scripts :
+    - xhtml1-strict.dtd : placé ici par commodité, mais installable à partir
+      des dépôts (paquet Debian w3c-dtd-xhtml) ;
+    - html5.dtd : DTD "faite maison" qui provient du paquet gnun.
 
  * transvalid-batch
    traite une liste de POs modifiés dans www-team avec transvalid-po. La liste
@@ -29,19 +32,20 @@
  * cvs-sync
    synchronise le répertoire www avec le dépôt CVS et le répertoire www-team
    avec www, puis établit un rapport sur l'état des POs (nombre de chaînes
-   fuzzy et non traduites, POs modifiés dans www-team, etc.) 
-   [Pour www-fr seulement] Si on le souhaite, la liste des fichiers à mettre à
-   jour est envoyée à trad-gnu@april.org et les fichiers en question sont
-   commités dans www-fr (mais doivent être poussés à la main après
+   fuzzy et non traduites, POs modifiés dans www-team, etc.)
+   Si on le souhaite et si mutt est installé (avec une adresse d'expéditeur
+   qui ne se fait pas jeter comme spam), la liste des POs à mettre à jour est
+   envoyée à l'adresse indiquée dans le fichier de configuration et les POs
+   sont commités dans www-fr (mais doivent être poussés à la main après
    vérification).
 
  * www-commit
    facilite l'envoi des POs modifiés dans www. Les 4 derniers commits de www-fr
    peuvent être envoyés (ou non).
 
- * pot2pad et pad2po
+ * po2pad et pad2po
    facilitent le passage du format PO au pad de traduction et inversement.
-   pot2pad utilise un autre fichier de la branche scripts, pad-header-gnu.
+   po2pad utilise un autre fichier de la branche scripts, pad-header-gnu.
 
  * previewpo.pl
    crée un HTML générique à partir d'un PO. Pas besoin de l'original.
@@ -84,7 +88,7 @@ Exemple de lanceur : ~/.local/share/applications/transvalid-batch.desktop
  ------------------------------------------------------------
  (*) En ajoutant le répertoire des scripts au PATH (ou en mettant des liens
  dans un répertoire qui est déjà dans le PATH), on n'a plus besoin d'indiquer
- le chemin dans le lanceur ; le nom du script suffit. 
+ le chemin dans le lanceur ; le nom du script suffit.
  (**) La catégorie "Translation" existe par défaut dans KDE mais pas dans
  Gnome 3 (version essayée : 3.4). On peut cependant créer le menu et y placer
  les lanceurs à la main.
