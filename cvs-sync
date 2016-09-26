@@ -4,19 +4,29 @@
 #    cvs-sync - synchronization of the POs and status report
 
 # SYNOPSIS
-#    cvs-sync [-a TEAM@ADDRESS] -t /TEAM/DIRECTORY
+#    cvs-sync [-a TEAM@ADDRESS] -t /.../www-TEAM
 
 # DEPENDENCIES
 #    * required: cvs, msgmerge (from the gettext package);
 #    * optional: git, gnun-add-fuzzy-diff (from the gnun package), mutt.
 
 # DESCRIPTION
-#    cvs-sync synchronizes the local www directory with the CVS repository on
-#    gnu.org, then the local www-team with www. It reports the status of the
-#    POs that need updating and/or have been modified or lack a counterpart in
-#    www (possibly indicating that they are new translations).
-#    Optionally, the POs that need updating are committed to the Git repo (but
-#    not pushed), and a notification is sent to a specified address.
+#    cvs-sync synchronizes the local www directory with the CVS repository
+#    on gnu.org, then www-team with the local www, and reports the differences.
+#
+#    Method:
+#    1. cvs-sync calls 'cvs update' in www.
+#    2. If there are differences with www-team, it calls msgmerge to merge
+#       them, and adds diffs to fuzzy strings if gnun-add-fuzzy-diff is found.
+#    3. It lists the POs that need updating and the number of fuzzy or
+#       untranslated strings, as well as the POs that have been modified or
+#       lack a counterpart in www (possibly indicating that they are new
+#       translations).
+#    4. If a GUI editor has been set, the outdated PO files are displayed (not
+#       recommended if there are too many of them).
+#    5. Optionally, the outdated POs are committed to the Git repo (but not
+#       pushed), and a notification is sent to a specified address.
+#
 #    Requirements:
 #    * www and www-team must have the same parent directory.
 #    * www-team must contain the working copies of the PO files.
@@ -33,8 +43,7 @@
 #       parameter1="value1"
 #       parameter2="value2"
 #    This configuration overrides the default settings but is superseded by the
-#    command line. The file is $HOME/.config/gnu-profile by default. This can
-#    be changed by editing the script.
+#    command line. The file ($conf) is specified under "Parameters".
 
 #==============================================================================
 
@@ -50,24 +59,10 @@ of the Creative Commons CC0 license.
 EOF
 }
 
-function close_term () {
-  sleep 10
-  exit $1
-}
-
-echo "${0##*\/} - synchronization and status report"
-
-## Parameters
-
-conf="$HOME/.config/gnu-profile"
-teamdir=""
-address=""
-test -f $conf && source $conf
-
 function usage () {
 cat <<EOF
 
-Usage: cvs-sync [-a TEAM@ADDRESS] -t /TEAM/DIRECTORY
+Usage: cvs-sync [-a TEAM@ADDRESS] -t /.../www-TEAM
 
   The script assumes the context of www.gnu.org. It synchronizes the
   local reference directory (www) with the CVS repository, and the
@@ -77,24 +72,52 @@ Usage: cvs-sync [-a TEAM@ADDRESS] -t /TEAM/DIRECTORY
 
 Options:
 
-  -t  /TEAM/DIRECTORY    [$teamdir]
+  -t /.../www-TEAM      [$teamdir]
       Specify the absolute path to www-team (required)
-  -a  TEAM@ADDRESS       [$address]
+  -g GUI_EDITOR         [$geditor]
+      Specify a GUI or PO editor. If none, POs are not displayed.
+  -a TEAM@ADDRESS       [$address]
       Specify the address of the team mailing list (optional)
   -V  Display version info and exit.
   -h  Display this help and exit.
+
+The parameters can be specified in a configuration file:
+      $conf
+One line per parameter, with syntax: param='VALUE'
 
 Report bugs to <godef.th@free.fr>
 
 EOF
 }
 
+function close_term () {
+  sleep 10
+  exit $1
+}
+
+
+echo "${0##*\/} - synchronization and status report"
+
+
+## Parameters
+
+conf="$HOME/.profile"
+teamdir=""
+geditor=""
+address=""
+subject="Outdated POs $(date +"%y-%m-%d")" # This could be localized.
+
+test -s "$conf" && source $conf
+
+
 # Parse the command line.
 OPTIND=1
-while getopts "h?Vb:t:" opt; do
+while getopts "h?Va:g:t:" opt; do
   case "$opt" in
-    h | \? ) usage; close_term 0 ;;
-    V ) version; close_term 0 ;;
+    h | \? ) usage; exit 0 ;;
+    V ) version; exit 0 ;;
+    a ) address=$OPTARG ;;
+    g ) geditor=$OPTARG ;;
     t ) teamdir=$OPTARG ;;
   esac
 done
@@ -111,7 +134,8 @@ cd $teamdir \
 
 wwwdir=${teamdir%\/*}/www   # Path to www
 cd $wwwdir 2> /dev/null \
-|| (echo 1>&2 "*** Directory www doesn't exist."; close_term 1)
+|| (echo 1>&2 "!!! Directory www doesn't exist."; close_term 1)
+
 
 ## Update www.
 
@@ -129,6 +153,7 @@ if test -d ".git"; then
   fi
 fi
 
+
 ## Sync www-team with www and report outdated and new (or misplaced) POs.
 
 function check_fuzz () {
@@ -145,9 +170,9 @@ function check_fuzz () {
 }
 
 MSGMERGE=$(which msgmerge) \
-|| (echo "*** msgmerge is not installed."; close_term 1)
+|| (echo "!!! msgmerge is not installed."; close_term 1)
 MSGATTRIB=$(which msgattrib) \
-|| (echo "*** msgattrib is not installed."; close_term 1)
+|| (echo "!!! msgattrib is not installed."; close_term 1)
 FUZZY_DIFF=$(which gnun-add-fuzzy-diff) \
 || echo "*** No diff will be added to the fuzzy strings because
     gnun-add-fuzzy-diff is not installed."
@@ -190,7 +215,7 @@ while read po_team; do
       # There is no difference: do nothing.
       0 )
     ;;
-      * ) echo "$po : error in the diff test."
+      * ) echo "!!! $po : Error in the diff test."
     ;;
     esac
 
@@ -200,7 +225,8 @@ while read po_team; do
 
     case $fuzz_test_team in
       3 ) echo "$po : $fuzzy fuzzy and $untr untranslated."
-          echo "$po : $untr message(s) non traduit(s) et $fuzzy fuzzy." \
+          # This could be localized.
+          echo "$po : $fuzzy fuzzy and $untr untranslated messages." \
             >> ../update-report
           git add $po
     ;;
@@ -211,10 +237,10 @@ while read po_team; do
             # No fuzz in www:
             4 ) test "$diff_test" != "0" \
                 && echo "$po : versions in www and www-team differ." ;;
-            * ) echo "$po : error in the www fuzz test." ;;
+            * ) echo "$po : !!! Error in the www fuzz test." ;;
           esac
     ;;
-      * ) echo "$po : error in the www-team fuzz test."
+      * ) echo "$po : !!! Error in the www-team fuzz test."
     ;;
     esac
 
@@ -227,20 +253,21 @@ done < $po_list
 
 if [ -f ../update-report ]; then
   sed -e 's,^\./,,' -e 's, .*,,' ../update-report > ../update-list
-  # Display the POs in Gedit.
-  gedit $(< ../update-list) &
-  # Decide whether to send the report to trad-gnu and commit the outdated POs,
-  # or update the POs right away.
+  # Display the POs if a GUI editor has been set.
+  if test - "$geditor"; then
+    $geditor $(< ../update-list) &
+  fi
+  # Decide whether to send the report to the mailing list and commit the
+  # outdated POs, or update the POs right away.
   echo -e "\n*** Commit the list?
           \"Yes\" = [Enter]    \"No\" = any other key\n"
   read -s -n1 OK
   if test -z "$OK"; then
-    if [[ "$address" == *@* ]]; then
-      mutt -s "Liste des POs à mettre à jour le $(date +"%-d-%-m-%y")" \
+    if [[ "$address" == *@* ]] && [ -n "$subject" ]; then
+      mutt -s "[cvs-sync] $subject" \
            -i ../update-report -- $address < "."
     fi
-    git commit -m "POs à mettre à jour $(date +"%-d-%-m-%y")" \
-               $(< ../update-list) || close_term $?
+    git commit -m "$subject" $(< ../update-list) || close_term $?
   else
     echo "    No commit."
   fi

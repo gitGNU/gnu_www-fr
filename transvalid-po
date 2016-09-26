@@ -4,8 +4,8 @@
 #    transvalid-po -- converts a PO file to HTML and validates both
 
 # SYNOPSIS
-#    transvalid-po [-m /PATH/TO/ORIGINAL] /PATH/TO/PO
-#                  (in this order)
+#    transvalid-po [-m /PATH/TO/ORIGINAL] [-d] /PATH/TO/PO
+#                  (options first)
 
 # DEPENDENCIES
 #    po4a (which depends on gettext, perl, etc.),
@@ -13,20 +13,24 @@
 #    DTD XHTML 1.0 from W3C (Debian package w3c-dtd-xhtml),
 #    html5.dtd from the GNUN package (GNUN doesn't have to be installed).
 
+#    Both DTDs are included in the tarball that contains the script (files
+#    xhtml1-strict.dtd and html5.dtd).
+
 # DESCRIPTION
 #    transvalid-po generates a translated page from a PO file and the
 #    corresponding original HTML. Two possibilities:
 #    * www and www-team are not installed locally, in which case the full
-#      paths to the PO and the original HTML have to be specified;
+#      paths to the PO and the original HTML must be specified;
 #    * the PO is in www-team and the corresponding HTML in www, in which case
 #      the HTML doesn't needs to be specified. [A reduced version of www
 #      containing the originals and the canonical POs (for use by cvs-sync) can
 #      be checked out using the script "micro-www-checkout".]
-#    The translated page is created in the directory which contains the PO.
+#    The translated page is created in the directory that contains the PO.
 #
 #    Requirement:
-#      html5.dtd is assumed to be in the same directory as the script.
-#      Otherwise, specify its path in the script.
+#      xhtml1-strict.dtd and html5.dtd are assumed to be in the same directory
+#      as the script. Otherwise, specify their absolute path under “Parameters”
+#      (without a trailing slash).
 #
 #    Functions:
 #    * a simplified header and the missing tags are added to the original
@@ -36,12 +40,13 @@
 #    * to make proofreading of the HTML easier, both in the web browser and
 #      the text editor, the "GNUN-split" tags of the template [0] are replaced
 #      with <br />\n/*split*/\n<br /> ;
-#    * the relative links to gnu.org articles are replaced with absolute
-#      links;
 #    * the translated page is generated with po4a-translate;
 #    * the page is validated with xmllint;
+#    * the relative links to gnu.org articles are replaced with absolute
+#      links;
 #    * the PO is reformatted and validated with msgcat;
-#    * its header is updated and the obsolete comments are removed.
+#    * the revision date is updated;
+#    * (optionally) the obsolete messages and Oudated-Since line are deleted.
 #
 #    [0] https://www.gnu.org/software/trans-coord/manual/gnun/gnun.html#Splitting-Long-Passages
 
@@ -58,30 +63,9 @@ cat <<EOF
 ${0##*\/} version 0.1
 Copyright (C) 2013, 2014 Thérèse Godefroy
 You may redistribute and/or modify this script under
-the terms of the GNU General Public License, v.3+.
+the terms of the GNU General Public License, v.3+
+(because it borrows from GNUN, which is under GPLv3+).
 EOF
-}
-
-# html5.dtd is assumed to be in the same directory as the script. Otherwise,
-# specify its path (without trailing slash).
-DTD=${0%\/*}
-
-# Test whether the script is called from transvalid-batch. The -s option
-# singles out the last instance of the script.
-p=$(pidof -x -s transvalid-batch) || true
-if test "$p" == "$PPID"; then
-  batch=1
-fi
-
-function close_or_exit () {
-# turns off interactivity and lets the terminal close normally if the script
-# is called from transvalid-batch.
-if test "$batch" == "1"; then
-  exit $1
-else
-  echo -e '\n*** Close the terminal window or press Return.'; read OK
-  test -z "$OK" && exit $1
-fi
 }
 
 function usage () {
@@ -89,8 +73,8 @@ cat <<EOF
 
 ${0##*\/} - converts a PO to HTML and validates both
 
-Usage: transvalid-po [-m /PATH/TO/ORIGINAL] /PATH/TO/PO
-       (in this order))
+Usage: transvalid-po [-m /PATH/TO/ORIGINAL] [-d] /PATH/TO/PO
+       (options first)
 
   The script can be used without option if the context is that of
   www.gnu.org, meaning that:
@@ -103,26 +87,68 @@ Usage: transvalid-po [-m /PATH/TO/ORIGINAL] /PATH/TO/PO
   entered at the prompt.
 
 Options:
+  -d  Switch for deletion of obsolete messages (default: false)
   -m /PATH/TO/ORIGINAL  Absolute path to the original HTML
-  -V                    Display version info and exit
-  -h                    Display this help and exit
+  -V  Display version info and exit
+  -h  Display this help and exit
 
 Report bugs to <godef.th@free.fr>
 EOF
 }
 
+function close_or_exit () {
+# turns off interactivity and lets the terminal close normally if the script
+# is called from transvalid-batch.
+if test "$batch" == "1"; then
+  exit $1
+else
+  sleep 10
+  exit $1
+fi
+}
+
+
+## Parameters
+
+# Test whether the script is called from transvalid-batch. The -s option
+# singles out the last instance of the script.
+p=$(pidof -x -s transvalid-batch) || true
+if test "$p" == "$PPID"; then
+  batch=1
+fi
+
+PO4A_TRANSLATE=$(which po4a-translate) \
+|| (echo "!!! po4a-translate is not installed - exiting."; close_or_exit 1)
+XMLLINT=$(which xmllint) \
+|| (echo "!!! xmllint is not installed - exiting."; close_or_exit 1)
+# msgcat is part of Gettext, which is a dependency of PO4A. Normally it should
+# be installed, but...
+MSGCAT=$(which msgcat) \
+|| (echo "!!! msgcat is not installed - exiting."; close_or_exit 1)
+
+# xhtml1-strict.dtd and html5.dtd are assumed to be in the same directory as
+# the script. Otherwise, specify their path (without a trailing slash).
+DTD=${0%\/*}
+
+# Do not delete obsolete messages and Outdated-Since by default.
+# TODO: split this into 2 functions.
+delobs=0
+
 # Parse the command line.
 OPTIND=1
-while getopts "h?Vm:" opt; do
+while getopts "h?Vdm:" opt; do
   case "$opt" in
-     h | \? ) usage; close_or_exit 0 ;;
-     V ) version; close_or_exit 0 ;;
+     h | \? ) usage; exit 0 ;;
+     V ) version; exit 0 ;;
+     d ) delobs=1 ;;
      m ) original=$OPTARG ;;
   esac
 done
 shift $((OPTIND-1))
 [ "$1" = "--" ] && shift
 
+
+## Functions
 
 function check_fuzz () {
 
@@ -159,7 +185,7 @@ EOF
       VALIDATE="--dtdvalid $DTD/html5.dtd"
     ;;
     *)
-      VALIDATE=--valid
+      VALIDATE="--dtdvalid $DTD/xhtml1-strict.dtd"
     ;;
   esac
 
@@ -193,7 +219,7 @@ function update_po_header () {
   sed -i -e "s,\\(Revision-Date: \\).*,\\1$date\\\\n\"," $1
 }
 
-function delete_comments () {
+function delete_obsolete () {
 # removes Outdated-Since and useless comments (outdated messages that contain
 # links pointing outside gnu.org or fsf.org are kept).
   sed -e '/^"Outdated-Since/d' -e '/^# |/d' -e '/^#|/d' $1 |
@@ -296,27 +322,29 @@ if grep "*GNUN-SLOT" ${po} > /dev/null; then
   # If this is a normal gnu.org article:
   create_addendum ${po} NOTES 'footer.html"' $add_notes
   create_addendum ${po} CREDITS '/server/bottom-notes.html' $add_credits
-  # The po4a-translate "k" option, « Minimal threshold for translation
-  # percentage to keep (ie, write) the resulting file » according to the
+  # The po4a-translate "k" option, “Minimal threshold for translation
+  # percentage to keep (ie, write) the resulting file” according to the
   # manual, is set at 30 to allow proofreading of a partial translation
   # or detection of faulty strings (the default is 80).
   po4a-translate -f xhtml -M utf-8 -m $master -p ${po} -k 30 -L utf-8 \
       -l ${translation} -a $add_credits -a $add_notes || exit_code=$?
 else
-  po4a-translate -f xhtml -M utf-8 -m ${master} -p ${po} -k 0 -L utf-8 \
+  $PO4A_TRANSLATE -f xhtml -M utf-8 -m ${master} -p ${po} -k 0 -L utf-8 \
       -l ${translation} || exit_code=$?
 fi
 
 ## Validate the HTML and reformat/validate the PO.
 
-xmllint $VALIDATE --nonet --noout ${translation} \
+$XMLLINT $VALIDATE --nonet --noout ${translation} \
 || exit_code=$?
-msgcat -w 79 -o ${po} ${po} || exit_code=$?
+$MSGCAT -w 79 -o ${po} ${po} || exit_code=$?
 
 ## Tweak the translated page and the PO.
 
 make_links_absolute ${translation}
-delete_comments ${po}
+if test "$delobs" == "1"; then
+  delete_obsolete ${po}
+fi
 update_po_header ${po}
 test "$exit_code" == "0" && echo "    OK"
 

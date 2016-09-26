@@ -4,7 +4,7 @@
 #    micro-www-checkout - create a minimized www directory for transvalid-batch
 
 # SYNOPSIS
-#    micro-www-checkout -t /TEAM/DIR [-l 'LANG1 [LANG2]...'] [-u CVS_LOGIN]
+#    micro-www-checkout -t /.../www-TEAM [-l 'LANG1 [LANG2]...'] [-u CVS_LOGIN]
 #    or
 #    micro-www-checkout -l 'LANG1 [LANG2]...' [-u CVS_LOGIN]
 
@@ -20,7 +20,7 @@
 #    1. A list of the potentially useful files is obtained from a dry run of
 #       rsync on the CVS repository, exluding irrelevant directories and
 #       keeping only files with .po and .html extensions.
-#    2. The rsync list is further processed, to build a checkout list
+#    2. The rsync list is further processed to build a checkout list
 #       containing the language-specific POs and the corresponding original
 #       HTMLs.
 #    3. The listed files are downloaded by cvs (with login if the ID is
@@ -28,7 +28,7 @@
 #
 #    Disadvantage:
 #    Update of the micro-www directory does not download the original HTMLs
-#    which have not been translated to the selected language. Those must be
+#    that have not been translated to the selected language. Those must be
 #    checked out separately. The corresponding POT files must be downloaded
 #    once to create the PO but they don't need to be tracked if www and
 #    www-team are updated with cvs-sync (they would be required by the sync
@@ -37,15 +37,14 @@
 # OPTIONS AND CURRENT SETTINGS
 #    Displayed by:   micro-www-checkout -h
 #
-#    Configuration file:
+#    Configuration file ($conf):
 #    The command-line parameters can be set once and for all in a configuration
 #    file (also used by transvalid-batch, www-commit, cvs-sync, and
 #    check-links), with the syntax:
 #       parameter1="value1"
 #       parameter2="value2"
 #    This configuration overrides the default settings but is superseded by the
-#    command line. The file is $HOME/.config/gnu-profile by default. This can
-#    be changed by editing the script.
+#    command line. The file ($conf) is specified under "Parameters".
 #    The files corresponding to the team specified in the profile will always
 #    be checked out, provided www-team exists locally.
 
@@ -63,27 +62,11 @@ of the Creative Commons CC0 license.
 EOF
 }
 
-function close_term () {
-  echo -e '\n*** Close the terminal window or press Return.'; read OK
-  test -z "$OK" && exit $1
-}
-
-echo "${0##*\/} - create a minimized www directory for transvalid-batch"
-
-## Parameters
-
-conf="$HOME/.config/gnu-profile"
-langs=""
-teamdir=""
-user="anonymous"
-protocole="pserver"
-test -f $conf && source $conf
-
 function usage () {
 cat <<EOF
 
 Usage:
-  micro-www-checkout -t /TEAM/DIR [-l 'LANG1 [LANG2]...'] [-u CVS_LOGIN]
+  micro-www-checkout -t /.../www-TEAM [-l 'LANG1 [LANG2]...'] [-u CVS_LOGIN]
   or  micro-www-checkout -l 'LANG1 [LANG2]...' [-u CVS_LOGIN]
 
   The script checks out the POs for a list of languages and the
@@ -98,7 +81,7 @@ Options and current settings:
   -u CVS_LOGIN               [$user]
       Specify your login if you have write access to www (optional)
 
-  -t /TEAM/DIRECTORY         [$teamdir]
+  -t /.../www-TEAM           [$teamdir]
       Specify the absolute path to the team directory
       (required if no language code is specified)
 
@@ -114,12 +97,30 @@ Report bugs to <godef.th@free.fr>
 EOF
 }
 
+function close_term () {
+  sleep 10
+  exit $1
+}
+
+
+echo "${0##*\/} - create a minimized www directory for transvalid-batch"
+
+## Parameters
+
+conf="$HOME/.profile"
+langs=""
+teamdir=""
+user="anonymous"
+protocole="pserver"
+test -s "$conf" && source $conf
+
+
 # Parse the command line.
 OPTIND=1
 while getopts "h?Vl:t:u:" opt; do
   case "$opt" in
-    h | \? ) usage; close_term 0 ;;
-    V ) version; close_term 0 ;;
+    h | \? ) usage; exit 0 ;;
+    V ) version; exit 0 ;;
     l ) langs=$OPTARG ;;
     t ) teamdir=$OPTARG ;;
     u ) user=$OPTARG ;;
@@ -127,6 +128,7 @@ while getopts "h?Vl:t:u:" opt; do
 done
 shift $((OPTIND-1))
 [ "$1" = "--" ] && shift
+
 
 ## Get valid language codes
 
@@ -159,6 +161,7 @@ for l in ${langs[@]}; do
   [[ "$ref_lang_codes" =~ "$l" ]] && vlangs=($vlangs $l)
 done
 test -z "$vlangs" && (echo 1>&2 "!!! No valid language."; close_term 1)
+
 
 ## List the relevant files in www
 
@@ -222,7 +225,9 @@ done
 # List each file only once
 sort $TMP3 | uniq > $TMP4
 
-# Checkout the listed files.
+
+## Checkout the listed files.
+
 if [ -s $TMP4 ]; then
   # Define the protocole.
   if test -n "$user" -a "$user" != "anonymous"; then

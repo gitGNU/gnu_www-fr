@@ -4,7 +4,7 @@
 #    transvalid-batch - batch transvalidation of PO files from www.gnu.org
 
 # SYNOPSIS
-#    transvalid-batch -t /TEAM/DIRECTORY [OPTIONS]
+#    transvalid-batch -t /.../www-TEAM [OPTIONS]
 
 # DEPENDENCIES
 #    * Required: transvalid-po in the same directory as transvalid-batch,
@@ -24,9 +24,7 @@
 #      on branch master.
 #
 #    Functions:
-#    * When used for the first time, the script helps create a configuration
-#      file.
-#    * It lists the files that have been modified locally in www-team;
+#    * The script lists the files that have been modified locally in www-team;
 #      depending on the workflow, this is done using Git or CVS tools;
 #      the list can be amended by hand.
 #    * Each item of the list is transvalidated.
@@ -43,8 +41,7 @@
 #       parameter1="value1"
 #       parameter2="value2"
 #    This configuration overrides the default settings but is superseded by the
-#    command line. The file is $HOME/.config/gnu-profile by default. This can
-#    be changed by editing the script.
+#    command line. The file ($conf) is specified under "Parameters".
 
 #==============================================================================
 
@@ -55,31 +52,15 @@ function version () {
 cat <<EOF
 $0 version 0.1
 Copyright (C) 2013, 2014 Thérèse Godefroy
-You may redistribute and/or modify this script under the
-terms of the GPLv3+ <https://www.gnu.org/licenses/gpl.html>.
+You may redistribute this script and/or modify it under the terms
+of the Creative Commons CC0 license.
 EOF
 }
-
-function close_term () {
-  echo -e '\n*** Close the terminal window or press Return.'; read OK
-  test -z "$OK" && exit $1
-}
-
-echo -e "${0##*\/} - generate HTML from a list of POs and validate"
-
-## Parameters
-
-conf="$HOME/.config/gnu-profile"
-scriptdir=${0%\/*}
-teamdir=""
-editor=""
-message=""
-test -f $conf && source $conf
 
 function usage () {
 cat <<EOF
 
-Usage: ${0##*\/} -t /TEAM/DIRECTORY [OPTIONS]
+Usage: ${0##*\/} -t /.../www-TEAM [OPTIONS]
 
   The script assumes the context of www.gnu.org. It helps create a list of
   modified POs. Then, for each item of the list, it calls transvalidate-po
@@ -93,7 +74,7 @@ Options and current settings:
   -m 'COMMIT MESSAGE'        [$message]
       Specify a commit message (optional, only applies to Git)
 
-  -t /TEAM/DIRECTORY         [$teamdir]
+  -t /.../www-TEAM           [$teamdir]
       Specify the absolute path to the team directory (required)
 
   -V  Display version info and exit
@@ -107,12 +88,28 @@ Report bugs to <godef.th@free.fr>
 EOF
 }
 
+function close_term () {
+  sleep 10
+  exit $1
+}
+
+echo -e "${0##*\/} - generate HTML from a list of POs and validate"
+
+## Parameters
+
+conf="$HOME/.profile"
+scriptdir=${0%\/*}
+teamdir=""
+editor=""
+message=""
+test -s "$conf" && source $conf
+
 # Parse the command line.
 OPTIND=1
-while getopts "h?Vb:e:m:t:" opt; do
+while getopts "h?Ve:m:t:" opt; do
   case "$opt" in
-    h | \? ) usage; close_term 0 ;;
-    V ) version; close_term 0 ;;
+    h | \? ) usage; exit 0 ;;
+    V ) version; exit 0 ;;
     e ) editor=$OPTARG ;;
     m ) message=$OPTARG ;;
     t ) teamdir=$OPTARG ;;
@@ -138,41 +135,6 @@ else
   editor=vi
 fi
 
-# Create a profile if there is none.
-if [ ! -f $conf ]; then
-  echo -e "\n*** Would you like to create a configuration file with the known
-    parameters for transvalid-batch, cvs-sync, micro-www-checkout and
-    www-commit?
-          \"Yes\" = [Enter]    \"No\" = any other key\n"
-  read -s -n1 OK
-  if test -z "$OK"; then
-
-    cat > $conf <<EOF
-# Configuration file for the Migou scripts
-
-# Parameter values should be quoted if they contain spaces (with double-
-# quotes if they contain a variable), and there should be no space before
-# the "=" sign, and none after.
-
-# Team directory:
-teamdir=$teamdir
-
-# Replace the system default with your pet command-line editor (but it
-# doesn't need to be fancy):
-editor=$editor
-
-# User name on Savannah, for CVS checkout with write access:
-user=$user
-
-# Default commit messages:
-message1=
-message2=
-EOF
-
-    echo "    The configuration file has been created in $conf.
-    You can edit it later on."
-  fi
-fi
 
 ## Functions
 
@@ -223,11 +185,17 @@ function select_message () {
   echo -e "    Please select a commit message:
     [1]         : \"$message1\"
     [2]         : \"$message2\"
+    [3]         : \"$message5\"
+    [4]         : \"$message4\"
+    [5]         : \"$message5\"
     [other key] :  no commit"
   read -s -n1 choice
   case "$choice" in
     1) message=$message1 ;;
     2) message=$message2 ;;
+    3) message=$message3 ;;
+    4) message=$message4 ;;
+    5) message=$message5 ;;
     *) message= ;;
   esac
 }
@@ -260,7 +228,7 @@ else
         if [ -z "$message" ]; then
           echo -e "    The POs are ready to commit."
         else
-          git commit -m "$message"
+          git commit -m "$message" $(< ../valid-list)
           echo -e "    The changes have been committed."
         fi
       fi

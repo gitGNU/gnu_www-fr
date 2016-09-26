@@ -4,7 +4,7 @@
 #    check-links - compare links in translated and original strings of POs
 
 # SYNOPSIS
-#    check-links -t /TEAM/DIRECTORY
+#    check-links -t /.../www-TEAM
 
 # DESCRIPTION
 #    check-links processes all the POs in the team directory to detect relevant
@@ -26,7 +26,8 @@
 #    * make a diff;
 #    * prune differences that are only found in footer strings. This part
 #      should be customized for each team (team's mailing address, etc.)
-#
+#    * The resulting file is ../href.diff.
+
 #    Awk background:
 #    http://oreilly.com/catalog/unixnut3/chapter/ch11.html
 #    http://backreference.org/2010/02/10/idiomatic-awk/
@@ -41,8 +42,7 @@
 #       parameter1="value1"
 #       parameter2="value2"
 #    This configuration overrides the default settings but is superseded by the
-#    command line. The file is $HOME/.config/gnu-profile by default. This can
-#    be changed by editing the script.
+#    command line. The file ($conf) is specified under "Parameters".
 
 #==============================================================================
 
@@ -58,19 +58,10 @@ Creative Commons CC0 license
 EOF
 }
 
-echo "${0##*\/} - compare links in translated and original strings of POs"
-
-# Parameters
-
-conf="$HOME/.config/gnu-profile"
-teamdir=""
-test -f $conf && source $conf
-echo $teamdir
-
 function usage () {
 cat <<EOF
 
-Usage: check-links -t /TEAM/DIRECTORY
+Usage: check-links -t /.../www-TEAM
 
   The script processes all the POs in the team directory. It detects
   relevant differences between the links in original strings and those
@@ -78,7 +69,7 @@ Usage: check-links -t /TEAM/DIRECTORY
 
 Options:
 
-  -t /TEAM/DIRECTORY         [$teamdir]
+  -t /.../www-TEAM         [$teamdir]
       Specify the absolute path to the team directory (required)
 
   -V  Display version info and exit
@@ -92,18 +83,32 @@ Report bugs to <godef.th@free.fr>
 EOF
 }
 
+echo "${0##*\/} - compare links in translated and original strings of POs"
+
+
+## Parameters
+
+conf="$HOME/.profile"
+teamdir=""
+test -s "$conf" && source $conf
+echo $teamdir
+
+
 # Parse the command line.
 OPTIND=1
 while getopts "h?Ve:t:" opt; do
   case "$opt" in
-     h | \? ) usage; close_or_exit 0 ;;
-     V ) version; close_or_exit 0 ;;
+     h | \? ) usage; exit 0 ;;
+     V ) version; exit 0 ;;
      e ) editor=$OPTARG ;;
      t ) teamdir=$OPTARG ;;
   esac
 done
 shift $((OPTIND-1))
 [ "$1" = "--" ] && shift
+
+
+## Compare links.
 
 f_tmp=$(mktemp -t cklk.XXXXXX)       || exit 1
 href_msgstr=$(mktemp -t cklk.XXXXXX) || exit 1

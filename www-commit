@@ -4,7 +4,7 @@
 #    www-commit - batch commit to the www repository
 
 # SYNOPSIS
-#    www-commit  -t /TEAM/DIRECTORY
+#    www-commit  -t /.../www-TEAM
 
 # DEPENDENCIES
 #    required: cvs, git.
@@ -26,13 +26,12 @@
 #
 #    Configuration file:
 #    The command-line parameters can be set once and for all in a configuration
-#    file (also used by transvalid-batch, cvs-sync, micro-www-checkout and
-#    mini-www-checkout), with the syntax:
-#       parameter1='value1'
-#       parameter2='value2'
+#    file (also used by transvalid-batch, cvs-sync, www-commit, and
+#    micro-www-checkout), with the syntax:
+#       parameter1="value1"
+#       parameter2="value2"
 #    This configuration overrides the default settings but is superseded by the
-#    command line. The file is $HOME/.config/gnu-profile by default. This can
-#    be changed by editing the script.
+#    command line. The file ($conf) is specified under "Parameters".
 
 #==============================================================================
 
@@ -48,23 +47,10 @@ of the Creative Commons CC0 license.
 EOF
 }
 
-function close_term () {
-  echo -e "\n*** Close the terminal window or press Return."; read OK
-  test -z "$OK" && exit $1
-}
-
-echo "${0##*\/} - batch commit to the www repository"
-
-## Parameters
-
-conf="$HOME/.config/gnu-profile"
-teamdir=""
-test -f $conf && source $conf
-
 function usage () {
 cat <<EOF
 
-Usage: cvs-sync  -t /TEAM/DIRECTORY
+Usage: cvs-sync  -t /.../www-TEAM
 
   The script assumes the context of www.gnu.org, with the team directory
   (www-team) under Git. It copies the modified POs from www-team to www,
@@ -73,7 +59,7 @@ Usage: cvs-sync  -t /TEAM/DIRECTORY
 
 Options:
 
-  -t /TEAM/DIRECTORY         [$teamdir]
+  -t /.../www-TEAM         [$teamdir]
       Specify the absolute path to www-team (required)
   -V  Display version info and exit.
   -h  Display this help and exit.
@@ -83,12 +69,26 @@ Report bugs to <godef.th@free.fr>
 EOF
 }
 
+function close_term () {
+  sleep 10
+  exit $1
+}
+
+echo "${0##*\/} - batch commit to the www repository"
+
+
+## Parameters
+
+conf="$HOME/.profile"
+teamdir=""
+test -s "$conf" && source $conf
+
 # Parse the command line.
 OPTIND=1
 while getopts "h?Vt:" opt; do
   case "$opt" in
-    h | \? ) usage; close_term 0 ;;
-    V ) version; close_term 0 ;;
+    h | \? ) usage; exit 0 ;;
+    V ) version; exit 0 ;;
     t ) teamdir=$OPTARG ;;
   esac
 done
@@ -96,23 +96,28 @@ shift $((OPTIND-1))
 [ "$1" = "--" ] && shift
 
 
-conf="$HOME/.config/gnu-profile"
+conf="$HOME/.profile"
 test -f $conf && source $conf
+
 
 function select_message () {
 # lets the user select a message from the configuration file.
   echo -e "\n*** Please select a commit message:
         [0] I'll write it myself.
-        [1] $message3
-        [2] $message4
-        [3] $message5
-        [autre] no commit"
+        [1] $message11
+        [2] $message12
+        [3] $message13
+        [4] $message14
+        [5] $message15
+        [other] no commit"
   read -s -n1 choice
   case "$choice" in
     0) echo "Quel est le message de commit ?"; read message ;;
-    1) message=$message3 ;;
-    2) message=$message4 ;;
-    2) message=$message5 ;;
+    1) message=$message11 ;;
+    2) message=$message12 ;;
+    3) message=$message13 ;;
+    4) message=$message14 ;;
+    5) message=$message15 ;;
     *) message= ;;
   esac
 }
