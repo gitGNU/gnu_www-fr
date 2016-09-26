@@ -208,7 +208,7 @@ if [ -n "$path" -a "$name" != "$file" ]; then
         && exit_code=2
       fi
 
-      # Check for possible fuzzy strings (containing *...* or |).
+      # Check for possible fuzzy strings (containing § or |).
       if [[ "$translation" = *§*§* ]]; then
          echo "Il reste probablement une incertitude
     délimitée par \"§\" dans la chaîne $n." >> $wdir/$name.warn \
