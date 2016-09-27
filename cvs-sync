@@ -109,7 +109,6 @@ subject="Outdated POs $(date +"%y-%m-%d")" # This could be localized.
 
 test -s "$conf" && source $conf
 
-
 # Parse the command line.
 OPTIND=1
 while getopts "h?Va:g:t:" opt; do
@@ -244,7 +243,6 @@ while read po_team; do
     ;;
     esac
 
-
   # There is no corresponding PO in www:
   else
     echo "$po : new translation or misplaced/renamed PO."
@@ -254,8 +252,10 @@ done < $po_list
 if [ -f ../update-report ]; then
   sed -e 's,^\./,,' -e 's, .*,,' ../update-report > ../update-list
   # Display the POs if a GUI editor has been set.
-  if test - "$geditor"; then
+  if test $(which "$geditor"); then
     $geditor $(< ../update-list) &
+  else
+    echo "*** No valid editor has been specified."
   fi
   # Decide whether to send the report to the mailing list and commit the
   # outdated POs, or update the POs right away.
