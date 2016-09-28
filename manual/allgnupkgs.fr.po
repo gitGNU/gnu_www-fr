@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: allgnupkgs.html\n"
-"POT-Creation-Date: 2016-08-22 20:26+0000\n"
-"PO-Revision-Date: 2016-08-23 21:15+0200\n"
+"POT-Creation-Date: 2016-09-26 20:56+0000\n"
+"PO-Revision-Date: 2016-09-27 22:34+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -2401,8 +2401,8 @@ msgstr ""
 "\">psychosynth – accueil</a>]"
 
 #. type: Content of: <table><tr><td>
-msgid "* <a href=\"http://docs.solfege.org/\">Solfege</a>"
-msgstr "* <a href=\"http://docs.solfege.org/\">Solfege</a>"
+msgid "* <a href=\"/software/solfege/\">Solfege</a>"
+msgstr "* <a href=\"/software/solfege/\">Solfege</a>"
 
 #. type: Content of: <table><tr><td>
 msgid "Ear training.  [<a href=\"/software/solfege/\">solfege&nbsp;home</a>]"
@@ -5373,3 +5373,6 @@ msgid ""
 msgstr ""
 "XML simple pour la définition et l'implémentation de langages de balises. "
 "[<a href=\"/software/xmlat/\">xmlat – accueil</a>]"
+
+#~ msgid "* <a href=\"http://docs.solfege.org/\">Solfege</a>"
+#~ msgstr "* <a href=\"http://docs.solfege.org/\">Solfege</a>"
