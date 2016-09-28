@@ -7,9 +7,10 @@
 #    check-links -t /.../www-TEAM
 
 # DESCRIPTION
-#    check-links processes all the POs in the team directory to detect relevant
-#    differences between translated and original links (including anchors and
-#    mailing addresses), and displays them.
+#    check-links processes all the POs in the team directory (except includes,
+#    planetfeeds, compendia and sitemap) to detect relevant differences
+#    between translated and original links, including anchors and mailing
+#    addresses.
 #
 #    Method:
 #    * remove comments;
@@ -71,7 +72,6 @@ Options:
 
   -t /.../www-TEAM         [$teamdir]
       Specify the absolute path to the team directory (required)
-
   -V  Display version info and exit
   -h  Display this help and exit
 
@@ -91,16 +91,13 @@ echo "${0##*\/} - compare links in translated and original strings of POs"
 conf="$HOME/.profile"
 teamdir=""
 test -s "$conf" && source $conf
-echo $teamdir
-
 
 # Parse the command line.
 OPTIND=1
-while getopts "h?Ve:t:" opt; do
+while getopts "h?Vt:" opt; do
   case "$opt" in
      h | \? ) usage; exit 0 ;;
      V ) version; exit 0 ;;
-     e ) editor=$OPTARG ;;
      t ) teamdir=$OPTARG ;;
   esac
 done
@@ -120,7 +117,15 @@ cd $teamdir
 echo "==============================" > ../href.diff
 for f in $(find * -name \*.fr.po | sort); do
   if [[ ! "$f" =~ 'planetfeeds' ]] \
+  && [[ ! "$f" =~ "compendia/" ]] \
+  && [[ ! "$f" =~ "sitemap" ]] \
   && [[ ! "$f" =~ "head-include-2" ]] \
+  && [[ ! "$f" =~ "philosophy-menu" ]] \
+  && [[ ! "$f" =~ "education-menu" ]] \
+  && [[ ! "$f" =~ "body-include" ]] \
+  && [[ ! "$f" =~ "footer-text" ]] \
+  && [[ ! "$f" =~ "bottom-notes" ]] \
+  && [[ ! "$f" =~ "outdated" ]] \
   && [[ ! "$f" =~ "top-addendum" ]]; then
     echo $f >> ../href.diff
     awk '!/^#/
@@ -130,10 +135,10 @@ for f in $(find * -name \*.fr.po | sort); do
     grep '^msgstr.*href=' $f_tmp |
     sed -e 's,href= \\",href=\\",g' \
         -e 's,href=,href=\n,g' |
-    awk '!/msgstr/' |
     sed -e 's,\\"\([^\\]*\).*,\1,' \
         -e 's,&quot;\([^&]*\).*,\1,' |
-    awk '!/#TransNote/ \
+    awk '!/msgstr/ \
+      && !/#TransNote/ \
       && !/#sommaire/ \
       && !/#t[0-9]{4}/ \
       && !/-rev$/ \
@@ -142,15 +147,16 @@ for f in $(find * -name \*.fr.po | sort); do
     grep '^msgid.*href=' $f_tmp |
     sed -e 's,href= \\",href=\\",g' \
         -e 's,href=,href=\n,g' |
-    awk '!/msgid/' |
     sed -e 's,\\"\([^\\]*\).*,\1,' \
         -e 's,&quot;\([^&]*\).*,\1,' |
-    awk '!/-rev$/' > $href_msgid
-    # This should be customized for each team:
-    diff -u -I 'mailto:web-translators' \
-            -I 'http://creativecommons.org/licenses' \
-            -I 'mailto:trad-gnu' \
-            -I '/server/standards/README.translations.html' \
+    awk '!/msgid/ \
+         !/-rev$/' > $href_msgid
+    diff -U2 -I 'mailto:web-translators' \
+             -I 'mailto:trad-gnu&#64;april.org' \
+             -I 'mailto:trad-gnu@april.org' \
+             -I 'http://creativecommons.org/licenses' \
+             -I 'https://creativecommons.org/licenses' \
+             -I '/server/standards/README.translations.html' \
     $href_msgid $href_msgstr >> ../href.diff || true
     echo "==============================" >> ../href.diff
   fi
