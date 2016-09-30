@@ -1,4 +1,6 @@
-== Inventaire des scripts de www-fr
+================================
+Inventaire des scripts de www-fr
+================================
 
  Ces scripts fonctionnent pour la plupart dans le contexte des répertoires
  www (image de l'arborescence www de gnu.org) et www-team (fichiers POs de
@@ -55,7 +57,9 @@
    dans tous les POs de www-team.
 
 
-== Mode d'emploi
+=============
+Mode d'emploi
+=============
 
  On peut lancer les scripts directement à partir de la branche scripts, à
  condition de l'avoir clonée séparément des branches qui contiennent des
@@ -68,7 +72,7 @@
  l'avoir éventuellement déverrouillé.
 
 
-Exemple de lanceur : ~/.local/share/applications/transvalid-batch.desktop
+# Exemple de lanceur : ~/.local/share/applications/transvalid-batch.desktop
 
  ------------------------------------------------------------
  #!/usr/bin/env xdg-open
@@ -94,7 +98,7 @@ Exemple de lanceur : ~/.local/share/applications/transvalid-batch.desktop
  les lanceurs à la main.
 
 
-Exemples d'utilisation
+# Exemples d'utilisation
 
  * Mises à jour dans le répertoire www-fr.
    1. Synchroniser les répertoires avec cvs-sync et voir ce qu'il y a à faire

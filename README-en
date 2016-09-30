@@ -6,7 +6,7 @@ The scripts in this directory provide an alternative to using a local
 installation of GNUN.
 
 
-== The update workflow
+## The update workflow
 
  Most of the translations on www.gnu.org use the PO system and are managed by
  GNUN, which is a set of scripts and makefiles primarily designed to run on a
@@ -15,7 +15,7 @@ installation of GNUN.
  available to translators if they install both GNUN and an image of www on
  their machine. GNUN even includes a few functions which are specifically
  designed for the translation teams and run from the team's repository of PO
- files (the "www-team" directory, under CVS, Git or SVN version control).
+ files (the "www-team" directory, under CVS, Git, SVN or Bzr version control).
  See https://www.gnu.org/software/trans-coord/manual/gnun/gnun.html for
  details.
 
@@ -50,7 +50,7 @@ installation of GNUN.
  Thus a lighter method was sought.
 
 
-== The problems involved in using GNUN locally
+## The problems involved in using GNUN locally
 
  * A complete working copy of the CVS www module includes nearly 20,000 files
    for a total size of 500MB. The checkout time occasionally exceeds one hour
@@ -60,41 +60,41 @@ installation of GNUN.
 
  * Generating a translated page from a PO and validating both (we call it
    "transvalidation") requires the includes to be present in www/server/,
-   despite the fact that the translated HTML output normally doesn't show them.
-   If a template is missing, the page is generated with the extension
-   "humbly-drafted-by-gnun" but is not validated.
+   despite the fact that the translated HTML output has unexpanded SSIs. If an
+   include is missing, the page is generated with the extension "humbly-
+   drafted-by-gnun" but is not validated.
 
  * When one of the includes is not valid HTML, the error is reported against
    the complete page (with expanded includes), but the normal output doesn't
    show it, so the translator is left pondering.
 
- * The links in the HTML output are relative to the server root, and therefore
+ * The links in the HTML output are relative to server root, and therefore
    cannot be checked directly.
 
  * The PO files are modified in www-team, but they need to be copied to www for
-   transvalidation. The corresponding POT is regenerated, thereby changing the
-   POT creation date in both the PO and the POT. As a result, the changes in
-   www must be reverted to avoid conflicts during the next synchronization with
-   the www CVS repository.
+   transvalidation. The corresponding POT is regenerated in the process,
+   thereby changing the POT creation date in both the PO and the POT. As a
+   result, the changes in www must be reverted to avoid conflicts during the
+   next synchronization with the www CVS repository.
 
- * The "format" target reformats _all_ the POs in www-team, even those which
-   have not been modified.
+ * The "format" target reformats _all_ POs in www-team, even those which have
+   not been modified.
 
- * The "sync" target merges _all_ the POs from www to www-team, whether they
-   differ or not.
+ * The "sync" target merges _all_ POs from www to www-team, whether they differ
+   or not.
 
  To sum up: the use of GNUN involves prohibitive connection times and a
  constant shuffling around of files which, among other things, is detrimental
  to SSDs. Smartphone users, beware!
 
 
-== Basic scripts
+## Basic scripts
 
  They can be launched from the dashboard or the contextual menu and are
  somewhat interactive. The parameters can be set once and for all in a
  configuration file.
 
- * micro-www-checkout checks out a subset of the www directory which only
+ * micro-www-checkout checks out a subset of the www directory that only
    includes the POs and corresponding original HTMLs for one or several
    languages.
 
@@ -119,7 +119,7 @@ installation of GNUN.
    updates. This script does not require the gnu.org context.
 
 
-== Additional tools
+## Additional tools
 
  * preview-po.pl produces a generic HTML page from a PO. The original HTML is
    not required.
