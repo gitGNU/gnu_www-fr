@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
-"POT-Creation-Date: 2016-10-19 18:26+0000\n"
+"POT-Creation-Date: 2016-10-20 19:56+0000\n"
 "PO-Revision-Date: 2016-09-27 22:34+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -5900,6 +5900,24 @@ msgstr ""
 "communiquant par IP. L'application peut communiquer dans les deux sens avec "
 "plusieurs appareils.  <small>(<a href=\"/manual/manual.html#remotecontrol"
 "\">doc</a>)</small>"
+
+#. type: Content of: <h4>
+msgid "<a href=\"/software/ring/\">Ring</a>"
+msgstr "<a href=\"/software/mig/\">Ring</a>"
+
+#. type: Content of: <p>
+msgid ""
+"Ring is a program for universal communication which respects freedoms and "
+"privacy of its users. Ring uses distributed hash tables for establishing "
+"communication. This avoids keeping centralized registries of users and "
+"storing personal data.  <small>(<a href=\"/manual/manual.html#ring\">doc</a>)"
+"</small>"
+msgstr ""
+"Ring est un logiciel de communication universelle qui respecte les libertés "
+"et la vie privée de ses utilisateurs. Il utilise des tables de hachage "
+"distribuées pour établir la communication. Cela évite les registres "
+"centralisés d'utilisateurs et le stockage des données personnelles. <small>"
+"(<a href=\"/manual/manual.html#ring\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/rottlog/\">Rottlog</a>"
