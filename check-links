@@ -150,7 +150,7 @@ for f in $(find * -name \*.fr.po | sort); do
     sed -e 's,\\"\([^\\]*\).*,\1,' \
         -e 's,&quot;\([^&]*\).*,\1,' |
     awk '!/msgid/ \
-         !/-rev$/' > $href_msgid
+      && !/-rev$/' > $href_msgid
     diff -U2 -I 'mailto:web-translators' \
              -I 'mailto:trad-gnu&#64;april.org' \
              -I 'mailto:trad-gnu@april.org' \
