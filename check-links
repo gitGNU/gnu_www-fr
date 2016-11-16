@@ -4,42 +4,35 @@
 #    check-links - compare links in translated and original strings of POs
 
 # SYNOPSIS
-#    check-links -t /.../www-TEAM
+#       check-links PO_FILE [-g GUI_EDITOR]
+#       or
+#       check-links -l LANG [-g GUI_EDITOR]
 
 # DESCRIPTION
-#    check-links processes all the POs in the team directory (except includes,
-#    planetfeeds, compendia and sitemap) to detect relevant differences
-#    between translated and original links, including anchors and mailing
-#    addresses.
-#
+#    check-links processes either one PO, or all the POs is the working
+#    directory. It selects all the links (including anchors and email
+#    addresses), and shows differences between the original document and its
+#    translation.
+
 #    Method:
 #    * remove comments;
-#    * turn the messages into single lines, even if they contain \n (msgcat
-#      cannot be used because it splits after \n);
-#    * select all lines that contain links, according to whether they start
-#      with msgid or msgstr, then treat each series separately:
-#      - add a line break after each occurrence of "href=" (after removing any
-#        trailing space), to have each link at the beginning of a line;
-#      - list the links;
-#    * process the lists to remove links that are specific to msgstr, such as
-#      #TransNote*, #sommaire, -rev (also in msgid in stallman-mec-india),
-#      etc.;
-#    * make a diff;
-#    * prune differences that are only found in footer strings. This part
-#      should be customized for each team (team's mailing address, etc.)
-#    * The resulting file is ../href.diff.
+#    * unwrap messages;
+#    * remove footer strings that contain localized or customized links.
+#    * process msgid and msgstr together:
+#      - isolate links (after href=", and before the following double-quote);
+#      - remove what is specific to msgstr, such as #TransNote*, #sommaire,
+#        *-rev, etc. (this can be commented out);
+#      - save the link collections for msgid and msgstr separately, along
+#        with string numbers and fuzzy tags.
+#    * make a diff and display it.
 
-#    Awk background:
-#    http://oreilly.com/catalog/unixnut3/chapter/ch11.html
-#    http://backreference.org/2010/02/10/idiomatic-awk/
-
-# OPTIONS
+# OPTIONS AND CURRENT SETTINGS
 #    Displayed by:   check-links -h
 #
 #    Configuration file:
 #    The command-line parameters can be set once and for all in a configuration
-#    file (also used by transvalid-batch, cvs-sync, www-commit, and
-#    micro-www-checkout), with the syntax:
+#    file (also used by transvalid-batch, www-commit, micro-www-checkout, and
+#    cvs-sync), with the syntax:
 #       parameter1="value1"
 #       parameter2="value2"
 #    This configuration overrides the default settings but is superseded by the
@@ -52,8 +45,9 @@ set -o pipefail
 
 function version () {
 cat <<EOF
-${0##*\/} version 0.1
-Copyright (C) 2013 Denis Barbier, Thérèse Godefroy
+${0##*\/} version 0.2
+Copyright (C) 2013 Denis Barbier
+              2013, 2016 Thérèse Godefroy
 You may redistribute this script and/or modify it under the terms of the
 Creative Commons CC0 license
 EOF
@@ -62,105 +56,153 @@ EOF
 function usage () {
 cat <<EOF
 
-Usage: check-links -t /.../www-TEAM
+Usage: check-links PO_FILE [-g GUI_EDITOR]
+       or
+       check-links -l LANG [-g GUI_EDITOR]
 
-  The script processes all the POs in the team directory. It detects
-  relevant differences between the links in original strings and those
-  in the corresponding translated strings, and displays them.
+  The script processes either one PO, or all the POs is the working directory.
+  It selects all the links (including anchors and email addresses), and shows
+  differences between the original document and its translation.
 
 Options:
+  -l LANG               [$lang]
+      Specify the language code if no PO file is specified.
 
-  -t /.../www-TEAM         [$teamdir]
-      Specify the absolute path to the team directory (required)
+  -g GUI_EDITOR         [$geditor]
+      Specify a GUI editor, preferably with syntax highlighting (optional).
+
   -V  Display version info and exit
   -h  Display this help and exit
 
   The parameter values can be set in a configuration file:
        $conf
   One line per parameter, with syntax: param='VALUE'
+  The command line overrides those settings.
+  The language code can also be entered at the prompt.
 
 Report bugs to <godef.th@free.fr>
+
 EOF
 }
-
-echo "${0##*\/} - compare links in translated and original strings of POs"
-
 
 ## Parameters
 
 conf="$HOME/.profile"
-teamdir=""
+geditor=""
+lang=""
+
 test -s "$conf" && source $conf
 
 # Parse the command line.
 OPTIND=1
-while getopts "h?Vt:" opt; do
+while getopts "h?Vl:g:" opt; do
   case "$opt" in
      h | \? ) usage; exit 0 ;;
      V ) version; exit 0 ;;
-     t ) teamdir=$OPTARG ;;
+     l ) lang=$OPTARG ;;
+     g ) editor=$OPTARG ;;
   esac
 done
 shift $((OPTIND-1))
 [ "$1" = "--" ] && shift
 
 
-## Compare links.
+function isolate_links () {
+  awk '
+    BEGIN {
+      RS = "\n\n"
+      FS = "\n"
+      OFS= "\t"
+    }
+    {
+      gsub ( /^#.*\n#, fuzzy.*\nmsgid/ , "Fmsgid" )
+      gsub ( /^#.*\nmsgid/ , "msgid" )
+      gsub ( /"\n"/ , "" )
+      gsub ( /\\"/ , "\"" )
+      gsub ( /[ \t]*/ , "" )
+      if ( FNR == 1 )
+      {
+        print "\n=================================================\n" > "href-id"
+        print "\n""*** " FILENAME \
+              "\n-------------------------------------------------\n" > "href-str"
+      }
+      if ( !/^#/ &&
+           !/GNUN-SLOT:/ &&
+           !/msgid"Pleaseseethe<ahref="\/server\/standards\/README/ &&
+           !/msgid"Thispageislicensed.*\/licenses\/by-nd\/3.0\/us/  &&
+           !/msgid"Thispageislicensed.*\/licenses\/by-nd\/4.0\// )
+      {
+        gsub ( /href="#TransNote[^"]+"/ , "" )  # ) 
+        gsub ( /href="[^"]+-rev"/ , "" )        # )
+        gsub ( /href="#TOC[^"]*"/ , "" )        # ) Remove
+        gsub ( /href="#tm"/ , "" )              # ) translation-specific
+        gsub ( /href="#t[0-9]{4}"/ , "" )       # ) anchors.
+        gsub ( /href="#sommaire"/ , "" )        # )
+        gsub ( /href="[^"]*/ , "& " )  # Mark the ends of URLs.
+        gsub ( /^[^ ]+$/ , "" )        # Remove strings with no URL anywhere.
+        gsub ( / [^ ]+$/ , "" )        # Strip end of msgstr or complete msgstr if no URL.
+        gsub ( /msg(id|str)/ , " &" )  # Mark beginning of msg(id|str).
+        gsub ( / [^ ]+\n / , "\n " )   # Strip end of msgid or complete msgid if no URL.
+        gsub ( /^F\n / , "" )
+        gsub ( / [^ ]+href="/ , " " )  # Strip beginning of msg* & between URLs.
+        sub  ( / / , "*" , $1 ) ; sub ( / / , "*" , $2 )
+        gsub ( / / , "\n\t\t" , $1 ) ; gsub ( / / , "\n\t\t" , $2 )
+        sub  ( /*/ , "\t" , $1 ) ; gsub ( /*/ , "\t" , $2 )
+        print FNR-1 , $1 > "href-id"; print FNR-1 , $2 > "href-str"
+      }
+    }
+    END {
+      print "\n=================================================\n" > "href-id"
+      print "\n" > "href-str"
+    }' $(<list)
+}
 
-f_tmp=$(mktemp -t cklk.XXXXXX)       || exit 1
-href_msgstr=$(mktemp -t cklk.XXXXXX) || exit 1
-href_msgid=$(mktemp -t cklk.XXXXXX)  || exit 1
-trap 'rm -f "$f_tmp" "$href_msgstr" "$href_msgid"' EXIT
+#====================
+echo "${0##*\/} - compare links in translated and original strings of POs"
 
-cd $teamdir
+## Input
 
-echo "==============================" > ../href.diff
-for f in $(find * -name \*.fr.po | sort); do
-  if [[ ! "$f" =~ 'planetfeeds' ]] \
-  && [[ ! "$f" =~ "compendia/" ]] \
-  && [[ ! "$f" =~ "sitemap" ]] \
-  && [[ ! "$f" =~ "head-include-2" ]] \
-  && [[ ! "$f" =~ "philosophy-menu" ]] \
-  && [[ ! "$f" =~ "education-menu" ]] \
-  && [[ ! "$f" =~ "body-include" ]] \
-  && [[ ! "$f" =~ "footer-text" ]] \
-  && [[ ! "$f" =~ "bottom-notes" ]] \
-  && [[ ! "$f" =~ "outdated" ]] \
-  && [[ ! "$f" =~ "top-addendum" ]]; then
-    echo $f >> ../href.diff
-    awk '!/^#/
-      $1=$1 {ORS=" "}' $f |
-    sed -e 's," ",,g' \
-        -e 's,msg,\nmsg,g' > $f_tmp
-    grep '^msgstr.*href=' $f_tmp |
-    sed -e 's,href= \\",href=\\",g' \
-        -e 's,href=,href=\n,g' |
-    sed -e 's,\\"\([^\\]*\).*,\1,' \
-        -e 's,&quot;\([^&]*\).*,\1,' |
-    awk '!/msgstr/ \
-      && !/#TransNote/ \
-      && !/#sommaire/ \
-      && !/#t[0-9]{4}/ \
-      && !/-rev$/ \
-      && !/#tm$/ \
-      && !/#TOC$/' > $href_msgstr
-    grep '^msgid.*href=' $f_tmp |
-    sed -e 's,href= \\",href=\\",g' \
-        -e 's,href=,href=\n,g' |
-    sed -e 's,\\"\([^\\]*\).*,\1,' \
-        -e 's,&quot;\([^&]*\).*,\1,' |
-    awk '!/msgid/ \
-      && !/-rev$/' > $href_msgid
-    diff -U2 -I 'mailto:web-translators' \
-             -I 'mailto:trad-gnu&#64;april.org' \
-             -I 'mailto:trad-gnu@april.org' \
-             -I 'http://creativecommons.org/licenses' \
-             -I 'https://creativecommons.org/licenses' \
-             -I '/server/standards/README.translations.html' \
-    $href_msgid $href_msgstr >> ../href.diff || true
-    echo "==============================" >> ../href.diff
+# Single PO
+po=$1
+po=${po#\'}; po=${po%\'}
+if  test -s "$po" -a  "${po%.po}" != "$po"; then
+  echo $po > list
+
+# or whole directory
+else
+  if test -z "$lang"; then
+    echo "*** Please enter a language code, or hit Enter to quit."
+    read lang
+    test -z "$lang" && exit 0
   fi
-done
 
-less ../href.diff
+  # List POs for the specified language in the working directory,
+  # skipping includes and sitemap.
+  find * -name "*.$lang.po" | sort |
+  awk '{ if (!/planetfeeds/      && !/compendia/  && !/sitemap/      &&
+             !/-include-(1|2)\./ && !/-menu\./    && !/footer-text/  &&
+             !/bottom-notes/     && !/outdated\./ && !/top-addendum/ &&
+             !/fs-gang/)
+         { print }
+       }' > list
+fi
+
+
+## Isolate and compare links.
+
+if test -s list; then
+  isolate_links
+  diff -U1 href-id href-str > href.diff || true
+  if test $(which "$geditor"); then
+    $geditor href.diff &
+  else
+    echo -e "\n*** The diff file is href.diff."
+  fi
+else
+  echo 1>&2 "!!! No PO to work on."
+  sleep 5
+  exit 1
+fi
+
+rm -f list href-id href-str
 exit 0
