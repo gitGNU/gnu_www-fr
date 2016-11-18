@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-surveillance.html\n"
-"POT-Creation-Date: 2016-10-24 18:25+0000\n"
-"PO-Revision-Date: 2016-10-24 21:09+0200\n"
+"POT-Creation-Date: 2016-11-18 05:55+0000\n"
+"PO-Revision-Date: 2016-11-19 00:23+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -210,6 +210,57 @@ msgstr ""
 "aussi du matériel. En outre, elle s'est propagée de façon spectaculaire du "
 "clavier d'ordinateur à l'informatique mobile, au bureau, à la maison, aux "
 "systèmes de transport et à l'école."
+
+#. type: Content of: <h3>
+msgid "Aggregate Information Collection"
+msgstr "Agrégation de données"
+
+#. type: Content of: <p>
+msgid ""
+"Many companies, in their privacy policy, have a clause that claims they "
+"share aggregate, non-personally identifiable information with third parties/"
+"partners. Such claims are worthless, for several reasons:"
+msgstr ""
+"Beaucoup d'entreprises ont des clauses de confidentialité où elles "
+"prétendent partager avec des tiers des informations sans caractère "
+"personnel. Ces prétentions sont sans valeur, pour plusieurs raisons :"
+
+#. type: Content of: <ul><li>
+msgid "They could change the policy at any time."
+msgstr "Elles peuvent changer de politique n'importe quand."
+
+#. type: Content of: <ul><li>
+msgid ""
+"They can twist the words by distributing an &ldquo;aggregate&rdquo; of "
+"&ldquo;anonymized&rdquo; data which can be reidentified and attributed to "
+"individuals."
+msgstr ""
+"Elles peuvent jouer sur les mots et distribuer un « agrégat » de données "
+"« anonymisées » pouvant être identifiées de nouveau et attribuées "
+"individuellement à des personnes."
+
+#. type: Content of: <ul><li>
+msgid ""
+"The raw data they don't normally distribute can be taken by data breaches."
+msgstr ""
+"Les données brutes qu'elles ne distribuent pas normalement peuvent être "
+"dérobées par effraction de la banque de donnée."
+
+#. type: Content of: <ul><li>
+msgid "The raw data they don't normally distribute can be taken by subpoena."
+msgstr ""
+"Les données brutes qu'ils ne distribuent pas normalement peuvent être "
+"exigées par un tribunal, sur injonction."
+
+#. type: Content of: <p>
+msgid ""
+"Therefore, we must never pay any attention to what companies say they will "
+"<em>do</em> with the data they collect. The wrong is that they collect it at "
+"all."
+msgstr ""
+"Par conséquent, nous ne devons jamais prêter la moindre attention à ce que "
+"ces entreprises disent qu'elles vont <em>faire</em> avec les données "
+"qu'elles recueillent. Leur tort principal est de les recueillir."
 
 #. type: Content of: <h3>
 msgid "Latest additions"
@@ -1122,6 +1173,18 @@ msgid ""
 msgstr ""
 "<span class=\"anchor-reference-id\">(<a href=\"#SpywareInGames"
 "\">#SpywareInGames</a>)</span>"
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"nVidia's proprietary GeForce Experience <a href=\"http://www.gamersnexus.net/"
+"industry/2672-geforce-experience-data-transfer-analysis\">makes users "
+"identify themselves and then sends personal data about them to nVidia "
+"servers</a>."
+msgstr ""
+"La carte graphique privatrice nVidia GeForce Experience <a href=\"http://www."
+"gamersnexus.net/industry/2672-geforce-experience-data-transfer-analysis"
+"\">oblige les utilisateurs à s'identifier, puis envoie leurs données "
+"personnelles aux serveurs de nVidia</a>."
 
 #. type: Content of: <ul><li><p>
 msgid ""
