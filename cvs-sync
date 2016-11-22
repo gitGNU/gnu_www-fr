@@ -4,7 +4,7 @@
 #    cvs-sync - synchronization of the POs and status report
 
 # SYNOPSIS
-#    cvs-sync [-a TEAM@ADDRESS] -t /.../www-TEAM
+#    cvs-sync [OPTIONS] -t /.../www-TEAM
 
 # DEPENDENCIES
 #    * required: cvs, msgmerge (from the gettext package);
@@ -62,7 +62,7 @@ EOF
 function usage () {
 cat <<EOF
 
-Usage: cvs-sync [-a TEAM@ADDRESS] -t /.../www-TEAM
+Usage: cvs-sync [OPTIONS] -t /.../www-TEAM
 
   The script assumes the context of www.gnu.org. It synchronizes the
   local reference directory (www) with the CVS repository, and the
@@ -71,13 +71,16 @@ Usage: cvs-sync [-a TEAM@ADDRESS] -t /.../www-TEAM
   the local modifications must be made in www-team.
 
 Options:
+  -t .../www-TEAM       [$teamdir]
+      Specify the path to www-team (required if not in configuration)
 
-  -t /.../www-TEAM      [$teamdir]
-      Specify the absolute path to www-team (required)
   -g GUI_EDITOR         [$geditor]
       Specify a GUI or PO editor. If none, POs are not displayed.
+
   -a TEAM@ADDRESS       [$address]
       Specify the address of the team mailing list (optional)
+      The email will be sent with mutt.
+
   -V  Display version info and exit.
   -h  Display this help and exit.
 
@@ -89,15 +92,6 @@ Report bugs to <godef.th@free.fr>
 
 EOF
 }
-
-function close_term () {
-  sleep 10
-  exit $1
-}
-
-
-echo "${0##*\/} - synchronization and status report"
-
 
 ## Parameters
 
@@ -123,43 +117,34 @@ done
 shift $((OPTIND-1))
 [ "$1" = "--" ] && shift
 
-# Test for the existence of www and www-team.
-if test ! -d "$teamdir"; then
-  echo -e "\n*** Please specify your working directory (www-team)."; read teamdir
-  teamdir=${teamdir%\'}; teamdir=${teamdir#\'}
-fi
-cd $teamdir \
-|| (echo 1>&2 "!!! Directory $teamdir doesn't exist."; close_term 1)
-
-wwwdir=${teamdir%\/*}/www   # Path to www
-cd $wwwdir 2> /dev/null \
-|| (echo 1>&2 "!!! Directory www doesn't exist."; close_term 1)
-
-
-## Update www.
-
-cvs update
-cd $teamdir
-
-## For those who use Git...
-
-if test -d ".git"; then
-  # Find out the current branch.
-  curr_branch=$(git rev-parse --abbrev-ref HEAD)
-  if [ "$curr_branch" != 'master' ]; then
-    echo -e "\n!!! Please move to branch master."
-    close_term 1
-  fi
-fi
+# Make sure the dependencies are installed (.
+MSGMERGE=$(which msgmerge) \
+|| (echo "!!! msgmerge is not installed."; close_term 1)
+MSGATTRIB=$(which msgattrib) \
+|| (echo "!!! msgattrib is not installed."; close_term 1)
+FUZZY_DIFF=$(which gnun-add-fuzzy-diff) \
+|| echo "*** No diff will be added to the fuzzy strings because
+    gnun-add-fuzzy-diff is not installed."
+MUTT=$(which mutt) \
+|| echo "*** No email will be sent because mutt is not installed."
 
 
-## Sync www-team with www and report outdated and new (or misplaced) POs.
+## Functions
+
+function close_term () {
+  sleep 10
+  exit $1
+}
 
 function check_fuzz () {
-  # Check for fuzzy strings.
-  fuzzy=$(grep -c '^#, fuzzy' $1) || true
+  # Check for non-deprecated fuzzy strings.
+  fuzzy=$(grep -A1 '^#, fuzzy' "$1" |
+          sed '/fuzzy/ {N; s,\n,,'} |
+          sed -e '/^#, fuzzy#~/d' |
+          grep -c '^#, fuzzy')
+
   # Check for untranslated strings.
-  untr=$(sed -n '/^msgstr ""[[:space:]]*$/ {N;/\n[[:space:]]*$/p}' $1 \
+  untr=$(sed -n '/^msgstr ""[[:space:]]*$/ {N;/\n[[:space:]]*$/p}' "$1" \
        | grep -c msgstr) || true
   if test "$fuzzy" != "0" -o "$untr" != "0"; then
     return 3
@@ -168,25 +153,65 @@ function check_fuzz () {
   fi
 }
 
-MSGMERGE=$(which msgmerge) \
-|| (echo "!!! msgmerge is not installed."; close_term 1)
-MSGATTRIB=$(which msgattrib) \
-|| (echo "!!! msgattrib is not installed."; close_term 1)
-FUZZY_DIFF=$(which gnun-add-fuzzy-diff) \
-|| echo "*** No diff will be added to the fuzzy strings because
-    gnun-add-fuzzy-diff is not installed."
+#====================
+echo "${0##*\/} - synchronization and status report"
 
-po_list=$(mktemp -t syn.XXXXXX)  || exit 1
-po_www=$(mktemp -t syn.XXXXXX)   || exit 1
-po_team1=$(mktemp -t syn.XXXXXX) || exit 1
+## Team directory input
+
+if test ! -d "$teamdir"; then
+  echo -e "\n*** Please specify your team directory."; read teamdir
+fi
+teamdir=${teamdir%\'}; teamdir=${teamdir#\'}
+# Make sure it can be reached.
+cd "$teamdir" \
+|| (echo 1>&2 "!!! Directory $teamdir doesn't exist."; close_term 1)
+# If a relative path has been entered, make it absolute.
+test "${teamdir#/}" != "$teamdir" || teamdir="$(pwd)"/$teamdir
+
+
+## Update www.
+
+# Get the path to www;
+wwwdir=${teamdir%\/www-*}/www
+# make sure it can be reached,
+cd "$wwwdir" 2>/dev/null \
+|| (echo 1>&2 "!!! $wwwdir doesn't exist or is not reachable.";
+    close_term 1)
+# and is a CVS work tree.
+ls CVS 2>/dev/null \
+|| (echo 1>&2 "!!! $wwwdir is not a CVS directory."; close_term 1)
+
+cvs update
+
+
+## Sync www-team with www and report outdated and new (or misplaced) POs.
+
+cd "$teamdir"
+
+# For those who use Git...
+if test -d ".git"; then
+  # Find the current branch.
+  curr_branch=$(git rev-parse --abbrev-ref HEAD)
+  if [ "$curr_branch" != 'master' ]; then
+    echo -e "\n!!! Please move to branch master."
+    close_term 1
+  fi
+fi
+
+# Create temporary files.
+po_list=$(mktemp -t syn.XXXXXX)  || close_term 1
+po_www=$(mktemp -t syn.XXXXXX)   || close_term 1
+po_team1=$(mktemp -t syn.XXXXXX) || close_term 1
 trap 'rm -f "$po_list" "$po_www" "$po_team1"' EXIT
 
-echo ""
+# List the POs.
 find . -name "*.po" | sort | sed '/server\/gnun\//d' > $po_list
 
-# Make sure the update list doesn't exist.
+# Delete the output of the previous run.
 rm -f ../update-report ../update-list
 
+# Build the report.
+echo
 while read po_team; do
   diff_test=0
   fuzz_test_www=0
@@ -200,16 +225,16 @@ while read po_team; do
   # trivial differences and diff the 2 versions of the PO.
   if test -s "../www/$section/po/$basename"; then
     sed 's,charset=UTF-8\\n"$,charset=utf-8\\n",' \
-      $wwwdir/$section/po/$basename > $po_www
-    sed 's,charset=UTF-8\\n"$,charset=utf-8\\n",' $po_team > $po_team1
-    diff -uB $po_www $po_team1 > /dev/null 2>&1 || diff_test=$?
+      "$wwwdir/$section/po/$basename" > "$po_www"
+    sed 's,charset=UTF-8\\n"$,charset=utf-8\\n",' "$po_team" > "$po_team1"
+    diff -uB "$po_www" "$po_team1" > /dev/null 2>&1 || diff_test=$?
 
     case $diff_test in
       # There is a difference: merge non-obsolete strings and add the wdiff
       # between old and new msgids.
-      1 ) $MSGATTRIB --no-obsolete $wwwdir/$section/po/$basename > $po_www
-          $MSGMERGE -U -q --previous $po_team $po_www
-          test -n $FUZZY_DIFF && $FUZZY_DIFF -i $po_team
+      1 ) $MSGATTRIB --no-obsolete "$wwwdir/$section/po/$basename" > "$po_www"
+          $MSGMERGE -U -q --previous "$po_team" "$po_www"
+          test -n $FUZZY_DIFF && $FUZZY_DIFF -i "$po_team"
     ;;
       # There is no difference: do nothing.
       0 )
@@ -219,15 +244,15 @@ while read po_team; do
     esac
 
     # Test for fuzz in www and www-team.
-    check_fuzz $po_www  || fuzz_test_www=$?
-    check_fuzz $po_team || fuzz_test_team=$?
+    check_fuzz "$po_www"  || fuzz_test_www=$?
+    check_fuzz "$po_team" || fuzz_test_team=$?
 
     case $fuzz_test_team in
       3 ) echo "$po : $fuzzy fuzzy and $untr untranslated."
           # This could be localized.
           echo "$po : $fuzzy fuzzy and $untr untranslated messages." \
             >> ../update-report
-          git add $po
+          git add "$po"
     ;;
       # No fuzz in www-team
       4 ) case $fuzz_test_www in
@@ -249,28 +274,37 @@ while read po_team; do
   fi
 done < $po_list
 
+
+## Make a list of outdated POs and use it.
+
 if [ -f ../update-report ]; then
   sed -e 's,^\./,,' -e 's, .*,,' ../update-report > ../update-list
+
   # Display the POs if a GUI editor has been set.
   if test $(which "$geditor"); then
     $geditor $(< ../update-list) &
   else
-    echo "*** No valid editor has been specified."
+    echo -e "\n*** No valid editor has been specified."
   fi
-  # Decide whether to send the report to the mailing list and commit the
-  # outdated POs, or update the POs right away.
-  echo -e "\n*** Commit the list?
+
+  # Optionally send the list of outdated POs to the team,
+  if "$MUTT" && [[ "$address" == *@* ]] && [ -n "$subject" ]; then
+    echo -e "\n*** Send the report to the mailing list and commit the POs?
           \"Yes\" = [Enter]    \"No\" = any other key\n"
-  read -s -n1 OK
-  if test -z "$OK"; then
-    if [[ "$address" == *@* ]] && [ -n "$subject" ]; then
-      mutt -s "[cvs-sync] $subject" \
-           -i ../update-report -- $address < "."
+    read -s -n1 OK
+    if test -z "$OK";  then
+      $MUTT -s "[cvs-sync] $subject" -i ../update-report -- $address < "."
     fi
-    git commit -m "$subject" $(< ../update-list) || close_term $?
-  else
-    echo "    No commit."
+
+    # and commit the POs if www-team is a git repo.
+    if test -d ".git"; then
+      git add $(< ../update-list)
+      git commit -m "$subject" $(< ../update-list)
+    fi
   fi
+else
+  echo "*** No outdated PO."
 fi
+echo -e "\n*** Done.\n"
 
 close_term 0

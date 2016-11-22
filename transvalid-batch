@@ -4,7 +4,7 @@
 #    transvalid-batch - batch transvalidation of PO files from www.gnu.org
 
 # SYNOPSIS
-#    transvalid-batch -t /.../www-TEAM [OPTIONS]
+#    transvalid-batch [OPTIONS]
 
 # DEPENDENCIES
 #    * Required: transvalid-po in the same directory as transvalid-batch,
@@ -12,24 +12,23 @@
 
 # DESCRIPTION
 #    transvalid-batch calls transvalid-po for a list of modified PO files,
-#    created either manually or with tools provided by Git or CVS.
+#    created either manually or with tools provided by Git or CVS (other VCS's
+#    could be added as needed). If the team directory (www-team) exists, it is
+#    better to modify and validate the POs there, but validation can also be
+#    done in www because it doesn't change any CVS-tracked files. 
 #
 #    Requirements:
-#    * Images of www and www-team exist locally and they have the same parent
-#      directory.
-#    * The POs are updated in www-team; the corresponding originals are in www
-#      (www doesn't need to contain anything else).
-#    * www is synchronized with the CVS repository.
-#    * if www-team is under Git control, the changes must be staged for commit
+#    * www-team must have the same parent as www; it can be www itself.
+#    * Its name must be www* (normally www-$lang).
+#    * If www-team is under Git control, the changes must be staged for commit
 #      on branch master.
 #
 #    Functions:
-#    * The script lists the files that have been modified locally in www-team;
-#      depending on the workflow, this is done using Git or CVS tools;
-#      the list can be amended by hand.
-#    * Each item of the list is transvalidated.
+#    * The script lists the POs that have been modified locally; the list can
+#      be amended by hand.
+#    * Each item is transvalidated.
 #    * If www-team is under Git control, there is an option to commit the
-#      batch of POs if they are all valid.
+#      batch of POs provided they are all valid.
 
 # OPTIONS AND CURRENT SETTINGS
 #    Displayed by:   transvalid-batch -h
@@ -60,11 +59,12 @@ EOF
 function usage () {
 cat <<EOF
 
-Usage: ${0##*\/} -t /.../www-TEAM [OPTIONS]
+Usage: ${0##*\/} [OPTIONS]
 
   The script assumes the context of www.gnu.org. It helps create a list of
   modified POs. Then, for each item of the list, it calls transvalidate-po
   to generate the translated page and validate both the HTML and the PO.
+  NOTE: the team directory can be www itself.
 
 Options and current settings:
 
@@ -74,8 +74,9 @@ Options and current settings:
   -m 'COMMIT MESSAGE'        [$message]
       Specify a commit message (optional, only applies to Git)
 
-  -t /.../www-TEAM           [$teamdir]
-      Specify the absolute path to the team directory (required)
+  -t .../TEAM_DIRECTORY      [$teamdir]
+      Specify the team directory. If not, the current directory is where
+      the POs are assumed to be.
 
   -V  Display version info and exit
   -h  Display this help and exit
@@ -87,13 +88,6 @@ Options and current settings:
 Report bugs to <godef.th@free.fr>
 EOF
 }
-
-function close_term () {
-  sleep 10
-  exit $1
-}
-
-echo -e "${0##*\/} - generate HTML from a list of POs and validate"
 
 ## Parameters
 
@@ -118,16 +112,10 @@ done
 shift $((OPTIND-1))
 [ "$1" = "--" ] && shift
 
-# Ask for required values if they are no set.
-if test ! -d "$teamdir"; then
-  echo -e "\n*** Please specify your working directory."; read teamdir
-  teamdir=${teamdir%\'}; teamdir=${teamdir#\'}
-fi
-cd $teamdir \
-|| (echo 1>&2 "!!! Directory $teamdir doesn't exist."; close_term 1)
-
 # If "editor" isn't set yet, try to guess it.
-if [ -f /usr/bin/editor ]; then
+if [ -n "$editor" ]; then
+  editor=$editor
+elif  [ -f /usr/bin/editor ]; then
   editor=/usr/bin/editor
 elif [ -n "$EDITOR" ] && [ -f "$EDITOR" ]; then
   editor=$EDITOR
@@ -138,19 +126,16 @@ fi
 
 ## Functions
 
+function close_term () {
+  sleep 10
+  exit $1
+}
+
 function create_valid_list () {
 # creates a list of transvalidation candidates and displays it for edition.
-# FIXME: The best method depends on the team's workflow.
-
-  # If www-team is a CVS directory, use cvs diff.
-  if [ -d CVS ]; then
-    cvs -nq diff |
-    grep "RCS file:" |
-    sed -e "s;^RCS file: /webcvs/www/www-$lang/;;" \
-        -e 's;,v$;;' > $valid_list
-
+  echo $teamdir
   # If www-team is a Git repository, use git diff.
-  elif [ -d .git ]; then
+  if [ -d .git ]; then
     # What follows is for fuzzy heads who launch a script from the dashboard
     # without checking which branch they are on.
     # http://makandracards.com/makandra/12107-git-show-current-branch-name-only
@@ -161,6 +146,15 @@ function create_valid_list () {
       echo -e "\n!!! Please move to branch master."
       close_term 1
     fi
+
+  # If www-team is a CVS work tree, use cvs diff.
+  elif [ -d CVS ]; then
+    cvs -nq diff |
+    grep "RCS file:.*\.po,v" |
+    sed -e 's%RCS file: /webcvs/www/www/%%' \
+        -e "s%RCS file: /webcvs/www/www-$lang/%%" \
+        -e 's%,v$%%' > $valid_list || true
+
   else
     echo 1>&2 "!!! Unable to create a validation list."
     close_term 1
@@ -175,7 +169,7 @@ function create_valid_list () {
   read -s -n1 choice
   case "$choice" in
     "") ;;
-    "e") $editor $valid_list ;;
+    "e") "$editor" $valid_list ;;
     *) echo -e "\n    Bye"; close_term 0 ;;
   esac
 }
@@ -185,7 +179,7 @@ function select_message () {
   echo -e "    Please select a commit message:
     [1]         : \"$message1\"
     [2]         : \"$message2\"
-    [3]         : \"$message5\"
+    [3]         : \"$message3\"
     [4]         : \"$message4\"
     [5]         : \"$message5\"
     [other key] :  no commit"
@@ -200,35 +194,59 @@ function select_message () {
   esac
 }
 
-## Main
+#====================
+echo -e "${0##*\/} - generate HTML from a list of POs and validate"
 
-valid_list=$(mktemp -t tvb.XXXXXX) || close_term '1'
-trap "rm -f $valid_list" EXIT
+
+## Input
+
+teamdir=${teamdir%\'}; teamdir=${teamdir#\'}
+
+# Make sure the directory is reachable
+if cd "$teamdir" 2> /dev/null; then
+  # (if a relative path has been entered, make it absolute).
+  test "${teamdir#/}" != "$teamdir" || teamdir="$(pwd)"/$teamdir
+
+# Otherwise, assume the current directory contains the POs to be
+# transvalidated.
+else
+  echo "*** No valid directory has been specified.
+    Staying in the current directory."
+  teamdir="$(pwd)"
+fi
+
+## Make the validation list
+
+valid_list=$(mktemp -t tvb.XXXXXX) || close_term 1
+trap 'rm -f "$valid_list"' EXIT
 
 batch_exit_code=0
-
 create_valid_list
+
+## Transvalidate the POs
+
 if [ ! -s "$valid_list" ]; then
   echo -e  1>&2 "\n!!! There is no PO to work on.
     If you use Git, please make sure your changes are staged.\n"
   close_term 1
 else
   while read po; do
-    transvalid-po $teamdir/$po \
-    || batch_exit_code=$?
-  done < $valid_list
+    transvalid-po "$teamdir/$po" || batch_exit_code=$?
+  done < "$valid_list"
+
+## Evaluate the result
 
   if [ "$batch_exit_code" = "0" ]; then
     echo -e "\n*** The POs are OK."
     # [Git only] Commit the POs to the local repo.
     if [ -d .git ]; then
-      git add .
+      git add $(< $valid_list)
       if [ "$(git diff --name-only --staged)" ]; then
         [ -z "$message" ] && select_message
         if [ -z "$message" ]; then
           echo -e "    The POs are ready to commit."
         else
-          git commit -m "$message" $(< ../valid-list)
+          git commit -m "$message" $(< $valid_list)
           echo -e "    The changes have been committed."
         fi
       fi
