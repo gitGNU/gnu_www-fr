@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
-"POT-Creation-Date: 2016-11-17 09:56+0000\n"
+"POT-Creation-Date: 2016-11-24 21:26+0000\n"
 "PO-Revision-Date: 2016-11-19 00:09+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -4810,12 +4810,10 @@ msgstr ""
 "l'envoi de messages de type <cite>digest</cite>, et plus encore.  <small>(<a "
 "href=\"/manual/manual.html#mailman\">doc</a>)</small>"
 
-#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/mailutils/\">Mailutils</a>"
 msgstr "<a href=\"/software/mailutils/\">Mailutils</a>"
 
-#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Mailutils is a collection of programs for managing, viewing and "
@@ -6963,10 +6961,12 @@ msgstr ""
 "options. C'est une alternative à la commande shell <tt>type</tt>.  <small>"
 "(<a href=\"/manual/manual.html#which\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/xaos/\">XaoS</a>"
 msgstr "<a href=\"/software/xaos/\">XaoS</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU XaoS is a graphical program that generates fractal patterns and allows "
