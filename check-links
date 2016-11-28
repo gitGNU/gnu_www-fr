@@ -4,9 +4,14 @@
 #    check-links - compare links in translated and original strings of POs
 
 # SYNOPSIS
-#       check-links PO_FILE [-g GUI_EDITOR]
+#       check-links [OPTIONS] PO_FILE
 #       or
-#       check-links -l LANG [-g GUI_EDITOR]
+#       check-links [OPTIONS] .../www-TEAM
+#       or
+#       check-links [OPTIONS] -l LANG [.../DIRECTORY]
+
+# DEPENDENCY
+#    * optional: meld.
 
 # DESCRIPTION
 #    check-links processes either one PO, or all the POs is the working
@@ -24,7 +29,8 @@
 #        *-rev, etc. (this can be commented out);
 #      - save the link collections for msgid and msgstr separately, along
 #        with string numbers and fuzzy tags.
-#    * make a diff and display it.
+#    * make a diff and optionally display it, or look at the differences with
+#      Meld.
 
 # OPTIONS AND CURRENT SETTINGS
 #    Displayed by:   check-links -h
@@ -55,14 +61,22 @@ EOF
 
 function usage () {
 cat <<EOF
+${0##*\/} - compare links in translated and original strings of POs
 
-Usage: check-links PO_FILE [-g GUI_EDITOR]
+Usage: check-links [OPTIONS] PO_FILE
        or
-       check-links -l LANG [-g GUI_EDITOR]
+       check-links [OPTIONS] .../www-TEAM
+       or
+       check-links [OPTIONS] -l LANG [.../DIRECTORY]
 
-  The script processes either one PO, or all the POs is the working directory.
-  It selects all the links (including anchors and email addresses), and shows
-  differences between the original document and its translation.
+  The script processes either one PO, or all the POs in the specified
+  directory (or in the current one if none has been entered). If this is a
+  standard www-team, its language overrides whatever language has been
+  defined otherwise.
+  All the links are selected (including anchors and email addresses), and
+  differences between the original document and its translation are shown,
+  both as a standard diff (optionally displayed in a GUI editor), and with
+  Meld (if installed).
 
 Options:
   -l LANG               [$lang]
@@ -70,6 +84,8 @@ Options:
 
   -g GUI_EDITOR         [$geditor]
       Specify a GUI editor, preferably with syntax highlighting (optional).
+
+  -v  Show differences in the GUI editor.
 
   -V  Display version info and exit
   -h  Display this help and exit
@@ -90,22 +106,29 @@ EOF
 conf="$HOME/.profile"
 geditor=""
 lang=""
+visual=""
 
 test -s "$conf" && source $conf
 
 # Parse the command line.
 OPTIND=1
-while getopts "h?Vl:g:" opt; do
+while getopts "h?Vl:g:v" opt; do
   case "$opt" in
      h | \? ) usage; exit 0 ;;
      V ) version; exit 0 ;;
      l ) lang=$OPTARG ;;
-     g ) editor=$OPTARG ;;
+     g ) geditor=$OPTARG ;;
+     v ) visual=1 ;;
   esac
 done
 shift $((OPTIND-1))
 [ "$1" = "--" ] && shift
 
+
+function close_term () {
+  sleep 10
+  exit $1
+}
 
 function isolate_links () {
   awk '
@@ -123,28 +146,30 @@ function isolate_links () {
       if ( FNR == 1 )
       {
         print "\n=================================================\n" > "href-id"
-        print "\n""*** " FILENAME \
-              "\n-------------------------------------------------\n" > "href-str"
+        print "\n""*** " FILENAME "\n" > "href-str"
       }
-      if ( !/^#/ &&
+      if ( /href="/ &&
+           !/^#/ &&
            !/GNUN-SLOT:/ &&
            !/msgid"Pleaseseethe<ahref="\/server\/standards\/README/ &&
            !/msgid"Thispageislicensed.*\/licenses\/by-nd\/3.0\/us/  &&
            !/msgid"Thispageislicensed.*\/licenses\/by-nd\/4.0\// )
       {
-        gsub ( /href="#TransNote[^"]+"/ , "" )  # ) 
+        gsub ( /href="#TransNote[^"]+"/ , "" )  # )
         gsub ( /href="[^"]+-rev"/ , "" )        # )
         gsub ( /href="#TOC[^"]*"/ , "" )        # ) Remove
         gsub ( /href="#tm"/ , "" )              # ) translation-specific
         gsub ( /href="#t[0-9]{4}"/ , "" )       # ) anchors.
         gsub ( /href="#sommaire"/ , "" )        # )
+        gsub ( /href="#tfn?[0-9]+"/ , "" )      # )
+        gsub ( /href="#ft[0-9]+"/ , "" )        # )
         gsub ( /href="[^"]*/ , "& " )  # Mark the ends of URLs.
         gsub ( /^[^ ]+$/ , "" )        # Remove strings with no URL anywhere.
         gsub ( / [^ ]+$/ , "" )        # Strip end of msgstr or complete msgstr if no URL.
         gsub ( /msg(id|str)/ , " &" )  # Mark beginning of msg(id|str).
-        gsub ( / [^ ]+\n / , "\n " )   # Strip end of msgid or complete msgid if no URL.
         gsub ( /^F\n / , "" )
         gsub ( / [^ ]+href="/ , " " )  # Strip beginning of msg* & between URLs.
+        gsub ( / [^ ]+\n / , "\n " )   # Strip end of msgid or complete msgid if no URL.
         sub  ( / / , "*" , $1 ) ; sub ( / / , "*" , $2 )
         gsub ( / / , "\n\t\t" , $1 ) ; gsub ( / / , "\n\t\t" , $2 )
         sub  ( /*/ , "\t" , $1 ) ; gsub ( /*/ , "\t" , $2 )
@@ -158,23 +183,38 @@ function isolate_links () {
 }
 
 #====================
-echo "${0##*\/} - compare links in translated and original strings of POs"
 
 ## Input
 
 # Single PO
-po=$1
-po=${po#\'}; po=${po%\'}
-if  test -s "$po" -a  "${po%.po}" != "$po"; then
-  echo $po > list
+input=$1
+input=${input#\'}; po=${input%\'}
+echo "Check links in $input"
+if [ -f "$input" ] && [ -s "$input" ] && [ "${input%.po}" != "$input" ]; then
+  echo $input > list
+  output="$input-href.diff"
 
-# or whole directory
+# or whole directory.
 else
+  # If a directory has been entered, try to work there.
+  if test -d "$input"; then
+    cd "$input" 2>/dev/null \
+    || (echo "*** Unable to move to the specified directory."; close_term 1)
+  fi
+
+  # Assume this is a standard team directory; try to guess the language code.
+  dir="$(pwd)"
+  if [ "${dir##*/www-}" != "$dir" ]; then
+    lang=${dir##*/www-}
+    lang=${lang%%/*}
+  fi
+
   if test -z "$lang"; then
     echo "*** Please enter a language code, or hit Enter to quit."
     read lang
     test -z "$lang" && exit 0
   fi
+  output=href-$lang.diff
 
   # List POs for the specified language in the working directory,
   # skipping includes and sitemap.
@@ -187,21 +227,29 @@ else
        }' > list
 fi
 
-
 ## Isolate and compare links.
 
 if test -s list; then
   isolate_links
-  diff -U1 href-id href-str > href.diff || true
-  if test $(which "$geditor"); then
-    $geditor href.diff &
+  diff -U1 href-id href-str > $output || true
+  # Make the output more compact.
+  sed -i -e '/^ $/d' -e 's,^+\*\*\*,***,' -e 's,^@@.*$,,' $output
+  sed -i -e '/^$/ {N; s,\n-===,====,}' -e 's,^-===,====,' $output
+
+  if [ -n $(which "$geditor") ] && [ "$visual" = 1 ]; then
+    $geditor $output &
   else
-    echo -e "\n*** The diff file is href.diff."
+    echo -e "\n*** The diff file is $output."
   fi
+
+  # Look at the diff with meld
+  if [ -n $(which meld) ] ; then
+    meld href-id href-str
+  fi
+
 else
   echo 1>&2 "!!! No PO to work on."
-  sleep 5
-  exit 1
+  close_term 1
 fi
 
 rm -f list href-id href-str

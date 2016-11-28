@@ -4,7 +4,7 @@
 #    transvalid-batch - batch transvalidation of PO files from www.gnu.org
 
 # SYNOPSIS
-#    transvalid-batch [OPTIONS]
+#    transvalid-batch [OPTIONS] .../TEAM_DIRECTORY
 
 # DEPENDENCIES
 #    * Required: transvalid-po in the same directory as transvalid-batch,
@@ -18,7 +18,7 @@
 #    done in www because it doesn't change any CVS-tracked files. 
 #
 #    Requirements:
-#    * www-team must have the same parent as www; it can be www itself.
+#    * www-team must have the same parent as www, or be www itself.
 #    * Its name must be www* (normally www-$lang).
 #    * If www-team is under Git control, the changes must be staged for commit
 #      on branch master.
@@ -59,7 +59,7 @@ EOF
 function usage () {
 cat <<EOF
 
-Usage: ${0##*\/} [OPTIONS]
+Usage: ${0##*\/} [OPTIONS] .../TEAM_DIRECTORY
 
   The script assumes the context of www.gnu.org. It helps create a list of
   modified POs. Then, for each item of the list, it calls transvalidate-po
@@ -69,17 +69,13 @@ Usage: ${0##*\/} [OPTIONS]
 Options and current settings:
 
   -e PREFERRED_EDITOR        [$editor]
-      Specify the command-line editor (optional)
+      Specify the command-line editor (optional).
 
   -m 'COMMIT MESSAGE'        [$message]
-      Specify a commit message (optional, only applies to Git)
+      Specify a commit message (optional, only applies to Git).
 
-  -t .../TEAM_DIRECTORY      [$teamdir]
-      Specify the team directory. If not, the current directory is where
-      the POs are assumed to be.
-
-  -V  Display version info and exit
-  -h  Display this help and exit
+  -V  Display version info and exit.
+  -h  Display this help and exit.
 
   The parameter values can be set in a configuration file:
        $conf
@@ -92,7 +88,6 @@ EOF
 ## Parameters
 
 conf="$HOME/.profile"
-scriptdir=${0%\/*}
 teamdir=""
 editor=""
 message=""
@@ -100,13 +95,12 @@ test -s "$conf" && source $conf
 
 # Parse the command line.
 OPTIND=1
-while getopts "h?Ve:m:t:" opt; do
+while getopts "h?Ve:m:" opt; do
   case "$opt" in
     h | \? ) usage; exit 0 ;;
     V ) version; exit 0 ;;
     e ) editor=$OPTARG ;;
     m ) message=$OPTARG ;;
-    t ) teamdir=$OPTARG ;;
   esac
 done
 shift $((OPTIND-1))
@@ -133,7 +127,7 @@ function close_term () {
 
 function create_valid_list () {
 # creates a list of transvalidation candidates and displays it for edition.
-  echo $teamdir
+
   # If www-team is a Git repository, use git diff.
   if [ -d .git ]; then
     # What follows is for fuzzy heads who launch a script from the dashboard
@@ -159,6 +153,9 @@ function create_valid_list () {
     echo 1>&2 "!!! Unable to create a validation list."
     close_term 1
   fi
+
+  # Remove head-include*.
+  sed -i '/head-include/d' $valid_list
 
   # Look at the list and edit it as needed.
   echo -e "\n*** Validation list:"
@@ -200,19 +197,19 @@ echo -e "${0##*\/} - generate HTML from a list of POs and validate"
 
 ## Input
 
+test -n "$1" && teamdir=$1
 teamdir=${teamdir%\'}; teamdir=${teamdir#\'}
 
-# Make sure the directory is reachable
-if cd "$teamdir" 2> /dev/null; then
-  # (if a relative path has been entered, make it absolute).
-  test "${teamdir#/}" != "$teamdir" || teamdir="$(pwd)"/$teamdir
-
-# Otherwise, assume the current directory contains the POs to be
-# transvalidated.
-else
-  echo "*** No valid directory has been specified.
-    Staying in the current directory."
-  teamdir="$(pwd)"
+# Make sure the directory is reachable,
+cd "$teamdir" 2> /dev/null || echo "*** Can't reach $teamdir;
+    staying in $(pwd)."
+# otherwise stay in the current dir. In any case, this makes the path absolute.
+teamdir="$(pwd)"
+# Make sure it's a likely www-team candidate.
+d="${teamdir##*/www}"
+if [ "$d" == "$teamdir" ] || [ "${d%/*}" != "$d" ]; then
+  echo "!!! $teamdir doesn't seem to qualify as a team directory."
+  close_term 1
 fi
 
 ## Make the validation list

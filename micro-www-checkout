@@ -4,7 +4,7 @@
 #    micro-www-checkout - create a minimized www directory for transvalid-batch
 
 # SYNOPSIS
-#    micro-www-checkout -t /.../www-TEAM [-l 'LANG1 [LANG2]...'] [-u CVS_LOGIN]
+#    micro-www-checkout -t .../www-TEAM [-l 'LANG1 [LANG2]...'] [-u CVS_LOGIN]
 #    or
 #    micro-www-checkout -l 'LANG1 [LANG2]...' [-u CVS_LOGIN]
 
@@ -44,7 +44,7 @@
 #       parameter1="value1"
 #       parameter2="value2"
 #    This configuration overrides the default settings but is superseded by the
-#    command line. The file ($conf) is specified under "Parameters".
+#    command line. The file ($conf) is defined under "Parameters".
 #    The files corresponding to the team specified in the profile will always
 #    be checked out, provided www-team exists locally.
 
@@ -66,7 +66,7 @@ function usage () {
 cat <<EOF
 
 Usage:
-  micro-www-checkout -t /.../www-TEAM [-l 'LANG1 [LANG2]...'] [-u CVS_LOGIN]
+  micro-www-checkout -t .../www-TEAM [-l 'LANG1 [LANG2]...'] [-u CVS_LOGIN]
   or  micro-www-checkout -l 'LANG1 [LANG2]...' [-u CVS_LOGIN]
 
   The script checks out the POs for a list of languages and the
@@ -76,17 +76,16 @@ Options and current settings:
 
   -l 'LANG1 LANG2...'        [$langs]
       Specify one or several space-separated language codes (one
-      code is required if no working directory is specified)
+      code is required if no working directory is specified).
 
   -u CVS_LOGIN               [$user]
-      Specify your login if you have write access to www (optional)
+      Specify your login if you have write access to www (optional).
 
-  -t /.../www-TEAM           [$teamdir]
-      Specify the absolute path to the team directory
-      (required if no language code is specified)
+  -t .../www-TEAM            [$teamdir]
+      Specify the team directory (required if no language code is given).
 
-  -V  Display version info and exit
-  -h  Display this help and exit
+  -V  Display version info and exit.
+  -h  Display this help and exit.
 
 The parameters can be specified in a configuration file:
       $conf
@@ -239,4 +238,4 @@ else
   echo  1>&2 "!!! There is no file in the checkout list." && close_term 1
 fi
 
-close_term 0
+exit 0

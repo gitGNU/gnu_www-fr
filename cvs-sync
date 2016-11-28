@@ -4,7 +4,7 @@
 #    cvs-sync - synchronization of the POs and status report
 
 # SYNOPSIS
-#    cvs-sync [OPTIONS] -t /.../www-TEAM
+#    cvs-sync [OPTIONS] .../www-TEAM
 
 # DEPENDENCIES
 #    * required: cvs, msgmerge (from the gettext package);
@@ -22,10 +22,17 @@
 #       untranslated strings, as well as the POs that have been modified or
 #       lack a counterpart in www (possibly indicating that they are new
 #       translations).
-#    4. If a GUI editor has been set, the outdated PO files are displayed (not
-#       recommended if there are too many of them).
-#    5. Optionally, the outdated POs are committed to the Git repo (but not
-#       pushed), and a notification is sent to a specified address.
+#    4. If any POs are present in www but not in www-team, they are installed
+#       in www-team.
+#    5. If the "-v" switch is used and a GUI or PO editor has been specified,
+#       the outdated PO files are displayed (not recommended if there are too
+#       many of them).
+#    6. [Git repo only] After the report, and optionally the POs, have been
+#       displayed, the user is prompted to send the list of outdated POs to a
+#       specified address and commit them to the Git repo. This requires
+#       setting the email address and subject line. The message is sent with
+#       Mutt. [This could be extended to CVS repos, but the commits would be
+#       irreversible.]
 #
 #    Requirements:
 #    * www and www-team must have the same parent directory.
@@ -43,7 +50,10 @@
 #       parameter1="value1"
 #       parameter2="value2"
 #    This configuration overrides the default settings but is superseded by the
-#    command line. The file ($conf) is specified under "Parameters".
+#    command line. In particular, a PO editor (e.g. gtranslator) can be
+#    set with the "-g" option if the configuration specifies a normal GUI
+#    editor (e.g. gedit).
+#    The configuration file is defined under "Parameters".
 
 #==============================================================================
 
@@ -62,7 +72,7 @@ EOF
 function usage () {
 cat <<EOF
 
-Usage: cvs-sync [OPTIONS] -t /.../www-TEAM
+Usage: cvs-sync [OPTIONS] .../www-TEAM
 
   The script assumes the context of www.gnu.org. It synchronizes the
   local reference directory (www) with the CVS repository, and the
@@ -71,15 +81,17 @@ Usage: cvs-sync [OPTIONS] -t /.../www-TEAM
   the local modifications must be made in www-team.
 
 Options:
-  -t .../www-TEAM       [$teamdir]
-      Specify the path to www-team (required if not in configuration)
-
   -g GUI_EDITOR         [$geditor]
       Specify a GUI or PO editor. If none, POs are not displayed.
 
+  -v  Display the outdated PO in the GUI or PO editor.
+
   -a TEAM@ADDRESS       [$address]
-      Specify the address of the team mailing list (optional)
-      The email will be sent with mutt.
+      Specify the address of the team mailing list (optional).
+      The email will be sent with Mutt.
+
+  -s "SUBJECT_LINE"     [$subject]
+      Specify the path to www-team (required if not in configuration).
 
   -V  Display version info and exit.
   -h  Display this help and exit.
@@ -98,20 +110,22 @@ EOF
 conf="$HOME/.profile"
 teamdir=""
 geditor=""
+visual=""
 address=""
-subject="Outdated POs $(date +"%y-%m-%d")" # This could be localized.
+subject="Sync with www $(date +"%y-%m-%d")" # This could be localized.
 
 test -s "$conf" && source $conf
 
 # Parse the command line.
 OPTIND=1
-while getopts "h?Va:g:t:" opt; do
+while getopts "h?Va:g:s:v" opt; do
   case "$opt" in
     h | \? ) usage; exit 0 ;;
     V ) version; exit 0 ;;
     a ) address=$OPTARG ;;
     g ) geditor=$OPTARG ;;
-    t ) teamdir=$OPTARG ;;
+    s ) subject=$OPTARG ;;
+    v ) visual=1 ;;
   esac
 done
 shift $((OPTIND-1))
@@ -126,7 +140,7 @@ FUZZY_DIFF=$(which gnun-add-fuzzy-diff) \
 || echo "*** No diff will be added to the fuzzy strings because
     gnun-add-fuzzy-diff is not installed."
 MUTT=$(which mutt) \
-|| echo "*** No email will be sent because mutt is not installed."
+|| echo "*** No email will be sent because Mutt is not installed."
 
 
 ## Functions
@@ -158,6 +172,7 @@ echo "${0##*\/} - synchronization and status report"
 
 ## Team directory input
 
+test -n "$1" && teamdir=$1
 if test ! -d "$teamdir"; then
   echo -e "\n*** Please specify your team directory."; read teamdir
 fi
@@ -165,21 +180,20 @@ teamdir=${teamdir%\'}; teamdir=${teamdir#\'}
 # Make sure it can be reached.
 cd "$teamdir" \
 || (echo 1>&2 "!!! Directory $teamdir doesn't exist."; close_term 1)
-# If a relative path has been entered, make it absolute.
-test "${teamdir#/}" != "$teamdir" || teamdir="$(pwd)"/$teamdir
+# Make the path absolute.
+teamdir="$(pwd)"
 
 
 ## Update www.
 
-# Get the path to www;
-wwwdir=${teamdir%\/www-*}/www
-# make sure it can be reached,
-cd "$wwwdir" 2>/dev/null \
+# Make sure www can be reached,
+cd ../www 2>/dev/null \
 || (echo 1>&2 "!!! $wwwdir doesn't exist or is not reachable.";
     close_term 1)
 # and is a CVS work tree.
-ls CVS 2>/dev/null \
+test -d CVS \
 || (echo 1>&2 "!!! $wwwdir is not a CVS directory."; close_term 1)
+wwwdir="$(pwd)"
 
 cvs update
 
@@ -199,13 +213,25 @@ if test -d ".git"; then
 fi
 
 # Create temporary files.
-po_list=$(mktemp -t syn.XXXXXX)  || close_term 1
-po_www=$(mktemp -t syn.XXXXXX)   || close_term 1
-po_team1=$(mktemp -t syn.XXXXXX) || close_term 1
-trap 'rm -f "$po_list" "$po_www" "$po_team1"' EXIT
+po_team_list=$(mktemp -t syn.XXXXXX) || close_term 1
+po_www_list=$(mktemp -t syn.XXXXXX)  || close_term 1
+po_www_list1=$(mktemp -t syn.XXXXXX) || close_term 1
+po_www=$(mktemp -t syn.XXXXXX)       || close_term 1
+po_team1=$(mktemp -t syn.XXXXXX)     || close_term 1
+trap 'rm -f "$po_team_list" "$po_www_list" "$po_www_list1" "$po_www" \
+            "$po_team1"' EXIT
 
-# List the POs.
-find . -name "*.po" | sort | sed '/server\/gnun\//d' > $po_list
+# List the POs in www-team.
+find . -name "*.po" | sort | sed '/server\/gnun\//d' > $po_team_list
+
+# Get language code of the team.
+lang="$(head -n1 $po_team_list)"
+lang=${lang%.po}
+lang=${lang##*.}
+
+# List the POs in www.
+find "$wwwdir" -type f -name "*.$lang.po" | \
+        sed "s|$wwwdir|.|;s|po/||;/server\/gnun\//d" | sort > $po_www_list
 
 # Delete the output of the previous run.
 rm -f ../update-report ../update-list
@@ -272,7 +298,30 @@ while read po_team; do
   else
     echo "$po : new translation or misplaced/renamed PO."
   fi
-done < $po_list
+
+
+## Add missing POs to www-team.
+
+  # If the PO is also listed in $po_www_list, remove it from that file.
+  grep -v "$po" $po_www_list > $po_www_list1 || true
+  mv $po_www_list1 $po_www_list
+done < $po_team_list
+
+# If any POs are left in $po_www_list, add them to www-team.
+if [ -s "$po_www_list" ]; then
+  echo -e "\n*** Also, the following files exist in www, but not in www-team.
+    They will be added to www-team."
+  while read po_www; do
+    echo $po_www
+    section=${po_www%/*}; section=${section#.\/}
+    basename=${po_www##*/}
+    install -Dm644 "$wwwdir/$section/po/$basename" "$po_www"
+  done < $po_www_list
+  if test -d .git; then
+    git add $(< $po_www_list)
+    git commit -m "Add missing POs to www-$lang." $(< $po_www_list)
+  fi
+fi
 
 
 ## Make a list of outdated POs and use it.
@@ -280,17 +329,19 @@ done < $po_list
 if [ -f ../update-report ]; then
   sed -e 's,^\./,,' -e 's, .*,,' ../update-report > ../update-list
 
-  # Display the POs if a GUI editor has been set.
-  if test $(which "$geditor"); then
-    $geditor $(< ../update-list) &
-  else
-    echo -e "\n*** No valid editor has been specified."
+  # Display the POs if the -v switch is used and a GUI/PO editor has been set.
+  if [ "$visual" = 1 ]; then
+    if [ -n $(which "$geditor") ]; then
+      $geditor $(< ../update-list) &
+    else
+      echo -e "\n*** No valid GUI editor has been specified."
+    fi
   fi
 
   # Optionally send the list of outdated POs to the team and commit the POs.
-  # (This depends on the workflow.) 
-  if [ -n "$MUTT" ] && [[ "$address" == *@* ]] && [ -n "$subject" ] &&
-     [ -d .git ]; then
+  # (This depends on the workflow.)
+  if [ -n "$MUTT" ] && [[ "$address" == *@* ]] && [ -n "$subject" ] \
+  && [ -d .git ]; then
     echo -e "\n*** Send the report to the mailing list and commit the POs?
           \"Yes\" = [Enter]    \"No\" = any other key\n"
     read -s -n1 OK
