@@ -274,11 +274,18 @@ while read po_team; do
     check_fuzz "$po_team" || fuzz_test_team=$?
 
     case $fuzz_test_team in
-      3 ) echo "$po : $fuzzy fuzzy and $untr untranslated."
-          # This could be localized.
-          echo "$po : $fuzzy fuzzy and $untr untranslated messages." \
-            >> ../update-report
-          git add "$po"
+      3 ) case $fuzz_test_www in
+            # Fuzz in www: the PO needs updating.
+            3 ) echo "$po : $fuzzy fuzzy and $untr untranslated."
+               # This could be localized.
+                echo "$po : $fuzzy fuzzy and $untr untranslated messages." \
+                  >> ../update-report
+                git add "$po" ;;
+            # No fuzz in www: most likely the updated version has been
+            # committed directly to www.
+            4 ) cp -b $po_www $po_team ;;
+            * ) echo "$po : !!! Error in the www fuzz test." ;;
+          esac
     ;;
       # No fuzz in www-team
       4 ) case $fuzz_test_www in
