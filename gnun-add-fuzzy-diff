@@ -1,0 +1,82 @@
+#! /bin/bash
+
+# Copyright (C) 2011, 2012 Free Software Foundation, Inc.
+
+# This file is part of GNUnited Nations.
+
+# GNUnited Nations is free software: you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+
+# GNUnited Nations is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with GNUnited Nations.  If not, see <http://www.gnu.org/licenses/>.
+
+# Wraps around add-fuzzy-diff to provide a command line interface compliant
+# with GNU Coding Standards
+
+function version () {
+cat <<EOF
+gnun-add-fuzzy-diff (GNUnited Nations) 0.7
+Copyright (C) 2012 Free Software Foundation, Inc.
+You may redistribute copies of GNUnited Nations
+under the terms of the GNU General Public License.
+For more information about these matters, see the file named COPYING.
+EOF
+}
+
+function usage () {
+cat <<EOF
+Usage: gnun-add-fuzzy-diff [OPTION...] [FILE]
+Add comments with differences to previous msgids to fuzzy translations
+in a PO file.
+
+Options:
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 Edit files in place (makes backup if extension supplied)
+      --version  Display version info and exit
+      --help     Display this help and exit
+
+Report bugs to bug-gnun@gnu.org
+GNUnited Nations home page: <http://www.gnu.org/software/gnun/>
+General help using GNU software: <http://www.gnu.org/gethelp/>
+EOF
+}
+
+params=$#
+in_place=
+
+while [ ${params} -ge 1 ]; do
+  case "$1" in
+      --help )
+	  usage
+	  exit 0
+	  ;;
+      --version )
+	  version
+	  exit 0
+	  ;;
+      -i* | --in-place=* | --in-place )
+	  in_place="$1"
+	  ;;
+      * )
+	  break
+	  ;;
+  esac
+  params=$((${params}-1))
+  shift
+done
+
+if [ ${params} -gt 1 ]; then
+    echo 1>&2 Error: Multiple FILE arguments are not allowed.  See --help for details.
+    exit 1
+fi
+
+/usr/local/libexec/gnun/add-fuzzy-diff ${in_place} $1
+
+exit $?

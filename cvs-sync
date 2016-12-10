@@ -338,7 +338,7 @@ if [ -f ../update-report ]; then
 
   # Display the POs if the -v switch is used and a GUI/PO editor has been set.
   if [ "$visual" = 1 ]; then
-    if [ -n $(which "$geditor") ]; then
+    if [ -n "$geditor" ] && [ -n $(which "$geditor") ]; then
       $geditor $(< ../update-list) &
     else
       echo -e "\n*** No valid GUI editor has been specified."

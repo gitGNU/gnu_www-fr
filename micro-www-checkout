@@ -155,7 +155,7 @@ fi
 ref_lang_codes='af ar az bg bn bs ca cs da de el en eo es et fa fi fr gl he \
 hr hu id it ja kn ko mk ml lt nb nl nn pl pt pt-br ro ru sh sk sl sq sr sv ta \
 th tl tr uk uz vi zh-cn zh-tw'
-vlangs=""
+(vlangs)=""
 for l in ${langs[@]}; do
   [[ "$ref_lang_codes" =~ "$l" ]] && vlangs=($vlangs $l)
 done
