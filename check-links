@@ -14,19 +14,23 @@
 #    * optional: meld.
 
 # DESCRIPTION
-#    check-links processes either one PO, or all the POs is the working
-#    directory. It selects all the links (including anchors and email
-#    addresses), and shows differences between the original document and its
-#    translation.
+#    check-links processes either one PO, or all the POs for one language in
+#    the working directory. It collects the href attributes, and shows
+#    differences between msgid and msgstr.
+
+#    The script can be launched from the contextual menu of either a PO file
+#    or a directory. It can also be run without argument, in which case it
+#    processes POs in the current directory.
 
 #    Method:
-#    * remove comments;
+#    * remove comments before msgid, keeping the fuzzy tags;
 #    * unwrap messages;
-#    * remove footer strings that contain localized or customized links.
+#    * select non-deprecated strings that contain links, except when there are
+#      systematic differences between msgid and msgstr.
 #    * process msgid and msgstr together:
 #      - isolate links (after href=", and before the following double-quote);
-#      - remove what is specific to msgstr, such as #TransNote*, #sommaire,
-#        *-rev, etc. (this can be commented out);
+#      - remove what is mostly specific to msgstr, such as #TransNote*,
+#        #sommaire, *-rev, etc. (this can be commented out);
 #      - save the link collections for msgid and msgstr separately, along
 #        with string numbers and fuzzy tags.
 #    * make a diff and optionally display it, or look at the differences with
@@ -34,7 +38,7 @@
 
 # OPTIONS AND CURRENT SETTINGS
 #    Displayed by:   check-links -h
-#
+
 #    Configuration file:
 #    The command-line parameters can be set once and for all in a configuration
 #    file (also used by transvalid-batch, www-commit, micro-www-checkout, and
@@ -74,8 +78,8 @@ Usage: check-links [OPTIONS] PO_FILE
   standard www-team, its language overrides whatever language has been
   defined otherwise.
   All the links are selected (including anchors and email addresses), and
-  differences between the original document and its translation are shown,
-  both as a standard diff (optionally displayed in a GUI editor), and with
+  differences between the original document and its translation are shown
+  either as a standard diff (optionally displayed in a GUI editor) or with
   Meld (if installed).
 
 Options:
@@ -85,7 +89,11 @@ Options:
   -g GUI_EDITOR         [$geditor]
       Specify a GUI editor, preferably with syntax highlighting (optional).
 
-  -v  Show differences in the GUI editor.
+  -v [0, 1 or 2]        [$visual]
+      Sets the method for displaying differences:
+      -v 0  make a diff and only say where it is (default).
+      -v 1  make a diff and display it in the GUI editor, if available.
+      -v 2  display the differences with Meld, if available.
 
   -V  Display version info and exit
   -h  Display this help and exit
@@ -106,19 +114,19 @@ EOF
 conf="$HOME/.profile"
 geditor=""
 lang=""
-visual=""
+visual=0
 
 test -s "$conf" && source $conf
 
 # Parse the command line.
 OPTIND=1
-while getopts "h?Vl:g:v" opt; do
+while getopts "h?Vl:g:v:" opt; do
   case "$opt" in
      h | \? ) usage; exit 0 ;;
      V ) version; exit 0 ;;
      l ) lang=$OPTARG ;;
      g ) geditor=$OPTARG ;;
-     v ) visual=1 ;;
+     v ) visual=$OPTARG ;;
   esac
 done
 shift $((OPTIND-1))
@@ -126,7 +134,7 @@ shift $((OPTIND-1))
 
 
 function close_term () {
-  sleep 10
+  sleep 5
   exit $1
 }
 
@@ -182,28 +190,59 @@ function isolate_links () {
     }' $(<list)
 }
 
+function show_differences () {
+  if [ "$visual" = "2" ] && [ -n $(which meld) ]; then
+    # Look at the diff with Meld.
+      meld href-id href-str
+
+  else
+    # Make a standard diff.
+    diff -U1 href-id href-str > $1 || true
+    # Make the output more compact.
+    sed -i -e '/^ $/d' -e 's,^+\*\*\*,***,' -e 's,^@@.*$,,' $1
+    sed -i -e '/^$/ {N; s,\n-===,====,}' -e 's,^-===,====,' $1
+
+    # Optionally display the diff in the GUI editor, if available.
+    if [ -n "$geditor" ] && [ -n $(which "$geditor") ] && [ "$visual" = 1 ]
+      then
+      $geditor $1 &
+    else
+      echo "    The diff is $1."
+    fi
+  fi
+  rm -f list href-id href-str
+}
+
 #====================
+
+input=$1
+input=${input#\'}; po=${input%\'}
 
 ## Input
 
-# Single PO
-input=$1
-input=${input#\'}; po=${input%\'}
-echo "Check links in $input"
-if [ -f "$input" ] && [ -s "$input" ] && [ "${input%.po}" != "$input" ]; then
-  echo $input > list
-  output="$input-href.diff"
+# Single PO,
+if [ -f "$input" ]; then
+  if [ "${input%.po}" != "$input" ]; then
+    echo "*** Input file: $input"
+    echo $input > list
+    output="$input-href.diff"
+  else
+    echo "!!! This is not a PO."
+    close_term 1
+  fi
 
-# or whole directory.
-else
+
+# or directory (current dir by default).
+elif [ -d "$input" ] || [ -z "$input" ]; then
   # If a directory has been entered, try to work there.
-  if test -d "$input"; then
-    cd "$input" 2>/dev/null \
-    || (echo "*** Unable to move to the specified directory."; close_term 1)
+  if [ -d "$input" ]; then
+    cd "$input" 2>/dev/null ||
+    (echo "*** Unable to move to the specified directory."; close_term 1)
   fi
 
   # Assume this is a standard team directory; try to guess the language code.
   dir="$(pwd)"
+  echo "*** Working directory: $dir"
   if [ "${dir##*/www-}" != "$dir" ]; then
     lang=${dir##*/www-}
     lang=${lang%%/*}
@@ -214,7 +253,7 @@ else
     read lang
     test -z "$lang" && exit 0
   fi
-  output=href-$lang.diff
+  output=$(pwd)/href-$lang.diff
 
   # List POs for the specified language in the working directory,
   # skipping includes and sitemap.
@@ -225,32 +264,19 @@ else
              !/fs-gang/)
          { print }
        }' > list
+else
+  echo "!!! This file doesn't exist."
+  exit 1
 fi
+
 
 ## Isolate and compare links.
 
 if test -s list; then
   isolate_links
-  diff -U1 href-id href-str > $output || true
-  # Make the output more compact.
-  sed -i -e '/^ $/d' -e 's,^+\*\*\*,***,' -e 's,^@@.*$,,' $output
-  sed -i -e '/^$/ {N; s,\n-===,====,}' -e 's,^-===,====,' $output
-
-  if [ -n $(which "$geditor") ] && [ "$visual" = 1 ]; then
-    $geditor $output &
-  else
-    echo -e "\n*** The diff file is $output."
-  fi
-
-  # Look at the diff with meld
-  if [ -n $(which meld) ] ; then
-    meld href-id href-str
-  fi
-
+  show_differences $output
 else
   echo 1>&2 "!!! No PO to work on."
   close_term 1
 fi
-
-rm -f list href-id href-str
 exit 0
