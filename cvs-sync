@@ -381,7 +381,7 @@ fi
 
 ## Commit up-to-date POs to www-team.
 
-if test -d .git; then
+if [ -d .git ] && [ -f ../trivial-list ]; then
   git add $(< ../trivial-list)
   git commit -m "Sync with www."
 fi
