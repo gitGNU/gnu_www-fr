@@ -115,7 +115,7 @@ EOF
 conf="$HOME/.profile"
 teamdir=""
 geditor=""
-visual=1
+display=true
 address=""
 subject="Sync with www $(date +"%y-%m-%d")" # This could be localized.
 
@@ -130,7 +130,7 @@ while getopts "h?Va:g:s:n" opt; do
     a ) address=$OPTARG ;;
     g ) geditor=$OPTARG ;;
     s ) subject=$OPTARG ;;
-    n ) visual=0 ;;
+    n ) display=false ;;
   esac
 done
 shift $((OPTIND-1))
@@ -353,7 +353,7 @@ if [ -f ../update-report ]; then
   sed -e 's,^\./,,' -e 's, .*,,' ../update-report > ../update-list
 
   # Display the POs if a GUI/PO editor is set, unless the -n switch is used.
-  if [ "$visual" = 1 ]; then
+  if [ "$display" = true ]; then
     if [ -n "$geditor" ] && [ -n $(which "$geditor") ]; then
       $geditor $(< ../update-list) &
     else
