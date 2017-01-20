@@ -235,7 +235,7 @@ lang=${lang%.po}
 lang=${lang##*.}
 
 # List the POs in www.
-find "$wwwdir" -type f -name "*.$lang.po" | \
+find "$wwwdir" -type f -name "*.$lang.po" |
         sed "s|$wwwdir|.|;s|po/||;/server\/gnun\//d" | sort > $po_www_list
 
 # Delete the output of the previous run.
@@ -250,7 +250,6 @@ while read po_team; do
 
   section=${po_team%/*}; section=${section#.\/}
   basename=${po_team##*/}
-  po=$section/$basename
 
   # Test for the presence of the corresponding PO in www, then eliminate
   # trivial differences and diff the 2 versions of the PO.
@@ -281,18 +280,18 @@ while read po_team; do
     case $fuzz_test_team in
       3 ) case $fuzz_test_www in
             # Fuzz in www: the PO needs updating.
-            3 ) echo "$po : $fuzzy fuzzy and $untr untranslated."
+            3 ) echo "$po_team : $fuzzy fuzzy and $untr untranslated."
                # This could be localized.
                if [ "$po_team1" != "$po_www" ]; then
-                 echo "$po : $fuzzy fuzzy and $untr untranslated messages." \
+                 echo "$po_team : $fuzzy fuzzy and $untr untranslated messages." \
                    >> ../update-report
                fi
             ;;
             # No fuzz in www: most likely the updated version was
             # committed directly to www.
-            4 ) cp -b $po_www $po_team
-                echo $po >> ../trivial-list ;;
-            * ) echo "$po : !!! Error in the www fuzz test." ;;
+            4 ) cp -b $wwwdir/$section/po/$basename $po_team
+                echo $section/$basename >> ../trivial-list ;;
+            * ) echo "$po_team : !!! Error in the www fuzz test." ;;
           esac
     ;;
       # No fuzz in www-team
@@ -304,22 +303,22 @@ while read po_team; do
                   # Same PO-Revision-Date: assume no significant difference.
                   # Most likely the PO was reformatted by GNUN.
                   if [ "$(grep 'PO-Revision-Date' $po_team)" = "$(grep 'PO-Revision-Date' $po_www)" ]; then
-                    cp -b $po_www $po_team
-                    echo $po >> ../trivial-list
+                    cp -b $wwwdir/$section/po/$basename $po_team
+                    echo $section/$basename >> ../trivial-list
                   else
-                    echo "$po : versions in www and www-team differ."
+                    echo "$po_team : versions in www and www-team differ."
                   fi
                 fi ;;
-            * ) echo "$po : !!! Error in the www fuzz test." ;;
+            * ) echo "$po_team : !!! Error in the www fuzz test." ;;
           esac
     ;;
-      * ) echo "$po : !!! Error in the www-team fuzz test."
+      * ) echo "$po_team : !!! Error in the www-team fuzz test."
     ;;
     esac
 
   # There is no corresponding PO in www:
   else
-    echo "$po : new translation or misplaced/renamed PO."
+    echo "$po_team : new translation or misplaced/renamed PO."
   fi
 
 
@@ -383,7 +382,7 @@ fi
 
 if [ -d .git ] && [ -f ../trivial-list ]; then
   git add $(< ../trivial-list)
-  git commit -m "Sync with www."
+  git commit -m "Sync with www." || true
 fi
 
 echo -e "\n*** Done.\n"
