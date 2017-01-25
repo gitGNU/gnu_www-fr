@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
-"POT-Creation-Date: 2017-01-23 19:26+0000\n"
-"PO-Revision-Date: 2016-11-19 00:09+0100\n"
+"POT-Creation-Date: 2017-01-24 19:56+0000\n"
+"PO-Revision-Date: 2017-01-25 10:15+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -28,6 +28,7 @@ msgstr "logo de 3dldf"
 msgid "<a href=\"/software/3dldf/\">3DLDF</a>"
 msgstr "<a href=\"/software/3dldf/\">3DLDF</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU 3DLDF supports 3D drawing with output to the MetaPost format via a "
@@ -272,6 +273,10 @@ msgstr ""
 "gestion des documents encodés en UTF-8, comme par sa capacité à utiliser "
 "plusieurs dictionnaires, dont certains peuvent être personnels.  <small>(<a "
 "href=\"/manual/manual.html#aspell\">doc</a>)</small>"
+
+#. type: Attribute 'alt' of: <h4><img>
+msgid "logo for auctex"
+msgstr "logo d'AUCTeX"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/auctex/\">AUCTeX</a>"
@@ -4328,6 +4333,7 @@ msgstr "logo de libextractor"
 msgid "<a href=\"/software/libextractor/\">Libextractor</a>"
 msgstr "<a href=\"/software/libextractor/\">Libextractor</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU libextractor is a library for extracting metadata from files.  It "
@@ -4705,12 +4711,10 @@ msgstr ""
 "clés cryptographiques.  <small>(<a href=\"/manual/manual.html#lsh\">doc</a>)"
 "</small>"
 
-#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/m4/\">M4</a>"
 msgstr "<a href=\"/software/m4/\">M4</a>"
 
-#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU M4 is an implementation of the M4 macro language, which features some "
@@ -5369,6 +5373,7 @@ msgstr "logo d'osip"
 msgid "<a href=\"/software/osip/\">oSIP</a>"
 msgstr "<a href=\"/software/osip/\">oSIP</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU oSIP is an implementation of the SIP protocol.  It is used to provide "
@@ -5900,10 +5905,12 @@ msgstr ""
 "compte de son activité à l'administrateur système.  <small>(<a href=\"/"
 "manual/manual.html#rottlog\">doc</a>)</small>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/rpge/\">Rpge</a>"
 msgstr "<a href=\"/software/rpge/\">Rpge</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "The GNU Role Playing Game Engine provides an engine for creating two-"
@@ -6032,6 +6039,7 @@ msgstr "logo de serveez"
 msgid "<a href=\"/software/serveez/\">Serveez</a>"
 msgstr "<a href=\"/software/serveez/\">Serveez</a>"
 
+#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Serveez is a server framework providing the routines necessary to easily "
@@ -6716,12 +6724,10 @@ msgstr ""
 "texte souligné et barré, les indices et exposants, et plus encore.  <small>"
 "(<a href=\"/manual/manual.html#unrtf\">doc</a>)</small>"
 
-#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/userv/\">Userv</a>"
 msgstr "<a href=\"/software/userv/\">Userv</a>"
 
-#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "GNU Userv is a utility that allows one program to invoke another even when "
@@ -6750,12 +6756,10 @@ msgstr ""
 "transfert à distance entre ordinateurs de fichiers, de courriel et de news.  "
 "<small>(<a href=\"/manual/manual.html#uucp\">doc</a>)</small>"
 
-#.  TRANSLATORS: stale 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/vc-dwim/\">Vc-dwim</a>"
 msgstr "<a href=\"/software/vc-dwim/\">Vc-dwim</a>"
 
-#.  TRANSLATORS: stale 
 #. type: Content of: <p>
 msgid ""
 "The vc-dwim package contains two tools, <tt>vc-dwim</tt> and <tt>vc-chlog</"
