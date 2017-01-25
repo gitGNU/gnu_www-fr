@@ -297,7 +297,7 @@ while read po_team; do
       # No fuzz in www-team
       4 ) case $fuzz_test_www in
             # Fuzz in www: the PO has been updated.
-            3 ) echo "$po seems ready to post." ;;
+            3 ) echo "$po_team seems ready to post." ;;
             # No fuzz in www:
             4 ) if [ "$diff_test" != "0" ]; then
                   # Same PO-Revision-Date: assume no significant difference.
