@@ -360,17 +360,18 @@ if [ -f ../update-report ]; then
     fi
   fi
 
-  # Optionally send the list of outdated POs to the team and commit the POs.
-  # (This depends on the workflow.)
-  if [ -n "$MUTT" ] && [[ "$address" == *@* ]] && [ -n "$subject" ] \
-  && [ -d .git ]; then
-    echo -e "\n*** Send the report to the mailing list and commit the POs?
+  if [ -d .git ]; then
+    git add $(< ../update-list)
+    # Optionally send the list of outdated POs to the team and commit the POs.
+    # (This depends on the workflow.)
+    if [ -n "$MUTT" ] && [[ "$address" == *@* ]] && [ -n "$subject" ]; then
+      echo -e "\n*** Send the report to the mailing list and commit the POs?
           \"Yes\" = [Enter]    \"No\" = any other key\n"
-    read -s -n1 OK
-    if test -z "$OK";  then
-      $MUTT -s "[cvs-sync] $subject" -i ../update-report -- $address < "."
-      git add $(< ../update-list)
-      git commit -m "$subject" $(< ../update-list)
+      read -s -n1 OK
+      if test -z "$OK";  then
+        $MUTT -s "[cvs-sync] $subject" -i ../update-report -- $address < "."
+        git commit -m "$subject" $(< ../update-list)
+      fi
     fi
   fi
 else
