@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: free-distros.html\n"
-"POT-Creation-Date: 2016-12-09 06:55+0000\n"
-"PO-Revision-Date: 2016-12-09 23:18+0100\n"
+"POT-Creation-Date: 2017-01-28 08:26+0000\n"
+"PO-Revision-Date: 2017-01-28 09:55+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -191,16 +191,16 @@ msgid "<a href=\"http://dragora.org\">"
 msgstr "<a href=\"http://dragora.org\">"
 
 #. type: Attribute 'alt' of: <table><tr><td><a><img>
-msgid "Dragora"
-msgstr "Dragora"
+msgid "Dragora GNU/Linux-Libre"
+msgstr "Dragora GNU/Linux-Libre"
 
 #. type: Content of: <table><tr><td>
 msgid ""
-"Dragora, an independent GNU/Linux distribution based on concepts of "
-"simplicity."
+"Dragora GNU/Linux-Libre, an independent GNU/Linux distribution based on "
+"concepts of simplicity."
 msgstr ""
-"Dragora, une distribution GNU/Linux indépendante basée sur des concepts de "
-"simplicité."
+"Dragora GNU/Linux-Libre, une distribution GNU/Linux indépendante basée sur "
+"des concepts de simplicité."
 
 #. type: Content of: <table><tr><td><a>
 msgid "<a href=\"http://www.dynebolic.org\">"
@@ -510,8 +510,8 @@ msgstr ""
 "README.translations.html\">guide de traduction</a>."
 
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2014, 2015, 2016 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2014, 2015, 2016 Free Software Foundation, Inc."
+msgid "Copyright &copy; 2014, 2015, 2016, 2017 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2014, 2015, 2016, 2017 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -535,3 +535,6 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid "Dragora"
+#~ msgstr "Dragora"
