@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-back-doors.html\n"
-"POT-Creation-Date: 2017-01-27 04:26+0000\n"
-"PO-Revision-Date: 2017-01-27 19:36+0100\n"
+"POT-Creation-Date: 2017-02-01 06:56+0000\n"
+"PO-Revision-Date: 2017-02-01 12:21+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -55,6 +55,34 @@ msgid "Here are examples of demonstrated back doors in proprietary software."
 msgstr ""
 "Voici des exemples de portes dérobées documentées dans des logiciels "
 "privateurs."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"Chrome has a back door <a href=\"https://consumerist.com/2017/01/18/why-is-"
+"google-blocking-this-ad-blocker-on-chrome/\">for remote erasure of add-ons</"
+"a>."
+msgstr ""
+"Chrome a une porte dérobée <a href=\"https://consumerist.com/2017/01/18/why-"
+"is-google-blocking-this-ad-blocker-on-chrome/\">pour l'effacement à distance "
+"des modules complémentaires</a>."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"WhatsApp <a href=\"https://www.theguardian.com/technology/2017/jan/13/"
+"whatsapp-backdoor-allows-snooping-on-encrypted-messages\">has a back door "
+"that the company can use to read the plaintext of messages</a>."
+msgstr ""
+"WhatsApp <a href=\"https://www.theguardian.com/technology/2017/jan/13/"
+"whatsapp-backdoor-allows-snooping-on-encrypted-messages\">a une porte "
+"dérobée que cette société peut utiliser pour lire les messages en clair</a>."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"This should not come as a surprise. Nonfree software for encryption is never "
+"trustworthy."
+msgstr ""
+"Cela ne doit pas nous étonner. Les logiciels de chiffrement non libres ne "
+"sont jamais fiables."
 
 #. type: Content of: <ul><li><p>
 msgid ""
