@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home-pkgblurbs.html\n"
-"POT-Creation-Date: 2017-02-02 19:57+0000\n"
-"PO-Revision-Date: 2017-02-03 11:39+0100\n"
+"POT-Creation-Date: 2017-02-07 09:57+0000\n"
+"PO-Revision-Date: 2017-02-07 12:54+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -527,27 +527,6 @@ msgstr ""
 "basique aisé. Il contient aussi <tt>dc</tt>, un calculateur en notation "
 "polonaise inversée.  <small>(<a href=\"/manual/manual.html#bc\">doc</a>)</"
 "small>"
-
-#. type: Content of: <h4>
-msgid "<a href=\"/software/behistun/\">Behistun</a>"
-msgstr "<a href=\"/software/behistun/\">Behistun</a>"
-
-#. type: Content of: <p>
-msgid ""
-"GNU Behistun consists of software and utilities for geological and "
-"geophysical modeling and mapping of internal structures and dynamics.  Like "
-"the Behistun Multilingual Inscription, the Behistun software utilities "
-"provide knowledge and functionality to work on planetary systems and "
-"investigate their interior in freedom.  <small>(<a href=\"/manual/manual."
-"html#behistun\">doc</a>)</small>"
-msgstr ""
-"GNU Behistun est constitué de logiciels et utilitaires pour la modélisation "
-"géologique et géophysique, ainsi que pour la modélisation et la cartographie "
-"des structures et de la dynamique internes. À l'instar de l'Inscription "
-"multilinguale de Behistun, les utilitaires Behistun apportent les "
-"connaissances et les fonctionnalités nécessaires pour travailler sur les "
-"systèmes planétaires et étudier leur intérieur en toute liberté.  <small>(<a "
-"href=\"/manual/manual.html#behistun\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/bfd/\">BFD</a>"
@@ -1872,6 +1851,27 @@ msgstr ""
 "l'implémentation traditionnelle, en particulier l'accès au réseau, le tri, "
 "et d'importantes bibliothèques.  <small>(<a href=\"/manual/manual.html#gawk"
 "\">doc</a>)</small>"
+
+#. type: Content of: <h4>
+msgid "<a href=\"/software/gbehistun/\">Gbehistun</a>"
+msgstr "<a href=\"/software/gbehistun/\">Gbehistun</a>"
+
+#. type: Content of: <p>
+msgid ""
+"GNU Behistun consists of software and utilities for geological and "
+"geophysical modeling and mapping of internal structures and dynamics.  Like "
+"the Behistun Multilingual Inscription, the Behistun software utilities "
+"provide knowledge and functionality to work on planetary systems and "
+"investigate their interior in freedom.  <small>(<a href=\"/manual/manual."
+"html#gbehistun\">doc</a>)</small>"
+msgstr ""
+"GNU Behistun est constitué de logiciels et utilitaires pour la modélisation "
+"géologique et géophysique, ainsi que pour la modélisation et la cartographie "
+"des structures et de la dynamique internes. À l'instar de l'Inscription "
+"multilinguale de Behistun, les utilitaires Behistun apportent les "
+"connaissances et les fonctionnalités nécessaires pour travailler sur les "
+"systèmes planétaires et étudier leur intérieur en toute liberté.  <small>(<a "
+"href=\"/manual/manual.html#gbehistun\">doc</a>)</small>"
 
 #. type: Content of: <h4>
 msgid "<a href=\"/software/gcal/\">Gcal</a>"
