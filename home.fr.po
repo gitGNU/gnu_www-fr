@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: home.html\n"
-"POT-Creation-Date: 2017-01-28 09:26+0000\n"
-"PO-Revision-Date: 2017-01-28 18:40+0100\n"
+"POT-Creation-Date: 2017-02-17 08:26+0000\n"
+"PO-Revision-Date: 2017-02-17 12:34+0100\n"
 "Last-Translator: Jean-Philippe Mengual <mengualjeanphi AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -86,6 +86,10 @@ msgstr ""
 #. type: Content of: <div><div><div><p>
 msgid "<a href=\"/distros/free-distros.html\">Try GNU/Linux!</a>"
 msgstr "<a href=\"/distros/free-distros.html\">Essayer GNU/Linux</a>"
+
+#. type: Content of: <div><div><div><p>
+msgid "<a href=\"#parts-of-gnu\">Try parts of GNU</a>"
+msgstr "<a href=\"#parts-of-gnu\">Essayer GNU en partie</a>"
 
 #. type: Content of: <div><div><div><a>
 msgid "<a href=\"/distros/screenshot-gnewsense.html\">"
@@ -409,6 +413,27 @@ msgid ""
 "packages</a></small>"
 msgstr ""
 "<a href=\"/manual/blurbs.html\">Présentation de tous les logiciels GNU</a>"
+
+#. type: Content of: <div><div><div><h3>
+msgid "Try some parts of GNU"
+msgstr "Essayer certaines parties de GNU"
+
+#. type: Content of: <div><div><div><p>
+msgid ""
+"Do you use Windows or iOS? Take a first step towards freedom by installing "
+"some free software on your current operating system:"
+msgstr ""
+"Vous utilisez Windows ou iOS ? Faites un premier pas vers la liberté en "
+"installant quelques logiciels libres sur votre système d'exploitation actuel:"
+
+#. type: Content of: <div><div><div><ul><li>
+msgid "<a href=\"/software/for-windows.html\">Free Software for Windows</a>"
+msgstr ""
+"<a href=\"/software/for-windows.html\">Logiciels libres pour Windows</a>"
+
+#. type: Content of: <div><div><div><ul><li>
+msgid "<a href=\"/software/for-ios.html\">Free Software for iOS</a>"
+msgstr "<a href=\"/software/for-ios.html\">Logiciels libres pour iOS</a>"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
