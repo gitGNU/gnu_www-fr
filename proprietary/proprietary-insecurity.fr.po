@@ -1,20 +1,22 @@
 # French translation of http://www.gnu.org/philosophy/proprietary-insecurity.html
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the original article.
-# Thérèse Godefroy <godef.th AT free.fr>, 2013, 2014, 2015.
+# Thérèse Godefroy <godef.th AT free.fr>, 2013-2017.
 # Sogal <sogal AT member.fsf.org>, 2015.
+# Félicien Pillot <felicien AT gnu.org>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-insecurity.html\n"
 "POT-Creation-Date: 2017-02-23 03:25+0000\n"
-"PO-Revision-Date: 2016-10-28 19:14+0200\n"
-"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
+"PO-Revision-Date: 2017-02-24 11:36+0100\n"
+"Last-Translator: Félicien Pillot <felicien AT gnu.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Outdated-Since: 2017-02-23 03:25+0000\n"
 "Plural-Forms: \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
@@ -83,6 +85,10 @@ msgid ""
 "\">have a security hole that allows an SMS message to install ransomeware</"
 "a>."
 msgstr ""
+"Des téléphones Samsung <a href=\"https://www.bleepingcomputer.com/news/"
+"security/sms-exploitable-bug-in-samsung-galaxy-phones-can-be-used-for-"
+"ransomware-attacks/\">possèdent une faille de sécurité qui permet "
+"d'installer un logiciel de rançon en passant par un SMS</a>"
 
 #. type: Content of: <ul><li><p>
 msgid ""
@@ -651,12 +657,8 @@ msgstr ""
 "README.translations.html\">guide de traduction</a>."
 
 #. type: Content of: <div><p>
-# | Copyright &copy; 2013, 2015, [-2016-] {+2016, 2017+} Free Software
-# | Foundation, Inc.
-#, fuzzy
-#| msgid "Copyright &copy; 2013, 2015, 2016 Free Software Foundation, Inc."
 msgid "Copyright &copy; 2013, 2015, 2016, 2017 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2013, 2015, 2016 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2013, 2015, 2016, 2017 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
@@ -680,3 +682,6 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid "Copyright &copy; 2013, 2015, 2016 Free Software Foundation, Inc."
+#~ msgstr "Copyright &copy; 2013, 2015, 2016 Free Software Foundation, Inc."

@@ -1,19 +1,21 @@
 # French translation of http://www.gnu.org/philosophy/proprietary-surveillance.html
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the original article.
-# Thérèse Godefroy <godef.th AT free.fr>, 2013-2016.
+# Thérèse Godefroy <godef.th AT free.fr>, 2013-2017.
+# Félicien Pillot <felicien AT gnu.org>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-surveillance.html\n"
 "POT-Creation-Date: 2017-02-23 04:26+0000\n"
-"PO-Revision-Date: 2017-02-08 10:26+0100\n"
-"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
+"PO-Revision-Date: 2017-02-24 11:58+0100\n"
+"Last-Translator: Félicien Pillot <felicien AT gnu.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Outdated-Since: 2017-02-23 04:26+0000\n"
 "Plural-Forms: \n"
 "X-Generator: Gtranslator 2.91.5\n"
 
@@ -305,6 +307,11 @@ msgid ""
 "to identify people browsing through Tor</a>. The vulnerability exists only "
 "if you use Windows."
 msgstr ""
+"Sur Windows, les fichiers munis de DRM <a href=\"https://yro.slashdot.org/"
+"story/17/02/02/231229/windows-drm-protected-files-used-to-decloak-tor-"
+"browser-users\">peuvent être utilisés afin d'identifier les personnes qui "
+"naviguent via Tor</a>. Cette vulnérabilité n'existe que si vous utilisez "
+"Windows."
 
 #. type: Content of: <ul><li><p>
 msgid ""
@@ -1735,7 +1742,7 @@ msgid ""
 msgstr ""
 "L'humoriste américain Emo Phillips racontait l'histoire suivante : « L'autre "
 "jour une dame m'a abordé pour me dire “Est-ce que je ne vous ai pas déjà vu "
-"à la télévision ?” J'ai répondu : “Je ne sais pas, on ne peut pas voir dans "
+"à la télévision ?” J'ai répondu “Je ne sais pas, on ne peut pas voir dans "
 "l'autre sens.” » À l'évidence, c'était avant qu'Amazon ne sorte ses "
 "téléviseurs « intelligents » ou « connectés »."
 
@@ -1748,6 +1755,13 @@ msgid ""
 "what it is. The existence of a way to disable the surveillance, even if it "
 "were not hidden as it was in these TVs, does not legitimize the surveillance."
 msgstr ""
+"Les téléviseurs « intelligents » Vizio <a href=\"https://www.ftc.gov/news-"
+"events/blogs/business-blog/2017/02/what-vizio-was-doing-behind-tv-screen"
+"\">rapportent tout ce qui est visionné et pas seulement les émissions "
+"hertziennes ou câblées</a>. Même si l'image provient de l'ordinateur "
+"personnel de l'utilisateur, le téléviseur rapporte ce qu'elle montre. Le "
+"fait qu'il existe un moyen de désactiver cette surveillance, même s'il n'est "
+"plus caché comme il a pu l'être auparavant, ne la justifie pas."
 
 #. type: Content of: <ul><li><p>
 msgid ""
