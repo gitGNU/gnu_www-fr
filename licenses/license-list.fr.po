@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: license-list.html\n"
-"POT-Creation-Date: 2016-10-25 12:55+0000\n"
-"PO-Revision-Date: 2016-10-25 15:24+0200\n"
+"POT-Creation-Date: 2017-03-05 20:55+0000\n"
+"PO-Revision-Date: 2017-03-05 23:42+0100\n"
 "Last-Translator: Thérèse godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -887,11 +887,11 @@ msgstr ""
 #. type: Content of: <dl><dd><p>
 msgid ""
 "This is a free software license, compatible with the GNU GPL.  <a href="
-"\"http://www.eiffel-nice.org/license/forum.txt\">Previous releases</a> of "
-"the Eiffel license are not compatible with the GPL."
+"\"https://opensource.org/licenses/ver1_eiffel\">Previous releases</a> of the "
+"Eiffel license are not compatible with the GPL."
 msgstr ""
 "C'est une licence de logiciel libre compatible avec la GNU GPL. Les <a href="
-"\"http://www.eiffel-nice.org/license/forum.txt\">versions précédentes</a> de "
+"\"https://opensource.org/licenses/ver1_eiffel\">versions précédentes</a> de "
 "la licence Eiffel ne sont pas compatibles avec la GPL."
 
 #. type: Content of: <dl><dt>
@@ -4151,15 +4151,13 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"<a id=\"Sybase\"></a> <a id=\"Watcom\" href=\"http://www.openwatcom.org/"
-"index.php/Open_Watcom_Public_License\"> Sybase Open Watcom Public License "
-"version 1.0</a> <span class=\"anchor-reference-id\"> (<a href=\"#Watcom"
-"\">#Watcom</a>)</span>"
+"<a id=\"Sybase\"></a> <a id=\"Watcom\" href=\"ftp://ftp.openwatcom.org/"
+"install/license.txt\"> Sybase Open Watcom Public License version 1.0</a> "
+"<span class=\"anchor-reference-id\"> (<a href=\"#Watcom\">#Watcom</a>)</span>"
 msgstr ""
-"<a id=\"Sybase\"></a> <a id=\"Watcom\" href=\"http://www.openwatcom.org/"
-"index.php/Open_Watcom_Public_License\"> Sybase Open Watcom Public License, "
-"version 1.0</a> <span class=\"anchor-reference-id\"> (<a href=\"#Watcom"
-"\">#Watcom</a>)</span>"
+"<a id=\"Sybase\"></a> <a id=\"Watcom\" href=\"ftp://ftp.openwatcom.org/"
+"install/license.txt\">Sybase Open Watcom Public License, version 1.0</a> "
+"<span class=\"anchor-reference-id\"> (<a href=\"#Watcom\">#Watcom</a>)</span>"
 
 #. type: Content of: <dl><dd><p>
 msgid ""
@@ -5267,8 +5265,8 @@ msgstr ""
 "README.translations.html\">guide de traduction</a>."
 
 #. type: Content of: <div><p>
-msgid "Copyright &copy; 2014, 2015, 2016 Free Software Foundation, Inc."
-msgstr "Copyright &copy; 2014, 2015, 2016 Free Software Foundation, Inc."
+msgid "Copyright &copy; 2014, 2015, 2016, 2017 Free Software Foundation, Inc."
+msgstr "Copyright &copy; 2014, 2015, 2016, 2017 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
