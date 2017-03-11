@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: lgpl-2.1-translations.html\n"
-"POT-Creation-Date: 2017-03-06 07:26+0000\n"
-"PO-Revision-Date: 2015-10-27 15:34+0100\n"
+"POT-Creation-Date: 2017-03-11 14:26+0000\n"
+"PO-Revision-Date: 2017-03-11 15:30+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -238,9 +238,6 @@ msgstr ""
 "lgpl-2.1.ru.shtml\">russe</a> de la LGPL"
 
 #
-#.  these translations have links other than to www.fsf.org and www.gnu.org
-#. (<a href="http://www.belgeler.org/howto/lgpl.html">
-#. 2</a>)
 #. type: Content of: <ul><li>
 msgid ""
 "<code>[tr]</code> <a href=\"http://www.arayan.com/da/lgpl_tr.html\">Turkish</"
@@ -248,6 +245,26 @@ msgid ""
 msgstr ""
 "<code>[tr]</code> Traduction en <a href=\"http://www.arayan.com/da/lgpl_tr."
 "html\">turc</a> de la LGPL"
+
+#
+#.  RT #1198827 
+#. type: Content of: <ul><li>
+msgid ""
+"<code>[zh-cn]</code> <a href=\"http://www.chinasona.org/gnu/gnulgpl-v2-sc."
+"html\"> Chinese (Simplified)</a> translation of the LGPL"
+msgstr ""
+"<code>[zh-cn]</code> Traduction en <a href=\"http://www.chinasona.org/gnu/"
+"gnulgpl-v2-sc.html\">chinois (simplifié)</a> de la LGPL"
+
+#
+#.  RT #1198827 
+#. type: Content of: <ul><li>
+msgid ""
+"<code>[zh-tw]</code> <a href=\"http://www.chinasona.org/gnu/gnulgpl-v2-tc."
+"html\"> Chinese (Traditional)</a> translation of the LGPL"
+msgstr ""
+"<code>[zh-tw]</code> Traduction en <a href=\"http://www.arayan.com/da/lgpl_tr."
+"html\">chinois (traditionnel)</a> de la LGPL"
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
