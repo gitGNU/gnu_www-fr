@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary.html\n"
-"POT-Creation-Date: 2017-02-22 18:26+0000\n"
-"PO-Revision-Date: 2017-02-22 20:12+0100\n"
+"POT-Creation-Date: 2017-03-18 12:56+0000\n"
+"PO-Revision-Date: 2017-03-18 14:33+0100\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -23,18 +23,22 @@ msgstr "Logiciel privateur - Projet GNU - Free Software Foundation "
 
 #
 #
-#. #content div.toc li { list-style: none; margin-bottom: 1em; }
-#. #content div.toc { margin-top: 1em; }
+#. div.toc h3 {
+#.    text-align: left;
+#.    font-size: 1.2em;
+#.    padding: 0 .83em;
+#.    margin: .5em 1.5% 1em;
+#. }
+#. div.toc li { list-style: none; margin-bottom: 1em; }
+#. div.toc { margin-top: 1em; }
 #. type: Content of: <style>
 #, no-wrap
 msgid ""
 "div.companies { float: right; margin-bottom: .5em; }\n"
 "div.malfunctions { max-width: 27em; }\n"
-"\n"
 msgstr ""
 "div.companies { float: right; margin-bottom: .5em; }\n"
 "div.malfunctions { max-width: 27em; }\n"
-"\n"
 
 #. type: Content of: <h2>
 msgid "Proprietary Software Is Often Malware"
@@ -97,9 +101,9 @@ msgstr ""
 "fonctionnalités malveillante, mais il y en a sûrement des milliers d'autres "
 "dont nous ne savons rien."
 
-#. type: Content of: <div><div><ul><li>
-msgid "<strong>Company or type of product</strong>"
-msgstr "<strong>Société ou type de produit</strong>"
+#. type: Content of: <div><div><h3>
+msgid "Company or type of product"
+msgstr "Société ou type de produit"
 
 #. type: Content of: <div><div><ul><li>
 msgid "<a href=\"/proprietary/malware-apple.html\">Apple Malware</a>"
@@ -132,9 +136,9 @@ msgid ""
 "<a href=\"/proprietary/malware-appliances.html\">Malware in appliances</a>"
 msgstr "<a href=\"/proprietary/malware-appliances.html\">Appareils divers</a>"
 
-#. type: Content of: <div><div><ul><li>
-msgid "<strong>Type&nbsp;of malware</strong>"
-msgstr "<strong>Type de malveillance</strong>"
+#. type: Content of: <div><div><h3>
+msgid "Type&nbsp;of&nbsp;malware"
+msgstr "Type de malveillance"
 
 #. type: Content of: <div><div><ul><li>
 msgid "<a href=\"/proprietary/proprietary-back-doors.html\">Back doors</a>"
