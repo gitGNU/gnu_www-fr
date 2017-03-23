@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: translations.html\n"
-"POT-Creation-Date: 2017-03-07 08:56+0000\n"
-"PO-Revision-Date: 2017-03-07 10:52+0100\n"
+"POT-Creation-Date: 2017-03-23 09:56+0000\n"
+"PO-Revision-Date: 2017-03-23 15:52+0100\n"
 "Last-Translator: Sogal <sogal AT member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -319,6 +319,15 @@ msgstr ""
 "<code>[nl]</code> Traduction en <a href=\"http://bartbeuving.files.wordpress."
 "com/2008/07/gpl-v3-nl-101.pdf\">néerlandais</a> de la GPL (PDF)"
 
+#.  RT #1198511 
+#. type: Content of: <ul><li>
+msgid ""
+"<code>[ru]</code> <a href=\"http://antirao.ru/gpltrans/gplru.pdf\">Russian</"
+"a> translation of the GPL (PDF)"
+msgstr ""
+"<code>[ru]</code> Traduction en <a href=\"http://antirao.ru/gpltrans/gplru."
+"pdf\">russe</a> de la GPL (PDF)"
+
 #.  RT #710854 
 #. type: Content of: <ul><li>
 msgid ""
@@ -358,22 +367,6 @@ msgid ""
 msgstr ""
 "<code>[zh-tw]</code> Traduction en <a href=\"http://www.chinasona.org/gnu/"
 "gnuv3-tc.html\">chinois (traditionnel)</a> de la GPL"
-
-#. type: Content of: <h4>
-msgid "Translations Underway"
-msgstr "Traductions en cours"
-
-#. type: Content of: <p>
-msgid ""
-"The following translation efforts are underway, please contact the person/"
-"team if you are willing to help."
-msgstr ""
-"Les traductions suivantes sont en cours d'élaboration, veuillez contacter la "
-"personne ou l'équipe concernée si vous souhaitez apporter votre aide."
-
-#. type: Content of: <ul><li>
-msgid "<code>[ru]</code> <a href=\"http://rusgpl.ru/\">Russian</a>"
-msgstr "<code>[ru]</code> <a href=\"http://rusgpl.ru/\">Russe</a>"
 
 #. type: Content of: <h3>
 msgid "The GNU Affero General Public License, version 3"
@@ -423,6 +416,15 @@ msgid ""
 msgstr ""
 "<code>[hu]</code> Traduction en <a href=\"http://gnu.hu/lgplv3.html"
 "\">hongrois</a> de la LGPL"
+
+#.  RT #1198511 
+#. type: Content of: <ul><li>
+msgid ""
+"<code>[ru]</code> <a href=\"http://antirao.ru/gpltrans/lgplru.pdf\">Russian</"
+"a> translation of the LGPL (PDF)"
+msgstr ""
+"<code>[ru]</code> Traduction en <a href=\"http://antirao.ru/gpltrans/lgplru."
+"pdf\">russe</a> de la LGPL (PDF)"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -495,6 +497,15 @@ msgstr ""
 "gna.org/www-it/fdl/1.3/fdl.it.html\">HTML</a>, <a href=\"http://home.gna.org/"
 "www-it/fdl/1.3/fdl.it.txt\">texte brut</a>"
 
+#.  RT #1198511 
+#. type: Content of: <ul><li>
+msgid ""
+"<code>[ru]</code> <a href=\"http://antirao.ru/gpltrans/fdlru.pdf\">Russian</"
+"a> translation of the GFDL (PDF)"
+msgstr ""
+"<code>[ru]</code> Traduction en <a href=\"http://antirao.ru/gpltrans/fdlru."
+"pdf\">russe</a> de la GFDL (PDF)"
+
 #. type: Content of: <ul><li>
 msgid ""
 "<code>[zh-cn]</code> <a href=\"http://www.thebigfly.com/gnu/FDLv1.3/\"> "
@@ -511,6 +522,18 @@ msgid ""
 msgstr ""
 "<code>[zh-tw]</code> Traduction en <a href=\"http://www.chinasona.org/gnu/"
 "gnufdl-v13-tc.html\">chinois (traditionnel)</a> de la FDL"
+
+#. type: Content of: <h4>
+msgid "Translations Underway"
+msgstr "Traductions en cours"
+
+#. type: Content of: <p>
+msgid ""
+"The following translation efforts are underway, please contact the person/"
+"team if you are willing to help."
+msgstr ""
+"Les traductions suivantes sont en cours d'élaboration, veuillez contacter la "
+"personne ou l'équipe concernée si vous souhaitez apporter votre aide."
 
 #.  contact the OP from RT #715051 
 #. type: Content of: <ul><li>
