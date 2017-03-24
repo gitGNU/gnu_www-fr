@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: translations.html\n"
-"POT-Creation-Date: 2017-03-23 09:56+0000\n"
-"PO-Revision-Date: 2017-03-23 15:52+0100\n"
+"POT-Creation-Date: 2017-03-23 16:56+0000\n"
+"PO-Revision-Date: 2017-03-24 08:20+0100\n"
 "Last-Translator: Sogal <sogal AT member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -382,6 +382,15 @@ msgid ""
 msgstr ""
 "<code>[ar]</code> Traduction en <a href=\"http://fairsultan.files.wordpress."
 "com/2013/03/agpl-3-0-ar.pdf\">arabe</a> de l'AGPL (PDF)"
+
+#.  RT #1198511 
+#. type: Content of: <ul><li>
+msgid ""
+"<code>[ru]</code> <a href=\"http://antirao.ru/gpltrans/agplru.pdf\">Russian</"
+"a> translation of the AGPL (PDF)"
+msgstr ""
+"<code>[ru]</code> Traduction en <a href=\"http://antirao.ru/agpltrans/gplru."
+"pdf\">russe</a> de l'AGPL (PDF)"
 
 #. type: Content of: <h3>
 msgid "The GNU Lesser General Public License, version 3"
