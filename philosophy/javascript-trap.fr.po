@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: javascript-trap.html\n"
-"POT-Creation-Date: 2017-03-20 14:26+0000\n"
-"PO-Revision-Date: 2017-03-20 19:45+0100\n"
+"POT-Creation-Date: 2017-03-28 11:56+0000\n"
+"PO-Revision-Date: 2017-03-28 14:43+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -347,15 +347,17 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"How do we tell whether the JavaScript code is free? At the end of this "
-"article we propose a convention by which a nontrivial JavaScript program in "
-"a web page can state the URL where its source code is located, and can state "
-"its license too, using stylized comments."
+"How do we tell whether the JavaScript code is free? In a <a href=\"/licenses/"
+"javascript-labels.html\">separate article</a>, we propose a method by which "
+"a nontrivial JavaScript program in a web page can state the URL where its "
+"source code is located, and can state its license too, using stylized "
+"comments."
 msgstr ""
-"Comment savoir si du code JavaScript est libre ? À la fin de cet article, "
-"nous proposons une convention dans laquelle un programme JavaScript non "
-"trivial dans une page web peut indiquer l'URL de l'emplacement de son code "
-"source, ainsi que sa licence, en utilisant des commentaires stylisés."
+"Comment savoir si du code JavaScript est libre ? Dans un <a href=\"/licenses/"
+"javascript-labels.html\">autre article</a>, nous proposons une méthode qui "
+"permet à un programme JavaScript non trivial inclus dans une page web "
+"d'indiquer l'URL de son code source, ainsi que sa licence, en utilisant des "
+"commentaires stylisés."
 
 #. type: Content of: <p>
 msgid ""
@@ -432,20 +434,15 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"<strong>Thank you to <a href=\"/people/people.html#mattlee\">Matt Lee</a> "
-"and <a href=\"http://ejohn.org\">John Resig</a> for their help in defining "
-"our proposed criterion, and to David Parunakian for helping to make me aware "
-"of the problem.</strong>"
+"<strong>Acknowledgements:</strong> I thank <a href=\"/people/people."
+"html#mattlee\">Matt Lee</a> and <a href=\"http://ejohn.org\">John Resig</a> "
+"for their help in defining our proposed criterion, and David Parunakian for "
+"bringing the problem to my attention."
 msgstr ""
-"<strong>Merci à <a href=\"/people/people.html#mattlee\">Matt Lee</a> et <a "
-"href=\"http://ejohn.org\">John Resig</a> pour leur aide dans la définition "
-"de notre proposition de critère, et à David Parunakian pour avoir porté ce "
-"problème à mon attention.</strong>"
-
-#. type: Content of: <p>
-msgid "I thank Jaffar Rumith for bringing this issue to my attention."
-msgstr ""
-"Je remercie Jaffar Rumith pour avoir porté ce problème à mon attention."
+"<strong>Remerciements:</strong> Je remercie <a href=\"/people/people."
+"html#mattlee\">Matt Lee</a> et <a href=\"http://ejohn.org\">John Resig</a> "
+"pour leur aide dans la définition de notre proposition de critère, et David "
+"Parunakian pour avoir porté ce problème à mon attention."
 
 #. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
 #. type: Content of: <div>
@@ -523,3 +520,7 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid "I thank Jaffar Rumith for bringing this issue to my attention."
+#~ msgstr ""
+#~ "Je remercie Jaffar Rumith pour avoir porté ce problème à mon attention."
