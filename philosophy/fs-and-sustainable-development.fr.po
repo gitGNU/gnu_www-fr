@@ -1,0 +1,203 @@
+# French translation of https://www.gnu.org/philosophy/fs-and-sustainable-development.html
+# Copyright (C) 2017 Free Software Foundation, Inc.
+# This file is distributed under the same license as the original article.
+# Felicien Pillot <felicien AT gnu.org>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: fs-and-sustainable-development.html\n"
+"POT-Creation-Date: 2017-04-02 10:26+0000\n"
+"PO-Revision-Date: 2017-04-03 18:38+0200\n"
+"Last-Translator: Felicien Pillot <felicien AT gnu.org>\n"
+"Language-Team: French <trad-gnu@april.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <h2>
+msgid "Free Software and Sustainable Development"
+msgstr "Logiciel Libre et d&eacute;veloppement durable"
+
+#. type: Content of: <p>
+msgid "by <strong>Richard Stallman</strong>"
+msgstr "par <strong>Richard Stallman</strong>"
+
+#. type: Content of: <p>
+msgid ""
+"<em>First published on <a href=\"https://web.archive.org/web/20060721162054/"
+"http://www.insnet.org/ins_headlines.rxml?cust=212&amp;id=967\"> insnet.org</"
+"a> in 2005.</em>"
+msgstr ""
+"<em>Publi&eacute; initialement sur <a href=\"https://web.archive.org/"
+"web/20060721162054/http://www.insnet.org/ins_headlines.rxml?cust=212&amp;"
+"id=9\">insnet.org</a> en 2005.</em>"
+
+#. type: Content of: <p>
+msgid ""
+"Many organizations that aim to promote development by spreading the use of "
+"computers make a fundamental mistake: they promote the use of proprietary "
+"(nonfree) software.  Using proprietary software is not development; it makes "
+"society dependent, not strong."
+msgstr ""
+"De nombreuses organisations qui promeuvent le d&eacute;veloppement en "
+"pr&ecirc;chant l'usage de l'informatique se m&eacute;prennent absolument : "
+"elles incitent &agrave; l'utilisation de logiciel privateur<a id="
+"\"TransNote1-rev\" href=\"#TransNote1\"><sup>1</sup></a>. L'utilisation du "
+"logiciel privateur, ce n'est pas le d&eacute;veloppement, c'est rendre la "
+"soci&eacute;t&eacute; d&eacute;pendante et non r&eacute;sistante."
+
+#. type: Content of: <p>
+msgid ""
+"Proprietary software such as MS Windows and the Macintosh system is "
+"distributed in a scheme to keep the users divided and helpless.  The users "
+"are divided because each user is forbidden to share the program with anyone "
+"else; they are helpless because the &ldquo;plans&rdquo; of the software, the "
+"source code, are secret.  Users can't feasibly change the program, or even "
+"verify that it does what the developer says (and not anything else that the "
+"developer didn't say)."
+msgstr ""
+"Un logiciel privateur tel que MS Windows et le syst&egrave;me Macintosh est "
+"distribu&eacute; dans l'esprit de garder les utilisateurs divis&eacute;s et "
+"sans d&eacute;fense. Les utilisateurs sont divis&eacute;s car aucun d'entre "
+"eux ne peut partager le logiciel avec quiconque ; ils sont sans d&eacute;"
+"fense car les &laquo;&nbsp;plans&nbsp;&raquo; du logiciel (son code source) "
+"sont tenus secrets. Les utilisateurs ne peuvent pas modifier le programme, "
+"ni v&eacute;rifier qu'il fait bien ce que le d&eacute;veloppeur dit qu'il "
+"fait (et non pas ce que le d&eacute;veloppeur ne dit pas)."
+
+#. type: Content of: <p>
+msgid ""
+"The way to avoid being divided and helpless is to use free software.  Free "
+"software respects users' freedom.  Specifically, free softare means users "
+"have four essential freedoms: they are free to run the software, free to "
+"study its source code and change it to do what they want, free to "
+"redistribute copies, and free to publish modified versions.  Free software "
+"is part of human knowledge."
+msgstr ""
+"Le moyen pour &eacute;viter d'&ecirc;tre divis&eacute;s et sans d&eacute;"
+"fense est d'utiliser le logiciel libre. Le logiciel libre respecte la "
+"libert&eacute; des utilisateurs. Plus pr&eacute;cis&eacute;ment, que le "
+"logiciel soit libre signifie que les utilisateurs poss&egrave;dent quatre "
+"libert&eacute;s essentielles : ils sont libres d'ex&eacute;cuter le "
+"logiciel, libres d'&eacute;tudier son code source et de le modifier comme "
+"ils le souhaitent, libres d'en redistribuer des copies, et libres de publier "
+"ces versions modifi&eacute;es. Le logiciel libre fait partie de la "
+"connaissance humaine."
+
+#. type: Content of: <p>
+msgid ""
+"Increasing the use of free software makes society more capable.  Free "
+"software can be freely used, understood, maintained and adapted by local "
+"people anywhere in the world.  This is true development."
+msgstr ""
+"Augmenter l'utilisation du logiciel libre rend la soci&eacute;t&eacute; plus "
+"comp&eacute;tente. Le logiciel libre peut &ecirc;tre utilis&eacute;, "
+"compris, maintenu et adapt&eacute; n'importe o&ugrave; dans le monde par "
+"n'importe qui. Ceci constitue un vrai d&eacute;veloppement."
+
+#. type: Content of: <p>
+msgid ""
+"By contrast, increasing use of proprietary software means deepening "
+"society's dependency on a few corporations in rich countries.  Proprietary "
+"software is secret technology, which local people are forbidden to "
+"understand, forbidden to maintain, forbidden to adapt, and forbidden to "
+"extend.  It can be used only under the direct control of a single "
+"corporation, or else illegally.  Dependence on proprietary software is not "
+"development, it is electronic colonization."
+msgstr ""
+"&Agrave; l'inverse, augmenter l'utilisation de logiciel privateur signifie "
+"accro&icirc;tre la d&eacute;pendance de la soci&eacute;t&eacute; &agrave; "
+"quelques compagnies des pays riches. Le logiciel privateur est une "
+"technologie secr&ecirc;te, que les gens n'ont pas le droit de comprendre, ni "
+"de maintenir, ni d'adapter, ni de faire &eacute;voluer. Il peut uniquement "
+"&ecirc;tre sous le contr&ocirc;le d'une seule compagnie, sous peine "
+"d'ill&eacute;galit&eacute;. La d&eacute;pendance au logiciel privateur n'est "
+"pas le d&eacute;veloppement, c'est la colonisation &eacute;lectronique."
+
+#. type: Content of: <p>
+msgid ""
+"For more information on free software and the popular GNU/Linux operating "
+"system, see www.gnu.org."
+msgstr ""
+"Pour plus d'information sur le logiciel libre et les syst&egrave;mes GNU/"
+"Linux populaires, allez sur www.gnu.org."
+
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't have notes.
+#. type: Content of: <div>
+msgid "*GNUN-SLOT: TRANSLATOR'S NOTES*"
+msgstr ""
+"<hr /><b>Note de traduction</b>\n"
+"<ol><li id=\"TransNote1\">Autre traduction de <cite>proprietary</cite> : "
+"propri&eacute;taire. <a href=\"#TransNote1-rev\" class=\"nounderline"
+"\">&#8593;</a></li></ol>"
+
+#. type: Content of: <div><div><p>
+msgid ""
+"Please send general FSF &amp; GNU inquiries to <a href=\"mailto:gnu@gnu.org"
+"\">&lt;gnu@gnu.org&gt;</a>.  There are also <a href=\"/contact/\">other ways "
+"to contact</a> the FSF.  Broken links and other corrections or suggestions "
+"can be sent to <a href=\"mailto:webmasters@gnu.org\">&lt;webmasters@gnu."
+"org&gt;</a>."
+msgstr ""
+"Veuillez envoyer les requ&ecirc;tes concernant la FSF et GNU &agrave; <a "
+"href=\"gnu@gnu.org\">&lt;gnu@gnu.org&gt;</a>. Il existe aussi <a href="
+"\"contact\">d'autres moyens de contacter</a> la FSF. Les liens orphelins et "
+"autres corrections ou suggestions peuvent &ecirc;tre signal&eacute;s "
+"&agrave; <a href=\"webmasters@gnu.org\">&lt;webmasters@gnu.org&gt;</a>."
+
+#
+#
+#
+#.  TRANSLATORS: Ignore the original text in this paragraph,
+#.         replace it with the translation of these two:
+#.         We work hard and do our best to provide accurate, good quality
+#.         translations.  However, we are not exempt from imperfection.
+#.         Please send your comments and general suggestions in this regard
+#.         to <a href="mailto:web-translators@gnu.org">
+#.         &lt;web-translators@gnu.org&gt;</a>.</p>
+#.         <p>For information on coordinating and submitting translations of
+#.         our web pages, see <a
+#.         href="/server/standards/README.translations.html">Translations
+#.         README</a>. 
+#. type: Content of: <div><div><p>
+msgid ""
+"Please see the <a href=\"/server/standards/README.translations.html"
+"\">Translations README</a> for information on coordinating and submitting "
+"translations of this article."
+msgstr ""
+"Nous faisons le maximum pour proposer des traductions fid&egrave;les et de "
+"bonne qualit&eacute;, mais nous ne sommes pas parfaits. Merci d'adresser vos "
+"commentaires sur cette page, ainsi que vos suggestions d'ordre g&eacute;"
+"n&eacute;ral sur les traductions, &agrave; <a href=\"web-translators@gnu.org"
+"\">&lt;web-translators@gnu.org&gt;</a>.\n"
+"<p>Pour tout renseignement sur la coordination et la soumission des "
+"traductions de nos pages web, reportez-vous au guide de traduction.</p>"
+
+#. type: Content of: <div><p>
+msgid "Copyright 2005 Richard Stallman"
+msgstr "Copyright 2005 Richard Stallman"
+
+#. type: Content of: <div><p>
+msgid ""
+"This page is licensed under a <a rel=\"license\" href=\"http://"
+"creativecommons.org/licenses/by-nd/4.0/\">Creative Commons Attribution-"
+"NoDerivatives 4.0 International License</a>."
+msgstr ""
+"Cette page peut &ecirc;tre utilis&eacute;e suivant les conditions de la "
+"licence <a href=\"http://creativecommons.org/licenses/by-nd/4.0/\">Creative "
+"Commons attribution, pas de modification, 4.0 internationale (CC BY-ND 4.0)</"
+"a>."
+
+#. TRANSLATORS: Use space (SPC) as msgstr if you don't want credits.
+#. type: Content of: <div><div>
+msgid "*GNUN-SLOT: TRANSLATOR'S CREDITS*"
+msgstr ""
+"Traduction et r&eacute;vision : <a href=\"mailto:trad-gnu@april.org\">&lt;"
+"trad-gnu@april.org&gt;</a>"
+
+#.  timestamp start 
+#. type: Content of: <div><p>
+msgid "Updated:"
+msgstr "Derni&egrave;re mise &agrave; jour :"
