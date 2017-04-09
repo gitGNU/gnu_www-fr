@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: for-windows.html\n"
-"POT-Creation-Date: 2016-09-25 07:55+0000\n"
-"PO-Revision-Date: 2016-09-25 11:19+0200\n"
+"POT-Creation-Date: 2017-04-08 19:56+0000\n"
+"PO-Revision-Date: 2017-04-09 22:14+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -248,6 +248,14 @@ msgstr "<a href=\"#LibreOffice\">LibreOffice</a>"
 #. type: Content of: <table><tbody><tr><td>
 msgid "Microsoft Office"
 msgstr "Microsoft Office"
+
+#. type: Content of: <table><tbody><tr><td>
+msgid "<a href=\"#Evince\">Evince</a>"
+msgstr "<a href=\"#Evince\">Evince</a>"
+
+#. type: Content of: <table><tbody><tr><td>
+msgid "Adobe Reader, Reader (Windows 8), Nitro PDF Reader"
+msgstr "Adobe Reader, Reader (Windows 8), Nitro PDF Reader"
 
 #. type: Content of: <table><tbody><tr><td>
 msgid "Publishing"
@@ -590,6 +598,18 @@ msgstr ""
 "les formats de fichier les plus répandus."
 
 #. type: Content of: <dl><dt>
+msgid "<a href=\"https://wiki.gnome.org/Apps/Evince/Downloads\"> Evince</a>"
+msgstr "<a href=\"https://wiki.gnome.org/Apps/Evince/Downloads\">Evince</a>"
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"Evince is a document viewer for multiple formats, including PDF, Postscript, "
+"and DVI."
+msgstr ""
+"Evince est un visualisateur pour plusieurs formats de documents, dont le "
+"PDF, le PostScript et le DVI."
+
+#. type: Content of: <dl><dt>
 msgid "<a href=\"http://www.scribus.net/\">Scribus</a>"
 msgstr "<a href=\"http://www.scribus.net/\">Scribus</a>"
 
@@ -689,11 +709,11 @@ msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"Copyright &copy; 2004, 2006, 2007, 2008, 2009, 2011, 2012, 2014, 2015, 2016 "
-"Free Software Foundation, Inc."
+"Copyright &copy; 2004, 2006, 2007, 2008, 2009, 2011, 2012, 2014, 2015, 2016, "
+"2017 Free Software Foundation, Inc."
 msgstr ""
-"Copyright &copy; 2004, 2006, 2007, 2008, 2009, 2011, 2012, 2014, 2015, 2016 "
-"Free Software Foundation, Inc."
+"Copyright &copy; 2004, 2006, 2007, 2008, 2009, 2011, 2012, 2014, 2015, 2016, "
+"2017 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""
