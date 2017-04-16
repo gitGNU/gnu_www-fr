@@ -2,14 +2,15 @@
 # Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the original article.
 # Thérèse Godefroy <godef.th AT free.fr>, 2013, 2014, 2015.
+# Félicien Pillot <felicien AT gnu.org>, 2017.
 # Sébastien Poher <sbphr @T volted.net>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-sabotage.html\n"
-"POT-Creation-Date: 2017-03-21 01:56+0000\n"
-"PO-Revision-Date: 2017-03-21 10:51+0100\n"
-"Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
+"POT-Creation-Date: 2017-04-16 15:25+0000\n"
+"PO-Revision-Date: 2017-04-16 18:24+0200\n"
+"Last-Translator: Félicien Pillot <felicien AT gnu.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -56,6 +57,58 @@ msgid ""
 msgstr ""
 "Voici des exemples de logiciels privateurs qui ont des caractéristiques "
 "encore pires qu'une porte dérobée."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"Microsoft <a href=\"https://arstechnica.com/information-technology/2017/04/"
+"new-processors-are-now-blocked-from-receiving-updates-on-old-windows/\"> has "
+"dropped support for Windows 7 and 8 on recent processors</a> in a big hurry."
+msgstr "Microsoft <a href=\"https://arstechnica.com/information-technology/2017/04/new-processors-are-now-blocked-from-receiving-updates-on-old-windows/\">a hâtivement abandonné le support de Windows 7 et 8 sur les processeurs les plus récents</a>."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"It makes no difference what legitimate reasons Microsoft might have for not "
+"doing work to support them. If it doesn't want to do this work, it should "
+"let users do the work."
+msgstr "Peu importe les raisons qui ont poussé Microsoft à ne plus fournir d'effort pour les supporter. Même s'ils ne veulent plus travailler dessus, ils devraient permettre aux utilisateurs de le faire."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"Anova sabotaged users' cooking devices with a downgrade that tethered them "
+"to a remote server. <a href=\"https://consumerist.com/2017/04/12/anova-ticks-"
+"off-customers-by-requiring-mandatory-accounts-to-cook-food/"
+"#more-10275062\">Unless users create an account on Anova's servers, their "
+"cookers won't function.</a>"
+msgstr ""
+"Annova a saboté les assistants de cuisine de ses utilisateurs avec une mise "
+"à jour régressive qui les a rendus dépendants d'un serveur distant. <a href="
+"\"https://consumerist.com/2017/04/12/anova-ticks-off-customers-by-requiring-"
+"mandatory-accounts-to-cook-food/#more-10275062\">À moins que l'utilisateur "
+"ne crée un compte sur les serveurs d'Annova, son assistant cesse de "
+"fonctionner</a>."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"The iPhone 7 contains DRM specifically designed to <a href=\"https://"
+"motherboard.vice.com/en_us/article/iphone-7-home-button-unreplaceable-repair-"
+"software-lock\"> brick it if an &ldquo;unauthorized&rdquo; repair shop fixes "
+"it</a>.  &ldquo;Unauthorized&rdquo; essentially means anyone besides Apple."
+msgstr ""
+"L'iPhone 7 contient un DRM qui est conçu spécifiquement pour <a href="
+"\"https://motherboard.vice.com/en_us/article/iphone-7-home-button-"
+"unreplaceable-repair-software-lock\">le mettre hors service si un atelier "
+"« non autorisé » le répare</a>, ce qui veut dire à peu près tout le monde en "
+"dehors d'Apple."
+
+#. type: Content of: <ul><li><p>
+msgid ""
+"The article uses the term &ldquo;lock&rdquo; to describe the DRM, but we "
+"prefer to use the term <a href=\"https://gnu.org/philosophy/words-to-avoid."
+"html#DigitalLocks\"> digital handcuffs</a>."
+msgstr ""
+"Cet article parle de « verrou » pour décrire le DRM, mais nous préférons "
+"utiliser le terme <a href=\"https://gnu.org/philosophy/words-to-avoid."
+"html#DigitalLocks\">menottes numériques</a>."
 
 #. type: Content of: <ul><li><p>
 msgid ""
