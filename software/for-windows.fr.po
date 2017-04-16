@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: for-windows.html\n"
-"POT-Creation-Date: 2017-04-08 19:56+0000\n"
-"PO-Revision-Date: 2017-04-09 22:14+0200\n"
+"POT-Creation-Date: 2017-04-13 21:26+0000\n"
+"PO-Revision-Date: 2017-04-14 11:51+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -216,6 +216,30 @@ msgstr "BitTorrent"
 #. type: Content of: <table><tbody><tr><td>
 msgid "<a href=\"#Tribler\">Tribler</a>"
 msgstr "<a href=\"#Tribler\">Tribler</a>"
+
+#. type: Content of: <table><tbody><tr><td>
+msgid "Live USB Systems"
+msgstr "Systèmes USB autonomes"
+
+#. type: Content of: <table><tbody><tr><td>
+msgid "<a href=\"#Rufus\">Rufus</a>"
+msgstr "<a href=\"#Rufus\">Rufus</a>"
+
+#. type: Content of: <table><tbody><tr><td>
+msgid "Windows USB/DVD Download Tool, WinToFlash, Windows USB Installer Maker"
+msgstr "Windows USB/DVD Download Tool, WinToFlash, Windows USB Installer Maker"
+
+#. type: Content of: <table><tbody><tr><td>
+msgid "<a href=\"#UNetbootin\">UNetbootin</a>"
+msgstr "<a href=\"#UNetbootin\">UNetbootin</a>"
+
+#. type: Content of: <table><tbody><tr><td>
+msgid ""
+"Disk Utility (Mac OS X), Windows USB/DVD Download Tool, WinToFlash, Windows "
+"USB Installer Maker"
+msgstr ""
+"Disk Utility (Mac OS X), Windows USB/DVD Download Tool, WinToFlash, Windows "
+"USB Installer Maker"
 
 #. type: Content of: <table><tbody><tr><td>
 msgid "Multimedia"
@@ -549,6 +573,37 @@ msgstr ""
 "apprécier et partager vidéos, musiques, images et autres. Elle implémente le "
 "téléchargement anonyme avec chiffrement fort, le routage en oignon et "
 "l'ensemencement furtif <cite>[hidden seeding]</cite>."
+
+#. type: Content of: <dl><dt>
+msgid "<a href=\"https://rufus.akeo.ie/\">Rufus</a>"
+msgstr "<a href=\"https://rufus.akeo.ie/\">Rufus</a>"
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"Rufus is a program that formats and creates bootable USB flash drives. "
+"Usually, Rufus is used to burn ISO files (images of an operating system) "
+"onto USB sticks in order to install that operating system.\tIt currently "
+"works only on Windows."
+msgstr ""
+"Rufus sert à formater ou créer des clés USB amorçables. Son principal usage "
+"est le gravage d'images ISO (images d'un système d'exploitation) sur clé USB "
+"en vue d'une installation du système. Ce programme n'est actuellement "
+"disponible que pour Windows."
+
+#. type: Content of: <dl><dt>
+msgid "<a href=\"https://unetbootin.github.io/\">UNetbootin</a>"
+msgstr "<a href=\"https://unetbootin.github.io/\">UNetbootin</a>"
+
+#. type: Content of: <dl><dd><p>
+msgid ""
+"Similar to Rufus, UNetbootin is a program that allows you to create bootable "
+"USB flash drives by burning an ISO (operating system image)  onto a USB "
+"stick. UNetbootin is cross-platform, meaning you can use it on all major "
+"platforms (Windows, GNU/Linux, Mac OS X)."
+msgstr ""
+"Comme Rufus, UNetbootin permet de créer des clés USB amorçables en gravant "
+"une ISO (image de système d'exploitation). UNetbootin est multiplateforme, "
+"ce qui veut dire qu'on peut l'utiliser sur Windows, GNU/Linux et MacOS X."
 
 #. type: Content of: <dl><dt>
 msgid "<a href=\"http://directory.fsf.org/blender.html\">Blender 3D</a>"

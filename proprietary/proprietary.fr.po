@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary.html\n"
-"POT-Creation-Date: 2017-03-18 12:56+0000\n"
-"PO-Revision-Date: 2017-03-18 14:33+0100\n"
+"POT-Creation-Date: 2017-04-15 06:26+0000\n"
+"PO-Revision-Date: 2017-04-15 13:50+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -93,11 +93,11 @@ msgstr ""
 
 #. type: Content of: <p>
 msgid ""
-"As of January, 2017, the files in this directory list around 260 instances "
-"of malicious functionalities, but there are surely thousands more we don't "
-"know about."
+"As of April, 2017, the files in this directory list around 300 instances of "
+"malicious functionalities, but there are surely thousands more we don't know "
+"about."
 msgstr ""
-"En janvier 2017, les fichiers de ce répertoire dénombrent environ 260 cas de "
+"En avril, les fichiers de ce répertoire dénombrent environ 300 cas de "
 "fonctionnalités malveillante, mais il y en a sûrement des milliers d'autres "
 "dont nous ne savons rien."
 
@@ -112,6 +112,10 @@ msgstr "<a href=\"/proprietary/malware-apple.html\">Apple</a>"
 #. type: Content of: <div><div><ul><li>
 msgid "<a href=\"/proprietary/malware-microsoft.html\">Microsoft Malware</a>"
 msgstr "<a href=\"/proprietary/malware-microsoft.html\">Microsoft</a>"
+
+#. type: Content of: <div><div><ul><li>
+msgid "<a href=\"/proprietary/malware-google.html\">Google Malware</a>"
+msgstr "<a href=\"/proprietary/malware-apple.html\">Google</a>"
 
 #. type: Content of: <div><div><ul><li>
 msgid "<a href=\"/proprietary/malware-adobe.html\">Adobe Malware</a>"
