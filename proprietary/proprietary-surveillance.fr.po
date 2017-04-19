@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: proprietary-surveillance.html\n"
-"POT-Creation-Date: 2017-04-18 14:25+0000\n"
+"POT-Creation-Date: 2017-04-19 07:26+0000\n"
 "PO-Revision-Date: 2017-04-18 18:27+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
@@ -2383,14 +2383,6 @@ msgstr ""
 "et transmet le signal audio à ses serveurs</a>."
 
 #. type: Content of: <ul><li><p>
-msgid "Google Chromium, in a proprietary module, does the same thing."
-msgstr "Google Chromium  fait la même chose au moyen d'un module privateur."
-
-#. type: Content of: <ul><li><p>
-msgid "Chromium is not free software."
-msgstr "Chromium n'est pas un logiciel libre."
-
-#. type: Content of: <ul><li><p>
 msgid ""
 "Google Chrome makes it easy for an extension to do <a href=\"https://labs."
 "detectify.com/2015/07/28/how-i-disabled-your-chrome-security-extensions/"
@@ -2591,3 +2583,9 @@ msgstr ""
 #. type: Content of: <div><p>
 msgid "Updated:"
 msgstr "Dernière mise à jour :"
+
+#~ msgid "Google Chromium, in a proprietary module, does the same thing."
+#~ msgstr "Google Chromium  fait la même chose au moyen d'un module privateur."
+
+#~ msgid "Chromium is not free software."
+#~ msgstr "Chromium n'est pas un logiciel libre."
