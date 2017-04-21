@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnu-linux-faq.html\n"
-"POT-Creation-Date: 2016-08-18 20:25+0000\n"
-"PO-Revision-Date: 2016-08-19 08:15+0200\n"
+"POT-Creation-Date: 2017-04-21 03:55+0000\n"
+"PO-Revision-Date: 2017-04-21 10:27+0200\n"
 "Last-Translator: Sogal <sogal AT member.fsf.org>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -55,16 +55,24 @@ msgstr ""
 
 #. type: Content of: <ul><li>
 msgid ""
-"<a href=\"#why\" id=\"TOCwhy\">Why do you call it GNU/Linux and not Linux?</"
-"a>"
+"<a href=\"#why\" id=\"TOCwhy\">Why do you call the system we use GNU/Linux "
+"and not Linux?</a>"
 msgstr ""
-"<a href=\"#why\" id=\"TOCwhy\">Pourquoi l'appelez-vous GNU/Linux et pas "
-"Linux ?</a>"
+"<a href=\"#why\" id=\"TOCwhy\">Pourquoi appelez-vous le système que nous "
+"utilisons GNU/Linux et pas Linux ?</a>"
 
 #. type: Content of: <ul><li>
 msgid "<a href=\"#whycare\" id=\"TOCwhycare\">Why is the name important?</a>"
 msgstr ""
 "<a href=\"#whycare\" id=\"TOCwhycare\">Pourquoi le nom est-il important ?</a>"
+
+#. type: Content of: <ul><li>
+msgid ""
+"<a href=\"#what\" id=\"TOCwhat\">What is the real relationship between GNU "
+"and Linux</a>"
+msgstr ""
+"<a href=\"#what\" id=\"TOCwhat\">Quelle est la relation exacte entre GNU et "
+"Linux ?</a>"
 
 #. type: Content of: <ul><li>
 msgid ""
@@ -641,11 +649,11 @@ msgstr ""
 
 #. type: Content of: <dl><dt>
 msgid ""
-"Why do you call it GNU/Linux and not Linux? <span class=\"anchor-reference-id"
-"\">(<a href=\"#why\">#why</a>)</span>"
+"Why do you call the system we use GNU/Linux and not Linux? <span class="
+"\"anchor-reference-id\">(<a href=\"#why\">#why</a>)</span>"
 msgstr ""
-"Pourquoi l'appelez-vous GNU/Linux et pas Linux ? <span class=\"anchor-"
-"reference-id\">(<a href=\"#why\">#why</a>)</span>"
+"Pourquoi appelez-vous le système que nous utilisons GNU/Linux et pas Linux ? "
+"<span class=\"anchor-reference-id\">(<a href=\"#why\">#why</a>)</span>"
 
 #. type: Content of: <dl><dd>
 msgid ""
@@ -716,6 +724,25 @@ msgstr ""
 "Appeler le système GNU/Linux reconnaît le rôle que notre idéalisme a joué "
 "dans la construction de notre communauté, et <a href=\"/gnu/why-gnu-linux."
 "html\">aide le public à reconnaître l'importance pratique de ces idéaux</a>."
+
+#. type: Content of: <dl><dt>
+msgid ""
+"What is the real relationship between GNU and Linux? <span class=\"anchor-"
+"reference-id\">(<a href=\"#what\">#what</a>)</span>"
+msgstr ""
+"Quelle est la relation exacte entre GNU et Linux ? <span class=\"anchor-"
+"reference-id\">(<a href=\"#what\">#what</a>)</span>"
+
+#. type: Content of: <dl><dd>
+msgid ""
+"The GNU operating system and the Linux kernel are separate software projects "
+"that do complementary jobs.  Typically they are packaged in a <a href=\"/"
+"distros/distros.html\">GNU/Linux distribution</a>, and used together."
+msgstr ""
+"Le système d'exploitation GNU et le noyau Linux sont deux projets logiciels "
+"différents qui se complètent mutuellement. ils sont généralement empaquetés "
+"dans une <a href=\"/distros/distros.html\">distribution GNU/Linux</a> et "
+"utilisés ensemble."
 
 #. type: Content of: <dl><dt>
 msgid ""
@@ -3365,11 +3392,11 @@ msgstr ""
 
 #. type: Content of: <div><p>
 msgid ""
-"Copyright &copy; 2001, 2006, 2007, 2008, 2010, 2011, 2013, 2014, 2015, 2016 "
-"Free Software Foundation, Inc."
+"Copyright &copy; 2001, 2006, 2007, 2008, 2010, 2011, 2013, 2014, 2015, 2016, "
+"2017 Free Software Foundation, Inc."
 msgstr ""
-"Copyright &copy; 2001, 2006, 2007, 2008, 2010, 2011, 2013, 2014, 2015, 2016 "
-"Free Software Foundation, Inc."
+"Copyright &copy; 2001, 2006, 2007, 2008, 2010, 2011, 2013, 2014, 2015, 2016, "
+"2017 Free Software Foundation, Inc."
 
 #. type: Content of: <div><p>
 msgid ""

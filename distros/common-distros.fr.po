@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: common-distros.html\n"
-"POT-Creation-Date: 2017-01-02 17:56+0000\n"
-"PO-Revision-Date: 2017-01-03 12:10+0100\n"
+"POT-Creation-Date: 2017-04-21 02:26+0000\n"
+"PO-Revision-Date: 2017-04-21 10:27+0200\n"
 "Last-Translator: Thérèse Godefroy <godef.th AT free.fr>\n"
 "Language-Team: French <trad-gnu@april.org>\n"
 "Language: fr\n"
@@ -232,6 +232,12 @@ msgstr ""
 "et placés dans le dépôt non libre. Néanmoins, le problème n'est pas "
 "entièrement résolu : dans certains cas, l'installateur recommande ces "
 "micrologiciels non libres pour les périphériques de la machine."
+
+#. type: Content of: <p>
+msgid "Debian's wiki includes pages about installng nonfree firmware."
+msgstr ""
+"Il y a dans le wiki de Debian des pages expliquant comment installer des "
+"logiciels privateurs."
 
 #. type: Content of: <h3>
 msgid "Fedora"
